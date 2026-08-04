@@ -129,6 +129,32 @@ Powered byApple Music
   ]);
 });
 
+test('parses title lines with apostrophe before the album quote', () => {
+  const rows = parseRollingStoneText(`169
+Bob Marley and the Wailers’ ‘Exodus’
+Bob Marley & The Wailers Exodus HIGH RESOLUTION COVER ART
+
+Island, 1977
+`);
+
+  assert.deepEqual(rows, [
+    { rank: 169, artist: 'Bob Marley and the Wailers', album: 'Exodus', label: 'Island', year: 1977 }
+  ]);
+});
+
+test('skips cover-art artifact lines before label metadata', () => {
+  const rows = parseRollingStoneText(`35
+David Bowie, ‘The Rise and Fall of Ziggy Stardust and the Spiders From Mars’
+David Bowie The Rise and Fall of Ziggy Stardust and the Spiders From Mars HIGH RESOLUTION COVER ART
+
+RCA, 1972
+`);
+
+  assert.deepEqual(rows, [
+    { rank: 35, artist: 'David Bowie', album: 'The Rise and Fall of Ziggy Stardust and the Spiders From Mars', label: 'RCA', year: 1972 }
+  ]);
+});
+
 test('keeps label and year null when the pasted row has no label line', () => {
   const rows = parseRollingStoneText(`458
 Elton John, ‘Tumbleweed Connection’

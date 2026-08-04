@@ -8,6 +8,7 @@
     "import:rolling-stone": "node scripts/import-rolling-stone-csv.js data/imports/rolling-stone-top-500.csv data/collection.json --limit 20",
     "enrich:discogs": "node scripts/enrich-discogs.js data/collection.json data/collection.discogs.json",
     "parse:rolling-stone-html": "node scripts/parse-rolling-stone-html.js",
-    "parse:rolling-stone-text": "node scripts/parse-rolling-stone-text.js"
+    "parse:rolling-stone-text": "node scripts/parse-rolling-stone-text.js",
+    "build:rolling-stone-comparison": "node scripts/build-rolling-stone-comparison.js"
   }
 }

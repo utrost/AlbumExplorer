@@ -117,6 +117,7 @@ function firstMetadataLine(lines, start, end, titleLine) {
     }
     if (/^(?:19|20)\d{2}$/.test(line)) continue;
     if (parseLabelYear(line).year) return line;
+    if (/HIGH RESOLUTION COVER ART$/i.test(line)) continue;
     if (/^\d{1,3}$/.test(line)) return null;
     // Stop once prose starts; metadata line should appear immediately before description.
     if (/[.!?]$/.test(line) || line.length > 90) return null;
@@ -126,6 +127,9 @@ function firstMetadataLine(lines, start, end, titleLine) {
 
 function splitArtistAlbum(title) {
   const normalized = title.trim();
+  const apostropheBeforeAlbumQuote = normalized.match(/^(.*?)['’]\s*[‘'](.+?)[’']\s*$/);
+  if (apostropheBeforeAlbumQuote) return { artist: apostropheBeforeAlbumQuote[1].trim(), album: apostropheBeforeAlbumQuote[2].trim() };
+
   const quoted = normalized.match(/^(.*),\s*[‘’'](.+?)[’']\s*$/);
   if (quoted) return { artist: quoted[1].trim(), album: quoted[2].trim() };
 

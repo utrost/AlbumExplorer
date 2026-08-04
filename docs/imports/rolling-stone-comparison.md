@@ -2,6 +2,8 @@
 
 Status: generated comparison dataset across parsed Rolling Stone list imports  
 Generated file: `data/rolling-stone-comparison.json`  
+Approved aliases: `data/review/rolling-stone-album-aliases.json`  
+Duplicate review candidates: `data/review/rolling-stone-possible-duplicates.json`  
 Builder: `scripts/build-rolling-stone-comparison.js`
 
 This dataset merges the parsed Rolling Stone list imports into one album-centered comparison table. Each row represents one normalized album identity and records the album's rank in any edition where it appears.
@@ -52,7 +54,10 @@ Negative deltas mean the album moved upward toward rank 1. Positive deltas mean 
 ## Generation result
 
 ```text
-comparison albums=789
+comparison albums=769
+approved aliases loaded=20
+aliases applied=23
+possible duplicate candidates=9
 2003 ranked albums=500
 2012 ranked albums=500
 2020 ranked albums=500
@@ -62,21 +67,23 @@ comparison albums=789
 Coverage by number of editions:
 
 ```text
-1 edition: 158 albums
-2 editions: 316 albums
-3 editions: 50 albums
-4 editions: 265 albums
+1 edition: 131 albums
+2 editions: 320 albums
+3 editions: 43 albums
+4 editions: 275 albums
 ```
 
 ## Matching rules
 
-The first pass uses conservative deterministic matching:
+The first pass uses conservative deterministic matching plus approved aliases:
 
 - normalize curly quotes and punctuation
 - normalize accents
 - normalize leading `The` in artist names
 - include release year in the identity when available
 - keep rows with missing release year rather than dropping the rank appearance
+- apply only aliases explicitly approved in `data/review/rolling-stone-album-aliases.json`
+- generate unapproved candidates in `data/review/rolling-stone-possible-duplicates.json`
 
 This intentionally avoids fuzzy matching for now. Ambiguous near-matches should be reviewed explicitly before being merged.
 

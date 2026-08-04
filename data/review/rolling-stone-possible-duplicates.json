@@ -1,0 +1,348 @@
+{
+  "schemaVersion": "0.1.0",
+  "status": "generated-review-candidates",
+  "generatedAt": null,
+  "sourceImportPaths": [
+    "data/imports/rolling-stone-2003.parsed.json",
+    "data/imports/rolling-stone-2012.parsed.json",
+    "data/imports/rolling-stone-2020.parsed.json",
+    "data/imports/rolling-stone-2024.parsed.json"
+  ],
+  "aliasPath": "data/review/rolling-stone-album-aliases.json",
+  "count": 9,
+  "candidates": [
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 1,
+      "ranks": {
+        "2003": 252,
+        "2012": 252
+      },
+      "identities": [
+        {
+          "key": "jay-z-the-blueprint",
+          "artist": "Jay-Z",
+          "album": "The Blueprint",
+          "year": null,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 252
+            }
+          ]
+        },
+        {
+          "key": "jay-z-the-blueprint-2001",
+          "artist": "Jay-Z",
+          "album": "The Blueprint",
+          "year": 2001,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 252
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 1,
+      "ranks": {
+        "2003": 379,
+        "2012": 379
+      },
+      "identities": [
+        {
+          "key": "tlc-crazysexycool",
+          "artist": "TLC",
+          "album": "CrazySexyCool",
+          "year": null,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 379
+            }
+          ]
+        },
+        {
+          "key": "tlc-crazysexycool-1994",
+          "artist": "TLC",
+          "album": "CrazySexyCool",
+          "year": 1994,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 379
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 1,
+      "ranks": {
+        "2003": 458,
+        "2012": 458
+      },
+      "identities": [
+        {
+          "key": "elton-john-tumbleweed-connection",
+          "artist": "Elton John",
+          "album": "Tumbleweed Connection",
+          "year": null,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 458
+            }
+          ]
+        },
+        {
+          "key": "elton-john-tumbleweed-connection-1970",
+          "artist": "Elton John",
+          "album": "Tumbleweed Connection",
+          "year": 1970,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 458
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 0.9743589743589743,
+      "ranks": {
+        "2003": 84,
+        "2012": 84
+      },
+      "identities": [
+        {
+          "key": "aretha-franklin-i-never-loved-a-man-the-way-i-loved-you-1967",
+          "artist": "Aretha Franklin",
+          "album": "I Never Loved a Man the Way I Loved You",
+          "year": 1967,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 84
+            }
+          ]
+        },
+        {
+          "key": "aretha-franklin-i-never-loved-a-man-the-way-i-love-you-1967",
+          "artist": "Aretha Franklin",
+          "album": "I Never Loved A Man The Way I Love You",
+          "year": 1967,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 84
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 0.95,
+      "ranks": {
+        "2003": 414,
+        "2012": 414
+      },
+      "identities": [
+        {
+          "key": "go-gos-beauty-and-the-beast-1981",
+          "artist": "The Go- Go's",
+          "album": "Beauty and The Beast",
+          "year": 1981,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 414
+            }
+          ]
+        },
+        {
+          "key": "go-gos-beauty-and-the-beat-1981",
+          "artist": "Go-Go's",
+          "album": "Beauty And The Beat",
+          "year": 1981,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 414
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 0.9333333333333333,
+      "ranks": {
+        "2003": 219,
+        "2012": 219
+      },
+      "identities": [
+        {
+          "key": "beastie-boys-license-to-ill-1986",
+          "artist": "Beastie Boys",
+          "album": "License to Ill",
+          "year": 1986,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 219
+            }
+          ]
+        },
+        {
+          "key": "beastie-boys-licensed-to-ill-1986",
+          "artist": "Beastie Boys",
+          "album": "Licensed To Ill",
+          "year": 1986,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 219
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 0.9166666666666666,
+      "ranks": {
+        "2003": 24,
+        "2012": 24
+      },
+      "identities": [
+        {
+          "key": "stevie-wonder-innervisons-1973",
+          "artist": "Stevie Wonder",
+          "album": "Innervisons",
+          "year": 1973,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 24
+            }
+          ]
+        },
+        {
+          "key": "stevie-wonder-innervisions-1973",
+          "artist": "Stevie Wonder",
+          "album": "Innervisions",
+          "year": 1973,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 0.9166666666666666,
+      "ranks": {
+        "2003": 269,
+        "2012": 269
+      },
+      "identities": [
+        {
+          "key": "jesus-and-mary-chain-psychocandy-1985",
+          "artist": "The Jesus and Mary Chain",
+          "album": "Psychocandy",
+          "year": 1985,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 269
+            }
+          ]
+        },
+        {
+          "key": "jesus-and-mary-chain-psycho-candy-1985",
+          "artist": "The Jesus And Mary Chain",
+          "album": "Psycho Candy",
+          "year": 1985,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 269
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "same-rank-similar-title",
+      "status": "needs-review",
+      "score": 0.8888888888888888,
+      "ranks": {
+        "2003": 72,
+        "2012": 72
+      },
+      "identities": [
+        {
+          "key": "curtis-mayfield-superfly-1972",
+          "artist": "Curtis Mayfield",
+          "album": "Superfly",
+          "year": 1972,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2003",
+              "editionYear": 2003,
+              "rank": 72
+            }
+          ]
+        },
+        {
+          "key": "curtis-mayfield-super-fly-1972",
+          "artist": "Curtis Mayfield",
+          "album": "Super Fly",
+          "year": 1972,
+          "appearances": [
+            {
+              "editionId": "list-rolling-stone-2012",
+              "editionYear": 2012,
+              "rank": 72
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

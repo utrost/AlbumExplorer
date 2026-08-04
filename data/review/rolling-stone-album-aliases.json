@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "0.1.0",
+  "status": "curator-reviewed-seed",
+  "description": "Approved deterministic aliases for Rolling Stone list comparison imports. These merge obvious spelling, punctuation, credit, and title variants without changing the source import files.",
+  "aliases": [
+    {
+      "id": "alias-rolling-stones-exile-on-main-street-1972",
+      "canonicalArtist": "The Rolling Stones",
+      "canonicalAlbum": "Exile on Main Street",
+      "releaseYear": 1972,
+      "reason": "2020 abbreviated Street as St.; 2024 spells it out.",
+      "variants": [
+        { "artist": "The Rolling Stones", "album": "Exile on Main St.", "year": 1972 }
+      ]
+    },
+    {
+      "id": "alias-velvet-underground-and-nico-1967",
+      "canonicalArtist": "The Velvet Underground",
+      "canonicalAlbum": "The Velvet Underground and Nico",
+      "releaseYear": 1967,
+      "reason": "Artist credit and ampersand differ, but this is the same album.",
+      "variants": [
+        { "artist": "The Velvet Underground & Nico", "album": "The Velvet Underground & Nico", "year": 1967 }
+      ]
+    },
+    {
+      "id": "alias-beatles-white-album-1968",
+      "canonicalArtist": "The Beatles",
+      "canonicalAlbum": "White Album",
+      "releaseYear": 1968,
+      "reason": "2020 uses the formal self-titled album with parenthetical nickname; 2024 uses the nickname.",
+      "variants": [
+        { "artist": "The Beatles", "album": "The Beatles (White Album)", "year": 1968 }
+      ]
+    },
+    {
+      "id": "alias-jimi-hendrix-are-you-experienced-1967",
+      "canonicalArtist": "Jimi Hendrix",
+      "canonicalAlbum": "Are You Experienced",
+      "releaseYear": 1967,
+      "reason": "2020 credits The Jimi Hendrix Experience and includes a question mark.",
+      "variants": [
+        { "artist": "The Jimi Hendrix Experience", "album": "Are You Experienced?", "year": 1967 }
+      ]
+    },
+    {
+      "id": "alias-jimi-hendrix-electric-ladyland-1968",
+      "canonicalArtist": "Jimi Hendrix",
+      "canonicalAlbum": "Electric Ladyland",
+      "releaseYear": 1968,
+      "reason": "2020 credits The Jimi Hendrix Experience; 2024 credits Jimi Hendrix.",
+      "variants": [
+        { "artist": "The Jimi Hendrix Experience", "album": "Electric Ladyland", "year": 1968 }
+      ]
+    },
+    {
+      "id": "alias-alanis-morissette-jagged-little-pill-1995",
+      "canonicalArtist": "Alanis Morissette",
+      "canonicalAlbum": "Jagged Little Pill",
+      "releaseYear": 1995,
+      "reason": "2020 source misspells Morissette.",
+      "variants": [
+        { "artist": "Alanis Morrissette", "album": "Jagged Little Pill", "year": 1995 }
+      ]
+    },
+    {
+      "id": "alias-frank-ocean-blond-2016",
+      "canonicalArtist": "Frank Ocean",
+      "canonicalAlbum": "Blond",
+      "releaseYear": 2016,
+      "reason": "Rolling Stone alternates between Blonde and Blond for the same album.",
+      "variants": [
+        { "artist": "Frank Ocean", "album": "Blonde", "year": 2016 }
+      ]
+    },
+    {
+      "id": "alias-de-la-soul-three-feet-high-and-rising-1989",
+      "canonicalArtist": "De La Soul",
+      "canonicalAlbum": "Three Feet High And Rising",
+      "releaseYear": 1989,
+      "reason": "2020 uses numeral 3; 2024 spells Three.",
+      "variants": [
+        { "artist": "De La Soul", "album": "3 Feet High and Rising", "year": 1989 }
+      ]
+    },
+    {
+      "id": "alias-allman-brothers-at-fillmore-east-1971",
+      "canonicalArtist": "The Allman Brothers",
+      "canonicalAlbum": "At Fillmore East",
+      "releaseYear": 1971,
+      "reason": "2020 includes Band in the artist credit; 2024 shortens it.",
+      "variants": [
+        { "artist": "The Allman Brothers Band", "album": "At Fillmore East", "year": 1971 }
+      ]
+    },
+    {
+      "id": "alias-metallica-black-album-1991",
+      "canonicalArtist": "Metallica",
+      "canonicalAlbum": "Metallica (The Black Album)",
+      "releaseYear": 1991,
+      "reason": "2020 uses only the self-titled name; 2024 includes the common nickname.",
+      "variants": [
+        { "artist": "Metallica", "album": "Metallica", "year": 1991 }
+      ]
+    },
+    {
+      "id": "alias-beatles-hard-days-night-1964",
+      "canonicalArtist": "The Beatles",
+      "canonicalAlbum": "Hard Day's Night",
+      "releaseYear": 1964,
+      "reason": "2020 includes leading article; 2024 omits it.",
+      "variants": [
+        { "artist": "The Beatles", "album": "A Hard Day's Night", "year": 1964 }
+      ]
+    },
+    {
+      "id": "alias-big-star-third-sister-lovers-1978",
+      "canonicalArtist": "Big Star",
+      "canonicalAlbum": "Third/Sister Lovers",
+      "releaseYear": 1978,
+      "reason": "2020 uses 3rd; 2024 spells Third.",
+      "variants": [
+        { "artist": "Big Star", "album": "3rd/Sister Lovers", "year": 1978 }
+      ]
+    },
+    {
+      "id": "alias-talking-heads-more-songs-about-buildings-and-food-1978",
+      "canonicalArtist": "Talking Heads",
+      "canonicalAlbum": "More Songs About Buildings and Food",
+      "releaseYear": 1978,
+      "reason": "2020 has Foods plural; 2024 has Food singular.",
+      "variants": [
+        { "artist": "Talking Heads", "album": "More Songs About Buildings and Foods", "year": 1978 }
+      ]
+    },
+    {
+      "id": "alias-run-dmc-run-dmc-1984",
+      "canonicalArtist": "Run-DMC",
+      "canonicalAlbum": "Run-D.M.C.",
+      "releaseYear": 1984,
+      "reason": "Artist punctuation differs; source years also differ, so preserve the canonical release year from the 2020 source.",
+      "variants": [
+        { "artist": "Run-D.M.C.", "album": "Run-D.M.C.", "year": 1984 },
+        { "artist": "Run-DMC", "album": "Run-D.M.C.", "year": 1983 }
+      ]
+    },
+    {
+      "id": "alias-nuggets-original-artyfacts-1972",
+      "canonicalArtist": "Various Artists",
+      "canonicalAlbum": "Nuggets: Original Artyfacts from the First Psychedelic Era",
+      "releaseYear": 1972,
+      "reason": "2024 shortens Various Artists to Various.",
+      "variants": [
+        { "artist": "Various", "album": "Nuggets: Original Artyfacts from the First Psychedelic Era", "year": 1972 }
+      ]
+    },
+    {
+      "id": "alias-smokey-robinson-going-to-a-go-go-1965",
+      "canonicalArtist": "Smokey Robinson and the Miracles",
+      "canonicalAlbum": "Going to a Go Go",
+      "releaseYear": 1965,
+      "reason": "2020 omits and the Miracles from the artist credit.",
+      "variants": [
+        { "artist": "Smokey Robinson", "album": "Going to a Go Go", "year": 1965 }
+      ]
+    },
+    {
+      "id": "alias-alice-coltrane-journey-in-satchidananda-1971",
+      "canonicalArtist": "Alice Coltrane",
+      "canonicalAlbum": "Journey in Satchidananda",
+      "releaseYear": 1971,
+      "reason": "2024 source misspells Satchidananda.",
+      "variants": [
+        { "artist": "Alice Coltrane", "album": "Journey in Satchidanada", "year": 1971 }
+      ]
+    },
+    {
+      "id": "alias-bon-iver-for-emma-forever-ago-2007",
+      "canonicalArtist": "Bon Iver",
+      "canonicalAlbum": "For Emma, Forever Ago",
+      "releaseYear": 2007,
+      "reason": "2024 source shortens the title and uses a different year.",
+      "variants": [
+        { "artist": "Bon Iver", "album": "For Emma", "year": 2008 }
+      ]
+    },
+    {
+      "id": "alias-laura-nyro-eli-and-thirteenth-confession-1968",
+      "canonicalArtist": "Laura Nyro",
+      "canonicalAlbum": "Eli and the Thirteenth Confession",
+      "releaseYear": 1968,
+      "reason": "2024 uses ampersand and numeral in the title.",
+      "variants": [
+        { "artist": "Laura Nyro", "album": "Eli & the 13th Confession", "year": 1968 }
+      ]
+    },
+    {
+      "id": "alias-rufus-chaka-khan-ask-rufus-1977",
+      "canonicalArtist": "Rufus, Chaka Khan",
+      "canonicalAlbum": "Ask Rufus",
+      "releaseYear": 1977,
+      "reason": "2020 uses ampersand; 2024 uses comma.",
+      "variants": [
+        { "artist": "Rufus & Chaka Khan", "album": "Ask Rufus", "year": 1977 }
+      ]
+    }
+  ]
+}

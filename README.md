@@ -55,6 +55,7 @@ http://127.0.0.1:4173/
 - [Rolling Stone 2020 simple text import notes](docs/imports/rolling-stone-2020-simple-text.md) — parsed full 2020 list source from pipe-delimited rows.
 - [Rolling Stone 2024 full text import notes](docs/imports/rolling-stone-2024-full-text.md) — parsed full 2024 list source and remaining metadata gaps.
 - [Rolling Stone comparison dataset notes](docs/imports/rolling-stone-comparison.md) — generated cross-edition rank comparison across 2003, 2012, 2020, and 2024.
+- [Rolling Stone alias review workflow](docs/imports/rolling-stone-alias-review.md) — approved album aliases and generated duplicate candidates for stable comparison identities.
 
 ## First useful prototype
 

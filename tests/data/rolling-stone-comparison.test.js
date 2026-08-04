@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildRollingStoneComparison } from '../../src/data/rolling-stone-comparison.js';
+import { buildRollingStoneComparison, findRollingStoneDuplicateCandidates } from '../../src/data/rolling-stone-comparison.js';
 
 const imports = [
   {
@@ -55,4 +55,58 @@ test('keeps rank appearances when release year is missing from a source row', ()
   assert.deepEqual(comparison.albums[0].ranks, { '2003': 458 });
   assert.equal(comparison.albums[0].releaseYear, null);
   assert.equal(comparison.albums[0].id, 'album-elton-john-tumbleweed-connection');
+});
+
+test('applies approved album aliases before comparison rows are merged', () => {
+  const comparison = buildRollingStoneComparison([
+    {
+      editionId: 'list-rolling-stone-2020',
+      rows: [{ rank: 79, artist: 'Frank Ocean', album: 'Blonde', year: 2016 }]
+    },
+    {
+      editionId: 'list-rolling-stone-2024',
+      rows: [{ rank: 79, artist: 'Frank Ocean', album: 'Blond', year: 2016 }]
+    }
+  ], {
+    aliases: [
+      {
+        canonicalArtist: 'Frank Ocean',
+        canonicalAlbum: 'Blond',
+        releaseYear: 2016,
+        variants: [
+          { artist: 'Frank Ocean', album: 'Blonde', year: 2016 }
+        ]
+      }
+    ]
+  });
+
+  assert.equal(comparison.albumCount, 1);
+  assert.equal(comparison.albums[0].id, 'album-frank-ocean-blond-2016');
+  assert.equal(comparison.albums[0].album, 'Blond');
+  assert.deepEqual(comparison.albums[0].ranks, { '2020': 79, '2024': 79 });
+  assert.equal(comparison.albums[0].aliasesApplied.length, 1);
+});
+
+test('finds likely duplicate identities for human review without applying them silently', () => {
+  const candidates = findRollingStoneDuplicateCandidates([
+    {
+      editionId: 'list-rolling-stone-2020',
+      rows: [
+        { rank: 79, artist: 'Frank Ocean', album: 'Blonde', year: 2016 },
+        { rank: 48, artist: 'Bob Marley and the Wailers', album: 'Legend', year: 1984 }
+      ]
+    },
+    {
+      editionId: 'list-rolling-stone-2024',
+      rows: [
+        { rank: 79, artist: 'Frank Ocean', album: 'Blond', year: 2016 },
+        { rank: 48, artist: 'Bob Marley and the Wailers', album: 'Exodus', year: 1977 }
+      ]
+    }
+  ]);
+
+  assert.equal(candidates.length, 1);
+  assert.equal(candidates[0].reason, 'same-rank-similar-title');
+  assert.deepEqual(candidates[0].ranks, { '2020': 79, '2024': 79 });
+  assert.deepEqual(candidates[0].identities.map((identity) => identity.album).sort(), ['Blond', 'Blonde']);
 });

@@ -1,0 +1,2002 @@
+{
+  "schemaVersion": "0.1.0",
+  "status": "generated-metadata-candidates",
+  "generatedAt": null,
+  "comparisonPath": "data/rolling-stone-comparison.json",
+  "scope": {
+    "selection": "first 50 comparison albums sorted by latest edition rank",
+    "albumCount": 50
+  },
+  "sourceCandidateInputs": [
+    "rolling-stone-comparison imported labels/years",
+    "data/enrichment/album-metadata-source-candidates.json"
+  ],
+  "overridePath": "data/enrichment/album-metadata-overrides.json",
+  "count": 50,
+  "candidates": [
+    {
+      "albumId": "album-marvin-gaye-whats-going-on-1971",
+      "artist": "Marvin Gaye",
+      "album": "What's Going On",
+      "releaseYear": 1971,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Marvin Gaye",
+        "canonicalTitle": "What's Going On",
+        "releaseYear": 1971,
+        "releaseDate": null,
+        "labels": [
+          "Motown",
+          "Tamla/Motown"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Marvin Gaye",
+          "album": "What's Going On",
+          "releaseYear": 1971,
+          "labels": [
+            "Motown",
+            "Tamla/Motown"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-beach-boys-pet-sounds-1966",
+      "artist": "The Beach Boys",
+      "album": "Pet Sounds",
+      "releaseYear": 1966,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Beach Boys",
+        "canonicalTitle": "Pet Sounds",
+        "releaseYear": 1966,
+        "releaseDate": null,
+        "labels": [
+          "Capitol"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Beach Boys",
+          "album": "Pet Sounds",
+          "releaseYear": 1966,
+          "labels": [
+            "Capitol"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-joni-mitchell-blue-1971",
+      "artist": "Joni Mitchell",
+      "album": "Blue",
+      "releaseYear": 1971,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Joni Mitchell",
+        "canonicalTitle": "Blue",
+        "releaseYear": 1971,
+        "releaseDate": null,
+        "labels": [
+          "Reprise"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Joni Mitchell",
+          "album": "Blue",
+          "releaseYear": 1971,
+          "labels": [
+            "Reprise"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-stevie-wonder-songs-in-the-key-of-life-1976",
+      "artist": "Stevie Wonder",
+      "album": "Songs in the Key of Life",
+      "releaseYear": 1976,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Stevie Wonder",
+        "canonicalTitle": "Songs in the Key of Life",
+        "releaseYear": 1976,
+        "releaseDate": null,
+        "labels": [
+          "Motown/Universal",
+          "Tamla/Motown"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Stevie Wonder",
+          "album": "Songs in the Key of Life",
+          "releaseYear": 1976,
+          "labels": [
+            "Motown/Universal",
+            "Tamla/Motown"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-beatles-abbey-road-1969",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "releaseYear": 1969,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Beatles",
+        "canonicalTitle": "Abbey Road",
+        "releaseYear": 1969,
+        "releaseDate": null,
+        "labels": [
+          "Capitol",
+          "Apple"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Beatles",
+          "album": "Abbey Road",
+          "releaseYear": 1969,
+          "labels": [
+            "Capitol",
+            "Apple"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-nirvana-nevermind-1991",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "releaseYear": 1991,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Nirvana",
+        "canonicalTitle": "Nevermind",
+        "releaseYear": 1991,
+        "releaseDate": null,
+        "labels": [
+          "Geffen"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Nirvana",
+          "album": "Nevermind",
+          "releaseYear": 1991,
+          "labels": [
+            "Geffen"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-fleetwood-mac-rumours-1977",
+      "artist": "Fleetwood Mac",
+      "album": "Rumours",
+      "releaseYear": 1977,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Fleetwood Mac",
+        "canonicalTitle": "Rumours",
+        "releaseYear": 1977,
+        "releaseDate": null,
+        "labels": [
+          "Warner Bros."
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Fleetwood Mac",
+          "album": "Rumours",
+          "releaseYear": 1977,
+          "labels": [
+            "Warner Bros."
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-prince-and-the-revolution-purple-rain-1984",
+      "artist": "Prince and the Revolution",
+      "album": "Purple Rain",
+      "releaseYear": 1984,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Prince and the Revolution",
+        "canonicalTitle": "Purple Rain",
+        "releaseYear": 1984,
+        "releaseDate": null,
+        "labels": [
+          "Warner Bros."
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Prince and the Revolution",
+          "album": "Purple Rain",
+          "releaseYear": 1984,
+          "labels": [
+            "Warner Bros."
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-bob-dylan-blood-on-the-tracks-1975",
+      "artist": "Bob Dylan",
+      "album": "Blood on the Tracks",
+      "releaseYear": 1975,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Bob Dylan",
+        "canonicalTitle": "Blood on the Tracks",
+        "releaseYear": 1975,
+        "releaseDate": null,
+        "labels": [
+          "Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Bob Dylan",
+          "album": "Blood on the Tracks",
+          "releaseYear": 1975,
+          "labels": [
+            "Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-lauryn-hill-the-miseducation-of-lauryn-hill-1998",
+      "artist": "Lauryn Hill",
+      "album": "The Miseducation of Lauryn Hill",
+      "releaseYear": 1998,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Lauryn Hill",
+        "canonicalTitle": "The Miseducation of Lauryn Hill",
+        "releaseYear": 1998,
+        "releaseDate": null,
+        "labels": [
+          "Ruffhouse",
+          "Ruffhouse/Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Lauryn Hill",
+          "album": "The Miseducation of Lauryn Hill",
+          "releaseYear": 1998,
+          "labels": [
+            "Ruffhouse",
+            "Ruffhouse/Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-beatles-revolver-1966",
+      "artist": "The Beatles",
+      "album": "Revolver",
+      "releaseYear": 1966,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Beatles",
+        "canonicalTitle": "Revolver",
+        "releaseYear": 1966,
+        "releaseDate": null,
+        "labels": [
+          "Capitol",
+          "Apple"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Beatles",
+          "album": "Revolver",
+          "releaseYear": 1966,
+          "labels": [
+            "Capitol",
+            "Apple"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-michael-jackson-thriller-1982",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "releaseYear": 1982,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Michael Jackson",
+        "canonicalTitle": "Thriller",
+        "releaseYear": 1982,
+        "releaseDate": null,
+        "labels": [
+          "Epic"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Michael Jackson",
+          "album": "Thriller",
+          "releaseYear": 1982,
+          "labels": [
+            "Epic"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-1967",
+      "artist": "Aretha Franklin",
+      "album": "I Never Loved a Man the Way I Love You",
+      "releaseYear": 1967,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Aretha Franklin",
+        "canonicalTitle": "I Never Loved a Man the Way I Love You",
+        "releaseYear": 1967,
+        "releaseDate": null,
+        "labels": [
+          "Atlantic"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Aretha Franklin",
+          "album": "I Never Loved a Man the Way I Love You",
+          "releaseYear": 1967,
+          "labels": [
+            "Atlantic"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-rolling-stones-exile-on-main-street-1972",
+      "artist": "The Rolling Stones",
+      "album": "Exile on Main Street",
+      "releaseYear": 1972,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Rolling Stones",
+        "canonicalTitle": "Exile on Main Street",
+        "releaseYear": 1972,
+        "releaseDate": null,
+        "labels": [
+          "Rolling Stones Records"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Rolling Stones",
+          "album": "Exile on Main Street",
+          "releaseYear": 1972,
+          "labels": [
+            "Rolling Stones Records"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-1988",
+      "artist": "Public Enemy",
+      "album": "It Takes a Nation of Millions to Hold Us Back",
+      "releaseYear": 1988,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Public Enemy",
+        "canonicalTitle": "It Takes a Nation of Millions to Hold Us Back",
+        "releaseYear": 1988,
+        "releaseDate": null,
+        "labels": [
+          "Def Jam"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Public Enemy",
+          "album": "It Takes a Nation of Millions to Hold Us Back",
+          "releaseYear": 1988,
+          "labels": [
+            "Def Jam"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-clash-london-calling-1979",
+      "artist": "The Clash",
+      "album": "London Calling",
+      "releaseYear": 1979,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Clash",
+        "canonicalTitle": "London Calling",
+        "releaseYear": 1979,
+        "releaseDate": null,
+        "labels": [
+          "CBS"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Clash",
+          "album": "London Calling",
+          "releaseYear": 1979,
+          "labels": [
+            "CBS"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-kanye-west-my-beautiful-dark-twisted-fantasy-2010",
+      "artist": "Kanye West",
+      "album": "My Beautiful Dark Twisted Fantasy",
+      "releaseYear": 2010,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Kanye West",
+        "canonicalTitle": "My Beautiful Dark Twisted Fantasy",
+        "releaseYear": 2010,
+        "releaseDate": null,
+        "labels": [
+          "Def Jam/Roc-A-Fella",
+          "Roc-A-Fella"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Kanye West",
+          "album": "My Beautiful Dark Twisted Fantasy",
+          "releaseYear": 2010,
+          "labels": [
+            "Def Jam/Roc-A-Fella",
+            "Roc-A-Fella"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-bob-dylan-highway-61-revisited-1965",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "releaseYear": 1965,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Bob Dylan",
+        "canonicalTitle": "Highway 61 Revisited",
+        "releaseYear": 1965,
+        "releaseDate": null,
+        "labels": [
+          "Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Bob Dylan",
+          "album": "Highway 61 Revisited",
+          "releaseYear": 1965,
+          "labels": [
+            "Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-kendrick-lamar-to-pimp-a-butterfly-2015",
+      "artist": "Kendrick Lamar",
+      "album": "To Pimp a Butterfly",
+      "releaseYear": 2015,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Kendrick Lamar",
+        "canonicalTitle": "To Pimp a Butterfly",
+        "releaseYear": 2015,
+        "releaseDate": null,
+        "labels": [
+          "TDE"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Kendrick Lamar",
+          "album": "To Pimp a Butterfly",
+          "releaseYear": 2015,
+          "labels": [
+            "TDE"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-radiohead-kid-a-2000",
+      "artist": "Radiohead",
+      "album": "Kid A",
+      "releaseYear": 2000,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Radiohead",
+        "canonicalTitle": "Kid A",
+        "releaseYear": 2000,
+        "releaseDate": null,
+        "labels": [
+          "Capitol",
+          "Parlophone"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Radiohead",
+          "album": "Kid A",
+          "releaseYear": 2000,
+          "labels": [
+            "Capitol",
+            "Parlophone"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-bruce-springsteen-born-to-run-1975",
+      "artist": "Bruce Springsteen",
+      "album": "Born to Run",
+      "releaseYear": 1975,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Bruce Springsteen",
+        "canonicalTitle": "Born to Run",
+        "releaseYear": 1975,
+        "releaseDate": null,
+        "labels": [
+          "Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Bruce Springsteen",
+          "album": "Born to Run",
+          "releaseYear": 1975,
+          "labels": [
+            "Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-notorious-b-i-g-ready-to-die-1994",
+      "artist": "The Notorious B.I.G.",
+      "album": "Ready to Die",
+      "releaseYear": 1994,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Notorious B.I.G.",
+        "canonicalTitle": "Ready to Die",
+        "releaseYear": 1994,
+        "releaseDate": null,
+        "labels": [
+          "Bad Boy"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Notorious B.I.G.",
+          "album": "Ready to Die",
+          "releaseYear": 1994,
+          "labels": [
+            "Bad Boy"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-velvet-underground-the-velvet-underground-and-nico-1967",
+      "artist": "The Velvet Underground",
+      "album": "The Velvet Underground and Nico",
+      "releaseYear": 1967,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Velvet Underground",
+        "canonicalTitle": "The Velvet Underground and Nico",
+        "releaseYear": 1967,
+        "releaseDate": null,
+        "labels": [
+          "Verve"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Velvet Underground",
+          "album": "The Velvet Underground and Nico",
+          "releaseYear": 1967,
+          "labels": [
+            "Verve"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-beatles-sgt-peppers-lonely-hearts-club-band-1967",
+      "artist": "The Beatles",
+      "album": "Sgt. Pepper's Lonely Hearts Club Band",
+      "releaseYear": 1967,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Beatles",
+        "canonicalTitle": "Sgt. Pepper's Lonely Hearts Club Band",
+        "releaseYear": 1967,
+        "releaseDate": null,
+        "labels": [
+          "Capitol"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Beatles",
+          "album": "Sgt. Pepper's Lonely Hearts Club Band",
+          "releaseYear": 1967,
+          "labels": [
+            "Capitol"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-carole-king-tapestry-1971",
+      "artist": "Carole King",
+      "album": "Tapestry",
+      "releaseYear": 1971,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Carole King",
+        "canonicalTitle": "Tapestry",
+        "releaseYear": 1971,
+        "releaseDate": null,
+        "labels": [
+          "Ode",
+          "Sony"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Carole King",
+          "album": "Tapestry",
+          "releaseYear": 1971,
+          "labels": [
+            "Ode",
+            "Sony"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-patti-smith-horses-1975",
+      "artist": "Patti Smith",
+      "album": "Horses",
+      "releaseYear": 1975,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Patti Smith",
+        "canonicalTitle": "Horses",
+        "releaseYear": 1975,
+        "releaseDate": null,
+        "labels": [
+          "Arista"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Patti Smith",
+          "album": "Horses",
+          "releaseYear": 1975,
+          "labels": [
+            "Arista"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-wu-tang-clan-enter-the-wu-tang-36-chambers-1993",
+      "artist": "Wu-Tang Clan",
+      "album": "Enter the Wu-Tang(36 Chambers)",
+      "releaseYear": 1993,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Wu-Tang Clan",
+        "canonicalTitle": "Enter the Wu-Tang(36 Chambers)",
+        "releaseYear": 1993,
+        "releaseDate": null,
+        "labels": [
+          "Loud/RCA",
+          "Loud"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Wu-Tang Clan",
+          "album": "Enter the Wu-Tang(36 Chambers)",
+          "releaseYear": 1993,
+          "labels": [
+            "Loud/RCA",
+            "Loud"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-dangelo-voodoo-2000",
+      "artist": "D'Angelo",
+      "album": "Voodoo",
+      "releaseYear": 2000,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "D'Angelo",
+        "canonicalTitle": "Voodoo",
+        "releaseYear": 2000,
+        "releaseDate": null,
+        "labels": [
+          "Virgin",
+          "EMI"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "D'Angelo",
+          "album": "Voodoo",
+          "releaseYear": 2000,
+          "labels": [
+            "Virgin",
+            "EMI"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-beatles-white-album-1968",
+      "artist": "The Beatles",
+      "album": "White Album",
+      "releaseYear": 1968,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Beatles",
+        "canonicalTitle": "White Album",
+        "releaseYear": 1968,
+        "releaseDate": null,
+        "labels": [
+          "Apple"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Beatles",
+          "album": "White Album",
+          "releaseYear": 1968,
+          "labels": [
+            "Apple"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-jimi-hendrix-are-you-experienced-1967",
+      "artist": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "releaseYear": 1967,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Jimi Hendrix",
+        "canonicalTitle": "Are You Experienced",
+        "releaseYear": 1967,
+        "releaseDate": null,
+        "labels": [
+          "Reprise",
+          "Track"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Jimi Hendrix",
+          "album": "Are You Experienced",
+          "releaseYear": 1967,
+          "labels": [
+            "Reprise",
+            "Track"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-miles-davis-kind-of-blue-1959",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "releaseYear": 1959,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Miles Davis",
+        "canonicalTitle": "Kind of Blue",
+        "releaseYear": 1959,
+        "releaseDate": null,
+        "labels": [
+          "Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Miles Davis",
+          "album": "Kind of Blue",
+          "releaseYear": 1959,
+          "labels": [
+            "Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-beyonce-lemonade-2016",
+      "artist": "Beyoncé",
+      "album": "Lemonade",
+      "releaseYear": 2016,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Beyoncé",
+        "canonicalTitle": "Lemonade",
+        "releaseYear": 2016,
+        "releaseDate": null,
+        "labels": [
+          "Parkwood/Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Beyoncé",
+          "album": "Lemonade",
+          "releaseYear": 2016,
+          "labels": [
+            "Parkwood/Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-amy-winehouse-back-to-black-2006",
+      "artist": "Amy Winehouse",
+      "album": "Back to Black",
+      "releaseYear": 2006,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Amy Winehouse",
+        "canonicalTitle": "Back to Black",
+        "releaseYear": 2006,
+        "releaseDate": null,
+        "labels": [
+          "Island"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Amy Winehouse",
+          "album": "Back to Black",
+          "releaseYear": 2006,
+          "labels": [
+            "Island"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-stevie-wonder-innervisions-1973",
+      "artist": "Stevie Wonder",
+      "album": "Innervisions",
+      "releaseYear": 1973,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Stevie Wonder",
+        "canonicalTitle": "Innervisions",
+        "releaseYear": 1973,
+        "releaseDate": null,
+        "labels": [
+          "Tamala",
+          "Tamla/Motown"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Stevie Wonder",
+          "album": "Innervisions",
+          "releaseYear": 1973,
+          "labels": [
+            "Tamala",
+            "Tamla/Motown"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-beatles-rubber-soul-1965",
+      "artist": "The Beatles",
+      "album": "Rubber Soul",
+      "releaseYear": 1965,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Beatles",
+        "canonicalTitle": "Rubber Soul",
+        "releaseYear": 1965,
+        "releaseDate": null,
+        "labels": [
+          "Capitol",
+          "Parlophone"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Beatles",
+          "album": "Rubber Soul",
+          "releaseYear": 1965,
+          "labels": [
+            "Capitol",
+            "Parlophone"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-michael-jackson-off-the-wall-1979",
+      "artist": "Michael Jackson",
+      "album": "Off the Wall",
+      "releaseYear": 1979,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Michael Jackson",
+        "canonicalTitle": "Off the Wall",
+        "releaseYear": 1979,
+        "releaseDate": null,
+        "labels": [
+          "Epic"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Michael Jackson",
+          "album": "Off the Wall",
+          "releaseYear": 1979,
+          "labels": [
+            "Epic"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-dr-dre-the-chronic-1992",
+      "artist": "Dr. Dre",
+      "album": "The Chronic",
+      "releaseYear": 1992,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Dr. Dre",
+        "canonicalTitle": "The Chronic",
+        "releaseYear": 1992,
+        "releaseDate": null,
+        "labels": [
+          "Death Row",
+          "Deathrow"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Dr. Dre",
+          "album": "The Chronic",
+          "releaseYear": 1992,
+          "labels": [
+            "Death Row",
+            "Deathrow"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-bob-dylan-blonde-on-blonde-1966",
+      "artist": "Bob Dylan",
+      "album": "Blonde on Blonde",
+      "releaseYear": 1966,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Bob Dylan",
+        "canonicalTitle": "Blonde on Blonde",
+        "releaseYear": 1966,
+        "releaseDate": null,
+        "labels": [
+          "Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Bob Dylan",
+          "album": "Blonde on Blonde",
+          "releaseYear": 1966,
+          "labels": [
+            "Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-talking-heads-remain-in-light-1980",
+      "artist": "Talking Heads",
+      "album": "Remain in Light",
+      "releaseYear": 1980,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Talking Heads",
+        "canonicalTitle": "Remain in Light",
+        "releaseYear": 1980,
+        "releaseDate": null,
+        "labels": [
+          "Sire"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Talking Heads",
+          "album": "Remain in Light",
+          "releaseYear": 1980,
+          "labels": [
+            "Sire"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars-1972",
+      "artist": "David Bowie",
+      "album": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+      "releaseYear": 1972,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "David Bowie",
+        "canonicalTitle": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+        "releaseYear": 1972,
+        "releaseDate": null,
+        "labels": [
+          "RCA"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "David Bowie",
+          "album": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+          "releaseYear": 1972,
+          "labels": [
+            "RCA"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-rolling-stones-let-it-bleed-1969",
+      "artist": "The Rolling Stones",
+      "album": "Let It Bleed",
+      "releaseYear": 1969,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "The Rolling Stones",
+        "canonicalTitle": "Let It Bleed",
+        "releaseYear": 1969,
+        "releaseDate": null,
+        "labels": [
+          "London",
+          "ABKCO"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "The Rolling Stones",
+          "album": "Let It Bleed",
+          "releaseYear": 1969,
+          "labels": [
+            "London",
+            "ABKCO"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-radiohead-ok-computer-1997",
+      "artist": "Radiohead",
+      "album": "OK Computer",
+      "releaseYear": 1997,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Radiohead",
+        "canonicalTitle": "OK Computer",
+        "releaseYear": 1997,
+        "releaseDate": null,
+        "labels": [
+          "Capitol"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Radiohead",
+          "album": "OK Computer",
+          "releaseYear": 1997,
+          "labels": [
+            "Capitol"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-a-tribe-called-quest-the-low-end-theory-1991",
+      "artist": "A Tribe Called Quest",
+      "album": "The Low End Theory",
+      "releaseYear": 1991,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "A Tribe Called Quest",
+        "canonicalTitle": "The Low End Theory",
+        "releaseYear": 1991,
+        "releaseDate": null,
+        "labels": [
+          "Jive"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "A Tribe Called Quest",
+          "album": "The Low End Theory",
+          "releaseYear": 1991,
+          "labels": [
+            "Jive"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-nas-illmatic-1994",
+      "artist": "Nas",
+      "album": "Illmatic",
+      "releaseYear": 1994,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Nas",
+        "canonicalTitle": "Illmatic",
+        "releaseYear": 1994,
+        "releaseDate": null,
+        "labels": [
+          "Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Nas",
+          "album": "Illmatic",
+          "releaseYear": 1994,
+          "labels": [
+            "Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-prince-sign-o-the-times-1987",
+      "artist": "Prince",
+      "album": "Sign O' the Times",
+      "releaseYear": 1987,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Prince",
+        "canonicalTitle": "Sign O' the Times",
+        "releaseYear": 1987,
+        "releaseDate": null,
+        "labels": [
+          "Paisley Park",
+          "Paisley Park/Warner Bros."
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Prince",
+          "album": "Sign O' the Times",
+          "releaseYear": 1987,
+          "labels": [
+            "Paisley Park",
+            "Paisley Park/Warner Bros."
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-paul-simon-graceland-1986",
+      "artist": "Paul Simon",
+      "album": "Graceland",
+      "releaseYear": 1986,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Paul Simon",
+        "canonicalTitle": "Graceland",
+        "releaseYear": 1986,
+        "releaseDate": null,
+        "labels": [
+          "Warner Bros.",
+          "Columbia"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Paul Simon",
+          "album": "Graceland",
+          "releaseYear": 1986,
+          "labels": [
+            "Warner Bros.",
+            "Columbia"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-ramones-ramones-1976",
+      "artist": "Ramones",
+      "album": "Ramones",
+      "releaseYear": 1976,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Ramones",
+        "canonicalTitle": "Ramones",
+        "releaseYear": 1976,
+        "releaseDate": null,
+        "labels": [
+          "Sire"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Ramones",
+          "album": "Ramones",
+          "releaseYear": 1976,
+          "labels": [
+            "Sire"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-bob-marley-and-the-wailers-exodus-1977",
+      "artist": "Bob Marley and the Wailers",
+      "album": "Exodus",
+      "releaseYear": 1977,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Bob Marley and the Wailers",
+        "canonicalTitle": "Exodus",
+        "releaseYear": 1977,
+        "releaseDate": null,
+        "labels": [
+          "Island"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Bob Marley and the Wailers",
+          "album": "Exodus",
+          "releaseYear": 1977,
+          "labels": [
+            "Island"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-outkast-aquemini-1998",
+      "artist": "OutKast",
+      "album": "Aquemini",
+      "releaseYear": 1998,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "OutKast",
+        "canonicalTitle": "Aquemini",
+        "releaseYear": 1998,
+        "releaseDate": null,
+        "labels": [
+          "LaFace"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "OutKast",
+          "album": "Aquemini",
+          "releaseYear": 1998,
+          "labels": [
+            "LaFace"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    },
+    {
+      "albumId": "album-jay-z-the-blueprint-2001",
+      "artist": "Jay-Z",
+      "album": "The Blueprint",
+      "releaseYear": 2001,
+      "status": "matched",
+      "confidence": "imported",
+      "reason": "exact-artist-title-year-match",
+      "metadata": {
+        "canonicalArtist": "Jay-Z",
+        "canonicalTitle": "The Blueprint",
+        "releaseYear": 2001,
+        "releaseDate": null,
+        "labels": [
+          "Roc-A-Fella"
+        ],
+        "genres": [],
+        "styles": [],
+        "country": null,
+        "externalRefs": [],
+        "coverCandidates": []
+      },
+      "sourceCandidates": [
+        {
+          "sourceId": "source-rolling-stone-imported-metadata",
+          "sourceType": "rolling-stone-import",
+          "artist": "Jay-Z",
+          "album": "The Blueprint",
+          "releaseYear": 2001,
+          "labels": [
+            "Roc-A-Fella"
+          ],
+          "genres": [],
+          "styles": [],
+          "externalRefs": [],
+          "confidence": "imported"
+        }
+      ]
+    }
+  ]
+}

@@ -16,7 +16,8 @@ The project now has a first executable file-first slice:
 - Optional Discogs enrichment script for imported master-release metadata, genres/styles, and cover candidates.
 - Normalized `data/collection.json` seed generated from the first 20 CSV rows.
 - Collection validator that separates fatal errors from warnings and metadata gaps.
-- Lookup index builder.
+- Generated Rolling Stone comparison dataset with approved alias review for stable cross-edition album identities.
+- Reviewable album metadata enrichment workflow that keeps candidates, overrides, and review gaps outside the canonical collection until accepted.
 - Plain static browser page that loads the seed data and lists albums with validation status.
 - Node test suite for importer, validator, indexes, and static shell.
 
@@ -26,6 +27,8 @@ The project now has a first executable file-first slice:
 npm test
 npm run import:rolling-stone
 npm run enrich:discogs
+npm run build:rolling-stone-comparison
+npm run enrich:album-metadata
 python3 -m http.server 4173
 ```
 
@@ -56,6 +59,7 @@ http://127.0.0.1:4173/
 - [Rolling Stone 2024 full text import notes](docs/imports/rolling-stone-2024-full-text.md) — parsed full 2024 list source and remaining metadata gaps.
 - [Rolling Stone comparison dataset notes](docs/imports/rolling-stone-comparison.md) — generated cross-edition rank comparison across 2003, 2012, 2020, and 2024.
 - [Rolling Stone alias review workflow](docs/imports/rolling-stone-alias-review.md) — approved album aliases and generated duplicate candidates for stable comparison identities.
+- [Album metadata enrichment workflow](docs/imports/album-metadata-enrichment.md) — reviewable metadata candidates, manual overrides, and no-invention enrichment rules.
 
 ## First useful prototype
 

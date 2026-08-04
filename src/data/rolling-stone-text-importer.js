@@ -1,9 +1,13 @@
 export function parseRollingStoneText(text) {
   const lines = text.replace(/\r\n?/g, '\n').split('\n').map((line) => line.trim());
   const rankMarkers = [];
+  let expectedRank = null;
   for (let index = 0; index < lines.length; index += 1) {
-    const marker = rankMarkerAt(lines, index);
-    if (marker) rankMarkers.push(marker);
+    const marker = rankMarkerAt(lines, index, expectedRank);
+    if (marker) {
+      rankMarkers.push(marker);
+      expectedRank = marker.rank - 1;
+    }
   }
 
   const rows = [];
@@ -22,7 +26,7 @@ export function parseRollingStoneText(text) {
   return rows;
 }
 
-function rankMarkerAt(lines, index) {
+function rankMarkerAt(lines, index, expectedRank = null) {
   const line = lines[index];
   if (/^\d{1,3}$/.test(line)) {
     const rank = Number(line);
@@ -30,13 +34,14 @@ function rankMarkerAt(lines, index) {
   }
 
   if (/(?:19|20)\d{2}$/.test(line)) return null;
-  const glued = line.match(/^.+?(\d{1,3})$/);
-  if (!glued) return null;
-  const rank = Number(glued[1]);
-  if (rank < 1 || rank > 500) return null;
+  if (!/\d$/.test(line)) return null;
   const next = nextNonEmpty(lines, index + 1, lines.length);
-  if (!next || !/[‘']/.test(next)) return null;
-  return { index, rank };
+  if (!next || !/[‘’']/.test(next)) return null;
+
+  const candidates = rankSuffixCandidates(line);
+  if (!candidates.length) return null;
+  const rank = chooseRankCandidate(candidates, expectedRank);
+  return rank ? { index, rank } : null;
 }
 
 function nextNonEmpty(lines, start, end) {
@@ -44,6 +49,26 @@ function nextNonEmpty(lines, start, end) {
     if (lines[index]) return lines[index];
   }
   return null;
+}
+
+function rankSuffixCandidates(line) {
+  const candidates = [];
+  for (let length = 1; length <= 3; length += 1) {
+    const suffix = line.slice(-length);
+    if (!/^\d+$/.test(suffix)) continue;
+    const rank = Number(suffix);
+    if (rank >= 1 && rank <= 500) candidates.push(rank);
+  }
+  return [...new Set(candidates)];
+}
+
+function chooseRankCandidate(candidates, expectedRank) {
+  if (expectedRank && candidates.includes(expectedRank)) return expectedRank;
+  if (expectedRank) {
+    const plausible = candidates.filter((rank) => rank < expectedRank).sort((a, b) => b - a);
+    if (plausible.length) return plausible[0];
+  }
+  return candidates.sort((a, b) => b - a)[0] ?? null;
 }
 
 function firstMetadataLine(lines, start, end, titleLine) {
@@ -66,7 +91,7 @@ function firstMetadataLine(lines, start, end, titleLine) {
 
 function splitArtistAlbum(title) {
   const normalized = title.trim();
-  const quoted = normalized.match(/^(.*),\s*[‘'](.+?)[’']\s*$/);
+  const quoted = normalized.match(/^(.*),\s*[‘’'](.+?)[’']\s*$/);
   if (quoted) return { artist: quoted[1].trim(), album: quoted[2].trim() };
 
   const danglingQuote = normalized.match(/^(.*),\s*[‘'](.+?)\s*$/);
@@ -81,7 +106,7 @@ function splitArtistAlbum(title) {
 
 function parseLabelYear(line) {
   if (!line) return { label: null, year: null };
-  const match = line.match(/^(.+?),\s*((?:19|20)\d{2})\s*$/);
+  const match = line.match(/^(.+?)[,.]\s*((?:19|20)\d{2})\s*$/);
   if (!match) return { label: null, year: null };
   return { label: match[1].trim(), year: Number(match[2]) };
 }

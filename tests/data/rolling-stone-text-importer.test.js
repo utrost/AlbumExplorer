@@ -63,6 +63,46 @@ Slash/Warner Bros., 1984
   ]);
 });
 
+test('uses descending expected rank to disambiguate glued digits', () => {
+  const rows = parseRollingStoneText(`138
+Madonna, ‘The Immaculate Collection’
+Sire, 1990
+500 albums adele 21137
+Adele, ’21’
+Columbia, 2011
+136
+Funkadelic, ‘Maggot Brain’
+Westbound, 1971
+60
+Van Morrison, ‘Astral Weeks’
+Warner Bros., 1968
+500 albums led zeppelin iv four 58
+Led Zeppelin, ‘Led Zeppelin IV’
+Atlantic, 1971
+57
+The Band, ‘The Band’
+Capitol, 1969
+`);
+
+  assert.deepEqual(rows.map((row) => row.rank), [138, 137, 136, 60, 58, 57]);
+  assert.equal(rows[1].artist, 'Adele');
+  assert.equal(rows[1].album, '21');
+  assert.equal(rows[4].artist, 'Led Zeppelin');
+  assert.equal(rows[4].album, 'Led Zeppelin IV');
+});
+
+test('parses label and year separated by a period typo', () => {
+  const rows = parseRollingStoneText(`437
+Gorillaz, ‘Demon Days’
+EMI. 2005
+Powered byApple Music
+`);
+
+  assert.deepEqual(rows, [
+    { rank: 437, artist: 'Gorillaz', album: 'Demon Days', label: 'EMI', year: 2005 }
+  ]);
+});
+
 test('keeps label and year null when the pasted row has no label line', () => {
   const rows = parseRollingStoneText(`458
 Elton John, ‘Tumbleweed Connection’

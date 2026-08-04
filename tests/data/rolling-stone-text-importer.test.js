@@ -1,0 +1,63 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { parseRollingStoneText } from '../../src/data/rolling-stone-text-importer.js';
+
+test('parses pasted Rolling Stone text rows with rank, title, label, and year', () => {
+  const rows = parseRollingStoneText(`500
+OutKast, ‘Aquemini’
+
+LaFace, 1998
+
+Description.
+499
+B.B. King, ‘Live in Cook County Jail’
+
+ABC, 1971
+
+Description.
+`);
+
+  assert.deepEqual(rows, [
+    { rank: 500, artist: 'OutKast', album: 'Aquemini', label: 'LaFace', year: 1998 },
+    { rank: 499, artist: 'B.B. King', album: 'Live in Cook County Jail', label: 'ABC', year: 1971 }
+  ]);
+});
+
+test('parses artist names with commas and malformed missing closing curly quote', () => {
+  const rows = parseRollingStoneText(`486
+Earth, Wind and Fire, ‘That’s the Way of the World’
+
+Columbia, 1975
+
+Description.
+480
+Raekwon, ‘Only Built 4 Cuban Linx
+
+Loud, 1995
+
+Description.
+`);
+
+  assert.equal(rows[0].artist, 'Earth, Wind and Fire');
+  assert.equal(rows[0].album, 'That’s the Way of the World');
+  assert.equal(rows[1].artist, 'Raekwon');
+  assert.equal(rows[1].album, 'Only Built 4 Cuban Linx');
+});
+
+test('keeps label and year null when the pasted row has no label line', () => {
+  const rows = parseRollingStoneText(`458
+Elton John, ‘Tumbleweed Connection’
+
+John has always had a jones for the myth of the American West.
+457
+My Morning Jacket, ‘Z’
+
+RCA, 2005
+`);
+
+  assert.equal(rows[0].rank, 458);
+  assert.equal(rows[0].label, null);
+  assert.equal(rows[0].year, null);
+  assert.equal(rows[1].label, 'RCA');
+  assert.equal(rows[1].year, 2005);
+});

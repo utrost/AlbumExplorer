@@ -54,7 +54,7 @@ The parser extracts:
 
 This is a good parser test fixture and a useful 2003 top-50 source, but it is not the complete 2003 edition.
 
-To complete `list-rolling-stone-2003`, we still need ranks 51–500 from one of these options:
+To complete `list-rolling-stone-2003`, we still need ranks 51–450 from one of these options:
 
 - saved HTML pages after loading all previous segments;
 - separate HTML captures for each 50-album segment;

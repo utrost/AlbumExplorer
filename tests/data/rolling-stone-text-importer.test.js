@@ -91,6 +91,32 @@ Capitol, 1969
   assert.equal(rows[4].album, 'Led Zeppelin IV');
 });
 
+test('parses simple pipe-delimited Rolling Stone rows', () => {
+  const rows = parseRollingStoneText(`1 | Marvin Gaye | What's Going On | 1971
+58 | Led Zeppelin | Led Zeppelin IV | 1971
+500 | Arcade Fire | Funeral | 2004
+`);
+
+  assert.deepEqual(rows, [
+    { rank: 1, artist: 'Marvin Gaye', album: "What's Going On", label: null, year: 1971 },
+    { rank: 58, artist: 'Led Zeppelin', album: 'Led Zeppelin IV', label: null, year: 1971 },
+    { rank: 500, artist: 'Arcade Fire', album: 'Funeral', label: null, year: 2004 }
+  ]);
+});
+
+test('parses simple rank-dot rows with title year before artist', () => {
+  const rows = parseRollingStoneText(`10. The Beatles ("The White Album") (1968) by The Beatles
+374.Siren (1975) by Roxy Music
+377. The Ultimate Collection (1948 - 1990) (1991) by John Lee Hooker
+`);
+
+  assert.deepEqual(rows, [
+    { rank: 10, artist: 'The Beatles', album: 'The Beatles ("The White Album")', label: null, year: 1968 },
+    { rank: 374, artist: 'Roxy Music', album: 'Siren', label: null, year: 1975 },
+    { rank: 377, artist: 'John Lee Hooker', album: 'The Ultimate Collection (1948 - 1990)', label: null, year: 1991 }
+  ]);
+});
+
 test('parses label and year separated by a period typo', () => {
   const rows = parseRollingStoneText(`437
 Gorillaz, ‘Demon Days’

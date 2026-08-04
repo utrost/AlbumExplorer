@@ -1,4 +1,7 @@
 export function parseRollingStoneText(text) {
+  const simpleRows = parseRollingStoneSimpleText(text);
+  if (simpleRows.length) return simpleRows;
+
   const lines = text.replace(/\r\n?/g, '\n').split('\n').map((line) => line.trim());
   const rankMarkers = [];
   let expectedRank = null;
@@ -24,6 +27,38 @@ export function parseRollingStoneText(text) {
     rows.push({ rank, artist, album, label, year });
   }
   return rows;
+}
+
+export function parseRollingStoneSimpleText(text) {
+  const rows = [];
+  const lines = text.replace(/\r\n?/g, '\n').split('\n').map((line) => line.trim()).filter(Boolean);
+
+  for (const line of lines) {
+    const pipeRow = line.match(/^(\d{1,3})\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*((?:19|20)\d{2})\s*$/);
+    if (pipeRow) {
+      rows.push({
+        rank: Number(pipeRow[1]),
+        artist: pipeRow[2].trim(),
+        album: pipeRow[3].trim(),
+        label: null,
+        year: Number(pipeRow[4])
+      });
+      continue;
+    }
+
+    const dotRow = line.match(/^(\d{1,3})\.\s*(.+)\s+\(((?:19|20)\d{2})\)\s+by\s+(.+)\s*$/);
+    if (dotRow) {
+      rows.push({
+        rank: Number(dotRow[1]),
+        artist: dotRow[4].trim(),
+        album: dotRow[2].trim(),
+        label: null,
+        year: Number(dotRow[3])
+      });
+    }
+  }
+
+  return rows.filter((row) => row.rank >= 1 && row.rank <= 500);
 }
 
 function rankMarkerAt(lines, index, expectedRank = null) {

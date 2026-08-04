@@ -10,9 +10,28 @@ This is not meant to become only a catalogue. The interesting question is:
 
 ## Current status
 
-The project is at the planning/specification stage.
+The project now has a first executable file-first slice:
 
-There is no app implementation yet. The repository currently defines the product direction, phased roadmap, and data contract that the first prototype should follow.
+- Node-based Rolling Stone CSV importer.
+- Normalized `data/collection.json` seed generated from the first 20 CSV rows.
+- Collection validator that separates fatal errors from warnings and metadata gaps.
+- Lookup index builder.
+- Plain static browser page that loads the seed data and lists albums with validation status.
+- Node test suite for importer, validator, indexes, and static shell.
+
+## Run locally
+
+```bash
+npm test
+npm run import:rolling-stone
+python3 -m http.server 4173
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4173/
+```
 
 ## Core approach
 

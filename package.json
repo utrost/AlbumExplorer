@@ -1,0 +1,10 @@
+{
+  "name": "album-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "import:rolling-stone": "node scripts/import-rolling-stone-csv.js data/imports/rolling-stone-top-500.csv data/collection.json --limit 20"
+  }
+}

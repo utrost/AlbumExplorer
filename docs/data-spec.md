@@ -16,6 +16,21 @@ The specification is intentionally practical. It distinguishes required MVP data
 - Prefer explicit structured references over prose when the app should calculate relationships.
 - Preserve curator notes as human writing, but do not hide critical machine-readable facts only inside notes.
 - Do not require all metadata on day one. Sparse records are allowed if validation can explain what is missing.
+- Missing relationship metadata should reduce what the app can infer, not block basic catalogue/list use.
+
+## Partial metadata is expected
+
+AlbumExplorer should assume that most records start incomplete.
+
+A sparse album with only ID, title, primary artist, release year, ownership state, and list appearances can still support browsing, search, ownership progress, and Rolling Stone comparison. It simply cannot yet produce rich graph edges such as shared contributor, shared studio, or shared producer.
+
+Validation should therefore distinguish:
+
+- **Errors:** broken identity or references that make data unsafe to load.
+- **Warnings:** suspicious or review-worthy fields, such as implausible years.
+- **Metadata gaps:** absent optional enrichment, such as missing contributors, studios, covers, notes, or external references.
+
+Do not invent filler metadata to make records look complete. Sparse and sourced is better than rich and dubious.
 
 ## Recommended file layout
 

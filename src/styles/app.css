@@ -291,6 +291,54 @@ code {
   font-style: normal;
 }
 
+.focused-graph {
+  background: #100c0a;
+  border: 1px solid #332721;
+  border-radius: 14px;
+  margin: 0 0 18px;
+  padding: 10px;
+}
+
+.focused-graph svg {
+  display: block;
+  height: auto;
+  overflow: visible;
+  width: 100%;
+}
+
+.focused-graph line {
+  stroke: #8b6a4a;
+  stroke-linecap: round;
+  opacity: 0.72;
+}
+
+.graph-node {
+  cursor: pointer;
+}
+
+.graph-node circle {
+  fill: #2b211c;
+  stroke: #d7a86e;
+  stroke-width: 1.2;
+}
+
+.graph-node.selected circle {
+  fill: #d7a86e;
+  stroke: #f5eee5;
+}
+
+.graph-node text {
+  fill: #f5eee5;
+  font-size: 3.3px;
+  pointer-events: none;
+}
+
+.graph-node:hover circle,
+.graph-node:focus circle {
+  stroke: #9cc8f5;
+  stroke-width: 2;
+}
+
 .related-albums > li {
   background: #100c0a;
   border-radius: 12px;

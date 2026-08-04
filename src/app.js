@@ -2,6 +2,7 @@ import { validateCollection } from './data/validator.js';
 import { buildIndexes } from './data/indexes.js';
 import { buildEnrichedComparisonRows, filterRows, sortRows } from './data/enriched-comparison.js';
 import { buildAlbumRelationships, getRelatedAlbums } from './data/derived-relationships.js';
+import { buildFocusedGraph } from './views/focused-graph-view.js';
 
 const app = document.querySelector('#app');
 const state = {
@@ -69,6 +70,7 @@ function renderApp() {
   const selected = state.filteredRows.find((row) => row.id === state.selectedId) ?? state.filteredRows[0] ?? state.rows[0];
   state.selectedId = selected?.id ?? null;
   const relatedAlbums = selected ? getRelatedAlbums(selected.id, state.rows, state.relationships, { limit: 6 }) : [];
+  const focusedGraph = selected ? buildFocusedGraph({ selectedAlbumId: selected.id, rows: state.rows, relationships: state.relationships, limit: 10 }) : null;
 
   app.innerHTML = `
     <header class="hero">
@@ -104,7 +106,7 @@ function renderApp() {
         <div class="table-wrap">
           ${renderComparisonTable(state.filteredRows.slice(0, 250))}
         </div>
-        ${selected ? renderAlbumDetail(selected, relatedAlbums) : '<aside class="detail-panel"><p>No album selected.</p></aside>'}
+        ${selected ? renderAlbumDetail(selected, relatedAlbums, focusedGraph) : '<aside class="detail-panel"><p>No album selected.</p></aside>'}
       </div>
     </section>
 
@@ -203,7 +205,7 @@ function renderComparisonRow(row) {
   `;
 }
 
-function renderAlbumDetail(row, relatedAlbums = []) {
+function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null) {
   return `
     <aside class="detail-panel" data-testid="album-detail">
       <p class="eyebrow">Selected album</p>
@@ -220,10 +222,36 @@ function renderAlbumDetail(row, relatedAlbums = []) {
       <ol class="rank-history">
         ${row.appearances.map((appearance) => `<li><strong>${appearance.editionYear}</strong><span>#${appearance.rank}</span><em>${escapeHtml(appearance.label ?? '')}</em></li>`).join('')}
       </ol>
+      <h3>Focused graph</h3>
+      ${renderFocusedGraph(focusedGraph)}
       <h3>Related albums</h3>
       ${renderRelatedAlbums(relatedAlbums)}
       ${row.musicBrainzUrl ? `<p><a class="external-link" href="${escapeAttribute(row.musicBrainzUrl)}" target="_blank" rel="noreferrer">Open MusicBrainz release group</a></p>` : '<p class="muted">No MusicBrainz release-group link yet.</p>'}
     </aside>
+  `;
+}
+
+function renderFocusedGraph(graph) {
+  if (!graph?.nodes?.length) return '<p class="muted" data-testid="focused-graph">No graph neighborhood yet.</p>';
+  const nodeById = new Map(graph.nodes.map((node) => [node.id, node]));
+  return `
+    <figure class="focused-graph" data-testid="focused-graph">
+      <svg viewBox="0 0 100 100" role="img" aria-label="Focused graph for selected album">
+        ${graph.edges.map((edge) => {
+          const from = nodeById.get(edge.from);
+          const to = nodeById.get(edge.to);
+          if (!from || !to) return '';
+          return `<line x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}" stroke-width="${Math.min(4, 1 + edge.weight / 3).toFixed(2)}"><title>${escapeHtml(edge.explanations[0] ?? edge.types.join(', '))}</title></line>`;
+        }).join('')}
+        ${graph.nodes.map((node) => `
+          <g class="graph-node ${escapeAttribute(node.kind)}" data-graph-album-id="${escapeAttribute(node.id)}" tabindex="0" role="button" aria-label="Select ${escapeAttribute(node.label)} by ${escapeAttribute(node.artist)}" transform="translate(${node.x} ${node.y})">
+            <circle r="${node.kind === 'selected' ? 7 : 5}"><title>${escapeHtml(node.label)} — ${escapeHtml(node.artist)}</title></circle>
+            <text y="${node.kind === 'selected' ? -10 : -7}" text-anchor="middle">${escapeHtml(shortLabel(node.label))}</text>
+          </g>
+        `).join('')}
+      </svg>
+      <figcaption class="muted">Selected album plus ${graph.nodes.length - 1} strongest neighbors. Edge thickness follows relationship weight.</figcaption>
+    </figure>
   `;
 }
 
@@ -282,6 +310,12 @@ function bindInteractions() {
   for (const button of app.querySelectorAll('[data-related-album-id]')) {
     button.addEventListener('click', () => selectAlbum(button.dataset.relatedAlbumId));
   }
+  for (const node of app.querySelectorAll('[data-graph-album-id]')) {
+    node.addEventListener('click', () => selectAlbum(node.dataset.graphAlbumId));
+    node.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') selectAlbum(node.dataset.graphAlbumId);
+    });
+  }
 }
 
 function updateFromControls(event) {
@@ -325,6 +359,11 @@ function formatList(values, limit) {
   const shown = values.slice(0, limit).join(', ');
   const remaining = values.length - limit;
   return remaining > 0 ? `${shown} (+${remaining} more)` : shown;
+}
+
+function shortLabel(value) {
+  const text = String(value ?? '');
+  return text.length > 18 ? `${text.slice(0, 16)}…` : text;
 }
 
 function escapeHtml(value) {

@@ -190,6 +190,8 @@ Goal: make relationships explicit, inspectable, and deterministic.
 
 ## Phase 5 — Focused graph exploration
 
+Status: first SVG graph slice shipped in `src/views/focused-graph-view.js` and the selected-album detail panel. It shows the selected album plus the strongest related neighbors, keeps edge explanations in SVG titles, and lets graph nodes drive album selection. Relationship-type filters and richer graph modes remain future work.
+
 Goal: show local neighborhoods without creating a whole-collection hairball.
 
 ### Deliverables

@@ -1,22 +1,51 @@
 import { validateCollection } from './data/validator.js';
 import { buildIndexes } from './data/indexes.js';
+import { buildEnrichedComparisonRows, filterRows, sortRows } from './data/enriched-comparison.js';
 
 const app = document.querySelector('#app');
+const state = {
+  rows: [],
+  filteredRows: [],
+  selectedId: null,
+  collection: null,
+  validation: null,
+  indexes: null,
+  sourceCandidates: null,
+  filters: {
+    search: '',
+    editionYear: 'all',
+    editionCount: 'all',
+    metadataStatus: 'all',
+    musicBrainzMatchStatus: 'all'
+  },
+  sortKey: 'latest-rank'
+};
 
 start();
 
 async function start() {
   try {
-    const collection = await loadCollection('./data/collection.json');
+    const [collection, comparison, candidates, sourceCandidates] = await Promise.all([
+      loadJson('./data/collection.json'),
+      loadJson('./data/rolling-stone-comparison.json'),
+      loadJson('./data/enrichment/album-metadata-candidates.json'),
+      loadJson('./data/enrichment/album-metadata-source-candidates.json')
+    ]);
     const validation = validateCollection(collection);
     const indexes = buildIndexes(collection);
-    renderApp(collection, validation, indexes);
+    state.collection = collection;
+    state.validation = validation;
+    state.indexes = indexes;
+    state.sourceCandidates = sourceCandidates;
+    state.rows = buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates });
+    state.selectedId = state.rows[0]?.id ?? null;
+    renderApp();
   } catch (error) {
     renderError(error);
   }
 }
 
-async function loadCollection(url) {
+async function loadJson(url) {
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error(`Could not load ${url}: ${response.status} ${response.statusText}`);
@@ -24,46 +53,225 @@ async function loadCollection(url) {
   return response.json();
 }
 
-function renderApp(collection, validation, indexes) {
+function renderApp() {
+  const collection = state.collection;
+  const validation = state.validation;
+  const indexes = state.indexes;
+  const sourceCandidates = state.sourceCandidates;
   const fatal = validation.errors.length > 0;
+  const musicBrainzCount = state.rows.filter((row) => row.metadataStatus === 'musicbrainz').length;
+  const baselineCount = state.rows.filter((row) => row.metadataStatus === 'baseline').length;
+  const fourEditionCount = state.rows.filter((row) => row.editionCount === 4).length;
+  state.filteredRows = sortRows(filterRows(state.rows, state.filters), state.sortKey);
+  const selected = state.filteredRows.find((row) => row.id === state.selectedId) ?? state.filteredRows[0] ?? state.rows[0];
+  state.selectedId = selected?.id ?? null;
+
   app.innerHTML = `
     <header class="hero">
-      <p class="eyebrow">File-first prototype</p>
+      <p class="eyebrow">File-first Rolling Stone atlas</p>
       <h1>AlbumExplorer</h1>
-      <p>Loaded ${collection.albums.length} albums from <code>data/collection.json</code>.</p>
+      <p class="lede">Browse ${state.rows.length} stable album identities across the Rolling Stone 500 editions, with reviewable MusicBrainz metadata layered on top.</p>
     </header>
 
     <section class="panel ${fatal ? 'panel-error' : ''}">
-      <h2>Validation</h2>
+      <h2>Data health</h2>
       <ul class="metrics">
-        <li><strong>${validation.errors.length}</strong><span>errors</span></li>
-        <li><strong>${validation.warnings.length}</strong><span>warnings</span></li>
-        <li><strong>${validation.info.length}</strong><span>metadata gaps</span></li>
+        <li><strong>${state.rows.length}</strong><span>comparison albums</span></li>
+        <li><strong>${musicBrainzCount}</strong><span>MusicBrainz matched</span></li>
+        <li><strong>${baselineCount}</strong><span>Rolling Stone baseline</span></li>
+        <li><strong>${fourEditionCount}</strong><span>in all 4 editions</span></li>
+        <li><strong>${sourceCandidates.review?.length ?? 0}</strong><span>MB review</span></li>
+        <li><strong>${sourceCandidates.gaps?.length ?? 0}</strong><span>MB gaps</span></li>
       </ul>
-      ${fatal ? renderMessages(validation.errors.slice(0, 10)) : '<p class="ok">No fatal validation errors. Sparse metadata is allowed.</p>'}
+      ${fatal ? renderMessages(validation.errors.slice(0, 10)) : '<p class="ok">No fatal seed validation errors. Generated comparison and enrichment data loaded.</p>'}
     </section>
 
-    <section class="panel">
-      <h2>Albums</h2>
-      <ol class="album-list">
-        ${collection.albums.slice(0, 50).map((album) => renderAlbum(album, indexes)).join('')}
+    <section class="panel browser-panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Comparison browser</p>
+          <h2>Rolling Stone 500 × metadata</h2>
+        </div>
+        <p class="muted">Showing <strong>${state.filteredRows.length}</strong> of ${state.rows.length}</p>
+      </div>
+      ${renderControls()}
+      <div class="comparison-layout">
+        <div class="table-wrap">
+          ${renderComparisonTable(state.filteredRows.slice(0, 250))}
+        </div>
+        ${selected ? renderAlbumDetail(selected) : '<aside class="detail-panel"><p>No album selected.</p></aside>'}
+      </div>
+    </section>
+
+    <section class="panel compact-seed">
+      <h2>Seed collection prototype</h2>
+      <p class="muted">The original tiny collection seed still loads separately: ${collection.albums.length} albums from <code>data/collection.json</code>.</p>
+      <ol class="album-list compact-list">
+        ${collection.albums.slice(0, 8).map((album) => renderSeedAlbum(album, indexes)).join('')}
       </ol>
     </section>
   `;
+
+  bindInteractions();
 }
 
-function renderAlbum(album, indexes) {
+function renderControls() {
+  return `
+    <form class="controls" data-testid="comparison-controls">
+      <label>Search
+        <input data-testid="comparison-search" name="search" type="search" placeholder="artist or album" value="${escapeAttribute(state.filters.search)}">
+      </label>
+      <label>Edition
+        <select data-testid="edition-filter" name="editionYear">
+          ${option('all', 'Any edition', state.filters.editionYear)}
+          ${option('2003', '2003', state.filters.editionYear)}
+          ${option('2012', '2012', state.filters.editionYear)}
+          ${option('2020', '2020', state.filters.editionYear)}
+          ${option('2024', '2024', state.filters.editionYear)}
+        </select>
+      </label>
+      <label>Appears in
+        <select name="editionCount">
+          ${option('all', 'Any count', state.filters.editionCount)}
+          ${option('4', 'All 4 editions', state.filters.editionCount)}
+          ${option('3', '3 editions', state.filters.editionCount)}
+          ${option('2', '2 editions', state.filters.editionCount)}
+          ${option('1', '1 edition', state.filters.editionCount)}
+        </select>
+      </label>
+      <label>Metadata
+        <select data-testid="metadata-filter" name="metadataStatus">
+          ${option('all', 'Any metadata', state.filters.metadataStatus)}
+          ${option('musicbrainz', 'MusicBrainz', state.filters.metadataStatus)}
+          ${option('baseline', 'Rolling Stone baseline', state.filters.metadataStatus)}
+        </select>
+      </label>
+      <label>MB status
+        <select name="musicBrainzMatchStatus">
+          ${option('all', 'Any MB status', state.filters.musicBrainzMatchStatus)}
+          ${option('matched', 'Matched', state.filters.musicBrainzMatchStatus)}
+          ${option('gap', 'Gap', state.filters.musicBrainzMatchStatus)}
+          ${option('review', 'Review', state.filters.musicBrainzMatchStatus)}
+        </select>
+      </label>
+      <label>Sort
+        <select name="sortKey">
+          ${option('latest-rank', 'Latest rank', state.sortKey)}
+          ${option('artist', 'Artist', state.sortKey)}
+          ${option('release-year', 'Release year', state.sortKey)}
+          ${option('edition-count', 'Edition count', state.sortKey)}
+          ${option('rank-movement', 'Rank movement', state.sortKey)}
+        </select>
+      </label>
+    </form>
+  `;
+}
+
+function renderComparisonTable(rows) {
+  return `
+    <table class="comparison-table" data-testid="comparison-table">
+      <thead>
+        <tr>
+          <th>Latest</th>
+          <th>Album</th>
+          <th>Ranks</th>
+          <th>Metadata</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows.map(renderComparisonRow).join('')}
+      </tbody>
+    </table>
+    ${state.filteredRows.length > rows.length ? `<p class="muted table-note">Showing first ${rows.length} filtered rows. Narrow the filters to inspect deeper results.</p>` : ''}
+  `;
+}
+
+function renderComparisonRow(row) {
+  const selected = row.id === state.selectedId ? ' selected' : '';
+  return `
+    <tr class="comparison-row${selected}" data-album-id="${escapeAttribute(row.id)}" tabindex="0">
+      <td class="rank-cell">${row.latestRank ? `#${row.latestRank}` : '—'}<span>${row.latestEditionYear ?? ''}</span></td>
+      <td><strong>${escapeHtml(row.album)}</strong><span>${escapeHtml(row.artist)} · ${row.releaseYear ?? 'year unknown'}</span></td>
+      <td>${renderRankBadges(row)}</td>
+      <td>${renderMetadataBadge(row)}</td>
+    </tr>
+  `;
+}
+
+function renderAlbumDetail(row) {
+  return `
+    <aside class="detail-panel" data-testid="album-detail">
+      <p class="eyebrow">Selected album</p>
+      <h2>${escapeHtml(row.album)}</h2>
+      <p class="detail-artist">${escapeHtml(row.artist)} · ${row.releaseYear ?? 'year unknown'}</p>
+      <dl class="detail-list">
+        <div><dt>Release date</dt><dd>${escapeHtml(row.releaseDate ?? 'not enriched yet')}</dd></div>
+        <div><dt>Metadata source</dt><dd>${renderMetadataBadge(row)}</dd></div>
+        <div><dt>MusicBrainz status</dt><dd>${escapeHtml(row.musicBrainzMatchStatus)}</dd></div>
+        <div><dt>Labels</dt><dd>${escapeHtml(row.labels.join(', ') || 'none yet')}</dd></div>
+        <div><dt>Genres/tags</dt><dd>${escapeHtml(formatList(row.genres, 10))}</dd></div>
+      </dl>
+      <h3>Rank history</h3>
+      <ol class="rank-history">
+        ${row.appearances.map((appearance) => `<li><strong>${appearance.editionYear}</strong><span>#${appearance.rank}</span><em>${escapeHtml(appearance.label ?? '')}</em></li>`).join('')}
+      </ol>
+      ${row.musicBrainzUrl ? `<p><a class="external-link" href="${escapeAttribute(row.musicBrainzUrl)}" target="_blank" rel="noreferrer">Open MusicBrainz release group</a></p>` : '<p class="muted">No MusicBrainz release-group link yet.</p>'}
+    </aside>
+  `;
+}
+
+function renderRankBadges(row) {
+  return [2003, 2012, 2020, 2024]
+    .map((year) => `<span class="rank-badge ${row.ranks[year] ? '' : 'empty'}">${year}: ${row.ranks[year] ? `#${row.ranks[year]}` : '—'}</span>`)
+    .join('');
+}
+
+function renderMetadataBadge(row) {
+  const label = row.metadataStatus === 'musicbrainz' ? 'MusicBrainz' : row.metadataStatus === 'baseline' ? 'RS baseline' : 'Unknown';
+  return `<span class="metadata-badge ${escapeAttribute(row.metadataStatus)}">${label}</span>`;
+}
+
+function renderSeedAlbum(album, indexes) {
   const appearances = indexes.listAppearancesByAlbumId.get(album.id) ?? [];
-  const copies = indexes.physicalCopiesByAlbumId.get(album.id) ?? [];
   const artist = indexes.artistsById.get(album.primaryArtistId);
-  const graphable = (album.contributorIds?.length || album.studioIds?.length || album.labelIds?.length || album.genreIds?.length) ? 'graphable' : 'catalogue only';
   return `
     <li class="album-card">
       <h3>${escapeHtml(album.title)}</h3>
       <p>${escapeHtml(artist?.name ?? album.primaryArtistId)} · ${album.releaseYear ?? 'year unknown'} · ${escapeHtml(album.ownershipState)}</p>
-      <p class="muted">${appearances.map((item) => `${item.editionId.replace('list-rolling-stone-', 'RS ')} #${item.rank}`).join(' · ') || 'No list appearance'} · ${copies.length} physical copy record(s) · ${graphable}</p>
+      <p class="muted">${appearances.map((item) => `${item.editionId.replace('list-rolling-stone-', 'RS ')} #${item.rank}`).join(' · ') || 'No list appearance'}</p>
     </li>
   `;
+}
+
+function bindInteractions() {
+  const controls = app.querySelector('[data-testid="comparison-controls"]');
+  controls?.addEventListener('input', updateFromControls);
+  controls?.addEventListener('change', updateFromControls);
+  for (const row of app.querySelectorAll('.comparison-row')) {
+    row.addEventListener('click', () => selectAlbum(row.dataset.albumId));
+    row.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') selectAlbum(row.dataset.albumId);
+    });
+  }
+}
+
+function updateFromControls(event) {
+  const form = event.currentTarget;
+  const data = new FormData(form);
+  state.filters = {
+    search: data.get('search') ?? '',
+    editionYear: data.get('editionYear') ?? 'all',
+    editionCount: data.get('editionCount') ?? 'all',
+    metadataStatus: data.get('metadataStatus') ?? 'all',
+    musicBrainzMatchStatus: data.get('musicBrainzMatchStatus') ?? 'all'
+  };
+  state.sortKey = data.get('sortKey') ?? 'latest-rank';
+  renderApp();
+}
+
+function selectAlbum(albumId) {
+  state.selectedId = albumId;
+  renderApp();
 }
 
 function renderMessages(messages) {
@@ -79,6 +287,17 @@ function renderError(error) {
   `;
 }
 
+function option(value, label, selectedValue) {
+  return `<option value="${escapeAttribute(value)}" ${String(value) === String(selectedValue) ? 'selected' : ''}>${escapeHtml(label)}</option>`;
+}
+
+function formatList(values, limit) {
+  if (!values?.length) return 'none yet';
+  const shown = values.slice(0, limit).join(', ');
+  const remaining = values.length - limit;
+  return remaining > 0 ? `${shown} (+${remaining} more)` : shown;
+}
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll('&', '&amp;')
@@ -86,4 +305,8 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#039;');
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value).replaceAll('`', '&#096;');
 }

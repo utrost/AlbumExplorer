@@ -101,3 +101,228 @@ code {
   border-radius: 5px;
   padding: 0.1em 0.35em;
 }
+
+.lede {
+  color: #d5c9bc;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  max-width: 780px;
+}
+
+.section-heading {
+  align-items: end;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.controls {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-bottom: 18px;
+}
+
+.controls label {
+  color: #d7a86e;
+  display: grid;
+  font-size: 0.78rem;
+  font-weight: 700;
+  gap: 6px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.controls input,
+.controls select {
+  background: #17110e;
+  border: 1px solid #3a2e27;
+  border-radius: 12px;
+  color: #f5eee5;
+  font: inherit;
+  min-height: 42px;
+  padding: 0 12px;
+}
+
+.comparison-layout {
+  align-items: start;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.8fr);
+}
+
+.table-wrap {
+  border: 1px solid #332721;
+  border-radius: 16px;
+  max-height: 72vh;
+  overflow: auto;
+}
+
+.comparison-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border-bottom: 1px solid #2f241f;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.comparison-table th {
+  background: #19120f;
+  color: #d7a86e;
+  font-size: 0.76rem;
+  letter-spacing: 0.05em;
+  position: sticky;
+  text-transform: uppercase;
+  top: 0;
+  z-index: 1;
+}
+
+.comparison-row {
+  cursor: pointer;
+}
+
+.comparison-row:hover,
+.comparison-row.selected {
+  background: #2b211c;
+}
+
+.comparison-row td > span,
+.rank-cell span {
+  color: #bdaea0;
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 3px;
+}
+
+.rank-cell {
+  color: #f4c481;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.rank-badge,
+.metadata-badge {
+  background: #17110e;
+  border: 1px solid #3a2e27;
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin: 0 4px 5px 0;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+.rank-badge.empty {
+  color: #7f7167;
+}
+
+.metadata-badge.musicbrainz {
+  border-color: #6ea1d7;
+  color: #9cc8f5;
+}
+
+.metadata-badge.baseline {
+  border-color: #d7a86e;
+  color: #f2c990;
+}
+
+.detail-panel {
+  background: #17110e;
+  border: 1px solid #3a2e27;
+  border-radius: 16px;
+  padding: 18px;
+  position: sticky;
+  top: 16px;
+}
+
+.detail-artist {
+  color: #d5c9bc;
+  font-size: 1.05rem;
+}
+
+.detail-list {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.detail-list div {
+  border-top: 1px solid #332721;
+  padding-top: 10px;
+}
+
+.detail-list dt {
+  color: #d7a86e;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.detail-list dd {
+  margin: 4px 0 0;
+}
+
+.rank-history {
+  display: grid;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.rank-history li {
+  align-items: center;
+  background: #100c0a;
+  border-radius: 12px;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 50px 60px 1fr;
+  padding: 8px 10px;
+}
+
+.rank-history em {
+  color: #bdaea0;
+  font-style: normal;
+}
+
+.external-link {
+  color: #9cc8f5;
+}
+
+.table-note {
+  padding: 0 12px 12px;
+}
+
+.compact-list {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+@media (max-width: 860px) {
+  .app-shell {
+    width: min(100% - 20px, 980px);
+    padding: 28px 0;
+  }
+
+  .panel {
+    padding: 16px;
+  }
+
+  .section-heading,
+  .comparison-layout {
+    display: block;
+  }
+
+  .detail-panel {
+    margin-top: 16px;
+    position: static;
+  }
+
+  .comparison-table {
+    min-width: 760px;
+  }
+}

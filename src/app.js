@@ -1,6 +1,7 @@
 import { validateCollection } from './data/validator.js';
 import { buildIndexes } from './data/indexes.js';
 import { buildEnrichedComparisonRows, filterRows, sortRows } from './data/enriched-comparison.js';
+import { buildAlbumRelationships, getRelatedAlbums } from './data/derived-relationships.js';
 
 const app = document.querySelector('#app');
 const state = {
@@ -11,6 +12,7 @@ const state = {
   validation: null,
   indexes: null,
   sourceCandidates: null,
+  relationships: null,
   filters: {
     search: '',
     editionYear: 'all',
@@ -38,6 +40,7 @@ async function start() {
     state.indexes = indexes;
     state.sourceCandidates = sourceCandidates;
     state.rows = buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates });
+    state.relationships = buildAlbumRelationships(state.rows, { minimumWeight: 2.0 });
     state.selectedId = state.rows[0]?.id ?? null;
     renderApp();
   } catch (error) {
@@ -65,6 +68,7 @@ function renderApp() {
   state.filteredRows = sortRows(filterRows(state.rows, state.filters), state.sortKey);
   const selected = state.filteredRows.find((row) => row.id === state.selectedId) ?? state.filteredRows[0] ?? state.rows[0];
   state.selectedId = selected?.id ?? null;
+  const relatedAlbums = selected ? getRelatedAlbums(selected.id, state.rows, state.relationships, { limit: 6 }) : [];
 
   app.innerHTML = `
     <header class="hero">
@@ -80,6 +84,7 @@ function renderApp() {
         <li><strong>${musicBrainzCount}</strong><span>MusicBrainz matched</span></li>
         <li><strong>${baselineCount}</strong><span>Rolling Stone baseline</span></li>
         <li><strong>${fourEditionCount}</strong><span>in all 4 editions</span></li>
+        <li><strong>${state.relationships.length}</strong><span>explainable relationships</span></li>
         <li><strong>${sourceCandidates.review?.length ?? 0}</strong><span>MB review</span></li>
         <li><strong>${sourceCandidates.gaps?.length ?? 0}</strong><span>MB gaps</span></li>
       </ul>
@@ -99,7 +104,7 @@ function renderApp() {
         <div class="table-wrap">
           ${renderComparisonTable(state.filteredRows.slice(0, 250))}
         </div>
-        ${selected ? renderAlbumDetail(selected) : '<aside class="detail-panel"><p>No album selected.</p></aside>'}
+        ${selected ? renderAlbumDetail(selected, relatedAlbums) : '<aside class="detail-panel"><p>No album selected.</p></aside>'}
       </div>
     </section>
 
@@ -198,7 +203,7 @@ function renderComparisonRow(row) {
   `;
 }
 
-function renderAlbumDetail(row) {
+function renderAlbumDetail(row, relatedAlbums = []) {
   return `
     <aside class="detail-panel" data-testid="album-detail">
       <p class="eyebrow">Selected album</p>
@@ -215,8 +220,29 @@ function renderAlbumDetail(row) {
       <ol class="rank-history">
         ${row.appearances.map((appearance) => `<li><strong>${appearance.editionYear}</strong><span>#${appearance.rank}</span><em>${escapeHtml(appearance.label ?? '')}</em></li>`).join('')}
       </ol>
+      <h3>Related albums</h3>
+      ${renderRelatedAlbums(relatedAlbums)}
       ${row.musicBrainzUrl ? `<p><a class="external-link" href="${escapeAttribute(row.musicBrainzUrl)}" target="_blank" rel="noreferrer">Open MusicBrainz release group</a></p>` : '<p class="muted">No MusicBrainz release-group link yet.</p>'}
     </aside>
+  `;
+}
+
+function renderRelatedAlbums(relatedAlbums) {
+  if (relatedAlbums.length === 0) return '<p class="muted" data-testid="related-albums">No strong relationships yet.</p>';
+  return `
+    <ol class="related-albums" data-testid="related-albums">
+      ${relatedAlbums.map(({ album, relationship }) => `
+        <li>
+          <button type="button" data-related-album-id="${escapeAttribute(album.id)}">
+            <strong>${escapeHtml(album.album)}</strong>
+            <span>${escapeHtml(album.artist)} · weight ${relationship.weight}</span>
+          </button>
+          <ul>
+            ${relationship.explanations.slice(0, 3).map((explanation) => `<li>${escapeHtml(explanation)}</li>`).join('')}
+          </ul>
+        </li>
+      `).join('')}
+    </ol>
   `;
 }
 
@@ -252,6 +278,9 @@ function bindInteractions() {
     row.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') selectAlbum(row.dataset.albumId);
     });
+  }
+  for (const button of app.querySelectorAll('[data-related-album-id]')) {
+    button.addEventListener('click', () => selectAlbum(button.dataset.relatedAlbumId));
   }
 }
 

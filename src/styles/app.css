@@ -268,7 +268,8 @@ code {
   margin: 4px 0 0;
 }
 
-.rank-history {
+.rank-history,
+.related-albums {
   display: grid;
   gap: 8px;
   list-style: none;
@@ -288,6 +289,40 @@ code {
 .rank-history em {
   color: #bdaea0;
   font-style: normal;
+}
+
+.related-albums > li {
+  background: #100c0a;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.related-albums button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: grid;
+  font: inherit;
+  gap: 3px;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.related-albums button:hover strong {
+  color: #f4c481;
+}
+
+.related-albums span,
+.related-albums ul {
+  color: #bdaea0;
+  font-size: 0.82rem;
+}
+
+.related-albums ul {
+  margin: 8px 0 0 1em;
+  padding: 0;
 }
 
 .external-link {

@@ -1,0 +1,78 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { buildAlbumRelationships, getRelatedAlbums } from '../../src/data/derived-relationships.js';
+
+const rows = [
+  {
+    id: 'album-a',
+    artist: 'Artist A',
+    album: 'Album A',
+    releaseYear: 1971,
+    labels: ['Motown'],
+    genres: ['soul', 'funk'],
+    ranks: { 2003: 10, 2024: 1 },
+    appearances: [
+      { editionYear: 2003, rank: 10 },
+      { editionYear: 2024, rank: 1 }
+    ]
+  },
+  {
+    id: 'album-b',
+    artist: 'Artist B',
+    album: 'Album B',
+    releaseYear: 1972,
+    labels: ['Motown'],
+    genres: ['soul'],
+    ranks: { 2024: 2 },
+    appearances: [{ editionYear: 2024, rank: 2 }]
+  },
+  {
+    id: 'album-c',
+    artist: 'Artist C',
+    album: 'Album C',
+    releaseYear: 1997,
+    labels: ['Parlophone'],
+    genres: ['alternative rock'],
+    ranks: { 2024: 3 },
+    appearances: [{ editionYear: 2024, rank: 3 }]
+  }
+];
+
+test('builds deterministic explainable relationships from shared metadata and list appearances', () => {
+  const relationships = buildAlbumRelationships(rows);
+
+  const ab = relationships.find((relationship) => relationship.from === 'album-a' && relationship.to === 'album-b');
+  assert.ok(ab, 'expected a relationship from album-a to album-b');
+  assert.equal(ab.pairKey, 'album-a::album-b');
+  assert.equal(ab.weight, 5.1);
+  assert.deepEqual(ab.types, ['shared-label', 'shared-genre', 'same-list-edition', 'adjacent-release-period']);
+  assert.deepEqual(ab.explanations, [
+    'Both albums are connected through the label Motown.',
+    'Both albums share the genre/tag soul.',
+    'Both albums appear in the 2024 Rolling Stone 500.',
+    'Both albums were released within 1 year of each other.'
+  ]);
+});
+
+test('orders related albums by relationship weight and keeps reverse lookup explainable', () => {
+  const relationships = buildAlbumRelationships(rows);
+  const related = getRelatedAlbums('album-b', rows, relationships, { limit: 2 });
+
+  assert.equal(related.length, 2);
+  assert.equal(related[0].album.id, 'album-a');
+  assert.equal(related[0].relationship.weight, 5.1);
+  assert.equal(related[0].relationship.direction, 'reverse');
+  assert.match(related[0].relationship.explanations.join(' '), /label Motown/);
+  assert.equal(related[1].album.id, 'album-c');
+  assert.deepEqual(related[1].relationship.types, ['same-list-edition']);
+});
+
+test('omits weak genre-only relationships unless they meet the minimum weight', () => {
+  const genreOnlyRows = [
+    { id: 'album-a', artist: 'Artist A', album: 'Album A', labels: [], genres: ['rock'], ranks: {}, appearances: [] },
+    { id: 'album-d', artist: 'Artist D', album: 'Album D', labels: [], genres: ['rock'], ranks: {}, appearances: [] }
+  ];
+
+  assert.deepEqual(buildAlbumRelationships(genreOnlyRows), []);
+  assert.deepEqual(buildAlbumRelationships(genreOnlyRows, { minimumWeight: 0.5 }).map((relationship) => relationship.types), [['shared-genre']]);
+});

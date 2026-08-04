@@ -9,15 +9,18 @@ test('static shell loads the AlbumExplorer app module', () => {
   assert.match(html, /<script type="module" src="\.\/src\/app\.js"><\/script>/);
 });
 
-test('static app exposes comparison browser controls and metadata markers', () => {
+test('static app exposes comparison browser controls, metadata markers, and related albums', () => {
   const app = readFileSync('src/app.js', 'utf8');
 
   assert.match(app, /rolling-stone-comparison\.json/);
   assert.match(app, /album-metadata-candidates\.json/);
   assert.match(app, /album-metadata-source-candidates\.json/);
+  assert.match(app, /derived-relationships\.js/);
   assert.match(app, /data-testid="comparison-search"/);
   assert.match(app, /data-testid="edition-filter"/);
   assert.match(app, /data-testid="metadata-filter"/);
+  assert.match(app, /data-testid="related-albums"/);
+  assert.match(app, /Related albums/);
   assert.match(app, /MusicBrainz/);
 });
 

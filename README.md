@@ -19,7 +19,8 @@ The project now has a first executable file-first slice:
 - Generated Rolling Stone comparison dataset with approved alias review for stable cross-edition album identities.
 - Reviewable album metadata enrichment workflow that keeps candidates, overrides, and review gaps outside the canonical collection until accepted.
 - MusicBrainz release-group importer with cached raw API responses and external source candidates for 553 of 760 comparison albums.
-- Static Rolling Stone comparison browser for 760 album identities with search, filters, rank history, metadata status, and album detail panel.
+- Static Rolling Stone comparison browser for 760 album identities with search, filters, rank history, metadata status, album detail panel, and explainable related-album suggestions.
+- Deterministic derived relationship layer for shared labels, genres/tags, list editions, and adjacent release periods.
 - GitHub Pages deployment workflow for the static app.
 - Plain static browser page that loads the seed data and lists albums with validation status.
 - Node test suite for importer, validator, indexes, and static shell.

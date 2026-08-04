@@ -54,7 +54,7 @@ Goal: turn the specification-only repo into a usable project skeleton without co
 
 ## Phase 1 — Canonical data seed and schema contract
 
-Goal: make the file-first data model real with a deliberately tiny, inspectable dataset.
+Goal: make the file-first data model real with a deliberately tiny, inspectable dataset. Use [`data-spec.md`](data-spec.md) as the contract for what to collect, how to structure it, and which metadata is MVP versus enrichment.
 
 ### Deliverables
 

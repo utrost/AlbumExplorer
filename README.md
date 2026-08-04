@@ -9,6 +9,7 @@ Expected collection size: Fewer than 1,000 albums
 
 Planning documents:
 - Roadmap / phases: docs/roadmap.md
+- Data specification: docs/data-spec.md
 
 1. Purpose
 AlbumExplorer is a browser-based application for exploring a personal vinyl collection as a network of albums, artists, people, places, lists, and musical relationships.

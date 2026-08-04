@@ -6,6 +6,10 @@ Project type: Static web application
 Primary platform: Modern desktop and mobile browsers
 Backend: None
 Expected collection size: Fewer than 1,000 albums
+
+Planning documents:
+- Roadmap / phases: docs/roadmap.md
+
 1. Purpose
 AlbumExplorer is a browser-based application for exploring a personal vinyl collection as a network of albums, artists, people, places, lists, and musical relationships.
 The initial focus is a collection based on the various editions of Rolling Stone magazine’s “500 Greatest Albums of All Time” list. An album may appear in one or more editions, at different positions, or may be absent from some editions entirely.

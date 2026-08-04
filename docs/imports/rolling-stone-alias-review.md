@@ -86,10 +86,10 @@ The command writes:
 ## Current seed result
 
 ```text
-Approved aliases loaded: 20
-Aliases applied: 23
-Possible duplicates: 9
-Comparison albums: 769
+Approved aliases loaded: 29
+Aliases applied: 38
+Possible duplicates: 0
+Comparison albums: 763
 ```
 
 All four editions still retain 500 rank appearances each.

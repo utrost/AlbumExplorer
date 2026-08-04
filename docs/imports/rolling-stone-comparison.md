@@ -54,10 +54,10 @@ Negative deltas mean the album moved upward toward rank 1. Positive deltas mean 
 ## Generation result
 
 ```text
-comparison albums=769
-approved aliases loaded=20
-aliases applied=23
-possible duplicate candidates=9
+comparison albums=763
+approved aliases loaded=29
+aliases applied=38
+possible duplicate candidates=0
 2003 ranked albums=500
 2012 ranked albums=500
 2020 ranked albums=500
@@ -67,10 +67,10 @@ possible duplicate candidates=9
 Coverage by number of editions:
 
 ```text
-1 edition: 131 albums
-2 editions: 320 albums
-3 editions: 43 albums
-4 editions: 275 albums
+1 edition: 124 albums
+2 editions: 321 albums
+3 editions: 38 albums
+4 editions: 280 albums
 ```
 
 ## Matching rules

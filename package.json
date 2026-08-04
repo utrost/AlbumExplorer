@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "import:rolling-stone": "node scripts/import-rolling-stone-csv.js data/imports/rolling-stone-top-500.csv data/collection.json --limit 20"
+    "import:rolling-stone": "node scripts/import-rolling-stone-csv.js data/imports/rolling-stone-top-500.csv data/collection.json --limit 20",
+    "enrich:discogs": "node scripts/enrich-discogs.js data/collection.json data/collection.discogs.json"
   }
 }

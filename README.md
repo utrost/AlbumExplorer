@@ -13,6 +13,7 @@ This is not meant to become only a catalogue. The interesting question is:
 The project now has a first executable file-first slice:
 
 - Node-based Rolling Stone CSV importer.
+- Optional Discogs enrichment script for imported master-release metadata, genres/styles, and cover candidates.
 - Normalized `data/collection.json` seed generated from the first 20 CSV rows.
 - Collection validator that separates fatal errors from warnings and metadata gaps.
 - Lookup index builder.
@@ -24,6 +25,7 @@ The project now has a first executable file-first slice:
 ```bash
 npm test
 npm run import:rolling-stone
+npm run enrich:discogs
 python3 -m http.server 4173
 ```
 

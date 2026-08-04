@@ -853,7 +853,7 @@ Keep important structured facts in JSON too. Notes are for context, interpretati
 
 ## Covers and media files
 
-Cover paths should be relative to the repository root:
+Cover paths should be relative to the repository root when a local cover has been deliberately accepted:
 
 ```json
 {
@@ -861,13 +861,34 @@ Cover paths should be relative to the repository root:
 }
 ```
 
+Imported sources such as Discogs may first provide cover candidates instead of canonical local covers:
+
+```json
+{
+  "cover": null,
+  "coverCandidates": [
+    {
+      "source": "discogs",
+      "type": "primary",
+      "url": "https://i.discogs.com/...jpeg",
+      "thumbnailUrl": "https://i.discogs.com/...jpeg",
+      "width": 600,
+      "height": 600,
+      "confidence": "imported"
+    }
+  ]
+}
+```
+
 Guidelines:
 
 - Covers are optional for MVP.
 - Missing cover files should warn, not block the app.
-- Prefer local files for data ownership.
+- Prefer local files for data ownership once a cover is accepted.
+- Keep imported cover candidates separate from canonical local cover paths.
 - Preserve source/copyright notes where appropriate.
-- Do not hotlink third-party cover images in canonical data unless deliberately accepted.
+- Do not commit downloaded third-party cover images to the public repository unless rights and project policy are clear.
+- Downloaded covers should start as local ignored cache files, then be reviewed separately.
 
 ## How to provide data manually
 

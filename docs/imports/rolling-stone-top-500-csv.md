@@ -317,15 +317,12 @@ Do not generate graph relationships from this CSV beyond `appears-in-list` and b
 
 ## Recommended immediate next implementation step
 
-Use this CSV as the first importer/validator exercise:
+A first version now exists: the CSV importer creates `data/collection.json`, and `scripts/enrich-discogs.js` can enrich that seed from Discogs master records into ignored draft output at `data/collection.discogs.json`.
 
-1. Stage the CSV as source data.
-2. Write a small importer that parses rows and emits normalized draft JSON.
-3. Write validator tests against the draft:
-   - no duplicate generated album IDs;
-   - no duplicate numeric 2020 ranks after ignoring `-`;
-   - duplicate 2012 ranks reported as warnings;
-   - suspicious year `73` reported as warning;
-   - missing Discogs links reported as completeness gaps;
-   - `#REF!` image values ignored.
-4. Use a subset of 10–20 imported rows as `data/collection.json` for the first browser prototype.
+The next implementation steps are:
+
+1. Decide whether Discogs-enriched genres/styles should be promoted into canonical `data/collection.json` or remain a generated draft.
+2. Add a small review UI or report for imported Discogs fields.
+3. Confirm ownership semantics for blank and CD-only rows.
+4. Expand the seed beyond the first 20 rows only after duplicate-rank and suspicious-year handling is clear.
+5. Add richer graph metadata from another source or manual curation, because Discogs master data alone does not reliably provide studios/producers/contributor-role relationships.

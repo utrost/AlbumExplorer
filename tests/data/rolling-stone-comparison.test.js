@@ -87,6 +87,32 @@ test('applies approved album aliases before comparison rows are merged', () => {
   assert.equal(comparison.albums[0].aliasesApplied.length, 1);
 });
 
+test('applies aliases to variants with explicitly missing release year', () => {
+  const comparison = buildRollingStoneComparison([
+    {
+      editionId: 'list-rolling-stone-2003',
+      rows: [{ rank: 252, artist: 'Jay-Z', album: 'The Blueprint', year: null }]
+    },
+    {
+      editionId: 'list-rolling-stone-2012',
+      rows: [{ rank: 252, artist: 'Jay-Z', album: 'The Blueprint', year: 2001 }]
+    }
+  ], {
+    aliases: [
+      {
+        canonicalArtist: 'Jay-Z',
+        canonicalAlbum: 'The Blueprint',
+        releaseYear: 2001,
+        variants: [{ artist: 'Jay-Z', album: 'The Blueprint', year: null }]
+      }
+    ]
+  });
+
+  assert.equal(comparison.albumCount, 1);
+  assert.equal(comparison.albums[0].id, 'album-jay-z-the-blueprint-2001');
+  assert.deepEqual(comparison.albums[0].ranks, { '2003': 252, '2012': 252 });
+});
+
 test('finds likely duplicate identities for human review without applying them silently', () => {
   const candidates = findRollingStoneDuplicateCandidates([
     {

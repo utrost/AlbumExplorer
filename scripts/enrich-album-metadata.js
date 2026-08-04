@@ -4,7 +4,8 @@ import { join } from 'node:path';
 import { buildAlbumMetadataEnrichment, importedCandidatesFromComparison } from '../src/data/album-metadata-enrichment.js';
 
 const [, , comparisonPath = 'data/rolling-stone-comparison.json', outputDir = 'data/enrichment', ...args] = process.argv;
-const limit = Number(option(args, '--limit') ?? 50);
+const limitOption = option(args, '--limit');
+const limit = limitOption ? Number(limitOption) : null;
 const sourceCandidatesPath = join(outputDir, 'album-metadata-source-candidates.json');
 const overridesPath = join(outputDir, 'album-metadata-overrides.json');
 const candidatesPath = join(outputDir, 'album-metadata-candidates.json');
@@ -27,7 +28,7 @@ ensureJsonFile(sourceCandidatesPath, {
 
 const overridesData = JSON.parse(readFileSync(overridesPath, 'utf8'));
 const sourceCandidateData = JSON.parse(readFileSync(sourceCandidatesPath, 'utf8'));
-const selectedAlbums = comparison.albums.slice(0, limit);
+const selectedAlbums = limit ? comparison.albums.slice(0, limit) : comparison.albums;
 const importedCandidates = importedCandidatesFromComparison({ albums: selectedAlbums });
 const sourceCandidates = [...importedCandidates, ...(sourceCandidateData.candidates ?? [])];
 const enrichment = buildAlbumMetadataEnrichment({
@@ -42,7 +43,7 @@ const candidatesOutput = {
   generatedAt: null,
   comparisonPath,
   scope: {
-    selection: `first ${limit} comparison albums sorted by latest edition rank`,
+    selection: limit ? `first ${limit} comparison albums sorted by latest edition rank` : 'all comparison albums sorted by latest edition rank',
     albumCount: selectedAlbums.length
   },
   sourceCandidateInputs: [

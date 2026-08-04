@@ -13,7 +13,7 @@
     "list-rolling-stone-2020",
     "list-rolling-stone-2024"
   ],
-  "albumCount": 763,
+  "albumCount": 760,
   "aliasesAppliedCount": 38,
   "albums": [
     {
@@ -3495,27 +3495,42 @@
       "album": "The Blueprint",
       "releaseYear": 2001,
       "ranks": {
+        "2003": 252,
         "2012": 252,
         "2020": 50,
         "2024": 50
       },
       "rankDeltas": {
+        "2003To2012": 0,
         "2012To2020": -202,
         "2020To2024": 0
       },
       "aliasesApplied": [
         {
-          "key": "alias-jay-z-the-blueprint-2001:Jay-Z:The Blueprint:2001",
+          "key": "alias-jay-z-the-blueprint-2001:Jay-Z:The Blueprint:",
           "aliasId": "alias-jay-z-the-blueprint-2001",
           "listedArtist": "Jay-Z",
           "listedAlbum": "The Blueprint",
-          "listedYear": 2001,
+          "listedYear": null,
           "canonicalArtist": "Jay-Z",
           "canonicalAlbum": "The Blueprint",
           "canonicalYear": 2001
         }
       ],
       "appearances": [
+        {
+          "editionId": "list-rolling-stone-2003",
+          "editionYear": 2003,
+          "rank": 252,
+          "listedArtist": "Jay-Z",
+          "listedAlbum": "The Blueprint",
+          "artist": "Jay-Z",
+          "album": "The Blueprint",
+          "label": null,
+          "year": null,
+          "canonicalYear": 2001,
+          "aliasApplied": "alias-jay-z-the-blueprint-2001"
+        },
         {
           "editionId": "list-rolling-stone-2012",
           "editionYear": 2012,
@@ -3527,7 +3542,7 @@
           "label": null,
           "year": 2001,
           "canonicalYear": 2001,
-          "aliasApplied": "alias-jay-z-the-blueprint-2001"
+          "aliasApplied": null
         },
         {
           "editionId": "list-rolling-stone-2020",
@@ -3540,7 +3555,7 @@
           "label": null,
           "year": 2001,
           "canonicalYear": 2001,
-          "aliasApplied": "alias-jay-z-the-blueprint-2001"
+          "aliasApplied": null
         },
         {
           "editionId": "list-rolling-stone-2024",
@@ -3553,7 +3568,7 @@
           "label": "Roc-A-Fella",
           "year": 2001,
           "canonicalYear": 2001,
-          "aliasApplied": "alias-jay-z-the-blueprint-2001"
+          "aliasApplied": null
         }
       ]
     },
@@ -14275,27 +14290,42 @@
       "album": "CrazySexyCool",
       "releaseYear": 1994,
       "ranks": {
+        "2003": 379,
         "2012": 379,
         "2020": 218,
         "2024": 218
       },
       "rankDeltas": {
+        "2003To2012": 0,
         "2012To2020": -161,
         "2020To2024": 0
       },
       "aliasesApplied": [
         {
-          "key": "alias-tlc-crazysexycool-1994:TLC:CrazySexyCool:1994",
+          "key": "alias-tlc-crazysexycool-1994:TLC:CrazySexyCool:",
           "aliasId": "alias-tlc-crazysexycool-1994",
           "listedArtist": "TLC",
           "listedAlbum": "CrazySexyCool",
-          "listedYear": 1994,
+          "listedYear": null,
           "canonicalArtist": "TLC",
           "canonicalAlbum": "CrazySexyCool",
           "canonicalYear": 1994
         }
       ],
       "appearances": [
+        {
+          "editionId": "list-rolling-stone-2003",
+          "editionYear": 2003,
+          "rank": 379,
+          "listedArtist": "TLC",
+          "listedAlbum": "CrazySexyCool",
+          "artist": "TLC",
+          "album": "CrazySexyCool",
+          "label": null,
+          "year": null,
+          "canonicalYear": 1994,
+          "aliasApplied": "alias-tlc-crazysexycool-1994"
+        },
         {
           "editionId": "list-rolling-stone-2012",
           "editionYear": 2012,
@@ -14307,7 +14337,7 @@
           "label": null,
           "year": 1994,
           "canonicalYear": 1994,
-          "aliasApplied": "alias-tlc-crazysexycool-1994"
+          "aliasApplied": null
         },
         {
           "editionId": "list-rolling-stone-2020",
@@ -14320,7 +14350,7 @@
           "label": null,
           "year": 1994,
           "canonicalYear": 1994,
-          "aliasApplied": "alias-tlc-crazysexycool-1994"
+          "aliasApplied": null
         },
         {
           "editionId": "list-rolling-stone-2024",
@@ -14333,7 +14363,7 @@
           "label": "LaFace",
           "year": 1994,
           "canonicalYear": 1994,
-          "aliasApplied": "alias-tlc-crazysexycool-1994"
+          "aliasApplied": null
         }
       ]
     },
@@ -33454,32 +33484,6 @@
       ]
     },
     {
-      "id": "album-jay-z-the-blueprint",
-      "artist": "Jay-Z",
-      "album": "The Blueprint",
-      "releaseYear": null,
-      "ranks": {
-        "2003": 252
-      },
-      "rankDeltas": {},
-      "aliasesApplied": [],
-      "appearances": [
-        {
-          "editionId": "list-rolling-stone-2003",
-          "editionYear": 2003,
-          "rank": 252,
-          "listedArtist": "Jay-Z",
-          "listedAlbum": "The Blueprint",
-          "artist": "Jay-Z",
-          "album": "The Blueprint",
-          "label": null,
-          "year": null,
-          "canonicalYear": null,
-          "aliasApplied": null
-        }
-      ]
-    },
-    {
       "id": "album-bruce-springsteen-the-river-1980",
       "artist": "Bruce Springsteen",
       "album": "The River",
@@ -36303,32 +36307,6 @@
       ]
     },
     {
-      "id": "album-tlc-crazysexycool",
-      "artist": "TLC",
-      "album": "CrazySexyCool",
-      "releaseYear": null,
-      "ranks": {
-        "2003": 379
-      },
-      "rankDeltas": {},
-      "aliasesApplied": [],
-      "appearances": [
-        {
-          "editionId": "list-rolling-stone-2003",
-          "editionYear": 2003,
-          "rank": 379,
-          "listedArtist": "TLC",
-          "listedAlbum": "CrazySexyCool",
-          "artist": "TLC",
-          "album": "CrazySexyCool",
-          "label": null,
-          "year": null,
-          "canonicalYear": null,
-          "aliasApplied": null
-        }
-      ]
-    },
-    {
       "id": "album-beach-boys-smile-2011-version-2011",
       "artist": "The Beach Boys",
       "album": "Smile (2011 Version)",
@@ -38197,15 +38175,29 @@
       ]
     },
     {
-      "id": "album-elton-john-tumbleweed-connection",
+      "id": "album-elton-john-tumbleweed-connection-1970",
       "artist": "Elton John",
       "album": "Tumbleweed Connection",
-      "releaseYear": null,
+      "releaseYear": 1970,
       "ranks": {
-        "2003": 458
+        "2003": 458,
+        "2012": 458
       },
-      "rankDeltas": {},
-      "aliasesApplied": [],
+      "rankDeltas": {
+        "2003To2012": 0
+      },
+      "aliasesApplied": [
+        {
+          "key": "alias-elton-john-tumbleweed-connection-1970:Elton John:Tumbleweed Connection:",
+          "aliasId": "alias-elton-john-tumbleweed-connection-1970",
+          "listedArtist": "Elton John",
+          "listedAlbum": "Tumbleweed Connection",
+          "listedYear": null,
+          "canonicalArtist": "Elton John",
+          "canonicalAlbum": "Tumbleweed Connection",
+          "canonicalYear": 1970
+        }
+      ],
       "appearances": [
         {
           "editionId": "list-rolling-stone-2003",
@@ -38217,33 +38209,9 @@
           "album": "Tumbleweed Connection",
           "label": null,
           "year": null,
-          "canonicalYear": null,
-          "aliasApplied": null
-        }
-      ]
-    },
-    {
-      "id": "album-elton-john-tumbleweed-connection-1970",
-      "artist": "Elton John",
-      "album": "Tumbleweed Connection",
-      "releaseYear": 1970,
-      "ranks": {
-        "2012": 458
-      },
-      "rankDeltas": {},
-      "aliasesApplied": [
-        {
-          "key": "alias-elton-john-tumbleweed-connection-1970:Elton John:Tumbleweed Connection:1970",
-          "aliasId": "alias-elton-john-tumbleweed-connection-1970",
-          "listedArtist": "Elton John",
-          "listedAlbum": "Tumbleweed Connection",
-          "listedYear": 1970,
-          "canonicalArtist": "Elton John",
-          "canonicalAlbum": "Tumbleweed Connection",
-          "canonicalYear": 1970
-        }
-      ],
-      "appearances": [
+          "canonicalYear": 1970,
+          "aliasApplied": "alias-elton-john-tumbleweed-connection-1970"
+        },
         {
           "editionId": "list-rolling-stone-2012",
           "editionYear": 2012,
@@ -38255,7 +38223,7 @@
           "label": null,
           "year": 1970,
           "canonicalYear": 1970,
-          "aliasApplied": "alias-elton-john-tumbleweed-connection-1970"
+          "aliasApplied": null
         }
       ]
     },

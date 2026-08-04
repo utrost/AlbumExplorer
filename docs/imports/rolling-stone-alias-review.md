@@ -89,7 +89,7 @@ The command writes:
 Approved aliases loaded: 29
 Aliases applied: 38
 Possible duplicates: 0
-Comparison albums: 763
+Comparison albums: 760
 ```
 
 All four editions still retain 500 rank appearances each.

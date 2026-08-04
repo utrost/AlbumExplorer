@@ -20,7 +20,7 @@ This workflow attaches reviewable metadata candidates to stable AlbumExplorer al
 
 ## Current scope
 
-The first slice enriches the first 50 albums from `data/rolling-stone-comparison.json`, sorted by latest edition rank.
+The first slice enriches all albums from `data/rolling-stone-comparison.json`, sorted by latest edition rank.
 
 ```text
 npm run enrich:album-metadata
@@ -29,13 +29,13 @@ npm run enrich:album-metadata
 Current generated result:
 
 ```text
-Album metadata scope: 50 albums
-Metadata candidates: 50
+Album metadata scope: 760 albums
+Metadata candidates: 760
 Manual review: 0
 Metadata gaps: 0
 ```
 
-All 50 current candidates are sourced from existing Rolling Stone imported labels/years only. They are useful as a baseline, not as verified complete metadata.
+All current candidates are sourced from existing Rolling Stone imported labels/years only. They are useful as a baseline, not as verified complete metadata.
 
 ## Output files
 
@@ -115,7 +115,7 @@ The first matcher is deliberately strict:
 npm run enrich:album-metadata
 ```
 
-Optional CLI shape:
+Optional limited CLI shape:
 
 ```bash
 node scripts/enrich-album-metadata.js data/rolling-stone-comparison.json data/enrichment --limit 100

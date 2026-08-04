@@ -135,12 +135,18 @@ function buildAliasIndex(aliases) {
     for (const variant of alias.variants ?? []) {
       const artist = clean(variant.artist);
       const album = clean(variant.album);
-      const year = normalizeYear(variant.year ?? variant.releaseYear ?? releaseYear);
+      const year = normalizeYear(explicitVariantYear(variant, releaseYear));
       if (!artist || !album) continue;
       index.set(identityFor({ artist, album, year }).key, canonical);
     }
   }
   return index;
+}
+
+function explicitVariantYear(variant, fallbackYear) {
+  if (Object.hasOwn(variant, 'year')) return variant.year;
+  if (Object.hasOwn(variant, 'releaseYear')) return variant.releaseYear;
+  return fallbackYear;
 }
 
 function rowIdentity(parsedImport, row) {

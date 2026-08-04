@@ -1,0 +1,3066 @@
+{
+  "albumId": "album-beatles-hard-days-night-1964",
+  "query": "artist:\"The Beatles\" AND releasegroup:\"Hard Day's Night\" AND firstreleasedate:1964",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Beatles%22%20AND%20releasegroup%3A%22Hard%20Day's%20Night%22%20AND%20firstreleasedate%3A1964&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:46:08.658Z",
+  "count": 5,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "06281c4d-112d-33b0-a25b-df63b420eae7",
+      "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 82,
+      "title": "A Hard Day’s Night",
+      "first-release-date": "1964-06-26",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Soundtrack"
+      ],
+      "secondary-type-ids": [
+        "22a628ad-c082-3c4f-b1b6-d41665107b88"
+      ],
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6ea0fc24-bd05-4be5-92d9-95c0553ad994",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "a55e1a5a-6861-404c-90d8-199b6f0f6aee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "d56b037e-fb4e-439e-887b-b5aa9e617e9a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "c0995a15-c829-499e-bdd2-4212ccf9bc80",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "19e7d71e-0e2a-4438-bce1-548eb64ae75b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "914a0c0b-d60d-4e75-b3a7-90160b3fe437",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day's Night",
+          "status": "Official"
+        },
+        {
+          "id": "422bd541-66fc-4c2b-b946-77e5fb6ddc1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "99c76b3d-053f-4179-99c7-e7cd163d8d1a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day's Night",
+          "status": "Official"
+        },
+        {
+          "id": "fd9cd3f9-b559-429d-b473-5ee665f61acc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day's Night",
+          "status": "Official"
+        },
+        {
+          "id": "9ad68b62-b1bf-485c-8a06-f5e994553e10",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day's Night",
+          "status": "Official"
+        },
+        {
+          "id": "58e9173b-8ceb-4be7-90ce-521a815b3b1e",
+          "title": "A Hard Day's Night"
+        },
+        {
+          "id": "501bcb13-309d-492b-afb2-cfa8b87e9830",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night: Remixed",
+          "status": "Bootleg"
+        },
+        {
+          "id": "55c34997-541b-4f9f-9f22-1d437dad5fe4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "f6ed8c25-45c5-402f-a52f-8f067d946343",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "fe6fb4b1-a286-4a47-bf0b-3384a177571b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "9b1a2a30-9816-4839-8b93-e23812785d57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "6dec6309-19cb-4a84-8aa2-f693268dcada",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "ef121e85-359a-49c8-b0c6-cad053ec372a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "0884a16b-7fa3-43c6-9645-6807936a4bc1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "2b29a20a-d635-4496-99d3-76a6055cce28",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "6292b85a-9eeb-436e-808b-312ef422572c",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night",
+          "status": "Bootleg"
+        },
+        {
+          "id": "5d8563c8-2d7e-3bd1-aabe-714aa96224d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "57d6e169-df6f-3c29-b8bb-3bd43bb7aea2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "4fe1d58c-cf25-45c6-8735-08f1e0b58b8a",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night",
+          "status": "Bootleg"
+        },
+        {
+          "id": "ec06b1ee-4ce2-4333-acdd-7c69992f42f0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "76edcfd3-6cc0-4f04-b529-edd7ba7534e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "8d9da26d-5f4e-44a3-92e8-595a8ad86ec0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Yeah! Yeah! Yeah! - A Hard Day’s Night - Originals From The United Artists' Picture",
+          "status": "Official"
+        },
+        {
+          "id": "b8df010f-a68b-4655-aef9-0aeca6673422",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "a19c1515-566b-4b42-a0b3-c9515c7ca411",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "3e7ab63d-c9f2-43cd-99c0-1fb495c4c20b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "431c0394-9b99-4a99-a0bd-c24a79807529",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "138daafc-3def-3035-89f0-d61a5ece5b37",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "b4254f80-eac1-4eb8-bc6a-5dc5f0c56edd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "246a4e74-1a59-4842-92af-a331567b8b86",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Bootleg"
+        },
+        {
+          "id": "bf8f34ad-1f06-48a6-9a36-508dda0dd00b",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Bootleg"
+        },
+        {
+          "id": "e620e7b8-994b-4967-a424-cf1ccc284239",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "34f145c1-7d31-40e4-9d3c-1fb9ed497495",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "98cc1788-f68e-4a47-8ead-c1d1f3653fba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "2c134450-9bfc-43fe-9d7c-e651ca4193be",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "aa0ed3b0-c0f5-4b40-9bfb-516730280416",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "05e38f9b-ab58-4966-8b45-35481cf2f5eb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "d13999d2-aa06-48c2-bcb1-c391eb7d0d49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "09f82d30-2d77-4475-b74f-8628d10fd9d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "f0423e6b-2886-4e90-a60c-10f400b3f672",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "e343b718-d146-4d53-98eb-dcedf5657830",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "43acd122-c4ad-4170-8a87-0f54ecc9cbb0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "716ce93c-33f8-4bf5-96d3-1463824595b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "9de8ab50-70fa-36ed-93ee-89e65336d62b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Official"
+        },
+        {
+          "id": "6503ef17-7e2b-463f-a944-461f225bf877",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night",
+          "status": "Bootleg"
+        },
+        {
+          "id": "7440791a-f405-4624-b445-e41f24ec6c8a",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "A Hard Day’s Night: Original Motion Picture Sound Track",
+          "status": "Promotion"
+        },
+        {
+          "id": "ad612f73-fba0-4af5-a993-a3ab9f6cff30",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night",
+          "status": "Bootleg"
+        },
+        {
+          "id": "cbec3db2-9763-4ec7-85e1-fd935adc886e",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night",
+          "status": "Bootleg"
+        },
+        {
+          "id": "ba244228-4e27-46b3-acca-3eb365e8a36f",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night",
+          "status": "Bootleg"
+        },
+        {
+          "id": "88ca4596-5790-49b1-881b-9095561079e0",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "A Hard Day’s Night",
+          "status": "Bootleg"
+        },
+        {
+          "id": "b46a9f0e-d653-4ca2-b1ff-cf962186d477",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day's Night",
+          "status": "Official"
+        },
+        {
+          "id": "d50239ba-737a-488f-a407-046dfa4667ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "8d606f1c-f109-3068-bf90-3f29a0ac59e0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "18463cc7-a930-4e70-9fd4-81d59c27c5bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "b9dd825e-efc9-47f1-be02-ec5cd207a0bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "eae63f25-9d08-498e-9bcb-daa3d76e797c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "f26d9b8a-c766-4124-83f2-05eb0e52159b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "e30b0906-f2e2-4dc0-81eb-7db1239a4785",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "5cfd1111-5cc3-485b-8dd5-5c4183f0be0b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "fabe5d9e-7159-4c34-880f-61b9c3780425",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "222b832b-f850-4ab1-a339-7beb971f6543",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "ac13a80a-d4e7-4e96-b142-525f844e5844",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "f2a8c502-c5c4-45b2-bb94-1ecc1b6c120c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "96e8ecc5-21cb-4a95-9c2c-4c65e1dfd1a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "831e5ba2-b370-42a7-8b0c-16c3b1d90479",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "75b4bbcb-0e70-47eb-8a3d-e1d5ea70a30b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "b2127892-1dec-4cbc-baca-336cea98bf06",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "1c4ca8ef-89c2-4363-9240-fcbcd3770190",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "547e6cf5-d546-4c78-9600-9d289aa3d933",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "c607bf02-a7c3-461e-9e98-caaa72a0689a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "71890d87-d2fd-4477-84c8-f0f3ac508169",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "acea0f4d-72f5-4306-8762-c21df727fe6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "85a07da3-c86b-492f-be9d-70bf1abbffb4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "d9d98331-9cfe-4cc0-a3db-f14731ca90c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "3fd94aeb-bebd-3918-bf11-1cba750f213f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "6c55f0d2-efd7-49fa-89fe-82d043f2d145",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "3403fbb3-e58c-43d0-a369-b7694b3e90b9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "90e46d90-b2b7-348b-ba76-350920dca0ea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 15,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "soundtrack"
+        },
+        {
+          "count": 4,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "british"
+        },
+        {
+          "count": 0,
+          "name": "uk"
+        },
+        {
+          "count": 1,
+          "name": "60s"
+        },
+        {
+          "count": 1,
+          "name": "folk rock"
+        },
+        {
+          "count": 0,
+          "name": "britpop"
+        },
+        {
+          "count": 0,
+          "name": "folk-rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 0,
+          "name": "1960s"
+        },
+        {
+          "count": 4,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "british invasion"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "beat"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 1,
+          "name": "instrumental pop"
+        },
+        {
+          "count": 1,
+          "name": "merseybeat"
+        },
+        {
+          "count": 0,
+          "name": "british invasion rock"
+        },
+        {
+          "count": 3,
+          "name": "am pop"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "early pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "early pop"
+        },
+        {
+          "count": 0,
+          "name": "1964"
+        },
+        {
+          "count": 1,
+          "name": "beat music"
+        },
+        {
+          "count": 1,
+          "name": "discogs/the most popular album released every year from 1950 to 2020"
+        },
+        {
+          "count": 1,
+          "name": "artist on cover"
+        }
+      ]
+    },
+    {
+      "id": "7b07f9f1-677f-386a-a321-80b32b73f4b0",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 83,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 2,
+      "title": "Extracts From the Album ‘A Hard Day’s Night’",
+      "first-release-date": "1964-12",
+      "primary-type": "EP",
+      "secondary-types": [
+        "Compilation",
+        "Soundtrack"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "22a628ad-c082-3c4f-b1b6-d41665107b88"
+      ],
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "fa6633bc-40fa-4858-b3b3-a15fe8dcd067",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Extracts From the Album ‘A Hard Day’s Night’",
+          "status": "Official"
+        },
+        {
+          "id": "a256427e-0947-44ad-bbf0-5414a2bbc3f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Extracts From the Album ‘A Hard Day’s Night’",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        }
+      ]
+    },
+    {
+      "id": "686638a8-29d9-3f07-9f70-6ae7686ade89",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 83,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 2,
+      "title": "Extracts From the Film ‘A Hard Day’s Night’",
+      "first-release-date": "1964-11-06",
+      "primary-type": "EP",
+      "secondary-types": [
+        "Compilation",
+        "Soundtrack"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "22a628ad-c082-3c4f-b1b6-d41665107b88"
+      ],
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "2db706c9-f856-4be8-bfe9-78c4d13e132b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Extracts From the Film ‘A Hard Day’s Night’",
+          "status": "Official"
+        },
+        {
+          "id": "e435f9e1-32a2-4edd-b3b6-6c48704b8df4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Extracts From the Film ‘A Hard Day’s Night’",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        }
+      ]
+    },
+    {
+      "id": "ca953cbc-7595-377e-ac64-563575b9592a",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 80,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 10,
+      "title": "A Hard Day’s Night / Things We Said Today",
+      "first-release-date": "1964-07-10",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "88244f55-de36-4910-90a2-93e1c7b5e663",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "A Hard Day’s Night / Things We Said Today",
+          "status": "Promotion"
+        },
+        {
+          "id": "92f5dd5d-5b08-4fbd-ad92-b1865f48a8ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "47f7b529-5ee6-453c-bf56-b632c4709324",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / Things We Said Today",
+          "status": "Official"
+        },
+        {
+          "id": "1363c832-c536-4213-b6ea-524db1118e5e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / Things We Said Today",
+          "status": "Official"
+        },
+        {
+          "id": "3b2f6b49-d656-4b12-af38-6883c68fff9b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "d6ae2e29-7252-4cd6-945b-b9cfe4d38fd4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / Things We Said Today",
+          "status": "Official"
+        },
+        {
+          "id": "de67e531-b95d-4184-9001-3a62a531864a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        },
+        {
+          "id": "c35cd293-18e5-4b60-8f9a-0d60770bbb75",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / Things We Said Today",
+          "status": "Official"
+        },
+        {
+          "id": "104aa1de-a86e-49e2-b755-86f2174b2ba8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / Things We Said Today",
+          "status": "Official"
+        },
+        {
+          "id": "9a99330b-c64e-35a5-be44-b3e85b18b4d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "british invasion rock"
+        }
+      ]
+    },
+    {
+      "id": "32baeac6-6766-4204-b666-a6b00b5fabdf",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 78,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 21,
+      "title": "A Hard Day’s Night / I Should Have Known Better",
+      "first-release-date": "1964-07-13",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "842bf015-957b-43c4-96fa-90e90e08caa2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "3d8368a4-3db6-4f6d-b838-3be478bf48d7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "b5d3038c-149a-4d57-b24c-8042bb84dbbf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "169dc3bb-82b2-4d45-b8da-a70167e68523",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "56edac8b-b0ba-47ed-8f11-2cd69fb64bbf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "a06bbe22-2cb7-4ae2-ab58-dd386fff0a09",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "f23f4f42-498d-4f7e-8a0c-a61f287a0208",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "47b336fb-29ed-4b4d-9973-241cdb7514a8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "3c77eafc-1167-4e4f-a0e4-6c83261a7bc4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "5fb5dc27-e2ae-4ff2-b794-53180e02b0c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "74dd8312-7eda-4423-b874-90c0df3876e0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "824a0e2b-57af-4a4a-8063-a5bb58e225d7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "2ca6881b-8089-483f-8c59-d69999c2c2d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "6256c164-44a8-43b1-863b-48cf8c502843",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "602efd4d-3022-48e9-99f0-a902592a3c78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "9bc442e4-41d2-4239-a804-ba5de9bdab66",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "41edd5cb-a98c-4d69-872c-134b689d5916",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "a0a54abd-c4dc-4938-993d-b61cda47cf0d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "18a26c8a-3fa0-4626-82fc-9b98cd1027ba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "e0e9b96c-ca12-44bf-a147-202f2912622c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        },
+        {
+          "id": "2bbb5174-9a39-4dac-bd99-1e49c2634b3a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "A Hard Day’s Night / I Should Have Known Better",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        }
+      ]
+    }
+  ]
+}

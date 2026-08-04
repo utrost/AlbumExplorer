@@ -1,0 +1,163 @@
+{
+  "albumId": "album-aretha-franklin-amazing-grace-1972",
+  "query": "artist:\"Aretha Franklin\" AND releasegroup:\"Amazing Grace\" AND firstreleasedate:1972",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Aretha%20Franklin%22%20AND%20releasegroup%3A%22Amazing%20Grace%22%20AND%20firstreleasedate%3A1972&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:41:04.688Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "9e9b6cb5-2398-3aa7-b0c3-80c73e30b663",
+      "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "13cade56-9ff5-3ccf-aaa4-3ad7a8af2945",
+      "count": 7,
+      "title": "Amazing Grace",
+      "first-release-date": "1972",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Live"
+      ],
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "artist-credit": [
+        {
+          "name": "Aretha Franklin",
+          "artist": {
+            "id": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+            "name": "Aretha Franklin",
+            "sort-name": "Franklin, Aretha",
+            "aliases": [
+              {
+                "sort-name": "アレサ・フランクリン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "アレサ・フランクリン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Franklin, Aretha Louise",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Aretha Louise Franklin",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Aretha Fanklin",
+                "name": "Aretha Fanklin",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Aretha Franklyn",
+                "name": "Aretha Franklyn",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Franklin, Aretha",
+                "name": "Franklin, Aretha",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Arthaa Franklin",
+                "name": "Arthaa Franklin",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Aretja Franklin",
+                "name": "Aretja Franklin",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7dd845c5-f6f3-4901-894e-c007cd79783d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amazing Grace",
+          "status": "Official"
+        },
+        {
+          "id": "1dcb3142-8b1f-40a7-9c56-4edee89366cb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amazing Grace",
+          "status": "Official"
+        },
+        {
+          "id": "db9faf04-acbb-44f3-a194-bb93eff077ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amazing Grace: The Complete Recordings",
+          "status": "Official"
+        },
+        {
+          "id": "3ba975d7-1c44-4e66-aaf4-0eb49e8c7193",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amazing Grace",
+          "status": "Official"
+        },
+        {
+          "id": "9407256c-6c05-4720-9fbe-d6d9e6a10640",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amazing Grace",
+          "status": "Official"
+        },
+        {
+          "id": "5ca3948f-4576-433f-a829-45d3ee15617f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amazing Grace: The Complete Recordings",
+          "status": "Official"
+        },
+        {
+          "id": "f23918c5-33e1-4318-ad0b-e3becfb46c5f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amazing Grace",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "blues"
+        },
+        {
+          "count": 2,
+          "name": "soul"
+        },
+        {
+          "count": 2,
+          "name": "gospel"
+        }
+      ]
+    }
+  ]
+}

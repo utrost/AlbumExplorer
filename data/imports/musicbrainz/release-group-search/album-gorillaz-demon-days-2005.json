@@ -1,0 +1,541 @@
+{
+  "albumId": "album-gorillaz-demon-days-2005",
+  "query": "artist:\"Gorillaz\" AND releasegroup:\"Demon Days\" AND firstreleasedate:2005",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Gorillaz%22%20AND%20releasegroup%3A%22Demon%20Days%22%20AND%20firstreleasedate%3A2005&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:56:32.280Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "33f529da-892b-4fb7-be08-7cdc5b6e679e",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "2265fc88-9112-3982-b271-d1091ee755cb",
+      "count": 1,
+      "title": "Demon Days",
+      "first-release-date": "2005",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Gorillaz",
+          "artist": {
+            "id": "e21857d5-3256-4547-afb3-4b6ded592596",
+            "name": "Gorillaz",
+            "sort-name": "Gorillaz",
+            "disambiguation": "virtual band",
+            "aliases": [
+              {
+                "sort-name": "街頭霸王",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "街頭霸王",
+                "locale": "zh_Hant_TW",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ゴリラズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ゴリラズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gorilaz",
+                "name": "Gorilaz",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gorrilaz",
+                "name": "Gorrilaz",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "8ac6fb90-bd49-46cb-90fd-a03062dff1de",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Demon Days",
+          "status": "Promotion"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "downtempo"
+        },
+        {
+          "count": 1,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "lo-fi"
+        },
+        {
+          "count": 1,
+          "name": "leftfield"
+        },
+        {
+          "count": 1,
+          "name": "pop rap"
+        },
+        {
+          "count": 1,
+          "name": "trip hop"
+        }
+      ]
+    },
+    {
+      "id": "f959a46a-a136-3134-9412-6572b23fad95",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "2265fc88-9112-3982-b271-d1091ee755cb",
+      "count": 30,
+      "title": "Demon Days",
+      "first-release-date": "2005-05-11",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Gorillaz",
+          "artist": {
+            "id": "e21857d5-3256-4547-afb3-4b6ded592596",
+            "name": "Gorillaz",
+            "sort-name": "Gorillaz",
+            "disambiguation": "virtual band",
+            "aliases": [
+              {
+                "sort-name": "街頭霸王",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "街頭霸王",
+                "locale": "zh_Hant_TW",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ゴリラズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ゴリラズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gorilaz",
+                "name": "Gorilaz",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gorrilaz",
+                "name": "Gorrilaz",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7a1912ea-3dab-4ecc-b2af-bf04f571f4e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "bfe6c5e1-e2ba-4ddc-b099-76440af0111a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "d4b8fa96-3c76-4b9e-a87d-3b5621f249e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "20c2b6b4-50c1-417c-a572-a08b3cf17045",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Demon Days (full version 2005)",
+          "status": "Bootleg"
+        },
+        {
+          "id": "7567847c-a3ed-4da4-a747-822c4e93bf6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "3c564b03-a2db-457d-82bc-8decb2cc22d2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "ff796e06-6190-4779-80e4-f95a49f4365c",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Demon Days",
+          "status": "Promotion"
+        },
+        {
+          "id": "68535280-978f-48a2-86e5-4213f7d5b77c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "32503d1c-0aff-47bc-a4dd-b490522b8016",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "4e687c02-caa6-4e02-8f19-06c92033c6a5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "0380808d-2211-4869-a287-cc94e0d18162",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "14190090-8b00-4c4a-a861-50d7734c16fd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "ec2ec1d0-ca15-33ca-864f-799b8c127a71",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "76c962f2-238c-4e4b-a6fd-9e0a2c56e82d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "2968b394-7ca8-3b6a-a3ec-a0239adb01c9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "2a077e13-b6f5-3ae7-a8d5-c794c664936a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "887d4548-684e-4c5b-953c-097eb2c729ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "ad0a377b-6c7c-30ff-921d-a47edae073e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "63f8630e-dff2-41b7-b86b-bdd3f136b37e",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "'Demon Days' Instrumentals",
+          "status": "Promotion"
+        },
+        {
+          "id": "82513761-6b34-4060-b4ad-dd42a75d199b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "8e34cd2a-87cb-4f20-b6cd-aa44a38c1bbc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "53a9f71c-5b32-4e76-a812-1ad23e82fd40",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "be144352-0bad-4dd6-b4e7-95e5ef43522a",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Demon Days",
+          "status": "Bootleg"
+        },
+        {
+          "id": "35d78f8b-f33b-477e-b8c8-d8cd92eac8bb",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Demon Days (instrumental)",
+          "status": "Promotion"
+        },
+        {
+          "id": "ebbf3496-df34-47a1-95b1-1849cf6a2efe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "26193df8-54c5-4c75-80e3-84ddc9aa7379",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "ac9f64de-6b73-4540-b082-9f0bdba46fdd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "8b05d8a1-b534-4e80-a399-5baa4e09fa71",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "97281ee6-490d-49c8-9907-01c9bacb9b52",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        },
+        {
+          "id": "2a1aa48c-e494-4656-8b25-7cff168226a7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Demon Days",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "trip-hop"
+        },
+        {
+          "count": 2,
+          "name": "political"
+        },
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 12,
+          "name": "electronic"
+        },
+        {
+          "count": 3,
+          "name": "downtempo"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 4,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "rap"
+        },
+        {
+          "count": 0,
+          "name": "dance"
+        },
+        {
+          "count": 1,
+          "name": "concept album"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop"
+        },
+        {
+          "count": 4,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "funk"
+        },
+        {
+          "count": 1,
+          "name": "alternative"
+        },
+        {
+          "count": 1,
+          "name": "leftfield"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "urban"
+        },
+        {
+          "count": 1,
+          "name": "pop rap"
+        },
+        {
+          "count": 1,
+          "name": "conscious"
+        },
+        {
+          "count": 1,
+          "name": "alternative hip-hop"
+        },
+        {
+          "count": 3,
+          "name": "alternative dance"
+        },
+        {
+          "count": 0,
+          "name": "triphop"
+        },
+        {
+          "count": 10,
+          "name": "trip hop"
+        },
+        {
+          "count": 1,
+          "name": "indietronica"
+        },
+        {
+          "count": 2,
+          "name": "melancholic"
+        },
+        {
+          "count": 0,
+          "name": "essex"
+        },
+        {
+          "count": 1,
+          "name": "electronica dance"
+        },
+        {
+          "count": 1,
+          "name": "rock and indie"
+        },
+        {
+          "count": 2,
+          "name": "alternative punk"
+        },
+        {
+          "count": 1,
+          "name": "alternative and punk"
+        },
+        {
+          "count": 2,
+          "name": "eclectic"
+        },
+        {
+          "count": 1,
+          "name": "funk soul"
+        },
+        {
+          "count": 2,
+          "name": "alternative hip hop"
+        },
+        {
+          "count": 0,
+          "name": "virtual band"
+        },
+        {
+          "count": 1,
+          "name": "experimental hip hop"
+        },
+        {
+          "count": 0,
+          "name": "rerip alternative"
+        },
+        {
+          "count": 2,
+          "name": "lonely"
+        },
+        {
+          "count": 2,
+          "name": "quirky"
+        },
+        {
+          "count": 1,
+          "name": "feel good"
+        },
+        {
+          "count": 5,
+          "name": "art pop"
+        },
+        {
+          "count": 1,
+          "name": "cryptic"
+        },
+        {
+          "count": 1,
+          "name": "discogs/the most popular album released every year from 1950 to 2020"
+        },
+        {
+          "count": 1,
+          "name": "alliteration"
+        },
+        {
+          "count": 1,
+          "name": "artist on cover"
+        },
+        {
+          "count": 1,
+          "name": "vyrzukhisuc-album"
+        }
+      ]
+    }
+  ]
+}

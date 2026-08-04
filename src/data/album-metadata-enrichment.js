@@ -20,16 +20,17 @@ export function buildAlbumMetadataEnrichment({ albums, sourceCandidates = [], ov
     }
 
     const matches = sourceCandidates.filter((candidate) => isExactCandidateMatch(album, candidate));
-    if (matches.length === 1) {
-      result.candidates.push(candidateFromSource(album, matches[0]));
-    } else if (matches.length > 1) {
+    const selectedMatches = selectBestMatches(matches);
+    if (selectedMatches.length === 1) {
+      result.candidates.push(candidateFromSource(album, selectedMatches[0], matches));
+    } else if (selectedMatches.length > 1) {
       result.review.push({
         albumId: album.id,
         artist: album.artist,
         album: album.album,
         releaseYear: album.releaseYear ?? null,
         reason: 'ambiguous-source-candidates',
-        sourceCandidates: matches.map(sourceCandidateSummary)
+        sourceCandidates: selectedMatches.map(sourceCandidateSummary)
       });
     } else {
       result.gaps.push({
@@ -80,7 +81,8 @@ function candidateFromOverride(album, override) {
   };
 }
 
-function candidateFromSource(album, sourceCandidate) {
+function candidateFromSource(album, sourceCandidate, allMatches = [sourceCandidate]) {
+  const baseline = allMatches.filter((match) => match.sourceType === 'rolling-stone-import');
   return {
     albumId: album.id,
     artist: album.artist,
@@ -94,7 +96,7 @@ function candidateFromSource(album, sourceCandidate) {
       canonicalTitle: sourceCandidate.album,
       releaseYear: sourceCandidate.releaseYear,
       releaseDate: sourceCandidate.releaseDate ?? null,
-      labels: sourceCandidate.labels ?? [],
+      labels: unique([...(sourceCandidate.labels ?? []), ...baseline.flatMap((match) => match.labels ?? [])]),
       genres: sourceCandidate.genres ?? [],
       styles: sourceCandidate.styles ?? [],
       country: sourceCandidate.country ?? null,
@@ -127,12 +129,21 @@ function sourceCandidateSummary(candidate) {
     artist: candidate.artist,
     album: candidate.album,
     releaseYear: candidate.releaseYear ?? null,
+    releaseDate: candidate.releaseDate ?? null,
     labels: candidate.labels ?? [],
     genres: candidate.genres ?? [],
     styles: candidate.styles ?? [],
+    country: candidate.country ?? null,
     externalRefs: candidate.externalRefs ?? [],
-    confidence: candidate.confidence ?? 'matched'
+    coverCandidates: candidate.coverCandidates ?? [],
+    confidence: candidate.confidence ?? 'matched',
+    sourceDetails: candidate.sourceDetails ?? null
   };
+}
+
+function selectBestMatches(matches) {
+  const externalMatches = matches.filter((match) => match.sourceType !== 'rolling-stone-import');
+  return externalMatches.length > 0 ? externalMatches : matches;
 }
 
 function isExactCandidateMatch(album, candidate) {

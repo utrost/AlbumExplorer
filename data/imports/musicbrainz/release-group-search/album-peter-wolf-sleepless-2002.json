@@ -1,0 +1,63 @@
+{
+  "albumId": "album-peter-wolf-sleepless-2002",
+  "query": "artist:\"Peter Wolf\" AND releasegroup:\"Sleepless\" AND firstreleasedate:2002",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Peter%20Wolf%22%20AND%20releasegroup%3A%22Sleepless%22%20AND%20firstreleasedate%3A2002&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:10:59.439Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "a4a0f6c7-3256-3d1b-8c7e-2ca9509f6b13",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "88f6992a-c8ac-3816-8a41-a1ab206e4590",
+      "count": 1,
+      "title": "Sleepless",
+      "first-release-date": "2002",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Peter Wolf",
+          "artist": {
+            "id": "83701bad-b130-4c19-9783-59061ca79aa0",
+            "name": "Peter Wolf",
+            "sort-name": "Wolf, Peter",
+            "disambiguation": "US rock vocalist, member of J. Geils Band",
+            "aliases": [
+              {
+                "sort-name": "Blankfield, Peter W.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Peter W. Blankfield",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "42b407c1-62b2-4bf1-800c-cc43622debb6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sleepless",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "albumId": "album-smiths-louder-than-bombs-1987",
+  "query": "artist:\"The Smiths\" AND releasegroup:\"Louder Than Bombs\" AND firstreleasedate:1987",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Smiths%22%20AND%20releasegroup%3A%22Louder%20Than%20Bombs%22%20AND%20firstreleasedate%3A1987&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:08:44.066Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "329a3607-9b56-351c-84e7-c6f8f19d8056",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "972cc02f-a426-30ae-8c7d-9136114e8c08",
+      "count": 12,
+      "title": "Louder Than Bombs",
+      "first-release-date": "1987-03-16",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "The Smiths",
+          "artist": {
+            "id": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+            "name": "The Smiths",
+            "sort-name": "Smiths, The",
+            "disambiguation": "1980s English rock band",
+            "aliases": [
+              {
+                "sort-name": "The Smith",
+                "name": "The Smith",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Smiths, The",
+                "name": "Smiths, The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Smiths",
+                "name": "Smiths",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c0da7fda-06a8-452c-b25b-9aa320f7409d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "d9e976bc-2cc4-356e-a010-e384ac6f4209",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "ff5a13eb-509b-43b7-97de-3c15d8dd47b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "1285fbf3-1d73-437f-9788-4e2e16351914",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "84bad176-c9dc-4951-9ed5-01dc05d44765",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "03fb2f5a-6388-3dd9-a182-a66b9759d928",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "2e06a0a3-b9bc-415f-b562-649aa83c6a3b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "ac65b92c-13da-3f89-84e7-fbfd85e387f7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "f35160ad-f865-3eaa-881e-a95421b5266d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "4f5bb6ec-6246-3f6a-b38e-b23e550d63d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "b22dd64d-dfae-49f0-a56e-5ecfc173331f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        },
+        {
+          "id": "0cb132c0-0c7e-45e0-80fe-0c649e5151b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Louder Than Bombs",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "post-punk"
+        },
+        {
+          "count": 6,
+          "name": "indie rock"
+        },
+        {
+          "count": 1,
+          "name": "indie"
+        },
+        {
+          "count": 3,
+          "name": "britpop"
+        },
+        {
+          "count": 1,
+          "name": "indie pop"
+        },
+        {
+          "count": 1,
+          "name": "jangle pop"
+        },
+        {
+          "count": 0,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "brit pop"
+        },
+        {
+          "count": 0,
+          "name": "alt rock"
+        },
+        {
+          "count": 0,
+          "name": "rock pop"
+        },
+        {
+          "count": 0,
+          "name": "alternative and punk"
+        }
+      ]
+    }
+  ]
+}

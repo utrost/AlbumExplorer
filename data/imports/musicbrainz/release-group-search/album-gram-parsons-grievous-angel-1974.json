@@ -1,0 +1,124 @@
+{
+  "albumId": "album-gram-parsons-grievous-angel-1974",
+  "query": "artist:\"Gram Parsons\" AND releasegroup:\"Grievous Angel\" AND firstreleasedate:1974",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Gram%20Parsons%22%20AND%20releasegroup%3A%22Grievous%20Angel%22%20AND%20firstreleasedate%3A1974&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:10:55.848Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "eeb6a226-8323-327e-9116-1dc51e2fcb23",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "448f8c6c-0aa4-369e-8b07-e411f5354ba6",
+      "count": 7,
+      "title": "Grievous Angel",
+      "first-release-date": "1974-01",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Gram Parsons",
+          "artist": {
+            "id": "cbc83fb1-2c23-4ad1-9187-594b30da3f21",
+            "name": "Gram Parsons",
+            "sort-name": "Parsons, Gram",
+            "aliases": [
+              {
+                "sort-name": "Connor, Ingram Cecil",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Ingram Cecil Connor",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Parsons, Gram",
+                "name": "Parsons, Gram",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gram Parson",
+                "name": "Gram Parson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f200c32c-f90d-48f6-a8a7-06301231ab97",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Grievous Angel",
+          "status": "Official"
+        },
+        {
+          "id": "912e318d-1605-4770-b641-4389d77eab26",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Grievous Angel",
+          "status": "Official"
+        },
+        {
+          "id": "2fdf1fb4-607f-3276-b6b1-7d7d169ad5bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Grievous Angel",
+          "status": "Official"
+        },
+        {
+          "id": "485fc05b-cc72-49f9-b0a4-33d14361f5e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Grievous Angel",
+          "status": "Official"
+        },
+        {
+          "id": "ec894be5-c26b-495b-8d19-85fdbbfa3803",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Grievous Angel",
+          "status": "Official"
+        },
+        {
+          "id": "4bfab03f-29da-463e-8098-1cb1c692a293",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Grievous Angel",
+          "status": "Official"
+        },
+        {
+          "id": "80bc2a67-bbfe-4e75-ad1b-df4ae4afae8e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Grievous Angel",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "country"
+        },
+        {
+          "count": 2,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "country-rock"
+        }
+      ]
+    }
+  ]
+}

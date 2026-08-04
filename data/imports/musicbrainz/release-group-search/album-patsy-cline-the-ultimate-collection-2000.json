@@ -1,0 +1,94 @@
+{
+  "albumId": "album-patsy-cline-the-ultimate-collection-2000",
+  "query": "artist:\"Patsy Cline\" AND releasegroup:\"The Ultimate Collection\" AND firstreleasedate:2000",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Patsy%20Cline%22%20AND%20releasegroup%3A%22The%20Ultimate%20Collection%22%20AND%20firstreleasedate%3A2000&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:42.060Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "c9557863-40a4-31ce-afba-6322dea9e254",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "8f952bf6-3e55-3588-8048-c79a3405184d",
+      "count": 1,
+      "title": "The Ultimate Collection",
+      "first-release-date": "2000-10-17",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Patsy Cline",
+          "artist": {
+            "id": "ad82dd72-0df3-4a09-8d7a-1af9c9e80522",
+            "name": "Patsy Cline",
+            "sort-name": "Cline, Patsy",
+            "aliases": [
+              {
+                "sort-name": "Patsy Kline",
+                "name": "Patsy Kline",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Pasty Cline",
+                "name": "Pasty Cline",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hensley, Virginia Patterson",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Virginia Patterson Hensley",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "b67a26d6-28f2-4651-bec4-5310b0b0f7ef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ultimate Collection",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rockabilly"
+        },
+        {
+          "count": 3,
+          "name": "country"
+        },
+        {
+          "count": 1,
+          "name": "country pop"
+        },
+        {
+          "count": 1,
+          "name": "traditional country"
+        }
+      ]
+    }
+  ]
+}

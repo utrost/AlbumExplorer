@@ -1,0 +1,159 @@
+{
+  "albumId": "album-mobb-deep-the-infamous-1995",
+  "query": "artist:\"Mobb Deep\" AND releasegroup:\"The Infamous\" AND firstreleasedate:1995",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Mobb%20Deep%22%20AND%20releasegroup%3A%22The%20Infamous%22%20AND%20firstreleasedate%3A1995&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:51:26.694Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "03f3c216-bd40-322b-ac8a-254816ff5573",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "86c15941-21bd-362b-b3a3-05ca7a683285",
+      "count": 9,
+      "title": "The Infamous…",
+      "first-release-date": "1995-04-18",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Mobb Deep",
+          "artist": {
+            "id": "d75d1f08-bbb8-4eae-9877-399ca9121197",
+            "name": "Mobb Deep",
+            "sort-name": "Mobb Deep",
+            "disambiguation": "QB hip hop duo Prodigy & Havoc",
+            "aliases": [
+              {
+                "sort-name": "Mobb Deep Blend",
+                "name": "Mobb Deep Blend",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Moob Deep",
+                "name": "Moob Deep",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3fb60b29-f8bc-4db7-b0ad-ee626dcb6edb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous… Instrumentals",
+          "status": "Official"
+        },
+        {
+          "id": "41c28517-ba05-4fee-88b6-0b90330937c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous… Instrumentals",
+          "status": "Official"
+        },
+        {
+          "id": "70f83377-6a5a-4d79-938d-4a43468f8e3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous…",
+          "status": "Official"
+        },
+        {
+          "id": "07e92711-51fe-4e80-97a3-be995b7f4119",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous…",
+          "status": "Official"
+        },
+        {
+          "id": "53dcaef7-b50b-4a25-95e0-0dd2d0d24822",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous…",
+          "status": "Official"
+        },
+        {
+          "id": "fc6ef0f1-5dc9-4b30-bdad-22cb9db92220",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous…",
+          "status": "Official"
+        },
+        {
+          "id": "f8a24c6c-f3f7-4602-9e2a-c40d831eb513",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous…",
+          "status": "Official"
+        },
+        {
+          "id": "e9fb1197-d863-4583-a52e-c4be26d84892",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous",
+          "status": "Official"
+        },
+        {
+          "id": "221e7ee4-5f3b-4e91-a99c-6efe3ba5bafd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Infamous",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rap"
+        },
+        {
+          "count": 7,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "usa"
+        },
+        {
+          "count": 0,
+          "name": "new york"
+        },
+        {
+          "count": 6,
+          "name": "gangsta rap"
+        },
+        {
+          "count": 1,
+          "name": "hardcore rap"
+        },
+        {
+          "count": 3,
+          "name": "east coast rap"
+        },
+        {
+          "count": 5,
+          "name": "boom bap"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop/rap"
+        },
+        {
+          "count": 1,
+          "name": "jazz rap"
+        },
+        {
+          "count": 3,
+          "name": "east coast hip hop"
+        },
+        {
+          "count": 1,
+          "name": "hardcore hip hop"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "albumId": "album-dixie-chicks-fly-1999",
+  "query": "artist:\"Dixie Chicks\" AND releasegroup:\"Fly\" AND firstreleasedate:1999",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Dixie%20Chicks%22%20AND%20releasegroup%3A%22Fly%22%20AND%20firstreleasedate%3A1999&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:29.125Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e1fbdc3d-2aa4-345d-ae0e-40bfb1552431",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "0261ebcb-4297-3a8f-becf-635bc0acedb8",
+      "count": 8,
+      "title": "Fly",
+      "first-release-date": "1999-08-27",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Dixie Chicks",
+          "artist": {
+            "id": "3248ed2d-bada-41b5-a7b6-ac88faa1f1ac",
+            "name": "The Chicks",
+            "sort-name": "Chicks, The",
+            "disambiguation": "US country trio, formerly known as the Dixie Chicks",
+            "aliases": [
+              {
+                "sort-name": "Chicks, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Chicks",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": "2020-06-25",
+                "end-date": null
+              },
+              {
+                "sort-name": "Dixie Chicks",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Dixie Chicks",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1989",
+                "end-date": "2020-06-25"
+              },
+              {
+                "sort-name": "Dixie Chicks, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Dixie Chicks",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1989",
+                "end-date": "2020-06-25"
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3865056e-4c27-42c5-aaf8-140b2093d8c9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fly",
+          "status": "Official"
+        },
+        {
+          "id": "484cd257-7094-4708-85b7-d3e1e780152d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fly",
+          "status": "Official"
+        },
+        {
+          "id": "c122d727-c238-4ad3-aea8-53e0e93f0844",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fly",
+          "status": "Official"
+        },
+        {
+          "id": "8e32b240-399c-4be9-8f31-99d4a8806756",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fly",
+          "status": "Official"
+        },
+        {
+          "id": "b826a851-42ca-41bd-8c69-3eff5202a996",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fly",
+          "status": "Official"
+        },
+        {
+          "id": "c464169f-eec9-3406-9690-5e5667ec091d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fly",
+          "status": "Official"
+        },
+        {
+          "id": "3e0b924d-ccaa-46f1-a29b-94fab98f4f4c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fly",
+          "status": "Official"
+        },
+        {
+          "id": "355df4fb-7be7-4aaa-95fa-df34aee821e0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fly",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 2,
+          "name": "bluegrass"
+        },
+        {
+          "count": 7,
+          "name": "country"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 3,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "country pop"
+        },
+        {
+          "count": 9,
+          "name": "contemporary country"
+        },
+        {
+          "count": 1,
+          "name": "country-pop"
+        },
+        {
+          "count": 1,
+          "name": "neo-traditional country"
+        },
+        {
+          "count": 2,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 3,
+          "name": "neo-traditionalist country"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "albumId": "album-chuck-berry-the-great-twenty-eight-1982",
+  "query": "artist:\"Chuck Berry\" AND releasegroup:\"The Great Twenty-Eight\" AND firstreleasedate:1982",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Chuck%20Berry%22%20AND%20releasegroup%3A%22The%20Great%20Twenty-Eight%22%20AND%20firstreleasedate%3A1982&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:34:31.085Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "d7da8113-a582-3656-9412-74e17a9a447e",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "b48e1ef6-2d36-3016-816c-1eac26964fa7",
+      "count": 4,
+      "title": "The Great Twenty‐Eight",
+      "first-release-date": "1982",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Chuck Berry",
+          "artist": {
+            "id": "592a3b6d-c42b-4567-99c9-ecf63bd66499",
+            "name": "Chuck Berry",
+            "sort-name": "Berry, Chuck",
+            "aliases": [
+              {
+                "sort-name": "チャック・ベリー",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "チャック・ベリー",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "C. Berry",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "C. Berry",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Berry",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Berry",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Berry, Charles Edward Anderson",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Charles Edward Anderson Berry",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E Anderson",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "E Anderson",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "BERRY Chuck",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "BERRY Chuck",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Berry, Chuck",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Berry, Chuck",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "e93c3ff6-87d5-4277-adc5-4cbce11954ea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Great Twenty‐Eight",
+          "status": "Official"
+        },
+        {
+          "id": "f6aabd16-6281-4468-acea-8dd6b8558bbb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Great Twenty-Eight",
+          "status": "Official"
+        },
+        {
+          "id": "2e443d48-c3e7-420b-936b-b0026238f027",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Great Twenty-Eight",
+          "status": "Official"
+        },
+        {
+          "id": "68f9ce3e-0cdd-4f2d-897f-d8208eee1fc2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Great Twenty‐Eight",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "blues"
+        },
+        {
+          "count": 3,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "oldies"
+        },
+        {
+          "count": 2,
+          "name": "rock & roll"
+        }
+      ]
+    }
+  ]
+}

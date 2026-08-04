@@ -1,0 +1,286 @@
+{
+  "albumId": "album-bob-dylan-modern-times-2006",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"Modern Times\" AND firstreleasedate:2006",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22Modern%20Times%22%20AND%20firstreleasedate%3A2006&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:04:04.196Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "d300b74b-02b4-33e3-998e-e4405e8e6580",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 13,
+      "title": "Modern Times",
+      "first-release-date": "2006-08-06",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "5153eda7-3466-4aa5-99d4-6cf62b124845",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "962dec08-ea9c-3010-ad30-8d03abb6d18a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "a7601804-8d51-48fd-b3ee-b3c34d9b04b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "8d08d62f-ac61-31f5-aab8-e762dd7a3c6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "82b6049f-b14a-43fe-ae3e-8ada40de27a9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "b3df2dae-8c9c-4883-8935-d302a058c8e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "fdbbba76-e2a1-4d9e-84f4-3e34a07cca9d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "9e113f99-e36d-494a-b6ff-61eeb812fdc5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "8ff82696-4102-3dd8-9424-03923f26d15f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "38abb648-2958-3599-a5e3-94dcf0424510",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "784a2852-e4f2-30e8-809a-6eed18363023",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Modern Times",
+          "status": "Promotion"
+        },
+        {
+          "id": "b5287c8a-6ca5-4712-bce1-26c21b3cc46b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        },
+        {
+          "id": "37dcca89-1bc7-4b07-9562-696fb67dacf3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Times",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 4,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "folk"
+        },
+        {
+          "count": 5,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        },
+        {
+          "count": 3,
+          "name": "folk-rock"
+        },
+        {
+          "count": 2,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 1,
+          "name": "classic pop and rock"
+        }
+      ]
+    }
+  ]
+}

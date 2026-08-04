@@ -1,0 +1,559 @@
+{
+  "albumId": "album-madonna-like-a-prayer-1989",
+  "query": "artist:\"Madonna\" AND releasegroup:\"Like a Prayer\" AND firstreleasedate:1989",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Madonna%22%20AND%20releasegroup%3A%22Like%20a%20Prayer%22%20AND%20firstreleasedate%3A1989&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:24.564Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "1f75a8df-176c-3d23-8f1f-b0c8935682ec",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "ac3e1a64-710f-344b-9644-0cf35e115f60",
+      "count": 25,
+      "title": "Like a Prayer",
+      "first-release-date": "1989-03-20",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Madonna",
+          "artist": {
+            "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+            "name": "Madonna",
+            "sort-name": "Madonna",
+            "disambiguation": "“Queen of Pop”",
+            "aliases": [
+              {
+                "sort-name": "Ciccone, Madonna Louise",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "麥當娜",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone, Madonna Louise Veronica",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Madonna Louise Veronica Ciccone",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "マドンナ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "マドンナ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone-Ritchie, Madonna",
+                "name": "Madonna Ciccone-Ritchie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone, Madonna Louise",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Madonna Louise Ciccone",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Madonna",
+                "name": "Madonna",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Ciccone",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Ciccone",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3520287a-d74e-488b-80d9-ebbfd7e329f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "2b439c1f-3a24-4bc6-9d8f-e36d89c321c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "bbad5be4-3a55-4c6b-bf58-a9b231fb7555",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "c63ec3f5-de02-4c88-9a1b-61f597e6c6a5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "8a71c060-ab32-45d0-a5d6-eaa5a5e0b9b1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like A Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "57e1d5d1-f7d0-44bf-87e8-02234200fb0f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "f9f9a8dc-be6b-456b-9bcc-d120cfda4ad0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "746dadba-9aab-4d52-a8b6-31981b7348c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "c611aa09-a713-47c3-a4a3-896c6902341e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "8ef4d778-e023-41af-9b2a-5321be1f0194",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "542b79e5-cd76-43f0-ba5e-a198e6a59312",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "1d0b790a-ff42-3a40-afef-d439f279412e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "7b4e8c6d-4f0d-3a16-9294-140b1f11e36b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "99cba48a-268f-40e9-8836-e8a602562ab1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "4ea536e1-a9ed-4873-a68d-03115448e0e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "bf87c60d-7910-4129-bcac-87581ac89ec7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "02e515ed-1626-412c-af0e-318bca521724",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "5cb20c65-21eb-4e57-bbc0-81bfb964fb68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "42e0e911-7382-4a32-8f72-04b4172f36f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "8c3975dd-6450-4096-8f14-edfa0f22abcf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "16b87789-c169-425a-b5e1-6f186fecf59d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer (30th Anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "09dfcc05-dfbd-3d5e-910f-588960e46cb5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "8a767578-ea08-4dca-a276-2742649a7436",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "46e581b5-da5c-433d-8615-1d2fe74b2d0c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "61dbe99c-d7ec-484d-97d0-d2d29c6345eb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 4,
+          "name": "electronic"
+        },
+        {
+          "count": 13,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "dance"
+        },
+        {
+          "count": 5,
+          "name": "synth-pop"
+        },
+        {
+          "count": 6,
+          "name": "dance-pop"
+        },
+        {
+          "count": 7,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 0,
+          "name": "dance pop"
+        },
+        {
+          "count": 1,
+          "name": "club"
+        },
+        {
+          "count": 0,
+          "name": "sampled by 3"
+        },
+        {
+          "count": 1,
+          "name": "pop soul"
+        },
+        {
+          "count": 1,
+          "name": "post-disco"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 3,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "art pop"
+        },
+        {
+          "count": 1,
+          "name": "synth funk"
+        },
+        {
+          "count": 0,
+          "name": "pop 80er"
+        }
+      ]
+    },
+    {
+      "id": "ea3a395f-5e10-3332-bba1-e0694a638212",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "ac3e1a64-710f-344b-9644-0cf35e115f60",
+      "count": 18,
+      "title": "Like a Prayer",
+      "first-release-date": "1989-03-03",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Madonna",
+          "artist": {
+            "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+            "name": "Madonna",
+            "sort-name": "Madonna",
+            "disambiguation": "“Queen of Pop”",
+            "aliases": [
+              {
+                "sort-name": "Ciccone, Madonna Louise",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "麥當娜",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone, Madonna Louise Veronica",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Madonna Louise Veronica Ciccone",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "マドンナ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "マドンナ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone-Ritchie, Madonna",
+                "name": "Madonna Ciccone-Ritchie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone, Madonna Louise",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Madonna Louise Ciccone",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Madonna",
+                "name": "Madonna",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Ciccone",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Ciccone",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "9567018a-a20b-4ee0-9127-5d8a6f5f9b89",
+          "title": "Like A Prayer"
+        },
+        {
+          "id": "94affd8e-295d-4712-bf9c-b02e094d7ec2",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Like a Prayer",
+          "status": "Promotion"
+        },
+        {
+          "id": "f411fb1f-ddd2-4b7c-b37c-49af6099d5bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "c1753e65-0ef5-4e1d-b4e0-516f9de8889c",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Like a Prayer",
+          "status": "Promotion"
+        },
+        {
+          "id": "3141d9a9-e430-4e8a-958d-c1a4aa392438",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "bf3adebd-f292-444c-83b4-ddf2d3ef10b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "e20e5233-1a8f-3694-aaa2-cadc806c57c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "8ada0aac-24df-4d5a-b6be-066946a18ff0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "e6b63846-143e-48a0-b6d8-2f3252e1424b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "3e2c9a3c-c587-4ec8-beac-cf2595267f6e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "505e7c4d-b6ae-434a-8d5a-8d633cd5ec2b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "c179f768-11cc-4ef6-8d08-775d2e9f3e05",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "b7bf6675-1351-3dca-bf02-cdd5c78ce99c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "d255a885-2844-3c91-bc08-1039cd596ff1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "929d932c-e6f3-4127-a37c-52754ca01895",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "bc89f5b2-5584-4bed-af91-bccf21a1c90b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "49f09276-e23b-4a13-b6d8-7849f48e6e28",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        },
+        {
+          "id": "641d6744-04af-49b5-b2ce-2bb2baf26de6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Like a Prayer",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "house"
+        },
+        {
+          "count": 3,
+          "name": "synth-pop"
+        },
+        {
+          "count": 1,
+          "name": "8cm cd"
+        },
+        {
+          "count": 1,
+          "name": "other pop"
+        }
+      ]
+    }
+  ]
+}

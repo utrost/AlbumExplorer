@@ -1,0 +1,88 @@
+{
+  "albumId": "album-muddy-waters-the-anthology-2001",
+  "query": "artist:\"Muddy Waters\" AND releasegroup:\"The Anthology\" AND firstreleasedate:2001",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Muddy%20Waters%22%20AND%20releasegroup%3A%22The%20Anthology%22%20AND%20firstreleasedate%3A2001&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:58:14.865Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "43c8d4a1-0e92-3600-ba93-d75359480498",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "3b0442c9-038f-3b4d-9bc3-c4a9ccaf168d",
+      "count": 1,
+      "title": "The Anthology",
+      "first-release-date": "2001-08-28",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Muddy Waters",
+          "artist": {
+            "id": "f86f1f07-d182-45ce-ae93-ef610880ca72",
+            "name": "Muddy Waters",
+            "sort-name": "Muddy Waters",
+            "disambiguation": "blues musician",
+            "aliases": [
+              {
+                "sort-name": "Field, Morgan",
+                "name": "Morgan Field",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Muddy Maters",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Muddy Maters",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Morganfield, McKinley",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "McKinley Morganfield",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "fb04a209-3b71-4388-92a0-b5d3eed241fb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Anthology",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "blues"
+        },
+        {
+          "count": 3,
+          "name": "chicago blues"
+        }
+      ]
+    }
+  ]
+}

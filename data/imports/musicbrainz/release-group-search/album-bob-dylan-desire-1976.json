@@ -1,0 +1,340 @@
+{
+  "albumId": "album-bob-dylan-desire-1976",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"Desire\" AND firstreleasedate:1976",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22Desire%22%20AND%20firstreleasedate%3A1976&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:02:56.450Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "fc325dd3-73ed-36aa-9c77-6b65a958e3cf",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 18,
+      "title": "Desire",
+      "first-release-date": "1976-01-05",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "628f25ce-57fb-48cb-b08b-7413f36ff193",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "53e4761d-024a-415f-833c-01b47e11c8c3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "431f7b0d-99c9-4b33-974f-70cd53e45ffe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "1e118202-501a-31a1-8bcf-2d4776f15d49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "e2135acb-1c2e-4ac3-ba9e-f889876c4235",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "680aff7c-2994-3823-a7b4-86ae8a349feb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "6ca173e0-78a4-46cb-a568-745ef0a44e7c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "0586779a-1e0c-465a-ad7d-5dd1c0946028",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "817684f1-4def-3b28-9fa7-f0b6ae79bfa6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "b724b451-c45f-4902-b102-771bd7550f5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "57894be9-7efd-4543-996e-30ed061a9d23",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "e6fa0d01-abed-3c92-a154-13395150e2ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "247c5643-302d-4274-94d5-e0c33d787e7f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "f84dcbfa-cc91-34d5-89a8-e634eeecd61a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "67b08889-0e2b-4285-862a-f268fd4b34ad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "1138abc1-77f4-4ba9-900d-5cf52baaf4bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "085ab0ae-23a6-4b4f-9642-59850fca4eb8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        },
+        {
+          "id": "a16bb1c2-f69a-3a1d-af73-b09e179d7849",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Desire",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 6,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "folk"
+        },
+        {
+          "count": 11,
+          "name": "folk rock"
+        },
+        {
+          "count": 9,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 3,
+          "name": "classic"
+        },
+        {
+          "count": 2,
+          "name": "folk-rock"
+        },
+        {
+          "count": 2,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "progressive country"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "albumId": "album-x-wild-gift-1981",
+  "query": "artist:\"X\" AND releasegroup:\"Wild Gift\" AND firstreleasedate:1981",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22X%22%20AND%20releasegroup%3A%22Wild%20Gift%22%20AND%20firstreleasedate%3A1981&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:07:28.755Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "8aca1b90-9412-3a00-965c-fd1873f6b986",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "1c2ef162-4080-30fc-a170-9761f1f58a8f",
+      "count": 8,
+      "title": "Wild Gift",
+      "first-release-date": "1981-05",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "X",
+          "artist": {
+            "id": "ddd553d4-977e-416c-8f57-e4b72c0fc746",
+            "name": "X",
+            "sort-name": "X",
+            "disambiguation": "Los Angeles punk rock band"
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4f3083e0-201c-4abe-a6d3-5531d151d436",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Gift",
+          "status": "Official"
+        },
+        {
+          "id": "66a1d540-516f-44f0-8b25-464beeac0211",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Gift",
+          "status": "Official"
+        },
+        {
+          "id": "fb8df1a1-19d0-43e5-89d2-101e10c00919",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Gift",
+          "status": "Official"
+        },
+        {
+          "id": "ca2bbda5-76b0-4465-9628-8ff44b0faee8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Gift",
+          "status": "Official"
+        },
+        {
+          "id": "4b07252c-5d79-45f7-a66c-a54a9d829770",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Gift",
+          "status": "Official"
+        },
+        {
+          "id": "f14bdc5c-20bb-3d97-b3be-d44f13be7bda",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Gift",
+          "status": "Official"
+        },
+        {
+          "id": "aa8a369c-27d3-305c-bd30-da6df614fed2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Gift",
+          "status": "Official"
+        },
+        {
+          "id": "1aa518d9-9675-470a-97be-2392ddb080dc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Gift",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 4,
+          "name": "punk"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        }
+      ]
+    }
+  ]
+}

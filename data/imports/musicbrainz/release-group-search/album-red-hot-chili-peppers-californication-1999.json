@@ -1,0 +1,477 @@
+{
+  "albumId": "album-red-hot-chili-peppers-californication-1999",
+  "query": "artist:\"Red Hot Chili Peppers\" AND releasegroup:\"Californication\" AND firstreleasedate:1999",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Red%20Hot%20Chili%20Peppers%22%20AND%20releasegroup%3A%22Californication%22%20AND%20firstreleasedate%3A1999&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:47:05.192Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "ca5dfcc3-83fb-3eee-9061-c27296b77b2c",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "91997d53-9c82-3585-ac23-ce763b49389f",
+      "count": 36,
+      "title": "Californication",
+      "first-release-date": "1999-04-30",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Red Hot Chili Peppers",
+          "artist": {
+            "id": "8bfac288-ccc5-448d-9573-c33ea2aa5c30",
+            "name": "Red Hot Chili Peppers",
+            "sort-name": "Red Hot Chili Peppers",
+            "aliases": [
+              {
+                "sort-name": "Red Hot Chilli Peppers",
+                "name": "Red Hot Chilli Peppers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Red Hot Chili Peppers, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Red Hot Chili Peppers",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "RHCP",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "RHCP",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Red Hot Chilly Peppers",
+                "name": "Red Hot Chilly Peppers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Red Hot Chilli Peppers",
+                "name": "The Red Hot Chilli Peppers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "145fc5c5-0e62-43c6-9f5e-3ecf310ad48b",
+          "title": "Californication (2014 Remaster)"
+        },
+        {
+          "id": "71ebecd1-b9ba-4ace-9842-4cec8dce9fbe",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Californication Unmastered",
+          "status": "Bootleg"
+        },
+        {
+          "id": "fbd7449a-04bd-4f93-bcf7-a6dfa92eeb91",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "12c50dbf-71b4-4271-b812-ab199044c343",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "952e6876-76cf-4334-99a0-77d5aca27560",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Californication",
+          "status": "Bootleg"
+        },
+        {
+          "id": "be580d1c-181f-4ad9-9bfd-172c3960979e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "3eb0b384-30bc-46a4-a9f0-3b13a98a914c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "4ad6711f-3f5d-4f7b-a5eb-46636a37e47a",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Californication",
+          "status": "Promotion"
+        },
+        {
+          "id": "e09526cc-c856-4b23-8cd7-edabe97d7ea5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "7223ad5e-a9d1-415a-9671-e4578b0fc988",
+          "title": "Californication"
+        },
+        {
+          "id": "032b152f-b441-4b91-9e44-d3e28f477bb9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "4275cef6-b011-4ed8-922d-39bd2761dd4e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "b059b107-f3d9-3751-89a8-a0ec01fdfbc6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "f59b2521-2b90-42de-a90f-8e612d89c7e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "1d8f13c9-0bb8-48c6-8537-224402c5dade",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "7730c033-3be4-4ae1-a6cf-f8ce167f2615",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "1ef4c139-0a1d-4822-88a5-8baf179949c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "12c36ba8-abfe-4a83-9bc7-018713413206",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Californication: Rough Mixes",
+          "status": "Bootleg"
+        },
+        {
+          "id": "34e26efc-08ad-4d12-b269-68231589faa3",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Californication",
+          "status": "Bootleg"
+        },
+        {
+          "id": "9dc6b336-e515-4915-b061-55d37d6dbc0c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "8f249dbf-63ce-472f-b428-dc8672fc1477",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "ff3e15df-db09-4143-8886-2d6c6b3ca377",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "c4e947dc-a6e1-43a5-a438-252ba521a8ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "b50baf68-43f3-4e05-af4c-f90e13c0b108",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "a5429e73-586a-4247-a6e2-4bde73205069",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "ae9e09df-5029-30ec-bf1c-8d4a905f8c02",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "20eb6af8-d7f0-4e9e-a6ba-43c368dd9ac1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "058dcfa5-4921-4055-87b0-f541eb4adb08",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "51edfeb1-9066-4582-999f-acb8debb2fbe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "a7867376-5275-43f6-93ef-196b97203ad2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "190127cf-df36-4b97-9b82-75c5c7ab5494",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Californication: Rough Mixes",
+          "status": "Bootleg"
+        },
+        {
+          "id": "b31c6c9a-c016-402c-8c27-70480f1e6afe",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Californication",
+          "status": "Bootleg"
+        },
+        {
+          "id": "a2ba16f9-aecd-40a3-9390-658dd366b377",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "d42e8186-d02f-4fab-a525-0fa2d8ab8631",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "31249763-c17c-46bc-82a9-74460a502188",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        },
+        {
+          "id": "b5251d00-c9c7-4743-92af-244cf28bc6e4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Californication",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 14,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 20,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "heavy metal"
+        },
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "mellow"
+        },
+        {
+          "count": 0,
+          "name": "hard rock"
+        },
+        {
+          "count": 0,
+          "name": "indie rock"
+        },
+        {
+          "count": 1,
+          "name": "funk"
+        },
+        {
+          "count": 0,
+          "name": "1999"
+        },
+        {
+          "count": 8,
+          "name": "funk rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 0,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "funk metal"
+        },
+        {
+          "count": 0,
+          "name": "rap metal"
+        },
+        {
+          "count": 3,
+          "name": "alt-rock"
+        },
+        {
+          "count": 1,
+          "name": "melancholic"
+        },
+        {
+          "count": 0,
+          "name": "alt rock"
+        },
+        {
+          "count": 1,
+          "name": "sexual"
+        },
+        {
+          "count": 6,
+          "name": "00s"
+        },
+        {
+          "count": 3,
+          "name": "alt funk"
+        },
+        {
+          "count": 3,
+          "name": "alternative and punk"
+        },
+        {
+          "count": 0,
+          "name": "alternative-rock"
+        },
+        {
+          "count": 1,
+          "name": "eclectic"
+        },
+        {
+          "count": 1,
+          "name": "drugs"
+        },
+        {
+          "count": 0,
+          "name": "rap-rock"
+        },
+        {
+          "count": 1,
+          "name": "summer"
+        },
+        {
+          "count": 1,
+          "name": "energetic"
+        },
+        {
+          "count": 0,
+          "name": "beach boys"
+        },
+        {
+          "count": 0,
+          "name": "rock_alternative rock_rock_alternative rock"
+        },
+        {
+          "count": 0,
+          "name": "general alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "playful"
+        },
+        {
+          "count": 1,
+          "name": "bittersweet"
+        },
+        {
+          "count": 1,
+          "name": "anthemic"
+        },
+        {
+          "count": 1,
+          "name": "warm"
+        },
+        {
+          "count": 0,
+          "name": "blood suger"
+        },
+        {
+          "count": 1,
+          "name": "introspective"
+        },
+        {
+          "count": 0,
+          "name": "hardnheavy"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 2,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "rhythmic"
+        },
+        {
+          "count": 1,
+          "name": "longing"
+        },
+        {
+          "count": 0,
+          "name": "discogs/the most popular album released every year from 1950 to 2020"
+        }
+      ]
+    }
+  ]
+}

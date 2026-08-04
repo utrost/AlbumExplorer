@@ -1,0 +1,488 @@
+{
+  "albumId": "album-bob-dylan-the-freewheelin-bob-dylan-1963",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"The Freewheelin' Bob Dylan\" AND firstreleasedate:1963",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22The%20Freewheelin'%20Bob%20Dylan%22%20AND%20firstreleasedate%3A1963&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:45:58.857Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 32,
+      "title": "The Freewheelin’ Bob Dylan",
+      "first-release-date": "1963-05-27",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "18172562-f50a-473f-b5dd-1da4833c7a23",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin' Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "82c699df-1269-4969-9f56-6bf399f64b8a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin' Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "f62515c3-ead3-44ab-b7d5-badbb8e12430",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin' Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "6ed2939f-cded-407c-92ac-a6790abfdd15",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "5d577701-0c9c-469f-a352-86446b72d60b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "7f8cc7a5-359b-4088-854d-c1204cc271de",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "05c5f69e-fd37-446f-a712-ea678aa0416a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "7ff9ec35-1ae4-4aff-bea5-ae6195a732aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "3248509a-3eb6-486a-92a4-20759c00a429",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "bc4c6db4-a932-48d9-b2dc-79552fa19ba1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "55af8c3f-76be-4484-89bf-3e512ced44c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "a5efe3ae-0034-4145-a383-49e82bc352c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "0a730b81-69a3-4064-9c2b-29d890275165",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin' Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "e84bcadc-e60b-4794-aff5-96d73322e8d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin' Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "b14ceb58-79c6-35bb-a87a-7504864f2c7d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "c829d528-0b28-4648-ac1e-2ab06fe7c354",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "98e1831b-7440-409e-b9dc-75f6e99012f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "85dd105e-0208-4be5-adb8-76c29d922771",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "a6558335-a869-4afe-a95d-dcbf34d98418",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "c60821b6-7fbd-314e-b9de-6fea3a10ee37",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "c042dcba-2302-442d-9166-0159852a6287",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "a6404b81-46b2-3d09-b2bd-006eeaac849b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "d609ea3b-eef9-3c27-a4b2-781fcaeaeb84",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "1d6e1956-f976-4c8f-9e07-02de72c64fe7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "942be4b0-12a2-4264-93a3-b45fa94c95c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "e7316c28-2d07-32c5-ae5c-e096c509b04d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "24f33e5b-65e7-36b2-a6e3-799faeadfa0a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "c04dd1df-8cd6-4fee-9e97-cdb76c9fc86d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin' Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "5daaf248-a826-4195-8647-2cf2b8330258",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "a408efce-25e6-4391-b578-da70c30008af",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "a2be0440-13cd-3a5f-816e-10558cd27e3e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        },
+        {
+          "id": "3585b494-b2ba-45e1-a565-21ef0ec5fb6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Freewheelin’ Bob Dylan",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "political"
+        },
+        {
+          "count": 6,
+          "name": "rock"
+        },
+        {
+          "count": 12,
+          "name": "folk"
+        },
+        {
+          "count": 3,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "protest"
+        },
+        {
+          "count": 1,
+          "name": "mellow"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 9,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "acoustic"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 1,
+          "name": "folk-rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 1,
+          "name": "conscious"
+        },
+        {
+          "count": 1,
+          "name": "melancholic"
+        },
+        {
+          "count": 1,
+          "name": "love"
+        },
+        {
+          "count": 1,
+          "name": "philosophical"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "male vocalist"
+        },
+        {
+          "count": 1,
+          "name": "poetic"
+        },
+        {
+          "count": 1,
+          "name": "playful"
+        },
+        {
+          "count": 1,
+          "name": "humorous"
+        },
+        {
+          "count": 1,
+          "name": "bittersweet"
+        },
+        {
+          "count": 1,
+          "name": "passionate"
+        },
+        {
+          "count": 1,
+          "name": "warm"
+        },
+        {
+          "count": 1,
+          "name": "introspective"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "autumn"
+        },
+        {
+          "count": 1,
+          "name": "folk revival"
+        },
+        {
+          "count": 1,
+          "name": "political folk"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "albumId": "album-james-brown-sex-machine-1970",
+  "query": "artist:\"James Brown\" AND releasegroup:\"Sex Machine\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22James%20Brown%22%20AND%20releasegroup%3A%22Sex%20Machine%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:56:35.658Z",
+  "count": 3,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "640919d2-e786-354d-a9d5-3151e4621cb4",
+      "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "2ffdd22a-e733-30b3-a02a-27328ad74812",
+      "count": 10,
+      "title": "Sex Machine",
+      "first-release-date": "1970-09",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Live"
+      ],
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "artist-credit": [
+        {
+          "name": "James Brown",
+          "artist": {
+            "id": "20ff3303-4fe2-4a47-a1b6-291e26aa3438",
+            "name": "James Brown",
+            "sort-name": "Brown, James",
+            "disambiguation": "The Godfather of Soul",
+            "aliases": [
+              {
+                "sort-name": "Wright, Ted",
+                "name": "Ted Wright",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, J.",
+                "name": "J. Brown",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James Joseph, Jr.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "James Joseph Brown, Jr.",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jim Jam",
+                "name": "Jim Jam",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J. B.",
+                "name": "J. B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J.B.",
+                "name": "J.B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジェームス・ブラウン",
+                "name": "ジェームス・ブラウン",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James",
+                "name": "Brown, James",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Joseph Brown",
+                "name": "James Joseph Brown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Browm",
+                "name": "James Browm",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Brown at the Organ",
+                "name": "James Brown at the Organ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "75e5ac87-ad7d-43bf-aae7-7e1019f54a7a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "06d78b3f-562f-4cd4-a9fb-a09ee62bc5e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "aaa64bfa-2f93-46ee-b6aa-48baf0775b4b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "e99f4f29-2ce3-4292-94b7-d56e53c14b1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "5988417c-e7d2-4db1-bdde-84ca7eb2c517",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "86fe7c59-7a63-43f0-993a-090ca13da1e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "43503233-dc55-4bed-9e36-f6ecc494556a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "c4d6ee84-f557-4d65-bd05-63fd39ef2f33",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "037f1766-d22d-451b-99f0-d652feefbc26",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "2fe76918-7bbc-4bc8-89c4-c4e2af14910e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 4,
+          "name": "funk"
+        },
+        {
+          "count": 4,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "soundtracks"
+        },
+        {
+          "count": 2,
+          "name": "funk soul"
+        },
+        {
+          "count": 1,
+          "name": "blaxploitation"
+        },
+        {
+          "count": 1,
+          "name": "r&b"
+        },
+        {
+          "count": 1,
+          "name": "early r&b"
+        },
+        {
+          "count": 1,
+          "name": "double album"
+        }
+      ]
+    },
+    {
+      "id": "289dc8d0-fc28-4a48-b05d-4b8f8b926560",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 78,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "2ffdd22a-e733-30b3-a02a-27328ad74812",
+      "count": 1,
+      "title": "...A Sex Machine (Parts 1 & 2)",
+      "first-release-date": "1970",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "James Brown",
+          "artist": {
+            "id": "20ff3303-4fe2-4a47-a1b6-291e26aa3438",
+            "name": "James Brown",
+            "sort-name": "Brown, James",
+            "disambiguation": "The Godfather of Soul",
+            "aliases": [
+              {
+                "sort-name": "Wright, Ted",
+                "name": "Ted Wright",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, J.",
+                "name": "J. Brown",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James Joseph, Jr.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "James Joseph Brown, Jr.",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jim Jam",
+                "name": "Jim Jam",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J. B.",
+                "name": "J. B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J.B.",
+                "name": "J.B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジェームス・ブラウン",
+                "name": "ジェームス・ブラウン",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James",
+                "name": "Brown, James",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Joseph Brown",
+                "name": "James Joseph Brown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Browm",
+                "name": "James Browm",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Brown at the Organ",
+                "name": "James Brown at the Organ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1a5dbc63-8e47-45e6-9b4c-4b3721bab7c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "...A Sex Machine (Parts 1 & 2)",
+          "status": "Official"
+        }
+      ]
+    },
+    {
+      "id": "7a3e8175-11e2-3056-8672-6e8a1ddcc46b",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 74,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "2ffdd22a-e733-30b3-a02a-27328ad74812",
+      "count": 4,
+      "title": "Get Up (I Feel Like Being a) Sex Machine",
+      "first-release-date": "1970",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "James Brown",
+          "artist": {
+            "id": "20ff3303-4fe2-4a47-a1b6-291e26aa3438",
+            "name": "James Brown",
+            "sort-name": "Brown, James",
+            "disambiguation": "The Godfather of Soul",
+            "aliases": [
+              {
+                "sort-name": "Wright, Ted",
+                "name": "Ted Wright",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, J.",
+                "name": "J. Brown",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James Joseph, Jr.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "James Joseph Brown, Jr.",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jim Jam",
+                "name": "Jim Jam",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J. B.",
+                "name": "J. B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J.B.",
+                "name": "J.B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジェームス・ブラウン",
+                "name": "ジェームス・ブラウン",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James",
+                "name": "Brown, James",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Joseph Brown",
+                "name": "James Joseph Brown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Browm",
+                "name": "James Browm",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Brown at the Organ",
+                "name": "James Brown at the Organ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "e0cedd02-e434-4249-9f9b-663b03309f87",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Get Up I Feel Like Being Like a Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "f97275ae-4bb3-418a-9faa-1d65fded5457",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Get Up I Feel Like Being Like a Sex Machine",
+          "status": "Promotion"
+        },
+        {
+          "id": "224c5b55-9f35-47c5-8e55-d93d89f0871b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sex Machine",
+          "status": "Official"
+        },
+        {
+          "id": "a654153a-a292-41c6-b548-f041353fce65",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Get Up (I Feel Like Being a) Sex Machine",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 3,
+          "name": "funk"
+        },
+        {
+          "count": 2,
+          "name": "funk soul"
+        }
+      ]
+    }
+  ]
+}

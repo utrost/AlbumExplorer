@@ -1,0 +1,629 @@
+{
+  "albumId": "album-bob-marley-and-the-wailers-exodus-1977",
+  "query": "artist:\"Bob Marley and the Wailers\" AND releasegroup:\"Exodus\" AND firstreleasedate:1977",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Marley%20and%20the%20Wailers%22%20AND%20releasegroup%3A%22Exodus%22%20AND%20firstreleasedate%3A1977&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:34:27.433Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "fa269a48-b6a2-4847-b466-b1b7fb7d3fdb",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "867ed28a-8932-3db1-9aa1-5861e6ba4103",
+      "count": 2,
+      "title": "Exodus",
+      "first-release-date": "1977",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Bob Marley & The Wailers",
+          "artist": {
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "aliases": [
+              {
+                "sort-name": "Bob Marley and The Wailers",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Marley and The Wailers",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ボブ・マーリー＆ザ・ウェイラーズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ボブ・マーリー＆ザ・ウェイラーズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Harley and the Wailers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Harley and the Wailers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley; The Wailers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley; The Wailers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley & The Wailers & I Threes",
+                "name": "Bob Marley & The Wailers & I Threes",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley and",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley and",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley and the Whalers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley and the Whalers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ボブ・マーリー",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ボブ・マーリー",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "692070f4-65a5-4288-ab8d-4541648289ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus / One Love/People Get Ready",
+          "status": "Official"
+        },
+        {
+          "id": "da4eb053-31e0-4f1e-8576-35afb8ef27ea",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Exodus",
+          "status": "Promotion"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "reggae"
+        },
+        {
+          "count": 3,
+          "name": "roots reggae"
+        },
+        {
+          "count": 1,
+          "name": "dancehall"
+        }
+      ]
+    },
+    {
+      "id": "c5650313-60f3-34d3-92e4-300545133792",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "867ed28a-8932-3db1-9aa1-5861e6ba4103",
+      "count": 56,
+      "title": "Exodus",
+      "first-release-date": "1977-06-03",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Marley & The Wailers",
+          "artist": {
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "aliases": [
+              {
+                "sort-name": "Bob Marley and The Wailers",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Marley and The Wailers",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ボブ・マーリー＆ザ・ウェイラーズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ボブ・マーリー＆ザ・ウェイラーズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Harley and the Wailers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Harley and the Wailers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley; The Wailers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley; The Wailers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley & The Wailers & I Threes",
+                "name": "Bob Marley & The Wailers & I Threes",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley and",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley and",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley and the Whalers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley and the Whalers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ボブ・マーリー",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ボブ・マーリー",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "86e2cc96-f31b-4097-bbaa-82219a4cc248",
+          "title": "Exodus"
+        },
+        {
+          "id": "96a29e09-4512-46e4-aed0-41f3a6b1a2e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "a84947f8-abf6-4e63-affb-cdb7cb9c519d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "1aacccef-80ae-4141-b211-190f04178430",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "4a5bdc63-4749-497d-8ab4-ec42f006ab91",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "814e41a7-5c87-4d71-90ea-06f6cbf95dce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "ed8763f8-b938-497e-8038-ed0ce0ee7bdc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "065e43f2-25e2-44bb-a0ff-98518ee2fe7a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "3890d7bb-6c64-401c-82fc-13628a285449",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "7109c9f0-d371-4e21-899b-2feb724a5bc7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "53f29169-4128-4505-9609-dc6427e019b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus (Remastered Bonus Track Version)",
+          "status": "Official"
+        },
+        {
+          "id": "0266c7d0-5570-3c6a-83b8-28ce975d1010",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "4a78f236-5c74-45b9-9ab9-3a64aef4365f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "6c31422a-dcc9-49a5-9f04-370be3944af5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "3f402afa-e87c-4b2c-81a3-3ffb10111746",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "4d66d7c4-8742-4891-bcfd-b0c15bf5703f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "24e92822-2263-4384-8a11-f8c837ae71e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "3b4b6afb-2c2b-4f1c-be81-3fc3cf530df5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "25919a8f-5561-4557-9054-82d183094b31",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "bae5ca94-6af0-49d9-8be8-3240adbabe7b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "25a4200d-3b9b-41d1-9b62-7b7ef8d3c9d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "6c98b20b-8a51-4e83-acf9-b279fdebb7cc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "95d96447-53b5-4093-a3ed-83cd4a062a13",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "614649ad-1a64-4e95-8f89-dc5b60a19459",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "ea192615-4ab5-4f61-8a12-dd716f18a04e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "09f9ac90-771a-45c0-bbdc-76f6562fab68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "180a01cc-7f9a-4a36-aaa0-b1a51d918bbe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "77cc6bce-f676-4572-9e24-83d11ef204b9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "e545c828-c4ef-4c61-be20-eb3666e5f2da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "ea290f7c-92c8-4303-a43c-244b4631a30d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "7f2754b0-4da5-4108-8c54-f4ebc30cb622",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus (Deluxe Edition)",
+          "status": "Official"
+        },
+        {
+          "id": "1235606f-0f4c-412d-86d0-8d58e0523d24",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "4daabda4-6893-460c-a5a4-36fba1918133",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "302c7818-8f32-4370-8f97-c335b1a0db6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "a631ea3d-96cc-4f98-a91a-7ed9c1e03be5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus (The Movement Continues...)",
+          "status": "Official"
+        },
+        {
+          "id": "c5666479-8f0f-4676-8387-b1546e017f45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "8b73b2c3-a599-40d2-bb02-a7fededcb451",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "8c5079d3-e515-4531-98f2-8917031d80e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "593f09a7-95de-3b3e-9e09-169e91ec630f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "6b84377a-1c6d-4d19-9cd9-5870ef3edd43",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "01d6c5ab-c8bc-46d9-8bb9-c93f2faed4ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "d27ac8bb-bc78-4464-b392-190f74f8a38f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "a9fe1be6-e291-4aa4-80cf-24b7dba03fb9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "631be51a-586b-4891-9323-c17cbf7e7317",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "3a0651e3-f26c-3e5e-8a59-2beb15ecb6f3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "bb40fa6b-c2fe-350c-98ad-cf116d95b7f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "5e5cde5d-6e60-3d65-b2c6-3d230a92318b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "f54501b8-b0c5-366c-93cb-f3183a6196f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "a7f698a2-0b2e-4c01-846a-2657602b7811",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "02beea32-c645-37c4-abb9-8c311bc36a6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "29459d5c-d5da-4172-a85a-c05fa937e09b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "41ec6d32-57ca-4e67-803a-2260f957888e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "09708f0a-ceea-4997-a55f-24bc39119829",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "8196bad2-6b74-4c80-9c43-6d54855916a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "7f3b4297-5158-3f92-8c71-363863eec21b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        },
+        {
+          "id": "b44e1e86-8dff-4a3d-960d-b3358f01dd62",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exodus",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 20,
+          "name": "reggae"
+        },
+        {
+          "count": 10,
+          "name": "roots reggae"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 2,
+          "name": "roots"
+        },
+        {
+          "count": 3,
+          "name": "bob"
+        },
+        {
+          "count": 2,
+          "name": "soul and reggae"
+        },
+        {
+          "count": 0,
+          "name": "lovers rock"
+        },
+        {
+          "count": 0,
+          "name": "do not split"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 0,
+          "name": "1–4 wochen"
+        }
+      ]
+    }
+  ]
+}

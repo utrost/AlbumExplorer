@@ -1,0 +1,223 @@
+{
+  "albumId": "album-ray-charles-the-birth-of-soul-1991",
+  "query": "artist:\"Ray Charles\" AND releasegroup:\"The Birth of Soul\" AND firstreleasedate:1991",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Ray%20Charles%22%20AND%20releasegroup%3A%22The%20Birth%20of%20Soul%22%20AND%20firstreleasedate%3A1991&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:43:57.802Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e4463406-ea59-39a6-a39b-aaa82a166633",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "63720f41-38ff-3859-a80c-75a85f0f6d8f",
+      "count": 2,
+      "title": "The Birth of Soul",
+      "first-release-date": "1991-10-01",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Ray Charles",
+          "artist": {
+            "id": "2ce02909-598b-44ef-a456-151ba0a3bd70",
+            "name": "Ray Charles",
+            "sort-name": "Charles, Ray",
+            "disambiguation": "soul musician, singer and songwriter",
+            "aliases": [
+              {
+                "sort-name": "Robinson, Ray Charles",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Ray Charles Robinson",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レイ・チャールズ",
+                "name": "レイ・チャールズ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Charles Ray",
+                "name": "Charles Ray",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "R. Charles",
+                "name": "R. Charles",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0c2c301c-06e1-4232-9f9e-d405c572c623",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Birth of Soul",
+          "status": "Official"
+        },
+        {
+          "id": "10751024-6530-4dc5-be0c-6d37bca3aefc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Birth of Soul",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "soul"
+        },
+        {
+          "count": 0,
+          "name": "r b"
+        },
+        {
+          "count": 1,
+          "name": "jump blues"
+        },
+        {
+          "count": 1,
+          "name": "funk soul"
+        },
+        {
+          "count": 0,
+          "name": "rhythm blues"
+        },
+        {
+          "count": 1,
+          "name": "r&b"
+        },
+        {
+          "count": 1,
+          "name": "rhythm & blues"
+        }
+      ]
+    },
+    {
+      "id": "505bb177-e37e-44af-9f87-19eb6403a9cc",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 74,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "63720f41-38ff-3859-a80c-75a85f0f6d8f",
+      "count": 1,
+      "title": "The Birth Of Soul - The Complete Atlantic Rhythm & Blues Recordings 1952-1959",
+      "first-release-date": "1991-10-01",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Ray Charles",
+          "artist": {
+            "id": "2ce02909-598b-44ef-a456-151ba0a3bd70",
+            "name": "Ray Charles",
+            "sort-name": "Charles, Ray",
+            "disambiguation": "soul musician, singer and songwriter",
+            "aliases": [
+              {
+                "sort-name": "Robinson, Ray Charles",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Ray Charles Robinson",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レイ・チャールズ",
+                "name": "レイ・チャールズ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Charles Ray",
+                "name": "Charles Ray",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "R. Charles",
+                "name": "R. Charles",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a0ae2b8d-a5f3-4709-bf3c-fefe868defb9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Birth of Soul: The Complete Atlantic Rhythm & Blues Recordings - 1952-1959",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "jazz"
+        },
+        {
+          "count": 2,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "piano blues"
+        },
+        {
+          "count": 1,
+          "name": "jazz blues"
+        },
+        {
+          "count": 1,
+          "name": "r&b"
+        }
+      ]
+    }
+  ]
+}

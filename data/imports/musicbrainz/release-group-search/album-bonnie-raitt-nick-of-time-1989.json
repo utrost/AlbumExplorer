@@ -1,0 +1,235 @@
+{
+  "albumId": "album-bonnie-raitt-nick-of-time-1989",
+  "query": "artist:\"Bonnie Raitt\" AND releasegroup:\"Nick of Time\" AND firstreleasedate:1989",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bonnie%20Raitt%22%20AND%20releasegroup%3A%22Nick%20of%20Time%22%20AND%20firstreleasedate%3A1989&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:58:40.935Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "0493143e-aefa-4fb3-bc67-1955f06038ed",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "e3f0a905-6e23-3734-892e-45472c0201ab",
+      "count": 1,
+      "title": "Nick of Time",
+      "first-release-date": "1989",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Bonnie Raitt",
+          "artist": {
+            "id": "0f0da09c-3940-4cb5-879f-4cea28907810",
+            "name": "Bonnie Raitt",
+            "sort-name": "Raitt, Bonnie",
+            "aliases": [
+              {
+                "sort-name": "Raitt, Bonnie Lynn",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bonnie Lynn Raitt",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bonnie Rait",
+                "name": "Bonnie Rait",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bonny Raitt",
+                "name": "Bonny Raitt",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cca03645-c4c9-46ac-8241-e2e6ddb1d0e0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "182a8072-0513-3aa2-b812-9f7a9692731a",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e3f0a905-6e23-3734-892e-45472c0201ab",
+      "count": 13,
+      "title": "Nick of Time",
+      "first-release-date": "1989-03-21",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bonnie Raitt",
+          "artist": {
+            "id": "0f0da09c-3940-4cb5-879f-4cea28907810",
+            "name": "Bonnie Raitt",
+            "sort-name": "Raitt, Bonnie",
+            "aliases": [
+              {
+                "sort-name": "Raitt, Bonnie Lynn",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bonnie Lynn Raitt",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bonnie Rait",
+                "name": "Bonnie Rait",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bonny Raitt",
+                "name": "Bonny Raitt",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7c2f522b-149d-429f-87d0-20a31dd69348",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "c2ce0f74-ad16-497d-944f-a9733e273c24",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "3e298f44-b842-47b5-9287-fde8319a14ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "70186333-81f2-4fc3-8c39-ba0fbedc68c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "9ac98f37-45c2-42fd-b98a-1d3db3e0678c",
+          "title": "Nick of Time"
+        },
+        {
+          "id": "9e2d4adc-e924-4512-ad2a-d27a5297b54b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "48280d9a-8c4a-4ebc-a925-7c435ceb6d9c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "94d6c722-6a80-4bce-a9a8-f8f86876420e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "b7874782-1437-4d33-b35c-2c6daf52db5b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "807fcb42-621a-47ae-bb03-4135b643c0aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "32fdca94-c832-4f04-96b2-701d17223853",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "089e0fee-acee-4f15-9b2e-05498b6ea3a6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick of Time",
+          "status": "Official"
+        },
+        {
+          "id": "272b441c-5bdd-4aeb-9aba-7db6f669e727",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nick Of Time",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 4,
+          "name": "rock"
+        },
+        {
+          "count": 7,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "americana"
+        },
+        {
+          "count": 5,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 2,
+          "name": "pop rock"
+        }
+      ]
+    }
+  ]
+}

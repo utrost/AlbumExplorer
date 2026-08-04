@@ -1,0 +1,108 @@
+{
+  "albumId": "album-cheap-trick-in-color-1977",
+  "query": "artist:\"Cheap Trick\" AND releasegroup:\"In Color\" AND firstreleasedate:1977",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Cheap%20Trick%22%20AND%20releasegroup%3A%22In%20Color%22%20AND%20firstreleasedate%3A1977&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:11:43.199Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "56f8dc86-6243-3fdd-af13-3481c2521f47",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "cda91f67-4d84-3243-9bcb-19757a1b290e",
+      "count": 8,
+      "title": "In Color",
+      "first-release-date": "1977-09",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Cheap Trick",
+          "artist": {
+            "id": "9f870653-72b0-4c6d-8c59-439a95963e09",
+            "name": "Cheap Trick",
+            "sort-name": "Cheap Trick"
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "86ec3ece-222e-4633-a0ee-922e42fbd6f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Color",
+          "status": "Official"
+        },
+        {
+          "id": "c0b0bba4-6725-4e09-8eb8-f72d85edb6f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Color",
+          "status": "Official"
+        },
+        {
+          "id": "c50a8b90-81d5-47f2-8922-1fffa2098d40",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Color",
+          "status": "Official"
+        },
+        {
+          "id": "3d2e90a3-c2ee-4b70-9f5a-cf56cbdd77db",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Color",
+          "status": "Official"
+        },
+        {
+          "id": "baa86c0d-3a23-3203-a007-909e2f51f534",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Color",
+          "status": "Official"
+        },
+        {
+          "id": "8d1ebcf7-88d1-4488-a423-c5e6819bf982",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "In Color: The Unreleased Steve Albini Sessions",
+          "status": "Bootleg"
+        },
+        {
+          "id": "2110b2f3-4ece-4733-97cc-31cf7f036fba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Color",
+          "status": "Official"
+        },
+        {
+          "id": "9f285760-c63b-4572-97b0-dc2af7396bcc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Color",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 6,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "hard rock"
+        },
+        {
+          "count": 2,
+          "name": "power pop"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 4,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "oldies 70 s"
+        }
+      ]
+    }
+  ]
+}

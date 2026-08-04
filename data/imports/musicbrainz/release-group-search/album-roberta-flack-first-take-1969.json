@@ -1,0 +1,143 @@
+{
+  "albumId": "album-roberta-flack-first-take-1969",
+  "query": "artist:\"Roberta Flack\" AND releasegroup:\"First Take\" AND firstreleasedate:1969",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Roberta%20Flack%22%20AND%20releasegroup%3A%22First%20Take%22%20AND%20firstreleasedate%3A1969&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:57:07.338Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4455c04d-9368-4dc5-b35d-6ff8c407921f",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "242b8294-9082-32f1-ab11-48dfd5b26035",
+      "count": 10,
+      "title": "First Take",
+      "first-release-date": "1969",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Roberta Flack",
+          "artist": {
+            "id": "5298bbcb-7330-49bf-a780-2d757f10a20a",
+            "name": "Roberta Flack",
+            "sort-name": "Flack, Roberta",
+            "disambiguation": "singer and pianist",
+            "aliases": [
+              {
+                "sort-name": "Flack, Roberta Cleopatra",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Roberta Cleopatra Flack",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1937-02-10",
+                "end-date": null
+              },
+              {
+                "sort-name": "Flake, Rubina",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Rubina Flake",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "ff0bb66a-af81-42d1-901c-b847a61b925c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "cf60a630-d585-4931-b055-d1234550741b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "42b6f052-4851-49f8-ac23-781b9a8706cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "02501515-c40c-4f34-892c-68e6f01a6ff4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "bd4a9a1b-87c0-4d07-8abd-5cde098a2880",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "5c288ae0-146f-4f72-9a7e-faea736c1d58",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "db3770cc-13eb-47d7-b304-b7fdef2606bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "81a56357-a949-4f23-9c89-d7a5a8da8de6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "cd0e72a6-0170-43ac-9399-cd0bb960e48a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        },
+        {
+          "id": "52f437c5-4145-46fe-bc75-fb6aa2042504",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "First Take",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "jazz"
+        },
+        {
+          "count": 6,
+          "name": "soul"
+        },
+        {
+          "count": 2,
+          "name": "vocal jazz"
+        },
+        {
+          "count": 0,
+          "name": "soul jazz"
+        },
+        {
+          "count": 0,
+          "name": "funk soul"
+        }
+      ]
+    }
+  ]
+}

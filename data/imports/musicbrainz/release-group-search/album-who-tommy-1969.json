@@ -1,0 +1,571 @@
+{
+  "albumId": "album-who-tommy-1969",
+  "query": "artist:\"The Who\" AND releasegroup:\"Tommy\" AND firstreleasedate:1969",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Who%22%20AND%20releasegroup%3A%22Tommy%22%20AND%20firstreleasedate%3A1969&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:43:03.879Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "0e587339-406a-3d21-8678-73e46e250379",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "fe538222-811a-3308-b15c-96060cd2cd65",
+      "count": 53,
+      "title": "Tommy",
+      "first-release-date": "1969-05-23",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Who",
+          "artist": {
+            "id": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+            "name": "The Who",
+            "sort-name": "Who, The",
+            "aliases": [
+              {
+                "sort-name": "ザ・フー",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・フー",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Who",
+                "name": "Who",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "fd4d656d-067e-4b3a-b747-db61e10c6da7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "cb6b42ce-ced8-4a8e-9f9a-5762e5fe1754",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "e77ea9ef-55ea-4446-8f61-20ac6a3ee43b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy (deluxe 2013 edition)",
+          "status": "Official"
+        },
+        {
+          "id": "62c20b1d-03c7-4ec1-a70b-561af42afe87",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "8d6ca9cb-a914-4264-8566-e6458f8db797",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "c8a08a53-0c83-4cce-afab-f90048e68cc6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "f43f6c77-ebe7-4bc5-a7d1-7729617b11e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "72504735-c451-411d-beae-8b5d951bfab8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "96d92a8b-8f10-40eb-b9f9-3208accc98db",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "fe5bd0e5-a0d5-4623-9b9a-b7b642625dac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "e5e6cc5b-cf8e-4bef-a143-f68512547b7c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "5e7e5e65-57ca-47e9-918b-7874adf6963a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "36e5667d-01fe-4a27-b831-fe920ea654aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "bd04faf8-b38f-48c7-aa94-4a4daaa2d2c5",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tommy",
+          "status": "Bootleg"
+        },
+        {
+          "id": "82b49b5c-a193-4ab4-b7df-5f65ba8e982f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "ef252aa8-ee62-4944-ab01-0b1e7ceadee8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "9d056753-8397-4271-8043-ef49b52f8ef0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "742931a2-b024-377c-a3c9-5eb6bfdda480",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "07c1236f-dddb-45dd-86fc-979e71bf4724",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "1b98e7a3-58ad-412a-82e1-685fe356ff10",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "b381a1d6-a5b8-381f-89c9-2cb7f915d1f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "0404982a-4b91-4bbe-81fb-ac6bb5b596a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "95086a19-581f-4bad-8371-ea8466aa4dbf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "e1ec9f53-b126-4d20-9421-f96f286f3b8b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "b5136903-c252-4df1-b115-7d4afecb2272",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "957eecdf-ed56-464e-a33a-92fbc04509bd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy: Part 1",
+          "status": "Official"
+        },
+        {
+          "id": "e10741e1-f945-401b-8a78-32a73baf6505",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "2d0573ce-3c17-4f0e-94c5-7ee2b833fc3e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "92c4c1cb-99be-4b1f-9462-45708c3f4fa7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "4484747c-09b4-31da-a212-483b8f638c17",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "b46275f4-d379-486e-8108-30058c5368cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "8133f9ae-66cc-3eb1-85b1-be3196edcfb6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "20b377ff-ed37-4bcc-bfe7-e8fe247064a9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "25ea93d5-effe-3976-bc86-f86778d7228f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "4147c0d3-7939-3484-bde6-b6fbefd7bc3b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "fb4ea95a-4c6f-404d-8613-effbe9eb5aec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "0d176e4b-6ae9-41af-93e1-0f96609fd13b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "fceaca05-a210-4f92-9e88-1e8b44ec8e37",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "301f391c-231c-362c-aaea-142de5b18c85",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "74b3b6c9-7d9a-32d1-b23f-cabf60471c52",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "545d4ae8-52da-43cb-af5b-50721267f1d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "7d7fa4cf-0ce3-4f02-9485-852c568a9f17",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "8bdd93ac-ed9c-4b91-b86c-c22ca4c4b250",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "8096b9e6-f059-4004-87e2-c3a981ca5f32",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "ee29349e-256a-441b-aedb-e659721f9def",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "7de054e3-c599-40c2-a2fd-860b532f663d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "eba964cc-8476-400e-8cb1-65fc62a69c94",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "eaba5a80-a36f-427a-b68b-580fdfde8b53",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "e1a1814e-9d80-4aea-abdd-793d8498c2cc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "b88ebbaa-f692-4ceb-b02d-bfcf8a464ca7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "7ff05405-9188-485e-b989-1906fa93091a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "dfe50213-710f-4b4c-83d3-fa18eb71587a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        },
+        {
+          "id": "cc6adf85-1f08-49fe-b074-22621cffc37a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tommy",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 10,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "concept album"
+        },
+        {
+          "count": 5,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "progressive"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        },
+        {
+          "count": 2,
+          "name": "art rock"
+        },
+        {
+          "count": 4,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "album rock"
+        },
+        {
+          "count": 0,
+          "name": "symphonic rock"
+        },
+        {
+          "count": -1,
+          "name": "british invasion"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 3,
+          "name": "rock opera"
+        },
+        {
+          "count": 1,
+          "name": "dark"
+        },
+        {
+          "count": 1,
+          "name": "spiritual"
+        },
+        {
+          "count": 1,
+          "name": "hardrock"
+        },
+        {
+          "count": 1,
+          "name": "epic"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 0,
+          "name": "soundtracks"
+        },
+        {
+          "count": 1,
+          "name": "drugs"
+        },
+        {
+          "count": 1,
+          "name": "sports"
+        },
+        {
+          "count": 1,
+          "name": "existential"
+        },
+        {
+          "count": 1,
+          "name": "energetic"
+        },
+        {
+          "count": 1,
+          "name": "mountains"
+        },
+        {
+          "count": 1,
+          "name": "surreal"
+        },
+        {
+          "count": 1,
+          "name": "theatrical"
+        },
+        {
+          "count": 1,
+          "name": "male vocalist"
+        },
+        {
+          "count": 1,
+          "name": "lonely"
+        },
+        {
+          "count": 1,
+          "name": "quirky"
+        },
+        {
+          "count": 1,
+          "name": "passionate"
+        },
+        {
+          "count": 1,
+          "name": "anthemic"
+        },
+        {
+          "count": 1,
+          "name": "introspective"
+        },
+        {
+          "count": 1,
+          "name": "family"
+        },
+        {
+          "count": 1,
+          "name": "narrative"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": -1,
+          "name": "pop/rock"
+        },
+        {
+          "count": -1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "prog-rock"
+        },
+        {
+          "count": 0,
+          "name": "rock/pop"
+        },
+        {
+          "count": 1,
+          "name": "childhood"
+        },
+        {
+          "count": 1,
+          "name": "disturbing"
+        },
+        {
+          "count": 1,
+          "name": "trauma"
+        },
+        {
+          "count": 1,
+          "name": "alienation"
+        },
+        {
+          "count": 1,
+          "name": "triumphant"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 0,
+          "name": "1–4 wochen"
+        },
+        {
+          "count": 1,
+          "name": "adolescence"
+        },
+        {
+          "count": 1,
+          "name": "hallucinogens"
+        }
+      ]
+    }
+  ]
+}

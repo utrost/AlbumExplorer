@@ -1,0 +1,889 @@
+{
+  "albumId": "album-bob-dylan-blonde-on-blonde-1966",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"Blonde on Blonde\" AND firstreleasedate:1966",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22Blonde%20on%20Blonde%22%20AND%20firstreleasedate%3A1966&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:34:13.540Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "329fb554-2a81-3d8a-8e22-ec2c66810019",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 59,
+      "title": "Blonde on Blonde",
+      "first-release-date": "1966-05-16",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "acc2a08d-5c3d-3f16-a5aa-20824c957f09",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "d617ca71-374f-4d0e-acfd-dac67fc292bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "40d813a5-788a-4688-b048-b071d122b46f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "b7cdf4eb-8c39-4f08-afe9-8724553e57f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "3020d468-48e7-36c7-8ae5-8cf7b139974c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "78eacb4b-7a2a-461a-beaa-a831dc82ec75",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "dabdca4e-a663-49ad-aad6-4c382ea9e849",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "a693dc43-7482-327c-8a2b-b735229b1769",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "62f2add0-7606-3f2b-abfb-56a744231194",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "0ed3454a-5a10-33e3-8fc6-a1f29299d970",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "ddf2afd5-5b2a-3cb4-adf4-e577536ebd67",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "02f13536-4e59-459b-a213-895add46d2b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "11e23d20-c396-4174-b919-6a970f8dfa8c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde, Volume 1",
+          "status": "Official"
+        },
+        {
+          "id": "0e2bf232-20da-4e47-8d4d-40a7b164401d",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Blonde on Blonde",
+          "status": "Promotion"
+        },
+        {
+          "id": "aafc370a-1b87-4a9e-af0c-f8404988002a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "3c4ca5d1-90e5-46f6-923a-cdc4f6376416",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "41291c84-786f-48ee-a86c-31976eef85a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde On Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "cfd599c5-eb6d-3253-8765-4bbce9ec11df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "09bb38fb-60d5-3e53-9333-d8a815761383",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "7d2a7582-8042-337c-acf9-8140a60e9451",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "5a1b2db3-4ed1-3cb7-8d43-8ef805ad0b01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "1f6771c8-b1ab-3473-8dee-759a838b9ae6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "90a2c882-d80d-4ef7-97dd-9b47f3af3b50",
+          "status-id": "55005350-bc3f-441a-b0c7-27c565eae341",
+          "title": "Blonde on Blonde",
+          "status": "Cancelled"
+        },
+        {
+          "id": "60ef89bf-4fdc-4973-bd70-d3c3b7c9ee7c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "6cf0da93-9689-412d-b8ad-5c656c1ba970",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "392067d8-e961-47c1-b4bb-910f9d525f6c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "c96d6546-25e4-4717-b514-62684245675f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "df014a4d-38fd-3458-af10-3077cb0c9656",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "19aadf19-34af-35d2-a27f-bdfd2fe8d380",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "46c8ed7f-4d4e-3076-bbc0-39ae35aae463",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "c3d1e012-e2c4-4c67-aa56-5d73256f4b83",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Blonde on Blonde",
+          "status": "Promotion"
+        },
+        {
+          "id": "36260d88-5dd3-44eb-a9ba-1314083c3a67",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "656c42ef-d1cd-416e-89c4-f5484affef7f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "478ff5ce-7bb6-4909-b2e0-bfb5492f87bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "c5e91a7c-6285-42ee-8d95-51a90d7f0c5d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "a408033c-728a-4eb8-9b21-244b95882445",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "13fb1c8b-a1ea-449d-ae24-67e5282e0d43",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "adf6d06d-d2cb-4cc3-ab02-d458ef268d5e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "0e7d283f-a0c9-3355-b978-bc82b9694bb6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "189efa45-def2-3b1c-b619-ba1640774705",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "32d06b3f-e76c-4264-ba6e-d41ec7315f74",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde, Volume 1",
+          "status": "Official"
+        },
+        {
+          "id": "e43f8845-d04c-4fa2-9e79-a8c96b6d102d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde, Volume 2",
+          "status": "Official"
+        },
+        {
+          "id": "829cf1fe-8498-384b-ae06-7d2629de123b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "a011276e-4bd1-35c2-9d74-a796bf8eb54b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "d1e4172b-76f0-4022-9e6e-22de1a3417dd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "b1f03cdc-d594-34a2-801e-853ff601a324",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "f3f061ae-494b-3edf-aa46-4fc7acb282d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "4d894f37-ca03-38ff-bad2-ef1aaa5ea9c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "c32747a7-fa22-3a40-bd53-2d1ed60745a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "4989cb91-beb5-3181-906e-44e4cae2e3ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "ca086965-a9af-3246-b735-6575e8db6d69",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "d2fb7c77-a01a-4e09-a389-d1289aea2dc0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "12293b25-b7e5-4064-8ea4-b6aa7b9da91f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "1b051a10-7268-3773-a9ba-660765056ae3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "e640c261-ab95-46e2-bd47-01f5b7e48c65",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "1f604761-6bcc-41e6-9695-601dc2bd1242",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "7fefd6a7-f5ed-3553-9edf-f0ed2df77ddc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "a0a98340-465e-48e2-b00e-ebeb425ff500",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        },
+        {
+          "id": "538aff00-a009-4515-a064-11a6d5a502ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blonde on Blonde",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 10,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "folk"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 14,
+          "name": "folk rock"
+        },
+        {
+          "count": 4,
+          "name": "acoustic"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 3,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 0,
+          "name": "folk-rock"
+        },
+        {
+          "count": 1,
+          "name": "abstract"
+        },
+        {
+          "count": 3,
+          "name": "album rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "conscious"
+        },
+        {
+          "count": 1,
+          "name": "romantic"
+        },
+        {
+          "count": 1,
+          "name": "melancholic"
+        },
+        {
+          "count": 1,
+          "name": "sexual"
+        },
+        {
+          "count": 1,
+          "name": "love"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "eclectic"
+        },
+        {
+          "count": 1,
+          "name": "philosophical"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "surreal"
+        },
+        {
+          "count": 0,
+          "name": "oldies 60 s"
+        },
+        {
+          "count": 1,
+          "name": "male vocalist"
+        },
+        {
+          "count": 1,
+          "name": "poetic"
+        },
+        {
+          "count": 1,
+          "name": "playful"
+        },
+        {
+          "count": 1,
+          "name": "quirky"
+        },
+        {
+          "count": 1,
+          "name": "bittersweet"
+        },
+        {
+          "count": 0,
+          "name": "am pop"
+        },
+        {
+          "count": 1,
+          "name": "passionate"
+        },
+        {
+          "count": 1,
+          "name": "sentimental"
+        },
+        {
+          "count": 1,
+          "name": "introspective"
+        },
+        {
+          "count": 1,
+          "name": "narrative"
+        },
+        {
+          "count": 0,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "rhythm & blues"
+        },
+        {
+          "count": 1,
+          "name": "autumn"
+        },
+        {
+          "count": 1,
+          "name": "alienation"
+        },
+        {
+          "count": 1,
+          "name": "sarcastic"
+        },
+        {
+          "count": 1,
+          "name": "longing"
+        },
+        {
+          "count": 1,
+          "name": "breakup"
+        },
+        {
+          "count": 0,
+          "name": "double album"
+        },
+        {
+          "count": 1,
+          "name": "cryptic"
+        },
+        {
+          "count": 1,
+          "name": "stream of consciousness"
+        }
+      ]
+    },
+    {
+      "id": "f811aa12-c6a5-4214-8408-c5450e1ba9c6",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 84,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 1,
+      "title": "The Blonde on Blonde Studio Sessions",
+      "first-release-date": "1966",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "b144bd63-e1b8-4ee2-9d64-f0ed508f2c42",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Blonde on Blonde Studio Sessions",
+          "status": "Bootleg"
+        }
+      ]
+    }
+  ]
+}

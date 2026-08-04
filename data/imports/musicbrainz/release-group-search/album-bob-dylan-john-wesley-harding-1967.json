@@ -1,0 +1,358 @@
+{
+  "albumId": "album-bob-dylan-john-wesley-harding-1967",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"John Wesley Harding\" AND firstreleasedate:1967",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22John%20Wesley%20Harding%22%20AND%20firstreleasedate%3A1967&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:35.524Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "32981714-597a-32dd-9f29-b2f7566fed89",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 25,
+      "title": "John Wesley Harding",
+      "first-release-date": "1967-12-27",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "5ca71fbc-9e8d-475c-b301-5224429dd629",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "8fe0d575-027a-3430-9206-06fc10c3c134",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "75f94fa3-ef32-45c6-81e3-7da31d0c8d8c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "26ed1016-0ed5-3af8-a87c-f305151dea17",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "4bf5c2cd-011a-4f8d-8679-a1a899b0c135",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "ad35d4b7-ff8f-420a-b428-e092c7647763",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "ef54b58d-32b3-4b9b-81d2-dfcf0297bdd2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "c60edc92-4c57-4540-84a1-767de6c09d2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "04ef7d7b-5ad6-4662-84c0-3546215a4370",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "c0539ee3-85cc-41fe-b148-a251dc57fbc1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "64d401cc-1897-4f2f-bcd2-85b71e5354c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "050fec95-1332-42bd-baad-059e0dfa0247",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "cc80e529-7e82-4c85-896d-5b182e5e1c9f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "67dd706f-8b99-3ed7-a335-6ee8d252cc3a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "44fcb58c-a10b-337c-89f7-3f0b591743c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "e99cc1eb-4ca3-39bb-8411-971203e6506f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "bbcc4713-77da-3ab0-a6c6-bded46e034eb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "45e9b589-a56b-3594-a404-57595605dc98",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "1fed2636-41d8-4b65-b377-f33b0bb52238",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "9b2ca98d-fe36-34dd-b400-f7cf6f97b991",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "8e7e12b2-46ff-4e6b-8384-2ce538d90dcc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "b20b9d53-aa07-395f-b129-0140c85bbbc8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "27e06716-f1fb-344f-a8b8-3d9889447682",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "ae062037-befc-4a62-aa89-54c4898fed5b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        },
+        {
+          "id": "8d796162-1589-4293-a335-97f8c3d5923e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Wesley Harding",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 6,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "folk"
+        },
+        {
+          "count": 12,
+          "name": "folk rock"
+        },
+        {
+          "count": 6,
+          "name": "country rock"
+        },
+        {
+          "count": 2,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        }
+      ]
+    }
+  ]
+}

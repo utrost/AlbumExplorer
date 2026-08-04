@@ -1,0 +1,316 @@
+{
+  "albumId": "album-elliott-smith-either-or-1997",
+  "query": "artist:\"Elliott Smith\" AND releasegroup:\"Either/Or\" AND firstreleasedate:1997",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Elliott%20Smith%22%20AND%20releasegroup%3A%22Either%2FOr%22%20AND%20firstreleasedate%3A1997&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:12.667Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "dfb85157-313b-3f5f-8739-a5162bcb6345",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e70410c6-5597-3578-84a2-faa25d02b898",
+      "count": 13,
+      "title": "Either/Or",
+      "first-release-date": "1997-02-25",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Elliott Smith",
+          "artist": {
+            "id": "03ad1736-b7c9-412a-b442-82536d63a5c4",
+            "name": "Elliott Smith",
+            "sort-name": "Smith, Elliott",
+            "disambiguation": "US singer‐songwriter",
+            "aliases": [
+              {
+                "sort-name": "Smith, Steven P.",
+                "name": "Steven P. Smith",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elliott Smith",
+                "name": "Elliott Smith",
+                "locale": "en_US",
+                "type": null,
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elliott Smoth",
+                "name": "Elliott Smoth",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elliot Smith",
+                "name": "Elliot Smith",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Steven Paul Smith",
+                "name": "Steven Paul Smith",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cf6496a2-5084-4388-9fbe-586374857c9b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "df24dc47-1e1d-4508-aef0-172705324e11",
+          "title": "Either/Or"
+        },
+        {
+          "id": "404c4873-7c34-33ce-8650-3ee1a3c2d421",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "40fe823a-3967-4e40-b382-0abb381618c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "8d5dd718-b00a-4ab6-9b79-6da6801ea637",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "0a5aa565-8158-4e81-9776-af8044f6cc1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "de30cd43-f960-4ac2-b41c-fef8a278a0da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or: Expanded Edition",
+          "status": "Official"
+        },
+        {
+          "id": "d8fcf0af-14ee-416d-9e6b-cb6add38a814",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "1cb2dca5-e325-4b38-8af5-5e6c3a03488d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "028eb7db-16a4-4934-b3a8-2462ab50b121",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "a9fdf8a6-c2fe-4978-810c-5b54e4ad515a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "1dc17f8b-a3c8-3799-9285-43055346f351",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        },
+        {
+          "id": "64cd2409-05ce-3837-b703-8a1f557a5b1f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Either/Or",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "mellow"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 5,
+          "name": "indie rock"
+        },
+        {
+          "count": 5,
+          "name": "folk rock"
+        },
+        {
+          "count": 0,
+          "name": "indie"
+        },
+        {
+          "count": 1,
+          "name": "acoustic"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 1,
+          "name": "lo-fi"
+        },
+        {
+          "count": 6,
+          "name": "indie pop"
+        },
+        {
+          "count": 5,
+          "name": "indie folk"
+        },
+        {
+          "count": 0,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "melancholic"
+        },
+        {
+          "count": 1,
+          "name": "soft"
+        },
+        {
+          "count": 1,
+          "name": "love"
+        },
+        {
+          "count": 1,
+          "name": "singer songwriter"
+        },
+        {
+          "count": 1,
+          "name": "sad"
+        },
+        {
+          "count": 1,
+          "name": "alcohol"
+        },
+        {
+          "count": 1,
+          "name": "depressive"
+        },
+        {
+          "count": 1,
+          "name": "male vocalist"
+        },
+        {
+          "count": 1,
+          "name": "poetic"
+        },
+        {
+          "count": 1,
+          "name": "lonely"
+        },
+        {
+          "count": 1,
+          "name": "bittersweet"
+        },
+        {
+          "count": 1,
+          "name": "introspective"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "addiction"
+        },
+        {
+          "count": 1,
+          "name": "lo-fi indie"
+        },
+        {
+          "count": 1,
+          "name": "autumn"
+        },
+        {
+          "count": 1,
+          "name": "suburban"
+        },
+        {
+          "count": 1,
+          "name": "sombre"
+        },
+        {
+          "count": 1,
+          "name": "alienation"
+        },
+        {
+          "count": 1,
+          "name": "anxious"
+        },
+        {
+          "count": 1,
+          "name": "cynical"
+        },
+        {
+          "count": 1,
+          "name": "mental health"
+        },
+        {
+          "count": 1,
+          "name": "cozy"
+        },
+        {
+          "count": 1,
+          "name": "pessimistic"
+        },
+        {
+          "count": 1,
+          "name": "insecure"
+        },
+        {
+          "count": 1,
+          "name": "evening"
+        },
+        {
+          "count": 1,
+          "name": "self-hatred"
+        }
+      ]
+    }
+  ]
+}

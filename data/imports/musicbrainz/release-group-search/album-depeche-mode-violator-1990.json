@@ -1,0 +1,514 @@
+{
+  "albumId": "album-depeche-mode-violator-1990",
+  "query": "artist:\"Depeche Mode\" AND releasegroup:\"Violator\" AND firstreleasedate:1990",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Depeche%20Mode%22%20AND%20releasegroup%3A%22Violator%22%20AND%20firstreleasedate%3A1990&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:42:00.278Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "71f1482e-e63f-3b2c-811b-939f62708f2a",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e08931ce-524d-3a94-b7a7-c7aa15b7131c",
+      "count": 44,
+      "title": "Violator",
+      "first-release-date": "1990-02-05",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Depeche Mode",
+          "artist": {
+            "id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+            "name": "Depeche Mode",
+            "sort-name": "Depeche Mode",
+            "aliases": [
+              {
+                "sort-name": "デペッシュ・モード",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "デペッシュ・モード",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DM",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DM",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c124daaf-38c3-45d3-9c8e-d8be6b5131ac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "686e2d30-7a84-403b-ac51-7f2b6549b4d0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "1050af26-0fd0-4eee-b2ef-8da1484d2ef7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "3b92fb98-6cb5-4056-bdfb-a1d1a4bc9ace",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "b3fa1069-89c0-4429-b0ac-2c8ef84c49b0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "d9d0b2f4-323b-4324-89c6-9690e68356fb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "e393dc1a-fd66-4696-89ad-365cc594fa83",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "e42cf164-56d6-470d-95f1-b7ca8e7d888d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "1144a82e-d5f7-4c51-a7de-e4218430fc7c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "bde703e4-d2a8-49dd-b8c7-fb389d7235b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "e6d11e07-bd83-4dd3-94f4-ad4d301f8190",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Violator",
+          "status": "Bootleg"
+        },
+        {
+          "id": "19dca263-6f86-47ba-93c0-ab47e5908d67",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "c0f72086-ce21-42a1-b96c-ccbde183273c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "f6d81fe2-bc23-4908-a634-d4177f768536",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "f534d67f-8da8-485f-9758-f92edab6d4ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "57a79110-aec2-414c-af77-de1c9a24c318",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "3297e804-183e-42b4-9a45-9d7fd6a5aa65",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "4aaf00c5-3bc3-41bd-bba5-b263b1c512aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "ce893cdf-3789-4112-8e83-1f831856fa1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "faf55030-2f6e-4f77-acee-d339e736d662",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "d05ed3bb-ff2a-330f-b0af-ef6c3e0bf7e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "e624c555-fd2a-3a7d-8f61-d2262e8eb31b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "000127ea-bac2-488f-979d-c153d461e40b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "1d20aa93-fb05-49c0-84f1-e033c0b72745",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "cae1855d-2e05-310b-8306-aaa62d0069d0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "5454efa9-445a-4b73-8d16-e9fdbf022119",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "53c0b374-15da-441d-af2f-9c291751c1d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "05917659-e1cf-43ed-a67a-af71e5f27dce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "c5ae4dca-901e-4230-b2d8-3cde41cae254",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "5ef56b1f-f78f-357c-bc56-95a39ed3a606",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "511dcb2c-cee6-3f7c-8338-f7423d618d48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "ffd65d67-1b6f-4212-8297-79233bd826b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "f7c55b94-6bf6-3a5d-88fd-5cd8c9dd9848",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "75033e4c-ddda-34b8-8c32-48e4ace8add4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "f676954c-a1aa-419c-88be-ce31e8da9808",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "26f399ed-507a-48d6-a9c4-66317469a8fc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "0644af17-471f-3736-830c-888b3205c009",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "139bb851-4a63-4a86-9d3f-08278b207368",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "a697b370-3f7e-49ae-a1b0-8d76a6acb445",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "975a0d1e-7632-47cd-8700-dce509cb680a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "e434672a-59c1-4eac-9da0-f3c6f17117f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "10e6c1c6-b977-4e26-9de4-bce861530903",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "89100c9b-c23d-4809-88ce-8dd9675a2be4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        },
+        {
+          "id": "2e52e2c8-b3e1-48f8-821f-2ac034898905",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Violator",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "trance"
+        },
+        {
+          "count": 9,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "synthpop"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "alternative rock"
+        },
+        {
+          "count": 0,
+          "name": "ambient"
+        },
+        {
+          "count": 0,
+          "name": "jazz"
+        },
+        {
+          "count": 0,
+          "name": "dance"
+        },
+        {
+          "count": 0,
+          "name": "house"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 0,
+          "name": "british"
+        },
+        {
+          "count": 0,
+          "name": "new wave"
+        },
+        {
+          "count": 0,
+          "name": "dark wave"
+        },
+        {
+          "count": 0,
+          "name": "hiphop"
+        },
+        {
+          "count": 0,
+          "name": "alternative"
+        },
+        {
+          "count": 0,
+          "name": "melodic"
+        },
+        {
+          "count": 11,
+          "name": "synth-pop"
+        },
+        {
+          "count": 0,
+          "name": "college rock"
+        },
+        {
+          "count": 0,
+          "name": "gothic rock"
+        },
+        {
+          "count": 5,
+          "name": "alternative dance"
+        },
+        {
+          "count": 0,
+          "name": "rhythm and blues"
+        },
+        {
+          "count": 0,
+          "name": "romantic"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 0,
+          "name": "dark"
+        },
+        {
+          "count": 0,
+          "name": "melancholic"
+        },
+        {
+          "count": 0,
+          "name": "sexual"
+        },
+        {
+          "count": 0,
+          "name": "synth pop"
+        },
+        {
+          "count": 0,
+          "name": "atmospheric"
+        },
+        {
+          "count": 0,
+          "name": "vendu"
+        },
+        {
+          "count": 0,
+          "name": "dance rock"
+        },
+        {
+          "count": 0,
+          "name": "sensual"
+        },
+        {
+          "count": 0,
+          "name": "passionate"
+        },
+        {
+          "count": 0,
+          "name": "nocturnal"
+        },
+        {
+          "count": 0,
+          "name": "introspective"
+        },
+        {
+          "count": 0,
+          "name": "cold"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 0,
+          "name": "punk/new wave"
+        },
+        {
+          "count": 0,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "dance-rock"
+        },
+        {
+          "count": 0,
+          "name": "rhythmic"
+        },
+        {
+          "count": 0,
+          "name": "sombre"
+        },
+        {
+          "count": 0,
+          "name": "alternative 90er"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 0,
+          "name": "discogs/the most popular album released every year from 1950 to 2020"
+        },
+        {
+          "count": 0,
+          "name": "5+ wochen"
+        }
+      ]
+    }
+  ]
+}

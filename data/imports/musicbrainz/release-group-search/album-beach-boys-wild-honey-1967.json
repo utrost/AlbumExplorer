@@ -1,0 +1,235 @@
+{
+  "albumId": "album-beach-boys-wild-honey-1967",
+  "query": "artist:\"The Beach Boys\" AND releasegroup:\"Wild Honey\" AND firstreleasedate:1967",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Beach%20Boys%22%20AND%20releasegroup%3A%22Wild%20Honey%22%20AND%20firstreleasedate%3A1967&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:54:40.404Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "057258f4-1586-355a-8a5a-e09eecbe7539",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "51bb09f9-ab33-3db0-9909-4ab290a21b8c",
+      "count": 1,
+      "title": "Wild Honey",
+      "first-release-date": "1967-10-23",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "The Beach Boys",
+          "artist": {
+            "id": "ebfc1398-8d96-47e3-82c3-f782abcdb13d",
+            "name": "The Beach Boys",
+            "sort-name": "Beach Boys, The",
+            "disambiguation": "American rock band",
+            "aliases": [
+              {
+                "sort-name": "ザ・ビーチ・ボーイズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビーチ・ボーイズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beach Boys, The",
+                "name": "Beach Boys, The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beach Boys",
+                "name": "Beach Boys",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "beachboys",
+                "name": "beachboys",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Beachboys",
+                "name": "The Beachboys",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "dbf78462-d10e-4109-a8c9-71ab23693fa1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Honey",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "25db75ad-e1e3-3941-85bd-291009a5f00d",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "51bb09f9-ab33-3db0-9909-4ab290a21b8c",
+      "count": 5,
+      "title": "Wild Honey",
+      "first-release-date": "1967-12-11",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Beach Boys",
+          "artist": {
+            "id": "ebfc1398-8d96-47e3-82c3-f782abcdb13d",
+            "name": "The Beach Boys",
+            "sort-name": "Beach Boys, The",
+            "disambiguation": "American rock band",
+            "aliases": [
+              {
+                "sort-name": "ザ・ビーチ・ボーイズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビーチ・ボーイズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beach Boys, The",
+                "name": "Beach Boys, The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beach Boys",
+                "name": "Beach Boys",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "beachboys",
+                "name": "beachboys",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Beachboys",
+                "name": "The Beachboys",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f142b08a-8039-4e39-a799-d0e80ec93a46",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Honey (Remastered)",
+          "status": "Official"
+        },
+        {
+          "id": "a1f4d5f1-a8c7-4e81-b98d-1e98accf63e3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Honey",
+          "status": "Official"
+        },
+        {
+          "id": "7f5b8bca-8d47-4fa7-b8e1-9383e6df3706",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Honey",
+          "status": "Official"
+        },
+        {
+          "id": "27065275-8e6c-30f6-a3d1-203db46b4d50",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Honey",
+          "status": "Official"
+        },
+        {
+          "id": "89e668df-3e14-459e-ad64-896fadb20e81",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Honey",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic pop"
+        },
+        {
+          "count": 1,
+          "name": "sunshine pop"
+        },
+        {
+          "count": 3,
+          "name": "am pop"
+        },
+        {
+          "count": 2,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        }
+      ]
+    }
+  ]
+}

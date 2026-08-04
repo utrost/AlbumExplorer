@@ -1,0 +1,1327 @@
+{
+  "albumId": "album-bruce-springsteen-born-to-run-1975",
+  "query": "artist:\"Bruce Springsteen\" AND releasegroup:\"Born to Run\" AND firstreleasedate:1975",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bruce%20Springsteen%22%20AND%20releasegroup%3A%22Born%20to%20Run%22%20AND%20firstreleasedate%3A1975&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:33:13.676Z",
+  "count": 3,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e6e5a3fc-80da-4cd9-954f-bd8b6cf1cb75",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 54,
+      "title": "Born to Run",
+      "first-release-date": "1975",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "bc8ff72e-0331-47f9-9d95-db20df59ecdc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "ea9a16f7-be71-4f28-82f6-9a35e2b937ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "6b5ae008-652f-4fea-b414-86445866f0ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "aa0b571d-aa2b-484c-8dc7-f3de59f3748a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "6b9b3dd4-c9a8-4a90-982b-67047afbd810",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "fa6fc0ea-0207-4d50-b305-1a6464359afc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "e9de77da-baf8-4e9b-ba98-0cb415e78a8f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "ab37f992-8f7e-488d-b6d7-6d59aa5b32d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "1f22830b-ce4f-42c9-b6e9-3ad82e2171f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "0d95b36f-69aa-4a8a-9c83-e0b55b04a72e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "b9964e1e-9f28-4baf-aa2f-36f5edccc3f4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "fd6ab3af-81a4-4aa6-96ee-e0d18d5d3869",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "cef93a1c-555e-3062-815d-256c9993bd24",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "8312b4d9-b506-4efd-a0ca-224a6f389a2a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "ab21b329-5ac0-4f4e-89ec-7af7339b3e1d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "74430e49-2d99-41ee-ae7d-62ccdd4e3731",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "c745ff63-91a5-42bb-80bb-25ddc2af2817",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "b7e41896-119d-469b-b57a-9000a6e0429b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "3e0d757d-50e0-44c3-a34c-f2a8065bcc1f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7a9874c6-a23d-49fc-86b4-65720341a553",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "f9244810-b705-4e56-8b3a-aecf46fe2788",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "8cbedd64-a572-4883-9781-4ad6b8c81917",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "36b86a6f-b27e-4724-9e5a-975e94246901",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "983963e8-1438-4f81-afaf-1df84e812eed",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "f649dfbe-aa69-4fe9-a1ca-43a8753ee53b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "9f475eff-a223-487e-aa50-f54ef608b04f",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "2d462be4-450b-4404-bfb2-fc39dca8065d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "cb3a42b6-6edc-45a7-ab40-e0c9906accf6",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Promotion"
+        },
+        {
+          "id": "c098dca3-182c-4523-a3eb-c2355a2eeedb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "4074f979-646e-4eb9-af2e-415910c1fd48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "1bdb8fdc-097a-4b36-97d1-63cd3c9be266",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Promotion"
+        },
+        {
+          "id": "e9604fad-f4c3-48f6-92a5-c0cfc6a55c79",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "4561ec75-1f2b-4742-8724-bf83fb420a2e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "b5dcdf44-1941-4821-93df-ae3b7975696e",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Promotion"
+        },
+        {
+          "id": "ff7a2ee4-279f-4a44-882c-6a247b4f75ce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "194f3211-73af-4ae4-8708-c98b7558079c",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "eeaaad87-bbaa-43e4-a237-ed5cc59cfd95",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "8b2ca150-cc6d-4572-be11-a8504511a236",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "c0018788-eaa9-4f79-a7b9-f517e8a22459",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "c3f79820-1d61-467d-af0b-e6c7748c0589",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Meeting Across the River",
+          "status": "Official"
+        },
+        {
+          "id": "4e823f61-7c42-4c71-8b6a-6b951fc8d54b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "9ddde61b-ac7c-4bf2-ba8e-345c6a86894a",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Born to Run",
+          "status": "Bootleg"
+        },
+        {
+          "id": "3f060eb6-5144-45f0-a86f-b1fdc5fdd709",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born To Run / Hungry Heart",
+          "status": "Promotion"
+        },
+        {
+          "id": "dd8f5a24-3773-4042-9485-c20c95a82f2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "c622e37c-3c23-4c26-a167-77077b207b27",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "9c775d2a-dc5b-473d-81d5-d873bb125036",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run / Tenth Avenue Freeze‐Out",
+          "status": "Official"
+        },
+        {
+          "id": "5e3d6b32-1123-495e-8dcd-ede852b49948",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "0ee74ad7-f58a-4956-b9ce-53791f1ec1b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "2d2f116b-375a-46d2-8cdc-fd948af71bb9",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "c8405534-66bd-4d48-84af-e98a2aba5b79",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "3cd3f578-19ef-4070-94a1-47146530106f",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "16610012-1a05-42d4-af35-5a190a196dbd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "d56d76b6-3f6b-42f0-922b-14d1c10a3d0e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "38e0b776-9fa9-48dc-8d3d-e4332aa51a32",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "39b22944-7503-3937-8bba-09b17281cc6a",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 104,
+      "title": "Born to Run",
+      "first-release-date": "1975-08-25",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cf2d3e91-83f6-4603-bab8-c2e346c31421",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7606de2e-a51f-4cc3-bd3c-1b475b4e1b16",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "05f2eb41-b171-4c77-aa2d-ffcd89816f0e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "a7e8dda4-b20b-4b23-97c7-5120a96a425d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "ef8c1305-fcfd-4d38-b3b8-1335a7e0f9cb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "de1ea6ac-f289-4056-a1ab-2f37b92b9b59",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "c1db9324-857a-4706-92bb-1f7d97c56843",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "d36f4e46-e5b7-4b73-9e0f-4ec5173adaf1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run 30th Anniversary Edition",
+          "status": "Official"
+        },
+        {
+          "id": "828b14c3-5bf3-402f-ae88-853867147486",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "6bc615cb-1658-455b-bcbc-294c5e18a265",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "36b0053c-14d8-422d-8385-25bf22e44292",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "1b13f4e6-4db8-4197-9f42-0097d749bddd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "0a384654-f9f5-4942-b7d5-d6522965acf1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7409d74d-d88a-4321-ba11-81499c3a21b1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "18d01b28-6c0f-4bbd-a0ff-ed07b2ab6593",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "70bb7c0e-76c9-4ead-b859-ecd648e67a86",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "800b7034-a80a-4640-a91e-ae94c35041d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "f2a581a1-593f-4c2c-bd8b-570ae5c44db4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "d1228931-5a6f-4078-91d6-13aa5b815450",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "490ed9e2-a521-42e9-b696-f80a9e26b9fc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "4a3ba899-6e3d-4f25-a703-2332a7b545df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7c09dca0-f3c0-46aa-8fbb-f03ffe8923c6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "5742feac-769f-4e8c-a7e1-0ced9bd2bd6c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "c690c51c-7bbc-42be-a61b-43c6c800fd2f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7a53d4c9-4958-4b88-ae37-fc4ad18ea519",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7cfa8460-7fbc-49cd-9cc0-7010d33b2e88",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "8cabdc3f-f8ec-429e-a770-6bfff5308533",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "06730cbe-8796-4016-b903-36370c06cf21",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "93f9c352-4204-45f4-acd7-3916e1474548",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "74c8465a-94a3-4f13-b751-6c4c6cae6e07",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "6ac146df-601c-4cc0-94f2-1649b1668430",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7095d714-6f74-435b-80a5-18a28f9c8c72",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "a0b5713b-76e0-42d1-9fc3-762e98f01d8d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "1e212454-76da-4b04-8649-0c877d765e76",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7f66d6c0-4cba-41d5-8b64-c7b2096aeeef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "e4d8b8a3-a249-421b-a69a-4f81940c9aa2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "458e259e-fefa-45d5-a9e9-f5553b5230f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "8bfba299-bd81-4156-b438-7633dbfaeaf4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run: 30th Anniversary Edition",
+          "status": "Official"
+        },
+        {
+          "id": "fdfb1d8d-ed26-4bab-ad70-6a73af7d4bfc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "853e6ef6-1758-4ea2-bf61-949e98953c9d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "d226c8cc-f58c-3b1f-997b-8243180870df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "850804ac-897e-4c00-bc6b-1ea478bd80c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "6c592bda-7e00-40ae-80e1-cc2c17163814",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "eff59b2c-fd85-4ed5-8717-a27ddf9b551e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "26f782ee-fd7b-43f5-aa29-a9bc0dd12acc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "147361ed-e865-4dd3-86fc-4fc1e36022ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "2cd15cd3-29d6-4f99-8425-26093fe28334",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "e1964ba2-63fe-4745-849b-95c3a2092d3c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "106f4a5c-36aa-4f2b-959e-1ac0a8e06c58",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "944b7aac-345a-4c59-9b9a-3d4c02db3130",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run: 30th Anniversary Edition",
+          "status": "Official"
+        },
+        {
+          "id": "5fd0d76b-0dc3-4778-9216-02bf20eccc9b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "97cfffa7-dd6a-4b6d-b0f4-13a7014c8881",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "e580ecb9-aba7-4042-a859-e64d97f28df9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "8c93e07d-c7ca-4249-8e8d-f86ec5896637",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "836b5924-a9d7-4291-abd4-f03a9fddbd26",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run",
+          "status": "Promotion"
+        },
+        {
+          "id": "1929d226-f145-414d-8f1c-0c85f3adad62",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "ba5ea9ed-6bca-4bdb-9622-4bfd6fdca878",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "8be63550-81da-451a-b23d-2be1b6a92fe8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "46dd2473-b11e-4c99-bdf9-417c9bee7bc9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "e6caecf1-405d-4dbe-b876-508c40b66a79",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "3240d0c7-13e3-40d8-845b-3bd113354d2f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "9946af79-6237-4f3c-9c41-1387076b857c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "dd9e6581-f441-40b9-b938-36224d70ec06",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "f392521e-a9dd-478d-9bfb-9c415a0e7367",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "55b45a84-f86d-3d00-95fd-05b1a666f8ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "190ee8cb-28c4-4444-8763-9267460f28d2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "5d4b91b9-b3ba-492d-8a54-10c6b0a8979d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "027094a4-e561-34d2-82a2-62221f4df2c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "301a74a9-4abd-4b3b-8aaf-26e6648cc737",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "c4f4c30e-5652-4c9d-b045-34fcb50a5d12",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "9a3e0682-2f4e-44d5-97b9-a7e4255ed7a7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "8abbc48e-1ad4-4624-acf4-30bb4bc98975",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "14a40ece-68a7-4f3e-89a9-702290125abd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "384d53a3-ea13-4dc7-bb2a-87a5b764f9f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "f8ee6f88-86c6-4608-9599-18ce08e64e01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "cf54548e-aee9-4ffb-9d88-ba39e4bcb9df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "cfe375ac-39d5-45d9-b9ee-4cf055515d89",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "1e057aa1-ed51-49d7-8a5b-567da7da65b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "ebfca51d-ffce-49bb-9b31-d51c91bfc3c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "e323e33b-9729-406a-bf3d-b3b60319ce7d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "4dfce80f-d030-4cf8-9e48-af83770ab589",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "2f762434-1566-458d-b596-88da10d73854",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "2cb4c40a-b70c-4713-bb5e-6f7f7055f580",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "6c532272-56ea-4a16-a43f-ad7e19cf1845",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "34af0e97-b43e-433d-aa07-c669bc5af74e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "d07b52b5-6140-41df-bbd3-c5d07ed4e87e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "f7e4b1d7-a065-45b8-b45a-5fcb08955a6c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "6a1afc01-ef92-4176-801a-1cd5fa94ba8a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "a86d5294-573e-4f6a-9744-921afb9108ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "70ea470d-9b89-43bf-a9fb-37017d6f7e44",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "7d13ec1b-6a37-47c7-817a-728f7808dfbd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "d143caf4-66e7-445b-9831-2c11ba9b6f89",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "1d404e1d-fcb6-3a52-b478-e706e893c897",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "46e5c6a9-b0a7-4e42-9162-8f412705b09d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "ba387f9a-6770-4ed7-a108-e0fa946f070f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "ec7acb3a-8025-4ee2-9f7a-12f51ae3971c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "d3d7f77b-c4d3-4e50-932e-22090512b333",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "bf21a240-09b0-4560-8e98-96144cb60c25",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "8324ff3f-3454-423c-b07b-3fddce9ae3f4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "75f8eb6f-0e11-436d-8f40-2b523b21610f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "58d54b37-e37d-3b53-87dd-09cc1590ed79",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "96c2c341-6a63-31c4-8453-1db79f881e78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "a9856cd2-c168-4bbe-b49e-c489e9e0a0c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        },
+        {
+          "id": "f7e548e8-4bae-4f69-bd6e-f86935adcdd2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Born to Run",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 14,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "70s"
+        },
+        {
+          "count": 4,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 4,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "progressive"
+        },
+        {
+          "count": 9,
+          "name": "album rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 4,
+          "name": "piano rock"
+        },
+        {
+          "count": 6,
+          "name": "heartland rock"
+        },
+        {
+          "count": 0,
+          "name": "romantic"
+        },
+        {
+          "count": -1,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "1975"
+        },
+        {
+          "count": 1,
+          "name": "brill building"
+        },
+        {
+          "count": 0,
+          "name": "optimistic"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "lush"
+        },
+        {
+          "count": 0,
+          "name": "album rock; folk rock"
+        },
+        {
+          "count": 1,
+          "name": "jersey shore sound"
+        }
+      ]
+    },
+    {
+      "id": "3d7a7855-056d-4a3a-bc2c-f4d5d8230588",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 65,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6ed01a31-9d9e-4c80-a336-055f5d5a2859",
+      "count": 1,
+      "title": "Born to Run / E. C. Was Here",
+      "first-release-date": "1975",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "joinphrase": " / ",
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eric Clapton",
+          "artist": {
+            "id": "618b6900-0618-4f1e-b835-bccb17f84294",
+            "name": "Eric Clapton",
+            "sort-name": "Clapton, Eric",
+            "aliases": [
+              {
+                "sort-name": "Clapton, Eric Patrick",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Eric Patrick Clapton",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Slowhand",
+                "name": "Slowhand",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eric Claption",
+                "name": "Eric Claption",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f9e4a09a-6bb2-4609-b090-a344617fbb27",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Born to Run / E. C. Was Here",
+          "status": "Promotion"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "albumId": "album-big-star-1-record-1972",
+  "query": "artist:\"Big Star\" AND releasegroup:\"#1 Record\" AND firstreleasedate:1972",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Big%20Star%22%20AND%20releasegroup%3A%22%231%20Record%22%20AND%20firstreleasedate%3A1972&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:57:42.852Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "18ec10a7-864f-3f1b-8d68-5cb622165b20",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "60c09f3e-74f5-39b8-9813-fcc794e1af52",
+      "count": 12,
+      "title": "#1 Record",
+      "first-release-date": "1972",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Big Star",
+          "artist": {
+            "id": "21d177ba-3d51-461e-9b3f-ad9a80b419dc",
+            "name": "Big Star",
+            "sort-name": "Big Star",
+            "aliases": [
+              {
+                "sort-name": "Big Star (Alex Chilton)",
+                "name": "Big Star (Alex Chilton)",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1d176801-7724-4a21-a3f0-8b2ad0ad5cc0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "a6963b61-f48c-40b7-afde-a96b9ec55896",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record (remastered)",
+          "status": "Official"
+        },
+        {
+          "id": "d70bceca-352a-4c67-b166-023225e2d38c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "154e81ac-c10f-45e0-9460-3974515295c3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "6463ed09-e9c9-4f59-aa29-cbcd30336a7e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "5ed42771-78eb-42bd-a027-10781d1702a6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "025d8941-7a7a-3c12-8df5-df0fa3668460",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "85455e7b-953e-404c-a8f9-061d71fc4aba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "34c00bb6-305e-44dd-a770-3b18e26a1872",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "d28a6af7-67c9-4749-a17d-776d19ac2af6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "b30a0f97-d5ac-333c-b9e0-513d008181ea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        },
+        {
+          "id": "4b78e722-c4ce-31df-9711-08c24aa307e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "#1 Record",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 5,
+          "name": "power pop"
+        }
+      ]
+    }
+  ]
+}

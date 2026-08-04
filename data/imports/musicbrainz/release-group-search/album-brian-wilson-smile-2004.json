@@ -1,0 +1,203 @@
+{
+  "albumId": "album-brian-wilson-smile-2004",
+  "query": "artist:\"Brian Wilson\" AND releasegroup:\"Smile\" AND firstreleasedate:2004",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Brian%20Wilson%22%20AND%20releasegroup%3A%22Smile%22%20AND%20firstreleasedate%3A2004&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:54:10.763Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "7eea3a40-7c24-34f9-aa48-958edb5145c5",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "2d93ab1c-99dc-33e1-bc7a-8f50740abd6f",
+      "count": 10,
+      "title": "SMiLE",
+      "first-release-date": "2004-09-28",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Brian Wilson",
+          "artist": {
+            "id": "634fe78e-fc6b-4b2a-ba83-c8c66e13a8aa",
+            "name": "Brian Wilson",
+            "sort-name": "Wilson, Brian",
+            "disambiguation": "Beach Boys co‐founder",
+            "aliases": [
+              {
+                "sort-name": "Wilson",
+                "name": "Wilson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilson, Brian Douglas",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Brian Douglas Wilson",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "36dfc012-fdf1-4ea4-a752-64024d113053",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Smile",
+          "status": "Official"
+        },
+        {
+          "id": "44e4fe9b-3c8c-4d10-8bc6-9dde91de7eb2",
+          "title": "Smile"
+        },
+        {
+          "id": "2946fc67-a811-43bc-b726-137d7e0bb1ab",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "SMiLE",
+          "status": "Official"
+        },
+        {
+          "id": "59e4a161-9a51-4816-84e1-7d27f0d82296",
+          "title": "Smile"
+        },
+        {
+          "id": "e28dd80b-834a-4fb6-bb39-ffbe023b2fb8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "SMiLE",
+          "status": "Official"
+        },
+        {
+          "id": "700e157b-fe3c-4c49-b3ad-f56af310fb08",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "SMiLE",
+          "status": "Official"
+        },
+        {
+          "id": "74fdb7e8-a2f5-4d28-bf1a-39fdf9c831ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "SMiLE",
+          "status": "Official"
+        },
+        {
+          "id": "7967f393-a9fd-4053-8c4d-a76f7564ceb5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "SMiLE",
+          "status": "Official"
+        },
+        {
+          "id": "b7b2aa52-2189-486a-aa6f-de095ddfd019",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "SMiLE",
+          "status": "Official"
+        },
+        {
+          "id": "16d3070d-b043-3301-90c7-2e554f2efba4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "SMiLE",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "chamber pop"
+        },
+        {
+          "count": 1,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative/indie rock"
+        }
+      ]
+    },
+    {
+      "id": "4fe31ecd-6d53-41e3-b919-0f78b1a2a216",
+      "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+      "score": 81,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "2d93ab1c-99dc-33e1-bc7a-8f50740abd6f",
+      "count": 1,
+      "title": "SMiLE: Live at CenterStaging in Burbank, California",
+      "first-release-date": "2004-09-26",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Live"
+      ],
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "artist-credit": [
+        {
+          "name": "Brian Wilson",
+          "artist": {
+            "id": "634fe78e-fc6b-4b2a-ba83-c8c66e13a8aa",
+            "name": "Brian Wilson",
+            "sort-name": "Wilson, Brian",
+            "disambiguation": "Beach Boys co‐founder",
+            "aliases": [
+              {
+                "sort-name": "Wilson",
+                "name": "Wilson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilson, Brian Douglas",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Brian Douglas Wilson",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4ce0f56d-f4da-44f8-8b34-4e36b5a55e36",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "SMILE: Live at CenterStaging in Burbank, California",
+          "status": "Bootleg"
+        }
+      ]
+    }
+  ]
+}

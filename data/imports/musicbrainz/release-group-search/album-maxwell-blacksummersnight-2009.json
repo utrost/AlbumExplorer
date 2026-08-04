@@ -1,0 +1,72 @@
+{
+  "albumId": "album-maxwell-blacksummersnight-2009",
+  "query": "artist:\"Maxwell\" AND releasegroup:\"BLACKsummers'night\" AND firstreleasedate:2009",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Maxwell%22%20AND%20releasegroup%3A%22BLACKsummers'night%22%20AND%20firstreleasedate%3A2009&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:57:29.340Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "65579f48-3ba4-489a-9b1a-6108925055c9",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "18758448-e95d-3904-adba-78763ec19ac3",
+      "count": 1,
+      "title": "BLACKsummers’night",
+      "first-release-date": "2009-07-07",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Maxwell",
+          "artist": {
+            "id": "d252cca8-8214-43e5-b81a-101eb4a1447e",
+            "name": "Maxwell",
+            "sort-name": "Maxwell",
+            "disambiguation": "US soul/R&B singer-songwriter",
+            "aliases": [
+              {
+                "sort-name": "Musze",
+                "name": "Musze",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rivera, Gerald Maxwell",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Gerald Maxwell Rivera",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "e5262a5c-9b26-45bd-a1b2-5cd89d671a58",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BLACKsummers’night",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "neo soul"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "albumId": "album-al-green-call-me-1973",
+  "query": "artist:\"Al Green\" AND releasegroup:\"Call Me\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Al%20Green%22%20AND%20releasegroup%3A%22Call%20Me%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:55:44.873Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "edafb37c-f392-3765-9dbd-80616dcb2ad7",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "0d75c79a-1110-360b-bf38-6e9e640860b9",
+      "count": 11,
+      "title": "Call Me",
+      "first-release-date": "1973-07-18",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Al Green",
+          "artist": {
+            "id": "fb7272ba-f130-4f0a-934d-6eeea4c18c9a",
+            "name": "Al Green",
+            "sort-name": "Green, Al",
+            "disambiguation": "US soul singer, songwriter, pastor and record producer",
+            "aliases": [
+              {
+                "sort-name": "アル・グリーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "アル・グリーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Greene, Albert Leornes",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Albert Leornes Greene",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Green, Al",
+                "name": "Green, Al",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "dbb458f2-a7c1-4890-8775-9f36f2d59d8c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "bc050224-4ded-49c9-bdc9-96f82a374068",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "b75823a9-834a-48de-a745-affd50e9e8cb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "ff5d83b1-58ef-4c48-bdfe-f60181b15947",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "931e6886-2af5-4e04-a441-4b0421695717",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "0315b7e7-ace0-4f43-8c4a-7556fcd2edd4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "40deaa38-cf29-4848-a6e0-2953ca628d45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "f9822414-8fb9-3cfc-8373-7665201f28ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "6ac8a071-7ee6-4e25-a36e-237063ec7035",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "7042e866-32b4-3726-965c-2f22b234d805",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        },
+        {
+          "id": "60d3de13-f687-471a-aa37-464f0c499708",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Call Me",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "funk"
+        },
+        {
+          "count": 8,
+          "name": "soul"
+        },
+        {
+          "count": 0,
+          "name": "gospel"
+        },
+        {
+          "count": 1,
+          "name": "southern soul"
+        },
+        {
+          "count": 3,
+          "name": "funk soul"
+        },
+        {
+          "count": 2,
+          "name": "smooth soul"
+        },
+        {
+          "count": 1,
+          "name": "r&b"
+        },
+        {
+          "count": 1,
+          "name": "memphis soul"
+        }
+      ]
+    }
+  ]
+}

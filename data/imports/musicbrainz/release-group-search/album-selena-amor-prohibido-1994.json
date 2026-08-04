@@ -1,0 +1,156 @@
+{
+  "albumId": "album-selena-amor-prohibido-1994",
+  "query": "artist:\"Selena\" AND releasegroup:\"Amor Prohibido\" AND firstreleasedate:1994",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Selena%22%20AND%20releasegroup%3A%22Amor%20Prohibido%22%20AND%20firstreleasedate%3A1994&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:58:04.800Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "bc5e0495-4db9-3dae-9883-104d5df6b2cc",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "9aa9c403-060c-3f76-a5f5-4c46d67e7db6",
+      "count": 8,
+      "title": "Amor Prohibido",
+      "first-release-date": "1994-03-22",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Selena",
+          "artist": {
+            "id": "03746227-c9f9-4b3b-b2c6-9b31f79564f7",
+            "name": "Selena",
+            "sort-name": "Selena",
+            "disambiguation": "Mexican–American cumbia/tejano singer",
+            "aliases": [
+              {
+                "sort-name": "Selena Pérez",
+                "name": "Selena Pérez",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Quintanilla-Pérez, Selena",
+                "name": "Selena Quintanilla-Pérez",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Quintanilla, Selena",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Selena Quintanilla",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Selena - Entre A Mi Mundo",
+                "name": "Selena - Entre A Mi Mundo",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a5192777-7289-4a2f-8976-f9eb6b385f75",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amor Prohibido",
+          "status": "Official"
+        },
+        {
+          "id": "4db6c99c-9a37-4c1a-9994-cecec3576155",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amor Prohibido",
+          "status": "Official"
+        },
+        {
+          "id": "c8e0f2bd-bbc3-3c2d-acc1-05e57e4c8b10",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amor Prohibido",
+          "status": "Official"
+        },
+        {
+          "id": "df9d2f9f-a045-4c60-859b-9109710693f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amor Prohibido",
+          "status": "Official"
+        },
+        {
+          "id": "eb5d978d-9857-4233-b3fb-bd1374da51a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amor Prohibido",
+          "status": "Official"
+        },
+        {
+          "id": "4f9edbeb-4802-45d7-9c7d-aa385ac8fe84",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amor prohibido",
+          "status": "Official"
+        },
+        {
+          "id": "3a602a84-c2a7-48c3-9103-d708885ce870",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amor prohibido",
+          "status": "Official"
+        },
+        {
+          "id": "cfc145a3-b5f5-49a7-a69f-53f0eeb84661",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amor prohibido",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "90s"
+        },
+        {
+          "count": 1,
+          "name": "spanish"
+        },
+        {
+          "count": 5,
+          "name": "latin"
+        },
+        {
+          "count": 2,
+          "name": "cumbia"
+        },
+        {
+          "count": 2,
+          "name": "tejano"
+        },
+        {
+          "count": 1,
+          "name": "tejano norteno"
+        }
+      ]
+    }
+  ]
+}

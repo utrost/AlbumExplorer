@@ -1,0 +1,461 @@
+{
+  "albumId": "album-def-leppard-hysteria-1987",
+  "query": "artist:\"Def Leppard\" AND releasegroup:\"Hysteria\" AND firstreleasedate:1987",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Def%20Leppard%22%20AND%20releasegroup%3A%22Hysteria%22%20AND%20firstreleasedate%3A1987&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:18.358Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "956def60-5670-3eb3-8f9a-7a96a8ce041e",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "bbcc4fb4-cada-30eb-8333-84a6bba8471c",
+      "count": 4,
+      "title": "Hysteria",
+      "first-release-date": "1987-11-23",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Def Leppard",
+          "artist": {
+            "id": "7249b899-8db8-43e7-9e6e-22f1e736024e",
+            "name": "Def Leppard",
+            "sort-name": "Def Leppard",
+            "aliases": [
+              {
+                "sort-name": "デフ・レパード",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "デフ・レパード",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Def Leopard",
+                "name": "Def Leopard",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Def Lepard",
+                "name": "Def Lepard",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1dffa795-5615-4c65-ba75-121a00bd5532",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "91762616-8860-406d-8e09-cad03ee7c129",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "bd53dfcb-aa77-482e-b3d5-8ab63e99e5eb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "de5cf055-d875-41f8-9261-89b11b7ff145",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "arena rock"
+        }
+      ]
+    },
+    {
+      "id": "12fa3845-7c62-36e5-a8da-8be137155a72",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "bbcc4fb4-cada-30eb-8333-84a6bba8471c",
+      "count": 38,
+      "title": "Hysteria",
+      "first-release-date": "1987-08-03",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Def Leppard",
+          "artist": {
+            "id": "7249b899-8db8-43e7-9e6e-22f1e736024e",
+            "name": "Def Leppard",
+            "sort-name": "Def Leppard",
+            "aliases": [
+              {
+                "sort-name": "デフ・レパード",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "デフ・レパード",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Def Leopard",
+                "name": "Def Leopard",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Def Lepard",
+                "name": "Def Lepard",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "aa6ba8f5-651e-4a36-892d-bba559e0aea9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "78448c67-03c6-439c-9ccb-aba54277bc5e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "da8e43ad-f3bb-4a4e-bdf6-9c39c155fd6d",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Hysteria (alternate Electronic80s version)",
+          "status": "Bootleg"
+        },
+        {
+          "id": "4d9a7bde-a42a-4d11-87ff-33db65022d91",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "23e622ad-adf9-4b90-81c8-3677f18284bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "61050589-6a3f-44c6-99b3-e49228315df5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "7a38cba8-407d-4d6b-8c55-d66c87c9edd2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "7e3cadf8-9830-4b83-b223-9346450d70a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "77cc93a4-f70d-4ec8-a7a3-5a4a1c67d66a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "dee9ca6f-4f84-4359-82a9-b75a37ffc316",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "cf998a63-1221-4941-b1a3-52e170569379",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "7bcb8abc-0b84-4d0f-8f2f-db1cf8a0d1a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "88232572-bc94-4a89-a992-470543aa0aab",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "061c8cc3-86cb-444d-b692-716a63875c2a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "398003c9-cce5-4a52-9db7-7dd3d87029da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "04be9a53-6265-4127-bb4b-4e2c4db71e3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "4c44526c-43ba-484d-9fb7-e882f4a620a6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "2699858e-4f54-49c5-9e95-0653073ae55b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "f4a8291d-e794-4354-a3c5-aacfc8dd3c56",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "3c186b52-ca73-46a3-a8e6-04559bfbb581",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "b3900233-a91d-43fe-9701-e000fc8f8d6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "f4a6c2d0-8f1e-45ba-b191-8a80c29a6a57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "18ea025d-ea9f-49eb-acfe-3ca28c2e40b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "2a31e9a4-8bef-43a4-99ea-64570615818a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "5becea07-8047-4276-ab64-c92e6bb49180",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "ed3e3061-868c-49ab-ac7d-a33d60128ff1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "62b7906a-6854-4a08-a491-e9083ed393c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "6aa6d522-e38c-411c-9770-d6177ba4a647",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "73385a97-551a-419f-882b-0c77812fc988",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "b086901c-61f2-4e08-8291-3414cbd39f91",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "8b2d5325-f298-3a2a-9e73-42e11739f2d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "ada41a51-3172-4ef2-b5b9-cc85fb556a30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "8298f795-8399-3c62-8ec2-fa5f0e2334e4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "6a3636e4-9586-4c13-bcc5-3ec7255674e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "58b8eab9-cd8b-4c86-9031-ddb126071de4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "96c62f87-895e-4e07-8c2f-9682d6cd5ffa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "dd5a6203-f5f2-4b35-96c6-736cbb34c7f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        },
+        {
+          "id": "f6ab0c43-e846-3ad1-9906-0dca024a1a3e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hysteria",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "80s"
+        },
+        {
+          "count": 1,
+          "name": "heavy metal"
+        },
+        {
+          "count": 0,
+          "name": "metal"
+        },
+        {
+          "count": 10,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "arena rock"
+        },
+        {
+          "count": 4,
+          "name": "glam metal"
+        },
+        {
+          "count": 0,
+          "name": "1987"
+        },
+        {
+          "count": 2,
+          "name": "hair metal"
+        },
+        {
+          "count": 2,
+          "name": "aor"
+        },
+        {
+          "count": 2,
+          "name": "british metal"
+        },
+        {
+          "count": 2,
+          "name": "pop-metal"
+        },
+        {
+          "count": 0,
+          "name": "rock ballad"
+        },
+        {
+          "count": 1,
+          "name": "rock ballads"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 2,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "def leppard"
+        }
+      ]
+    }
+  ]
+}

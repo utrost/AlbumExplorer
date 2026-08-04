@@ -1,0 +1,167 @@
+{
+  "albumId": "album-my-morning-jacket-z-2005",
+  "query": "artist:\"My Morning Jacket\" AND releasegroup:\"Z\" AND firstreleasedate:2005",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22My%20Morning%20Jacket%22%20AND%20releasegroup%3A%22Z%22%20AND%20firstreleasedate%3A2005&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:06.014Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "3e3d75c0-48a4-3def-8dc3-b417b2d6e5e7",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e4c7486c-ccd8-37f6-9e5a-514112709e3a",
+      "count": 15,
+      "title": "Z",
+      "first-release-date": "2005-10-04",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "My Morning Jacket",
+          "artist": {
+            "id": "ea5883b7-68ce-48b3-b115-61746ea53b8c",
+            "name": "My Morning Jacket",
+            "sort-name": "My Morning Jacket",
+            "aliases": [
+              {
+                "sort-name": "マイ・モーニング・ジャケット",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "マイ・モーニング・ジャケット",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "MMJ",
+                "name": "MMJ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "b8564141-c983-48ca-9dc9-0e371b9a1553",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "15a9970a-7064-4b87-9228-57dc8e2111a5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "aafad8b8-1947-4309-babf-30047fc44393",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Z",
+          "status": "Promotion"
+        },
+        {
+          "id": "267bf96d-1a1f-472e-bac5-c81a36f06b1f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "f336bf10-9e9f-4ab0-a67e-a92842f65446",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "bc7e261c-8d9a-4c78-adf8-01c06c21a09a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "084a2d75-9396-409e-8839-9138d46dae45",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Z",
+          "status": "Promotion"
+        },
+        {
+          "id": "b03ae48a-c1f9-475b-a664-25807389c8ab",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "2c330982-909c-4796-a500-72afbf66bef5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "3037b285-f557-4ed9-88c5-781ffa1b2e7d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "d7695765-5d64-485d-a170-07cb7881dc8f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "98e9a2ca-f572-3235-b8e0-5bf987abcbc7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "dad65e1d-042f-4a9d-aab0-94f6f079fd68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "f5e823e7-cba3-451c-b46d-8155427032f4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        },
+        {
+          "id": "30c5ae12-a3e3-43ae-a0d8-cb023e613474",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Z",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 4,
+          "name": "alternative rock"
+        },
+        {
+          "count": 2,
+          "name": "indie rock"
+        },
+        {
+          "count": 3,
+          "name": "indie"
+        },
+        {
+          "count": 1,
+          "name": "rock and indie"
+        }
+      ]
+    }
+  ]
+}

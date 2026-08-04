@@ -1,0 +1,162 @@
+{
+  "albumId": "album-ll-cool-j-mama-said-knock-you-out-1991",
+  "query": "artist:\"LL Cool J\" AND releasegroup:\"Mama Said Knock You Out\" AND firstreleasedate:1991",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22LL%20Cool%20J%22%20AND%20releasegroup%3A%22Mama%20Said%20Knock%20You%20Out%22%20AND%20firstreleasedate%3A1991&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:45:31.324Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "0a458415-3667-3a61-ac39-f0c3235149f2",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "5ede2161-7728-3b35-8775-17744acddaa6",
+      "count": 2,
+      "title": "Mama Said Knock You Out",
+      "first-release-date": "1991",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "L.L. Cool J",
+          "artist": {
+            "id": "a4dd0e77-83b8-4e92-89b7-effb0e47fd8c",
+            "name": "LL Cool J",
+            "sort-name": "LL Cool J",
+            "aliases": [
+              {
+                "sort-name": "エルエル・クール・ジェイ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルエル・クール・ジェイ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J., L.L.Cool",
+                "name": "L.L.Cool J.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "LL Cool J.",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "LL Cool J.",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "L. L. Cool J",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "L. L. Cool J",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "L.L. Cool J",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "L.L. Cool J",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Smith, J.T.",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "J.T. Smith",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Smith, Todd",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Todd Smith",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James T. Smith",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "James T. Smith",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Smith, James Todd",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "James Todd Smith",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "LL Cool J & The Dream",
+                "name": "LL Cool J & The Dream",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ladies Love Cool James",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ladies Love Cool James",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "291bba55-93b3-45ac-b6a3-ef5183049579",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mama Said Knock You Out",
+          "status": "Official"
+        },
+        {
+          "id": "071dcca8-0b8b-4176-ba42-c2a465bfd7e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mama Said Knock You Out",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "hip hop"
+        }
+      ]
+    }
+  ]
+}

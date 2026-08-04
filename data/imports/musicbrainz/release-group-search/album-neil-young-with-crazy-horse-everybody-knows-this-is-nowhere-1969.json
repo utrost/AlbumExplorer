@@ -1,0 +1,282 @@
+{
+  "albumId": "album-neil-young-with-crazy-horse-everybody-knows-this-is-nowhere-1969",
+  "query": "artist:\"Neil Young With Crazy Horse\" AND releasegroup:\"Everybody Knows This Is Nowhere\" AND firstreleasedate:1969",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Neil%20Young%20With%20Crazy%20Horse%22%20AND%20releasegroup%3A%22Everybody%20Knows%20This%20Is%20Nowhere%22%20AND%20firstreleasedate%3A1969&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:04:10.931Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "f61603ab-ef6b-386b-a5e0-aaefc00543f1",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e9dfd255-6c78-3e1f-9330-f66240e230d4",
+      "count": 22,
+      "title": "Everybody Knows This Is Nowhere",
+      "first-release-date": "1969-05-14",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "joinphrase": " with ",
+          "name": "Neil Young",
+          "artist": {
+            "id": "75167b8b-44e4-407b-9d35-effe87b223cf",
+            "name": "Neil Young",
+            "sort-name": "Young, Neil",
+            "disambiguation": "Canadian singer, songwriter & musician",
+            "aliases": [
+              {
+                "sort-name": "Neil Young & Crazy Horse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Neil Young & Crazy Horse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Young, N.",
+                "name": "N. Young",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Neil Young & Friends",
+                "name": "Neil Young & Friends",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Young, Neil Percival",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Neil Percival Young",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Neil Young & the Shocking Pinks",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Neil Young & the Shocking Pinks",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Niel Young",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Niel Young",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Shakey, Bernard",
+                "name": "Bernard Shakey",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "Crazy Horse",
+          "artist": {
+            "id": "71f754c0-f2d1-4a54-8d70-cc0ee409ca00",
+            "name": "Crazy Horse",
+            "sort-name": "Crazy Horse",
+            "disambiguation": "American rock band often working with Neil Young"
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "8681adef-5768-4d98-8909-e0857882fc04",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "2274ac87-b127-4130-9f81-2f60aee91126",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "adede8fa-d14b-47e8-89a4-8f68599f63e4",
+          "title": "Everybody Knows This Is Nowhere"
+        },
+        {
+          "id": "ade4b600-e695-4c17-920f-d6fd3dc4bb91",
+          "title": "Everybody Knows This Is Nowhere"
+        },
+        {
+          "id": "4e9ab4f9-51b2-4492-b88c-ea51d1e45767",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "b516c35f-b873-4159-a69e-85a17fd16fc4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "4da90b27-3b5b-351a-a5e6-ea643bcc1d1b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "2198fee7-dd6b-34d2-bf0f-5f0eda790699",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "92c11765-c494-3822-b3ef-8c72076005e0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "ef2a4927-6716-4c12-9047-eebc6b25c966",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "2a9d6e0a-7c81-3a5e-a1f6-8465eb7540bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "e313134f-cfcb-487d-9b55-9b53ce30b8df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "41cbba2c-4e25-468d-8d8f-8a584d7fd701",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "d0b455f7-604f-4557-b3fd-0530dafe9af5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "41f2b771-6eb1-406d-893e-2a0180f91597",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "a8014a85-aa84-4d47-885a-3c4b438e131f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "22919ff8-e6d3-4fbc-8819-6e0e43b3357f",
+          "title": "Everybody Knows This Is Nowhere"
+        },
+        {
+          "id": "6835f5f7-5322-3e02-aec3-d413bca428c6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "f1440b29-f7f8-31ae-8f70-3aa396efcc43",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "5da78ca6-6b41-41e3-b424-8973b8431890",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "3c256673-6019-4835-beb9-f2d2331b6507",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        },
+        {
+          "id": "5a0973f1-2c2f-4222-9f7a-522a2e11efcc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Everybody Knows This Is Nowhere",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "country"
+        },
+        {
+          "count": 3,
+          "name": "folk rock"
+        },
+        {
+          "count": 4,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "album rock"
+        },
+        {
+          "count": 1,
+          "name": "country-rock"
+        },
+        {
+          "count": 2,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        }
+      ]
+    }
+  ]
+}

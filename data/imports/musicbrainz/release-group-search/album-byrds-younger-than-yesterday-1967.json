@@ -1,0 +1,152 @@
+{
+  "albumId": "album-byrds-younger-than-yesterday-1967",
+  "query": "artist:\"The Byrds\" AND releasegroup:\"Younger Than Yesterday\" AND firstreleasedate:1967",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Byrds%22%20AND%20releasegroup%3A%22Younger%20Than%20Yesterday%22%20AND%20firstreleasedate%3A1967&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:01:04.954Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4e4c1014-7c7b-397a-9c80-35b115a034fe",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "80003cc0-9ab7-3acf-bfe6-af0157fdf097",
+      "count": 11,
+      "title": "Younger Than Yesterday",
+      "first-release-date": "1967-02-06",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Byrds",
+          "artist": {
+            "id": "2819834e-4e08-47b0-a2c4-b7672318e8f0",
+            "name": "The Byrds",
+            "sort-name": "Byrds, The",
+            "disambiguation": "American rock band",
+            "aliases": [
+              {
+                "sort-name": "The Birds",
+                "name": "The Birds",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Byrds",
+                "name": "Byrds",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Byrds, The",
+                "name": "Byrds, The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1dab19ac-b5b8-4180-a8ea-3d291fbd3133",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "1b58700d-18b9-4455-9c4b-430ed79d9e96",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "17a85f12-6188-4d3c-8df4-3484d736b4cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "8a4b808d-f6d9-4d2d-9038-dce67aefb612",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "150c0d2d-1c57-37a9-b95b-84c4964fb950",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "a4ef5475-62dc-4558-93a1-ada35d6042e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "bab740ec-4c8d-3bf6-8b97-055e654df855",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "e81be1f6-dc08-3cfb-86bb-81c7639c3559",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "ab3185c1-aa17-4666-9063-cbf29bb41823",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "693621cf-1fa7-47ef-8618-165b95303707",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        },
+        {
+          "id": "85311619-b29f-4157-ae45-718cee659681",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Younger Than Yesterday",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "folk rock"
+        },
+        {
+          "count": 0,
+          "name": "folk-rock"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic pop"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    }
+  ]
+}

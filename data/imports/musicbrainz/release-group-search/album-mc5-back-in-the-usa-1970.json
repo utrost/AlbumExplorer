@@ -1,0 +1,125 @@
+{
+  "albumId": "album-mc5-back-in-the-usa-1970",
+  "query": "artist:\"MC5\" AND releasegroup:\"Back In The USA\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22MC5%22%20AND%20releasegroup%3A%22Back%20In%20The%20USA%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:11:52.052Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "1dc35b25-2e1a-30e1-87c0-6dd07aa8f592",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "f7aadb02-d074-3c0b-a376-48c413800ef3",
+      "count": 6,
+      "title": "Back in the USA",
+      "first-release-date": "1970",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "MC5",
+          "artist": {
+            "id": "08b736bb-1c82-40b4-8b0b-49e2182a067a",
+            "name": "MC5",
+            "sort-name": "MC5",
+            "aliases": [
+              {
+                "sort-name": "MC 5",
+                "name": "MC 5",
+                "locale": "lv",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Motor City Five (MC5)",
+                "name": "Motor City Five (MC5)",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The MC5",
+                "name": "The MC5",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "18733641-e98c-4a15-8ec7-5800cb29fb9f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back in the USA",
+          "status": "Official"
+        },
+        {
+          "id": "1cb803b5-a446-48c5-a2d3-bd76be8820df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back in the USA",
+          "status": "Official"
+        },
+        {
+          "id": "48e00d3f-614d-4157-9228-159aa041a90b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back in the USA",
+          "status": "Official"
+        },
+        {
+          "id": "bd29aa45-d758-38fc-85cd-7bf329973195",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back in the USA",
+          "status": "Official"
+        },
+        {
+          "id": "7ad7ddd8-b784-4972-8a6c-bdcbe84b9a6f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back in the USA",
+          "status": "Official"
+        },
+        {
+          "id": "021035b4-c431-4c3e-a5c1-7bd498201031",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back in the USA",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 2,
+          "name": "garage rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "blues/rock"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "albumId": "album-rolling-stones-out-of-our-heads-1965",
+  "query": "artist:\"The Rolling Stones\" AND releasegroup:\"Out Of Our Heads\" AND firstreleasedate:1965",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Rolling%20Stones%22%20AND%20releasegroup%3A%22Out%20Of%20Our%20Heads%22%20AND%20firstreleasedate%3A1965&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:00:29.643Z",
+  "count": 3,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b88f0320-b321-413c-bd78-a9ba5103e11d",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 100,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "df296871-15ee-38e4-a1da-421cc5801c7e",
+      "count": 1,
+      "title": "Out of Our Heads",
+      "disambiguation": "Satisfaction / The Last Time / The West Coast Promotion Man / I'm All Right",
+      "first-release-date": "1965",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "The Rolling Stones",
+          "artist": {
+            "id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+            "name": "The Rolling Stones",
+            "sort-name": "Rolling Stones, The",
+            "aliases": [
+              {
+                "sort-name": "Stones",
+                "name": "Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stones, The",
+                "name": "The Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ローリング・ストーンズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ローリング・ストーンズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rolling Stones",
+                "name": "Rolling Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0edd9b08-ef79-40ee-b23e-715f77914152",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "garage rock"
+        }
+      ]
+    },
+    {
+      "id": "44e52243-1afd-42c2-905f-4a05f4fc88ec",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 100,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "df296871-15ee-38e4-a1da-421cc5801c7e",
+      "count": 1,
+      "title": "Out of Our Heads",
+      "disambiguation": "6 tracks: The Spider and the Fly; One More Try...",
+      "first-release-date": "1965",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "The Rolling Stones",
+          "artist": {
+            "id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+            "name": "The Rolling Stones",
+            "sort-name": "Rolling Stones, The",
+            "aliases": [
+              {
+                "sort-name": "Stones",
+                "name": "Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stones, The",
+                "name": "The Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ローリング・ストーンズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ローリング・ストーンズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rolling Stones",
+                "name": "Rolling Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4e268c8a-727c-4744-9432-e5d4f6515e67",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        }
+      ]
+    },
+    {
+      "id": "3be81f5e-9bdd-303a-b9bf-f8eb2059ef9f",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "df296871-15ee-38e4-a1da-421cc5801c7e",
+      "count": 38,
+      "title": "Out of Our Heads",
+      "first-release-date": "1965-07-30",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Rolling Stones",
+          "artist": {
+            "id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+            "name": "The Rolling Stones",
+            "sort-name": "Rolling Stones, The",
+            "aliases": [
+              {
+                "sort-name": "Stones",
+                "name": "Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stones, The",
+                "name": "The Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ローリング・ストーンズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ローリング・ストーンズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rolling Stones",
+                "name": "Rolling Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "e015565f-52c3-435a-98bd-07b29f31b69e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "2755b6b3-388a-43c4-9880-d74bf81ba5b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads (mono)",
+          "status": "Official"
+        },
+        {
+          "id": "04a1f440-9314-46dd-ab00-8d3ab646fb69",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "51e7d6c4-b4e6-44a5-8235-ea2f098fd64a",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Out of Our Heads",
+          "status": "Bootleg"
+        },
+        {
+          "id": "40f1a81a-02ee-4cae-9a8e-fd9e2e7908c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "136b55d4-6466-4816-a32f-601ec84f83b0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "71006f58-84a6-4957-a0f2-24124016f128",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "52420a69-49ea-4822-9c7c-02eafc5182e4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "4c8c2dff-23a3-41a8-a77d-1999bc46bf49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "bb40643c-a2a8-4442-8f97-ff56ccf29644",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "c554ba20-cd45-4c55-96a1-f23aa3923f9d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "efb2042b-2e24-4325-ab44-cb83be422d8d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "905564c0-6036-456e-a089-5ec01a9dd460",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "fba63609-6c3d-4d3f-9453-e49f1a2c3b2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "2b83a6cd-6d65-4e59-843a-be9f22e49a1d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "4ddcaaa8-2af8-4209-b560-c1171695021b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "a19424d5-2f29-4b16-ba7c-c398d36d72e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "dd2723c2-6127-4356-af73-47322c317c48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "41e63a0a-8172-40a1-b286-5cbf2e043cdc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "69b0ac1b-ea25-42aa-808c-f731395046ab",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "b8e0deef-d4bb-4dc0-a454-4b22cb13f17c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "b3dbc803-648d-4d6a-941f-576973e28a7f",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Out Of Our Heads (UK) + 3 Singles (1965)",
+          "status": "Bootleg"
+        },
+        {
+          "id": "f942709a-734c-4969-b5f1-9ea3330fbc65",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "f24b9c81-0bc3-4051-95e7-49211dffaf0b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "8ab38049-0c51-3e1f-b95a-cc01288db0f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "03a57f9c-fc5f-43d6-ae8e-449b6f0f4d57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "800e7a88-638c-4b22-bc4d-de6ce9b46cc8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "e8d42b6f-39e6-47cd-8183-809856caf0d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "4f19ba7e-1600-332b-99af-1a231aa09e34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "2571d543-f9b5-3ace-bdb6-3446eb29b2c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "0e8abd2b-0f3c-43fd-a73f-a2450549bc61",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "41bd8429-976c-4e19-aa68-10749acfcc71",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "b2bfeb6d-9673-40a0-b29a-0c505b1e3310",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "2014de51-5ccd-3eb8-9077-1471c8cf4b91",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "f51d0070-c4be-31f5-8f91-1003596a71ba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "15524565-ccd8-32d9-b066-661312233fb5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "1ce162e3-0320-4635-8dcf-409d80d75f3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Out of Our Heads",
+          "status": "Official"
+        },
+        {
+          "id": "1b288b34-2379-4dc6-9977-983347d7b19e",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Out of Our Heads",
+          "status": "Bootleg"
+        }
+      ],
+      "tags": [
+        {
+          "count": 14,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 2,
+          "name": "blues"
+        },
+        {
+          "count": 0,
+          "name": "vocal"
+        },
+        {
+          "count": 5,
+          "name": "blues rock"
+        },
+        {
+          "count": 4,
+          "name": "classic rock"
+        },
+        {
+          "count": 0,
+          "name": "album rock"
+        },
+        {
+          "count": 2,
+          "name": "british invasion"
+        },
+        {
+          "count": 2,
+          "name": "rock and roll"
+        },
+        {
+          "count": 3,
+          "name": "mod"
+        },
+        {
+          "count": 0,
+          "name": "british blues"
+        },
+        {
+          "count": 0,
+          "name": "blues-rock"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "merseybeat"
+        },
+        {
+          "count": 3,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "regional blues"
+        },
+        {
+          "count": 2,
+          "name": "rhythm & blues"
+        },
+        {
+          "count": 2,
+          "name": "british rhythm & blues"
+        },
+        {
+          "count": 2,
+          "name": "beat music"
+        }
+      ]
+    }
+  ]
+}

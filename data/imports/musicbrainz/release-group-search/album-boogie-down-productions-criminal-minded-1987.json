@@ -1,0 +1,136 @@
+{
+  "albumId": "album-boogie-down-productions-criminal-minded-1987",
+  "query": "artist:\"Boogie Down Productions\" AND releasegroup:\"Criminal Minded\" AND firstreleasedate:1987",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Boogie%20Down%20Productions%22%20AND%20releasegroup%3A%22Criminal%20Minded%22%20AND%20firstreleasedate%3A1987&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:45:03.762Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "420e3df4-6322-3399-8144-29ef7eb62e42",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "a02817cb-eb0d-30c9-9295-d68735ced342",
+      "count": 10,
+      "title": "Criminal Minded",
+      "first-release-date": "1987",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Boogie Down Productions",
+          "artist": {
+            "id": "ff7466a5-c538-4d2b-8450-54f11b20f2f4",
+            "name": "Boogie Down Productions",
+            "sort-name": "Boogie Down Productions",
+            "aliases": [
+              {
+                "sort-name": "B.D.P.",
+                "name": "B.D.P.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "BDP",
+                "name": "BDP",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "23c29512-19db-42bb-a22e-bb4dc2b07b4a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded",
+          "status": "Official"
+        },
+        {
+          "id": "f71349fd-d2d8-4909-8fac-e5cdb9900d4f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded",
+          "status": "Official"
+        },
+        {
+          "id": "a1d0a57f-0889-47d4-85cd-92a5b3e210ce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded",
+          "status": "Official"
+        },
+        {
+          "id": "73703477-d7c0-4d8d-aaec-8d0d81393aa6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded",
+          "status": "Official"
+        },
+        {
+          "id": "fdce3227-c792-4c6d-93b3-eb77cba7845b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded",
+          "status": "Official"
+        },
+        {
+          "id": "86705e48-3d26-4587-82d4-ccb45bfe6f1f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded",
+          "status": "Official"
+        },
+        {
+          "id": "f86c965f-0ac5-4ae6-ae43-41937082e758",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal-Minded (All Instrumental Hot-Club Version)",
+          "status": "Official"
+        },
+        {
+          "id": "b3ce6c38-e781-34fc-ae20-c947e7d99278",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded",
+          "status": "Official"
+        },
+        {
+          "id": "07cae68a-da63-4a65-96de-7fd7868f1938",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded (Elite Edition)",
+          "status": "Official"
+        },
+        {
+          "id": "f91244bf-8b14-4548-be56-60f32640f14d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Criminal Minded",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rap"
+        },
+        {
+          "count": 2,
+          "name": "political rap"
+        },
+        {
+          "count": 2,
+          "name": "east coast rap"
+        },
+        {
+          "count": 2,
+          "name": "golden age"
+        },
+        {
+          "count": 1,
+          "name": "hardcore hip hop"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "albumId": "album-bob-dylan-blood-on-the-tracks-1975",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"Blood on the Tracks\" AND firstreleasedate:1975",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22Blood%20on%20the%20Tracks%22%20AND%20firstreleasedate%3A1975&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:31:44.570Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "9c1b8072-eb1d-33d2-af8c-984d46e40902",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 29,
+      "title": "Blood on the Tracks",
+      "first-release-date": "1975-01-20",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "dc37dc75-c1c7-45d3-9b97-afff1cc2fc7f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "998c5e72-c6d1-423b-9993-3a75e477ea70",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "b9ef3061-6c8f-3113-b714-799ec10c1b50",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "f420d513-8a5c-4c1c-8712-34bcf8e75e2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood On The Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "8aca1168-7d7e-4931-9f65-e812eda8da2b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "ee2a862f-ff5c-44d2-9467-666c3d629c05",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "0b8d9090-36ab-32d5-9b0b-07ab03243a39",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "37ea825a-a6fb-4f5e-aeab-4b8017210c3e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "2ca41623-2e27-4c9e-a3e0-b8b61691478b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "b0851322-d298-418e-a741-d5479a0e50cb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "323d68c3-896c-4ee4-bd53-b1b13aa589cc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "d75681f2-2bff-34e4-bab4-74bbf718500b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "fcf161fa-555d-4e7e-b4ec-b20e6a2dad1d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "a04697a3-46a0-4f33-a515-41da24c9807d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks (test pressing)",
+          "status": "Official"
+        },
+        {
+          "id": "9467387f-8897-3c4f-abb7-6cfa68a8cb49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "0404fb0c-9a22-498f-af7c-85de8102d470",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "e01bbac4-b796-4af1-8093-f7576d8454e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "f4100433-c8ba-308c-a865-a5aa67ef44fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "c7747023-c496-4ee4-be65-c67adcc2ee03",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "9100be54-ebb4-3b92-a456-924f43e1d23d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "f8596717-0e23-3df2-94dc-a75327333b93",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "70992e15-16b0-36ff-8e22-ab0f683e36eb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "b13937fa-2737-3d31-a40d-45f5bc21e850",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "abefacd6-6e11-4add-b4e3-6f21de43f96c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "ee7f79c0-f52b-45e5-800e-daa8e1d69144",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "187c7057-83ef-350d-bda8-6f9bc7b8e332",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "ca6637f0-65f2-48f6-8b9b-bb52b1deaa7a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "1a5e4159-7678-4c83-ae8b-7843bc5cdb1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        },
+        {
+          "id": "5790bc7c-0687-3603-aa05-27f9bbfe0411",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blood on the Tracks",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 11,
+          "name": "rock"
+        },
+        {
+          "count": -1,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 17,
+          "name": "folk rock"
+        },
+        {
+          "count": 12,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 0,
+          "name": "folk-rock"
+        },
+        {
+          "count": 0,
+          "name": "ballad"
+        },
+        {
+          "count": 3,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": -1,
+          "name": "unknown"
+        },
+        {
+          "count": -1,
+          "name": "should be public domain"
+        },
+        {
+          "count": 0,
+          "name": "singer/songwriter"
+        }
+      ]
+    }
+  ]
+}

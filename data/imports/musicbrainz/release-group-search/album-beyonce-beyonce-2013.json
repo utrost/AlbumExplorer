@@ -1,0 +1,502 @@
+{
+  "albumId": "album-beyonce-beyonce-2013",
+  "query": "artist:\"Beyoncé\" AND releasegroup:\"Beyoncé\" AND firstreleasedate:2013",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Beyonc%C3%A9%22%20AND%20releasegroup%3A%22Beyonc%C3%A9%22%20AND%20firstreleasedate%3A2013&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:36:07.404Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "3e1387d0-c3c0-4b02-8abe-b6bb40b409b6",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "be1aa0b9-edee-31a0-b0ea-67c23e135daa",
+      "count": 2,
+      "title": "BEYONCÉ",
+      "disambiguation": "Drunk in Love / XO",
+      "first-release-date": "2013-12-20",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Beyoncé",
+          "artist": {
+            "id": "859d0860-d480-4efd-970c-c05d5f1776b8",
+            "name": "Beyoncé",
+            "sort-name": "Beyoncé",
+            "aliases": [
+              {
+                "sort-name": "碧昂絲",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "碧昂絲",
+                "locale": "zh_Hant_TW",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beyoncé",
+                "name": "Beyoncé",
+                "locale": "zh_Hans_CN",
+                "type": null,
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Knowles-Carter, Beyoncé",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beyoncé Knowles-Carter",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビヨンセ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ビヨンセ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beyonce",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beyonce",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beyonce'",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beyonce'",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "B1C",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "B1C",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Knowles-Carter, Beyoncé Giselle",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Beyoncé Giselle Knowles-Carter",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "2008-04-04",
+                "end-date": null
+              },
+              {
+                "sort-name": "Knowles, Beyoncé Giselle",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Beyoncé Giselle Knowles",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1981-09-04",
+                "end-date": "2008-04-03"
+              },
+              {
+                "sort-name": "Knowles, Beyoncé",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beyoncé Knowles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Queen Bey",
+                "name": "Queen Bey",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1c1a9c70-b8bd-451c-b452-e24a6a6d31d8",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "BEYONCÉ",
+          "status": "Promotion"
+        },
+        {
+          "id": "64c49c0c-2c2e-4f89-90b8-641635a7fb88",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "contemporary r&b"
+        }
+      ]
+    },
+    {
+      "id": "8596171e-23b2-4bdd-8f1c-11960df0ecbe",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "be1aa0b9-edee-31a0-b0ea-67c23e135daa",
+      "count": 28,
+      "title": "BEYONCÉ",
+      "first-release-date": "2013-12-13",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Beyoncé",
+          "artist": {
+            "id": "859d0860-d480-4efd-970c-c05d5f1776b8",
+            "name": "Beyoncé",
+            "sort-name": "Beyoncé",
+            "aliases": [
+              {
+                "sort-name": "碧昂絲",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "碧昂絲",
+                "locale": "zh_Hant_TW",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beyoncé",
+                "name": "Beyoncé",
+                "locale": "zh_Hans_CN",
+                "type": null,
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Knowles-Carter, Beyoncé",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beyoncé Knowles-Carter",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビヨンセ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ビヨンセ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beyonce",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beyonce",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beyonce'",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beyonce'",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "B1C",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "B1C",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Knowles-Carter, Beyoncé Giselle",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Beyoncé Giselle Knowles-Carter",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "2008-04-04",
+                "end-date": null
+              },
+              {
+                "sort-name": "Knowles, Beyoncé Giselle",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Beyoncé Giselle Knowles",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1981-09-04",
+                "end-date": "2008-04-03"
+              },
+              {
+                "sort-name": "Knowles, Beyoncé",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beyoncé Knowles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Queen Bey",
+                "name": "Queen Bey",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "d74b6f48-5338-41f1-82fb-e290a3aba92a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "aa246319-7d7f-4d9a-9481-e48c991e93ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "2775743e-2d9c-4b7f-9baa-1d24dc44c769",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "c1f288ba-6266-41f3-a9c3-fd3dbe2798ef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "1b6dfd28-ab39-4482-bc0d-67c9e969b595",
+          "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+          "title": "ビヨンセ",
+          "status": "Pseudo-Release"
+        },
+        {
+          "id": "53ead659-ace2-4891-9f14-9d0e59e98f13",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "d9c7c4ce-93be-4a5c-963e-61ecd239c29c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "525803df-0793-4976-9342-76d1b2fe61de",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "266f829c-a041-449b-a383-c577188b9752",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "aff44309-db4b-4cbc-a912-d0285cd90da6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "b824f90b-bac4-4923-9f43-fb8da1338740",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "BEYONCÉ (more only)",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "f74c6ec2-7319-406b-9910-a6c3fe940176",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "03d86671-4539-43f9-8eb8-39850c233305",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ (more only)",
+          "status": "Official"
+        },
+        {
+          "id": "a1fb39ea-d149-42f1-912a-e22c1f31ace0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ (more only)",
+          "status": "Official"
+        },
+        {
+          "id": "6f8ffe73-5b01-4f80-b15a-bd7cfb875fcc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ (platinum edition)",
+          "status": "Official"
+        },
+        {
+          "id": "65ac293c-5eed-498d-8546-724c5e6e29c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ (platinum edition)",
+          "status": "Official"
+        },
+        {
+          "id": "5d2e5ec9-b904-46a7-a448-5e754b1afb86",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "BEYONCÉ (audio only)",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "dcbeddf7-5be6-498a-9d86-7066d385cafb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "9abcf248-a3e0-4a37-8278-ea91345d3227",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ (audio only)",
+          "status": "Official"
+        },
+        {
+          "id": "b5c2908c-7b5b-4b34-be86-14b359c61f75",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ (platinum edition)",
+          "status": "Official"
+        },
+        {
+          "id": "bf80102f-eb05-4a0c-af47-6fceb26fc8b6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "7c07f9a1-381f-4c00-8d17-2acc537597f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "18190ffd-6e0e-474b-9d16-e86645bbe718",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "84eb58b5-c03d-4528-b730-6b01d576259e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ",
+          "status": "Official"
+        },
+        {
+          "id": "500a1214-114c-490f-a1e4-6e113ff69627",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ (audio only)",
+          "status": "Official"
+        },
+        {
+          "id": "27240a8e-ad2a-41e3-aeb1-d022b46cd0b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "BEYONCÉ (platinum edition)",
+          "status": "Official"
+        },
+        {
+          "id": "d7fa0353-3d5a-4195-9c1e-5bd75690c753",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "BEYONCÉ (platinum edition)",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "b0d610a2-06ad-4dbf-9e0e-81a01505e0be",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "BEYONCÉ",
+          "status": "Withdrawn"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "hip-hop"
+        },
+        {
+          "count": 0,
+          "name": "electro"
+        },
+        {
+          "count": 1,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "electropop"
+        },
+        {
+          "count": 3,
+          "name": "contemporary r&b"
+        },
+        {
+          "count": 1,
+          "name": "alternative r&b"
+        },
+        {
+          "count": 1,
+          "name": "visual album"
+        }
+      ]
+    }
+  ]
+}

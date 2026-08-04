@@ -1,0 +1,165 @@
+{
+  "albumId": "album-mott-the-hoople-mott-1973",
+  "query": "artist:\"Mott The Hoople\" AND releasegroup:\"Mott\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Mott%20The%20Hoople%22%20AND%20releasegroup%3A%22Mott%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:08:45.269Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4f213af5-f4f9-3129-ad7e-d34f1fd8abd1",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "ecfb0a40-5107-3410-8757-d6673d1bdcee",
+      "count": 10,
+      "title": "Mott",
+      "first-release-date": "1973-07-20",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Mott the Hoople",
+          "artist": {
+            "id": "435f1441-0f43-479d-92db-a506449a686b",
+            "name": "Mott the Hoople",
+            "sort-name": "Mott the Hoople",
+            "aliases": [
+              {
+                "sort-name": "モット・ザ・フープル",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "モット・ザ・フープル",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mott the Hoople ’74",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Mott the Hoople ’74",
+                "locale": "en_US",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "2019",
+                "end-date": null
+              },
+              {
+                "sort-name": "Mott The Hopple",
+                "name": "Mott The Hopple",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mott The Hoppie",
+                "name": "Mott The Hoppie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mott the Hoople & David Bowie",
+                "name": "Mott the Hoople & David Bowie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6081523d-ad60-4e3e-b487-dfbc2407f257",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "519cf830-e3d0-4fe1-ba41-710f04ee663b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "3e59e483-c175-4791-a820-a633a6235e24",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "c1d8a38a-673d-4de8-8478-f99495140765",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "3298bc3f-7ac0-34b1-8aea-53ba4b10c57e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "dc6b4261-d44e-3eaa-a8b2-76968bdc9d6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "034b0525-257f-4d9c-bdd2-2fe2ce81acb1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "fab77ca2-7051-48c0-8fc4-10de7082a48b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "660019e9-4f69-4224-8bb7-07996e99ecf1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        },
+        {
+          "id": "22b4defc-8460-488d-9804-d7b91ac77f30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mott",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "hard rock"
+        },
+        {
+          "count": 2,
+          "name": "glam rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "glam"
+        }
+      ]
+    }
+  ]
+}

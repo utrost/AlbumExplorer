@@ -1,0 +1,530 @@
+{
+  "albumId": "album-paul-simon-graceland-1986",
+  "query": "artist:\"Paul Simon\" AND releasegroup:\"Graceland\" AND firstreleasedate:1986",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Paul%20Simon%22%20AND%20releasegroup%3A%22Graceland%22%20AND%20firstreleasedate%3A1986&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:34:25.022Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "19847822-1430-3380-9cf1-bc45545b34ac",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e00dfc2d-61e1-3a41-aa71-39a55ebc52af",
+      "count": 46,
+      "title": "Graceland",
+      "first-release-date": "1986-08-29",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Paul Simon",
+          "artist": {
+            "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+            "name": "Paul Simon",
+            "sort-name": "Simon, Paul",
+            "disambiguation": "of Simon & Garfunkel",
+            "aliases": [
+              {
+                "sort-name": "Simon, Paul",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Paul Simon",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kane, Paul",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Paul Kane",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ポール・サイモン",
+                "name": "ポール・サイモン",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Simon, Paul Frederic",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Paul Frederic Simon",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1a5460dc-dfab-34d6-8070-90fb9c4c7201",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "3e00e0dc-267e-43b4-bfd0-4a212e24dab0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "e2b703bc-9334-4b20-89e2-1ebd82cb1336",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "eb339f8b-e932-4086-af5b-5109c839b7a9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "a27a99fb-8ef7-4b8f-b01f-7e508eb1a747",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "9df55475-3a6c-4bb1-98e7-9bc8b48003d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "fda05237-e7c3-41d0-b79b-7741b7c52b1c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "7b064bd5-2e8d-4b64-85df-abbf00d2c7f6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "f660c8f5-ba28-4b53-80e7-f196417a3802",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "85692f37-1468-4360-ab69-4819b66dc0e6",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Graceland",
+          "status": "Promotion"
+        },
+        {
+          "id": "0fe9089e-6b0a-4a73-9093-350d72e84be5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "6237e800-ae51-45a6-bac7-cd69eb86b147",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "9b43bbdb-de72-4a13-9919-b19f1544a414",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "c2807d8a-8e30-4813-a51f-a894e789dc79",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "5ef7824d-3d9f-4094-bfce-fdee096b739d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "fec286b3-1069-3cd6-9d63-8e05440dc375",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "8a4be3eb-b07e-49f9-94bf-77b341452ef3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "319bac47-80c2-4d92-a63c-e80b21d24b2f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "f00a22e2-713b-3248-a375-7064ae669e35",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "492ddbd2-fa2b-497f-a6b5-fee4338b1731",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "6f417328-3a1d-4b2d-9d78-ed3eea2bfc31",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "edf34eb7-9da6-45da-acd1-9261e6ff3901",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "d26aa6ca-1075-471c-bf0f-f5a5ce438494",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "d6d8e571-5025-4d77-8dd3-50f7dcaed75f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "b1b2f602-f72b-4ccf-88a1-e8e22ee328ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "5d42c069-0d9f-4ad0-b20f-6281ebb0e447",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "f21264dd-ca61-4a39-95b9-fc27d690086b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "19efc4dc-bd42-42d9-805d-fbc56fb7047c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "69a1c637-5cd3-40cd-9af0-bb10fcc0d8c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "f53c5d26-1cd7-4bff-99f8-f42325c0156f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "e2b7d6b8-9d95-449b-9eb0-a57156ad12c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "73677f81-86e6-4087-9255-9ee81b8e3dd3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "601cae16-adb2-4e49-b0a9-5a9b1583060f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "24bddd18-f124-4057-b665-a2c194d2cc2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "41afcabc-357e-4bb6-b2b7-e2f2d4d3be83",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "20072958-26ce-4aa9-ab7c-ae205ac7db12",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "74dd464c-d693-401f-9731-2a15223b4ad0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "d259b639-28ab-393b-a67f-223c73962b5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "4e11e3bd-fe6e-36cb-9df4-8b32f629b6ea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "95718634-fc1e-3ccc-b0cf-a9df519230e9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "a93a429c-cf65-451a-9cf4-555250d66746",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "bd442e81-f273-351a-a286-6df6e7ff1d53",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "69855ab7-2ad3-449c-8116-12aa676b8a20",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "38fbf057-cf33-44b0-8c1a-52e00490b28f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "bf5a4125-ea21-4a35-a430-e598386eed92",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        },
+        {
+          "id": "57665462-60e5-4167-8a47-3921a89229db",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graceland",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 8,
+          "name": "rock"
+        },
+        {
+          "count": -1,
+          "name": "electronic"
+        },
+        {
+          "count": 13,
+          "name": "pop"
+        },
+        {
+          "count": 6,
+          "name": "folk"
+        },
+        {
+          "count": 4,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 1,
+          "name": "funk"
+        },
+        {
+          "count": 1,
+          "name": "uplifting"
+        },
+        {
+          "count": 2,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "world"
+        },
+        {
+          "count": -2,
+          "name": "fusion"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": -1,
+          "name": "classic"
+        },
+        {
+          "count": -1,
+          "name": "album rock"
+        },
+        {
+          "count": 6,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 8,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "conscious"
+        },
+        {
+          "count": 1,
+          "name": "worldbeat"
+        },
+        {
+          "count": 2,
+          "name": "afrobeat"
+        },
+        {
+          "count": 1,
+          "name": "african"
+        },
+        {
+          "count": 1,
+          "name": "tropical"
+        },
+        {
+          "count": 2,
+          "name": "zydeco"
+        },
+        {
+          "count": 1,
+          "name": "eclectic"
+        },
+        {
+          "count": 1,
+          "name": "tribal"
+        },
+        {
+          "count": 1,
+          "name": "summer"
+        },
+        {
+          "count": 1,
+          "name": "happy"
+        },
+        {
+          "count": 1,
+          "name": "isicathamiya"
+        },
+        {
+          "count": 0,
+          "name": "soukous"
+        },
+        {
+          "count": 0,
+          "name": "mbube"
+        },
+        {
+          "count": 3,
+          "name": "male vocal"
+        },
+        {
+          "count": 1,
+          "name": "desert"
+        },
+        {
+          "count": 1,
+          "name": "male vocalist"
+        },
+        {
+          "count": 1,
+          "name": "poetic"
+        },
+        {
+          "count": 1,
+          "name": "playful"
+        },
+        {
+          "count": 1,
+          "name": "bittersweet"
+        },
+        {
+          "count": 1,
+          "name": "warm"
+        },
+        {
+          "count": 1,
+          "name": "introspective"
+        },
+        {
+          "count": 1,
+          "name": "optimistic"
+        },
+        {
+          "count": 0,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "rhythm & blues"
+        },
+        {
+          "count": 1,
+          "name": "rhythmic"
+        },
+        {
+          "count": 1,
+          "name": "afropop"
+        },
+        {
+          "count": 1,
+          "name": "longing"
+        },
+        {
+          "count": 0,
+          "name": "mbaqanga"
+        }
+      ]
+    }
+  ]
+}

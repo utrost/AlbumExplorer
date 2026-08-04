@@ -1,0 +1,131 @@
+{
+  "albumId": "album-husker-du-new-day-rising-1985",
+  "query": "artist:\"Hüsker Dü\" AND releasegroup:\"New Day Rising\" AND firstreleasedate:1985",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22H%C3%BCsker%20D%C3%BC%22%20AND%20releasegroup%3A%22New%20Day%20Rising%22%20AND%20firstreleasedate%3A1985&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:55:56.645Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "5ae570d2-65c1-3da5-9a1b-dbb98ca7c3d2",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "94f14346-303f-302e-986e-f4e992303643",
+      "count": 7,
+      "title": "New Day Rising",
+      "first-release-date": "1985-01",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Hüsker Dü",
+          "artist": {
+            "id": "5c4c90a4-539f-4101-83cf-301bc6a94e06",
+            "name": "Hüsker Dü",
+            "sort-name": "Hüsker Dü",
+            "aliases": [
+              {
+                "sort-name": "Husker Du",
+                "name": "Husker Du",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "caac195a-7a30-42f0-a3b0-d1b63a6d3023",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Day Rising",
+          "status": "Official"
+        },
+        {
+          "id": "ccf5fdbd-bb93-426b-aa53-5266c3668a49",
+          "title": "New Day Rising"
+        },
+        {
+          "id": "b051f527-29e1-4a56-b318-12d3305467d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Day Rising",
+          "status": "Official"
+        },
+        {
+          "id": "c8862142-d60c-3276-86c8-f79baa1c8e5f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Day Rising",
+          "status": "Official"
+        },
+        {
+          "id": "76f00efe-5dcf-4a63-8ca6-705756848cf7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Day Rising",
+          "status": "Official"
+        },
+        {
+          "id": "1958aac5-4daa-31fb-9197-ebeed6769233",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Day Rising",
+          "status": "Official"
+        },
+        {
+          "id": "93f45485-305a-3cab-8823-ac4fb703657d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Day Rising",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 7,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "hardcore"
+        },
+        {
+          "count": 1,
+          "name": "punk"
+        },
+        {
+          "count": 1,
+          "name": "indie rock"
+        },
+        {
+          "count": 3,
+          "name": "power pop"
+        },
+        {
+          "count": 1,
+          "name": "garage punk"
+        },
+        {
+          "count": 5,
+          "name": "hardcore punk"
+        },
+        {
+          "count": 3,
+          "name": "noise pop"
+        },
+        {
+          "count": 2,
+          "name": "post-hardcore"
+        },
+        {
+          "count": 1,
+          "name": "1985"
+        }
+      ]
+    }
+  ]
+}

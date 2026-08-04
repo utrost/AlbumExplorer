@@ -1,0 +1,141 @@
+{
+  "albumId": "album-kinks-the-kink-kronikles-1972",
+  "query": "artist:\"The Kinks\" AND releasegroup:\"The Kink Kronikles\" AND firstreleasedate:1972",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Kinks%22%20AND%20releasegroup%3A%22The%20Kink%20Kronikles%22%20AND%20firstreleasedate%3A1972&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:04:57.028Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "677cb58c-497d-3a14-816c-c900f3a7705b",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "073bd15a-0b08-3a71-885d-2feae4a77414",
+      "count": 4,
+      "title": "The Kink Kronikles",
+      "first-release-date": "1972-03-25",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "The Kinks",
+          "artist": {
+            "id": "17b53d9f-5c63-4a09-a593-dde4608e0db9",
+            "name": "The Kinks",
+            "sort-name": "Kinks, The",
+            "aliases": [
+              {
+                "sort-name": "Muswell Ravens",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Muswell Ravens",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ravens, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Ravens",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bollweevils, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Bollweevils",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boll‐Weevils, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boll‐Weevils",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kinks",
+                "name": "Kinks",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6048ce51-9b9d-4fe1-a251-bbe0d68193e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Kink Kronikles",
+          "status": "Official"
+        },
+        {
+          "id": "243ba14a-e9e1-4bad-b752-801bdfde1662",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Kink Kronikles",
+          "status": "Official"
+        },
+        {
+          "id": "cf0d46fd-c859-451e-8bc3-a6b64ec9c841",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Kink Kronikles",
+          "status": "Official"
+        },
+        {
+          "id": "5793a42f-bf14-3427-a737-d07ab41e553b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Kink Kronikles",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 4,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 3,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "albumId": "album-x-los-angeles-1980",
+  "query": "artist:\"X\" AND releasegroup:\"Los Angeles\" AND firstreleasedate:1980",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22X%22%20AND%20releasegroup%3A%22Los%20Angeles%22%20AND%20firstreleasedate%3A1980&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:48:44.051Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "700da083-bd95-3301-91f1-af571a001414",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "1c2ef162-4080-30fc-a170-9761f1f58a8f",
+      "count": 7,
+      "title": "Los Angeles",
+      "first-release-date": "1980-04",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "X",
+          "artist": {
+            "id": "ddd553d4-977e-416c-8f57-e4b72c0fc746",
+            "name": "X",
+            "sort-name": "X",
+            "disambiguation": "Los Angeles punk rock band"
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "65b1a1bc-212c-4d88-ad87-ca1bb081da40",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Los Angeles",
+          "status": "Official"
+        },
+        {
+          "id": "e355676b-7c33-496c-ad58-fcfc6fe908e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Los Angeles",
+          "status": "Official"
+        },
+        {
+          "id": "24652d4d-c0fc-452f-9f05-c8992bcfaf08",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Los Angeles",
+          "status": "Official"
+        },
+        {
+          "id": "b24e6668-6b20-39f9-9f45-2a0a91265ba2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Los Angeles",
+          "status": "Official"
+        },
+        {
+          "id": "2642f940-6660-4440-aa8a-bc9cd288a818",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Los Angeles",
+          "status": "Official"
+        },
+        {
+          "id": "3a5e1bb2-3226-39a7-b75c-c2adec653971",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Los Angeles",
+          "status": "Official"
+        },
+        {
+          "id": "73d349fe-30a2-4965-91b8-24ad7ddcbb7e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Los Angeles",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "punk"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "albumId": "album-madonna-the-immaculate-collection-1990",
+  "query": "artist:\"Madonna\" AND releasegroup:\"The Immaculate Collection\" AND firstreleasedate:1990",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Madonna%22%20AND%20releasegroup%3A%22The%20Immaculate%20Collection%22%20AND%20firstreleasedate%3A1990&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:39:37.818Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b14e9927-081e-4a07-b0f7-8ddf22319b27",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "ac3e1a64-710f-344b-9644-0cf35e115f60",
+      "count": 24,
+      "title": "The Immaculate Collection",
+      "first-release-date": "1990-11-12",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Madonna",
+          "artist": {
+            "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+            "name": "Madonna",
+            "sort-name": "Madonna",
+            "disambiguation": "“Queen of Pop”",
+            "aliases": [
+              {
+                "sort-name": "Ciccone, Madonna Louise",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "麥當娜",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone, Madonna Louise Veronica",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Madonna Louise Veronica Ciccone",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "マドンナ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "マドンナ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone-Ritchie, Madonna",
+                "name": "Madonna Ciccone-Ritchie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone, Madonna Louise",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Madonna Louise Ciccone",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Madonna",
+                "name": "Madonna",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Ciccone",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Ciccone",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "e98eb0f1-a3f5-4739-a749-5d0d2a945405",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "b9d8ef7e-08be-435e-825c-925293f4f41d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "e2712724-6ed6-49c6-8d81-ca341c9f49ea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "a83debab-d3fd-4e52-b081-43e54eba28c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "df6ba73c-17dd-410b-8e1b-bfcfa418e277",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "44a64b8c-f20d-33f2-be25-88740e575f2c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "fe08dde2-11d4-45f1-bb08-d22120946e2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "ce5a003a-ddcb-4d68-afff-522a79f0c4ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "6a12cd9c-0b3d-4e68-8d44-b8066b7ff9f4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "f2584ddb-fc19-4326-8b3f-d6e681513c30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "3ef33527-d468-4597-ac85-ff9a8b12af39",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "1b1684df-62c4-4efe-a0f0-59049e1f747a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "fed578f0-2766-4e7d-873b-68a1cad00f3b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "99380f18-f40e-4913-8344-69234a62bca0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "ea1f0b5a-c5d9-4b6b-95da-c9bab9fcd119",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "1b6bb9a9-1dd3-4c6c-9111-ff59e5314826",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "4c545aae-b2cc-4bac-9c80-08c87a45b42e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "b8f34bf9-b872-4c88-8867-043dcc174d2f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "fd3b6f5e-8b98-350a-9c6a-bdb3e7fabe31",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "e1b8ad13-dbe3-44f2-9075-636200b4a399",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Royal Box",
+          "status": "Official"
+        },
+        {
+          "id": "5b244a03-06be-4dec-81a0-ce4730080bc7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "403b2773-5f4e-4aa5-a5c3-0f4f832fab2b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "e3584562-03f0-428e-8aeb-abc96b46cd73",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "671adf8c-bddb-4ef0-b5c0-07d78ee16533",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "electronic"
+        },
+        {
+          "count": 2,
+          "name": "synthpop"
+        },
+        {
+          "count": 16,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "dance"
+        },
+        {
+          "count": 1,
+          "name": "usa"
+        },
+        {
+          "count": 6,
+          "name": "synth-pop"
+        },
+        {
+          "count": 3,
+          "name": "américain"
+        },
+        {
+          "count": 5,
+          "name": "dance-pop"
+        },
+        {
+          "count": 5,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 2,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "dance pop"
+        },
+        {
+          "count": 3,
+          "name": "general pop"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 2,
+          "name": "club/dance"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "qsound"
+        },
+        {
+          "count": 1,
+          "name": "electronic/trance/pop/jazz"
+        },
+        {
+          "count": 1,
+          "name": "electronic/ambient/pop/jazz"
+        }
+      ]
+    },
+    {
+      "id": "0e44c7cc-f62f-48b3-9bd8-ce3e51314349",
+      "type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+      "score": 100,
+      "primary-type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+      "artist-credit-id": "ac3e1a64-710f-344b-9644-0cf35e115f60",
+      "count": 2,
+      "title": "The Immaculate Collection",
+      "first-release-date": "1990-11-13",
+      "primary-type": "Other",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Madonna",
+          "artist": {
+            "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+            "name": "Madonna",
+            "sort-name": "Madonna",
+            "disambiguation": "“Queen of Pop”",
+            "aliases": [
+              {
+                "sort-name": "Ciccone, Madonna Louise",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "麥當娜",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone, Madonna Louise Veronica",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Madonna Louise Veronica Ciccone",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "マドンナ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "マドンナ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone-Ritchie, Madonna",
+                "name": "Madonna Ciccone-Ritchie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ciccone, Madonna Louise",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Madonna Louise Ciccone",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Madonna",
+                "name": "Madonna",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Ciccone",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Ciccone",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6a12cd9c-0b3d-4e68-8d44-b8066b7ff9f4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "2e34aa3d-888a-44d6-a9d1-bd17c92eaf5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Immaculate Collection",
+          "status": "Official"
+        }
+      ]
+    }
+  ]
+}

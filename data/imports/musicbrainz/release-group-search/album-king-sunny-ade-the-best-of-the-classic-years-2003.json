@@ -1,0 +1,58 @@
+{
+  "albumId": "album-king-sunny-ade-the-best-of-the-classic-years-2003",
+  "query": "artist:\"King Sunny Adé\" AND releasegroup:\"The Best of the Classic Years\" AND firstreleasedate:2003",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22King%20Sunny%20Ad%C3%A9%22%20AND%20releasegroup%3A%22The%20Best%20of%20the%20Classic%20Years%22%20AND%20firstreleasedate%3A2003&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:57:25.975Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "d66265fa-f8e3-3b79-ab11-23eddd92f3ce",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "845053ba-f9f6-3565-9f8a-5e69078ad2b6",
+      "count": 2,
+      "title": "The Best of the Classic Years",
+      "first-release-date": "2003-02-11",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "King Sunny Adé",
+          "artist": {
+            "id": "3e110caa-e9e8-4c33-98dc-ebbf0c6d2494",
+            "name": "King Sunny Adé",
+            "sort-name": "Ade, King Sunny"
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0d20ddbf-9961-4e36-a0ba-56e64b6c626f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Best of the Classic Years",
+          "status": "Official"
+        },
+        {
+          "id": "87d36358-5043-42a0-bad4-bf0bad3fc470",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Best of the Classic Years",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "jùjú"
+        }
+      ]
+    }
+  ]
+}

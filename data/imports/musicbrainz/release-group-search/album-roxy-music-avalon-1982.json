@@ -1,0 +1,505 @@
+{
+  "albumId": "album-roxy-music-avalon-1982",
+  "query": "artist:\"Roxy Music\" AND releasegroup:\"Avalon\" AND firstreleasedate:1982",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Roxy%20Music%22%20AND%20releasegroup%3A%22Avalon%22%20AND%20firstreleasedate%3A1982&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:34.303Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e2341e79-41af-4228-89da-4520e948bc13",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "1252179d-73c3-3ef3-8fe3-c46e1038a308",
+      "count": 1,
+      "title": "Avalon",
+      "first-release-date": "1982-06",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Roxy Music",
+          "artist": {
+            "id": "331ce348-1b08-40b9-8ed7-0763b92bd003",
+            "name": "Roxy Music",
+            "sort-name": "Roxy Music",
+            "aliases": [
+              {
+                "sort-name": "Роксі М'юзік",
+                "name": "Роксі М'юзік",
+                "locale": "uk",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bryan Ferry and Roxy Music",
+                "name": "Bryan Ferry and Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bryan Ferry - Roxy Music",
+                "name": "Bryan Ferry - Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bryan Ferry + Roxy Music",
+                "name": "Bryan Ferry + Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brian Ferry - Roxy Music",
+                "name": "Brian Ferry - Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Music Roxy",
+                "name": "Music Roxy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bryan Ferry & Roxy Music",
+                "name": "Bryan Ferry & Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "090700a7-0ec5-41bb-b970-52e6aa47b755",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "4b51d75c-ca0e-3ea7-9950-639eda1f7d1a",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "1252179d-73c3-3ef3-8fe3-c46e1038a308",
+      "count": 37,
+      "title": "Avalon",
+      "first-release-date": "1982-05-28",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Roxy Music",
+          "artist": {
+            "id": "331ce348-1b08-40b9-8ed7-0763b92bd003",
+            "name": "Roxy Music",
+            "sort-name": "Roxy Music",
+            "aliases": [
+              {
+                "sort-name": "Роксі М'юзік",
+                "name": "Роксі М'юзік",
+                "locale": "uk",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bryan Ferry and Roxy Music",
+                "name": "Bryan Ferry and Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bryan Ferry - Roxy Music",
+                "name": "Bryan Ferry - Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bryan Ferry + Roxy Music",
+                "name": "Bryan Ferry + Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brian Ferry - Roxy Music",
+                "name": "Brian Ferry - Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Music Roxy",
+                "name": "Music Roxy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bryan Ferry & Roxy Music",
+                "name": "Bryan Ferry & Roxy Music",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4a6e8fae-b736-3071-a457-b154c4f9e77c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "5594310c-8e8a-43ef-a006-4a4e0cbe8199",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "2f68d6ba-b586-45cc-ba65-84635dbff4d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "a55efc2a-8725-490e-8da7-22879cb3869a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "9888a0e8-c368-49a6-8ec4-f0dcb41f9a50",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "6d75a31a-2293-4633-b31e-43482f3d123e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "e1d343fd-65a5-4e99-986e-8143aef05767",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "c6fd4503-f808-41da-a1c2-67406824a6de",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "c1ce5177-a5d1-46b3-92b3-309ac60811cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "fef7daec-fe91-4ba6-8846-0880a8867a34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "7afada52-13ae-4978-991b-548a52376e0c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "cc01d60b-45a1-4971-94de-c0d7d887afb6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "0f504616-25b1-4511-92c5-b5f89d73d4fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "d8c58422-52bb-4aba-bc33-3010168d453a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "7dab3b69-2657-3d0e-9c6d-e49c9f5f328a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "7e69d065-5c76-4be8-b73d-5df707c8ff44",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "ceeab752-208a-428e-805c-7c593a97a04c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "f7b15236-c401-4cce-aa56-ad30d4e7fc23",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "a4e665b3-444e-47b5-9c65-a0c1eef2cc4c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "89a67477-b3b7-3d71-b67b-e9c696471f6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "a1cfb368-d3b1-493f-b455-5e8e6a116a27",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "c8601e66-3c14-49ec-a4d8-50678536e805",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "95b265fd-9b1b-41f9-bd49-bd8bc20c2b04",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "a5ab04e9-5e5e-4ac9-8810-79bfbd8c3c6c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "6ec6ade2-75c3-4901-9c81-6326cb02ec88",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "a8b75767-e762-40a1-a58b-f15a0b18b65a",
+          "title": "Avalon"
+        },
+        {
+          "id": "8cc4b3e2-50b4-4452-a64d-4de74a49afc7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "09a0d4c9-309a-4b45-aea4-5da8b22f14ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "224190ec-e02d-4404-8e7a-9b21d40b13be",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "80faf5b1-c924-4a26-828a-51fda53e27dc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "015752a9-0cc8-4852-ab55-86a503b0a2dc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "25a27319-a2d9-4d5f-bcbf-ecbfb11dc43b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "30b0f106-9187-4b2e-944c-b1ff8a190ba8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "4dfa21e4-9526-3038-b3df-9110be65deb3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "1d34b5d5-e597-4812-83b1-1e99a128d21d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "49fcf6fb-f9eb-4de8-982d-f67e7ca1ef7b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        },
+        {
+          "id": "c9bdf6a8-51e1-45ac-b95f-3dd91de582e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Avalon",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 4,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "electronic"
+        },
+        {
+          "count": 2,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "progressive rock"
+        },
+        {
+          "count": 1,
+          "name": "synth-pop"
+        },
+        {
+          "count": 1,
+          "name": "glam rock"
+        },
+        {
+          "count": 6,
+          "name": "art rock"
+        },
+        {
+          "count": 1,
+          "name": "album rock"
+        },
+        {
+          "count": 3,
+          "name": "soft rock"
+        },
+        {
+          "count": 4,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 3,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "new romantic"
+        },
+        {
+          "count": 0,
+          "name": "360"
+        },
+        {
+          "count": 3,
+          "name": "sophisti-pop"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "rock/pop"
+        },
+        {
+          "count": 2,
+          "name": "art pop"
+        }
+      ]
+    }
+  ]
+}

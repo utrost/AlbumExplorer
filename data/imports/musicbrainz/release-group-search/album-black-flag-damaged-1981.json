@@ -1,0 +1,114 @@
+{
+  "albumId": "album-black-flag-damaged-1981",
+  "query": "artist:\"Black Flag\" AND releasegroup:\"Damaged\" AND firstreleasedate:1981",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Black%20Flag%22%20AND%20releasegroup%3A%22Damaged%22%20AND%20firstreleasedate%3A1981&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:58:24.809Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "2cf40300-0f67-3136-9b84-57104f1f7a50",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "b51a7cea-da0e-3556-9af9-c930f801947e",
+      "count": 7,
+      "title": "Damaged",
+      "first-release-date": "1981-11-16",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Black Flag",
+          "artist": {
+            "id": "9941a936-196a-4a62-ae53-a69cbc33f20e",
+            "name": "Black Flag",
+            "sort-name": "Black Flag"
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "754c3091-8cc3-46f5-9be9-4c3ca0a22ed1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Damaged",
+          "status": "Official"
+        },
+        {
+          "id": "5bf68880-9d2a-4068-b08e-3288ea333578",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Damaged",
+          "status": "Official"
+        },
+        {
+          "id": "a3b1d148-d444-3f6a-84a6-add7c21b698d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Damaged",
+          "status": "Official"
+        },
+        {
+          "id": "beb5dfa5-355e-4fe6-9cd5-aadca1cb98d2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Damaged",
+          "status": "Official"
+        },
+        {
+          "id": "d718298d-3b67-4538-8067-657058f4cfd0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Damaged",
+          "status": "Official"
+        },
+        {
+          "id": "46b63934-8a29-3915-9ae8-51e9ffdfda61",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Damaged",
+          "status": "Official"
+        },
+        {
+          "id": "136a731b-8515-4023-9cca-722e6de4cf60",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Damaged",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "hardcore"
+        },
+        {
+          "count": 3,
+          "name": "punk"
+        },
+        {
+          "count": 0,
+          "name": "punk rock"
+        },
+        {
+          "count": 9,
+          "name": "hardcore punk"
+        },
+        {
+          "count": 1,
+          "name": "noise rock"
+        },
+        {
+          "count": 0,
+          "name": "1981"
+        },
+        {
+          "count": 0,
+          "name": "rock and indie"
+        },
+        {
+          "count": 0,
+          "name": "classic hardcore punk"
+        }
+      ]
+    }
+  ]
+}

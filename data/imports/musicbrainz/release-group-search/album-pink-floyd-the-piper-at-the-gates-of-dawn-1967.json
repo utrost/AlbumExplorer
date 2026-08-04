@@ -1,0 +1,712 @@
+{
+  "albumId": "album-pink-floyd-the-piper-at-the-gates-of-dawn-1967",
+  "query": "artist:\"Pink Floyd\" AND releasegroup:\"The Piper at the Gates of Dawn\" AND firstreleasedate:1967",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Pink%20Floyd%22%20AND%20releasegroup%3A%22The%20Piper%20at%20the%20Gates%20of%20Dawn%22%20AND%20firstreleasedate%3A1967&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:45:56.385Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "6792b6d1-4e65-3c3c-9d20-d08aa1dcfc60",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "0b81ed37-abef-3a61-95a1-96078197007b",
+      "count": 81,
+      "title": "The Piper at the Gates of Dawn",
+      "first-release-date": "1967-07-07",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Pink Floyd",
+          "artist": {
+            "id": "83d91898-7763-47d7-b03b-b92132375c47",
+            "name": "Pink Floyd",
+            "sort-name": "Pink Floyd",
+            "aliases": [
+              {
+                "sort-name": "Pink Floid",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Pink Floid",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Pink Floyd",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Pink Floyd",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Floyd",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Floyd",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "핑크 플로이드",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "핑크 플로이드",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Pink Floyd",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Pink Floyd",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ピンク・フロイド",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ピンク・フロイド",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "8fbc869c-9593-4979-aada-1102c2368684",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "fb43d4c6-8552-4c5f-b399-225942551fd8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "ba14e16b-d2aa-4b6e-9f77-b51b0c2b85d2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "7ec5268e-4b6e-464a-82f1-653c6dd04f5a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "0448ddfa-9bcf-4d0b-b059-6d3509cdd07e",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "f54778dc-3ca8-4ed4-8c97-64b1f3350a03",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "ff09d2a8-0f03-4c25-a25b-861c9470b9ac",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "6986ce81-b567-42c0-b48c-1282f21966e6",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "85ddfde5-9dbc-4a26-89c1-e2b8f0475b4f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "a8cf76b1-85f0-4082-905e-b4fdf5797a9f",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Bootleg"
+        },
+        {
+          "id": "8d67c101-137b-436a-9c08-8c794688934d",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Bootleg"
+        },
+        {
+          "id": "63beba8a-4790-4c21-a2f4-87c2e81ce981",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Bootleg"
+        },
+        {
+          "id": "cb4fe898-fef1-4858-853f-a4fc326ff6bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "2854f77a-558b-403c-876b-c6c4cb4a6cdc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "bf61ae3f-a781-486f-88f6-b051fbc5770c",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Piper at the Gates of Dawn: Remixed (Prof. Stoned 2022)",
+          "status": "Bootleg"
+        },
+        {
+          "id": "3c3bf80f-34d4-4f40-a58c-457798ed4ac7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "3a4c498b-1b30-3ac8-86a4-c42fe5a72365",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "d367f3e8-aced-4f71-bb2b-fbef5a53c6c0",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "1ca1b95b-9dde-4913-ae82-ae1f50264f5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "73b5da9e-c411-4371-a0c7-a2daade7e412",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "896f2516-9fb9-4cfb-a6f1-b071c12b298a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "d754b25b-4558-479a-b47b-285ad327f327",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "8f63552a-c9c3-4a6d-906c-7693c8591d5a",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "b0835704-8ce4-469d-bea7-5f718083b8a2",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "31fa2753-f762-4165-bd08-79fb0364c46a",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "f8b03b77-3d36-44f7-848b-3a212ad6eca3",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "e5dbfab6-f9d5-3993-80c0-57c71765c7c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "f2caa871-ecfb-36d0-91b8-61fb66136385",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "97f3c00f-1c4a-42d5-8169-381c7243d676",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Piper at the Gates of Dawn: High Resolution Remasters",
+          "status": "Bootleg"
+        },
+        {
+          "id": "d5c07082-1596-4016-8db9-c46fbfd49166",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "e63dc5a6-a4d9-35fe-b935-957ad16f85b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "4c1d3fc7-526e-4abf-a8bf-d34a535fc8c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "e8fbe475-45cc-4c9d-a1b3-02922cb524bd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "aff90c53-4e94-4779-8ed4-e711e0fbfefb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "cffe865d-e05e-4509-ae64-998551c24d89",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "b301be70-71aa-45bb-855e-d146e71f03b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "e3f88cf0-2755-4636-b3a0-8f08b1b0efd1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "42693cbb-0e88-39b8-b9a3-ff92854232f7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "9f7c49c2-1e10-3261-bdf0-e1b645c5131e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "04bc55af-516a-35cd-9c69-eab8f151873e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "eb0615da-8686-4dc5-9431-5e467e203197",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "47737da0-8e09-3999-8a01-cb64ea7ad934",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Bootleg"
+        },
+        {
+          "id": "6c7cdad8-4daf-3248-b6c1-ea896c2e568e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "1875aa24-168b-3815-9fc6-b6930ea36865",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "cd0ed478-90bf-38e8-ad6a-30f7a09a2902",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "e72276df-539d-4ed5-8669-72d170d63fcd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "cf0d899c-bbc6-4a33-ba74-5e335284e836",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "2d35d84e-97d7-4b32-96f5-7bd5c4bb9b77",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "42b7138f-25b3-40d3-9f7e-2683d9f3657f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "b572b75a-f06d-411f-90f0-1c56431a4a55",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "4380f6dd-d315-42c5-84a8-e7bd513034bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "b2cd088b-b831-4c6b-8167-721f34f33ff0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "2e99c1a0-940e-41ee-bbbb-ab4360de76d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "d13a919a-6154-4706-8835-a879bc0d23ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "eac30845-fb89-487d-aed9-bb5ce4be6a72",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "6ef5a562-b00c-317d-89ad-704bff1e28b9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "3dc17669-a2a6-4f34-95c4-f5016e6e3b33",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "038f9f6a-5573-4a29-a74e-d24f6a85f7ba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "a4a1a717-e369-4884-923f-cacd620e4fa2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "93d7c492-cdd6-46ee-964a-77df3c479b96",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "81c1bcca-9b17-496e-856e-1a989737a7e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "1f715142-a0ef-48c8-9e72-c402e5bad13f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "9d4c4846-825d-457c-a21c-81bde56465d6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "e9823210-b67b-4e45-8ec3-781c5e069fce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "289df1e2-32c3-410c-be65-2a640c13104b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "2b403f92-b85c-4a89-9593-18b9763c22c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "096d1995-b857-3e81-a3ad-44d7bbea9e0a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "c10ad894-e65a-4592-bca3-b668d66cd255",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "77a7fcfe-c53e-4215-90c1-e77bd0b51cf8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "667faa0a-da20-48ed-a87b-0e5bb0a16341",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "2e20b2b1-fad2-40a2-8a60-5b200f5ec900",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "ae394d04-4d4c-38eb-9eda-40c038b53bf6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "18b3bed9-bea2-365e-a42b-2c07d0bd834b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "2368be6d-de8e-4b1c-9b40-05149842697e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "b244c9ec-be2c-36b7-a9ae-d656c5538a1a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "f2712691-a382-30ea-a624-3d9e0f06fb56",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "df964ed0-7a5f-4ba4-9ad9-0fa4e2d4abac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "bbd48132-9e5c-31f3-9c63-3fd765b5de78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "649ec33f-a4a9-3bde-9944-84ba6b455e34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "a35b72c2-0fc8-401b-af47-af8746585d16",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        },
+        {
+          "id": "6397e99a-b53a-33cf-b551-fe8e5383dcef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Piper at the Gates of Dawn",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 10,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "classical"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "progressive rock"
+        },
+        {
+          "count": 1,
+          "name": "ambient"
+        },
+        {
+          "count": 1,
+          "name": "jazz"
+        },
+        {
+          "count": 0,
+          "name": "british"
+        },
+        {
+          "count": 0,
+          "name": "band"
+        },
+        {
+          "count": 1,
+          "name": "progressive"
+        },
+        {
+          "count": 19,
+          "name": "psychedelic rock"
+        },
+        {
+          "count": 0,
+          "name": "psychedelic"
+        },
+        {
+          "count": 1,
+          "name": "art rock"
+        },
+        {
+          "count": 3,
+          "name": "classic rock"
+        },
+        {
+          "count": 2,
+          "name": "album rock"
+        },
+        {
+          "count": 2,
+          "name": "psychedelic pop"
+        },
+        {
+          "count": 4,
+          "name": "experimental rock"
+        },
+        {
+          "count": 6,
+          "name": "space rock"
+        },
+        {
+          "count": 0,
+          "name": "british invasion"
+        },
+        {
+          "count": 1,
+          "name": "rhythm and blues"
+        },
+        {
+          "count": 1,
+          "name": "psychadelic"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "british psychedelia"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 0,
+          "name": "1967"
+        },
+        {
+          "count": 1,
+          "name": "pop music"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "prog-rock"
+        },
+        {
+          "count": 0,
+          "name": "psychedelic/garage"
+        },
+        {
+          "count": 0,
+          "name": "#strawberrybricks"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "1–4 wochen"
+        }
+      ]
+    }
+  ]
+}

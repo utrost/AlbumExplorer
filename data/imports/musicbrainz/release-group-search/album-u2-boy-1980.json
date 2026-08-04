@@ -1,0 +1,401 @@
+{
+  "albumId": "album-u2-boy-1980",
+  "query": "artist:\"U2\" AND releasegroup:\"Boy\" AND firstreleasedate:1980",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22U2%22%20AND%20releasegroup%3A%22Boy%22%20AND%20firstreleasedate%3A1980&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:10:22.229Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "53b0d89e-f856-3015-a3a6-a70e1e935fd6",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "39870f28-0220-31bb-8491-1acb67df1b7d",
+      "count": 47,
+      "title": "Boy",
+      "first-release-date": "1980-10-20",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "U2",
+          "artist": {
+            "id": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+            "name": "U2",
+            "sort-name": "U2",
+            "disambiguation": "Irish rock band",
+            "aliases": [
+              {
+                "sort-name": "유투",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "유투",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "U2 Kiwi",
+                "name": "U2 Kiwi",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "U2 - Until The",
+                "name": "U2 - Until The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "03ed502d-13f8-438f-94c4-1866328ca212",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "c3cc6a34-8289-36a4-9228-8268b3ffdc0e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "1c2f4e13-ba52-4bb5-9e54-aee0687e11da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "135d8d2d-2c70-48fc-96fc-5c366e775929",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "1f288c59-8c29-44e0-ae7f-6095c601547a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "b6a3368f-2b31-4b94-9d2c-d8f7442ee289",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "c21695b4-0c41-483a-8be6-fadc5ec348d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "a363a2fb-c50d-40c8-9483-a3385e63642b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "32cffad6-d186-4ad0-9164-9c1c48146c1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "3e5701cd-11b0-4d75-aac0-ce6f13d14103",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "8e0ff5eb-c122-40ca-bcbe-b08ac48132ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "cdc331dc-1a9e-4150-b2e8-2ceed2a515e3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "5ab5fcb7-884b-4f37-80fb-6eb76c1fbc5f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "92a425db-13d5-4b77-b3da-13a89447df19",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "6be073e8-b412-4965-987f-22f8f7e2ee0f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "cc8eaab5-230e-31d2-b6ee-bf431fad4283",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "688e754a-3e12-4424-88c8-8595bf59ee10",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "f2fad1b5-b683-4006-9027-9f1ab7e630e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "72822b0a-12d1-45bf-b43a-3694788380c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "cb2a495e-8ab3-476f-a07b-192438de854e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "045fd3cd-cdbe-4e36-a83c-61cee1fca871",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "42216a40-0110-41a9-bf19-4a8ecc6cdebd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "35db6f23-ab41-49d4-a507-7a7bfea8fa78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "b4bc2d56-9122-4240-8d7f-0c3bc8d297c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "d255998d-2964-3892-ab65-fa01f2ef251a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "2f9c4b60-fcb0-4ed5-b08b-f782c8e7c9a7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "71b69337-9775-4bfe-88aa-85bce9aba94d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "e20b52e0-4bc2-48cd-9481-978cea2e6b12",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "26574c4c-da24-43ca-9d12-1a8c71b679be",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "ebf45e3a-8991-4a5d-bc78-4174ebe26c60",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "7b40cce7-2f84-43a8-bc4c-e4a5e789d80f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "6316f97d-13bc-4117-a66b-7d690978b352",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "5fe99277-fb1d-4566-9860-e80b60a72496",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "ebdb473f-0b00-4a4a-9461-6d87da02c90c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "2675042f-c197-3bcb-aace-462073ecb2d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "24385f92-4dd1-4726-8719-437d1c74ac18",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "8f4a2fa6-5d91-4f00-be07-322a6e2029f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "575e17ac-9a7f-3b3f-9fd6-6d049dc171d0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "917865fb-4212-477f-8247-74d76e328eda",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "a1b167ab-1617-44b6-b6af-1a7a8217171b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "246821da-4d64-47c4-bbf0-4888590131b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "a2441d4d-87de-485d-9c84-b33b401bb974",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "bbab2943-cf0f-45e5-a6cd-19237a656974",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "a393d056-f89d-4814-acdb-7bc83aa69cf3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "19abf77e-55c6-4366-b4e4-08d54f370889",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "24906bd0-a510-4962-9089-da6d5b84a8da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        },
+        {
+          "id": "e0a4be16-6c04-39dd-a623-16d70d8f97ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boy",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative rock"
+        },
+        {
+          "count": 5,
+          "name": "post-punk"
+        },
+        {
+          "count": 0,
+          "name": "new wave"
+        },
+        {
+          "count": 2,
+          "name": "alternative"
+        },
+        {
+          "count": 0,
+          "name": "album rock"
+        },
+        {
+          "count": 0,
+          "name": "college rock"
+        },
+        {
+          "count": 0,
+          "name": "pop rock"
+        },
+        {
+          "count": 0,
+          "name": "alternrock"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        }
+      ]
+    }
+  ]
+}

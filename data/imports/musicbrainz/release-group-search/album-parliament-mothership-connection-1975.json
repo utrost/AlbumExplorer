@@ -1,0 +1,127 @@
+{
+  "albumId": "album-parliament-mothership-connection-1975",
+  "query": "artist:\"Parliament\" AND releasegroup:\"Mothership Connection\" AND firstreleasedate:1975",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Parliament%22%20AND%20releasegroup%3A%22Mothership%20Connection%22%20AND%20firstreleasedate%3A1975&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:51:01.258Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "cb69bfc6-a15c-34cd-b1af-76b6481bf09a",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "f601cad6-9f37-3bf2-9ff9-fc92999fd3f0",
+      "count": 6,
+      "title": "Mothership Connection",
+      "first-release-date": "1975-12-15",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Parliament",
+          "artist": {
+            "id": "d1947987-9614-49ae-bd36-8000e6b6f7d0",
+            "name": "Parliament",
+            "sort-name": "Parliament",
+            "aliases": [
+              {
+                "sort-name": "George Clinton Parliament Funkadelic",
+                "name": "George Clinton Parliament Funkadelic",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Parliament, Funkadelic & The P-Funk Allstars",
+                "name": "Parliament, Funkadelic & The P-Funk Allstars",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Parliment",
+                "name": "Parliment",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "97c9fe06-94ca-480b-a34b-cc3b2c5f1ce7",
+          "title": "Mothership Connection"
+        },
+        {
+          "id": "1f1add2f-a2e3-4413-821b-c4e11ca93188",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mothership Connection",
+          "status": "Official"
+        },
+        {
+          "id": "a74aafd6-22d3-4754-abcb-62739253b796",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Mothership Connection",
+          "status": "Promotion"
+        },
+        {
+          "id": "6f8468cf-f8a4-4c2b-bded-a66c5a83041c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mothership Connection",
+          "status": "Official"
+        },
+        {
+          "id": "ceecb737-4f4e-498a-9c88-6ec123f4a3c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mothership Connection",
+          "status": "Official"
+        },
+        {
+          "id": "84bd98a9-017d-30eb-b557-d075957d802f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mothership Connection",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "funk"
+        },
+        {
+          "count": 4,
+          "name": "p-funk"
+        },
+        {
+          "count": 1,
+          "name": "1975"
+        },
+        {
+          "count": 2,
+          "name": "psychedelic soul"
+        },
+        {
+          "count": 3,
+          "name": "p.funk"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic funk"
+        },
+        {
+          "count": 1,
+          "name": "afrofuturism"
+        }
+      ]
+    }
+  ]
+}

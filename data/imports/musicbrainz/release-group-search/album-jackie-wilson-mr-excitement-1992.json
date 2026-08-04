@@ -1,0 +1,135 @@
+{
+  "albumId": "album-jackie-wilson-mr-excitement-1992",
+  "query": "artist:\"Jackie Wilson\" AND releasegroup:\"Mr. Excitement!\" AND firstreleasedate:1992",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Jackie%20Wilson%22%20AND%20releasegroup%3A%22Mr.%20Excitement!%22%20AND%20firstreleasedate%3A1992&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:05:08.311Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "20aaad51-3989-317f-aa7e-20215493f603",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "88e452c0-f41a-3892-8d9c-ae14e33ad757",
+      "count": 1,
+      "title": "Mr. Excitement!",
+      "first-release-date": "1992-11-10",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Jackie Wilson",
+          "artist": {
+            "id": "f0bf4fa0-028e-452f-82d3-7d4375e105dd",
+            "name": "Jackie Wilson",
+            "sort-name": "Wilson, Jackie",
+            "disambiguation": "soul singer",
+            "aliases": [
+              {
+                "sort-name": "ジャッキー・ウィルソン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ジャッキー・ウィルソン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilson, Jack Leroy, Jr.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Jack Leroy Wilson Jr.",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jacky Wilson",
+                "name": "Jacky Wilson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jackie Wilsn",
+                "name": "Jackie Wilsn",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jackie Willson",
+                "name": "Jackie Willson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilson, Jackie",
+                "name": "Wilson, Jackie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "ca93f949-5c24-40e5-a08e-a530e2bc4c09",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Mr. Excitement!",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "jazz"
+        },
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 2,
+          "name": "r&b"
+        },
+        {
+          "count": 1,
+          "name": "pop-soul"
+        },
+        {
+          "count": 1,
+          "name": "early r&b"
+        },
+        {
+          "count": 3,
+          "name": "chicago soul"
+        },
+        {
+          "count": 1,
+          "name": "uptown soul"
+        }
+      ]
+    }
+  ]
+}

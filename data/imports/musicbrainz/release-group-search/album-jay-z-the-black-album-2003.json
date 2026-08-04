@@ -1,0 +1,535 @@
+{
+  "albumId": "album-jay-z-the-black-album-2003",
+  "query": "artist:\"Jay-Z\" AND releasegroup:\"The Black Album\" AND firstreleasedate:2003",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Jay-Z%22%20AND%20releasegroup%3A%22The%20Black%20Album%22%20AND%20firstreleasedate%3A2003&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:41:11.036Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "77befaa0-662e-3d84-ba45-c862e16dc109",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "f49b7527-5a09-3ed1-b6d8-d299513823cb",
+      "count": 9,
+      "title": "The Black Album",
+      "first-release-date": "2003-11-14",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Jay‐Z",
+          "artist": {
+            "id": "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+            "name": "Jay-Z",
+            "sort-name": "Jay-Z",
+            "disambiguation": "US rapper",
+            "aliases": [
+              {
+                "sort-name": "Carter, Shawn",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "jay z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "JAY‐Z",
+                "name": "JAY‐Z",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "2017",
+                "end-date": null
+              },
+              {
+                "sort-name": "Jay‐Z",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jay‐Z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1997",
+                "end-date": "2013"
+              },
+              {
+                "sort-name": "Jaÿ‐Z",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jaÿ‐Z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1996",
+                "end-date": "1996"
+              },
+              {
+                "sort-name": "JAY:Z",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "JAY:Z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "2017",
+                "end-date": "2017"
+              },
+              {
+                "sort-name": "JAY Z",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "JAY Z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "2013",
+                "end-date": "2017"
+              },
+              {
+                "sort-name": "Carter, Shawn C",
+                "name": "Shawn C Carter",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Carter, Shawn",
+                "name": "Shawn Carter",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Carter, S.",
+                "name": "S. Carter",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Carter, Shawn Corey",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Shawn Corey Carter",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jayz",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jayz",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hova",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Hova",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jay-Hova",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jay-Hova",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jigga",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jigga",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jay Z",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Jay Z",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jay - Z",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Jay - Z",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hova da God",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Hova da God",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7bc296ef-a8bd-494b-be3b-330d9defd5aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album",
+          "status": "Official"
+        },
+        {
+          "id": "05460b29-faf1-419d-8074-e30dea99b0ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album",
+          "status": "Official"
+        },
+        {
+          "id": "2144dd2c-fe35-4dff-8afa-38213e73a5e9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album",
+          "status": "Official"
+        },
+        {
+          "id": "d96c4ddb-143a-4e50-a1a5-0bb04b576347",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album",
+          "status": "Official"
+        },
+        {
+          "id": "465be93f-a7dd-498f-b29e-955d4b1aa709",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album",
+          "status": "Official"
+        },
+        {
+          "id": "1605cedb-7d36-4931-98eb-2ff8a7c8a07a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album",
+          "status": "Official"
+        },
+        {
+          "id": "48f555f2-fba4-4481-97ea-36c3d2f7e226",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album",
+          "status": "Official"
+        },
+        {
+          "id": "e74f0580-b10d-4cd8-85ef-cfcd4bfdda7a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album: Acappella",
+          "status": "Official"
+        },
+        {
+          "id": "dcb09143-f938-3381-bd4e-94034cc40d34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Black Album",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rap"
+        },
+        {
+          "count": 2,
+          "name": "hip-hop"
+        },
+        {
+          "count": 9,
+          "name": "hip hop"
+        },
+        {
+          "count": 3,
+          "name": "pop rap"
+        },
+        {
+          "count": 2,
+          "name": "hardcore rap"
+        },
+        {
+          "count": 1,
+          "name": "rap hip hop"
+        },
+        {
+          "count": 1,
+          "name": "hip hop rap"
+        },
+        {
+          "count": 7,
+          "name": "east coast rap"
+        },
+        {
+          "count": 3,
+          "name": "east coast hip hop"
+        },
+        {
+          "count": 3,
+          "name": "hardcore hip hop"
+        }
+      ]
+    },
+    {
+      "id": "7b04ccb5-81cd-4b34-8baa-8e77fc39ce16",
+      "score": 82,
+      "artist-credit-id": "9b186bb8-2738-46ad-81ef-848cef15874b",
+      "count": 1,
+      "title": "The Black Album Unplugged",
+      "first-release-date": "2003",
+      "artist-credit": [
+        {
+          "joinphrase": " & ",
+          "name": "JAY‐Z",
+          "artist": {
+            "id": "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+            "name": "Jay-Z",
+            "sort-name": "Jay-Z",
+            "disambiguation": "US rapper",
+            "aliases": [
+              {
+                "sort-name": "Carter, Shawn",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "jay z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "JAY‐Z",
+                "name": "JAY‐Z",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "2017",
+                "end-date": null
+              },
+              {
+                "sort-name": "Jay‐Z",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jay‐Z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1997",
+                "end-date": "2013"
+              },
+              {
+                "sort-name": "Jaÿ‐Z",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jaÿ‐Z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1996",
+                "end-date": "1996"
+              },
+              {
+                "sort-name": "JAY:Z",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "JAY:Z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "2017",
+                "end-date": "2017"
+              },
+              {
+                "sort-name": "JAY Z",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "JAY Z",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "2013",
+                "end-date": "2017"
+              },
+              {
+                "sort-name": "Carter, Shawn C",
+                "name": "Shawn C Carter",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Carter, Shawn",
+                "name": "Shawn Carter",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Carter, S.",
+                "name": "S. Carter",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Carter, Shawn Corey",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Shawn Corey Carter",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jayz",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jayz",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hova",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Hova",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jay-Hova",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jay-Hova",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jigga",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jigga",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jay Z",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Jay Z",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jay - Z",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Jay - Z",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hova da God",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Hova da God",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "Nirvana",
+          "artist": {
+            "id": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+            "name": "Nirvana",
+            "sort-name": "Nirvana",
+            "disambiguation": "1980s–1990s US grunge band",
+            "aliases": [
+              {
+                "sort-name": "ニルヴァーナ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ニルヴァーナ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nirvana",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Nirvana",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nirvana US",
+                "name": "Nirvana US",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "57e0ccd2-7b07-440a-8cf2-0259657df0d0",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Black Album Unplugged",
+          "status": "Promotion"
+        }
+      ]
+    }
+  ]
+}

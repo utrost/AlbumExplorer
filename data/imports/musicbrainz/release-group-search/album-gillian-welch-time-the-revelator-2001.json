@@ -1,0 +1,130 @@
+{
+  "albumId": "album-gillian-welch-time-the-revelator-2001",
+  "query": "artist:\"Gillian Welch\" AND releasegroup:\"Time (The Revelator)\" AND firstreleasedate:2001",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Gillian%20Welch%22%20AND%20releasegroup%3A%22Time%20(The%20Revelator)%22%20AND%20firstreleasedate%3A2001&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:50:05.438Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4f9a9d35-b16d-3b7b-80d0-32b29683633f",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "07ddaaef-c52d-3a43-8a4d-ddad41a76c91",
+      "count": 6,
+      "title": "Time (The Revelator)",
+      "first-release-date": "2001-07-31",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Gillian Welch",
+          "artist": {
+            "id": "2ff49515-1701-4bac-a53a-04345893f3f3",
+            "name": "Gillian Welch",
+            "sort-name": "Welch, Gillian",
+            "aliases": [
+              {
+                "sort-name": "Welch, Gillian Howard",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Gillian Howard Welch",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gillian Welsh",
+                "name": "Gillian Welsh",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gillan Welch",
+                "name": "Gillan Welch",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1ae9cea3-ab02-4c13-8d25-bb008495e0ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time (The Revelator)",
+          "status": "Official"
+        },
+        {
+          "id": "9e844392-9063-4621-8681-b14a34f6038f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time (The Revelator)",
+          "status": "Official"
+        },
+        {
+          "id": "996fa724-ee44-4465-a3e7-c1bbfea573ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time (The Revelator)",
+          "status": "Official"
+        },
+        {
+          "id": "917a723a-9449-4517-83be-1bc8a56ae64b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time (The Revelator)",
+          "status": "Official"
+        },
+        {
+          "id": "094d238f-d444-3acf-959a-4b3d989651cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time (The Revelator)",
+          "status": "Official"
+        },
+        {
+          "id": "52ce0307-f895-383a-896d-9c4e63a1a70c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time (The Revelator)",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 4,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "folk"
+        },
+        {
+          "count": 1,
+          "name": "country"
+        },
+        {
+          "count": 2,
+          "name": "folk rock"
+        },
+        {
+          "count": 4,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "americana"
+        },
+        {
+          "count": 3,
+          "name": "alternative country"
+        }
+      ]
+    }
+  ]
+}

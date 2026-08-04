@@ -1,0 +1,154 @@
+{
+  "albumId": "album-jackson-browne-the-pretender-1976",
+  "query": "artist:\"Jackson Browne\" AND releasegroup:\"The Pretender\" AND firstreleasedate:1976",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Jackson%20Browne%22%20AND%20releasegroup%3A%22The%20Pretender%22%20AND%20firstreleasedate%3A1976&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:09:30.736Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "ac41c72a-7b6a-3822-9384-d4972123490f",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "72b5fa81-7d72-3189-9adb-5f16bca4bc26",
+      "count": 14,
+      "title": "The Pretender",
+      "first-release-date": "1976-11",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Jackson Browne",
+          "artist": {
+            "id": "88527d26-7496-47c5-8358-ebdb1868a90f",
+            "name": "Jackson Browne",
+            "sort-name": "Browne, Jackson",
+            "disambiguation": "American singer-songwriter",
+            "aliases": [
+              {
+                "sort-name": "Jackson Brown",
+                "name": "Jackson Brown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Browne, Clyde Jackson",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Clyde Jackson Browne",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "be59698d-a10c-4eae-80af-5aa83f7b3e16",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "73806737-66c7-463f-b9e6-91d22ba923a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "5b095d2a-0180-42d1-b6d7-c7bb501f9ee4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "33ee0297-b7b0-4e76-b880-368ce924f4c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "f912c792-0168-3696-88ec-4b8684ab4db0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "cd38c4d0-eedd-4b53-93e2-b211b2dfbce3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "96652360-3d7c-47c3-b41a-fa4dca88ddac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "81fac879-3aa4-3f23-bad9-fd7ddb4eae53",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "2b63fb43-4069-4f98-a11f-07d53c58ce36",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "72217d92-3ed1-4403-b954-cfeb322f23b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "b8f4905b-579d-4897-a32f-7ffec1066942",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "333da56e-8517-4896-a722-5f80615901ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "05d6db22-4e1d-4acf-8789-2dae3e408b23",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        },
+        {
+          "id": "04e5ba85-cd1a-4629-8da1-4e331c10ddd5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Pretender",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "1976"
+        }
+      ]
+    }
+  ]
+}

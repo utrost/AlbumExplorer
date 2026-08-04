@@ -1,0 +1,895 @@
+{
+  "albumId": "album-bruce-springsteen-nebraska-1982",
+  "query": "artist:\"Bruce Springsteen\" AND releasegroup:\"Nebraska\" AND firstreleasedate:1982",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bruce%20Springsteen%22%20AND%20releasegroup%3A%22Nebraska%22%20AND%20firstreleasedate%3A1982&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:40:59.854Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "324aee0c-36ec-35c1-9c93-b67a1d428037",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 75,
+      "title": "Nebraska",
+      "first-release-date": "1982-09-20",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a65d592e-ad97-4025-8387-fcadabe1b001",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "5c56fd15-3aea-48fc-9ba8-ee91589df3ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska ’82: Expanded Edition",
+          "status": "Official"
+        },
+        {
+          "id": "d8b34cc1-4df6-4c3c-810a-90182b4ca6fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "b6c639ee-b20d-4480-96e4-822a9833b03d",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Nebraska ’82: Expanded Edition",
+          "status": "Promotion"
+        },
+        {
+          "id": "e25e2b0f-2eb8-492c-884d-395e6b07606e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska ’82: Expanded Edition",
+          "status": "Official"
+        },
+        {
+          "id": "3905d186-154c-4ff9-8f09-58c56a25fcf0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska ’82: Expanded Edition",
+          "status": "Official"
+        },
+        {
+          "id": "5cdb8f96-8f4e-4972-80e2-ee7a85854aed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska ’82: Expanded Edition",
+          "status": "Official"
+        },
+        {
+          "id": "f555867c-827e-4c0f-8de3-af4fad9f18b9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska ’82: Expanded Edition",
+          "status": "Official"
+        },
+        {
+          "id": "6c972d85-fa16-4250-b6f1-f4b69eb0c893",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska ’82: Expanded Edition",
+          "status": "Official"
+        },
+        {
+          "id": "35c45660-31c4-44c2-8be2-f3a5b68ad535",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "a1cbb879-0d59-4ef5-b5ad-2c6b26ae2213",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "7c22c007-0233-4bed-8109-f613c59d6c34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "4efb99ab-50cd-4ead-ae11-4a5dd88c1060",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "5d22646f-79dd-47be-8a85-e6821dde8fe5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "381d835b-956b-42ab-9283-dc99288c7f89",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "46e7a5b2-835f-4b0e-9984-b39468fd676d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "8f4911ee-1e03-4e2e-baf6-73f7478bd3c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "6c303220-1c13-438d-a3b7-1b6b97fbf347",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "0da4402d-3d80-46c3-b13b-ea8998d4d2cb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "b93f2e87-d891-41e2-a7f6-41c416f9cf9a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "0c147efb-e22e-4715-94d9-f28f7b93a414",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "4da8716b-b640-405c-b903-363e8f981424",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "dc85058c-6b3a-4d6e-b39b-85d0a091cc68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "db1da4b6-c70f-4177-857b-97f528191f48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "0833fd4a-f0f1-42e7-ae4f-09c9f7ed2fc3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "d84e45fc-07e9-4e4e-8cc4-7fc71a45aa5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "22a7f469-a3a9-42b6-a902-50cc265e97e3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "319bff62-0cbd-4c1d-8bc4-6014ecb69c68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "86bb8508-4f1e-4615-9e30-5f71a7411b1b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "8433bcc6-81c7-4988-bea7-74671c707e9c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "a97a7092-b41b-4f40-969a-d9dc1eb76415",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "5445cee7-4121-4515-98c0-784c19f003b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "cf638dc2-4128-4a32-aa01-98d44239ae66",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "9484bcf6-8ccc-4f4c-9da4-5cb015a11471",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "b59fd226-d81b-4dac-872e-ff5587045588",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "d953de7c-1b7a-491a-9d09-df45e00f7c64",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "f39081c7-70ca-48c0-b8dd-23d016301386",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "79c2b290-582c-4768-bba8-407580755b87",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Nebraska",
+          "status": "Promotion"
+        },
+        {
+          "id": "ba3f5832-a7d7-4030-91ed-447767335c68",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Nebraska",
+          "status": "Bootleg"
+        },
+        {
+          "id": "5456bec0-dfb6-4bfd-9b99-3319dfc60259",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "f4a5891f-fbe0-4f8c-969c-e7aa4b190a3a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "8fbb5750-723c-4ed6-89eb-8f6e1c2bf7a0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "ee7b8cb1-a1c6-41a8-8f5c-3bc9dd9b8d21",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "df084b35-c34c-44b9-a333-14dcc42f7aa8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "5ba0b893-b8a5-3905-9151-1caf5431624b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "f36a864e-7f5a-4d28-810a-59f279762035",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "df55d1fb-3274-43e7-96c8-ed088857aa98",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "ad0f64c8-79a6-4f1d-8985-16f2082e4023",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "631e4e19-cd3e-4744-b70e-ff93cff6f793",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "0f6fc12c-16d8-47f9-8018-9f036a5bb5fc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "453e4aa1-bbde-4aef-9252-5caf4a59cdce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "212a4d4e-db93-4701-b2a8-41f0c9661f57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "f13d11f1-dc30-4106-9620-3a0c8dab3514",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "0d169439-0992-4e03-87f9-eaaa924b6fd2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "840847ef-51bb-4944-8258-7563bc269cf9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "093c881d-0c72-4e7d-b6da-16b2e51f2b64",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "8eb70067-5bfd-4218-aff2-04e225225200",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "f4efe996-f7ae-47d6-be0a-ca31f1525ecb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "bb9d9903-00ee-4555-954d-be19c7333649",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "89fd6cb9-dbeb-444e-9cc6-4876a18f546e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "902c6d68-3f84-4112-b46d-b5c82730560e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "f6f96db4-a52d-4795-ba26-1a88c7a40e02",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "dfecda82-6e3f-4ffa-81be-bad684608770",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "1672846a-06c6-417c-b751-bcf883671d93",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "b1c924d0-4229-42be-9ccc-30bbb156b92e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "55c3bf62-23cc-4d55-b027-d3ec93875e6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "fa46973d-23f6-46bc-ba68-a31e490f5ccb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "b487294b-8f09-4d55-a606-5a3f2f8b0b3e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "f7f41c95-3753-445e-88e5-57ed3415d6ac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "db0ba51e-3601-4308-a3f8-0d3e944d1a70",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "5845ac3f-6847-4009-9197-07d7880a486c",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Nebraska",
+          "status": "Bootleg"
+        },
+        {
+          "id": "d984742e-9290-4447-bb66-ec5703cf642b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "a1c5c0b4-48c2-4212-83b0-e0e6709690da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "6860e341-a5aa-4204-8589-e30a54d29886",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        },
+        {
+          "id": "d0aa2114-81f0-35d7-8a70-1089625e0659",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nebraska",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "political"
+        },
+        {
+          "count": 9,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "folk"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 5,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 8,
+          "name": "folk rock"
+        },
+        {
+          "count": 0,
+          "name": "acoustic"
+        },
+        {
+          "count": 2,
+          "name": "lo-fi"
+        },
+        {
+          "count": 0,
+          "name": "country rock"
+        },
+        {
+          "count": 5,
+          "name": "americana"
+        },
+        {
+          "count": 0,
+          "name": "death"
+        },
+        {
+          "count": 0,
+          "name": "folk-rock"
+        },
+        {
+          "count": 5,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 0,
+          "name": "conscious"
+        },
+        {
+          "count": 0,
+          "name": "heartland rock"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 0,
+          "name": "dark"
+        },
+        {
+          "count": 0,
+          "name": "melancholic"
+        },
+        {
+          "count": 0,
+          "name": "nostalgia"
+        },
+        {
+          "count": 0,
+          "name": "atmospheric"
+        },
+        {
+          "count": 0,
+          "name": "crime"
+        },
+        {
+          "count": 0,
+          "name": "rain"
+        },
+        {
+          "count": 0,
+          "name": "sad"
+        },
+        {
+          "count": 0,
+          "name": "existential"
+        },
+        {
+          "count": 0,
+          "name": "winter"
+        },
+        {
+          "count": 0,
+          "name": "minimalistic"
+        },
+        {
+          "count": 0,
+          "name": "alternative folk"
+        },
+        {
+          "count": 0,
+          "name": "depressive"
+        },
+        {
+          "count": 0,
+          "name": "male vocalist"
+        },
+        {
+          "count": 0,
+          "name": "poetic"
+        },
+        {
+          "count": 0,
+          "name": "lonely"
+        },
+        {
+          "count": 0,
+          "name": "mysterious"
+        },
+        {
+          "count": 0,
+          "name": "nihilistic"
+        },
+        {
+          "count": 0,
+          "name": "ominous"
+        },
+        {
+          "count": 0,
+          "name": "passionate"
+        },
+        {
+          "count": 0,
+          "name": "nocturnal"
+        },
+        {
+          "count": 0,
+          "name": "pastoral"
+        },
+        {
+          "count": 0,
+          "name": "cold"
+        },
+        {
+          "count": 0,
+          "name": "raw"
+        },
+        {
+          "count": 0,
+          "name": "family"
+        },
+        {
+          "count": 0,
+          "name": "narrative"
+        },
+        {
+          "count": 0,
+          "name": "travel"
+        },
+        {
+          "count": 0,
+          "name": "police"
+        },
+        {
+          "count": 0,
+          "name": "sombre"
+        },
+        {
+          "count": 0,
+          "name": "sparse"
+        },
+        {
+          "count": 0,
+          "name": "homicide"
+        },
+        {
+          "count": 0,
+          "name": "poverty"
+        },
+        {
+          "count": 0,
+          "name": "alienation"
+        },
+        {
+          "count": 0,
+          "name": "anxious"
+        },
+        {
+          "count": 0,
+          "name": "longing"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 0,
+          "name": "pessimistic"
+        },
+        {
+          "count": 0,
+          "name": "car on cover"
+        },
+        {
+          "count": 0,
+          "name": "5+ wochen"
+        },
+        {
+          "count": 0,
+          "name": "rs 26–01"
+        }
+      ]
+    },
+    {
+      "id": "055b1ce0-6c7f-46b5-a823-65980913b629",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 65,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "d7c594ae-371f-49f7-bb73-510415fa04a7",
+      "count": 1,
+      "title": "Nebraska / The Nylon Curtain",
+      "first-release-date": "1982",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "joinphrase": " / ",
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "Billy Joel",
+          "artist": {
+            "id": "64b94289-9474-4d43-8c93-918ccc1920d1",
+            "name": "Billy Joel",
+            "sort-name": "Joel, Billy",
+            "disambiguation": "American singer‐songwriter and pianist",
+            "aliases": [
+              {
+                "sort-name": "Billie Joel",
+                "name": "Billie Joel",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Joel, Billy",
+                "name": "Joel, Billy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Joel, William Martin",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "William Martin Joel",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "52f505d0-186b-4a6a-b22e-073d3e4c2cc8",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Nebraska / The Nylon Curtain",
+          "status": "Promotion"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "albumId": "album-big-star-radio-city-1974",
+  "query": "artist:\"Big Star\" AND releasegroup:\"Radio City\" AND firstreleasedate:1974",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Big%20Star%22%20AND%20releasegroup%3A%22Radio%20City%22%20AND%20firstreleasedate%3A1974&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:50:24.370Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "dea0867d-45d1-3366-8147-1b78f924a137",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "60c09f3e-74f5-39b8-9813-fcc794e1af52",
+      "count": 11,
+      "title": "Radio City",
+      "first-release-date": "1974-01-01",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Big Star",
+          "artist": {
+            "id": "21d177ba-3d51-461e-9b3f-ad9a80b419dc",
+            "name": "Big Star",
+            "sort-name": "Big Star",
+            "aliases": [
+              {
+                "sort-name": "Big Star (Alex Chilton)",
+                "name": "Big Star (Alex Chilton)",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6de1358e-368b-4448-861f-8082a521c74c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City (remastered)",
+          "status": "Official"
+        },
+        {
+          "id": "b97ba143-ab3a-47f8-9ca4-08a3c8356a7e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        },
+        {
+          "id": "2a7958bd-47ae-3727-a8a9-c47f65ccdd71",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        },
+        {
+          "id": "f8be2429-f0e8-48d2-a79e-df1ab9e9c425",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City (remastered 2024)",
+          "status": "Official"
+        },
+        {
+          "id": "5fa06c97-e2ec-4be0-8262-ab50a0d8b817",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        },
+        {
+          "id": "d2eb9bff-1344-43dc-a9c1-efceaf99b1e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        },
+        {
+          "id": "ecc64e6c-697e-4150-b687-edef22e64277",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        },
+        {
+          "id": "8a72b5c5-c8fe-40ad-a885-bda1f3e2f5f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        },
+        {
+          "id": "57dd7563-3ae0-34c1-9001-3085409c329f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        },
+        {
+          "id": "c42f97da-b73d-429c-9400-12f288c783d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        },
+        {
+          "id": "0cb95f8a-4f21-3d46-ad58-41c062de5025",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio City",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 3,
+          "name": "power pop"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    }
+  ]
+}

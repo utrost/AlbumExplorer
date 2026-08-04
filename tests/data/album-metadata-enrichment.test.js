@@ -138,3 +138,31 @@ test('existing imported comparison data can produce low-confidence source candid
     }
   ]);
 });
+
+test('a unique external source candidate supersedes the low-confidence Rolling Stone baseline', () => {
+  const result = buildAlbumMetadataEnrichment({
+    albums: [albums[0]],
+    sourceCandidates: [
+      ...importedCandidatesFromComparison({ albums: [albums[0]] }),
+      {
+        sourceId: 'source-musicbrainz-release-group-example',
+        sourceType: 'musicbrainz-release-group',
+        artist: 'Marvin Gaye',
+        album: "What's Going On",
+        releaseYear: 1971,
+        releaseDate: '1971-05-21',
+        labels: [],
+        genres: ['soul'],
+        externalRefs: [{ system: 'musicbrainz-release-group', id: 'example', url: 'https://musicbrainz.org/release-group/example' }],
+        confidence: 'matched'
+      }
+    ],
+    overrides: []
+  });
+
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.review.length, 0);
+  assert.equal(result.candidates[0].sourceCandidates[0].sourceType, 'musicbrainz-release-group');
+  assert.equal(result.candidates[0].metadata.releaseDate, '1971-05-21');
+  assert.deepEqual(result.candidates[0].metadata.genres, ['soul']);
+});

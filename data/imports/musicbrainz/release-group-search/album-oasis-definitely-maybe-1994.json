@@ -1,0 +1,645 @@
+{
+  "albumId": "album-oasis-definitely-maybe-1994",
+  "query": "artist:\"Oasis\" AND releasegroup:\"Definitely Maybe\" AND firstreleasedate:1994",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Oasis%22%20AND%20releasegroup%3A%22Definitely%20Maybe%22%20AND%20firstreleasedate%3A1994&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:13.940Z",
+  "count": 4,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "451dca98-c118-32e1-9244-c47ca9c3c0f9",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c1476b36-f708-3b1f-918f-5830ed992a32",
+      "count": 38,
+      "title": "Definitely Maybe",
+      "first-release-date": "1994-08-30",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Oasis",
+          "artist": {
+            "id": "39ab1aed-75e0-4140-bd47-540276886b60",
+            "name": "Oasis",
+            "sort-name": "Oasis",
+            "disambiguation": "Noel & Liam Gallagher",
+            "aliases": [
+              {
+                "sort-name": "Rain, The",
+                "name": "The Rain",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "オアシス",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "オアシス",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Oasis",
+                "name": "Oas*s",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "OASIS",
+                "name": "OASIS",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "df0569f1-0885-4b25-9ad6-bb2cfb92401b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "57b996f0-3a04-410d-a231-ac4ef2af7581",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "d6f68975-dc8f-4e91-ac6f-0061b2adb325",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "f4a4b726-42b2-43a4-a7c2-a51825e8e34c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "a634a7c2-522b-4f71-a936-5da605c681fc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "b8525314-995d-4b27-ac42-2a4652172ac8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "20e68ede-f4bf-4776-9293-b58a61efb1eb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "65479a74-30ba-4903-b5fe-92a3a84e45f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "5ac34951-28e2-4e3a-bf7e-f2656f377e3f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "e7f5ab32-c10d-4e27-9baa-08e24dc6296e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "698d1229-0724-36c1-9ef0-0705ac4d98c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "64feb0b1-a7ba-394b-b9bf-893b47cbc527",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "9822581d-98bf-3f97-a94c-4b1350d090aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "766fb525-e307-4b1a-9b4a-c23ab40cf9ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "d6467262-911a-4b50-93a6-4c82dc2d1db6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "eb3e44ff-e791-427e-9652-125c3e69e6f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "4b89bad1-dbef-4410-ab7f-f8b49207a309",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "d0588fb3-5ae4-4527-b133-987365f9e12c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "8d72a6e3-8b26-4e6b-bd24-9930a80285e3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "dc2390da-e800-47e1-b1e1-d833bce3ddc0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "feeedf8d-7bff-43eb-b8d5-c3ac75612f53",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "dc15125e-a37a-4a74-a02b-b65298b5bb9a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "ef927fa4-2f6b-4431-8867-0573b0e9c234",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "3ef5fb2b-c04a-466c-9a59-82ccbc0cb5e9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "80a4b905-e864-46bb-b4d8-d58419f500f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "727e4a55-c407-458e-9dbc-ee6dbe204617",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "572ac148-c10c-47a3-82af-0395e32ddf87",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "20f6c4a4-f1c4-45f6-a986-d50803c9eef8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "9a3fb56c-97e9-4599-8135-2d15c7c79f0c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "20c0689b-0f10-3d9e-9740-ed06fb39dd5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "adca79f8-3876-4cd0-a7b9-1e4a85ff1cb9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "0ba3d442-bdcb-4f09-ac7b-46fc07623981",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "5a03925e-0271-3a84-a1b1-b7121bbf9fb1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "d7749b04-2bff-409f-a647-cd5c2c75432b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "2c531c2a-5916-42a3-babf-d27d0159f001",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "f589d114-b9ee-441b-95b8-f4acb4b9411e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "bdf9eda5-7aae-4c36-93f5-b47ff1cbf5ab",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        },
+        {
+          "id": "e127edf6-96b9-4287-acfa-82dca1783956",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Definitely Maybe",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 8,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "shoegaze"
+        },
+        {
+          "count": 1,
+          "name": "noisy"
+        },
+        {
+          "count": 1,
+          "name": "madchester"
+        },
+        {
+          "count": 0,
+          "name": "hard rock"
+        },
+        {
+          "count": 0,
+          "name": "indie rock"
+        },
+        {
+          "count": 1,
+          "name": "uplifting"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 0,
+          "name": "psychedelic"
+        },
+        {
+          "count": 10,
+          "name": "britpop"
+        },
+        {
+          "count": 3,
+          "name": "neo-psychedelia"
+        },
+        {
+          "count": 1,
+          "name": "urban"
+        },
+        {
+          "count": 0,
+          "name": "brit pop"
+        },
+        {
+          "count": 1,
+          "name": "wall of sound"
+        },
+        {
+          "count": 0,
+          "name": "rock and indie"
+        },
+        {
+          "count": 1,
+          "name": "dense"
+        },
+        {
+          "count": 1,
+          "name": "energetic"
+        },
+        {
+          "count": 1,
+          "name": "hedonistic"
+        },
+        {
+          "count": 1,
+          "name": "passionate"
+        },
+        {
+          "count": 1,
+          "name": "anthemic"
+        },
+        {
+          "count": 1,
+          "name": "raw"
+        },
+        {
+          "count": 1,
+          "name": "optimistic"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 2,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "british trad rock"
+        },
+        {
+          "count": 0,
+          "name": "rock/alternative rock"
+        },
+        {
+          "count": 0,
+          "name": "britpop/alternative rock"
+        }
+      ]
+    },
+    {
+      "id": "be7ee1bf-599f-4930-9c02-0eedb4dbf3b6",
+      "type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+      "score": 74,
+      "primary-type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+      "artist-credit-id": "c1476b36-f708-3b1f-918f-5830ed992a32",
+      "count": 1,
+      "title": "Definitely Maybe – Safety Copy of Masters",
+      "first-release-date": "1994",
+      "primary-type": "Other",
+      "secondary-types": [
+        "Demo"
+      ],
+      "secondary-type-ids": [
+        "81598169-0d6c-3bce-b4be-866fa658eda3"
+      ],
+      "artist-credit": [
+        {
+          "name": "Oasis",
+          "artist": {
+            "id": "39ab1aed-75e0-4140-bd47-540276886b60",
+            "name": "Oasis",
+            "sort-name": "Oasis",
+            "disambiguation": "Noel & Liam Gallagher",
+            "aliases": [
+              {
+                "sort-name": "Rain, The",
+                "name": "The Rain",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "オアシス",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "オアシス",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Oasis",
+                "name": "Oas*s",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "OASIS",
+                "name": "OASIS",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "07bb8f1c-9c84-4870-960f-72995273d82a",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Definitely Maybe – Safety Copy of Masters",
+          "status": "Bootleg"
+        }
+      ]
+    },
+    {
+      "id": "5bce9f7c-0994-41e8-8ac7-464672c52f6e",
+      "type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+      "score": 69,
+      "primary-type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+      "artist-credit-id": "c1476b36-f708-3b1f-918f-5830ed992a32",
+      "count": 1,
+      "title": "5 Tracks Taken From the Forthcoming Album ‘Definitely Maybe’",
+      "first-release-date": "1994",
+      "primary-type": "Other",
+      "artist-credit": [
+        {
+          "name": "Oasis",
+          "artist": {
+            "id": "39ab1aed-75e0-4140-bd47-540276886b60",
+            "name": "Oasis",
+            "sort-name": "Oasis",
+            "disambiguation": "Noel & Liam Gallagher",
+            "aliases": [
+              {
+                "sort-name": "Rain, The",
+                "name": "The Rain",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "オアシス",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "オアシス",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Oasis",
+                "name": "Oas*s",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "OASIS",
+                "name": "OASIS",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4121f1e3-0ac3-4d07-a899-8396c5b2fdf5",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "5 Tracks Taken From the Forthcoming Album ‘Definitely Maybe’",
+          "status": "Promotion"
+        }
+      ]
+    },
+    {
+      "id": "4ea1aa52-5c90-402a-9de7-e3198ce7d0cb",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 65,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c1476b36-f708-3b1f-918f-5830ed992a32",
+      "count": 1,
+      "title": "Definitely Maybe Tour - 1994-12-18 - Manchester Academy - Homedown Showdown",
+      "first-release-date": "1994-12-18",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Oasis",
+          "artist": {
+            "id": "39ab1aed-75e0-4140-bd47-540276886b60",
+            "name": "Oasis",
+            "sort-name": "Oasis",
+            "disambiguation": "Noel & Liam Gallagher",
+            "aliases": [
+              {
+                "sort-name": "Rain, The",
+                "name": "The Rain",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "オアシス",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "オアシス",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Oasis",
+                "name": "Oas*s",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "OASIS",
+                "name": "OASIS",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "58e58f88-bbc7-420a-b19e-c320db75b4c4",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Homedown Showdown",
+          "status": "Bootleg"
+        }
+      ]
+    }
+  ]
+}

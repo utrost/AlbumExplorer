@@ -1,0 +1,166 @@
+{
+  "albumId": "album-vampire-weekend-modern-vampires-of-the-city-2013",
+  "query": "artist:\"Vampire Weekend\" AND releasegroup:\"Modern Vampires of the City\" AND firstreleasedate:2013",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Vampire%20Weekend%22%20AND%20releasegroup%3A%22Modern%20Vampires%20of%20the%20City%22%20AND%20firstreleasedate%3A2013&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:13.988Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "eb143c5a-9a85-4bce-a78c-f7faf72c0169",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "95c2ff03-bfa3-3594-b2ec-670affdafe74",
+      "count": 9,
+      "title": "Modern Vampires of the City",
+      "first-release-date": "2013-05-06",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Vampire Weekend",
+          "artist": {
+            "id": "af37c51c-0790-4a29-b995-456f98a6b8c9",
+            "name": "Vampire Weekend",
+            "sort-name": "Vampire Weekend",
+            "aliases": [
+              {
+                "sort-name": "ヴァンパイア・ウィークエンド",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ヴァンパイア・ウィークエンド",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "뱀파이어 위켄드",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "뱀파이어 위켄드",
+                "locale": "ko_KR",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Vampire Week End",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Vampire Week End",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Vampire Weekend",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Vampire Weekend",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "907cd206-67a8-45c7-a8ff-24c5ced76792",
+          "title": "Modern Vampires of the City"
+        },
+        {
+          "id": "35a7ea89-605b-466e-a5c5-1726f56f980f",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Modern Vampires of the City",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "c1159861-71c9-4710-9586-939c8bc3708c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Vampires of the City",
+          "status": "Official"
+        },
+        {
+          "id": "535d99b4-bba2-4aba-bd1d-5cc830e8264e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Vampires of the City",
+          "status": "Official"
+        },
+        {
+          "id": "f59d799b-b340-4765-8ef3-0d57b1f48805",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Vampires of the City",
+          "status": "Official"
+        },
+        {
+          "id": "24b6a96d-93d7-474e-a70d-c00ef4cc27a8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Vampires of the City",
+          "status": "Official"
+        },
+        {
+          "id": "4283db24-4ab4-4f24-91c6-57e7ac343ea2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Vampires of the City",
+          "status": "Official"
+        },
+        {
+          "id": "a4b8a6f3-d7aa-43f1-8805-3abfbdfc20a0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Vampires of the City",
+          "status": "Official"
+        },
+        {
+          "id": "1dec9a6b-1856-45ff-973c-214a9e81c9d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Modern Vampires of the City",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 6,
+          "name": "indie rock"
+        },
+        {
+          "count": 2,
+          "name": "baroque pop"
+        },
+        {
+          "count": 4,
+          "name": "indie pop"
+        },
+        {
+          "count": 0,
+          "name": "pop rock"
+        },
+        {
+          "count": 0,
+          "name": "afrobeat"
+        },
+        {
+          "count": 2,
+          "name": "chamber pop"
+        },
+        {
+          "count": 3,
+          "name": "art pop"
+        }
+      ]
+    }
+  ]
+}

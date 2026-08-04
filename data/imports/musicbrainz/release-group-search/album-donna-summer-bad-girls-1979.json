@@ -1,0 +1,407 @@
+{
+  "albumId": "album-donna-summer-bad-girls-1979",
+  "query": "artist:\"Donna Summer\" AND releasegroup:\"Bad Girls\" AND firstreleasedate:1979",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Donna%20Summer%22%20AND%20releasegroup%3A%22Bad%20Girls%22%20AND%20firstreleasedate%3A1979&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:06:31.944Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "ffade2ce-578c-3047-a82c-2b8cf979cc18",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "f7252f19-f62b-3350-b642-83a07f51abf3",
+      "count": 4,
+      "title": "Bad Girls",
+      "first-release-date": "1979-05",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Donna Summer",
+          "artist": {
+            "id": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+            "name": "Donna Summer",
+            "sort-name": "Summer, Donna",
+            "disambiguation": "soul/disco diva",
+            "aliases": [
+              {
+                "sort-name": "Gaines, Donna",
+                "name": "Donna Gaines",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donna A Summer",
+                "name": "Donna A Summer",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donna Summers",
+                "name": "Donna Summers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donnna Summer",
+                "name": "Donnna Summer",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gaines, LaDonna Adrian",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "LaDonna Adrian Gaines",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1948-12-31",
+                "end-date": null
+              },
+              {
+                "sort-name": "ドナ・サマー",
+                "name": "ドナ・サマー",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donny Summer",
+                "name": "Donny Summer",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f1d4b1c8-9262-407b-bb27-9790a9018c16",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "a96a9c0b-989f-4994-9ab1-f20880ddebb5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "a00a258f-66a4-422a-82ae-f27c3cb13924",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "b178ace5-ea68-4e0f-8420-7a471a9aca3f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "70s"
+        },
+        {
+          "count": 1,
+          "name": "dance"
+        },
+        {
+          "count": 2,
+          "name": "disco"
+        },
+        {
+          "count": 2,
+          "name": "female vocalists"
+        }
+      ]
+    },
+    {
+      "id": "f7568cc7-4c09-3a47-abbc-593e7aaac7d6",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "f7252f19-f62b-3350-b642-83a07f51abf3",
+      "count": 18,
+      "title": "Bad Girls",
+      "first-release-date": "1979-04-25",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Donna Summer",
+          "artist": {
+            "id": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+            "name": "Donna Summer",
+            "sort-name": "Summer, Donna",
+            "disambiguation": "soul/disco diva",
+            "aliases": [
+              {
+                "sort-name": "Gaines, Donna",
+                "name": "Donna Gaines",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donna A Summer",
+                "name": "Donna A Summer",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donna Summers",
+                "name": "Donna Summers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donnna Summer",
+                "name": "Donnna Summer",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gaines, LaDonna Adrian",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "LaDonna Adrian Gaines",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1948-12-31",
+                "end-date": null
+              },
+              {
+                "sort-name": "ドナ・サマー",
+                "name": "ドナ・サマー",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donny Summer",
+                "name": "Donny Summer",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6e1ca034-3cea-4cf7-b633-426c77282bf7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "5c4ae19c-cc92-4769-8589-b39cb1be3944",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "1fbb654a-e585-4f9c-acc6-97675008c6e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "7bae0c8c-38d6-4ac4-9fa9-d5c59f6a35e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "98e14e34-8b7e-4a16-aa16-38a4649681d9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "54877b4b-9121-4789-be77-1e6db5a5f8ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "cf8838c4-e21f-4728-8fbf-d0a96b5a83ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "7ef6d3a2-1a52-465d-a44b-0ce119fefb6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "26be5ce4-329b-4eb4-9b9a-9f68018a46b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "837875e4-6a29-4faa-9968-0b294b86ed68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls (Deluxe Edition)",
+          "status": "Official"
+        },
+        {
+          "id": "2055bb72-5d84-429e-9567-5ad325fa83b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "3ace4fec-c949-460d-8af4-cd4b18749509",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "ccc73b94-e531-4807-b9e0-885dbb82c621",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "b65cee77-5a80-4f08-aa41-bf8234543a74",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "a855cd93-c192-4c42-96e3-14d2fdf9aa2b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "3d398afb-becf-4f72-a91a-e7bc2287fce4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "41053910-5937-4504-8970-704af48be9c9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        },
+        {
+          "id": "fc87b5b5-9130-43ca-aff1-ef966040ec97",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Bad Girls",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "70s"
+        },
+        {
+          "count": 1,
+          "name": "dance"
+        },
+        {
+          "count": 1,
+          "name": "house"
+        },
+        {
+          "count": 1,
+          "name": "vocal"
+        },
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 2,
+          "name": "synth-pop"
+        },
+        {
+          "count": 6,
+          "name": "disco"
+        },
+        {
+          "count": 1,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "funk soul"
+        },
+        {
+          "count": 1,
+          "name": "pop soul"
+        },
+        {
+          "count": 2,
+          "name": "billboard"
+        },
+        {
+          "count": 1,
+          "name": "electro-disco"
+        },
+        {
+          "count": 1,
+          "name": "double album"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "albumId": "album-epmd-strictly-business-1988",
+  "query": "artist:\"EPMD\" AND releasegroup:\"Strictly Business\" AND firstreleasedate:1988",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22EPMD%22%20AND%20releasegroup%3A%22Strictly%20Business%22%20AND%20firstreleasedate%3A1988&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:03.125Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "286f347f-1d36-318a-b29a-774dd5811270",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6c67b086-61b4-3d2e-ab56-78e9815e3c4e",
+      "count": 9,
+      "title": "Strictly Business",
+      "first-release-date": "1988-06-07",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "EPMD",
+          "artist": {
+            "id": "4fa39dc8-c695-4e0e-ba04-92c63d99c9f9",
+            "name": "EPMD",
+            "sort-name": "EPMD",
+            "aliases": [
+              {
+                "sort-name": "EPEEMD",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "EPEEMD",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EPEE MD",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "EPEE MD",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Erick and Parrish Making Dollars",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Erick and Parrish Making Dollars",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EPMD",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "EPMD",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E.P.M.D.",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "E.P.M.D.",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "16424a30-3cca-4bcf-a796-3be27a6cc8de",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        },
+        {
+          "id": "da0e6c65-f6f9-4a19-882c-c5ac64c7ea88",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        },
+        {
+          "id": "526b32e2-5ed3-4b19-aa5a-c5733a1adc6a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        },
+        {
+          "id": "c4279888-7c2a-4c6d-86f4-0167dace553b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        },
+        {
+          "id": "9723fdb9-6ad5-4ecb-a41c-8c62fc3ff27c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        },
+        {
+          "id": "c240a194-02f8-4780-882f-9a953441fd30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        },
+        {
+          "id": "9382b6b6-244d-36e4-bce4-3c4fc280abcd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        },
+        {
+          "id": "b5837880-78a3-4146-b981-b6848a894217",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        },
+        {
+          "id": "59328b49-e0a2-498d-be04-75c73fbb8711",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Strictly Business",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rap"
+        },
+        {
+          "count": 4,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "conscious"
+        }
+      ]
+    }
+  ]
+}

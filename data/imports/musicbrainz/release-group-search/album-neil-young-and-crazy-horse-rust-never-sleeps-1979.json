@@ -1,0 +1,230 @@
+{
+  "albumId": "album-neil-young-and-crazy-horse-rust-never-sleeps-1979",
+  "query": "artist:\"Neil Young & Crazy Horse\" AND releasegroup:\"Rust Never Sleeps\" AND firstreleasedate:1979",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Neil%20Young%20%26%20Crazy%20Horse%22%20AND%20releasegroup%3A%22Rust%20Never%20Sleeps%22%20AND%20firstreleasedate%3A1979&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:08:18.633Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "a710c7c7-46e6-36ca-9c3c-87c8e79f8daf",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "7584fe05-6d23-3e35-8ffb-e6e0d36bc2e3",
+      "count": 13,
+      "title": "Rust Never Sleeps",
+      "first-release-date": "1979-06-22",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "joinphrase": " & ",
+          "name": "Neil Young",
+          "artist": {
+            "id": "75167b8b-44e4-407b-9d35-effe87b223cf",
+            "name": "Neil Young",
+            "sort-name": "Young, Neil",
+            "disambiguation": "Canadian singer, songwriter & musician",
+            "aliases": [
+              {
+                "sort-name": "Neil Young & Crazy Horse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Neil Young & Crazy Horse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Young, N.",
+                "name": "N. Young",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Neil Young & Friends",
+                "name": "Neil Young & Friends",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Young, Neil Percival",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Neil Percival Young",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Neil Young & the Shocking Pinks",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Neil Young & the Shocking Pinks",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Niel Young",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Niel Young",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Shakey, Bernard",
+                "name": "Bernard Shakey",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "Crazy Horse",
+          "artist": {
+            "id": "71f754c0-f2d1-4a54-8d70-cc0ee409ca00",
+            "name": "Crazy Horse",
+            "sort-name": "Crazy Horse",
+            "disambiguation": "American rock band often working with Neil Young"
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "77be1b0b-3a3b-4835-b74d-9b095bf0db42",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "dc8a3054-f8d4-4c84-9ec9-0e8bdf973222",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "7ddd8185-c48d-45d0-bdfd-244e3bb13f5d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "2faf70b6-deae-40ec-b771-f92b07769885",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "49ef8c69-8c6b-3d22-83ac-610f75a904d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "d93d0f9b-82ea-4849-b726-172a0912b3f6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "c5b00a6e-48e0-4eb3-b3c7-93a532f97554",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "517a7d15-2fd9-3a5b-bb2e-01b988b0c670",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "4e8f878f-38e4-4569-99a5-da578feb8715",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "a7d9adb5-788b-4462-9586-d3b07f9e2ac0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "5e9261bf-ba82-4c9e-b281-9f75a63149c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "2e4f285f-de26-46cd-8175-81f070a3be18",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        },
+        {
+          "id": "3ca8f8ce-e150-4651-9206-87bc93d2af5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rust Never Sleeps",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 4,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "hard rock"
+        },
+        {
+          "count": 3,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 0,
+          "name": "folk-rock"
+        },
+        {
+          "count": 2,
+          "name": "album rock"
+        },
+        {
+          "count": 1,
+          "name": "acoustic rock"
+        },
+        {
+          "count": 2,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        }
+      ]
+    }
+  ]
+}

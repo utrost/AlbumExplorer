@@ -1,0 +1,133 @@
+{
+  "albumId": "album-ike-and-tina-turner-proud-mary-the-best-of-ike-and-tina-turner-1991",
+  "query": "artist:\"Ike and Tina Turner\" AND releasegroup:\"Proud Mary: The Best of Ike and Tina Turner\" AND firstreleasedate:1991",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Ike%20and%20Tina%20Turner%22%20AND%20releasegroup%3A%22Proud%20Mary%3A%20The%20Best%20of%20Ike%20and%20Tina%20Turner%22%20AND%20firstreleasedate%3A1991&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:53:37.640Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "c504f95d-265a-3d94-b888-9571712351ec",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "a4a89feb-1e40-3b01-ae66-deb934389792",
+      "count": 2,
+      "title": "Proud Mary: The Best of Ike and Tina Turner",
+      "first-release-date": "1991-03-26",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Ike & Tina Turner",
+          "artist": {
+            "id": "1c7b3786-b99a-40ab-81e4-f3056da19e13",
+            "name": "Ike & Tina Turner",
+            "sort-name": "Turner, Ike & Tina",
+            "disambiguation": "US rock & soul duo",
+            "aliases": [
+              {
+                "sort-name": "Turner, Ike + Tina",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ike + Tina Turner",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ike and Tina",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ike and Tina",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ike & Tina",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ike & Tina",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ike & Tine Turner",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Ike & Tine Turner",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Turner, Ike and Turner, Tina",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ike Turner and Tina Turner",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Turner, Ike and Tina",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ike and Tina Turner",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4ace427c-3e98-4216-b22a-a43f90418f42",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Proud Mary: The Best of Ike and Tina Turner",
+          "status": "Official"
+        },
+        {
+          "id": "09a52c57-9f59-47a0-af43-41ff5594d314",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Proud Mary: The Best of Ike and Tina Turner",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "funk"
+        },
+        {
+          "count": 4,
+          "name": "soul"
+        },
+        {
+          "count": 2,
+          "name": "adult contemporary"
+        }
+      ]
+    }
+  ]
+}

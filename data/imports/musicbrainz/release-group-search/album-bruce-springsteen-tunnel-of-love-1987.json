@@ -1,0 +1,1449 @@
+{
+  "albumId": "album-bruce-springsteen-tunnel-of-love-1987",
+  "query": "artist:\"Bruce Springsteen\" AND releasegroup:\"Tunnel Of Love\" AND firstreleasedate:1987",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bruce%20Springsteen%22%20AND%20releasegroup%3A%22Tunnel%20Of%20Love%22%20AND%20firstreleasedate%3A1987&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:19.607Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e0b8503a-74fb-4501-92f2-9b6b46660289",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 3,
+      "title": "Tunnel of Love",
+      "first-release-date": "1987",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0d9517cf-a095-4295-b16e-b822eb63c763",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "c7858dee-ab10-343f-9149-d52c12e02702",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "59640360-f027-4e0b-9120-c0601c76427e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "christmas"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "b3559cb2-d7ad-32eb-a17e-54a873ce4122",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 199,
+      "title": "Tunnel of Love",
+      "first-release-date": "1987-09-30",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7a20f356-5659-4313-b214-44627bf96fbd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "de3273d0-4906-4760-b8e2-51a7ffde946b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "5748a4ac-0564-421e-b53a-cd9228d308c3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "7c11f5ea-ffde-45c2-a6b9-429bac66651f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "6f62d8f3-f15a-4e87-a66d-764560e7b331",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "974b9878-9d19-471f-8053-bcc444ca400e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "e33126cd-aa6b-4513-bc59-2dea1b42833c",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "7d1fde73-36e1-4836-aaf2-381177136350",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "75c5bca7-3850-4d8f-9c9d-563aeeca33c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d3487dd1-442d-48ea-be9b-02cd59542f63",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "1f37f4cd-0640-4e96-9b37-9a9659593eb0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "234e27af-28a7-4013-99dd-5aedee471b01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "afe777bb-04eb-4b46-a066-27ed2ad9c310",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "daec2c1f-17b1-47a4-be4f-a229ac59b915",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "03102d94-ace0-46bf-9873-dcdc33183870",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "7bc48b4b-9cc9-4ba1-aabc-ee03bad381b0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "12857cce-d7a1-4dae-b6c6-0f7f562338a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "e990c0bb-bf89-478d-aba7-c9a21ea05a51",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "b57b3fff-ed57-471f-a374-e244b66d8142",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "6ef94e65-8c2a-479c-ab6c-f3cfd0ecb112",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "df2abbbe-9da7-456e-aafc-6ab6907fe7c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "b4257029-5792-42ae-a360-1052330d15e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "3e23cfa5-029d-4ccf-be17-053f775882d0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "c473149a-1c80-488e-95bb-0a62024b7474",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "e59b61df-0c0f-430f-87e9-583205d67563",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "da5b33af-31ce-426e-9123-eb27b49cebd2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "9dc0a84f-f634-4c98-80db-7abc7adf3aa0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "4d3e11df-84f8-4709-91b5-ed3136b20e45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "e8bd1231-39b4-48b7-948b-6ff5158cc96c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d744c709-09cd-45b7-8b69-a3897cace737",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "a7505cca-3c30-4e22-b208-9c0b8c898b8b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "10b2755e-8315-401c-b2a9-5ed361ee3d80",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "426045b2-4518-4bac-a0f4-c1154f9bf3df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "b208e705-85a4-4264-b7fd-e2b98e083555",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "ff0bceca-fe4f-4d0d-a218-cff9c4933ff4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "f51f6e44-9ea5-47b4-83b5-21de3bc02342",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "468eaf43-4e64-4a83-a700-3d0a2e2808cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "35515a16-3a00-45eb-a9a9-197f56a1b238",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "4bc10fc6-95e1-4655-8e7d-1c08bf35a34c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "77f15a01-30e1-4172-aff4-5b42130670a6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "e6726a3f-59de-41d0-877c-6ba9170e5ddb",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "f0da693b-636d-43f1-b93d-160e24d26e11",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "879957db-93a3-4c91-b7a2-4e0593a20a02",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "6cfc087d-7a67-4677-a1c1-2cd601eb0978",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "a8e5e4a2-dca0-494d-893d-0b4b9216c0d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "f87c1aab-fa98-4050-9428-be90249b305d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "bc36c447-356d-4080-9718-4ad8e8e9d4f3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "77eb4de7-0cf5-413b-8694-3a37fc92a6b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "2d3346d0-a023-4f54-a03c-01028c0a10b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "4baa8866-a022-4371-b255-7a8575bfb5e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "edbe20ce-800b-4563-b5f3-6ff9685062fa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "524dc990-5e79-4b66-aca8-cf090b6f5964",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "b1ba82d4-0045-4113-8d06-486a8798b28c",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "5ed28680-b50e-46af-bdfd-f7891e6dcadb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "abe31e7c-9edd-4c67-9fd8-3fe86a3b73f0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d8d10bea-f1d5-409e-8c98-e91d42355e57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "22dfdfa5-3468-47ab-95ca-b6db0ae5ab40",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "a006630f-66f8-4989-b118-2fd3660415b9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "30640c32-e9d1-482d-8bc7-962091f23f9a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "7e3bcda6-85e4-4a6d-8c15-df4f25b1714c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "202c3b35-a273-4424-a1cf-8b9da15509ef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "42824dbd-f18c-42e2-8b43-facfd171ae87",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "27df116b-9a52-4e9e-96e1-92a5872cb836",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "6dc27124-e72d-47ff-8313-12b2bdf1c78d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "1cf003bf-6cc5-40cb-9245-d069a47ea0b6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "115b167e-888e-4671-bf10-2a94f6745eb3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "1be9895f-b5c4-4879-9f9e-ac554d99f85c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "dbc61226-8a5d-3554-8feb-9425fbfc6665",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "c4778b04-532d-4a35-a851-2eaff9c8cda3",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "3a80b6f0-af62-4192-a4e0-9806dc880ea5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "f195e6c1-88d7-3a63-a1d9-895df1cfa5b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "614adba1-2365-470d-a663-3e4a7da88d1d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "7c27d37d-991c-4eb0-9d93-ea1187486e7c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "36c2b0a5-07f5-481b-a939-37cae804388a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "3deb9b0e-c6d9-34b9-945d-6e7ac3d838ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d9a07354-6909-46c8-809c-adafc72bc46c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "a6c434d0-f19c-461a-849e-0c93a42ec43a",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunel de Amor (Tunnel of Love)",
+          "status": "Promotion"
+        },
+        {
+          "id": "cde826fc-a4c0-4e8f-b15c-c1607577c24a",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunel de Amor (Tunnel of Love)",
+          "status": "Promotion"
+        },
+        {
+          "id": "ed3e1448-b6db-479b-b0be-832b9c5f7ff7",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "8ac1b8a5-633f-4477-b691-0e0358cc58ad",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "5f76f5e7-b185-4702-a155-71421a7e6a06",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "54c2a763-0d86-4f09-b689-d45f3e41f469",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "43aadcb0-6406-44de-9b21-b289c909c113",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "e0fc56b7-a232-4323-a2d3-6226ce68f82c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "5bf2f38e-6e9d-4144-a031-a518a6ba4b05",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "43689fac-ce7a-4033-9a01-1e544069ee03",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "2dbd4c5f-dc91-4b74-ae51-15acb4c1723d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "33e61ebe-409b-44d0-9821-1bf426637c67",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "14893991-7cce-443d-847e-fe95c6901fed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d42dc27e-09dd-42b6-aba0-58e34426a07b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "373fc0f2-749c-4bfc-a78f-6597e7521d50",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "a1347cf3-e0e9-4484-9f0f-757242129963",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "5ef76d51-72f6-4f9c-b788-d0f7036ba789",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "38822b4c-94bc-4363-a7e8-1feff9a6d33d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "f84766e3-9b7c-43ad-8221-7a139cda1651",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "cc763ea3-b2c2-4ed2-bece-b68295ac3f5d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "25b9ecb4-6c0d-47c4-b713-35de3df8d32a",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "f91bce84-ac2d-4953-ad47-5371b653e983",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "a346ef1d-23e0-451c-b03a-cdd061fd7884",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "0c384eba-4963-4284-a79b-2e52a4f8d1f0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "824a9b03-200a-4bca-8eed-a98ee3cfbc9e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "1b1536dc-25e9-4524-ab3c-44ff767a2799",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "79085fe1-b6bb-44ac-8832-6dbe5e808647",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "a5975d17-a8ec-4c3d-ae29-fc75fb217d53",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "ccb66913-98f6-472a-9b65-5d369977371e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d580d2f2-32f0-4ce4-a973-126cadb2b29e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "8a738f0b-a86a-4fa2-a3fd-0005b1f24ac1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "8428c23f-f65c-42a2-b92b-5425fc26336c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "0027c4cd-5f75-4a4c-8908-cb8744f64793",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "502edb31-0624-439f-b96c-203d53eb2a23",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "2d31db83-b4ac-4822-a795-4df2e85f1d76",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "dc63c2fd-d0a1-4ba2-b3d4-fe5c1aa206c9",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "9bc35112-0677-4431-91bd-9042d214c3bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "50048baa-e77e-47a6-9eec-bc702bdc7b6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "7716491e-f7ea-4a2d-b6d2-fa4a9d2adc31",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "be1fcc69-5edb-48b1-a33f-7cb196009e67",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "564adf64-b742-4a53-8ee6-38baaf445d2b",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "0fa458ed-29b1-4943-8b03-2a2b57deef22",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "54c0a631-9f0f-4189-88a1-e64fabe68504",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "66a253aa-a543-4bf2-87c3-8e44c18d1384",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "1c0f14eb-a82f-446c-a933-592ac3b6bdfd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "4f0b6ae4-0bf7-4adf-b5cd-5aa464d6736c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "5ec12d3f-a77b-4bb4-abdf-9c6d354c91a0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "8e42770e-c3f3-44dd-abd0-c4255a35504f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "1677d279-b625-43ff-a21a-8bdeb5aa1cde",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "163ab0e9-dc60-4333-b647-eac1e49332ef",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "ceed0224-9523-4a2e-a0ac-7852ec0e7521",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "5f93a266-dea4-45ae-83db-c26989714e34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunel Del Amor (Tunnel of Love)",
+          "status": "Official"
+        },
+        {
+          "id": "beb82aac-4d75-4f9f-abea-2797c022c000",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "0ac9f4be-f043-4a5c-9961-3e7943ee0aad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunel de Amor (Tunnel of Love)",
+          "status": "Official"
+        },
+        {
+          "id": "602056f2-0b51-4814-9f3f-4e77c88983e4",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "94686cd8-5373-474c-997c-4541ae90a0c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "295d2e80-8b7c-41c2-a572-cb395a33d3d6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "8e0d8d82-eca5-4986-81ce-bbeee09ffa26",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "f3ebe3d0-a3c3-4aca-bbbf-a595408a3f08",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d9aa2f41-f534-4ab4-98fd-414d7e812231",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "c6709730-841e-4d81-8be4-24a2336d7a33",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "9c3bdbb4-82d1-4ec2-9833-0ea07ea7d406",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "77166827-90ae-4e33-8933-0ec7dc83d54a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "41f0a064-09ac-4d9f-96fb-3bfaf0363597",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "64f39b05-361f-4bbb-bf2c-ed471bab5153",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "66e7d6fe-51f1-45ed-9377-3a7ed1b08180",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "9717a026-d9c3-45dc-8b38-1ff8fc9dcbf8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "eb802f7e-f430-4262-972f-62398d57acdc",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "fcf6f619-38e8-4d85-9e1c-0c6a8c46e098",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "efe0ee82-6cb5-4252-b605-e51c84ef5750",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "4d46460f-8213-44a3-bcde-545e1fb973ef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "78795f0e-9277-4350-8c9f-6f81ca16d7be",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d8ea67a2-3556-4b2f-adf1-8d3a966c79d2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "ebbc19f2-bad3-414b-b67c-a0055bf088fb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "2c4319c6-3ee3-4b82-983d-b4af5c0e9655",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "92a70795-b96a-4104-b6dd-8d010500a264",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "a48e454d-8e22-4fcd-b8a7-86dfa290b391",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "78cb295d-5398-4190-89b1-fe87782fb915",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tunnel of Love",
+          "status": "Bootleg"
+        },
+        {
+          "id": "16d34206-4dd1-436b-9d53-4f25aabb742e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "78a98bdb-8916-4b83-baa5-041986bfb36a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "e68c999b-3fc5-4088-8b1d-0b0fb7835732",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "2c833858-2f3c-4198-81f3-b3d2d162d09e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "6c6564fb-6365-45b2-9136-2cda3d3ce765",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "053453c4-5c17-48ca-b6c7-5a09dbe708af",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "14812ffb-f25a-4234-9340-a4a974d89ac4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "1913d650-d59b-4eb1-9a44-36a8bc2fce89",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "8f303b45-a845-4b9a-9457-11a6eaf1553c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "1e7d1d14-789d-4ca9-82ca-9773d7ef9dad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "c370aba6-5d10-4907-84f7-399f16c96973",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d80597fd-6119-45e5-8333-eb0641800825",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "50785385-6c55-40e6-b4ad-f3e294e93b3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "c00eea7a-b147-4000-a7eb-c3e98b69d6ce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "1ed670ef-a208-433a-844b-b21568dfadfe",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "999c6f59-eade-406b-9cbc-7628acf08961",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "a509aa83-1730-4c84-997f-72e2dfff095a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "f85922f3-d11a-40c1-9594-2bc8dcd20753",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "99c66cdf-f418-4cde-9d68-85da5a0036e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "21ff4799-3540-4829-baa6-9612a344e785",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "d6e17971-34a1-46e5-86ab-b426920b7365",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "886d7a33-e30d-40c4-969b-611350729c31",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "f6f1b6b8-d5b8-4b2c-af79-61bb3ddb9731",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "941e81e7-9bb7-4176-a7d2-ac20fe02178e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "8d08c6d4-1c82-4848-9035-4898ab53f4af",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "5c75900d-eed6-4a66-9c71-daba08041a5b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "01e45f8b-20e9-4fe1-bb1e-338dc92734d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "b8803cd0-9d61-4a93-bd3d-24a27a9c1aae",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "f7e646d8-8684-4783-a4e7-b35c0c0f52ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "61aec31f-1a8b-4bc4-ace5-61b6f9209ccc",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "7e5cc93a-ee4f-43fc-9efc-961b8fb6f7e8",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "31119d2f-0abb-49d7-89e7-feed8aa2e006",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "a1e3dc17-6385-44f6-b23f-b34d6b00c8ce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "962d9b2c-a473-44ed-8c1f-a8ab557912d3",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "473b90f1-ed92-4391-ba08-1e56f944785c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "0eb810fc-119f-4dbc-a19f-d41989571f65",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "29141335-cf8f-4004-9924-f65ca04e50db",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "e19bbce4-b17a-46f7-94ef-f9a86c48cdbe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "96ee7c86-15f6-4fd6-a3b6-e9f77250d604",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "c2c43027-4d6d-45a1-8848-057c15ea00bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "3b307be0-956e-4129-8691-af961659fd51",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Tunnel of Love",
+          "status": "Promotion"
+        },
+        {
+          "id": "4cfe476c-29e6-4fd4-85cb-7b47beca2fc7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "6eed394c-f24b-41ac-b150-0228c05558cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunel de Amor",
+          "status": "Official"
+        },
+        {
+          "id": "2e1d4f8e-825f-4dfc-bf95-78f5c2373d28",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        },
+        {
+          "id": "3d9243e3-b3e3-415f-9d5f-57664b66942e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tunnel of Love",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "synthpop"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 5,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "soft rock"
+        },
+        {
+          "count": 5,
+          "name": "pop rock"
+        },
+        {
+          "count": 3,
+          "name": "rock and roll"
+        },
+        {
+          "count": 3,
+          "name": "heartland rock"
+        },
+        {
+          "count": -1,
+          "name": "oldies"
+        },
+        {
+          "count": -1,
+          "name": "pop rock_pop_classic rock"
+        },
+        {
+          "count": 0,
+          "name": "sophisti-pop"
+        },
+        {
+          "count": 0,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "classic rock; soft rock; rock and roll"
+        }
+      ]
+    }
+  ]
+}

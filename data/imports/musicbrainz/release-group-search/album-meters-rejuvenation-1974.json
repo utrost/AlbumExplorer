@@ -1,0 +1,102 @@
+{
+  "albumId": "album-meters-rejuvenation-1974",
+  "query": "artist:\"The Meters\" AND releasegroup:\"Rejuvenation\" AND firstreleasedate:1974",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Meters%22%20AND%20releasegroup%3A%22Rejuvenation%22%20AND%20firstreleasedate%3A1974&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:01:32.488Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "ed25b54a-8287-375f-ae31-42c69785cec8",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "dbc42a53-5dc8-3a68-92bb-ef44fe9f42bc",
+      "count": 6,
+      "title": "Rejuvenation",
+      "first-release-date": "1974-07-03",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Meters",
+          "artist": {
+            "id": "851827d6-ae31-4093-a166-1420cac610a4",
+            "name": "The Meters",
+            "sort-name": "Meters, The",
+            "aliases": [
+              {
+                "sort-name": "Funky Meters",
+                "name": "Funky Meters",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Meters",
+                "name": "Meters",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f4e6500f-c241-4958-a7f5-d33c3ff19c89",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rejuvenation",
+          "status": "Official"
+        },
+        {
+          "id": "3636d1bd-1425-419a-a7e2-7d767b5a86a2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rejuvenation",
+          "status": "Official"
+        },
+        {
+          "id": "8730ac97-bfca-44b9-a6f9-4cb16365f2f5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rejuvenation",
+          "status": "Official"
+        },
+        {
+          "id": "d703fe2a-26b6-4a53-8b4e-f9bfdfc1302c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rejuvenation",
+          "status": "Official"
+        },
+        {
+          "id": "3e846fa1-4ba2-423b-a782-dfa6a3589170",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rejuvenation",
+          "status": "Official"
+        },
+        {
+          "id": "14b3f6ef-832a-4356-b187-493abfe0bc67",
+          "title": "Rejuvenation"
+        }
+      ],
+      "tags": [
+        {
+          "count": 6,
+          "name": "funk"
+        },
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "rare groove a to z"
+        }
+      ]
+    }
+  ]
+}

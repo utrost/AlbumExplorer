@@ -1,0 +1,380 @@
+{
+  "albumId": "album-2pac-all-eyez-on-me-1996",
+  "query": "artist:\"2Pac\" AND releasegroup:\"All Eyez on Me\" AND firstreleasedate:1996",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%222Pac%22%20AND%20releasegroup%3A%22All%20Eyez%20on%20Me%22%20AND%20firstreleasedate%3A1996&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:56:30.887Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e2621417-9236-36b4-9f9e-376c416dc4b0",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "a8e3f309-a7d2-3892-9dff-2efbbe5866a3",
+      "count": 21,
+      "title": "All Eyez on Me",
+      "first-release-date": "1996-02-13",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "2Pac",
+          "artist": {
+            "id": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+            "name": "2Pac",
+            "sort-name": "2Pac",
+            "disambiguation": "US rapper",
+            "aliases": [
+              {
+                "sort-name": "Makaveli",
+                "name": "Makaveli",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "2Pacalypse",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "2Pacalypse",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "2パック",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "2パック",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "New York, MC",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "MC New York",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "2Pac",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "2Pac",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Tupac",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Tupac",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Tupac Shakur",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Tupac Shakur",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "2 Pacalypse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "2 Pacalypse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "2Pac (Makaveli the Don)",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "2Pac (Makaveli the Don)",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "2 Pac",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "2 Pac",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "824fdbf5-1f6d-42b9-9cb2-d68d56eab348",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "1e8ae79e-d45d-4074-ad7a-df144815488e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyes on Me",
+          "status": "Official"
+        },
+        {
+          "id": "f958d73c-4d04-4c0f-95b7-b5f508ef16d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez On Me",
+          "status": "Official"
+        },
+        {
+          "id": "23bf456f-c05c-4738-b675-062f57396fa8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "ecb3560e-c8e1-4936-afae-b456b45f331c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "1b5cd2af-36f8-47ac-bbd3-7f846e48a98b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "dcdcc32e-5d6b-4d26-b22e-3e1092d899da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "f62e6093-19a1-451a-96bd-763fa51f3816",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez On Me",
+          "status": "Official"
+        },
+        {
+          "id": "517e4994-9b6a-4901-afee-fbec2fa8ad12",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "e68b0dbf-ac3f-4dcc-9894-b5532904ab4a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "4cbb5bbc-e135-468b-81f8-af26645fbe76",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "3a380f9e-2025-4e7c-b30d-464c92fdddc3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "643a9fda-596d-40fc-bb31-f10d88d0f076",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "b8d2916e-c077-430b-8535-069dc6891360",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "2d57ed84-41fa-40e8-9bf4-1383bd40305d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "f5e7ddad-e38e-4621-9173-6bad2f126c33",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "ed3e7564-e4a5-4885-9cb9-abaa4c44258c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "48dc7569-877e-4530-8803-b3f75875e184",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "8d2491b6-f77f-3ec2-9638-10c231663071",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "931ceb37-5405-3378-91a1-633d9ec2df65",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        },
+        {
+          "id": "0b79f6fb-23f4-4cad-9729-68910e93f6df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Eyez on Me",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rap"
+        },
+        {
+          "count": 0,
+          "name": "hip-hop"
+        },
+        {
+          "count": 19,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "death"
+        },
+        {
+          "count": 1,
+          "name": "urban"
+        },
+        {
+          "count": 20,
+          "name": "gangsta rap"
+        },
+        {
+          "count": 1,
+          "name": "pop rap"
+        },
+        {
+          "count": 2,
+          "name": "hardcore rap"
+        },
+        {
+          "count": 12,
+          "name": "g-funk"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 0,
+          "name": "hip hop rap"
+        },
+        {
+          "count": 1,
+          "name": "sampling"
+        },
+        {
+          "count": 1,
+          "name": "crime"
+        },
+        {
+          "count": 0,
+          "name": "all bout u"
+        },
+        {
+          "count": 11,
+          "name": "west coast hip hop"
+        },
+        {
+          "count": 0,
+          "name": "west coast rap"
+        },
+        {
+          "count": 1,
+          "name": "aggressive"
+        },
+        {
+          "count": 0,
+          "name": "above the rim"
+        },
+        {
+          "count": 0,
+          "name": "death by gun"
+        },
+        {
+          "count": -1,
+          "name": "hip-hop/rap"
+        },
+        {
+          "count": 1,
+          "name": "rhythmic"
+        },
+        {
+          "count": 0,
+          "name": "hardcore hip hop"
+        },
+        {
+          "count": 1,
+          "name": "violence"
+        },
+        {
+          "count": 0,
+          "name": "g funk"
+        },
+        {
+          "count": 0,
+          "name": "double album"
+        },
+        {
+          "count": 1,
+          "name": "rebellious"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "boastful"
+        },
+        {
+          "count": 0,
+          "name": "5+ wochen"
+        }
+      ]
+    }
+  ]
+}

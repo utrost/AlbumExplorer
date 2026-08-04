@@ -1,0 +1,124 @@
+{
+  "albumId": "album-bonnie-raitt-give-it-up-1972",
+  "query": "artist:\"Bonnie Raitt\" AND releasegroup:\"Give It Up\" AND firstreleasedate:1972",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bonnie%20Raitt%22%20AND%20releasegroup%3A%22Give%20It%20Up%22%20AND%20firstreleasedate%3A1972&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:13:22.368Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "ce0cc158-7d3d-3cf7-92ec-39a4038c2f5b",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e3f0a905-6e23-3734-892e-45472c0201ab",
+      "count": 7,
+      "title": "Give It Up",
+      "first-release-date": "1972-09",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bonnie Raitt",
+          "artist": {
+            "id": "0f0da09c-3940-4cb5-879f-4cea28907810",
+            "name": "Bonnie Raitt",
+            "sort-name": "Raitt, Bonnie",
+            "aliases": [
+              {
+                "sort-name": "Raitt, Bonnie Lynn",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bonnie Lynn Raitt",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bonnie Rait",
+                "name": "Bonnie Rait",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bonny Raitt",
+                "name": "Bonny Raitt",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "aaeb3a56-00c3-3fb2-b183-f65e6355af33",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Give It Up",
+          "status": "Official"
+        },
+        {
+          "id": "10f7a191-293f-4d7d-8bc4-f7c5fbd9c7f5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Give It Up",
+          "status": "Official"
+        },
+        {
+          "id": "9646aa39-916c-32e0-9d75-742e870ce89f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Give It Up",
+          "status": "Official"
+        },
+        {
+          "id": "1c6f114b-9d63-48cf-9371-5e485307fbaa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Give It Up",
+          "status": "Official"
+        },
+        {
+          "id": "493b39d4-0073-4705-a6c7-ea68ea537ffe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Give It Up",
+          "status": "Official"
+        },
+        {
+          "id": "5aa4c368-2719-444f-b58e-7ed05da86715",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Give It Up",
+          "status": "Official"
+        },
+        {
+          "id": "7009004e-616f-4bff-9648-bdc0c1aab97e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Give It Up",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "folk"
+        },
+        {
+          "count": 2,
+          "name": "blues rock"
+        },
+        {
+          "count": 2,
+          "name": "adult contemporary"
+        }
+      ]
+    }
+  ]
+}

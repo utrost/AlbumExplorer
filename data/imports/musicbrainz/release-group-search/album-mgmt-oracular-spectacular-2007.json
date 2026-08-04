@@ -1,0 +1,287 @@
+{
+  "albumId": "album-mgmt-oracular-spectacular-2007",
+  "query": "artist:\"Mgmt\" AND releasegroup:\"Oracular Spectacular\" AND firstreleasedate:2007",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Mgmt%22%20AND%20releasegroup%3A%22Oracular%20Spectacular%22%20AND%20firstreleasedate%3A2007&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:13:21.200Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "f7da2770-bf72-3dea-8904-ff6135822724",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "227dd6f5-667b-3e2d-9b83-ca9ef823a44a",
+      "count": 11,
+      "title": "Oracular Spectacular",
+      "first-release-date": "2007-10-02",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "MGMT",
+          "artist": {
+            "id": "c485632c-b784-4ee9-8ea1-c5fb365681fc",
+            "name": "MGMT",
+            "sort-name": "MGMT",
+            "disambiguation": "US pop rock group",
+            "aliases": [
+              {
+                "sort-name": "MGMT",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "MGMT",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "2005",
+                "end-date": null
+              },
+              {
+                "sort-name": "Management, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Management",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": "2005"
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cd407e30-202e-4a6d-b145-08bd00ab0159",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "c23146ad-1256-476e-8f3e-23f31b56d564",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular+4",
+          "status": "Official"
+        },
+        {
+          "id": "ce165c24-1edd-3270-81a2-bf7c40db5084",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "53423ced-f942-4b41-bb9a-1ed1cdf2dec3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "778e1560-f3fd-4a34-898e-6eb2fc0a79bd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "a76e115a-7a66-4286-8dbc-41fab2f6fa1c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "683fd794-f6e2-3c6d-9b46-b392e4ae5047",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "693cc04f-8d9e-4675-85f9-68f08e98b914",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "25a366e1-24fc-4e4a-a4d7-3370cb662568",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "67e5eef4-111d-4091-ae83-70854685b09e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        },
+        {
+          "id": "44e1c283-8a80-44b8-91d3-7e72b69228bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Oracular Spectacular",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 3,
+          "name": "alternative rock"
+        },
+        {
+          "count": 0,
+          "name": "american"
+        },
+        {
+          "count": 1,
+          "name": "usa"
+        },
+        {
+          "count": 0,
+          "name": "2007"
+        },
+        {
+          "count": 8,
+          "name": "indie rock"
+        },
+        {
+          "count": 0,
+          "name": "indie"
+        },
+        {
+          "count": 2,
+          "name": "synth-pop"
+        },
+        {
+          "count": 2,
+          "name": "electropop"
+        },
+        {
+          "count": 0,
+          "name": "américain"
+        },
+        {
+          "count": 7,
+          "name": "indie pop"
+        },
+        {
+          "count": 3,
+          "name": "psychedelic pop"
+        },
+        {
+          "count": 6,
+          "name": "neo-psychedelia"
+        },
+        {
+          "count": 1,
+          "name": "alternative pop"
+        },
+        {
+          "count": 0,
+          "name": "alternative dance"
+        },
+        {
+          "count": 5,
+          "name": "indietronica"
+        },
+        {
+          "count": 1,
+          "name": "synth pop"
+        },
+        {
+          "count": 0,
+          "name": "rock and indie"
+        },
+        {
+          "count": 1,
+          "name": "alternative and punk"
+        },
+        {
+          "count": 2,
+          "name": "indie electronic"
+        },
+        {
+          "count": 2,
+          "name": "progressive pop"
+        },
+        {
+          "count": 1,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 0,
+          "name": "2000s alternative & indie pop-rock"
+        },
+        {
+          "count": 2,
+          "name": "alt dance"
+        }
+      ]
+    },
+    {
+      "id": "222d836f-6f5d-439d-9e19-68dfd5df40a7",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 92,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "227dd6f5-667b-3e2d-9b83-ca9ef823a44a",
+      "count": 1,
+      "title": "Oracular Spectacular Demos",
+      "first-release-date": "2007",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Demo"
+      ],
+      "secondary-type-ids": [
+        "81598169-0d6c-3bce-b4be-866fa658eda3"
+      ],
+      "artist-credit": [
+        {
+          "name": "MGMT",
+          "artist": {
+            "id": "c485632c-b784-4ee9-8ea1-c5fb365681fc",
+            "name": "MGMT",
+            "sort-name": "MGMT",
+            "disambiguation": "US pop rock group",
+            "aliases": [
+              {
+                "sort-name": "MGMT",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "MGMT",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "2005",
+                "end-date": null
+              },
+              {
+                "sort-name": "Management, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Management",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": "2005"
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0edfcae5-8e01-485d-a700-4d5c7a337559",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Oracular Spectacular Demos",
+          "status": "Promotion"
+        }
+      ]
+    }
+  ]
+}

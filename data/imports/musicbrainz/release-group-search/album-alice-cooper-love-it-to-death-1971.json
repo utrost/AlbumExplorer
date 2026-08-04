@@ -1,0 +1,383 @@
+{
+  "albumId": "album-alice-cooper-love-it-to-death-1971",
+  "query": "artist:\"Alice Cooper\" AND releasegroup:\"Love It To Death\" AND firstreleasedate:1971",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Alice%20Cooper%22%20AND%20releasegroup%3A%22Love%20It%20To%20Death%22%20AND%20firstreleasedate%3A1971&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:04.506Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b32fa11e-4a83-38a8-90d9-e1ba3b33be6e",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "b4709c68-5587-32b8-92e0-32372926c16d",
+      "count": 17,
+      "title": "Love It to Death",
+      "first-release-date": "1971-03-08",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Alice Cooper",
+          "artist": {
+            "id": "4d7928cd-7ed2-4282-8c29-c0c9f966f1bd",
+            "name": "Alice Cooper",
+            "sort-name": "Alice Cooper",
+            "disambiguation": "the band, active 1964–1974/5",
+            "aliases": [
+              {
+                "sort-name": "Earwigs, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Earwigs",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1964",
+                "end-date": "1965"
+              },
+              {
+                "sort-name": "The Earwig",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Earwig",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Earwigs",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Earwigs",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nazz",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Nazz",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Naz",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Naz",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Spider",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Spider",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Spiders",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Spiders",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Alice Cooper",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Alice Cooper",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1968-03-16",
+                "end-date": null
+              },
+              {
+                "sort-name": "Nazz, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Nazz",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1967",
+                "end-date": "1968-03-16"
+              },
+              {
+                "sort-name": "Spiders, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Spiders",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1965",
+                "end-date": "1967"
+              },
+              {
+                "sort-name": "アリス・クーパー",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "アリス・クーパー",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Alice Cooper Group",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Alice Cooper Group",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Alice Cooper Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Alice Cooper Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Alis Cooper",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Alis Cooper",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Alice Copper",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Alice Copper",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Alic Cooper",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Alic Cooper",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Cooper",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Cooper",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Alice Coper",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Alice Coper",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Alica Cooper",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Alica Cooper",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4597bfb5-dc32-4db4-8dba-ddb4e308c471",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "61aa3400-197b-4722-b421-7d6eac5bd2b0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "e7b964f9-bd3a-4246-bd54-97c11dbbddbb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "46c430fe-1dfb-4268-a46a-92b6e7670cad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "84deed48-6617-4a14-b433-e176c2fd71bd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "8ec1b102-5c1c-40da-b4ca-28f6b0153ada",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "eb0583a7-fb45-4202-b1dd-ac28e3aeb574",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "da73f902-192a-434a-a1df-ddc975005370",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "609e2c9a-badd-4eb8-b846-b9db50da6195",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "7ceb0aef-479e-44c9-98ec-59980d98d252",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "e3a3fb89-991b-42f5-98ab-6c99d4584553",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "8e374bfe-0f61-485d-927f-11489c5d2e6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "7f670542-4f41-346b-9ba5-30f76d6a1e13",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "0bfb4695-7013-3f66-adf0-65336bb0d103",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "128f51d3-cc2b-4ec2-abc4-be2881b507ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "b9101ce5-ddc7-4c9b-a8ba-6c0b4f049c49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        },
+        {
+          "id": "897f7ac0-a4a9-4e6f-80e1-dbf40bc55ff5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Love It to Death",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "70s"
+        },
+        {
+          "count": 0,
+          "name": "heavy metal"
+        },
+        {
+          "count": 7,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "power pop"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic rock"
+        },
+        {
+          "count": 3,
+          "name": "glam rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "garage rock"
+        },
+        {
+          "count": 4,
+          "name": "acid rock"
+        },
+        {
+          "count": 0,
+          "name": "1971"
+        },
+        {
+          "count": -1,
+          "name": "oldies 70 s"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        }
+      ]
+    }
+  ]
+}

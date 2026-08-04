@@ -1,0 +1,169 @@
+{
+  "albumId": "album-sly-and-the-family-stone-greatest-hits-1970",
+  "query": "artist:\"Sly and the Family Stone\" AND releasegroup:\"Greatest Hits\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Sly%20and%20the%20Family%20Stone%22%20AND%20releasegroup%3A%22Greatest%20Hits%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:52.539Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "320b576b-aa9c-3c5e-8631-178e81841866",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "92dd5f30-a3a0-36a6-9885-2478480470fa",
+      "count": 7,
+      "title": "Greatest Hits",
+      "first-release-date": "1970",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Sly & the Family Stone",
+          "artist": {
+            "id": "b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+            "name": "Sly & the Family Stone",
+            "sort-name": "Sly & the Family Stone",
+            "aliases": [
+              {
+                "sort-name": "スライ&ザ・ファミリー・ストーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "スライ&ザ・ファミリー・ストーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sly, the Family Stone",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sly, the Family Stone",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sly & the Familie Stone",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sly & the Familie Stone",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sly and the Family Stone",
+                "name": "Sly and the Family Stone",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "70ca306f-4c6b-4ba6-a34b-6c0166e352dd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "9a2c7c38-b5d7-457c-be34-66ddec76158d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "3f5ef113-ed23-33f3-bd6d-14ee75e15b1b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "5f22b63b-73fd-467d-be44-590101ac86de",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "a444159e-fcd1-4f45-9bee-8c32f17943e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "f9cb209d-f4dc-4e98-8bed-670502a7f55e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "57cb2dbb-8c80-4712-aa76-d3d3ef1b5a04",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 6,
+          "name": "funk"
+        },
+        {
+          "count": 2,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "pop soul"
+        },
+        {
+          "count": 2,
+          "name": "psychedelic soul"
+        },
+        {
+          "count": 1,
+          "name": "am pop"
+        },
+        {
+          "count": 0,
+          "name": "r&b"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "r&b/soul"
+        }
+      ]
+    }
+  ]
+}

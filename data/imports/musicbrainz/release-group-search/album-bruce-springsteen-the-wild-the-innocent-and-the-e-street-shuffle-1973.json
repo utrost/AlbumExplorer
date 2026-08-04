@@ -1,0 +1,640 @@
+{
+  "albumId": "album-bruce-springsteen-the-wild-the-innocent-and-the-e-street-shuffle-1973",
+  "query": "artist:\"Bruce Springsteen\" AND releasegroup:\"The Wild, the Innocent & the E Street Shuffle\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bruce%20Springsteen%22%20AND%20releasegroup%3A%22The%20Wild%2C%20the%20Innocent%20%26%20the%20E%20Street%20Shuffle%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:57.223Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4b443e66-52a7-3cc9-a522-0dc64a6a51dc",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 86,
+      "title": "The Wild, the Innocent & The E Street Shuffle",
+      "first-release-date": "1973-11-05",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c5c454fb-32eb-4899-a1aa-565eda93349e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "6f28c48a-7440-4c70-a02a-dcf0bf1fcd8f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "1f552fac-8ba1-40a1-b3d3-56a5c69d3fd8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "0c0a6080-29cc-4dc1-9cfc-0633bbd33ef9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, The Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "bdeae04b-29da-4f23-95f4-197883e7114e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "700f8c50-07db-4d79-9baa-5fd98265d148",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "eb4f2870-dc30-4d72-a7ed-96614e467040",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Promotion"
+        },
+        {
+          "id": "32e03f41-c74a-4f90-9e05-f0de0daa12d0",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Promotion"
+        },
+        {
+          "id": "fd40d6a1-707d-464a-be17-78a72103f583",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "43230453-56c0-4b74-92f9-6a73a20faa51",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "44d55fa1-b97a-4eba-8398-f5fb5b1a8e39",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "6729b9d3-0ac7-4d5d-ad4b-cd015119790c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "ea638dcc-aa1b-42ae-bf15-95801e3a9a4f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "4412d627-b7f5-4379-917b-a828471b1892",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "4916e21a-962f-4f5d-bd3b-9468793961c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "f55f5723-7f2b-4a09-82a9-d12599b88b57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "ededfcc0-b24a-447a-8c26-5c1f3a0ffe03",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "db47b8e6-8d61-45e7-93b3-4e822a4639b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "3e968f71-d4c6-41a8-b619-1df80241f050",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "fa78e48f-5ce0-4ac1-b2f7-4c63bed8aa8c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "ecbdc322-196f-4f83-a547-20fae2551440",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "f62e0d08-44a0-4849-aa32-a4e2b3513c57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "143a63bd-044e-478b-a316-2bdbee964b83",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "d5a90695-68a3-41bd-a634-523e3ac4e960",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Promotion"
+        },
+        {
+          "id": "39959e2c-5737-418a-9511-5f9447b46297",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "b6be0f25-73e5-4699-b6f7-f84953451471",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "5b0c80bc-e570-4bb3-a9cb-ccec2bbd7255",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "e7a1b858-d63b-441b-9b89-cc55580110d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "638af957-46ab-4a38-a744-d1ed7b160bce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "4b219e2b-2113-48c5-a0c0-36f708835542",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "154ef566-c4c4-41a3-9d79-663c1c044fb1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "0b25c7d9-a53d-38bf-aa2f-057c9354a254",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "7e67120d-73ca-4544-8e91-42afca25858a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "89eeff1c-d48a-42fc-a81d-b21527864972",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "110d8fb7-eff0-4849-8e6e-dfade8e57ef2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "05358c6e-b9dc-4c41-8677-ed785d609373",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "6858ff09-7b86-421f-89d5-0eae47b03615",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "b9899d38-a866-4699-92bf-0b89f0f06f62",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "069f435d-d1da-4c80-82ae-983f47b4cb6a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "36c527dc-d9ef-4a1d-b7f7-4f6cef5453e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "d4d36fd4-55b5-4fa6-947a-19e8222d976a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "aabf13d9-96a4-40fa-b5fd-51ffdc259bd6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "f0d5b178-874d-4226-8cee-bd02b04ed649",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "71b31581-b545-4715-8cb3-faaa1acb3edd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "f243b662-af21-46a1-9cd7-d5af4334b09f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "b9184cfa-1661-4e22-8693-7e50556f0a44",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "311aeeac-ca15-4550-be5a-3c6e2a879350",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "189229af-c858-4ac4-9d41-2a81a8669beb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "3d2aef61-e4e1-4d92-af1a-88b4d2c96ea8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "d056a71d-acfd-439c-a53e-4b172cbc666b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "964958fc-d650-4b11-8983-8a769c526eb1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "07b04ba5-8412-4e4c-802e-127da6f5448b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "9f7a4999-97d0-4e8c-a6c4-4b0cc57282f7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "61af9ce3-7597-4387-a97b-e362b56e37ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "0721ce70-a8fd-4438-b128-afc2be41544c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "8d9b1aa5-345b-4dfb-94c1-0a690737685b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "baa789cb-6ef7-44d5-9968-900e44100e00",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "3dcae5fa-d085-48c9-ade8-432c3b205122",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "f70fd220-cb62-4eb8-8d21-79182ca6688f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "5d3b793a-5853-44c0-9821-e2c2bb79ae5d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "195b9907-ebbb-4d29-a311-b342cc6e430d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "4177ace9-d07b-4528-b679-ecae80fdfea3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "fd72f0ba-d211-495a-af20-eced5eebb8bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "cb4979df-0156-43ab-8ad2-87e9b0ef012c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "403cf010-3a40-4884-9867-8168498d9376",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "8596001d-d333-4b31-93c9-8f2bed8db476",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "514c85c2-a1de-44a2-87bd-749cd970b8af",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "835e1436-6c2c-4b98-a24e-40cf972c7cdd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "dbf7ac05-56ce-4e6b-b0d6-525a3c325ee9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "68136206-2939-42ed-a39d-f9c41b0defb1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "dc4a73e5-0f14-49a3-a91a-cb7e82e511de",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent and the E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "b494f170-dfe0-4fbc-97e4-ce5725a1e305",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "dfcadc62-9b75-4160-a31d-612d2abfb399",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "0d94f0f9-29b7-4c95-a8d0-d968afaf2d1d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "c1a09a6c-0769-4988-a7ca-3181eea48dac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "ba7a23d3-e1a5-4e39-a34b-13288cad166a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "deefcaea-1e50-41ad-80ac-206a136fb6b0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "4c459b67-2fe8-4646-8733-e895ec4f04a6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "75de8df5-c072-4049-bc2a-075ffa5fcfde",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "f9b0aeac-b563-3995-999f-15ab194e5ccc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "19ec67fa-ba98-4d3d-90a3-52f63a1a9af2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "c9ea6547-2a9e-4cce-8606-93235cec7897",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "d9475d6b-b05b-4c91-9c7d-205369bae5ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "f999d564-a0ee-43e7-a9a9-f6b98d5721c3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "69727b14-ca30-4113-910d-5610124b412a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        },
+        {
+          "id": "4d854621-0264-4b83-9687-8ad4b9a4e99b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Wild, the Innocent & The E Street Shuffle",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 7,
+          "name": "folk rock"
+        },
+        {
+          "count": 3,
+          "name": "jazz rock"
+        },
+        {
+          "count": 0,
+          "name": "rock and roll"
+        },
+        {
+          "count": 3,
+          "name": "heartland rock"
+        },
+        {
+          "count": 1,
+          "name": "progressive pop"
+        },
+        {
+          "count": 1,
+          "name": "rhythm & blues"
+        },
+        {
+          "count": 2,
+          "name": "jersey shore sound"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "albumId": "album-sly-and-the-family-stone-fresh-1973",
+  "query": "artist:\"Sly & The Family Stone\" AND releasegroup:\"Fresh\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Sly%20%26%20The%20Family%20Stone%22%20AND%20releasegroup%3A%22Fresh%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:03:05.953Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "c026bf5e-ea8e-31b2-b372-4f76a1403acd",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "92dd5f30-a3a0-36a6-9885-2478480470fa",
+      "count": 11,
+      "title": "Fresh",
+      "first-release-date": "1973",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Sly & the Family Stone",
+          "artist": {
+            "id": "b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+            "name": "Sly & the Family Stone",
+            "sort-name": "Sly & the Family Stone",
+            "aliases": [
+              {
+                "sort-name": "スライ&ザ・ファミリー・ストーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "スライ&ザ・ファミリー・ストーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sly, the Family Stone",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sly, the Family Stone",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sly & the Familie Stone",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sly & the Familie Stone",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sly and the Family Stone",
+                "name": "Sly and the Family Stone",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "eca074bf-a982-4d6d-bbd5-fb7127452224",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "eb702f36-9159-4de6-a59a-c97381c29f19",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "72e14f2a-bd30-3310-b498-fc309203d08a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "7dfa533b-9e12-4d8c-9199-b819d4acdbe5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "0ca41ed1-9d7b-4b43-ade7-336619e25965",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Fresh",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "3a587ddb-8029-47a7-9ec6-7b3a56427b34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "13ca3816-f04d-46c8-8181-9c69d36eed63",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "35eb4d1f-31d0-3baf-a8cc-cedc43e26d00",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "bbd8e53a-7896-4958-b207-e1f418404f49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "3031f97b-ecce-4042-bbfd-2f4ba28d6953",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        },
+        {
+          "id": "01de2413-fbfe-4bb5-8d7f-cdd038b5398a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Fresh",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "funk"
+        },
+        {
+          "count": 3,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "deep funk"
+        },
+        {
+          "count": 0,
+          "name": "rhythm and blues"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic soul"
+        },
+        {
+          "count": 1,
+          "name": "rare groove a to z"
+        }
+      ]
+    }
+  ]
+}

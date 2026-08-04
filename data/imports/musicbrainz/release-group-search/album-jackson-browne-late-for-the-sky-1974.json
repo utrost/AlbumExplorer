@@ -1,0 +1,130 @@
+{
+  "albumId": "album-jackson-browne-late-for-the-sky-1974",
+  "query": "artist:\"Jackson Browne\" AND releasegroup:\"Late For The Sky\" AND firstreleasedate:1974",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Jackson%20Browne%22%20AND%20releasegroup%3A%22Late%20For%20The%20Sky%22%20AND%20firstreleasedate%3A1974&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:09:06.177Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e87e9bc0-bbd3-3c68-a391-0412794a717c",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "72b5fa81-7d72-3189-9adb-5f16bca4bc26",
+      "count": 10,
+      "title": "Late for the Sky",
+      "first-release-date": "1974-09",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Jackson Browne",
+          "artist": {
+            "id": "88527d26-7496-47c5-8358-ebdb1868a90f",
+            "name": "Jackson Browne",
+            "sort-name": "Browne, Jackson",
+            "disambiguation": "American singer-songwriter",
+            "aliases": [
+              {
+                "sort-name": "Jackson Brown",
+                "name": "Jackson Brown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Browne, Clyde Jackson",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Clyde Jackson Browne",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3f92d7a5-5d95-46e1-96be-75612c2fbbcc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "69d5254f-6936-41d1-ab52-ce28bd15dafe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "1d097920-f217-44d9-b4d6-b8e20b69259c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "aef41e51-03f8-4443-969a-6fb446cc4d23",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "c9bb47e2-c7ca-4d6e-938d-be1768ce0c64",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "c3d5d0a9-40cc-48c1-8ede-56a5cd86f5e4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "8e6cdee5-7fc7-3ea2-b655-e23a3c5d8964",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "4182e2c8-7fdc-4480-8818-40bd70457331",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "1408083e-f816-39d5-9d75-faf6f8100071",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        },
+        {
+          "id": "897c5475-de61-4c5f-920a-5d219b852755",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Late for the Sky",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "1974"
+        }
+      ]
+    }
+  ]
+}

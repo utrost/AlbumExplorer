@@ -1,0 +1,190 @@
+{
+  "albumId": "album-phil-spector-back-to-mono-1991",
+  "query": "artist:\"Phil Spector\" AND releasegroup:\"Back To Mono\" AND firstreleasedate:1991",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Phil%20Spector%22%20AND%20releasegroup%3A%22Back%20To%20Mono%22%20AND%20firstreleasedate%3A1991&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:59:52.429Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "683391cb-533a-3b66-a072-c62e735f167d",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "fedbe842-73a7-3970-b62e-0927abfc1f81",
+      "count": 3,
+      "title": "Back to Mono (1958–1969)",
+      "first-release-date": "1991-11-12",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Phil Spector",
+          "artist": {
+            "id": "e7b587f7-e678-47c1-81dd-e7bb7855b0f9",
+            "name": "Phil Spector",
+            "sort-name": "Spector, Phil",
+            "aliases": [
+              {
+                "sort-name": "Spector, Harvey Phillip",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Harvey Phillip Spector",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Spector, Phillip Harvey",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Phillip Harvey Spector",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Spector, Phil and Artists",
+                "name": "Phil Spector and Artists",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Philip Spector",
+                "name": "Philip Spector",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Спектор, Фил",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Фил Спектор",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a3e94b84-d6e8-4897-938f-250b9e3a6abb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Mono",
+          "status": "Official"
+        },
+        {
+          "id": "beeb9d9f-c40b-405f-8ac8-d40c9512ee8c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Mono (1958–1969)",
+          "status": "Official"
+        },
+        {
+          "id": "e94cff78-9f77-4799-a473-fdf812603863",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Mono (1958–1969)",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "pop"
+        },
+        {
+          "count": 2,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "girl group"
+        },
+        {
+          "count": 5,
+          "name": "baroque pop"
+        },
+        {
+          "count": 2,
+          "name": "ballad"
+        },
+        {
+          "count": 2,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "blue-eyed soul"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "doo wop"
+        },
+        {
+          "count": 1,
+          "name": "oldies"
+        },
+        {
+          "count": 1,
+          "name": "funk soul"
+        },
+        {
+          "count": 0,
+          "name": "rhythm blues"
+        },
+        {
+          "count": 2,
+          "name": "pop soul"
+        },
+        {
+          "count": 0,
+          "name": "rock n roll_rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "christmas music"
+        },
+        {
+          "count": 1,
+          "name": "brill building"
+        },
+        {
+          "count": 2,
+          "name": "doo-wop"
+        },
+        {
+          "count": 1,
+          "name": "r&b"
+        },
+        {
+          "count": 1,
+          "name": "rock & roll"
+        }
+      ]
+    }
+  ]
+}

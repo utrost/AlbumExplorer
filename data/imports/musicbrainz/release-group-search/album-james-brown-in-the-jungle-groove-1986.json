@@ -1,0 +1,181 @@
+{
+  "albumId": "album-james-brown-in-the-jungle-groove-1986",
+  "query": "artist:\"James Brown\" AND releasegroup:\"In The Jungle Groove\" AND firstreleasedate:1986",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22James%20Brown%22%20AND%20releasegroup%3A%22In%20The%20Jungle%20Groove%22%20AND%20firstreleasedate%3A1986&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:07:25.700Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "3ca21b19-b33a-3fba-b4ac-205dcace771d",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "2ffdd22a-e733-30b3-a02a-27328ad74812",
+      "count": 4,
+      "title": "In the Jungle Groove",
+      "first-release-date": "1986",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "James Brown",
+          "artist": {
+            "id": "20ff3303-4fe2-4a47-a1b6-291e26aa3438",
+            "name": "James Brown",
+            "sort-name": "Brown, James",
+            "disambiguation": "The Godfather of Soul",
+            "aliases": [
+              {
+                "sort-name": "Wright, Ted",
+                "name": "Ted Wright",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, J.",
+                "name": "J. Brown",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James Joseph, Jr.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "James Joseph Brown, Jr.",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jim Jam",
+                "name": "Jim Jam",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J. B.",
+                "name": "J. B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J.B.",
+                "name": "J.B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジェームス・ブラウン",
+                "name": "ジェームス・ブラウン",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James",
+                "name": "Brown, James",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Joseph Brown",
+                "name": "James Joseph Brown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Browm",
+                "name": "James Browm",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Brown at the Organ",
+                "name": "James Brown at the Organ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "d91babee-ebaf-40d1-ba93-69d8e6469c90",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In The Jungle Groove",
+          "status": "Official"
+        },
+        {
+          "id": "12ca0962-a0ca-4f17-ba9c-355b271457f3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In the Jungle Groove",
+          "status": "Official"
+        },
+        {
+          "id": "d18fa01a-dc57-413c-8039-b3cad07384ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In the Jungle Groove",
+          "status": "Official"
+        },
+        {
+          "id": "b06c9e02-27d2-4fd9-82b5-ddc64458e6b6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In the Jungle Groove",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "funk"
+        },
+        {
+          "count": 2,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "funk soul"
+        }
+      ]
+    }
+  ]
+}

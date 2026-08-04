@@ -1,0 +1,298 @@
+{
+  "albumId": "album-amy-winehouse-back-to-black-2007",
+  "query": "artist:\"Amy Winehouse\" AND releasegroup:\"Back to Black\" AND firstreleasedate:2007",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Amy%20Winehouse%22%20AND%20releasegroup%3A%22Back%20to%20Black%22%20AND%20firstreleasedate%3A2007&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:01.941Z",
+  "count": 3,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "395c3c5d-a677-3c1f-ac1f-1beff237f62d",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "ba6babfd-fbbe-3c29-ab70-a55db1131fa3",
+      "count": 4,
+      "title": "Back to Black",
+      "first-release-date": "2007-04-30",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Amy Winehouse",
+          "artist": {
+            "id": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3",
+            "name": "Amy Winehouse",
+            "sort-name": "Winehouse, Amy",
+            "aliases": [
+              {
+                "sort-name": "Amy Jade Winehouse",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Amy Jade Winehouse",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エイミー・ワインハウス",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エイミー・ワインハウス",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Amy Whinehouse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Amy Whinehouse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Amy Winhouse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Amy Winhouse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "28df339c-24c0-4e4d-b356-ed6ad541d180",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Black",
+          "status": "Official"
+        },
+        {
+          "id": "68f58168-ab91-46a0-ba14-574eccf3a7a7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Black (Mushtaq Remix)",
+          "status": "Official"
+        },
+        {
+          "id": "e75e5bc2-0145-4a26-8b87-7340362dfe4b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Black",
+          "status": "Official"
+        },
+        {
+          "id": "f89d5372-5b60-459e-9d62-751ed15e3928",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Black",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "neo soul"
+        },
+        {
+          "count": 1,
+          "name": "r&b"
+        },
+        {
+          "count": 1,
+          "name": "funk / soul"
+        },
+        {
+          "count": 1,
+          "name": "vocal jazz / soul / r&b"
+        },
+        {
+          "count": 1,
+          "name": "artist-session1_track1; classic soul r b; contemporary r&b; neo-soul; vocal jazz / soul / r&b"
+        }
+      ]
+    },
+    {
+      "id": "8400ddfa-acc1-46bf-9dd7-c9ab35892140",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 91,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "ba6babfd-fbbe-3c29-ab70-a55db1131fa3",
+      "count": 1,
+      "title": "Back to Black: B‐Sides",
+      "first-release-date": "2007-01-01",
+      "primary-type": "EP",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Amy Winehouse",
+          "artist": {
+            "id": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3",
+            "name": "Amy Winehouse",
+            "sort-name": "Winehouse, Amy",
+            "aliases": [
+              {
+                "sort-name": "Amy Jade Winehouse",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Amy Jade Winehouse",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エイミー・ワインハウス",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エイミー・ワインハウス",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Amy Whinehouse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Amy Whinehouse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Amy Winhouse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Amy Winhouse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "8b2e3d04-3dd9-4494-ba8f-451f26b97941",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Black: B‐Sides",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "jazz"
+        },
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "neo soul"
+        },
+        {
+          "count": 2,
+          "name": "artist-session1_track1"
+        }
+      ]
+    },
+    {
+      "id": "287c9187-08c3-4c36-bbfa-20fea5eccb9d",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 86,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "ba6babfd-fbbe-3c29-ab70-a55db1131fa3",
+      "count": 1,
+      "title": "Back to Black - The Singles Remixes",
+      "first-release-date": "2007",
+      "primary-type": "EP",
+      "secondary-types": [
+        "Remix"
+      ],
+      "secondary-type-ids": [
+        "0c60f497-ff81-3818-befd-abfc84a4858b"
+      ],
+      "artist-credit": [
+        {
+          "name": "Amy Winehouse",
+          "artist": {
+            "id": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3",
+            "name": "Amy Winehouse",
+            "sort-name": "Winehouse, Amy",
+            "aliases": [
+              {
+                "sort-name": "Amy Jade Winehouse",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Amy Jade Winehouse",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エイミー・ワインハウス",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エイミー・ワインハウス",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Amy Whinehouse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Amy Whinehouse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Amy Winhouse",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Amy Winhouse",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "db5c7402-aa93-4bc0-aaf2-e265e89adca0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Back to Black - The Singles Remixes",
+          "status": "Official"
+        }
+      ]
+    }
+  ]
+}

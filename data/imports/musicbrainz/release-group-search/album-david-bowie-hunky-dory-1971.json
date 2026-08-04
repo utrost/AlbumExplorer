@@ -1,0 +1,478 @@
+{
+  "albumId": "album-david-bowie-hunky-dory-1971",
+  "query": "artist:\"David Bowie\" AND releasegroup:\"Hunky Dory\" AND firstreleasedate:1971",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22David%20Bowie%22%20AND%20releasegroup%3A%22Hunky%20Dory%22%20AND%20firstreleasedate%3A1971&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:36:33.041Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "743b0b2e-a23a-3182-950e-232f8cb0dfb7",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c78939a9-a38a-3669-a8bf-d41a4287f304",
+      "count": 37,
+      "title": "Hunky Dory",
+      "first-release-date": "1971-12-17",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "David Bowie",
+          "artist": {
+            "id": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+            "name": "David Bowie",
+            "sort-name": "Bowie, David",
+            "disambiguation": "English singer‐songwriter",
+            "aliases": [
+              {
+                "sort-name": "Jones, Davy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Davy Jones",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": "1965"
+              },
+              {
+                "sort-name": "데이비드 보위",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "데이비드 보위",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ziggy Stardust",
+                "name": "Ziggy Stardust",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "David Jones",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "David Jones",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jones, David Robert",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "David Robert Jones",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дэвид Боуи",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Дэвид Боуи",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Thin White Duke",
+                "name": "The Thin White Duke",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "デビッド・ボウイ",
+                "name": "デビッド・ボウイ",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Davis Bowie",
+                "name": "Davis Bowie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bowie",
+                "name": "Bowie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Davie Bowie",
+                "name": "Davie Bowie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Harry the Butcher",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Harry the Butcher",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1970-02-23",
+                "end-date": "1970-02-24"
+              },
+              {
+                "sort-name": "デヴィッド・ボウイ",
+                "name": "デヴィッド・ボウイ",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c4f518ca-c33a-4b86-a000-75885deb7513",
+          "title": "Hunky Dory"
+        },
+        {
+          "id": "258e9af6-cc4c-4a37-a123-1afe3a0ab7b1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "4800c809-f22f-4aee-8533-d3fb5884ac5f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "925e4115-febf-4eb4-a442-e4ee8aecdbc2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "7b58402e-a19f-4bd4-b205-c73236cf6bea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "d8780fb8-0265-4202-8cbf-2ba80b155792",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "853be1f4-9fee-30b9-bd12-fbba75ce0137",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "9435495b-b0dc-447f-bd84-20f7e76bea8a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "06cbf41a-30be-4302-908a-14a95d6be54f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "04490fb2-a861-3db8-a8c6-386d8f9da1dc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "86c0600c-4098-4f7a-8651-c6e271d7d9d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "1fdf0511-843c-44c5-b1e0-25f7535e92d9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "7a9ef84b-abac-4969-bee1-5f95e4eda2b9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "96f2fd99-1ac5-40f3-92b5-fe119f348e9c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "0dcb3b6e-e9db-45c5-863e-190801623fac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "76c6e818-b7c7-4245-94c6-0cf29908ae9e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "d3cd15dc-611c-4f59-95c4-a9e8ab0052bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "5a43d1d8-5ea5-496b-8a52-6a2c0f2413d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "69f6631f-3f6d-3c1c-8670-044b57011ce1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "7280228d-0edd-4be5-85bc-ac8b1a03b532",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "98d6d2b9-d173-3313-a5d9-c740753c1a66",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "fec0da1b-b23f-3a96-9e86-e1fcc3d7c827",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "50a143a9-6c12-32d1-a457-878f8a338108",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "863215d3-ac05-3638-8aeb-e1c1a081cdaa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "8d0addb6-0843-3c20-bf55-7418069e0e98",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "fd3716b5-b0a7-4269-baac-b7e4f26a7636",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Hunky Dory (A pedir de boca)",
+          "status": "Bootleg"
+        },
+        {
+          "id": "71b6f97a-cd7e-3537-9118-1a3cd633f465",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "aaa67f78-0fe6-41db-8ff2-3c7617cc90f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "912f6ed5-7963-4220-af44-b0a3af6dee32",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "066b2880-f496-4e05-8025-5168c0606564",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Hunky Dory",
+          "status": "Bootleg"
+        },
+        {
+          "id": "f526c18c-5626-48b9-8339-ca82bad24f48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "cb1542ba-eda3-4150-ad27-6cf503a46c53",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "6098d8f7-0d96-4985-bfc2-8fcf6c1e6767",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "94a2c830-7000-4a02-ab78-756bdd0254a8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "0b4d90ba-edfe-3c00-83a6-77de469dab44",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "b7c94f03-acf9-4642-b706-7d141b6cf2b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        },
+        {
+          "id": "fa1e8d60-ef82-4722-b576-2ef9bc1a8916",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Hunky Dory",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 8,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "70s"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 6,
+          "name": "glam rock"
+        },
+        {
+          "count": 7,
+          "name": "art rock"
+        },
+        {
+          "count": -1,
+          "name": "folk-rock"
+        },
+        {
+          "count": 1,
+          "name": "baroque pop"
+        },
+        {
+          "count": 0,
+          "name": "classic rock"
+        },
+        {
+          "count": -1,
+          "name": "general rock"
+        },
+        {
+          "count": 4,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "piano rock"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": -1,
+          "name": "rock pop"
+        },
+        {
+          "count": -1,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "cd extra"
+        },
+        {
+          "count": -1,
+          "name": "shm-cd"
+        },
+        {
+          "count": 1,
+          "name": "bowie"
+        },
+        {
+          "count": -1,
+          "name": "should be public domain"
+        },
+        {
+          "count": -1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "art pop"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": -1,
+          "name": "pop/rock/indie/electronic"
+        },
+        {
+          "count": 1,
+          "name": "1–4 wochen"
+        }
+      ]
+    }
+  ]
+}

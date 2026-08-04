@@ -1,0 +1,149 @@
+{
+  "albumId": "album-nina-simone-wild-is-the-wind-1966",
+  "query": "artist:\"Nina Simone\" AND releasegroup:\"Wild Is the Wind\" AND firstreleasedate:1966",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Nina%20Simone%22%20AND%20releasegroup%3A%22Wild%20Is%20the%20Wind%22%20AND%20firstreleasedate%3A1966&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:05.185Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b4433a3e-d5ad-3d99-965c-96bfb6a0f071",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "57a25fe0-cfca-392d-8cd3-bd924141addd",
+      "count": 7,
+      "title": "Wild Is the Wind",
+      "first-release-date": "1966",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Nina Simone",
+          "artist": {
+            "id": "2944824d-4c26-476f-a981-be849081942f",
+            "name": "Nina Simone",
+            "sort-name": "Simone, Nina",
+            "aliases": [
+              {
+                "sort-name": "Simone, Nina",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Nina Simone",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Simone, Nina & Her Orchestra",
+                "name": "Nina Simone & Her Orchestra",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nina Simons",
+                "name": "Nina Simons",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Simone",
+                "name": "Simone",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Waymon, Eunice Kathleen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Eunice Kathleen Waymon",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ニーナ・シモン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ニーナ・シモン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "fa7b15dd-2f59-4d49-b394-b56a4960cfd8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Is The Wind",
+          "status": "Official"
+        },
+        {
+          "id": "31a58ff0-1715-4da7-90d5-c53642eab8b6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Is the Wind",
+          "status": "Official"
+        },
+        {
+          "id": "6862bcc4-6a3e-46ee-90bd-863501b4120a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Is the Wind",
+          "status": "Official"
+        },
+        {
+          "id": "2492d3a0-620e-48e1-aa5c-396457a41718",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Is the Wind",
+          "status": "Official"
+        },
+        {
+          "id": "5ff3c940-e955-3565-aa63-f1baaad303ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Is the Wind",
+          "status": "Official"
+        },
+        {
+          "id": "037e41e2-1b4b-4fcc-a8ab-dea7a354a067",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Is the Wind",
+          "status": "Official"
+        },
+        {
+          "id": "8030574b-4c84-44d5-aa37-6225bbe0d52d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Wild Is the Wind",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "jazz"
+        },
+        {
+          "count": 2,
+          "name": "soul-jazz"
+        },
+        {
+          "count": 3,
+          "name": "soul jazz"
+        }
+      ]
+    }
+  ]
+}

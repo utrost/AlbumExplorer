@@ -1,0 +1,108 @@
+{
+  "albumId": "album-black-uhuru-red-1981",
+  "query": "artist:\"Black Uhuru\" AND releasegroup:\"Red\" AND firstreleasedate:1981",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Black%20Uhuru%22%20AND%20releasegroup%3A%22Red%22%20AND%20firstreleasedate%3A1981&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:57:27.146Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "8b23e15c-c1bf-38c6-94d8-0208da2a6519",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c8e1c94d-aadd-39ce-831f-98b124de6019",
+      "count": 6,
+      "title": "Red",
+      "first-release-date": "1981-06",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Black Uhuru",
+          "artist": {
+            "id": "8ee00333-ec2c-439b-a619-ae160aca2a15",
+            "name": "Black Uhuru",
+            "sort-name": "Black Uhuru",
+            "aliases": [
+              {
+                "sort-name": "Back Uhuru",
+                "name": "Back Uhuru",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Balck Uhuru",
+                "name": "Balck Uhuru",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c3a59f01-4224-4f4a-99ba-3e4da649f34a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Red",
+          "status": "Official"
+        },
+        {
+          "id": "d14988ed-7f42-42e8-b937-b756febd6033",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Red",
+          "status": "Official"
+        },
+        {
+          "id": "e763e685-b19f-4788-8641-727fa3f0f7aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Red",
+          "status": "Official"
+        },
+        {
+          "id": "e400a74e-796c-42d8-b4cc-c4a7756268ac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Red",
+          "status": "Official"
+        },
+        {
+          "id": "4d8ca766-068d-45df-80bf-fa57932d1694",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Red",
+          "status": "Official"
+        },
+        {
+          "id": "8deae767-78f2-4876-90e0-c7f8110e1ad1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Red",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "reggae"
+        },
+        {
+          "count": 1,
+          "name": "dub"
+        },
+        {
+          "count": 1,
+          "name": "roots reggae"
+        },
+        {
+          "count": 2,
+          "name": "soul and reggae"
+        }
+      ]
+    }
+  ]
+}

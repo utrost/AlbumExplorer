@@ -1,0 +1,395 @@
+{
+  "albumId": "album-elton-john-greatest-hits-1974",
+  "query": "artist:\"Elton John\" AND releasegroup:\"Greatest Hits\" AND firstreleasedate:1974",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Elton%20John%22%20AND%20releasegroup%3A%22Greatest%20Hits%22%20AND%20firstreleasedate%3A1974&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:01:11.980Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "6619f357-4115-3d8a-bd52-238641c23c28",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "414118f3-533f-3f32-a9d9-7ab6e107353d",
+      "count": 24,
+      "title": "Greatest Hits",
+      "first-release-date": "1974-11-04",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Elton John",
+          "artist": {
+            "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+            "name": "Elton John",
+            "sort-name": "John, Elton",
+            "disambiguation": "English singer, songwriter, pianist, and composer",
+            "aliases": [
+              {
+                "sort-name": "Reg Dwight",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Reg Dwight",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John, Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E. John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "E. John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elthon John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elthon John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton Hercules",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Elton Hercules John",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1972-01-07",
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Eltonas",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eltonas Džonas",
+                "locale": "lt",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Seras Eltonas",
+                "name": "Seras Eltonas Džonas",
+                "locale": "lt",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald Kenneth",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Reginald Kenneth Dwight",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1947-03-25",
+                "end-date": "1972-01-07"
+              },
+              {
+                "sort-name": "エルトン・ジョン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルトン・ジョン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald",
+                "name": "Reginald Dwight",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Orson, Ann",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ann Orson",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton John",
+                "name": "Sir Elton John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elton Jphn",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elton Jphn",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton Hercules John",
+                "name": "Sir Elton Hercules John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "5816fe49-c7f8-4e74-b885-d909dc112adf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "c03a4862-d881-47d3-ad9c-5688001d3e1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "0d230962-9f9f-47cd-b6dc-3ba9ea3cf7f5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "3d6d8654-3632-4b63-bae5-e88e5580ea5f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "23bdb0df-7330-4f6a-ab8f-fc38004339a7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "ddfef4d7-ae22-4b78-ad50-b3b2af6babe7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "e6682229-c163-4265-b6aa-9241483ca7b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "b6aeddc8-e9d8-420d-b326-3b10055fe855",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "d67d15d9-e37d-37c2-840b-cdfa92595ecd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "0087274e-122a-4fdf-baff-1c060baa9bac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "ad731ebf-7b24-4181-8212-4701d05a7f6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "5226a5dd-c500-4489-9adc-f6bfee7739c6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "74bc1724-3118-40fe-8a83-1076248aaa03",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "222a3831-6a10-4536-8fc3-e4e507cc3b16",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "a9d4cf0c-750c-4de6-b811-db3cc9431149",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "fe83fd32-d074-4f97-a7ec-b6f6bff4c836",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "c6ea842d-3e3f-4725-962d-93628f9d6a0a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "de402eab-3c08-4962-b02f-0790d4f35a26",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "bfd44289-658f-485d-bc05-df50c9fb82c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "2a0f93d0-b12a-4caa-af4f-00afd0730092",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "1eadb1ea-0120-43f1-8ca5-1635e5be4ee2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "86b9920f-966b-48e8-a2ab-c6074d669e9e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "a8b4b0b6-173f-46f7-a821-a57bde248d18",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "b36334aa-e979-431c-885f-dba0891b8395",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Greatest Hits",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 4,
+          "name": "pop"
+        },
+        {
+          "count": 3,
+          "name": "glam rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 2,
+          "name": "album rock"
+        },
+        {
+          "count": 3,
+          "name": "soft rock"
+        },
+        {
+          "count": 4,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "sound clip"
+        },
+        {
+          "count": 3,
+          "name": "bennie and the jets"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "rock/pop"
+        }
+      ]
+    }
+  ]
+}

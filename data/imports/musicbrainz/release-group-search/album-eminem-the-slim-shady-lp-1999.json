@@ -1,0 +1,402 @@
+{
+  "albumId": "album-eminem-the-slim-shady-lp-1999",
+  "query": "artist:\"Eminem\" AND releasegroup:\"The Slim Shady LP\" AND firstreleasedate:1999",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Eminem%22%20AND%20releasegroup%3A%22The%20Slim%20Shady%20LP%22%20AND%20firstreleasedate%3A1999&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:50:10.964Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "be725de4-4633-3c8a-9a03-f2c4392b6e0d",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c86bc16c-f9f2-31df-a8ca-9754d73c8c94",
+      "count": 17,
+      "title": "The Slim Shady LP",
+      "first-release-date": "1999-02-23",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Eminem",
+          "artist": {
+            "id": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+            "name": "Eminem",
+            "sort-name": "Eminem",
+            "disambiguation": "US rapper",
+            "aliases": [
+              {
+                "sort-name": "Mathers, Marshall",
+                "name": "Marshall Mathers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mathers, Marshall Bruce, III",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Marshall Bruce Mathers III",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Bruce Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Bruce Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Mathers III",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Mathers III",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Slim Shady",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Slim Shady",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "에미넴",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "에미넴",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EminemMusic",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EminemMusic",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M&M",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "M&M",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Em",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Em",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ominem",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Ominem",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Real Slim Shady",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Real Slim Shady",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エミネム",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エミネム",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eminem",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eminem",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EMINƎM",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EMINƎM",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "02431701-f635-4cdf-8074-ca20139363ef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP (expanded edition)",
+          "status": "Official"
+        },
+        {
+          "id": "e83da15d-bfaa-40b9-bb93-d58f29855234",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP (expanded edition)",
+          "status": "Official"
+        },
+        {
+          "id": "fe83d686-6343-4abc-898b-eb9fe29639d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "fd82c0c8-687c-32f6-b31e-0b2c585e006b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "7b4d84ae-1c36-4a34-a7b4-c1d41899c0d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "56f1df4e-06f9-48b3-9f3f-cb522ef9d160",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "09836cf2-51ff-456c-95b1-480f02e5aedc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "f305300d-d3ef-314f-a260-9b2cc12705d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "6c631aea-f9e1-4499-8274-39a2c4c88a18",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "f63091b3-cb0c-4542-859c-cab4cddf1005",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "194c17ba-49b5-47dd-8594-4e1b2aa5f14d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP (expanded edition)",
+          "status": "Official"
+        },
+        {
+          "id": "ede60c69-29d1-48dd-a10b-169ae99dee92",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "b9aa674e-b0c2-4541-97d9-df8b77d31878",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "d13d4b3f-53cd-4614-a07c-4385158ea9bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "02319abc-a999-4854-a654-f7a33c9db19e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "b70b0195-7df7-467e-ab42-a0453d900682",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        },
+        {
+          "id": "a58bee4e-2206-4345-bf3f-4ff2072c0d70",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Slim Shady LP",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rap"
+        },
+        {
+          "count": 0,
+          "name": "hip-hop"
+        },
+        {
+          "count": 16,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "hardcore rap"
+        },
+        {
+          "count": 1,
+          "name": "dark"
+        },
+        {
+          "count": 4,
+          "name": "horrorcore"
+        },
+        {
+          "count": 0,
+          "name": "rap hip hop"
+        },
+        {
+          "count": 1,
+          "name": "hip hop rap"
+        },
+        {
+          "count": 1,
+          "name": "crime"
+        },
+        {
+          "count": 1,
+          "name": "drugs"
+        },
+        {
+          "count": 1,
+          "name": "angry"
+        },
+        {
+          "count": 0,
+          "name": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4"
+        },
+        {
+          "count": 0,
+          "name": "rap hip hop_rap_hip-hop"
+        },
+        {
+          "count": 0,
+          "name": "rap hip hop_rap_rap hip hop_rap_hip-hop"
+        },
+        {
+          "count": 0,
+          "name": "rap hip hop_rap hip hop_rap_hip-hop_rap"
+        },
+        {
+          "count": 0,
+          "name": "white"
+        },
+        {
+          "count": 1,
+          "name": "humorous"
+        },
+        {
+          "count": 0,
+          "name": "west coast rap"
+        },
+        {
+          "count": 2,
+          "name": "boom bap"
+        },
+        {
+          "count": 2,
+          "name": "comedy rap"
+        },
+        {
+          "count": 1,
+          "name": "midwest rap"
+        },
+        {
+          "count": 4,
+          "name": "hardcore hip hop"
+        },
+        {
+          "count": 1,
+          "name": "violence"
+        },
+        {
+          "count": 1,
+          "name": "sarcastic"
+        },
+        {
+          "count": 1,
+          "name": "vulgar"
+        },
+        {
+          "count": 1,
+          "name": "misanthropic"
+        },
+        {
+          "count": 1,
+          "name": "hateful"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop\\rap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "albumId": "album-kendrick-lamar-damn-2017",
+  "query": "artist:\"Kendrick Lamar\" AND releasegroup:\"DAMN.\" AND firstreleasedate:2017",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Kendrick%20Lamar%22%20AND%20releasegroup%3A%22DAMN.%22%20AND%20firstreleasedate%3A2017&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:42:16.359Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b88655ba-7469-48b8-a296-b9011ab73ef3",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "2c9554a3-3ee3-37cb-8ac3-2c9bdc4ef7d2",
+      "count": 16,
+      "title": "DAMN.",
+      "first-release-date": "2017-04-14",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Kendrick Lamar",
+          "artist": {
+            "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "sort-name": "Lamar, Kendrick",
+            "aliases": [
+              {
+                "sort-name": "Kendrick LAmar & SZA",
+                "name": "Kendrick Lamar, SZA",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "K. Duckworth",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "K. Duckworth",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kendrick Duckworth",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Kendrick Duckworth",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Duckworth, Kendrick Lamar",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Kendrick Lamar Duckworth",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ケンドリック・ラマー",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ケンドリック・ラマー",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "켄드릭 라마",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "켄드릭 라마",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "OKLAMA",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "OKLAMA",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "K‐Dot",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "K‐Dot",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "K. Dot",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "K. Dot",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f5eddaa6-3a79-47d5-ab80-f2e1d8f6bfd8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "29c7037c-2e2f-45d5-a564-28ae9c5144d6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "73e90644-8528-4bf8-9689-e03fb3168d73",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "bfda5c60-5b8b-47c3-9ddf-bf7bcd688560",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN. COLLECTORS EDITION.",
+          "status": "Official"
+        },
+        {
+          "id": "b292c647-e3f6-4991-a919-7bd4df4d99ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "f3025206-030b-440b-bcf9-391434862d29",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN. COLLECTORS. EDITION.",
+          "status": "Official"
+        },
+        {
+          "id": "2a74f401-f412-4fec-b059-c287d69801e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "7c59d15d-ef1a-48f6-9af6-51a1add92780",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "87eca35f-24cb-4f33-bdd8-12bb4d08dcd6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN. COLLECTORS EDITION.",
+          "status": "Official"
+        },
+        {
+          "id": "c3d9e5b1-23d8-4536-a511-9211c4aba7b0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "6213e655-4fc6-427c-ae09-7ae0ae81e9be",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN. COLLECTORS EDITION.",
+          "status": "Official"
+        },
+        {
+          "id": "671e0261-32a6-4206-b3f7-afa689025aab",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN. COLLECTORS EDITION.",
+          "status": "Official"
+        },
+        {
+          "id": "81ad6e82-8e70-4805-8866-42e246c6f68c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "d47e2f25-0533-4f3d-a33f-22f284c88459",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "acbb807b-4a1a-411a-a800-965a23955561",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        },
+        {
+          "id": "87d39f16-b84f-473c-8c9d-60456c6da439",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "DAMN.",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "rap"
+        },
+        {
+          "count": 1,
+          "name": "concept album"
+        },
+        {
+          "count": 14,
+          "name": "hip hop"
+        },
+        {
+          "count": 3,
+          "name": "pop rap"
+        },
+        {
+          "count": 1,
+          "name": "english"
+        },
+        {
+          "count": 0,
+          "name": "los angeles"
+        },
+        {
+          "count": -1,
+          "name": "u2"
+        },
+        {
+          "count": 1,
+          "name": "compton"
+        },
+        {
+          "count": 7,
+          "name": "west coast hip hop"
+        },
+        {
+          "count": -1,
+          "name": "rihanna"
+        },
+        {
+          "count": 1,
+          "name": "contemporary r&b"
+        },
+        {
+          "count": 0,
+          "name": "hip-hop/rap"
+        },
+        {
+          "count": 6,
+          "name": "conscious hip hop"
+        },
+        {
+          "count": 1,
+          "name": "political hip hop"
+        },
+        {
+          "count": -1,
+          "name": "kendrick lamar"
+        },
+        {
+          "count": 5,
+          "name": "trap"
+        },
+        {
+          "count": -1,
+          "name": "bono"
+        },
+        {
+          "count": 0,
+          "name": "westcoast rap"
+        },
+        {
+          "count": -1,
+          "name": "badbadnotgood"
+        },
+        {
+          "count": -1,
+          "name": "terrace martin"
+        },
+        {
+          "count": -1,
+          "name": "thundercat"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 0,
+          "name": "discogs/the most popular album released every year from 1950 to 2020"
+        },
+        {
+          "count": 1,
+          "name": "5+ wochen"
+        },
+        {
+          "count": 1,
+          "name": "ph_4_stars"
+        }
+      ]
+    }
+  ]
+}

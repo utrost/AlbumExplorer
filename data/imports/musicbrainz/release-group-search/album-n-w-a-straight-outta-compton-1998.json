@@ -1,0 +1,130 @@
+{
+  "albumId": "album-n-w-a-straight-outta-compton-1998",
+  "query": "artist:\"N.W.A.\" AND releasegroup:\"Straight Outta Compton\" AND firstreleasedate:1998",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22N.W.A.%22%20AND%20releasegroup%3A%22Straight%20Outta%20Compton%22%20AND%20firstreleasedate%3A1998&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:01:34.855Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "ca113e0b-face-40c7-aed9-89dcdcfdbecf",
+      "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "f80303ce-9fd3-3d67-8071-130e59421a23",
+      "count": 2,
+      "title": "Straight Outta Compton: 10th Anniversary Tribute",
+      "first-release-date": "1998-11-03",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Remix"
+      ],
+      "secondary-type-ids": [
+        "0c60f497-ff81-3818-befd-abfc84a4858b"
+      ],
+      "artist-credit": [
+        {
+          "name": "N.W.A",
+          "artist": {
+            "id": "3a54bffa-2314-44a2-927b-60144119c780",
+            "name": "N.W.A",
+            "sort-name": "N.W.A",
+            "disambiguation": "US hip hop group",
+            "aliases": [
+              {
+                "sort-name": "N.W.A",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "N.W.A",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "NWA",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "NWA",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Niggaz With Attitude",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Niggaz With Attitude",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "N.W.A. Legacy 2",
+                "name": "N.W.A. Legacy 2",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "N.W.A.",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "N.W.A.",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f16c7bc6-cbf2-43f6-bc50-8e3368e90b80",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Straight Outta Compton: 10th Anniversary Tribute",
+          "status": "Official"
+        },
+        {
+          "id": "17b93328-79d6-3513-a2cf-7f636cfc798e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Straight Outta Compton: 10th Anniversary Tribute",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "gangsta rap"
+        },
+        {
+          "count": 1,
+          "name": "dirty south"
+        },
+        {
+          "count": 1,
+          "name": "g-funk"
+        },
+        {
+          "count": 1,
+          "name": "latin"
+        },
+        {
+          "count": 1,
+          "name": "west coast hip hop"
+        }
+      ]
+    }
+  ]
+}

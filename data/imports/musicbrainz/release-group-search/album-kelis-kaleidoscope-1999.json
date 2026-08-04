@@ -1,0 +1,154 @@
+{
+  "albumId": "album-kelis-kaleidoscope-1999",
+  "query": "artist:\"Kelis\" AND releasegroup:\"Kaleidoscope\" AND firstreleasedate:1999",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Kelis%22%20AND%20releasegroup%3A%22Kaleidoscope%22%20AND%20firstreleasedate%3A1999&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:53:36.353Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4ea68d9e-7e06-30ea-8b29-3d8195b302c7",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e7f3d7ea-45a4-3dd9-a395-339b478f73dd",
+      "count": 7,
+      "title": "Kaleidoscope",
+      "first-release-date": "1999-12-07",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Kelis",
+          "artist": {
+            "id": "1239d1bc-cc09-43e0-bcd0-374f60346138",
+            "name": "Kelis",
+            "sort-name": "Kelis",
+            "aliases": [
+              {
+                "sort-name": "ケリス",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ケリス",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jones-Rogers, Kelis",
+                "name": "Kelis Jones-Rogers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kellis",
+                "name": "Kellis",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rogers, Kelis",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Kelis Rogers",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "e1b8c1c5-5fc5-43ca-95b9-bb7152fce99e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Kaleidoscope",
+          "status": "Official"
+        },
+        {
+          "id": "feaa21ee-b2d9-4854-94e9-490ccb39de16",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Kaleidoscope (Expanded Edition)",
+          "status": "Official"
+        },
+        {
+          "id": "7ac9bc26-c7dd-4bdb-a8c9-d01fd0361216",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Kaleidoscope",
+          "status": "Official"
+        },
+        {
+          "id": "b52450e6-9782-43c8-849e-1e6dcc40f751",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Kaleidoscope",
+          "status": "Official"
+        },
+        {
+          "id": "e0de1616-0514-43b3-a2ce-9e7cf0fc1e64",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Kaleidoscope",
+          "status": "Official"
+        },
+        {
+          "id": "1145b52f-6702-3fd1-a3fc-26ee6326bd34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Kaleidoscope",
+          "status": "Official"
+        },
+        {
+          "id": "5d2b21f0-5033-4d7b-84a5-071499882889",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Kaleidoscope",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "hip-hop"
+        },
+        {
+          "count": 1,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "neo-soul"
+        },
+        {
+          "count": 0,
+          "name": "r b"
+        },
+        {
+          "count": 0,
+          "name": "urban"
+        },
+        {
+          "count": 1,
+          "name": "pop rap"
+        },
+        {
+          "count": 0,
+          "name": "rnb swing"
+        },
+        {
+          "count": 2,
+          "name": "r&b"
+        },
+        {
+          "count": 5,
+          "name": "contemporary r&b"
+        }
+      ]
+    }
+  ]
+}

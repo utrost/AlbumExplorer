@@ -1,0 +1,457 @@
+{
+  "albumId": "album-rolling-stones-let-it-bleed-1969",
+  "query": "artist:\"The Rolling Stones\" AND releasegroup:\"Let It Bleed\" AND firstreleasedate:1969",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Rolling%20Stones%22%20AND%20releasegroup%3A%22Let%20It%20Bleed%22%20AND%20firstreleasedate%3A1969&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:34:18.307Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "784c0edd-0f37-33a2-9ca5-dff87b4f999c",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "df296871-15ee-38e4-a1da-421cc5801c7e",
+      "count": 43,
+      "title": "Let It Bleed",
+      "first-release-date": "1969-11-29",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Rolling Stones",
+          "artist": {
+            "id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+            "name": "The Rolling Stones",
+            "sort-name": "Rolling Stones, The",
+            "aliases": [
+              {
+                "sort-name": "Stones",
+                "name": "Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stones, The",
+                "name": "The Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ローリング・ストーンズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ローリング・ストーンズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rolling Stones",
+                "name": "Rolling Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "bb9a5af3-365c-4718-aec6-0af8b9ab2ce7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "fe861aad-e98b-40fb-9dc7-7c2815dac9d6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "2ae60143-7b7e-4af3-990c-08d64af32a04",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Let It Bleed",
+          "status": "Bootleg"
+        },
+        {
+          "id": "9a62e66e-4d9c-4a8b-9efd-c7fe0c04f8a8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "4d29ca1a-1574-486a-afa2-29bee4088493",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "e9be8b65-8846-4032-a12a-353bd6bdc2b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "e6f2ecad-1adb-4a30-81f4-fbf11a22ca3a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "591d1e24-f369-46e5-8dd7-53a28d00721c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Deja de sangre",
+          "status": "Official"
+        },
+        {
+          "id": "81340532-2e76-46ae-8629-c73e8abe6af9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "5eaf15cc-7aa4-47ca-9057-6329dda71a74",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "6f603b94-ad3b-4db6-808f-5e3576da1513",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "1923f2c4-f353-4245-be4b-f6df47b3a3e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "739dce81-ed70-4ebc-8ae5-607f1fbcebf6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "d529ac15-9f1c-4cc7-b154-c26fcc6cd680",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "f6d8a428-d098-4e44-9434-97c2e13b0e03",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "d005016a-17b9-4cad-a6ae-aa553aa6edf7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "0808d7b6-bec6-4f30-9c50-c42f78c63b85",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "1a686648-fa7e-4462-a795-efd9b766e44c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "c2bbacb5-2b4a-4931-97bf-3270313c84f3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "abd6d55d-7cc5-4794-bedb-0ccb636c26c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "af7a7fe3-e7de-4d13-bf32-d844b0be2a8b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "0940b1a7-9820-4dd4-aa02-bdcef097bcba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "b16e18f6-e220-4f34-914a-4a990bf4cf86",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "714b5e52-4602-4ace-bef5-88a06abe0d30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "b2ca3b22-f3cc-40c0-b2d3-f4e1d6602106",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "4f04e1b3-6a72-4869-9450-637c57370b88",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "2c1dfbf4-b761-4382-ab23-09fc7b6a792d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "51ab7372-14e7-3fac-8257-08d97f15afe8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "c9127f2a-b7e4-4dbe-8de2-5b6ac1e59f41",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "3ad71912-c30f-4cff-a9a4-7761e2404345",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Let It Bleed Mono Edition",
+          "status": "Promotion"
+        },
+        {
+          "id": "8ac0d5a6-d4e1-450e-8c18-acb8236446ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "834d89db-3f47-3653-bf6d-38f916ebcbcc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "a05f137e-d873-30be-82a0-8122c9dc6264",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "2223ebac-6f0f-486c-8029-3661d8bfd458",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "15d6b4ef-8517-348e-a50f-e3e2417f009b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "97a6da99-e13b-3090-9405-0ae29b7b8389",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "499485cb-dac1-4741-bfcc-e6b218c50029",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "a2151a7b-d584-3d93-9d7f-b72da6bbcaa0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "fcd03aad-30ce-4298-b4bc-ea5963cfeffe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "0b246f85-9b3f-4888-93d9-df37d64f7d02",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Let It Bleed",
+          "status": "Bootleg"
+        },
+        {
+          "id": "9ff8a9b3-00ca-423c-9333-93995f2be9f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "f70b14d4-8d29-4c98-803e-6219316e1b6a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        },
+        {
+          "id": "8bc2f5e2-122a-42db-b86c-fddedc77463a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Bleed",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 13,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 0,
+          "name": "60s"
+        },
+        {
+          "count": 7,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 17,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "hypnotic"
+        },
+        {
+          "count": 6,
+          "name": "classic rock"
+        },
+        {
+          "count": 2,
+          "name": "album rock"
+        },
+        {
+          "count": 0,
+          "name": "british invasion"
+        },
+        {
+          "count": 0,
+          "name": "rock and roll"
+        },
+        {
+          "count": 2,
+          "name": "country blues"
+        },
+        {
+          "count": 0,
+          "name": "roots rock"
+        },
+        {
+          "count": 0,
+          "name": "blues-rock"
+        },
+        {
+          "count": 1,
+          "name": "sexual"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "energetic"
+        },
+        {
+          "count": 0,
+          "name": "rock and fucking roll"
+        },
+        {
+          "count": 1,
+          "name": "male vocalist"
+        },
+        {
+          "count": 1,
+          "name": "playful"
+        },
+        {
+          "count": 1,
+          "name": "hedonistic"
+        },
+        {
+          "count": 1,
+          "name": "bittersweet"
+        },
+        {
+          "count": 1,
+          "name": "passionate"
+        },
+        {
+          "count": 1,
+          "name": "warm"
+        },
+        {
+          "count": 1,
+          "name": "raw"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "rhythmic"
+        },
+        {
+          "count": 1,
+          "name": "rebellious"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "albumId": "album-bill-withers-just-as-i-am-1971",
+  "query": "artist:\"Bill Withers\" AND releasegroup:\"Just As I Am\" AND firstreleasedate:1971",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bill%20Withers%22%20AND%20releasegroup%3A%22Just%20As%20I%20Am%22%20AND%20firstreleasedate%3A1971&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:48:00.001Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "a72ee504-15b5-343c-bfd7-e71f9272e0e5",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "1b59aa99-e52d-371c-9275-8082c2b764c2",
+      "count": 9,
+      "title": "Just As I Am",
+      "first-release-date": "1971-05",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bill Withers",
+          "artist": {
+            "id": "fd1a2d9d-9bb6-44de-83a3-41560658aba9",
+            "name": "Bill Withers",
+            "sort-name": "Withers, Bill",
+            "aliases": [
+              {
+                "sort-name": "Withers, B.",
+                "name": "B. Withers",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビル・ウィザース",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ビル・ウィザース",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Withers",
+                "name": "Withers",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Withers, William Harrison",
+                "name": "William Harrison Withers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Withers, William Harrison, Jr.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "William Harrison Withers Jr.",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bill Whithers",
+                "name": "Bill Whithers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bill Whinters",
+                "name": "Bill Whinters",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bill Whiters",
+                "name": "Bill Whiters",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビル・ウィザーズ",
+                "name": "ビル・ウィザーズ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bill Witners",
+                "name": "Bill Witners",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "d7538ee8-0ccb-466e-9fef-67a96f7c2ec9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Just as I Am",
+          "status": "Official"
+        },
+        {
+          "id": "7e0f7789-8410-44ba-8100-78dafcb8e158",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Just As I Am",
+          "status": "Official"
+        },
+        {
+          "id": "a623c4f0-5216-4ac0-ade3-8730a1c9ae35",
+          "title": "Just As I Am"
+        },
+        {
+          "id": "6d27a507-adef-4807-bee7-04c2bd970bed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Just As I Am",
+          "status": "Official"
+        },
+        {
+          "id": "36db6708-4b84-4c3a-a252-154e3fa4371e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Just As I Am",
+          "status": "Official"
+        },
+        {
+          "id": "a6c209e2-290f-4d7e-83e0-e38220595c57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Just As I Am",
+          "status": "Official"
+        },
+        {
+          "id": "5a56f097-b98c-4b35-ade1-f4fa311be2c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Just As I Am",
+          "status": "Official"
+        },
+        {
+          "id": "3e9fdf77-190d-3548-9bfa-4de8f7ffdc57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Just As I Am",
+          "status": "Official"
+        },
+        {
+          "id": "7835bdd7-4d88-43ec-93aa-576d8b5e8409",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Just As I Am",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 6,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "deep soul"
+        },
+        {
+          "count": 1,
+          "name": "smooth soul"
+        },
+        {
+          "count": 2,
+          "name": "classic soul r b"
+        },
+        {
+          "count": 1,
+          "name": "classic soul / r&b"
+        }
+      ]
+    }
+  ]
+}

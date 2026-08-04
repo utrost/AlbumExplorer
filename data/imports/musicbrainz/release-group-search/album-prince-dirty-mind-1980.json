@@ -1,0 +1,811 @@
+{
+  "albumId": "album-prince-dirty-mind-1980",
+  "query": "artist:\"Prince\" AND releasegroup:\"Dirty Mind\" AND firstreleasedate:1980",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Prince%22%20AND%20releasegroup%3A%22Dirty%20Mind%22%20AND%20firstreleasedate%3A1980&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:11.388Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4f19b946-6ecb-3801-9248-cc44e9e9a284",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "35c91f2c-5423-3c32-b710-18cf1b218cac",
+      "count": 30,
+      "title": "Dirty Mind",
+      "first-release-date": "1980-10-08",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Prince",
+          "artist": {
+            "id": "070d193a-845c-479f-980e-bef15710653e",
+            "name": "Prince",
+            "sort-name": "Prince",
+            "disambiguation": "“The Artist Formerly Known as…”",
+            "aliases": [
+              {
+                "sort-name": "The Artist (Formerly Known as Prince)",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Artist (Formerly Known as Prince)",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Artist Formerly Known as Prince",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Artist Formerly Known as Prince",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "O(+>",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "O(+>",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1993-06-07",
+                "end-date": "1999-12-31"
+              },
+              {
+                "sort-name": "Purple Yoda",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Purple Yoda",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Evolsidog",
+                "name": "Evolsidog",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gemini",
+                "name": "Gemini",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Symbol, The",
+                "name": "The Symbol",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Coco, Joey",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Joey Coco",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1985",
+                "end-date": "1987"
+              },
+              {
+                "sort-name": "(us 1) PRINCE",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "(us 1) PRINCE",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ƭ̵̬̊",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Ƭ̵̬̊",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Love Symbol",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Love Symbol",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Camille",
+                "name": "Camille",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Park, Paisley",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Paisley Park",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nevermind, Alexander",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Alexander Nevermind",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nelson, Prince Rogers",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Prince Rogers Nelson",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "O(+>)",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "O(+>)",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Formerly Prince",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Formerly Prince",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Symbol",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Symbol",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "T.A.F.K.A.P.",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "T.A.F.K.A.P.",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "♀♂",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "♀♂",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jamie Starr",
+                "name": "Jamie Starr",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Prince",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Prince",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6df440db-f152-4f63-8e9d-33eeeb3a48fa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "f3a93dbd-64b0-4b65-8df5-fa30d6a337bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "f6e01bee-d782-49f4-bfca-66c9e8c1806f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "141b415b-ca28-457a-ab33-d8662dc8035e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "b81fbaff-6b99-4c2c-bfa9-ca1d4016abea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "8a94905e-43fa-4e14-9b0f-1ae9dc0356b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "faca645d-fd4e-40ad-a877-4498390b57c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "2c610575-fa2f-4433-af2e-693976ba2c0f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "7a0fbd11-3cb3-44e3-a26c-071bc434d023",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "8e92e93c-f620-42d0-9972-16f066f3c221",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "281e42d6-389e-4224-9bc6-84220a62d50f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "150983ca-ff7b-4b90-b273-e952e8713ab2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "1badbfe7-7f36-4b21-9de1-f48a62090213",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "1d302d75-5980-44b5-86a8-e5727af20f2e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "0bbaf31d-a3f6-42eb-88b3-2e83f6113fe5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "8008001f-5bc9-46a7-b91d-2fd14e624403",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "3f5e1f85-6f4a-4b9e-a050-618c79d1d394",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "ee7ee803-1693-4787-bcce-13cc2673bd09",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Dirty Mind",
+          "status": "Promotion"
+        },
+        {
+          "id": "cdfe9935-2494-46bd-871f-ba0764d93820",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "5eb93ea1-d271-421e-b2c5-cce8a875b92a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "ba523b91-df29-41cf-8759-d8f6f1f46585",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "75f896ea-ce32-4e6e-a6d8-3f56968bd51a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "2fede38a-62ed-4da4-93b2-3a2fdf58f4f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "bca1d0be-39ea-44be-b9db-fa74bfe4f470",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "5cb4b62b-0169-4dc8-93fd-85a7d4256ecc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "8cdecc6a-c405-4c6c-9064-a3b33686b8c9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "b3ef1c0e-b9a4-32de-977f-605846dfd855",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "6050572f-d582-4f3a-bc63-0b766df28b11",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "fb08f6a5-3b0c-3cf4-81d9-967a24e3fc20",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "e82cf8ce-c4d4-4574-9c8a-c8f455fa5f7b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 3,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "80s"
+        },
+        {
+          "count": 0,
+          "name": "punk"
+        },
+        {
+          "count": 1,
+          "name": "new wave"
+        },
+        {
+          "count": 9,
+          "name": "funk"
+        },
+        {
+          "count": 0,
+          "name": "soul"
+        },
+        {
+          "count": 0,
+          "name": "synth-pop"
+        },
+        {
+          "count": 1,
+          "name": "disco"
+        },
+        {
+          "count": 3,
+          "name": "dance-pop"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 0,
+          "name": "urban"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 0,
+          "name": "minneapolis sound"
+        },
+        {
+          "count": 0,
+          "name": "r&b"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary r&b"
+        },
+        {
+          "count": 1,
+          "name": "synth funk"
+        }
+      ]
+    },
+    {
+      "id": "426af9a8-68e8-45fc-8398-aa5a38cf698a",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "35c91f2c-5423-3c32-b710-18cf1b218cac",
+      "count": 7,
+      "title": "Dirty Mind",
+      "first-release-date": "1980-11-26",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Prince",
+          "artist": {
+            "id": "070d193a-845c-479f-980e-bef15710653e",
+            "name": "Prince",
+            "sort-name": "Prince",
+            "disambiguation": "“The Artist Formerly Known as…”",
+            "aliases": [
+              {
+                "sort-name": "The Artist (Formerly Known as Prince)",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Artist (Formerly Known as Prince)",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Artist Formerly Known as Prince",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Artist Formerly Known as Prince",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "O(+>",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "O(+>",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1993-06-07",
+                "end-date": "1999-12-31"
+              },
+              {
+                "sort-name": "Purple Yoda",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Purple Yoda",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Evolsidog",
+                "name": "Evolsidog",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gemini",
+                "name": "Gemini",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Symbol, The",
+                "name": "The Symbol",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Coco, Joey",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Joey Coco",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1985",
+                "end-date": "1987"
+              },
+              {
+                "sort-name": "(us 1) PRINCE",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "(us 1) PRINCE",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ƭ̵̬̊",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Ƭ̵̬̊",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Love Symbol",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Love Symbol",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Camille",
+                "name": "Camille",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Park, Paisley",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Paisley Park",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nevermind, Alexander",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Alexander Nevermind",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nelson, Prince Rogers",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Prince Rogers Nelson",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "O(+>)",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "O(+>)",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Formerly Prince",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Formerly Prince",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Symbol",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Symbol",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "T.A.F.K.A.P.",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "T.A.F.K.A.P.",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "♀♂",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "♀♂",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jamie Starr",
+                "name": "Jamie Starr",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Prince",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Prince",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7a41bd21-df38-440d-8908-873d36911c57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "0ce49161-d8d2-4f28-992e-afd41d736e32",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "c55fa195-c123-4134-a4b0-22d5ce69c07b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "269749b9-4e36-4b0a-b188-31c3700431b5",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Dirty Mind",
+          "status": "Promotion"
+        },
+        {
+          "id": "72d8941b-325f-4aa5-825e-6832ecc2593f",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Dirty Mind",
+          "status": "Promotion"
+        },
+        {
+          "id": "ab8fc108-86e5-4796-b6b8-9a84599d7d87",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        },
+        {
+          "id": "f85777b9-b4a4-4bcb-8f4a-626dc77aae24",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Dirty Mind",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "funk"
+        },
+        {
+          "count": 1,
+          "name": "synth-pop"
+        }
+      ]
+    }
+  ]
+}

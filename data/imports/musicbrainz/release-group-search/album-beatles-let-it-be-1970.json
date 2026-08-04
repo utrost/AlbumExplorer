@@ -1,0 +1,1432 @@
+{
+  "albumId": "album-beatles-let-it-be-1970",
+  "query": "artist:\"The Beatles\" AND releasegroup:\"Let It Be\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Beatles%22%20AND%20releasegroup%3A%22Let%20It%20Be%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:51.310Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "221ff5cc-d3fa-361f-8fa9-667b31a7ef56",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 10,
+      "title": "Let It Be",
+      "disambiguation": "b/w “You Know My Name (Look Up the Number)”",
+      "first-release-date": "1970-03-06",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "ad73d464-dc87-405d-aa94-8c7eb0738535",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "5f021514-f452-400d-8aca-aae844789edf",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Let It Be (2021 mix)",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "1fb39859-ccd2-4e40-93bd-06fcfa2854b2",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Let It Be (2021 mix)",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "ffe4a731-1920-4226-96c2-e2a297f1b1fd",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Let It Be (2021 mix)",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "5eb4e8cf-9717-48ee-bb4b-7aedbeb9cb51",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be / You Know My Name (Look Up My Number)",
+          "status": "Official"
+        },
+        {
+          "id": "24b96801-c5ef-3b96-aded-e0baa38da7b1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "5dd15484-b41a-4749-a901-8027c3283169",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "d96767ed-6ac4-3436-bd56-ec0b47c30247",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "05f6a456-77a4-3843-bed5-c70ebe7fb06a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "58a12b57-21a0-4646-8770-4b354a13864b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "bff544a7-56e0-3ed6-9e0f-3b676cca9111",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 55,
+      "title": "Let It Be",
+      "first-release-date": "1970-05-08",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "65efc3ab-2709-4b36-9dfd-c9289eb448f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "bd8eac7a-2fba-3db1-a531-4312bfe39aab",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "b43bb747-34fd-47d4-a768-c2b70f82fc37",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "2478e3af-9a22-4f3b-b6d0-3cebb79199e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "464e137c-81ad-460f-9ffa-424f4ae08416",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "06089e57-5dac-4812-a94b-b27a899f0187",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "2549411b-0aa7-4d3a-88da-75e472bf857e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be (super deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "459b9382-2b99-4a4c-936d-5b3e08412568",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be (super deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "98301d62-7f47-422d-bd4f-cbf21117aaad",
+          "title": "Let It Be"
+        },
+        {
+          "id": "be40df55-23fa-4b00-bcc1-dcd337ef39ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be (2021 mix)",
+          "status": "Official"
+        },
+        {
+          "id": "abd525da-af8d-433b-bbdb-0caed260728e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be (super deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "a7ad2a9a-874c-4680-b0be-25df59d333dc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "dd4f6716-cdcb-4594-98bf-be14cbe7fc40",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "570732f6-6e42-47bf-a911-e3c42cf6160a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "c4f7daa3-3c25-4e59-9fc7-6bebeaa5b64b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be (2021 mix)",
+          "status": "Official"
+        },
+        {
+          "id": "0d5712a0-d943-4588-a0fe-a437138b9af5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "044bcb76-bf31-4308-a33b-09d80b727010",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be (2021 mix)",
+          "status": "Official"
+        },
+        {
+          "id": "ac267781-a963-4b7d-99eb-cca41cdc3101",
+          "title": "Let It Be (2009 Stereo Remaster)"
+        },
+        {
+          "id": "10dbe850-d3b5-4d26-bf22-5d3ca6fcd2a8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "e929d227-abc9-46ba-8b60-8f4ad1f1ab99",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "8d5347a5-9ecb-44be-a213-860aaaf5d0b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "29c1b21b-fa5e-30a5-b4a2-dacd1f8de6ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "d2efd45a-82da-4da3-81da-646c937c4b01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "12ae3a87-0ce7-416c-bb04-a1e3447031fd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "996d008a-15b5-4c24-8ddd-f5117f07ec5a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be (2021 mix)",
+          "status": "Official"
+        },
+        {
+          "id": "91e17410-3bdc-4e60-95d9-f56b99657230",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be (2021 mix)",
+          "status": "Official"
+        },
+        {
+          "id": "9375926a-e440-4d94-8d3f-8efa5b77c637",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "3ca92529-9545-4aff-9b6a-7c7324808b51",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Let It Be",
+          "status": "Bootleg"
+        },
+        {
+          "id": "d812de39-0988-4d13-82a2-bcb795a802e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "ca0099b3-d5a5-4eea-8c58-50850ec8d083",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "84c8f929-c453-4f49-87a2-c966c6109cd3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "cf33a3e6-9911-4491-891e-efa751ee996e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "47ec4c86-d8c4-4fbc-9f75-196ca07388da",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Let It Be · Пусть Будет Так",
+          "status": "Bootleg"
+        },
+        {
+          "id": "c619aaf1-6984-4eee-8d54-6df35aa84ad3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "19d5bbe3-ac15-4629-ac2a-ac9392042a03",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Let It Be",
+          "status": "Bootleg"
+        },
+        {
+          "id": "c49aa531-fb89-46db-849d-fff1ad693dfc",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Let It Be",
+          "status": "Bootleg"
+        },
+        {
+          "id": "f2687628-fc73-4351-9fe6-1ae66beadd17",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "71f8ca21-35c6-433f-a5bc-75fa3e49cdcb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "3552fb92-cf05-4276-a052-5d22bbb41d30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "948dfa0a-814d-44ea-aa74-5f6658e6a9fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "13060fc5-8f32-41e8-86d9-8f81e3140ab3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "bdcd3291-80db-42d0-8011-a9adca6193b6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "79c313a5-0e50-4572-8aa6-fd0d297abd97",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "60ed52e9-7d16-44f4-b315-a1d4952000be",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "341a1aa9-cd9d-4836-b3c5-900426046a70",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "82a4adf2-008b-3236-bb7a-bd93d7ed9677",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "3851c29d-3c1a-3359-8af3-2d630efae40a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "e235d002-957b-382b-b57f-b2ddad1bb66b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "23f4c1d1-fd0e-3d56-ad43-4672e462e9fb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "38bf87e0-67da-3a93-bdb6-239076e65a9b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "0f7ceb30-b282-30ad-a4fd-936c657a94c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "58393369-71fc-4aa8-9c9e-38e508081240",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "da5b1889-7fee-4d97-8c76-94b25303b3b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "95dc0b60-b044-3406-9922-b49092e5972f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        },
+        {
+          "id": "0bb6c577-2f30-4440-9d25-863d28dc2715",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Let It Be",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 21,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "electronic"
+        },
+        {
+          "count": 0,
+          "name": "classical"
+        },
+        {
+          "count": 5,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "70s"
+        },
+        {
+          "count": 0,
+          "name": "ambient"
+        },
+        {
+          "count": 0,
+          "name": "jazz"
+        },
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 0,
+          "name": "british"
+        },
+        {
+          "count": 0,
+          "name": "uk"
+        },
+        {
+          "count": 0,
+          "name": "60s"
+        },
+        {
+          "count": 0,
+          "name": "hiphop"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 0,
+          "name": "psychedelic rock"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        },
+        {
+          "count": 0,
+          "name": "britpop"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 6,
+          "name": "pop rock"
+        },
+        {
+          "count": -1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "rhythm and blues"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 0,
+          "name": "brazil"
+        },
+        {
+          "count": 0,
+          "name": "psychadelic"
+        },
+        {
+          "count": 1,
+          "name": "merseybeat"
+        },
+        {
+          "count": 1,
+          "name": "energetic"
+        },
+        {
+          "count": 0,
+          "name": "british invasion rock"
+        },
+        {
+          "count": 1,
+          "name": "bittersweet"
+        },
+        {
+          "count": 1,
+          "name": "warm"
+        },
+        {
+          "count": 0,
+          "name": "r&b"
+        },
+        {
+          "count": -1,
+          "name": "classic rock; acoustic; psychedelic; folk rock; pop rock"
+        },
+        {
+          "count": 0,
+          "name": "classic rock; pop rock; piano; psychedelic; psychedelic rock"
+        },
+        {
+          "count": 1,
+          "name": "beat music"
+        },
+        {
+          "count": 1,
+          "name": "folk/country"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 0,
+          "name": "jahrescharts 2021"
+        },
+        {
+          "count": -1,
+          "name": "10 wochen"
+        },
+        {
+          "count": 0,
+          "name": "5+ wochen"
+        },
+        {
+          "count": 0,
+          "name": "artist on cover"
+        }
+      ]
+    }
+  ]
+}

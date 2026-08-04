@@ -1,0 +1,561 @@
+{
+  "albumId": "album-u2-achtung-baby-1991",
+  "query": "artist:\"U2\" AND releasegroup:\"Achtung Baby\" AND firstreleasedate:1991",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22U2%22%20AND%20releasegroup%3A%22Achtung%20Baby%22%20AND%20firstreleasedate%3A1991&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:38:48.220Z",
+  "count": 3,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "744c7a1b-ac79-35c4-bd92-7e2c6a24c8d8",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "39870f28-0220-31bb-8491-1acb67df1b7d",
+      "count": 44,
+      "title": "Achtung Baby",
+      "first-release-date": "1991-11-18",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "U2",
+          "artist": {
+            "id": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+            "name": "U2",
+            "sort-name": "U2",
+            "disambiguation": "Irish rock band",
+            "aliases": [
+              {
+                "sort-name": "유투",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "유투",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "U2 Kiwi",
+                "name": "U2 Kiwi",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "U2 - Until The",
+                "name": "U2 - Until The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1231df6a-1397-41dc-b487-16192d603096",
+          "title": "Achtung Baby"
+        },
+        {
+          "id": "e60206fb-ac24-4ae9-a0b0-29cf3a295ad7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "034b655b-a138-408e-a0df-8cbea861393d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "6a811be7-2460-4185-b50a-1940351f81e8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "77a1bcd9-c357-4152-8672-9938909d2e43",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "4f34a713-b3c3-4691-95ce-329c468436d7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "312e8ee7-14b7-4284-b61c-cc98ef13e690",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "d66470b2-61fc-415e-928b-7d50a9b20e82",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "435c5120-f1b0-460b-9aef-f55e13777898",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Achtung Baby Demos",
+          "status": "Bootleg"
+        },
+        {
+          "id": "380cae6f-e9bc-4cc9-882d-2cb342edc35a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "7281952d-2fd0-3aa9-a078-c8c4e97f6f3a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "27880764-ad01-4fc4-98c2-d135291adb9f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "1ad164a7-3880-4e18-a00b-90e2c76c3d72",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "7f62893c-6c8d-404e-8216-99f47c0f143b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "4fdac05b-de31-4da9-9211-816d5af1382d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "de0c577a-6591-4056-aa88-6302139f4bed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "3d7936a0-ccc6-4de7-bbfb-5f95372fbe6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "ad0482b7-3bf3-44ee-af89-a15976a3bfac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "7b7efaf0-53ca-4308-93fe-b6d82e5e138c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "63a1a901-8010-457b-aeeb-c873cc97bae2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "061b8ef6-f443-390f-8ac6-6dc16709896f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "95c3c4ed-56e7-4dc0-9aa3-4145f8b728c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "dc49b0dc-072a-3977-8aa8-5c3eb8ae4797",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "78d007fa-8064-4a43-be5f-6b956d35c6e4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "5b86b2ff-77e6-4c8c-9f36-7c4a274ad2e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "6123fa3a-ada4-4aff-bf3c-2d2438ab2e51",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "0ff822f3-5834-482f-a520-519b11ecffb3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "532e97da-3728-4360-8fb1-937972abe96d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "bd757d6e-2b3a-4bb0-8c60-f5e94a0d9841",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "5eaae9e9-dc4e-4cb8-8ae4-d57aa55e4c93",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "0cdefc52-868c-3c80-aa89-6530332365a5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "106336d1-870d-46fd-9b09-3e0545f5774f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "c744d79f-f1a9-45f8-8231-be34cf6b4be5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "e5af923d-4356-4649-8299-ddcfb6f71db4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "df2eb860-19cb-431c-919b-51bc86fb2f70",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "4ef8ff77-9d52-3950-8bab-02d8b13127b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "9b746946-202a-39b5-9964-9c578ad1c373",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "4aa89954-c3fd-308f-8f37-3e478e3e212c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "85587a3b-e4c9-3389-adef-cc0151c61408",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "4eea362a-d5ae-4b6c-b84c-8d0803528ef1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "bde8784b-ae7e-4553-9dda-1c4a19d3a56f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "a143c336-dae5-4dc7-a15f-8264a2fa2132",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "b8271363-265a-43b9-b9ac-488fd3a4811a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        },
+        {
+          "id": "0f20dea8-bf8a-3d93-bfa2-56d543209641",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Achtung Baby",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 13,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "synthpop"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 9,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "90s"
+        },
+        {
+          "count": 1,
+          "name": "post-punk"
+        },
+        {
+          "count": 2,
+          "name": "indie rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative"
+        },
+        {
+          "count": 1,
+          "name": "album rock"
+        },
+        {
+          "count": 1,
+          "name": "college rock"
+        },
+        {
+          "count": 10,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "alternative dance"
+        },
+        {
+          "count": 1,
+          "name": "rock pop"
+        },
+        {
+          "count": 1,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "adult alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "rock ballad"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "adult alternative pop/rock"
+        },
+        {
+          "count": 2,
+          "name": "dance-rock"
+        },
+        {
+          "count": 1,
+          "name": "vyrzukhisuc-album"
+        }
+      ]
+    },
+    {
+      "id": "3d7da38a-46dc-4a86-8549-e146d48eae0f",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 92,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "39870f28-0220-31bb-8491-1acb67df1b7d",
+      "count": 1,
+      "title": "Achtung Baby: Collection",
+      "first-release-date": "1991",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "U2",
+          "artist": {
+            "id": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+            "name": "U2",
+            "sort-name": "U2",
+            "disambiguation": "Irish rock band",
+            "aliases": [
+              {
+                "sort-name": "유투",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "유투",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "U2 Kiwi",
+                "name": "U2 Kiwi",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "U2 - Until The",
+                "name": "U2 - Until The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "2b30d051-2ec7-49a0-9ded-1ea9e7c5c0f6",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Achtung Baby: Collection",
+          "status": "Bootleg"
+        }
+      ]
+    },
+    {
+      "id": "cba810df-0dbc-46bb-a471-8d3b7e7fead6",
+      "type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+      "score": 86,
+      "primary-type-id": "4fc3be2b-de1e-396b-a933-beb8f1607a22",
+      "artist-credit-id": "39870f28-0220-31bb-8491-1acb67df1b7d",
+      "count": 1,
+      "title": "Achtung Baby Solicitation Kit",
+      "first-release-date": "1991-09",
+      "primary-type": "Other",
+      "artist-credit": [
+        {
+          "name": "U2",
+          "artist": {
+            "id": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+            "name": "U2",
+            "sort-name": "U2",
+            "disambiguation": "Irish rock band",
+            "aliases": [
+              {
+                "sort-name": "유투",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "유투",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "U2 Kiwi",
+                "name": "U2 Kiwi",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "U2 - Until The",
+                "name": "U2 - Until The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1bd22c40-d8f6-4425-bee8-1cfd9adf9a11",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Achtung Baby Solicitation Kit",
+          "status": "Promotion"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative rock"
+        }
+      ]
+    }
+  ]
+}

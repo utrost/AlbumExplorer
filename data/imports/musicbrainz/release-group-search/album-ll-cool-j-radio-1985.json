@@ -1,0 +1,224 @@
+{
+  "albumId": "album-ll-cool-j-radio-1985",
+  "query": "artist:\"LL Cool J\" AND releasegroup:\"Radio\" AND firstreleasedate:1985",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22LL%20Cool%20J%22%20AND%20releasegroup%3A%22Radio%22%20AND%20firstreleasedate%3A1985&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:27.295Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "32511a9b-a392-35ce-8173-b4b262229fc4",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5ede2161-7728-3b35-8775-17744acddaa6",
+      "count": 9,
+      "title": "Radio",
+      "first-release-date": "1985-11-18",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "L.L. Cool J",
+          "artist": {
+            "id": "a4dd0e77-83b8-4e92-89b7-effb0e47fd8c",
+            "name": "LL Cool J",
+            "sort-name": "LL Cool J",
+            "aliases": [
+              {
+                "sort-name": "エルエル・クール・ジェイ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルエル・クール・ジェイ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J., L.L.Cool",
+                "name": "L.L.Cool J.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "LL Cool J.",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "LL Cool J.",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "L. L. Cool J",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "L. L. Cool J",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "L.L. Cool J",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "L.L. Cool J",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Smith, J.T.",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "J.T. Smith",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Smith, Todd",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Todd Smith",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James T. Smith",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "James T. Smith",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Smith, James Todd",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "James Todd Smith",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "LL Cool J & The Dream",
+                "name": "LL Cool J & The Dream",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ladies Love Cool James",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ladies Love Cool James",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c822e862-0a87-46dd-be91-bfc10bbc22cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        },
+        {
+          "id": "39eae5d9-6070-4c6e-a32b-e068355b773c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        },
+        {
+          "id": "66747ded-023e-4ff2-8854-18b50fb75f5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        },
+        {
+          "id": "9ea8c48d-ef36-4ca8-a960-76f84a3b54d7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        },
+        {
+          "id": "f2156aba-61d3-43f1-a052-59da534c2628",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        },
+        {
+          "id": "9178130b-806b-426a-a8eb-9ca616a340c3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        },
+        {
+          "id": "b59e9da8-776f-31dd-9499-c795bd615ed9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        },
+        {
+          "id": "1c21764f-692b-46cf-b165-391c16b4553e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        },
+        {
+          "id": "5d3a317b-6802-4b07-8b46-2627836838e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Radio",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop"
+        },
+        {
+          "count": 5,
+          "name": "hip hop"
+        },
+        {
+          "count": 0,
+          "name": "great"
+        },
+        {
+          "count": 2,
+          "name": "east coast hip hop"
+        },
+        {
+          "count": 2,
+          "name": "hardcore hip hop"
+        }
+      ]
+    }
+  ]
+}

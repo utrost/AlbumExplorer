@@ -1,0 +1,168 @@
+{
+  "albumId": "album-drake-if-youre-reading-this-its-too-late-2015",
+  "query": "artist:\"Drake\" AND releasegroup:\"If You're Reading This It's Too Late\" AND firstreleasedate:2015",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Drake%22%20AND%20releasegroup%3A%22If%20You're%20Reading%20This%20It's%20Too%20Late%22%20AND%20firstreleasedate%3A2015&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:51:24.236Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "68d79778-aceb-486c-88a7-0abb3665344b",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c4a830d6-bcd5-36a9-80bb-fecc6bc92825",
+      "count": 8,
+      "title": "If You’re Reading This It’s Too Late",
+      "first-release-date": "2015-02-12",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Mixtape/Street"
+      ],
+      "secondary-type-ids": [
+        "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+      ],
+      "artist-credit": [
+        {
+          "name": "Drake",
+          "artist": {
+            "id": "9fff2f8a-21e6-47de-a2b8-7f449929d43f",
+            "name": "Drake",
+            "sort-name": "Drake",
+            "disambiguation": "Canadian rapper",
+            "aliases": [
+              {
+                "sort-name": "Drake",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ドレイク",
+                "locale": "ja_JP",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Champagne Papi",
+                "name": "Champagne Papi",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Graham, Aubrey Drake",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Aubrey Drake Graham",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "C. Papi",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "C. Papi",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f5075fa7-8774-4063-afdd-86c35e39e95f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "If You’re Reading This It’s Too Late",
+          "status": "Official"
+        },
+        {
+          "id": "4b7c3c24-5265-41c7-b2f3-d53c97680e6b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "If You’re Reading This It’s Too Late",
+          "status": "Official"
+        },
+        {
+          "id": "d89a78e5-6356-4769-a30b-5da3672ff39c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "If You’re Reading This It’s Too Late",
+          "status": "Official"
+        },
+        {
+          "id": "6544941b-2dd8-4e01-87ab-a643289896fc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "If You’re Reading This It’s Too Late",
+          "status": "Official"
+        },
+        {
+          "id": "cf5b3c45-52d2-4cfc-96d1-a6b08b216fa5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "If You’re Reading This It’s Too Late",
+          "status": "Official"
+        },
+        {
+          "id": "f8d580e2-7834-45cc-9960-4ec333aa9404",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "If You’re Reading This It’s Too Late",
+          "status": "Official"
+        },
+        {
+          "id": "26d2002d-cd52-4774-88f2-7ee6d4f53503",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "If You’re Reading This It’s Too Late",
+          "status": "Official"
+        },
+        {
+          "id": "88c00a95-159a-47e8-84e9-38fa22c6a868",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "If You’re Reading This It's Too Late",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "hip-hop"
+        },
+        {
+          "count": 3,
+          "name": "hip hop"
+        },
+        {
+          "count": 4,
+          "name": "pop rap"
+        },
+        {
+          "count": 2,
+          "name": "drake"
+        },
+        {
+          "count": 1,
+          "name": "contemporary r&b"
+        },
+        {
+          "count": 0,
+          "name": "hip-hop/rap"
+        },
+        {
+          "count": 1,
+          "name": "alternative r&b"
+        },
+        {
+          "count": 1,
+          "name": "trap"
+        },
+        {
+          "count": 1,
+          "name": "cloud rap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "albumId": "album-john-lennon-imagine-1971",
+  "query": "artist:\"John Lennon\" AND releasegroup:\"Imagine\" AND firstreleasedate:1971",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22John%20Lennon%22%20AND%20releasegroup%3A%22Imagine%22%20AND%20firstreleasedate%3A1971&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:26.401Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b86a199c-2773-409a-a082-363bce0c727b",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "1f699e99-6a71-3d36-9fbb-d693da503683",
+      "count": 4,
+      "title": "Imagine",
+      "first-release-date": "1971-10-11",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "John Lennon",
+          "artist": {
+            "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+            "name": "John Lennon",
+            "sort-name": "Lennon, John",
+            "disambiguation": "The Beatles",
+            "aliases": [
+              {
+                "sort-name": "Leg-Thigh, Winston",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Winston Leg-Thigh",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1968-12-11",
+                "end-date": "1968-12-11"
+              },
+              {
+                "sort-name": "Lennon, John Winston",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "John Winston Lennon",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1940-09-09",
+                "end-date": "1969-04-22"
+              },
+              {
+                "sort-name": "Леннон, Джон",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Джон Леннон",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lenons, Dž.",
+                "name": "Dž.Lenons",
+                "locale": "lv",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Booker Table and The Maitre D's",
+                "name": "Booker Table and The Maitre D's",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lennon",
+                "name": "Lennon",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Джон",
+                "name": "Джон",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Torment, Mel",
+                "name": "Mel Torment",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwarf McDougal",
+                "name": "Dwarf McDougal",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J. Lennon",
+                "name": "J. Lennon",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dad",
+                "name": "Dad",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ono Lennon, John Winston",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "John Winston Ono Lennon",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1969-04-22",
+                "end-date": null
+              },
+              {
+                "sort-name": "Dr. Dream",
+                "name": "Dr. Dream",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John O'Cean",
+                "name": "John O'Cean",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hon. John St. John Johnson",
+                "name": "Hon. John St. John Johnson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dr. Winston O'Boogie",
+                "name": "Dr. Winston O'Boogie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lhennj Ono",
+                "name": "Lhennj Ono",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Joel Nohnn",
+                "name": "Joel Nohnn",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kaptain Kundalini",
+                "name": "Kaptain Kundalini",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ghurkin, Rev. Fred",
+                "name": "Rev. Fred Ghurkin",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Musketeer Gripweed & The Third Troop",
+                "name": "Musketeer Gripweed & The Third Troop",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジョン・レノン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ジョン・レノン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lennon, John",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "John Lennon",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f1b75d2d-ba2b-469d-989b-9d3f3a3adaaf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "dbeb851b-ad68-43ab-9706-7f1ecd2bf59d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "5faec20c-6d05-4389-b156-540b7fbb73f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "15f9173b-58c9-4156-8bd8-8d78caed5431",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "ballad"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "f242f304-0f1f-33a5-81a2-7a965b30e3b5",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "1f699e99-6a71-3d36-9fbb-d693da503683",
+      "count": 49,
+      "title": "Imagine",
+      "first-release-date": "1971-09-09",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "John Lennon",
+          "artist": {
+            "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+            "name": "John Lennon",
+            "sort-name": "Lennon, John",
+            "disambiguation": "The Beatles",
+            "aliases": [
+              {
+                "sort-name": "Leg-Thigh, Winston",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Winston Leg-Thigh",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1968-12-11",
+                "end-date": "1968-12-11"
+              },
+              {
+                "sort-name": "Lennon, John Winston",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "John Winston Lennon",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1940-09-09",
+                "end-date": "1969-04-22"
+              },
+              {
+                "sort-name": "Леннон, Джон",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Джон Леннон",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lenons, Dž.",
+                "name": "Dž.Lenons",
+                "locale": "lv",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Booker Table and The Maitre D's",
+                "name": "Booker Table and The Maitre D's",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lennon",
+                "name": "Lennon",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Джон",
+                "name": "Джон",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Torment, Mel",
+                "name": "Mel Torment",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwarf McDougal",
+                "name": "Dwarf McDougal",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J. Lennon",
+                "name": "J. Lennon",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dad",
+                "name": "Dad",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ono Lennon, John Winston",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "John Winston Ono Lennon",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1969-04-22",
+                "end-date": null
+              },
+              {
+                "sort-name": "Dr. Dream",
+                "name": "Dr. Dream",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John O'Cean",
+                "name": "John O'Cean",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hon. John St. John Johnson",
+                "name": "Hon. John St. John Johnson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dr. Winston O'Boogie",
+                "name": "Dr. Winston O'Boogie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lhennj Ono",
+                "name": "Lhennj Ono",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Joel Nohnn",
+                "name": "Joel Nohnn",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kaptain Kundalini",
+                "name": "Kaptain Kundalini",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ghurkin, Rev. Fred",
+                "name": "Rev. Fred Ghurkin",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Musketeer Gripweed & The Third Troop",
+                "name": "Musketeer Gripweed & The Third Troop",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジョン・レノン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ジョン・レノン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lennon, John",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "John Lennon",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "119e92f9-bfa9-4b7e-9c9f-68bf7a29aef9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "eb7b8b34-c90c-403a-a0b5-5f437846c9fb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "289568a6-f241-4191-98bf-4571c8372ccb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "a04c066a-5ee5-473e-9ebb-f4515672d491",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "7ec5002b-f1ce-47cc-a4ef-55dd1fcf1696",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Imagine",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "e0c77c95-49f7-4500-b506-b38b90aa1db5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "f4222a7b-1fed-4ba2-becf-6ae703c94c9c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "61da61c2-1e85-4ccf-9234-7ab15569b43b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "fa36373e-a03b-49b9-b158-074be4fea4cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "30acdf95-78bf-39fd-b3ac-300ae9eb16a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "ae1c2dcb-1034-38d0-9c34-a77ba91fbb9a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "5a744dda-d34b-4258-bc81-8822dccd8aca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "32629f50-a8ab-4af6-b4f4-678022a3723e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "6f3648fb-5057-481e-8b86-7dd11babf793",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "494f91b3-e2cb-4da4-aae9-36a119c4f818",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine: The Ultimate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "c1314bba-7cfa-46ae-aece-cf92827da7b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "f9e2f0cb-5318-41e6-bfc9-8e9e1224f12c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "9cc1c0c1-3cf4-46a2-a41a-7b52e86aec45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "9d977047-7adf-4407-9ad1-61c3a28954dd",
+          "title": "Imagine"
+        },
+        {
+          "id": "0c79242a-4ab9-46a0-af9d-48c971b474d9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "e6c87512-0926-4d24-8688-a14ec7d27cfe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "4944f5db-03b9-41b6-a6ce-127506e63062",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "f1f8b612-3e31-4474-88ce-a3ecebbfff12",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "f056de2b-1d34-4d4c-a8f9-0ea74e695538",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine: The Ultimate Collection",
+          "status": "Official"
+        },
+        {
+          "id": "3e517b71-f1c7-40ad-a794-2de585720737",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "cdc79a2e-aeff-45b3-af64-7036d6ae72ba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "31389f67-2633-4f10-9714-a80fb9e12902",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "e0638ff2-cd5c-4520-bf79-0ebb82ba71ad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "46ec59e3-1812-4249-8e35-4f87da0141d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "3531293a-85f1-37f1-b1c2-325492ec6850",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "82ce127e-e2fc-42a9-b6c3-08722cb720e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "26db8eea-32d8-45e3-bd63-7a510fee75f3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "d70e904d-77da-4202-a53e-5d3a2f1fe12e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "54420209-af69-493d-906b-0956c7a01c83",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "06ac3e39-54fb-46eb-b40b-9345b7d2a23d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "8ca075a7-f38c-459a-8629-5782e28e1b86",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "532a1965-cd4c-4a9a-9912-12942e1ed485",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "25ecefb1-e5bb-4b21-9c2a-ec278318aa63",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "52c327ca-c121-4e90-b0a7-117c8f11121b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "701d5fd6-c5ec-4a65-8d47-438e6f523951",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "ea41ff94-fc40-4c9f-84be-98674c90cf98",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "f237e6a0-4b0e-4722-8172-66f4930198bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "4e8cdfe9-0515-467c-a1eb-5087167a5733",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "bf81cd18-f7e3-375e-aaa9-05b9c93ed290",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "d4b6b47d-8243-47e0-8733-d5503c58c4da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "f2edb173-2e3a-4222-b6fa-5fc7f8b373a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "0cdc8f6b-ce1d-457b-885d-4fa31e8307c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "a6083174-371e-4b25-a8bb-269b36d344cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        },
+        {
+          "id": "6d03cf41-603d-4009-a4e5-628f413eac30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Imagine",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 14,
+          "name": "rock"
+        },
+        {
+          "count": 5,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "70s"
+        },
+        {
+          "count": 2,
+          "name": "folk"
+        },
+        {
+          "count": 1,
+          "name": "experimental"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 0,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "ballad"
+        },
+        {
+          "count": 2,
+          "name": "album rock"
+        },
+        {
+          "count": 1,
+          "name": "soft rock"
+        },
+        {
+          "count": 6,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "piano rock"
+        },
+        {
+          "count": 4,
+          "name": "rock singer-songwriter"
+        },
+        {
+          "count": 0,
+          "name": "death by murder"
+        },
+        {
+          "count": 0,
+          "name": "death by gun"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "rock/pop"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "5+ wochen"
+        }
+      ]
+    }
+  ]
+}

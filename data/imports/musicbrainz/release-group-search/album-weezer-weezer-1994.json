@@ -1,0 +1,368 @@
+{
+  "albumId": "album-weezer-weezer-1994",
+  "query": "artist:\"Weezer\" AND releasegroup:\"Weezer\" AND firstreleasedate:1994",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Weezer%22%20AND%20releasegroup%3A%22Weezer%22%20AND%20firstreleasedate%3A1994&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:06:52.013Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "c7b245c9-8099-32ea-af95-893acedde2cf",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "41f04ee4-0be3-3a3c-b1fd-99c5bedf84a5",
+      "count": 37,
+      "title": "Weezer",
+      "disambiguation": "Blue Album",
+      "first-release-date": "1994-05-10",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Weezer",
+          "artist": {
+            "id": "6fe07aa5-fec0-4eca-a456-f29bff451b04",
+            "name": "Weezer",
+            "sort-name": "Weezer",
+            "disambiguation": "American rock band",
+            "aliases": [
+              {
+                "sort-name": "ウィーザー",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ウィーザー",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "98855484-4b23-43de-b5d9-9677b21c0b1f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "weezer",
+          "status": "Official"
+        },
+        {
+          "id": "2f7cea85-c4b4-46cf-961b-b7893dcb65e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "8e5479ee-a9f2-48c7-a916-84bfc99c8bdd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer 30",
+          "status": "Official"
+        },
+        {
+          "id": "6edb4ab8-f7ac-411f-9fe6-0697b7ff0baa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer 30",
+          "status": "Official"
+        },
+        {
+          "id": "5af5c128-d716-42c4-bb75-33d364c0d768",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Weezer",
+          "status": "Promotion"
+        },
+        {
+          "id": "ad436b12-d8ef-452d-a593-828cf91f4c19",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "fc5418fc-2124-48ab-8618-26e2307c667c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "2f73ec94-66ef-442a-8ad3-498bf3fb6ea1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "e8414dbf-c343-4e06-80c7-393f1c680254",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "a40c510b-c51a-4f4f-a193-ba8ca2c9ed30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "e0c63063-a4f4-4a0a-b91e-355f2decbe21",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "c5eaaa01-0a5d-4450-8361-55e33eba7842",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "73698ebd-069e-4bed-9fd6-9b196be45e0d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "69ecb194-c2c7-4b7d-8cc4-b158bdd02882",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer (rarities edition)",
+          "status": "Official"
+        },
+        {
+          "id": "c4510228-2383-47ff-8f7f-f0e593d273ef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "e5baab1c-27b3-4747-9da2-532e56967416",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "51d34c4e-312e-4462-b754-9c0dc482002a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "d8850386-2cae-422a-9e5e-12635838e359",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "b072b162-a733-3137-a4a0-4375172d98c9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "3a8a6113-03dc-46a2-aa94-2b25e553fb64",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "4a8baee0-46ed-4b2b-87dd-127c21e93830",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "60d2251d-bcd4-4dcc-b6c7-51a567ac0a5e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "23932042-640b-4a49-b707-2f7a3ca1969f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "66a48be4-9616-4eff-a7b4-9928c412082a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer 30",
+          "status": "Official"
+        },
+        {
+          "id": "5aba46bb-e00c-4f0b-8137-ee64727a265e",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Weezer (deluxe edition)",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "2279443f-991e-3f3e-9705-861d0aba339d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "b8de8ec7-da37-46af-ae3a-f91a7a0149f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "87d6b918-5861-4a21-85ee-0daa0ffdd4b6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "1e477f68-c407-4eae-ad01-518528cedc2c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "f1d1b5eb-a823-4dee-83bf-fd8dd16bfcf6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "358dae74-7e5f-4873-b610-c3ae7cc2de1f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "5a90bd38-62b6-46f5-9c39-cfceba169019",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "4cd23160-9f84-4626-ba7f-87b9ba5fc81a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "e7502670-ca88-4ec3-aa1b-eb5cba687d54",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "74e8a204-47d1-485b-88dc-d391ee28e644",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "d72b97d2-e713-4913-b48e-d77b1652a26f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Weezer",
+          "status": "Official"
+        },
+        {
+          "id": "7c2446af-62d8-4775-bbd0-51c36ef9e79c",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Weezer",
+          "status": "Promotion"
+        }
+      ],
+      "tags": [
+        {
+          "count": 9,
+          "name": "rock"
+        },
+        {
+          "count": 18,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "indie rock"
+        },
+        {
+          "count": 6,
+          "name": "power pop"
+        },
+        {
+          "count": 1,
+          "name": "emo"
+        },
+        {
+          "count": 1,
+          "name": "alternative"
+        },
+        {
+          "count": 1,
+          "name": "américain"
+        },
+        {
+          "count": 0,
+          "name": "post-grunge"
+        },
+        {
+          "count": 1,
+          "name": "1994"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 3,
+          "name": "pop punk"
+        },
+        {
+          "count": 1,
+          "name": "garage rock"
+        },
+        {
+          "count": 2,
+          "name": "geek rock"
+        },
+        {
+          "count": 2,
+          "name": "alternative pop"
+        },
+        {
+          "count": 1,
+          "name": "english"
+        },
+        {
+          "count": 1,
+          "name": "punk-pop"
+        },
+        {
+          "count": 2,
+          "name": "alternative and punk"
+        },
+        {
+          "count": 1,
+          "name": "for sale or swap"
+        },
+        {
+          "count": 1,
+          "name": "self-titled"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "5+ wochen"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "albumId": "album-eurythmics-touch-1984",
+  "query": "artist:\"Eurythmics\" AND releasegroup:\"Touch\" AND firstreleasedate:1984",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Eurythmics%22%20AND%20releasegroup%3A%22Touch%22%20AND%20firstreleasedate%3A1984&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:13:07.573Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "48339fe3-c8ad-3a94-9b67-de858348c7c5",
+      "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "12ad9411-bb4a-3786-bd9a-1ca314eda516",
+      "count": 7,
+      "title": "Touch Dance",
+      "first-release-date": "1984-05-28",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Remix"
+      ],
+      "secondary-type-ids": [
+        "0c60f497-ff81-3818-befd-abfc84a4858b"
+      ],
+      "artist-credit": [
+        {
+          "name": "Eurythmics",
+          "artist": {
+            "id": "b4d32cff-f19e-455f-86c4-f347d824ca61",
+            "name": "Eurythmics",
+            "sort-name": "Eurythmics",
+            "aliases": [
+              {
+                "sort-name": "Eurythmics, Annie Lennox & David A. Stewart",
+                "name": "Eurythmics, Annie Lennox & David A. Stewart",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ユーリズミックス",
+                "name": "ユーリズミックス",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eurithmics",
+                "name": "Eurithmics",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eurthymics",
+                "name": "Eurthymics",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eurythmic",
+                "name": "Eurythmic",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Eurythmics",
+                "name": "The Eurythmics",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "ea027d08-fcbb-4aa7-a4ea-30cc30c33168",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Touch Dance",
+          "status": "Official"
+        },
+        {
+          "id": "1c1fd838-19a5-4960-aba1-7de3561a9da1",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Touch Dance",
+          "status": "Promotion"
+        },
+        {
+          "id": "73f832ce-ff09-478b-a3b6-8c38ab8ef4a8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Touch Dance",
+          "status": "Official"
+        },
+        {
+          "id": "d6aaa453-3ab6-49d5-a14a-b84d9065d683",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Touch Dance",
+          "status": "Official"
+        },
+        {
+          "id": "936eadea-648c-4b7e-913a-d6f7d197d3b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Touch Dance",
+          "status": "Official"
+        },
+        {
+          "id": "da463bbf-ed8a-4d79-863f-66c997d867fd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Touch Dance",
+          "status": "Official"
+        },
+        {
+          "id": "10de3288-88ab-413d-a3fa-c81e2d8f6e13",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Touch Dance",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 2,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "new wave"
+        },
+        {
+          "count": 1,
+          "name": "synth-pop"
+        },
+        {
+          "count": 1,
+          "name": "synth pop"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "punk/new wave"
+        },
+        {
+          "count": 2,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "dance-rock"
+        }
+      ]
+    }
+  ]
+}

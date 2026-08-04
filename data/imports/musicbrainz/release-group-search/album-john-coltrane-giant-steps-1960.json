@@ -1,0 +1,516 @@
+{
+  "albumId": "album-john-coltrane-giant-steps-1960",
+  "query": "artist:\"John Coltrane\" AND releasegroup:\"Giant Steps\" AND firstreleasedate:1960",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22John%20Coltrane%22%20AND%20releasegroup%3A%22Giant%20Steps%22%20AND%20firstreleasedate%3A1960&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:47.860Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "2cdca11d-3e45-3152-93e5-4d2a4ddb1bc6",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5f4424c9-923a-3a84-bb67-f185e6ecca3d",
+      "count": 41,
+      "title": "Giant Steps",
+      "first-release-date": "1960-01-27",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "John Coltrane",
+          "artist": {
+            "id": "b625448e-bf4a-41c3-a421-72ad46cdb831",
+            "name": "John Coltrane",
+            "sort-name": "Coltrane, John",
+            "aliases": [
+              {
+                "sort-name": "J. Coltrane",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "J. Coltrane",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blue Train",
+                "name": "Blue Train",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J.Coltrane",
+                "name": "J.Coltrane",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Coltrane, John William",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "John William Coltrane",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Coltraine",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Coltraine",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Coltrane",
+                "name": "Coltrane",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジョン・コルトレーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ジョン・コルトレーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Trane",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Trane",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "23caefba-ed31-4eda-ba22-c79a0c8c5613",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "eadadd16-3098-4703-92cb-31c441352b66",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "2dd78e3e-faaf-456a-ae9a-98edd7e45615",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "937d7e00-00b3-4e8d-8e74-d9cba4d2e017",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "de972098-d456-4302-b0db-b23accdfc051",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "5ae19415-be5e-4612-8127-e574df67edf0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "805197b5-8a7b-4d0b-afba-c61ee216fdf3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "460cdb21-9274-4d4e-94c2-191620da7512",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "3f6907c4-5ea0-46d7-b4f9-5937facca269",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "1da89017-e965-4071-b077-e9be0d575381",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "efa183b4-66ec-4067-a4bf-b60f99088872",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "f1ecaf22-7422-4e36-95a9-3f1ea383f209",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "fcfc015d-2f60-4aff-aae2-ef06eedb99ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "b7e33af4-39d9-47d6-873d-6cceecee27d0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "22689758-ffc1-450f-bb48-52b577077dba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "bef82569-dec7-4e6a-b97b-93bb57861653",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "f700c811-9833-40b5-936e-feee4952de1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "d406e156-7e10-403e-8fdc-e165b5067f09",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "5bb94b51-263b-4fb3-8bf5-e874a19412ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps = ジャイアント・ステップス",
+          "status": "Official"
+        },
+        {
+          "id": "d81cd25b-6c0d-462a-9bf7-41eac9f81dac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "6c9cbde4-f557-4eaa-90f0-25c1801b01fb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "9e21516a-b9f5-4461-919f-93a39b636c05",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "3c770cf0-5234-4377-b8ac-4f189ffc9bd4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "78cd4894-3c96-423a-b9f2-eaa81befda07",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "e31e8235-d8c5-4d48-b1ad-96624f584896",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "4117a87c-ca5a-48a0-92f7-38e97f704591",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "39545d6d-2283-4ef4-a456-0a90cb837abc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "58e5f80d-a7ca-4c70-a66b-806c23444ca7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "5c501883-817c-45aa-88a4-10f7d0a31ea9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "830ba33a-c6f9-4107-a618-ad8102f633bd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "9c5a6b2c-b786-3ca4-a373-7ccd30712f13",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "4b9ce99c-3f37-3437-86f9-5eb08cb76277",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "6d0a7f0e-95db-35a3-bf89-37ab24c8a1df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "b1cf4cea-24bd-3d51-b689-5addfb82f914",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "aeeb97ce-e509-4afd-87b9-9538bb252e10",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "39e42e08-b7b7-42fd-8f6a-e7539f6e2ecc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "59eece9d-0b48-4282-ba91-45bd7758e633",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "d4414a90-a3e1-42f1-92bd-ad6ff1f743c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "d10394d4-e645-3896-8396-412ba59be618",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "b3132030-3c55-48e4-bf9b-a9d28d24cdd4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        },
+        {
+          "id": "9c2c7adf-e818-34e6-b410-095019b6c1fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": -1,
+          "name": "instrumental"
+        },
+        {
+          "count": 13,
+          "name": "jazz"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 2,
+          "name": "post-bop"
+        },
+        {
+          "count": 7,
+          "name": "hard bop"
+        },
+        {
+          "count": 2,
+          "name": "modal jazz"
+        },
+        {
+          "count": 0,
+          "name": "post bop"
+        },
+        {
+          "count": 0,
+          "name": "jazz instrument"
+        }
+      ]
+    },
+    {
+      "id": "ac831627-08d3-42dd-b4bf-427270c7b41d",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 86,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "d52c7a6b-29d7-4150-9eba-796016227994",
+      "count": 1,
+      "title": "Giant Steps",
+      "first-release-date": "1960",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "joinphrase": " et son quartette",
+          "name": "John Coltrane",
+          "artist": {
+            "id": "b625448e-bf4a-41c3-a421-72ad46cdb831",
+            "name": "John Coltrane",
+            "sort-name": "Coltrane, John",
+            "aliases": [
+              {
+                "sort-name": "J. Coltrane",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "J. Coltrane",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blue Train",
+                "name": "Blue Train",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J.Coltrane",
+                "name": "J.Coltrane",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Coltrane, John William",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "John William Coltrane",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Coltraine",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Coltraine",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Coltrane",
+                "name": "Coltrane",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジョン・コルトレーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ジョン・コルトレーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Trane",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Trane",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f18ec45c-35c6-418d-96ef-37dffa64dd9f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Giant Steps",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "jazz"
+        },
+        {
+          "count": 1,
+          "name": "post-bop"
+        },
+        {
+          "count": 1,
+          "name": "hard bop"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "albumId": "album-little-richard-heres-little-richard-1957",
+  "query": "artist:\"Little Richard\" AND releasegroup:\"Here's Little Richard\" AND firstreleasedate:1957",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Little%20Richard%22%20AND%20releasegroup%3A%22Here's%20Little%20Richard%22%20AND%20firstreleasedate%3A1957&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:38.000Z",
+  "count": 5,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "a987042b-4fe0-35bb-9cca-7ff44b1ff5b4",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "4c8d5a3e-1685-353f-871b-2fad19d54a3d",
+      "count": 12,
+      "title": "Here’s Little Richard",
+      "first-release-date": "1957-03",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Little Richard",
+          "artist": {
+            "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+            "name": "Little Richard",
+            "sort-name": "Little Richard",
+            "aliases": [
+              {
+                "sort-name": "Richard W. Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard W. Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Little Richard and the Royal Company",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Little Richard and the Royal Company",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "リトル・リチャード",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "リトル・リチャード",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Littla Richard",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Littla Richard",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Richard Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Penniman, Richard Wayne",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Richard Wayne Penniman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "160df1bf-22be-4eaa-9482-90fe071b527b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "31ba0acf-42f5-4670-9040-21e4504df5ad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "8a13f9bd-2807-4195-8261-65b12a2eef77",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "eef0a586-8df4-4ad7-adbc-cce637393b17",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard (Remastered & Expanded)",
+          "status": "Official"
+        },
+        {
+          "id": "731ce9bc-e00a-32b9-88c1-c938c2c17955",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "5e595271-9912-46b8-8060-587df3e9f97a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here's Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "1a171279-fa6c-38f3-be6c-bfc8e2e2c480",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "50d23d67-9a2c-4eca-800d-881c4e3f6f2a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "100ebec0-8497-42bd-b5f8-4d7102d01172",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "fb69c13e-c1d4-4680-aa36-1f6c437015b9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here’s Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "492475e3-a815-476d-b97b-1e64305c9821",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here's Little Richard",
+          "status": "Official"
+        },
+        {
+          "id": "de258922-d3a8-49a2-a023-51adac63f8c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here's Little Richard",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "oldies"
+        },
+        {
+          "count": 0,
+          "name": "retro rock"
+        },
+        {
+          "count": 3,
+          "name": "rock & roll"
+        },
+        {
+          "count": 1,
+          "name": "rhythm & blues"
+        }
+      ]
+    },
+    {
+      "id": "fdf20b1a-ac0d-4e8d-bc3b-d045e4394251",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 100,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "4c8d5a3e-1685-353f-871b-2fad19d54a3d",
+      "count": 1,
+      "title": "Here's Little Richard",
+      "first-release-date": "1957-03",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "Little Richard",
+          "artist": {
+            "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+            "name": "Little Richard",
+            "sort-name": "Little Richard",
+            "aliases": [
+              {
+                "sort-name": "Richard W. Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard W. Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Little Richard and the Royal Company",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Little Richard and the Royal Company",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "リトル・リチャード",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "リトル・リチャード",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Littla Richard",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Littla Richard",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Richard Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Penniman, Richard Wayne",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Richard Wayne Penniman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "23dbb4b8-1d61-429e-97a6-49c8e136c15d",
+          "title": "Here's Little Richard"
+        }
+      ]
+    },
+    {
+      "id": "ab41acdd-4e28-44df-9c33-17b8743005d9",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 100,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "4c8d5a3e-1685-353f-871b-2fad19d54a3d",
+      "count": 1,
+      "title": "Here's Little Richard",
+      "first-release-date": "1957",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "Little Richard",
+          "artist": {
+            "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+            "name": "Little Richard",
+            "sort-name": "Little Richard",
+            "aliases": [
+              {
+                "sort-name": "Richard W. Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard W. Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Little Richard and the Royal Company",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Little Richard and the Royal Company",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "リトル・リチャード",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "リトル・リチャード",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Littla Richard",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Littla Richard",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Richard Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Penniman, Richard Wayne",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Richard Wayne Penniman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "fed3f03d-4471-4d0f-8347-a860a0b6febf",
+          "title": "Here's Little Richard"
+        }
+      ]
+    },
+    {
+      "id": "38de290c-c853-438a-82c1-aaeabdb0ac1c",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 87,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "5a8ba2db-f50a-45ec-a49f-2b29afe8d81f",
+      "count": 1,
+      "title": "Here's Little Richard",
+      "first-release-date": "1957-02",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "Little Richard And His Band",
+          "artist": {
+            "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+            "name": "Little Richard",
+            "sort-name": "Little Richard",
+            "aliases": [
+              {
+                "sort-name": "Richard W. Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard W. Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Little Richard and the Royal Company",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Little Richard and the Royal Company",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "リトル・リチャード",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "リトル・リチャード",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Littla Richard",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Littla Richard",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Richard Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Penniman, Richard Wayne",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Richard Wayne Penniman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "8b413ff9-b0cc-4cb1-8ec3-93b7a62eaa90",
+          "title": "Here's Little Richard"
+        }
+      ]
+    },
+    {
+      "id": "e89479e5-a061-4ccd-9566-eb3f49a1d9d9",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 87,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "5a8ba2db-f50a-45ec-a49f-2b29afe8d81f",
+      "count": 1,
+      "title": "Here's Little Richard",
+      "first-release-date": "1957-02",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "Little Richard And His Band",
+          "artist": {
+            "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+            "name": "Little Richard",
+            "sort-name": "Little Richard",
+            "aliases": [
+              {
+                "sort-name": "Richard W. Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard W. Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Little Richard and the Royal Company",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Little Richard and the Royal Company",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "リトル・リチャード",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "リトル・リチャード",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Littla Richard",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Littla Richard",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Richard Penniman",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Richard Penniman",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Penniman, Richard Wayne",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Richard Wayne Penniman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "074a2b4f-1e1f-4eb4-b6e7-587eabcededf",
+          "title": "Here's Little Richard"
+        }
+      ]
+    }
+  ]
+}

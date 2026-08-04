@@ -1,0 +1,383 @@
+{
+  "albumId": "album-elton-john-tumbleweed-connection-1970",
+  "query": "artist:\"Elton John\" AND releasegroup:\"Tumbleweed Connection\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Elton%20John%22%20AND%20releasegroup%3A%22Tumbleweed%20Connection%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:07.298Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4fed2c09-60cd-36ca-9db1-c9c016bb1f0b",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "414118f3-533f-3f32-a9d9-7ab6e107353d",
+      "count": 21,
+      "title": "Tumbleweed Connection",
+      "first-release-date": "1970-10-30",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Elton John",
+          "artist": {
+            "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+            "name": "Elton John",
+            "sort-name": "John, Elton",
+            "disambiguation": "English singer, songwriter, pianist, and composer",
+            "aliases": [
+              {
+                "sort-name": "Reg Dwight",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Reg Dwight",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John, Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E. John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "E. John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elthon John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elthon John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton Hercules",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Elton Hercules John",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1972-01-07",
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Eltonas",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eltonas Džonas",
+                "locale": "lt",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Seras Eltonas",
+                "name": "Seras Eltonas Džonas",
+                "locale": "lt",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald Kenneth",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Reginald Kenneth Dwight",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1947-03-25",
+                "end-date": "1972-01-07"
+              },
+              {
+                "sort-name": "エルトン・ジョン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルトン・ジョン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald",
+                "name": "Reginald Dwight",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Orson, Ann",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ann Orson",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton John",
+                "name": "Sir Elton John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elton Jphn",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elton Jphn",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton Hercules John",
+                "name": "Sir Elton Hercules John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "9ff56b4a-e58e-494e-a7e5-6223c9f2d0d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "c7d86601-d503-4b3e-9b3d-4931d2816395",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "00205777-3686-4271-a038-f0aaaec785bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "cdd63811-5c17-41a1-aa95-73d0fac9b957",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "51ebc814-191a-4c8a-8e5f-3693fcb545a9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "e22564ac-9d0a-4117-9a03-3171ea5db4df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "2adff5b1-0711-4330-97de-79fa84c1bb08",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "f385256a-1494-4fd4-9b56-9ab85f0bdb6f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "a74d72d6-dba1-42d8-8740-673efd873835",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "bde0c61c-9290-492e-9d6a-287b109635c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "1c77b378-5acf-43aa-b8a8-edfbb85f4ba9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "46aad594-9f85-4070-b240-327dd5cbf652",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "99f035c3-83a5-4702-ba4a-22afaa4670b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "26a883f3-cadf-469b-aea6-d7971964e487",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "3392a548-8cef-4721-9f8a-e8519439d336",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "3f19e253-7052-37c9-a0ca-9011e419157f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "d03f596f-908f-3f49-b95f-3d6b907caa35",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "c3cbb82a-6d78-48e4-b621-77196d8d3a84",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "e3f32adb-1912-4013-889e-517677349c6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "a55ba40c-0bfe-4d43-844f-d476ca546908",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        },
+        {
+          "id": "6d71dc6d-b72e-4c1d-8bf1-5f06243c2261",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Tumbleweed Connection",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": -1,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 1,
+          "name": "country"
+        },
+        {
+          "count": 2,
+          "name": "country rock"
+        },
+        {
+          "count": 0,
+          "name": "ballad"
+        },
+        {
+          "count": 1,
+          "name": "album rock"
+        },
+        {
+          "count": 1,
+          "name": "soft rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "piano rock"
+        },
+        {
+          "count": 1,
+          "name": "roots rock"
+        },
+        {
+          "count": 0,
+          "name": "country-rock"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "rock & roll"
+        },
+        {
+          "count": 2,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 2,
+          "name": "rock/pop"
+        }
+      ]
+    }
+  ]
+}

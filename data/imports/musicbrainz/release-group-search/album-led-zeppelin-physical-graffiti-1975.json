@@ -1,0 +1,533 @@
+{
+  "albumId": "album-led-zeppelin-physical-graffiti-1975",
+  "query": "artist:\"Led Zeppelin\" AND releasegroup:\"Physical Graffiti\" AND firstreleasedate:1975",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Led%20Zeppelin%22%20AND%20releasegroup%3A%22Physical%20Graffiti%22%20AND%20firstreleasedate%3A1975&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:40:23.312Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "116c9490-6af4-3827-8261-2d5b1f508fe7",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "94b69d88-4662-335d-a9a5-43d8aae6bf20",
+      "count": 46,
+      "title": "Physical Graffiti",
+      "first-release-date": "1975-02-24",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Led Zeppelin",
+          "artist": {
+            "id": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+            "name": "Led Zeppelin",
+            "sort-name": "Led Zeppelin",
+            "aliases": [
+              {
+                "sort-name": "レッド・ツェッペリン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "レッド・ツェッペリン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zeppelin",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Led Zeppelin",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レッド・ゼップ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "レッド・ゼップ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レッドゼップ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "レッドゼップ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ゼップ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "ゼップ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ledzep",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "ledzep",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bootleg Zeppelin",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bootleg Zeppelin",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "LZ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "LZ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zepplelin",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Led Zepplelin",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zepellin",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Led Zepellin",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レッド ツェッペリン",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "レッド ツェッペリン",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レッドツェッペリン",
+                "name": "レッドツェッペリン",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zepplin",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Led Zepplin",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zep",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Led Zep",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3277201d-74dc-4d9b-acd6-f4393a5afa60",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "9fb6891a-b87f-4d0a-85ed-2c84f9d000c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "2160f0e6-d8bf-4f08-868c-2e511130b6b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "1b66f202-2259-47b7-8a05-b1159a22bfbb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "1d9215a9-56ed-414b-b3f5-d648112171f0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "d94e4232-8e16-48e6-b54d-43e61552e92b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "987fb639-4f31-47ea-b4f2-8457f3d1ffc2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "4a7e5ad6-6690-40e2-ae8b-4d21fd96d714",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "dba213b6-a676-46f3-b66c-229431009337",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "01d12847-43bc-3c48-8938-125e5545e355",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "58d94486-e02d-4c82-b693-5806132f6273",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "0aeb7173-5c47-415d-b908-f1514860de45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "f6a4261f-4cd7-4430-a610-ba80cfe449c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "0d075c33-d562-3f6c-9b8e-ad27d38c0073",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "40d746fc-ceab-353c-9a8f-263e2ab6622c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "4f0ea8e1-20ad-456f-a2e5-9400aa954505",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "0be218c3-c96e-4a29-994e-5fd72a28f68e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "4ac7ca4e-e3bb-4cc4-91d5-c17b963d09f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "4cc2a67e-5b9c-4371-a320-1a554d604561",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "67e9fae2-28bf-441c-954d-9966b771cca3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "42ae304f-54aa-38bf-9cc0-aae2f1549ca2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "e772eaa2-9044-4049-b39b-c6f9b0273c24",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "3eb5ec18-4f0f-4daf-b9cd-ae21bb867e05",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "182790b1-9e53-413d-98b5-b536379dd4c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "0be3ef82-1903-4f6f-99f4-2d88398d63bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "74a145eb-e35c-45a2-9379-504fa0dc39f1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "40a1dc08-ffc1-4a99-a257-c33f36aae175",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "7e886fe7-cdce-4cc4-a61f-833e24bf8121",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "98628230-6bdf-40f1-b5da-141157acba27",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "83c6599b-53ae-445f-90f9-7a9484394904",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "fc15594a-8a87-4550-b63e-e946c20c51a7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "1a61cbd4-41ea-461b-bf68-5832bfda0422",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "052dfa98-047d-43c2-bb46-bfadde0765f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "7b28d280-2dbe-41f8-b537-f9a662c43086",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "781f49d5-0977-471a-b16c-d1124501c552",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "67456981-b2b4-4d68-8012-79ca21b4baf7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "c8b7e9c2-4b4a-4881-b9f1-b279f837ddc2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "a8ddb865-94ac-3bba-a78c-14fb771e0a93",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "4bb87132-b595-4207-84d2-5f75c51e9867",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "5898a744-482c-4401-9e13-4477647115fc",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Physical Graffiti",
+          "status": "Bootleg"
+        },
+        {
+          "id": "0d06025c-afff-49fd-a1db-8005e686e4d9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "894420da-dc88-4edb-a651-80efe1ee78ef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "59b57a37-24b5-4c8e-8330-260bb475caf4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "1f961350-707e-4c33-8234-e182f0aece45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "e3f0f405-d50f-45a4-ba71-795e7333fb56",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        },
+        {
+          "id": "156188bf-90fc-420c-89d5-a8238b6a6c2c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Physical Graffiti",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 16,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "70s"
+        },
+        {
+          "count": 2,
+          "name": "heavy metal"
+        },
+        {
+          "count": 2,
+          "name": "blues"
+        },
+        {
+          "count": 14,
+          "name": "hard rock"
+        },
+        {
+          "count": 3,
+          "name": "folk rock"
+        },
+        {
+          "count": 9,
+          "name": "blues rock"
+        },
+        {
+          "count": 0,
+          "name": "américain"
+        },
+        {
+          "count": 5,
+          "name": "classic rock"
+        },
+        {
+          "count": 5,
+          "name": "album rock"
+        },
+        {
+          "count": 1,
+          "name": "arena rock"
+        },
+        {
+          "count": 1,
+          "name": "british blues"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "british metal"
+        },
+        {
+          "count": 0,
+          "name": "1975"
+        },
+        {
+          "count": -1,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "regional blues"
+        },
+        {
+          "count": 1,
+          "name": "kashmir"
+        },
+        {
+          "count": 1,
+          "name": "double album"
+        }
+      ]
+    }
+  ]
+}

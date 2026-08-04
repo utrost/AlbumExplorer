@@ -1,0 +1,153 @@
+{
+  "albumId": "album-professor-longhair-new-orleans-piano-1972",
+  "query": "artist:\"Professor Longhair\" AND releasegroup:\"New Orleans Piano\" AND firstreleasedate:1972",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Professor%20Longhair%22%20AND%20releasegroup%3A%22New%20Orleans%20Piano%22%20AND%20firstreleasedate%3A1972&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:04:41.202Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "0acecad7-5e64-3c5a-beaf-00e9427957b3",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "a03dd994-9599-391c-8bff-ba848f05e578",
+      "count": 3,
+      "title": "New Orleans Piano",
+      "first-release-date": "1972",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Professor Longhair",
+          "artist": {
+            "id": "c6177e77-151d-422d-bc87-57ae21d2780e",
+            "name": "Professor Longhair",
+            "sort-name": "Professor Longhair",
+            "aliases": [
+              {
+                "sort-name": "Byrd, Roy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Roy Byrd",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Byrd, Roy \"Bald Head\"",
+                "name": "Roy \"Bald Head\" Byrd",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Byrd, Roland",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Roland Byrd",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Longhair, Profesor",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Profesor Longhair",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Byrd, Henry Roeland",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Henry Roeland Byrd",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Byrd, Roy \"Baldhead\"",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Roy \"Baldhead\" Byrd",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Fess",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Fess",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Byrd, Roy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Roy Byrd",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "e1cc4a4b-ea33-4321-a1f3-20d0f288fd13",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Orleans Piano",
+          "status": "Official"
+        },
+        {
+          "id": "a06f1535-ce3e-49fd-a1a9-2a9bc6b64911",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Orleans Piano",
+          "status": "Official"
+        },
+        {
+          "id": "f8a0c819-3c51-4d73-aa8c-954c6369c3df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New Orleans Piano",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "jazz"
+        },
+        {
+          "count": 2,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "piano blues"
+        }
+      ]
+    }
+  ]
+}

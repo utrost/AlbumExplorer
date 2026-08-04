@@ -1,0 +1,517 @@
+{
+  "albumId": "album-black-sabbath-master-of-reality-1971",
+  "query": "artist:\"Black Sabbath\" AND releasegroup:\"Master of Reality\" AND firstreleasedate:1971",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Black%20Sabbath%22%20AND%20releasegroup%3A%22Master%20of%20Reality%22%20AND%20firstreleasedate%3A1971&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:44:56.489Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e51e9779-2edc-3b39-959c-299fdb5ed940",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "91050606-7fd7-30fe-bb6d-b15fa724c85d",
+      "count": 46,
+      "title": "Master of Reality",
+      "first-release-date": "1971-07-21",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Black Sabbath",
+          "artist": {
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "disambiguation": "English heavy metal band",
+            "aliases": [
+              {
+                "sort-name": "Polka Tulk",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Polka Tulk",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blakc Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blakc Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Блэк Саббат",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Блэк Саббат",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blak Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blak Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabs",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabs",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbs",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbs",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabbat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Black Sabbat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabbath",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Black Sabbath",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1969-08",
+                "end-date": null
+              },
+              {
+                "sort-name": "ブラック・サバス",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "ブラック・サバス",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Black Sabath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Earth",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Earth",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1968-09",
+                "end-date": "1969-08"
+              },
+              {
+                "sort-name": "Polka Tulk Blues",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Polka Tulk Blues",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blac Sabat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blac Sabat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "11d2439f-4493-4f02-8eab-f7c9a86c395d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "7d8a869e-3a69-4089-a5d5-c0af4eddf0ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "5eb5a51f-efd4-4aed-a39c-e17ba036f80a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "d8a3dd7e-7412-4f64-96cc-92d1db7bdaac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "22f21dc9-88dd-4695-b49d-6058146b4c30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "65251ffb-e363-404e-bc54-f11cc0fe4a04",
+          "title": "Master Of Reality"
+        },
+        {
+          "id": "74703d47-f001-4d42-8e26-db2cad1f9775",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "6fd237ea-6bb5-47f5-92ae-e2d013352f83",
+          "title": "Master Of Reality"
+        },
+        {
+          "id": "ee44b6b8-dc9c-4545-b911-64c0b9ef10ad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "0cf3156c-ffe4-4086-8d44-79bf267bf66f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "0f8203be-5eaf-468c-a1a3-94b33ce35929",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "17e21533-7814-4a24-9144-513ef23b4ee3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "4a39c7a9-ffba-3171-9420-a57db6f56608",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "fe905ddc-f46c-443a-9ae6-7e6a60dbfb99",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "679c53b8-738e-4023-80f1-71b787215031",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "12160227-7749-40d3-a68a-53417bab0e27",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "0affa0e3-80d2-49de-99b7-dbe1c2d34252",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "c7aaabde-1778-484f-b344-430825d2658b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "2e61be24-9f68-4762-b6a6-fec81fc595f0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "9dadfcbf-2026-44a3-a83d-35c9e51c07a3",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Master of Reality",
+          "status": "Bootleg"
+        },
+        {
+          "id": "9f3c9881-1775-4f96-a59c-59193d4dc0c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "38ffd4e8-7f7e-4c90-b891-567a7c9e60eb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "919a3ee6-fb64-43bd-845e-3f696974148a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "f57a9fc4-aeba-47ac-869b-811bf1c8e450",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "fe450fb0-a9e9-3a78-8ce2-85cb3c11e7dd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "4092f1e1-635e-4e91-acdd-eda9a2a9bcda",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "096e6682-3219-38e9-9a3b-f7f023980eff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "8e8e5450-c11b-4e5d-9e15-a7b9ff351db4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "8325eb91-017f-30fa-89d5-bcf461ef5ceb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "5daf013f-25fd-3275-a9a6-e7101ff0efe9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "ad6c6b58-23bd-471d-bafa-bf0e2b3f2636",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "069e6e08-a1cf-4b94-bf1d-4acbe9473d49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "2f30c115-4aa1-423c-a3e0-abc64eea244d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "83a13a98-ce85-3d07-94a6-05f24b3dde67",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "0b4d5359-6ecb-4c09-b36a-f56b70d101a2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "8963f38d-c50a-3796-89ad-252ca59d212c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "33706f9d-adfb-3c66-a1e4-1d50e1fcdacc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "99957b23-c544-4769-be7b-149ae529dde2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "380913e2-bedb-4c62-a0cc-fab3c829a25c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "10bf1aba-654d-4695-aabb-9140233235f3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "60837856-7875-47d9-a3a1-92c787e2a80f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "b7cd4742-37c6-49ed-a84a-0d5c99bd73bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "840b349e-d5f1-433d-b756-e399410a9b9a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "e0ebfbe5-f8ab-496b-9077-4a9b7f39cced",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "4e92d383-e78c-41e8-83bd-db9195532ab6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        },
+        {
+          "id": "0ca8f74c-346e-34cd-9e70-ba73a50e8ea1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Master of Reality",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "70s"
+        },
+        {
+          "count": 21,
+          "name": "heavy metal"
+        },
+        {
+          "count": 2,
+          "name": "metal"
+        },
+        {
+          "count": 3,
+          "name": "doom metal"
+        },
+        {
+          "count": 4,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": -1,
+          "name": "pop rock"
+        },
+        {
+          "count": 0,
+          "name": "1971"
+        },
+        {
+          "count": 3,
+          "name": "traditional doom metal"
+        },
+        {
+          "count": 0,
+          "name": "rock_heavy metal_hard rock"
+        },
+        {
+          "count": -1,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "ozzy"
+        }
+      ]
+    }
+  ]
+}

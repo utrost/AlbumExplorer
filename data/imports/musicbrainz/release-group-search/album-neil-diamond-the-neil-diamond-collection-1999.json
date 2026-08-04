@@ -1,0 +1,107 @@
+{
+  "albumId": "album-neil-diamond-the-neil-diamond-collection-1999",
+  "query": "artist:\"Neil Diamond\" AND releasegroup:\"The Neil Diamond Collection\" AND firstreleasedate:1999",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Neil%20Diamond%22%20AND%20releasegroup%3A%22The%20Neil%20Diamond%20Collection%22%20AND%20firstreleasedate%3A1999&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:04:51.114Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "7677853b-b89d-3269-9a77-7f147c2cd15f",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "02b8799e-c401-38e9-b055-61bfac8d1382",
+      "count": 3,
+      "title": "The Neil Diamond Collection",
+      "first-release-date": "1999-11-23",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Neil Diamond",
+          "artist": {
+            "id": "a42d3fd5-55de-4206-86c3-4fbb5404018f",
+            "name": "Neil Diamond",
+            "sort-name": "Diamond, Neil",
+            "aliases": [
+              {
+                "sort-name": "ニール・ダイアモンド",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ニール・ダイアモンド",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Diamond, Neil Leslie",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Neil Leslie Diamond",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Neil Daimond",
+                "name": "Neil Daimond",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7669151e-b593-48d2-9e14-ff54dae8b28c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Neil Diamond Collection",
+          "status": "Official"
+        },
+        {
+          "id": "37c0f8b6-5822-40ed-8bd7-f3aac77f0191",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Neil Diamond Collection",
+          "status": "Official"
+        },
+        {
+          "id": "7eed15f6-e15b-4c9f-a33d-5121e026352c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Neil Diamond Collection",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 2,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "acoustic pop"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "albumId": "album-john-lennon-john-lennon-plastic-ono-band-1970",
+  "query": "artist:\"John Lennon\" AND releasegroup:\"John Lennon/Plastic Ono Band\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22John%20Lennon%22%20AND%20releasegroup%3A%22John%20Lennon%2FPlastic%20Ono%20Band%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:59:29.761Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "8be83468-4917-390d-82b6-d890f058cd22",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "cf2b1ad2-23f7-3333-89e0-c585f9a72ce6",
+      "count": 30,
+      "title": "John Lennon/Plastic Ono Band",
+      "first-release-date": "1970-12-11",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "joinphrase": " / ",
+          "name": "John Lennon",
+          "artist": {
+            "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+            "name": "John Lennon",
+            "sort-name": "Lennon, John",
+            "disambiguation": "The Beatles",
+            "aliases": [
+              {
+                "sort-name": "Leg-Thigh, Winston",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Winston Leg-Thigh",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1968-12-11",
+                "end-date": "1968-12-11"
+              },
+              {
+                "sort-name": "Lennon, John Winston",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "John Winston Lennon",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1940-09-09",
+                "end-date": "1969-04-22"
+              },
+              {
+                "sort-name": "Леннон, Джон",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Джон Леннон",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lenons, Dž.",
+                "name": "Dž.Lenons",
+                "locale": "lv",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Booker Table and The Maitre D's",
+                "name": "Booker Table and The Maitre D's",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lennon",
+                "name": "Lennon",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Джон",
+                "name": "Джон",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Torment, Mel",
+                "name": "Mel Torment",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwarf McDougal",
+                "name": "Dwarf McDougal",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J. Lennon",
+                "name": "J. Lennon",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dad",
+                "name": "Dad",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ono Lennon, John Winston",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "John Winston Ono Lennon",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1969-04-22",
+                "end-date": null
+              },
+              {
+                "sort-name": "Dr. Dream",
+                "name": "Dr. Dream",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John O'Cean",
+                "name": "John O'Cean",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hon. John St. John Johnson",
+                "name": "Hon. John St. John Johnson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dr. Winston O'Boogie",
+                "name": "Dr. Winston O'Boogie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lhennj Ono",
+                "name": "Lhennj Ono",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Joel Nohnn",
+                "name": "Joel Nohnn",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kaptain Kundalini",
+                "name": "Kaptain Kundalini",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ghurkin, Rev. Fred",
+                "name": "Rev. Fred Ghurkin",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Musketeer Gripweed & The Third Troop",
+                "name": "Musketeer Gripweed & The Third Troop",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジョン・レノン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ジョン・レノン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lennon, John",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "John Lennon",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "Plastic Ono Band",
+          "artist": {
+            "id": "84f81b32-8b3a-4914-9cff-017a52f9d16b",
+            "name": "Plastic Ono Band",
+            "sort-name": "Plastic Ono Band",
+            "aliases": [
+              {
+                "sort-name": "Plastic Ono Band",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Plastic Ono Band",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Plastic Ono Super Band",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Plastic Ono Super Band",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Plastic Ono Nuclear Band, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Plastic Ono Nuclear Band",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Plastic U.F.Ono Band, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Plastic U.F.Ono Band",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1973",
+                "end-date": "1973"
+              },
+              {
+                "sort-name": "Plastic Ono Supergroup",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Plastic Ono Supergroup",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1969-12",
+                "end-date": "1969-12"
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "b0170eb9-7092-4090-b77c-17cb8a1f496b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono band",
+          "status": "Official"
+        },
+        {
+          "id": "0beb6c96-4894-4afc-bbea-7b3ab6b911f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon\\Plastic Ono band",
+          "status": "Official"
+        },
+        {
+          "id": "97b41ed9-0fa5-438a-b5bf-d190044b11d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "ddaba13b-de6a-3b07-a942-9ec1e0893426",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "7e4849ce-ef1d-4d02-8239-f206a50a3054",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "35f40c29-73b9-48c3-b6c4-a588785c7fbb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "4ccb6b7a-278b-4118-ad2d-054a49c0a82c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "b1d2297d-c810-4650-9cef-47e960c1a5a8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "aff0e5e4-f8f4-448f-9f53-795b33afa550",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "104ec1ce-cce9-4d60-ad5a-e67665ff7a05",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "4cc4278d-5492-49fc-bf8b-7906fcf0fdcf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "6e3a03c7-ffc8-45f8-8101-5749cae4aeae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "c9dfda29-9e23-416d-a8f6-3caf38e9b0a2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "608c4654-4a38-4623-8829-b45a8ff0520a",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Plastic Ono Band",
+          "status": "Bootleg"
+        },
+        {
+          "id": "723f261e-7065-48c1-a5f0-9316a219313e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "8aeba737-a99c-4a33-b664-f907f05db31d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "15ff7a77-56fe-4364-97bb-3cdcfc5ed668",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band (The Ultimate Collection)",
+          "status": "Official"
+        },
+        {
+          "id": "ec0918d0-d380-47c6-b065-54021f3685f5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "97ee5dd5-365c-3998-85ee-4a8ee4fa6ab9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "17c6032c-bb6d-3f49-9daf-d5f61f1ddf0d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "bfe9c702-07d5-45b3-9557-d7cf1fd1b512",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "7da765b1-955b-4ddf-b66d-2eeb52a7558c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon / Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "7ef2bd7e-60f4-4ddc-a597-152b5a471521",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon / Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "00604a86-c835-4cd7-940e-37a3d7d427a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "5e246ff6-8d6b-4f2f-b7d8-70eea788464b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "dba99324-d642-3c64-a275-cf1423119315",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "d786221f-cdd0-3e14-8d56-5e36bf68c25a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "79803466-4c9a-48c4-b9fe-deb324aece6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "291dfbfe-0e02-432f-88ad-4f05ad306def",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Official"
+        },
+        {
+          "id": "90401abd-32cb-4099-bf23-a8242ededa6e",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "John Lennon/Plastic Ono Band",
+          "status": "Bootleg"
+        }
+      ],
+      "tags": [
+        {
+          "count": 9,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "jazz"
+        },
+        {
+          "count": 1,
+          "name": "folk"
+        },
+        {
+          "count": 2,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 0,
+          "name": "musician"
+        },
+        {
+          "count": 0,
+          "name": "classic rock"
+        },
+        {
+          "count": 0,
+          "name": "album rock"
+        },
+        {
+          "count": 4,
+          "name": "pop rock"
+        },
+        {
+          "count": 3,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 0,
+          "name": "pop male singer-songwriter"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "rock/pop"
+        }
+      ]
+    }
+  ]
+}

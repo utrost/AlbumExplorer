@@ -1,0 +1,82 @@
+{
+  "albumId": "album-loretta-lynn-all-time-greatest-hits-2002",
+  "query": "artist:\"Loretta Lynn\" AND releasegroup:\"All Time Greatest Hits\" AND firstreleasedate:2002",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Loretta%20Lynn%22%20AND%20releasegroup%3A%22All%20Time%20Greatest%20Hits%22%20AND%20firstreleasedate%3A2002&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:34.302Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "ad0dde2f-b03d-3780-bc6a-68d7820e612e",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "9303fc7c-e73f-3979-bcb3-216b652d5204",
+      "count": 1,
+      "title": "All Time Greatest Hits",
+      "first-release-date": "2002-05-21",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Loretta Lynn",
+          "artist": {
+            "id": "613260c3-d620-4645-94cd-33cd55f29b1e",
+            "name": "Loretta Lynn",
+            "sort-name": "Lynn, Loretta",
+            "aliases": [
+              {
+                "sort-name": "Lorette Lynn",
+                "name": "Lorette Lynn",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Lynn, Lorettal",
+                "name": "Lorettal Lynn",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Webb, Loretta",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Loretta Webb",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0445d2f8-df9e-45ac-814d-bb24cc048d01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Time Greatest Hits",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "country"
+        }
+      ]
+    }
+  ]
+}

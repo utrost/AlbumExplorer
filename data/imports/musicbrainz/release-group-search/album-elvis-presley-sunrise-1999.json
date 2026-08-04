@@ -1,0 +1,219 @@
+{
+  "albumId": "album-elvis-presley-sunrise-1999",
+  "query": "artist:\"Elvis Presley\" AND releasegroup:\"Sunrise\" AND firstreleasedate:1999",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Elvis%20Presley%22%20AND%20releasegroup%3A%22Sunrise%22%20AND%20firstreleasedate%3A1999&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:59:10.707Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "860fd0d2-ade3-36c5-88da-f5ca879003f7",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "7ba8770c-4144-3303-9e85-45fb052001d7",
+      "count": 1,
+      "title": "Sunrise",
+      "first-release-date": "1999-02-09",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Elvis Presley",
+          "artist": {
+            "id": "01809552-4f87-45b0-afff-2c6f0730a3be",
+            "name": "Elvis Presley",
+            "sort-name": "Presley, Elvis",
+            "disambiguation": "“The King of Rock and Roll”",
+            "aliases": [
+              {
+                "sort-name": "Пресли, Элвис",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Элвис Пресли",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Пресли, Элвис",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Элвис Пресли",
+                "locale": "tg",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "پرسلی, الویس",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "الویس پرسلی",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Преслі, Елвіс",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Елвіс Преслі",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بريسلي, إلفيس",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "إلفيس بريسلي",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "埃爾維斯·皮禮士利",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "埃爾維斯·皮禮士利",
+                "locale": "yue",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エルヴィス・プレスリー",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルヴィス・プレスリー",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The King",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The King",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Presley, Elvis Aaron",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Elvis Aaron Presley",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Presley, Elvis A.",
+                "name": "Elvis A. Presley",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elvis",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Elvis",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Presley Elvis",
+                "name": "Presley Elvis",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The King of Rock and Roll",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The King of Rock and Roll",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Priesley",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Priesley",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Presley, Elvis",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Elvis Presley",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a7176d2f-deb0-48aa-b97f-f7095b7803a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sunrise",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "rockabilly"
+        },
+        {
+          "count": 1,
+          "name": "country"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "traditional country"
+        }
+      ]
+    }
+  ]
+}

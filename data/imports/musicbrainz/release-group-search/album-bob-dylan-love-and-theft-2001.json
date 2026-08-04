@@ -1,0 +1,324 @@
+{
+  "albumId": "album-bob-dylan-love-and-theft-2001",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"Love and Theft\" AND firstreleasedate:2001",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22Love%20and%20Theft%22%20AND%20firstreleasedate%3A2001&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:54:41.654Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "9980ffe5-c5b5-3a83-8c1e-1ec6618f97ca",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 20,
+      "title": "“Love and Theft”",
+      "first-release-date": "2001-09-10",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "04fa143a-9c9b-3629-822c-788a349eb7d9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "c193d992-7460-4a81-a9dd-3b7306dd4d3e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "6a234ca4-380b-3c0b-9c5a-8da95d419fcf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "3a1dd339-b33f-4024-84f4-016d10ab2334",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "74a39d20-43aa-4d51-8056-72e1293308c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "1a8d456b-e81e-4628-84c9-b684853934f4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "\"Love and Theft\"",
+          "status": "Official"
+        },
+        {
+          "id": "84447ad7-8340-4154-a561-b6a233d374fa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "4fd00a93-c1a7-31a3-9320-b6278ab7b129",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "69a2355a-ad64-4dc9-80ce-7a5128c93209",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "c859cd33-0d59-4280-9b93-5b02ae7421db",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "0b872c24-26a7-476a-b4c6-5e8b959410e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "1edb9e12-e80c-40c5-a75a-bc6cb78b7b77",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "179779c4-1c5e-3e22-aabe-a6d87a1314c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "\"Love and Theft\"",
+          "status": "Official"
+        },
+        {
+          "id": "3f1eef3e-214f-329d-99ff-d4b61f3f1dde",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "\"Love and Theft\"",
+          "status": "Official"
+        },
+        {
+          "id": "edef5e18-d733-3fcb-a24a-26d0fb19c1a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "\"Love and Theft\"",
+          "status": "Official"
+        },
+        {
+          "id": "a4bd22e6-8a94-359b-be20-4a30c5c5b3a5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "\"Love and Theft\"",
+          "status": "Official"
+        },
+        {
+          "id": "ff7ecae1-6f7b-3e40-b8a8-031cb81ef83d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "\"Love and Theft\"",
+          "status": "Official"
+        },
+        {
+          "id": "cdb64b1e-5863-4b09-9a66-fde554f4616b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "\"Love and Theft\"",
+          "status": "Official"
+        },
+        {
+          "id": "a9444f9d-4755-3b83-9069-b38a0c3db049",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        },
+        {
+          "id": "47aca000-014b-3c10-91e2-d420cceca249",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Love and Theft”",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "folk"
+        },
+        {
+          "count": 6,
+          "name": "folk rock"
+        },
+        {
+          "count": 6,
+          "name": "blues rock"
+        },
+        {
+          "count": 5,
+          "name": "blues-rock"
+        },
+        {
+          "count": 1,
+          "name": "classic pop and rock"
+        }
+      ]
+    }
+  ]
+}

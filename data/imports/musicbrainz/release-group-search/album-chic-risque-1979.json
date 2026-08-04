@@ -1,0 +1,122 @@
+{
+  "albumId": "album-chic-risque-1979",
+  "query": "artist:\"Chic\" AND releasegroup:\"Risqué\" AND firstreleasedate:1979",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Chic%22%20AND%20releasegroup%3A%22Risqu%C3%A9%22%20AND%20firstreleasedate%3A1979&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:55:03.772Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "baa74317-3f23-3f0b-a996-c68f52c61f13",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5ed391a5-7c19-3501-bb89-675de9e26f45",
+      "count": 9,
+      "title": "Risqué",
+      "first-release-date": "1979-07-30",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Chic",
+          "artist": {
+            "id": "a4ed036b-5f18-439c-b1e1-96d205bab255",
+            "name": "Chic",
+            "sort-name": "Chic",
+            "disambiguation": "US disco group",
+            "aliases": [
+              {
+                "sort-name": "Chic Le",
+                "name": "Chic Le",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a07d7fc9-0e40-4cae-9a5a-bce69337da03",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        },
+        {
+          "id": "2149725c-e7a8-492f-b75f-0a7b90c41dca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        },
+        {
+          "id": "d2ee38b2-4c30-41c6-9844-4d8706543d64",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        },
+        {
+          "id": "f49a52e2-67ba-42f0-a0ca-6f683c956cfe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        },
+        {
+          "id": "badac899-d2fb-4870-b9ef-efd08b08f2c6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        },
+        {
+          "id": "00a01883-c17d-3a1e-8aa3-f468e45465df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        },
+        {
+          "id": "e7f2c9bb-d26d-4afe-9ac3-54ed8772196d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        },
+        {
+          "id": "a432b858-f231-4701-a7a3-24804c112dc6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        },
+        {
+          "id": "4dab4bae-031e-4455-8358-cb746b01e149",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Risqué",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "funk"
+        },
+        {
+          "count": 2,
+          "name": "soul"
+        },
+        {
+          "count": 9,
+          "name": "disco"
+        },
+        {
+          "count": 0,
+          "name": "funk soul"
+        },
+        {
+          "count": 0,
+          "name": "r&b"
+        }
+      ]
+    }
+  ]
+}

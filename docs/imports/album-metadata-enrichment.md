@@ -4,8 +4,9 @@ Status: first executable metadata-enrichment slice
 Candidate output: `data/enrichment/album-metadata-candidates.json`  
 Review output: `data/enrichment/album-metadata-review.json`  
 Manual overrides: `data/enrichment/album-metadata-overrides.json`  
-Optional external source candidates: `data/enrichment/album-metadata-source-candidates.json`  
-Script: `scripts/enrich-album-metadata.js`
+External source candidates: `data/enrichment/album-metadata-source-candidates.json`  
+MusicBrainz raw cache: `data/imports/musicbrainz/release-group-search/`  
+Scripts: `scripts/import-musicbrainz-source-candidates.js`, `scripts/enrich-album-metadata.js`
 
 This workflow attaches reviewable metadata candidates to stable AlbumExplorer album identities. It does **not** write facts directly into the canonical collection model.
 
@@ -20,22 +21,41 @@ This workflow attaches reviewable metadata candidates to stable AlbumExplorer al
 
 ## Current scope
 
-The first slice enriches all albums from `data/rolling-stone-comparison.json`, sorted by latest edition rank.
+The current slice enriches all albums from `data/rolling-stone-comparison.json`, sorted by latest edition rank.
 
 ```text
+npm run import:musicbrainz
 npm run enrich:album-metadata
 ```
 
-Current generated result:
+Current MusicBrainz release-group import result:
+
+```text
+MusicBrainz scope: 760 albums
+MusicBrainz candidates: 553
+MusicBrainz review: 1
+MusicBrainz gaps: 206
+```
+
+Current generated metadata result after merging MusicBrainz candidates with the Rolling Stone baseline:
 
 ```text
 Album metadata scope: 760 albums
 Metadata candidates: 760
 Manual review: 0
 Metadata gaps: 0
+MusicBrainz-primary candidates: 553
+Rolling-Stone-baseline candidates: 207
+Release dates populated: 553
+Labels populated: 702
+Genres populated: 553
+External refs populated: 553
+Country populated: 0
 ```
 
-All current candidates are sourced from existing Rolling Stone imported labels/years only. They are useful as a baseline, not as verified complete metadata.
+MusicBrainz currently contributes release-group-level identity metadata: release-group IDs, artist IDs, first release dates, MusicBrainz tags/genres, and external URLs. Rolling Stone imported labels/years remain the low-confidence baseline and fill records that do not yet have a strict MusicBrainz match.
+
+This is not yet deep credit enrichment. Producers, studios, engineers, musicians, tracklists, songwriter credits, recording dates, recording locations, and countries still need a later release/recording/credit-level importer.
 
 ## Output files
 
@@ -87,40 +107,58 @@ Example:
 
 ### `album-metadata-source-candidates.json`
 
-Optional external source candidates. Keep empty until sourced data exists.
+External source candidates generated from MusicBrainz release-group search.
 
-Future importers can write candidates from:
+The MusicBrainz importer keeps raw API responses in:
+
+```text
+data/imports/musicbrainz/release-group-search/
+```
+
+The aggregate source-candidate file keeps:
+
+- strict MusicBrainz release-group matches
+- ambiguous MusicBrainz matches for review
+- MusicBrainz gaps where no exact album release-group match was accepted
+- source metadata such as release-group score, primary type, secondary types, release-group ID, artist ID, and sample release IDs
+
+Future importers can add candidates from:
 
 - Discogs
-- MusicBrainz
 - Cover Art Archive
 - Wikidata
 - curated local files
 
 ## Matching behavior
 
-The first matcher is deliberately strict:
+The matcher is deliberately strict:
 
 - normalized artist exact match
 - normalized album title exact match
 - release year must match when both sides provide one
-- one exact source candidate becomes a generated candidate
-- multiple exact source candidates become review items
-- no exact source candidate becomes a gap
+- MusicBrainz release-group matches must be `Album` primary type
+- MusicBrainz `Compilation` secondary type is rejected for canonical album matches
+- a unique external source candidate supersedes the low-confidence Rolling Stone baseline
+- multiple external source candidates become review items
+- no exact source candidate falls back to the Rolling Stone baseline when available
 - manual override wins over everything else
 
 ## Rebuild
 
 ```bash
+npm run import:musicbrainz
 npm run enrich:album-metadata
 ```
 
-Optional limited CLI shape:
+The MusicBrainz importer uses a local raw-response cache. A normal rerun reads existing cache files and only queries MusicBrainz for missing album IDs.
+
+Optional limited CLI shapes:
 
 ```bash
+node scripts/import-musicbrainz-source-candidates.js data/rolling-stone-comparison.json data/enrichment/album-metadata-source-candidates.json --limit 100
 node scripts/enrich-album-metadata.js data/rolling-stone-comparison.json data/enrichment --limit 100
 ```
 
 ## Next step
 
-Add a real external source candidate importer, probably MusicBrainz release-group search first because it has stable public IDs and does not need secret credentials. Discogs master enrichment can then enrich albums that already have Discogs IDs from earlier imports.
+Add a deeper release/recording/credit-level enrichment pass. MusicBrainz release-groups are useful for stable identity, dates, tags, and external refs, but they do not yet provide producers, studios, engineers, musicians, tracklists, countries, or recording locations in the generated AlbumExplorer candidate model. Discogs master/release data and Wikidata should be layered as separate source candidates rather than written directly into canonical collection data.

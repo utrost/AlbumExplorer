@@ -1,0 +1,89 @@
+{
+  "albumId": "album-graham-parker-squeezing-out-sparks-1979",
+  "query": "artist:\"Graham Parker\" AND releasegroup:\"Squeezing Out Sparks\" AND firstreleasedate:1979",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Graham%20Parker%22%20AND%20releasegroup%3A%22Squeezing%20Out%20Sparks%22%20AND%20firstreleasedate%3A1979&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:07:30.440Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "d81184ea-8619-37d3-b9a8-61caadcee800",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6beb512b-aab9-3ed5-8656-1fb9026e995e",
+      "count": 4,
+      "title": "Squeezing Out Sparks",
+      "first-release-date": "1979-03",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Graham Parker & The Rumour",
+          "artist": {
+            "id": "c4e861e5-42d5-4d9c-ac84-4862ed12f585",
+            "name": "Graham Parker & The Rumour",
+            "sort-name": "Parker, Graham & The Rumour",
+            "aliases": [
+              {
+                "sort-name": "Graham Parker and The Rumour",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Graham Parker and The Rumour",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Graham Parker & the Rumours",
+                "name": "Graham Parker & the Rumours",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "ae841b53-62e8-42c7-8afd-b64c71ffefde",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Squeezing Out Sparks",
+          "status": "Official"
+        },
+        {
+          "id": "9502d067-99a4-45fa-a646-04ad0d6038fd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Squeezing Out Sparks",
+          "status": "Official"
+        },
+        {
+          "id": "f8bf75b3-2a52-4082-a46b-9c9dee5203aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Squeezing Out Sparks",
+          "status": "Official"
+        },
+        {
+          "id": "dcbf99ee-1be9-401f-a206-59c6a1db487e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Squeezing Out Sparks",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "new wave"
+        }
+      ]
+    }
+  ]
+}

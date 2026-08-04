@@ -1,0 +1,147 @@
+{
+  "albumId": "album-marvin-gaye-here-my-dear-1978",
+  "query": "artist:\"Marvin Gaye\" AND releasegroup:\"Here, My Dear\" AND firstreleasedate:1978",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Marvin%20Gaye%22%20AND%20releasegroup%3A%22Here%2C%20My%20Dear%22%20AND%20firstreleasedate%3A1978&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:58:47.150Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "225a6648-d4d2-3b89-986b-6e515e7a94f0",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "cc8a22ef-db55-3d8d-a502-bbfb46f24e29",
+      "count": 9,
+      "title": "Here, My Dear",
+      "first-release-date": "1978-12",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Marvin Gaye",
+          "artist": {
+            "id": "afdb7919-059d-43c1-b668-ba1d265e7e42",
+            "name": "Marvin Gaye",
+            "sort-name": "Gaye, Marvin",
+            "aliases": [
+              {
+                "sort-name": "Gay, Marvin Pentz, Jr.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Marvin Pentz Gay, Jr.",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marvin Gay",
+                "name": "Marvin Gay",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marvine Gaye",
+                "name": "Marvine Gaye",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marving Gaye",
+                "name": "Marving Gaye",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gaye, Marvin P.",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Marvin P. Gaye",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0c09ffc0-8853-4b2b-8b0b-f7e785b8bef3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here, My Dear",
+          "status": "Official"
+        },
+        {
+          "id": "4c413791-f9de-4259-b971-1bb2f7c678a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here, My Dear",
+          "status": "Official"
+        },
+        {
+          "id": "20996188-9d92-4692-8bb0-cfce5af14ac3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here, My Dear",
+          "status": "Official"
+        },
+        {
+          "id": "dcd46202-b907-4317-afdb-2dcc1e016cc3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here, My Dear",
+          "status": "Official"
+        },
+        {
+          "id": "744d0395-6a7e-48db-8d42-711e9da13423",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "“Here, My Dear.” (expanded edition)",
+          "status": "Official"
+        },
+        {
+          "id": "d46a58fa-2afc-48bc-aed6-d0f8998c9590",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here, My Dear",
+          "status": "Official"
+        },
+        {
+          "id": "714bafcc-4950-3b2b-a157-1e3adf0cc136",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here, My Dear",
+          "status": "Official"
+        },
+        {
+          "id": "138b368f-0da9-4c04-b352-191b9a757433",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here, My Dear",
+          "status": "Official"
+        },
+        {
+          "id": "167313ec-07a8-49cc-b740-db502e831538",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Here, My Dear",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "smooth soul"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "albumId": "album-boz-scaggs-boz-scaggs-1969",
+  "query": "artist:\"Boz Scaggs\" AND releasegroup:\"Boz Scaggs\" AND firstreleasedate:1969",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Boz%20Scaggs%22%20AND%20releasegroup%3A%22Boz%20Scaggs%22%20AND%20firstreleasedate%3A1969&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:13:24.791Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "3bed87ca-f946-3ef4-a1b5-e48cbb20f387",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "88dcaec2-165f-35e0-8cca-29fa39c610b8",
+      "count": 9,
+      "title": "Boz Scaggs",
+      "first-release-date": "1969",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Boz Scaggs",
+          "artist": {
+            "id": "18a33653-bbaf-4aa7-884c-73f02a7a4515",
+            "name": "Boz Scaggs",
+            "sort-name": "Scaggs, Boz",
+            "aliases": [
+              {
+                "sort-name": "Bob Scaggs",
+                "name": "Bob Scaggs",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Scaggs, William R.",
+                "name": "William R. Scaggs",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Scaggs, William Royce",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "William Royce Scaggs",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boz Skaggs",
+                "name": "Boz Skaggs",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4c46a374-ea8a-43cb-9672-d6b952181737",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        },
+        {
+          "id": "83a6ef10-405d-4984-b247-30df94495748",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        },
+        {
+          "id": "fc48e498-9b40-40fa-b4dc-7ecf481d5ef1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        },
+        {
+          "id": "cb86d3b0-32e4-4361-bde3-32187d31b700",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        },
+        {
+          "id": "29af220c-1a38-4f2f-97b4-3f1058d80dc7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        },
+        {
+          "id": "d9b0607a-3ac2-4590-b864-8ee4585785f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        },
+        {
+          "id": "ffb97bd1-e00e-3012-96ad-e7450742ea80",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        },
+        {
+          "id": "d8b76d46-697c-3a73-a79b-c6f56f932744",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        },
+        {
+          "id": "dc45943f-68c9-4510-bc9d-0535b232fa45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Boz Scaggs",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 3,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "r&b/soul"
+        }
+      ]
+    }
+  ]
+}

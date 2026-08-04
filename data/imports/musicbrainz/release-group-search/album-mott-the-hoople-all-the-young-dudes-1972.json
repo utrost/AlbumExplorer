@@ -1,0 +1,147 @@
+{
+  "albumId": "album-mott-the-hoople-all-the-young-dudes-1972",
+  "query": "artist:\"Mott The Hoople\" AND releasegroup:\"All The Young Dudes\" AND firstreleasedate:1972",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Mott%20The%20Hoople%22%20AND%20releasegroup%3A%22All%20The%20Young%20Dudes%22%20AND%20firstreleasedate%3A1972&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:47.908Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "cc5e8db8-684b-3adf-a519-55b0818391ac",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "ecfb0a40-5107-3410-8757-d6673d1bdcee",
+      "count": 9,
+      "title": "All the Young Dudes",
+      "first-release-date": "1972-09-08",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Mott the Hoople",
+          "artist": {
+            "id": "435f1441-0f43-479d-92db-a506449a686b",
+            "name": "Mott the Hoople",
+            "sort-name": "Mott the Hoople",
+            "aliases": [
+              {
+                "sort-name": "モット・ザ・フープル",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "モット・ザ・フープル",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mott the Hoople ’74",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Mott the Hoople ’74",
+                "locale": "en_US",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "2019",
+                "end-date": null
+              },
+              {
+                "sort-name": "Mott The Hopple",
+                "name": "Mott The Hopple",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mott The Hoppie",
+                "name": "Mott The Hoppie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mott the Hoople & David Bowie",
+                "name": "Mott the Hoople & David Bowie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1eb81224-bac6-4d69-bb48-782e04133220",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        },
+        {
+          "id": "f8cbc608-a701-44e2-a1dc-033bf541a4c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        },
+        {
+          "id": "f0bdada7-e0c7-4daf-8ecd-d6157f36cf17",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        },
+        {
+          "id": "f2046d7d-c045-426f-a53b-bdfa79022ab6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        },
+        {
+          "id": "a750f51b-bb70-4a82-97e4-c3904fdfcd3f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        },
+        {
+          "id": "e72369f8-7453-497a-8037-c9d42f337a3b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        },
+        {
+          "id": "ea5b2f20-2eea-44db-8c59-d6ffd049c8e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        },
+        {
+          "id": "8b08c865-5b86-4300-943c-3789bf73c0e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        },
+        {
+          "id": "23e13090-2eb7-37c3-b0c7-565d37ea9a73",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All the Young Dudes",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 4,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "glam rock"
+        }
+      ]
+    }
+  ]
+}

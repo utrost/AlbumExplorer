@@ -1,0 +1,189 @@
+{
+  "albumId": "album-james-brown-star-time-1991",
+  "query": "artist:\"James Brown\" AND releasegroup:\"Star Time\" AND firstreleasedate:1991",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22James%20Brown%22%20AND%20releasegroup%3A%22Star%20Time%22%20AND%20firstreleasedate%3A1991&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:34:36.546Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "7f5132f0-1d58-3d83-be6a-e32d22219e17",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "2ffdd22a-e733-30b3-a02a-27328ad74812",
+      "count": 4,
+      "title": "Star Time",
+      "first-release-date": "1991-05-07",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "James Brown",
+          "artist": {
+            "id": "20ff3303-4fe2-4a47-a1b6-291e26aa3438",
+            "name": "James Brown",
+            "sort-name": "Brown, James",
+            "disambiguation": "The Godfather of Soul",
+            "aliases": [
+              {
+                "sort-name": "Wright, Ted",
+                "name": "Ted Wright",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, J.",
+                "name": "J. Brown",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James Joseph, Jr.",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "James Joseph Brown, Jr.",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jim Jam",
+                "name": "Jim Jam",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J. B.",
+                "name": "J. B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "J.B.",
+                "name": "J.B.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジェームス・ブラウン",
+                "name": "ジェームス・ブラウン",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brown, James",
+                "name": "Brown, James",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Joseph Brown",
+                "name": "James Joseph Brown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Browm",
+                "name": "James Browm",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "James Brown at the Organ",
+                "name": "James Brown at the Organ",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3815b8a8-2cf2-453f-a2de-dc4b3bae87b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Star Time",
+          "status": "Official"
+        },
+        {
+          "id": "248e85fc-894d-42b0-a4ff-2c96b9f1e384",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Star Time",
+          "status": "Official"
+        },
+        {
+          "id": "7931fb07-c7a3-4cd4-8c26-1ffc79015420",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Star Time",
+          "status": "Official"
+        },
+        {
+          "id": "6e78af7b-0b8b-475f-948c-57e8c83e9660",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Star Time",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "funk"
+        },
+        {
+          "count": 6,
+          "name": "soul"
+        },
+        {
+          "count": 0,
+          "name": "disco"
+        },
+        {
+          "count": 0,
+          "name": "deep soul"
+        },
+        {
+          "count": 4,
+          "name": "funk soul"
+        }
+      ]
+    }
+  ]
+}

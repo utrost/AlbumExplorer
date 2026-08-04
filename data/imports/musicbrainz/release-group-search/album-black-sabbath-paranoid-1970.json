@@ -1,0 +1,943 @@
+{
+  "albumId": "album-black-sabbath-paranoid-1970",
+  "query": "artist:\"Black Sabbath\" AND releasegroup:\"Paranoid\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Black%20Sabbath%22%20AND%20releasegroup%3A%22Paranoid%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:39:39.039Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "2f1757aa-01ec-4d58-9b6b-297dc3a9722f",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "91050606-7fd7-30fe-bb6d-b15fa724c85d",
+      "count": 7,
+      "title": "Paranoid",
+      "first-release-date": "1970-08-07",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Black Sabbath",
+          "artist": {
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "disambiguation": "English heavy metal band",
+            "aliases": [
+              {
+                "sort-name": "Polka Tulk",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Polka Tulk",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blakc Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blakc Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Блэк Саббат",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Блэк Саббат",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blak Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blak Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabs",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabs",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbs",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbs",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabbat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Black Sabbat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabbath",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Black Sabbath",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1969-08",
+                "end-date": null
+              },
+              {
+                "sort-name": "ブラック・サバス",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "ブラック・サバス",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Black Sabath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Earth",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Earth",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1968-09",
+                "end-date": "1969-08"
+              },
+              {
+                "sort-name": "Polka Tulk Blues",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Polka Tulk Blues",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blac Sabat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blac Sabat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "bc271491-06db-4230-8bb4-1dfd41dbcda6",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Paranoid",
+          "status": "Promotion"
+        },
+        {
+          "id": "e42e3e5e-b135-4fbb-8987-2f93c5a161e9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid / Electric Funeral / Sabbath Bloody Sabbath",
+          "status": "Official"
+        },
+        {
+          "id": "1c6ff036-1399-41d1-b885-5727e824390d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid / War Pigs / Iron Man / Fairies Wear Boots",
+          "status": "Official"
+        },
+        {
+          "id": "7ef25ac9-1026-45fb-babf-46cfebf8b99d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid / Iron Man / War Pigs",
+          "status": "Official"
+        },
+        {
+          "id": "d15a9af5-943b-4a34-a1a8-9c1a5659a753",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "3537864f-8912-45f6-bc6c-c1fc9b3aa9ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "bd0ed0ac-e4f5-4bb5-887c-6963d8972381",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "heavy metal"
+        }
+      ]
+    },
+    {
+      "id": "cc053745-c447-3566-8f27-bed5438c9133",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "91050606-7fd7-30fe-bb6d-b15fa724c85d",
+      "count": 71,
+      "title": "Paranoid",
+      "first-release-date": "1970-09-18",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Black Sabbath",
+          "artist": {
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "disambiguation": "English heavy metal band",
+            "aliases": [
+              {
+                "sort-name": "Polka Tulk",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Polka Tulk",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blakc Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blakc Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Блэк Саббат",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Блэк Саббат",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blak Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blak Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabs",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabs",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbs",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbs",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sabbath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sabbath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabbat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Black Sabbat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabbath",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Black Sabbath",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1969-08",
+                "end-date": null
+              },
+              {
+                "sort-name": "ブラック・サバス",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "ブラック・サバス",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Black Sabath",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Black Sabath",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Earth",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Earth",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1968-09",
+                "end-date": "1969-08"
+              },
+              {
+                "sort-name": "Polka Tulk Blues",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Polka Tulk Blues",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blac Sabat",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Blac Sabat",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0667dfdc-3def-40ed-b21c-8f7af36b3a92",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "532fcf37-8639-40fd-adab-ffe91ec4ea87",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "1454b1b2-efdc-4043-b413-5c56343e74ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid (super deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "c65c0cdf-7cfc-4fe2-a550-5c7e292224c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid (super deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "f5cdf995-12b0-4fbd-a03c-b552a522c479",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid (super deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "ee42de8c-86c5-4215-a6d4-df89da01f9d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "afbcee60-2d81-4e32-a530-124498fabe46",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "d2e828cb-e91d-4105-bbc0-d656698d1ad4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "32e0469d-d826-4535-8bae-8d1000b18a90",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "a30bdced-3a94-410b-9e62-b6ee00a5adac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "40b08941-d5e9-49d6-bb75-625db9381d32",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "5fe7cc80-7f73-4a46-a13a-f6c5120f141e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "bc11d98b-f704-4cf3-ac86-aec0b529fae0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "821b5ec0-037c-4625-964d-f5127812a9af",
+          "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+          "title": "Paranoid",
+          "status": "Pseudo-Release"
+        },
+        {
+          "id": "7a1e00d4-c3b3-453d-a73e-f2644eb2571f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "af16d3e1-c1e8-4992-8b9f-c1f9442bc3bf",
+          "title": "Paranoid"
+        },
+        {
+          "id": "62ae2908-5d05-4031-b507-c8329d3d8f75",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "188fb66b-2fd9-41a7-8d81-088e20714ad1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "abe7c5f9-8412-4007-bf21-989d923ec6b2",
+          "title": "Paranoid"
+        },
+        {
+          "id": "bd40b150-4184-4c6c-801f-559145bf8074",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Paranoid",
+          "status": "Bootleg"
+        },
+        {
+          "id": "1ae09864-f1f2-4a0f-a632-4e0e5323ad99",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "f3e41767-b460-40c3-aa09-6a38a1d9fd6f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "cd844761-2a10-4e11-8bab-764271a16cf4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "44abb306-4fd3-47ec-a6eb-3dca531caa85",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Paranoid: Remixed",
+          "status": "Bootleg"
+        },
+        {
+          "id": "da1c3ec8-96ca-4fd0-b3aa-32d62b09e68d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "3eb1846e-df3e-469a-a45c-8a81e2956fa8",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Paranoid",
+          "status": "Bootleg"
+        },
+        {
+          "id": "64cf3b3a-5374-4ef8-8c7a-38a3f2d2b966",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "55764f84-4c28-412d-a867-a7ce7b7664c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "8de0f5f2-f73e-4e89-b0ef-218d766193f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "0cc09cd8-fd75-4ca5-89f3-a485e812d4ad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "abc594b4-117c-4274-ac31-f9b743b1ef4c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "531fd37a-d525-4e34-b5db-ac42b97297a6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "9fe12d85-7f98-4946-8967-25111a99225e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "b50015ae-4d32-43ce-9256-95dfe2a4a63e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "b9a2ccd2-207b-4895-91a8-41abd5065c1d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "4068df3f-98d4-4cba-b57d-b2f1cbb805d6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "bb9eabe8-04bd-470c-a48a-097bff8c97f6",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Paranoid",
+          "status": "Bootleg"
+        },
+        {
+          "id": "6d122167-c803-44c1-889f-1ad01bd43eac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "b64e94a2-b7ff-4678-9192-c76bd491fb62",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "1ba4e0cf-3358-4370-a17f-bf805f92af7c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "42326070-7751-4825-b544-b42aac1724e3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "462a890c-78cb-4fb2-9cfd-ce717de82655",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "77f45e6c-99de-4953-b1da-1a1cef698248",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "5645e0ba-8caa-4ccd-864a-03825a42f7b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "484a87df-3a1b-4c1d-8237-33ab9e68b4b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "49e93f30-3bba-4124-958d-d3a3da6920c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "fe8a2d2c-6cfb-49b4-9310-a201a3a43bf0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "18381fde-215b-36de-a123-5825f4b110a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "a24b11b3-426f-40a6-9e3f-1658a4de413f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "68a61feb-be57-4aee-ab1e-85a3dfd11d35",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "bd3fea7a-81bd-49c0-bd3e-78f5235f1e4d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "20dae6c0-5459-4223-92fd-e7677d62e3e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "520e3048-3362-4e2f-984c-ef539952cb23",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "d820f080-845a-4525-8e46-087ce9f8cdda",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "2982b682-36ea-3605-b959-04e746736070",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "34ba083d-8475-4bf0-bbe2-450fb91dc0a7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "440c0fe1-895e-3a93-8ad0-3f100d03f13d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "101d00d4-e180-3847-a71d-9413141a7f5e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "68a80332-a2cc-382f-85d3-c89e75334278",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "e4279c51-62cb-3f62-a2e8-13e75e426fa1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "bb5ae596-020a-3f49-8f89-c3529f3b6365",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "24d8c603-5262-31f0-96d2-531264117882",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "83b9471c-f8be-4728-b0dd-af32df89f911",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "b3b30172-7dc3-3000-b83f-fb8fe6103079",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "f001da3c-0b60-4938-b8bb-28b365dc4a75",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "2cfdca8b-398a-4d23-a019-e4d9b9853cf4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "47a554f6-15bb-4598-b7d5-56a194a1e355",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "08c82ac5-257c-4f4b-bcc7-2ae448da284e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "89f60472-e469-417a-abc6-54ffa72c19d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "aa9bb0cd-6bfa-33ea-9a2b-0157e588ad96",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        },
+        {
+          "id": "9007bff2-6e5d-4047-bc65-9b1fd61ea116",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Paranoid",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "progressive rock"
+        },
+        {
+          "count": 2,
+          "name": "70s"
+        },
+        {
+          "count": 22,
+          "name": "heavy metal"
+        },
+        {
+          "count": 3,
+          "name": "metal"
+        },
+        {
+          "count": 4,
+          "name": "doom metal"
+        },
+        {
+          "count": 10,
+          "name": "hard rock"
+        },
+        {
+          "count": 7,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "classic"
+        },
+        {
+          "count": 2,
+          "name": "classic rock"
+        },
+        {
+          "count": 0,
+          "name": "birmingham"
+        },
+        {
+          "count": 0,
+          "name": "rock pop"
+        },
+        {
+          "count": 0,
+          "name": "1970"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 3,
+          "name": "traditional doom metal"
+        },
+        {
+          "count": 0,
+          "name": "rock_classic pop and rock_1970"
+        },
+        {
+          "count": 0,
+          "name": "rock_covered by 14_classic pop and rock_rock_classic pop and rock_1970_rock"
+        },
+        {
+          "count": 0,
+          "name": "rock_covered by 5_classic pop and rock_rock_covered by 14_classic pop and rock_rock"
+        },
+        {
+          "count": 0,
+          "name": "rock_covered by 5_classic pop and rock_rock_classic pop and rock_1970_rock"
+        },
+        {
+          "count": 8,
+          "name": "classic british metal"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 0,
+          "name": "dr15"
+        },
+        {
+          "count": 5,
+          "name": "best songs ever"
+        },
+        {
+          "count": 1,
+          "name": "ozzy"
+        },
+        {
+          "count": 2,
+          "name": "occult rock"
+        },
+        {
+          "count": 3,
+          "name": "heavy psych"
+        }
+      ]
+    }
+  ]
+}

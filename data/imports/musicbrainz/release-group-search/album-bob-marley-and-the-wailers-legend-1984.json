@@ -1,0 +1,637 @@
+{
+  "albumId": "album-bob-marley-and-the-wailers-legend-1984",
+  "query": "artist:\"Bob Marley and the Wailers\" AND releasegroup:\"Legend\" AND firstreleasedate:1984",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Marley%20and%20the%20Wailers%22%20AND%20releasegroup%3A%22Legend%22%20AND%20firstreleasedate%3A1984&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:59:38.335Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "1a4c52cd-483a-347c-93f9-4d512767c7ba",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "867ed28a-8932-3db1-9aa1-5861e6ba4103",
+      "count": 71,
+      "title": "Legend: The Best of Bob Marley and The Wailers",
+      "first-release-date": "1984-05-08",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Bob Marley & The Wailers",
+          "artist": {
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "aliases": [
+              {
+                "sort-name": "Bob Marley and The Wailers",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Marley and The Wailers",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ボブ・マーリー＆ザ・ウェイラーズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ボブ・マーリー＆ザ・ウェイラーズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Harley and the Wailers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Harley and the Wailers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley; The Wailers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley; The Wailers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley & The Wailers & I Threes",
+                "name": "Bob Marley & The Wailers & I Threes",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley and",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley and",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob Marley and the Whalers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob Marley and the Whalers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ボブ・マーリー",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ボブ・マーリー",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "904d810a-db79-45fa-b28e-b71c2b861844",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "4ac54b7e-d0ca-4058-a19a-80c8e73c1b54",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "489b884e-bbc7-4383-9361-401a4203cf45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "0453bce1-7e58-4f75-9cd9-9211fff8eed2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "f0f632af-3654-462e-9f27-d94f9ce42905",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "2b0da7c8-1eae-407c-a831-027524310e5a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend (Deluxe Edition)",
+          "status": "Official"
+        },
+        {
+          "id": "7dd80dbd-e5e1-476c-84a0-26157e4b8025",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "8d238195-99f5-3434-a2a4-79959a2e56e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "998d1c83-6462-4932-8cc9-0a80f0ff85ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "94c61f95-1c39-4a5f-961f-61b3e1426cbe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "afee1fa8-359e-4305-b052-c2cbaee9a4bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend",
+          "status": "Official"
+        },
+        {
+          "id": "358b9f31-f3d4-47f7-80cd-5d062d56f570",
+          "title": "Legend: The Best of Bob Marley and The Wailers"
+        },
+        {
+          "id": "a9c881ef-6c9b-4cd9-8e1f-d2f7a8e4d5d2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and the Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "4ce99d91-6540-4340-8fe6-917dc1d85f91",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "6bd1f365-6745-4604-aa98-1d48932cca2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "291a35a3-e087-4453-b2ea-13a5cdffc803",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "2dcd4a53-d6b6-4a7c-9cca-546084b3d0c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend – The Best of Bob Marley & The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "aa999f98-497d-4cfa-b3f2-1378f8944117",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend - The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "6c77482b-04aa-4eff-8483-d77eae5114b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "0074906d-f40a-40bf-9ac8-0f6398fe5d45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "39d0eb60-4486-484d-ab7e-61c84f60e555",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "a66f8b21-95c5-438f-849c-88285629ac6c",
+          "title": "Legend: The Best of Bob Marley and The Wailers"
+        },
+        {
+          "id": "1a9083f1-797e-4c5f-a33c-86a8079e40ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "ce452b95-01a4-425b-a480-97146d2a2fb6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "6d13a247-c55b-4298-b65a-f438daac9c4d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "8e42d69e-83b1-4d75-9023-1d97d174cd0c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "d49c931c-0218-4892-9e63-2436f5223221",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "384f6cfb-3d81-4cbf-a8a2-3d19b4434068",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "31ef2115-049c-499a-8f83-c0557878af03",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "01d331d1-9ef9-385c-a1cb-6b666a1602c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "a6b72dbb-6e75-428a-8194-34f0a25c3fc9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend - The Best of Bob Marley and the Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "40c33db6-ae28-4983-8efe-a7b8bd7c092f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and the Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "da6de58f-6835-4e51-bf47-1099bb003aed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley & The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "4ce880bd-4c65-472c-afcc-d1a0e7d61ebf",
+          "title": "Legend: The Best of Bob Marley and The Wailers"
+        },
+        {
+          "id": "1ee27942-a51e-4b99-8cb0-b1b17b22363c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "8c372df1-a63e-49ef-8d5a-7a1d04835f17",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "fafd3b4d-14f7-413c-8f18-249c02a17d09",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend (Remastered)",
+          "status": "Official"
+        },
+        {
+          "id": "22975838-c21a-49e4-96f7-16d9612fad96",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "3c0fbe5f-9ac7-42cb-bca3-8f202a65c634",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and the Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "8c607906-1834-48bd-9ecb-46784095632c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best Of Bob Marley And The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "520cce7e-c3f7-4300-9854-073bb3db8112",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "c7f4aa7a-e263-4c57-87f0-34a11f90802a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend",
+          "status": "Official"
+        },
+        {
+          "id": "ccf34101-2c78-492c-bbfb-c4a65b2f2dd6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend (Deluxe Edition)",
+          "status": "Official"
+        },
+        {
+          "id": "07d3c7a5-d3a5-454a-aeb7-fe0e50df61e9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "c9d6b7c2-8178-4bc6-adf6-4277542ab4e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "f3c78466-5ce5-4c0f-9be7-f45735ec8a29",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "57caffb2-1448-4180-8843-16129c5bee70",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "9ab882a4-5bfe-4240-a3e8-49cd69e9f95f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "9870f732-f3f5-4d87-9c47-d24ffb2bd0da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "017955f8-783d-4f56-9c71-29ff1bbedde2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "58ab2f7e-23bf-4a8c-b5e3-b619b99fe61e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "4ccca10d-45dd-31f7-8d34-ff97d09f8a2b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "fa0953cb-cc5f-4839-89f0-16d100da3ad1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "2c6e2bba-659b-47fe-bccc-5ac3a29efda6",
+          "title": "Legend: The Best of Bob Marley and The Wailers"
+        },
+        {
+          "id": "3233560e-cc6f-3c55-a85d-ec84ba06f970",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "6786aa49-bd1b-4ff3-a81f-3af72dcb91df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "faa02f35-191c-4070-bd8f-3a408962221e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "a489c65d-b670-465c-99f8-05e080afbf03",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "98f694e0-2cb2-41a2-9c59-0862f37148c6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "f7da6448-0f6a-4569-90aa-920e7439815e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley & The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "a2da46b2-ae6c-300c-abc0-6944ccf5d9c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "cea2a0dc-cfdb-3700-85e6-7e225ed6687e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "0bca3377-630d-4982-b447-604053864aa3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "8c7b0fae-5c99-491b-b936-35573f9eb148",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "f86bffde-65cb-3c85-8c79-a2c2eeefd613",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "edfdcd03-5ab5-37b4-810d-1397087b0ea6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "c18ce29c-9ba8-4e79-a7f8-da7f2afb8d02",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "a2ebc05f-bf7a-49c1-894b-368c0c67b10b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "0193168c-caa0-4e39-b959-edd825d6870b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and the Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "bd598733-14a1-4b00-ae49-8becda2298a9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        },
+        {
+          "id": "a352947c-6302-4afe-9a6d-24876bff7c4f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Legend: The Best of Bob Marley and The Wailers",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "downtempo"
+        },
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "ska"
+        },
+        {
+          "count": 0,
+          "name": "mellow"
+        },
+        {
+          "count": 31,
+          "name": "reggae"
+        },
+        {
+          "count": 1,
+          "name": "uplifting"
+        },
+        {
+          "count": 0,
+          "name": "dub"
+        },
+        {
+          "count": 0,
+          "name": "relaxed"
+        },
+        {
+          "count": 0,
+          "name": "soul"
+        },
+        {
+          "count": 10,
+          "name": "roots reggae"
+        },
+        {
+          "count": 2,
+          "name": "rocksteady"
+        },
+        {
+          "count": 1,
+          "name": "english"
+        },
+        {
+          "count": 1,
+          "name": "spiritual"
+        },
+        {
+          "count": 2,
+          "name": "bob"
+        },
+        {
+          "count": -1,
+          "name": "soul and reggae"
+        },
+        {
+          "count": 2,
+          "name": "reggae-pop"
+        },
+        {
+          "count": 2,
+          "name": "classic roots reggae"
+        },
+        {
+          "count": 0,
+          "name": "do not split"
+        },
+        {
+          "count": 0,
+          "name": "rhythmic"
+        },
+        {
+          "count": 1,
+          "name": "jamaican ska"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "5+ wochen"
+        }
+      ]
+    }
+  ]
+}

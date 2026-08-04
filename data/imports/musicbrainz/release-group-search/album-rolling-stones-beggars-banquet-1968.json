@@ -1,0 +1,347 @@
+{
+  "albumId": "album-rolling-stones-beggars-banquet-1968",
+  "query": "artist:\"The Rolling Stones\" AND releasegroup:\"Beggars Banquet\" AND firstreleasedate:1968",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Rolling%20Stones%22%20AND%20releasegroup%3A%22Beggars%20Banquet%22%20AND%20firstreleasedate%3A1968&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:42:45.805Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "6e672bbd-7c7f-32f8-8335-c603be99d13b",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "df296871-15ee-38e4-a1da-421cc5801c7e",
+      "count": 36,
+      "title": "Beggars Banquet",
+      "first-release-date": "1968-12-06",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Rolling Stones",
+          "artist": {
+            "id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+            "name": "The Rolling Stones",
+            "sort-name": "Rolling Stones, The",
+            "aliases": [
+              {
+                "sort-name": "Stones",
+                "name": "Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stones, The",
+                "name": "The Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ローリング・ストーンズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ローリング・ストーンズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rolling Stones",
+                "name": "Rolling Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "ad98f7c3-5fae-404c-ae19-e75b1a58dfcc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "37aa66ae-3472-4b4b-b669-ab040a29812f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "5a292255-d4d4-4a50-8f89-1574dbb07015",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "95104b7f-df36-4acd-b796-3ba38124d862",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "e033b47f-e278-479d-b88d-ae49ac1ac0f4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "a3f6caa9-62c5-40bc-a699-2b78737f975e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "8345dc9c-b9c4-3d11-9a29-828b6e235c6a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "1935d0b3-f9d1-430e-84c4-140b5fb37ce2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "1498d654-618a-4335-a0a2-02c5180b5232",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "aca995b3-15ec-4831-b9b7-33e791dbb542",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "aae53b6a-1f64-4498-a408-043ba7bdebd9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "30da11bb-fc04-4152-ac1d-7ec7c6dd4f83",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "0fd6ed93-9e76-4cfe-9903-36363464ab16",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "6c5a536e-61f3-3ee6-929d-3fbb3f85a257",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "1db79b00-f585-4943-a83b-9bd7e6914e06",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "6ec4a904-da7a-476f-b23f-141f6ece621f",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Beggars Banquet + Single",
+          "status": "Bootleg"
+        },
+        {
+          "id": "dc8ef7f6-ca57-45fd-bcfc-ce98189b48f5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "29f1a07a-3e94-3d4f-bc75-51360a93ba68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "8833c2be-4717-3d58-96f2-33f592a3dc06",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "9094bd90-59ed-4ab2-95b3-370042b528f5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "8358102d-cc32-4c48-ba3d-44f40ec3e691",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "c1fc52c7-1f32-4aa9-bc39-ae8134cfb467",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "fee8b189-17d6-45bb-a071-606d7ed1ee4a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "2ed1167c-7131-41d6-abb9-e81053a2f3ba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "58d488e3-816f-30c0-bfc6-9c5d77888a44",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "8c6227b9-7b73-4379-be86-df22d7e0406c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "326e583b-8199-4eeb-9960-7830cd128c77",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "7fc60554-ed57-3acf-9800-2f60a64ca4aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "f28dc22d-4510-43a2-8306-e83efd10bcca",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Beggars Banquet",
+          "status": "Bootleg"
+        },
+        {
+          "id": "ba9b6769-348e-49ff-8b69-6e013b74c150",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "ba492c5e-7b98-392c-8e1e-f14268c0ff01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "79cc527d-b9fc-4069-a536-2ddef9ff940d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "5ce41718-5811-4f7a-b171-93e17d948db6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "a5d10f04-b408-4b1d-9616-8344c6199c9d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "12281cc7-d270-4933-8411-adbe0a26a50e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        },
+        {
+          "id": "19bea79a-cf8c-4c8d-8881-5a426747b0c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Beggars Banquet",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 11,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 3,
+          "name": "hard rock"
+        },
+        {
+          "count": 8,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 4,
+          "name": "classic rock"
+        },
+        {
+          "count": 4,
+          "name": "album rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 3,
+          "name": "roots rock"
+        },
+        {
+          "count": 0,
+          "name": "blues-rock"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        }
+      ]
+    }
+  ]
+}

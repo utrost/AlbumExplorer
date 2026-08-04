@@ -1,0 +1,616 @@
+{
+  "albumId": "album-bruce-springsteen-the-river-1980",
+  "query": "artist:\"Bruce Springsteen\" AND releasegroup:\"The River\" AND firstreleasedate:1980",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bruce%20Springsteen%22%20AND%20releasegroup%3A%22The%20River%22%20AND%20firstreleasedate%3A1980&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:05:44.335Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "8a6f6ede-b60a-3cad-b3b9-cfb57e9e1dbd",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 76,
+      "title": "The River",
+      "first-release-date": "1980-10-10",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3143d66c-0de0-45a5-a495-e0d83018f90c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Official"
+        },
+        {
+          "id": "49cc371a-578a-42f6-b711-25797bf26043",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Official"
+        },
+        {
+          "id": "756b9c3d-dcd9-482f-91e5-1190d2a80da5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Official"
+        },
+        {
+          "id": "eb908dfe-8054-4ca5-be3a-3c6f55f75967",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Official"
+        },
+        {
+          "id": "f8da1af3-081b-4c1f-8179-8d22b6c6cbbf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Official"
+        },
+        {
+          "id": "d287e907-34b9-4271-b086-59b7990472e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Official"
+        },
+        {
+          "id": "10629030-372f-48b4-933f-abb107ef047b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Official"
+        },
+        {
+          "id": "3f706f48-b25e-477c-a274-6f6b38012c19",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Official"
+        },
+        {
+          "id": "8c72a6fe-756c-4ee4-9f71-246e690f1b51",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Promotion"
+        },
+        {
+          "id": "93b37c7d-f77c-492e-bced-22d4a30eabd6",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Promotion"
+        },
+        {
+          "id": "29f5c248-c34d-4937-a1d3-9637231d6a8e",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Promotion"
+        },
+        {
+          "id": "bf18114f-d349-42bd-8720-818ef825575d",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Ties That Bind: The River Collection",
+          "status": "Promotion"
+        },
+        {
+          "id": "433d808f-7db3-4399-9695-d787cd5f2495",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "6c336feb-18cb-4384-be72-222fec7265da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "ab76c0d0-6d42-4b55-ae8d-2b0b51a87039",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "aae34711-02a4-4424-81b2-426da1db31eb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "709f6d0c-5b22-3892-89cb-1e137925a605",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "011c71d3-27ec-4325-96b1-9b1417d8cde5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "80f5bb67-b1c1-4ca8-a9c3-8404659ad13d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "6dd8ed68-bb4d-4536-a46b-4c8a27318cca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "1d0ddba6-3a46-4aa6-84a0-412d61f084fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "6dc8fb82-f29d-421f-879e-af5855fc2454",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "ae5f8aed-96e5-4072-a1c4-6b926776b855",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "39f26d4d-d30d-4f66-b12d-981399328865",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "6bf2d2a5-4c4f-423e-a2c4-5210a087ced1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "edddc2f0-13d2-4ac0-b2c0-2802990cf517",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "81ba84bb-2629-443a-9570-513c7e0deb2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "60193d20-d6d3-4394-902e-4c5b0b0c7ab2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "93e1442e-6719-4be4-8f8a-d885a0f13dbb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "884ee21a-6fc6-4907-9475-cab6d77c0ee9",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The River",
+          "status": "Promotion"
+        },
+        {
+          "id": "aafa43ff-fd45-4204-83fe-c8aba8ba1db8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "5e098120-99a8-4033-ba25-cace60cd5abe",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The River",
+          "status": "Promotion"
+        },
+        {
+          "id": "7a384e1c-c326-4e1e-a25b-acd1999ba7a3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "10a6c11e-d58b-45e5-8d14-9cdd1c60b446",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "ea6c5af9-6ee5-408a-a9a2-5252a8bf8ef5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "f91adf6a-cd49-445a-8965-60a82503a065",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "9c7afecc-9b31-4ac7-8821-d5622e5f81c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "82dd328e-c348-32a1-ba2a-8051bd0a5ab3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "fd5d40a6-cab4-40e0-8d21-437dc53ecb3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "2d3b8ab8-6af1-49bc-aff6-dcb29a7b3c3b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "13f7c301-e4cd-4da8-9418-923d53444cd6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "f09dd250-3b74-48d1-9237-8060feac6560",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "2fd3b2a3-c5dd-4772-9629-2f425d63063c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "719bdc26-ad21-403d-81fc-a14e43051de5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "217fd168-f565-4d46-a008-fcb4a42ff764",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "e37617cb-8939-40e7-94f3-575815283072",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "c7027305-b58e-499b-be3a-eb452c35bd4c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "e2891d98-a9b7-4bc6-887c-1d1d3f6523de",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "a0f7c974-baaa-46bf-be06-8dc34ddbe179",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "45e2a107-5772-4062-82ba-82cbf1f605d1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "e1affeaa-bd48-48f9-9619-6c1a54bfb94c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "276d0be7-5024-4b7b-9b6a-6bd5c2071139",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "5cf86534-99da-43e5-bd02-0301d1928dd1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "134cada0-0512-414a-a6a0-68a774cc9050",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "b11276a5-f052-474f-997e-11c8d0de9d0d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "f62574cf-f7fe-4f70-b2d7-9b724ca68e95",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "819c328b-4f39-42fe-9178-ed23e2003d6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "8729df29-0209-426f-bbb7-51cfce8ec4cb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "86cfc0fc-a162-4b11-98df-d805302c7967",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "54e0280e-b905-4e09-a7b8-7868b666c4cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "36b1f6f2-e6f5-41da-b941-5819eea51edb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "8632901d-97de-4d8a-b210-6d61634df6e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "56fbdab8-7d9b-41c0-a811-f14314fedc91",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "0a85f35f-aa2d-4ecf-84f7-b2fb6903838c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "c92e0b67-9811-43e9-9cae-da80f3e7cea0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "4b38e9f5-8795-4d94-8249-d7ead17ce800",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The River",
+          "status": "Bootleg"
+        },
+        {
+          "id": "aed5449e-847b-49d9-83e1-5d81469db4af",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The River",
+          "status": "Bootleg"
+        },
+        {
+          "id": "99135822-5c7a-41e9-8fe1-f0d6254f55c5",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The River",
+          "status": "Bootleg"
+        },
+        {
+          "id": "7a254f73-b777-4ea0-bb45-c51212f3a1cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "e46a83dc-4a07-43ce-a7cd-29d988955841",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "4ff1df45-61f4-427d-8e56-120eb4a0ee51",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "ad6c1f9a-cdb5-46b9-bc05-4922cb0be204",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "931282b0-809a-43e5-a33d-370223b4d91e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "ab689880-546c-42bd-a284-8b3c540b8741",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "68a01df9-13ab-4e7c-be7b-fad726e26f56",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        },
+        {
+          "id": "14132218-9422-4964-8f12-4546e7d572d2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The River",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 11,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 9,
+          "name": "folk rock"
+        },
+        {
+          "count": 0,
+          "name": "album rock"
+        },
+        {
+          "count": 2,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "arena rock"
+        },
+        {
+          "count": 4,
+          "name": "rock and roll"
+        },
+        {
+          "count": 4,
+          "name": "heartland rock"
+        },
+        {
+          "count": 4,
+          "name": "roots rock"
+        },
+        {
+          "count": 0,
+          "name": "1979"
+        },
+        {
+          "count": 0,
+          "name": "1980"
+        },
+        {
+          "count": 0,
+          "name": "summer"
+        },
+        {
+          "count": 0,
+          "name": "anthemic"
+        },
+        {
+          "count": 0,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "double album"
+        },
+        {
+          "count": -1,
+          "name": "theriver"
+        },
+        {
+          "count": 1,
+          "name": "jersey shore sound"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "albumId": "album-rolling-stones-some-girls-1978",
+  "query": "artist:\"The Rolling Stones\" AND releasegroup:\"Some Girls\" AND firstreleasedate:1978",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Rolling%20Stones%22%20AND%20releasegroup%3A%22Some%20Girls%22%20AND%20firstreleasedate%3A1978&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:57:30.511Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b44bc358-a28f-3a1f-b07e-604910f12d37",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "df296871-15ee-38e4-a1da-421cc5801c7e",
+      "count": 41,
+      "title": "Some Girls",
+      "first-release-date": "1978-06-09",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Rolling Stones",
+          "artist": {
+            "id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+            "name": "The Rolling Stones",
+            "sort-name": "Rolling Stones, The",
+            "aliases": [
+              {
+                "sort-name": "Stones",
+                "name": "Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stones, The",
+                "name": "The Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ローリング・ストーンズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ローリング・ストーンズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rolling Stones",
+                "name": "Rolling Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "8dbcb44a-1b7e-4a49-a58e-4cbec0ea75a5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "954f2a9d-3eca-4b7e-8470-e4ed9a355824",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "2a22d946-a4cd-4ac4-8078-54bca9afef82",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "d136807f-dc02-4cf1-b025-bd8b0ac10154",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "35845d54-c7f5-44cd-b8af-5a5830dd2047",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "b0d2aa6b-6af3-4732-99d5-a65dbd8502ef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "8305c344-bea8-484d-a431-38bb2c85d453",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "59dba9d3-56e3-49fa-9063-571344ac617c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "09efc038-deb8-42fd-828a-eacf5f0b1b3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "72931641-d8dc-4da3-b161-37a8e7101980",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "ca3bc838-f563-405a-86fd-f8e1802ef092",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "ba2b8006-9f2a-43da-af07-b5ecf11b7a18",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "327c0321-8f0a-4e40-876f-b128d61c1574",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "733d3e65-d86b-4254-b000-ad09ea3699c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "a8722055-b3e3-4f12-89b0-66d1293948e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "bb8e522c-2bbe-48ec-9cfe-9d26f5ff91e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "822f510b-29c1-4075-8294-ee2b92752ef7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "514b39a4-5e6e-4acb-8774-744008bd9921",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "ffe9cdad-a22f-44c1-acee-30e69be93554",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "3290f7c0-5e87-454d-a377-ec889465faed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "ce4ae982-810d-4c5b-b8db-354085be1281",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "e8df5fa8-35fc-4d97-bfb9-f204308ec874",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "adc586a0-a617-47b6-bdfe-3a74c8118193",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "e4ce4097-02fe-4a1b-88eb-18a3f0660991",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "5d890d26-1aeb-4237-b206-493af6fea4e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "53426683-2f5e-38aa-9a7c-421733790c6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "d2ae31a7-780c-3d60-abe0-7f86b332817b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "62bd8dde-9f17-45c6-acb9-18e66929bdf4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "635239b4-986a-4cb7-90ba-bf213d5c9f78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "3972e827-8d07-4831-9d21-5b7fc28e43f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls (deluxe version)",
+          "status": "Official"
+        },
+        {
+          "id": "a8e61f20-cc50-410c-aec6-3be5a9e0ffbc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "620a7cbf-9c36-35ec-9166-8b8084a2ad90",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "474f6a18-e9b5-396e-8203-f8c4dc867bcb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "ff32fc14-b8fc-47cc-8058-b575a6f7a068",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "d222fede-42c4-45a2-b0c7-2fd31b6d16b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "1676547e-e49b-4a9b-bf2e-08df5137f10f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "7ffa7a1c-ecab-3ae0-bed8-9cda89cb90ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "5f4d1fbc-6d2f-4606-baa5-0595fb9f0154",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "d468d680-8d87-4f0e-8e9e-168aa2ca5de6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "4883ea7c-98b1-48ad-9470-ee8a7cede19d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        },
+        {
+          "id": "90514d42-c5a2-462d-bc17-0c10820f2830",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Some Girls",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 15,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 4,
+          "name": "hard rock"
+        },
+        {
+          "count": 0,
+          "name": "funk rock"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 0,
+          "name": "disco"
+        },
+        {
+          "count": 5,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 2,
+          "name": "classic rock"
+        },
+        {
+          "count": 2,
+          "name": "album rock"
+        },
+        {
+          "count": -1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "roots rock"
+        },
+        {
+          "count": 1,
+          "name": "sexual"
+        },
+        {
+          "count": 0,
+          "name": "rock pop"
+        },
+        {
+          "count": 1,
+          "name": "love"
+        },
+        {
+          "count": 1,
+          "name": "eclectic"
+        },
+        {
+          "count": 1,
+          "name": "dense"
+        },
+        {
+          "count": 1,
+          "name": "energetic"
+        },
+        {
+          "count": 0,
+          "name": "aor classic rock"
+        },
+        {
+          "count": 1,
+          "name": "male vocalist"
+        },
+        {
+          "count": 1,
+          "name": "playful"
+        },
+        {
+          "count": 1,
+          "name": "humorous"
+        },
+        {
+          "count": 1,
+          "name": "introspective"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "dance-rock"
+        },
+        {
+          "count": 1,
+          "name": "rhythmic"
+        },
+        {
+          "count": 1,
+          "name": "sarcastic"
+        }
+      ]
+    }
+  ]
+}

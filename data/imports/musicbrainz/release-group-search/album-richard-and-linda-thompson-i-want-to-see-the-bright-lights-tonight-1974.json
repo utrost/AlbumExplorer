@@ -1,0 +1,136 @@
+{
+  "albumId": "album-richard-and-linda-thompson-i-want-to-see-the-bright-lights-tonight-1974",
+  "query": "artist:\"Richard and Linda Thompson\" AND releasegroup:\"I Want to See the Bright Lights Tonight\" AND firstreleasedate:1974",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Richard%20and%20Linda%20Thompson%22%20AND%20releasegroup%3A%22I%20Want%20to%20See%20the%20Bright%20Lights%20Tonight%22%20AND%20firstreleasedate%3A1974&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:58:22.359Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b35625b1-200d-3692-b02a-08bd4f693ef8",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "067be451-e9fe-3674-88fc-24e7ee411e4e",
+      "count": 8,
+      "title": "I Want to See the Bright Lights Tonight",
+      "first-release-date": "1974-04",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Richard & Linda Thompson",
+          "artist": {
+            "id": "fc60e1ff-04f2-4417-8d33-dde3aae9d8e9",
+            "name": "Richard & Linda Thompson",
+            "sort-name": "Thompson, Richard & Thompson, Linda",
+            "aliases": [
+              {
+                "sort-name": "Thompson, Richard & Peters, Linda",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Richard Thompson & Linda Peters",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Richard & Linda Thompson",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Richard & Linda Thompson",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Richard and Linda Thompson",
+                "name": "Richard and Linda Thompson",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Richard & Linda Thompso",
+                "name": "Richard & Linda Thompso",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "9ed47f6b-a362-48f8-892d-5e6f13e36993",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "I Want to See the Bright Lights Tonight",
+          "status": "Official"
+        },
+        {
+          "id": "fd8a713f-d806-3635-bff3-cdac51198fc6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "I Want to See the Bright Lights Tonight",
+          "status": "Official"
+        },
+        {
+          "id": "2194aff6-e485-4385-a790-c13f9922be6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "I Want to See the Bright Lights Tonight",
+          "status": "Official"
+        },
+        {
+          "id": "2fcdc6d8-feb2-41c2-9f84-57a724a7a664",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "I Want to See the Bright Lights Tonight",
+          "status": "Official"
+        },
+        {
+          "id": "5c019038-14f8-498a-93a8-53837ac16150",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "I Want to See the Bright Lights Tonight",
+          "status": "Official"
+        },
+        {
+          "id": "000e6233-c4e9-466e-8144-2c362e50816b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "I Want to See the Bright Lights Tonight",
+          "status": "Official"
+        },
+        {
+          "id": "cbefedf1-431b-4aa8-ba4e-8df8d9e5548f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "I Want to See the Bright Lights Tonight",
+          "status": "Official"
+        },
+        {
+          "id": "e69a494e-841d-41a9-be17-8ccb275ff615",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "I Want to See the Bright Lights Tonight",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "folk"
+        },
+        {
+          "count": 3,
+          "name": "folk rock"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "albumId": "album-kanye-west-graduation-2007",
+  "query": "artist:\"Kanye West\" AND releasegroup:\"Graduation\" AND firstreleasedate:2007",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Kanye%20West%22%20AND%20releasegroup%3A%22Graduation%22%20AND%20firstreleasedate%3A2007&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:43:42.443Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "d44c50ad-61fd-3fce-95fc-27024d7f1d30",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "063d6a42-790a-3909-9fe9-4288bcbfa4d4",
+      "count": 25,
+      "title": "Graduation",
+      "first-release-date": "2007-09-05",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Kanye West",
+          "artist": {
+            "id": "164f0d73-1234-4e2c-8743-d77bf2191051",
+            "name": "Ye",
+            "sort-name": "Ye",
+            "disambiguation": "formerly Kanye West",
+            "aliases": [
+              {
+                "sort-name": "Ye",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ye",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "KanYeWest",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "KanYeWest",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donda",
+                "name": "Donda",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kanye",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Kanye",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "K. West",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "K. West",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kayne West",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Kayne West",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "West, Kanye",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Kanye West",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": "2024"
+              },
+              {
+                "sort-name": "Ye",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Ye",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "2021-10-18",
+                "end-date": null
+              },
+              {
+                "sort-name": "Yeezy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Yeezy",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "West, Kanye",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Kanye West",
+                "locale": "zh",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "West, Kanye Omari",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Kanye Omari West",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1977-06-08",
+                "end-date": "2021-10-18"
+              },
+              {
+                "sort-name": "カニエ・ウェスト",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "カニエ・ウェスト",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "48fd4843-3815-4a40-bfeb-a291c7f30f9c",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Graduation",
+          "status": "Bootleg"
+        },
+        {
+          "id": "28613215-350d-4f05-9aac-2ef79653d67a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "a8ab7437-b18a-31c3-968e-e03d41c855c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "61eee7a2-43cc-41b5-b7bc-cef045fa074a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "ccd5625e-f49d-4b8a-a2f2-fecf7009f011",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "3766b512-fa50-49ae-8a9a-bab0dab9a937",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "12c41d35-eb0e-4a9f-8bef-caf943a06ada",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "06a81817-093d-40f0-aef2-90673fa550ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "4ee572d7-cf58-451c-af40-23a8827cdbfd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "590319a1-6e5e-46f3-9a43-5dfb16f028c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "f754b512-8fc5-4437-aeb5-592e7a69e380",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "49a7259f-b354-4502-9f5d-62fc4dcbd5f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "259e1c13-04fe-4fae-a3d2-73a58be1b8e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "d6b253ab-bf38-4d65-97c8-82fed6cc4770",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "64c600c3-6db4-4dfa-b5be-32badcc4e56a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "590c5fc1-5dc3-470e-a714-5c5096a506e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "4f43178d-8031-4b59-b18d-ef32e9be4fd7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "77b546dd-16b8-4596-8a13-7f61d71ffff4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "08e0cab1-e95c-4b33-8ed3-1337d934fb7f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "eaa38316-0a9b-48f5-a55b-b58a139dd922",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "8e55271c-bc69-4b04-a3e1-17f23aeeb472",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "d708ece8-7e8b-3e5c-9a0c-dbaf3abdc88d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "a38f76c3-1087-3791-a8b2-ae00b93db0cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "b4637a25-c99c-32ad-bf0c-1aa045a2697c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        },
+        {
+          "id": "deb9339f-1e9b-4ce9-8c29-77f9313b734e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rap"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop"
+        },
+        {
+          "count": 8,
+          "name": "hip hop"
+        },
+        {
+          "count": 2,
+          "name": "electropop"
+        },
+        {
+          "count": 7,
+          "name": "pop rap"
+        },
+        {
+          "count": 3,
+          "name": "alternative rap"
+        },
+        {
+          "count": 1,
+          "name": "english"
+        },
+        {
+          "count": 1,
+          "name": "hip hop rap"
+        },
+        {
+          "count": 1,
+          "name": "alternative hip hop"
+        },
+        {
+          "count": 0,
+          "name": "east coast rap"
+        },
+        {
+          "count": 1,
+          "name": "midwestern rap"
+        },
+        {
+          "count": 1,
+          "name": "soul and r amp b"
+        },
+        {
+          "count": 1,
+          "name": "pop-rap"
+        },
+        {
+          "count": 1,
+          "name": "midwest rap"
+        },
+        {
+          "count": 1,
+          "name": "east coast hip hop"
+        },
+        {
+          "count": 0,
+          "name": "chicago rap"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "5+ wochen"
+        },
+        {
+          "count": 0,
+          "name": "alternative rap;contemporary rap;midwest rap;pop-rap;rap"
+        }
+      ]
+    },
+    {
+      "id": "225a89b0-2520-488c-a090-ae4e4debb726",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 80,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "063d6a42-790a-3909-9fe9-4288bcbfa4d4",
+      "count": 1,
+      "title": "Graduation “Bonus Tracks, Remixes, Unreleased” EP",
+      "first-release-date": "2007-12",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "Kanye West",
+          "artist": {
+            "id": "164f0d73-1234-4e2c-8743-d77bf2191051",
+            "name": "Ye",
+            "sort-name": "Ye",
+            "disambiguation": "formerly Kanye West",
+            "aliases": [
+              {
+                "sort-name": "Ye",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ye",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "KanYeWest",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "KanYeWest",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Donda",
+                "name": "Donda",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kanye",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Kanye",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "K. West",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "K. West",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Kayne West",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Kayne West",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "West, Kanye",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Kanye West",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": "2024"
+              },
+              {
+                "sort-name": "Ye",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Ye",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "2021-10-18",
+                "end-date": null
+              },
+              {
+                "sort-name": "Yeezy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Yeezy",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "West, Kanye",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Kanye West",
+                "locale": "zh",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "West, Kanye Omari",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Kanye Omari West",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1977-06-08",
+                "end-date": "2021-10-18"
+              },
+              {
+                "sort-name": "カニエ・ウェスト",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "カニエ・ウェスト",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "2bdcad38-18a5-4d13-ba2e-02bdce22c025",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Graduation “Bonus Tracks, Remixes, Unreleased” EP",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "hip hop"
+        }
+      ]
+    }
+  ]
+}

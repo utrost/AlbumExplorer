@@ -1,0 +1,1296 @@
+{
+  "albumId": "album-beatles-rubber-soul-1965",
+  "query": "artist:\"The Beatles\" AND releasegroup:\"Rubber Soul\" AND firstreleasedate:1965",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Beatles%22%20AND%20releasegroup%3A%22Rubber%20Soul%22%20AND%20firstreleasedate%3A1965&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:34:09.449Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "dca03435-8adb-30a5-ba82-5a162267ff38",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 112,
+      "title": "Rubber Soul",
+      "first-release-date": "1965-12-03",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a05c37f4-7af7-407f-99c1-db765104c50d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul (Super Deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "fc813baf-fd53-4068-a360-04d657e609bd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul (2026 mix)",
+          "status": "Official"
+        },
+        {
+          "id": "47170d79-4b68-4760-8d30-c3a2622e9ff5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul (Super Deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "335a4a56-1c52-4cc4-ad8e-7362cda4bcee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "211e568e-c48e-47da-bbc3-6eb0a2c0e0d8",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul - haydenxavier0508 mix",
+          "status": "Bootleg"
+        },
+        {
+          "id": "a5a18b6a-61e9-4d91-9321-1c1d4e284b1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "78d625ce-e6d7-4084-bdbe-c439b6fe7dbd",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "38286dad-4016-44b4-ae80-cd826b29a56a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "74d0e54b-62ad-4309-892b-26582a7ea769",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "0dfea196-376e-4ba9-af96-368d5a3faa48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "6e495445-6671-4e5e-abb1-9eca322ca104",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "091cac98-72ab-4d31-9c6d-6758f65caf1b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "f79f364f-6363-44c2-9551-cec59ac8b910",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "bcaf7c44-d8e9-47c6-b1f4-35f9f3e15886",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "c6fae114-6098-4247-b780-834e086fc5ff",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul: Remixed",
+          "status": "Bootleg"
+        },
+        {
+          "id": "c6939859-8bcc-4f31-8056-3a62e5cdb80d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "bbe63da3-9cc8-4580-be42-4a8e779c5bc6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "14722cd2-0514-44cd-9327-8684c7146163",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "d34d7f58-2146-4955-84f6-f56f97894aef",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "0ae2f213-a9f4-4da2-8501-cf45655e49ca",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "3a00cd4a-b53b-4b81-b6ef-9756bbc4375d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "d46ee8ee-d302-4e17-a15c-c74c6ec62a9c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "3775f8b2-f475-407e-beb0-3430faa7c354",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "8146b198-6c01-47fe-82b3-24a424c612f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "13473318-e4e1-423b-bf35-d8cd1001884f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "0d2da169-e1e8-4556-8804-2969715f88b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "ce6796fe-d5c2-4c70-9069-296923253b46",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul: Remixed",
+          "status": "Bootleg"
+        },
+        {
+          "id": "f399ffd6-736c-4146-adf6-a42cf69cd3f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "6ee5c777-7a24-4910-8767-af163cb4471a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "3963dff6-9e47-49ce-9379-03122d740024",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "c740abdf-b249-49f5-bfd4-180db2edc672",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "caeee7b8-251d-445f-a177-dd1698e83504",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "b152cff1-1f8e-4668-9d08-b026102da639",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "6266201f-a74b-4eb4-866b-dc67d54fa44c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "5e380ea0-5399-4e35-a3ef-80eb82340eb5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "e4463ffb-3f5e-446b-9f78-bd315a81767b",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "171406fd-6b47-48e7-a6b2-23826304412d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "fb27264c-ebc7-3b32-9186-8bf4d6786dc2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "8aa00464-0eec-4d0a-ae32-5aed0f967bac",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "969e59bf-03c6-4f9a-b227-b1e41824a331",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "3e02ea43-f185-473a-9400-475af51f73bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "acdc3e68-087d-4e85-b0df-7eed0f87197d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "17a33d86-135e-4857-9a6e-e1c218ab4873",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "0d5becb2-4f75-463a-93cc-d36d91c3b09c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "e781999c-f036-4b7c-9c41-0bff402e64df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "1fa2b198-224b-424d-98f8-dfd1e62f0fff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "34b8cb33-5f91-4e0c-b4ec-3fb2d3f2f926",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "dc8b8147-b245-45b3-9472-92767f483253",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "602087b6-9b13-4bc0-a6a8-41d96adca033",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "bb8c4da2-aa08-4602-ac71-76f144e9dcf6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "676418a0-25d1-4f89-88ab-61715181ea66",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "5caac04c-2349-4a21-a9f5-a843d594859c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "c2034dae-e5ce-4312-af3c-e683e7c57a81",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "9e30f1da-0ce6-3a70-b499-3a9be63cd27a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "dbc7f177-e7e2-421e-8549-857e83c05e2e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "83e297e0-85b8-4d3b-b5ab-0732d1793575",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "17e01fe3-6f5e-4a41-9fd9-49095d2948c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "6ff7e415-6320-409c-a7de-66dbf8ebfaa0",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "431aaf63-7f45-4cbb-9292-cc66c6d76724",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "8194986e-76ec-4eab-9706-1b07b0301a8e",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "ab17dcff-ccba-4165-896e-8bdbfd649d9c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "b7514bd8-daf6-4f73-912a-c0c028432f3e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "eee5b1f8-fb57-4ddd-bf56-3f94034b2340",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "34c72483-2a93-43db-871f-1bda36fc5060",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "dc3eb7c9-c0e0-4e8e-882e-b1b54977578a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "31a3a83b-6f88-4acf-bea7-99fc14971c08",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "c1d8695e-431f-4d85-9960-aa5257566957",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "2377cd2c-46d4-4618-b15e-03038c7f6b74",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "3561bb5c-85b9-40b2-91f3-f9351b6cf396",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "84a657db-7fdb-4902-8cf5-54756e3d7e98",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "3d7d296a-8340-4672-88cb-87ad53ea85bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "d32fc0ec-a4c0-4b02-908b-9000aaac0c8f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "df2dd7e9-c39a-4302-a32f-76fd630a274c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "d348f9b8-957a-4e75-a7b7-8f5c4d0f3059",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "bab157e1-772c-3173-86eb-e7538732fec9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "4adb4b56-2daf-497d-9e15-15e9a7bc1235",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "82751c9d-7861-4d67-8f94-1924ba5aeb0e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "db58c82d-933a-4ca7-86af-a7e92fd81e66",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "496490d1-de64-4a88-8cad-bf24bf4635ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "c016e629-02ba-3250-84a6-fa012f8e6ba4",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "4693bdbc-d690-4f96-9af1-ded8cb2b7d8c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "f69e9e53-a6be-44d1-a0e0-1499f20e7ea4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "288cd84a-a357-461c-98d6-745077837816",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "ddb7edd9-1318-45ef-851e-e1cf7ba83ed6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "482a7c21-ecd6-45bd-a87c-567309fac696",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul · Резиновая Душа",
+          "status": "Bootleg"
+        },
+        {
+          "id": "83a9162d-eabf-4097-9108-336792b764c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "b9af083c-530b-41f1-b57b-fc0beb2c52cb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "25c9ffc6-1de0-4665-9177-35b517d06596",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "c75ba2d8-1242-4347-bf15-d47e5f76c45c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "692cc0e9-bd5d-4554-b208-0538fdee0a78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "67533605-9e90-4255-ad7f-ef60ff286c54",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "6b0e293f-97ce-433a-ab1c-9d02329567fd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "f076b0bc-00d9-499e-a526-46b76cfa5fb2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "8c50c91f-2654-46d6-8222-9a9adbc71733",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "70066af5-30b7-46a4-94b0-0e9e770655bc",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "e770a4dc-51f5-4783-9eb4-d6e8f69a1ffa",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "e464e0dc-807c-453e-bec2-45d192b1c4b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "9f05f371-70ac-425f-b4cb-5228dea27bdf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "36d30f14-797e-44e7-bf83-3f56297b393e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "d34d1cf1-55d6-4e5f-9770-4789586d5e02",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "ab94add5-0a4a-4bf6-843b-c0edf41eeae4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "63dbe6ee-276a-3732-abc9-f523e2002ff2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "d5d19748-72fc-3f20-aae7-7ca22da283a0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "af049cb7-fe0a-4a8c-9f52-6ab26e31f9c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "2c54468a-dedf-4ac9-a358-562c4c6c5dd7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "9926dc52-b87c-4f24-b9d5-997f91c9f3b9",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "461167a3-2d9f-4f2c-9a61-7c8604f30795",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "b04ccc30-3e93-4b55-9eef-532b9d8772ce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "d1092e74-6412-4bc6-a91c-bc3588b764f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "770526c9-89c3-40f0-bc3e-2845f8448cce",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Rubber Soul",
+          "status": "Bootleg"
+        },
+        {
+          "id": "cc1ff06c-2fed-47e9-97f7-6d8cbba90833",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        },
+        {
+          "id": "601181eb-f0ca-3cad-9a7d-1f7973717c26",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Rubber Soul",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 17,
+          "name": "rock"
+        },
+        {
+          "count": 7,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "mellow"
+        },
+        {
+          "count": 0,
+          "name": "british"
+        },
+        {
+          "count": -1,
+          "name": "owned-vinyl"
+        },
+        {
+          "count": -1,
+          "name": "uk"
+        },
+        {
+          "count": 0,
+          "name": "60s"
+        },
+        {
+          "count": 7,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 2,
+          "name": "psychedelic"
+        },
+        {
+          "count": 2,
+          "name": "britpop"
+        },
+        {
+          "count": 0,
+          "name": "folk-rock"
+        },
+        {
+          "count": 0,
+          "name": "classic rock"
+        },
+        {
+          "count": 0,
+          "name": "1960s"
+        },
+        {
+          "count": 2,
+          "name": "psychedelic pop"
+        },
+        {
+          "count": 7,
+          "name": "pop rock"
+        },
+        {
+          "count": 0,
+          "name": "british invasion"
+        },
+        {
+          "count": 0,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "romantic"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 3,
+          "name": "folk pop"
+        },
+        {
+          "count": 1,
+          "name": "melancholic"
+        },
+        {
+          "count": 1,
+          "name": "love"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "eclectic"
+        },
+        {
+          "count": 1,
+          "name": "happy"
+        },
+        {
+          "count": 0,
+          "name": "british invasion rock"
+        },
+        {
+          "count": 0,
+          "name": "pop-british"
+        },
+        {
+          "count": 0,
+          "name": "mono"
+        },
+        {
+          "count": 1,
+          "name": "bittersweet"
+        },
+        {
+          "count": 5,
+          "name": "am pop"
+        },
+        {
+          "count": 1,
+          "name": "sentimental"
+        },
+        {
+          "count": 1,
+          "name": "introspective"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 2,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "autumn"
+        },
+        {
+          "count": -2,
+          "name": "early to mid sixties"
+        },
+        {
+          "count": 0,
+          "name": "1965"
+        },
+        {
+          "count": 3,
+          "name": "british rhythm & blues"
+        },
+        {
+          "count": 1,
+          "name": "beat music"
+        },
+        {
+          "count": 1,
+          "name": "longing"
+        },
+        {
+          "count": 0,
+          "name": "discogs/the most popular album released every year from 1950 to 2020"
+        },
+        {
+          "count": 0,
+          "name": "artist on cover"
+        }
+      ]
+    }
+  ]
+}

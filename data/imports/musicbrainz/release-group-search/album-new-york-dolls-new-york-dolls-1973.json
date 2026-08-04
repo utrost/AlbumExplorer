@@ -1,0 +1,148 @@
+{
+  "albumId": "album-new-york-dolls-new-york-dolls-1973",
+  "query": "artist:\"New York Dolls\" AND releasegroup:\"New York Dolls\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22New%20York%20Dolls%22%20AND%20releasegroup%3A%22New%20York%20Dolls%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:47:38.828Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4cdd4c59-e38f-382b-b01c-e69829faa69c",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "0249cc5a-5b9a-32cb-b615-6143d3ac8e2d",
+      "count": 11,
+      "title": "New York Dolls",
+      "first-release-date": "1973-07-27",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "New York Dolls",
+          "artist": {
+            "id": "1b96b9c9-0832-40cb-9f8d-7274de3733fc",
+            "name": "New York Dolls",
+            "sort-name": "New York Dolls",
+            "aliases": [
+              {
+                "sort-name": "NY Dolls",
+                "name": "NY Dolls",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The New York Dolls",
+                "name": "The New York Dolls",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "35927177-eda9-4766-ab07-b8f5ae632a84",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "1761ee7c-1094-4f20-87bd-266d94ff33d4",
+          "title": "New York Dolls"
+        },
+        {
+          "id": "337949ea-c7a5-4393-ac5b-f99345a121fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "2afaa1b6-be07-32b3-9499-75570f9482e0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "1f6cc992-e572-4f3c-b62a-cb6111383e67",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "0dac49cb-2130-4f53-8b2e-2a6266760bed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "d5a8c8b6-c87b-36de-bf3e-9eb3472b2870",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "07259559-743c-4f92-8eb3-205287ef1c90",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "d0945878-568a-395e-8e55-62d54b1ff263",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "84af24c1-d4ae-43ee-95ca-79c17720d202",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        },
+        {
+          "id": "8fbcc9cc-91f1-479b-bd0a-26e6854995b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "New York Dolls",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "glam rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "proto-punk"
+        },
+        {
+          "count": 1,
+          "name": "self-titled"
+        }
+      ]
+    }
+  ]
+}

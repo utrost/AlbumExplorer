@@ -1,0 +1,151 @@
+{
+  "albumId": "album-juvenile-400-degreez-1998",
+  "query": "artist:\"Juvenile\" AND releasegroup:\"400 Degreez\" AND firstreleasedate:1998",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Juvenile%22%20AND%20releasegroup%3A%22400%20Degreez%22%20AND%20firstreleasedate%3A1998&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:57:32.850Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "08399f8b-c114-3080-b548-7599af1ebc5c",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "dc45f255-ce44-31e0-8e75-b583203c6a60",
+      "count": 4,
+      "title": "400 Degreez",
+      "first-release-date": "1998-11-03",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Juvenile",
+          "artist": {
+            "id": "ba9afaf0-ef3a-42a6-afe0-f924193629bb",
+            "name": "Juvenile",
+            "sort-name": "Juvenile",
+            "disambiguation": "New Orleans rapper Terius Gray",
+            "aliases": [
+              {
+                "sort-name": "Juvenile",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Juvenile",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ジュヴィナイル",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ジュヴィナイル",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "T. Gray",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "T. Gray",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Juvenille",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Juvenille",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Gray, Terius",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Terius Gray",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Juvinile",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Juvinile",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cdbdcb91-7e75-4562-a4c5-8fe28c020adc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "400 Degreez",
+          "status": "Official"
+        },
+        {
+          "id": "8ccd9369-6663-4813-a11d-0268defa6bbb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "400 Degreez (Deluxe Edition)",
+          "status": "Official"
+        },
+        {
+          "id": "294a4054-8a15-446d-bb57-23fcc4552ce9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "400 Degreez",
+          "status": "Official"
+        },
+        {
+          "id": "72b77feb-e8ff-4b77-9471-4fbce760b557",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "400 Degreez",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop"
+        },
+        {
+          "count": 3,
+          "name": "hip hop"
+        },
+        {
+          "count": 1,
+          "name": "dirty south"
+        },
+        {
+          "count": 3,
+          "name": "thug rap"
+        },
+        {
+          "count": 1,
+          "name": "bounce"
+        },
+        {
+          "count": 1,
+          "name": "slow motion"
+        }
+      ]
+    }
+  ]
+}

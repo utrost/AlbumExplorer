@@ -1,0 +1,1215 @@
+{
+  "albumId": "album-elton-john-goodbye-yellow-brick-road-1973",
+  "query": "artist:\"Elton John\" AND releasegroup:\"Goodbye Yellow Brick Road\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Elton%20John%22%20AND%20releasegroup%3A%22Goodbye%20Yellow%20Brick%20Road%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:38:00.325Z",
+  "count": 4,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e8b8b0a2-896f-3768-8b52-2b7eff6706cf",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "414118f3-533f-3f32-a9d9-7ab6e107353d",
+      "count": 1,
+      "title": "Goodbye Yellow Brick Road",
+      "first-release-date": "1973",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Elton John",
+          "artist": {
+            "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+            "name": "Elton John",
+            "sort-name": "John, Elton",
+            "disambiguation": "English singer, songwriter, pianist, and composer",
+            "aliases": [
+              {
+                "sort-name": "Reg Dwight",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Reg Dwight",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John, Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E. John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "E. John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elthon John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elthon John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton Hercules",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Elton Hercules John",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1972-01-07",
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Eltonas",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eltonas Džonas",
+                "locale": "lt",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Seras Eltonas",
+                "name": "Seras Eltonas Džonas",
+                "locale": "lt",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald Kenneth",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Reginald Kenneth Dwight",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1947-03-25",
+                "end-date": "1972-01-07"
+              },
+              {
+                "sort-name": "エルトン・ジョン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルトン・ジョン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald",
+                "name": "Reginald Dwight",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Orson, Ann",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ann Orson",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton John",
+                "name": "Sir Elton John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elton Jphn",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elton Jphn",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton Hercules John",
+                "name": "Sir Elton Hercules John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "b6fefb5d-f037-4eca-ab2b-955a476de078",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "soft rock"
+        }
+      ]
+    },
+    {
+      "id": "80df0f1b-4ce7-348a-aa1b-0d31ebff111a",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "414118f3-533f-3f32-a9d9-7ab6e107353d",
+      "count": 60,
+      "title": "Goodbye Yellow Brick Road",
+      "first-release-date": "1973-10-05",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Elton John",
+          "artist": {
+            "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+            "name": "Elton John",
+            "sort-name": "John, Elton",
+            "disambiguation": "English singer, songwriter, pianist, and composer",
+            "aliases": [
+              {
+                "sort-name": "Reg Dwight",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Reg Dwight",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John, Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E. John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "E. John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elthon John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elthon John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton Hercules",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Elton Hercules John",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1972-01-07",
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Eltonas",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eltonas Džonas",
+                "locale": "lt",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Seras Eltonas",
+                "name": "Seras Eltonas Džonas",
+                "locale": "lt",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald Kenneth",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Reginald Kenneth Dwight",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1947-03-25",
+                "end-date": "1972-01-07"
+              },
+              {
+                "sort-name": "エルトン・ジョン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルトン・ジョン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald",
+                "name": "Reginald Dwight",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Orson, Ann",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ann Orson",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton John",
+                "name": "Sir Elton John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elton Jphn",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elton Jphn",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton Hercules John",
+                "name": "Sir Elton Hercules John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "111c508a-31db-4094-b678-8bb4b188d4bd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "6c635bd5-5453-495c-880f-9e595a223b70",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road (40th Anniversary Celebration / Super Deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "36b67547-e5ad-448c-8e3a-a8bcd3569c22",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "979e4b5a-b2f7-48d7-8ab1-8c928ad23c73",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "fd138d46-6002-41b8-8aad-a28dfb55c67c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "154fc613-1555-306f-934e-e07f8e38f107",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "35bb4ced-14b5-4adc-be34-d62861b1aad4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "5c48fd8c-14ec-4714-897f-0ace5f1830fa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "8fd04967-5165-4b76-943d-4f03e53eae4b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "0994e344-dfca-447b-ae7e-e23ce5924aa1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "aef028e3-f601-43bf-a9bb-02eea27946bb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "cb2f0189-ffd5-44a7-ad6c-ba4c31683d46",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "c5ba87be-9064-47a7-8c76-a77beece32a2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "0e6a46c3-f545-41e0-9245-0dbfe1bfeb9e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "95f2f790-3577-468d-916d-b27d7dd61d43",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "4fdbb11b-916c-41e5-b465-cb77112c49b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "19574018-be33-4e1e-a49d-9811bcfb1a00",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "01fb4e8f-b58a-42f0-82bd-ac3ff410ef10",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "806e73fd-72dc-4f21-8c38-31ecbaa05b99",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "c005587c-bd81-4322-a4f9-d2b81c8c75ad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "3bc92350-b215-465d-a1d8-4cf654350696",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "dd37fc20-cb4f-434d-82d1-7ca27c599792",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "ae1cfd5b-866a-456b-a617-9b5600277d07",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "63c20d67-215f-4ca3-89f7-445f489ca152",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "1b284a67-f72c-403c-be1c-7757e9f829cc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "816ab66c-413f-4347-914e-59f4d957559d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "b3a44b3d-8cab-4ec3-9a16-2d2ac17f1b64",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "d7d1bf1d-a5de-4e2b-8cb3-b216d7a8784e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "b888cba7-b238-4fde-9a65-6454fcefaa63",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "2bb6ee2d-d3e4-40a8-871e-275f5873def9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "5ceb39f5-c921-4d7a-85ad-9a9bd146ba77",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "b8835445-9ba6-4662-a6cb-a36129297f1b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "76b4fe46-fd6b-4e3c-b688-a8ebd5c1bde0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "95b171d0-f523-4878-a1de-7025fbb7c99d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "1b6ec9c4-fdfc-4bb9-8005-469b989e68ba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "b583e7bc-1d4b-4764-8b02-07b2bc85a3e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "7f246a40-0dc1-4c14-99c5-4ee249d72d4d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "0e5516f1-ac00-4e70-b1f6-4cc9f1d8e9ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "8af52dac-357c-4d07-adb3-e28f636c7b12",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "6ccf040c-ef37-3ef3-aa43-9837e534ec1b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "9b8206c5-951f-4f6d-8493-ebecc2dfc42f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "00c29cb4-7411-3932-ae77-10db473c9de9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "42af27a5-4b97-46fa-9786-77259f821d69",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "09e98618-38f0-34ec-a159-a333f65a067f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "636638f8-97f1-3276-88be-d3b362a99967",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "6f2f317d-ca9e-43df-bd67-d508f1d85803",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "1a7d034c-cca0-4873-9728-0595601b04a6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "89ab3f5d-ab28-38eb-80d1-687f99465e5c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "9cf7f3ec-a5d5-3411-aa1e-e60121803584",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "803fa82b-03e8-4b10-96a6-0b7f7f28cead",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "cfbc194a-9933-4b19-afb0-983cd15daedf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "4bfd7aee-fe08-4e94-9066-55ed88bc647a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "544537f2-bdea-48c9-84c0-a815cb4de5ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "ef5f553c-a6dc-4fba-b3a7-54a74b5bca48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "568b3822-970c-4574-857a-998174e30fb5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "b35b091b-9030-44d5-9bef-20786f85bfb4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "9f423843-abd2-3880-87c7-f2a4b8c16b7b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "a5c6d485-8501-4372-bf70-f0bd290fb651",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "c128e20d-34ba-4a99-b2b8-5032e6181d3a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        },
+        {
+          "id": "9e543be3-e77c-40ca-beed-24e474145f28",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Goodbye Yellow Brick Road",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "progressive rock"
+        },
+        {
+          "count": 0,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 5,
+          "name": "glam rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 0,
+          "name": "christmas"
+        },
+        {
+          "count": 3,
+          "name": "album rock"
+        },
+        {
+          "count": 4,
+          "name": "soft rock"
+        },
+        {
+          "count": 3,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 5,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "piano rock"
+        },
+        {
+          "count": 1,
+          "name": "bennie and the jets"
+        },
+        {
+          "count": 1,
+          "name": "progressive pop"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "rock & roll"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 2,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "rock/pop"
+        },
+        {
+          "count": 1,
+          "name": "double album"
+        }
+      ]
+    },
+    {
+      "id": "f008432f-8ba9-4165-aede-cc4e390faf7a",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 80,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "414118f3-533f-3f32-a9d9-7ab6e107353d",
+      "count": 1,
+      "title": "Goodbye Yellow Brick Road / Young Man's Blues",
+      "first-release-date": "1973",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Elton John",
+          "artist": {
+            "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+            "name": "Elton John",
+            "sort-name": "John, Elton",
+            "disambiguation": "English singer, songwriter, pianist, and composer",
+            "aliases": [
+              {
+                "sort-name": "Reg Dwight",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Reg Dwight",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John, Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E. John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "E. John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elthon John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elthon John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton Hercules",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Elton Hercules John",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1972-01-07",
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Eltonas",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eltonas Džonas",
+                "locale": "lt",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Seras Eltonas",
+                "name": "Seras Eltonas Džonas",
+                "locale": "lt",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald Kenneth",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Reginald Kenneth Dwight",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1947-03-25",
+                "end-date": "1972-01-07"
+              },
+              {
+                "sort-name": "エルトン・ジョン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルトン・ジョン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald",
+                "name": "Reginald Dwight",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Orson, Ann",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ann Orson",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton John",
+                "name": "Sir Elton John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elton Jphn",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elton Jphn",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton Hercules John",
+                "name": "Sir Elton Hercules John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "542dd69b-d922-4489-b854-46621b74fa0b",
+          "title": "Goodbye Yellow Brick Road / Young Man's Blues"
+        }
+      ]
+    },
+    {
+      "id": "69991757-6793-40c9-ae15-6094f4dd673a",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 75,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "dbf29e1f-a2d4-41e3-ad13-8724224dc5fb",
+      "count": 1,
+      "title": "Angie / Goodbye Yellow Brick Road",
+      "first-release-date": "1973",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "joinphrase": " / ",
+          "name": "The Rolling Stones",
+          "artist": {
+            "id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+            "name": "The Rolling Stones",
+            "sort-name": "Rolling Stones, The",
+            "aliases": [
+              {
+                "sort-name": "Stones",
+                "name": "Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stones, The",
+                "name": "The Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ローリング・ストーンズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ローリング・ストーンズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rolling Stones",
+                "name": "Rolling Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "Elton John",
+          "artist": {
+            "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+            "name": "Elton John",
+            "sort-name": "John, Elton",
+            "disambiguation": "English singer, songwriter, pianist, and composer",
+            "aliases": [
+              {
+                "sort-name": "Reg Dwight",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Reg Dwight",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John, Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E. John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "E. John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elthon John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elthon John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton Hercules",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Elton Hercules John",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1972-01-07",
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Eltonas",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eltonas Džonas",
+                "locale": "lt",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Seras Eltonas",
+                "name": "Seras Eltonas Džonas",
+                "locale": "lt",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald Kenneth",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Reginald Kenneth Dwight",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1947-03-25",
+                "end-date": "1972-01-07"
+              },
+              {
+                "sort-name": "エルトン・ジョン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルトン・ジョン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald",
+                "name": "Reginald Dwight",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Orson, Ann",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ann Orson",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton John",
+                "name": "Sir Elton John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elton Jphn",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elton Jphn",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton Hercules John",
+                "name": "Sir Elton Hercules John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "8488e905-f8e5-4a6e-9edc-5c8a7ff7b6fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Angie / Goodbye Yellow Brick Road",
+          "status": "Official"
+        }
+      ]
+    }
+  ]
+}

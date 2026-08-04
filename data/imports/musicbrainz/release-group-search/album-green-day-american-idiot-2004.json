@@ -1,0 +1,597 @@
+{
+  "albumId": "album-green-day-american-idiot-2004",
+  "query": "artist:\"Green Day\" AND releasegroup:\"American Idiot\" AND firstreleasedate:2004",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Green%20Day%22%20AND%20releasegroup%3A%22American%20Idiot%22%20AND%20firstreleasedate%3A2004&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:45:42.502Z",
+  "count": 3,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "04ee747f-ab6e-3963-bcd0-caba5b8a9c31",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "e38688be-e23f-39e3-9217-284a32fafcc5",
+      "count": 8,
+      "title": "American Idiot",
+      "first-release-date": "2004-08-10",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Green Day",
+          "artist": {
+            "id": "084308bd-1654-436f-ba03-df6697104e19",
+            "name": "Green Day",
+            "sort-name": "Green Day",
+            "aliases": [
+              {
+                "sort-name": "グリーン・デイ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "グリーン・デイ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Greenday",
+                "name": "Greenday",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "59a4f6b0-1ddb-4160-bbc2-1d4af1350b2e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "1f2953af-e7a5-4087-87da-cfd6dd198e80",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "52ca809f-3f45-3e35-87cf-27b46250d216",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "f11678e7-7a8d-4b4c-a4ec-fc6a560bb05d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "914c9733-12da-3726-9a2f-22a6c82ef498",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "30f782b9-d7c9-441b-bb84-5fcd4efd5d42",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "American Idiot",
+          "status": "Promotion"
+        },
+        {
+          "id": "2f68c438-9165-489a-8246-6871af8b7c74",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "fb0b57c9-e707-4ec7-b8b6-34ab1f5dcf2c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "alternative rock"
+        },
+        {
+          "count": 4,
+          "name": "punk"
+        },
+        {
+          "count": 2,
+          "name": "punk rock"
+        },
+        {
+          "count": 2,
+          "name": "pop rock"
+        },
+        {
+          "count": 2,
+          "name": "pop punk"
+        }
+      ]
+    },
+    {
+      "id": "de9bf827-a9b0-348b-a7c9-556c03c3fb07",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e38688be-e23f-39e3-9217-284a32fafcc5",
+      "count": 32,
+      "title": "American Idiot",
+      "first-release-date": "2004-09-20",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Green Day",
+          "artist": {
+            "id": "084308bd-1654-436f-ba03-df6697104e19",
+            "name": "Green Day",
+            "sort-name": "Green Day",
+            "aliases": [
+              {
+                "sort-name": "グリーン・デイ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "グリーン・デイ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Greenday",
+                "name": "Greenday",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "466332d8-6e86-4017-a65c-852c4e2ec434",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "ccda77b4-4137-481f-a1be-849a15efa90d",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "American Idiot",
+          "status": "Bootleg"
+        },
+        {
+          "id": "ea324ec1-bc3b-4dd7-90eb-81af4a664577",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "bdaab945-c9e8-4b03-8739-852249799fb3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "eb7021f0-b8da-41e8-a7ac-5b6ff08cb30a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "34491b14-5870-49a1-b4cc-8a5dda4593f3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "a22eadbf-93de-4b23-aba3-794b6c928cfc",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "American Idiot",
+          "status": "Promotion"
+        },
+        {
+          "id": "f878b56a-0837-4d63-a4f5-01b3f34907cc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "d790861c-cc7f-4fac-8317-f37c5a5f9d16",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "eed8edb9-6f8c-4ccf-bf13-cb6dcccbba95",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "6d90f358-ff7e-4619-b2b6-58f2a4ce7282",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "feaf121a-6727-42ce-96fb-02d24bcc6590",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "dd7cbde9-bffc-467f-8a39-bda4ea2d0633",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "a80661f8-1fdb-459b-9c9d-561f2118f17e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "ab0c8f22-5ec7-4117-ac54-37653a346059",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "4a09e379-5bad-4fe8-a2c0-3d9fa45b9b77",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "71d1a222-4226-41ac-b2e5-d37e205d5d53",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "2db60ea2-c4b0-4aae-a065-48050096fd62",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot: The Ultimate American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "553a24af-f6f7-4d05-a3f6-365a5a2c1923",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "American Idiot",
+          "status": "Promotion"
+        },
+        {
+          "id": "2facd8c7-edbc-412b-8c12-6067024b9175",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "e82b3696-42dd-32c5-9684-94020a47bac0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "48ddd641-224e-40ff-9132-f7712c385062",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "df73aab5-60dd-45a5-993b-c40ea08162ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "111fa0e4-567f-4b5f-a206-78f5e01de265",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "db658982-db80-4564-ac83-24f6b728b448",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "adc11e29-da4a-35bf-9620-7d807b682de0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "6a285eb3-5a16-4627-947f-3316c83d5866",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "1790c881-b35b-4c3e-a489-e011e5143476",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "feb25a2b-0c97-4b45-9461-0fac8c00f477",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "433be64a-67f1-4028-8863-4ec358ba7cbf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "891691be-01ee-45c7-aa04-c08f3a2a1c5a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        },
+        {
+          "id": "b580b2d5-f1a5-4d52-aa8e-5fb500268e78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "American Idiot",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "political"
+        },
+        {
+          "count": 4,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "pop"
+        },
+        {
+          "count": 9,
+          "name": "alternative rock"
+        },
+        {
+          "count": 0,
+          "name": "concept album"
+        },
+        {
+          "count": 2,
+          "name": "punk"
+        },
+        {
+          "count": 0,
+          "name": "american"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 10,
+          "name": "punk rock"
+        },
+        {
+          "count": 0,
+          "name": "usa"
+        },
+        {
+          "count": 1,
+          "name": "power pop"
+        },
+        {
+          "count": 0,
+          "name": "2004"
+        },
+        {
+          "count": 2,
+          "name": "alternative"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 0,
+          "name": "américain"
+        },
+        {
+          "count": 4,
+          "name": "pop rock"
+        },
+        {
+          "count": 7,
+          "name": "pop punk"
+        },
+        {
+          "count": 1,
+          "name": "urban"
+        },
+        {
+          "count": 0,
+          "name": "punk pop"
+        },
+        {
+          "count": 1,
+          "name": "romantic"
+        },
+        {
+          "count": 3,
+          "name": "rock opera"
+        },
+        {
+          "count": 0,
+          "name": "punk-pop"
+        },
+        {
+          "count": 0,
+          "name": "rock and indie"
+        },
+        {
+          "count": 1,
+          "name": "alternative punk"
+        },
+        {
+          "count": 1,
+          "name": "alternative and punk"
+        },
+        {
+          "count": 0,
+          "name": "angry"
+        },
+        {
+          "count": 0,
+          "name": "energetic"
+        },
+        {
+          "count": 0,
+          "name": "classic pop punk"
+        },
+        {
+          "count": 0,
+          "name": "rock ballad"
+        },
+        {
+          "count": 1,
+          "name": "punk revival"
+        },
+        {
+          "count": 1,
+          "name": "passionate"
+        },
+        {
+          "count": 0,
+          "name": "anthemic"
+        },
+        {
+          "count": 0,
+          "name": "introspective"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "adult alternative pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "rock/pop"
+        },
+        {
+          "count": 0,
+          "name": "punk rock/alternative"
+        },
+        {
+          "count": 0,
+          "name": "alienation"
+        },
+        {
+          "count": 1,
+          "name": "rebellious"
+        }
+      ]
+    },
+    {
+      "id": "fe33d0f9-8a28-4f9d-8504-5ea6b84ff85e",
+      "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+      "score": 73,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e38688be-e23f-39e3-9217-284a32fafcc5",
+      "count": 1,
+      "title": "Four More Years: Odes to the All American Idiot",
+      "first-release-date": "2004",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Live"
+      ],
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "artist-credit": [
+        {
+          "name": "Green Day",
+          "artist": {
+            "id": "084308bd-1654-436f-ba03-df6697104e19",
+            "name": "Green Day",
+            "sort-name": "Green Day",
+            "aliases": [
+              {
+                "sort-name": "グリーン・デイ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "グリーン・デイ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Greenday",
+                "name": "Greenday",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3bb6d33a-9fbc-4f6c-a0c7-3fc2168de642",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Four More Years: Odes to the All American Idiot",
+          "status": "Bootleg"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "punk"
+        }
+      ]
+    }
+  ]
+}

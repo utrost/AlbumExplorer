@@ -1,0 +1,105 @@
+{
+  "albumId": "album-moby-grape-moby-grape-1967",
+  "query": "artist:\"Moby Grape\" AND releasegroup:\"Moby Grape\" AND firstreleasedate:1967",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Moby%20Grape%22%20AND%20releasegroup%3A%22Moby%20Grape%22%20AND%20firstreleasedate%3A1967&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:01:02.543Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "483f15b5-e784-3c78-ba40-1988f5f9c6a4",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "4a42fca0-01bb-3593-aa5e-c8b22ad7a209",
+      "count": 7,
+      "title": "Moby Grape",
+      "first-release-date": "1967-06-01",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Moby Grape",
+          "artist": {
+            "id": "bf014765-46f0-4cd9-b658-c79c5c0166f8",
+            "name": "Moby Grape",
+            "sort-name": "Moby Grape",
+            "aliases": [
+              {
+                "sort-name": "Mosley Grape",
+                "name": "Mosley Grape",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6f9df880-012e-40c3-a53f-2d31b0dad38f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Moby Grape",
+          "status": "Official"
+        },
+        {
+          "id": "b533fba8-29bc-439d-aa17-4960f1924507",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Moby Grape",
+          "status": "Official"
+        },
+        {
+          "id": "9fe016ea-ed42-4137-ac1a-4e804c0274c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Moby Grape",
+          "status": "Official"
+        },
+        {
+          "id": "848888eb-1fc8-43f6-9cab-bb9b0d50068e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Moby Grape",
+          "status": "Official"
+        },
+        {
+          "id": "f305554a-965d-3f90-8096-c064fcfe3c9f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Moby Grape",
+          "status": "Official"
+        },
+        {
+          "id": "e4887f2a-fa5b-3a4c-b519-e93bc618470d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Moby Grape",
+          "status": "Official"
+        },
+        {
+          "id": "fd9a6095-bc44-4032-86ca-e42d900e7943",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Moby Grape",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic rock"
+        },
+        {
+          "count": 1,
+          "name": "country-rock"
+        }
+      ]
+    }
+  ]
+}

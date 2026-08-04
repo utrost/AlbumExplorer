@@ -1,0 +1,107 @@
+{
+  "albumId": "album-rolling-stones-exile-on-main-street-1972",
+  "query": "artist:\"The Rolling Stones\" AND releasegroup:\"Exile on Main Street\" AND firstreleasedate:1972",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Rolling%20Stones%22%20AND%20releasegroup%3A%22Exile%20on%20Main%20Street%22%20AND%20firstreleasedate%3A1972&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:31:51.601Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "83e19aeb-43ce-47b3-bc13-ac8241d5a3e4",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 100,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "df296871-15ee-38e4-a1da-421cc5801c7e",
+      "count": 2,
+      "title": "Exile on Main Street",
+      "first-release-date": "1972",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "The Rolling Stones",
+          "artist": {
+            "id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+            "name": "The Rolling Stones",
+            "sort-name": "Rolling Stones, The",
+            "aliases": [
+              {
+                "sort-name": "Stones",
+                "name": "Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stones, The",
+                "name": "The Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ローリング・ストーンズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ローリング・ストーンズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Rolling Stones",
+                "name": "Rolling Stones",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "19db031f-5cbf-4c22-9859-72859580a924",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exile on Main Street",
+          "status": "Official"
+        },
+        {
+          "id": "f2879c5a-7e75-4590-9ca3-4b4df5a978ba",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Exile on Main Street",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        }
+      ]
+    }
+  ]
+}

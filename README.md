@@ -18,6 +18,7 @@ The project now has a first executable file-first slice:
 - Collection validator that separates fatal errors from warnings and metadata gaps.
 - Generated Rolling Stone comparison dataset with approved alias review for stable cross-edition album identities.
 - Reviewable album metadata enrichment workflow that keeps candidates, overrides, and review gaps outside the canonical collection until accepted.
+- MusicBrainz release-group importer with cached raw API responses and external source candidates for 553 of 760 comparison albums.
 - Plain static browser page that loads the seed data and lists albums with validation status.
 - Node test suite for importer, validator, indexes, and static shell.
 
@@ -28,6 +29,7 @@ npm test
 npm run import:rolling-stone
 npm run enrich:discogs
 npm run build:rolling-stone-comparison
+npm run import:musicbrainz
 npm run enrich:album-metadata
 python3 -m http.server 4173
 ```

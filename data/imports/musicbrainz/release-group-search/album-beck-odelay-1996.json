@@ -1,0 +1,412 @@
+{
+  "albumId": "album-beck-odelay-1996",
+  "query": "artist:\"Beck\" AND releasegroup:\"Odelay\" AND firstreleasedate:1996",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Beck%22%20AND%20releasegroup%3A%22Odelay%22%20AND%20firstreleasedate%3A1996&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:55:32.312Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "df0bfd42-78a9-40c3-a45f-a12e10d446f8",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "1537568b-0632-3cb5-8419-f4bd2440451b",
+      "count": 32,
+      "title": "Odelay",
+      "first-release-date": "1996-06-17",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Beck",
+          "artist": {
+            "id": "309c62ba-7a22-4277-9f67-4a162526d18a",
+            "name": "Beck",
+            "sort-name": "Beck",
+            "disambiguation": "alt rock, multi‐instrumentalist Beck Hansen",
+            "aliases": [
+              {
+                "sort-name": "Mr. Hansen",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Mr. Hansen",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hansen, Beck",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Beck Hansen",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Campbell, Bek David",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bek David Campbell",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Hansen, Beck David",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Beck David Hansen",
+                "locale": "en",
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bjeck",
+                "name": "Bjeck",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a3eed2a9-c705-42db-8390-394b1cb5914b",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "O-de-lay",
+          "status": "Promotion"
+        },
+        {
+          "id": "c81f226e-4cf3-42bb-89a8-a92aa2055e6e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "49aed52a-ec27-343e-a28d-e6d5348d5f44",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "8bfe1eff-ca59-4785-bfc7-492ebab66192",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "5a02e73e-ca34-42c7-9bd8-ec6fbe0f54b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "061355ee-c135-4a9f-ba22-cce897962fb0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "e5efaf7b-c872-449a-afe2-8b42e2b758b6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "3d08d05a-59ec-4ed2-b096-efdea0977f62",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "36aa4fbb-776d-445a-a2f8-065f2fb012a0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "bf151ade-744a-4a9a-b18d-040492857825",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "99da9256-3e47-453b-b33a-f7c4c36012bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "baeef7a7-859d-404b-8e7f-f4e840a063c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "8ca7c31a-4295-4993-8b84-da64e31167a8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "9f03c13b-0b06-42e9-9d74-e6c8117e869c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "291a88bb-49f9-4bb8-9cd6-b443c6e38e14",
+          "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+          "title": "Odelay",
+          "status": "Pseudo-Release"
+        },
+        {
+          "id": "4a7c2fa9-1ce0-49dd-ba88-26c45367658d",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "LP #2",
+          "status": "Promotion"
+        },
+        {
+          "id": "4aeadf0d-4b74-4afa-9ba6-9c19e5d443f7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "7edae664-8e14-3ca1-8c74-71b1d4413c1b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "cc3241e4-13a3-4cc3-b9a7-f191e3a33d69",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "f563fbc7-797f-4dfd-94c0-d27d41193d9b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "1b6bf79a-8ed4-4138-9771-6eb8f5c14cd3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "5ec548ec-0309-4878-822e-caeec4a2bd01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "cc6e725b-9330-4413-a90d-0378e4ca9871",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Odelay",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "335e4331-d029-46a1-9f80-2870ddf7d029",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Odelay",
+          "status": "Bootleg"
+        },
+        {
+          "id": "5c4f88a8-b194-3758-a11d-3407940958cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "804b7f78-0bbc-3479-887a-ab28390357d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "82ad3cd2-8315-3b40-8ea9-91bfa2106006",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "2481d143-c5c1-396a-84a3-10be76d88199",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "df16752c-bb7f-33d3-a198-81a70fd52c35",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "8395a0e2-76c4-3317-9b0f-32b8d159c1b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "9fe4af2f-ac4d-3c27-aa76-d60f62fb703e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        },
+        {
+          "id": "ab3bac67-fe74-4be7-aa6d-3ac4a9a0b7ce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Odelay",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "rock"
+        },
+        {
+          "count": 4,
+          "name": "electronic"
+        },
+        {
+          "count": 4,
+          "name": "downtempo"
+        },
+        {
+          "count": -1,
+          "name": "pop"
+        },
+        {
+          "count": 16,
+          "name": "alternative rock"
+        },
+        {
+          "count": 2,
+          "name": "hip hop"
+        },
+        {
+          "count": 2,
+          "name": "indie rock"
+        },
+        {
+          "count": 0,
+          "name": "folk rock"
+        },
+        {
+          "count": 0,
+          "name": "electronica"
+        },
+        {
+          "count": 0,
+          "name": "alternative"
+        },
+        {
+          "count": 2,
+          "name": "lo-fi"
+        },
+        {
+          "count": 0,
+          "name": "alt-country"
+        },
+        {
+          "count": 0,
+          "name": "indie folk"
+        },
+        {
+          "count": 2,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 4,
+          "name": "neo-psychedelia"
+        },
+        {
+          "count": 1,
+          "name": "alternative country"
+        },
+        {
+          "count": -1,
+          "name": "rock and indie"
+        },
+        {
+          "count": 1,
+          "name": "alternative punk"
+        },
+        {
+          "count": 0,
+          "name": "alternative and punk"
+        },
+        {
+          "count": 2,
+          "name": "eclectic"
+        },
+        {
+          "count": 1,
+          "name": "sampling"
+        },
+        {
+          "count": 1,
+          "name": "summer"
+        },
+        {
+          "count": 1,
+          "name": "experimental hip hop"
+        },
+        {
+          "count": -1,
+          "name": "post-modern electronic pop"
+        },
+        {
+          "count": 1,
+          "name": "playful"
+        },
+        {
+          "count": 1,
+          "name": "humorous"
+        },
+        {
+          "count": -1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "dance-rock"
+        },
+        {
+          "count": 0,
+          "name": "lo-fi indie"
+        },
+        {
+          "count": 1,
+          "name": "slacker rock"
+        },
+        {
+          "count": 2,
+          "name": "pity pop"
+        },
+        {
+          "count": 1,
+          "name": "laut.de"
+        }
+      ]
+    }
+  ]
+}

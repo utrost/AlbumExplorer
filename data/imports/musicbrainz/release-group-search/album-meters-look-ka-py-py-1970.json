@@ -1,0 +1,110 @@
+{
+  "albumId": "album-meters-look-ka-py-py-1970",
+  "query": "artist:\"The Meters\" AND releasegroup:\"Look-Ka Py Py\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Meters%22%20AND%20releasegroup%3A%22Look-Ka%20Py%20Py%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:04:38.857Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "fb2a15ff-c773-3297-9d15-2dd4eee92e4c",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "dbc42a53-5dc8-3a68-92bb-ef44fe9f42bc",
+      "count": 5,
+      "title": "Look‐Ka Py Py",
+      "first-release-date": "1970-02-27",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Meters",
+          "artist": {
+            "id": "851827d6-ae31-4093-a166-1420cac610a4",
+            "name": "The Meters",
+            "sort-name": "Meters, The",
+            "aliases": [
+              {
+                "sort-name": "Funky Meters",
+                "name": "Funky Meters",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Meters",
+                "name": "Meters",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7415ea1b-6c48-4720-8bce-87a9a0719cb1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Look‐Ka Py Py",
+          "status": "Official"
+        },
+        {
+          "id": "040d1e1c-fd01-447c-8c64-63b7a1e764f0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Look-Ka Py Py",
+          "status": "Official"
+        },
+        {
+          "id": "40f68160-20e3-4b06-a005-4d7bfb502113",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Look-Ka Py Py",
+          "status": "Official"
+        },
+        {
+          "id": "fed22a97-1535-4a7c-b076-a45d2bd39ecd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Look-Ka Py Py",
+          "status": "Official"
+        },
+        {
+          "id": "128a78a4-91a6-4a3a-856b-f45dc77140dd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Look-Ka Py Py",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "jazz"
+        },
+        {
+          "count": 3,
+          "name": "funk"
+        },
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 3,
+          "name": "funk soul"
+        },
+        {
+          "count": 3,
+          "name": "bayou funk"
+        },
+        {
+          "count": 1,
+          "name": "rare groove a to z"
+        }
+      ]
+    }
+  ]
+}

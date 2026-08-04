@@ -1,0 +1,193 @@
+{
+  "albumId": "album-mary-j-blige-my-life-1994",
+  "query": "artist:\"Mary J. Blige\" AND releasegroup:\"My Life\" AND firstreleasedate:1994",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Mary%20J.%20Blige%22%20AND%20releasegroup%3A%22My%20Life%22%20AND%20firstreleasedate%3A1994&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:39:06.315Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "49acb129-7958-3132-988c-bb85955b1c3c",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "85a767f8-9e18-3bec-9a1a-e557d6afe5e5",
+      "count": 7,
+      "title": "My Life",
+      "first-release-date": "1994-11-29",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Mary J. Blige",
+          "artist": {
+            "id": "db76c5ca-d555-4f09-b1db-baa1b713d875",
+            "name": "Mary J. Blige",
+            "sort-name": "Blige, Mary J.",
+            "aliases": [
+              {
+                "sort-name": "Blige, Mary Jane",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Mary Jane Blige",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "May J. Blige",
+                "name": "May J. Blige",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mary J.Blige",
+                "name": "Mary J.Blige",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mary J. Blige & Friends",
+                "name": "Mary J. Blige & Friends",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Blidge, Mary J.",
+                "name": "Blidge, Mary J.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mary J. Blige.",
+                "name": "Mary J. Blige.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mary J.Blidge",
+                "name": "Mary J.Blidge",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mary J Blige",
+                "name": "Mary J Blige",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "fa5a5d63-0a74-4041-a7ec-1e3f0c59afbb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "My Life",
+          "status": "Official"
+        },
+        {
+          "id": "0a8873de-ad5e-4527-b196-3682aea398ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "My Life",
+          "status": "Official"
+        },
+        {
+          "id": "83dc4d86-f07e-468d-b925-42604d5a3995",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "My Life",
+          "status": "Official"
+        },
+        {
+          "id": "0393fe61-67e4-496e-93db-859349fc8f18",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "My Life",
+          "status": "Official"
+        },
+        {
+          "id": "6a3b45dd-3519-4ad5-abc0-707b097bc8bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "My Life",
+          "status": "Official"
+        },
+        {
+          "id": "525461e2-8e9d-46d1-b8d0-0802c7a1a937",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "My Life",
+          "status": "Official"
+        },
+        {
+          "id": "d90d18db-f97b-4cfa-81f5-0ff9af4004fd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "My Life",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 2,
+          "name": "hip hop"
+        },
+        {
+          "count": 2,
+          "name": "r b"
+        },
+        {
+          "count": 1,
+          "name": "urban"
+        },
+        {
+          "count": 0,
+          "name": "90 s r b"
+        },
+        {
+          "count": 3,
+          "name": "r&b"
+        },
+        {
+          "count": 2,
+          "name": "contemporary r&b"
+        },
+        {
+          "count": 1,
+          "name": "rnb/swing"
+        },
+        {
+          "count": 1,
+          "name": "soul ballads"
+        },
+        {
+          "count": 1,
+          "name": "contemporary r&b;r&b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "albumId": "album-radiohead-amnesiac-2001",
+  "query": "artist:\"Radiohead\" AND releasegroup:\"Amnesiac\" AND firstreleasedate:2001",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Radiohead%22%20AND%20releasegroup%3A%22Amnesiac%22%20AND%20firstreleasedate%3A2001&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:07:21.641Z",
+  "count": 3,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "bca9280e-28b4-327f-8fe0-fd918579e486",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "021661c1-84c5-30d7-9bb2-f0766affb734",
+      "count": 23,
+      "title": "Amnesiac",
+      "first-release-date": "2001-05-30",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Radiohead",
+          "artist": {
+            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+            "name": "Radiohead",
+            "sort-name": "Radiohead",
+            "aliases": [
+              {
+                "sort-name": "r/head",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "r/head",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "电台司令",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "电台司令",
+                "locale": "zh",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "れでぃおへっど",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "レディオヘッド",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Radiohead & Thom Yorke",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Radiohead & Thom Yorke",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Radio Head",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Radio Head",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "8013d9eb-2128-364b-809a-5d3802b7a7e1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "63c0549e-f6e4-41f0-88b1-9f57057f0d30",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "431761e6-ebda-4f98-9566-3edda2ae595e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "1ed107d4-d02b-4cf6-9b76-f6b15c391f4e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "8cd878df-da85-4630-bcdc-46fccb1c7b31",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "0fac08b9-24b6-4346-9550-92948ef14a24",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "2d46a116-bba8-45a2-b43f-23ecc0ef4266",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "6853e107-8ce1-4274-b30b-ff1023a49409",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "232b882e-444d-4d7c-8cd5-f4fce87fc033",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "3c623574-f027-3b61-b232-4fa99ef0e8ee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "fd29f8d9-e1ea-4ca9-a241-ed9998d661fe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "576b18ac-3e8b-4838-85ff-497cd3f62f3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "ddbfd454-badc-4aad-a4f4-b3a018e4800a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "a9974083-251e-4aaf-a550-6763c7fa2ed4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "67365d7e-9514-4cbe-acd4-6d8d8f758ad2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "e3e270f2-7de9-40c9-9bdb-744a154a73dd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "a0ef32c4-669d-3b9f-9e16-ca99a16dcbc4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "9a883dfa-4135-49fb-9e79-7f1a2e28f60e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "23029567-703d-4189-9503-0f97745feb0f",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "4 Songs From Amnesiac",
+          "status": "Promotion"
+        },
+        {
+          "id": "0762fd5f-99f2-4501-8b4b-c294e09f90db",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Amnesiac",
+          "status": "Promotion"
+        },
+        {
+          "id": "910c1006-887c-3044-b13c-34f906f15ea7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "5cc3cb6c-af18-4317-8999-97dedee622b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        },
+        {
+          "id": "d3f9b159-8eeb-4820-a258-19cc1ebfc770",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Amnesiac",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 10,
+          "name": "rock"
+        },
+        {
+          "count": 5,
+          "name": "electronic"
+        },
+        {
+          "count": 0,
+          "name": "post-rock"
+        },
+        {
+          "count": 12,
+          "name": "alternative rock"
+        },
+        {
+          "count": 0,
+          "name": "owned"
+        },
+        {
+          "count": -1,
+          "name": "experimental"
+        },
+        {
+          "count": 0,
+          "name": "british"
+        },
+        {
+          "count": 0,
+          "name": "uk"
+        },
+        {
+          "count": 1,
+          "name": "britannique"
+        },
+        {
+          "count": 0,
+          "name": "indie rock"
+        },
+        {
+          "count": 1,
+          "name": "jazz rock"
+        },
+        {
+          "count": 7,
+          "name": "art rock"
+        },
+        {
+          "count": 1,
+          "name": "leftfield"
+        },
+        {
+          "count": 6,
+          "name": "experimental rock"
+        },
+        {
+          "count": 0,
+          "name": "indietronica"
+        },
+        {
+          "count": 1,
+          "name": "alt rock"
+        },
+        {
+          "count": 0,
+          "name": "2001"
+        },
+        {
+          "count": 0,
+          "name": "rock and indie"
+        },
+        {
+          "count": 4,
+          "name": "alternative and punk"
+        },
+        {
+          "count": 0,
+          "name": "aaa"
+        },
+        {
+          "count": 1,
+          "name": "winter"
+        },
+        {
+          "count": 2,
+          "name": "indie electronic"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "art pop"
+        },
+        {
+          "count": 0,
+          "name": "glitch pop"
+        },
+        {
+          "count": 1,
+          "name": "longing"
+        }
+      ]
+    },
+    {
+      "id": "9a263941-aef2-46b0-b8c8-c4082c81a70d",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 92,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "021661c1-84c5-30d7-9bb2-f0766affb734",
+      "count": 1,
+      "title": "Amnesiac College",
+      "first-release-date": "2001",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "Radiohead",
+          "artist": {
+            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+            "name": "Radiohead",
+            "sort-name": "Radiohead",
+            "aliases": [
+              {
+                "sort-name": "r/head",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "r/head",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "电台司令",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "电台司令",
+                "locale": "zh",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "れでぃおへっど",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "レディオヘッド",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Radiohead & Thom Yorke",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Radiohead & Thom Yorke",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Radio Head",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Radio Head",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c5bf4e1f-6ff8-4544-b075-6734da1e55e9",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Amnesiac College",
+          "status": "Promotion"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "experimental"
+        }
+      ]
+    },
+    {
+      "id": "518a42f6-2ace-30ff-b0b5-de6b919ba444",
+      "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "score": 81,
+      "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+      "artist-credit-id": "021661c1-84c5-30d7-9bb2-f0766affb734",
+      "count": 1,
+      "title": "8 Outtakes From Amnesiac",
+      "first-release-date": "2001",
+      "primary-type": "EP",
+      "artist-credit": [
+        {
+          "name": "Radiohead",
+          "artist": {
+            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+            "name": "Radiohead",
+            "sort-name": "Radiohead",
+            "aliases": [
+              {
+                "sort-name": "r/head",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "r/head",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "电台司令",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "电台司令",
+                "locale": "zh",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "れでぃおへっど",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "レディオヘッド",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Radiohead & Thom Yorke",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Radiohead & Thom Yorke",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Radio Head",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Radio Head",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "9a9b0512-3674-4a5c-be6a-50247ef698fc",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "8 Outtakes From Amnesiac",
+          "status": "Promotion"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "alternative rock"
+        }
+      ]
+    }
+  ]
+}

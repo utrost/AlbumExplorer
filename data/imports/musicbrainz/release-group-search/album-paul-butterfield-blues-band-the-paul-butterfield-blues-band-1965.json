@@ -1,0 +1,151 @@
+{
+  "albumId": "album-paul-butterfield-blues-band-the-paul-butterfield-blues-band-1965",
+  "query": "artist:\"The Paul Butterfield Blues Band\" AND releasegroup:\"The Paul Butterfield Blues Band\" AND firstreleasedate:1965",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Paul%20Butterfield%20Blues%20Band%22%20AND%20releasegroup%3A%22The%20Paul%20Butterfield%20Blues%20Band%22%20AND%20firstreleasedate%3A1965&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:12:26.089Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "7384b930-c267-393b-a98f-dc63766db3f8",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "d38fd88f-8d23-37b3-9fb6-8acffc6432cc",
+      "count": 8,
+      "title": "The Paul Butterfield Blues Band",
+      "first-release-date": "1965-10",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Paul Butterfield Blues Band",
+          "artist": {
+            "id": "20dcf3aa-c313-4f24-acd4-461327a76a73",
+            "name": "The Paul Butterfield Blues Band",
+            "sort-name": "Butterfield, Paul, Blues Band, The",
+            "aliases": [
+              {
+                "sort-name": "Butterfield Blues Band",
+                "name": "Butterfield Blues Band",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Paul Butterfield Blues Band",
+                "name": "Paul Butterfield Blues Band",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Paul Butterfield Blues Band, The",
+                "name": "Paul Butterfield Blues Band, The",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Paul Butterfield Blues Band / Shake Your Money",
+                "name": "The Paul Butterfield Blues Band / Shake Your Money",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Butterfield Blues Band",
+                "name": "The Butterfield Blues Band",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "0aadb571-0222-46db-b8aa-945cd71d5067",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Paul Butterfield Blues Band",
+          "status": "Official"
+        },
+        {
+          "id": "6ffc6f42-b95f-45b0-adae-e7aa30cae5be",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Paul Butterfield Blues Band",
+          "status": "Official"
+        },
+        {
+          "id": "c84666fa-fd3e-4ec8-842a-cd9f97231cc3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Paul Butterfield Blues Band",
+          "status": "Official"
+        },
+        {
+          "id": "b70791d6-3de5-43cb-8051-ff5208fae7bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Paul Butterfield Blues Band",
+          "status": "Official"
+        },
+        {
+          "id": "069fa715-cdc5-4395-9e3c-2956e1fa3b05",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Paul Butterfield Blues Band",
+          "status": "Official"
+        },
+        {
+          "id": "e4019bf3-3661-3c14-956d-709d54289bee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Paul Butterfield Blues Band",
+          "status": "Official"
+        },
+        {
+          "id": "5855da21-c2a2-396a-bc40-d78f10262668",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Paul Butterfield Blues Band",
+          "status": "Official"
+        },
+        {
+          "id": "bf874a40-3409-4297-835d-4917adc40e65",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Paul Butterfield Blues Band",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "blues"
+        },
+        {
+          "count": 2,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "chicago blues"
+        },
+        {
+          "count": 1,
+          "name": "electric blues"
+        }
+      ]
+    }
+  ]
+}

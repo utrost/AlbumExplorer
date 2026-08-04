@@ -1,0 +1,225 @@
+{
+  "albumId": "album-hank-williams-40-greatest-hits-1978",
+  "query": "artist:\"Hank Williams\" AND releasegroup:\"40 Greatest Hits\" AND firstreleasedate:1978",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Hank%20Williams%22%20AND%20releasegroup%3A%2240%20Greatest%20Hits%22%20AND%20firstreleasedate%3A1978&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:39:30.670Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "4a48eaed-2b09-3147-b310-187bfc692849",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "00e239ab-6bb3-3e53-be36-d93accd28a5c",
+      "count": 6,
+      "title": "40 Greatest Hits",
+      "first-release-date": "1978",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Hank Williams",
+          "artist": {
+            "id": "906bddec-bc73-49f8-ac1e-eaee691c6cf9",
+            "name": "Hank Williams",
+            "sort-name": "Williams, Hank",
+            "disambiguation": "country music legend",
+            "aliases": [
+              {
+                "sort-name": "Williams, Hank",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Hank And Audrey",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Williams, Hank",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Hank Williams With His Drifting Cowboys",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1947",
+                "end-date": "1956"
+              },
+              {
+                "sort-name": "Williams, Hank",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Hank Williams And The Country Boys",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1946",
+                "end-date": "1947"
+              },
+              {
+                "sort-name": "Luke the Drifter",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Luke the Drifter",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1950",
+                "end-date": "1954"
+              },
+              {
+                "sort-name": "Williams, Hank",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Hank Williams and His Drifting Cowboys",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1947",
+                "end-date": "1947"
+              },
+              {
+                "sort-name": "Williams",
+                "name": "Williams",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Viljamss, H.",
+                "name": "H. Viljamss",
+                "locale": "lv",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Viljams, Henks",
+                "name": "Henks Viljams",
+                "locale": "lv",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Williams, Hiram King",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Hiram King Williams",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Williams, Hank, Sr",
+                "name": "Hank Williams Sr",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Williams, Hank, Sr.",
+                "name": "Hank Williams Sr.",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Williams, Hank, Sr.",
+                "name": "Hank Williams, Sr.",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Henk, B.",
+                "name": "Б. Хэнк",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Uil'yams, E.",
+                "name": "Э. Уильямс",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "9fd10b61-f89c-405f-869a-e3289d312822",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "40 Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "7bb079fd-31eb-4ba6-a080-14f33526c7d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "40 Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "42a688de-3c8e-438f-acc7-a241ca26acb5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "40 Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "5b5f1493-20a7-41be-86b3-0b2ff87bfd37",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "40 Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "86a421c7-058f-4cd5-aa5e-ce62e78a1458",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "40 Greatest Hits",
+          "status": "Official"
+        },
+        {
+          "id": "5b8da82b-df49-3cec-b997-f88e3f0efc34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "40 Greatest Hits",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "country"
+        },
+        {
+          "count": 3,
+          "name": "honky tonk"
+        },
+        {
+          "count": 5,
+          "name": "traditional country"
+        }
+      ]
+    }
+  ]
+}

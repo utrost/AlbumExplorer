@@ -1,0 +1,297 @@
+{
+  "albumId": "album-bob-dylan-and-the-band-the-basement-tapes-1975",
+  "query": "artist:\"Bob Dylan and the Band\" AND releasegroup:\"The Basement Tapes\" AND firstreleasedate:1975",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%20and%20the%20Band%22%20AND%20releasegroup%3A%22The%20Basement%20Tapes%22%20AND%20firstreleasedate%3A1975&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:49:33.056Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "47873729-6db0-3431-99e7-0292e939dadf",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "a0d1c1da-1ab2-3371-8fee-0c14cacbcb85",
+      "count": 12,
+      "title": "The Basement Tapes",
+      "first-release-date": "1975-06-26",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "joinphrase": " & ",
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "The Band",
+          "artist": {
+            "id": "8c90ad8c-9150-4c51-a1eb-342232e99d06",
+            "name": "The Band",
+            "sort-name": "Band, The",
+            "disambiguation": "Canadian-American rock band",
+            "aliases": [
+              {
+                "sort-name": "Band",
+                "name": "Band",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3144217a-2c44-441c-a211-2bbbc906068f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "bd1d8344-864c-4e8d-8e96-7bdd8d9c0867",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "eeaf2959-451e-46bc-bb3d-eb92c0385ff3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "242710b5-f7ef-4e15-b840-32e070374801",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "95484fba-2514-3f18-84ca-e1303b9a8084",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "5149ff66-043e-3efa-8965-9a4f6f75604f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "d2cb9df0-2ae6-36f2-8112-c914acc3175d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "d8e9a444-aee3-341d-8c2a-cadc68e5388d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "30344693-3a4a-4fec-9c92-a789382fcfd1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "329c2d83-3b93-4576-a4aa-0530efc771c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "47c5d5ec-01e8-4f14-9d14-5fd629abe4a5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        },
+        {
+          "id": "3eaf71ed-853f-4f68-9623-b6f0a64ecf40",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Basement Tapes",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 8,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        },
+        {
+          "count": 2,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 1,
+          "name": "roots rock"
+        }
+      ]
+    }
+  ]
+}

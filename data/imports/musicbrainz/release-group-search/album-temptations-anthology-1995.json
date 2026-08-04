@@ -1,0 +1,156 @@
+{
+  "albumId": "album-temptations-anthology-1995",
+  "query": "artist:\"The Temptations\" AND releasegroup:\"Anthology\" AND firstreleasedate:1995",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Temptations%22%20AND%20releasegroup%3A%22Anthology%22%20AND%20firstreleasedate%3A1995&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:09:50.403Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "8b89b09e-c633-34db-af68-4b8146d66d6c",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "cf35c13e-96e8-33bb-bdb3-b597ae566f58",
+      "count": 3,
+      "title": "Anthology: The Best of The Temptations",
+      "first-release-date": "1995-05-23",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "The Temptations",
+          "artist": {
+            "id": "d8df96ae-8fcf-4997-b3e6-e5d1aaf0f69e",
+            "name": "The Temptations",
+            "sort-name": "Temptations, The",
+            "disambiguation": "Motown soul vocal group",
+            "aliases": [
+              {
+                "sort-name": "The temptations",
+                "name": "The Temptation",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Original Lead Singers of the Temptations",
+                "name": "The Original Lead Singers of the Temptations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Temptations",
+                "name": "Temptations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Templations",
+                "name": "The Templations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Original Singers of the Temptations",
+                "name": "The Original Singers of the Temptations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Tempations",
+                "name": "The Tempations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Temptations Original Lead Singers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Temptations Original Lead Singers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Original Lead Singers of The Temptations, The",
+                "name": "The Original Lead Singers of The Temptations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "e8bedbcb-834e-4abd-8b86-24bb5454d8b0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Anthology: The Best of The Temptations",
+          "status": "Official"
+        },
+        {
+          "id": "3649a283-f213-40a5-88ff-22aef3f2eebd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Anthology: The Best of The Temptations",
+          "status": "Official"
+        },
+        {
+          "id": "7b49efc1-d87b-4a3c-b9f8-46a079e4c12d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Anthology: The Best of The Temptations",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 3,
+          "name": "r b"
+        },
+        {
+          "count": 1,
+          "name": "r&b"
+        }
+      ]
+    }
+  ]
+}

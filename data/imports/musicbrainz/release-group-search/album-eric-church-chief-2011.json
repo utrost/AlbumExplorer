@@ -1,0 +1,118 @@
+{
+  "albumId": "album-eric-church-chief-2011",
+  "query": "artist:\"Eric Church\" AND releasegroup:\"Chief\" AND firstreleasedate:2011",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Eric%20Church%22%20AND%20releasegroup%3A%22Chief%22%20AND%20firstreleasedate%3A2011&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:55:21.230Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "979e5e4d-0c1d-46c0-9fda-fa9b6fce89a6",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "2ce7333c-1122-38f9-8bb8-0266d2b1bebc",
+      "count": 9,
+      "title": "Chief",
+      "first-release-date": "2011-07-22",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Eric Church",
+          "artist": {
+            "id": "15856215-cc51-4423-879c-9ac955ccb11a",
+            "name": "Eric Church",
+            "sort-name": "Church, Eric",
+            "aliases": [
+              {
+                "sort-name": "Church, Kenneth Eric",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Kenneth Eric Church",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "97e56e28-738d-491c-82a9-253ef61110da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        },
+        {
+          "id": "114dc1d5-a25d-4893-abaa-a405282128c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        },
+        {
+          "id": "8d3aea63-3997-417b-87c2-98c08d5b5612",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        },
+        {
+          "id": "ab818505-e595-4e8c-86d0-080fcb0e5084",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        },
+        {
+          "id": "879cd550-7a14-46f1-b930-3d9735803499",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        },
+        {
+          "id": "77aa35da-a3df-4f1f-92fd-83a26ce5ea78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        },
+        {
+          "id": "672564e5-ae22-4fae-8c77-1f6425dcd518",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        },
+        {
+          "id": "68a5b1c5-a6bd-4cc4-bbf6-04d4c9152742",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        },
+        {
+          "id": "62fa62d9-222d-4706-a6d9-88c54e341707",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Chief",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 5,
+          "name": "country"
+        },
+        {
+          "count": 2,
+          "name": "contemporary country"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "neo-traditionalist country"
+        }
+      ]
+    }
+  ]
+}

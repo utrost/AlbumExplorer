@@ -1,0 +1,57 @@
+{
+  "albumId": "album-blondie-blondie-1977",
+  "query": "artist:\"Blondie\" AND releasegroup:\"Blondie\" AND firstreleasedate:1977",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Blondie%22%20AND%20releasegroup%3A%22Blondie%22%20AND%20firstreleasedate%3A1977&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:54:17.388Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "ec4a417f-edd9-4dc2-96a8-51b93679a5ee",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "9d7bbaee-6c9b-3b61-8504-2193a8b43e48",
+      "count": 1,
+      "title": "Blondie Chaplin",
+      "first-release-date": "1977",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Blondie Chaplin",
+          "artist": {
+            "id": "756335e3-00c1-4094-b878-b28d70477fd2",
+            "name": "Blondie Chaplin",
+            "sort-name": "Chaplin, Blondie",
+            "disambiguation": "singer, guitarist and songwriter",
+            "aliases": [
+              {
+                "sort-name": "Chaplin, Terence William",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Terence William Chaplin",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cbe30371-acd9-49fc-ab8e-fd6062bc78f2",
+          "title": "Blondie Chaplin"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        }
+      ]
+    }
+  ]
+}

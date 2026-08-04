@@ -1,0 +1,130 @@
+{
+  "albumId": "album-jackson-browne-for-everyman-1973",
+  "query": "artist:\"Jackson Browne\" AND releasegroup:\"For Everyman\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Jackson%20Browne%22%20AND%20releasegroup%3A%22For%20Everyman%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:11:55.747Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "d3e92728-24b4-3c01-b159-76d1c85d16cd",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "72b5fa81-7d72-3189-9adb-5f16bca4bc26",
+      "count": 8,
+      "title": "For Everyman",
+      "first-release-date": "1973",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Jackson Browne",
+          "artist": {
+            "id": "88527d26-7496-47c5-8358-ebdb1868a90f",
+            "name": "Jackson Browne",
+            "sort-name": "Browne, Jackson",
+            "disambiguation": "American singer-songwriter",
+            "aliases": [
+              {
+                "sort-name": "Jackson Brown",
+                "name": "Jackson Brown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Browne, Clyde Jackson",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Clyde Jackson Browne",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "242294cb-8bfe-460d-b068-6d1992293738",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "For Everyman",
+          "status": "Official"
+        },
+        {
+          "id": "c86cda69-85dd-4398-aced-7651465e3f0d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "For Everyman",
+          "status": "Official"
+        },
+        {
+          "id": "66da5ae5-1cb8-48d0-a8dc-3093f399e730",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "For Everyman",
+          "status": "Official"
+        },
+        {
+          "id": "6b7bf01a-1e21-487f-88f8-cb951b99b814",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "For Everyman",
+          "status": "Official"
+        },
+        {
+          "id": "bd026015-2ba3-44e1-a6c4-359abb54499e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "For Everyman",
+          "status": "Official"
+        },
+        {
+          "id": "356a5ad3-cffd-3167-8a54-32eca4570a83",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "For Everyman",
+          "status": "Official"
+        },
+        {
+          "id": "9e092283-a7e9-401c-8b35-19c11cf09a39",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "For Everyman",
+          "status": "Official"
+        },
+        {
+          "id": "97a7d747-d776-3763-b1fc-fda1b31f949e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "For Everyman",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "1970s"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "1973"
+        },
+        {
+          "count": 0,
+          "name": "new country"
+        }
+      ]
+    }
+  ]
+}

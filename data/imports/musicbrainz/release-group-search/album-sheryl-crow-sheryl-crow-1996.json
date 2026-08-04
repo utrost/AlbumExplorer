@@ -1,0 +1,391 @@
+{
+  "albumId": "album-sheryl-crow-sheryl-crow-1996",
+  "query": "artist:\"Sheryl Crow\" AND releasegroup:\"Sheryl Crow\" AND firstreleasedate:1996",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Sheryl%20Crow%22%20AND%20releasegroup%3A%22Sheryl%20Crow%22%20AND%20firstreleasedate%3A1996&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:57:49.062Z",
+  "count": 2,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "04ea2ea1-9ef0-4e57-8866-b2275be3ae21",
+      "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "a721a5be-db41-3d46-bd4b-539281de7d21",
+      "count": 1,
+      "title": "Sheryl Crow",
+      "first-release-date": "1996",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Live"
+      ],
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "artist-credit": [
+        {
+          "name": "Sheryl Crow",
+          "artist": {
+            "id": "80ccfede-c258-4575-a7ad-c982e9932e0f",
+            "name": "Sheryl Crow",
+            "sort-name": "Crow, Sheryl",
+            "disambiguation": "American singer-songwriter and musician",
+            "aliases": [
+              {
+                "sort-name": "Crow, Sheryl Suzanne",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Sheryl Suzanne Crow",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sheryl Crown",
+                "name": "Sheryl Crown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "S. Crow",
+                "name": "S. Crow",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Shery Crow",
+                "name": "Shery Crow",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Cheryl Crow",
+                "name": "Cheryl Crow",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sheryl Crow and Friends",
+                "name": "Sheryl Crow and Friends",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "53e174b4-7adb-4c67-850e-9859e91b240b",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Sheryl Crow",
+          "status": "Bootleg"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "9d95366b-4d7b-360a-a847-19286e55f98d",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "a721a5be-db41-3d46-bd4b-539281de7d21",
+      "count": 21,
+      "title": "Sheryl Crow",
+      "first-release-date": "1996-09-23",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Sheryl Crow",
+          "artist": {
+            "id": "80ccfede-c258-4575-a7ad-c982e9932e0f",
+            "name": "Sheryl Crow",
+            "sort-name": "Crow, Sheryl",
+            "disambiguation": "American singer-songwriter and musician",
+            "aliases": [
+              {
+                "sort-name": "Crow, Sheryl Suzanne",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Sheryl Suzanne Crow",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sheryl Crown",
+                "name": "Sheryl Crown",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "S. Crow",
+                "name": "S. Crow",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Shery Crow",
+                "name": "Shery Crow",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Cheryl Crow",
+                "name": "Cheryl Crow",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sheryl Crow and Friends",
+                "name": "Sheryl Crow and Friends",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "bf0325c0-eac9-4b2a-b609-9aa8249d3c6c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "8db1bb1c-0601-4f2f-bb85-872b188e21ea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "d14f59b7-388e-4640-aa05-cc049e818cbb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "95aff128-7fdf-40ef-8f77-4ede83057199",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "7ca33db6-af55-4a2c-93c7-cf4f15e7b7c2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "d5e20377-fb4c-442d-b295-37bd1c01e195",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "9414de4a-eb0a-4c67-b825-cf2555c22649",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "55a7680c-a023-4243-81b5-c9116a05a092",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "fe08e331-807d-47c7-8c57-124eaf406d84",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "ffeff476-7706-4293-9311-5e396c241b8a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "c6f9452b-1f6d-4ad5-a55e-700b90471332",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "a572a6fa-3c87-40ec-b899-631c38cfdda8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "33623aea-ecfc-4f8e-98d5-f5625b788d75",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "3708aee7-7ae6-4ebb-a85e-1b6f472b19b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "a48f4d4a-3d33-476e-a0f0-0a96c7cead72",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "f6380cf5-a018-4269-91cb-460033439dcf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "55ae0a9a-e9b3-4910-b998-34875b74785f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "da0563f1-3dfe-4c0f-b88e-e234e2c917ea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "7eca29a5-f1ba-4424-a79f-4a15d5d317ae",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "b6ddf947-3515-4c8d-8143-04dfb60190b0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        },
+        {
+          "id": "bb0fb1f1-77a8-48b4-9ff9-84b1ef89fd40",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Sheryl Crow",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 6,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 4,
+          "name": "alternative rock"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        },
+        {
+          "count": 3,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "americana"
+        },
+        {
+          "count": 2,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        },
+        {
+          "count": 1,
+          "name": "american trad rock"
+        },
+        {
+          "count": 1,
+          "name": "self-titled"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "adult alternative pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary singer/songwriter"
+        }
+      ]
+    }
+  ]
+}

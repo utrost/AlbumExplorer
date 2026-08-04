@@ -1,0 +1,698 @@
+{
+  "albumId": "album-nirvana-in-utero-1993",
+  "query": "artist:\"Nirvana\" AND releasegroup:\"In Utero\" AND firstreleasedate:1993",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Nirvana%22%20AND%20releasegroup%3A%22In%20Utero%22%20AND%20firstreleasedate%3A1993&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:42:13.897Z",
+  "count": 3,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "2a0981fb-9593-3019-864b-ce934d97a16e",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "21861ceb-db10-3e6e-bab7-47a6e8a5492f",
+      "count": 63,
+      "title": "In Utero",
+      "first-release-date": "1993-09-21",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Nirvana",
+          "artist": {
+            "id": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+            "name": "Nirvana",
+            "sort-name": "Nirvana",
+            "disambiguation": "1980s–1990s US grunge band",
+            "aliases": [
+              {
+                "sort-name": "ニルヴァーナ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ニルヴァーナ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nirvana",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Nirvana",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nirvana US",
+                "name": "Nirvana US",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7050b1a1-312f-4c2f-93b1-9eade0209633",
+          "title": "In Utero"
+        },
+        {
+          "id": "12c0437b-0370-48d6-83a5-f6b9bd2cd029",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "0647cb4d-c39a-4e1f-9c2b-b0c671b26c91",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "86597bb4-0239-4ae6-a377-6167355fd6f2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "5bf8a5f8-12c7-4806-a84f-284f05447472",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "0ae345aa-e9c7-40a4-a878-306f7ded740b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "d5a91545-cd6e-4370-8ad9-e429e3449f5b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "90d16827-b494-3d11-be94-3c736a4494ea",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "60d04e17-6a5b-4800-9008-41612e580ad4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "190a90a4-3bae-498b-b928-5369fcfe4620",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "b3bd2714-f6d8-446d-8676-1c6ebe14943a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "2536a378-735a-4461-b65f-52ccff39f470",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "c19c45ab-a8a2-40ea-8b33-b4fc6797a0c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "c2e80db3-bd09-4dd3-981c-f1b5378eaab0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "6fdea2d3-6ba7-4fd4-a4ff-85c0409dd401",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Alternate Albini Mix",
+          "status": "Bootleg"
+        },
+        {
+          "id": "0161dc64-7304-4051-97b3-4d0fceb4f88d",
+          "title": "In Utero"
+        },
+        {
+          "id": "6fa76ee8-2fac-4f6f-b652-57eccb1d66d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "80189394-8ca0-4a97-9d0e-aad32725de22",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "b9f84ee2-3690-4a76-a53e-ee0cbccf2639",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "c2800c6c-1313-4f26-b1d7-44821b1dedf6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "5acf61d9-6b03-4f5e-b556-650dbe6a8936",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "ad16f5d0-9ec1-47a0-99d8-835f718e6089",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "ec236b7c-b545-47eb-9de2-d6877b2e9a89",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "6ddad044-c72c-3eb9-8ae7-45f783a92e0f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "1beb80a6-036c-4e9d-ac53-ab32246f6d3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "9402f68c-bc93-4278-8515-01d06fda1b39",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "d4e28bbc-5de9-47c1-918b-e7e7dd8871b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "b70e194e-29ba-4c2e-9f30-d8d2df6f5f42",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "b9137293-37cd-4cb2-8f91-77b84b382a92",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "bfa9e651-d760-4217-9e41-357d81d4557b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "69e70c2a-fcf2-4243-9ad2-5bf2c08b7db0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero (deluxe edition)",
+          "status": "Official"
+        },
+        {
+          "id": "c4092935-5c0d-48d8-87ab-712081446757",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "dbd34475-e53f-42e1-9a88-54183d065f57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "98071e46-15a2-4899-b6d2-4242701df091",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "d8c1f8c6-c055-43de-b429-50c2312fe4cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "d6c08aa8-9f7c-409e-b480-191c846fd512",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "cad95add-a11f-42e5-b994-5452b9b2293e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "7965264e-194f-4ba1-9630-bdc4aebac684",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "79a35754-3e2b-413e-9032-eedabf860e84",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "22ea76f3-00bb-41e5-8a13-86b16ace3675",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero (super deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "8fb6eea9-f411-4763-9deb-a25808447fb9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero (super deluxe)",
+          "status": "Official"
+        },
+        {
+          "id": "f575bc0a-43e4-42d8-9091-ff23d230661a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "5dae9a54-2e95-35f8-a948-db7b597d6353",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "7d13c434-1c49-4d7f-b164-a5247108af01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "dc02c14f-b3f2-40c2-a32b-4349f8d5a51f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "46c34e00-eaeb-48ad-bd53-2f1cd77b0059",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "7bc472a7-a3fa-4daf-b24d-d8c07bd840e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "dbb9d157-f128-4592-b3cb-5362a51ba73f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "50d86d16-5f45-3b21-acd9-de4011454b4b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "889e6199-2df8-3ddf-9887-c7b589271caf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "11929dbe-82c6-4930-b851-f4fc139b25e6",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "In Utero",
+          "status": "Promotion"
+        },
+        {
+          "id": "2ce1af5d-53ec-463c-a04b-f4ce061016a2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "ebbaf4ec-e90f-439e-ba24-10ae88d3fe51",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "18d4e9b4-9247-4b44-914a-8ddec3502103",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "499345df-cce3-4a07-8bd3-90249a6bbbde",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "cc8a35fc-ef70-40b5-b410-c1b5a029a866",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "8f22f803-20d4-4ea1-b7fa-de0317a8d458",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "054d2a63-97a8-4e68-ace0-519d6dea7551",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "In Utero",
+          "status": "Bootleg"
+        },
+        {
+          "id": "5661de30-86ed-4e3a-be9f-25b2a3cb687b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "91337c30-8e33-41c1-b760-7758db7cb12b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "3a88a29a-6af4-49d8-865e-115525fee7dd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "23b0745b-bedd-337c-8ce2-6db4dc0f1ca2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "In Utero",
+          "status": "Official"
+        },
+        {
+          "id": "81ce37a1-7a8b-3359-af2b-0f8dbd01a0d0",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "In Utero",
+          "status": "Bootleg"
+        }
+      ],
+      "tags": [
+        {
+          "count": 11,
+          "name": "rock"
+        },
+        {
+          "count": 12,
+          "name": "alternative rock"
+        },
+        {
+          "count": 0,
+          "name": "noisy"
+        },
+        {
+          "count": 1,
+          "name": "punk"
+        },
+        {
+          "count": 29,
+          "name": "grunge"
+        },
+        {
+          "count": 0,
+          "name": "alternative"
+        },
+        {
+          "count": 2,
+          "name": "post-hardcore"
+        },
+        {
+          "count": 7,
+          "name": "noise rock"
+        },
+        {
+          "count": 0,
+          "name": "english"
+        },
+        {
+          "count": 0,
+          "name": "1993"
+        },
+        {
+          "count": 0,
+          "name": "rock and indie"
+        },
+        {
+          "count": 0,
+          "name": "angry"
+        },
+        {
+          "count": 0,
+          "name": "rock_grunge"
+        },
+        {
+          "count": 0,
+          "name": "raw"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative/indie rock"
+        },
+        {
+          "count": 0,
+          "name": "alternative pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "sarcastic"
+        },
+        {
+          "count": 2,
+          "name": "slacker rock"
+        },
+        {
+          "count": 0,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "pigfuck"
+        },
+        {
+          "count": 0,
+          "name": "pessimistic"
+        },
+        {
+          "count": 0,
+          "name": "discogs/the most popular album released every year from 1950 to 2020"
+        },
+        {
+          "count": 0,
+          "name": "5+ wochen"
+        },
+        {
+          "count": 0,
+          "name": "rollingstone.de [3.5/5]"
+        }
+      ]
+    },
+    {
+      "id": "915dc49e-8203-31b8-bb19-ca5996a2b810",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 92,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "21861ceb-db10-3e6e-bab7-47a6e8a5492f",
+      "count": 3,
+      "title": "In Utero Demos",
+      "first-release-date": "1993",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Nirvana",
+          "artist": {
+            "id": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+            "name": "Nirvana",
+            "sort-name": "Nirvana",
+            "disambiguation": "1980s–1990s US grunge band",
+            "aliases": [
+              {
+                "sort-name": "ニルヴァーナ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ニルヴァーナ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nirvana",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Nirvana",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nirvana US",
+                "name": "Nirvana US",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "be9cd032-f9e7-4a10-8658-f6f451272a15",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Tribute to Kurt Cobain, Volume 2: In Utero Demos",
+          "status": "Bootleg"
+        },
+        {
+          "id": "81e8b687-f88f-431a-8a98-2223f4a9f7b2",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Out of the Womb: In Utero Demos",
+          "status": "Bootleg"
+        },
+        {
+          "id": "cf0d6da4-7ceb-46b5-a91e-b0a8824b28ae",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "In Utero Demos",
+          "status": "Bootleg"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "grunge"
+        }
+      ]
+    },
+    {
+      "id": "5a49562d-3bbb-4eb1-bbf2-98a22730aff4",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 82,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "21861ceb-db10-3e6e-bab7-47a6e8a5492f",
+      "count": 1,
+      "title": "In Utero First Week Recordings",
+      "first-release-date": "1993",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Demo"
+      ],
+      "secondary-type-ids": [
+        "81598169-0d6c-3bce-b4be-866fa658eda3"
+      ],
+      "artist-credit": [
+        {
+          "name": "Nirvana",
+          "artist": {
+            "id": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+            "name": "Nirvana",
+            "sort-name": "Nirvana",
+            "disambiguation": "1980s–1990s US grunge band",
+            "aliases": [
+              {
+                "sort-name": "ニルヴァーナ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ニルヴァーナ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nirvana",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Nirvana",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Nirvana US",
+                "name": "Nirvana US",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "d74c6647-2081-4dc3-b7a7-38775b996d00",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "In Utero First Week Recordings",
+          "status": "Bootleg"
+        }
+      ]
+    }
+  ]
+}

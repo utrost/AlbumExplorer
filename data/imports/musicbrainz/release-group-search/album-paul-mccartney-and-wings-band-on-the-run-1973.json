@@ -1,0 +1,465 @@
+{
+  "albumId": "album-paul-mccartney-and-wings-band-on-the-run-1973",
+  "query": "artist:\"Paul McCartney and Wings\" AND releasegroup:\"Band On The Run\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Paul%20McCartney%20and%20Wings%22%20AND%20releasegroup%3A%22Band%20On%20The%20Run%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:10:23.500Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "2b678170-1c4e-3e61-b18c-f889fc1537b3",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "bda1636e-dbb7-32dd-b0c8-fb3ee82f21c4",
+      "count": 52,
+      "title": "Band on the Run",
+      "first-release-date": "1973-12-05",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Paul McCartney & Wings",
+          "artist": {
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "disambiguation": "Paul McCartney’s band",
+            "aliases": [
+              {
+                "sort-name": "Paul McCartney & the Wings",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Paul McCartney & the Wings",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Country Hams, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Country Hams",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1974",
+                "end-date": "1974"
+              },
+              {
+                "sort-name": "The Wings",
+                "name": "The Wings",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Suzy and the Red Stripes",
+                "name": "Suzy and the Red Stripes",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Paul McCartney and Wings",
+                "name": "Paul McCartney and Wings",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Paul McCartney & Wings",
+                "name": "Paul McCartney & Wings",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "3dc2c5b4-10ed-41be-941c-01c658ffd381",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "55554189-69ca-46a8-ad3f-f632b7b7561e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "9696e6e0-1105-453d-9f84-d51e56887f50",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run (archive collection)",
+          "status": "Official"
+        },
+        {
+          "id": "d2095e3a-e297-4491-9cbf-4173dce8555e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "4204c6dc-94fc-4718-9ff6-c4ca3099dba8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run (archive collection)",
+          "status": "Official"
+        },
+        {
+          "id": "372e400f-f2c9-4388-8d9e-afce84e4cb5a",
+          "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+          "title": "Band on the Run",
+          "status": "Withdrawn"
+        },
+        {
+          "id": "4289f152-b59a-42e7-8d4c-8ff2df574ca2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "1ef73a60-37e4-4f9b-ba7f-24a6cbfe8c28",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "74ee2f93-7dca-4545-9365-7df577b2dbfd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "0b719993-2e5e-4f04-91f1-03c1bc164274",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "666b0d59-1aae-3d72-89c2-b7431ad231d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "3e23a107-268d-4633-aa1b-2b17c4273ede",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "ac4f2378-8960-45dd-9de8-37c927fbcf43",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "e1ff3a02-4bdc-47ed-840e-1dfd4d9b323a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "21c908ea-f733-4261-847f-70fdf36d548c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "6834dac8-067b-4fc9-b085-a4146a013a78",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run (archive collection)",
+          "status": "Official"
+        },
+        {
+          "id": "e906e020-08d5-4e45-8e20-8ff0c48cd88a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run (archive collection)",
+          "status": "Official"
+        },
+        {
+          "id": "c1f7c8ee-1b32-4ba4-acb0-d1742105d388",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "4eb60ca5-dcf1-42bd-a4fe-c1d0953b9206",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run (archive collection)",
+          "status": "Official"
+        },
+        {
+          "id": "e7736af3-12e6-4e66-80bf-2dbee1238ca1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run (archive collection)",
+          "status": "Official"
+        },
+        {
+          "id": "9f8d03b0-9409-4cf9-b4e4-fc3b4d1ef851",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "4543735d-346a-45cd-98b8-9296390c12d9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "76fc650f-4edf-468c-9212-6cd55ac02907",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "73f5b514-ad4e-40b7-8619-46f0df66e220",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "c66aee2d-ca5a-482a-86c1-62b1ba007f9a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "6b3a1578-2dc7-4536-8542-edc86b50c956",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "91d8adc7-2dba-44c4-880d-d851db285f91",
+          "title": "Band on the Run"
+        },
+        {
+          "id": "bae57081-0ce4-422c-b7bf-2b9d2b57d8e3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "94da89d8-b708-4b5d-b764-0d17f4ca866c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "139573b9-6798-4a3b-934c-04a65ac5e37c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "498a6e7a-da0f-4739-94a2-11e5873956d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "460b32da-b03a-47f5-9ee0-6cf2120b1e0e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "8f7b9beb-66c3-4164-a413-e3e29e693758",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "05f4f1ba-361d-4202-b587-33610e62acb7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "599ce6f5-4240-402c-a14c-c227d581ea07",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "80b4e219-1b99-4665-b035-293e58342c4e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "e6062633-8c3a-4ffc-a083-26c9e85e8233",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "10d00a3c-8d59-436c-a667-ef0e5b3c9d12",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "b09633a8-91ee-39b2-aef6-16307e1ab777",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "ba1d356a-76d3-3744-8ed0-b6dbc1545094",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "38a483f0-ff8b-358f-9cd8-4f3d019975b4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "017a8058-2f0f-44bf-aec1-08fc67d08456",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "cd4fbecd-9f12-3ea3-8d07-2f1b495a4aee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "89b25575-d5a6-4f8f-864d-ed715dc89f52",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "c1d6d2ae-b731-42f1-856e-6b826be3e366",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "1512a739-e79b-385e-a310-1999ad42b294",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "0be5ea0a-8b9b-40e3-9d86-1d169b74450a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "31b82de4-8696-4003-a6bb-667a109fcda0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "587d6c8a-e313-49c6-9dc0-2495dc6eb829",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "3fc82cd6-cf76-4a40-acac-4cb3cb83550b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "abb10f5a-7e76-484e-8ee7-51ebd6d68234",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        },
+        {
+          "id": "10226868-674d-4d2c-b599-f684a036c8ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Band on the Run",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 8,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "art rock"
+        },
+        {
+          "count": 2,
+          "name": "classic rock"
+        },
+        {
+          "count": 0,
+          "name": "album rock"
+        },
+        {
+          "count": 4,
+          "name": "soft rock"
+        },
+        {
+          "count": 5,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "english"
+        },
+        {
+          "count": 0,
+          "name": "am pop"
+        },
+        {
+          "count": 1,
+          "name": "mainstream rock"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 0,
+          "name": "early to mid 70's"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "1–4 wochen"
+        }
+      ]
+    }
+  ]
+}

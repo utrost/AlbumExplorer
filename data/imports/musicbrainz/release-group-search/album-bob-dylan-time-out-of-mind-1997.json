@@ -1,0 +1,322 @@
+{
+  "albumId": "album-bob-dylan-time-out-of-mind-1997",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"Time Out Of Mind\" AND firstreleasedate:1997",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22Time%20Out%20Of%20Mind%22%20AND%20firstreleasedate%3A1997&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:10:04.887Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "dad1dada-1fda-3186-beb7-3bc80e90f9e0",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 21,
+      "title": "Time Out of Mind",
+      "first-release-date": "1997-09-26",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c3cfbc05-6358-4805-9a03-01c8b6e7c3e2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "5cc96432-51de-3de2-b124-bad2ec65732d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "0679970d-7f49-4a09-9424-23e87c1d8f89",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "932d4426-8dca-4bf6-a0da-01e28a18b278",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "3e812af9-b0e0-3bb8-9738-b51470797d92",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "30c76cb4-caf3-4f75-b7ae-1df44bde7fd1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "cc31b71b-882f-3c23-be2c-760a4a18b8d5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "7e0610a8-87ce-40d1-b281-1e42ee223e04",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "6beba007-dbcb-4a5b-b8f1-f6f9a6c000e9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out Of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "06248c52-902b-4bd1-a5b6-529723295277",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "4e410c79-ab74-4b75-9c1f-a5a4cb41a80d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "ac72c1b8-2117-4f42-91d0-28a163ad54ca",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Time Out of Mind",
+          "status": "Promotion"
+        },
+        {
+          "id": "861168be-0b61-3b71-b0b6-52c7d88dfc04",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "2a26cbd7-1922-383f-9d05-e3281a1d23aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "7ed8323a-cdee-3f63-8aae-fc44c89ba3b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "5b7b5b0a-65ea-3388-bed4-a2622e9f9b10",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "b3b0fca8-090a-36fc-ac8f-2b4215ff51ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "3b23fbc6-8156-3fb8-b205-83f819423288",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "34d91a5c-1390-380a-af49-c2f0bcaa8def",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "eb8d8da9-2e7b-3e89-b471-24486bbf5b45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        },
+        {
+          "id": "49bccd8d-e771-4fe9-b7f2-aac91b5aaf94",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Time Out of Mind",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 4,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "blues rock"
+        },
+        {
+          "count": 2,
+          "name": "classic rock"
+        }
+      ]
+    }
+  ]
+}

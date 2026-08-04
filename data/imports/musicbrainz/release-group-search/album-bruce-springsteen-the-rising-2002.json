@@ -1,0 +1,977 @@
+{
+  "albumId": "album-bruce-springsteen-the-rising-2002",
+  "query": "artist:\"Bruce Springsteen\" AND releasegroup:\"The Rising\" AND firstreleasedate:2002",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bruce%20Springsteen%22%20AND%20releasegroup%3A%22The%20Rising%22%20AND%20firstreleasedate%3A2002&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:10:49.659Z",
+  "count": 4,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "1be54a6a-e209-4a85-85b1-9af227e462e5",
+      "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "score": 100,
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 1,
+      "title": "The Rising",
+      "first-release-date": "2002-07-16",
+      "primary-type": "Single",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "d86aeeab-8c3a-44a4-bc57-53bf03902eb3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        }
+      ]
+    },
+    {
+      "id": "d19453c0-cd72-3468-b110-0f898c111e5e",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6dcbb473-025f-3f38-a3a5-8af35818c273",
+      "count": 76,
+      "title": "The Rising",
+      "first-release-date": "2002-07-29",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1bda002d-abeb-4ab7-a19f-aef4b3d7bfa3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "86bbf20e-1a0e-4baf-a01b-22f8d78d48dc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "1f1dc792-105d-4d38-b648-738f5fc1eaee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "82f8593a-ada8-4af8-a292-fb2a105219dd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "812be79b-8872-4ea4-beac-789992b2954c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "1ca8d32c-fe40-4c21-b1aa-b46b54b94783",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "041a73d0-e5d0-4c04-9e6a-105afb2a4d7a",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising",
+          "status": "Bootleg"
+        },
+        {
+          "id": "6c061d5f-0118-4106-9399-3520f502d103",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "404e35ba-fb5d-4389-8806-024156fbd29f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "fa8eb369-f759-4bc5-a0fb-383e5a886f22",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "92872ee4-9eda-4b2b-9205-d0f100d33c6d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "897f8d43-29ab-4b80-ad51-5130b80a0e5b",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising",
+          "status": "Bootleg"
+        },
+        {
+          "id": "fb4bd431-a938-47a1-bd09-4683eea48654",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "84c25e71-b4be-416f-8307-1bf738000e45",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "912243f6-7538-440c-82e0-c1ad5d6ce1ad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "fe86e882-0920-4e06-bc7a-a9c64a9a4d19",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "573f776e-51ce-4b32-955a-e12efceb7508",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "0f9ee73f-bc2c-46e1-9ce0-7aba8b64deb7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "f799b836-a1bd-367a-b89e-32e5023396c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "7b8fb1da-da90-4b00-b28c-595bd8b2cd74",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "1e35d9f0-8d13-45ad-bc63-0669e04fa20f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "0470d6fc-e71e-3392-9651-ae4763210857",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "ffbb6cdc-7757-47a4-beb5-5a9387ccf322",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "a21fa64b-f9e2-480d-b872-4faa868c7b78",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising",
+          "status": "Bootleg"
+        },
+        {
+          "id": "c98f79a1-9bb0-4c14-9a27-192958bb04cb",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising",
+          "status": "Bootleg"
+        },
+        {
+          "id": "b1f88bb9-343f-448f-a2db-a1124741ec0e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "6283480f-5a81-4454-bcb7-69d37dd9f4fa",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "392b0efd-aec5-4180-a6f4-0abafacdb636",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "11d9c4eb-bbac-4ac8-b417-21a68fb4e90d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "83a5cf68-4f1c-4dba-aca8-e99fe034a032",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising",
+          "status": "Bootleg"
+        },
+        {
+          "id": "b0209926-3b26-4cf5-8993-7dbfbeafb259",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "b7a6441c-047b-4ed1-9e2b-f1957e4d04e7",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising: Tour Edition With Bonus DVD",
+          "status": "Promotion"
+        },
+        {
+          "id": "8681b973-72c8-4b4a-98e2-2cb2980bf0de",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "9fa68634-8bdd-4fa1-a33a-3b8ecda0a4ec",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "1b06ec47-2a91-4cfd-b81a-4fdd4f8fc7d7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "9a8d1045-0911-48c2-aa10-0aae19f804c4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "83749b34-fe53-482a-9810-cc5f6fc0d846",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "e09fc337-ee00-4646-9048-6c6a5c2e9c0c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "8657c166-56c0-463b-b0b5-f470bbb85d40",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "8af14c20-e273-44e2-aea3-2d58f6688a34",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "d081bdcd-0a7f-4c80-9f71-d8acda2a4a69",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "7f0997b9-fa9b-3eaf-9d93-53ef0d2fe00a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "975e74dd-5df8-42d7-a245-ff683a06de04",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "9a26e26f-7cc0-4405-8339-9d3650adba74",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "b51c1c7d-e07b-4999-992b-338d9a5e7c7a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "8db8768a-239e-4bcb-bb26-26e027f57122",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "865efc02-67d2-4e17-8116-fc19009c0e27",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising: Tour Edition With Bonus DVD",
+          "status": "Official"
+        },
+        {
+          "id": "6d19588c-0305-4fb0-b687-d4b75a75c3fd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising: Tour Edition With Bonus DVD",
+          "status": "Official"
+        },
+        {
+          "id": "0710dd0f-dde0-4a19-9e6a-f61c3dcea5c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "8d9441e2-a332-4157-a63a-ebcfb2ce7247",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "4ae6825d-57e6-4bfa-b641-a1d5f0ccb177",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "ba9e6f81-1581-43fe-b434-968b071a5140",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "51537334-b81c-4bf1-b40c-d406427b295f",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising",
+          "status": "Bootleg"
+        },
+        {
+          "id": "4b74ff50-3a19-4a7e-8e1d-7e536029e8a1",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "f657cfae-592e-4bb6-8edb-fb3856623812",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "44e26d28-a432-4abf-8a8f-61c3cf02540d",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising",
+          "status": "Bootleg"
+        },
+        {
+          "id": "6124d4d0-5bbc-40c3-bded-586384b46f23",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "291f7e00-80d6-4b2f-88d4-b7af75afb271",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "d6c5da75-4d24-4fbe-86bf-20e10a266930",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "cccef44f-a4ef-464a-9e48-6c014eeeb407",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "0dffd54e-2dcf-4814-bc3d-ce17ab9c9c6d",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Rising",
+          "status": "Promotion"
+        },
+        {
+          "id": "84f8f7bd-b646-43ba-9a8a-94dfc99a66aa",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "d13dc83d-85f3-4df6-a19a-3e3ab6e06263",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "0a1b74c2-6208-43ca-8e3d-5e65cb5977af",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "5f1d2be3-fe82-421d-a9e4-b084dff4d22a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "20cbd684-c5b9-4a1a-a464-63b8005e21d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "41bccd19-8872-4276-99c3-3b3d5bfa1641",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising",
+          "status": "Bootleg"
+        },
+        {
+          "id": "77c8cdc3-c1f5-4a1d-8eaa-9698c40ce126",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "7af84a3c-0a2b-4ab1-a3e6-d8c32384d286",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "3a68a294-10ef-48ae-aaaf-9d90294e426a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "a3889e68-6fa3-4762-b9ab-4badec65a043",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "deff47b8-c283-486c-a017-890d9a9acc74",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "4e10eed4-67a5-4f07-a8ec-650a825b94f5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "643ce91d-6195-4c2a-a682-07eaa753b423",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "12dbad6c-42d4-4a39-87f3-94266ebea7bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        },
+        {
+          "id": "669db3a1-01d3-416b-9e89-3aa0f4b72765",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Rising",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 10,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 4,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "gospel"
+        },
+        {
+          "count": 3,
+          "name": "heartland rock"
+        }
+      ]
+    },
+    {
+      "id": "0a007a0a-ed9f-4a22-8eea-a2104232db1d",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 69,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "ab3af17a-f14a-3d68-98ae-52e335334432",
+      "count": 1,
+      "title": "The Rising Tonight",
+      "first-release-date": "2002-09",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation",
+        "Live"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "artist-credit": [
+        {
+          "joinphrase": " & ",
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "The E Street Band",
+          "artist": {
+            "id": "d6652e7b-33fe-49ef-8336-4c863b4f996f",
+            "name": "The E Street Band",
+            "sort-name": "E Street Band, The",
+            "aliases": [
+              {
+                "sort-name": "The E-Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The E-Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springsteen and the E Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springsteen and the E Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springsteen and the E-Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springsteen and the E-Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springsteen & The E Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springsteen & The E Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springsteen & The E-Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springsteen & The E-Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "9f502044-ff20-4487-b58b-95650a222dfe",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising Tonight",
+          "status": "Bootleg"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and roll"
+        }
+      ]
+    },
+    {
+      "id": "ac095a1d-2075-4f5e-970c-8cd7d47630b6",
+      "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+      "score": 66,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "ab3af17a-f14a-3d68-98ae-52e335334432",
+      "count": 1,
+      "title": "The Rising Tour Rehearsals",
+      "first-release-date": "2002-09-24",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Live"
+      ],
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "artist-credit": [
+        {
+          "joinphrase": " & ",
+          "name": "Bruce Springsteen",
+          "artist": {
+            "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+            "name": "Bruce Springsteen",
+            "sort-name": "Springsteen, Bruce",
+            "aliases": [
+              {
+                "sort-name": "ブルース・スプリングスティーン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブルース・スプリングスティーン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Boss, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Boss",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bruce Springsteen",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springteen",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springteen",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Springsteen, Bruce Frederick Joseph",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Bruce Frederick Joseph Springsteen",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1949-09-23",
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "The E Street Band",
+          "artist": {
+            "id": "d6652e7b-33fe-49ef-8336-4c863b4f996f",
+            "name": "The E Street Band",
+            "sort-name": "E Street Band, The",
+            "aliases": [
+              {
+                "sort-name": "The E-Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The E-Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springsteen and the E Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springsteen and the E Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springsteen and the E-Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springsteen and the E-Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springsteen & The E Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springsteen & The E Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bruce Springsteen & The E-Street Band",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bruce Springsteen & The E-Street Band",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c74742f7-8de2-4282-aaee-f2a3f60cfcd5",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Rising Tour Rehearsals",
+          "status": "Bootleg"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        }
+      ]
+    }
+  ]
+}

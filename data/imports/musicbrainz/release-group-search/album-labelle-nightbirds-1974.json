@@ -1,0 +1,125 @@
+{
+  "albumId": "album-labelle-nightbirds-1974",
+  "query": "artist:\"Labelle\" AND releasegroup:\"Nightbirds\" AND firstreleasedate:1974",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Labelle%22%20AND%20releasegroup%3A%22Nightbirds%22%20AND%20firstreleasedate%3A1974&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:06:18.748Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "1a11f10d-1e5e-38da-aa71-098e8b83a667",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "414d7f20-73d2-3d1a-aa94-6dfff9444b12",
+      "count": 7,
+      "title": "Nightbirds",
+      "first-release-date": "1974",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "LaBelle",
+          "artist": {
+            "id": "875074d3-6458-47b4-b515-f7ecda93bd8d",
+            "name": "LaBelle",
+            "sort-name": "LaBelle",
+            "disambiguation": "American female vocal group, of “Lady Marmalade” fame",
+            "aliases": [
+              {
+                "sort-name": "ラベル",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ラベル",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Labella",
+                "name": "Labella",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Patti LaBelle With LaBelle",
+                "name": "Patti LaBelle With LaBelle",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7e648979-ffb9-48d3-89e0-8a66d5e18488",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nightbirds",
+          "status": "Official"
+        },
+        {
+          "id": "5e2ccbfd-a225-4b0e-b9b8-5296b2c8c733",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nightbirds",
+          "status": "Official"
+        },
+        {
+          "id": "62679a25-5cd8-4f33-bf86-d3db5dc1c127",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nightbirds",
+          "status": "Official"
+        },
+        {
+          "id": "07ca1f4f-ec02-45ef-9546-83f57c52146b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nightbirds",
+          "status": "Official"
+        },
+        {
+          "id": "95b13f63-173c-427f-a94a-9c2fabfa6670",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nightbirds",
+          "status": "Official"
+        },
+        {
+          "id": "689c063b-4093-3327-9aca-e63111e1d8c1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Nightbirds",
+          "status": "Official"
+        },
+        {
+          "id": "3f7a4dac-4cd2-417f-afb8-1c885b1d846d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Historia de la Música Rock - 70",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "funk"
+        },
+        {
+          "count": 3,
+          "name": "soul"
+        },
+        {
+          "count": 3,
+          "name": "disco"
+        },
+        {
+          "count": 2,
+          "name": "r&b"
+        }
+      ]
+    }
+  ]
+}

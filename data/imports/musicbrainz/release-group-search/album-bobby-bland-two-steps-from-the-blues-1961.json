@@ -1,0 +1,175 @@
+{
+  "albumId": "album-bobby-bland-two-steps-from-the-blues-1961",
+  "query": "artist:\"Bobby Bland\" AND releasegroup:\"Two Steps From The Blues\" AND firstreleasedate:1961",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bobby%20Bland%22%20AND%20releasegroup%3A%22Two%20Steps%20From%20The%20Blues%22%20AND%20firstreleasedate%3A1961&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:04:37.690Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "959bffeb-cdb8-3559-a0e7-2c88d278e7bf",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "e234b0fb-e9ff-34a4-8d60-77c7efe62d54",
+      "count": 8,
+      "title": "Two Steps From the Blues",
+      "first-release-date": "1961",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bobby Bland",
+          "artist": {
+            "id": "66ebc271-6a26-4fe7-848b-f217da119d92",
+            "name": "Bobby “Blue” Bland",
+            "sort-name": "Bland, Bobby “Blue”",
+            "aliases": [
+              {
+                "sort-name": "Bobby Blue’ Bland",
+                "name": "Bobby Blue’ Bland",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bobby ‘Blue’ Band",
+                "name": "Bobby ‘Blue’ Band",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bland, Bobby “Blue”",
+                "name": "Bobby “Blue” Bland",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brooks, Robert Calvin",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Calvin Brooks",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bobby Blue Bland",
+                "name": "Bobby Blue Bland",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bland, Robert Calvin",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Calvin Bland",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bobby Bland",
+                "name": "Bobby Bland",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "226c4861-a77f-4649-971a-09c7e2a82744",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Two Steps From The Blues",
+          "status": "Official"
+        },
+        {
+          "id": "d4a6bf69-2cfa-4f0b-aa13-061edb7b53cc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Two Steps From the Blues",
+          "status": "Official"
+        },
+        {
+          "id": "47c8a59e-8888-32e7-8fae-9b21caba98ed",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Two Steps From the Blues",
+          "status": "Official"
+        },
+        {
+          "id": "26215735-d1d1-4fc5-b38d-19545261842c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Two Steps From The Blues",
+          "status": "Official"
+        },
+        {
+          "id": "4a42bc90-be36-4fe8-89a6-9ac5f1b1f802",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Two Steps From the Blues",
+          "status": "Official"
+        },
+        {
+          "id": "191bd877-b3d0-446f-9602-eeea66dbca07",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Two Steps From the Blues",
+          "status": "Official"
+        },
+        {
+          "id": "539f71b6-ab7a-4a09-a908-18a2f43a868d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Two Steps From the Blues",
+          "status": "Official"
+        },
+        {
+          "id": "108311d8-aef4-49e8-b3cf-57cfc16fe825",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Two Steps From the Blues",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "blues"
+        },
+        {
+          "count": 4,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "rhythm and blues"
+        },
+        {
+          "count": 1,
+          "name": "soul blues"
+        },
+        {
+          "count": 0,
+          "name": "rhythm & blues"
+        },
+        {
+          "count": 0,
+          "name": "blues/r&b"
+        }
+      ]
+    }
+  ]
+}

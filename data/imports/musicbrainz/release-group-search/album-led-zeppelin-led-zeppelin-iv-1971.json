@@ -1,0 +1,821 @@
+{
+  "albumId": "album-led-zeppelin-led-zeppelin-iv-1971",
+  "query": "artist:\"Led Zeppelin\" AND releasegroup:\"Led Zeppelin IV\" AND firstreleasedate:1971",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Led%20Zeppelin%22%20AND%20releasegroup%3A%22Led%20Zeppelin%20IV%22%20AND%20firstreleasedate%3A1971&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:34:53.916Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "2e61da88-39e9-3473-81d2-c964cb394952",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "94b69d88-4662-335d-a9a5-43d8aae6bf20",
+      "count": 87,
+      "title": "[Led Zeppelin IV]",
+      "first-release-date": "1971-11-08",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Led Zeppelin",
+          "artist": {
+            "id": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+            "name": "Led Zeppelin",
+            "sort-name": "Led Zeppelin",
+            "aliases": [
+              {
+                "sort-name": "レッド・ツェッペリン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "レッド・ツェッペリン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zeppelin",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Led Zeppelin",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レッド・ゼップ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "レッド・ゼップ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レッドゼップ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "レッドゼップ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ゼップ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "ゼップ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ledzep",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "ledzep",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bootleg Zeppelin",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bootleg Zeppelin",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "LZ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "LZ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zepplelin",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Led Zepplelin",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zepellin",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Led Zepellin",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レッド ツェッペリン",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "レッド ツェッペリン",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "レッドツェッペリン",
+                "name": "レッドツェッペリン",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zepplin",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Led Zepplin",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Led Zep",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Led Zep",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "f69e2c3d-1d0c-432f-8652-c01176181ae3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "77a2022a-f7e5-4b97-9e14-575174845e87",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "cf3fb645-6033-4d4d-b003-384d8bed5659",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "9c37d8ec-39a0-4ef3-baab-1133efba8ac7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "605f18d0-d707-4343-bb1a-92e2f0a8528c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "25ec0368-4666-40fa-a898-b32f3216cb76",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "780c103b-b33b-45ad-bd11-98205b233bce",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "491356c0-b505-4623-8d18-a495483decc5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "97fd4094-7aa9-4e2c-b594-b0a2815c3d7c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Led Zeppelin IV",
+          "status": "Official"
+        },
+        {
+          "id": "f80b58c7-8d4c-3943-b4a4-a1ce64093d1b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "400901f5-8b79-4f74-9ef5-5f1c037c9634",
+          "title": "[Led Zeppelin IV]"
+        },
+        {
+          "id": "f3f7abed-a1b1-4e76-be32-2f4d71218256",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a41f59ee-500d-4f03-a6ac-661783dffdc5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "802a4060-ea13-4577-8763-edd330642fbf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "f88ff8dc-f868-4ade-b64a-9ffb8a2c9b7d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "1d0a5c49-998e-43fe-86a7-17118e5fb74c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "1fa80fd0-dcd6-494b-bd5b-efb4bdcd9eb7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "50c1e2db-6dcd-45c8-8f92-b21381a87445",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "db11882b-f357-4587-ba3a-d561319679d4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "3ae21f71-1d5f-40ec-a62a-69ae54bceaf7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "9a6e0e17-8c6e-4f4c-bc5a-773e89cb7f48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "f9212b00-bd3a-4f9f-8c05-506b9df5888d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "9add4274-f9e5-44ac-a8c2-b7f6594d67e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a186c398-6339-4bf2-99ee-d03d41d7e19f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "bdd8d7c5-eda2-46ab-a272-4f096e13a7f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "e40ce9e5-844a-4cde-a7c2-b316191ec981",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "872ed663-7885-44f9-b13f-c628d6c84f29",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "d204c2a6-665a-35ef-9b7c-799df194dea1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "f9285d90-68a9-4978-80f1-7eff6609e7c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "3fa3958d-333d-4c02-b7f5-7134d72cf6e7",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "[Led Zeppelin IV]",
+          "status": "Bootleg"
+        },
+        {
+          "id": "7ccc3023-3ea3-47b1-b6d5-0b74bd9d92ac",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "1da28879-c832-4d8a-a227-06595d49b2c8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "0fca4b6f-26e9-470c-95dd-5204ce73e9b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "881f80ba-0afb-3993-b8d8-aa10416ecc6c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "ad4139c8-1b8b-42cc-a5bb-a905d80e0317",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "b953d691-8779-49c2-b46e-deb3eea2ad1d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a55a7de4-5a1c-3c84-98c6-28b042ee5202",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "40e62ae2-57b2-4e66-b527-685aacf1c3c6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "1541f75d-a7be-4f61-ba16-371c866a7052",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "ec9dbd4b-2a29-4b3e-941b-af7b363dc23d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "b41c9d20-e263-4961-86e8-c90b413dcf02",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "822fffb0-7c54-4395-bf18-30c56a3738b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "2a73b5f2-f680-4c3b-902f-7e395dece103",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "ca98b31f-3e81-4d8c-87d8-f0b64632e5fc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "d8984a59-052f-435a-b245-7df239b384f7",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "[Led Zeppelin IV]",
+          "status": "Bootleg"
+        },
+        {
+          "id": "959621bf-6536-4f37-a60d-148168d98700",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a0d9033b-01ec-48b2-bf05-395bd103aad9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "de714b9d-51ec-49b6-8e70-81849ba31e79",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a68e5783-c5d0-4e3b-ad50-2b3dca1e6d80",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "3c7da150-60d4-4ad2-952a-0dc3b088b153",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "43dad408-5207-460b-a0ce-52a685776850",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "7e89be43-0c3a-3d05-9471-40dd26a98385",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "9cfdee47-1d3f-3d95-8ad2-528ec3b09fa1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "8ad7ce96-070a-4f56-8d9b-38639c7e2d36",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "46ecd4a5-db56-4d17-8d1f-243b4a1f72f7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "c66df7b9-c773-4d7c-9a21-7d3f2518dd29",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "5a17beb8-d7d7-4680-baa8-d6517aca1c68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "bacbd0b1-a596-43ee-ace4-1d19664fcd3c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "3b2dcb10-347d-49f8-beea-7474a77aebf6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a1f2ad19-3e0f-4e74-a949-a5f04968cdfe",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a22c222e-1a75-469d-82ab-2d84e5f6a3e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "9bac5138-4ec6-38de-9ace-e419bb96a753",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "c4b3eaa1-b82b-47e4-937b-c0851712a920",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "07fe0684-3069-4b44-b30a-8443f3627b83",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a938d2f1-72c7-4f9b-9c2b-9997676abc21",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "c3bbef1d-053f-4f7e-b739-a09fbdfc8ee5",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "[Led Zeppelin IV]",
+          "status": "Bootleg"
+        },
+        {
+          "id": "29c124e7-cd34-483e-bbb2-d44546c48b29",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "153c9ffe-6d22-4ee1-bffa-e29aedc315dc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "e20a139c-a9a7-4fac-9303-a8a2143d9552",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a69c9d57-62be-3e40-b9aa-ef3557d53c5f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "103a462d-a9f2-4f05-9490-3d8fe506c8a6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "bfd8e1cd-0361-4599-bbe6-50c0d93ca82d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "98716612-b8fd-3334-9fb2-a17afdd17173",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "4779d5d3-e57e-3a0b-9f2d-688ebb25e509",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "3a4f0cbb-a599-48ea-af19-f2f6d397a3d9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "f14e2921-5a5c-3e83-834b-92e84ab146d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "eec0b9f7-3044-3cd2-9140-db912dbc97ad",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "fe378f76-72cb-4664-8d5f-2dffe9670a11",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "2b65ce0c-0ee7-4838-b457-4201f6c6ca16",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "[Led Zeppelin IV]",
+          "status": "Bootleg"
+        },
+        {
+          "id": "3df00781-2eb1-47d7-801d-340964a624d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "a9a8d0de-0d1a-40a5-af83-b223a3435683",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "14b8e7a3-ed63-416b-85ac-cfcb0377ffca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "d1196083-39c3-36c6-85a3-b775902d09da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Led Zeppelin IV",
+          "status": "Official"
+        },
+        {
+          "id": "4eb4eb2f-f905-4cfb-8be8-1802b9867600",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "9e91516d-fd47-4deb-ae12-6cf94abfdb99",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "71eafe5d-33b0-4e41-9b51-754b8450302e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        },
+        {
+          "id": "fc117ce1-5dbb-450c-b560-ded23d5dae2d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "[Led Zeppelin IV]",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 20,
+          "name": "rock"
+        },
+        {
+          "count": 0,
+          "name": "70s"
+        },
+        {
+          "count": 2,
+          "name": "heavy metal"
+        },
+        {
+          "count": 3,
+          "name": "blues"
+        },
+        {
+          "count": 0,
+          "name": "british"
+        },
+        {
+          "count": 0,
+          "name": "uk"
+        },
+        {
+          "count": 26,
+          "name": "hard rock"
+        },
+        {
+          "count": 1,
+          "name": "britannique"
+        },
+        {
+          "count": 3,
+          "name": "folk rock"
+        },
+        {
+          "count": 12,
+          "name": "blues rock"
+        },
+        {
+          "count": 0,
+          "name": "américain"
+        },
+        {
+          "count": 8,
+          "name": "classic rock"
+        },
+        {
+          "count": 3,
+          "name": "album rock"
+        },
+        {
+          "count": 4,
+          "name": "arena rock"
+        },
+        {
+          "count": 2,
+          "name": "british blues"
+        },
+        {
+          "count": 1,
+          "name": "english"
+        },
+        {
+          "count": 1,
+          "name": "blues-rock"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "british metal"
+        },
+        {
+          "count": 0,
+          "name": "1971"
+        },
+        {
+          "count": 1,
+          "name": "led zeppelin box set"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "rock ballad"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "regional blues"
+        },
+        {
+          "count": 1,
+          "name": "chariot"
+        },
+        {
+          "count": 0,
+          "name": "à ranger"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 0,
+          "name": "technically sillyname"
+        },
+        {
+          "count": 1,
+          "name": "discogs/the most popular album released every year from 1950 to 2020"
+        },
+        {
+          "count": 0,
+          "name": "5+ wochen"
+        }
+      ]
+    }
+  ]
+}

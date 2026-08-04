@@ -1,0 +1,229 @@
+{
+  "albumId": "album-abba-the-definitive-collection-2001",
+  "query": "artist:\"ABBA\" AND releasegroup:\"The Definitive Collection\" AND firstreleasedate:2001",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22ABBA%22%20AND%20releasegroup%3A%22The%20Definitive%20Collection%22%20AND%20firstreleasedate%3A2001&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:47:49.847Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e2996feb-86b9-3550-88ec-f1c9c9af3961",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "6c7a1871-1858-3139-a51c-5181f6804ee7",
+      "count": 10,
+      "title": "The Definitive Collection",
+      "first-release-date": "2001-02-09",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "ABBA",
+          "artist": {
+            "id": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+            "name": "ABBA",
+            "sort-name": "ABBA",
+            "disambiguation": "Swedish pop group",
+            "aliases": [
+              {
+                "sort-name": "Björn Benny & Agnetha Frida",
+                "name": "Björn Benny & Agnetha Frida",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Björn + Benny + Anna + Frieda",
+                "name": "Björn + Benny + Anna + Frieda",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ABBA",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "АББА",
+                "locale": "bg",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Björn Benny Agnetha & Anni-Frid",
+                "name": "Björn Benny Agnetha & Anni-Frid",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Abba",
+                "name": "Abba",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᗅᗺᗷᗅ",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "ᗅᗺᗷᗅ",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "アバ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "アバ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ABBA",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "АББА",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7594668c-4c43-491e-b0a7-2ef7e6f34b71",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "896c104c-74f7-45bd-adc7-cc9cdf8ca2e5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "233121a4-5504-49a8-ae5c-33e48244fc25",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "fa85ab8b-7863-3b9a-b7c5-2f6d19073135",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "a3ded330-7c94-3482-996b-782948bff0e7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "19512bda-ef3b-4e1d-85a8-a29a989143b9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "f16f5412-51a2-4542-9ae0-c07b879f4178",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "2439dff2-c5f6-420e-a0ba-961dc23f2cb0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "a1ac9964-7319-46c7-9504-ef5e15d20241",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        },
+        {
+          "id": "c2c73ead-faaa-3cb7-b094-4352ef7f25e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Definitive Collection",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "synthpop"
+        },
+        {
+          "count": 5,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "electronica"
+        },
+        {
+          "count": 1,
+          "name": "synth-pop"
+        },
+        {
+          "count": 4,
+          "name": "disco"
+        },
+        {
+          "count": 1,
+          "name": "glam rock"
+        },
+        {
+          "count": 3,
+          "name": "pop rock"
+        },
+        {
+          "count": 5,
+          "name": "europop"
+        },
+        {
+          "count": 4,
+          "name": "euro-disco"
+        },
+        {
+          "count": 1,
+          "name": "dance music; electronic; euro disco; europop; glam rock; jazz; pop music; pop rock; rock; trance"
+        }
+      ]
+    }
+  ]
+}

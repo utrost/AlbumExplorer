@@ -1,0 +1,137 @@
+{
+  "albumId": "album-sam-cooke-portrait-of-a-legend-1951-1964-2003",
+  "query": "artist:\"Sam Cooke\" AND releasegroup:\"Portrait Of A Legend: 1951-1964\" AND firstreleasedate:2003",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Sam%20Cooke%22%20AND%20releasegroup%3A%22Portrait%20Of%20A%20Legend%3A%201951-1964%22%20AND%20firstreleasedate%3A2003&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T19:00:07.655Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "38d697fd-bdf6-3800-bbff-2078456d4c4c",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "ab09115c-a9fd-38a8-b8fb-f92f54718b13",
+      "count": 6,
+      "title": "Portrait of a Legend 1951–1964",
+      "first-release-date": "2003-06-17",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "Sam Cooke",
+          "artist": {
+            "id": "6c8fd0be-d961-454c-aee0-4366a6dbc993",
+            "name": "Sam Cooke",
+            "sort-name": "Cooke, Sam",
+            "disambiguation": "American singer and songwriter, “King of Soul”",
+            "aliases": [
+              {
+                "sort-name": "Sam Cook",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Sam Cook",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Cook, Samuel",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Samuel Cook",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cc75f3db-aa99-4007-9488-d71c68d31e52",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "30 Greatest Hits: Portrait of a Legend 1951–1964",
+          "status": "Official"
+        },
+        {
+          "id": "31275b07-b651-4dfb-b6b4-a1cef2bc8dc9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Portrait of a Legend 1951–1964",
+          "status": "Official"
+        },
+        {
+          "id": "adf924e8-8a2d-4e16-bf56-ebffd5bec3b5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Portrait of a Legend 1951–1964",
+          "status": "Official"
+        },
+        {
+          "id": "e27a5898-3e90-3514-a4e1-3ee26e7c3fff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Portrait of a Legend 1951–1964",
+          "status": "Official"
+        },
+        {
+          "id": "76bd5654-73be-425f-8db4-2ad33d0cfc72",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Portrait of a Legend 1951–1964",
+          "status": "Official"
+        },
+        {
+          "id": "3b152f74-6168-4f0c-9f18-d231e2f963a2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Portrait of a Legend 1951–1964",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "vocal"
+        },
+        {
+          "count": 6,
+          "name": "soul"
+        },
+        {
+          "count": 2,
+          "name": "r b"
+        },
+        {
+          "count": 2,
+          "name": "gospel"
+        },
+        {
+          "count": 1,
+          "name": "deep soul"
+        },
+        {
+          "count": 2,
+          "name": "soul and reggae"
+        },
+        {
+          "count": 2,
+          "name": "male vocal"
+        },
+        {
+          "count": 1,
+          "name": "rock & roll"
+        },
+        {
+          "count": 1,
+          "name": "rhythm & blues"
+        }
+      ]
+    }
+  ]
+}

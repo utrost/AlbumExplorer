@@ -1,0 +1,111 @@
+{
+  "albumId": "album-los-lobos-how-will-the-wolf-survive-1984",
+  "query": "artist:\"Los Lobos\" AND releasegroup:\"How Will the Wolf Survive?\" AND firstreleasedate:1984",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Los%20Lobos%22%20AND%20releasegroup%3A%22How%20Will%20the%20Wolf%20Survive%3F%22%20AND%20firstreleasedate%3A1984&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:56:12.224Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "2478de4b-9470-311b-be17-68fb79388e89",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "0bc8854a-5d3c-3219-ad49-aa1d3de5e213",
+      "count": 6,
+      "title": "How Will the Wolf Survive?",
+      "first-release-date": "1984",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Los Lobos",
+          "artist": {
+            "id": "2b9967c7-3246-4658-a561-ded5408dd9af",
+            "name": "Los Lobos",
+            "sort-name": "Lobos, Los",
+            "disambiguation": "Chicano rock band",
+            "aliases": [
+              {
+                "sort-name": "Los Fobos",
+                "name": "Los Fobos",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Los Loros",
+                "name": "Los Loros",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "a950ea24-8991-44ea-95c9-0bc01666b580",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "How Will the Wolf Survive?",
+          "status": "Official"
+        },
+        {
+          "id": "0f8aae69-1e90-41ad-81be-764c3fb9bebc",
+          "title": "How Will the Wolf Survive?"
+        },
+        {
+          "id": "1cb43577-8e08-42a2-8126-4ac324d412bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "How Will the Wolf Survive?",
+          "status": "Official"
+        },
+        {
+          "id": "37363a88-fecb-4cf4-be58-2b3693d0c78e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "How Will the Wolf Survive?",
+          "status": "Official"
+        },
+        {
+          "id": "47448608-0164-451a-8427-135b28a9d317",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "How Will the Wolf Survive?",
+          "status": "Official"
+        },
+        {
+          "id": "96bb8078-03f5-4e75-bbc6-b9a9757b0d62",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "How Will the Wolf Survive?",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 2,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "80s"
+        },
+        {
+          "count": 1,
+          "name": "blues"
+        },
+        {
+          "count": 2,
+          "name": "latin"
+        },
+        {
+          "count": 1,
+          "name": "tex-mex"
+        }
+      ]
+    }
+  ]
+}

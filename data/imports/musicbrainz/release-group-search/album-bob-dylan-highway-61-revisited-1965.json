@@ -1,0 +1,456 @@
+{
+  "albumId": "album-bob-dylan-highway-61-revisited-1965",
+  "query": "artist:\"Bob Dylan\" AND releasegroup:\"Highway 61 Revisited\" AND firstreleasedate:1965",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Bob%20Dylan%22%20AND%20releasegroup%3A%22Highway%2061%20Revisited%22%20AND%20firstreleasedate%3A1965&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:32:50.610Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "fb48b1dc-412f-36aa-8820-1023c08c46c6",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "5133fb2f-444f-316f-8b77-5cad3a10aa91",
+      "count": 37,
+      "title": "Highway 61 Revisited",
+      "first-release-date": "1965-08-30",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Bob Dylan",
+          "artist": {
+            "id": "72c536dc-7137-4477-a521-567eeb840fa8",
+            "name": "Bob Dylan",
+            "sort-name": "Dylan, Bob",
+            "aliases": [
+              {
+                "sort-name": "Boy Dylan",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Boy Dylan",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DYLYN Bob",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "DYLYN Bob",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan, Robert",
+                "name": "Robert Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Robert",
+                "name": "Robert Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Zimmerman, Bobby",
+                "name": "Bobby Zimmerman",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дилан, Боб",
+                "name": "Боб Дилан",
+                "locale": "ru",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Landy, Bob",
+                "name": "Bob Landy",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Boo",
+                "name": "Boo Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Zimmerman, Robert Allen",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Robert Allen Zimmerman",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bob D",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Bob D",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dylan",
+                "name": "Dylan",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jack Frost",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Jack Frost",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Grunt, Blind Boy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Blind Boy Grunt",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1962",
+                "end-date": "1963"
+              },
+              {
+                "sort-name": "Wilbury, Lucky",
+                "name": "Lucky Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Dylan, Bob",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bob Dylan",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "c6835065-8a47-4cec-ba3b-efbf95c433bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "a898d848-03d9-47c9-8ffe-71541b26f826",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "d8f45728-e3b2-4a14-a811-ee536c0ec4d7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "ae4b545d-027c-43fa-b878-0dda1d22908e",
+          "title": "Highway 61 Revisited"
+        },
+        {
+          "id": "15c7bb3a-cbc6-4fcb-8879-48ee61f1b740",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "2fdaac57-52fa-4482-939e-e1ba9abffdc2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "5d63a64f-73c4-4a03-90bb-44f65ad48adf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "a09a0260-b793-4c1a-9657-ebd2ac915c2a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "e3b44b7b-0beb-46eb-865b-db27b10c3ff9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "a5494448-8a05-4ab4-ae52-cbbebb3bb474",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "26857b5a-48cc-4ab5-941f-d341589ce864",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "cdf1c9a6-89d5-3834-8a87-7d4d1e6de944",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "866529d0-cc46-36b8-ae11-38b985054a1c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "0981a26e-ca63-3385-934d-c65a8b0d9179",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "85d3edbe-53cc-4e32-84bb-d32b6adad0c6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "0a2033ad-5b1d-45c7-967e-8bb29cd93e79",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "3b436ed5-e23d-471e-961c-db3b6eac08fc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "1703b7b8-956e-49e8-9d7f-dc43fd900a2c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "24e227e6-cbef-4044-920c-3df4c143ee85",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "a1b9e88a-a350-4320-8a21-7ab4976a1282",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "ee3c7642-4ba3-4160-b857-60aabc827584",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Highway 61 Revisited",
+          "status": "Promotion"
+        },
+        {
+          "id": "bde5033d-4bc7-4072-a50b-0d4f09eea47a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "ec9ed5b8-1006-4647-b6f3-f924d0cd63a2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "7d137e0d-6158-317a-930c-d61f6549832c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "66289aad-5567-331f-9f7a-b07618f88aa7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "2b53a291-ebd3-3681-bd53-ec813f7962cf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "ec5cf614-8395-32c3-ba8e-edc3105123e9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "fa01c018-3a37-3ac6-b5e7-e5354eb0cb1e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "7567e347-ac13-3ae1-8e02-0c72b3de3a12",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "b5cc7fba-bbd6-3b97-b8a5-f8eb2ea36276",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "1bae8128-ad01-32be-a6a2-6f40c09bbfe6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "636c67d6-5030-4808-b96f-0e7e53475fca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "a9756e2e-3dec-4a22-89e4-c710c79b5056",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "1ff0457c-6566-4ebb-bd33-60855e210fbf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "263a8ba4-cbc2-4fbd-9aa3-1de457c717a1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "d61a2bd9-81ac-4023-bd22-1c884d4a176c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        },
+        {
+          "id": "2c3938c1-896f-3963-8588-828e733e895c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Highway 61 Revisited",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 15,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "pop"
+        },
+        {
+          "count": 3,
+          "name": "folk"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 13,
+          "name": "folk rock"
+        },
+        {
+          "count": 6,
+          "name": "acoustic"
+        },
+        {
+          "count": 6,
+          "name": "blues rock"
+        },
+        {
+          "count": 1,
+          "name": "poetry"
+        },
+        {
+          "count": 4,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary folk"
+        },
+        {
+          "count": 1,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 1,
+          "name": "protest songs"
+        }
+      ]
+    }
+  ]
+}

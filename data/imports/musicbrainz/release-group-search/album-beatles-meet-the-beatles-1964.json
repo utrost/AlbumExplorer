@@ -1,0 +1,702 @@
+{
+  "albumId": "album-beatles-meet-the-beatles-1964",
+  "query": "artist:\"The Beatles\" AND releasegroup:\"Meet the Beatles!\" AND firstreleasedate:1964",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Beatles%22%20AND%20releasegroup%3A%22Meet%20the%20Beatles!%22%20AND%20firstreleasedate%3A1964&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:43:23.033Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "c2c696fc-6beb-3dfb-bb15-7bb021ebeb5d",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+      "count": 35,
+      "title": "Meet The Beatles!",
+      "first-release-date": "1964-01-20",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "The Beatles",
+          "artist": {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "aliases": [
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans_CN",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士乐队",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士乐队",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂團",
+                "name": "披頭四樂團",
+                "locale": "zh_Hant",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beetles",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Beetles",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四樂隊",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四樂隊",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "fab four",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "fab four",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Պիթլս",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Պիթլս",
+                "locale": "hy",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ဘီးတဲလ်အဖွဲ့",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ဘီးတဲလ်အဖွဲ့",
+                "locale": "my",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बिटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बिटल्स",
+                "locale": "ne",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+                "locale": "sat",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "די ביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "די ביטלס",
+                "locale": "yi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Бітлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Бітлз",
+                "locale": "uk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлз",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлз",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披头士",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披头士",
+                "locale": "zh_Hans",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "披頭四",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "披頭四",
+                "locale": "zh_Hant",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Silver Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Silver Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, I",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "I Beatles",
+                "locale": "it",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Die",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Die Beatles",
+                "locale": "de",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ბითლზი",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ბითლზი",
+                "locale": "ka",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیٹلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیٹلز",
+                "locale": "ur",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "เดอะบีเทิลส์",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "เดอะบีเทิลส์",
+                "locale": "th",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ద బీటిల్స్",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ద బీటిల్స్",
+                "locale": "te",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "பீட்டில்ஸ்",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "பீட்டில்ஸ்",
+                "locale": "ta",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ਦ ਬੀਟਲਜ਼",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ਦ ਬੀਟਲਜ਼",
+                "locale": "pa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Битлси",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Битлси",
+                "locale": "mk",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ദി ബീറ്റിൽസ്",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ദി ബീറ്റിൽസ്",
+                "locale": "ml",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ದಿ ಬೀಟಲ್ಸ್",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ದಿ ಬೀಟಲ್ಸ್",
+                "locale": "kn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bítlarnir",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Bítlarnir",
+                "locale": "is",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "द बीटल्स",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "द बीटल्स",
+                "locale": "hi",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "더 비틀즈",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "더 비틀즈",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "הביטלס",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "הביטלס",
+                "locale": "he",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ધ બિટલ્સ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ધ બિટલ્સ",
+                "locale": "gu",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "بیتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "بیتلز",
+                "locale": "fa",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "দ্য বিটল্‌স",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "দ্য বিটল্‌স",
+                "locale": "bn",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "البيتلز",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "البيتلز",
+                "locale": "ar",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Los",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Los Beatles",
+                "locale": "es",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ዘ ቢተልስ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ዘ ቢተልስ",
+                "locale": "am",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ビートルズ（ザ）",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ザ・ビートルズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, Les",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Les Beatles",
+                "locale": "fr",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Beatles, The",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "The Beatles",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "6b7281e8-b741-4119-9bf7-72e79c3bb874",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "77c8faf9-5954-41c9-b400-7ff6c875b26f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "6f89057f-2eaa-4d4b-b287-74de955b6f82",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "4f8ea576-e029-4ec0-9658-c65061416014",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "e0330485-7778-4e00-a33a-1775d513f5c5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "b6a282b2-aced-4370-8787-80c959d37c0d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "9e2f9f67-cf77-45f9-8c82-0232425f5bb6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "23907dc4-7597-4c98-89ca-12efc6883eb8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "4b59aec8-fe14-43e4-80cf-581ecbdb18fa",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Meet The Beatles!",
+          "status": "Bootleg"
+        },
+        {
+          "id": "bd5d13b6-8f5d-4329-b8e5-1a1043123a9b",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Meet The Beatles!",
+          "status": "Bootleg"
+        },
+        {
+          "id": "c2ea11f8-7397-4a63-8904-df6ae05a8e46",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "82534c04-9331-43b1-b26d-c782e54e1eca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "19ec794b-2736-4ef0-9617-fb402f062e8e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "375577ce-5fca-42d0-8d45-a732c73572d3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "554e8dda-50c4-4bd9-bcc5-715e91268fb1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "89fb0d48-f596-44fe-9393-6c792f2f4df7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "c01564fe-a340-407a-a398-1a696101994f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "378b7eb8-f9ea-4fb4-a155-374402d75074",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "d3d3c31f-418c-4c71-9c11-708d39ebce97",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "ec441c13-d938-42b3-900b-db0e87ffecf5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "1139c684-7b59-450d-94cb-0686a6aa995d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "9550da21-4547-4b2d-b992-9e4eb62dc1f5",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "11278ea6-e468-4f8b-9bc7-7e75dd823297",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "19be1ab6-d61e-489b-ade0-9d0cd95bd751",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "08f2cbd6-b24d-4c16-b611-a054e918b18f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "d1aa46e4-414b-4488-a506-cfd72eae29d9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "13242fda-9a04-4e95-a9de-a63edc0dac80",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "80e9fd70-dbc5-42c9-a012-d3e802ae76a9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "c29bcf32-8da2-4660-84cc-ac956cc664f6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "bd087739-1767-472f-8c91-69a311d705cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "281a5edf-574b-40f5-86f5-851e1adecd7c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "e55282b6-e700-4f0d-910e-02c2bf8d719b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "bee1da2e-70e4-48cd-8bb3-4124225d0449",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        },
+        {
+          "id": "3597a5df-c7a6-4796-b578-540654bb8c50",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Meet The Beatles!",
+          "status": "Bootleg"
+        },
+        {
+          "id": "cc50fdbc-afe9-4d6a-b3fc-5d4ae8f0ab68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Meet The Beatles!",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 10,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 0,
+          "name": "british invasion"
+        },
+        {
+          "count": 3,
+          "name": "rock and roll"
+        },
+        {
+          "count": 0,
+          "name": "beat"
+        },
+        {
+          "count": 1,
+          "name": "english"
+        },
+        {
+          "count": 1,
+          "name": "adult alternative pop rock"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "1–4 wochen"
+        },
+        {
+          "count": 0,
+          "name": "artist on cover"
+        }
+      ]
+    }
+  ]
+}

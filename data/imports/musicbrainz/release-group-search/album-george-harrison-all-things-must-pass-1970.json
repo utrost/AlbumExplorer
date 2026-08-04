@@ -1,0 +1,354 @@
+{
+  "albumId": "album-george-harrison-all-things-must-pass-1970",
+  "query": "artist:\"George Harrison\" AND releasegroup:\"All Things Must Pass\" AND firstreleasedate:1970",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22George%20Harrison%22%20AND%20releasegroup%3A%22All%20Things%20Must%20Pass%22%20AND%20firstreleasedate%3A1970&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:51:25.505Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "d4b0f3e2-e3eb-3531-b305-ed8105cb5be4",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "ff4190a8-baf5-3679-9b06-b40009f0a48a",
+      "count": 28,
+      "title": "All Things Must Pass",
+      "first-release-date": "1970-11-27",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "George Harrison",
+          "artist": {
+            "id": "42a8f507-8412-4611-854f-926571049fa0",
+            "name": "George Harrison",
+            "sort-name": "Harrison, George",
+            "disambiguation": "The Beatles",
+            "aliases": [
+              {
+                "sort-name": "George Harrison MBE",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "George Harrison MBE",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Харрисон, Джордж",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Джордж Харрисон",
+                "locale": "ru",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "George Harrysong",
+                "name": "George Harrysong",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "George Harrison and Friends",
+                "name": "George Harrison and Friends",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Wilbury, Spike",
+                "name": "Spike Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1990",
+                "end-date": "1990"
+              },
+              {
+                "sort-name": "Wilbury, Nelson",
+                "name": "Nelson Wilbury",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": "1988",
+                "end-date": "1988"
+              },
+              {
+                "sort-name": "Harrison, G.",
+                "name": "G. Harrison",
+                "locale": "en",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Harrison, George",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "George Harrison",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "eb8e0e0b-2581-4a10-80f6-dcea97c6cad8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "12b9013b-a9b2-493d-84ab-77453db80019",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "All Things Must Pass",
+          "status": "Bootleg"
+        },
+        {
+          "id": "09f91730-85f7-4148-b31c-ff62b14fcd3e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "9268cee5-16d9-4a1a-a609-4c54f1097bee",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "63cf12eb-b877-418d-bea0-8661fface2d2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "64ea6da6-b4e4-4b3e-bc82-d298a4b72c6a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th Anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "62743b10-a816-43c6-ac17-5c46fb928692",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th Anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "28041c50-52c8-43df-acc4-e5cf3030b0df",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "c00f6724-3796-4b33-9a0f-4ec1c88cbacc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "8b99dc1b-cead-441d-8bcc-f8d3fc03442c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "07d51bc7-64c9-3fba-b6fc-0695f6e8d6a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "a5e879e1-56ef-4886-b8ea-64172818d709",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "dac3eddc-cdce-4b93-9226-bc600cfda54f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "5d6a7903-4d3c-4fff-b0e4-084e2ef9259c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "97f09aac-230f-459a-b4f1-c3430a25cfb9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "6ee2251b-00f3-4b02-badd-06f31fc24636",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "768e96a5-3f97-4a04-b7e8-396d159916dd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "55209460-db11-4501-877f-91966522a130",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "d66acc7a-72f0-47c4-8c0f-7c84a8fb537b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass (50th anniversary)",
+          "status": "Official"
+        },
+        {
+          "id": "f20ff8d9-d3e8-4473-bfb5-f7b853ccca49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "2470fbb7-51e9-4986-a17e-4f168fcd5d17",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "f92e0ecd-89c5-42be-b94f-d2682b82d897",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "6f1fcd70-5302-4393-9625-3755834ddf84",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "9690e98d-d226-3e79-b206-7bfd2c1c15bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "fe724dcc-bf28-41c7-8450-e659e916e6f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "debd74af-34b1-40ac-b2a0-d914b559e459",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "124b729e-bf0b-420c-91f6-974545d2b7b7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        },
+        {
+          "id": "f953e75a-83b2-3e70-8454-40f546b04a52",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "All Things Must Pass",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 6,
+          "name": "rock"
+        },
+        {
+          "count": 2,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "instrumental"
+        },
+        {
+          "count": 4,
+          "name": "folk rock"
+        },
+        {
+          "count": 1,
+          "name": "jam band"
+        },
+        {
+          "count": 1,
+          "name": "general rock"
+        },
+        {
+          "count": 1,
+          "name": "psychedelic pop"
+        },
+        {
+          "count": 5,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "gospel"
+        },
+        {
+          "count": 0,
+          "name": "jam"
+        },
+        {
+          "count": 0,
+          "name": "oldies"
+        },
+        {
+          "count": 1,
+          "name": "genre"
+        },
+        {
+          "count": 0,
+          "name": "oldies 70 s"
+        },
+        {
+          "count": 1,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "5+ wochen"
+        },
+        {
+          "count": 1,
+          "name": "triple album"
+        }
+      ]
+    }
+  ]
+}

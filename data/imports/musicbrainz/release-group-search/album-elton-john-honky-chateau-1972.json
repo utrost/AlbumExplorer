@@ -1,0 +1,395 @@
+{
+  "albumId": "album-elton-john-honky-chateau-1972",
+  "query": "artist:\"Elton John\" AND releasegroup:\"Honky Château\" AND firstreleasedate:1972",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Elton%20John%22%20AND%20releasegroup%3A%22Honky%20Ch%C3%A2teau%22%20AND%20firstreleasedate%3A1972&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:45:54.039Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "e17f2d6e-7849-37f9-a6d8-cda4d59cea28",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "414118f3-533f-3f32-a9d9-7ab6e107353d",
+      "count": 23,
+      "title": "Honky Château",
+      "first-release-date": "1972-05-19",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Elton John",
+          "artist": {
+            "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+            "name": "Elton John",
+            "sort-name": "John, Elton",
+            "disambiguation": "English singer, songwriter, pianist, and composer",
+            "aliases": [
+              {
+                "sort-name": "Reg Dwight",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Reg Dwight",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John, Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "E. John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "E. John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elthon John",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elthon John",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John, Elton Hercules",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Elton Hercules John",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1972-01-07",
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Eltonas",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eltonas Džonas",
+                "locale": "lt",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Džonas, Seras Eltonas",
+                "name": "Seras Eltonas Džonas",
+                "locale": "lt",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald Kenneth",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Reginald Kenneth Dwight",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": "1947-03-25",
+                "end-date": "1972-01-07"
+              },
+              {
+                "sort-name": "エルトン・ジョン",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エルトン・ジョン",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Dwight, Reginald",
+                "name": "Reginald Dwight",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Orson, Ann",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Ann Orson",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton John",
+                "name": "Sir Elton John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Elton Jphn",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Elton Jphn",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Sir Elton Hercules John",
+                "name": "Sir Elton Hercules John",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "John Elton",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "John Elton",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "4823d629-fea1-4641-85fa-f9aa795b8d7b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "d83c7776-3696-45b9-bb41-6bc9f6c6f318",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "913e5260-f8f2-4a23-9408-87a2dc7fac5e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "710096fc-90f3-4426-a65c-0c36b71475fc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "5ec04df1-95aa-4203-adc2-9af20a178435",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "0b2fcb38-0feb-4cea-a6da-516f35d93ed8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "1d1a06ba-b45b-47f4-84d3-17888249b141",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "1cf3b7d5-636f-4a82-9c41-88a414795b64",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "0e5fefae-db18-40b1-90a9-f77d4461fbbd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "b7fdda43-5fd1-4fb7-9d1c-63a47e364fab",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "282036f5-92c1-4024-8c79-3a97832aee25",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "d80fef1d-6a57-4af7-8836-3e3da30c0c55",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "5a9a59d6-6490-4735-bd48-19d7fb38ff06",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "1458c9c0-7e4d-4d3f-9305-a8d4fa0defd4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "b4d2ab07-e1d8-4dec-800b-b1636fbb773f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "14aa2655-42b1-31f7-9e82-a567fba17953",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "5d34753b-7cb9-34ef-aeb3-0dd73384f54c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "9acea662-54e9-3935-a722-508e02cdfa53",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "ef290dbb-4b98-3602-96e8-e096f8603cc4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "703dae38-f5d3-473c-85db-c54ac922ebdc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "b0ff56ea-522f-3868-90c9-8b01814b76f8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "289b06a6-0b3e-408a-b324-28346348a934",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        },
+        {
+          "id": "b8b91deb-0eac-4efa-aec7-997cff656a48",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Honky Château",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 7,
+          "name": "rock"
+        },
+        {
+          "count": 3,
+          "name": "pop"
+        },
+        {
+          "count": 1,
+          "name": "singer-songwriter"
+        },
+        {
+          "count": 1,
+          "name": "glam rock"
+        },
+        {
+          "count": 3,
+          "name": "country rock"
+        },
+        {
+          "count": 1,
+          "name": "classic rock"
+        },
+        {
+          "count": 1,
+          "name": "album rock"
+        },
+        {
+          "count": 2,
+          "name": "soft rock"
+        },
+        {
+          "count": 1,
+          "name": "adult contemporary"
+        },
+        {
+          "count": 5,
+          "name": "pop rock"
+        },
+        {
+          "count": 3,
+          "name": "piano rock"
+        },
+        {
+          "count": 0,
+          "name": "bennie and the jets"
+        },
+        {
+          "count": 1,
+          "name": "oldies 70 s"
+        },
+        {
+          "count": 0,
+          "name": "singer/songwriter"
+        },
+        {
+          "count": 0,
+          "name": "rock & roll"
+        },
+        {
+          "count": 1,
+          "name": "pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "contemporary pop/rock"
+        },
+        {
+          "count": 1,
+          "name": "rock/pop"
+        }
+      ]
+    }
+  ]
+}

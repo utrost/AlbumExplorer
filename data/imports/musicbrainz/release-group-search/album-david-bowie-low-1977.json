@@ -1,0 +1,412 @@
+{
+  "albumId": "album-david-bowie-low-1977",
+  "query": "artist:\"David Bowie\" AND releasegroup:\"Low\" AND firstreleasedate:1977",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22David%20Bowie%22%20AND%20releasegroup%3A%22Low%22%20AND%20firstreleasedate%3A1977&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:43:49.890Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "f6a51281-56c4-3538-b915-65a9d4eb29b5",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c78939a9-a38a-3669-a8bf-d41a4287f304",
+      "count": 25,
+      "title": "Low",
+      "first-release-date": "1977-01-14",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "David Bowie",
+          "artist": {
+            "id": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+            "name": "David Bowie",
+            "sort-name": "Bowie, David",
+            "disambiguation": "English singer‐songwriter",
+            "aliases": [
+              {
+                "sort-name": "Jones, Davy",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Davy Jones",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": "1965"
+              },
+              {
+                "sort-name": "데이비드 보위",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "데이비드 보위",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ziggy Stardust",
+                "name": "Ziggy Stardust",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "David Jones",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "David Jones",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Jones, David Robert",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "David Robert Jones",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Дэвид Боуи",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Дэвид Боуи",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Thin White Duke",
+                "name": "The Thin White Duke",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "デビッド・ボウイ",
+                "name": "デビッド・ボウイ",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Davis Bowie",
+                "name": "Davis Bowie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bowie",
+                "name": "Bowie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Davie Bowie",
+                "name": "Davie Bowie",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Harry the Butcher",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Harry the Butcher",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": "1970-02-23",
+                "end-date": "1970-02-24"
+              },
+              {
+                "sort-name": "デヴィッド・ボウイ",
+                "name": "デヴィッド・ボウイ",
+                "locale": "ja",
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "37389c6d-abe9-4e96-a764-63f3a31d184a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "f5228f7b-6b4f-3960-8cd3-363501ea7021",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "57e8f0fd-f932-4aac-b881-7f0074726531",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "3dfd3d20-fa03-4db3-85b1-02c439133884",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "80350b31-a990-364f-b41a-d5974fbaa3c0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "f3cbaeb4-7644-45fd-bc70-38b01c126db4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "ad4de593-2844-4182-a567-f245ce047d69",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "7bda29af-ad55-473c-8f18-8ddb49bf8122",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "2146869c-b322-4a4b-9b9b-e888d6cc9a75",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "ed29d00a-546a-4e2f-a572-953c53375b49",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "394420bd-47a0-4ad3-90dc-93856eb44552",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "f6342da8-fd70-3548-8e2d-d9f0b5e455cd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "b01a1f22-9c20-3a67-9f04-98ea2f4e4afc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "9b0fca35-8b17-474c-b93f-bd8e6067181a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "c48df726-77fd-3124-b966-62dda3dfcb9d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "ef2acf5d-0bc5-3c5a-9531-fcc918fb73b8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "02e2a2f6-0da2-34cb-8e65-a05447ed1994",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "3e7fda84-1703-4925-861d-714353fbc333",
+          "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+          "title": "ロウ",
+          "status": "Pseudo-Release"
+        },
+        {
+          "id": "f480baa5-1e25-4f4a-aff6-250397993534",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "3669ceae-11bf-49ef-b8f2-b5724d24a6f9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "e0f741ae-9254-38b9-bef8-fd0516d36c94",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "814938e8-164a-3782-bd80-c4995dec1508",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "83e786b5-d49c-4efd-bd10-57914f2eec9b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "2e6cec99-242e-449c-8d3b-759ed09e4a3d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        },
+        {
+          "id": "b343b7f8-0ab8-4da1-9e3b-47225ae59e59",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Low",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "rock"
+        },
+        {
+          "count": 4,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "alternative rock"
+        },
+        {
+          "count": 3,
+          "name": "krautrock"
+        },
+        {
+          "count": 5,
+          "name": "ambient"
+        },
+        {
+          "count": 2,
+          "name": "experimental"
+        },
+        {
+          "count": 0,
+          "name": "new wave"
+        },
+        {
+          "count": 0,
+          "name": "1977"
+        },
+        {
+          "count": 8,
+          "name": "art rock"
+        },
+        {
+          "count": 1,
+          "name": "abstract"
+        },
+        {
+          "count": 1,
+          "name": "experimental rock"
+        },
+        {
+          "count": 1,
+          "name": "pop rock"
+        },
+        {
+          "count": 1,
+          "name": "avant-garde"
+        },
+        {
+          "count": 0,
+          "name": "rock pop"
+        },
+        {
+          "count": 0,
+          "name": "glam"
+        },
+        {
+          "count": 1,
+          "name": "progressive electronic"
+        },
+        {
+          "count": 1,
+          "name": "futuristic"
+        },
+        {
+          "count": 0,
+          "name": "classic pop and rock"
+        },
+        {
+          "count": 1,
+          "name": "atmospheric"
+        },
+        {
+          "count": 0,
+          "name": "should be public domain"
+        },
+        {
+          "count": 1,
+          "name": "lonely"
+        },
+        {
+          "count": 0,
+          "name": "pop/rock"
+        },
+        {
+          "count": 4,
+          "name": "art pop"
+        },
+        {
+          "count": 0,
+          "name": "berlin trilogy"
+        },
+        {
+          "count": 1,
+          "name": "rollingstone.de"
+        }
+      ]
+    }
+  ]
+}

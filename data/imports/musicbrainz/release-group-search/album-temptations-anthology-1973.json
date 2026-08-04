@@ -1,0 +1,132 @@
+{
+  "albumId": "album-temptations-anthology-1973",
+  "query": "artist:\"The Temptations\" AND releasegroup:\"Anthology\" AND firstreleasedate:1973",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22The%20Temptations%22%20AND%20releasegroup%3A%22Anthology%22%20AND%20firstreleasedate%3A1973&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:51:29.045Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "1df9d775-7593-4e0a-bb55-3035948de6c5",
+      "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "cf35c13e-96e8-33bb-bdb3-b597ae566f58",
+      "count": 1,
+      "title": "Anthology",
+      "first-release-date": "1973-08-23",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "artist-credit": [
+        {
+          "name": "The Temptations",
+          "artist": {
+            "id": "d8df96ae-8fcf-4997-b3e6-e5d1aaf0f69e",
+            "name": "The Temptations",
+            "sort-name": "Temptations, The",
+            "disambiguation": "Motown soul vocal group",
+            "aliases": [
+              {
+                "sort-name": "The temptations",
+                "name": "The Temptation",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Original Lead Singers of the Temptations",
+                "name": "The Original Lead Singers of the Temptations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Temptations",
+                "name": "Temptations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Templations",
+                "name": "The Templations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Original Singers of the Temptations",
+                "name": "The Original Singers of the Temptations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Tempations",
+                "name": "The Tempations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Temptations Original Lead Singers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Temptations Original Lead Singers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Original Lead Singers of The Temptations, The",
+                "name": "The Original Lead Singers of The Temptations",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1772e196-2cc3-4d0d-9dc5-b5d4f8309926",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Anthology",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "soul"
+        },
+        {
+          "count": 1,
+          "name": "oldies"
+        }
+      ]
+    }
+  ]
+}

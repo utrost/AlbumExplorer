@@ -1,0 +1,1098 @@
+{
+  "albumId": "album-eminem-the-marshall-mathers-lp-2000",
+  "query": "artist:\"Eminem\" AND releasegroup:\"The Marshall Mathers LP\" AND firstreleasedate:2000",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Eminem%22%20AND%20releasegroup%3A%22The%20Marshall%20Mathers%20LP%22%20AND%20firstreleasedate%3A2000&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:40:42.570Z",
+  "count": 4,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "b0fa91c8-0996-38f1-ab84-797f58d7c4eb",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c86bc16c-f9f2-31df-a8ca-9754d73c8c94",
+      "count": 28,
+      "title": "The Marshall Mathers LP",
+      "first-release-date": "2000-05-22",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Eminem",
+          "artist": {
+            "id": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+            "name": "Eminem",
+            "sort-name": "Eminem",
+            "disambiguation": "US rapper",
+            "aliases": [
+              {
+                "sort-name": "Mathers, Marshall",
+                "name": "Marshall Mathers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mathers, Marshall Bruce, III",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Marshall Bruce Mathers III",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Bruce Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Bruce Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Mathers III",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Mathers III",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Slim Shady",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Slim Shady",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "에미넴",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "에미넴",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EminemMusic",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EminemMusic",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M&M",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "M&M",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Em",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Em",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ominem",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Ominem",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Real Slim Shady",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Real Slim Shady",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エミネム",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エミネム",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eminem",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eminem",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EMINƎM",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EMINƎM",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "2626609c-ba06-4b0b-b460-f5c6eaa3e02c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "69ab7dcb-5a76-4b5a-9d7b-76056568c0a7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "ff562e9a-64b2-4259-9951-8cc8438c79bc",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "dea796fb-6b24-4196-8054-f3d8beb6576d",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Marshall Mathers LP",
+          "status": "Bootleg"
+        },
+        {
+          "id": "533993ef-07a2-4306-ad91-cda68517c060",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP (25th anniversary edition)",
+          "status": "Official"
+        },
+        {
+          "id": "f79ad0fb-c6cf-4e21-915d-2f99c6c8e4b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "931a74a2-f114-422d-bf0c-630aa6a5535e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP (25th anniversary edition)",
+          "status": "Official"
+        },
+        {
+          "id": "f3a793a7-b7a9-4705-80b3-b4ae729eab4c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "8d2661e7-fd4a-3ea6-b4d1-0bc720115744",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "29f9ce15-7171-3495-bc32-705192370204",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "6d47c297-3edb-40d5-82f3-4ca5326c7629",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "dd069511-48c5-429c-8a92-f680f63bdd1f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "746a34af-b326-42dd-b7d7-ffccf96d2ce7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "d6dbf151-f092-4df7-89ab-f0da3ebe539c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "e13db7c6-7291-45bc-9ce9-3a4f9c9b5f55",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "d99e995e-4d13-45f4-8e9d-13c7902d1e8e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "b1b46873-0131-430b-acb4-801ddc72634a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "836b3fc7-2a93-4294-9f0d-d3b1fc3276c7",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "9a45c98b-3ef7-3395-9f3f-d4dfd0eacf0f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "f83bd999-2674-4bc4-9d1c-3d80d0320407",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "435eb30f-f461-4f2a-960c-3dc18ce5a6ca",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "976ce3a6-7a00-4273-a83e-df1f908246ff",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "a5232981-a53b-41e3-bc93-ec095d69e37e",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "51544aed-52a1-42b9-aff0-9237ac3dd564",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "3be843cb-1106-4938-a8f2-e09662b78ee8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "c91de8fc-8674-4273-bbcb-5c9185dc6567",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "156a7344-89e1-49fb-b3d3-9525c1ee5a5f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        },
+        {
+          "id": "d5c10a17-6b59-3903-b46e-ae9522c73c50",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Marshall Mathers LP",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "rap"
+        },
+        {
+          "count": 0,
+          "name": "blues"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop"
+        },
+        {
+          "count": 22,
+          "name": "hip hop"
+        },
+        {
+          "count": 3,
+          "name": "detroit hip-hop"
+        },
+        {
+          "count": 4,
+          "name": "pop rap"
+        },
+        {
+          "count": 0,
+          "name": "hardcore rap"
+        },
+        {
+          "count": 1,
+          "name": "english"
+        },
+        {
+          "count": 3,
+          "name": "horrorcore"
+        },
+        {
+          "count": 2,
+          "name": "hip hop rap"
+        },
+        {
+          "count": 1,
+          "name": "drugs"
+        },
+        {
+          "count": 0,
+          "name": "alternative hip hop"
+        },
+        {
+          "count": 1,
+          "name": "angry"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop_hip-hop"
+        },
+        {
+          "count": 0,
+          "name": "pop rap_blues_hip hop rap"
+        },
+        {
+          "count": 0,
+          "name": "rap_pop rap_blues_pop rap_hip hop rap_blues_pop rap_pop rap_blues_hip hop rap_pop rap"
+        },
+        {
+          "count": 1,
+          "name": "midwestern rap"
+        },
+        {
+          "count": 0,
+          "name": "ike beat tina"
+        },
+        {
+          "count": 1,
+          "name": "humorous"
+        },
+        {
+          "count": 0,
+          "name": "aggressive"
+        },
+        {
+          "count": 0,
+          "name": "top40"
+        },
+        {
+          "count": 1,
+          "name": "midwest rap"
+        },
+        {
+          "count": 0,
+          "name": "hip-hop/rap"
+        },
+        {
+          "count": 8,
+          "name": "hardcore hip hop"
+        },
+        {
+          "count": 1,
+          "name": "violence"
+        },
+        {
+          "count": 1,
+          "name": "rap/hip hop"
+        },
+        {
+          "count": 1,
+          "name": "sarcastic"
+        },
+        {
+          "count": 1,
+          "name": "vulgar"
+        },
+        {
+          "count": 1,
+          "name": "offizielle charts"
+        },
+        {
+          "count": 1,
+          "name": "misanthropic"
+        },
+        {
+          "count": 1,
+          "name": "hateful"
+        },
+        {
+          "count": 1,
+          "name": "5+ wochen"
+        },
+        {
+          "count": 1,
+          "name": "hip-hop\\rap"
+        }
+      ]
+    },
+    {
+      "id": "25fa1b75-421e-4ce3-9689-ed1d4a97b700",
+      "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+      "score": 83,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c86bc16c-f9f2-31df-a8ca-9754d73c8c94",
+      "count": 1,
+      "title": "The Marshall Mathers LP (Slowed & Chopped)",
+      "first-release-date": "2000",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Remix"
+      ],
+      "secondary-type-ids": [
+        "0c60f497-ff81-3818-befd-abfc84a4858b"
+      ],
+      "artist-credit": [
+        {
+          "name": "Eminem",
+          "artist": {
+            "id": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+            "name": "Eminem",
+            "sort-name": "Eminem",
+            "disambiguation": "US rapper",
+            "aliases": [
+              {
+                "sort-name": "Mathers, Marshall",
+                "name": "Marshall Mathers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mathers, Marshall Bruce, III",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Marshall Bruce Mathers III",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Bruce Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Bruce Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Mathers III",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Mathers III",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Slim Shady",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Slim Shady",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "에미넴",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "에미넴",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EminemMusic",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EminemMusic",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M&M",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "M&M",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Em",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Em",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ominem",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Ominem",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Real Slim Shady",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Real Slim Shady",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エミネム",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エミネム",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eminem",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eminem",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EMINƎM",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EMINƎM",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cb7b2647-8b66-4f24-a349-4a5b389a6f60",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Marshall Mathers LP (Slowed & Chopped)",
+          "status": "Bootleg"
+        }
+      ]
+    },
+    {
+      "id": "abf58048-5328-4088-aa27-3782d9b56d1a",
+      "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+      "score": 83,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c86bc16c-f9f2-31df-a8ca-9754d73c8c94",
+      "count": 1,
+      "title": "The Marshall Mathers LP (Swisha House remix)",
+      "first-release-date": "2000",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Remix"
+      ],
+      "secondary-type-ids": [
+        "0c60f497-ff81-3818-befd-abfc84a4858b"
+      ],
+      "artist-credit": [
+        {
+          "name": "Eminem",
+          "artist": {
+            "id": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+            "name": "Eminem",
+            "sort-name": "Eminem",
+            "disambiguation": "US rapper",
+            "aliases": [
+              {
+                "sort-name": "Mathers, Marshall",
+                "name": "Marshall Mathers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mathers, Marshall Bruce, III",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Marshall Bruce Mathers III",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Bruce Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Bruce Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Mathers III",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Mathers III",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Slim Shady",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Slim Shady",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "에미넴",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "에미넴",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EminemMusic",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EminemMusic",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M&M",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "M&M",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Em",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Em",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ominem",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Ominem",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Real Slim Shady",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Real Slim Shady",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エミネム",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エミネム",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eminem",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eminem",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EMINƎM",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EMINƎM",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "ce8ba836-1a88-4cd4-8550-12910da3462c",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "The Marshall Mathers LP (Swisha House remix)",
+          "status": "Bootleg"
+        }
+      ]
+    },
+    {
+      "id": "c3b00e0a-97b2-4397-8d5a-a6419e3c6818",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 76,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "c1d8026a-615a-40fc-ac5c-fafc2099bb58",
+      "count": 1,
+      "title": "The Marshall Mathers LP Snippet Tape",
+      "first-release-date": "2000",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "joinphrase": " presents ",
+          "name": "Stretch Armstrong",
+          "artist": {
+            "id": "bedbcdf1-8691-4cd1-a38f-34babd7375b9",
+            "name": "Stretch Armstrong",
+            "sort-name": "Stretch Armstrong",
+            "disambiguation": "US hip hop DJ & cross‐genre producer Adrian Bartos",
+            "aliases": [
+              {
+                "sort-name": "Bartos, Adrian",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Adrian Bartos",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DJ Stretch Arm Strong",
+                "name": "DJ Stretch Arm Strong",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Stretch.",
+                "name": "Stretch.",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "DJ Stretch Armstrong",
+                "name": "DJ Stretch Armstrong",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eminem",
+          "artist": {
+            "id": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+            "name": "Eminem",
+            "sort-name": "Eminem",
+            "disambiguation": "US rapper",
+            "aliases": [
+              {
+                "sort-name": "Mathers, Marshall",
+                "name": "Marshall Mathers",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Mathers, Marshall Bruce, III",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Marshall Bruce Mathers III",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Bruce Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Bruce Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M. Mathers",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "M. Mathers",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Marshall Mathers III",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Marshall Mathers III",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Slim Shady",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Slim Shady",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "에미넴",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "에미넴",
+                "locale": "ko",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EminemMusic",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EminemMusic",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "M&M",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "M&M",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Em",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Em",
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Ominem",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "Ominem",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "The Real Slim Shady",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "The Real Slim Shady",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "エミネム",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "エミネム",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Eminem",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "Eminem",
+                "locale": "en",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "EMINƎM",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "EMINƎM",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "cc0f7604-e63f-4655-8eb7-7835c10b5deb",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "The Marshall Mathers LP Snippet Tape",
+          "status": "Promotion"
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "hip hop"
+        }
+      ]
+    }
+  ]
+}

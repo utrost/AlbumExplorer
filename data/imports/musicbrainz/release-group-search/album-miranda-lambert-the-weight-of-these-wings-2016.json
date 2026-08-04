@@ -1,0 +1,118 @@
+{
+  "albumId": "album-miranda-lambert-the-weight-of-these-wings-2016",
+  "query": "artist:\"Miranda Lambert\" AND releasegroup:\"The Weight of These Wings\" AND firstreleasedate:2016",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Miranda%20Lambert%22%20AND%20releasegroup%3A%22The%20Weight%20of%20These%20Wings%22%20AND%20firstreleasedate%3A2016&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:58:11.046Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "6a9f6cf0-2316-46a7-b8e2-71d356ac737d",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "1e4c3203-9fb9-39f0-9598-275c390eb205",
+      "count": 7,
+      "title": "The Weight of These Wings",
+      "first-release-date": "2016-11-18",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Miranda Lambert",
+          "artist": {
+            "id": "4eca1aa0-c79f-481b-af8a-4a2d6c41aa5c",
+            "name": "Miranda Lambert",
+            "sort-name": "Lambert, Miranda",
+            "aliases": [
+              {
+                "sort-name": "Lambert, Miranda Leigh",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Miranda Leigh Lambert",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "1588e25f-bc10-4e76-abfb-7e4701da733d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Weight of These Wings",
+          "status": "Official"
+        },
+        {
+          "id": "16b25089-7db2-478a-86d1-e3ad60f9af01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Weight of These Wings",
+          "status": "Official"
+        },
+        {
+          "id": "ec81ae17-38fc-4f1b-8316-f5ab66c7efc1",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Weight of These Wings",
+          "status": "Official"
+        },
+        {
+          "id": "f293a65c-9bf2-44e9-b067-47abc97052a4",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Weight of These Wings",
+          "status": "Official"
+        },
+        {
+          "id": "43e2b96c-f6f6-461f-8cac-4ca7933ebd84",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Weight of These Wings",
+          "status": "Official"
+        },
+        {
+          "id": "d28a5199-27b2-45a7-906c-38005254dcbd",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Weight of These Wings",
+          "status": "Official"
+        },
+        {
+          "id": "f0e02e76-0c01-41d1-a3ea-b30a88293d68",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "The Weight of These Wings",
+          "status": "Official"
+        }
+      ],
+      "tags": [
+        {
+          "count": 0,
+          "name": "usa"
+        },
+        {
+          "count": 6,
+          "name": "country"
+        },
+        {
+          "count": 2,
+          "name": "americana"
+        },
+        {
+          "count": 2,
+          "name": "country pop"
+        },
+        {
+          "count": 2,
+          "name": "alternative country"
+        },
+        {
+          "count": 1,
+          "name": "double album"
+        },
+        {
+          "count": 1,
+          "name": "ph_2_stars"
+        }
+      ]
+    }
+  ]
+}

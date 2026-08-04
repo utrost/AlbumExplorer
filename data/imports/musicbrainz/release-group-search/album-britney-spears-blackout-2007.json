@@ -1,0 +1,449 @@
+{
+  "albumId": "album-britney-spears-blackout-2007",
+  "query": "artist:\"Britney Spears\" AND releasegroup:\"Blackout\" AND firstreleasedate:2007",
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=artist%3A%22Britney%20Spears%22%20AND%20releasegroup%3A%22Blackout%22%20AND%20firstreleasedate%3A2007&fmt=json&limit=10",
+  "fetchedAt": null,
+  "created": "2026-08-04T18:56:38.010Z",
+  "count": 1,
+  "offset": 0,
+  "release-groups": [
+    {
+      "id": "0b8e14e1-d44d-3770-8617-5c6137a444a8",
+      "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "score": 100,
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "artist-credit-id": "038401cc-de8b-3013-9efe-4ee3e07782f6",
+      "count": 47,
+      "title": "Blackout",
+      "first-release-date": "2007-10-25",
+      "primary-type": "Album",
+      "artist-credit": [
+        {
+          "name": "Britney Spears",
+          "artist": {
+            "id": "45a663b5-b1cb-4a91-bff6-2bef7bbfdd76",
+            "name": "Britney Spears",
+            "sort-name": "Spears, Britney",
+            "aliases": [
+              {
+                "sort-name": "브리트니 스피어스",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "name": "브리트니 스피어스",
+                "locale": null,
+                "type": "Search hint",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "ブリトニー・スピアーズ",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "name": "ブリトニー・スピアーズ",
+                "locale": "ja",
+                "type": "Artist name",
+                "primary": true,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Bretney Spears",
+                "name": "Bretney Spears",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "B. Spears",
+                "name": "B. Spears",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brittany Spears",
+                "name": "Brittany Spears",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Briteny Spears",
+                "name": "Briteny Spears",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Brittney Spears",
+                "name": "Brittney Spears",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              },
+              {
+                "sort-name": "Spears, Britney Jean",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "name": "Britney Jean Spears",
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "begin-date": null,
+                "end-date": null
+              }
+            ]
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "7ccc2cfb-d8f0-4f38-afd8-f4961e85de52",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "5d6b5d84-99ec-46b5-bff7-07b7fafa0ed9",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "d285abd9-1c68-38f8-a6c4-1b0147292c80",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "ce5ec605-0b32-42f9-bc8f-7ac3d1b85e54",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "40b5f439-442c-4730-a2ec-da306fd91513",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "284629c0-33be-4098-8ab5-4f9a2434d5e7",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Blackout",
+          "status": "Bootleg"
+        },
+        {
+          "id": "de2e9eda-6770-4507-86a8-e1aff3a67fd9",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Blackout",
+          "status": "Bootleg"
+        },
+        {
+          "id": "6c4217c8-5dfa-479d-899e-b21269a61c0c",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Blackout",
+          "status": "Bootleg"
+        },
+        {
+          "id": "d49320b3-1691-4135-86c0-3594ffb78e86",
+          "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+          "title": "Blackout",
+          "status": "Bootleg"
+        },
+        {
+          "id": "4cdf0aa1-8679-4d50-9955-d3a428999151",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "53a6ff60-1883-47e1-b7f2-df6cb1c69a25",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "944fa910-ffb0-4980-8a51-e78603af7e57",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "0189cec0-7ad0-4d00-b882-339cc66d0b5f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "e64dc436-a013-46fa-9382-b33bf4cf3ed8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "9aaeb8fd-0d63-411f-bd30-15cdbd6184b2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "b4cce528-5463-43ea-846b-fc43d9320652",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "909968ed-5307-41cd-9944-75611feb5174",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "42d438c3-aa52-43c1-9bb9-a207cfe0ed8c",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "a208c724-80d3-495c-9a1d-ec47235a006d",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "9d71f8e7-fbcf-4645-aa07-5d4b66dab12c",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Blackout",
+          "status": "Promotion"
+        },
+        {
+          "id": "1b0930aa-2044-4709-bef0-85bc4e9a356b",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "d30a97e9-5f72-4f15-a039-894b13299c77",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "8af3b350-7cdf-42c0-99a8-b50880d5d528",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "e83e4da7-7030-4d33-b7dd-7c22218aa5da",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "28efd4f1-fd7a-41ac-8465-ea347746c6af",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "61147f1c-d06c-4992-990e-9837938a0e6a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "2949e18a-ac46-4bfb-9f56-bbba3a9c45fb",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "fc7e0694-30f8-4c3e-b4d2-3660cc923272",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "66e0ed2f-8dd5-4ac0-a556-7dbb34c18d66",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "16293791-9153-43fd-97f7-5252c265989f",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "cdd3ab72-5669-4920-88c2-9628abfbe083",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "406ea2eb-8bfb-443b-9aaf-60d9be647f33",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout 暈炫風暴",
+          "status": "Official"
+        },
+        {
+          "id": "389900fa-b01d-3b66-87fd-76ac2917981a",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "404dbceb-6a8f-4dec-87c5-6f5b362aab01",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "4514a17d-5349-4d2d-b232-2b8d1b9ce3bf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "c5083e69-fe3a-4c5c-95b1-8b08d396fede",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "94a07b6d-3d4b-4842-9e48-b43729f792e6",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "ec23f988-d1df-41f5-9164-19d65b9c7d37",
+          "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+          "title": "Blackout",
+          "status": "Promotion"
+        },
+        {
+          "id": "5fc34170-dfdc-4f4e-819c-4b205f5b62a0",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "4009fa49-083e-4731-aeac-360db180e5b3",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "5c53838c-46c8-4135-8439-c11cf30f1abf",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "a846c16e-4307-4cc1-a1a4-47ee16a2f9d8",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "417112e8-8a79-4ef4-892c-b308b5614ac2",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "3a2efa90-4bc6-4008-b8c2-405313e8e65f",
+          "title": "Blackout"
+        },
+        {
+          "id": "39b6426d-0377-4b44-965e-707a4e495645",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "0055dbfb-9bf5-45d3-9c11-069128ee9212",
+          "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+          "title": "Blackout",
+          "status": "Official"
+        },
+        {
+          "id": "1612c9c7-fcac-4ba3-957b-832015a0d2d8",
+          "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+          "title": "ブラックアウト",
+          "status": "Pseudo-Release"
+        }
+      ],
+      "tags": [
+        {
+          "count": 3,
+          "name": "electronic"
+        },
+        {
+          "count": 11,
+          "name": "pop"
+        },
+        {
+          "count": 0,
+          "name": "dance"
+        },
+        {
+          "count": 0,
+          "name": "hip-hop"
+        },
+        {
+          "count": 2,
+          "name": "electropop"
+        },
+        {
+          "count": 4,
+          "name": "dance-pop"
+        },
+        {
+          "count": 1,
+          "name": "europop"
+        },
+        {
+          "count": 1,
+          "name": "electroclash"
+        },
+        {
+          "count": 3,
+          "name": "euro house"
+        },
+        {
+          "count": 0,
+          "name": "rnb swing"
+        },
+        {
+          "count": 0,
+          "name": "general teen pop"
+        },
+        {
+          "count": 1,
+          "name": "unbekanntes genre"
+        },
+        {
+          "count": 2,
+          "name": "contemporary r&b"
+        },
+        {
+          "count": 0,
+          "name": "rnb/swing"
+        }
+      ]
+    }
+  ]
+}

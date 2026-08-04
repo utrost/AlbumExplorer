@@ -1,18 +1,17 @@
 export function parseRollingStoneText(text) {
   const lines = text.replace(/\r\n?/g, '\n').split('\n').map((line) => line.trim());
-  const rankIndexes = [];
+  const rankMarkers = [];
   for (let index = 0; index < lines.length; index += 1) {
-    if (/^\d{1,3}$/.test(lines[index])) {
-      const rank = Number(lines[index]);
-      if (rank >= 1 && rank <= 500) rankIndexes.push(index);
-    }
+    const marker = rankMarkerAt(lines, index);
+    if (marker) rankMarkers.push(marker);
   }
 
   const rows = [];
-  for (let i = 0; i < rankIndexes.length; i += 1) {
-    const start = rankIndexes[i];
-    const end = rankIndexes[i + 1] ?? lines.length;
-    const rank = Number(lines[start]);
+  for (let i = 0; i < rankMarkers.length; i += 1) {
+    const marker = rankMarkers[i];
+    const start = marker.index;
+    const end = rankMarkers[i + 1]?.index ?? lines.length;
+    const rank = marker.rank;
     const titleLine = nextNonEmpty(lines, start + 1, end);
     if (!titleLine) continue;
     const { artist, album } = splitArtistAlbum(titleLine);
@@ -21,6 +20,23 @@ export function parseRollingStoneText(text) {
     rows.push({ rank, artist, album, label, year });
   }
   return rows;
+}
+
+function rankMarkerAt(lines, index) {
+  const line = lines[index];
+  if (/^\d{1,3}$/.test(line)) {
+    const rank = Number(line);
+    return rank >= 1 && rank <= 500 ? { index, rank } : null;
+  }
+
+  if (/(?:19|20)\d{2}$/.test(line)) return null;
+  const glued = line.match(/^.+?(\d{1,3})$/);
+  if (!glued) return null;
+  const rank = Number(glued[1]);
+  if (rank < 1 || rank > 500) return null;
+  const next = nextNonEmpty(lines, index + 1, lines.length);
+  if (!next || !/[‘']/.test(next)) return null;
+  return { index, rank };
 }
 
 function nextNonEmpty(lines, start, end) {

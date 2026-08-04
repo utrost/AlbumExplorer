@@ -44,6 +44,25 @@ Description.
   assert.equal(rows[1].album, 'Only Built 4 Cuban Linx');
 });
 
+test('parses rank glued to the preceding display-title line', () => {
+  const rows = parseRollingStoneText(`Marvin Gaye, Here, My Dear456
+Marvin Gaye, ‘Here, My Dear’
+
+Motown, 1978
+
+Description.
+Los Lobos, How Will the Wolf Survive455
+Los Lobos, ‘How Will the Wolf Survive?’
+
+Slash/Warner Bros., 1984
+`);
+
+  assert.deepEqual(rows, [
+    { rank: 456, artist: 'Marvin Gaye', album: 'Here, My Dear', label: 'Motown', year: 1978 },
+    { rank: 455, artist: 'Los Lobos', album: 'How Will the Wolf Survive?', label: 'Slash/Warner Bros.', year: 1984 }
+  ]);
+});
+
 test('keeps label and year null when the pasted row has no label line', () => {
   const rows = parseRollingStoneText(`458
 Elton John, ‘Tumbleweed Connection’

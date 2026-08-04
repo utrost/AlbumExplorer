@@ -49,7 +49,8 @@ http://127.0.0.1:4173/
 - [Project specification](docs/specification.md) — original full product specification.
 - [Roadmap / phases](docs/roadmap.md) — implementation phases and exit criteria.
 - [Data specification](docs/data-spec.md) — what metadata to collect and how to structure it.
-- [Rolling Stone CSV import notes](docs/imports/rolling-stone-top-500-csv.md) — mapping and quality notes for the first provided source dataset.
+- [Rolling Stone CSV import notes](docs/imports/rolling-stone-top-500-csv.md) — mapping and quality notes for the first 2012/2020 source dataset.
+- [Rolling Stone 2003 full text import notes](docs/imports/rolling-stone-2003-full-text.md) — parsed full 2003 list source and remaining metadata gaps.
 
 ## First useful prototype
 

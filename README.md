@@ -28,6 +28,7 @@ There is no app implementation yet. The repository currently defines the product
 - [Project specification](docs/specification.md) — original full product specification.
 - [Roadmap / phases](docs/roadmap.md) — implementation phases and exit criteria.
 - [Data specification](docs/data-spec.md) — what metadata to collect and how to structure it.
+- [Rolling Stone CSV import notes](docs/imports/rolling-stone-top-500-csv.md) — mapping and quality notes for the first provided source dataset.
 
 ## First useful prototype
 

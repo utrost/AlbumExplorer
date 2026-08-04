@@ -353,13 +353,14 @@ Only consider these after the core atlas proves useful:
 ## Immediate next implementation order
 
 1. Add repository skeleton and static development instructions.
-2. Create a tiny but representative seed dataset.
-3. Implement validator and indexes with tests.
-4. Build collection browser and album detail view.
-5. Add explicit and derived relationships with explanations.
-6. Add focused SVG graph around one album.
-7. Add BFS path finder and plain-language path results.
-8. Add list-edition comparison once enough list data exists.
+2. Use the staged [Rolling Stone Top 500 CSV](imports/rolling-stone-top-500-csv.md) as the first importer/validator exercise.
+3. Create a tiny but representative seed dataset.
+4. Implement validator and indexes with tests.
+5. Build collection browser and album detail view.
+6. Add explicit and derived relationships with explanations.
+7. Add focused SVG graph around one album.
+8. Add BFS path finder and plain-language path results.
+9. Add list-edition comparison once enough list data exists.
 
 ## Open decisions
 

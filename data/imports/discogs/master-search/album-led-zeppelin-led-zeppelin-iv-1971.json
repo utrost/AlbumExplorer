@@ -1,0 +1,90 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Led+Zeppelin&release_title=Led+Zeppelin+IV&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "UK",
+      "year": "2007",
+      "format": [
+        "CD",
+        "Unofficial Release"
+      ],
+      "label": [
+        "Regeneration Music Ltd.",
+        "Regeneration Music Ltd.",
+        "Edgehill Publishing Ltd"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Non-Music"
+      ],
+      "style": [
+        "Interview",
+        "Blues Rock",
+        "Hard Rock",
+        "Spoken Word",
+        "Classic Rock"
+      ],
+      "id": 1181006,
+      "barcode": [
+        "8 23880 02536 5",
+        "ISBN: 978-1-906283-60-5",
+        "mcps",
+        "RET2536"
+      ],
+      "master_id": 1181006,
+      "master_url": "https://api.discogs.com/masters/1181006",
+      "uri": "/master/1181006-Led-Zeppelin-Retrospectives-Led-Zeppelins-IV",
+      "catno": "REG2536",
+      "title": "Led Zeppelin - Retrospectives: Led Zeppelin's IV",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1181006",
+      "community": {
+        "want": 10,
+        "have": 46
+      }
+    },
+    {
+      "country": "Europe",
+      "year": "2010",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Unofficial Release"
+      ],
+      "label": [
+        "The Swingin' Pig"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Classic Rock"
+      ],
+      "id": 1637303,
+      "barcode": [],
+      "master_id": 1637303,
+      "master_url": "https://api.discogs.com/masters/1637303",
+      "uri": "/master/1637303-Led-Zeppelin-The-Alternate-Led-Zeppelin-IV",
+      "catno": "TSP 500-71/1",
+      "title": "Led Zeppelin - The Alternate Led Zeppelin IV",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1637303",
+      "community": {
+        "want": 83,
+        "have": 84
+      }
+    }
+  ]
+}

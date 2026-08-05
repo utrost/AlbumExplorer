@@ -1,0 +1,106 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=The+Meters&release_title=Look-Ka+Py+Py&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1970",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "label": [
+        "Josie",
+        "Josie",
+        "LeFevre Sound Studios",
+        "Longwear Plating",
+        "Marsaint Music",
+        "United Artists Music",
+        "Window Wide Music",
+        "Jay-Gee Record Co., Inc."
+      ],
+      "type": "master",
+      "genre": [
+        "Funk / Soul"
+      ],
+      "style": [
+        "Bayou Funk",
+        "Soul",
+        "Funk"
+      ],
+      "id": 109362,
+      "barcode": [
+        "JOS 4011 A",
+        "JOS 4011 B",
+        "JOS-4011-A LW DC M",
+        "JOS-4011-B LW DC M",
+        "BMI",
+        "ASCAP"
+      ],
+      "master_id": 109362,
+      "master_url": "https://api.discogs.com/masters/109362",
+      "uri": "/master/109362-The-Meters-Look-Ka-Py-Py",
+      "catno": "JOS 4011",
+      "title": "The Meters - Look-Ka Py Py",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/109362",
+      "community": {
+        "want": 10722,
+        "have": 9132
+      }
+    },
+    {
+      "country": "US",
+      "year": "1969",
+      "format": [
+        "Vinyl",
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "label": [
+        "Josie",
+        "Marsaint Music",
+        "Jay-Gee Record Co., Inc.",
+        "Select Sound Studios, New York"
+      ],
+      "type": "master",
+      "genre": [
+        "Funk / Soul"
+      ],
+      "style": [
+        "Funk"
+      ],
+      "id": 109392,
+      "barcode": [
+        "JOZ-664",
+        "JOZ-665",
+        "JOZ-664-(SELECT SOUND)-1- (SuSu) BID R",
+        "JOZ-665-(SELECT SOUND)-1- (SuSu) BIB R",
+        "BMI"
+      ],
+      "master_id": 109392,
+      "master_url": "https://api.discogs.com/masters/109392",
+      "uri": "/master/109392-The-Meters-Look-Ka-Py-Py-This-Is-My-Last-Affair",
+      "catno": "45-1015",
+      "title": "The Meters - Look-Ka Py Py / This Is My Last Affair",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/109392",
+      "community": {
+        "want": 1718,
+        "have": 1057
+      }
+    }
+  ]
+}

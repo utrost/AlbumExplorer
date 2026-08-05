@@ -1,0 +1,60 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=The+Replacements&release_title=Let+It+Be&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1984",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "label": [
+        "Twin/Tone Records",
+        "Twin/Tone Records",
+        "Blackberry Way Studios",
+        "Masterdisk",
+        "Masterdisk",
+        "Rainbo Records",
+        "Rainbo Records",
+        "Nah Music",
+        "Rock Steady Music"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Alternative Rock",
+        "Power Pop",
+        "Punk",
+        "Indie Rock"
+      ],
+      "id": 16193,
+      "barcode": [
+        "TTR- 8441-A MASTERDISK HW S-12679",
+        "TTR- 8441-B   S-12680"
+      ],
+      "master_id": 16193,
+      "master_url": "https://api.discogs.com/masters/16193",
+      "uri": "/master/16193-The-Replacements-Let-It-Be",
+      "catno": "TTR-8441",
+      "title": "The Replacements - Let It Be",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/16193",
+      "community": {
+        "want": 15930,
+        "have": 27683
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=The+Strokes&release_title=Is+This+It&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "2001",
+      "format": [
+        "CD",
+        "Advance",
+        "Album",
+        "Promo"
+      ],
+      "label": [
+        "BMG",
+        "Sonopress USA",
+        "Sonopress USA",
+        "The Strokes Band Music",
+        "Sterling Sound",
+        "BMG Entertainment",
+        "RCA Records Label"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Indie Rock",
+        "Alternative Rock",
+        "Post-Punk",
+        "Garage Rock"
+      ],
+      "id": 12347,
+      "barcode": [
+        "ASCAP",
+        "07863680452 + + AC145-01 SONOPRESS USA",
+        "℗ 2001 THE STROKES RADV 68045-2",
+        "IFPI LB48",
+        "IFPI 1077"
+      ],
+      "master_id": 12347,
+      "master_url": "https://api.discogs.com/masters/12347",
+      "uri": "/master/12347-The-Strokes-Is-This-It",
+      "catno": "RADV 68045-2",
+      "title": "The Strokes - Is This It",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/12347",
+      "community": {
+        "want": 65119,
+        "have": 134818
+      }
+    },
+    {
+      "country": "UK",
+      "year": "2001",
+      "format": [
+        "CD",
+        "EP"
+      ],
+      "label": [
+        "Guided Missile",
+        "Warner/Chappell Music",
+        "Universal M & L, UK"
+      ],
+      "type": "master",
+      "genre": [
+        "Electronic",
+        "Pop"
+      ],
+      "style": [
+        "Downtempo",
+        "Synth-pop"
+      ],
+      "id": 237971,
+      "barcode": [
+        "5 024545 168624",
+        "GUIDE47CD 01 5",
+        "MADE IN THE UK BY UNIVERSAL M & L",
+        "IFPI L135",
+        "IFPI 04F2"
+      ],
+      "master_id": 237971,
+      "master_url": "https://api.discogs.com/masters/237971",
+      "uri": "/master/237971-The-Diffrent-Strokes-This-Isnt-It",
+      "catno": "GUIDE47CD",
+      "title": "The Diff'rent Strokes - This Isn't It",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/237971",
+      "community": {
+        "want": 43,
+        "have": 453
+      }
+    }
+  ]
+}

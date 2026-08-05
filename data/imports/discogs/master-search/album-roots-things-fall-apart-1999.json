@@ -1,0 +1,51 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=The+Roots&release_title=Things+Fall+Apart&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1999",
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "label": [
+        "MCA Records",
+        "MCA Records, Inc.",
+        "MCA Records, Inc.",
+        "Universal Music & Video Distribution, Inc."
+      ],
+      "type": "master",
+      "genre": [
+        "Hip Hop"
+      ],
+      "style": [],
+      "id": 39713,
+      "barcode": [
+        "0 08811 19482 6",
+        "[Universal logo]  **  (MCAD-11948SP)  B05F2805B",
+        "IFPI L772",
+        "IFPI 2A53"
+      ],
+      "master_id": 39713,
+      "master_url": "https://api.discogs.com/masters/39713",
+      "uri": "/master/39713-The-Roots-Things-Fall-Apart",
+      "catno": "MCAD-11948",
+      "title": "The Roots - Things Fall Apart",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/39713",
+      "community": {
+        "want": 23234,
+        "have": 28684
+      }
+    }
+  ]
+}

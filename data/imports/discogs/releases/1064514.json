@@ -1,0 +1,864 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/releases/1064514",
+  "id": 1064514,
+  "status": "Accepted",
+  "year": 1969,
+  "resource_url": "https://api.discogs.com/releases/1064514",
+  "uri": "https://www.discogs.com/release/1064514-Crosby-Stills-Nash-Crosby-Stills-Nash",
+  "artists": [
+    {
+      "name": "Crosby, Stills & Nash",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 254201,
+      "resource_url": "https://api.discogs.com/artists/254201",
+      "thumbnail_url": "https://i.discogs.com/fIXCEBVptkYJVr0dWkZeI16_2YTwVVM-Q6WKIwa1F3o/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NDIw/MS0xNjYyMDQwODYw/LTY4MjguanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Crosby, Stills & Nash",
+  "labels": [
+    {
+      "name": "Atlantic",
+      "catno": "SD-8229",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 681,
+      "resource_url": "https://api.discogs.com/labels/681",
+      "thumbnail_url": "https://i.discogs.com/PvGehzQPvOW9qMVS-EDAeOmU6qODkqTEQ5bW03gpVyo/rs:fit/g:sm/q:90/h:426/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTY4MS0x/NTEwNjgyMTM0LTgz/NTAucG5n.jpeg"
+    },
+    {
+      "name": "Atlantic",
+      "catno": "SD 8229",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 681,
+      "resource_url": "https://api.discogs.com/labels/681",
+      "thumbnail_url": "https://i.discogs.com/PvGehzQPvOW9qMVS-EDAeOmU6qODkqTEQ5bW03gpVyo/rs:fit/g:sm/q:90/h:426/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTY4MS0x/NTEwNjgyMTM0LTgz/NTAucG5n.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Atlantic Recording Corporation",
+      "catno": "",
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 23937,
+      "resource_url": "https://api.discogs.com/labels/23937",
+      "thumbnail_url": "https://i.discogs.com/jZjSYAVRpExbW53RcsYGsNM2qn9G7zXCv1S5e7iLyzQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIzOTM3/LTE3ODE1MDQxMDAt/ODMxNC5qcGVn.jpeg"
+    },
+    {
+      "name": "Gold Hill Music, Inc.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 915126,
+      "resource_url": "https://api.discogs.com/labels/915126",
+      "thumbnail_url": "https://i.discogs.com/p9mYGYmcZ_K0qx6XtA5mhkG4jTzT50WQcZ_mZ42lXS0/rs:fit/g:sm/q:90/h:82/w:174/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTkxNTEy/Ni0xNjY0NTYxMzQz/LTk0NDAuanBlZw.jpeg"
+    },
+    {
+      "name": "Siquomb Music, Inc.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 406998,
+      "resource_url": "https://api.discogs.com/labels/406998"
+    },
+    {
+      "name": "Guerilla Music, Inc.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 3004171,
+      "resource_url": "https://api.discogs.com/labels/3004171"
+    },
+    {
+      "name": "Gold Hill",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 1407683,
+      "resource_url": "https://api.discogs.com/labels/1407683",
+      "thumbnail_url": "https://i.discogs.com/QOiSDSMonRHYiC6tOosQH7IerjSZwvfHnNAJTgjHqFE/rs:fit/g:sm/q:90/h:131/w:164/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE0MDc2/ODMtMTY2NDU2MTU2/Ni03NTcwLmpwZWc.jpeg"
+    },
+    {
+      "name": "Siquomb",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 1409830,
+      "resource_url": "https://api.discogs.com/labels/1409830"
+    },
+    {
+      "name": "Guerilla (3)",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 3004144,
+      "resource_url": "https://api.discogs.com/labels/3004144"
+    },
+    {
+      "name": "Wally Heider Recording Studio, Los Angeles",
+      "catno": "",
+      "entity_type": "24",
+      "entity_type_name": "Engineered At",
+      "id": 1098261,
+      "resource_url": "https://api.discogs.com/labels/1098261",
+      "thumbnail_url": "https://i.discogs.com/1rGQccvkqZph6b5JU7fVrUF4YRmM5QqZUb9wVw9ccP0/rs:fit/g:sm/q:90/h:272/w:559/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEwOTgy/NjEtMTY0NzgzNzI1/Ny0yMzc5LmpwZWc.jpeg"
+    },
+    {
+      "name": "Customatrix",
+      "catno": "",
+      "entity_type": "44",
+      "entity_type_name": "Plated At",
+      "id": 586613,
+      "resource_url": "https://api.discogs.com/labels/586613",
+      "thumbnail_url": "https://i.discogs.com/LiE-B7ojg3c5y6MjWhT1mxNVst27bYOmGZyVCBx8Ljo/rs:fit/g:sm/q:90/h:203/w:176/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU4NjYx/My0xNzYwNTM1MzEw/LTk2NTAuanBlZw.jpeg"
+    },
+    {
+      "name": "Columbia Records Pressing Plant, Terre Haute",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 403953,
+      "resource_url": "https://api.discogs.com/labels/403953",
+      "thumbnail_url": "https://i.discogs.com/i9COc0khH_6oSgg-Kg_tg3U_kwj17neHrx-YaCUHfNM/rs:fit/g:sm/q:90/h:168/w:542/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQwMzk1/My0xNzYyNzM2MDQy/LTk2MzQuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "text": "CTH - Terre Haute Pressing, Gatefold"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 16223,
+    "want": 1955,
+    "rating": {
+      "count": 957,
+      "average": 4.24
+    },
+    "submitter": {
+      "username": "heathen-prayers",
+      "resource_url": "https://api.discogs.com/users/heathen-prayers"
+    },
+    "contributors": [
+      {
+        "username": "heathen-prayers",
+        "resource_url": "https://api.discogs.com/users/heathen-prayers"
+      },
+      {
+        "username": "MarkusRaute",
+        "resource_url": "https://api.discogs.com/users/MarkusRaute"
+      },
+      {
+        "username": "rhythmoflife.se",
+        "resource_url": "https://api.discogs.com/users/rhythmoflife.se"
+      },
+      {
+        "username": "aklak",
+        "resource_url": "https://api.discogs.com/users/aklak"
+      },
+      {
+        "username": "highpower",
+        "resource_url": "https://api.discogs.com/users/highpower"
+      },
+      {
+        "username": "SJH",
+        "resource_url": "https://api.discogs.com/users/SJH"
+      },
+      {
+        "username": "RootsRecords",
+        "resource_url": "https://api.discogs.com/users/RootsRecords"
+      },
+      {
+        "username": "ChrisCrass",
+        "resource_url": "https://api.discogs.com/users/ChrisCrass"
+      },
+      {
+        "username": "BarnyardOrbit",
+        "resource_url": "https://api.discogs.com/users/BarnyardOrbit"
+      },
+      {
+        "username": "audio_atelier",
+        "resource_url": "https://api.discogs.com/users/audio_atelier"
+      },
+      {
+        "username": "THX1138X",
+        "resource_url": "https://api.discogs.com/users/THX1138X"
+      },
+      {
+        "username": "haiyai2u",
+        "resource_url": "https://api.discogs.com/users/haiyai2u"
+      },
+      {
+        "username": "DangerousExpress",
+        "resource_url": "https://api.discogs.com/users/DangerousExpress"
+      },
+      {
+        "username": "data_boy",
+        "resource_url": "https://api.discogs.com/users/data_boy"
+      },
+      {
+        "username": "Showbiz_Kid",
+        "resource_url": "https://api.discogs.com/users/Showbiz_Kid"
+      },
+      {
+        "username": "hallgregor",
+        "resource_url": "https://api.discogs.com/users/hallgregor"
+      },
+      {
+        "username": "swbostoncd",
+        "resource_url": "https://api.discogs.com/users/swbostoncd"
+      },
+      {
+        "username": "SpinningTurtles",
+        "resource_url": "https://api.discogs.com/users/SpinningTurtles"
+      },
+      {
+        "username": "AdamElks",
+        "resource_url": "https://api.discogs.com/users/AdamElks"
+      },
+      {
+        "username": "vinyljunkie66",
+        "resource_url": "https://api.discogs.com/users/vinyljunkie66"
+      },
+      {
+        "username": "Parkerhouse00",
+        "resource_url": "https://api.discogs.com/users/Parkerhouse00"
+      },
+      {
+        "username": "WolfXCIX",
+        "resource_url": "https://api.discogs.com/users/WolfXCIX"
+      },
+      {
+        "username": "b0ssh0gg",
+        "resource_url": "https://api.discogs.com/users/b0ssh0gg"
+      },
+      {
+        "username": "junger1158",
+        "resource_url": "https://api.discogs.com/users/junger1158"
+      },
+      {
+        "username": "bbmcfate",
+        "resource_url": "https://api.discogs.com/users/bbmcfate"
+      },
+      {
+        "username": "casadyfan",
+        "resource_url": "https://api.discogs.com/users/casadyfan"
+      },
+      {
+        "username": "sundinulf",
+        "resource_url": "https://api.discogs.com/users/sundinulf"
+      },
+      {
+        "username": "RecordChaser9",
+        "resource_url": "https://api.discogs.com/users/RecordChaser9"
+      },
+      {
+        "username": "Jcaltagirone",
+        "resource_url": "https://api.discogs.com/users/Jcaltagirone"
+      },
+      {
+        "username": "07302",
+        "resource_url": "https://api.discogs.com/users/07302"
+      },
+      {
+        "username": "ShopCalledErnie",
+        "resource_url": "https://api.discogs.com/users/ShopCalledErnie"
+      },
+      {
+        "username": "noremacham",
+        "resource_url": "https://api.discogs.com/users/noremacham"
+      },
+      {
+        "username": "Vinyl3ville",
+        "resource_url": "https://api.discogs.com/users/Vinyl3ville"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2007-12-01T01:48:49-08:00",
+  "date_changed": "2026-03-06T09:36:28-08:00",
+  "num_for_sale": 83,
+  "lowest_price": 2.49,
+  "master_id": 26121,
+  "master_url": "https://api.discogs.com/masters/26121",
+  "title": "Crosby, Stills & Nash",
+  "country": "US",
+  "released": "1969-05-29",
+  "notes": "[l=Columbia Records Pressing Plant, Terre Haute] pressing denoted by CTH suffix on label matrices.\n\nFirst U.S issue, Atlantic orange/green labels with 1841 Broadway New York address. Textured gatefold cover, issued with single-sided, textured, foldout 11\" x 22\" lyric sheet.\n\nRunout sequences are primarily stamped with the Terre Haute \"T\" etched.\n\nOn the labels:\nMfg. by Atlantic Recording Corp.\n\nOn the insert:\nEngineered at Wally Heider's Studio III, Los Angeles",
+  "released_formatted": "29 May 1969",
+  "identifiers": [
+    {
+      "type": "Pressing Plant ID",
+      "value": "CTH",
+      "description": "Labels"
+    },
+    {
+      "type": "Pressing Plant ID",
+      "value": "T",
+      "description": "Runouts"
+    },
+    {
+      "type": "Rights Society",
+      "value": "BMI"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST-A-691575CTH",
+      "description": "Label A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST-A-691576CTH",
+      "description": "Label B"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST-A-691575-2A CTH T",
+      "description": "Runout A variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST-A-691576-2B CTH T",
+      "description": "Runout B variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST-A-691575-2B CTH T",
+      "description": "Runout A variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST-A-691576-2A CTH T",
+      "description": "Runout B variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST-A-691575-2H CTH T",
+      "description": "Runout A variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST-A-691576-2H CTH T",
+      "description": "Runout B variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "CTH ST A691575-2A T",
+      "description": "Runout A variant 4"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2C CTH T",
+      "description": "Runout B variant 4"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691575-2B CTH T B 13",
+      "description": "Runout A variant 5"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2A CTH T B",
+      "description": "Runout B variant 5"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691575-2B CTH T",
+      "description": "Runout A variant 6"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2C CTH T",
+      "description": "Runout B variant 6"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691575-2A 1 T B2 o CTH",
+      "description": "Runout A variant 7"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2A CTH 1 T A 2",
+      "description": "Runout B variant 7"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691575-2A 1 T CTH",
+      "description": "Runout A variant 8"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2A CTH 1 T  : : cb",
+      "description": "Runout B variant 8"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691575-2F CTH 1 T",
+      "description": "Runout A variant 9"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2H CTH 1 T",
+      "description": "Runout B variant 9"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691575-2F CTH 1 T D2",
+      "description": "Runout A variant 10"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2H CTH 1 T D8",
+      "description": "Runout B variant 10"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691575-2A 1 T C2 CTH",
+      "description": "Runout A variant 11"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2C CTH 1 T C4",
+      "description": "Runout B variant 11"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691575-2A 1 T A8 CTH o",
+      "description": "Runout A variant 12"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ST A691576-2B 1 CTH T A5 o",
+      "description": "Runout B variant 12"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=_LHjAXDwp5U",
+      "title": "Marrakesh Express | Crosby, Stills & Nash | 1969 Atlantic LP",
+      "description": "Site: www.sonic-recreation.com\n\nPayPal DONATIONS Welcome at ▼ \ngeophonics@msn.com\n\nReleased: 1969\nCountry: US\nLabel: Atlantic Records\nCatalog: SD 8229\nGenre: Rock, Folk Rock\n\nT R A C K L I S T:\n01 Suite: Judy Blue Eyes\n02 Marrakesh Express\n03 Guinnevere\n0",
+      "duration": 158,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=_LHjAXDwp5U",
+      "title": "Marrakesh Express | Crosby, Stills & Nash | 1969 Atlantic LP",
+      "description": "Site: www.sonic-recreation.com\n\nPayPal DONATIONS Welcome at ▼ \ngeophonics@msn.com\n\nReleased: 1969\nCountry: US\nLabel: Atlantic Records\nCatalog: SD 8229\nGenre: Rock, Folk Rock\n\nT R A C K L I S T:\n01 Suite: Judy Blue Eyes\n02 Marrakesh Express\n03 Guinnevere\n0",
+      "duration": 158,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=BsZxKIHDvms",
+      "title": "VENTA: Crosby, Stills & Nash [Cassette]",
+      "description": "Crosby, Stills & Nash – Crosby, Stills & Nash\n\nSello: Atlantic – W 440033\nFormato: Cassette, Album, Reissue, Stereo, Dolby\nPaís: Italy\nPublicado: 1976\nGénero: Rock, Folk, World, & Country\nEstilo: Folk Rock, Classic Rock\n\nA1  Suite: Judy Blue Eyes\nA2  Marr",
+      "duration": 0,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Rock"
+  ],
+  "styles": [
+    "Folk Rock",
+    "Pop Rock"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Suite: Judy Blue Eyes",
+      "extraartists": [
+        {
+          "name": "Stephen Stills",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 236968,
+          "resource_url": "https://api.discogs.com/artists/236968"
+        }
+      ],
+      "duration": "7:22"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Marrakesh Express",
+      "extraartists": [
+        {
+          "name": "Graham Nash",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 262945,
+          "resource_url": "https://api.discogs.com/artists/262945"
+        }
+      ],
+      "duration": "2:36"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Guinnevere",
+      "extraartists": [
+        {
+          "name": "David Crosby",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 253966,
+          "resource_url": "https://api.discogs.com/artists/253966"
+        }
+      ],
+      "duration": "4:43"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "You Don't Have To Cry",
+      "extraartists": [
+        {
+          "name": "Stephen Stills",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 236968,
+          "resource_url": "https://api.discogs.com/artists/236968"
+        }
+      ],
+      "duration": "2:43"
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Pre-Road Downs",
+      "extraartists": [
+        {
+          "name": "Graham Nash",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 262945,
+          "resource_url": "https://api.discogs.com/artists/262945"
+        }
+      ],
+      "duration": "2:59"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Wooden Ships",
+      "extraartists": [
+        {
+          "name": "David Crosby",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 253966,
+          "resource_url": "https://api.discogs.com/artists/253966"
+        },
+        {
+          "name": "Stephen Stills",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 236968,
+          "resource_url": "https://api.discogs.com/artists/236968"
+        }
+      ],
+      "duration": "5:22"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Lady Of The Island",
+      "extraartists": [
+        {
+          "name": "Graham Nash",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 262945,
+          "resource_url": "https://api.discogs.com/artists/262945"
+        }
+      ],
+      "duration": "2:36"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Helplessly Hoping",
+      "extraartists": [
+        {
+          "name": "Stephen Stills",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 236968,
+          "resource_url": "https://api.discogs.com/artists/236968"
+        }
+      ],
+      "duration": "2:37"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Long Time Gone",
+      "extraartists": [
+        {
+          "name": "David Crosby",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 253966,
+          "resource_url": "https://api.discogs.com/artists/253966"
+        }
+      ],
+      "duration": "4:17"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "49 Bye-Byes",
+      "extraartists": [
+        {
+          "name": "Stephen Stills",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 236968,
+          "resource_url": "https://api.discogs.com/artists/236968"
+        }
+      ],
+      "duration": "5:15"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Gary Burden",
+      "anv": "",
+      "join": "",
+      "role": "Art Direction, Design",
+      "tracks": "",
+      "id": 1106428,
+      "resource_url": "https://api.discogs.com/artists/1106428"
+    },
+    {
+      "name": "Dallas Taylor",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 308191,
+      "resource_url": "https://api.discogs.com/artists/308191"
+    },
+    {
+      "name": "Bill Halverson",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Engineered By]",
+      "tracks": "",
+      "id": 285407,
+      "resource_url": "https://api.discogs.com/artists/285407"
+    },
+    {
+      "name": "Stephen Stills",
+      "anv": "",
+      "join": "",
+      "role": "Lead Guitar, Organ, Bass",
+      "tracks": "",
+      "id": 236968,
+      "resource_url": "https://api.discogs.com/artists/236968"
+    },
+    {
+      "name": "David Geffen",
+      "anv": "",
+      "join": "",
+      "role": "Management [Direction]",
+      "tracks": "",
+      "id": 597895,
+      "resource_url": "https://api.discogs.com/artists/597895"
+    },
+    {
+      "name": "Ahmet Ertegun",
+      "anv": "",
+      "join": "",
+      "role": "Other [Spiritual Guidance]",
+      "tracks": "",
+      "id": 0,
+      "resource_url": ""
+    },
+    {
+      "name": "Henry Diltz",
+      "anv": "",
+      "join": "",
+      "role": "Photography By [Cover Photo]",
+      "tracks": "",
+      "id": 354607,
+      "resource_url": "https://api.discogs.com/artists/354607"
+    },
+    {
+      "name": "David Crosby",
+      "anv": "",
+      "join": "",
+      "role": "Producer [Produced By]",
+      "tracks": "",
+      "id": 253966,
+      "resource_url": "https://api.discogs.com/artists/253966"
+    },
+    {
+      "name": "Graham Nash",
+      "anv": "",
+      "join": "",
+      "role": "Producer [Produced By]",
+      "tracks": "",
+      "id": 262945,
+      "resource_url": "https://api.discogs.com/artists/262945"
+    },
+    {
+      "name": "Stephen Stills",
+      "anv": "",
+      "join": "",
+      "role": "Producer [Produced By]",
+      "tracks": "",
+      "id": 236968,
+      "resource_url": "https://api.discogs.com/artists/236968"
+    },
+    {
+      "name": "David Crosby",
+      "anv": "",
+      "join": "",
+      "role": "Rhythm Guitar",
+      "tracks": "",
+      "id": 253966,
+      "resource_url": "https://api.discogs.com/artists/253966"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/xXnPmJaEJIkhRTfiURKs6JNIcuTzu1hXtXAFBlHz7wg/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS02NzMyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/xXnPmJaEJIkhRTfiURKs6JNIcuTzu1hXtXAFBlHz7wg/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS02NzMyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/27yEPyL-iSV4iJKeYCuIHVZbplgMHXri7B6atPfkzgM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS02NzMyLmpwZWc.jpeg",
+      "width": 591,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/b7Elz0p6QSMMkOGGzsRfGrQbw8eJa8WHqhOjUtsrrHk/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS00MTIyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/b7Elz0p6QSMMkOGGzsRfGrQbw8eJa8WHqhOjUtsrrHk/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS00MTIyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/YDYLYqOHGQpOBSoQhdOlxz7G_z7KfZbkSRcNbgXWNuQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS00MTIyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 588
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/0Gzj46bfy3A4Jw0DfuyztzbuOrxb8sfEuPnLQnKbnJw/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS04MDE5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/0Gzj46bfy3A4Jw0DfuyztzbuOrxb8sfEuPnLQnKbnJw/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS04MDE5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/NuW_X6jwkJorZvO-2tVVmR9MUilv_o8i3f3-akgFBeY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS04MDE5LmpwZWc.jpeg",
+      "width": 594,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/MiVVtkXxmThi-7whwTpA3OpZczPzQaENHIGPG-H7lHg/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS00MzgxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/MiVVtkXxmThi-7whwTpA3OpZczPzQaENHIGPG-H7lHg/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS00MzgxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/8w9WQ-rKYQd-EDWsLCIYnda6VjTi-pJlsdiT7fJVPWI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS00MzgxLmpwZWc.jpeg",
+      "width": 594,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/2h1Ujn8B-iKVdAQav5r5meyPocFU1fG8lbk_sRfTaZU/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC00NjA5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/2h1Ujn8B-iKVdAQav5r5meyPocFU1fG8lbk_sRfTaZU/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC00NjA5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/qdPdEjlMtI-SHogRNd7E712hZSn4fNaf4S6amtdJ8EE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC00NjA5LmpwZWc.jpeg",
+      "width": 592,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/MUJQ59QI28DvjM1QE7bejoZADmq2nHaN_OkwIKvZn68/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC0xOTk0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/MUJQ59QI28DvjM1QE7bejoZADmq2nHaN_OkwIKvZn68/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC0xOTk0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/hl2Lc8EzJluzcmxfB84lUDw-C8l1H_KGF9e4OHiH5GE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC0xOTk0LmpwZWc.jpeg",
+      "width": 593,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/zCccVhGm7mALmJpQMOVES6ERPK6CK0ZyfDBVQs1WVJg/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MS0xNjg2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/zCccVhGm7mALmJpQMOVES6ERPK6CK0ZyfDBVQs1WVJg/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MS0xNjg2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/EBHoWK3AFkCKOQLwLJe-oucmGx0JrMqcFeqJmsoApw4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MS0xNjg2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 598
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/2n8OSPafcDirw15Jh-zW79bk8inrqPQUKpOflmf2S58/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC02ODc2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/2n8OSPafcDirw15Jh-zW79bk8inrqPQUKpOflmf2S58/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC02ODc2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/in4qLwk2pgOKoGDcFRk0SfzUU7AiR_JdCvoVtz5oA2Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC02ODc2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 594
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/RgHpqHsiAcNxSD8f8m4CHnxfCGMnHBROqHkWVoVQ5e4/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC0yMzQyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/RgHpqHsiAcNxSD8f8m4CHnxfCGMnHBROqHkWVoVQ5e4/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC0yMzQyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/ATaZM65MRXNfaPFzrS_wNrFDR9Ev3D9ZKmHAjUM1CzQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC0yMzQyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 593
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/zPqzFTJC1ZFlKeFUXekgEWLaBnRqtDldterVAdgWku0/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC01NjU3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/zPqzFTJC1ZFlKeFUXekgEWLaBnRqtDldterVAdgWku0/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC01NjU3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/I-Rr5MbvOfgUGhX0FE2Fkl3FWre4_qT9XRU3RRxbxDM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk4/MC01NjU3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 592
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/b6d7r0LrX1fFOF6SlNgDOUi-tsy0Bkv3KtFB4NE-3rg/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTYzMDg2NDA5/MS0zNjgyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/b6d7r0LrX1fFOF6SlNgDOUi-tsy0Bkv3KtFB4NE-3rg/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTYzMDg2NDA5/MS0zNjgyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/TFKv3PKcMukxaCmk8fSMeR7AhY2VE8JeEGTwx3lXlxY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTYzMDg2NDA5/MS0zNjgyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/5FPtVXN3A3lRhDhv0tUcjDJGalXN-ScCQUzUJQrRHZk/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTYzMDc5MzEx/MC05NTc2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/5FPtVXN3A3lRhDhv0tUcjDJGalXN-ScCQUzUJQrRHZk/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTYzMDc5MzEx/MC05NTc2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/CSHIr2UhA8eRge2sSNhPM2olVyWXaJV-QNYzxVSL1Jg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTYzMDc5MzEx/MC05NTc2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 450
+    }
+  ],
+  "thumb": "https://i.discogs.com/27yEPyL-iSV4iJKeYCuIHVZbplgMHXri7B6atPfkzgM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjQ1/MTQtMTc2Mzg3ODk3/OS02NzMyLmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

@@ -1,0 +1,92 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Bob+Dylan&release_title=Desire&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1976",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "label": [
+        "Columbia",
+        "CBS Inc.",
+        "CBS Inc.",
+        "CBS Inc."
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Folk Rock"
+      ],
+      "id": 3911,
+      "barcode": [
+        "AL 33893",
+        "BL 33893",
+        "AL 33893-3C",
+        "BL 33893-2B"
+      ],
+      "master_id": 3911,
+      "master_url": "https://api.discogs.com/masters/3911",
+      "uri": "/master/3911-Bob-Dylan-Desire",
+      "catno": "PC 33893",
+      "title": "Bob Dylan - Desire",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/3911",
+      "community": {
+        "want": 45685,
+        "have": 123602
+      }
+    },
+    {
+      "country": "Spain",
+      "year": "2012",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Unofficial Release"
+      ],
+      "label": [
+        "Discos Toro Salvaje"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "style": [
+        "Folk Rock"
+      ],
+      "id": 1066860,
+      "barcode": [
+        "ABANDON A",
+        "ABANDON B"
+      ],
+      "master_id": 1066860,
+      "master_url": "https://api.discogs.com/masters/1066860",
+      "uri": "/master/1066860-Bob-Dylan-Desire-Outtakes",
+      "catno": "none",
+      "title": "Bob Dylan - Desire Outtakes",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1066860",
+      "community": {
+        "want": 41,
+        "have": 180
+      }
+    }
+  ]
+}

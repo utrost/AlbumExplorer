@@ -1,0 +1,115 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Johnny+Cash&release_title=American+Recordings&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1994",
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "label": [
+        "American Recordings",
+        "The American Recordings",
+        "American Recordings",
+        "American Recordings",
+        "Precision Mastering",
+        "Specialty Records Corporation"
+      ],
+      "type": "master",
+      "genre": [
+        "Folk, World, & Country"
+      ],
+      "style": [
+        "Country",
+        "Gospel",
+        "Folk"
+      ],
+      "id": 27779,
+      "barcode": [
+        "0 9362-45520-2 4",
+        "1 45520-2 SRC**01 M1 S3",
+        "1 45520-2 SRC**01 M1 S1",
+        "1 45520-2 SRC**01 M1 S6",
+        "1 45520-2 SRC**01 M2 S10"
+      ],
+      "master_id": 27779,
+      "master_url": "https://api.discogs.com/masters/27779",
+      "uri": "/master/27779-Johnny-Cash-American-Recordings",
+      "catno": "9 45520-2",
+      "title": "Johnny Cash - American Recordings",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/27779",
+      "community": {
+        "want": 10069,
+        "have": 28454
+      }
+    },
+    {
+      "country": "US",
+      "year": "2015",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Box Set",
+        "Compilation"
+      ],
+      "label": [
+        "American Recordings",
+        "The American Recordings",
+        "Universal Music Distribution"
+      ],
+      "type": "master",
+      "genre": [
+        "Folk, World, & Country"
+      ],
+      "style": [],
+      "id": 835301,
+      "barcode": [
+        "602537811571",
+        "602537530304",
+        "B0019195-01-A CB",
+        "B0019195-01-B CB",
+        "602537530311",
+        "B0019196-01-A CB",
+        "B0019196-01-B CB",
+        "602537530328",
+        "B0019197-01-A CB",
+        "B0019197-01-B CB",
+        "602537596386",
+        "B0019507-01-A CB",
+        "B0019507-01-B CB",
+        "B0019507-01-C CB",
+        "B0019507-01-D CB",
+        "602517005099",
+        "B0002769-01-A CB",
+        "B0002769-01-B CB",
+        "602527315645",
+        "B0013954-01-A CB",
+        "B0013954-01-B CB",
+        "B0020627-01"
+      ],
+      "master_id": 835301,
+      "master_url": "https://api.discogs.com/masters/835301",
+      "uri": "/master/835301-Johnny-Cash-American-Recordings-I-VI",
+      "catno": "B0020627-01",
+      "title": "Johnny Cash - American Recordings I - VI",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/835301",
+      "community": {
+        "want": 2237,
+        "have": 3315
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Beck&release_title=Sea+Change&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "2002",
+      "format": [
+        "CD",
+        "HDCD",
+        "Album"
+      ],
+      "label": [
+        "DGC",
+        "Matsushita Universal Media Services",
+        "Matsushita Universal Media Services"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Alternative Rock"
+      ],
+      "id": 45312,
+      "barcode": [
+        "6 06949 33932 6",
+        "606949339326",
+        "0694933932 1030612311 MFG BY MATSUSHITA UNIVERSAL MEDIA SERVICES",
+        "0694933932 1030612312 MFG BY MATSUSHITA UNIVERSAL MEDIA SERVICES",
+        "IFPI L771",
+        "ifpi 2A32",
+        "IFPI 2A29",
+        "IFPI 2A41",
+        "IFPI 2A33",
+        "IFPI 2A52",
+        "IFPI 2A28",
+        "IFPI 2A47"
+      ],
+      "master_id": 45312,
+      "master_url": "https://api.discogs.com/masters/45312",
+      "uri": "/master/45312-Beck-Sea-Change",
+      "catno": "0694933932-A",
+      "title": "Beck - Sea Change",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/45312",
+      "community": {
+        "want": 18820,
+        "have": 41302
+      }
+    },
+    {
+      "country": "UK",
+      "year": "2002",
+      "format": [
+        "CD",
+        "Promo",
+        "Sampler"
+      ],
+      "label": [
+        "Geffen Records"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Alternative Rock"
+      ],
+      "id": 3851079,
+      "barcode": [
+        "LC07266"
+      ],
+      "master_id": 3851079,
+      "master_url": "https://api.discogs.com/masters/3851079",
+      "uri": "/master/3851079-Beck-Sea-Change-Album-Sampler",
+      "catno": "SEA001",
+      "title": "Beck - Sea Change (Album Sampler)",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/3851079",
+      "community": {
+        "want": 19,
+        "have": 76
+      }
+    }
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/releases/512366",
+  "id": 512366,
+  "status": "Accepted",
+  "year": 1974,
+  "resource_url": "https://api.discogs.com/releases/512366",
+  "uri": "https://www.discogs.com/release/512366-Steely-Dan-Pretzel-Logic",
+  "artists": [
+    {
+      "name": "Steely Dan",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 160906,
+      "resource_url": "https://api.discogs.com/artists/160906",
+      "thumbnail_url": "https://i.discogs.com/NrH8UqHvnY7Luz6tWKfg1eRetJJflUmbfGQh9qNEFEc/rs:fit/g:sm/q:90/h:600/w:501/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDkw/Ni0xNjQ2NzAwNDkz/LTUwMDcuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Steely Dan",
+  "labels": [
+    {
+      "name": "ABC Records",
+      "catno": "ABCD-808",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 12220,
+      "resource_url": "https://api.discogs.com/labels/12220",
+      "thumbnail_url": "https://i.discogs.com/udS_QH1qWMk-d_ifklYNWBf1pTBet6PaHR9RcSI2Yco/rs:fit/g:sm/q:90/h:334/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEyMjIw/LTEyOTk5MDY0MzIu/anBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "The Village Recorder",
+      "catno": "",
+      "entity_type": "24",
+      "entity_type_name": "Engineered At",
+      "id": 272808,
+      "resource_url": "https://api.discogs.com/labels/272808",
+      "thumbnail_url": "https://i.discogs.com/GjsLjlgcr5WXyPI-749laamykiWCpv2I3fMCx4Ex5j8/rs:fit/g:sm/q:90/h:291/w:464/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI3Mjgw/OC0xNjQxODczMDEz/LTI2MjcuanBlZw.jpeg"
+    },
+    {
+      "name": "Cherokee Studios",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 267581,
+      "resource_url": "https://api.discogs.com/labels/267581",
+      "thumbnail_url": "https://i.discogs.com/Ba8bwOX9OvX7DYRQF2Jtw9zi6SdUXU4dQloNHOxqrV0/rs:fit/g:sm/q:90/h:123/w:534/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NzU4/MS0xMzI3Mjk1NzY5/LmpwZWc.jpeg"
+    },
+    {
+      "name": "ABC Records, Inc.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 265836,
+      "resource_url": "https://api.discogs.com/labels/265836",
+      "thumbnail_url": "https://i.discogs.com/eDXCXa8JbVrTWROyQCRI-FdxHPTRw_wDiA8wwjH57IY/rs:fit/g:sm/q:90/h:26/w:177/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NTgz/Ni0xNTkyNzUyNDgy/LTI5OTUucG5n.jpeg"
+    },
+    {
+      "name": "ABC Records, Inc.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 265836,
+      "resource_url": "https://api.discogs.com/labels/265836",
+      "thumbnail_url": "https://i.discogs.com/eDXCXa8JbVrTWROyQCRI-FdxHPTRw_wDiA8wwjH57IY/rs:fit/g:sm/q:90/h:26/w:177/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NTgz/Ni0xNTkyNzUyNDgy/LTI5OTUucG5n.jpeg"
+    },
+    {
+      "name": "American Broadcasting Music, Inc.",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 267467,
+      "resource_url": "https://api.discogs.com/labels/267467",
+      "thumbnail_url": "https://i.discogs.com/bJrDQQcMvIAv2Y-ElkZepUlIfuNmrqIDTyCchw0k-8E/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NzQ2/Ny0xNzI2ODA0ODYw/LTQ5NTcuanBlZw.jpeg"
+    },
+    {
+      "name": "Mills Music, Inc.",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 282970,
+      "resource_url": "https://api.discogs.com/labels/282970",
+      "thumbnail_url": "https://i.discogs.com/vvxJqlAEiYfbnxLHP5kL4dJBn8ICPzFo9lC8DBAwEfc/rs:fit/g:sm/q:90/h:158/w:354/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4Mjk3/MC0xNjYwNDMxOTU3/LTkwMzgucG5n.jpeg"
+    },
+    {
+      "name": "Red Giant Music, Inc.",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 416967,
+      "resource_url": "https://api.discogs.com/labels/416967"
+    },
+    {
+      "name": "Columbia Records Pressing Plant, Santa Maria",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 376197,
+      "resource_url": "https://api.discogs.com/labels/376197",
+      "thumbnail_url": "https://i.discogs.com/swlgg4wcTUvFw93Z_ivocCUIfGTidgqdPPU1tGCtgdc/rs:fit/g:sm/q:90/h:146/w:273/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM3NjE5/Ny0xMzQxNzMzMTQy/LTk1MjAuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album"
+      ],
+      "text": "Santa Maria Pressing, Gatefold"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 16586,
+    "want": 2532,
+    "rating": {
+      "count": 1160,
+      "average": 4.26
+    },
+    "submitter": {
+      "username": "siart",
+      "resource_url": "https://api.discogs.com/users/siart"
+    },
+    "contributors": [
+      {
+        "username": "siart",
+        "resource_url": "https://api.discogs.com/users/siart"
+      },
+      {
+        "username": "orangecat",
+        "resource_url": "https://api.discogs.com/users/orangecat"
+      },
+      {
+        "username": "rhythmoflife.se",
+        "resource_url": "https://api.discogs.com/users/rhythmoflife.se"
+      },
+      {
+        "username": "wilberforce",
+        "resource_url": "https://api.discogs.com/users/wilberforce"
+      },
+      {
+        "username": "afrankski",
+        "resource_url": "https://api.discogs.com/users/afrankski"
+      },
+      {
+        "username": "Diognes_The_Fox",
+        "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+      },
+      {
+        "username": "manus-von-alles",
+        "resource_url": "https://api.discogs.com/users/manus-von-alles"
+      },
+      {
+        "username": "marcelrecords",
+        "resource_url": "https://api.discogs.com/users/marcelrecords"
+      },
+      {
+        "username": "Roolio42",
+        "resource_url": "https://api.discogs.com/users/Roolio42"
+      },
+      {
+        "username": "haiyai2u",
+        "resource_url": "https://api.discogs.com/users/haiyai2u"
+      },
+      {
+        "username": "Beatlefan",
+        "resource_url": "https://api.discogs.com/users/Beatlefan"
+      },
+      {
+        "username": "SJH",
+        "resource_url": "https://api.discogs.com/users/SJH"
+      },
+      {
+        "username": "ray2603",
+        "resource_url": "https://api.discogs.com/users/ray2603"
+      },
+      {
+        "username": "bibijeebies",
+        "resource_url": "https://api.discogs.com/users/bibijeebies"
+      },
+      {
+        "username": "AUDC1999",
+        "resource_url": "https://api.discogs.com/users/AUDC1999"
+      },
+      {
+        "username": "notharry",
+        "resource_url": "https://api.discogs.com/users/notharry"
+      },
+      {
+        "username": "_jules",
+        "resource_url": "https://api.discogs.com/users/_jules"
+      },
+      {
+        "username": "BestMediaByB-C",
+        "resource_url": "https://api.discogs.com/users/BestMediaByB-C"
+      },
+      {
+        "username": "DJ-Mr.Smith",
+        "resource_url": "https://api.discogs.com/users/DJ-Mr.Smith"
+      },
+      {
+        "username": "aNeedleNaHaystack",
+        "resource_url": "https://api.discogs.com/users/aNeedleNaHaystack"
+      },
+      {
+        "username": "dfcofer",
+        "resource_url": "https://api.discogs.com/users/dfcofer"
+      },
+      {
+        "username": "tuca-tuca",
+        "resource_url": "https://api.discogs.com/users/tuca-tuca"
+      },
+      {
+        "username": "Jehowlind",
+        "resource_url": "https://api.discogs.com/users/Jehowlind"
+      },
+      {
+        "username": "DiviFox",
+        "resource_url": "https://api.discogs.com/users/DiviFox"
+      },
+      {
+        "username": "t2269",
+        "resource_url": "https://api.discogs.com/users/t2269"
+      },
+      {
+        "username": "hoppkorv",
+        "resource_url": "https://api.discogs.com/users/hoppkorv"
+      },
+      {
+        "username": "trachi",
+        "resource_url": "https://api.discogs.com/users/trachi"
+      },
+      {
+        "username": "jeckman",
+        "resource_url": "https://api.discogs.com/users/jeckman"
+      },
+      {
+        "username": "soulchap",
+        "resource_url": "https://api.discogs.com/users/soulchap"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2005-09-30T12:29:42-07:00",
+  "date_changed": "2026-02-10T12:58:07-08:00",
+  "num_for_sale": 81,
+  "lowest_price": 5.25,
+  "master_id": 16984,
+  "master_url": "https://api.discogs.com/masters/16984",
+  "title": "Pretzel Logic",
+  "country": "US",
+  "released": "1974",
+  "notes": "Faint sideways \"S\" (squiggle) in runouts indicates pressing from [l376197]\n\nThere are two different labels both came out the same year.\n1st Pressing: This version with black labels, where all tracks (including credits) have two lines of text (excluding B5 which has three).  This is different than [r=9501683] or [r=11365991], both black labels where multiple tracks have three lines of text on both sides.\n2nd Pressing: See [r=4145729] for Santa Maria pressing with with same text layout, but having the multi-colored concentric circles ABC label.\n\nGatefold Packaging. \n\nFuzz box — Courtesy of Valley Sound \nTim Schmit — Courtesy of Epic Records \nEngineered at the Village Recorder, West Los Angeles. Overdub and mixdown at Cherokee Sound, Chatsworth, Calif.\n\nAll songs pub. by American Broadcasting Music, Inc. (ASCAP) unless otherwise indicated. \nAmerican Broadcasting Music, Inc./Red Giant Music, Inc. [A4]\nMills Music, Inc. (ASCAP) [A5] \nAmerican Broadcasting Music, Inc./Red Giant Music, Inc. (ASCAP) [B1, B5]\n℗ 1974 \nSpecial thanks to Michael Omartian, Jim Gordon, Jeff Porcaro, David Paich, Chuck Rainey, Ben Benay, Dean Parks, Tim Schmit, Victor Feldman, Plas Johnson, Ollie Mitchell, Jerome Richardson, Lew McCreary, Ernie Watts, Wilton Felder, Tubby, Bruce, Dee, etc.\n\nRunouts are etched",
+  "released_formatted": "1974",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ABCD-808-A",
+      "description": "Side A label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ABCD-808-B",
+      "description": "Side B label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ABCD 808-A RE2 Az",
+      "description": "Side A runout variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ABCD 808-B RE2 Az",
+      "description": "Side B runout variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S I ABCD 808-A RE 2 Az IA A20",
+      "description": "Side A runout variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S I ABCD 808-B RE 2 Az IB B8",
+      "description": "Side B runout variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": " S I ABCD 808-A RE 2 Az IA C6",
+      "description": "Side A runout variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": " S 2 ABCD 808-B RE 2 Az IB A1",
+      "description": "Side B runout variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": " S \\  ABCD 808-A RE 2 Az IA A5",
+      "description": "Side A runout variant 4"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S 2 ABCD 808-B RE 2 Az IB A6",
+      "description": "Side B runout variant 4"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "Ƨ 0 ABCD 808-A RE 2 Az",
+      "description": "Side A runout variant 5"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "Ƨ A ABCD 808 RE 2 Az",
+      "description": "Side B runout variant 5"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S  I ABCD 808-A RE 2 Az IA B6",
+      "description": "Side A runout variant 6"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S I ABCD 808-B RE 2 Az IB A",
+      "description": "Side B runout variant 6"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S  I ABCD 808-A RE 2 Az IA A15",
+      "description": "Side A runout variant 7"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S I ABCD 808-B RE 2 Az IB A",
+      "description": "Side B runout variant 7"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=3tvRSFAVAqU",
+      "title": "Rikki Don't Lose That Number",
+      "description": "Provided to YouTube by Universal Music Group\n\nRikki Don't Lose That Number · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nAssociated  Performer, Guitar: Victor Feldman\nAssociated  Performer, Keyboards: ",
+      "duration": 272,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=0cxFzHO9lfI",
+      "title": "Night By Night",
+      "description": "Provided to YouTube by Universal Music Group\n\nNight By Night · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 219,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=HBzzdlpISFg",
+      "title": "Any Major Dude Will Tell You",
+      "description": "Provided to YouTube by Universal Music Group\n\nAny Major Dude Will Tell You · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generat",
+      "duration": 188,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=BwAu9S_UBPo",
+      "title": "Barrytown",
+      "description": "Provided to YouTube by Universal Music Group\n\nBarrytown · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 201,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=aD2FCoxmWgA",
+      "title": "East St. Louis Toodle-Oo",
+      "description": "Provided to YouTube by Universal Music Group\n\nEast St. Louis Toodle-Oo · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nStudio  Personnel, Mixer: Denny Dias\nComposer: Duke Ellington\nComposer: James Wesley",
+      "duration": 168,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=vvziJUxrD6k",
+      "title": "Parker's Band",
+      "description": "Provided to YouTube by Universal Music Group\n\nParker's Band · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 163,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=0P6zEU_G9v4",
+      "title": "Through With Buzz",
+      "description": "Provided to YouTube by Universal Music Group\n\nThrough With Buzz · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTu",
+      "duration": 93,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UBxZFadp9Pw",
+      "title": "Pretzel Logic",
+      "description": "Provided to YouTube by Universal Music Group\n\nPretzel Logic · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 271,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=kM89Cx3GQJg",
+      "title": "With A Gun",
+      "description": "Provided to YouTube by Universal Music Group\n\nWith A Gun · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 137,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=TDZdNr9PHao",
+      "title": "Charlie Freak",
+      "description": "Provided to YouTube by Universal Music Group\n\nCharlie Freak · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 164,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=v6gAN-HRt9Y",
+      "title": "Monkey In Your Soul",
+      "description": "Provided to YouTube by Universal Music Group\n\nMonkey In Your Soul · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by You",
+      "duration": 154,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=3tvRSFAVAqU",
+      "title": "Rikki Don't Lose That Number",
+      "description": "Provided to YouTube by Universal Music Group\n\nRikki Don't Lose That Number · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nAssociated  Performer, Guitar: Victor Feldman\nAssociated  Performer, Keyboards: ",
+      "duration": 272,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=0cxFzHO9lfI",
+      "title": "Night By Night",
+      "description": "Provided to YouTube by Universal Music Group\n\nNight By Night · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 219,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=HBzzdlpISFg",
+      "title": "Any Major Dude Will Tell You",
+      "description": "Provided to YouTube by Universal Music Group\n\nAny Major Dude Will Tell You · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generat",
+      "duration": 188,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=BwAu9S_UBPo",
+      "title": "Barrytown",
+      "description": "Provided to YouTube by Universal Music Group\n\nBarrytown · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 201,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=aD2FCoxmWgA",
+      "title": "East St. Louis Toodle-Oo",
+      "description": "Provided to YouTube by Universal Music Group\n\nEast St. Louis Toodle-Oo · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nStudio  Personnel, Mixer: Denny Dias\nComposer: Duke Ellington\nComposer: James Wesley",
+      "duration": 168,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=vvziJUxrD6k",
+      "title": "Parker's Band",
+      "description": "Provided to YouTube by Universal Music Group\n\nParker's Band · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 163,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=0P6zEU_G9v4",
+      "title": "Through With Buzz",
+      "description": "Provided to YouTube by Universal Music Group\n\nThrough With Buzz · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTu",
+      "duration": 93,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UBxZFadp9Pw",
+      "title": "Pretzel Logic",
+      "description": "Provided to YouTube by Universal Music Group\n\nPretzel Logic · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 271,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=kM89Cx3GQJg",
+      "title": "With A Gun",
+      "description": "Provided to YouTube by Universal Music Group\n\nWith A Gun · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 137,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=TDZdNr9PHao",
+      "title": "Charlie Freak",
+      "description": "Provided to YouTube by Universal Music Group\n\nCharlie Freak · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by YouTube.",
+      "duration": 164,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=v6gAN-HRt9Y",
+      "title": "Monkey In Your Soul",
+      "description": "Provided to YouTube by Universal Music Group\n\nMonkey In Your Soul · Steely Dan\n\nPretzel Logic\n\n℗ 1974 Geffen Records\n\nReleased on: 1974-01-01\n\nProducer: Gary Katz\nComposer  Lyricist: Walter Becker\nComposer  Lyricist: Donald Fagen\n\nAuto-generated by You",
+      "duration": 154,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Jazz",
+    "Rock"
+  ],
+  "styles": [
+    "Jazz-Rock",
+    "Pop Rock",
+    "Classic Rock"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Rikki Don't Lose That Number",
+      "duration": "4:30"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Night By Night",
+      "duration": "3:36"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Any Major Dude Will Tell You",
+      "duration": "3:05"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Barrytown",
+      "duration": "3:17"
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "East St. Louis Toodle-oo",
+      "extraartists": [
+        {
+          "name": "Bubber Miley",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 307317,
+          "resource_url": "https://api.discogs.com/artists/307317"
+        },
+        {
+          "name": "Duke Ellington",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 145257,
+          "resource_url": "https://api.discogs.com/artists/145257"
+        }
+      ],
+      "duration": "2:45"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Parker's Band",
+      "duration": "2:36"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Through With Buzz",
+      "duration": "1:30"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Pretzel Logic",
+      "duration": "4:28"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "With A Gun",
+      "duration": "2:15"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Charlie Freak",
+      "duration": "2:41"
+    },
+    {
+      "position": "B6",
+      "type_": "track",
+      "title": "Monkey In Your Soul",
+      "duration": "2:31"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Ed Caraeff",
+      "anv": "",
+      "join": "",
+      "role": "Art Direction, Photography By [Inside]",
+      "tracks": "",
+      "id": 780987,
+      "resource_url": "https://api.discogs.com/artists/780987"
+    },
+    {
+      "name": "Chuck Rainey",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 252913,
+      "resource_url": "https://api.discogs.com/artists/252913"
+    },
+    {
+      "name": "Timothy B. Schmit",
+      "anv": "Tim Schmit",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 272789,
+      "resource_url": "https://api.discogs.com/artists/272789"
+    },
+    {
+      "name": "Wilton Felder",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 60453,
+      "resource_url": "https://api.discogs.com/artists/60453"
+    },
+    {
+      "name": "Walter Becker",
+      "anv": "",
+      "join": "",
+      "role": "Bass, Guitar",
+      "tracks": "",
+      "id": 93280,
+      "resource_url": "https://api.discogs.com/artists/93280"
+    },
+    {
+      "name": "David Larkham",
+      "anv": "",
+      "join": "",
+      "role": "Design",
+      "tracks": "",
+      "id": 1402363,
+      "resource_url": "https://api.discogs.com/artists/1402363"
+    },
+    {
+      "name": "Jeff Porcaro",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 332625,
+      "resource_url": "https://api.discogs.com/artists/332625"
+    },
+    {
+      "name": "Jim Gordon",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 255372,
+      "resource_url": "https://api.discogs.com/artists/255372"
+    },
+    {
+      "name": "Jim Hodder",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 336763,
+      "resource_url": "https://api.discogs.com/artists/336763"
+    },
+    {
+      "name": "Roger Nichols",
+      "anv": "Roger (The Immortal) Nichols",
+      "join": "",
+      "role": "Engineer",
+      "tracks": "",
+      "id": 142837,
+      "resource_url": "https://api.discogs.com/artists/142837"
+    },
+    {
+      "name": "Ben Benay",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 336762,
+      "resource_url": "https://api.discogs.com/artists/336762"
+    },
+    {
+      "name": "Denny Dias",
+      "anv": "Denny Diaz",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 258117,
+      "resource_url": "https://api.discogs.com/artists/258117"
+    },
+    {
+      "name": "Jeff Baxter",
+      "anv": "",
+      "join": "",
+      "role": "Guitar",
+      "tracks": "",
+      "id": 336761,
+      "resource_url": "https://api.discogs.com/artists/336761"
+    },
+    {
+      "name": "Dean Parks",
+      "anv": "",
+      "join": "",
+      "role": "Guitar, Banjo",
+      "tracks": "",
+      "id": 253490,
+      "resource_url": "https://api.discogs.com/artists/253490"
+    },
+    {
+      "name": "David Paich",
+      "anv": "",
+      "join": "",
+      "role": "Keyboards",
+      "tracks": "",
+      "id": 193582,
+      "resource_url": "https://api.discogs.com/artists/193582"
+    },
+    {
+      "name": "Michael Omartian",
+      "anv": "",
+      "join": "",
+      "role": "Keyboards",
+      "tracks": "",
+      "id": 106940,
+      "resource_url": "https://api.discogs.com/artists/106940"
+    },
+    {
+      "name": "Victor Feldman",
+      "anv": "",
+      "join": "",
+      "role": "Keyboards, Percussion",
+      "tracks": "",
+      "id": 255752,
+      "resource_url": "https://api.discogs.com/artists/255752"
+    },
+    {
+      "name": "Allen Zentz",
+      "anv": "Az",
+      "join": "",
+      "role": "Lacquer Cut By",
+      "tracks": "",
+      "id": 381930,
+      "resource_url": "https://api.discogs.com/artists/381930"
+    },
+    {
+      "name": "Kudo III",
+      "anv": "",
+      "join": "",
+      "role": "Management [Personal]",
+      "tracks": "",
+      "id": 2677648,
+      "resource_url": "https://api.discogs.com/artists/2677648"
+    },
+    {
+      "name": "Jimmie Haskell",
+      "anv": "",
+      "join": "",
+      "role": "Orchestrated By",
+      "tracks": "",
+      "id": 252860,
+      "resource_url": "https://api.discogs.com/artists/252860"
+    },
+    {
+      "name": "Karen Stanley",
+      "anv": "",
+      "join": "",
+      "role": "Other [Security]",
+      "tracks": "",
+      "id": 0,
+      "resource_url": ""
+    },
+    {
+      "name": "Raeanne Rubenstein",
+      "anv": "Raenne Rubenstein",
+      "join": "",
+      "role": "Photography By [Cover]",
+      "tracks": "",
+      "id": 2329221,
+      "resource_url": "https://api.discogs.com/artists/2329221"
+    },
+    {
+      "name": "Gary Katz",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 192585,
+      "resource_url": "https://api.discogs.com/artists/192585"
+    },
+    {
+      "name": "Ernie Watts",
+      "anv": "",
+      "join": "",
+      "role": "Saxophone",
+      "tracks": "",
+      "id": 252993,
+      "resource_url": "https://api.discogs.com/artists/252993"
+    },
+    {
+      "name": "Jerome Richardson",
+      "anv": "",
+      "join": "",
+      "role": "Saxophone",
+      "tracks": "",
+      "id": 72480,
+      "resource_url": "https://api.discogs.com/artists/72480"
+    },
+    {
+      "name": "Plas Johnson",
+      "anv": "",
+      "join": "",
+      "role": "Saxophone",
+      "tracks": "",
+      "id": 271384,
+      "resource_url": "https://api.discogs.com/artists/271384"
+    },
+    {
+      "name": "Ollie Mitchell",
+      "anv": "",
+      "join": "",
+      "role": "Trumpet",
+      "tracks": "",
+      "id": 281334,
+      "resource_url": "https://api.discogs.com/artists/281334"
+    },
+    {
+      "name": "Donald Fagen",
+      "anv": "",
+      "join": "",
+      "role": "Vocals, Keyboards",
+      "tracks": "",
+      "id": 117225,
+      "resource_url": "https://api.discogs.com/artists/117225"
+    },
+    {
+      "name": "Donald Fagen",
+      "anv": "Fagan",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "A1 to A4, B1 to B6",
+      "id": 117225,
+      "resource_url": "https://api.discogs.com/artists/117225"
+    },
+    {
+      "name": "Walter Becker",
+      "anv": "Becker",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "A1 to A4, B1 to B6",
+      "id": 93280,
+      "resource_url": "https://api.discogs.com/artists/93280"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/CfLE-iIgGuGH7JmNzzJdRFN7hn_hTrZ4Bd-CmFdb2Vs/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2OTcwNzkz/LTg0MDAuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/CfLE-iIgGuGH7JmNzzJdRFN7hn_hTrZ4Bd-CmFdb2Vs/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2OTcwNzkz/LTg0MDAuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/ewyhrsUM8sGUMO4tZawmNP3iodgZITrhXwhvcnhAANE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2OTcwNzkz/LTg0MDAuanBlZw.jpeg",
+      "width": 600,
+      "height": 599
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/gX4gSM3JzpZ98Ug84X-dhbrk6-E1naYA9cFasl9npjY/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNjA1OTg4MTUw/LTkwMjYuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/gX4gSM3JzpZ98Ug84X-dhbrk6-E1naYA9cFasl9npjY/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNjA1OTg4MTUw/LTkwMjYuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/eGPdUtvB1eM3a6hHigm8WXkA_ZIU9z3oheV_28Oy8uQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNjA1OTg4MTUw/LTkwMjYuanBlZw.jpeg",
+      "width": 600,
+      "height": 589
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/8O8btjN2aC9sVB3onwRknzYJaG7NgmEjyNsaJz8nPCA/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzk1MzgwNDYy/LTM4NzUuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/8O8btjN2aC9sVB3onwRknzYJaG7NgmEjyNsaJz8nPCA/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzk1MzgwNDYy/LTM4NzUuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/vRM9rCgtjkQZOwrx1UCklcvtMDP-Jdt7-qCUBmDt6CY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzk1MzgwNDYy/LTM4NzUuanBlZw.jpeg",
+      "width": 595,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/a5LopgcKM0tXIINcttqPdFJp2xxSK5d-aX2r2jR_VC8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2OTcwODA2/LTM0NTEuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/a5LopgcKM0tXIINcttqPdFJp2xxSK5d-aX2r2jR_VC8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2OTcwODA2/LTM0NTEuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/iL9rka-136_7B8Fb8Ff7M0mA5P5UacjLCT8yJNn08ws/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2OTcwODA2/LTM0NTEuanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/uwsXH7X9sLlTTwrptW3K1CrfvVXrnLnksN3DSmRY5Ko/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMjkzNDczMTYz/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/uwsXH7X9sLlTTwrptW3K1CrfvVXrnLnksN3DSmRY5Ko/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMjkzNDczMTYz/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/bnNfhOL_S6QXt_LfRlFP8dQPPprFqwcjla3UgCtekhI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMjkzNDczMTYz/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 595
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/VAlvH_7_ARWSbNyuBSZa-g7gRQBTWZBmZQSTZ5IfnRE/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2ODA0MzQw/LTgwMzMuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/VAlvH_7_ARWSbNyuBSZa-g7gRQBTWZBmZQSTZ5IfnRE/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2ODA0MzQw/LTgwMzMuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/OEObynDT9aPuaiy6Rbv28BpKKKTSvQFY5EIj50UGzzE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2ODA0MzQw/LTgwMzMuanBlZw.jpeg",
+      "width": 600,
+      "height": 597
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/nWguTBPoamEsNZVC1rph5JSMxxqkzxU2IGTFZNALUG8/rs:fit/g:sm/q:90/h:600/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNjA1OTg4MTg0/LTI2NjIuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/nWguTBPoamEsNZVC1rph5JSMxxqkzxU2IGTFZNALUG8/rs:fit/g:sm/q:90/h:600/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNjA1OTg4MTg0/LTI2NjIuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/F6aVo9dbsWeG9ATF-jtrHVnoJ9QXpJSp6ZUszQLwqmQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNjA1OTg4MTg0/LTI2NjIuanBlZw.jpeg",
+      "width": 581,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/EYbCsRk7VsqX4mY2YZw9G-fRZYRij-B4yAHCWmk5H_g/rs:fit/g:sm/q:90/h:297/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNzcwNzQwNDE5/LTY4NDQuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/EYbCsRk7VsqX4mY2YZw9G-fRZYRij-B4yAHCWmk5H_g/rs:fit/g:sm/q:90/h:297/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNzcwNzQwNDE5/LTY4NDQuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/ZSbLP7PM8_1hitWMSeuQnoHU667kDEqQ8aYUCT1eSmk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xNzcwNzQwNDE5/LTY4NDQuanBlZw.jpeg",
+      "width": 600,
+      "height": 297
+    }
+  ],
+  "thumb": "https://i.discogs.com/ewyhrsUM8sGUMO4tZawmNP3iodgZITrhXwhvcnhAANE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMjM2/Ni0xMzU2OTcwNzkz/LTg0MDAuanBlZw.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

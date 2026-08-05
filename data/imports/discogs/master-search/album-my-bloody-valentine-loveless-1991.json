@@ -1,0 +1,106 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=My+Bloody+Valentine&release_title=Loveless&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "UK",
+      "year": "1991",
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "label": [
+        "Creation Records",
+        "Creation Records",
+        "Creation Records",
+        "Creation Records",
+        "Pinnacle",
+        "EMI Music",
+        "MPO"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Shoegaze",
+        "Alternative Rock",
+        "Noise Rock"
+      ],
+      "id": 5948,
+      "barcode": [
+        "5 017556 600603 >",
+        "5017556600603",
+        "LC 6306",
+        "CRECD 060 MPO 02 @"
+      ],
+      "master_id": 5948,
+      "master_url": "https://api.discogs.com/masters/5948",
+      "uri": "/master/5948-My-Bloody-Valentine-Loveless",
+      "catno": "crecd 060",
+      "title": "My Bloody Valentine - Loveless",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/5948",
+      "community": {
+        "want": 95338,
+        "have": 83939
+      }
+    },
+    {
+      "country": "Unknown",
+      "year": "2009",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Compilation",
+        "Limited Edition",
+        "Reissue",
+        "Unofficial Release",
+        "Vinyl",
+        "LP",
+        "Compilation",
+        "Unofficial Release"
+      ],
+      "label": [
+        "Lazy Records",
+        "Lazy Records",
+        "Lazy Records"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Shoegaze",
+        "Indie Rock"
+      ],
+      "id": 503020,
+      "barcode": [
+        "LAZY-19PR-A",
+        "LAZY-19PR-B",
+        "LAZY-19PR-C",
+        "LAZY-19PR-D"
+      ],
+      "master_id": 503020,
+      "master_url": "https://api.discogs.com/masters/503020",
+      "uri": "/master/503020-My-Bloody-Valentine-Before-Loveless",
+      "catno": "LAZY 19PR",
+      "title": "My Bloody Valentine - Before Loveless",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/503020",
+      "community": {
+        "want": 456,
+        "have": 1901
+      }
+    }
+  ]
+}

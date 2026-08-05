@@ -1,0 +1,58 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Bobby+Bland&release_title=Two+Steps+From+The+Blues&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1961",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "label": [
+        "Duke",
+        "Lion Publishing Co.",
+        "Play Music Co.",
+        "B Flat Music Co."
+      ],
+      "type": "master",
+      "genre": [
+        "Funk / Soul",
+        "Blues"
+      ],
+      "style": [
+        "Rhythm & Blues",
+        "Soul"
+      ],
+      "id": 182746,
+      "barcode": [
+        "BMI",
+        "UV 7066",
+        "UV 7067",
+        "UV-7066",
+        "UV-7067"
+      ],
+      "master_id": 182746,
+      "master_url": "https://api.discogs.com/masters/182746",
+      "uri": "/master/182746-Bobby-Bland-Two-Steps-From-The-Blues",
+      "catno": "DLP 74",
+      "title": "Bobby Bland - Two Steps From The Blues",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/182746",
+      "community": {
+        "want": 4853,
+        "have": 6107
+      }
+    }
+  ]
+}

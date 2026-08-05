@@ -1,0 +1,106 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Neil+Young&release_title=On+the+Beach&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1974",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "label": [
+        "Reprise Records",
+        "Warner Bros. Records Inc.",
+        "Warner Bros. Records Inc.",
+        "Sunset Sound",
+        "Broken Arrow Ranch",
+        "RCA Records Pressing Plant, Hollywood",
+        "R. Twerk & Co.",
+        "Warner Bros. Records Inc.",
+        "Silver Fiddle",
+        "Broken Arrow Music Inc."
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Country Rock"
+      ],
+      "id": 38630,
+      "barcode": [
+        "H",
+        "BMI",
+        "0698",
+        "31,716",
+        "31,717",
+        "R2180 31716-RE1-RCA-1H  H",
+        "R2180 31717 RE1-RCA-1H  H",
+        "R2180 31716-RE1-RCA-1H  H",
+        "R2180 31717 RE1-RCA-1J  H",
+        "R2180 31716-RE1-RCA-1J H",
+        "R2180 31717 RE1-RCA-1J H"
+      ],
+      "master_id": 38630,
+      "master_url": "https://api.discogs.com/masters/38630",
+      "uri": "/master/38630-Neil-Young-On-The-Beach",
+      "catno": "R 2180",
+      "title": "Neil Young - On The Beach",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/38630",
+      "community": {
+        "want": 54906,
+        "have": 56438
+      }
+    },
+    {
+      "country": "Europe",
+      "year": "1996",
+      "format": [
+        "CD",
+        "Album",
+        "Compilation",
+        "Unofficial Release",
+        "Stereo"
+      ],
+      "label": [
+        "Reprise Records"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Classic Rock"
+      ],
+      "id": 599790,
+      "barcode": [
+        "9 63741 45682 9",
+        "ADD"
+      ],
+      "master_id": 599790,
+      "master_url": "https://api.discogs.com/masters/599790",
+      "uri": "/master/599790-Neil-Young-On-The-Beach-American-Stars-N-Bars",
+      "catno": "NY973",
+      "title": "Neil Young - On The Beach / American Stars 'N Bars",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/599790",
+      "community": {
+        "want": 6,
+        "have": 178
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Album credit enrichment — Discogs seed
+# Album credit enrichment — Discogs full comparison import
 
 Status: generated candidate layer, not canonical data.
 
@@ -9,7 +9,7 @@ This import starts the next data tier for AlbumExplorer: producers, engineers, m
 ## Source and preservation
 
 - Source system: Discogs public API
-- Scope: first 25 albums in `data/rolling-stone-comparison.json`, sorted by latest Rolling Stone rank
+- Scope: all 760 albums in `data/rolling-stone-comparison.json`, sorted by latest Rolling Stone rank
 - Generated artifact: `data/enrichment/album-credit-candidates.json`
 - Raw caches:
   - `data/imports/discogs/master-search/`
@@ -21,28 +21,31 @@ The raw cache is part of the file-first import trail. The generated candidate ar
 ## Command
 
 ```bash
-npm run import:discogs-credits -- data/rolling-stone-comparison.json data/enrichment/album-credit-candidates.json --limit 25 --delay-ms 2500 --retry-delay-ms 20000
+npm run import:discogs-credits -- data/rolling-stone-comparison.json data/enrichment/album-credit-candidates.json --delay-ms 1100 --retries 4 --retry-delay-ms 15000
 ```
 
 The importer is resumable: it reads existing cache files first and only fetches missing search/master/release responses.
 
 ## Current result
 
-After applying `data/review/discogs-credit-master-overrides.json`:
+After applying `data/review/discogs-credit-master-overrides.json` and running the importer across all comparison albums:
 
-- Scope albums: 25
-- Credit candidates: 22
-- Review items: 1
-- Gaps: 2
-- Extracted credit rows: 324
-- Extracted studio-like rows: 57
+- Scope albums: 760
+- Credit candidates: 412
+- Review items: 245
+- Gaps: 103
+- Extracted credit rows: 5,096
+- Extracted studio-like rows: 1,068
+- Network fetches during the full run: 1,634
+- Discogs `429` retry events during the full run: 144
+- Non-fatal failed Discogs requests routed to review: 5
 
 Credit row types:
 
-- producer: 34
-- engineer: 49
-- songwriter: 46
-- musician: 195
+- producer: 818
+- engineer: 775
+- songwriter: 435
+- musician: 3,068
 
 ## Candidate examples
 
@@ -56,6 +59,20 @@ Credit row types:
   - musicians: John McVie, Mick Fleetwood, Lindsey Buckingham, Christine McVie, Stevie Nicks
   - engineers: Ken Caillat, Richard Dashut, Chris Morris
   - studios include Record Plant/Sausalito, Sound City Studios, Criteria Recording Studios
+
+## Review queue
+
+The remaining non-candidate albums are explicit review/gap work, not silently filled data.
+
+Review reasons:
+
+- ambiguous Discogs master search result: 216
+- selected Discogs master fetch failed: 5
+- source cache without usable credits: 24
+
+Gap reasons:
+
+- no exact Discogs master search result: 103
 
 ## Review policy
 
@@ -72,11 +89,11 @@ The importer is intentionally conservative.
 - Discogs master records often do not contain deep credits; the importer follows the selected master to its main release and extracts from release-level `extraartists`, `credits`, `companies`, and limited notes patterns.
 - Search ambiguity is currently common for famous albums because Discogs can have multiple masters/variants with similar titles and years.
 - Studio extraction from notes is intentionally narrow; company roles such as `Recorded At`, `Mixed At`, and `Mastered At` are more reliable.
-- Credit candidates are now used by the live relationship graph for shared producer, engineer, studio, songwriter, and musician/performer edges, but only for the current top-25 seed scope.
+- Credit candidates are now used by the live relationship graph for shared producer, engineer, studio, songwriter, and musician/performer edges across every successfully matched comparison album.
 
 ## Next normalization step
 
-1. Resolve the remaining Discogs review item for *Sgt. Pepper's Lonely Hearts Club Band*; cached search master URLs currently return 404 for the exact 1967 candidates.
-2. Improve search aliases for the two gaps: The Rolling Stones — *Exile on Main Street* and The Notorious B.I.G. — *Ready to Die*.
-3. Expand from top 25 to top 100 once the remaining gap/review workflow is stable.
+1. Work through the 245 review items, starting with ambiguous Discogs master matches that can be approved in `data/review/discogs-credit-master-overrides.json`.
+2. Improve search aliases for the 103 gaps where exact Discogs master search returned no usable match.
+3. Re-run the full import after each override/alias batch; the importer is cache-first and only fetches missing source responses.
 4. Add a compact review UI/report for approved, rejected, gap, and stale Discogs candidates.

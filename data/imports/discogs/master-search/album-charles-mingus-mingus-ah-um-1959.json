@@ -1,0 +1,102 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Charles+Mingus&release_title=Mingus+Ah+Um&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "UK",
+      "year": "2010",
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered"
+      ],
+      "label": [
+        "Not Now Music",
+        "Not Now Music Limited",
+        "Not Now Music Limited",
+        "Not Now Music Limited"
+      ],
+      "type": "master",
+      "genre": [
+        "Jazz"
+      ],
+      "style": [
+        "Hard Bop",
+        "Post Bop"
+      ],
+      "id": 3743808,
+      "barcode": [
+        "5 060143 493362",
+        "MCPS",
+        "NOT2CD336-1",
+        "NOT2CD336-2",
+        "٭ NOT2CD336C D1 ٭",
+        "٭ NOT2CD336 CD2 ٭",
+        "1503584912 HHO Manufacturing Ltd NOT2CD336",
+        "IFPI LT 58",
+        "1503585012 HHO Manufacturing Ltd NOT2CD336",
+        "IFPI LT 58"
+      ],
+      "master_id": 3743808,
+      "master_url": "https://api.discogs.com/masters/3743808",
+      "uri": "/master/3743808-Charles-Mingus-Mingus-Ah-Um",
+      "catno": "NOT2CD336",
+      "title": "Charles Mingus - Mingus Ah Um",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/3743808",
+      "community": {
+        "want": 2,
+        "have": 351
+      }
+    },
+    {
+      "country": "US",
+      "year": "1959",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "label": [
+        "Columbia",
+        "Columbia 30th Street Studio"
+      ],
+      "type": "master",
+      "genre": [
+        "Jazz"
+      ],
+      "style": [
+        "Hard Bop",
+        "Bop"
+      ],
+      "id": 65014,
+      "barcode": [
+        "XLP47456-1B",
+        "XLP47457-1B",
+        "XLP47456-1B",
+        "XLP47457-1G"
+      ],
+      "master_id": 65014,
+      "master_url": "https://api.discogs.com/masters/65014",
+      "uri": "/master/65014-Charles-Mingus-Mingus-Ah-Um",
+      "catno": "CL 1370",
+      "title": "Charles Mingus - Mingus Ah Um",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/65014",
+      "community": {
+        "want": 72218,
+        "have": 56555
+      }
+    }
+  ]
+}

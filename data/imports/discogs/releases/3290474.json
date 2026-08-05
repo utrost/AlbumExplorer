@@ -1,0 +1,998 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/releases/3290474",
+  "id": 3290474,
+  "status": "Accepted",
+  "year": 1972,
+  "resource_url": "https://api.discogs.com/releases/3290474",
+  "uri": "https://www.discogs.com/release/3290474-Elton-John-Honky-Château",
+  "artists": [
+    {
+      "name": "Elton John",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 57103,
+      "resource_url": "https://api.discogs.com/artists/57103",
+      "thumbnail_url": "https://i.discogs.com/7U5GEK4WQR_N9F2Zdn82kYexE5qqMr2ShiXq9qbM1DI/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU3MTAz/LTE3ODA3MzU5Mjgt/NDA4Ny5qcGVn.jpeg"
+    }
+  ],
+  "artists_sort": "Elton John",
+  "labels": [
+    {
+      "name": "DJM Records (2)",
+      "catno": "DJLPH 423",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 57333,
+      "resource_url": "https://api.discogs.com/labels/57333",
+      "thumbnail_url": "https://i.discogs.com/Yi4uenZaMheY38xWhLJCs3mtp6H10zSLqqIvmq4irUw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU3MzMz/LTE1MTI2NTMyMzIt/NzQwNy5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Dick James Music Ltd.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 266412,
+      "resource_url": "https://api.discogs.com/labels/266412",
+      "thumbnail_url": "https://i.discogs.com/eV91jSAaM1D_XXFDg7G1288HomWOuIqcCrTYz4EZ9N4/rs:fit/g:sm/q:90/h:110/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NjQx/Mi0xNzQ0MDU3OTQ5/LTEwMDIuanBlZw.jpeg"
+    },
+    {
+      "name": "Pye Records (Sales) Ltd.",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 266584,
+      "resource_url": "https://api.discogs.com/labels/266584",
+      "thumbnail_url": "https://i.discogs.com/8-hjrbP_fUd99lQ1DMgnDRpEmdjN0vWNmhm1201dkYo/rs:fit/g:sm/q:90/h:168/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NjU4/NC0xNDU4MjExODU5/LTY2NjMuanBlZw.jpeg"
+    },
+    {
+      "name": "Garrod & Lofthouse Ltd.",
+      "catno": "",
+      "entity_type": "19",
+      "entity_type_name": "Printed By",
+      "id": 264830,
+      "resource_url": "https://api.discogs.com/labels/264830",
+      "thumbnail_url": "https://i.discogs.com/RDyUBI87eLoZL2f7GQ30VaWyqKQdewdOCyUdrtjEi6c/rs:fit/g:sm/q:90/h:220/w:220/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NDgz/MC0xNTk0NDc1Mjcz/LTE5MDAuanBlZw.jpeg"
+    },
+    {
+      "name": "Garrod & Lofthouse Ltd.",
+      "catno": "",
+      "entity_type": "16",
+      "entity_type_name": "Made By",
+      "id": 264830,
+      "resource_url": "https://api.discogs.com/labels/264830",
+      "thumbnail_url": "https://i.discogs.com/RDyUBI87eLoZL2f7GQ30VaWyqKQdewdOCyUdrtjEi6c/rs:fit/g:sm/q:90/h:220/w:220/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NDgz/MC0xNTk0NDc1Mjcz/LTE5MDAuanBlZw.jpeg"
+    },
+    {
+      "name": "Strawberry Studios, France",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 266406,
+      "resource_url": "https://api.discogs.com/labels/266406",
+      "thumbnail_url": "https://i.discogs.com/3PR_eUdDaeCXOR4qgRQE2DFsBq6lWkchA3I_L1k0jAU/rs:fit/g:sm/q:90/h:313/w:342/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NjQw/Ni0xNjQ4OTYyMTY3/LTU5NTAuanBlZw.jpeg"
+    },
+    {
+      "name": "Trident Studios",
+      "catno": "",
+      "entity_type": "28",
+      "entity_type_name": "Remixed At",
+      "id": 218698,
+      "resource_url": "https://api.discogs.com/labels/218698",
+      "thumbnail_url": "https://i.discogs.com/qBzTp7bUDRGYQ6Gge1VGKQyOeVgaAv2QwOqD5qqliyY/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIxODY5/OC0xNjgwMTg4NjEz/LTU3NDEuanBlZw.jpeg"
+    },
+    {
+      "name": "Tranco Limited",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 416448,
+      "resource_url": "https://api.discogs.com/labels/416448",
+      "thumbnail_url": "https://i.discogs.com/WXGv6JzksgffO7MfgkRIBD1dITpP3eIo5ZtwIbdO5_4/rs:fit/g:sm/q:90/h:99/w:293/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQxNjQ0/OC0xMzg5Nzk1NjE1/LTIzNTguanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album"
+      ],
+      "text": "Envelope/Wallet Sleeve"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 1164,
+    "want": 398,
+    "rating": {
+      "count": 94,
+      "average": 4.37
+    },
+    "submitter": {
+      "username": "Oedipus_Recs",
+      "resource_url": "https://api.discogs.com/users/Oedipus_Recs"
+    },
+    "contributors": [
+      {
+        "username": "Oedipus_Recs",
+        "resource_url": "https://api.discogs.com/users/Oedipus_Recs"
+      },
+      {
+        "username": "Electro-Magnetic",
+        "resource_url": "https://api.discogs.com/users/Electro-Magnetic"
+      },
+      {
+        "username": "Innieminnie",
+        "resource_url": "https://api.discogs.com/users/Innieminnie"
+      },
+      {
+        "username": "MusicManiaSpain",
+        "resource_url": "https://api.discogs.com/users/MusicManiaSpain"
+      },
+      {
+        "username": "Mister.Marken",
+        "resource_url": "https://api.discogs.com/users/Mister.Marken"
+      },
+      {
+        "username": "Elukkae",
+        "resource_url": "https://api.discogs.com/users/Elukkae"
+      },
+      {
+        "username": "sebfact",
+        "resource_url": "https://api.discogs.com/users/sebfact"
+      },
+      {
+        "username": "ts160",
+        "resource_url": "https://api.discogs.com/users/ts160"
+      },
+      {
+        "username": "linsak",
+        "resource_url": "https://api.discogs.com/users/linsak"
+      },
+      {
+        "username": "cannymusic",
+        "resource_url": "https://api.discogs.com/users/cannymusic"
+      },
+      {
+        "username": "officialandbootz",
+        "resource_url": "https://api.discogs.com/users/officialandbootz"
+      },
+      {
+        "username": "chillyboy64",
+        "resource_url": "https://api.discogs.com/users/chillyboy64"
+      },
+      {
+        "username": "data_boy",
+        "resource_url": "https://api.discogs.com/users/data_boy"
+      },
+      {
+        "username": "jbuxton",
+        "resource_url": "https://api.discogs.com/users/jbuxton"
+      },
+      {
+        "username": "Morten-Hattestad",
+        "resource_url": "https://api.discogs.com/users/Morten-Hattestad"
+      },
+      {
+        "username": "francisco-perez-57",
+        "resource_url": "https://api.discogs.com/users/francisco-perez-57"
+      },
+      {
+        "username": "Same.Old.Me",
+        "resource_url": "https://api.discogs.com/users/Same.Old.Me"
+      },
+      {
+        "username": "gemini80s",
+        "resource_url": "https://api.discogs.com/users/gemini80s"
+      },
+      {
+        "username": "recordvanguard",
+        "resource_url": "https://api.discogs.com/users/recordvanguard"
+      },
+      {
+        "username": "bobblediscogs",
+        "resource_url": "https://api.discogs.com/users/bobblediscogs"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2011-12-18T03:28:27-08:00",
+  "date_changed": "2022-12-27T08:51:32-08:00",
+  "num_for_sale": 42,
+  "lowest_price": 7.21,
+  "master_id": 85555,
+  "master_url": "https://api.discogs.com/masters/85555",
+  "title": "Honky Château",
+  "country": "UK",
+  "released": "1972",
+  "notes": "Gatefold textured sleeve with a tuck-in envelope/wallet to the back sleeve.\nFront (Hessian) Picture is pasted on.\nCopies are pressed on, what looks like, translucent blood-red vinyl, this is down to the vinyl formula used by Tranco Ltd. This is visible only against a strong light.\nThe labels without 'Made in England' text.\n\nAn almost identical UK version also without MADE IN ENGLAND underneath DICK JAMES MUSIC LIMITED on the labels [url=https://www.discogs.com/release/3334505]here[/url]\n- Has the text on either side of the spindle hole offset lower - see the position of ℗ 1972\n- Also on the labels, the text on that release has a larger gap between \"ELTON JOHN\" and \"Produced by Gus Dudgeon\"\n\n",
+  "released_formatted": "1972",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "DJLPH 423-A",
+      "description": "Side A Label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "DJLPH 423-B",
+      "description": "Side B Label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "DJLPH-423-A-2 Bobil",
+      "description": "Side A Runout, Etched"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "DJLPH 423 B2 Rasputin",
+      "description": "Side B Runout, Etched"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=DtVBCG6ThDk",
+      "title": "Elton John - Rocket Man (Official Music Video)",
+      "description": "Elton John's new album The Lockdown Sessions: https://EltonJohn.lnk.to/TheLockdownSessionsID\n\nIn his own interpretation of Elton John’s iconic hit, Iranian filmmaker and refugee Majid Adin reimagines “Rocket Man” to tell a new story of adventure, loneline",
+      "duration": 283,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Rock"
+  ],
+  "styles": [
+    "Pop Rock",
+    "Classic Rock"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Honky Cat",
+      "extraartists": [
+        {
+          "name": "Gus Dudgeon",
+          "anv": "",
+          "join": "",
+          "role": "Arranged By [Brass Arrangement]",
+          "tracks": "",
+          "id": 179206,
+          "resource_url": "https://api.discogs.com/artists/179206"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Banjo",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Drums",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Electric Piano, Piano [Acoustic]",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        },
+        {
+          "name": "Alain Hatot",
+          "anv": "",
+          "join": "",
+          "role": "Saxophone",
+          "tracks": "",
+          "id": 252642,
+          "resource_url": "https://api.discogs.com/artists/252642"
+        },
+        {
+          "name": "Jean-Louis Chautemps",
+          "anv": "",
+          "join": "",
+          "role": "Saxophone",
+          "tracks": "",
+          "id": 298936,
+          "resource_url": "https://api.discogs.com/artists/298936"
+        },
+        {
+          "name": "Jacques Bolognesi",
+          "anv": "",
+          "join": "",
+          "role": "Trombone",
+          "tracks": "",
+          "id": 333221,
+          "resource_url": "https://api.discogs.com/artists/333221"
+        },
+        {
+          "name": "Ivan Jullien",
+          "anv": "",
+          "join": "",
+          "role": "Trumpet",
+          "tracks": "",
+          "id": 427174,
+          "resource_url": "https://api.discogs.com/artists/427174"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Mellow",
+      "extraartists": [
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Drums, Tambourine",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Jean-Luc Ponty",
+          "anv": "",
+          "join": "",
+          "role": "Electric Violin",
+          "tracks": "",
+          "id": 220594,
+          "resource_url": "https://api.discogs.com/artists/220594"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Guitar",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Piano, Organ",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "I Think I'm Going To Kill Myself",
+      "extraartists": [
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass, Backing Vocals",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Drums, Backing Vocals",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Guitar, Backing Vocals",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        },
+        {
+          "name": "\"Legs\" Larry Smith",
+          "anv": "",
+          "join": "",
+          "role": "Tap Dance",
+          "tracks": "",
+          "id": 573141,
+          "resource_url": "https://api.discogs.com/artists/573141"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Susie (Dramas)",
+      "extraartists": [
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Drums, Tambourine",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Guitar",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
+      "extraartists": [
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass, Backing Vocals",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Drums, Backing Vocals",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Guitar, Backing Vocals",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        },
+        {
+          "name": "David Hentschel",
+          "anv": "David Henschel",
+          "join": "",
+          "role": "Synthesizer [A.r.p.]",
+          "tracks": "",
+          "id": 264826,
+          "resource_url": "https://api.discogs.com/artists/264826"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Salvation",
+      "extraartists": [
+        {
+          "name": "Larry Steele",
+          "anv": "Larry Steel",
+          "join": "",
+          "role": "Backing Vocals [Additional]",
+          "tracks": "",
+          "id": 318182,
+          "resource_url": "https://api.discogs.com/artists/318182"
+        },
+        {
+          "name": "Liza Strike",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals [Additional]",
+          "tracks": "",
+          "id": 251579,
+          "resource_url": "https://api.discogs.com/artists/251579"
+        },
+        {
+          "name": "Madeline Bell",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals [Additional]",
+          "tracks": "",
+          "id": 8718,
+          "resource_url": "https://api.discogs.com/artists/8718"
+        },
+        {
+          "name": "Tony Hazzard",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals [Additional]",
+          "tracks": "",
+          "id": 541605,
+          "resource_url": "https://api.discogs.com/artists/541605"
+        },
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass, Backing Vocals",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Drums, Backing Vocals",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Guitar, Backing Vocals",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Slave",
+      "extraartists": [
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Congas, Drums",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Guitar, Banjo",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Amy",
+      "extraartists": [
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass, Backing Vocals",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Ray Cooper",
+          "anv": "",
+          "join": "",
+          "role": "Congas",
+          "tracks": "",
+          "id": 96036,
+          "resource_url": "https://api.discogs.com/artists/96036"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Drums, Backing Vocals",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Jean-Luc Ponty",
+          "anv": "",
+          "join": "",
+          "role": "Electric Violin",
+          "tracks": "",
+          "id": 220594,
+          "resource_url": "https://api.discogs.com/artists/220594"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Guitar, Backing Vocals",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Mona Lisas And Mad Hatters",
+      "extraartists": [
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Mandolin, Guitar",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Hercules",
+      "extraartists": [
+        {
+          "name": "Gus Dudgeon",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals [Additional]",
+          "tracks": "",
+          "id": 179206,
+          "resource_url": "https://api.discogs.com/artists/179206"
+        },
+        {
+          "name": "Tony Hazzard",
+          "anv": "",
+          "join": "",
+          "role": "Backing Vocals [Additional]",
+          "tracks": "",
+          "id": 541605,
+          "resource_url": "https://api.discogs.com/artists/541605"
+        },
+        {
+          "name": "Dee Murray",
+          "anv": "Dee",
+          "join": "",
+          "role": "Bass, Backing Vocals",
+          "tracks": "",
+          "id": 344808,
+          "resource_url": "https://api.discogs.com/artists/344808"
+        },
+        {
+          "name": "Nigel Olsson",
+          "anv": "Nigel",
+          "join": "",
+          "role": "Drums, Backing Vocals",
+          "tracks": "",
+          "id": 204600,
+          "resource_url": "https://api.discogs.com/artists/204600"
+        },
+        {
+          "name": "Davey Johnstone",
+          "anv": "Davey",
+          "join": "",
+          "role": "Guitar, Backing Vocals",
+          "tracks": "",
+          "id": 344807,
+          "resource_url": "https://api.discogs.com/artists/344807"
+        },
+        {
+          "name": "Elton John",
+          "anv": "Elton",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 57103,
+          "resource_url": "https://api.discogs.com/artists/57103"
+        },
+        {
+          "name": "David Hentschel",
+          "anv": "David Henschel",
+          "join": "",
+          "role": "Synthesizer [A.r.p.]",
+          "tracks": "",
+          "id": 264826,
+          "resource_url": "https://api.discogs.com/artists/264826"
+        },
+        {
+          "name": "Gus Dudgeon",
+          "anv": "",
+          "join": "",
+          "role": "Whistling [Rhino Whistle]",
+          "tracks": "",
+          "id": 179206,
+          "resource_url": "https://api.discogs.com/artists/179206"
+        }
+      ],
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Stephen Brown (2)",
+      "anv": "Steve Brown",
+      "join": "",
+      "role": "Coordinator [Co-ordinated By]",
+      "tracks": "",
+      "id": 361146,
+      "resource_url": "https://api.discogs.com/artists/361146"
+    },
+    {
+      "name": "Michael Ross (3)",
+      "anv": "",
+      "join": "",
+      "role": "Design [Sleeve], Photography By [Inner Sleeve]",
+      "tracks": "",
+      "id": 1073593,
+      "resource_url": "https://api.discogs.com/artists/1073593"
+    },
+    {
+      "name": "Ken Scott",
+      "anv": "",
+      "join": "",
+      "role": "Engineer",
+      "tracks": "",
+      "id": 103969,
+      "resource_url": "https://api.discogs.com/artists/103969"
+    },
+    {
+      "name": "Bobil",
+      "anv": "",
+      "join": "",
+      "role": "Lacquer Cut By",
+      "tracks": "A1 to A5",
+      "id": 2495623,
+      "resource_url": "https://api.discogs.com/artists/2495623"
+    },
+    {
+      "name": "Rasputin (10)",
+      "anv": "",
+      "join": "",
+      "role": "Lacquer Cut By",
+      "tracks": "B1 to B5",
+      "id": 3083504,
+      "resource_url": "https://api.discogs.com/artists/3083504"
+    },
+    {
+      "name": "Ed Caraeff",
+      "anv": "",
+      "join": "",
+      "role": "Photography By [Cover]",
+      "tracks": "",
+      "id": 780987,
+      "resource_url": "https://api.discogs.com/artists/780987"
+    },
+    {
+      "name": "Jean-François Rault",
+      "anv": "J. F. Rault",
+      "join": "",
+      "role": "Photography By [Liner]",
+      "tracks": "",
+      "id": 2354434,
+      "resource_url": "https://api.discogs.com/artists/2354434"
+    },
+    {
+      "name": "Michael Childers",
+      "anv": "",
+      "join": "",
+      "role": "Photography By [Liner]",
+      "tracks": "",
+      "id": 2248181,
+      "resource_url": "https://api.discogs.com/artists/2248181"
+    },
+    {
+      "name": "Michael Ross (3)",
+      "anv": "",
+      "join": "",
+      "role": "Photography By [Liner]",
+      "tracks": "",
+      "id": 1073593,
+      "resource_url": "https://api.discogs.com/artists/1073593"
+    },
+    {
+      "name": "Gus Dudgeon",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 179206,
+      "resource_url": "https://api.discogs.com/artists/179206"
+    },
+    {
+      "name": "Elton John & Bernie Taupin",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 825268,
+      "resource_url": "https://api.discogs.com/artists/825268"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/EVRu0UMHX7Z4eCh8BZ4Xu5UcshYo_O4EmG2qQpbkfeM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/NS04NzUwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/EVRu0UMHX7Z4eCh8BZ4Xu5UcshYo_O4EmG2qQpbkfeM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/NS04NzUwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/7kL2vv5z_RzVx8fEtVHJgKzFJ7NGQ4HGwBu3Uw5yNDo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/NS04NzUwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/bP_Z3caQg23I_go78ZNjzTEfKSVmKpBX-BARTB7JY-4/rs:fit/g:sm/q:90/h:245/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/NS00NDY0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/bP_Z3caQg23I_go78ZNjzTEfKSVmKpBX-BARTB7JY-4/rs:fit/g:sm/q:90/h:245/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/NS00NDY0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/mirt1UHr4KtYGBSWKUAvwEcakmX4Ix7waORZYffM8Dg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/NS00NDY0LmpwZWc.jpeg",
+      "width": 600,
+      "height": 245
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/DJ4x2_grqmpcwSS24Kb8t6fLY_4KHMaUNkz9nmaz9RU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgz/MC04NTM3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/DJ4x2_grqmpcwSS24Kb8t6fLY_4KHMaUNkz9nmaz9RU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgz/MC04NTM3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/ApNin_nl0_YWphgB6Roc-h0mdW7Ryglkm-KpFghnvg8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgz/MC04NTM3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/7g0vmcBFBVnZkh_lVzA6MbWihXKtlbk9Sb7eFFt5xS8/rs:fit/g:sm/q:90/h:415/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/Ni00NTAxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/7g0vmcBFBVnZkh_lVzA6MbWihXKtlbk9Sb7eFFt5xS8/rs:fit/g:sm/q:90/h:415/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/Ni00NTAxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/H-G94QlfB8uXRAsTnH4qucW_c5N_zaUY8xGNkCSGj-4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/Ni00NTAxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 415
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ejiJrqj_7tv4DjjjBUcibHN2z_IwGJa5j_2jPGt27iE/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzExMzAx/NC02MjcwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ejiJrqj_7tv4DjjjBUcibHN2z_IwGJa5j_2jPGt27iE/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzExMzAx/NC02MjcwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/AurgtTPBThBCI-SIlKAmFZYU2AQku94I7qti8FzC65M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzExMzAx/NC02MjcwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 589
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/FXOtQ-MOb1ja972IsHTrHqu5NtAvaOMHTiw7ygw6Lqw/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzExMzAx/NC0zNjYwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/FXOtQ-MOb1ja972IsHTrHqu5NtAvaOMHTiw7ygw6Lqw/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzExMzAx/NC0zNjYwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/O-9WXPm9C7wR03oaxZDlYYiSAva5jTvHJMCu66lA1cY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzExMzAx/NC0zNjYwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 589
+    }
+  ],
+  "thumb": "https://i.discogs.com/7kL2vv5z_RzVx8fEtVHJgKzFJ7NGQ4HGwBu3Uw5yNDo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTA0/NzQtMTQ0MzE5MDgy/NS04NzUwLmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

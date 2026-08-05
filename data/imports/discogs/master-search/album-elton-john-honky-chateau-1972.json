@@ -1,0 +1,94 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Elton+John&release_title=Honky+Ch%C3%A2teau&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "UK",
+      "year": "1972",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "label": [
+        "DJM Records",
+        "Dick James Music Ltd.",
+        "Pye Records (Sales) Ltd.",
+        "Garrod & Lofthouse Ltd.",
+        "Garrod & Lofthouse Ltd.",
+        "Strawberry Studios, France",
+        "Trident Studios",
+        "Tranco Limited"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Pop Rock",
+        "Classic Rock"
+      ],
+      "id": 85555,
+      "barcode": [
+        "DJLPH 423-A",
+        "DJLPH 423-B",
+        "DJLPH-423-A-2 Bobil",
+        "DJLPH 423 B2 Rasputin"
+      ],
+      "master_id": 85555,
+      "master_url": "https://api.discogs.com/masters/85555",
+      "uri": "/master/85555-Elton-John-Honky-Ch%C3%A2teau",
+      "catno": "DJLPH 423",
+      "title": "Elton John - Honky Château",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/85555",
+      "community": {
+        "want": 47351,
+        "have": 79728
+      }
+    },
+    {
+      "country": "US",
+      "year": "1980",
+      "format": [
+        "Cassette",
+        "Compilation"
+      ],
+      "label": [
+        "MCA Records",
+        "MCA Twin Pax",
+        "This Record Co. Ltd.",
+        "MCA Records, Inc."
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Classic Rock"
+      ],
+      "id": 871197,
+      "barcode": [],
+      "master_id": 871197,
+      "master_url": "https://api.discogs.com/masters/871197",
+      "uri": "/master/871197-Elton-John-Honky-Ch%C3%A2teau-Dont-Shoot-Me-Im-Only-The-Piano-Player-2-Album-Special-Cassette",
+      "catno": "MCAC2-6915",
+      "title": "Elton John - Honky Château / Don't Shoot Me I'm Only The Piano Player - 2 Album Special Cassette",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/871197",
+      "community": {
+        "want": 13,
+        "have": 34
+      }
+    }
+  ]
+}

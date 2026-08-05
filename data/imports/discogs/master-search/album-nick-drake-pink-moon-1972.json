@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Nick+Drake&release_title=Pink+Moon&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "UK",
+      "year": "1972",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "label": [
+        "Island Records",
+        "Witchseason Productions Ltd.",
+        "Sound Techniques, London",
+        "The Gramophone Co. Ltd.",
+        "Warlock Music Ltd.",
+        "Tinsley Robor Group Ltd.",
+        "Tinsley Robor Group Ltd."
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "style": [
+        "Folk",
+        "Folk Rock",
+        "Acoustic"
+      ],
+      "id": 13933,
+      "barcode": [
+        "ILPS 9184 A-1U G 1",
+        "ILPS 9184 B-1U GA 2 1",
+        "ILPS 9184 A-1U I.I 1",
+        "ILPS 9184 B-1U P 1"
+      ],
+      "master_id": 13933,
+      "master_url": "https://api.discogs.com/masters/13933",
+      "uri": "/master/13933-Nick-Drake-Pink-Moon",
+      "catno": "ILPS 9184",
+      "title": "Nick Drake - Pink Moon",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/13933",
+      "community": {
+        "want": 62205,
+        "have": 63173
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=B.B.+King&release_title=Live+at+the+Regal&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1965",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "label": [
+        "ABC-Paramount",
+        "ABC-Paramount",
+        "ABC-Paramount Records, Inc.",
+        "Regal Theater",
+        "Bell Sound Studios",
+        "Arc Music Corp.",
+        "Golden State Songs",
+        "Melva Pub. Co.",
+        "Modern Music Pub. Co.",
+        "Noma Music, Inc.",
+        "Longwear Plating",
+        "Lee-Myles Assoc. Inc."
+      ],
+      "type": "master",
+      "genre": [
+        "Blues"
+      ],
+      "style": [
+        "Electric Blues"
+      ],
+      "id": 107099,
+      "barcode": [
+        "BMI",
+        "ABC-509-A",
+        "ABC-509-B",
+        "ABC-509 A1 LW Bell Sound sf",
+        "ABC-509 B1 LW Bell Sound sf"
+      ],
+      "master_id": 107099,
+      "master_url": "https://api.discogs.com/masters/107099",
+      "uri": "/master/107099-BB-King-Live-At-The-Regal",
+      "catno": "ABC-509",
+      "title": "B.B. King - Live At The Regal",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/107099",
+      "community": {
+        "want": 17895,
+        "have": 27197
+      }
+    },
+    {
+      "country": "US",
+      "genre": [
+        "Blues"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "style": [],
+      "id": 1634312,
+      "label": [
+        "MCA Records",
+        "Two On One",
+        "Sanyo Japan",
+        "MCA Records, Inc.",
+        "MCA Records, Inc.",
+        "Regal Theater",
+        "Cook County Jail"
+      ],
+      "type": "master",
+      "barcode": [
+        "0  76732-5877-2  0",
+        "076732587720",
+        "MCAD5877 A6A24H   MANUFACTURED BY SANYO JAPAN"
+      ],
+      "master_id": 1634312,
+      "master_url": "https://api.discogs.com/masters/1634312",
+      "uri": "/master/1634312-BB-King-Live-At-The-Regal-Live-In-Cook-County-Jail",
+      "catno": "MCAD-5877",
+      "title": "B.B. King - Live At The Regal / Live In Cook County Jail",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1634312",
+      "community": {
+        "want": 17,
+        "have": 154
+      }
+    }
+  ]
+}

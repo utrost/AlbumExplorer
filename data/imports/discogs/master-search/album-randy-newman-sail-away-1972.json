@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Randy+Newman&release_title=Sail+Away&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1972",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "label": [
+        "Reprise Records",
+        "Poppi Studios",
+        "Amigo Studios",
+        "Western Recorders"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "style": [],
+      "id": 81089,
+      "barcode": [
+        "31,354",
+        "31,355",
+        "MS 2064 31,354 1B",
+        "MS 2064 31,355 1Ba"
+      ],
+      "master_id": 81089,
+      "master_url": "https://api.discogs.com/masters/81089",
+      "uri": "/master/81089-Randy-Newman-Sail-Away",
+      "catno": "MS 2064",
+      "title": "Randy Newman - Sail Away",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/81089",
+      "community": {
+        "want": 7017,
+        "have": 19488
+      }
+    },
+    {
+      "country": "US",
+      "year": "1972",
+      "format": [
+        "Vinyl",
+        "7\"",
+        "45 RPM",
+        "Promo"
+      ],
+      "label": [
+        "Reprise Records"
+      ],
+      "type": "master",
+      "genre": [
+        "Pop"
+      ],
+      "style": [
+        "Vocal"
+      ],
+      "id": 631578,
+      "barcode": [],
+      "master_id": 631578,
+      "master_url": "https://api.discogs.com/masters/631578",
+      "uri": "/master/631578-Randy-Newman-Sail-Away-Political-Science",
+      "catno": "REP 1102",
+      "title": "Randy Newman - Sail Away / Political Science",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/631578",
+      "community": {
+        "want": 60,
+        "have": 58
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Bob+Marley+and+the+Wailers&release_title=Natty+Dread&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "France",
+      "year": "1975",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "label": [
+        "Island Records",
+        "Phonogram",
+        "Island Records Ltd.",
+        "C.I.D.I.S.",
+        "Imprimerie JAT, Chatillon",
+        "Copyright Control",
+        "Rondor Music (London) Ltd.",
+        "C.I.D.I.S. Louviers"
+      ],
+      "type": "master",
+      "genre": [
+        "Reggae"
+      ],
+      "style": [
+        "Roots Reggae"
+      ],
+      "id": 65908,
+      "barcode": [
+        "ISL 9101 652 1 380 CIDIS DU1 Λ10",
+        "ISL 9101652 2 380 CIDIS Λ12",
+        "Ⓨ",
+        "SACEM SACD SDRM SGDL",
+        "D. R."
+      ],
+      "master_id": 65908,
+      "master_url": "https://api.discogs.com/masters/65908",
+      "uri": "/master/65908-Bob-Marley-The-Wailers-Natty-Dread",
+      "catno": "9101 652",
+      "title": "Bob Marley & The Wailers - Natty Dread",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/65908",
+      "community": {
+        "want": 37414,
+        "have": 45755
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Dr.+John&release_title=Dr.+John%27s+Gumbo&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1972",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "label": [
+        "ATCO Records",
+        "Atlantic Recording Corporation",
+        "Sound City Studios",
+        "Atlantic Studios",
+        "Specialty Records Corporation",
+        "Presswell"
+      ],
+      "type": "master",
+      "genre": [
+        "Funk / Soul"
+      ],
+      "style": [
+        "Bayou Funk",
+        "Funk",
+        "Rhythm & Blues"
+      ],
+      "id": 49048,
+      "barcode": [
+        "PR",
+        "PR",
+        "ST-C-722489 PR",
+        "ST-C-722490 PR",
+        "SRC   ST-C-722489-A   AT/GP   PR - SP",
+        "ST-C-722490 B  SRC   AT/GP   0-1   PR - SP",
+        "ST-C-722489-A   AT/GP   PR",
+        "ST-C-722490 B   AT/GP   PR"
+      ],
+      "master_id": 49048,
+      "master_url": "https://api.discogs.com/masters/49048",
+      "uri": "/master/49048-Dr-John-Dr-Johns-Gumbo",
+      "catno": "SD 7006",
+      "title": "Dr. John - Dr. John's Gumbo",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/49048",
+      "community": {
+        "want": 7601,
+        "have": 11489
+      }
+    }
+  ]
+}

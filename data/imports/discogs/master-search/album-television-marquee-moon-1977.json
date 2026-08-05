@@ -1,0 +1,108 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Television&release_title=Marquee+Moon&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1977",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "label": [
+        "Elektra",
+        "Warner Communications Inc.",
+        "Elektra/Asylum/Nonesuch Records",
+        "Elektra/Asylum Records",
+        "Elektra",
+        "Elektra/Asylum Records",
+        "Double Exposure Music Ltd.",
+        "Specialty Records Corporation",
+        "Double Exposure Music Ltd.",
+        "A&R Studios",
+        "Atlantic Studios",
+        "Sterling Sound"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "New Wave",
+        "Punk",
+        "Art Rock"
+      ],
+      "id": 6202,
+      "barcode": [
+        "7E-1098-A SP",
+        "7E-1098-B SP",
+        "7E-1098-A·SP RE SP \\ - / STERLING",
+        "7E-1098 B·SP RE SP \\ - / STERLING",
+        "SP",
+        "ASCAP"
+      ],
+      "master_id": 6202,
+      "master_url": "https://api.discogs.com/masters/6202",
+      "uri": "/master/6202-Television-Marquee-Moon",
+      "catno": "7E-1098",
+      "title": "Television - Marquee Moon",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/6202",
+      "community": {
+        "want": 70326,
+        "have": 75427
+      }
+    },
+    {
+      "country": "UK",
+      "year": "1977",
+      "format": [
+        "Vinyl",
+        "7\"",
+        "Single",
+        "45 RPM"
+      ],
+      "label": [
+        "Elektra",
+        "Copyright Control"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "New Wave",
+        "Punk",
+        "Art Rock"
+      ],
+      "id": 30714,
+      "barcode": [
+        "K 12252 A",
+        "K 12252 B",
+        "K-12252-A1 ALLEN",
+        "K-12252-B-1 ALLEN"
+      ],
+      "master_id": 30714,
+      "master_url": "https://api.discogs.com/masters/30714",
+      "uri": "/master/30714-Television-Marquee-Moon",
+      "catno": "K 12252",
+      "title": "Television - Marquee Moon",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/30714",
+      "community": {
+        "want": 1736,
+        "have": 2855
+      }
+    }
+  ]
+}

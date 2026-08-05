@@ -1,0 +1,97 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Taylor+Swift&release_title=Folklore&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "Worldwide",
+      "year": "2020",
+      "format": [
+        "File",
+        "AAC",
+        "Album"
+      ],
+      "label": [
+        "Republic Records",
+        "Taylor Swift"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Pop",
+        "Folk, World, & Country"
+      ],
+      "style": [
+        "Vocal",
+        "Ballad",
+        "Folk"
+      ],
+      "id": 1777815,
+      "barcode": [
+        "1524801260"
+      ],
+      "master_id": 1777815,
+      "master_url": "https://api.discogs.com/masters/1777815",
+      "uri": "/master/1777815-Taylor-Swift-Folklore",
+      "catno": "none",
+      "title": "Taylor Swift - Folklore",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1777815",
+      "community": {
+        "want": 97370,
+        "have": 221069
+      }
+    },
+    {
+      "country": "Worldwide",
+      "year": "2020",
+      "format": [
+        "File",
+        "AAC",
+        "Album",
+        "Deluxe Edition"
+      ],
+      "label": [
+        "Republic Records",
+        "Taylor Swift",
+        "Long Pond"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Pop",
+        "Folk, World, & Country"
+      ],
+      "style": [
+        "Vocal",
+        "Indie Pop",
+        "Indie Rock",
+        "Ballad",
+        "Folk"
+      ],
+      "id": 3064151,
+      "barcode": [
+        "1541904688"
+      ],
+      "master_id": 3064151,
+      "master_url": "https://api.discogs.com/masters/3064151",
+      "uri": "/master/3064151-Taylor-Swift-Folklore-The-Long-Pond-Studio-Sessions-From-The-Disney-Special",
+      "catno": "none",
+      "title": "Taylor Swift - Folklore: The Long Pond Studio Sessions (From The Disney+ Special)",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/3064151",
+      "community": {
+        "want": 18701,
+        "have": 41563
+      }
+    }
+  ]
+}

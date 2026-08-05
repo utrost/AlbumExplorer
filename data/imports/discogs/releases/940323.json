@@ -1,0 +1,974 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/releases/940323",
+  "id": 940323,
+  "status": "Accepted",
+  "year": 1976,
+  "resource_url": "https://api.discogs.com/releases/940323",
+  "uri": "https://www.discogs.com/release/940323-Joni-Mitchell-Hejira",
+  "artists": [
+    {
+      "name": "Joni Mitchell",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 90233,
+      "resource_url": "https://api.discogs.com/artists/90233",
+      "thumbnail_url": "https://i.discogs.com/79YKmnEdjbslGDVqkIixSQkeMwZpiXT5jklwx8aDwPw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTkwMjMz/LTE3NjQ5NDQ1NTAt/MTk4Ni5qcGVn.jpeg"
+    }
+  ],
+  "artists_sort": "Joni Mitchell",
+  "labels": [
+    {
+      "name": "Asylum Records",
+      "catno": "7E-1087",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 33574,
+      "resource_url": "https://api.discogs.com/labels/33574",
+      "thumbnail_url": "https://i.discogs.com/iHqjhQZ0oAqyE6LAgqYamt4KilEYreXoaAy-GWrIWqA/rs:fit/g:sm/q:90/h:600/w:501/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMzNTc0/LTE1MjExOTE2NDgt/NjYzOS5wbmc.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Asylum Records",
+      "catno": "",
+      "entity_type": "4",
+      "entity_type_name": "Record Company",
+      "id": 33574,
+      "resource_url": "https://api.discogs.com/labels/33574",
+      "thumbnail_url": "https://i.discogs.com/iHqjhQZ0oAqyE6LAgqYamt4KilEYreXoaAy-GWrIWqA/rs:fit/g:sm/q:90/h:600/w:501/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMzNTc0/LTE1MjExOTE2NDgt/NjYzOS5wbmc.jpeg"
+    },
+    {
+      "name": "Asylum Records",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 33574,
+      "resource_url": "https://api.discogs.com/labels/33574",
+      "thumbnail_url": "https://i.discogs.com/iHqjhQZ0oAqyE6LAgqYamt4KilEYreXoaAy-GWrIWqA/rs:fit/g:sm/q:90/h:600/w:501/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMzNTc0/LTE1MjExOTE2NDgt/NjYzOS5wbmc.jpeg"
+    },
+    {
+      "name": "Asylum Records",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 33574,
+      "resource_url": "https://api.discogs.com/labels/33574",
+      "thumbnail_url": "https://i.discogs.com/iHqjhQZ0oAqyE6LAgqYamt4KilEYreXoaAy-GWrIWqA/rs:fit/g:sm/q:90/h:600/w:501/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMzNTc0/LTE1MjExOTE2NDgt/NjYzOS5wbmc.jpeg"
+    },
+    {
+      "name": "Elektra/Asylum/Nonesuch Records",
+      "catno": "",
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 264155,
+      "resource_url": "https://api.discogs.com/labels/264155",
+      "thumbnail_url": "https://i.discogs.com/tieeAYxTCCKNjs5lg-BQ70TfP8UpNnBzc_svJUCmA6I/rs:fit/g:sm/q:90/h:90/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NDE1/NS0xNzE0Mjk1ODY4/LTg3MDguanBlZw.jpeg"
+    },
+    {
+      "name": "Warner Communications Inc.",
+      "catno": "",
+      "entity_type": "46",
+      "entity_type_name": "Corporate Owner",
+      "id": 141847,
+      "resource_url": "https://api.discogs.com/labels/141847",
+      "thumbnail_url": "https://i.discogs.com/-sX3tAAXThUZY5XZ-tbFYMfQ9fwxBuRN9ZO16gOF_d8/rs:fit/g:sm/q:90/h:122/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE0MTg0/Ny0xNTkwMjMxMjk0/LTI4OTEuanBlZw.jpeg"
+    },
+    {
+      "name": "A&M Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 265722,
+      "resource_url": "https://api.discogs.com/labels/265722",
+      "thumbnail_url": "https://i.discogs.com/eJvDquiaSWROpGx7wfC23vmtQpi9P6W-q_oux74HSI4/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NTcy/Mi0xNTU2OTkzMjYx/LTU2OTkuanBlZw.jpeg"
+    },
+    {
+      "name": "Columbia Records Pressing Plant, Santa Maria",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 376197,
+      "resource_url": "https://api.discogs.com/labels/376197",
+      "thumbnail_url": "https://i.discogs.com/swlgg4wcTUvFw93Z_ivocCUIfGTidgqdPPU1tGCtgdc/rs:fit/g:sm/q:90/h:146/w:273/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM3NjE5/Ny0xMzQxNzMzMTQy/LTk1MjAuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album"
+      ],
+      "text": "CSM - Santa Maria Pressing, Gatefold"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 8276,
+    "want": 1423,
+    "rating": {
+      "count": 501,
+      "average": 4.27
+    },
+    "submitter": {
+      "username": "tiopepe",
+      "resource_url": "https://api.discogs.com/users/tiopepe"
+    },
+    "contributors": [
+      {
+        "username": "tiopepe",
+        "resource_url": "https://api.discogs.com/users/tiopepe"
+      },
+      {
+        "username": "8m2stereo",
+        "resource_url": "https://api.discogs.com/users/8m2stereo"
+      },
+      {
+        "username": "RecordMuseum",
+        "resource_url": "https://api.discogs.com/users/RecordMuseum"
+      },
+      {
+        "username": "afrankski",
+        "resource_url": "https://api.discogs.com/users/afrankski"
+      },
+      {
+        "username": "truedream",
+        "resource_url": "https://api.discogs.com/users/truedream"
+      },
+      {
+        "username": "Thor-Nado",
+        "resource_url": "https://api.discogs.com/users/Thor-Nado"
+      },
+      {
+        "username": "jadedtom",
+        "resource_url": "https://api.discogs.com/users/jadedtom"
+      },
+      {
+        "username": "jopla2",
+        "resource_url": "https://api.discogs.com/users/jopla2"
+      },
+      {
+        "username": "teatoe993",
+        "resource_url": "https://api.discogs.com/users/teatoe993"
+      },
+      {
+        "username": "Gabriel.S.Floriani",
+        "resource_url": "https://api.discogs.com/users/Gabriel.S.Floriani"
+      },
+      {
+        "username": "vokuhila",
+        "resource_url": "https://api.discogs.com/users/vokuhila"
+      },
+      {
+        "username": "DAVE-I.D.",
+        "resource_url": "https://api.discogs.com/users/DAVE-I.D."
+      },
+      {
+        "username": "seppuku",
+        "resource_url": "https://api.discogs.com/users/seppuku"
+      },
+      {
+        "username": "philadelphiamusic",
+        "resource_url": "https://api.discogs.com/users/philadelphiamusic"
+      },
+      {
+        "username": "DeinoD.Hutt",
+        "resource_url": "https://api.discogs.com/users/DeinoD.Hutt"
+      },
+      {
+        "username": "chn74",
+        "resource_url": "https://api.discogs.com/users/chn74"
+      },
+      {
+        "username": "Linksweird21",
+        "resource_url": "https://api.discogs.com/users/Linksweird21"
+      },
+      {
+        "username": "KeithLatham",
+        "resource_url": "https://api.discogs.com/users/KeithLatham"
+      },
+      {
+        "username": "BestMediaByB-C",
+        "resource_url": "https://api.discogs.com/users/BestMediaByB-C"
+      },
+      {
+        "username": "DogBarks",
+        "resource_url": "https://api.discogs.com/users/DogBarks"
+      },
+      {
+        "username": "dfcofer",
+        "resource_url": "https://api.discogs.com/users/dfcofer"
+      },
+      {
+        "username": "morijiro.ishihara",
+        "resource_url": "https://api.discogs.com/users/morijiro.ishihara"
+      },
+      {
+        "username": "tzes666",
+        "resource_url": "https://api.discogs.com/users/tzes666"
+      },
+      {
+        "username": "HisDankMaterials",
+        "resource_url": "https://api.discogs.com/users/HisDankMaterials"
+      },
+      {
+        "username": "Cornbread55",
+        "resource_url": "https://api.discogs.com/users/Cornbread55"
+      },
+      {
+        "username": "Neetsuma",
+        "resource_url": "https://api.discogs.com/users/Neetsuma"
+      },
+      {
+        "username": "Urs60",
+        "resource_url": "https://api.discogs.com/users/Urs60"
+      },
+      {
+        "username": "Adyton",
+        "resource_url": "https://api.discogs.com/users/Adyton"
+      },
+      {
+        "username": "Beatlesblogger",
+        "resource_url": "https://api.discogs.com/users/Beatlesblogger"
+      },
+      {
+        "username": "blackertai",
+        "resource_url": "https://api.discogs.com/users/blackertai"
+      },
+      {
+        "username": "KenSpagnolo",
+        "resource_url": "https://api.discogs.com/users/KenSpagnolo"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2008-03-13T12:35:30-07:00",
+  "date_changed": "2025-08-23T17:00:38-07:00",
+  "num_for_sale": 47,
+  "lowest_price": 8.95,
+  "master_id": 47775,
+  "master_url": "https://api.discogs.com/masters/47775",
+  "title": "Hejira",
+  "country": "US",
+  "released": "1976",
+  "notes": "\"CSM\" on labels denotes a [l376197] pressing. \nEmbossed text on front cover. \nEtched runouts.",
+  "released_formatted": "1976",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "7E-1087-A (CSM)",
+      "description": "Side A label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "7E-1087-B (CSM)",
+      "description": "Side B label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 A-3 CSM A3",
+      "description": "Runout side A, variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 B-3 CSM C4",
+      "description": "Runout side B, variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 A-4 CSM A6",
+      "description": "Runout side A, variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 B-3 CSM A3",
+      "description": "Runout side B, variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "SI 7E-1087 A-3 CSM A10 SX",
+      "description": "Runout side A, variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 B-3 CSM C13",
+      "description": "Runout side B, variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 A-3 CSM",
+      "description": "Runout side A, variant 4"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S 7E-1087 B-4 CSM B",
+      "description": "Runout Side B variant 4"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "XS S 7E-1087 A-3 CSM A5",
+      "description": "Runout side A, variant 5"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "lS 7E-1087 B-4 CSM C1",
+      "description": "Runout side B, variant 5"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 A-2 CSM B9",
+      "description": "Runout side A, variant 6"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 B-4 CSM C8",
+      "description": "Runout side B, variant 6"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S2 7E-1087 A-2 CSM  B7",
+      "description": "Runout side A, variant 7"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 B-3 CSM  C12",
+      "description": "Runout side B, variant 7"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 A-2 CSM B15",
+      "description": "Runout side A, variant 8"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 B-4 CSM C12",
+      "description": "Runout side B, variant 8"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 A-4 CSM B7",
+      "description": "Runout side A, variant 9"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 B-4 CSM C4",
+      "description": "Runout side B, variant 9"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 A-4 CSM A8",
+      "description": "Runout side A, variant 10"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S4 7E-1087 B-3 CSM A4",
+      "description": "Runout side B, variant 10"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "IS 7E-1087 A-4 CSM A14",
+      "description": "Runout side A, variant 11"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S 2 7E-1087 B-4 CSM B9",
+      "description": "Runout side B, variant 11"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=VfLH0xJByiI",
+      "title": "Refuge of the Roads",
+      "description": "Provided to YouTube by Rhino\n\nRefuge of the Roads · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nHorn: Chuck Findley\nBass  Guitar: Jaco Pastorius\nDrums: John Guerin\nGuitar, Vocals: Joni Mitchell\nHorn: Tom Scott\nWriter: Joni Mitchell\n\nAuto-generated by Yo",
+      "duration": 403,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=i4KBohkaHDE",
+      "title": "Coyote",
+      "description": "Provided to YouTube by Rhino\n\nCoyote · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nPercussion: Bobbye Hall\nBass  Guitar: Jaco Pastorius\nAcoustic  Guitar: Joni Mitchell\nVocals: Joni Mitchell\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 302,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=BsWVRN8DDjs",
+      "title": "Amelia",
+      "description": "Provided to YouTube by Rhino\n\nAmelia · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nGuitar, Vocals: Joni Mitchell\nElectric  Guitar: Larry Carlton\nPercussion: Victor Feldman\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 362,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=1BF4nnl4c0I",
+      "title": "Furry Sings the Blues",
+      "description": "Provided to YouTube by Rhino\n\nFurry Sings the Blues · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nDrums: John Guerin\nVocals: Joni Mitchell\nGuitar: Larry Carlton\nBass  Guitar: Max Bennett\nHarmonica: Neil Young\nHorn: Tom Scott\nPercussion: Victor Feldman\nW",
+      "duration": 307,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=10DtMv_0MqA",
+      "title": "A Strange Boy",
+      "description": "Provided to YouTube by Rhino\n\nA Strange Boy · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nPercussion: Bobbye Hall\nVocals: Joni Mitchell\nGuitar: Larry Carlton\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 260,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=3V6Qq1QHttI",
+      "title": "Hejira",
+      "description": "Provided to YouTube by Rhino\n\nHejira · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nClarinet: Abe Most\nPercussion: Bobbye Hall\nBass  Guitar: Jaco Pastorius\nGuitar, Vocals: Joni Mitchell\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 403,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ON3SPq2w1pA",
+      "title": "Song for Sharon",
+      "description": "Provided to YouTube by Rhino\n\nSong for Sharon · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nDrums: John Guerin\nVocals: Joni Mitchell\nBass  Guitar: Max Bennett\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 518,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=cuxJm33eGHU",
+      "title": "Black Crow",
+      "description": "Provided to YouTube by Rhino\n\nBlack Crow · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nBass  Guitar: Jaco Pastorius\nAcoustic  Guitar: Joni Mitchell\nVocals: Joni Mitchell\nGuitar: Larry Carlton\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 263,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4Raw8Hmlj4c",
+      "title": "Blue Motel Room",
+      "description": "Provided to YouTube by Rhino\n\nBlue Motel Room · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nBass  Guitar: Chuck Domanico\nDrums: John Guerin\nElectric  Guitar: Joni Mitchell\nVocals: Joni Mitchell\nGuitar: Larry Carlton\nWriter: Joni Mitchell\n\nAuto-generated",
+      "duration": 305,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=VfLH0xJByiI",
+      "title": "Refuge of the Roads",
+      "description": "Provided to YouTube by Rhino\n\nRefuge of the Roads · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nHorn: Chuck Findley\nBass  Guitar: Jaco Pastorius\nDrums: John Guerin\nGuitar, Vocals: Joni Mitchell\nHorn: Tom Scott\nWriter: Joni Mitchell\n\nAuto-generated by Yo",
+      "duration": 403,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=i4KBohkaHDE",
+      "title": "Coyote",
+      "description": "Provided to YouTube by Rhino\n\nCoyote · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nPercussion: Bobbye Hall\nBass  Guitar: Jaco Pastorius\nAcoustic  Guitar: Joni Mitchell\nVocals: Joni Mitchell\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 302,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=BsWVRN8DDjs",
+      "title": "Amelia",
+      "description": "Provided to YouTube by Rhino\n\nAmelia · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nGuitar, Vocals: Joni Mitchell\nElectric  Guitar: Larry Carlton\nPercussion: Victor Feldman\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 362,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=1BF4nnl4c0I",
+      "title": "Furry Sings the Blues",
+      "description": "Provided to YouTube by Rhino\n\nFurry Sings the Blues · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nDrums: John Guerin\nVocals: Joni Mitchell\nGuitar: Larry Carlton\nBass  Guitar: Max Bennett\nHarmonica: Neil Young\nHorn: Tom Scott\nPercussion: Victor Feldman\nW",
+      "duration": 307,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=10DtMv_0MqA",
+      "title": "A Strange Boy",
+      "description": "Provided to YouTube by Rhino\n\nA Strange Boy · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nPercussion: Bobbye Hall\nVocals: Joni Mitchell\nGuitar: Larry Carlton\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 260,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=3V6Qq1QHttI",
+      "title": "Hejira",
+      "description": "Provided to YouTube by Rhino\n\nHejira · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nClarinet: Abe Most\nPercussion: Bobbye Hall\nBass  Guitar: Jaco Pastorius\nGuitar, Vocals: Joni Mitchell\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 403,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ON3SPq2w1pA",
+      "title": "Song for Sharon",
+      "description": "Provided to YouTube by Rhino\n\nSong for Sharon · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nDrums: John Guerin\nVocals: Joni Mitchell\nBass  Guitar: Max Bennett\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 518,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=cuxJm33eGHU",
+      "title": "Black Crow",
+      "description": "Provided to YouTube by Rhino\n\nBlack Crow · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nBass  Guitar: Jaco Pastorius\nAcoustic  Guitar: Joni Mitchell\nVocals: Joni Mitchell\nGuitar: Larry Carlton\nWriter: Joni Mitchell\n\nAuto-generated by YouTube.",
+      "duration": 263,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4Raw8Hmlj4c",
+      "title": "Blue Motel Room",
+      "description": "Provided to YouTube by Rhino\n\nBlue Motel Room · Joni Mitchell\n\nHejira\n\n℗ 1976 Asylum Records\n\nBass  Guitar: Chuck Domanico\nDrums: John Guerin\nElectric  Guitar: Joni Mitchell\nVocals: Joni Mitchell\nGuitar: Larry Carlton\nWriter: Joni Mitchell\n\nAuto-generated",
+      "duration": 305,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Jazz",
+    "Rock"
+  ],
+  "styles": [
+    "Acoustic",
+    "Soft Rock",
+    "Folk Rock"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Coyote",
+      "extraartists": [
+        {
+          "name": "Jaco Pastorius",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 10616,
+          "resource_url": "https://api.discogs.com/artists/10616"
+        },
+        {
+          "name": "Larry Carlton",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 258119,
+          "resource_url": "https://api.discogs.com/artists/258119"
+        },
+        {
+          "name": "Bobbye Hall",
+          "anv": "",
+          "join": "",
+          "role": "Percussion",
+          "tracks": "",
+          "id": 259384,
+          "resource_url": "https://api.discogs.com/artists/259384"
+        }
+      ],
+      "duration": "5:00"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Amelia",
+      "extraartists": [
+        {
+          "name": "Larry Carlton",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 258119,
+          "resource_url": "https://api.discogs.com/artists/258119"
+        },
+        {
+          "name": "Victor Feldman",
+          "anv": "",
+          "join": "",
+          "role": "Vibraphone",
+          "tracks": "",
+          "id": 255752,
+          "resource_url": "https://api.discogs.com/artists/255752"
+        }
+      ],
+      "duration": "6:00"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Furry Sings The Blues",
+      "extraartists": [
+        {
+          "name": "Max Bennett",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 253204,
+          "resource_url": "https://api.discogs.com/artists/253204"
+        },
+        {
+          "name": "Neil Young",
+          "anv": "",
+          "join": "",
+          "role": "Harmonica",
+          "tracks": "",
+          "id": 138556,
+          "resource_url": "https://api.discogs.com/artists/138556"
+        },
+        {
+          "name": "Larry Carlton",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 258119,
+          "resource_url": "https://api.discogs.com/artists/258119"
+        }
+      ],
+      "duration": "5:03"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "A Strange Boy",
+      "extraartists": [
+        {
+          "name": "Larry Carlton",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 258119,
+          "resource_url": "https://api.discogs.com/artists/258119"
+        },
+        {
+          "name": "Bobbye Hall",
+          "anv": "",
+          "join": "",
+          "role": "Percussion",
+          "tracks": "",
+          "id": 259384,
+          "resource_url": "https://api.discogs.com/artists/259384"
+        }
+      ],
+      "duration": "4:15"
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Hejira",
+      "extraartists": [
+        {
+          "name": "Jaco Pastorius",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 10616,
+          "resource_url": "https://api.discogs.com/artists/10616"
+        },
+        {
+          "name": "Abe Most",
+          "anv": "",
+          "join": "",
+          "role": "Clarinet",
+          "tracks": "",
+          "id": 541760,
+          "resource_url": "https://api.discogs.com/artists/541760"
+        },
+        {
+          "name": "Larry Carlton",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 258119,
+          "resource_url": "https://api.discogs.com/artists/258119"
+        },
+        {
+          "name": "Bobbye Hall",
+          "anv": "",
+          "join": "",
+          "role": "Percussion",
+          "tracks": "",
+          "id": 259384,
+          "resource_url": "https://api.discogs.com/artists/259384"
+        }
+      ],
+      "duration": "6:35"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Song For Sharon",
+      "extraartists": [
+        {
+          "name": "Max Bennett",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 253204,
+          "resource_url": "https://api.discogs.com/artists/253204"
+        },
+        {
+          "name": "John Guerin",
+          "anv": "",
+          "join": "",
+          "role": "Drums",
+          "tracks": "",
+          "id": 253201,
+          "resource_url": "https://api.discogs.com/artists/253201"
+        }
+      ],
+      "duration": "8:30"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Black Crow",
+      "extraartists": [
+        {
+          "name": "Jaco Pastorius",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 10616,
+          "resource_url": "https://api.discogs.com/artists/10616"
+        },
+        {
+          "name": "Larry Carlton",
+          "anv": "",
+          "join": "",
+          "role": "Lead Guitar",
+          "tracks": "",
+          "id": 258119,
+          "resource_url": "https://api.discogs.com/artists/258119"
+        }
+      ],
+      "duration": "4:20"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Blue Motel Room",
+      "extraartists": [
+        {
+          "name": "Larry Carlton",
+          "anv": "",
+          "join": "",
+          "role": "Acoustic Guitar",
+          "tracks": "",
+          "id": 258119,
+          "resource_url": "https://api.discogs.com/artists/258119"
+        },
+        {
+          "name": "Chuck Domanico",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 311414,
+          "resource_url": "https://api.discogs.com/artists/311414"
+        },
+        {
+          "name": "John Guerin",
+          "anv": "",
+          "join": "",
+          "role": "Drums",
+          "tracks": "",
+          "id": 253201,
+          "resource_url": "https://api.discogs.com/artists/253201"
+        },
+        {
+          "name": "Joni Mitchell",
+          "anv": "",
+          "join": "",
+          "role": "Electric Guitar",
+          "tracks": "",
+          "id": 90233,
+          "resource_url": "https://api.discogs.com/artists/90233"
+        }
+      ],
+      "duration": "5:03"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Refuge Of The Roads",
+      "extraartists": [
+        {
+          "name": "Jaco Pastorius",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 10616,
+          "resource_url": "https://api.discogs.com/artists/10616"
+        },
+        {
+          "name": "John Guerin",
+          "anv": "",
+          "join": "",
+          "role": "Drums",
+          "tracks": "",
+          "id": 253201,
+          "resource_url": "https://api.discogs.com/artists/253201"
+        },
+        {
+          "name": "Chuck Findley",
+          "anv": "",
+          "join": "",
+          "role": "Horns",
+          "tracks": "",
+          "id": 280033,
+          "resource_url": "https://api.discogs.com/artists/280033"
+        },
+        {
+          "name": "Tom Scott",
+          "anv": "",
+          "join": "",
+          "role": "Horns",
+          "tracks": "",
+          "id": 69621,
+          "resource_url": "https://api.discogs.com/artists/69621"
+        }
+      ],
+      "duration": "6:37"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Keith Williamson",
+      "anv": "",
+      "join": "",
+      "role": "Art Direction",
+      "tracks": "",
+      "id": 2263712,
+      "resource_url": "https://api.discogs.com/artists/2263712"
+    },
+    {
+      "name": "Joni Mitchell",
+      "anv": "",
+      "join": "",
+      "role": "Cover, Design",
+      "tracks": "",
+      "id": 90233,
+      "resource_url": "https://api.discogs.com/artists/90233"
+    },
+    {
+      "name": "Bernie Grundman",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 307942,
+      "resource_url": "https://api.discogs.com/artists/307942"
+    },
+    {
+      "name": "Joel Bernstein",
+      "anv": "",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 308198,
+      "resource_url": "https://api.discogs.com/artists/308198"
+    },
+    {
+      "name": "Norman Seeff",
+      "anv": "",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 1170513,
+      "resource_url": "https://api.discogs.com/artists/1170513"
+    },
+    {
+      "name": "Steve Katz (2)",
+      "anv": "",
+      "join": "",
+      "role": "Recorded By, Producer [Assistant]",
+      "tracks": "",
+      "id": 1383724,
+      "resource_url": "https://api.discogs.com/artists/1383724"
+    },
+    {
+      "name": "Henry Lewy",
+      "anv": "",
+      "join": "",
+      "role": "Recorded By, Producer, Mixed By",
+      "tracks": "",
+      "id": 259822,
+      "resource_url": "https://api.discogs.com/artists/259822"
+    },
+    {
+      "name": "Joni Mitchell",
+      "anv": "",
+      "join": "",
+      "role": "Written-By, Vocals, Guitar",
+      "tracks": "",
+      "id": 90233,
+      "resource_url": "https://api.discogs.com/artists/90233"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/VOLirf5O15_wfQOjkIYDMDyIFPrkP-u-9LPtdrePm7Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc3/LTg3ODYuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/VOLirf5O15_wfQOjkIYDMDyIFPrkP-u-9LPtdrePm7Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc3/LTg3ODYuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/XounmNERfznOATzNMtqQy_x8McuRMQhEuLpsN3meXHA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc3/LTg3ODYuanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/QCYTL4Jv5UghK3e_Z0GXLZ0R-RoYlIU4LTaxuzF6zxk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTkzNjIuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/QCYTL4Jv5UghK3e_Z0GXLZ0R-RoYlIU4LTaxuzF6zxk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTkzNjIuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/TpWAmKgnVPpL8bpvdzXLQXVztUhOpKEWWA192Rijock/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTkzNjIuanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/lWbDMa5iSevuf67RAeH3jfUl7miZR07GPx0jFsgQCMk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTE2MjMuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/lWbDMa5iSevuf67RAeH3jfUl7miZR07GPx0jFsgQCMk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTE2MjMuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/jmg_8p2TZHjAMYiw6G1AuoMJCpV0khUkyYILykZ-8Dc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTE2MjMuanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Nb9GROqJEiY1-5ZUcBFm4dofLIilaur5zJohGPA7CG8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTQyOTguanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/Nb9GROqJEiY1-5ZUcBFm4dofLIilaur5zJohGPA7CG8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTQyOTguanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/dSS1GkuGrhbfQ4Zxo7BZFGHX9U0pj6hqPamS1I8qe_Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTQyOTguanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/4t_d6inulDkBoqdVfR_y3vfjDkwR5kqIwSV14vAjBoQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc4/LTQ2OTcuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/4t_d6inulDkBoqdVfR_y3vfjDkwR5kqIwSV14vAjBoQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc4/LTQ2OTcuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/yCUsGEv_uX5soCaFclYRSjM7tis8qa9XO_clGnTX8Ww/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc4/LTQ2OTcuanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/z-8vPQXpZ7rQfI8gURm2vYJBLTPGnuevUrCrL99ic10/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc4/LTQyMzEuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/z-8vPQXpZ7rQfI8gURm2vYJBLTPGnuevUrCrL99ic10/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc4/LTQyMzEuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/BL0l4Ymb_oW2gJw_YA_FLUeK3diZ2g458E9Sfsftvfc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc4/LTQyMzEuanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/pGtUG2HCDoc40fy6gTh07Ai9hgQfF42HgnBwsP0J_lo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc3/LTYwNjcuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/pGtUG2HCDoc40fy6gTh07Ai9hgQfF42HgnBwsP0J_lo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc3/LTYwNjcuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/I3ytnFmEJ4sve_dPI4bO5FnwJ8G5mvHHuPS7Y_tJlUk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc3/LTYwNjcuanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/IhO5H9XKuZplf_zMRRVCvZAmLothXmZGu8jOkkSQNJc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTIyNjIuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/IhO5H9XKuZplf_zMRRVCvZAmLothXmZGu8jOkkSQNJc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTIyNjIuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/-cVfQKNY43PI50k9LPbtcaeuB8YCiu1LjIdpSTfJp_0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc2/LTIyNjIuanBlZw.jpeg",
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/XounmNERfznOATzNMtqQy_x8McuRMQhEuLpsN3meXHA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MDMy/My0xNjU0MzUxMzc3/LTg3ODYuanBlZw.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

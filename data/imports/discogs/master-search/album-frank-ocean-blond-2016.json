@@ -1,0 +1,53 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Frank+Ocean&release_title=Blond&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "Unknown",
+      "year": "2016",
+      "format": [
+        "File",
+        "AAC",
+        "Album"
+      ],
+      "label": [
+        "Boys Don't Cry",
+        "Boys Don't Cry"
+      ],
+      "type": "master",
+      "genre": [
+        "Hip Hop",
+        "Funk / Soul",
+        "Pop"
+      ],
+      "style": [
+        "Contemporary R&B",
+        "Psychedelic",
+        "Neo Soul"
+      ],
+      "id": 1046042,
+      "barcode": [
+        "1146195596"
+      ],
+      "master_id": 1046042,
+      "master_url": "https://api.discogs.com/masters/1046042",
+      "uri": "/master/1046042-Frank-Ocean-Blonde",
+      "catno": "none",
+      "title": "Frank Ocean - Blonde",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1046042",
+      "community": {
+        "want": 92954,
+        "have": 72382
+      }
+    }
+  ]
+}

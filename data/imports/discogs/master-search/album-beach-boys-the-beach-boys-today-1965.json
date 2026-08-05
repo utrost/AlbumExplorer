@@ -1,0 +1,103 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=The+Beach+Boys&release_title=The+Beach+Boys+Today%21&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1965",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "label": [
+        "Capitol Records",
+        "Capitol Records",
+        "Capitol Records, Inc.",
+        "Decca Records Pressing Plant, Pinckneyville"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "style": [
+        "Surf",
+        "Pop Rock"
+      ],
+      "id": 268265,
+      "barcode": [
+        "T1-2269-T4 P",
+        "T2-2269-T4 P",
+        "T1-2269-T12P",
+        "T2-2269-110P",
+        "T1-2269-P3P",
+        "T2-2269-T4P",
+        "T1-2269-P3P",
+        "T2-2269-P3P"
+      ],
+      "master_id": 268265,
+      "master_url": "https://api.discogs.com/masters/268265",
+      "uri": "/master/268265-The-Beach-Boys-The-Beach-Boys-Today",
+      "catno": "T 2269",
+      "title": "The Beach Boys - The Beach Boys Today!",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/268265",
+      "community": {
+        "want": 17337,
+        "have": 22262
+      }
+    },
+    {
+      "country": "Europe",
+      "year": "1990",
+      "format": [
+        "Cassette",
+        "Compilation",
+        "Stereo",
+        "Mono"
+      ],
+      "label": [
+        "Capitol Records",
+        "EMI",
+        "Capitol Records, Inc.",
+        "Capitol Records, Inc."
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "style": [
+        "Surf",
+        "Pop Rock"
+      ],
+      "id": 907008,
+      "barcode": [
+        "0 77779 36944 7",
+        "SDRM BIEM"
+      ],
+      "master_id": 907008,
+      "master_url": "https://api.discogs.com/masters/907008",
+      "uri": "/master/907008-The-Beach-Boys-The-Beach-Boys-Today-Summer-Days-And-Summer-Nights",
+      "catno": "238 7 93694 4",
+      "title": "The Beach Boys - The Beach Boys Today! / Summer Days (And Summer Nights!!)",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/907008",
+      "community": {
+        "want": 41,
+        "have": 225
+      }
+    }
+  ]
+}

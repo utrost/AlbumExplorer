@@ -1,0 +1,87 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Eminem&release_title=The+Slim+Shady+LP&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1999",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "label": [
+        "Aftermath Entertainment",
+        "Interscope Records"
+      ],
+      "type": "master",
+      "genre": [
+        "Hip Hop"
+      ],
+      "style": [
+        "Hardcore Hip-Hop",
+        "Horrorcore"
+      ],
+      "id": 12172,
+      "barcode": [
+        "6 06949 02871 8",
+        "0606949028718",
+        "INT 90 287 AI, OR",
+        "INT 90287 BI, OR",
+        "INT 90287 CI, OR",
+        "INT 90287 DI, OR"
+      ],
+      "master_id": 12172,
+      "master_url": "https://api.discogs.com/masters/12172",
+      "uri": "/master/12172-Eminem-The-Slim-Shady-LP",
+      "catno": "INT2-90287",
+      "title": "Eminem - The Slim Shady LP",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/12172",
+      "community": {
+        "want": 41200,
+        "have": 54524
+      }
+    },
+    {
+      "country": "US",
+      "year": "1998",
+      "format": [
+        "Cassette",
+        "Promo"
+      ],
+      "label": [
+        "Interscope Records",
+        "Aftermath Entertainment",
+        "Web Entertainment"
+      ],
+      "type": "master",
+      "genre": [
+        "Hip Hop"
+      ],
+      "style": [],
+      "id": 548379,
+      "barcode": [],
+      "master_id": 548379,
+      "master_url": "https://api.discogs.com/masters/548379",
+      "uri": "/master/548379-Eminem-Snippets-From-The-Forthcoming-Slim-Shady-LP",
+      "catno": "INT9P-6451",
+      "title": "Eminem - Snippets From The Forthcoming Slim Shady LP",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/548379",
+      "community": {
+        "want": 226,
+        "have": 171
+      }
+    }
+  ]
+}

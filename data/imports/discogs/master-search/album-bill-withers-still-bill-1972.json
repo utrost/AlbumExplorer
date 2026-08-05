@@ -1,0 +1,97 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Bill+Withers&release_title=Still+Bill&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1972",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "label": [
+        "Sussex",
+        "Sussex Records, Inc.",
+        "Viewlex, Inc.",
+        "Buddah Records, Inc.",
+        "Buddah Records",
+        "Sussex Records, Inc.",
+        "Sussex Records, Inc.",
+        "American Record Pressing Co.",
+        "Record Plant, Los Angeles",
+        "Sterling Sound",
+        "Interior Music"
+      ],
+      "type": "master",
+      "genre": [
+        "Funk / Soul"
+      ],
+      "style": [
+        "Soul",
+        "Funk"
+      ],
+      "id": 92896,
+      "barcode": [
+        "SXBS 7014 A",
+        "SXBS 7014 B",
+        "SXBS-7014-A-3 ARP STERLING",
+        "SXBS-7014-B-3 ARP STERLING",
+        "BMI"
+      ],
+      "master_id": 92896,
+      "master_url": "https://api.discogs.com/masters/92896",
+      "uri": "/master/92896-Bill-Withers-Still-Bill",
+      "catno": "SXBS 7014",
+      "title": "Bill Withers - Still Bill",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/92896",
+      "community": {
+        "want": 24863,
+        "have": 22555
+      }
+    },
+    {
+      "country": "US",
+      "year": "2011",
+      "format": [
+        "DVD",
+        "DVD-Video",
+        "NTSC"
+      ],
+      "label": [
+        "Docuramafilms"
+      ],
+      "type": "master",
+      "genre": [
+        "Funk / Soul"
+      ],
+      "style": [],
+      "id": 1100209,
+      "barcode": [
+        "767685237311"
+      ],
+      "master_id": 1100209,
+      "master_url": "https://api.discogs.com/masters/1100209",
+      "uri": "/master/1100209-Bill-Withers-Still-Bill",
+      "catno": "NNVG237310",
+      "title": "Bill Withers - Still Bill",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1100209",
+      "community": {
+        "want": 25,
+        "have": 17
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=TLC&release_title=CrazySexyCool&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1994",
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "label": [
+        "LaFace Records",
+        "LaFace Records",
+        "LaFace Records",
+        "Arista Records",
+        "Arista Records",
+        "Sonopress USA"
+      ],
+      "type": "master",
+      "genre": [
+        "Funk / Soul"
+      ],
+      "style": [
+        "Contemporary R&B"
+      ],
+      "id": 51777,
+      "barcode": [
+        "73008-26009-2 7",
+        "730082600927",
+        "SONOPRESS USA 51218-01 + + 73008260092",
+        "none",
+        "IFPI 1002",
+        "IFPI 1007",
+        "IFPI 1004",
+        "IFPI 1030"
+      ],
+      "master_id": 51777,
+      "master_url": "https://api.discogs.com/masters/51777",
+      "uri": "/master/51777-TLC-CrazySexyCool",
+      "catno": "73008-26009-2",
+      "title": "TLC - CrazySexyCool",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/51777",
+      "community": {
+        "want": 11610,
+        "have": 26075
+      }
+    }
+  ]
+}

@@ -11,7 +11,7 @@ const DEFAULT_USER_AGENT = 'AlbumExplorer/0.1.0 (https://github.com/utrost/Album
 const DISCOGS_BASE_URL = 'https://api.discogs.com';
 
 const [, , comparisonPath = 'data/rolling-stone-comparison.json', outputPath = 'data/enrichment/album-credit-candidates.json', ...args] = process.argv;
-const limit = numericOption(args, '--limit') ?? 25;
+const limit = numericOption(args, '--limit');
 const delayMs = numericOption(args, '--delay-ms') ?? 1100;
 const retryCount = numericOption(args, '--retries') ?? 4;
 const retryDelayMs = numericOption(args, '--retry-delay-ms') ?? 15000;
@@ -22,7 +22,7 @@ const userAgent = option(args, '--user-agent') ?? DEFAULT_USER_AGENT;
 const comparison = JSON.parse(readFileSync(comparisonPath, 'utf8'));
 const overrideData = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, 'utf8')) : { overrides: [] };
 const overrides = buildDiscogsMasterOverrideMap(overrideData);
-const albums = (comparison.albums ?? []).slice(0, limit);
+const albums = (comparison.albums ?? []).slice(0, limit ?? Infinity);
 const searchDir = join(cacheDir, 'master-search');
 const masterDir = join(cacheDir, 'masters');
 const releaseDir = join(cacheDir, 'releases');
@@ -39,7 +39,12 @@ let networkFetches = 0;
 for (let index = 0; index < albums.length; index += 1) {
   const album = albums[index];
   const searchCachePath = join(searchDir, `${album.id}.json`);
-  const search = await fetchOrReadJson(searchCachePath, discogsSearchUrl(album));
+  const search = await fetchOrReadJsonOrNull(searchCachePath, discogsSearchUrl(album));
+  if (!search) {
+    review.push(reviewItem(album, 'discogs-search-fetch-failed', []));
+    console.log(`${index + 1}/${albums.length} review ${album.artist} — ${album.album}`);
+    continue;
+  }
   const selected = selectDiscogsMasterForAlbum(album, search.results ?? [], overrides);
 
   if (selected.status === 'gap') {
@@ -55,7 +60,13 @@ for (let index = 0; index < albums.length; index += 1) {
 
   const masterId = String(selected.result.master_id ?? selected.result.id);
   const masterCachePath = join(masterDir, `${masterId}.json`);
-  const master = await fetchOrReadJson(masterCachePath, selected.result.master_url ?? `${DISCOGS_BASE_URL}/masters/${masterId}`);
+  const master = await fetchOrReadJsonOrNull(masterCachePath, selected.result.master_url ?? `${DISCOGS_BASE_URL}/masters/${masterId}`);
+  if (!master) {
+    review.push(reviewItem(album, 'discogs-master-fetch-failed', [selected.result]));
+    console.log(`${index + 1}/${albums.length} review ${album.artist} — ${album.album}`);
+    continue;
+  }
+
   const releaseUrl = master.main_release_url ?? master.most_recent_release_url;
   const releaseId = String(master.main_release ?? master.most_recent_release ?? 'unknown');
   if (!releaseUrl || releaseId === 'unknown') {
@@ -65,7 +76,13 @@ for (let index = 0; index < albums.length; index += 1) {
   }
 
   const releaseCachePath = join(releaseDir, `${releaseId}.json`);
-  const release = await fetchOrReadJson(releaseCachePath, releaseUrl);
+  const release = await fetchOrReadJsonOrNull(releaseCachePath, releaseUrl);
+  if (!release) {
+    review.push(reviewItem(album, 'discogs-release-fetch-failed', [selected.result]));
+    console.log(`${index + 1}/${albums.length} review ${album.artist} — ${album.album}`);
+    continue;
+  }
+
   mastersByAlbumId.set(album.id, { master: release, cachePath: releaseCachePath });
   console.log(`${index + 1}/${albums.length} cached ${album.artist} — ${album.album}`);
 }
@@ -86,7 +103,7 @@ const output = {
   },
   scope: {
     comparisonPath,
-    selection: `first ${albums.length} comparison albums sorted by latest edition rank`,
+    selection: limit ? `first ${albums.length} comparison albums sorted by latest edition rank` : 'all comparison albums sorted by latest edition rank',
     albumCount: albums.length
   },
   candidates: generated.candidates.map((candidate) => ({
@@ -106,13 +123,22 @@ console.log(`Network fetches: ${networkFetches}`);
 console.log(`Output: ${outputPath}`);
 console.log(`Raw cache: ${cacheDir}`);
 
-async function fetchOrReadJson(cachePath, url) {
+async function fetchOrReadJsonOrNull(cachePath, url) {
   if (existsSync(cachePath)) return JSON.parse(readFileSync(cachePath, 'utf8'));
   if (networkFetches > 0) await sleep(delayMs);
   const response = await fetchWithRetry(url, { headers: { 'User-Agent': userAgent, Accept: 'application/json' } });
-  if (!response.ok) throw new Error(`Discogs request failed for ${url}: ${response.status} ${response.statusText}`);
+  if (!response.ok) {
+    console.warn(`Discogs request failed for ${url}: ${response.status} ${response.statusText}`);
+    return null;
+  }
   const data = await response.json();
   writeFileSync(cachePath, `${JSON.stringify({ fetchedAt: null, url, ...data }, null, 2)}\n`, 'utf8');
+  return data;
+}
+
+async function fetchOrReadJson(cachePath, url) {
+  const data = await fetchOrReadJsonOrNull(cachePath, url);
+  if (!data) throw new Error(`Discogs request failed for ${url}`);
   return data;
 }
 

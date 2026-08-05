@@ -1,0 +1,656 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/releases/8684811",
+  "id": 8684811,
+  "status": "Accepted",
+  "year": 1970,
+  "resource_url": "https://api.discogs.com/releases/8684811",
+  "uri": "https://www.discogs.com/release/8684811-The-Grateful-Dead-Workingmans-Dead",
+  "artists": [
+    {
+      "name": "The Grateful Dead",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 246650,
+      "resource_url": "https://api.discogs.com/artists/246650",
+      "thumbnail_url": "https://i.discogs.com/bAbVGWBQpA6z3yZA7bTLIGpOMYFug0N8XCkeSOp7oH0/rs:fit/g:sm/q:90/h:600/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjY1/MC0xMTQzOTAzNTEw/LmpwZWc.jpeg"
+    }
+  ],
+  "artists_sort": "Grateful Dead, The",
+  "labels": [
+    {
+      "name": "Warner Bros. Records",
+      "catno": "WS 1869",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 1000,
+      "resource_url": "https://api.discogs.com/labels/1000",
+      "thumbnail_url": "https://i.discogs.com/GO-baqlieZvkZypxRJOHC9sgGPzAinoiWBc7_LwuZ10/rs:fit/g:sm/q:90/h:358/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEwMDAt/MTY0NDg3NDIwMS01/ODI0LmpwZWc.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Pacific High Recording",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 947069,
+      "resource_url": "https://api.discogs.com/labels/947069",
+      "thumbnail_url": "https://i.discogs.com/hmD51IxgBLORl9lNIkkYus3d7c3jAGIwWGC7riBxyEU/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTk0NzA2/OS0xNTQ5NzM5Njg4/LTc2NzMuanBlZw.jpeg"
+    },
+    {
+      "name": "Warner Bros. Records Inc.",
+      "catno": "",
+      "entity_type": "4",
+      "entity_type_name": "Record Company",
+      "id": 90718,
+      "resource_url": "https://api.discogs.com/labels/90718",
+      "thumbnail_url": "https://i.discogs.com/0p_FtS_A52grt0La9_L96khb4zeprvXbonLRFPgm9nk/rs:fit/g:sm/q:90/h:107/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTkwNzE4/LTE3NzYzNDQzMjEt/MTI2MS5qcGVn.jpeg"
+    },
+    {
+      "name": "Warner Bros. Records Inc.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 90718,
+      "resource_url": "https://api.discogs.com/labels/90718",
+      "thumbnail_url": "https://i.discogs.com/0p_FtS_A52grt0La9_L96khb4zeprvXbonLRFPgm9nk/rs:fit/g:sm/q:90/h:107/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTkwNzE4/LTE3NzYzNDQzMjEt/MTI2MS5qcGVn.jpeg"
+    },
+    {
+      "name": "Ice Nine Publishing Company, Inc.",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 385296,
+      "resource_url": "https://api.discogs.com/labels/385296",
+      "thumbnail_url": "https://i.discogs.com/FBYdZP3BFshVJdlGbSJu94aJcNo_zHyFGac4CEeku-A/rs:fit/g:sm/q:90/h:600/w:564/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM4NTI5/Ni0xMzgyNDc0NTE3/LTQ2NDUuZ2lm.jpeg"
+    },
+    {
+      "name": "Artisan Sound Recorders",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 267310,
+      "resource_url": "https://api.discogs.com/labels/267310",
+      "thumbnail_url": "https://i.discogs.com/cC642yFOUYkhedsG2ga2aJbls_pKHjleXiAyzOV1VR4/rs:fit/g:sm/q:90/h:147/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NzMx/MC0xNjQ3NTU4OTM3/LTU4ODAuanBlZw.jpeg"
+    },
+    {
+      "name": "Columbia Records Pressing Plant, Terre Haute",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 403953,
+      "resource_url": "https://api.discogs.com/labels/403953",
+      "thumbnail_url": "https://i.discogs.com/i9COc0khH_6oSgg-Kg_tg3U_kwj17neHrx-YaCUHfNM/rs:fit/g:sm/q:90/h:168/w:542/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQwMzk1/My0xNzYyNzM2MDQy/LTk2MzQuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album"
+      ],
+      "text": "Terre Haute Pressing, No Exec Prod Credit, Artisan"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 4476,
+    "want": 1187,
+    "rating": {
+      "count": 181,
+      "average": 4.31
+    },
+    "submitter": {
+      "username": "joejags2000",
+      "resource_url": "https://api.discogs.com/users/joejags2000"
+    },
+    "contributors": [
+      {
+        "username": "joejags2000",
+        "resource_url": "https://api.discogs.com/users/joejags2000"
+      },
+      {
+        "username": "Tarantxon",
+        "resource_url": "https://api.discogs.com/users/Tarantxon"
+      },
+      {
+        "username": "Cornbread55",
+        "resource_url": "https://api.discogs.com/users/Cornbread55"
+      },
+      {
+        "username": "bomber501",
+        "resource_url": "https://api.discogs.com/users/bomber501"
+      },
+      {
+        "username": "RussellJG3161",
+        "resource_url": "https://api.discogs.com/users/RussellJG3161"
+      },
+      {
+        "username": "Vintage_Buy_Sell",
+        "resource_url": "https://api.discogs.com/users/Vintage_Buy_Sell"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2016-06-21T22:37:33-07:00",
+  "date_changed": "2026-03-30T07:43:12-07:00",
+  "num_for_sale": 17,
+  "lowest_price": 13.21,
+  "master_id": 18489,
+  "master_url": "https://api.discogs.com/masters/18489",
+  "title": "Workingman's Dead",
+  "country": "US",
+  "released": "1970-06-14",
+  "notes": "Earlier label and pressing variation. Green label pressing with 'WB' logo, pressed by [l403953] as indicated by 'T 1' in runouts.\n\nLabels state \"Produced by Bob Matthews and Betty Cantor in association with the Grateful Dead\" but does not have Executive Producer credit. Includes [l267310] logo stamped in runout. \n\nDiffers from [r=5180677] which has \"Executive Producer: Bob Matthews\" text on labels and 'KD' in runout etchings.\n\nRough textured cardboard cover, with rear slick pasted on upside down.\n\nAll selections Ice Nine Publishing Company (ASCAP)\n\nRecorded at Pacific High Recording Studio, San Francisco. Engineered by Alembic.\n\nFrom rear cover:\nWarner Bros. Records Inc., a Subsidiary & Licensee of Warner Bros. Inc., 4000 Warner Blvd., Burbank, Calif. · 488 Madison Ave., New York, N.Y. Made in U.S.A. © 1970 - Warner Bros. Records Inc.",
+  "released_formatted": "14 Jun 1970",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
+      "type": "Pressing Plant ID",
+      "value": "T",
+      "description": "In runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S39719",
+      "description": "Label side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "S39720",
+      "description": "Label side B"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "WS-1869 T 1 39719-2-1 [Artisan logo]",
+      "description": "Runout side A, etched - variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "WS-1869 T 1 39720-2-1 [Artisan logo]",
+      "description": "Runout side B, etched - variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "WS-1869 T 1 39719-2 [Artisan logo] B3",
+      "description": "Runout side A, etched, 'B' stamped - variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "WS-1869 T 1 39720-2-1 [Artisan logo] B15",
+      "description": "Runout side B, etched, 'B' stamped - variant 2"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=yD1naKNQuF4",
+      "title": "Uncle John's Band (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nUncle John's Band (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob W",
+      "duration": 285,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=81r-SEJn6-g",
+      "title": "High Time (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nHigh Time (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBanj",
+      "duration": 316,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=sBua6awzByg",
+      "title": "Dire Wolf (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nDire Wolf (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBanj",
+      "duration": 195,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=fm_YX6LKf0g",
+      "title": "New Speedway Boogie (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nNew Speedway Boogie (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob",
+      "duration": 247,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Sd7ckqwjuvI",
+      "title": "Cumberland Blues (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nCumberland Blues (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar: Bob Weir\nProducer: Bob Weir\nLead ",
+      "duration": 198,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4GwMCzAe2-E",
+      "title": "Black Peter (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nBlack Peter (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBa",
+      "duration": 344,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=mYLjqyKLIHc",
+      "title": "Easy Wind (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nEasy Wind (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBanj",
+      "duration": 300,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=jbcbhnrEzJQ",
+      "title": "Casey Jones (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nCasey Jones (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBa",
+      "duration": 266,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=yD1naKNQuF4",
+      "title": "Uncle John's Band (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nUncle John's Band (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob W",
+      "duration": 285,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=81r-SEJn6-g",
+      "title": "High Time (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nHigh Time (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBanj",
+      "duration": 316,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=sBua6awzByg",
+      "title": "Dire Wolf (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nDire Wolf (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBanj",
+      "duration": 195,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=fm_YX6LKf0g",
+      "title": "New Speedway Boogie (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nNew Speedway Boogie (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob",
+      "duration": 247,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Sd7ckqwjuvI",
+      "title": "Cumberland Blues (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nCumberland Blues (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar: Bob Weir\nProducer: Bob Weir\nLead ",
+      "duration": 198,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4GwMCzAe2-E",
+      "title": "Black Peter (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nBlack Peter (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBa",
+      "duration": 344,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=mYLjqyKLIHc",
+      "title": "Easy Wind (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nEasy Wind (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBanj",
+      "duration": 300,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=jbcbhnrEzJQ",
+      "title": "Casey Jones (2013 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nCasey Jones (2013 Remaster) · Grateful Dead\n\nWorkingman's Dead\n\n℗ 1970 Warner Records Inc.\n\nProducer: Betty Cantor\nProducer: Bill Kreutzmann\nProducer: Bob Matthews\nGuitar, Vocals: Bob Weir\nProducer: Bob Weir\nBa",
+      "duration": 266,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Rock"
+  ],
+  "styles": [
+    "Folk Rock",
+    "Country Rock",
+    "Classic Rock"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Uncle John's Band",
+      "extraartists": [
+        {
+          "name": "Jerry Garcia",
+          "anv": "Garcia",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 259913,
+          "resource_url": "https://api.discogs.com/artists/259913"
+        },
+        {
+          "name": "Robert Hunter",
+          "anv": "Hunter",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 337575,
+          "resource_url": "https://api.discogs.com/artists/337575"
+        }
+      ],
+      "duration": "4:42"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "High Time",
+      "extraartists": [
+        {
+          "name": "Jerry Garcia",
+          "anv": "Garcia",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 259913,
+          "resource_url": "https://api.discogs.com/artists/259913"
+        },
+        {
+          "name": "Robert Hunter",
+          "anv": "Hunter",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 337575,
+          "resource_url": "https://api.discogs.com/artists/337575"
+        }
+      ],
+      "duration": "5:13"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Dire Wolf",
+      "extraartists": [
+        {
+          "name": "Jerry Garcia",
+          "anv": "Garcia",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 259913,
+          "resource_url": "https://api.discogs.com/artists/259913"
+        },
+        {
+          "name": "Robert Hunter",
+          "anv": "Hunter",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 337575,
+          "resource_url": "https://api.discogs.com/artists/337575"
+        }
+      ],
+      "duration": "3:13"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "New Speedway Boogie",
+      "extraartists": [
+        {
+          "name": "Jerry Garcia",
+          "anv": "Garcia",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 259913,
+          "resource_url": "https://api.discogs.com/artists/259913"
+        },
+        {
+          "name": "Robert Hunter",
+          "anv": "Hunter",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 337575,
+          "resource_url": "https://api.discogs.com/artists/337575"
+        }
+      ],
+      "duration": "4:05"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Cumberland Blues",
+      "extraartists": [
+        {
+          "name": "David Nelson",
+          "anv": "",
+          "join": "",
+          "role": "Acoustic Guitar",
+          "tracks": "",
+          "id": 272416,
+          "resource_url": "https://api.discogs.com/artists/272416"
+        },
+        {
+          "name": "Jerry Garcia",
+          "anv": "Garcia",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 259913,
+          "resource_url": "https://api.discogs.com/artists/259913"
+        },
+        {
+          "name": "Phil Lesh",
+          "anv": "Lesh",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 260091,
+          "resource_url": "https://api.discogs.com/artists/260091"
+        },
+        {
+          "name": "Robert Hunter",
+          "anv": "Hunter",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 337575,
+          "resource_url": "https://api.discogs.com/artists/337575"
+        }
+      ],
+      "duration": "3:15"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Black Peter",
+      "extraartists": [
+        {
+          "name": "Jerry Garcia",
+          "anv": "Garcia",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 259913,
+          "resource_url": "https://api.discogs.com/artists/259913"
+        },
+        {
+          "name": "Robert Hunter",
+          "anv": "Hunter",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 337575,
+          "resource_url": "https://api.discogs.com/artists/337575"
+        }
+      ],
+      "duration": "5:42"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Easy Wind",
+      "extraartists": [
+        {
+          "name": "Robert Hunter",
+          "anv": "Hunter",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 337575,
+          "resource_url": "https://api.discogs.com/artists/337575"
+        }
+      ],
+      "duration": "4:59"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Casey Jones",
+      "extraartists": [
+        {
+          "name": "Jerry Garcia",
+          "anv": "Garcia",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 259913,
+          "resource_url": "https://api.discogs.com/artists/259913"
+        },
+        {
+          "name": "Robert Hunter",
+          "anv": "Hunter",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 337575,
+          "resource_url": "https://api.discogs.com/artists/337575"
+        }
+      ],
+      "duration": "4:24"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Alembic",
+      "anv": "",
+      "join": "",
+      "role": "Engineer",
+      "tracks": "",
+      "id": 310431,
+      "resource_url": "https://api.discogs.com/artists/310431"
+    },
+    {
+      "name": "Robert Hunter",
+      "anv": "",
+      "join": "",
+      "role": "Lyrics By",
+      "tracks": "",
+      "id": 337575,
+      "resource_url": "https://api.discogs.com/artists/337575"
+    },
+    {
+      "name": "Jerry Garcia",
+      "anv": "Garcia",
+      "join": "",
+      "role": "Music By",
+      "tracks": "",
+      "id": 259913,
+      "resource_url": "https://api.discogs.com/artists/259913"
+    },
+    {
+      "name": "Phil Lesh",
+      "anv": "Lesh",
+      "join": "",
+      "role": "Music By",
+      "tracks": "",
+      "id": 260091,
+      "resource_url": "https://api.discogs.com/artists/260091"
+    },
+    {
+      "name": "Mouse Studios",
+      "anv": "Mouse Studios W/ Toon N Tree",
+      "join": "",
+      "role": "Photography By [Cover Photo], Artwork, Design",
+      "tracks": "",
+      "id": 2241738,
+      "resource_url": "https://api.discogs.com/artists/2241738"
+    },
+    {
+      "name": "Betty Cantor",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 269507,
+      "resource_url": "https://api.discogs.com/artists/269507"
+    },
+    {
+      "name": "Bob Matthews",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 269506,
+      "resource_url": "https://api.discogs.com/artists/269506"
+    },
+    {
+      "name": "The Grateful Dead",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 246650,
+      "resource_url": "https://api.discogs.com/artists/246650"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/OBdwzfVuhnneFv8rc8qNiNlLWQXETviVVuoCSuRyhHE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zMTkwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/OBdwzfVuhnneFv8rc8qNiNlLWQXETviVVuoCSuRyhHE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zMTkwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/ZiGdxW8b_EFgrHWoVBUYh6huIPSGelcfB_cLgLjIXqc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zMTkwLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/jkQ8u-6NcLKYboLgbgzwRuZ8L9SFTnkGiLCCOvw62tQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zNjkzLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/jkQ8u-6NcLKYboLgbgzwRuZ8L9SFTnkGiLCCOvw62tQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zNjkzLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/RxsuOdsKactQfxQigQ8Kj2VUd4lXZRaOoDFdbeEFxeg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zNjkzLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/c8xZWCLAsTh3NWBe5FFKycZSiQDtVcvTUnr_KFU7sSM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ3MjMyNTM0/OS05NzI4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/c8xZWCLAsTh3NWBe5FFKycZSiQDtVcvTUnr_KFU7sSM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ3MjMyNTM0/OS05NzI4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/iuXxPCsqvnSPYOPT6ONTPb-a2IVnOcqnknlLjGHagYo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ3MjMyNTM0/OS05NzI4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ZosGhMV2g3oQYd0AHCQVNJexyhSIvWKuHzIH4f97deQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ3MjMyNTM1/MC0zNDk1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ZosGhMV2g3oQYd0AHCQVNJexyhSIvWKuHzIH4f97deQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ3MjMyNTM1/MC0zNDk1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/fJbLs7WtJ997bYXxcLFHsP6Y4H0rx1tGdMyRXA5nEHM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ3MjMyNTM1/MC0zNDk1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/mtzo6Q29XYC-2__8iWD_6sd95D4QbDX-MaT54PvGt4E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zOTkyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/mtzo6Q29XYC-2__8iWD_6sd95D4QbDX-MaT54PvGt4E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zOTkyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/GEXhg7K9xAWLxOxMC559YgLIsyg51eCi6FDPGyrtky0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zOTkyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/ZiGdxW8b_EFgrHWoVBUYh6huIPSGelcfB_cLgLjIXqc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2ODQ4/MTEtMTQ2OTExNzcx/NS0zMTkwLmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

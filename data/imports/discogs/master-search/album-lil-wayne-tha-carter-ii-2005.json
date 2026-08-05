@@ -1,0 +1,81 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Lil+Wayne&release_title=Tha+Carter+II&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "2005",
+      "format": [
+        "File",
+        "AAC",
+        "Album"
+      ],
+      "label": [
+        "Cash Money Records"
+      ],
+      "type": "master",
+      "genre": [
+        "Hip Hop"
+      ],
+      "style": [
+        "Gangsta"
+      ],
+      "id": 93038,
+      "barcode": [],
+      "master_id": 93038,
+      "master_url": "https://api.discogs.com/masters/93038",
+      "uri": "/master/93038-Lil-Wayne-Tha-Carter-II",
+      "catno": "none",
+      "title": "Lil Wayne - Tha Carter II",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/93038",
+      "community": {
+        "want": 4724,
+        "have": 5169
+      }
+    },
+    {
+      "country": "US",
+      "year": "2008",
+      "format": [
+        "File",
+        "AAC",
+        "Album"
+      ],
+      "label": [
+        "Cash Money Records"
+      ],
+      "type": "master",
+      "genre": [
+        "Hip Hop"
+      ],
+      "style": [
+        "Pop Rap"
+      ],
+      "id": 93041,
+      "barcode": [
+        "1440737099"
+      ],
+      "master_id": 93041,
+      "master_url": "https://api.discogs.com/masters/93041",
+      "uri": "/master/93041-Lil-Wayne-Tha-Carter-III",
+      "catno": "none",
+      "title": "Lil Wayne - Tha Carter III",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/93041",
+      "community": {
+        "want": 10226,
+        "have": 15379
+      }
+    }
+  ]
+}

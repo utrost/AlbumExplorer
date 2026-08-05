@@ -1,0 +1,108 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Elvis+Presley&release_title=The+Sun+Sessions&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1976",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Compilation",
+        "Mono"
+      ],
+      "label": [
+        "RCA Victor",
+        "RCA Records",
+        "RCA Records",
+        "Sun International Corporation"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Rock & Roll"
+      ],
+      "id": 198268,
+      "barcode": [
+        "APM1-1675-A",
+        "APM1-1675-B",
+        "APM1-1675-A IS",
+        "APM1-1675-B IS",
+        "II"
+      ],
+      "master_id": 198268,
+      "master_url": "https://api.discogs.com/masters/198268",
+      "uri": "/master/198268-Elvis-Presley-The-Sun-Sessions",
+      "catno": "APM1-1675",
+      "title": "Elvis Presley - The Sun Sessions",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/198268",
+      "community": {
+        "want": 0,
+        "have": 0
+      }
+    },
+    {
+      "country": "UK & Europe",
+      "year": "1987",
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "label": [
+        "RCA",
+        "Bertelsmann Music Group",
+        "RCA Corporation",
+        "BMG Music",
+        "Memphis Recording Service",
+        "BMG Records",
+        "BMG Ariola",
+        "TOPAC",
+        "Sonopress"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Rock & Roll",
+        "Rockabilly"
+      ],
+      "id": 287032,
+      "barcode": [
+        "0 035628 641427",
+        "0035628641427",
+        "LC0316",
+        "QB",
+        "BM650",
+        "QB",
+        "BIEM",
+        "GEMA",
+        "SONOPRESS B-9823/PD 86414 A"
+      ],
+      "master_id": 287032,
+      "master_url": "https://api.discogs.com/masters/287032",
+      "uri": "/master/287032-Elvis-Presley-The-Sun-Sessions-CD-Elvis-Presley-Commemorative-Issue",
+      "catno": "PD86414",
+      "title": "Elvis Presley - The Sun Sessions CD (Elvis Presley Commemorative Issue)",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/287032",
+      "community": {
+        "want": 0,
+        "have": 0
+      }
+    }
+  ]
+}

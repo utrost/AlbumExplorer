@@ -1,0 +1,97 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Black+Uhuru&release_title=Red&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "UK",
+      "year": "1981",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "label": [
+        "Island Records",
+        "Island Records Ltd.",
+        "Island Music, Inc.",
+        "Island Records Ltd.",
+        "Channel One Recording Studio",
+        "Compass Point Studios",
+        "Compass Point Studios",
+        "The Sound Clinic",
+        "EMI Records",
+        "Rydim Music Ltd."
+      ],
+      "type": "master",
+      "genre": [
+        "Reggae"
+      ],
+      "style": [
+        "Dub",
+        "Roots Reggae"
+      ],
+      "id": 35664,
+      "barcode": [
+        "ILPS 9625 A",
+        "ILPS 9625 B",
+        "ILPS 9625 A-1U 2 3",
+        "ILPS 9625 B-4U 2 2 GRAEME - SOUND CLINIC",
+        "ILPS 9625 A-1U 2 3 1",
+        "ILPS 9625 B-1U 2 2 2 GRAEME - SOUND CLINIC"
+      ],
+      "master_id": 35664,
+      "master_url": "https://api.discogs.com/masters/35664",
+      "uri": "/master/35664-Black-Uhuru-Red",
+      "catno": "ILPS 9625",
+      "title": "Black Uhuru - Red",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/35664",
+      "community": {
+        "want": 6294,
+        "have": 11370
+      }
+    },
+    {
+      "country": "Jamaica",
+      "year": "1999",
+      "format": [
+        "Vinyl",
+        "7\"",
+        "45 RPM"
+      ],
+      "label": [
+        "Mentally Disturbed Vinyls"
+      ],
+      "type": "master",
+      "genre": [
+        "Reggae"
+      ],
+      "style": [
+        "Dancehall"
+      ],
+      "id": 843310,
+      "barcode": [],
+      "master_id": 843310,
+      "master_url": "https://api.discogs.com/masters/843310",
+      "uri": "/master/843310-Black-Uhuru-It-Ago-Red",
+      "catno": "none",
+      "title": "Black Uhuru - It Ago Red",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/843310",
+      "community": {
+        "want": 43,
+        "have": 33
+      }
+    }
+  ]
+}

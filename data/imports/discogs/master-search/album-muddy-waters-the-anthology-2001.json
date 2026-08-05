@@ -1,0 +1,108 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Muddy+Waters&release_title=The+Anthology&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "2001",
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered"
+      ],
+      "label": [
+        "MCA Records",
+        "Chess",
+        "MCA Records",
+        "MCA Records",
+        "Universal Mastering Studios West",
+        "Universal Music & Video Distribution, Corp.",
+        "Matsushita Universal Media Services",
+        "Matsushita Universal Media Services"
+      ],
+      "type": "master",
+      "genre": [
+        "Blues"
+      ],
+      "style": [
+        "Chicago Blues",
+        "Delta Blues",
+        "Electric Blues"
+      ],
+      "id": 629830,
+      "barcode": [
+        "0 08811 26492 5",
+        "008811264925",
+        "MFG BY MATSUSHITA UNIVERSAL MEDIA SERVICES 0881126502 0935124026",
+        "IFPI L771",
+        "IFPI 2A15",
+        "IFPI 2AO7",
+        "MFG BY MATSUSHITA UNIVERSAL MEDIA SERVICES 0881126512 0935223975",
+        "IFPI L771",
+        "IFPI 2A14",
+        "IFPI 2444"
+      ],
+      "master_id": 629830,
+      "master_url": "https://api.discogs.com/masters/629830",
+      "uri": "/master/629830-Muddy-Waters-The-Anthology",
+      "catno": "088 112 649-2",
+      "title": "Muddy Waters - The Anthology",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/629830",
+      "community": {
+        "want": 629,
+        "have": 1239
+      }
+    },
+    {
+      "country": "UK",
+      "year": "1991",
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "label": [
+        "Prism Leisure Corporation",
+        "Prism Leisure Corporation",
+        "Prism Leisure Corporation",
+        "Prism Leisure Corp. Plc",
+        "Prism Leisure Corp. Plc",
+        "San Juan Music",
+        "CDM",
+        "Damont"
+      ],
+      "type": "master",
+      "genre": [
+        "Blues"
+      ],
+      "style": [
+        "Chicago Blues"
+      ],
+      "id": 3435980,
+      "barcode": [
+        "5 014293 391122",
+        "DAMONT PLATCD 3911 CDM01"
+      ],
+      "master_id": 3435980,
+      "master_url": "https://api.discogs.com/masters/3435980",
+      "uri": "/master/3435980-Muddy-Waters-Anthology-The-Finest-Recordings",
+      "catno": "PLATCD 3911",
+      "title": "Muddy Waters - Anthology (The Finest Recordings)",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/3435980",
+      "community": {
+        "want": 4,
+        "have": 74
+      }
+    }
+  ]
+}

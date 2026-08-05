@@ -1,0 +1,51 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Randy+Newman&release_title=12+Songs&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1970",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "label": [
+        "Reprise Records",
+        "Warner Bros. - Seven Arts Records, Inc."
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "style": [
+        "Pop Rock"
+      ],
+      "id": 198171,
+      "barcode": [
+        "RS-6373-A1 30981",
+        "RS-6373-B1 30982"
+      ],
+      "master_id": 198171,
+      "master_url": "https://api.discogs.com/masters/198171",
+      "uri": "/master/198171-Randy-Newman-12-Songs",
+      "catno": "RS 6373",
+      "title": "Randy Newman - 12 Songs",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/198171",
+      "community": {
+        "want": 4393,
+        "have": 8759
+      }
+    }
+  ]
+}

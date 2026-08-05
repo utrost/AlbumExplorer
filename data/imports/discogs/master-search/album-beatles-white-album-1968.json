@@ -1,0 +1,189 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=The+Beatles&release_title=White+Album&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 2,
+    "per_page": 5,
+    "items": 8,
+    "urls": {
+      "last": "https://api.discogs.com/database/search?type=master&artist=The+Beatles&release_title=White+Album&per_page=5&page=2",
+      "next": "https://api.discogs.com/database/search?type=master&artist=The+Beatles&release_title=White+Album&per_page=5&page=2"
+    }
+  },
+  "results": [
+    {
+      "country": "Europe",
+      "genre": [
+        "Rock"
+      ],
+      "format": [
+        "CD",
+        "Unofficial Release"
+      ],
+      "style": [
+        "Pop Rock",
+        "Classic Rock"
+      ],
+      "id": 3202311,
+      "label": [
+        "The Early Years"
+      ],
+      "type": "master",
+      "barcode": [
+        "AAD",
+        "CDT-BERLIN 02-CD-3314 01"
+      ],
+      "master_id": 3202311,
+      "master_url": "https://api.discogs.com/masters/3202311",
+      "uri": "/master/3202311-The-Beatles-White-Album-Demos",
+      "catno": "02-CD-3314",
+      "title": "The Beatles - White Album Demos",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/3202311",
+      "community": {
+        "want": 14,
+        "have": 91
+      }
+    },
+    {
+      "country": "UK",
+      "year": "2007",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Unofficial Release"
+      ],
+      "label": [
+        "Apple Records",
+        "Kinfauns"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Psychedelic Rock",
+        "Pop Rock"
+      ],
+      "id": 239412,
+      "barcode": [],
+      "master_id": 239412,
+      "master_url": "https://api.discogs.com/masters/239412",
+      "uri": "/master/239412-The-Beatles-White-Unplugged-Album",
+      "catno": "1 C 209 173",
+      "title": "The Beatles - White Unplugged Album",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/239412",
+      "community": {
+        "want": 331,
+        "have": 1074
+      }
+    },
+    {
+      "country": "Italy",
+      "year": "1991",
+      "format": [
+        "CD",
+        "Compilation",
+        "Unofficial Release"
+      ],
+      "label": [
+        "Chapter One"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "style": [
+        "Pop Rock"
+      ],
+      "id": 3332830,
+      "barcode": [
+        "S.I.A.E."
+      ],
+      "master_id": 3332830,
+      "master_url": "https://api.discogs.com/masters/3332830",
+      "uri": "/master/3332830-The-Beatles-White-Album-Sessions",
+      "catno": "CO25151/52",
+      "title": "The Beatles - White Album Sessions",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/3332830",
+      "community": {
+        "want": 19,
+        "have": 73
+      }
+    },
+    {
+      "country": "Unknown",
+      "year": "2003",
+      "format": [
+        "CD",
+        "Unofficial Release"
+      ],
+      "label": [
+        "Pear"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Acoustic",
+        "Rock & Roll"
+      ],
+      "id": 717252,
+      "barcode": [],
+      "master_id": 717252,
+      "master_url": "https://api.discogs.com/masters/717252",
+      "uri": "/master/717252-The-Beatles-The-Alternate-White-Album",
+      "catno": "PDP 010",
+      "title": "The Beatles - The Alternate White Album",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/717252",
+      "community": {
+        "want": 279,
+        "have": 299
+      }
+    },
+    {
+      "country": "Europe",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Unofficial Release"
+      ],
+      "style": [],
+      "id": 1147582,
+      "label": [
+        "Odeon"
+      ],
+      "type": "master",
+      "barcode": [
+        "BIEM/STEMRA/GEMA",
+        "1968"
+      ],
+      "master_id": 1147582,
+      "master_url": "https://api.discogs.com/masters/1147582",
+      "uri": "/master/1147582-The-Beatles-20-Alternate-White-Album-Mixes",
+      "catno": "MO 1968",
+      "title": "The Beatles - 20 Alternate \"White Album\" Mixes",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1147582",
+      "community": {
+        "want": 13,
+        "have": 102
+      }
+    }
+  ]
+}

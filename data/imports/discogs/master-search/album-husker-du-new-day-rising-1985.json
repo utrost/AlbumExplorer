@@ -1,0 +1,94 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=H%C3%BCsker+D%C3%BC&release_title=New+Day+Rising&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1985",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "label": [
+        "SST Records",
+        "Cesstone Music",
+        "SST Records",
+        "Cesstone Music",
+        "Nicollet Studios",
+        "K Disc Mastering",
+        "Greg Lee Processing",
+        "Rainbo Records",
+        "Rainbo Records"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Alternative Rock",
+        "Hardcore",
+        "Punk"
+      ],
+      "id": 30085,
+      "barcode": [
+        "BMI",
+        "SST-031-A Kdisc HERE IN THE MIDST OF GRAVEYARDS THAT PUSH UP LIGHT S-13121 L-19675",
+        "SST-031-B S-13122 I'LL TRADE YOU TWO GOOD SHIRLEYS FOR 10.000 DEAD MIDWESTERN INDIANS ☉ L-19675-X Kdisc",
+        "none"
+      ],
+      "master_id": 30085,
+      "master_url": "https://api.discogs.com/masters/30085",
+      "uri": "/master/30085-H%C3%BCsker-D%C3%BC-New-Day-Rising",
+      "catno": "SST 031",
+      "title": "Hüsker Dü - New Day Rising",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/30085",
+      "community": {
+        "want": 9459,
+        "have": 18754
+      }
+    },
+    {
+      "country": "Germany",
+      "year": "1985",
+      "format": [
+        "Cassette",
+        "Unofficial Release"
+      ],
+      "label": [
+        "Not On Label (Hüsker Dü)",
+        "Batschkapp"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock"
+      ],
+      "style": [
+        "Punk"
+      ],
+      "id": 1212568,
+      "barcode": [],
+      "master_id": 1212568,
+      "master_url": "https://api.discogs.com/masters/1212568",
+      "uri": "/master/1212568-H%C3%BCsker-D%C3%BC-New-Day-Rising-179-Frankfurt-Batschkapp",
+      "catno": "none",
+      "title": "Hüsker Dü - New Day Rising 17.9. Frankfurt Batschkapp",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/1212568",
+      "community": {
+        "want": 73,
+        "have": 68
+      }
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/releases/2805906",
+  "id": 2805906,
+  "status": "Accepted",
+  "year": 1989,
+  "resource_url": "https://api.discogs.com/releases/2805906",
+  "uri": "https://www.discogs.com/release/2805906-Pixies-Doolittle",
+  "artists": [
+    {
+      "name": "Pixies",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 231577,
+      "resource_url": "https://api.discogs.com/artists/231577",
+      "thumbnail_url": "https://i.discogs.com/N5IDtLgSet1rxrm0IEJTUgXnWiXJo4XksPUZmQjNchY/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMTU3/Ny0xNzI2NTY4NzI2/LTUwNjIuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Pixies",
+  "labels": [
+    {
+      "name": "4AD",
+      "catno": "CAD 905",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 634,
+      "resource_url": "https://api.discogs.com/labels/634",
+      "thumbnail_url": "https://i.discogs.com/2xCfhG-Zmz-gt18imyL4Q9pbuzOhEHEZ1EEW1qJ0r5I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTYzNC0x/NDk4MTU1NzY0LTI3/MDIucG5n.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "v23",
+      "catno": "",
+      "entity_type": "33",
+      "entity_type_name": "Designed At",
+      "id": 287530,
+      "resource_url": "https://api.discogs.com/labels/287530",
+      "thumbnail_url": "https://i.discogs.com/tTGPau-tyPIAcNCjyH7ax8XDfzoWUe3uM1bFOlc8_Mw/rs:fit/g:sm/q:90/h:494/w:498/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4NzUz/MC0xNTQ1Mzg0ODY5/LTI3ODAuanBlZw.jpeg"
+    },
+    {
+      "name": "MPO",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 56025,
+      "resource_url": "https://api.discogs.com/labels/56025",
+      "thumbnail_url": "https://i.discogs.com/ESRU3eTUmc1632Us6_7LBipnaQGV6lJe-D5nyFxssyw/rs:fit/g:sm/q:90/h:336/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU2MDI1/LTEzMTQ2OTg5ODQu/anBlZw.jpeg"
+    },
+    {
+      "name": "4AD",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 634,
+      "resource_url": "https://api.discogs.com/labels/634",
+      "thumbnail_url": "https://i.discogs.com/2xCfhG-Zmz-gt18imyL4Q9pbuzOhEHEZ1EEW1qJ0r5I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTYzNC0x/NDk4MTU1NzY0LTI3/MDIucG5n.jpeg"
+    },
+    {
+      "name": "4AD",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 634,
+      "resource_url": "https://api.discogs.com/labels/634",
+      "thumbnail_url": "https://i.discogs.com/2xCfhG-Zmz-gt18imyL4Q9pbuzOhEHEZ1EEW1qJ0r5I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTYzNC0x/NDk4MTU1NzY0LTI3/MDIucG5n.jpeg"
+    },
+    {
+      "name": "Carriage House Studios",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 285905,
+      "resource_url": "https://api.discogs.com/labels/285905",
+      "thumbnail_url": "https://i.discogs.com/-iVKTm2iOSLGpRxk8s2gFxfASrzE5Il8MhDL6Vmakc0/rs:fit/g:sm/q:90/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4NTkw/NS0xNDEyOTUxMzMw/LTE4MDMuanBlZw.jpeg"
+    },
+    {
+      "name": "Downtown Recorders",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 285906,
+      "resource_url": "https://api.discogs.com/labels/285906"
+    },
+    {
+      "name": "Rice and Beans Music",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 284847,
+      "resource_url": "https://api.discogs.com/labels/284847"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album",
+        "Limited Edition"
+      ],
+      "text": "Booklet Edition"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 4471,
+    "want": 4749,
+    "rating": {
+      "count": 429,
+      "average": 4.54
+    },
+    "submitter": {
+      "username": "jonnyhalfhead",
+      "resource_url": "https://api.discogs.com/users/jonnyhalfhead"
+    },
+    "contributors": [
+      {
+        "username": "jonnyhalfhead",
+        "resource_url": "https://api.discogs.com/users/jonnyhalfhead"
+      },
+      {
+        "username": "AlDante",
+        "resource_url": "https://api.discogs.com/users/AlDante"
+      },
+      {
+        "username": "firefright",
+        "resource_url": "https://api.discogs.com/users/firefright"
+      },
+      {
+        "username": "forsitanmentiar",
+        "resource_url": "https://api.discogs.com/users/forsitanmentiar"
+      },
+      {
+        "username": "jarijeff",
+        "resource_url": "https://api.discogs.com/users/jarijeff"
+      },
+      {
+        "username": "adrian-79",
+        "resource_url": "https://api.discogs.com/users/adrian-79"
+      },
+      {
+        "username": "church71",
+        "resource_url": "https://api.discogs.com/users/church71"
+      },
+      {
+        "username": "Derby_MH",
+        "resource_url": "https://api.discogs.com/users/Derby_MH"
+      },
+      {
+        "username": "brianvy",
+        "resource_url": "https://api.discogs.com/users/brianvy"
+      },
+      {
+        "username": "AndrewShinn",
+        "resource_url": "https://api.discogs.com/users/AndrewShinn"
+      },
+      {
+        "username": "florette69",
+        "resource_url": "https://api.discogs.com/users/florette69"
+      },
+      {
+        "username": "Tartarusrussell",
+        "resource_url": "https://api.discogs.com/users/Tartarusrussell"
+      },
+      {
+        "username": "Bikini-Waxx-Records",
+        "resource_url": "https://api.discogs.com/users/Bikini-Waxx-Records"
+      },
+      {
+        "username": "vinsNL",
+        "resource_url": "https://api.discogs.com/users/vinsNL"
+      },
+      {
+        "username": "KaitouGentleman",
+        "resource_url": "https://api.discogs.com/users/KaitouGentleman"
+      },
+      {
+        "username": "TheLindbergFiles",
+        "resource_url": "https://api.discogs.com/users/TheLindbergFiles"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2011-04-03T12:17:25-07:00",
+  "date_changed": "2025-03-24T07:44:22-07:00",
+  "num_for_sale": 14,
+  "lowest_price": 73.05,
+  "master_id": 16764,
+  "master_url": "https://api.discogs.com/masters/16764",
+  "title": "Doolittle",
+  "country": "UK",
+  "released": "1989-04-17",
+  "notes": "First edition released with printed inner and a 16 page album-sized lyric booklet with additional artwork.\n\nInitial copies sold through Chain With No Name came with a plastic carrier bag resembling the sleeve artwork and listing participating stores.\n\nRecorded at Downtown Recorders, Boston, M.A.\nMixed at Carriage House Studios, Stamford, C.T.\n\n℗ & © 1989 4AD \n\nTrack durations are not listed on the release. \nTracks are numbered sequentially across sides.\nRunouts are hand-etched with cut numbers in superscript.",
+  "released_formatted": "17 Apr 1989",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "5014436905018",
+      "description": "Scanned"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "MPO CAD 905 A1 JA",
+      "description": "Side A runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "MPO CAD 905 B1",
+      "description": "Side B runout"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=HvldypUz9w8",
+      "title": "Debaser",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nDebaser · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer:",
+      "duration": 172,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=2Yn3Ls5jZ4g",
+      "title": "Tame",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nTame · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer: Ki",
+      "duration": 117,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=RuHeAs0rw5M",
+      "title": "Wave Of Mutilation",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nWave Of Mutilation · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated ",
+      "duration": 124,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-tebshO9wZo",
+      "title": "I Bleed",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nI Bleed · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer:",
+      "duration": 155,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=XYrOmT72xZk",
+      "title": "Here Comes Your Man",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nHere Comes Your Man · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated",
+      "duration": 202,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UgWgDWgNBzQ",
+      "title": "Dead",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nDead · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer: Ki",
+      "duration": 142,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=SHUb-xQMTOI",
+      "title": "Monkey Gone to Heaven",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nMonkey Gone to Heaven · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociat",
+      "duration": 176,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=jZ6pSiQp4-0",
+      "title": "Mr. Grieves",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nMr. Grieves · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Perfor",
+      "duration": 126,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=3yRgXFRm84I",
+      "title": "Crackity Jones",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nCrackity Jones · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Per",
+      "duration": 85,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ii_7IbHFEhc",
+      "title": "La La Love You",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nLa La Love You · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Per",
+      "duration": 164,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=qKTLsQIzL4o",
+      "title": "No 13 Baby",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nNo 13 Baby · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Perform",
+      "duration": 232,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=uKBJQ7gPM8k",
+      "title": "There Goes My Gun",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nThere Goes My Gun · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  ",
+      "duration": 110,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=tVCUAXOBF7w",
+      "title": "Hey",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nHey · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer: Kim",
+      "duration": 211,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=qv1NDhv8XHY",
+      "title": "Silver",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nSilver · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: Kim Deal\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey ",
+      "duration": 146,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=2twLJU_ggGI",
+      "title": "Gouge Away",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nGouge Away · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Perform",
+      "duration": 163,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=HvldypUz9w8",
+      "title": "Debaser",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nDebaser · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer:",
+      "duration": 172,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=2Yn3Ls5jZ4g",
+      "title": "Tame",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nTame · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer: Ki",
+      "duration": 117,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=RuHeAs0rw5M",
+      "title": "Wave Of Mutilation",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nWave Of Mutilation · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated ",
+      "duration": 124,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=-tebshO9wZo",
+      "title": "I Bleed",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nI Bleed · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer:",
+      "duration": 155,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=XYrOmT72xZk",
+      "title": "Here Comes Your Man",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nHere Comes Your Man · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated",
+      "duration": 202,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=UgWgDWgNBzQ",
+      "title": "Dead",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nDead · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer: Ki",
+      "duration": 142,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=SHUb-xQMTOI",
+      "title": "Monkey Gone to Heaven",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nMonkey Gone to Heaven · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociat",
+      "duration": 176,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=jZ6pSiQp4-0",
+      "title": "Mr. Grieves",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nMr. Grieves · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Perfor",
+      "duration": 126,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=3yRgXFRm84I",
+      "title": "Crackity Jones",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nCrackity Jones · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Per",
+      "duration": 85,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ii_7IbHFEhc",
+      "title": "La La Love You",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nLa La Love You · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Per",
+      "duration": 164,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=qKTLsQIzL4o",
+      "title": "No 13 Baby",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nNo 13 Baby · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Perform",
+      "duration": 232,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=uKBJQ7gPM8k",
+      "title": "There Goes My Gun",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nThere Goes My Gun · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  ",
+      "duration": 110,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=tVCUAXOBF7w",
+      "title": "Hey",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nHey · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Performer: Kim",
+      "duration": 211,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=qv1NDhv8XHY",
+      "title": "Silver",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nSilver · Pixies\n\nDoolittle\n\n℗ 1989 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: Kim Deal\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey ",
+      "duration": 146,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=2twLJU_ggGI",
+      "title": "Gouge Away",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nGouge Away · Pixies\n\nDoolittle\n\n℗ 1997 4AD Ltd\n\nReleased on: 1989-04-17\n\nAssociated  Performer: Black Francis\nAssociated  Performer: David Lovering\nAssociated  Performer: Joey Santiago\nAssociated  Perform",
+      "duration": 163,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Rock"
+  ],
+  "styles": [
+    "Indie Rock"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Debaser",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Tame",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Wave Of Mutilation",
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "I Bleed",
+      "duration": ""
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Here Comes Your Man",
+      "duration": ""
+    },
+    {
+      "position": "A6",
+      "type_": "track",
+      "title": "Dead",
+      "duration": ""
+    },
+    {
+      "position": "A7",
+      "type_": "track",
+      "title": "Monkey Gone To Heaven",
+      "extraartists": [
+        {
+          "name": "Ann Rorich",
+          "anv": "Ann Roroich",
+          "join": "",
+          "role": "Cello",
+          "tracks": "",
+          "id": 585258,
+          "resource_url": "https://api.discogs.com/artists/585258"
+        },
+        {
+          "name": "Arthur Fiacco",
+          "anv": "",
+          "join": "",
+          "role": "Cello",
+          "tracks": "",
+          "id": 342159,
+          "resource_url": "https://api.discogs.com/artists/342159"
+        },
+        {
+          "name": "Corine Metter",
+          "anv": "",
+          "join": "",
+          "role": "Violin",
+          "tracks": "",
+          "id": 342160,
+          "resource_url": "https://api.discogs.com/artists/342160"
+        },
+        {
+          "name": "Karen Karlsrud",
+          "anv": "",
+          "join": "",
+          "role": "Violin",
+          "tracks": "",
+          "id": 342162,
+          "resource_url": "https://api.discogs.com/artists/342162"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B8",
+      "type_": "track",
+      "title": "Mr. Grieves",
+      "duration": ""
+    },
+    {
+      "position": "B9",
+      "type_": "track",
+      "title": "Crackity Jones",
+      "duration": ""
+    },
+    {
+      "position": "B10",
+      "type_": "track",
+      "title": "La La Love You",
+      "extraartists": [
+        {
+          "name": "Dave Lovering",
+          "anv": "David Lovering",
+          "join": "",
+          "role": "Lead Vocals",
+          "tracks": "",
+          "id": 280832,
+          "resource_url": "https://api.discogs.com/artists/280832"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B11",
+      "type_": "track",
+      "title": "No. 13 Baby",
+      "duration": ""
+    },
+    {
+      "position": "B12",
+      "type_": "track",
+      "title": "There Goes My Gun",
+      "duration": ""
+    },
+    {
+      "position": "B13",
+      "type_": "track",
+      "title": "Hey",
+      "duration": ""
+    },
+    {
+      "position": "B14",
+      "type_": "track",
+      "title": "Silver",
+      "extraartists": [
+        {
+          "name": "Dave Lovering",
+          "anv": "David Lovering",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 280832,
+          "resource_url": "https://api.discogs.com/artists/280832"
+        },
+        {
+          "name": "Kim Deal",
+          "anv": "",
+          "join": "",
+          "role": "Slide Guitar",
+          "tracks": "",
+          "id": 135343,
+          "resource_url": "https://api.discogs.com/artists/135343"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B15",
+      "type_": "track",
+      "title": "Gouge Away",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Vaughan Oliver",
+      "anv": "",
+      "join": "",
+      "role": "Art Direction, Design",
+      "tracks": "",
+      "id": 1827008,
+      "resource_url": "https://api.discogs.com/artists/1827008"
+    },
+    {
+      "name": "Kim Deal",
+      "anv": "",
+      "join": "",
+      "role": "Bass",
+      "tracks": "",
+      "id": 135343,
+      "resource_url": "https://api.discogs.com/artists/135343"
+    },
+    {
+      "name": "Dave Lovering",
+      "anv": "David Lovering",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 280832,
+      "resource_url": "https://api.discogs.com/artists/280832"
+    },
+    {
+      "name": "Dave Snider (2)",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Assistant]",
+      "tracks": "",
+      "id": 477975,
+      "resource_url": "https://api.discogs.com/artists/477975"
+    },
+    {
+      "name": "Matt Lane",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Assistant]",
+      "tracks": "",
+      "id": 385696,
+      "resource_url": "https://api.discogs.com/artists/385696"
+    },
+    {
+      "name": "Jack Adams (2)",
+      "anv": "JA",
+      "join": "",
+      "role": "Lacquer Cut By",
+      "tracks": "",
+      "id": 622686,
+      "resource_url": "https://api.discogs.com/artists/622686"
+    },
+    {
+      "name": "Joey Santiago",
+      "anv": "",
+      "join": "",
+      "role": "Lead Guitar, Backing Vocals",
+      "tracks": "",
+      "id": 314217,
+      "resource_url": "https://api.discogs.com/artists/314217"
+    },
+    {
+      "name": "Ken Goes",
+      "anv": "",
+      "join": "",
+      "role": "Management",
+      "tracks": "",
+      "id": 1761008,
+      "resource_url": "https://api.discogs.com/artists/1761008"
+    },
+    {
+      "name": "Steven Haigler",
+      "anv": "Steve Haigler",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "",
+      "id": 272079,
+      "resource_url": "https://api.discogs.com/artists/272079"
+    },
+    {
+      "name": "Simon Larbalestier",
+      "anv": "",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 486968,
+      "resource_url": "https://api.discogs.com/artists/486968"
+    },
+    {
+      "name": "Gil Norton",
+      "anv": "",
+      "join": "",
+      "role": "Producer, Engineer",
+      "tracks": "",
+      "id": 93281,
+      "resource_url": "https://api.discogs.com/artists/93281"
+    },
+    {
+      "name": "Black Francis",
+      "anv": "",
+      "join": "",
+      "role": "Vocals, Guitar",
+      "tracks": "",
+      "id": 390397,
+      "resource_url": "https://api.discogs.com/artists/390397"
+    },
+    {
+      "name": "Black Francis",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 390397,
+      "resource_url": "https://api.discogs.com/artists/390397"
+    },
+    {
+      "name": "Kim Deal",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "B7",
+      "id": 135343,
+      "resource_url": "https://api.discogs.com/artists/135343"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/HG_-j37d1XDln3KMI8iKlehH12kScU-xI93lfMBQ0L0/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjAx/NS0yMjM3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/HG_-j37d1XDln3KMI8iKlehH12kScU-xI93lfMBQ0L0/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjAx/NS0yMjM3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/_yfYQwKZTVpb9xNW3PCwuuGOxyU7RZpP6jKZ-dPlKVQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjAx/NS0yMjM3LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/XE7L2twqsqRR8C87v8SyJV-KF2UNkRelEd6D5-aBrok/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjAz/Ny0zMjY0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/XE7L2twqsqRR8C87v8SyJV-KF2UNkRelEd6D5-aBrok/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjAz/Ny0zMjY0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/2hEglQhx84LDd4XSWOJ3RcnuTuuUwzY_3_Sms6eCKtc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjAz/Ny0zMjY0LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/uVlrkksFcjA-NFUWUl-FBhlKvJ69VzgCR1ntEaQ6uNk/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA1/Mi03OTMyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/uVlrkksFcjA-NFUWUl-FBhlKvJ69VzgCR1ntEaQ6uNk/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA1/Mi03OTMyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/FUWwE0JH77ltq0bwp0bi77IRjNu4k5Vc88r0TRXpcz8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA1/Mi03OTMyLmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/deJ_ZypJo3k_c9Qp9dut48j-P_6pomADmyQqOTq5EyI/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA2/OC02NzQ4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/deJ_ZypJo3k_c9Qp9dut48j-P_6pomADmyQqOTq5EyI/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA2/OC02NzQ4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/WoBpQfR1i49ZiHpxMkmCU_Dpz5XdCloijiy584jqMFQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA2/OC02NzQ4LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/db2BSxhTBGBjjtkE95tTwF2-L3L2lZ0Mv1g2exRpBEY/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA4/Ny01NTA2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/db2BSxhTBGBjjtkE95tTwF2-L3L2lZ0Mv1g2exRpBEY/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA4/Ny01NTA2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Lqco7TDPgL_2_c6hT50jdnUfHWkIeOUxCtJ-LxNZow8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjA4/Ny01NTA2LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/I6PLjyfdqwinF4rWaSY9WL1XvpQ4xP2J31QMJIqaaQM/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjEw/Mi0yMDA2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/I6PLjyfdqwinF4rWaSY9WL1XvpQ4xP2J31QMJIqaaQM/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjEw/Mi0yMDA2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/h1LMqlRxhPWNKS_aEsNzdFdcILNZ5zRutOhq7Aq1T4s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjEw/Mi0yMDA2LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ygFXWwU-wNpdS6bSTYbh5OKH242x3YM7h25pMq4vdH0/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjEy/Mi03MTcyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ygFXWwU-wNpdS6bSTYbh5OKH242x3YM7h25pMq4vdH0/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjEy/Mi03MTcyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Jo6oKdZKCyeyR1lnmlS2uoWcluBGTaaKDIdVUZbIEeA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjEy/Mi03MTcyLmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/VATRcGBDzrEWh9g4fU-eaBi69b3qXxBLQkk08VrfbGo/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE0/MS03ODY0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/VATRcGBDzrEWh9g4fU-eaBi69b3qXxBLQkk08VrfbGo/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE0/MS03ODY0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/r2rHVUFHBz6d8t7DrVYc06PpIoGUKGXL4OWgB8pFSrY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE0/MS03ODY0LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Sjk3fvyaRrufEEyd0RAn7y3ubmYvJzpkRS8NkrB_McA/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE1/OS00OTk4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Sjk3fvyaRrufEEyd0RAn7y3ubmYvJzpkRS8NkrB_McA/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE1/OS00OTk4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/2cBRHmHoxtPQjUso14ulx-5O7uf-zOUJjD8uQ1GMqgg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE1/OS00OTk4LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/JiGThkU4uUfKCOeWgqR155KAXXS5dBKZfTl_35_q3-U/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE4/MS02MzU4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/JiGThkU4uUfKCOeWgqR155KAXXS5dBKZfTl_35_q3-U/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE4/MS02MzU4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/g1M-467SCF3ACKKdrRuKd8U4d2xX6Q7HWZnCrecwjPc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE4/MS02MzU4LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/b-QtQ-8z6-tld47NHteEdezn29_DT97gVqG4i4-3nbc/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE5/OS0xNzA4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/b-QtQ-8z6-tld47NHteEdezn29_DT97gVqG4i4-3nbc/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE5/OS0xNzA4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/US_KCfvb_6JXsFVGDkaJrmybfmAy5NkvTFUkc4eDT4E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjE5/OS0xNzA4LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/BpYJKUANJ1yN8D2c9J0AQKukr4blzCijF32z1kuAoEM/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjIx/OC00OTU2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/BpYJKUANJ1yN8D2c9J0AQKukr4blzCijF32z1kuAoEM/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjIx/OC00OTU2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/xubiWC0bpobfVUiZGjVyYREaSGZwNcochBjcFxNg8p4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjIx/OC00OTU2LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/f0RaiRHAsZXgcs79iLrZmBnY-INpAVM1YUWvmQrxIx0/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjIz/My02NTk2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/f0RaiRHAsZXgcs79iLrZmBnY-INpAVM1YUWvmQrxIx0/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjIz/My02NTk2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/QBM5EBnvL80uX7rsEVVtEfQGK-sRaB66nX3pzi9GQvg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjIz/My02NTk2LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/fPwPyWto_f5WjdJprZxiwBbqA1i2jET3v-UYosbbDDs/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI1/My0yNjA3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/fPwPyWto_f5WjdJprZxiwBbqA1i2jET3v-UYosbbDDs/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI1/My0yNjA3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/cHkEITdqmfBoEIJHybZxiYkWpjZOhLzjV55oidO-KpM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI1/My0yNjA3LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/qHb8TwfGJ_PDXkLxFMkSS6wWIB4kzAxWAi9UJkQFCbk/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI3/MS01NTc4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/qHb8TwfGJ_PDXkLxFMkSS6wWIB4kzAxWAi9UJkQFCbk/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI3/MS01NTc4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/eTkqudRgGTqqShPr7YU0RhKgnmavGNuOV3KzrLh-ojE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI3/MS01NTc4LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/fzc_zvc35fS8tu-vbOcF-qJB6GKU2JcHUd1J6w7OW74/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI5/NS0xODUxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/fzc_zvc35fS8tu-vbOcF-qJB6GKU2JcHUd1J6w7OW74/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI5/NS0xODUxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/TgACEyh89ulquO-Eb73cDeAAEOUPPNB9o66lopgmd_o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjI5/NS0xODUxLmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/CyDUojvG49JWfXaJ1idD3seINMNDQ6qjckmSFhPhPo8/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjMx/NS04NDUxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/CyDUojvG49JWfXaJ1idD3seINMNDQ6qjckmSFhPhPo8/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjMx/NS04NDUxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/cZBQOzHU-d6xphW-xHaP0RBNq79e8ns4BZp8oqI8LIk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjMx/NS04NDUxLmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/JENDQTR0PSy0_Q-FNDDIk1lTk8sbiCtErboHhnL3iYk/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjMz/MC05Mzg2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/JENDQTR0PSy0_Q-FNDDIk1lTk8sbiCtErboHhnL3iYk/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjMz/MC05Mzg2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/IyX0vQel9tzMwfWRUpArV7QYzALuGcZBzyu6-j2GaCQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjMz/MC05Mzg2LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/85sQwrKATYFqxlcWt9CSgKStxaAeYDufJ25XTZ43NXQ/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM0/OC02MTQwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/85sQwrKATYFqxlcWt9CSgKStxaAeYDufJ25XTZ43NXQ/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM0/OC02MTQwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/KHkRC69dQc9XfKGzIEqh8DzAlsPMscIZp0AB2FrnoIE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM0/OC02MTQwLmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/S5CXxHU-UDy7CRVYgCksw2LPcGPNmUP5VbIXatm1UzE/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM2/Ny00OTE1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/S5CXxHU-UDy7CRVYgCksw2LPcGPNmUP5VbIXatm1UzE/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM2/Ny00OTE1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/BDYsHijBBnxM2jgopSwn8vjY-Qa0EUsSazHR5yN2bjo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM2/Ny00OTE1LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/pbsz0ylfrznGOXINBn4b4QCjA9XzMePsEA7ILyprO5E/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM4/NS0zMTE0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/pbsz0ylfrznGOXINBn4b4QCjA9XzMePsEA7ILyprO5E/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM4/NS0zMTE0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/bO7W1qVYjgUcvvy4HjE4364YS1qfTo-1XJfz0ynp0o0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjM4/NS0zMTE0LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/b9u2aj_bTIlnR6t5K_hZuyaYkdQEUAWRrdobzxJeLoI/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjQw/NS04OTM3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/b9u2aj_bTIlnR6t5K_hZuyaYkdQEUAWRrdobzxJeLoI/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjQw/NS04OTM3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/fOCzCYnvD4wBgOfasGRAy64KQb96TwWEV40cYebLcfs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjQw/NS04OTM3LmpwZWc.jpeg",
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Bx3oZVV2SvpyT0bBjrU7jjIuH_r29pP9jLkfjMmuX9k/rs:fit/g:sm/q:90/h:600/w:545/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTUxMzk1MTc2/OC00OTQ2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Bx3oZVV2SvpyT0bBjrU7jjIuH_r29pP9jLkfjMmuX9k/rs:fit/g:sm/q:90/h:600/w:545/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTUxMzk1MTc2/OC00OTQ2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/huY1WMAfIwwsP5B1NxBJOI0vNFnuVtAm1YFOLIaaF28/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTUxMzk1MTc2/OC00OTQ2LmpwZWc.jpeg",
+      "width": 545,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/h7UHkkpXNjWk18KImHIJopf4IJyLvX92LREJUGnYPkM/rs:fit/g:sm/q:90/h:600/w:553/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTUxMzk1MTgy/Ni01NzYwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/h7UHkkpXNjWk18KImHIJopf4IJyLvX92LREJUGnYPkM/rs:fit/g:sm/q:90/h:600/w:553/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTUxMzk1MTgy/Ni01NzYwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/ZawrAenurz_Mw6Spb7P7ZH5174OvoVCZWaS-UBEZiig/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTUxMzk1MTgy/Ni01NzYwLmpwZWc.jpeg",
+      "width": 553,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/_yfYQwKZTVpb9xNW3PCwuuGOxyU7RZpP6jKZ-dPlKVQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDU5/MDYtMTM5NjEzNjAx/NS0yMjM3LmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

@@ -1,0 +1,101 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=Muddy+Waters&release_title=Folk+Singer&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "US",
+      "year": "1964",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "label": [
+        "Chess"
+      ],
+      "type": "master",
+      "genre": [
+        "Blues"
+      ],
+      "style": [
+        "Delta Blues"
+      ],
+      "id": 193778,
+      "barcode": [],
+      "master_id": 193778,
+      "master_url": "https://api.discogs.com/masters/193778",
+      "uri": "/master/193778-Muddy-Waters-Folk-Singer",
+      "catno": "LP-1483",
+      "title": "Muddy Waters - Folk Singer",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/193778",
+      "community": {
+        "want": 17673,
+        "have": 22984
+      }
+    },
+    {
+      "country": "US",
+      "year": "1986",
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "label": [
+        "Chess",
+        "MCA Records",
+        "The Original Chess Masters",
+        "Two On One",
+        "MCA Records, Inc.",
+        "MCA Records, Inc.",
+        "Duchess Music Corp.",
+        "Screen Gems-EMI Music Inc.",
+        "MCA Music Publishing",
+        "Arc Music Corp.",
+        "Watertoons Music",
+        "Hoochie Coochie Music",
+        "Bug",
+        "MCA Records, Inc.",
+        "JVC"
+      ],
+      "type": "master",
+      "genre": [
+        "Blues"
+      ],
+      "style": [
+        "Country Blues",
+        "Chicago Blues",
+        "Delta Blues"
+      ],
+      "id": 901646,
+      "barcode": [
+        "0 76732-5907-2 0",
+        "CHD-5907-1T",
+        "22",
+        "BMI",
+        "ASCAP"
+      ],
+      "master_id": 901646,
+      "master_url": "https://api.discogs.com/masters/901646",
+      "uri": "/master/901646-Muddy-Waters-Muddy-Waters-Sings-Big-Bill-BroonzyFolk-Singer",
+      "catno": "CHD-5907",
+      "title": "Muddy Waters - Muddy Waters Sings \"Big Bill\" Broonzy/Folk Singer",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/901646",
+      "community": {
+        "want": 85,
+        "have": 346
+      }
+    }
+  ]
+}

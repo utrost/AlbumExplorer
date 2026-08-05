@@ -16,6 +16,13 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /album-metadata-candidates\.json/);
   assert.match(app, /album-metadata-source-candidates\.json/);
   assert.match(app, /album-credit-candidates\.json/);
+  assert.match(app, /discogs-credit-review-report\.json/);
+  assert.match(app, /discogs-credit-review-helper\.js/);
+  assert.match(app, /data-testid="discogs-review-helper"/);
+  assert.match(app, /data-testid="discogs-review-snippet"/);
+  assert.match(app, /approve-master-override/);
+  assert.match(app, /add-search-alias/);
+  assert.match(app, /Copy JSON snippet/);
   assert.match(app, /derived-relationships\.js/);
   assert.match(app, /shared-producer/);
   assert.match(app, /shared-engineer/);

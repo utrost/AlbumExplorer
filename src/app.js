@@ -358,11 +358,17 @@ function renderRelationshipEvidence(evidence) {
 function renderSourceBadges(provenance) {
   if (!provenance) return '';
   const badges = [];
+  const seenBadges = new Set();
+  const pushBadge = (key, html) => {
+    if (seenBadges.has(key)) return;
+    seenBadges.add(key);
+    badges.push(html);
+  };
   for (const side of [provenance.left, provenance.right]) {
     if (!side) continue;
-    if (side.masterUrl) badges.push(`<a class="source-badge" href="${escapeAttribute(side.masterUrl)}" target="_blank" rel="noreferrer">Discogs master ${escapeHtml(side.masterId)}</a>`);
-    if (side.releaseUrl) badges.push(`<a class="source-badge" href="${escapeAttribute(side.releaseUrl)}" target="_blank" rel="noreferrer">Discogs release ${escapeHtml(side.releaseId)}</a>`);
-    if (side.selectedBy) badges.push(`<span class="source-badge muted-source">${escapeHtml(formatSourceSelection(side.selectedBy))}</span>`);
+    if (side.masterUrl) pushBadge(`master:${side.masterUrl}`, `<a class="source-badge" href="${escapeAttribute(side.masterUrl)}" target="_blank" rel="noreferrer">Discogs master ${escapeHtml(side.masterId)}</a>`);
+    if (side.releaseUrl) pushBadge(`release:${side.releaseUrl}`, `<a class="source-badge" href="${escapeAttribute(side.releaseUrl)}" target="_blank" rel="noreferrer">Discogs release ${escapeHtml(side.releaseId)}</a>`);
+    if (side.selectedBy && side.selectedBy !== 'discogs-release-cache') pushBadge(`selected:${side.selectedBy}`, `<span class="source-badge muted-source">${escapeHtml(formatSourceSelection(side.selectedBy))}</span>`);
   }
   if (badges.length === 0) return '';
   return `<span class="source-badges" aria-label="Relationship sources">${badges.join('')}</span>`;

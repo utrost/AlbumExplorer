@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { buildDiscogsCreditReviewReport } from '../src/data/discogs-credit-review-report.js';
 
@@ -14,7 +14,7 @@ const [
 
 const comparison = JSON.parse(readFileSync(comparisonPath, 'utf8'));
 const creditCandidates = JSON.parse(readFileSync(creditCandidatesPath, 'utf8'));
-const report = buildDiscogsCreditReviewReport({ comparison, creditCandidates });
+const report = buildDiscogsCreditReviewReport({ comparison, creditCandidates, sourcePayloadsByCachePath: loadSourcePayloads(creditCandidates) });
 
 mkdirSync(dirname(reportPath), { recursive: true });
 mkdirSync(dirname(markdownPath), { recursive: true });
@@ -26,6 +26,16 @@ console.log(`Review items: ${report.summary.review}`);
 console.log(`Gap items: ${report.summary.gaps}`);
 console.log(`Output: ${reportPath}`);
 console.log(`Markdown: ${markdownPath}`);
+
+function loadSourcePayloads(creditCandidates) {
+  const payloads = new Map();
+  for (const item of creditCandidates.review ?? []) {
+    const cachePath = item.source?.cachePath;
+    if (!cachePath || payloads.has(cachePath) || !existsSync(cachePath)) continue;
+    payloads.set(cachePath, JSON.parse(readFileSync(cachePath, 'utf8')));
+  }
+  return payloads;
+}
 
 function reviewMarkdown(report) {
   const topItems = report.items.slice(0, 50).map((item, index) => {
@@ -43,5 +53,5 @@ function reviewMarkdown(report) {
     .map(([reason, count]) => `- ${reason}: ${count}`)
     .join('\n');
 
-  return `# Discogs credit review report\n\nStatus: generated review queue, not canonical data.\n\n## Summary\n\n- Comparison albums: ${report.summary.comparisonAlbums}\n- Credit/studio candidates: ${report.summary.candidates}\n- Review items: ${report.summary.review}\n- Gaps: ${report.summary.gaps}\n- Total unresolved: ${report.summary.unresolved}\n\n## Review reasons\n\n${reviewReasons || '- none'}\n\n## Gap reasons\n\n${gapReasons || '- none'}\n\n## How to resolve\n\nThe live static app includes a **Discogs credit review** helper above the comparison browser. It loads this generated report, lets you filter unresolved cases, shows the available Discogs master candidates, and creates copyable JSON rows for the review files. The helper does not write files or mutate canonical data; paste approved snippets into the files below and regenerate.\n\n- For \`approve-master-override\`, add an approved row to \`data/review/discogs-credit-master-overrides.json\`.\n- For \`add-search-alias\`, add an approved row to \`data/review/discogs-credit-search-aliases.json\`.\n- For stale Discogs IDs or empty credit caches, inspect the candidate source and either approve an alternate master, reject it, or leave the album as a documented gap.\n- Re-run \`npm run import:discogs-credits\`, then \`npm run build:discogs-credit-review\`.\n\n## Top unresolved items by latest Rolling Stone rank\n\n${topItems || 'None.'}\n`;
+  return `# Discogs credit review report\n\nStatus: generated review queue, not canonical data.\n\n## Summary\n\n- Comparison albums: ${report.summary.comparisonAlbums}\n- Credit/studio candidates: ${report.summary.candidates}\n- Review items: ${report.summary.review}\n- Gaps: ${report.summary.gaps}\n- Total unresolved: ${report.summary.unresolved}\n\n## Review reasons\n\n${reviewReasons || '- none'}\n\n## Gap reasons\n\n${gapReasons || '- none'}\n\n## How to resolve\n\nThe live static app includes a **Discogs credit review** helper above the comparison browser. It loads this generated report, lets you filter unresolved cases, shows the available Discogs master candidates, and creates copyable JSON rows for the review files. For \`inspect-release-or-mark-gap\` cases, it now also shows source diagnostics: selected source IDs, cache paths, payload kind, available credit/company/track counts, and a suggested next action. The helper does not write files or mutate canonical data; paste approved snippets into the files below and regenerate.\n\n- For \`approve-master-override\`, add an approved row to \`data/review/discogs-credit-master-overrides.json\`.\n- For \`add-search-alias\`, add an approved row to \`data/review/discogs-credit-search-aliases.json\`.\n- For stale Discogs IDs or empty credit caches, inspect the candidate source and either approve an alternate master, reject it, or leave the album as a documented gap.\n- Re-run \`npm run import:discogs-credits\`, then \`npm run build:discogs-credit-review\`.\n\n## Top unresolved items by latest Rolling Stone rank\n\n${topItems || 'None.'}\n`;
 }

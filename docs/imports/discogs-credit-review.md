@@ -22,7 +22,7 @@ Status: generated review queue, not canonical data.
 
 ## How to resolve
 
-The live static app includes a **Discogs credit review** helper above the comparison browser. It loads this generated report, lets you filter unresolved cases, shows the available Discogs master candidates, and creates copyable JSON rows for the review files. The helper does not write files or mutate canonical data; paste approved snippets into the files below and regenerate.
+The live static app includes a **Discogs credit review** helper above the comparison browser. It loads this generated report, lets you filter unresolved cases, shows the available Discogs master candidates, and creates copyable JSON rows for the review files. For `inspect-release-or-mark-gap` cases, it now also shows source diagnostics: selected source IDs, cache paths, payload kind, available credit/company/track counts, and a suggested next action. The helper does not write files or mutate canonical data; paste approved snippets into the files below and regenerate.
 
 - For `approve-master-override`, add an approved row to `data/review/discogs-credit-master-overrides.json`.
 - For `add-search-alias`, add an approved row to `data/review/discogs-credit-search-aliases.json`.

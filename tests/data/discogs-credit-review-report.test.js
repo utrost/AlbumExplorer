@@ -38,7 +38,14 @@ const creditCandidates = {
       album: 'Album A',
       releaseYear: 1971,
       reason: 'source-cache-without-usable-credits',
-      sourceCandidates: []
+      sourceCandidates: [],
+      source: {
+        system: 'discogs-master-cache',
+        id: '9001',
+        title: 'Album A',
+        url: 'https://www.discogs.com/release/9001-Artist-A-Album-A',
+        cachePath: 'data/imports/discogs/releases/9001.json'
+      }
     },
     {
       albumId: 'album-b',
@@ -63,7 +70,25 @@ const creditCandidates = {
 };
 
 test('builds a rank-sorted Discogs credit review report grouped by unresolved reason', () => {
-  const report = buildDiscogsCreditReviewReport({ comparison, creditCandidates });
+  const report = buildDiscogsCreditReviewReport({
+    comparison,
+    creditCandidates,
+    sourcePayloadsByCachePath: new Map([
+      ['data/imports/discogs/releases/9001.json', {
+        id: 9001,
+        master_id: 1234,
+        master_url: 'https://api.discogs.com/masters/1234',
+        uri: 'https://www.discogs.com/release/9001-Artist-A-Album-A',
+        title: 'Album A',
+        extraartists: [],
+        companies: [{ name: 'Ignore Artwork', entity_type_name: 'Designed At' }],
+        tracklist: [
+          { title: 'Song One', extraartists: [{ name: 'Producer Person', role: 'Producer' }] },
+          { title: 'Song Two', extraartists: [] }
+        ]
+      }]
+    ])
+  });
 
   assert.equal(report.summary.comparisonAlbums, 3);
   assert.equal(report.summary.candidates, 1);
@@ -85,6 +110,23 @@ test('builds a rank-sorted Discogs credit review report grouped by unresolved re
 
   assert.equal(report.items[1].albumId, 'album-a');
   assert.equal(report.items[1].recommendedAction, 'inspect-release-or-mark-gap');
+  assert.deepEqual(report.items[1].sourceDiagnostics, {
+    sourceSystem: 'discogs-master-cache',
+    sourceId: '9001',
+    sourceTitle: 'Album A',
+    sourceUrl: 'https://www.discogs.com/release/9001-Artist-A-Album-A',
+    cachePath: 'data/imports/discogs/releases/9001.json',
+    cacheAvailable: true,
+    masterId: '1234',
+    releaseId: '9001',
+    payloadKind: 'release',
+    topLevelCreditCount: 0,
+    companyCount: 1,
+    usableCompanyCount: 0,
+    trackCount: 2,
+    trackExtraArtistCount: 1,
+    suggestedAction: 'import-track-level-credits-or-choose-alternate-source'
+  });
 
   assert.equal(report.items[2].albumId, 'album-missing');
   assert.equal(report.items[2].kind, 'gap');

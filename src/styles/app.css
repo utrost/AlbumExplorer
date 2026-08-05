@@ -332,7 +332,8 @@ code {
 }
 
 .candidate-list li,
-.review-snippet-box {
+.review-snippet-box,
+.source-diagnostics {
   background: #100c0a;
   border: 1px solid #332721;
   border-radius: 14px;
@@ -349,6 +350,34 @@ code {
 
 .candidate-list span {
   color: #d5c9bc;
+}
+
+.source-diagnostics {
+  margin-top: 14px;
+}
+
+.diagnostic-grid {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.diagnostic-grid div {
+  border-top: 1px solid #332721;
+  padding-top: 8px;
+}
+
+.diagnostic-grid dt {
+  color: #d7a86e;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.diagnostic-grid dd {
+  margin: 3px 0 0;
+  overflow-wrap: anywhere;
 }
 
 .review-snippet-box pre {

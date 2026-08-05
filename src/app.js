@@ -289,6 +289,7 @@ function renderDiscogsReviewItem(item) {
         <p class="muted">${item.releaseYear ?? 'unknown year'} · latest rank ${item.latestRank ? `#${item.latestRank}` : 'unknown'} · action: <code>${escapeHtml(item.recommendedAction)}</code></p>
         <h4>Source candidates</h4>
         ${renderDiscogsSourceCandidates(item)}
+        ${renderDiscogsSourceDiagnostics(item.sourceDiagnostics)}
       </div>
       <div class="review-snippet-box">
         ${snippet ? renderDiscogsCopySnippet(item, snippet) : renderDiscogsInspectNotice(item)}
@@ -313,6 +314,27 @@ function renderDiscogsInspectNotice(item) {
     <p class="muted">This case is <code>${escapeHtml(item.recommendedAction)}</code>. The selected source did not produce usable credit/studio facts, so the helper will not generate a misleading override or alias snippet.</p>
     <p class="muted">Inspect the cached Discogs master/release payload, choose an alternate source if one exists, or leave it as a documented gap.</p>
     <button class="copy-button secondary" type="button" data-next-discogs-review>Next case</button>
+  `;
+}
+
+function renderDiscogsSourceDiagnostics(diagnostics) {
+  if (!diagnostics) return '';
+  return `
+    <section class="source-diagnostics" data-testid="discogs-source-diagnostics">
+      <h4>Source diagnostics</h4>
+      <dl class="diagnostic-grid">
+        <div><dt>Source</dt><dd>${escapeHtml(diagnostics.sourceSystem ?? 'unknown')} · ${escapeHtml(diagnostics.sourceTitle ?? diagnostics.sourceId ?? 'unknown')}</dd></div>
+        <div><dt>Master ID</dt><dd>${escapeHtml(diagnostics.masterId ?? 'none')}</dd></div>
+        <div><dt>Release ID</dt><dd>${escapeHtml(diagnostics.releaseId ?? 'none')}</dd></div>
+        <div><dt>Payload kind</dt><dd>${escapeHtml(diagnostics.payloadKind ?? 'unknown')}</dd></div>
+        <div><dt>Cache path</dt><dd><code>${escapeHtml(diagnostics.cachePath ?? 'none')}</code>${diagnostics.cacheAvailable ? '' : ' · missing'}</dd></div>
+        <div><dt>Top-level credits</dt><dd>${diagnostics.topLevelCreditCount ?? 0}</dd></div>
+        <div><dt>Companies</dt><dd>${diagnostics.usableCompanyCount ?? 0} usable of ${diagnostics.companyCount ?? 0}</dd></div>
+        <div><dt>Track-level credits</dt><dd>${diagnostics.trackExtraArtistCount ?? 0} credit rows across ${diagnostics.trackCount ?? 0} tracks</dd></div>
+        <div><dt>Suggested next action</dt><dd><code>${escapeHtml(diagnostics.suggestedAction ?? 'inspect-source')}</code></dd></div>
+      </dl>
+      ${diagnostics.sourceUrl ? `<p><a class="external-link" href="${escapeAttribute(diagnostics.sourceUrl)}" target="_blank" rel="noreferrer">Open selected Discogs source</a></p>` : ''}
+    </section>
   `;
 }
 

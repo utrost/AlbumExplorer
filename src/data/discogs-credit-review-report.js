@@ -1,11 +1,11 @@
-export function buildDiscogsCreditReviewReport({ comparison = {}, creditCandidates = {} } = {}) {
+export function buildDiscogsCreditReviewReport({ comparison = {}, creditCandidates = {}, sourcePayloadsByCachePath = new Map() } = {}) {
   const albumsById = new Map((comparison.albums ?? []).map((album) => [album.id, album]));
   const candidates = creditCandidates.candidates ?? [];
   const review = creditCandidates.review ?? [];
   const gaps = creditCandidates.gaps ?? [];
   const items = [
-    ...review.map((item) => unresolvedItem({ kind: 'review', item, album: albumsById.get(item.albumId) })),
-    ...gaps.map((item) => unresolvedItem({ kind: 'gap', item, album: albumsById.get(item.albumId) }))
+    ...review.map((item) => unresolvedItem({ kind: 'review', item, album: albumsById.get(item.albumId), sourcePayloadsByCachePath })),
+    ...gaps.map((item) => unresolvedItem({ kind: 'gap', item, album: albumsById.get(item.albumId), sourcePayloadsByCachePath }))
   ].sort(compareReviewItems);
 
   return {
@@ -28,7 +28,8 @@ export function buildDiscogsCreditReviewReport({ comparison = {}, creditCandidat
   };
 }
 
-function unresolvedItem({ kind, item, album }) {
+function unresolvedItem({ kind, item, album, sourcePayloadsByCachePath }) {
+  const sourceDiagnostics = buildSourceDiagnostics(item.source, sourcePayloadsByCachePath);
   return {
     kind,
     albumId: item.albumId,
@@ -39,8 +40,56 @@ function unresolvedItem({ kind, item, album }) {
     ranks: album?.ranks ?? {},
     reason: item.reason,
     recommendedAction: recommendedAction(item.reason, kind),
-    sourceCandidates: item.sourceCandidates ?? []
+    sourceCandidates: item.sourceCandidates ?? [],
+    ...(item.source ? { source: item.source } : {}),
+    ...(sourceDiagnostics ? { sourceDiagnostics } : {})
   };
+}
+
+function buildSourceDiagnostics(source, sourcePayloadsByCachePath = new Map()) {
+  if (!source) return null;
+  const payload = source.cachePath ? sourcePayloadsByCachePath.get(source.cachePath) : null;
+  const payloadKind = payload?.master_id ? 'release' : payload?.main_release || String(source.cachePath ?? '').includes('/masters/') ? 'master' : 'unknown';
+  const releaseId = payloadKind === 'release' ? String(payload?.id ?? source.id ?? '') : payload?.main_release ? String(payload.main_release) : null;
+  const masterId = payload?.master_id ? String(payload.master_id) : payloadKind === 'master' && payload?.id ? String(payload.id) : null;
+  const topLevelCreditCount = countPeople(payload?.credits) + countPeople(payload?.extraartists);
+  const companyCount = Array.isArray(payload?.companies) ? payload.companies.length : 0;
+  const usableCompanyCount = (payload?.companies ?? []).filter(isUsableStudioCompany).length;
+  const trackCount = Array.isArray(payload?.tracklist) ? payload.tracklist.length : 0;
+  const trackExtraArtistCount = (payload?.tracklist ?? []).reduce((count, track) => count + countPeople(track.extraartists), 0);
+
+  return {
+    sourceSystem: source.system ?? null,
+    sourceId: String(source.id ?? ''),
+    sourceTitle: source.title ?? null,
+    sourceUrl: source.url ?? null,
+    cachePath: source.cachePath ?? null,
+    cacheAvailable: Boolean(payload),
+    masterId,
+    releaseId,
+    payloadKind,
+    topLevelCreditCount,
+    companyCount,
+    usableCompanyCount,
+    trackCount,
+    trackExtraArtistCount,
+    suggestedAction: suggestedDiagnosticAction({ payload, topLevelCreditCount, usableCompanyCount, trackExtraArtistCount })
+  };
+}
+
+function countPeople(value) {
+  return Array.isArray(value) ? value.length : 0;
+}
+
+function isUsableStudioCompany(company) {
+  return /recorded at|mixed at|mastered at|studio/i.test(`${company?.entity_type_name ?? ''} ${company?.name ?? ''}`);
+}
+
+function suggestedDiagnosticAction({ payload, topLevelCreditCount, usableCompanyCount, trackExtraArtistCount }) {
+  if (!payload) return 'fetch-or-check-cache-path';
+  if (topLevelCreditCount > 0 || usableCompanyCount > 0) return 'extend-role-mapping-or-studio-parser';
+  if (trackExtraArtistCount > 0) return 'import-track-level-credits-or-choose-alternate-source';
+  return 'choose-alternate-source-or-mark-gap';
 }
 
 function latestRankFor(album) {

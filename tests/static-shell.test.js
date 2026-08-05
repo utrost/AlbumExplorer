@@ -20,6 +20,10 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /discogs-credit-review-helper\.js/);
   assert.match(app, /data-testid="discogs-review-helper"/);
   assert.match(app, /data-testid="discogs-review-snippet"/);
+  assert.match(app, /data-testid="discogs-source-diagnostics"/);
+  assert.match(app, /Source diagnostics/);
+  assert.match(app, /Track-level credits/);
+  assert.match(app, /Cache path/);
   assert.match(app, /approve-master-override/);
   assert.match(app, /add-search-alias/);
   assert.match(app, /Copy JSON snippet/);

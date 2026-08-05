@@ -6,17 +6,17 @@
   },
   "summary": {
     "comparisonAlbums": 760,
-    "candidates": 412,
-    "review": 245,
-    "gaps": 103,
-    "unresolved": 348,
+    "candidates": 428,
+    "review": 239,
+    "gaps": 93,
+    "unresolved": 332,
     "reviewReasons": {
-      "ambiguous-discogs-master-search-result": 216,
+      "ambiguous-discogs-master-search-result": 210,
       "discogs-master-fetch-failed": 5,
       "source-cache-without-usable-credits": 24
     },
     "gapReasons": {
-      "no-exact-discogs-master-search-result": 103
+      "no-exact-discogs-master-search-result": 93
     }
   },
   "groups": [
@@ -24,63 +24,109 @@
       "key": "review:ambiguous-discogs-master-search-result",
       "kind": "review",
       "reason": "ambiguous-discogs-master-search-result",
-      "count": 216,
+      "count": 210,
       "items": [
         {
           "kind": "review",
-          "albumId": "album-clash-london-calling-1980",
-          "artist": "The Clash",
-          "album": "London Calling",
-          "releaseYear": 1980,
-          "latestRank": 8,
+          "albumId": "album-beatles-the-beatles-the-white-album-1968",
+          "artist": "The Beatles",
+          "album": "The Beatles (\"The White Album\")",
+          "releaseYear": 1968,
+          "latestRank": 10,
           "ranks": {
-            "2003": 8
+            "2012": 10
           },
           "reason": "ambiguous-discogs-master-search-result",
           "recommendedAction": "approve-master-override",
           "sourceCandidates": [
             {
               "sourceType": "discogs-master-search",
-              "id": "1162886",
-              "title": "The Clash - London Calling",
-              "year": "1980",
-              "url": "https://api.discogs.com/masters/1162886"
+              "id": "3892825",
+              "title": "The Beatles - The Beatles",
+              "year": null,
+              "url": "https://api.discogs.com/masters/3892825"
             },
             {
               "sourceType": "discogs-master-search",
-              "id": "19382",
-              "title": "The Clash - London Calling",
-              "year": "1979",
-              "url": "https://api.discogs.com/masters/19382"
+              "id": "456999",
+              "title": "The Beatles - The Beatles",
+              "year": "1967",
+              "url": "https://api.discogs.com/masters/456999"
             }
           ]
         },
         {
           "kind": "review",
-          "albumId": "album-john-lennon-john-lennon-plastic-ono-band-1970",
-          "artist": "John Lennon",
-          "album": "John Lennon/Plastic Ono Band",
-          "releaseYear": 1970,
-          "latestRank": 23,
+          "albumId": "album-beatles-the-white-album-1968",
+          "artist": "The Beatles",
+          "album": "The White Album",
+          "releaseYear": 1968,
+          "latestRank": 10,
           "ranks": {
-            "2012": 23
+            "2003": 10
           },
           "reason": "ambiguous-discogs-master-search-result",
           "recommendedAction": "approve-master-override",
           "sourceCandidates": [
             {
               "sourceType": "discogs-master-search",
-              "id": "3404152",
-              "title": "John Lennon & Plastic Ono Band* - John Lennon / Plastic Ono Band",
-              "year": "1970",
-              "url": "https://api.discogs.com/masters/3404152"
+              "id": "3892825",
+              "title": "The Beatles - The Beatles",
+              "year": null,
+              "url": "https://api.discogs.com/masters/3892825"
             },
             {
               "sourceType": "discogs-master-search",
-              "id": "72864",
-              "title": "John Lennon / Plastic Ono Band* - John Lennon / Plastic Ono Band",
-              "year": "1970",
-              "url": "https://api.discogs.com/masters/72864"
+              "id": "456999",
+              "title": "The Beatles - The Beatles",
+              "year": "1967",
+              "url": "https://api.discogs.com/masters/456999"
+            }
+          ]
+        },
+        {
+          "kind": "review",
+          "albumId": "album-notorious-b-i-g-ready-to-die-1994",
+          "artist": "The Notorious B.I.G.",
+          "album": "Ready to Die",
+          "releaseYear": 1994,
+          "latestRank": 22,
+          "ranks": {
+            "2003": 134,
+            "2012": 134,
+            "2020": 22,
+            "2024": 22
+          },
+          "reason": "ambiguous-discogs-master-search-result",
+          "recommendedAction": "approve-master-override",
+          "sourceCandidates": [
+            {
+              "sourceType": "discogs-master-search",
+              "id": "1263614",
+              "title": "The Notorious B.I.G.* - Ready To Die",
+              "year": "1994",
+              "url": "https://api.discogs.com/masters/1263614"
+            },
+            {
+              "sourceType": "discogs-master-search",
+              "id": "1263642",
+              "title": "The Notorious B.I.G.* - Ready To Die",
+              "year": null,
+              "url": "https://api.discogs.com/masters/1263642"
+            },
+            {
+              "sourceType": "discogs-master-search",
+              "id": "1263613",
+              "title": "The Notorious B.I.G.* - Ready To Die",
+              "year": "1994",
+              "url": "https://api.discogs.com/masters/1263613"
+            },
+            {
+              "sourceType": "discogs-master-search",
+              "id": "1263672",
+              "title": "The Notorious B.I.G.* - Ready To Die",
+              "year": "1994",
+              "url": "https://api.discogs.com/masters/1263672"
             }
           ]
         },
@@ -120,6 +166,36 @@
               "title": "The Beatles - Sgt. Pepper's Lonely Hearts Club Band",
               "year": "1967",
               "url": "https://api.discogs.com/masters/1264296"
+            }
+          ]
+        },
+        {
+          "kind": "review",
+          "albumId": "album-beatles-white-album-1968",
+          "artist": "The Beatles",
+          "album": "White Album",
+          "releaseYear": 1968,
+          "latestRank": 29,
+          "ranks": {
+            "2020": 29,
+            "2024": 29
+          },
+          "reason": "ambiguous-discogs-master-search-result",
+          "recommendedAction": "approve-master-override",
+          "sourceCandidates": [
+            {
+              "sourceType": "discogs-master-search",
+              "id": "3892825",
+              "title": "The Beatles - The Beatles",
+              "year": null,
+              "url": "https://api.discogs.com/masters/3892825"
+            },
+            {
+              "sourceType": "discogs-master-search",
+              "id": "456999",
+              "title": "The Beatles - The Beatles",
+              "year": "1967",
+              "url": "https://api.discogs.com/masters/456999"
             }
           ]
         },
@@ -197,38 +273,6 @@
               "title": "Stevie Wonder - Innervisions",
               "year": "1973",
               "url": "https://api.discogs.com/masters/1420033"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-beatles-rubber-soul-1965",
-          "artist": "The Beatles",
-          "album": "Rubber Soul",
-          "releaseYear": 1965,
-          "latestRank": 35,
-          "ranks": {
-            "2003": 5,
-            "2012": 5,
-            "2020": 35,
-            "2024": 35
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "180084",
-              "title": "The Beatles - Rubber Soul",
-              "year": "1966",
-              "url": "https://api.discogs.com/masters/180084"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "45526",
-              "title": "The Beatles - Rubber Soul",
-              "year": "1965",
-              "url": "https://api.discogs.com/masters/45526"
             }
           ]
         },
@@ -377,45 +421,6 @@
         },
         {
           "kind": "review",
-          "albumId": "album-rolling-stones-let-it-bleed-1969",
-          "artist": "The Rolling Stones",
-          "album": "Let It Bleed",
-          "releaseYear": 1969,
-          "latestRank": 41,
-          "ranks": {
-            "2003": 32,
-            "2012": 32,
-            "2020": 41,
-            "2024": 41
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "52967",
-              "title": "Rolling Stones* - Let It Bleed",
-              "year": "1969",
-              "url": "https://api.discogs.com/masters/52967"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1671216",
-              "title": "The Rolling Stones - レット・イット・ブリード = Let It Bleed",
-              "year": "1970",
-              "url": "https://api.discogs.com/masters/1671216"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1895529",
-              "title": "The Rolling Stones - Honky Tonky Woman / Let It Bleed",
-              "year": null,
-              "url": "https://api.discogs.com/masters/1895529"
-            }
-          ]
-        },
-        {
-          "kind": "review",
           "albumId": "album-prince-sign-o-the-times-1987",
           "artist": "Prince",
           "album": "Sign O' the Times",
@@ -533,173 +538,6 @@
         },
         {
           "kind": "review",
-          "albumId": "album-jimi-hendrix-electric-ladyland-1968",
-          "artist": "Jimi Hendrix",
-          "album": "Electric Ladyland",
-          "releaseYear": 1968,
-          "latestRank": 53,
-          "ranks": {
-            "2003": 55,
-            "2012": 55,
-            "2020": 53,
-            "2024": 53
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "24535",
-              "title": "The Jimi Hendrix Experience - Electric Ladyland",
-              "year": "1968",
-              "url": "https://api.discogs.com/masters/24535"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "2978398",
-              "title": "The Jimi Hendrix Experience - Electric Ladyland",
-              "year": "1969",
-              "url": "https://api.discogs.com/masters/2978398"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "402399",
-              "title": "The Jimi Hendrix Experience - Electric Ladyland",
-              "year": null,
-              "url": "https://api.discogs.com/masters/402399"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-van-morrison-astral-weeks-1968",
-          "artist": "Van Morrison",
-          "album": "Astral Weeks",
-          "releaseYear": 1968,
-          "latestRank": 60,
-          "ranks": {
-            "2003": 19,
-            "2012": 19,
-            "2020": 60,
-            "2024": 60
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "14541",
-              "title": "Van Morrison - Astral Weeks",
-              "year": "1968",
-              "url": "https://api.discogs.com/masters/14541"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1658411",
-              "title": "Van Morrison - Double Dynamite: Moondance / Astral Weeks",
-              "year": null,
-              "url": "https://api.discogs.com/masters/1658411"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-eric-b-and-rakim-paid-in-full-1987",
-          "artist": "Eric B. and Rakim",
-          "album": "Paid in Full",
-          "releaseYear": 1987,
-          "latestRank": 61,
-          "ranks": {
-            "2003": 228,
-            "2012": 228,
-            "2020": 61,
-            "2024": 61
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "12854",
-              "title": "Eric B. & Rakim - Paid In Full",
-              "year": "1987",
-              "url": "https://api.discogs.com/masters/12854"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "12742",
-              "title": "Eric B. & Rakim - Move The Crowd / Paid In Full",
-              "year": "1987",
-              "url": "https://api.discogs.com/masters/12742"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-guns-n-roses-appetite-for-destruction-1987",
-          "artist": "Guns N' Roses",
-          "album": "Appetite for Destruction",
-          "releaseYear": 1987,
-          "latestRank": 62,
-          "ranks": {
-            "2003": 62,
-            "2012": 62,
-            "2020": 62,
-            "2024": 62
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "503823",
-              "title": "Guns N' Roses - Appetite For Destruction",
-              "year": null,
-              "url": "https://api.discogs.com/masters/503823"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "9467",
-              "title": "Guns N' Roses - Appetite For Destruction",
-              "year": "1987",
-              "url": "https://api.discogs.com/masters/9467"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-steely-dan-aja-1977",
-          "artist": "Steely Dan",
-          "album": "Aja",
-          "releaseYear": 1977,
-          "latestRank": 63,
-          "ranks": {
-            "2003": 145,
-            "2012": 145,
-            "2020": 63,
-            "2024": 63
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "16921",
-              "title": "Steely Dan - Aja",
-              "year": "1977",
-              "url": "https://api.discogs.com/masters/16921"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "730890",
-              "title": "Steely Dan - Black Cow / Peg / Aja",
-              "year": "1978",
-              "url": "https://api.discogs.com/masters/730890"
-            }
-          ]
-        },
-        {
-          "kind": "review",
           "albumId": "album-outkast-stankonia-2000",
           "artist": "OutKast",
           "album": "Stankonia",
@@ -763,36 +601,6 @@
               "title": "Phil Spector - Back To Mono (1958-1969)",
               "year": "1991",
               "url": "https://api.discogs.com/masters/253925"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-kate-bush-hounds-of-love-1985",
-          "artist": "Kate Bush",
-          "album": "Hounds of Love",
-          "releaseYear": 1985,
-          "latestRank": 68,
-          "ranks": {
-            "2020": 68,
-            "2024": 68
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "28719",
-              "title": "Kate Bush - Hounds Of Love",
-              "year": "1986",
-              "url": "https://api.discogs.com/masters/28719"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "28680",
-              "title": "Kate Bush - Hounds Of Love",
-              "year": "1985",
-              "url": "https://api.discogs.com/masters/28680"
             }
           ]
         },
@@ -7419,36 +7227,8 @@
       "key": "gap:no-exact-discogs-master-search-result",
       "kind": "gap",
       "reason": "no-exact-discogs-master-search-result",
-      "count": 103,
+      "count": 93,
       "items": [
-        {
-          "kind": "gap",
-          "albumId": "album-beatles-the-beatles-the-white-album-1968",
-          "artist": "The Beatles",
-          "album": "The Beatles (\"The White Album\")",
-          "releaseYear": 1968,
-          "latestRank": 10,
-          "ranks": {
-            "2012": 10
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-beatles-the-white-album-1968",
-          "artist": "The Beatles",
-          "album": "The White Album",
-          "releaseYear": 1968,
-          "latestRank": 10,
-          "ranks": {
-            "2003": 10
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
         {
           "kind": "gap",
           "albumId": "album-elvis-presley-the-sun-sessions-1999",
@@ -7458,84 +7238,6 @@
           "latestRank": 11,
           "ranks": {
             "2003": 11
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-velvet-underground-and-nico-the-velvet-underground-1967",
-          "artist": "The Velvet Underground and Nico",
-          "album": "The Velvet Underground",
-          "releaseYear": 1967,
-          "latestRank": 13,
-          "ranks": {
-            "2003": 13
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-rolling-stones-exile-on-main-street-1972",
-          "artist": "The Rolling Stones",
-          "album": "Exile on Main Street",
-          "releaseYear": 1972,
-          "latestRank": 14,
-          "ranks": {
-            "2003": 7,
-            "2012": 7,
-            "2020": 14,
-            "2024": 14
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-notorious-b-i-g-ready-to-die-1994",
-          "artist": "The Notorious B.I.G.",
-          "album": "Ready to Die",
-          "releaseYear": 1994,
-          "latestRank": 22,
-          "ranks": {
-            "2003": 134,
-            "2012": 134,
-            "2020": 22,
-            "2024": 22
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-beatles-white-album-1968",
-          "artist": "The Beatles",
-          "album": "White Album",
-          "releaseYear": 1968,
-          "latestRank": 29,
-          "ranks": {
-            "2020": 29,
-            "2024": 29
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-beyonce-lemonade-2016",
-          "artist": "Beyoncé",
-          "album": "Lemonade",
-          "releaseYear": 2016,
-          "latestRank": 32,
-          "ranks": {
-            "2020": 32,
-            "2024": 32
           },
           "reason": "no-exact-discogs-master-search-result",
           "recommendedAction": "add-search-alias",
@@ -7566,51 +7268,6 @@
             "2003": 46,
             "2012": 46,
             "2020": 48
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-james-brown-star-time-1991",
-          "artist": "James Brown",
-          "album": "Star Time",
-          "releaseYear": 1991,
-          "latestRank": 54,
-          "ranks": {
-            "2003": 75,
-            "2012": 75,
-            "2020": 54,
-            "2024": 54
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-ray-charles-the-birth-of-soul-the-complete-atlantic-recordings-1991",
-          "artist": "Ray Charles",
-          "album": "The Birth of Soul: The Complete Atlantic Recordings",
-          "releaseYear": 1991,
-          "latestRank": 54,
-          "ranks": {
-            "2003": 54
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-ray-charles-the-birth-of-soul-the-complete-atlantic-rhythm-and-blues-recordings-1991",
-          "artist": "Ray Charles",
-          "album": "The Birth Of Soul: The Complete Atlantic Rhythm And Blues Recordings",
-          "releaseYear": 1991,
-          "latestRank": 54,
-          "ranks": {
-            "2012": 54
           },
           "reason": "no-exact-discogs-master-search-result",
           "recommendedAction": "add-search-alias",
@@ -9455,35 +9112,6 @@
   "items": [
     {
       "kind": "review",
-      "albumId": "album-clash-london-calling-1980",
-      "artist": "The Clash",
-      "album": "London Calling",
-      "releaseYear": 1980,
-      "latestRank": 8,
-      "ranks": {
-        "2003": 8
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1162886",
-          "title": "The Clash - London Calling",
-          "year": "1980",
-          "url": "https://api.discogs.com/masters/1162886"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "19382",
-          "title": "The Clash - London Calling",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/19382"
-        }
-      ]
-    },
-    {
-      "kind": "gap",
       "albumId": "album-beatles-the-beatles-the-white-album-1968",
       "artist": "The Beatles",
       "album": "The Beatles (\"The White Album\")",
@@ -9492,12 +9120,27 @@
       "ranks": {
         "2012": 10
       },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
+      "reason": "ambiguous-discogs-master-search-result",
+      "recommendedAction": "approve-master-override",
+      "sourceCandidates": [
+        {
+          "sourceType": "discogs-master-search",
+          "id": "3892825",
+          "title": "The Beatles - The Beatles",
+          "year": null,
+          "url": "https://api.discogs.com/masters/3892825"
+        },
+        {
+          "sourceType": "discogs-master-search",
+          "id": "456999",
+          "title": "The Beatles - The Beatles",
+          "year": "1967",
+          "url": "https://api.discogs.com/masters/456999"
+        }
+      ]
     },
     {
-      "kind": "gap",
+      "kind": "review",
       "albumId": "album-beatles-the-white-album-1968",
       "artist": "The Beatles",
       "album": "The White Album",
@@ -9506,9 +9149,24 @@
       "ranks": {
         "2003": 10
       },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
+      "reason": "ambiguous-discogs-master-search-result",
+      "recommendedAction": "approve-master-override",
+      "sourceCandidates": [
+        {
+          "sourceType": "discogs-master-search",
+          "id": "3892825",
+          "title": "The Beatles - The Beatles",
+          "year": null,
+          "url": "https://api.discogs.com/masters/3892825"
+        },
+        {
+          "sourceType": "discogs-master-search",
+          "id": "456999",
+          "title": "The Beatles - The Beatles",
+          "year": "1967",
+          "url": "https://api.discogs.com/masters/456999"
+        }
+      ]
     },
     {
       "kind": "gap",
@@ -9525,38 +9183,7 @@
       "sourceCandidates": []
     },
     {
-      "kind": "gap",
-      "albumId": "album-velvet-underground-and-nico-the-velvet-underground-1967",
-      "artist": "The Velvet Underground and Nico",
-      "album": "The Velvet Underground",
-      "releaseYear": 1967,
-      "latestRank": 13,
-      "ranks": {
-        "2003": 13
-      },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
-    },
-    {
-      "kind": "gap",
-      "albumId": "album-rolling-stones-exile-on-main-street-1972",
-      "artist": "The Rolling Stones",
-      "album": "Exile on Main Street",
-      "releaseYear": 1972,
-      "latestRank": 14,
-      "ranks": {
-        "2003": 7,
-        "2012": 7,
-        "2020": 14,
-        "2024": 14
-      },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
-    },
-    {
-      "kind": "gap",
+      "kind": "review",
       "albumId": "album-notorious-b-i-g-ready-to-die-1994",
       "artist": "The Notorious B.I.G.",
       "album": "Ready to Die",
@@ -9568,36 +9195,36 @@
         "2020": 22,
         "2024": 22
       },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
-    },
-    {
-      "kind": "review",
-      "albumId": "album-john-lennon-john-lennon-plastic-ono-band-1970",
-      "artist": "John Lennon",
-      "album": "John Lennon/Plastic Ono Band",
-      "releaseYear": 1970,
-      "latestRank": 23,
-      "ranks": {
-        "2012": 23
-      },
       "reason": "ambiguous-discogs-master-search-result",
       "recommendedAction": "approve-master-override",
       "sourceCandidates": [
         {
           "sourceType": "discogs-master-search",
-          "id": "3404152",
-          "title": "John Lennon & Plastic Ono Band* - John Lennon / Plastic Ono Band",
-          "year": "1970",
-          "url": "https://api.discogs.com/masters/3404152"
+          "id": "1263614",
+          "title": "The Notorious B.I.G.* - Ready To Die",
+          "year": "1994",
+          "url": "https://api.discogs.com/masters/1263614"
         },
         {
           "sourceType": "discogs-master-search",
-          "id": "72864",
-          "title": "John Lennon / Plastic Ono Band* - John Lennon / Plastic Ono Band",
-          "year": "1970",
-          "url": "https://api.discogs.com/masters/72864"
+          "id": "1263642",
+          "title": "The Notorious B.I.G.* - Ready To Die",
+          "year": null,
+          "url": "https://api.discogs.com/masters/1263642"
+        },
+        {
+          "sourceType": "discogs-master-search",
+          "id": "1263613",
+          "title": "The Notorious B.I.G.* - Ready To Die",
+          "year": "1994",
+          "url": "https://api.discogs.com/masters/1263613"
+        },
+        {
+          "sourceType": "discogs-master-search",
+          "id": "1263672",
+          "title": "The Notorious B.I.G.* - Ready To Die",
+          "year": "1994",
+          "url": "https://api.discogs.com/masters/1263672"
         }
       ]
     },
@@ -9641,7 +9268,7 @@
       ]
     },
     {
-      "kind": "gap",
+      "kind": "review",
       "albumId": "album-beatles-white-album-1968",
       "artist": "The Beatles",
       "album": "White Album",
@@ -9651,24 +9278,24 @@
         "2020": 29,
         "2024": 29
       },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
-    },
-    {
-      "kind": "gap",
-      "albumId": "album-beyonce-lemonade-2016",
-      "artist": "Beyoncé",
-      "album": "Lemonade",
-      "releaseYear": 2016,
-      "latestRank": 32,
-      "ranks": {
-        "2020": 32,
-        "2024": 32
-      },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
+      "reason": "ambiguous-discogs-master-search-result",
+      "recommendedAction": "approve-master-override",
+      "sourceCandidates": [
+        {
+          "sourceType": "discogs-master-search",
+          "id": "3892825",
+          "title": "The Beatles - The Beatles",
+          "year": null,
+          "url": "https://api.discogs.com/masters/3892825"
+        },
+        {
+          "sourceType": "discogs-master-search",
+          "id": "456999",
+          "title": "The Beatles - The Beatles",
+          "year": "1967",
+          "url": "https://api.discogs.com/masters/456999"
+        }
+      ]
     },
     {
       "kind": "review",
@@ -9744,38 +9371,6 @@
           "title": "Stevie Wonder - Innervisions",
           "year": "1973",
           "url": "https://api.discogs.com/masters/1420033"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-beatles-rubber-soul-1965",
-      "artist": "The Beatles",
-      "album": "Rubber Soul",
-      "releaseYear": 1965,
-      "latestRank": 35,
-      "ranks": {
-        "2003": 5,
-        "2012": 5,
-        "2020": 35,
-        "2024": 35
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "180084",
-          "title": "The Beatles - Rubber Soul",
-          "year": "1966",
-          "url": "https://api.discogs.com/masters/180084"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "45526",
-          "title": "The Beatles - Rubber Soul",
-          "year": "1965",
-          "url": "https://api.discogs.com/masters/45526"
         }
       ]
     },
@@ -9938,45 +9533,6 @@
     },
     {
       "kind": "review",
-      "albumId": "album-rolling-stones-let-it-bleed-1969",
-      "artist": "The Rolling Stones",
-      "album": "Let It Bleed",
-      "releaseYear": 1969,
-      "latestRank": 41,
-      "ranks": {
-        "2003": 32,
-        "2012": 32,
-        "2020": 41,
-        "2024": 41
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "52967",
-          "title": "Rolling Stones* - Let It Bleed",
-          "year": "1969",
-          "url": "https://api.discogs.com/masters/52967"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1671216",
-          "title": "The Rolling Stones - レット・イット・ブリード = Let It Bleed",
-          "year": "1970",
-          "url": "https://api.discogs.com/masters/1671216"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1895529",
-          "title": "The Rolling Stones - Honky Tonky Woman / Let It Bleed",
-          "year": null,
-          "url": "https://api.discogs.com/masters/1895529"
-        }
-      ]
-    },
-    {
-      "kind": "review",
       "albumId": "album-prince-sign-o-the-times-1987",
       "artist": "Prince",
       "album": "Sign O' the Times",
@@ -10109,90 +9665,6 @@
       "sourceCandidates": []
     },
     {
-      "kind": "review",
-      "albumId": "album-jimi-hendrix-electric-ladyland-1968",
-      "artist": "Jimi Hendrix",
-      "album": "Electric Ladyland",
-      "releaseYear": 1968,
-      "latestRank": 53,
-      "ranks": {
-        "2003": 55,
-        "2012": 55,
-        "2020": 53,
-        "2024": 53
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "24535",
-          "title": "The Jimi Hendrix Experience - Electric Ladyland",
-          "year": "1968",
-          "url": "https://api.discogs.com/masters/24535"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "2978398",
-          "title": "The Jimi Hendrix Experience - Electric Ladyland",
-          "year": "1969",
-          "url": "https://api.discogs.com/masters/2978398"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "402399",
-          "title": "The Jimi Hendrix Experience - Electric Ladyland",
-          "year": null,
-          "url": "https://api.discogs.com/masters/402399"
-        }
-      ]
-    },
-    {
-      "kind": "gap",
-      "albumId": "album-james-brown-star-time-1991",
-      "artist": "James Brown",
-      "album": "Star Time",
-      "releaseYear": 1991,
-      "latestRank": 54,
-      "ranks": {
-        "2003": 75,
-        "2012": 75,
-        "2020": 54,
-        "2024": 54
-      },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
-    },
-    {
-      "kind": "gap",
-      "albumId": "album-ray-charles-the-birth-of-soul-the-complete-atlantic-recordings-1991",
-      "artist": "Ray Charles",
-      "album": "The Birth of Soul: The Complete Atlantic Recordings",
-      "releaseYear": 1991,
-      "latestRank": 54,
-      "ranks": {
-        "2003": 54
-      },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
-    },
-    {
-      "kind": "gap",
-      "albumId": "album-ray-charles-the-birth-of-soul-the-complete-atlantic-rhythm-and-blues-recordings-1991",
-      "artist": "Ray Charles",
-      "album": "The Birth Of Soul: The Complete Atlantic Rhythm And Blues Recordings",
-      "releaseYear": 1991,
-      "latestRank": 54,
-      "ranks": {
-        "2012": 54
-      },
-      "reason": "no-exact-discogs-master-search-result",
-      "recommendedAction": "add-search-alias",
-      "sourceCandidates": []
-    },
-    {
       "kind": "gap",
       "albumId": "album-led-zeppelin-led-zeppelin-iv-1971",
       "artist": "Led Zeppelin",
@@ -10238,134 +9710,6 @@
       "reason": "no-exact-discogs-master-search-result",
       "recommendedAction": "add-search-alias",
       "sourceCandidates": []
-    },
-    {
-      "kind": "review",
-      "albumId": "album-van-morrison-astral-weeks-1968",
-      "artist": "Van Morrison",
-      "album": "Astral Weeks",
-      "releaseYear": 1968,
-      "latestRank": 60,
-      "ranks": {
-        "2003": 19,
-        "2012": 19,
-        "2020": 60,
-        "2024": 60
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "14541",
-          "title": "Van Morrison - Astral Weeks",
-          "year": "1968",
-          "url": "https://api.discogs.com/masters/14541"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1658411",
-          "title": "Van Morrison - Double Dynamite: Moondance / Astral Weeks",
-          "year": null,
-          "url": "https://api.discogs.com/masters/1658411"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-eric-b-and-rakim-paid-in-full-1987",
-      "artist": "Eric B. and Rakim",
-      "album": "Paid in Full",
-      "releaseYear": 1987,
-      "latestRank": 61,
-      "ranks": {
-        "2003": 228,
-        "2012": 228,
-        "2020": 61,
-        "2024": 61
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "12854",
-          "title": "Eric B. & Rakim - Paid In Full",
-          "year": "1987",
-          "url": "https://api.discogs.com/masters/12854"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "12742",
-          "title": "Eric B. & Rakim - Move The Crowd / Paid In Full",
-          "year": "1987",
-          "url": "https://api.discogs.com/masters/12742"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-guns-n-roses-appetite-for-destruction-1987",
-      "artist": "Guns N' Roses",
-      "album": "Appetite for Destruction",
-      "releaseYear": 1987,
-      "latestRank": 62,
-      "ranks": {
-        "2003": 62,
-        "2012": 62,
-        "2020": 62,
-        "2024": 62
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "503823",
-          "title": "Guns N' Roses - Appetite For Destruction",
-          "year": null,
-          "url": "https://api.discogs.com/masters/503823"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "9467",
-          "title": "Guns N' Roses - Appetite For Destruction",
-          "year": "1987",
-          "url": "https://api.discogs.com/masters/9467"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-steely-dan-aja-1977",
-      "artist": "Steely Dan",
-      "album": "Aja",
-      "releaseYear": 1977,
-      "latestRank": 63,
-      "ranks": {
-        "2003": 145,
-        "2012": 145,
-        "2020": 63,
-        "2024": 63
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "16921",
-          "title": "Steely Dan - Aja",
-          "year": "1977",
-          "url": "https://api.discogs.com/masters/16921"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "730890",
-          "title": "Steely Dan - Black Cow / Peg / Aja",
-          "year": "1978",
-          "url": "https://api.discogs.com/masters/730890"
-        }
-      ]
     },
     {
       "kind": "review",
@@ -10446,36 +9790,6 @@
           "title": "Phil Spector - Back To Mono (1958-1969)",
           "year": "1991",
           "url": "https://api.discogs.com/masters/253925"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-kate-bush-hounds-of-love-1985",
-      "artist": "Kate Bush",
-      "album": "Hounds of Love",
-      "releaseYear": 1985,
-      "latestRank": 68,
-      "ranks": {
-        "2020": 68,
-        "2024": 68
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "28719",
-          "title": "Kate Bush - Hounds Of Love",
-          "year": "1986",
-          "url": "https://api.discogs.com/masters/28719"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "28680",
-          "title": "Kate Bush - Hounds Of Love",
-          "year": "1985",
-          "url": "https://api.discogs.com/masters/28680"
         }
       ]
     },

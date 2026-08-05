@@ -5,6 +5,7 @@ import { buildAlbumCreditCandidates } from '../src/data/album-credit-candidates.
 import {
   buildDiscogsCreditSearchAliasMap,
   buildDiscogsMasterOverrideMap,
+  discogsCreditSearchCacheKey,
   discogsSearchAlbumFor,
   selectDiscogsMasterForAlbum
 } from '../src/data/discogs-credit-source-import.js';
@@ -44,7 +45,7 @@ let networkFetches = 0;
 for (let index = 0; index < albums.length; index += 1) {
   const album = albums[index];
   const queryAlbum = discogsSearchAlbumFor(album, aliases);
-  const searchCachePath = join(searchDir, queryAlbum.searchAlias ? `${album.id}.alias.json` : `${album.id}.json`);
+  const searchCachePath = join(searchDir, `${discogsCreditSearchCacheKey(queryAlbum)}.json`);
   const search = await fetchOrReadJsonOrNull(searchCachePath, discogsSearchUrl(queryAlbum));
   if (!search) {
     review.push(reviewItem(album, 'discogs-search-fetch-failed', []));

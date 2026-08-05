@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   buildDiscogsCreditSearchAliasMap,
   buildDiscogsMasterOverrideMap,
+  discogsCreditSearchCacheKey,
   discogsSearchAlbumFor,
   selectDiscogsMasterForAlbum
 } from '../../src/data/discogs-credit-source-import.js';
@@ -106,4 +107,17 @@ test('uses an approved search alias as the Discogs query source without changing
   assert.equal(queryAlbum.releaseYear, 1972);
   assert.equal(queryAlbum.sourceAlbum.artist, 'The Rolling Stones');
   assert.equal(unaliasedAlbum.artist, 'The Beach Boys');
+});
+
+test('uses the alias query in the search cache key so edited aliases do not reuse stale cache', () => {
+  const original = { id: 'album-notorious-b-i-g-ready-to-die-1994', artist: 'The Notorious B.I.G.', album: 'Ready to Die', releaseYear: 1994 };
+  const withThe = discogsSearchAlbumFor(original, buildDiscogsCreditSearchAliasMap({
+    aliases: [{ albumId: original.id, status: 'approved', artist: 'The Notorious B.I.G.', album: 'Ready To Die' }]
+  }));
+  const withoutThe = discogsSearchAlbumFor(original, buildDiscogsCreditSearchAliasMap({
+    aliases: [{ albumId: original.id, status: 'approved', artist: 'Notorious B.I.G.', album: 'Ready To Die' }]
+  }));
+
+  assert.notEqual(discogsCreditSearchCacheKey(withThe), discogsCreditSearchCacheKey(withoutThe));
+  assert.match(discogsCreditSearchCacheKey(withoutThe), /^album-notorious-b-i-g-ready-to-die-1994--alias-/);
 });

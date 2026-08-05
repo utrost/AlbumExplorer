@@ -1,5 +1,79 @@
 {
   "status": "manual-search-aliases",
   "description": "Curator-approved Discogs credit search aliases. These affect external search queries only; local AlbumExplorer album identities remain unchanged.",
-  "aliases": []
+  "aliases": [
+    {
+      "albumId": "album-beatles-the-beatles-the-white-album-1968",
+      "status": "approved",
+      "artist": "The Beatles",
+      "album": "The Beatles",
+      "reason": "Alias White Album listing to Discogs canonical self-titled album search."
+    },
+    {
+      "albumId": "album-beatles-the-white-album-1968",
+      "status": "approved",
+      "artist": "The Beatles",
+      "album": "The Beatles",
+      "reason": "Alias White Album title variant to Discogs canonical self-titled album search."
+    },
+    {
+      "albumId": "album-beatles-white-album-1968",
+      "status": "approved",
+      "artist": "The Beatles",
+      "album": "The Beatles",
+      "reason": "Alias shortened White Album title to Discogs canonical self-titled album search."
+    },
+    {
+      "albumId": "album-rolling-stones-exile-on-main-street-1972",
+      "status": "approved",
+      "artist": "Rolling Stones",
+      "album": "Exile On Main St.",
+      "reason": "Alias to Discogs canonical artist/title spelling."
+    },
+    {
+      "albumId": "album-notorious-b-i-g-ready-to-die-1994",
+      "status": "approved",
+      "artist": "Notorious B.I.G.",
+      "album": "Ready To Die",
+      "reason": "Discogs search returns exact masters without leading The in the artist query."
+    },
+    {
+      "albumId": "album-beyonce-lemonade-2016",
+      "status": "approved",
+      "artist": "Beyoncé",
+      "album": "Lemonade",
+      "reason": "Alias decomposed Beyonce accent to Discogs canonical artist spelling."
+    },
+    {
+      "albumId": "album-velvet-underground-and-nico-the-velvet-underground-1967",
+      "status": "approved",
+      "artist": "The Velvet Underground & Nico",
+      "album": "The Velvet Underground & Nico",
+      "reason": "Alias truncated Rolling Stone title to canonical Discogs album title."
+    },
+    {
+      "albumId": "album-james-brown-star-time-1991",
+      "status": "approved",
+      "artist": "James Brown",
+      "album": "Star Time",
+      "releaseYear": 1993,
+      "reason": "Discogs master uses the box-set release year 1993 for Star Time."
+    },
+    {
+      "albumId": "album-ray-charles-the-birth-of-soul-the-complete-atlantic-recordings-1991",
+      "status": "approved",
+      "artist": "Ray Charles",
+      "album": "The Birth Of Soul - The Complete Atlantic Rhythm & Blues Recordings 1952-1959",
+      "releaseYear": 1991,
+      "reason": "Alias shortened Rolling Stone title to exact Discogs master title."
+    },
+    {
+      "albumId": "album-ray-charles-the-birth-of-soul-the-complete-atlantic-rhythm-and-blues-recordings-1991",
+      "status": "approved",
+      "artist": "Ray Charles",
+      "album": "The Birth Of Soul - The Complete Atlantic Rhythm & Blues Recordings 1952-1959",
+      "releaseYear": 1991,
+      "reason": "Alias punctuation variant to exact Discogs master title."
+    }
+  ]
 }

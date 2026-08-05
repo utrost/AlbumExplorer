@@ -36,21 +36,21 @@ The importer is resumable: it reads existing cache files first and only fetches 
 After applying `data/review/discogs-credit-master-overrides.json` and running the importer across all comparison albums:
 
 - Scope albums: 760
-- Credit candidates: 412
-- Review items: 245
-- Gaps: 103
-- Extracted credit rows: 5,096
-- Extracted studio-like rows: 1,068
+- Credit candidates: 428
+- Review items: 239
+- Gaps: 93
+- Extracted credit rows: 5,378
+- Extracted studio-like rows: 1,152
 - Network fetches during the full run: 1,634
 - Discogs `429` retry events during the full run: 144
 - Non-fatal failed Discogs requests routed to review: 5
 
 Credit row types:
 
-- producer: 818
-- engineer: 775
-- songwriter: 435
-- musician: 3,068
+- producer: 852
+- engineer: 820
+- songwriter: 454
+- musician: 3,252
 
 ## Candidate examples
 
@@ -71,13 +71,13 @@ The remaining non-candidate albums are explicit review/gap work, not silently fi
 
 Review reasons:
 
-- ambiguous Discogs master search result: 216
+- ambiguous Discogs master search result: 210
 - selected Discogs master fetch failed: 5
 - source cache without usable credits: 24
 
 Gap reasons:
 
-- no exact Discogs master search result: 103
+- no exact Discogs master search result: 93
 
 ## Review policy
 
@@ -99,7 +99,7 @@ The importer is intentionally conservative.
 
 ## Next normalization step
 
-1. Work through the 245 review items, starting with ambiguous Discogs master matches that can be approved in `data/review/discogs-credit-master-overrides.json`.
-2. Improve search aliases for the 103 gaps where exact Discogs master search returned no usable match.
+1. Work through the 239 review items, starting with ambiguous Discogs master matches that can be approved in `data/review/discogs-credit-master-overrides.json`.
+2. Improve search aliases for the 93 gaps where exact Discogs master search returned no usable match.
 3. Re-run the full import after each override/alias batch; the importer is cache-first and only fetches missing source responses.
 4. Add a compact review UI/report for approved, rejected, gap, and stale Discogs candidates.

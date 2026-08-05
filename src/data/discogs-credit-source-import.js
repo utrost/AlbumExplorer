@@ -17,6 +17,11 @@ export function discogsSearchAlbumFor(album, aliases = new Map()) {
   };
 }
 
+export function discogsCreditSearchCacheKey(album) {
+  if (!album.searchAlias) return album.id;
+  return `${album.id}--alias-${slugify([album.artist, album.album, album.releaseYear ?? ''].join(' '))}`;
+}
+
 export function buildDiscogsMasterOverrideMap({ overrides = [] } = {}) {
   return new Map((overrides ?? [])
     .filter((override) => override.status === 'approved' && override.albumId && override.discogsMasterId)
@@ -49,6 +54,10 @@ export function exactDiscogsMasterSearchResults(album, results = []) {
     const year = Number(result.year);
     return !album.releaseYear || !Number.isInteger(year) || Math.abs(album.releaseYear - year) <= 1;
   });
+}
+
+function slugify(value) {
+  return normalizeTitle(value).replace(/\s+/g, '-');
 }
 
 function normalizeTitle(value) {

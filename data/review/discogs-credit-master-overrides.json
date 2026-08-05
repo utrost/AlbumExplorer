@@ -92,6 +92,72 @@
       "status": "rejected",
       "discogsMasterId": "1264296",
       "reason": "Rejected for now: cached Discogs search candidate URL returns 404 when fetched; keep in review."
+    },
+    {
+      "albumId": "album-clash-london-calling-1980",
+      "status": "approved",
+      "discogsMasterId": "19382",
+      "reason": "Selected the exact 1979 Discogs album master; Rolling Stone source row uses 1980 but the album master is the canonical London Calling album, not the 1980 duplicate."
+    },
+    {
+      "albumId": "album-john-lennon-john-lennon-plastic-ono-band-1970",
+      "status": "approved",
+      "discogsMasterId": "72864",
+      "reason": "Selected the exact 1970 album master by John Lennon / Plastic Ono Band."
+    },
+    {
+      "albumId": "album-beatles-rubber-soul-1965",
+      "status": "approved",
+      "discogsMasterId": "45526",
+      "reason": "Selected the exact 1965 album master rather than the 1966 duplicate candidate."
+    },
+    {
+      "albumId": "album-rolling-stones-let-it-bleed-1969",
+      "status": "approved",
+      "discogsMasterId": "52967",
+      "reason": "Selected the exact 1969 album master and excluded later/non-album title candidates."
+    },
+    {
+      "albumId": "album-jimi-hendrix-electric-ladyland-1968",
+      "status": "approved",
+      "discogsMasterId": "24535",
+      "reason": "Selected the exact 1968 Jimi Hendrix Experience album master."
+    },
+    {
+      "albumId": "album-van-morrison-astral-weeks-1968",
+      "status": "approved",
+      "discogsMasterId": "14541",
+      "reason": "Selected the exact 1968 album master and excluded two-album compilation candidate."
+    },
+    {
+      "albumId": "album-eric-b-and-rakim-paid-in-full-1987",
+      "status": "approved",
+      "discogsMasterId": "12854",
+      "reason": "Selected the exact 1987 album master and excluded single-pair candidate."
+    },
+    {
+      "albumId": "album-guns-n-roses-appetite-for-destruction-1987",
+      "status": "approved",
+      "discogsMasterId": "9467",
+      "reason": "Selected the exact 1987 album master."
+    },
+    {
+      "albumId": "album-steely-dan-aja-1977",
+      "status": "approved",
+      "discogsMasterId": "16921",
+      "reason": "Selected the exact 1977 album master and excluded single/track-pair candidate."
+    },
+    {
+      "albumId": "album-kate-bush-hounds-of-love-1985",
+      "status": "approved",
+      "discogsMasterId": "28680",
+      "reason": "Selected the exact 1985 album master rather than the 1986 duplicate candidate."
+    },
+    {
+      "albumId": "album-notorious-b-i-g-ready-to-die-1994",
+      "status": "rejected",
+      "discogsMasterId": "1263614",
+      "reason": "Rejected after verification: exact 1994 Discogs master candidates returned 404 when fetched; keep alias-created item in review."
     }
   ]
 }

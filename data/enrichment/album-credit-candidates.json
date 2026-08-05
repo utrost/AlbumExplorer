@@ -3298,6 +3298,87 @@
       ]
     },
     {
+      "albumId": "album-stevie-wonder-innervisions-1973",
+      "artist": "Stevie Wonder",
+      "album": "Innervisions",
+      "releaseYear": 1973,
+      "status": "candidate",
+      "confidence": "source-cache",
+      "source": {
+        "system": "discogs-release-cache",
+        "id": "13286331",
+        "title": "Innervisions",
+        "url": "https://www.discogs.com/release/13286331-Stevie-Wonder-Innervisions",
+        "cachePath": "data/imports/discogs/releases/13286331.json"
+      },
+      "credits": [
+        {
+          "type": "producer",
+          "name": "Malcolm Cecil",
+          "role": "Co-producer",
+          "sourceRole": "Co-producer"
+        },
+        {
+          "type": "producer",
+          "name": "Robert Margouleff",
+          "role": "Co-producer",
+          "sourceRole": "Co-producer"
+        },
+        {
+          "type": "producer",
+          "name": "Stevie Wonder",
+          "role": "Producer",
+          "sourceRole": "Producer, Arranged By"
+        },
+        {
+          "type": "engineer",
+          "name": "Malcolm Cecil",
+          "role": "Engineer",
+          "sourceRole": "Programmed By , Engineer"
+        },
+        {
+          "type": "engineer",
+          "name": "Robert Margouleff",
+          "role": "Engineer",
+          "sourceRole": "Programmed By , Engineer"
+        },
+        {
+          "type": "musician",
+          "name": "Stevie Wonder",
+          "role": "Synthesizer",
+          "sourceRole": "Synthesizer , Synthesizer"
+        },
+        {
+          "type": "songwriter",
+          "name": "Stevie Wonder",
+          "role": "Written-By",
+          "sourceRole": "Written-By"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Record Plant, Los Angeles",
+          "source": "discogs-company:Recorded At"
+        },
+        {
+          "name": "Mediasound",
+          "source": "discogs-company:Recorded At"
+        },
+        {
+          "name": "Master Cutting Room",
+          "source": "discogs-company:Mastered At"
+        },
+        {
+          "name": "RCA Studios, Hollywood",
+          "source": "discogs-company:Mastered At"
+        },
+        {
+          "name": "Media Sound",
+          "source": "discogs-notes"
+        }
+      ]
+    },
+    {
       "albumId": "album-beatles-rubber-soul-1965",
       "artist": "The Beatles",
       "album": "Rubber Soul",
@@ -3338,6 +3419,166 @@
         }
       ],
       "studios": []
+    },
+    {
+      "albumId": "album-michael-jackson-off-the-wall-1979",
+      "artist": "Michael Jackson",
+      "album": "Off the Wall",
+      "releaseYear": 1979,
+      "status": "candidate",
+      "confidence": "source-cache",
+      "source": {
+        "system": "discogs-release-cache",
+        "id": "120096",
+        "title": "Off The Wall",
+        "url": "https://www.discogs.com/release/120096-Michael-Jackson-Off-The-Wall",
+        "cachePath": "data/imports/discogs/releases/120096.json"
+      },
+      "credits": [
+        {
+          "type": "producer",
+          "name": "Michael Jackson",
+          "role": "Co-producer",
+          "sourceRole": "Co-producer"
+        },
+        {
+          "type": "producer",
+          "name": "Quincy Jones",
+          "role": "Producer",
+          "sourceRole": "Producer"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Allen Zentz Recording",
+          "source": "discogs-company:Recorded At"
+        },
+        {
+          "name": "Westlake Studios",
+          "source": "discogs-company:Recorded At"
+        },
+        {
+          "name": "Cherokee Studios",
+          "source": "discogs-company:Recorded At"
+        },
+        {
+          "name": "A&M Studios",
+          "source": "discogs-company:Mastered At"
+        },
+        {
+          "name": "Allen Zentz Recording Horns recorded at Westlake Audio; Strings recorded at Cherokee Studios Mixed at Westlake Audio; Mastered at A&M Recording Studio",
+          "source": "discogs-notes"
+        }
+      ]
+    },
+    {
+      "albumId": "album-dr-dre-the-chronic-1992",
+      "artist": "Dr. Dre",
+      "album": "The Chronic",
+      "releaseYear": 1992,
+      "status": "candidate",
+      "confidence": "source-cache",
+      "source": {
+        "system": "discogs-release-cache",
+        "id": "226082",
+        "title": "The Chronic",
+        "url": "https://www.discogs.com/release/226082-Dr-Dre-The-Chronic",
+        "cachePath": "data/imports/discogs/releases/226082.json"
+      },
+      "credits": [
+        {
+          "type": "musician",
+          "name": "Colin Wolfe",
+          "role": "Bass Guitar",
+          "sourceRole": "Bass Guitar, Keyboards"
+        },
+        {
+          "type": "musician",
+          "name": "Colin Wolfe",
+          "role": "Keyboards",
+          "sourceRole": "Bass Guitar, Keyboards"
+        },
+        {
+          "type": "musician",
+          "name": "Dr. Dre",
+          "role": "Drum Programming",
+          "sourceRole": "Drum Programming"
+        },
+        {
+          "type": "engineer",
+          "name": "Willie Will",
+          "role": "Engineer",
+          "sourceRole": "Engineer"
+        },
+        {
+          "type": "engineer",
+          "name": "Greg Royal",
+          "role": "Engineer",
+          "sourceRole": "Engineer"
+        },
+        {
+          "type": "producer",
+          "name": "Suge Knight",
+          "role": "Executive-Producer",
+          "sourceRole": "Executive-Producer"
+        },
+        {
+          "type": "musician",
+          "name": "Katisse Buckingham",
+          "role": "Flute",
+          "sourceRole": "Flute, Saxophone"
+        },
+        {
+          "type": "musician",
+          "name": "Katisse Buckingham",
+          "role": "Saxophone",
+          "sourceRole": "Flute, Saxophone"
+        },
+        {
+          "type": "musician",
+          "name": "Chris Clairmont",
+          "role": "Guitar",
+          "sourceRole": "Guitar"
+        },
+        {
+          "type": "musician",
+          "name": "Eric \"The Drunk\" Borders",
+          "role": "Guitar",
+          "sourceRole": "Guitar"
+        },
+        {
+          "type": "musician",
+          "name": "Dr. Dre",
+          "role": "Keyboards",
+          "sourceRole": "Keyboards"
+        },
+        {
+          "type": "musician",
+          "name": "Justin Reinhardt",
+          "role": "Keyboards",
+          "sourceRole": "Keyboards"
+        },
+        {
+          "type": "producer",
+          "name": "Dr. Dre",
+          "role": "Producer",
+          "sourceRole": "Producer"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Death Row Studios",
+          "source": "discogs-company:Recorded At"
+        },
+        {
+          "name": "Larrabee Sound Studios",
+          "source": "discogs-company:Mixed At"
+        },
+        {
+          "name": "Bernie Grundman Mastering",
+          "source": "discogs-company:Mastered At"
+        }
+      ]
     },
     {
       "albumId": "album-bob-dylan-blonde-on-blonde-1966",
@@ -3992,6 +4233,47 @@
         {
           "name": "Masterdisk",
           "source": "discogs-company:Lacquer Cut At"
+        }
+      ]
+    },
+    {
+      "albumId": "album-prince-sign-o-the-times-1987",
+      "artist": "Prince",
+      "album": "Sign O' the Times",
+      "releaseYear": 1987,
+      "status": "candidate",
+      "confidence": "source-cache",
+      "source": {
+        "system": "discogs-release-cache",
+        "id": "9800347",
+        "title": "Sign \"O\" The Times",
+        "url": "https://www.discogs.com/release/9800347-Prince-Sign-O-The-Times",
+        "cachePath": "data/imports/discogs/releases/9800347.json"
+      },
+      "credits": [
+        {
+          "type": "producer",
+          "name": "Prince",
+          "role": "Producer",
+          "sourceRole": "Producer, Arranged By, Composed By, Performer"
+        },
+        {
+          "type": "songwriter",
+          "name": "Prince",
+          "role": "Composed By",
+          "sourceRole": "Producer, Arranged By, Composed By, Performer"
+        },
+        {
+          "type": "musician",
+          "name": "Prince",
+          "role": "Performer",
+          "sourceRole": "Producer, Arranged By, Composed By, Performer"
+        }
+      ],
+      "studios": [
+        {
+          "name": "Sheffield Lab Matrix",
+          "source": "discogs-company:Mastered At"
         }
       ]
     },
@@ -30501,6 +30783,35 @@
       "studios": []
     },
     {
+      "albumId": "album-beatles-please-please-me-1963",
+      "artist": "The Beatles",
+      "album": "Please Please Me",
+      "releaseYear": 1963,
+      "status": "candidate",
+      "confidence": "source-cache",
+      "source": {
+        "system": "discogs-release-cache",
+        "id": "3638276",
+        "title": "Please Please Me",
+        "url": "https://www.discogs.com/release/3638276-The-Beatles-Please-Please-Me",
+        "cachePath": "data/imports/discogs/releases/3638276.json"
+      },
+      "credits": [
+        {
+          "type": "songwriter",
+          "name": "Lennon-McCartney",
+          "role": "Written-By",
+          "sourceRole": "Written-By"
+        }
+      ],
+      "studios": [
+        {
+          "name": "EMI Studios",
+          "source": "discogs-company:Lacquer Cut At"
+        }
+      ]
+    },
+    {
       "albumId": "album-john-coltrane-a-love-supreme-1964",
       "artist": "John Coltrane",
       "album": "A Love Supreme",
@@ -44984,207 +45295,6 @@
       ]
     },
     {
-      "albumId": "album-beatles-white-album-1968",
-      "artist": "The Beatles",
-      "album": "White Album",
-      "releaseYear": 1968,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "3892825",
-          "title": "The Beatles - The Beatles",
-          "year": null,
-          "url": "https://api.discogs.com/masters/3892825"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "456999",
-          "title": "The Beatles - The Beatles",
-          "year": "1967",
-          "url": "https://api.discogs.com/masters/456999"
-        }
-      ]
-    },
-    {
-      "albumId": "album-amy-winehouse-back-to-black-2006",
-      "artist": "Amy Winehouse",
-      "album": "Back to Black",
-      "releaseYear": 2006,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1288169",
-          "title": "Amy Winehouse - Back To Black",
-          "year": "2006",
-          "url": "https://api.discogs.com/masters/1288169"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "778503",
-          "title": "Amy Winehouse - Back To Black",
-          "year": "2006",
-          "url": "https://api.discogs.com/masters/778503"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "51331",
-          "title": "Amy Winehouse - Back To Black",
-          "year": "2007",
-          "url": "https://api.discogs.com/masters/51331"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "51256",
-          "title": "Amy Winehouse - Back To Black",
-          "year": "2006",
-          "url": "https://api.discogs.com/masters/51256"
-        }
-      ]
-    },
-    {
-      "albumId": "album-stevie-wonder-innervisions-1973",
-      "artist": "Stevie Wonder",
-      "album": "Innervisions",
-      "releaseYear": 1973,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "86466",
-          "title": "Stevie Wonder - Innervisions",
-          "year": "1973",
-          "url": "https://api.discogs.com/masters/86466"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1420033",
-          "title": "Stevie Wonder - Innervisions",
-          "year": "1973",
-          "url": "https://api.discogs.com/masters/1420033"
-        }
-      ]
-    },
-    {
-      "albumId": "album-michael-jackson-off-the-wall-1979",
-      "artist": "Michael Jackson",
-      "album": "Off the Wall",
-      "releaseYear": 1979,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1691133",
-          "title": "Michael Jackson - Off The Wall",
-          "year": null,
-          "url": "https://api.discogs.com/masters/1691133"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1687681",
-          "title": "Michael Jackson - Off The Wall",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/1687681"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "441594",
-          "title": "Michael Jackson - Off The Wall",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/441594"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "435524",
-          "title": "Michael Jackson - Off The Wall",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/435524"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1687679",
-          "title": "Michael Jackson - Off The Wall",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/1687679"
-        }
-      ]
-    },
-    {
-      "albumId": "album-dr-dre-the-chronic-1992",
-      "artist": "Dr. Dre",
-      "album": "The Chronic",
-      "releaseYear": 1992,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1263629",
-          "title": "Dr. Dre - The Chronic",
-          "year": null,
-          "url": "https://api.discogs.com/masters/1263629"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1263667",
-          "title": "Dr. Dre - The Chronic",
-          "year": "1992",
-          "url": "https://api.discogs.com/masters/1263667"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1263627",
-          "title": "Dr. Dre - The Chronic",
-          "year": "1992",
-          "url": "https://api.discogs.com/masters/1263627"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "33951",
-          "title": "Dr. Dre - The Chronic",
-          "year": "1992",
-          "url": "https://api.discogs.com/masters/33951"
-        }
-      ]
-    },
-    {
-      "albumId": "album-prince-sign-o-the-times-1987",
-      "artist": "Prince",
-      "album": "Sign O' the Times",
-      "releaseYear": 1987,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "52776",
-          "title": "Prince - Sign \"O\" The Times",
-          "year": "1987",
-          "url": "https://api.discogs.com/masters/52776"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "52497",
-          "title": "Prince - Sign \"O\" The Times",
-          "year": "1987",
-          "url": "https://api.discogs.com/masters/52497"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "268038",
-          "title": "Prince - Sign \"O\" The Times",
-          "year": "1988",
-          "url": "https://api.discogs.com/masters/268038"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1341713",
-          "title": "Prince - When Doves Cry - It's A Sign O' The Times",
-          "year": "1988",
-          "url": "https://api.discogs.com/masters/1341713"
-        }
-      ]
-    },
-    {
       "albumId": "album-paul-simon-graceland-1986",
       "artist": "Paul Simon",
       "album": "Graceland",
@@ -48788,89 +48898,6 @@
       ]
     },
     {
-      "albumId": "album-beatles-the-beatles-the-white-album-1968",
-      "artist": "The Beatles",
-      "album": "The Beatles (\"The White Album\")",
-      "releaseYear": 1968,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "3892825",
-          "title": "The Beatles - The Beatles",
-          "year": null,
-          "url": "https://api.discogs.com/masters/3892825"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "456999",
-          "title": "The Beatles - The Beatles",
-          "year": "1967",
-          "url": "https://api.discogs.com/masters/456999"
-        }
-      ]
-    },
-    {
-      "albumId": "album-beatles-the-white-album-1968",
-      "artist": "The Beatles",
-      "album": "The White Album",
-      "releaseYear": 1968,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "3892825",
-          "title": "The Beatles - The Beatles",
-          "year": null,
-          "url": "https://api.discogs.com/masters/3892825"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "456999",
-          "title": "The Beatles - The Beatles",
-          "year": "1967",
-          "url": "https://api.discogs.com/masters/456999"
-        }
-      ]
-    },
-    {
-      "albumId": "album-beatles-please-please-me-1963",
-      "artist": "The Beatles",
-      "album": "Please Please Me",
-      "releaseYear": 1963,
-      "reason": "ambiguous-discogs-master-search-result",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "767754",
-          "title": "The Beatles - Please Please Me",
-          "year": "1964",
-          "url": "https://api.discogs.com/masters/767754"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1306184",
-          "title": "The Beatles - Please Please Me",
-          "year": null,
-          "url": "https://api.discogs.com/masters/1306184"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "45619",
-          "title": "The Beatles - Please Please Me",
-          "year": "1963",
-          "url": "https://api.discogs.com/masters/45619"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "45362",
-          "title": "The Beatles - Please Please Me",
-          "year": "1963",
-          "url": "https://api.discogs.com/masters/45362"
-        }
-      ]
-    },
-    {
       "albumId": "album-phil-spector-back-to-mono-1958-1969-1991",
       "artist": "Phil Spector",
       "album": "Back to Mono (1958-1969)",
@@ -50555,6 +50582,34 @@
       ]
     },
     {
+      "albumId": "album-beatles-white-album-1968",
+      "artist": "The Beatles",
+      "album": "White Album",
+      "releaseYear": 1968,
+      "reason": "source-cache-without-usable-credits",
+      "source": {
+        "system": "discogs-master-cache",
+        "id": "8513557",
+        "title": "The Beatles",
+        "url": "https://www.discogs.com/release/8513557-The-Beatles-The-Beatles",
+        "cachePath": "data/imports/discogs/releases/8513557.json"
+      }
+    },
+    {
+      "albumId": "album-amy-winehouse-back-to-black-2006",
+      "artist": "Amy Winehouse",
+      "album": "Back to Black",
+      "releaseYear": 2006,
+      "reason": "source-cache-without-usable-credits",
+      "source": {
+        "system": "discogs-master-cache",
+        "id": "2342941",
+        "title": "Back To Black",
+        "url": "https://www.discogs.com/release/2342941-Amy-Winehouse-Back-To-Black",
+        "cachePath": "data/imports/discogs/releases/2342941.json"
+      }
+    },
+    {
       "albumId": "album-kendrick-lamar-good-kid-m-a-a-d-city-2012",
       "artist": "Kendrick Lamar",
       "album": "good kid, m.A.A.d city",
@@ -50804,6 +50859,34 @@
         "title": "Harry's House",
         "url": "https://www.discogs.com/release/23301773-Harry-Styles-Harrys-House",
         "cachePath": "data/imports/discogs/releases/23301773.json"
+      }
+    },
+    {
+      "albumId": "album-beatles-the-beatles-the-white-album-1968",
+      "artist": "The Beatles",
+      "album": "The Beatles (\"The White Album\")",
+      "releaseYear": 1968,
+      "reason": "source-cache-without-usable-credits",
+      "source": {
+        "system": "discogs-master-cache",
+        "id": "8513557",
+        "title": "The Beatles",
+        "url": "https://www.discogs.com/release/8513557-The-Beatles-The-Beatles",
+        "cachePath": "data/imports/discogs/releases/8513557.json"
+      }
+    },
+    {
+      "albumId": "album-beatles-the-white-album-1968",
+      "artist": "The Beatles",
+      "album": "The White Album",
+      "releaseYear": 1968,
+      "reason": "source-cache-without-usable-credits",
+      "source": {
+        "system": "discogs-master-cache",
+        "id": "8513557",
+        "title": "The Beatles",
+        "url": "https://www.discogs.com/release/8513557-The-Beatles-The-Beatles",
+        "cachePath": "data/imports/discogs/releases/8513557.json"
       }
     },
     {
@@ -51549,10 +51632,10 @@
     "searchEndpoint": "https://api.discogs.com/database/search",
     "cacheDir": "data/imports/discogs",
     "userAgent": "AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)",
-    "delayMs": 1,
+    "delayMs": 1100,
     "overridesPath": "data/review/discogs-credit-master-overrides.json",
     "aliasesPath": "data/review/discogs-credit-search-aliases.json",
-    "approvedOverrides": 24,
+    "approvedOverrides": 33,
     "approvedAliases": 10
   },
   "scope": {

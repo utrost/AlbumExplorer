@@ -217,6 +217,6 @@ test('builds the app startup relationship layer fast enough for browser startup'
   const elapsedMs = performance.now() - startedAt;
 
   assert.equal(fullRows.length, 760);
-  assert.equal(relationships.length, 9007);
+  assert.equal(relationships.length, 9051);
   assert.ok(elapsedMs < 1500, `relationship build took ${elapsedMs.toFixed(1)}ms`);
 });

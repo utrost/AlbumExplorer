@@ -6,14 +6,14 @@
   },
   "summary": {
     "comparisonAlbums": 760,
-    "candidates": 428,
-    "review": 239,
+    "candidates": 433,
+    "review": 234,
     "gaps": 93,
-    "unresolved": 332,
+    "unresolved": 327,
     "reviewReasons": {
-      "ambiguous-discogs-master-search-result": 210,
+      "ambiguous-discogs-master-search-result": 201,
       "discogs-master-fetch-failed": 5,
-      "source-cache-without-usable-credits": 24
+      "source-cache-without-usable-credits": 28
     },
     "gapReasons": {
       "no-exact-discogs-master-search-result": 93
@@ -21,10 +21,10 @@
   },
   "groups": [
     {
-      "key": "review:ambiguous-discogs-master-search-result",
+      "key": "review:source-cache-without-usable-credits",
       "kind": "review",
-      "reason": "ambiguous-discogs-master-search-result",
-      "count": 210,
+      "reason": "source-cache-without-usable-credits",
+      "count": 28,
       "items": [
         {
           "kind": "review",
@@ -36,24 +36,9 @@
           "ranks": {
             "2012": 10
           },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "3892825",
-              "title": "The Beatles - The Beatles",
-              "year": null,
-              "url": "https://api.discogs.com/masters/3892825"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "456999",
-              "title": "The Beatles - The Beatles",
-              "year": "1967",
-              "url": "https://api.discogs.com/masters/456999"
-            }
-          ]
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
         },
         {
           "kind": "review",
@@ -65,25 +50,1801 @@
           "ranks": {
             "2003": 10
           },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "3892825",
-              "title": "The Beatles - The Beatles",
-              "year": null,
-              "url": "https://api.discogs.com/masters/3892825"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "456999",
-              "title": "The Beatles - The Beatles",
-              "year": "1967",
-              "url": "https://api.discogs.com/masters/456999"
-            }
-          ]
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
         },
+        {
+          "kind": "review",
+          "albumId": "album-beatles-white-album-1968",
+          "artist": "The Beatles",
+          "album": "White Album",
+          "releaseYear": 1968,
+          "latestRank": 29,
+          "ranks": {
+            "2020": 29,
+            "2024": 29
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-amy-winehouse-back-to-black-2006",
+          "artist": "Amy Winehouse",
+          "album": "Back to Black",
+          "releaseYear": 2006,
+          "latestRank": 33,
+          "ranks": {
+            "2012": 451,
+            "2020": 33,
+            "2024": 33
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-kendrick-lamar-good-kid-m-a-a-d-city-2012",
+          "artist": "Kendrick Lamar",
+          "album": "good kid, m.A.A.d city",
+          "releaseYear": 2012,
+          "latestRank": 115,
+          "ranks": {
+            "2020": 115,
+            "2024": 115
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-taylor-swift-folklore-2020",
+          "artist": "Taylor Swift",
+          "album": "Folklore",
+          "releaseYear": 2020,
+          "latestRank": 170,
+          "ranks": {
+            "2024": 170
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-lil-wayne-tha-carter-iii-2008",
+          "artist": "Lil Wayne",
+          "album": "Tha Carter III",
+          "releaseYear": 2008,
+          "latestRank": 208,
+          "ranks": {
+            "2003": 437,
+            "2012": 437,
+            "2020": 208,
+            "2024": 208
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-bobby-bland-two-steps-from-the-blues-1961",
+          "artist": "Bobby Bland",
+          "album": "Two Steps From The Blues",
+          "releaseYear": 1961,
+          "latestRank": 217,
+          "ranks": {
+            "2003": 217,
+            "2012": 217
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-patsy-cline-the-ultimate-collection-2000",
+          "artist": "Patsy Cline",
+          "album": "The Ultimate Collection",
+          "releaseYear": 2000,
+          "latestRank": 229,
+          "ranks": {
+            "2003": 235,
+            "2012": 235,
+            "2020": 229,
+            "2024": 229
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-rihanna-anti-2016",
+          "artist": "Rihanna",
+          "album": "Anti",
+          "releaseYear": 2016,
+          "latestRank": 230,
+          "ranks": {
+            "2020": 230,
+            "2024": 230
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-muddy-waters-folk-singer-1964",
+          "artist": "Muddy Waters",
+          "album": "Folk Singer",
+          "releaseYear": 1964,
+          "latestRank": 282,
+          "ranks": {
+            "2003": 282,
+            "2012": 282
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-frank-sinatra-songs-for-swingin-lovers-1956",
+          "artist": "Frank Sinatra",
+          "album": "Songs For Swingin' Lovers",
+          "releaseYear": 1956,
+          "latestRank": 308,
+          "ranks": {
+            "2003": 308,
+            "2012": 308
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-bob-marley-and-the-wailers-and-the-wailers-burnin-1973",
+          "artist": "Bob Marley & The Wailers & The Wailers",
+          "album": "Burnin'",
+          "releaseYear": 1973,
+          "latestRank": 319,
+          "ranks": {
+            "2012": 319
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-elvis-presley-from-elvis-in-memphis-1969",
+          "artist": "Elvis Presley",
+          "album": "From Elvis in Memphis",
+          "releaseYear": 1969,
+          "latestRank": 322,
+          "ranks": {
+            "2003": 190,
+            "2012": 190,
+            "2020": 322,
+            "2024": 322
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-burna-boy-african-giant-2019",
+          "artist": "Burna Boy",
+          "album": "African Giant",
+          "releaseYear": 2019,
+          "latestRank": 330,
+          "ranks": {
+            "2024": 330
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-sza-sos-2022",
+          "artist": "SZA",
+          "album": "SOS",
+          "releaseYear": 2022,
+          "latestRank": 351,
+          "ranks": {
+            "2024": 351
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-eminem-the-slim-shady-lp-1999",
+          "artist": "Eminem",
+          "album": "The Slim Shady LP",
+          "releaseYear": 1999,
+          "latestRank": 352,
+          "ranks": {
+            "2003": 275,
+            "2012": 275,
+            "2020": 352,
+            "2024": 352
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-olivia-rodrigo-sour-2021",
+          "artist": "Olivia Rodrigo",
+          "album": "Sour",
+          "releaseYear": 2021,
+          "latestRank": 358,
+          "ranks": {
+            "2024": 358
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-drake-if-youre-reading-this-its-too-late-2015",
+          "artist": "Drake",
+          "album": "If You're Reading This It's Too Late",
+          "releaseYear": 2015,
+          "latestRank": 367,
+          "ranks": {
+            "2020": 367,
+            "2024": 367
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-lil-wayne-tha-carter-ii-2005",
+          "artist": "Lil Wayne",
+          "album": "Tha Carter II",
+          "releaseYear": 2005,
+          "latestRank": 370,
+          "ranks": {
+            "2020": 370,
+            "2024": 370
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-m-i-a-arular-2005",
+          "artist": "M.I.A.",
+          "album": "Arular",
+          "releaseYear": 2005,
+          "latestRank": 421,
+          "ranks": {
+            "2020": 421,
+            "2024": 421
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-bad-bunny-un-verano-sin-ti-2022",
+          "artist": "Bad Bunny",
+          "album": "Un Verano Sin Ti",
+          "releaseYear": 2022,
+          "latestRank": 430,
+          "ranks": {
+            "2024": 430
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-weeknd-beauty-behind-the-madness-2015",
+          "artist": "The Weeknd",
+          "album": "Beauty Behind the Madness",
+          "releaseYear": 2015,
+          "latestRank": 442,
+          "ranks": {
+            "2020": 442,
+            "2024": 442
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-bad-bunny-x-100pre-2018",
+          "artist": "Bad Bunny",
+          "album": "X 100pre",
+          "releaseYear": 2018,
+          "latestRank": 447,
+          "ranks": {
+            "2020": 447,
+            "2024": 447
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-bon-iver-for-emma-forever-ago-2007",
+          "artist": "Bon Iver",
+          "album": "For Emma, Forever Ago",
+          "releaseYear": 2007,
+          "latestRank": 461,
+          "ranks": {
+            "2020": 461,
+            "2024": 461
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-harry-styles-fine-line-2019",
+          "artist": "Harry Styles",
+          "album": "Fine Line",
+          "releaseYear": 2019,
+          "latestRank": 491,
+          "ranks": {
+            "2020": 491
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-harry-styles-harrys-house-2022",
+          "artist": "Harry Styles",
+          "album": "Harry's House",
+          "releaseYear": 2022,
+          "latestRank": 491,
+          "ranks": {
+            "2024": 491
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "review",
+          "albumId": "album-boyz-ii-men-ii-1994",
+          "artist": "Boyz II Men",
+          "album": "II",
+          "releaseYear": 1994,
+          "latestRank": 495,
+          "ranks": {
+            "2020": 495
+          },
+          "reason": "source-cache-without-usable-credits",
+          "recommendedAction": "inspect-release-or-mark-gap",
+          "sourceCandidates": []
+        }
+      ]
+    },
+    {
+      "key": "gap:no-exact-discogs-master-search-result",
+      "kind": "gap",
+      "reason": "no-exact-discogs-master-search-result",
+      "count": 93,
+      "items": [
+        {
+          "kind": "gap",
+          "albumId": "album-elvis-presley-the-sun-sessions-1999",
+          "artist": "Elvis Presley",
+          "album": "The Sun Sessions",
+          "releaseYear": 1999,
+          "latestRank": 11,
+          "ranks": {
+            "2003": 11
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-muddy-waters-the-anthology-1947-1972-2001",
+          "artist": "Muddy Waters",
+          "album": "The Anthology (1947-1972)",
+          "releaseYear": 2001,
+          "latestRank": 38,
+          "ranks": {
+            "2012": 38
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-bob-marley-and-the-wailers-legend-1984",
+          "artist": "Bob Marley and the Wailers",
+          "album": "Legend",
+          "releaseYear": 1984,
+          "latestRank": 48,
+          "ranks": {
+            "2003": 46,
+            "2012": 46,
+            "2020": 48
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-led-zeppelin-led-zeppelin-iv-1971",
+          "artist": "Led Zeppelin",
+          "album": "Led Zeppelin IV",
+          "releaseYear": 1971,
+          "latestRank": 58,
+          "ranks": {
+            "2003": 69,
+            "2012": 69,
+            "2020": 58,
+            "2024": 58
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-creedence-clearwater-revival-chronicle-vol-1-1976",
+          "artist": "Creedence Clearwater Revival",
+          "album": "Chronicle, Vol. 1",
+          "releaseYear": 1976,
+          "latestRank": 59,
+          "ranks": {
+            "2003": 59,
+            "2012": 59
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-captain-beefheart-and-his-magic-band-trout-mask-replica-1969",
+          "artist": "Captain Beefheart and his Magic Band",
+          "album": "Trout Mask Replica",
+          "releaseYear": 1969,
+          "latestRank": 60,
+          "ranks": {
+            "2003": 60,
+            "2012": 60
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-phil-spector-back-to-mono-1991",
+          "artist": "Phil Spector",
+          "album": "Back To Mono",
+          "releaseYear": 1991,
+          "latestRank": 65,
+          "ranks": {
+            "2012": 65
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-frank-ocean-blond-2016",
+          "artist": "Frank Ocean",
+          "album": "Blond",
+          "releaseYear": 2016,
+          "latestRank": 79,
+          "ranks": {
+            "2020": 79,
+            "2024": 79
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-sex-pistols-never-mind-the-bollocks-heres-the-sex-pistols-1977",
+          "artist": "The Sex Pistols",
+          "album": "Never Mind the Bollocks Here's the Sex Pistols",
+          "releaseYear": 1977,
+          "latestRank": 80,
+          "ranks": {
+            "2003": 41,
+            "2012": 41,
+            "2020": 80,
+            "2024": 80
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-missy-misdemeanor-elliott-supa-dupa-fly-1997",
+          "artist": "Missy \"Misdemeanor\" Elliott",
+          "album": "Supa Dupa Fly",
+          "releaseYear": 1997,
+          "latestRank": 93,
+          "ranks": {
+            "2020": 93,
+            "2024": 93
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-de-la-soul-three-feet-high-and-rising-1989",
+          "artist": "De La Soul",
+          "album": "Three Feet High And Rising",
+          "releaseYear": 1989,
+          "latestRank": 103,
+          "ranks": {
+            "2003": 346,
+            "2012": 346,
+            "2020": 103,
+            "2024": 103
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-fiona-apple-when-the-pawn-1999",
+          "artist": "Fiona Apple",
+          "album": "When the Pawn …",
+          "releaseYear": 1999,
+          "latestRank": 108,
+          "ranks": {
+            "2020": 108,
+            "2024": 108
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-eagles-hotel-california-1976",
+          "artist": "The Eagles",
+          "album": "Hotel California",
+          "releaseYear": 1976,
+          "latestRank": 118,
+          "ranks": {
+            "2003": 37,
+            "2012": 37,
+            "2020": 118,
+            "2024": 118
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-jimmy-cliff-the-harder-they-come-1972",
+          "artist": "Jimmy Cliff",
+          "album": "The Harder They Come",
+          "releaseYear": 1972,
+          "latestRank": 122,
+          "ranks": {
+            "2012": 122
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-original-soundtrack-the-harder-they-come-1973",
+          "artist": "Original Soundtrack",
+          "album": "The Harder They Come",
+          "releaseYear": 1973,
+          "latestRank": 122,
+          "ranks": {
+            "2003": 122
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-bob-marley-and-the-wailers-and-the-wailers-catch-a-fire-1973",
+          "artist": "Bob Marley & The Wailers & The Wailers",
+          "album": "Catch A Fire",
+          "releaseYear": 1973,
+          "latestRank": 126,
+          "ranks": {
+            "2012": 126
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-iggy-and-the-stooges-raw-power-1973",
+          "artist": "Iggy and the Stooges",
+          "album": "Raw Power",
+          "releaseYear": 1973,
+          "latestRank": 128,
+          "ranks": {
+            "2003": 128
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-original-soundtrack-saturday-night-fever-1977",
+          "artist": "Original Soundtrack",
+          "album": "Saturday Night Fever",
+          "releaseYear": 1977,
+          "latestRank": 132,
+          "ranks": {
+            "2003": 132
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-saturday-night-fever-original-soundtrack-1977",
+          "artist": "Various Artists",
+          "album": "Saturday Night Fever (Original Soundtrack)",
+          "releaseYear": 1977,
+          "latestRank": 132,
+          "ranks": {
+            "2012": 132
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-bob-marley-and-the-wailers-catch-a-fire-1973",
+          "artist": "Bob Marley and the Wailers",
+          "album": "Catch a Fire",
+          "releaseYear": 1973,
+          "latestRank": 140,
+          "ranks": {
+            "2003": 126,
+            "2020": 140,
+            "2024": 140
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-phil-spector-a-christmas-gift-for-you-1963",
+          "artist": "Phil Spector",
+          "album": "A Christmas Gift For You",
+          "releaseYear": 1963,
+          "latestRank": 142,
+          "ranks": {
+            "2003": 142,
+            "2012": 142
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-n-w-a-straight-outta-compton-1998",
+          "artist": "N.W.A.",
+          "album": "Straight Outta Compton",
+          "releaseYear": 1998,
+          "latestRank": 144,
+          "ranks": {
+            "2003": 144
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-saturday-night-fever-1977",
+          "artist": "Various Artists",
+          "album": "Saturday Night Fever",
+          "releaseYear": 1977,
+          "latestRank": 163,
+          "ranks": {
+            "2020": 163,
+            "2024": 163
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-jimmy-cliff-and-various-artists-the-harder-they-come-original-soundtrack-1972",
+          "artist": "Jimmy Cliff and Various Artists",
+          "album": "The Harder They Come: Original Soundtrack",
+          "releaseYear": 1972,
+          "latestRank": 174,
+          "ranks": {
+            "2020": 174,
+            "2024": 174
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-parliament-funkadelic-one-nation-under-a-groove-1978",
+          "artist": "Parliament/Funkadelic",
+          "album": "One Nation Under A Groove",
+          "releaseYear": 1978,
+          "latestRank": 177,
+          "ranks": {
+            "2012": 177
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-curtis-mayfield-and-the-impressions-the-anthology-1961-1977-1992",
+          "artist": "Curtis Mayfield And The Impressions",
+          "album": "The Anthology 1961 - 1977",
+          "releaseYear": 1992,
+          "latestRank": 178,
+          "ranks": {
+            "2003": 178,
+            "2012": 178
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-otis-redding-otis-blue-1965",
+          "artist": "Otis Redding",
+          "album": "Otis Blue",
+          "releaseYear": 1965,
+          "latestRank": 178,
+          "ranks": {
+            "2003": 78,
+            "2012": 78,
+            "2020": 178,
+            "2024": 178
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-john-mayall-blues-breakers-with-eric-clapton-1966",
+          "artist": "John Mayall",
+          "album": "Blues Breakers With Eric Clapton",
+          "releaseYear": 1966,
+          "latestRank": 195,
+          "ranks": {
+            "2012": 195
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-john-mayall-with-eric-clapton-blues-breakers-1966",
+          "artist": "John Mayall With Eric Clapton",
+          "album": "Blues Breakers",
+          "releaseYear": 1966,
+          "latestRank": 195,
+          "ranks": {
+            "2003": 195
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-nuggets-original-artyfacts-from-the-first-psychedelic-era-1965-1968-1972",
+          "artist": "Various Artists",
+          "album": "Nuggets: Original Artyfacts From The First Psychedelic Era, 1965-1968",
+          "releaseYear": 1972,
+          "latestRank": 196,
+          "ranks": {
+            "2003": 196,
+            "2012": 196
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-little-walter-the-best-of-1957",
+          "artist": "Little Walter",
+          "album": "The Best Of",
+          "releaseYear": 1957,
+          "latestRank": 198,
+          "ranks": {
+            "2003": 198
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-little-walter-the-best-of-1964",
+          "artist": "Little Walter",
+          "album": "The Best Of",
+          "releaseYear": 1964,
+          "latestRank": 198,
+          "ranks": {
+            "2012": 198
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-b-52s-the-b-52s-1979",
+          "artist": "The B-52's",
+          "album": "The B-52's",
+          "releaseYear": 1979,
+          "latestRank": 198,
+          "ranks": {
+            "2003": 152,
+            "2012": 152,
+            "2020": 198,
+            "2024": 198
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-nick-drake-pink-moon-1979",
+          "artist": "Nick Drake",
+          "album": "Pink Moon",
+          "releaseYear": 1979,
+          "latestRank": 203,
+          "ranks": {
+            "2024": 203
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-neil-young-with-crazy-horse-everybody-knows-this-is-nowhere-1969",
+          "artist": "Neil Young With Crazy Horse",
+          "album": "Everybody Knows This Is Nowhere",
+          "releaseYear": 1969,
+          "latestRank": 210,
+          "ranks": {
+            "2003": 210
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-ray-charles-the-birth-of-soul-1991",
+          "artist": "Ray Charles",
+          "album": "The Birth of Soul",
+          "releaseYear": 1991,
+          "latestRank": 210,
+          "ranks": {
+            "2020": 210,
+            "2024": 210
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-joy-divison-unknown-pleasures-1980",
+          "artist": "Joy Divison",
+          "album": "Unknown Pleasures",
+          "releaseYear": 1980,
+          "latestRank": 211,
+          "ranks": {
+            "2024": 211
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-fiona-apple-the-idler-wheel-2012",
+          "artist": "Fiona Apple",
+          "album": "The Idler Wheel",
+          "releaseYear": 2012,
+          "latestRank": 213,
+          "ranks": {
+            "2020": 213,
+            "2024": 213
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-bo-diddley-bo-diddley-go-bo-diddley-1990",
+          "artist": "Bo Diddley",
+          "album": "Bo Diddley/Go Bo Diddley",
+          "releaseYear": 1990,
+          "latestRank": 216,
+          "ranks": {
+            "2003": 216
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-metallica-metallica-the-black-album-1991",
+          "artist": "Metallica",
+          "album": "Metallica (The Black Album)",
+          "releaseYear": 1991,
+          "latestRank": 235,
+          "ranks": {
+            "2003": 255,
+            "2012": 255,
+            "2020": 235,
+            "2024": 235
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-who-the-who-sings-my-generation-1965",
+          "artist": "The Who",
+          "album": "The Who Sings My Generation",
+          "releaseYear": 1965,
+          "latestRank": 237,
+          "ranks": {
+            "2012": 237
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-run-dmc-run-dmc-1984",
+          "artist": "Run-DMC",
+          "album": "Run-DMC",
+          "releaseYear": 1984,
+          "latestRank": 242,
+          "ranks": {
+            "2012": 242
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-mothers-of-invention-freak-out-1966",
+          "artist": "The Mothers Of Invention",
+          "album": "Freak Out!",
+          "releaseYear": 1966,
+          "latestRank": 246,
+          "ranks": {
+            "2003": 246,
+            "2012": 246
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-otis-redding-complete-and-unbelievable-the-otis-redding-dictionary-of-soul-1966",
+          "artist": "Otis Redding",
+          "album": "Complete & Unbelievable: The Otis Redding Dictionary Of Soul",
+          "releaseYear": 1966,
+          "latestRank": 254,
+          "ranks": {
+            "2012": 254
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-harry-smith-ed-anthology-of-american-folk-music-1952",
+          "artist": "Harry Smith, Ed.",
+          "album": "Anthology of American Folk Music",
+          "releaseYear": 1952,
+          "latestRank": 278,
+          "ranks": {
+            "2003": 278
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-anthology-of-american-folk-music-1952",
+          "artist": "Various Artists",
+          "album": "Anthology Of American Folk Music",
+          "releaseYear": 1952,
+          "latestRank": 278,
+          "ranks": {
+            "2012": 278
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-big-star-third-sister-lovers-1978",
+          "artist": "Big Star",
+          "album": "Third/Sister Lovers",
+          "releaseYear": 1978,
+          "latestRank": 285,
+          "ranks": {
+            "2003": 449,
+            "2012": 449,
+            "2020": 285,
+            "2024": 285
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-bjork-post-1995",
+          "artist": "Björk",
+          "album": "Post",
+          "releaseYear": 1995,
+          "latestRank": 289,
+          "ranks": {
+            "2003": 376,
+            "2012": 376,
+            "2020": 289,
+            "2024": 289
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-weezer-weezer-the-blue-album-1994",
+          "artist": "Weezer",
+          "album": "Weezer (The Blue Album)",
+          "releaseYear": 1994,
+          "latestRank": 294,
+          "ranks": {
+            "2012": 299,
+            "2020": 294,
+            "2024": 294
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-mothers-of-invention-were-only-in-it-for-the-money-1968",
+          "artist": "The Mothers Of Invention",
+          "album": "We're Only In It For The Money",
+          "releaseYear": 1968,
+          "latestRank": 297,
+          "ranks": {
+            "2003": 297,
+            "2012": 297
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-weezer-weezer-1994",
+          "artist": "Weezer",
+          "album": "Weezer",
+          "releaseYear": 1994,
+          "latestRank": 299,
+          "ranks": {
+            "2003": 299
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-sam-cooke-portrait-of-a-legend-2003",
+          "artist": "Sam Cooke",
+          "album": "Portrait of a Legend",
+          "releaseYear": 2003,
+          "latestRank": 307,
+          "ranks": {
+            "2003": 107,
+            "2020": 307,
+            "2024": 307
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-the-sun-records-collection-1994",
+          "artist": "Various Artists",
+          "album": "The Sun Records Collection",
+          "releaseYear": 1994,
+          "latestRank": 311,
+          "ranks": {
+            "2003": 311,
+            "2012": 311
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-nirvana-unplugged-1994",
+          "artist": "Nirvana",
+          "album": "Unplugged",
+          "releaseYear": 1994,
+          "latestRank": 313,
+          "ranks": {
+            "2003": 313
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-rosalia-el-mal-querer-2018",
+          "artist": "Rosalía",
+          "album": "El Mal Querer",
+          "releaseYear": 2018,
+          "latestRank": 315,
+          "ranks": {
+            "2020": 315,
+            "2024": 315
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-wailers-burnin-1973",
+          "artist": "The Wailers",
+          "album": "Burnin' '",
+          "releaseYear": 1973,
+          "latestRank": 319,
+          "ranks": {
+            "2003": 319
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-lana-del-rey-norman-fucking-rockwell-2019",
+          "artist": "Lana Del Rey",
+          "album": "Norman Fucking Rockwell!",
+          "releaseYear": 2019,
+          "latestRank": 321,
+          "ranks": {
+            "2020": 321,
+            "2024": 321
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-bob-dylan-and-the-band-the-basement-tapes-1975",
+          "artist": "Bob Dylan and the Band",
+          "album": "The Basement Tapes",
+          "releaseYear": 1975,
+          "latestRank": 335,
+          "ranks": {
+            "2003": 292,
+            "2012": 292,
+            "2020": 335,
+            "2024": 335
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-snoop-doggy-dogg-doggystyle-1993",
+          "artist": "Snoop Doggy Dogg",
+          "album": "Doggystyle",
+          "releaseYear": 1993,
+          "latestRank": 340,
+          "ranks": {
+            "2020": 340,
+            "2024": 340
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-yardbirds-roger-the-engineer-a-k-a-over-under-sideways-down-1966",
+          "artist": "The Yardbirds",
+          "album": "Roger the Engineer (a.k.a. Over Under Sideways Down)",
+          "releaseYear": 1966,
+          "latestRank": 350,
+          "ranks": {
+            "2003": 350
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-eagles-the-eagles-1972",
+          "artist": "The Eagles",
+          "album": "The Eagles",
+          "releaseYear": 1972,
+          "latestRank": 368,
+          "ranks": {
+            "2003": 368
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-beach-boys-smile-2011-version-2011",
+          "artist": "The Beach Boys",
+          "album": "Smile (2011 Version)",
+          "releaseYear": 2011,
+          "latestRank": 381,
+          "ranks": {
+            "2003": 381
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-who-a-quick-one-happy-jack-1966",
+          "artist": "The Who",
+          "album": "A Quick One (Happy Jack)",
+          "releaseYear": 1966,
+          "latestRank": 384,
+          "ranks": {
+            "2003": 384,
+            "2012": 384
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-dangelo-and-the-vanguard-black-messiah-2014",
+          "artist": "D'Angelo and the Vanguard",
+          "album": "Black Messiah",
+          "releaseYear": 2014,
+          "latestRank": 395,
+          "ranks": {
+            "2020": 395,
+            "2024": 395
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-go-gos-beauty-and-the-beat-1981",
+          "artist": "The Go-Go's",
+          "album": "Beauty and the Beat",
+          "releaseYear": 1981,
+          "latestRank": 400,
+          "ranks": {
+            "2003": 414,
+            "2012": 414,
+            "2020": 400,
+            "2024": 400
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-temptations-anthology-1995",
+          "artist": "The Temptations",
+          "album": "Anthology",
+          "releaseYear": 1995,
+          "latestRank": 400,
+          "ranks": {
+            "2003": 400
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-fela-kuti-and-africa-70-expensive-shit-1975",
+          "artist": "Fela Kuti and Africa 70",
+          "album": "Expensive Shit",
+          "releaseYear": 1975,
+          "latestRank": 402,
+          "ranks": {
+            "2020": 402,
+            "2024": 402
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-nuggets-original-artyfacts-from-the-first-psychedelic-era-1972",
+          "artist": "Various Artists",
+          "album": "Nuggets: Original Artyfacts from the First Psychedelic Era",
+          "releaseYear": 1972,
+          "latestRank": 405,
+          "ranks": {
+            "2020": 405,
+            "2024": 405
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-smokey-robinson-and-the-miracles-going-to-a-go-go-1965",
+          "artist": "Smokey Robinson and the Miracles",
+          "album": "Going to a Go Go",
+          "releaseYear": 1965,
+          "latestRank": 412,
+          "ranks": {
+            "2003": 273,
+            "2012": 273,
+            "2020": 412,
+            "2024": 412
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-minuteman-doubles-nickels-on-the-dime-1984",
+          "artist": "Minuteman",
+          "album": "Doubles Nickels on The Dime",
+          "releaseYear": 1984,
+          "latestRank": 413,
+          "ranks": {
+            "2003": 413
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-meters-looka-py-py-1969",
+          "artist": "The Meters",
+          "album": "Looka Py Py",
+          "releaseYear": 1969,
+          "latestRank": 415,
+          "ranks": {
+            "2020": 415,
+            "2024": 415
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-paul-mccartney-and-wings-band-on-the-run-1973",
+          "artist": "Paul McCartney and Wings",
+          "album": "Band On The Run",
+          "releaseYear": 1973,
+          "latestRank": 418,
+          "ranks": {
+            "2003": 418
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-buddy-holly-and-the-crickets-the-chirping-crickets-1957",
+          "artist": "Buddy Holly and the Crickets",
+          "album": "The \"Chirping\" Crickets",
+          "releaseYear": 1957,
+          "latestRank": 420,
+          "ranks": {
+            "2003": 420
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-buddy-holly-the-chirping-crickets-1957",
+          "artist": "Buddy Holly",
+          "album": "The \"Chirping\" Crickets",
+          "releaseYear": 1957,
+          "latestRank": 420,
+          "ranks": {
+            "2012": 420
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-the-best-of-girl-groups-volumes-1-and-2-1990",
+          "artist": "Various Artists",
+          "album": "The Best of Girl Groups Volumes 1 and 2",
+          "releaseYear": 1990,
+          "latestRank": 421,
+          "ranks": {
+            "2003": 421
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-the-best-of-the-girl-groups-volumes-1-and-2-1990",
+          "artist": "Various Artists",
+          "album": "The Best Of The Girl Groups, Volumes 1 And 2",
+          "releaseYear": 1990,
+          "latestRank": 421,
+          "ranks": {
+            "2012": 421
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-diana-ross-and-the-supremes-anthology-1973",
+          "artist": "Diana Ross and The Supremes",
+          "album": "Anthology",
+          "releaseYear": 1973,
+          "latestRank": 423,
+          "ranks": {
+            "2003": 423
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-cheap-trick-at-budokan-1979",
+          "artist": "Cheap Trick",
+          "album": "At Budokan",
+          "releaseYear": 1979,
+          "latestRank": 426,
+          "ranks": {
+            "2003": 426
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-cheap-trick-at-budokan-1978",
+          "artist": "Cheap Trick",
+          "album": "At Budokan",
+          "releaseYear": 1978,
+          "latestRank": 426,
+          "ranks": {
+            "2012": 426
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-four-tops-reach-out-1967",
+          "artist": "The Four Tops",
+          "album": "Reach Out",
+          "releaseYear": 1967,
+          "latestRank": 429,
+          "ranks": {
+            "2020": 429,
+            "2024": 429
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-big-star-number-1-record-1972",
+          "artist": "Big Star",
+          "album": "Number 1 Record",
+          "releaseYear": 1972,
+          "latestRank": 434,
+          "ranks": {
+            "2012": 434
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-stan-getz-and-joao-gilberto-featuring-antonio-carlos-jobim-getz-gilberto-1964",
+          "artist": "Stan Getz And Joao Gilberto Featuring Antonio Carlos Jobim",
+          "album": "Getz/Gilberto",
+          "releaseYear": 1964,
+          "latestRank": 447,
+          "ranks": {
+            "2012": 447
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-stan-getz-and-joao-gilberto-getz-gilberto-1964",
+          "artist": "Stan Getz and Joao Gilberto",
+          "album": "Getz/Gilberto",
+          "releaseYear": 1964,
+          "latestRank": 447,
+          "ranks": {
+            "2003": 447
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-otis-redding-dictionary-of-soul-1966",
+          "artist": "Otis Redding",
+          "album": "Dictionary of Soul",
+          "releaseYear": 1966,
+          "latestRank": 448,
+          "ranks": {
+            "2003": 254,
+            "2020": 448,
+            "2024": 448
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-diana-ross-and-the-supremes-anthology-1974",
+          "artist": "Diana Ross and the Supremes",
+          "album": "Anthology",
+          "releaseYear": 1974,
+          "latestRank": 452,
+          "ranks": {
+            "2020": 452,
+            "2024": 452
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-kid-cudi-man-on-the-moon-the-end-of-the-day-2009",
+          "artist": "Kid Cudi",
+          "album": "Man on the Moon: The End of the Day",
+          "releaseYear": 2009,
+          "latestRank": 459,
+          "ranks": {
+            "2020": 459,
+            "2024": 459
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-public-image-ltd-metal-box-1979",
+          "artist": "Public Image Ltd",
+          "album": "Metal Box",
+          "releaseYear": 1979,
+          "latestRank": 461,
+          "ranks": {
+            "2003": 461,
+            "2012": 461
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-flying-burrito-brothers-the-gilded-palace-of-sin-1969",
+          "artist": "The Flying Burrito Brothers",
+          "album": "The Gilded Palace of Sin",
+          "releaseYear": 1969,
+          "latestRank": 462,
+          "ranks": {
+            "2003": 192,
+            "2012": 192,
+            "2020": 462,
+            "2024": 462
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-merle-haggard-down-every-road-1996",
+          "artist": "Merle Haggard",
+          "album": "Down Every Road",
+          "releaseYear": 1996,
+          "latestRank": 477,
+          "ranks": {
+            "2003": 477,
+            "2012": 477
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-phil-spector-and-various-artists-back-to-mono-1958-1969-1991",
+          "artist": "Phil Spector and Various Artists",
+          "album": "Back to Mono (1958-1969)",
+          "releaseYear": 1991,
+          "latestRank": 489,
+          "ranks": {
+            "2020": 489,
+            "2024": 489
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-ronettes-presenting-the-fabulous-ronettes-1964",
+          "artist": "The Ronettes",
+          "album": "Presenting the Fabulous Ronettes",
+          "releaseYear": 1964,
+          "latestRank": 494,
+          "ranks": {
+            "2003": 422,
+            "2020": 494,
+            "2024": 494
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-boyz-ii-men-ii-1991",
+          "artist": "Boyz II Men",
+          "album": "II",
+          "releaseYear": 1991,
+          "latestRank": 495,
+          "ranks": {
+            "2024": 495
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        },
+        {
+          "kind": "gap",
+          "albumId": "album-various-artists-the-indestructible-beat-of-soweto-1985",
+          "artist": "Various Artists",
+          "album": "The Indestructible Beat of Soweto",
+          "releaseYear": 1985,
+          "latestRank": 497,
+          "ranks": {
+            "2003": 388,
+            "2012": 388,
+            "2020": 497,
+            "2024": 497
+          },
+          "reason": "no-exact-discogs-master-search-result",
+          "recommendedAction": "add-search-alias",
+          "sourceCandidates": []
+        }
+      ]
+    },
+    {
+      "key": "review:ambiguous-discogs-master-search-result",
+      "kind": "review",
+      "reason": "ambiguous-discogs-master-search-result",
+      "count": 201,
+      "items": [
         {
           "kind": "review",
           "albumId": "album-notorious-b-i-g-ready-to-die-1994",
@@ -166,302 +1927,6 @@
               "title": "The Beatles - Sgt. Pepper's Lonely Hearts Club Band",
               "year": "1967",
               "url": "https://api.discogs.com/masters/1264296"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-beatles-white-album-1968",
-          "artist": "The Beatles",
-          "album": "White Album",
-          "releaseYear": 1968,
-          "latestRank": 29,
-          "ranks": {
-            "2020": 29,
-            "2024": 29
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "3892825",
-              "title": "The Beatles - The Beatles",
-              "year": null,
-              "url": "https://api.discogs.com/masters/3892825"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "456999",
-              "title": "The Beatles - The Beatles",
-              "year": "1967",
-              "url": "https://api.discogs.com/masters/456999"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-amy-winehouse-back-to-black-2006",
-          "artist": "Amy Winehouse",
-          "album": "Back to Black",
-          "releaseYear": 2006,
-          "latestRank": 33,
-          "ranks": {
-            "2012": 451,
-            "2020": 33,
-            "2024": 33
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1288169",
-              "title": "Amy Winehouse - Back To Black",
-              "year": "2006",
-              "url": "https://api.discogs.com/masters/1288169"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "778503",
-              "title": "Amy Winehouse - Back To Black",
-              "year": "2006",
-              "url": "https://api.discogs.com/masters/778503"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "51331",
-              "title": "Amy Winehouse - Back To Black",
-              "year": "2007",
-              "url": "https://api.discogs.com/masters/51331"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "51256",
-              "title": "Amy Winehouse - Back To Black",
-              "year": "2006",
-              "url": "https://api.discogs.com/masters/51256"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-stevie-wonder-innervisions-1973",
-          "artist": "Stevie Wonder",
-          "album": "Innervisions",
-          "releaseYear": 1973,
-          "latestRank": 34,
-          "ranks": {
-            "2003": 24,
-            "2012": 24,
-            "2020": 34,
-            "2024": 34
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "86466",
-              "title": "Stevie Wonder - Innervisions",
-              "year": "1973",
-              "url": "https://api.discogs.com/masters/86466"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1420033",
-              "title": "Stevie Wonder - Innervisions",
-              "year": "1973",
-              "url": "https://api.discogs.com/masters/1420033"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-michael-jackson-off-the-wall-1979",
-          "artist": "Michael Jackson",
-          "album": "Off the Wall",
-          "releaseYear": 1979,
-          "latestRank": 36,
-          "ranks": {
-            "2003": 68,
-            "2012": 68,
-            "2020": 36,
-            "2024": 36
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1691133",
-              "title": "Michael Jackson - Off The Wall",
-              "year": null,
-              "url": "https://api.discogs.com/masters/1691133"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1687681",
-              "title": "Michael Jackson - Off The Wall",
-              "year": "1979",
-              "url": "https://api.discogs.com/masters/1687681"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "441594",
-              "title": "Michael Jackson - Off The Wall",
-              "year": "1979",
-              "url": "https://api.discogs.com/masters/441594"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "435524",
-              "title": "Michael Jackson - Off The Wall",
-              "year": "1979",
-              "url": "https://api.discogs.com/masters/435524"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1687679",
-              "title": "Michael Jackson - Off The Wall",
-              "year": "1979",
-              "url": "https://api.discogs.com/masters/1687679"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-dr-dre-the-chronic-1992",
-          "artist": "Dr. Dre",
-          "album": "The Chronic",
-          "releaseYear": 1992,
-          "latestRank": 37,
-          "ranks": {
-            "2003": 138,
-            "2012": 138,
-            "2020": 37,
-            "2024": 37
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1263629",
-              "title": "Dr. Dre - The Chronic",
-              "year": null,
-              "url": "https://api.discogs.com/masters/1263629"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1263667",
-              "title": "Dr. Dre - The Chronic",
-              "year": "1992",
-              "url": "https://api.discogs.com/masters/1263667"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1263627",
-              "title": "Dr. Dre - The Chronic",
-              "year": "1992",
-              "url": "https://api.discogs.com/masters/1263627"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "33951",
-              "title": "Dr. Dre - The Chronic",
-              "year": "1992",
-              "url": "https://api.discogs.com/masters/33951"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-beatles-please-please-me-1963",
-          "artist": "The Beatles",
-          "album": "Please Please Me",
-          "releaseYear": 1963,
-          "latestRank": 39,
-          "ranks": {
-            "2003": 39,
-            "2012": 39
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "767754",
-              "title": "The Beatles - Please Please Me",
-              "year": "1964",
-              "url": "https://api.discogs.com/masters/767754"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1306184",
-              "title": "The Beatles - Please Please Me",
-              "year": null,
-              "url": "https://api.discogs.com/masters/1306184"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "45619",
-              "title": "The Beatles - Please Please Me",
-              "year": "1963",
-              "url": "https://api.discogs.com/masters/45619"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "45362",
-              "title": "The Beatles - Please Please Me",
-              "year": "1963",
-              "url": "https://api.discogs.com/masters/45362"
-            }
-          ]
-        },
-        {
-          "kind": "review",
-          "albumId": "album-prince-sign-o-the-times-1987",
-          "artist": "Prince",
-          "album": "Sign O' the Times",
-          "releaseYear": 1987,
-          "latestRank": 45,
-          "ranks": {
-            "2003": 93,
-            "2012": 93,
-            "2020": 45,
-            "2024": 45
-          },
-          "reason": "ambiguous-discogs-master-search-result",
-          "recommendedAction": "approve-master-override",
-          "sourceCandidates": [
-            {
-              "sourceType": "discogs-master-search",
-              "id": "52776",
-              "title": "Prince - Sign \"O\" The Times",
-              "year": "1987",
-              "url": "https://api.discogs.com/masters/52776"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "52497",
-              "title": "Prince - Sign \"O\" The Times",
-              "year": "1987",
-              "url": "https://api.discogs.com/masters/52497"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "268038",
-              "title": "Prince - Sign \"O\" The Times",
-              "year": "1988",
-              "url": "https://api.discogs.com/masters/268038"
-            },
-            {
-              "sourceType": "discogs-master-search",
-              "id": "1341713",
-              "title": "Prince - When Doves Cry - It's A Sign O' The Times",
-              "year": "1988",
-              "url": "https://api.discogs.com/masters/1341713"
             }
           ]
         },
@@ -7224,1399 +8689,6 @@
       ]
     },
     {
-      "key": "gap:no-exact-discogs-master-search-result",
-      "kind": "gap",
-      "reason": "no-exact-discogs-master-search-result",
-      "count": 93,
-      "items": [
-        {
-          "kind": "gap",
-          "albumId": "album-elvis-presley-the-sun-sessions-1999",
-          "artist": "Elvis Presley",
-          "album": "The Sun Sessions",
-          "releaseYear": 1999,
-          "latestRank": 11,
-          "ranks": {
-            "2003": 11
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-muddy-waters-the-anthology-1947-1972-2001",
-          "artist": "Muddy Waters",
-          "album": "The Anthology (1947-1972)",
-          "releaseYear": 2001,
-          "latestRank": 38,
-          "ranks": {
-            "2012": 38
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-bob-marley-and-the-wailers-legend-1984",
-          "artist": "Bob Marley and the Wailers",
-          "album": "Legend",
-          "releaseYear": 1984,
-          "latestRank": 48,
-          "ranks": {
-            "2003": 46,
-            "2012": 46,
-            "2020": 48
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-led-zeppelin-led-zeppelin-iv-1971",
-          "artist": "Led Zeppelin",
-          "album": "Led Zeppelin IV",
-          "releaseYear": 1971,
-          "latestRank": 58,
-          "ranks": {
-            "2003": 69,
-            "2012": 69,
-            "2020": 58,
-            "2024": 58
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-creedence-clearwater-revival-chronicle-vol-1-1976",
-          "artist": "Creedence Clearwater Revival",
-          "album": "Chronicle, Vol. 1",
-          "releaseYear": 1976,
-          "latestRank": 59,
-          "ranks": {
-            "2003": 59,
-            "2012": 59
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-captain-beefheart-and-his-magic-band-trout-mask-replica-1969",
-          "artist": "Captain Beefheart and his Magic Band",
-          "album": "Trout Mask Replica",
-          "releaseYear": 1969,
-          "latestRank": 60,
-          "ranks": {
-            "2003": 60,
-            "2012": 60
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-phil-spector-back-to-mono-1991",
-          "artist": "Phil Spector",
-          "album": "Back To Mono",
-          "releaseYear": 1991,
-          "latestRank": 65,
-          "ranks": {
-            "2012": 65
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-frank-ocean-blond-2016",
-          "artist": "Frank Ocean",
-          "album": "Blond",
-          "releaseYear": 2016,
-          "latestRank": 79,
-          "ranks": {
-            "2020": 79,
-            "2024": 79
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-sex-pistols-never-mind-the-bollocks-heres-the-sex-pistols-1977",
-          "artist": "The Sex Pistols",
-          "album": "Never Mind the Bollocks Here's the Sex Pistols",
-          "releaseYear": 1977,
-          "latestRank": 80,
-          "ranks": {
-            "2003": 41,
-            "2012": 41,
-            "2020": 80,
-            "2024": 80
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-missy-misdemeanor-elliott-supa-dupa-fly-1997",
-          "artist": "Missy \"Misdemeanor\" Elliott",
-          "album": "Supa Dupa Fly",
-          "releaseYear": 1997,
-          "latestRank": 93,
-          "ranks": {
-            "2020": 93,
-            "2024": 93
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-de-la-soul-three-feet-high-and-rising-1989",
-          "artist": "De La Soul",
-          "album": "Three Feet High And Rising",
-          "releaseYear": 1989,
-          "latestRank": 103,
-          "ranks": {
-            "2003": 346,
-            "2012": 346,
-            "2020": 103,
-            "2024": 103
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-fiona-apple-when-the-pawn-1999",
-          "artist": "Fiona Apple",
-          "album": "When the Pawn …",
-          "releaseYear": 1999,
-          "latestRank": 108,
-          "ranks": {
-            "2020": 108,
-            "2024": 108
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-eagles-hotel-california-1976",
-          "artist": "The Eagles",
-          "album": "Hotel California",
-          "releaseYear": 1976,
-          "latestRank": 118,
-          "ranks": {
-            "2003": 37,
-            "2012": 37,
-            "2020": 118,
-            "2024": 118
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-jimmy-cliff-the-harder-they-come-1972",
-          "artist": "Jimmy Cliff",
-          "album": "The Harder They Come",
-          "releaseYear": 1972,
-          "latestRank": 122,
-          "ranks": {
-            "2012": 122
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-original-soundtrack-the-harder-they-come-1973",
-          "artist": "Original Soundtrack",
-          "album": "The Harder They Come",
-          "releaseYear": 1973,
-          "latestRank": 122,
-          "ranks": {
-            "2003": 122
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-bob-marley-and-the-wailers-and-the-wailers-catch-a-fire-1973",
-          "artist": "Bob Marley & The Wailers & The Wailers",
-          "album": "Catch A Fire",
-          "releaseYear": 1973,
-          "latestRank": 126,
-          "ranks": {
-            "2012": 126
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-iggy-and-the-stooges-raw-power-1973",
-          "artist": "Iggy and the Stooges",
-          "album": "Raw Power",
-          "releaseYear": 1973,
-          "latestRank": 128,
-          "ranks": {
-            "2003": 128
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-original-soundtrack-saturday-night-fever-1977",
-          "artist": "Original Soundtrack",
-          "album": "Saturday Night Fever",
-          "releaseYear": 1977,
-          "latestRank": 132,
-          "ranks": {
-            "2003": 132
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-saturday-night-fever-original-soundtrack-1977",
-          "artist": "Various Artists",
-          "album": "Saturday Night Fever (Original Soundtrack)",
-          "releaseYear": 1977,
-          "latestRank": 132,
-          "ranks": {
-            "2012": 132
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-bob-marley-and-the-wailers-catch-a-fire-1973",
-          "artist": "Bob Marley and the Wailers",
-          "album": "Catch a Fire",
-          "releaseYear": 1973,
-          "latestRank": 140,
-          "ranks": {
-            "2003": 126,
-            "2020": 140,
-            "2024": 140
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-phil-spector-a-christmas-gift-for-you-1963",
-          "artist": "Phil Spector",
-          "album": "A Christmas Gift For You",
-          "releaseYear": 1963,
-          "latestRank": 142,
-          "ranks": {
-            "2003": 142,
-            "2012": 142
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-n-w-a-straight-outta-compton-1998",
-          "artist": "N.W.A.",
-          "album": "Straight Outta Compton",
-          "releaseYear": 1998,
-          "latestRank": 144,
-          "ranks": {
-            "2003": 144
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-saturday-night-fever-1977",
-          "artist": "Various Artists",
-          "album": "Saturday Night Fever",
-          "releaseYear": 1977,
-          "latestRank": 163,
-          "ranks": {
-            "2020": 163,
-            "2024": 163
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-jimmy-cliff-and-various-artists-the-harder-they-come-original-soundtrack-1972",
-          "artist": "Jimmy Cliff and Various Artists",
-          "album": "The Harder They Come: Original Soundtrack",
-          "releaseYear": 1972,
-          "latestRank": 174,
-          "ranks": {
-            "2020": 174,
-            "2024": 174
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-parliament-funkadelic-one-nation-under-a-groove-1978",
-          "artist": "Parliament/Funkadelic",
-          "album": "One Nation Under A Groove",
-          "releaseYear": 1978,
-          "latestRank": 177,
-          "ranks": {
-            "2012": 177
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-curtis-mayfield-and-the-impressions-the-anthology-1961-1977-1992",
-          "artist": "Curtis Mayfield And The Impressions",
-          "album": "The Anthology 1961 - 1977",
-          "releaseYear": 1992,
-          "latestRank": 178,
-          "ranks": {
-            "2003": 178,
-            "2012": 178
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-otis-redding-otis-blue-1965",
-          "artist": "Otis Redding",
-          "album": "Otis Blue",
-          "releaseYear": 1965,
-          "latestRank": 178,
-          "ranks": {
-            "2003": 78,
-            "2012": 78,
-            "2020": 178,
-            "2024": 178
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-john-mayall-blues-breakers-with-eric-clapton-1966",
-          "artist": "John Mayall",
-          "album": "Blues Breakers With Eric Clapton",
-          "releaseYear": 1966,
-          "latestRank": 195,
-          "ranks": {
-            "2012": 195
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-john-mayall-with-eric-clapton-blues-breakers-1966",
-          "artist": "John Mayall With Eric Clapton",
-          "album": "Blues Breakers",
-          "releaseYear": 1966,
-          "latestRank": 195,
-          "ranks": {
-            "2003": 195
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-nuggets-original-artyfacts-from-the-first-psychedelic-era-1965-1968-1972",
-          "artist": "Various Artists",
-          "album": "Nuggets: Original Artyfacts From The First Psychedelic Era, 1965-1968",
-          "releaseYear": 1972,
-          "latestRank": 196,
-          "ranks": {
-            "2003": 196,
-            "2012": 196
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-little-walter-the-best-of-1957",
-          "artist": "Little Walter",
-          "album": "The Best Of",
-          "releaseYear": 1957,
-          "latestRank": 198,
-          "ranks": {
-            "2003": 198
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-little-walter-the-best-of-1964",
-          "artist": "Little Walter",
-          "album": "The Best Of",
-          "releaseYear": 1964,
-          "latestRank": 198,
-          "ranks": {
-            "2012": 198
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-b-52s-the-b-52s-1979",
-          "artist": "The B-52's",
-          "album": "The B-52's",
-          "releaseYear": 1979,
-          "latestRank": 198,
-          "ranks": {
-            "2003": 152,
-            "2012": 152,
-            "2020": 198,
-            "2024": 198
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-nick-drake-pink-moon-1979",
-          "artist": "Nick Drake",
-          "album": "Pink Moon",
-          "releaseYear": 1979,
-          "latestRank": 203,
-          "ranks": {
-            "2024": 203
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-neil-young-with-crazy-horse-everybody-knows-this-is-nowhere-1969",
-          "artist": "Neil Young With Crazy Horse",
-          "album": "Everybody Knows This Is Nowhere",
-          "releaseYear": 1969,
-          "latestRank": 210,
-          "ranks": {
-            "2003": 210
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-ray-charles-the-birth-of-soul-1991",
-          "artist": "Ray Charles",
-          "album": "The Birth of Soul",
-          "releaseYear": 1991,
-          "latestRank": 210,
-          "ranks": {
-            "2020": 210,
-            "2024": 210
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-joy-divison-unknown-pleasures-1980",
-          "artist": "Joy Divison",
-          "album": "Unknown Pleasures",
-          "releaseYear": 1980,
-          "latestRank": 211,
-          "ranks": {
-            "2024": 211
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-fiona-apple-the-idler-wheel-2012",
-          "artist": "Fiona Apple",
-          "album": "The Idler Wheel",
-          "releaseYear": 2012,
-          "latestRank": 213,
-          "ranks": {
-            "2020": 213,
-            "2024": 213
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-bo-diddley-bo-diddley-go-bo-diddley-1990",
-          "artist": "Bo Diddley",
-          "album": "Bo Diddley/Go Bo Diddley",
-          "releaseYear": 1990,
-          "latestRank": 216,
-          "ranks": {
-            "2003": 216
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-metallica-metallica-the-black-album-1991",
-          "artist": "Metallica",
-          "album": "Metallica (The Black Album)",
-          "releaseYear": 1991,
-          "latestRank": 235,
-          "ranks": {
-            "2003": 255,
-            "2012": 255,
-            "2020": 235,
-            "2024": 235
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-who-the-who-sings-my-generation-1965",
-          "artist": "The Who",
-          "album": "The Who Sings My Generation",
-          "releaseYear": 1965,
-          "latestRank": 237,
-          "ranks": {
-            "2012": 237
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-run-dmc-run-dmc-1984",
-          "artist": "Run-DMC",
-          "album": "Run-DMC",
-          "releaseYear": 1984,
-          "latestRank": 242,
-          "ranks": {
-            "2012": 242
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-mothers-of-invention-freak-out-1966",
-          "artist": "The Mothers Of Invention",
-          "album": "Freak Out!",
-          "releaseYear": 1966,
-          "latestRank": 246,
-          "ranks": {
-            "2003": 246,
-            "2012": 246
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-otis-redding-complete-and-unbelievable-the-otis-redding-dictionary-of-soul-1966",
-          "artist": "Otis Redding",
-          "album": "Complete & Unbelievable: The Otis Redding Dictionary Of Soul",
-          "releaseYear": 1966,
-          "latestRank": 254,
-          "ranks": {
-            "2012": 254
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-harry-smith-ed-anthology-of-american-folk-music-1952",
-          "artist": "Harry Smith, Ed.",
-          "album": "Anthology of American Folk Music",
-          "releaseYear": 1952,
-          "latestRank": 278,
-          "ranks": {
-            "2003": 278
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-anthology-of-american-folk-music-1952",
-          "artist": "Various Artists",
-          "album": "Anthology Of American Folk Music",
-          "releaseYear": 1952,
-          "latestRank": 278,
-          "ranks": {
-            "2012": 278
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-big-star-third-sister-lovers-1978",
-          "artist": "Big Star",
-          "album": "Third/Sister Lovers",
-          "releaseYear": 1978,
-          "latestRank": 285,
-          "ranks": {
-            "2003": 449,
-            "2012": 449,
-            "2020": 285,
-            "2024": 285
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-bjork-post-1995",
-          "artist": "Björk",
-          "album": "Post",
-          "releaseYear": 1995,
-          "latestRank": 289,
-          "ranks": {
-            "2003": 376,
-            "2012": 376,
-            "2020": 289,
-            "2024": 289
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-weezer-weezer-the-blue-album-1994",
-          "artist": "Weezer",
-          "album": "Weezer (The Blue Album)",
-          "releaseYear": 1994,
-          "latestRank": 294,
-          "ranks": {
-            "2012": 299,
-            "2020": 294,
-            "2024": 294
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-mothers-of-invention-were-only-in-it-for-the-money-1968",
-          "artist": "The Mothers Of Invention",
-          "album": "We're Only In It For The Money",
-          "releaseYear": 1968,
-          "latestRank": 297,
-          "ranks": {
-            "2003": 297,
-            "2012": 297
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-weezer-weezer-1994",
-          "artist": "Weezer",
-          "album": "Weezer",
-          "releaseYear": 1994,
-          "latestRank": 299,
-          "ranks": {
-            "2003": 299
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-sam-cooke-portrait-of-a-legend-2003",
-          "artist": "Sam Cooke",
-          "album": "Portrait of a Legend",
-          "releaseYear": 2003,
-          "latestRank": 307,
-          "ranks": {
-            "2003": 107,
-            "2020": 307,
-            "2024": 307
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-the-sun-records-collection-1994",
-          "artist": "Various Artists",
-          "album": "The Sun Records Collection",
-          "releaseYear": 1994,
-          "latestRank": 311,
-          "ranks": {
-            "2003": 311,
-            "2012": 311
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-nirvana-unplugged-1994",
-          "artist": "Nirvana",
-          "album": "Unplugged",
-          "releaseYear": 1994,
-          "latestRank": 313,
-          "ranks": {
-            "2003": 313
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-rosalia-el-mal-querer-2018",
-          "artist": "Rosalía",
-          "album": "El Mal Querer",
-          "releaseYear": 2018,
-          "latestRank": 315,
-          "ranks": {
-            "2020": 315,
-            "2024": 315
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-wailers-burnin-1973",
-          "artist": "The Wailers",
-          "album": "Burnin' '",
-          "releaseYear": 1973,
-          "latestRank": 319,
-          "ranks": {
-            "2003": 319
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-lana-del-rey-norman-fucking-rockwell-2019",
-          "artist": "Lana Del Rey",
-          "album": "Norman Fucking Rockwell!",
-          "releaseYear": 2019,
-          "latestRank": 321,
-          "ranks": {
-            "2020": 321,
-            "2024": 321
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-bob-dylan-and-the-band-the-basement-tapes-1975",
-          "artist": "Bob Dylan and the Band",
-          "album": "The Basement Tapes",
-          "releaseYear": 1975,
-          "latestRank": 335,
-          "ranks": {
-            "2003": 292,
-            "2012": 292,
-            "2020": 335,
-            "2024": 335
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-snoop-doggy-dogg-doggystyle-1993",
-          "artist": "Snoop Doggy Dogg",
-          "album": "Doggystyle",
-          "releaseYear": 1993,
-          "latestRank": 340,
-          "ranks": {
-            "2020": 340,
-            "2024": 340
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-yardbirds-roger-the-engineer-a-k-a-over-under-sideways-down-1966",
-          "artist": "The Yardbirds",
-          "album": "Roger the Engineer (a.k.a. Over Under Sideways Down)",
-          "releaseYear": 1966,
-          "latestRank": 350,
-          "ranks": {
-            "2003": 350
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-eagles-the-eagles-1972",
-          "artist": "The Eagles",
-          "album": "The Eagles",
-          "releaseYear": 1972,
-          "latestRank": 368,
-          "ranks": {
-            "2003": 368
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-beach-boys-smile-2011-version-2011",
-          "artist": "The Beach Boys",
-          "album": "Smile (2011 Version)",
-          "releaseYear": 2011,
-          "latestRank": 381,
-          "ranks": {
-            "2003": 381
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-who-a-quick-one-happy-jack-1966",
-          "artist": "The Who",
-          "album": "A Quick One (Happy Jack)",
-          "releaseYear": 1966,
-          "latestRank": 384,
-          "ranks": {
-            "2003": 384,
-            "2012": 384
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-dangelo-and-the-vanguard-black-messiah-2014",
-          "artist": "D'Angelo and the Vanguard",
-          "album": "Black Messiah",
-          "releaseYear": 2014,
-          "latestRank": 395,
-          "ranks": {
-            "2020": 395,
-            "2024": 395
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-go-gos-beauty-and-the-beat-1981",
-          "artist": "The Go-Go's",
-          "album": "Beauty and the Beat",
-          "releaseYear": 1981,
-          "latestRank": 400,
-          "ranks": {
-            "2003": 414,
-            "2012": 414,
-            "2020": 400,
-            "2024": 400
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-temptations-anthology-1995",
-          "artist": "The Temptations",
-          "album": "Anthology",
-          "releaseYear": 1995,
-          "latestRank": 400,
-          "ranks": {
-            "2003": 400
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-fela-kuti-and-africa-70-expensive-shit-1975",
-          "artist": "Fela Kuti and Africa 70",
-          "album": "Expensive Shit",
-          "releaseYear": 1975,
-          "latestRank": 402,
-          "ranks": {
-            "2020": 402,
-            "2024": 402
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-nuggets-original-artyfacts-from-the-first-psychedelic-era-1972",
-          "artist": "Various Artists",
-          "album": "Nuggets: Original Artyfacts from the First Psychedelic Era",
-          "releaseYear": 1972,
-          "latestRank": 405,
-          "ranks": {
-            "2020": 405,
-            "2024": 405
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-smokey-robinson-and-the-miracles-going-to-a-go-go-1965",
-          "artist": "Smokey Robinson and the Miracles",
-          "album": "Going to a Go Go",
-          "releaseYear": 1965,
-          "latestRank": 412,
-          "ranks": {
-            "2003": 273,
-            "2012": 273,
-            "2020": 412,
-            "2024": 412
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-minuteman-doubles-nickels-on-the-dime-1984",
-          "artist": "Minuteman",
-          "album": "Doubles Nickels on The Dime",
-          "releaseYear": 1984,
-          "latestRank": 413,
-          "ranks": {
-            "2003": 413
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-meters-looka-py-py-1969",
-          "artist": "The Meters",
-          "album": "Looka Py Py",
-          "releaseYear": 1969,
-          "latestRank": 415,
-          "ranks": {
-            "2020": 415,
-            "2024": 415
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-paul-mccartney-and-wings-band-on-the-run-1973",
-          "artist": "Paul McCartney and Wings",
-          "album": "Band On The Run",
-          "releaseYear": 1973,
-          "latestRank": 418,
-          "ranks": {
-            "2003": 418
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-buddy-holly-and-the-crickets-the-chirping-crickets-1957",
-          "artist": "Buddy Holly and the Crickets",
-          "album": "The \"Chirping\" Crickets",
-          "releaseYear": 1957,
-          "latestRank": 420,
-          "ranks": {
-            "2003": 420
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-buddy-holly-the-chirping-crickets-1957",
-          "artist": "Buddy Holly",
-          "album": "The \"Chirping\" Crickets",
-          "releaseYear": 1957,
-          "latestRank": 420,
-          "ranks": {
-            "2012": 420
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-the-best-of-girl-groups-volumes-1-and-2-1990",
-          "artist": "Various Artists",
-          "album": "The Best of Girl Groups Volumes 1 and 2",
-          "releaseYear": 1990,
-          "latestRank": 421,
-          "ranks": {
-            "2003": 421
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-the-best-of-the-girl-groups-volumes-1-and-2-1990",
-          "artist": "Various Artists",
-          "album": "The Best Of The Girl Groups, Volumes 1 And 2",
-          "releaseYear": 1990,
-          "latestRank": 421,
-          "ranks": {
-            "2012": 421
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-diana-ross-and-the-supremes-anthology-1973",
-          "artist": "Diana Ross and The Supremes",
-          "album": "Anthology",
-          "releaseYear": 1973,
-          "latestRank": 423,
-          "ranks": {
-            "2003": 423
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-cheap-trick-at-budokan-1979",
-          "artist": "Cheap Trick",
-          "album": "At Budokan",
-          "releaseYear": 1979,
-          "latestRank": 426,
-          "ranks": {
-            "2003": 426
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-cheap-trick-at-budokan-1978",
-          "artist": "Cheap Trick",
-          "album": "At Budokan",
-          "releaseYear": 1978,
-          "latestRank": 426,
-          "ranks": {
-            "2012": 426
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-four-tops-reach-out-1967",
-          "artist": "The Four Tops",
-          "album": "Reach Out",
-          "releaseYear": 1967,
-          "latestRank": 429,
-          "ranks": {
-            "2020": 429,
-            "2024": 429
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-big-star-number-1-record-1972",
-          "artist": "Big Star",
-          "album": "Number 1 Record",
-          "releaseYear": 1972,
-          "latestRank": 434,
-          "ranks": {
-            "2012": 434
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-stan-getz-and-joao-gilberto-featuring-antonio-carlos-jobim-getz-gilberto-1964",
-          "artist": "Stan Getz And Joao Gilberto Featuring Antonio Carlos Jobim",
-          "album": "Getz/Gilberto",
-          "releaseYear": 1964,
-          "latestRank": 447,
-          "ranks": {
-            "2012": 447
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-stan-getz-and-joao-gilberto-getz-gilberto-1964",
-          "artist": "Stan Getz and Joao Gilberto",
-          "album": "Getz/Gilberto",
-          "releaseYear": 1964,
-          "latestRank": 447,
-          "ranks": {
-            "2003": 447
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-otis-redding-dictionary-of-soul-1966",
-          "artist": "Otis Redding",
-          "album": "Dictionary of Soul",
-          "releaseYear": 1966,
-          "latestRank": 448,
-          "ranks": {
-            "2003": 254,
-            "2020": 448,
-            "2024": 448
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-diana-ross-and-the-supremes-anthology-1974",
-          "artist": "Diana Ross and the Supremes",
-          "album": "Anthology",
-          "releaseYear": 1974,
-          "latestRank": 452,
-          "ranks": {
-            "2020": 452,
-            "2024": 452
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-kid-cudi-man-on-the-moon-the-end-of-the-day-2009",
-          "artist": "Kid Cudi",
-          "album": "Man on the Moon: The End of the Day",
-          "releaseYear": 2009,
-          "latestRank": 459,
-          "ranks": {
-            "2020": 459,
-            "2024": 459
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-public-image-ltd-metal-box-1979",
-          "artist": "Public Image Ltd",
-          "album": "Metal Box",
-          "releaseYear": 1979,
-          "latestRank": 461,
-          "ranks": {
-            "2003": 461,
-            "2012": 461
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-flying-burrito-brothers-the-gilded-palace-of-sin-1969",
-          "artist": "The Flying Burrito Brothers",
-          "album": "The Gilded Palace of Sin",
-          "releaseYear": 1969,
-          "latestRank": 462,
-          "ranks": {
-            "2003": 192,
-            "2012": 192,
-            "2020": 462,
-            "2024": 462
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-merle-haggard-down-every-road-1996",
-          "artist": "Merle Haggard",
-          "album": "Down Every Road",
-          "releaseYear": 1996,
-          "latestRank": 477,
-          "ranks": {
-            "2003": 477,
-            "2012": 477
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-phil-spector-and-various-artists-back-to-mono-1958-1969-1991",
-          "artist": "Phil Spector and Various Artists",
-          "album": "Back to Mono (1958-1969)",
-          "releaseYear": 1991,
-          "latestRank": 489,
-          "ranks": {
-            "2020": 489,
-            "2024": 489
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-ronettes-presenting-the-fabulous-ronettes-1964",
-          "artist": "The Ronettes",
-          "album": "Presenting the Fabulous Ronettes",
-          "releaseYear": 1964,
-          "latestRank": 494,
-          "ranks": {
-            "2003": 422,
-            "2020": 494,
-            "2024": 494
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-boyz-ii-men-ii-1991",
-          "artist": "Boyz II Men",
-          "album": "II",
-          "releaseYear": 1991,
-          "latestRank": 495,
-          "ranks": {
-            "2024": 495
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "gap",
-          "albumId": "album-various-artists-the-indestructible-beat-of-soweto-1985",
-          "artist": "Various Artists",
-          "album": "The Indestructible Beat of Soweto",
-          "releaseYear": 1985,
-          "latestRank": 497,
-          "ranks": {
-            "2003": 388,
-            "2012": 388,
-            "2020": 497,
-            "2024": 497
-          },
-          "reason": "no-exact-discogs-master-search-result",
-          "recommendedAction": "add-search-alias",
-          "sourceCandidates": []
-        }
-      ]
-    },
-    {
       "key": "review:discogs-master-fetch-failed",
       "kind": "review",
       "reason": "discogs-master-fetch-failed",
@@ -8740,373 +8812,6 @@
           ]
         }
       ]
-    },
-    {
-      "key": "review:source-cache-without-usable-credits",
-      "kind": "review",
-      "reason": "source-cache-without-usable-credits",
-      "count": 24,
-      "items": [
-        {
-          "kind": "review",
-          "albumId": "album-kendrick-lamar-good-kid-m-a-a-d-city-2012",
-          "artist": "Kendrick Lamar",
-          "album": "good kid, m.A.A.d city",
-          "releaseYear": 2012,
-          "latestRank": 115,
-          "ranks": {
-            "2020": 115,
-            "2024": 115
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-taylor-swift-folklore-2020",
-          "artist": "Taylor Swift",
-          "album": "Folklore",
-          "releaseYear": 2020,
-          "latestRank": 170,
-          "ranks": {
-            "2024": 170
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-lil-wayne-tha-carter-iii-2008",
-          "artist": "Lil Wayne",
-          "album": "Tha Carter III",
-          "releaseYear": 2008,
-          "latestRank": 208,
-          "ranks": {
-            "2003": 437,
-            "2012": 437,
-            "2020": 208,
-            "2024": 208
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-bobby-bland-two-steps-from-the-blues-1961",
-          "artist": "Bobby Bland",
-          "album": "Two Steps From The Blues",
-          "releaseYear": 1961,
-          "latestRank": 217,
-          "ranks": {
-            "2003": 217,
-            "2012": 217
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-patsy-cline-the-ultimate-collection-2000",
-          "artist": "Patsy Cline",
-          "album": "The Ultimate Collection",
-          "releaseYear": 2000,
-          "latestRank": 229,
-          "ranks": {
-            "2003": 235,
-            "2012": 235,
-            "2020": 229,
-            "2024": 229
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-rihanna-anti-2016",
-          "artist": "Rihanna",
-          "album": "Anti",
-          "releaseYear": 2016,
-          "latestRank": 230,
-          "ranks": {
-            "2020": 230,
-            "2024": 230
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-muddy-waters-folk-singer-1964",
-          "artist": "Muddy Waters",
-          "album": "Folk Singer",
-          "releaseYear": 1964,
-          "latestRank": 282,
-          "ranks": {
-            "2003": 282,
-            "2012": 282
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-frank-sinatra-songs-for-swingin-lovers-1956",
-          "artist": "Frank Sinatra",
-          "album": "Songs For Swingin' Lovers",
-          "releaseYear": 1956,
-          "latestRank": 308,
-          "ranks": {
-            "2003": 308,
-            "2012": 308
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-bob-marley-and-the-wailers-and-the-wailers-burnin-1973",
-          "artist": "Bob Marley & The Wailers & The Wailers",
-          "album": "Burnin'",
-          "releaseYear": 1973,
-          "latestRank": 319,
-          "ranks": {
-            "2012": 319
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-elvis-presley-from-elvis-in-memphis-1969",
-          "artist": "Elvis Presley",
-          "album": "From Elvis in Memphis",
-          "releaseYear": 1969,
-          "latestRank": 322,
-          "ranks": {
-            "2003": 190,
-            "2012": 190,
-            "2020": 322,
-            "2024": 322
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-burna-boy-african-giant-2019",
-          "artist": "Burna Boy",
-          "album": "African Giant",
-          "releaseYear": 2019,
-          "latestRank": 330,
-          "ranks": {
-            "2024": 330
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-sza-sos-2022",
-          "artist": "SZA",
-          "album": "SOS",
-          "releaseYear": 2022,
-          "latestRank": 351,
-          "ranks": {
-            "2024": 351
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-eminem-the-slim-shady-lp-1999",
-          "artist": "Eminem",
-          "album": "The Slim Shady LP",
-          "releaseYear": 1999,
-          "latestRank": 352,
-          "ranks": {
-            "2003": 275,
-            "2012": 275,
-            "2020": 352,
-            "2024": 352
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-olivia-rodrigo-sour-2021",
-          "artist": "Olivia Rodrigo",
-          "album": "Sour",
-          "releaseYear": 2021,
-          "latestRank": 358,
-          "ranks": {
-            "2024": 358
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-drake-if-youre-reading-this-its-too-late-2015",
-          "artist": "Drake",
-          "album": "If You're Reading This It's Too Late",
-          "releaseYear": 2015,
-          "latestRank": 367,
-          "ranks": {
-            "2020": 367,
-            "2024": 367
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-lil-wayne-tha-carter-ii-2005",
-          "artist": "Lil Wayne",
-          "album": "Tha Carter II",
-          "releaseYear": 2005,
-          "latestRank": 370,
-          "ranks": {
-            "2020": 370,
-            "2024": 370
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-m-i-a-arular-2005",
-          "artist": "M.I.A.",
-          "album": "Arular",
-          "releaseYear": 2005,
-          "latestRank": 421,
-          "ranks": {
-            "2020": 421,
-            "2024": 421
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-bad-bunny-un-verano-sin-ti-2022",
-          "artist": "Bad Bunny",
-          "album": "Un Verano Sin Ti",
-          "releaseYear": 2022,
-          "latestRank": 430,
-          "ranks": {
-            "2024": 430
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-weeknd-beauty-behind-the-madness-2015",
-          "artist": "The Weeknd",
-          "album": "Beauty Behind the Madness",
-          "releaseYear": 2015,
-          "latestRank": 442,
-          "ranks": {
-            "2020": 442,
-            "2024": 442
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-bad-bunny-x-100pre-2018",
-          "artist": "Bad Bunny",
-          "album": "X 100pre",
-          "releaseYear": 2018,
-          "latestRank": 447,
-          "ranks": {
-            "2020": 447,
-            "2024": 447
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-bon-iver-for-emma-forever-ago-2007",
-          "artist": "Bon Iver",
-          "album": "For Emma, Forever Ago",
-          "releaseYear": 2007,
-          "latestRank": 461,
-          "ranks": {
-            "2020": 461,
-            "2024": 461
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-harry-styles-fine-line-2019",
-          "artist": "Harry Styles",
-          "album": "Fine Line",
-          "releaseYear": 2019,
-          "latestRank": 491,
-          "ranks": {
-            "2020": 491
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-harry-styles-harrys-house-2022",
-          "artist": "Harry Styles",
-          "album": "Harry's House",
-          "releaseYear": 2022,
-          "latestRank": 491,
-          "ranks": {
-            "2024": 491
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        },
-        {
-          "kind": "review",
-          "albumId": "album-boyz-ii-men-ii-1994",
-          "artist": "Boyz II Men",
-          "album": "II",
-          "releaseYear": 1994,
-          "latestRank": 495,
-          "ranks": {
-            "2020": 495
-          },
-          "reason": "source-cache-without-usable-credits",
-          "recommendedAction": "inspect-release-or-mark-gap",
-          "sourceCandidates": []
-        }
-      ]
     }
   ],
   "items": [
@@ -9120,24 +8825,9 @@
       "ranks": {
         "2012": 10
       },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "3892825",
-          "title": "The Beatles - The Beatles",
-          "year": null,
-          "url": "https://api.discogs.com/masters/3892825"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "456999",
-          "title": "The Beatles - The Beatles",
-          "year": "1967",
-          "url": "https://api.discogs.com/masters/456999"
-        }
-      ]
+      "reason": "source-cache-without-usable-credits",
+      "recommendedAction": "inspect-release-or-mark-gap",
+      "sourceCandidates": []
     },
     {
       "kind": "review",
@@ -9149,24 +8839,9 @@
       "ranks": {
         "2003": 10
       },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "3892825",
-          "title": "The Beatles - The Beatles",
-          "year": null,
-          "url": "https://api.discogs.com/masters/3892825"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "456999",
-          "title": "The Beatles - The Beatles",
-          "year": "1967",
-          "url": "https://api.discogs.com/masters/456999"
-        }
-      ]
+      "reason": "source-cache-without-usable-credits",
+      "recommendedAction": "inspect-release-or-mark-gap",
+      "sourceCandidates": []
     },
     {
       "kind": "gap",
@@ -9278,24 +8953,9 @@
         "2020": 29,
         "2024": 29
       },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "3892825",
-          "title": "The Beatles - The Beatles",
-          "year": null,
-          "url": "https://api.discogs.com/masters/3892825"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "456999",
-          "title": "The Beatles - The Beatles",
-          "year": "1967",
-          "url": "https://api.discogs.com/masters/456999"
-        }
-      ]
+      "reason": "source-cache-without-usable-credits",
+      "recommendedAction": "inspect-release-or-mark-gap",
+      "sourceCandidates": []
     },
     {
       "kind": "review",
@@ -9309,169 +8969,9 @@
         "2020": 33,
         "2024": 33
       },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1288169",
-          "title": "Amy Winehouse - Back To Black",
-          "year": "2006",
-          "url": "https://api.discogs.com/masters/1288169"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "778503",
-          "title": "Amy Winehouse - Back To Black",
-          "year": "2006",
-          "url": "https://api.discogs.com/masters/778503"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "51331",
-          "title": "Amy Winehouse - Back To Black",
-          "year": "2007",
-          "url": "https://api.discogs.com/masters/51331"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "51256",
-          "title": "Amy Winehouse - Back To Black",
-          "year": "2006",
-          "url": "https://api.discogs.com/masters/51256"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-stevie-wonder-innervisions-1973",
-      "artist": "Stevie Wonder",
-      "album": "Innervisions",
-      "releaseYear": 1973,
-      "latestRank": 34,
-      "ranks": {
-        "2003": 24,
-        "2012": 24,
-        "2020": 34,
-        "2024": 34
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "86466",
-          "title": "Stevie Wonder - Innervisions",
-          "year": "1973",
-          "url": "https://api.discogs.com/masters/86466"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1420033",
-          "title": "Stevie Wonder - Innervisions",
-          "year": "1973",
-          "url": "https://api.discogs.com/masters/1420033"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-michael-jackson-off-the-wall-1979",
-      "artist": "Michael Jackson",
-      "album": "Off the Wall",
-      "releaseYear": 1979,
-      "latestRank": 36,
-      "ranks": {
-        "2003": 68,
-        "2012": 68,
-        "2020": 36,
-        "2024": 36
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1691133",
-          "title": "Michael Jackson - Off The Wall",
-          "year": null,
-          "url": "https://api.discogs.com/masters/1691133"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1687681",
-          "title": "Michael Jackson - Off The Wall",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/1687681"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "441594",
-          "title": "Michael Jackson - Off The Wall",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/441594"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "435524",
-          "title": "Michael Jackson - Off The Wall",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/435524"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1687679",
-          "title": "Michael Jackson - Off The Wall",
-          "year": "1979",
-          "url": "https://api.discogs.com/masters/1687679"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-dr-dre-the-chronic-1992",
-      "artist": "Dr. Dre",
-      "album": "The Chronic",
-      "releaseYear": 1992,
-      "latestRank": 37,
-      "ranks": {
-        "2003": 138,
-        "2012": 138,
-        "2020": 37,
-        "2024": 37
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1263629",
-          "title": "Dr. Dre - The Chronic",
-          "year": null,
-          "url": "https://api.discogs.com/masters/1263629"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1263667",
-          "title": "Dr. Dre - The Chronic",
-          "year": "1992",
-          "url": "https://api.discogs.com/masters/1263667"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1263627",
-          "title": "Dr. Dre - The Chronic",
-          "year": "1992",
-          "url": "https://api.discogs.com/masters/1263627"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "33951",
-          "title": "Dr. Dre - The Chronic",
-          "year": "1992",
-          "url": "https://api.discogs.com/masters/33951"
-        }
-      ]
+      "reason": "source-cache-without-usable-credits",
+      "recommendedAction": "inspect-release-or-mark-gap",
+      "sourceCandidates": []
     },
     {
       "kind": "gap",
@@ -9486,96 +8986,6 @@
       "reason": "no-exact-discogs-master-search-result",
       "recommendedAction": "add-search-alias",
       "sourceCandidates": []
-    },
-    {
-      "kind": "review",
-      "albumId": "album-beatles-please-please-me-1963",
-      "artist": "The Beatles",
-      "album": "Please Please Me",
-      "releaseYear": 1963,
-      "latestRank": 39,
-      "ranks": {
-        "2003": 39,
-        "2012": 39
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "767754",
-          "title": "The Beatles - Please Please Me",
-          "year": "1964",
-          "url": "https://api.discogs.com/masters/767754"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1306184",
-          "title": "The Beatles - Please Please Me",
-          "year": null,
-          "url": "https://api.discogs.com/masters/1306184"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "45619",
-          "title": "The Beatles - Please Please Me",
-          "year": "1963",
-          "url": "https://api.discogs.com/masters/45619"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "45362",
-          "title": "The Beatles - Please Please Me",
-          "year": "1963",
-          "url": "https://api.discogs.com/masters/45362"
-        }
-      ]
-    },
-    {
-      "kind": "review",
-      "albumId": "album-prince-sign-o-the-times-1987",
-      "artist": "Prince",
-      "album": "Sign O' the Times",
-      "releaseYear": 1987,
-      "latestRank": 45,
-      "ranks": {
-        "2003": 93,
-        "2012": 93,
-        "2020": 45,
-        "2024": 45
-      },
-      "reason": "ambiguous-discogs-master-search-result",
-      "recommendedAction": "approve-master-override",
-      "sourceCandidates": [
-        {
-          "sourceType": "discogs-master-search",
-          "id": "52776",
-          "title": "Prince - Sign \"O\" The Times",
-          "year": "1987",
-          "url": "https://api.discogs.com/masters/52776"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "52497",
-          "title": "Prince - Sign \"O\" The Times",
-          "year": "1987",
-          "url": "https://api.discogs.com/masters/52497"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "268038",
-          "title": "Prince - Sign \"O\" The Times",
-          "year": "1988",
-          "url": "https://api.discogs.com/masters/268038"
-        },
-        {
-          "sourceType": "discogs-master-search",
-          "id": "1341713",
-          "title": "Prince - When Doves Cry - It's A Sign O' The Times",
-          "year": "1988",
-          "url": "https://api.discogs.com/masters/1341713"
-        }
-      ]
     },
     {
       "kind": "review",

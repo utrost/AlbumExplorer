@@ -77,6 +77,8 @@ test('filters rows by search text, edition count, edition appearance, and metada
   const rows = buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates });
 
   assert.deepEqual(filterRows(rows, { search: 'gaye' }).map((row) => row.id), ['album-marvin-gaye-whats-going-on-1971']);
+  assert.deepEqual(filterRows(rows, { search: 'ga' }).map((row) => row.id), rows.map((row) => row.id));
+  assert.deepEqual(filterRows(rows, { search: 'gay' }).map((row) => row.id), ['album-marvin-gaye-whats-going-on-1971']);
   assert.deepEqual(filterRows(rows, { editionCount: '2' }).map((row) => row.id), ['album-marvin-gaye-whats-going-on-1971']);
   assert.deepEqual(filterRows(rows, { editionYear: '2003' }).map((row) => row.id), ['album-marvin-gaye-whats-going-on-1971']);
   assert.deepEqual(filterRows(rows, { metadataStatus: 'baseline' }).map((row) => row.id), ['album-prince-and-the-revolution-purple-rain-1984']);

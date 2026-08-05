@@ -1,3 +1,5 @@
+const MIN_SEARCH_CHARACTERS = 3;
+
 export function buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates }) {
   const candidateByAlbumId = new Map((candidates.candidates ?? []).map((candidate) => [candidate.albumId, candidate]));
   const reviewIds = new Set((sourceCandidates.review ?? []).map((item) => item.albumId));
@@ -36,7 +38,8 @@ export function buildEnrichedComparisonRows({ comparison, candidates, sourceCand
 }
 
 export function filterRows(rows, filters = {}) {
-  const search = normalize(filters.search);
+  const normalizedSearch = normalize(filters.search);
+  const search = normalizedSearch.length >= MIN_SEARCH_CHARACTERS ? normalizedSearch : '';
   return rows.filter((row) => {
     if (search && !`${normalize(row.artist)} ${normalize(row.album)}`.includes(search)) return false;
     if (filters.editionYear && filters.editionYear !== 'all' && !row.ranks[String(filters.editionYear)]) return false;

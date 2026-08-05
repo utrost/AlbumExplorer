@@ -5,6 +5,8 @@ import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipEvidence
 import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { findAlbumPath } from './graph/path-finder.js';
 
+const MIN_SEARCH_CHARACTERS = 3;
+
 const APP_RELATIONSHIP_TYPES = [
   'shared-label',
   'shared-producer',
@@ -151,6 +153,7 @@ function renderControls() {
     <form class="controls" data-testid="comparison-controls">
       <label>Search
         <input data-testid="comparison-search" name="search" type="search" placeholder="artist or album" value="${escapeAttribute(state.filters.search)}">
+        <span class="control-hint">Search starts at 3 characters.</span>
       </label>
       <label>Edition
         <select data-testid="edition-filter" name="editionYear">
@@ -444,15 +447,27 @@ function bindInteractions() {
 function updateFromControls(event) {
   const form = event.currentTarget;
   const data = new FormData(form);
-  state.filters = {
+  const nextFilters = {
     search: data.get('search') ?? '',
     editionYear: data.get('editionYear') ?? 'all',
     editionCount: data.get('editionCount') ?? 'all',
     metadataStatus: data.get('metadataStatus') ?? 'all',
     musicBrainzMatchStatus: data.get('musicBrainzMatchStatus') ?? 'all'
   };
-  state.sortKey = data.get('sortKey') ?? 'latest-rank';
+  const nextSortKey = data.get('sortKey') ?? 'latest-rank';
+  if (event.target?.name === 'search' && shouldSkipShortSearchRender(state.filters.search, nextFilters.search)) return;
+  state.filters = nextFilters;
+  state.sortKey = nextSortKey;
   renderApp();
+}
+
+function shouldSkipShortSearchRender(previousSearch, nextSearch) {
+  return effectiveSearch(previousSearch) === '' && effectiveSearch(nextSearch) === '';
+}
+
+function effectiveSearch(value) {
+  const trimmed = String(value ?? '').trim();
+  return trimmed.length >= MIN_SEARCH_CHARACTERS ? trimmed : '';
 }
 
 function selectAlbum(albumId) {

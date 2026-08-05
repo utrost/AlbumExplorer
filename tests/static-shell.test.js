@@ -30,6 +30,8 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /Discogs master/);
   assert.match(app, /Discogs release/);
   assert.match(app, /data-testid="comparison-search"/);
+  assert.match(app, /MIN_SEARCH_CHARACTERS/);
+  assert.match(app, /Search starts at 3 characters/);
   assert.match(app, /data-testid="edition-filter"/);
   assert.match(app, /data-testid="metadata-filter"/);
   assert.match(app, /data-testid="related-albums"/);

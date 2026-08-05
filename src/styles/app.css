@@ -443,6 +443,34 @@ code {
   font-size: 0.82rem;
 }
 
+.source-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.source-badge {
+  background: #251b16;
+  border: 1px solid #5b4333;
+  border-radius: 999px;
+  color: #d8c1a4;
+  display: inline-flex;
+  font-size: 0.72rem;
+  line-height: 1.2;
+  padding: 2px 6px;
+  text-decoration: none;
+}
+
+.source-badge[href]:hover {
+  border-color: #f4c481;
+  color: #f4c481;
+}
+
+.source-badge.muted-source {
+  color: #9d8f82;
+}
+
 .related-albums ul {
   margin: 8px 0 0 1em;
   padding: 0;

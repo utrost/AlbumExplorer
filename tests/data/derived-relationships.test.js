@@ -95,7 +95,29 @@ test('keeps explanations typed so filtered views can highlight the matching reas
   assert.deepEqual(matchingRelationshipExplanations(ab, []), ab.explanations);
 });
 
-test('builds explainable relationships from reviewable credit candidates', () => {
+test('returns matching relationship evidence with provenance objects intact', async () => {
+  const { matchingRelationshipEvidence } = await import('../../src/data/derived-relationships.js');
+  const relationship = {
+    explanations: ['generic fallback'],
+    typedExplanations: [
+      {
+        type: 'shared-producer',
+        text: 'Both albums credit Brian Eno as producer.',
+        provenance: {
+          sourceType: 'discogs-release',
+          left: { albumId: 'album-a', masterId: 123, releaseId: 456, selectedBy: 'approved-master-override', masterUrl: 'https://www.discogs.com/master/123', releaseUrl: 'https://www.discogs.com/release/456' },
+          right: { albumId: 'album-d', masterId: 789, releaseId: 1011, selectedBy: 'search-alias', masterUrl: 'https://www.discogs.com/master/789', releaseUrl: 'https://www.discogs.com/release/1011' }
+        }
+      },
+      { type: 'shared-label', text: 'Both albums are connected through the label RCA.' }
+    ]
+  };
+
+  assert.deepEqual(matchingRelationshipEvidence(relationship, ['shared-producer']), [relationship.typedExplanations[0]]);
+  assert.deepEqual(matchingRelationshipEvidence(relationship, ['missing-type']), [{ type: 'explanation', text: 'generic fallback' }]);
+});
+
+test('builds explainable relationships from reviewable credit candidates with Discogs provenance', () => {
   const creditRows = [
     { id: 'album-a', artist: 'Artist A', album: 'Album A', labels: [], genres: [], ranks: {}, appearances: [] },
     { id: 'album-d', artist: 'Artist D', album: 'Album D', labels: [], genres: [], ranks: {}, appearances: [] }
@@ -103,6 +125,13 @@ test('builds explainable relationships from reviewable credit candidates', () =>
   const creditCandidates = [
     {
       albumId: 'album-a',
+      source: {
+        type: 'discogs-release',
+        masterId: 123,
+        releaseId: 456,
+        selectedBy: 'approved-master-override',
+        urls: { master: 'https://www.discogs.com/master/123', release: 'https://www.discogs.com/release/456' }
+      },
       credits: [
         { type: 'producer', name: 'Brian Eno' },
         { type: 'musician', name: 'Carlos Alomar' }
@@ -111,6 +140,13 @@ test('builds explainable relationships from reviewable credit candidates', () =>
     },
     {
       albumId: 'album-d',
+      source: {
+        type: 'discogs-release',
+        masterId: 789,
+        releaseId: 1011,
+        selectedBy: 'search-alias',
+        urls: { master: 'https://www.discogs.com/master/789', release: 'https://www.discogs.com/release/1011' }
+      },
       credits: [
         { type: 'producer', name: 'Brian Eno' },
         { type: 'engineer', name: 'Tony Visconti' },
@@ -125,9 +161,33 @@ test('builds explainable relationships from reviewable credit candidates', () =>
   assert.equal(relationships.length, 1);
   assert.deepEqual(relationships[0].types, ['shared-producer', 'shared-musician', 'shared-studio']);
   assert.deepEqual(relationships[0].typedExplanations, [
-    { type: 'shared-producer', text: 'Both albums credit Brian Eno as producer.' },
-    { type: 'shared-musician', text: 'Both albums credit Carlos Alomar as musician/performer.' },
-    { type: 'shared-studio', text: 'Both albums are connected to the studio/location Hansa Tonstudio.' }
+    {
+      type: 'shared-producer',
+      text: 'Both albums credit Brian Eno as producer.',
+      provenance: {
+        sourceType: 'discogs-release',
+        left: { albumId: 'album-a', masterId: 123, releaseId: 456, selectedBy: 'approved-master-override', masterUrl: 'https://www.discogs.com/master/123', releaseUrl: 'https://www.discogs.com/release/456' },
+        right: { albumId: 'album-d', masterId: 789, releaseId: 1011, selectedBy: 'search-alias', masterUrl: 'https://www.discogs.com/master/789', releaseUrl: 'https://www.discogs.com/release/1011' }
+      }
+    },
+    {
+      type: 'shared-musician',
+      text: 'Both albums credit Carlos Alomar as musician/performer.',
+      provenance: {
+        sourceType: 'discogs-release',
+        left: { albumId: 'album-a', masterId: 123, releaseId: 456, selectedBy: 'approved-master-override', masterUrl: 'https://www.discogs.com/master/123', releaseUrl: 'https://www.discogs.com/release/456' },
+        right: { albumId: 'album-d', masterId: 789, releaseId: 1011, selectedBy: 'search-alias', masterUrl: 'https://www.discogs.com/master/789', releaseUrl: 'https://www.discogs.com/release/1011' }
+      }
+    },
+    {
+      type: 'shared-studio',
+      text: 'Both albums are connected to the studio/location Hansa Tonstudio.',
+      provenance: {
+        sourceType: 'discogs-release',
+        left: { albumId: 'album-a', masterId: 123, releaseId: 456, selectedBy: 'approved-master-override', masterUrl: 'https://www.discogs.com/master/123', releaseUrl: 'https://www.discogs.com/release/456' },
+        right: { albumId: 'album-d', masterId: 789, releaseId: 1011, selectedBy: 'search-alias', masterUrl: 'https://www.discogs.com/master/789', releaseUrl: 'https://www.discogs.com/release/1011' }
+      }
+    }
   ]);
 });
 

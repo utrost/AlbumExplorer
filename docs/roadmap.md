@@ -159,7 +159,7 @@ Goal: make the collection browsable before solving the graph problem.
 
 ## Phase 4 — Explainable relationship model
 
-Status: first executable slice shipped in `src/data/derived-relationships.js` and the album detail panel. Current browser output derives strong related-album suggestions from shared labels, genres/tags, Rolling Stone list editions, adjacent release periods, and full-scope Discogs credit candidates. Relationship records keep typed explanation entries so filtered views can foreground the reason that matched the active relationship type. The Discogs credit import now covers all 760 comparison albums with 428 candidate albums and a generated 332-item review queue for remaining overrides/search aliases.
+Status: first executable slice shipped in `src/data/derived-relationships.js` and the album detail panel. Current browser output derives strong related-album suggestions from shared labels, genres/tags, Rolling Stone list editions, adjacent release periods, and full-scope Discogs credit candidates. Relationship records keep typed explanation entries so filtered views can foreground the reason that matched the active relationship type. Credit/studio-derived explanations now also keep Discogs provenance objects so the UI can show compact source badges and link back to release/master evidence when available. The Discogs credit import now covers all 760 comparison albums with 428 candidate albums and a generated 332-item review queue for remaining overrides/search aliases.
 
 Goal: make relationships explicit, inspectable, and deterministic.
 

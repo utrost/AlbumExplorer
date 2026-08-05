@@ -96,6 +96,7 @@ The importer is intentionally conservative.
 - Search ambiguity is currently common for famous albums because Discogs can have multiple masters/variants with similar titles and years.
 - Studio extraction from notes is intentionally narrow; company roles such as `Recorded At`, `Mixed At`, and `Mastered At` are more reliable.
 - Credit candidates are now used by the live relationship graph for shared producer, engineer, studio, songwriter, and musician/performer edges across every successfully matched comparison album.
+- Credit/studio-derived relationship explanations preserve Discogs release provenance and the browser renders compact source badges/links beside those explanations; master badges appear when future candidate artifacts carry master IDs.
 
 ## Next normalization step
 

@@ -1,7 +1,7 @@
 import { validateCollection } from './data/validator.js';
 import { buildIndexes } from './data/indexes.js';
 import { buildEnrichedComparisonRows, filterRows, sortRows } from './data/enriched-comparison.js';
-import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipExplanations } from './data/derived-relationships.js';
+import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipEvidence, matchingRelationshipExplanations } from './data/derived-relationships.js';
 import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { findAlbumPath } from './graph/path-finder.js';
 
@@ -343,12 +343,33 @@ function renderRelatedAlbums(relatedAlbums) {
             <span>${escapeHtml(album.artist)} · weight ${relationship.weight}</span>
           </button>
           <ul>
-            ${matchingRelationshipExplanations(relationship, activeRelationshipTypes()).slice(0, 3).map((explanation, index) => `<li class="${index === 0 && activeRelationshipTypes().length ? 'matching-explanation' : ''}">${escapeHtml(explanation)}</li>`).join('')}
+            ${matchingRelationshipEvidence(relationship, activeRelationshipTypes()).slice(0, 3).map((evidence, index) => `<li class="${index === 0 && activeRelationshipTypes().length ? 'matching-explanation' : ''}">${renderRelationshipEvidence(evidence)}</li>`).join('')}
           </ul>
         </li>
       `).join('')}
     </ol>
   `;
+}
+
+function renderRelationshipEvidence(evidence) {
+  return `${escapeHtml(evidence.text)}${renderSourceBadges(evidence.provenance)}`;
+}
+
+function renderSourceBadges(provenance) {
+  if (!provenance) return '';
+  const badges = [];
+  for (const side of [provenance.left, provenance.right]) {
+    if (!side) continue;
+    if (side.masterUrl) badges.push(`<a class="source-badge" href="${escapeAttribute(side.masterUrl)}" target="_blank" rel="noreferrer">Discogs master ${escapeHtml(side.masterId)}</a>`);
+    if (side.releaseUrl) badges.push(`<a class="source-badge" href="${escapeAttribute(side.releaseUrl)}" target="_blank" rel="noreferrer">Discogs release ${escapeHtml(side.releaseId)}</a>`);
+    if (side.selectedBy) badges.push(`<span class="source-badge muted-source">${escapeHtml(formatSourceSelection(side.selectedBy))}</span>`);
+  }
+  if (badges.length === 0) return '';
+  return `<span class="source-badges" aria-label="Relationship sources">${badges.join('')}</span>`;
+}
+
+function formatSourceSelection(value) {
+  return String(value ?? '').replace(/-/g, ' ');
 }
 
 function renderRankBadges(row) {

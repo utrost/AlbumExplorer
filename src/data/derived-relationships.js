@@ -64,13 +64,16 @@ export function getRelatedAlbums(albumId, rows, relationships, options = {}) {
 }
 
 export function matchingRelationshipExplanations(relationship, allowedTypes = []) {
+  return matchingRelationshipEvidence(relationship, allowedTypes).map((item) => item.text);
+}
+
+export function matchingRelationshipEvidence(relationship, allowedTypes = []) {
   const allowedTypeSet = new Set(allowedTypes ?? []);
-  if (allowedTypeSet.size === 0) return relationship?.explanations ?? [];
   const typedExplanations = relationship?.typedExplanations ?? [];
-  const matching = typedExplanations
-    .filter((item) => allowedTypeSet.has(item.type))
-    .map((item) => item.text);
-  return matching.length > 0 ? matching : relationship?.explanations ?? [];
+  if (allowedTypeSet.size === 0 && typedExplanations.length > 0) return typedExplanations;
+  const matching = typedExplanations.filter((item) => allowedTypeSet.has(item.type));
+  if (matching.length > 0) return matching;
+  return (relationship?.explanations ?? []).map((text) => ({ type: 'explanation', text }));
 }
 
 function buildPairRelationship(left, right, creditCandidateByAlbumId = new Map()) {
@@ -94,7 +97,10 @@ function buildPairRelationship(left, right, creditCandidateByAlbumId = new Map()
 
   if (parts.length === 0) return null;
   const types = parts.map((part) => part.type);
-  const typedExplanations = parts.flatMap((part) => part.explanations.map((text) => ({ type: part.type, text })));
+  const typedExplanations = parts.flatMap((part) => part.explanations.map((explanation) => {
+    if (typeof explanation === 'string') return { type: part.type, text: explanation };
+    return { type: part.type, ...explanation };
+  }));
   const explanations = typedExplanations.map((item) => item.text);
   const weight = Number(parts.reduce((sum, part) => sum + part.weight, 0).toFixed(2));
   return {
@@ -110,16 +116,17 @@ function buildPairRelationship(left, right, creditCandidateByAlbumId = new Map()
 
 function creditRelationshipParts(leftCandidate, rightCandidate) {
   if (!leftCandidate || !rightCandidate) return [];
+  const provenance = relationshipProvenance(leftCandidate, rightCandidate);
   return [
-    creditPart(leftCandidate, rightCandidate, 'producer', 'shared-producer', 3.0, (name) => `Both albums credit ${name} as producer.`),
-    creditPart(leftCandidate, rightCandidate, 'engineer', 'shared-engineer', 2.4, (name) => `Both albums credit ${name} as engineer.`),
-    creditPart(leftCandidate, rightCandidate, 'songwriter', 'shared-songwriter', 2.2, (name) => `Both albums credit ${name} as songwriter.`),
-    creditPart(leftCandidate, rightCandidate, 'musician', 'shared-musician', 1.8, (name) => `Both albums credit ${name} as musician/performer.`),
-    studioPart(leftCandidate, rightCandidate)
+    creditPart(leftCandidate, rightCandidate, 'producer', 'shared-producer', 3.0, (name) => `Both albums credit ${name} as producer.`, provenance),
+    creditPart(leftCandidate, rightCandidate, 'engineer', 'shared-engineer', 2.4, (name) => `Both albums credit ${name} as engineer.`, provenance),
+    creditPart(leftCandidate, rightCandidate, 'songwriter', 'shared-songwriter', 2.2, (name) => `Both albums credit ${name} as songwriter.`, provenance),
+    creditPart(leftCandidate, rightCandidate, 'musician', 'shared-musician', 1.8, (name) => `Both albums credit ${name} as musician/performer.`, provenance),
+    studioPart(leftCandidate, rightCandidate, provenance)
   ].filter(Boolean);
 }
 
-function creditPart(leftCandidate, rightCandidate, creditType, relationshipType, weight, explain) {
+function creditPart(leftCandidate, rightCandidate, creditType, relationshipType, weight, explain, provenance) {
   const sharedNames = sharedDisplayValues(
     (leftCandidate.credits ?? []).filter((credit) => credit.type === creditType).map((credit) => credit.name),
     (rightCandidate.credits ?? []).filter((credit) => credit.type === creditType).map((credit) => credit.name)
@@ -128,11 +135,11 @@ function creditPart(leftCandidate, rightCandidate, creditType, relationshipType,
   return {
     type: relationshipType,
     weight: weight * sharedNames.length,
-    explanations: sharedNames.map(explain)
+    explanations: sharedNames.map((name) => explanationWithProvenance(explain(name), provenance))
   };
 }
 
-function studioPart(leftCandidate, rightCandidate) {
+function studioPart(leftCandidate, rightCandidate, provenance) {
   const sharedNames = sharedDisplayValues(
     (leftCandidate.studios ?? []).map((studio) => studio.name),
     (rightCandidate.studios ?? []).map((studio) => studio.name)
@@ -141,7 +148,35 @@ function studioPart(leftCandidate, rightCandidate) {
   return {
     type: 'shared-studio',
     weight: 2.6 * sharedNames.length,
-    explanations: sharedNames.map((name) => `Both albums are connected to the studio/location ${name}.`)
+    explanations: sharedNames.map((name) => explanationWithProvenance(`Both albums are connected to the studio/location ${name}.`, provenance))
+  };
+}
+
+function explanationWithProvenance(text, provenance) {
+  return provenance ? { text, provenance } : text;
+}
+
+function relationshipProvenance(leftCandidate, rightCandidate) {
+  const left = candidateSourceProvenance(leftCandidate);
+  const right = candidateSourceProvenance(rightCandidate);
+  if (!left && !right) return null;
+  return {
+    sourceType: left?.sourceType ?? right?.sourceType ?? 'discogs-release',
+    left,
+    right
+  };
+}
+
+function candidateSourceProvenance(candidate) {
+  const source = candidate?.source;
+  if (!source) return null;
+  return {
+    albumId: candidate.albumId,
+    masterId: source.masterId ?? null,
+    releaseId: source.releaseId ?? source.id ?? null,
+    selectedBy: source.selectedBy ?? source.system ?? null,
+    masterUrl: source.urls?.master ?? source.masterUrl ?? (source.masterId ? `https://www.discogs.com/master/${source.masterId}` : null),
+    releaseUrl: source.urls?.release ?? source.releaseUrl ?? source.url ?? (source.releaseId || source.id ? `https://www.discogs.com/release/${source.releaseId ?? source.id}` : null)
   };
 }
 

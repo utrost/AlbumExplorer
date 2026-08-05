@@ -21,6 +21,7 @@ The project now has a first executable file-first slice:
 - MusicBrainz release-group importer with cached raw API responses and external source candidates for 553 of 760 comparison albums.
 - Discogs credit-source importer across the full 760-album comparison set, preserving raw search/master/release caches, applying reviewed master overrides/search aliases, and generating 428 reviewable producer/engineer/songwriter/musician/studio candidates plus a 332-item review queue.
 - Static Rolling Stone comparison browser for 760 album identities with search, filters, rank history, metadata status, album detail panel, explainable related-album suggestions, a focused SVG relationship graph, an album-to-album path finder, and relationship-type filters that highlight matching explanations in atlas views.
+- Relationship explanations preserve Discogs provenance for credit/studio-derived edges and show compact source badges linking back to the release/master evidence when available.
 - Deterministic derived relationship layer for shared labels, genres/tags, list editions, adjacent release periods, producers, engineers, studios, songwriters, and musicians/performers.
 - GitHub Pages deployment workflow for the static app.
 - Plain static browser page that loads the seed data and lists albums with validation status.

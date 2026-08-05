@@ -24,8 +24,11 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /shared-musician/);
   assert.match(app, /focused-graph-view\.js/);
   assert.match(app, /path-finder\.js/);
-  assert.match(app, /matchingRelationshipExplanations/);
+  assert.match(app, /matchingRelationshipEvidence/);
   assert.match(app, /class="matching-explanation"/);
+  assert.match(app, /class="source-badges"/);
+  assert.match(app, /Discogs master/);
+  assert.match(app, /Discogs release/);
   assert.match(app, /data-testid="comparison-search"/);
   assert.match(app, /data-testid="edition-filter"/);
   assert.match(app, /data-testid="metadata-filter"/);

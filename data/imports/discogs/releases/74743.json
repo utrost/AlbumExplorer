@@ -1,0 +1,951 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/releases/74743",
+  "id": 74743,
+  "status": "Accepted",
+  "year": 2000,
+  "resource_url": "https://api.discogs.com/releases/74743",
+  "uri": "https://www.discogs.com/release/74743-Radiohead-Kid-A",
+  "artists": [
+    {
+      "name": "Radiohead",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 3840,
+      "resource_url": "https://api.discogs.com/artists/3840",
+      "thumbnail_url": "https://i.discogs.com/eG3bUGOvNZSm8nRHMz3xf4tRfaxTz5sq9PpfsEMdTSY/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM4NDAt/MTM4NjM1MjI4NS04/ODIyLmpwZWc.jpeg"
+    }
+  ],
+  "artists_sort": "Radiohead",
+  "labels": [
+    {
+      "name": "Parlophone",
+      "catno": "LPKIDA 1",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 2294,
+      "resource_url": "https://api.discogs.com/labels/2294",
+      "thumbnail_url": "https://i.discogs.com/sSHvafK_7vhXYlIb4uG3obiCcc90uaIuTpImRS8a5LU/rs:fit/g:sm/q:90/h:554/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIyOTQt/MTYxNTE5Njk3OS03/NTM4LmpwZWc.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "EMI Records Ltd.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 63404,
+      "resource_url": "https://api.discogs.com/labels/63404",
+      "thumbnail_url": "https://i.discogs.com/j7eyUKOPLq2XGa0eivsfFHGTqKWym8ph7yn0NR19rVA/rs:fit/g:sm/q:90/h:195/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTYzNDA0/LTE2MTQ1MzQ5Mzgt/OTgyMi5qcGVn.jpeg"
+    },
+    {
+      "name": "EMI Records Ltd.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 63404,
+      "resource_url": "https://api.discogs.com/labels/63404",
+      "thumbnail_url": "https://i.discogs.com/j7eyUKOPLq2XGa0eivsfFHGTqKWym8ph7yn0NR19rVA/rs:fit/g:sm/q:90/h:195/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTYzNDA0/LTE2MTQ1MzQ5Mzgt/OTgyMi5qcGVn.jpeg"
+    },
+    {
+      "name": "Warner/Chappell Music Publishing Ltd.",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 289176,
+      "resource_url": "https://api.discogs.com/labels/289176",
+      "thumbnail_url": "https://i.discogs.com/z19bw5m72LnzDMXgS4K7W6To2VSBhrQ2pQgOA-EwfYk/rs:fit/g:sm/q:90/h:42/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4OTE3/Ni0xNjMxNTE3MDEz/LTc5NDQuanBlZw.jpeg"
+    },
+    {
+      "name": "Abbey Road Studios",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 217694,
+      "resource_url": "https://api.discogs.com/labels/217694",
+      "thumbnail_url": "https://i.discogs.com/XDYTZcjSSoTI3eUuMARX4Yjr7f6Ajl1tGgCYQr24Qms/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIxNzY5/NC0xNTI0Njg3MDc3/LTM2NzEucG5n.jpeg"
+    },
+    {
+      "name": "EMI Records",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 754,
+      "resource_url": "https://api.discogs.com/labels/754",
+      "thumbnail_url": "https://i.discogs.com/Z6fF-KnSzJG4uGQWWNzaKUICfdE3QoVMeEC5XzieAL4/rs:fit/g:sm/q:90/h:200/w:200/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTc1NC0x/Mzg3NjIyNzUwLTky/NzQuanBlZw.jpeg"
+    },
+    {
+      "name": "EMI",
+      "catno": "",
+      "entity_type": "8",
+      "entity_type_name": "Marketed By",
+      "id": 26126,
+      "resource_url": "https://api.discogs.com/labels/26126",
+      "thumbnail_url": "https://i.discogs.com/kyUkdCkRdB9c0UbyACsewybDBqUqAVAU6ndQAp2VII4/rs:fit/g:sm/q:90/h:331/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2MTI2/LTEyMDY0Njg0NTEu/anBlZw.jpeg"
+    },
+    {
+      "name": "EMI",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 26126,
+      "resource_url": "https://api.discogs.com/labels/26126",
+      "thumbnail_url": "https://i.discogs.com/kyUkdCkRdB9c0UbyACsewybDBqUqAVAU6ndQAp2VII4/rs:fit/g:sm/q:90/h:331/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2MTI2/LTEyMDY0Njg0NTEu/anBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "2",
+      "descriptions": [
+        "10\"",
+        "33 ⅓ RPM",
+        "Album",
+        "Stereo"
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 4710,
+    "want": 7828,
+    "rating": {
+      "count": 645,
+      "average": 4.67
+    },
+    "submitter": {
+      "username": "synapsebomb",
+      "resource_url": "https://api.discogs.com/users/synapsebomb"
+    },
+    "contributors": [
+      {
+        "username": "synapsebomb",
+        "resource_url": "https://api.discogs.com/users/synapsebomb"
+      },
+      {
+        "username": "anType",
+        "resource_url": "https://api.discogs.com/users/anType"
+      },
+      {
+        "username": "playbynumbers",
+        "resource_url": "https://api.discogs.com/users/playbynumbers"
+      },
+      {
+        "username": "Ramzy",
+        "resource_url": "https://api.discogs.com/users/Ramzy"
+      },
+      {
+        "username": "simfonik",
+        "resource_url": "https://api.discogs.com/users/simfonik"
+      },
+      {
+        "username": "flashbang",
+        "resource_url": "https://api.discogs.com/users/flashbang"
+      },
+      {
+        "username": "coscoran",
+        "resource_url": "https://api.discogs.com/users/coscoran"
+      },
+      {
+        "username": "psalgado",
+        "resource_url": "https://api.discogs.com/users/psalgado"
+      },
+      {
+        "username": "cereal",
+        "resource_url": "https://api.discogs.com/users/cereal"
+      },
+      {
+        "username": "DiscogsUpdateBot",
+        "resource_url": "https://api.discogs.com/users/DiscogsUpdateBot"
+      },
+      {
+        "username": "delan",
+        "resource_url": "https://api.discogs.com/users/delan"
+      },
+      {
+        "username": "Mister.Marken",
+        "resource_url": "https://api.discogs.com/users/Mister.Marken"
+      },
+      {
+        "username": "LolH",
+        "resource_url": "https://api.discogs.com/users/LolH"
+      },
+      {
+        "username": "StinkyyJimm",
+        "resource_url": "https://api.discogs.com/users/StinkyyJimm"
+      },
+      {
+        "username": "P572",
+        "resource_url": "https://api.discogs.com/users/P572"
+      },
+      {
+        "username": "Same.Old.Me",
+        "resource_url": "https://api.discogs.com/users/Same.Old.Me"
+      },
+      {
+        "username": "AlbertoGoesToDisco",
+        "resource_url": "https://api.discogs.com/users/AlbertoGoesToDisco"
+      },
+      {
+        "username": "recordvanguard",
+        "resource_url": "https://api.discogs.com/users/recordvanguard"
+      },
+      {
+        "username": "timmeah",
+        "resource_url": "https://api.discogs.com/users/timmeah"
+      },
+      {
+        "username": "Matharvest",
+        "resource_url": "https://api.discogs.com/users/Matharvest"
+      },
+      {
+        "username": "pskye24.7",
+        "resource_url": "https://api.discogs.com/users/pskye24.7"
+      },
+      {
+        "username": "Zoothorn69",
+        "resource_url": "https://api.discogs.com/users/Zoothorn69"
+      },
+      {
+        "username": "Truth-and-Method",
+        "resource_url": "https://api.discogs.com/users/Truth-and-Method"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 2,
+  "date_added": "2002-11-23T05:40:43-08:00",
+  "date_changed": "2026-06-11T12:40:01-07:00",
+  "num_for_sale": 15,
+  "lowest_price": 250,
+  "master_id": 21501,
+  "master_url": "https://api.discogs.com/masters/21501",
+  "title": "Kid A",
+  "country": "UK",
+  "released": "2000-10-03",
+  "notes": "The track 'Idioteque' contains two samples from the Oddyssey label title [r121406] (1976).\nThe two compositions samples are Paul Lansky's 'Mild Und Liese' Published by Grim Tim Music and 'Short Piece' by Arthur Kreiger Published by The Subito Music Corporation.\nBoth samples are used with the kind permission of the composers and The Sony Music Corporation. \n\nComes in a gatefold sleeve with printed inner sleeves. \n\nTrack timings taken from playback. \n\nD4 is situated halfway into the runout groove, and begins with a locked groove that must be bypassed in order to hear the song.",
+  "released_formatted": "03 Oct 2000",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "7 24352 95901 3",
+      "description": "Text"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "5295901-A",
+      "description": "Label side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "5295901-B",
+      "description": "Label side B"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "5295901-C",
+      "description": "Label side C"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "5295901-D",
+      "description": "Label side D"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": " ̶F̶A̶E̶R̶O̶E̶S̶F̶A̶I̶R̶I̶S̶L̶E̶H̶E̶B̶R̶I̶D̶E̶S̶  5277531 A-1-1-1",
+      "description": "Runout side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": " ̶S̶H̶A̶N̶N̶O̶N̶S̶O̶L̶E̶R̶O̶C̶K̶A̶L̶L̶M̶A̶L̶I̶N̶  5277531 B-1-1-1",
+      "description": "Runout side B"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": " ̶L̶U̶N̶D̶I̶F̶A̶S̶T̶N̶E̶T̶I̶R̶I̶S̶H̶S̶E̶A̶  5277531 C-1-1-1",
+      "description": "Runout side C"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": " ̶D̶O̶G̶G̶E̶R̶F̶I̶S̶H̶E̶R̶G̶E̶R̶A̶N̶B̶I̶G̶H̶T 5277531 D-2-1-1",
+      "description": "Runout side D"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=NUnXxh5U25Y",
+      "title": "Everything In Its Right Place",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nEverything In Its Right Place · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated",
+      "duration": 252,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=MXNbfU0Ww_E",
+      "title": "Kid A",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nKid A · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Producer: J",
+      "duration": 285,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=NfQD1QiQ9o4",
+      "title": "The National Anthem",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nThe National Anthem · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performe",
+      "duration": 352,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=6W6HhdqA95w",
+      "title": "How to Disappear Completely",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nHow to Disappear Completely · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  ",
+      "duration": 357,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=L7p47zYKJoM",
+      "title": "Treefingers",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nTreefingers · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Produ",
+      "duration": 223,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=1On-ZHfTWOo",
+      "title": "Optimistic",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nOptimistic · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Produc",
+      "duration": 316,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Q29iibXXiOs",
+      "title": "In Limbo",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nIn Limbo · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Producer",
+      "duration": 211,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=svwJTnZOaco",
+      "title": "Idioteque",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nIdioteque · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Produce",
+      "duration": 310,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=XTT6k3Q4JnQ",
+      "title": "Morning Bell",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nMorning Bell · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Prod",
+      "duration": 276,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=EcSvMFm2ABE",
+      "title": "Motion Picture Soundtrack",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nMotion Picture Soundtrack · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Pe",
+      "duration": 201,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=L_PvBLtvZto",
+      "title": "Untitled",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nUntitled · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Producer",
+      "duration": 53,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=NUnXxh5U25Y",
+      "title": "Everything In Its Right Place",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nEverything In Its Right Place · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated",
+      "duration": 252,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=MXNbfU0Ww_E",
+      "title": "Kid A",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nKid A · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Producer: J",
+      "duration": 285,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=NfQD1QiQ9o4",
+      "title": "The National Anthem",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nThe National Anthem · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performe",
+      "duration": 352,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=6W6HhdqA95w",
+      "title": "How to Disappear Completely",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nHow to Disappear Completely · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  ",
+      "duration": 357,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=L7p47zYKJoM",
+      "title": "Treefingers",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nTreefingers · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Produ",
+      "duration": 223,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=1On-ZHfTWOo",
+      "title": "Optimistic",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nOptimistic · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Produc",
+      "duration": 316,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Q29iibXXiOs",
+      "title": "In Limbo",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nIn Limbo · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Producer",
+      "duration": 211,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=svwJTnZOaco",
+      "title": "Idioteque",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nIdioteque · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Produce",
+      "duration": 310,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=XTT6k3Q4JnQ",
+      "title": "Morning Bell",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nMorning Bell · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Prod",
+      "duration": 276,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=EcSvMFm2ABE",
+      "title": "Motion Picture Soundtrack",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nMotion Picture Soundtrack · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Pe",
+      "duration": 201,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=L_PvBLtvZto",
+      "title": "Untitled",
+      "description": "Provided to YouTube by Beggars Group Digital Ltd.\n\nUntitled · Radiohead\n\nKid A\n\n℗ 2016 XL Recordings Ltd\n\nReleased on: 2000-10-02\n\nAssociated  Performer, Producer: Colin Greenwood\nAssociated  Performer, Producer: Ed O'Brien\nAssociated  Performer, Producer",
+      "duration": 53,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Rock"
+  ],
+  "styles": [
+    "Alternative Rock",
+    "IDM",
+    "Experimental"
+  ],
+  "tracklist": [
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "Alpha",
+      "duration": ""
+    },
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Everything In Its Right Place",
+      "duration": "4:10"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Kid A",
+      "duration": "4:45"
+    },
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "Beta",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "The National Anthem",
+      "extraartists": [
+        {
+          "name": "Martin Hathaway",
+          "anv": "",
+          "join": "",
+          "role": "Alto Saxophone",
+          "tracks": "",
+          "id": 449007,
+          "resource_url": "https://api.discogs.com/artists/449007"
+        },
+        {
+          "name": "Steve Hamilton",
+          "anv": "",
+          "join": "",
+          "role": "Alto Saxophone",
+          "tracks": "",
+          "id": 192021,
+          "resource_url": "https://api.discogs.com/artists/192021"
+        },
+        {
+          "name": "Stan Harrison",
+          "anv": "",
+          "join": "",
+          "role": "Baritone Saxophone",
+          "tracks": "",
+          "id": 337387,
+          "resource_url": "https://api.discogs.com/artists/337387"
+        },
+        {
+          "name": "Mike Kearsey",
+          "anv": "",
+          "join": "",
+          "role": "Bass Trombone",
+          "tracks": "",
+          "id": 287862,
+          "resource_url": "https://api.discogs.com/artists/287862"
+        },
+        {
+          "name": "Hook Horns",
+          "anv": "",
+          "join": "",
+          "role": "Performer",
+          "tracks": "",
+          "id": 336676,
+          "resource_url": "https://api.discogs.com/artists/336676"
+        },
+        {
+          "name": "Henry Binns",
+          "anv": "",
+          "join": "",
+          "role": "Sampler [Rhythm Sampling]",
+          "tracks": "",
+          "id": 266674,
+          "resource_url": "https://api.discogs.com/artists/266674"
+        },
+        {
+          "name": "Andy Hamilton (7)",
+          "anv": "",
+          "join": "",
+          "role": "Tenor Saxophone",
+          "tracks": "",
+          "id": 4007253,
+          "resource_url": "https://api.discogs.com/artists/4007253"
+        },
+        {
+          "name": "Mark Lockheart",
+          "anv": "",
+          "join": "",
+          "role": "Tenor Saxophone",
+          "tracks": "",
+          "id": 308820,
+          "resource_url": "https://api.discogs.com/artists/308820"
+        },
+        {
+          "name": "Liam Kerkman",
+          "anv": "",
+          "join": "",
+          "role": "Trombone",
+          "tracks": "",
+          "id": 449006,
+          "resource_url": "https://api.discogs.com/artists/449006"
+        },
+        {
+          "name": "Andy Bush",
+          "anv": "",
+          "join": "",
+          "role": "Trumpet",
+          "tracks": "",
+          "id": 400405,
+          "resource_url": "https://api.discogs.com/artists/400405"
+        }
+      ],
+      "duration": "5:50"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "How To Disappear Completely",
+      "duration": "5:51"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Treefingers",
+      "duration": "3:40"
+    },
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "Gamma",
+      "duration": ""
+    },
+    {
+      "position": "C1",
+      "type_": "track",
+      "title": "Optimistic",
+      "duration": "5:17"
+    },
+    {
+      "position": "C2",
+      "type_": "track",
+      "title": "In Limbo",
+      "duration": "3:30"
+    },
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "Delta",
+      "duration": ""
+    },
+    {
+      "position": "D1",
+      "type_": "track",
+      "title": "Idioteque",
+      "extraartists": [
+        {
+          "name": "Arthur Kreiger",
+          "anv": "",
+          "join": "",
+          "role": "Composed By [Sample]",
+          "tracks": "",
+          "id": 91570,
+          "resource_url": "https://api.discogs.com/artists/91570"
+        },
+        {
+          "name": "Paul Lansky",
+          "anv": "",
+          "join": "",
+          "role": "Composed By [Sample]",
+          "tracks": "",
+          "id": 32205,
+          "resource_url": "https://api.discogs.com/artists/32205"
+        }
+      ],
+      "duration": "5:08"
+    },
+    {
+      "position": "D2",
+      "type_": "track",
+      "title": "Morning Bell",
+      "duration": "4:25"
+    },
+    {
+      "position": "D3",
+      "type_": "track",
+      "title": "Motion Picture Soundtrack",
+      "duration": "3:15"
+    },
+    {
+      "position": "D4",
+      "type_": "track",
+      "title": "Untitled",
+      "duration": "0:52"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Dr Tchock",
+      "anv": "Tchock",
+      "join": "",
+      "role": "Artwork [Landscapes, Knives And Glue]",
+      "tracks": "",
+      "id": 1857783,
+      "resource_url": "https://api.discogs.com/artists/1857783"
+    },
+    {
+      "name": "Stanley Donwood",
+      "anv": "Stanley",
+      "join": "",
+      "role": "Artwork [Landscapes, Knives And Glue]",
+      "tracks": "",
+      "id": 718181,
+      "resource_url": "https://api.discogs.com/artists/718181"
+    },
+    {
+      "name": "John Lubbock",
+      "anv": "",
+      "join": "",
+      "role": "Conductor [Orchestra]",
+      "tracks": "",
+      "id": 400615,
+      "resource_url": "https://api.discogs.com/artists/400615"
+    },
+    {
+      "name": "Gerard Navarro",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Additional]",
+      "tracks": "",
+      "id": 400614,
+      "resource_url": "https://api.discogs.com/artists/400614"
+    },
+    {
+      "name": "Graeme Stewart",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Additional]",
+      "tracks": "",
+      "id": 298408,
+      "resource_url": "https://api.discogs.com/artists/298408"
+    },
+    {
+      "name": "Nigel Godrich",
+      "anv": "",
+      "join": "",
+      "role": "Engineer, Mixed By",
+      "tracks": "",
+      "id": 169094,
+      "resource_url": "https://api.discogs.com/artists/169094"
+    },
+    {
+      "name": "Plank (3)",
+      "anv": "",
+      "join": "",
+      "role": "Gaffer",
+      "tracks": "",
+      "id": 913223,
+      "resource_url": "https://api.discogs.com/artists/913223"
+    },
+    {
+      "name": "Chris Blair",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 336941,
+      "resource_url": "https://api.discogs.com/artists/336941"
+    },
+    {
+      "name": "The Orchestra Of St. John's",
+      "anv": "The Orchestra Of St. Johns",
+      "join": "",
+      "role": "Orchestra",
+      "tracks": "",
+      "id": 3167257,
+      "resource_url": "https://api.discogs.com/artists/3167257"
+    },
+    {
+      "name": "Gerard Navarro",
+      "anv": "",
+      "join": "",
+      "role": "Recorded By [Assistant]",
+      "tracks": "",
+      "id": 400614,
+      "resource_url": "https://api.discogs.com/artists/400614"
+    },
+    {
+      "name": "Nigel Godrich",
+      "anv": "",
+      "join": "",
+      "role": "Recording Supervisor",
+      "tracks": "",
+      "id": 169094,
+      "resource_url": "https://api.discogs.com/artists/169094"
+    },
+    {
+      "name": "Radiohead",
+      "anv": "",
+      "join": "",
+      "role": "Recording Supervisor",
+      "tracks": "",
+      "id": 3840,
+      "resource_url": "https://api.discogs.com/artists/3840"
+    },
+    {
+      "name": "Jonny Greenwood",
+      "anv": "",
+      "join": "",
+      "role": "Score [The Orchestra Of St. Johns Scored By]",
+      "tracks": "",
+      "id": 152377,
+      "resource_url": "https://api.discogs.com/artists/152377"
+    },
+    {
+      "name": "Büro Destruct",
+      "anv": "",
+      "join": "",
+      "role": "Typography ['Radiohead' Font]",
+      "tracks": "",
+      "id": 1859734,
+      "resource_url": "https://api.discogs.com/artists/1859734"
+    },
+    {
+      "name": "Radiohead",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 3840,
+      "resource_url": "https://api.discogs.com/artists/3840"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/_zg0Us0N_anqCz9hJvFGeRK2v69eDDCxQnHkd7RcgTk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE1NDg5MDI2NDMt/Mzg2OS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/_zg0Us0N_anqCz9hJvFGeRK2v69eDDCxQnHkd7RcgTk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE1NDg5MDI2NDMt/Mzg2OS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/Arijq6ve_eackTqPgdwuQgorHZ5aYtt4mFQ3NHb2Wwg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE1NDg5MDI2NDMt/Mzg2OS5qcGVn.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/SCVZfNIIRjjxpkfZmXJ7e59uRBef0_bJ3IxxC_fOAM4/rs:fit/g:sm/q:90/h:300/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg1MDIt/ODk1MC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/SCVZfNIIRjjxpkfZmXJ7e59uRBef0_bJ3IxxC_fOAM4/rs:fit/g:sm/q:90/h:300/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg1MDIt/ODk1MC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/A26aVRcuJlPHQvhpNRK863UWIXQ_CzNX7RUptQjeC2Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg1MDIt/ODk1MC5qcGVn.jpeg",
+      "width": 600,
+      "height": 300
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/dPWEJGYN1B8gAlukAfSnLMsA0Nq7I2RrrWIF8V4SBY8/rs:fit/g:sm/q:90/h:596/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg3OTUt/NzU1NC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/dPWEJGYN1B8gAlukAfSnLMsA0Nq7I2RrrWIF8V4SBY8/rs:fit/g:sm/q:90/h:596/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg3OTUt/NzU1NC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/JteDU3Ud39q7quc3IytTBIjWzOW9Z8gHuA1AflZy2dY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg3OTUt/NzU1NC5qcGVn.jpeg",
+      "width": 598,
+      "height": 596
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/e65RwQvtM9JYAEYLCkBfWdu_h6glpdqCaOKok5APmio/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTY5OTMt/ODkwOC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/e65RwQvtM9JYAEYLCkBfWdu_h6glpdqCaOKok5APmio/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTY5OTMt/ODkwOC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/HWFAFOSiabhj-470-Tpsl5_UKp9BJ_24V-ASwDg3MpI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTY5OTMt/ODkwOC5qcGVn.jpeg",
+      "width": 599,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/DTZj37AH2JbTsmWC-6yU7IuN2dd33sUbFlK47Ub7A70/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMDgt/NTA3My5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/DTZj37AH2JbTsmWC-6yU7IuN2dd33sUbFlK47Ub7A70/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMDgt/NTA3My5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/UlCyuzXa_kTPNsn7x_3EA1mr5ZYeqmpCIskfr2JJ3hE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMDgt/NTA3My5qcGVn.jpeg",
+      "width": 600,
+      "height": 598
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/O4s9Z2mZ-wO6lZSfgBAX8-sZAXwpBxX3TyI-0ui9jHg/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMjAt/NjE4My5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/O4s9Z2mZ-wO6lZSfgBAX8-sZAXwpBxX3TyI-0ui9jHg/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMjAt/NjE4My5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/GjaWrqwkDepowzEh-Uy8FFGSBGxzfUP-4mTU-SBnNms/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMjAt/NjE4My5qcGVn.jpeg",
+      "width": 599,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/2Kk4fuCzt06wcHhHcZpZ8fmAC_xjcQKTUlDGZ_a4WWk/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMzUt/ODUwMC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/2Kk4fuCzt06wcHhHcZpZ8fmAC_xjcQKTUlDGZ_a4WWk/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMzUt/ODUwMC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/fwH1dwY65oVFyPWZAvOJl0gedx6kpTY4q8snxlf3ox4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwMzUt/ODUwMC5qcGVn.jpeg",
+      "width": 600,
+      "height": 599
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/nsMQsMClTrz8Ix2Z4BkZNvOvS8Cyh9EFB5fOclddIFI/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4MzEt/NjQ4NS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/nsMQsMClTrz8Ix2Z4BkZNvOvS8Cyh9EFB5fOclddIFI/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4MzEt/NjQ4NS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/qox8GRalWEKHQx59riGpH_S7c3LbP04ErB7ExrqIHP0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4MzEt/NjQ4NS5qcGVn.jpeg",
+      "width": 596,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/9pxzGIwsspKZRm24k_mXehseZ-QtGY7HYGElmSnAk3c/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4NDgt/NTI4OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/9pxzGIwsspKZRm24k_mXehseZ-QtGY7HYGElmSnAk3c/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4NDgt/NTI4OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/8JOTYgwZMjEPzwizPcb65QsaCmTzpOUsgQ9DFfX-10E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4NDgt/NTI4OC5qcGVn.jpeg",
+      "width": 596,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/hVtJCXGz9bQDM59qEx9IU7l3UziJHm1-oLvnEeR7YX4/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4NjEt/NzE1Ni5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/hVtJCXGz9bQDM59qEx9IU7l3UziJHm1-oLvnEeR7YX4/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4NjEt/NzE1Ni5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/FF_UrTALwmxLcyx-A_5L36ori5Pg_q7b35aYn9Q0PpQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4NjEt/NzE1Ni5qcGVn.jpeg",
+      "width": 598,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/a1Tgk-2LVxvttKPkWUTmd89T1CesZecP0w7QSjbL8FA/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4Nzct/ODk3My5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/a1Tgk-2LVxvttKPkWUTmd89T1CesZecP0w7QSjbL8FA/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4Nzct/ODk3My5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/H2YQOHJb2D0ipljJiOa9iOyGd_c6wEr4Ax7e2JGa7qs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4Nzct/ODk3My5qcGVn.jpeg",
+      "width": 597,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ACQH3Ffi38grxH7RjAadUyP5ZY5mR5DWIr5oNDD3qvE/rs:fit/g:sm/q:90/h:499/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTgzODct/NDE2Ny5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/ACQH3Ffi38grxH7RjAadUyP5ZY5mR5DWIr5oNDD3qvE/rs:fit/g:sm/q:90/h:499/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTgzODct/NDE2Ny5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/0wlOGfB7_3IeD6QlVXuTLmb32iF6giwUbaqFALq6QDM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTgzODct/NDE2Ny5qcGVn.jpeg",
+      "width": 600,
+      "height": 499
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/6ONcmzoOfJLMX2KkqUSJ4H5uP5-9arwnibZ4XohLfBM/rs:fit/g:sm/q:90/h:457/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNDUt/ODA4Ny5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/6ONcmzoOfJLMX2KkqUSJ4H5uP5-9arwnibZ4XohLfBM/rs:fit/g:sm/q:90/h:457/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNDUt/ODA4Ny5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/72kAxkvJUfG_1E3OgrJgdKcVA7Xx8QYNWQVFCezld2E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNDUt/ODA4Ny5qcGVn.jpeg",
+      "width": 600,
+      "height": 457
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/CwG0OxxrVMK7hOfxivH1tC_0T-c5lPD7d75Bh58d0TA/rs:fit/g:sm/q:90/h:374/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNjQt/OTMxMS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/CwG0OxxrVMK7hOfxivH1tC_0T-c5lPD7d75Bh58d0TA/rs:fit/g:sm/q:90/h:374/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNjQt/OTMxMS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/E-0ZqLDBJQ3NBFCNs0BaN4e5LhdajyLXONCsi1wJ344/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNjQt/OTMxMS5qcGVn.jpeg",
+      "width": 600,
+      "height": 374
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/bjiorabLWs87--drWjf4QtMf8K9r2nBmKHjon-qyG2Q/rs:fit/g:sm/q:90/h:47/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNzIt/ODM1MS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/bjiorabLWs87--drWjf4QtMf8K9r2nBmKHjon-qyG2Q/rs:fit/g:sm/q:90/h:47/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNzIt/ODM1MS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/wjc9Xg6Idq2jXKeUrdlC2O8RINNmoYtMKMaZIj9xy3Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwNzIt/ODM1MS5qcGVn.jpeg",
+      "width": 600,
+      "height": 47
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/b29Ij5MnTDaOXudFDrnPOO7qvPFtvsnJZKZe6o9HQko/rs:fit/g:sm/q:90/h:600/w:145/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwODYt/OTk0OS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/b29Ij5MnTDaOXudFDrnPOO7qvPFtvsnJZKZe6o9HQko/rs:fit/g:sm/q:90/h:600/w:145/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwODYt/OTk0OS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/ZM1fgh7S_IzJbIP433SVmLOB_umYC_FF7imTwdRfKY0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE2MzY4OTcwODYt/OTk0OS5qcGVn.jpeg",
+      "width": 145,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/apddDjGPZ0vcPeK3hTkieYeUMjKSgfNuXzNbCjmcN38/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4OTUt/MjE2NC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/apddDjGPZ0vcPeK3hTkieYeUMjKSgfNuXzNbCjmcN38/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4OTUt/MjE2NC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/lcrWIDXn8cI-KWFQRgDET7xM7CbOFnukcRJ3AsTmJ9E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg4OTUt/MjE2NC5qcGVn.jpeg",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/LNcxb1m9GM6Yp34eXcPo9cQ7ckqFL2zPCo7IF5yMxNA/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTkwNTct/MjQzMS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/LNcxb1m9GM6Yp34eXcPo9cQ7ckqFL2zPCo7IF5yMxNA/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTkwNTct/MjQzMS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/8Sm9mXujZarIwJbAgK_rUW269v7jxpSFou4jLuZHULs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTkwNTct/MjQzMS5qcGVn.jpeg",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/HSIbAD8wURAQaZ4zqmD2WCfvm3edVmG5szakwMWi71Q/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg5NzUt/ODk5NS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/HSIbAD8wURAQaZ4zqmD2WCfvm3edVmG5szakwMWi71Q/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg5NzUt/ODk5NS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/R8SaAvquwvl5nBE4xYK31Xhp4xHVzm140_bg-YBKdpI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg5NzUt/ODk5NS5qcGVn.jpeg",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/H3A2xbqzclTOgcG2QdAfSBNIBv-kj9uJ63UuKsIm1Q8/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg5MzQt/MjYxMi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/H3A2xbqzclTOgcG2QdAfSBNIBv-kj9uJ63UuKsIm1Q8/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg5MzQt/MjYxMi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/PdyYl5ewNvCOyw6UWinXWd_IeYbiLp6phaT20ZrujHY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTEzODc4MTg5MzQt/MjYxMi5qcGVn.jpeg",
+      "width": 600,
+      "height": 400
+    }
+  ],
+  "thumb": "https://i.discogs.com/Arijq6ve_eackTqPgdwuQgorHZ5aYtt4mFQ3NHb2Wwg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NzQz/LTE1NDg5MDI2NDMt/Mzg2OS5qcGVn.jpeg",
+  "estimated_weight": 460,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

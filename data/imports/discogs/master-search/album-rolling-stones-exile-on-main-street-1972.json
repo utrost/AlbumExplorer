@@ -1,0 +1,55 @@
+{
+  "fetchedAt": null,
+  "url": "https://api.discogs.com/database/search?type=master&artist=The+Rolling+Stones&release_title=Exile+on+Main+Street&per_page=5",
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 5,
+    "items": 1,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "Europe",
+      "genre": [
+        "Rock"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Compilation",
+        "Reissue",
+        "CD",
+        "Album",
+        "Reissue",
+        "Box Set",
+        "Compilation"
+      ],
+      "style": [
+        "Classic Rock"
+      ],
+      "id": 2048545,
+      "label": [
+        "Virgin",
+        "Originals 2CD"
+      ],
+      "type": "master",
+      "barcode": [
+        "7 24385 01102 3",
+        "03098"
+      ],
+      "master_id": 2048545,
+      "master_url": "https://api.discogs.com/masters/2048545",
+      "uri": "/master/2048545-The-Rolling-Stones-Exile-On-Main-Street-Sticky-Fingers-",
+      "catno": "7 24385 01102 3",
+      "title": "The Rolling Stones - Exile On Main Street / Sticky Fingers ",
+      "thumb": "",
+      "cover_image": "",
+      "resource_url": "https://api.discogs.com/masters/2048545",
+      "community": {
+        "want": 20,
+        "have": 22
+      }
+    }
+  ]
+}

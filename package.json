@@ -12,6 +12,7 @@
     "build:rolling-stone-comparison": "node scripts/build-rolling-stone-comparison.js",
     "enrich:album-metadata": "node scripts/enrich-album-metadata.js",
     "import:musicbrainz": "node scripts/import-musicbrainz-source-candidates.js",
-    "import:discogs-credits": "node scripts/import-discogs-credit-candidates.js"
+    "import:discogs-credits": "node scripts/import-discogs-credit-candidates.js",
+    "build:discogs-credit-review": "node scripts/build-discogs-credit-review.js"
   }
 }

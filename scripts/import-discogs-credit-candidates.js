@@ -3,7 +3,9 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { buildAlbumCreditCandidates } from '../src/data/album-credit-candidates.js';
 import {
+  buildDiscogsCreditSearchAliasMap,
   buildDiscogsMasterOverrideMap,
+  discogsSearchAlbumFor,
   selectDiscogsMasterForAlbum
 } from '../src/data/discogs-credit-source-import.js';
 
@@ -17,11 +19,14 @@ const retryCount = numericOption(args, '--retries') ?? 4;
 const retryDelayMs = numericOption(args, '--retry-delay-ms') ?? 15000;
 const cacheDir = option(args, '--cache-dir') ?? 'data/imports/discogs';
 const overridesPath = option(args, '--overrides') ?? 'data/review/discogs-credit-master-overrides.json';
+const aliasesPath = option(args, '--aliases') ?? 'data/review/discogs-credit-search-aliases.json';
 const userAgent = option(args, '--user-agent') ?? DEFAULT_USER_AGENT;
 
 const comparison = JSON.parse(readFileSync(comparisonPath, 'utf8'));
 const overrideData = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, 'utf8')) : { overrides: [] };
+const aliasData = existsSync(aliasesPath) ? JSON.parse(readFileSync(aliasesPath, 'utf8')) : { aliases: [] };
 const overrides = buildDiscogsMasterOverrideMap(overrideData);
+const aliases = buildDiscogsCreditSearchAliasMap(aliasData);
 const albums = (comparison.albums ?? []).slice(0, limit ?? Infinity);
 const searchDir = join(cacheDir, 'master-search');
 const masterDir = join(cacheDir, 'masters');
@@ -38,14 +43,15 @@ let networkFetches = 0;
 
 for (let index = 0; index < albums.length; index += 1) {
   const album = albums[index];
-  const searchCachePath = join(searchDir, `${album.id}.json`);
-  const search = await fetchOrReadJsonOrNull(searchCachePath, discogsSearchUrl(album));
+  const queryAlbum = discogsSearchAlbumFor(album, aliases);
+  const searchCachePath = join(searchDir, queryAlbum.searchAlias ? `${album.id}.alias.json` : `${album.id}.json`);
+  const search = await fetchOrReadJsonOrNull(searchCachePath, discogsSearchUrl(queryAlbum));
   if (!search) {
     review.push(reviewItem(album, 'discogs-search-fetch-failed', []));
     console.log(`${index + 1}/${albums.length} review ${album.artist} — ${album.album}`);
     continue;
   }
-  const selected = selectDiscogsMasterForAlbum(album, search.results ?? [], overrides);
+  const selected = selectDiscogsMasterForAlbum(queryAlbum, search.results ?? [], overrides);
 
   if (selected.status === 'gap') {
     gaps.push(gapItem(album, selected.reason));
@@ -99,7 +105,9 @@ const output = {
     userAgent,
     delayMs,
     overridesPath,
-    approvedOverrides: overrides.size
+    aliasesPath,
+    approvedOverrides: overrides.size,
+    approvedAliases: aliases.size
   },
   scope: {
     comparisonPath,

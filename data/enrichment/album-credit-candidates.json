@@ -49431,9 +49431,11 @@
     "searchEndpoint": "https://api.discogs.com/database/search",
     "cacheDir": "data/imports/discogs",
     "userAgent": "AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)",
-    "delayMs": 1100,
+    "delayMs": 1,
     "overridesPath": "data/review/discogs-credit-master-overrides.json",
-    "approvedOverrides": 14
+    "aliasesPath": "data/review/discogs-credit-search-aliases.json",
+    "approvedOverrides": 14,
+    "approvedAliases": 0
   },
   "scope": {
     "comparisonPath": "data/rolling-stone-comparison.json",

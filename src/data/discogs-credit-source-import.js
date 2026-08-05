@@ -1,3 +1,22 @@
+export function buildDiscogsCreditSearchAliasMap({ aliases = [] } = {}) {
+  return new Map((aliases ?? [])
+    .filter((alias) => alias.status === 'approved' && alias.albumId && (alias.artist || alias.album))
+    .map((alias) => [alias.albumId, { ...alias }]));
+}
+
+export function discogsSearchAlbumFor(album, aliases = new Map()) {
+  const alias = aliases.get?.(album.id);
+  if (!alias) return album;
+  return {
+    ...album,
+    artist: alias.artist ?? album.artist,
+    album: alias.album ?? album.album,
+    releaseYear: alias.releaseYear ?? album.releaseYear,
+    sourceAlbum: album,
+    searchAlias: alias
+  };
+}
+
 export function buildDiscogsMasterOverrideMap({ overrides = [] } = {}) {
   return new Map((overrides ?? [])
     .filter((override) => override.status === 'approved' && override.albumId && override.discogsMasterId)

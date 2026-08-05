@@ -1,7 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  buildDiscogsCreditSearchAliasMap,
   buildDiscogsMasterOverrideMap,
+  discogsSearchAlbumFor,
   selectDiscogsMasterForAlbum
 } from '../../src/data/discogs-credit-source-import.js';
 
@@ -69,4 +71,39 @@ test('does not match bonus-record titles as the album title', () => {
   ]);
 
   assert.equal(selected.status, 'gap');
+});
+
+test('uses an approved search alias as the Discogs query source without changing the local album identity', () => {
+  const aliases = buildDiscogsCreditSearchAliasMap({
+    aliases: [
+      {
+        albumId: 'album-rolling-stones-exile-on-main-street-1972',
+        status: 'approved',
+        artist: 'Rolling Stones',
+        album: 'Exile On Main St.',
+        reason: 'Discogs canonical title spelling'
+      },
+      {
+        albumId: album.id,
+        status: 'rejected',
+        artist: 'Beach Boys',
+        album: 'Pet Sounds'
+      }
+    ]
+  });
+
+  const queryAlbum = discogsSearchAlbumFor({
+    id: 'album-rolling-stones-exile-on-main-street-1972',
+    artist: 'The Rolling Stones',
+    album: 'Exile on Main Street',
+    releaseYear: 1972
+  }, aliases);
+  const unaliasedAlbum = discogsSearchAlbumFor(album, aliases);
+
+  assert.equal(queryAlbum.id, 'album-rolling-stones-exile-on-main-street-1972');
+  assert.equal(queryAlbum.artist, 'Rolling Stones');
+  assert.equal(queryAlbum.album, 'Exile On Main St.');
+  assert.equal(queryAlbum.releaseYear, 1972);
+  assert.equal(queryAlbum.sourceAlbum.artist, 'The Rolling Stones');
+  assert.equal(unaliasedAlbum.artist, 'The Beach Boys');
 });

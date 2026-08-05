@@ -11,6 +11,10 @@ This import starts the next data tier for AlbumExplorer: producers, engineers, m
 - Source system: Discogs public API
 - Scope: all 760 albums in `data/rolling-stone-comparison.json`, sorted by latest Rolling Stone rank
 - Generated artifact: `data/enrichment/album-credit-candidates.json`
+- Review report artifact: `data/review/discogs-credit-review-report.json`
+- Review report note: `docs/imports/discogs-credit-review.md`
+- Manual master overrides: `data/review/discogs-credit-master-overrides.json`
+- Manual search aliases: `data/review/discogs-credit-search-aliases.json`
 - Raw caches:
   - `data/imports/discogs/master-search/`
   - `data/imports/discogs/masters/`
@@ -22,6 +26,7 @@ The raw cache is part of the file-first import trail. The generated candidate ar
 
 ```bash
 npm run import:discogs-credits -- data/rolling-stone-comparison.json data/enrichment/album-credit-candidates.json --delay-ms 1100 --retries 4 --retry-delay-ms 15000
+npm run build:discogs-credit-review
 ```
 
 The importer is resumable: it reads existing cache files first and only fetches missing search/master/release responses.
@@ -80,6 +85,7 @@ The importer is intentionally conservative.
 
 - If Discogs search returns multiple plausible exact masters, the album goes to review.
 - If no exact master result is found, the album becomes a gap.
+- Approved search aliases can change the external Discogs query while preserving the local AlbumExplorer album identity.
 - If a release cache exists but no usable producer/engineer/songwriter/musician/studio data can be extracted, the album goes to review.
 - No canonical album data is modified by this import.
 - No credits or studios are invented from album title/artist/rank context.

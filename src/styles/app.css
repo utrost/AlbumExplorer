@@ -299,7 +299,8 @@ code {
   padding: 10px;
 }
 
-.path-finder {
+.path-finder,
+.relationship-type-filter {
   background: #100c0a;
   border: 1px solid #332721;
   border-radius: 14px;
@@ -309,7 +310,8 @@ code {
   padding: 10px;
 }
 
-.path-finder label {
+.path-finder label,
+.relationship-type-filter {
   color: #d7a86e;
   display: grid;
   font-size: 0.72rem;
@@ -319,7 +321,8 @@ code {
   text-transform: uppercase;
 }
 
-.path-finder select {
+.path-finder select,
+.relationship-type-filter select {
   background: #17110e;
   border: 1px solid #3a2e27;
   border-radius: 10px;

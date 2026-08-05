@@ -40,10 +40,12 @@ export function buildAlbumRelationships(rows, options = {}) {
 
 export function getRelatedAlbums(albumId, rows, relationships, options = {}) {
   const limit = options.limit ?? 8;
+  const allowedTypeSet = new Set(options.allowedTypes ?? []);
   const rowById = new Map((rows ?? []).map((row) => [row.id, row]));
 
   return (relationships ?? [])
     .filter((relationship) => relationship.from === albumId || relationship.to === albumId)
+    .filter((relationship) => allowedTypeSet.size === 0 || relationship.types.some((type) => allowedTypeSet.has(type)))
     .map((relationship) => {
       const reverse = relationship.to === albumId;
       const relatedId = reverse ? relationship.from : relationship.to;

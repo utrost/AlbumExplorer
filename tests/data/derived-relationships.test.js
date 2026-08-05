@@ -67,6 +67,17 @@ test('orders related albums by relationship weight and keeps reverse lookup expl
   assert.deepEqual(related[1].relationship.types, ['same-list-edition']);
 });
 
+test('filters related albums by allowed relationship types', () => {
+  const relationships = buildAlbumRelationships(rows);
+
+  const labelRelated = getRelatedAlbums('album-b', rows, relationships, { allowedTypes: ['shared-label'], limit: 5 });
+  assert.deepEqual(labelRelated.map((item) => item.album.id), ['album-a']);
+  assert.equal(labelRelated[0].relationship.types.includes('shared-label'), true);
+
+  const listRelated = getRelatedAlbums('album-b', rows, relationships, { allowedTypes: ['same-list-edition'], limit: 5 });
+  assert.deepEqual(listRelated.map((item) => item.album.id), ['album-a', 'album-c']);
+});
+
 test('omits weak genre-only relationships unless they meet the minimum weight', () => {
   const genreOnlyRows = [
     { id: 'album-a', artist: 'Artist A', album: 'Album A', labels: [], genres: ['rock'], ranks: {}, appearances: [] },

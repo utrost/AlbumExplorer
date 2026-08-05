@@ -16,6 +16,7 @@ const state = {
   sourceCandidates: null,
   relationships: null,
   pathDestinationId: null,
+  relationshipTypeFilter: 'all',
   filters: {
     search: '',
     editionYear: 'all',
@@ -72,9 +73,10 @@ function renderApp() {
   state.filteredRows = sortRows(filterRows(state.rows, state.filters), state.sortKey);
   const selected = state.filteredRows.find((row) => row.id === state.selectedId) ?? state.filteredRows[0] ?? state.rows[0];
   state.selectedId = selected?.id ?? null;
-  const relatedAlbums = selected ? getRelatedAlbums(selected.id, state.rows, state.relationships, { limit: 6 }) : [];
-  const focusedGraph = selected ? buildFocusedGraph({ selectedAlbumId: selected.id, rows: state.rows, relationships: state.relationships, limit: 10 }) : null;
-  const pathResult = selected && state.pathDestinationId ? findAlbumPath({ startAlbumId: selected.id, endAlbumId: state.pathDestinationId, relationships: state.relationships, maxDepth: 3 }) : null;
+  const activeRelationshipTypes = state.relationshipTypeFilter === 'all' ? [] : [state.relationshipTypeFilter];
+  const relatedAlbums = selected ? getRelatedAlbums(selected.id, state.rows, state.relationships, { limit: 6, allowedTypes: activeRelationshipTypes }) : [];
+  const focusedGraph = selected ? buildFocusedGraph({ selectedAlbumId: selected.id, rows: state.rows, relationships: state.relationships, limit: 10, allowedTypes: activeRelationshipTypes }) : null;
+  const pathResult = selected && state.pathDestinationId ? findAlbumPath({ startAlbumId: selected.id, endAlbumId: state.pathDestinationId, relationships: state.relationships, maxDepth: 3, allowedTypes: activeRelationshipTypes }) : null;
 
   app.innerHTML = `
     <header class="hero">
@@ -226,6 +228,8 @@ function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null, pathRes
       <ol class="rank-history">
         ${row.appearances.map((appearance) => `<li><strong>${appearance.editionYear}</strong><span>#${appearance.rank}</span><em>${escapeHtml(appearance.label ?? '')}</em></li>`).join('')}
       </ol>
+      <h3>Relationship types</h3>
+      ${renderRelationshipTypeFilter()}
       <h3>Focused graph</h3>
       ${renderFocusedGraph(focusedGraph)}
       <h3>Path finder</h3>
@@ -234,6 +238,20 @@ function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null, pathRes
       ${renderRelatedAlbums(relatedAlbums)}
       ${row.musicBrainzUrl ? `<p><a class="external-link" href="${escapeAttribute(row.musicBrainzUrl)}" target="_blank" rel="noreferrer">Open MusicBrainz release group</a></p>` : '<p class="muted">No MusicBrainz release-group link yet.</p>'}
     </aside>
+  `;
+}
+
+function renderRelationshipTypeFilter() {
+  return `
+    <label class="relationship-type-filter">Filter relationship views
+      <select data-testid="relationship-type-filter">
+        ${option('all', 'All relationship types', state.relationshipTypeFilter)}
+        ${option('shared-label', 'Labels', state.relationshipTypeFilter)}
+        ${option('shared-genre', 'Genres/tags', state.relationshipTypeFilter)}
+        ${option('same-list-edition', 'Rolling Stone editions', state.relationshipTypeFilter)}
+        ${option('adjacent-release-period', 'Adjacent release period', state.relationshipTypeFilter)}
+      </select>
+    </label>
   `;
 }
 
@@ -364,6 +382,11 @@ function bindInteractions() {
   const pathDestination = app.querySelector('[data-testid="path-destination"]');
   pathDestination?.addEventListener('change', () => {
     state.pathDestinationId = pathDestination.value;
+    renderApp();
+  });
+  const relationshipTypeFilter = app.querySelector('[data-testid="relationship-type-filter"]');
+  relationshipTypeFilter?.addEventListener('change', () => {
+    state.relationshipTypeFilter = relationshipTypeFilter.value;
     renderApp();
   });
   for (const button of app.querySelectorAll('[data-path-album-id]')) {

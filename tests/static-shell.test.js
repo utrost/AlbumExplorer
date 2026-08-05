@@ -25,6 +25,9 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /data-testid="focused-graph"/);
   assert.match(app, /data-testid="path-finder"/);
   assert.match(app, /data-testid="path-destination"/);
+  assert.match(app, /data-testid="relationship-type-filter"/);
+  assert.match(app, /Relationship types/);
+  assert.match(app, /shared-label/);
   assert.match(app, /Focused graph/);
   assert.match(app, /Path finder/);
   assert.match(app, /Related albums/);

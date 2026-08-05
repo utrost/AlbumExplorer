@@ -16,7 +16,11 @@ const relationships = [
     to: 'album-b',
     types: ['shared-label', 'shared-genre'],
     weight: 5.1,
-    explanations: ['Both albums are connected through the label Motown.', 'Both albums share the genre/tag soul.']
+    explanations: ['Both albums are connected through the label Motown.', 'Both albums share the genre/tag soul.'],
+    typedExplanations: [
+      { type: 'shared-label', text: 'Both albums are connected through the label Motown.' },
+      { type: 'shared-genre', text: 'Both albums share the genre/tag soul.' }
+    ]
   },
   {
     pairKey: 'album-a::album-c',
@@ -69,6 +73,7 @@ test('filters focused graph edges by allowed relationship type and preserves exp
   assert.equal(graph.edges.length, 1);
   assert.equal(graph.edges[0].types.includes('shared-label'), true);
   assert.deepEqual(graph.edges[0].explanations, relationships[0].explanations);
+  assert.deepEqual(graph.edges[0].typedExplanations, relationships[0].typedExplanations);
 });
 
 test('returns an empty focused graph when selected album is unknown', () => {

@@ -15,7 +15,13 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /rolling-stone-comparison\.json/);
   assert.match(app, /album-metadata-candidates\.json/);
   assert.match(app, /album-metadata-source-candidates\.json/);
+  assert.match(app, /album-credit-candidates\.json/);
   assert.match(app, /derived-relationships\.js/);
+  assert.match(app, /shared-producer/);
+  assert.match(app, /shared-engineer/);
+  assert.match(app, /shared-studio/);
+  assert.match(app, /shared-songwriter/);
+  assert.match(app, /shared-musician/);
   assert.match(app, /focused-graph-view\.js/);
   assert.match(app, /path-finder\.js/);
   assert.match(app, /matchingRelationshipExplanations/);

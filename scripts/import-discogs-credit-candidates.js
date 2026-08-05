@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
+import { buildAlbumCreditCandidates } from '../src/data/album-credit-candidates.js';
 import {
-  albumCreditCandidateFromDiscogsMaster,
-  buildAlbumCreditCandidates
-} from '../src/data/album-credit-candidates.js';
+  buildDiscogsMasterOverrideMap,
+  selectDiscogsMasterForAlbum
+} from '../src/data/discogs-credit-source-import.js';
 
 const DEFAULT_USER_AGENT = 'AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)';
 const DISCOGS_BASE_URL = 'https://api.discogs.com';
@@ -15,9 +16,12 @@ const delayMs = numericOption(args, '--delay-ms') ?? 1100;
 const retryCount = numericOption(args, '--retries') ?? 4;
 const retryDelayMs = numericOption(args, '--retry-delay-ms') ?? 15000;
 const cacheDir = option(args, '--cache-dir') ?? 'data/imports/discogs';
+const overridesPath = option(args, '--overrides') ?? 'data/review/discogs-credit-master-overrides.json';
 const userAgent = option(args, '--user-agent') ?? DEFAULT_USER_AGENT;
 
 const comparison = JSON.parse(readFileSync(comparisonPath, 'utf8'));
+const overrideData = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, 'utf8')) : { overrides: [] };
+const overrides = buildDiscogsMasterOverrideMap(overrideData);
 const albums = (comparison.albums ?? []).slice(0, limit);
 const searchDir = join(cacheDir, 'master-search');
 const masterDir = join(cacheDir, 'masters');
@@ -36,7 +40,7 @@ for (let index = 0; index < albums.length; index += 1) {
   const album = albums[index];
   const searchCachePath = join(searchDir, `${album.id}.json`);
   const search = await fetchOrReadJson(searchCachePath, discogsSearchUrl(album));
-  const selected = selectDiscogsMasterSearchResult(album, search.results ?? []);
+  const selected = selectDiscogsMasterForAlbum(album, search.results ?? [], overrides);
 
   if (selected.status === 'gap') {
     gaps.push(gapItem(album, selected.reason));
@@ -76,7 +80,9 @@ const output = {
     searchEndpoint: `${DISCOGS_BASE_URL}/database/search`,
     cacheDir,
     userAgent,
-    delayMs
+    delayMs,
+    overridesPath,
+    approvedOverrides: overrides.size
   },
   scope: {
     comparisonPath,
@@ -135,20 +141,6 @@ function discogsSearchUrl(album) {
   return `${DISCOGS_BASE_URL}/database/search?${params.toString()}`;
 }
 
-function selectDiscogsMasterSearchResult(album, results) {
-  const exact = (results ?? []).filter((result) => {
-    if ((result.type ?? '').toLowerCase() !== 'master') return false;
-    const normalizedResultTitle = normalizeTitle(result.title);
-    const normalizedAlbumTitle = normalizeTitle(album.album);
-    if (normalizedResultTitle !== normalizedAlbumTitle && !normalizedResultTitle.endsWith(` ${normalizedAlbumTitle}`)) return false;
-    const year = Number(result.year);
-    return !album.releaseYear || !Number.isInteger(year) || Math.abs(album.releaseYear - year) <= 1;
-  });
-  if (exact.length === 1) return { status: 'matched', result: exact[0] };
-  if (exact.length > 1) return { status: 'ambiguous', reason: 'ambiguous-discogs-master-search-result', results: exact };
-  return { status: 'gap', reason: 'no-exact-discogs-master-search-result' };
-}
-
 function gapItem(album, reason) {
   return { albumId: album.id, artist: album.artist, album: album.album, releaseYear: album.releaseYear ?? null, reason };
 }
@@ -168,17 +160,6 @@ function reviewItem(album, reason, results) {
       url: result.master_url ?? result.resource_url ?? null
     }))
   };
-}
-
-function normalizeTitle(value) {
-  return String(value ?? '')
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/&/g, ' and ')
-    .replace(/['’‘`]/g, '')
-    .replace(/[^a-zA-Z0-9]+/g, ' ')
-    .trim()
-    .toLowerCase();
 }
 
 function option(args, name) {

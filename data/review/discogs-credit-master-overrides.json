@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "0.1.0",
+  "status": "reviewed-discogs-credit-master-overrides",
+  "description": "Approved Discogs master selections for AlbumExplorer credit-source import. These overrides resolve ambiguous Discogs master search results only; canonical AlbumExplorer data remains unchanged.",
+  "overrides": [
+    {
+      "albumId": "album-marvin-gaye-whats-going-on-1971",
+      "status": "approved",
+      "discogsMasterId": "66631",
+      "reason": "Selected the exact 1971 Discogs album master from cached search candidates."
+    },
+    {
+      "albumId": "album-beach-boys-pet-sounds-1966",
+      "status": "approved",
+      "discogsMasterId": "17217",
+      "reason": "Selected the exact 1966 Discogs album master rather than the 1967 duplicate candidate."
+    },
+    {
+      "albumId": "album-stevie-wonder-songs-in-the-key-of-life-1976",
+      "status": "approved",
+      "discogsMasterId": "87440",
+      "reason": "Selected the exact 1976 album master and excluded bonus-record candidates."
+    },
+    {
+      "albumId": "album-nirvana-nevermind-1991",
+      "status": "approved",
+      "discogsMasterId": "13814",
+      "reason": "Selected the exact 1991 Discogs album master rather than a null-year duplicate."
+    },
+    {
+      "albumId": "album-prince-and-the-revolution-purple-rain-1984",
+      "status": "approved",
+      "discogsMasterId": "16245",
+      "reason": "Selected the exact 1984 Discogs album master from cached search candidates."
+    },
+    {
+      "albumId": "album-bob-dylan-blood-on-the-tracks-1975",
+      "status": "approved",
+      "discogsMasterId": "3878",
+      "reason": "Selected the exact 1975 Discogs album master rather than the 1974 duplicate candidate."
+    },
+    {
+      "albumId": "album-lauryn-hill-the-miseducation-of-lauryn-hill-1998",
+      "status": "approved",
+      "discogsMasterId": "57279",
+      "reason": "Selected the exact 1998 album master and excluded derived/promotional title candidates."
+    },
+    {
+      "albumId": "album-beatles-revolver-1966",
+      "status": "approved",
+      "discogsMasterId": "45284",
+      "reason": "Selected the exact 1966 Discogs album master and excluded alternate-title candidates."
+    },
+    {
+      "albumId": "album-michael-jackson-thriller-1982",
+      "status": "approved",
+      "discogsMasterId": "8883",
+      "reason": "Selected the exact 1982 Discogs album master from cached search candidates."
+    },
+    {
+      "albumId": "album-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-1967",
+      "status": "approved",
+      "discogsMasterId": "122933",
+      "reason": "Selected the exact 1967 album master and excluded the Respect single-pair candidate."
+    },
+    {
+      "albumId": "album-clash-london-calling-1979",
+      "status": "approved",
+      "discogsMasterId": "19382",
+      "reason": "Selected the exact 1979 Discogs album master rather than the 1980 duplicate candidate."
+    },
+    {
+      "albumId": "album-bob-dylan-highway-61-revisited-1965",
+      "status": "approved",
+      "discogsMasterId": "3986",
+      "reason": "Selected the exact 1965 Discogs album master rather than the 1966 duplicate candidate."
+    },
+    {
+      "albumId": "album-bruce-springsteen-born-to-run-1975",
+      "status": "approved",
+      "discogsMasterId": "26725",
+      "reason": "Selected the exact 1975 Discogs album master from cached search candidates."
+    },
+    {
+      "albumId": "album-velvet-underground-the-velvet-underground-and-nico-1967",
+      "status": "approved",
+      "discogsMasterId": "35276",
+      "reason": "Selected the exact 1967 Discogs album master rather than a null-year duplicate."
+    },
+    {
+      "albumId": "album-beatles-sgt-peppers-lonely-hearts-club-band-1967",
+      "status": "rejected",
+      "discogsMasterId": "1264296",
+      "reason": "Rejected for now: cached Discogs search candidate URL returns 404 when fetched; keep in review."
+    }
+  ]
+}

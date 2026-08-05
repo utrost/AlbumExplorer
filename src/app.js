@@ -14,6 +14,7 @@ const state = {
   validation: null,
   indexes: null,
   sourceCandidates: null,
+  creditCandidates: null,
   relationships: null,
   pathDestinationId: null,
   relationshipTypeFilter: 'all',
@@ -31,11 +32,12 @@ start();
 
 async function start() {
   try {
-    const [collection, comparison, candidates, sourceCandidates] = await Promise.all([
+    const [collection, comparison, candidates, sourceCandidates, creditCandidates] = await Promise.all([
       loadJson('./data/collection.json'),
       loadJson('./data/rolling-stone-comparison.json'),
       loadJson('./data/enrichment/album-metadata-candidates.json'),
-      loadJson('./data/enrichment/album-metadata-source-candidates.json')
+      loadJson('./data/enrichment/album-metadata-source-candidates.json'),
+      loadJson('./data/enrichment/album-credit-candidates.json')
     ]);
     const validation = validateCollection(collection);
     const indexes = buildIndexes(collection);
@@ -43,8 +45,9 @@ async function start() {
     state.validation = validation;
     state.indexes = indexes;
     state.sourceCandidates = sourceCandidates;
+    state.creditCandidates = creditCandidates;
     state.rows = buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates });
-    state.relationships = buildAlbumRelationships(state.rows, { minimumWeight: 2.0 });
+    state.relationships = buildAlbumRelationships(state.rows, { minimumWeight: 2.0, creditCandidates: creditCandidates.candidates ?? [] });
     state.selectedId = state.rows[0]?.id ?? null;
     state.pathDestinationId = state.rows[1]?.id ?? state.rows[0]?.id ?? null;
     renderApp();
@@ -66,6 +69,7 @@ function renderApp() {
   const validation = state.validation;
   const indexes = state.indexes;
   const sourceCandidates = state.sourceCandidates;
+  const creditCandidates = state.creditCandidates;
   const fatal = validation.errors.length > 0;
   const musicBrainzCount = state.rows.filter((row) => row.metadataStatus === 'musicbrainz').length;
   const baselineCount = state.rows.filter((row) => row.metadataStatus === 'baseline').length;
@@ -93,6 +97,7 @@ function renderApp() {
         <li><strong>${baselineCount}</strong><span>Rolling Stone baseline</span></li>
         <li><strong>${fourEditionCount}</strong><span>in all 4 editions</span></li>
         <li><strong>${state.relationships.length}</strong><span>explainable relationships</span></li>
+        <li><strong>${creditCandidates.candidates?.length ?? 0}</strong><span>credit candidates</span></li>
         <li><strong>${sourceCandidates.review?.length ?? 0}</strong><span>MB review</span></li>
         <li><strong>${sourceCandidates.gaps?.length ?? 0}</strong><span>MB gaps</span></li>
       </ul>
@@ -251,6 +256,11 @@ function renderRelationshipTypeFilter() {
       <select data-testid="relationship-type-filter">
         ${option('all', 'All relationship types', state.relationshipTypeFilter)}
         ${option('shared-label', 'Labels', state.relationshipTypeFilter)}
+        ${option('shared-producer', 'Producers', state.relationshipTypeFilter)}
+        ${option('shared-engineer', 'Engineers', state.relationshipTypeFilter)}
+        ${option('shared-studio', 'Studios/locations', state.relationshipTypeFilter)}
+        ${option('shared-songwriter', 'Songwriters', state.relationshipTypeFilter)}
+        ${option('shared-musician', 'Musicians/performers', state.relationshipTypeFilter)}
         ${option('shared-genre', 'Genres/tags', state.relationshipTypeFilter)}
         ${option('same-list-edition', 'Rolling Stone editions', state.relationshipTypeFilter)}
         ${option('adjacent-release-period', 'Adjacent release period', state.relationshipTypeFilter)}

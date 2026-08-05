@@ -38,7 +38,8 @@ function normalizeFocusedEdge(selectedAlbumId, relationship) {
     to: relatedId,
     weight: relationship.weight,
     types: relationship.types,
-    explanations: relationship.explanations
+    explanations: relationship.explanations,
+    typedExplanations: relationship.typedExplanations ?? []
   };
 }
 

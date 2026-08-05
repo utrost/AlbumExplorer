@@ -95,6 +95,42 @@ test('keeps explanations typed so filtered views can highlight the matching reas
   assert.deepEqual(matchingRelationshipExplanations(ab, []), ab.explanations);
 });
 
+test('builds explainable relationships from reviewable credit candidates', () => {
+  const creditRows = [
+    { id: 'album-a', artist: 'Artist A', album: 'Album A', labels: [], genres: [], ranks: {}, appearances: [] },
+    { id: 'album-d', artist: 'Artist D', album: 'Album D', labels: [], genres: [], ranks: {}, appearances: [] }
+  ];
+  const creditCandidates = [
+    {
+      albumId: 'album-a',
+      credits: [
+        { type: 'producer', name: 'Brian Eno' },
+        { type: 'musician', name: 'Carlos Alomar' }
+      ],
+      studios: [{ name: 'Hansa Tonstudio' }]
+    },
+    {
+      albumId: 'album-d',
+      credits: [
+        { type: 'producer', name: 'Brian Eno' },
+        { type: 'engineer', name: 'Tony Visconti' },
+        { type: 'musician', name: 'Carlos Alomar' }
+      ],
+      studios: [{ name: 'Hansa Tonstudio' }]
+    }
+  ];
+
+  const relationships = buildAlbumRelationships(creditRows, { minimumWeight: 1.0, creditCandidates });
+
+  assert.equal(relationships.length, 1);
+  assert.deepEqual(relationships[0].types, ['shared-producer', 'shared-musician', 'shared-studio']);
+  assert.deepEqual(relationships[0].typedExplanations, [
+    { type: 'shared-producer', text: 'Both albums credit Brian Eno as producer.' },
+    { type: 'shared-musician', text: 'Both albums credit Carlos Alomar as musician/performer.' },
+    { type: 'shared-studio', text: 'Both albums are connected to the studio/location Hansa Tonstudio.' }
+  ]);
+});
+
 test('omits weak genre-only relationships unless they meet the minimum weight', () => {
   const genreOnlyRows = [
     { id: 'album-a', artist: 'Artist A', album: 'Album A', labels: [], genres: ['rock'], ranks: {}, appearances: [] },

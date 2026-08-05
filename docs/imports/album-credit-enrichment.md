@@ -28,19 +28,21 @@ The importer is resumable: it reads existing cache files first and only fetches 
 
 ## Current result
 
+After applying `data/review/discogs-credit-master-overrides.json`:
+
 - Scope albums: 25
-- Credit candidates: 8
-- Review items: 15
+- Credit candidates: 22
+- Review items: 1
 - Gaps: 2
-- Extracted credit rows: 108
-- Extracted studio-like rows: 18
+- Extracted credit rows: 324
+- Extracted studio-like rows: 57
 
 Credit row types:
 
-- producer: 17
-- engineer: 21
-- songwriter: 29
-- musician: 41
+- producer: 34
+- engineer: 49
+- songwriter: 46
+- musician: 195
 
 ## Candidate examples
 
@@ -70,11 +72,11 @@ The importer is intentionally conservative.
 - Discogs master records often do not contain deep credits; the importer follows the selected master to its main release and extracts from release-level `extraartists`, `credits`, `companies`, and limited notes patterns.
 - Search ambiguity is currently common for famous albums because Discogs can have multiple masters/variants with similar titles and years.
 - Studio extraction from notes is intentionally narrow; company roles such as `Recorded At`, `Mixed At`, and `Mastered At` are more reliable.
-- Candidate credits are not yet used by the live relationship graph. The next implementation step is to derive `shared-producer`, `shared-engineer`, `shared-studio`, `shared-contributor`, and `shared-songwriter` relationships from accepted/generated credit candidates.
+- Credit candidates are now used by the live relationship graph for shared producer, engineer, studio, songwriter, and musician/performer edges, but only for the current top-25 seed scope.
 
 ## Next normalization step
 
-1. Add a review/override file for ambiguous Discogs master selections.
-2. Apply approved overrides before fetching release caches.
-3. Expand from top 25 to top 100 once the ambiguity workflow is stable.
-4. Feed generated candidates into the derived relationship layer behind a relationship-type filter.
+1. Resolve the remaining Discogs review item for *Sgt. Pepper's Lonely Hearts Club Band*; cached search master URLs currently return 404 for the exact 1967 candidates.
+2. Improve search aliases for the two gaps: The Rolling Stones — *Exile on Main Street* and The Notorious B.I.G. — *Ready to Die*.
+3. Expand from top 25 to top 100 once the remaining gap/review workflow is stable.
+4. Add a compact review UI/report for approved, rejected, gap, and stale Discogs candidates.

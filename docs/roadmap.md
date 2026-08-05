@@ -159,7 +159,7 @@ Goal: make the collection browsable before solving the graph problem.
 
 ## Phase 4 — Explainable relationship model
 
-Status: first executable slice shipped in `src/data/derived-relationships.js` and the album detail panel. Current browser output derives strong related-album suggestions from shared labels, genres/tags, Rolling Stone list editions, and adjacent release periods; deeper contributor/studio/producer relationships still require richer source imports.
+Status: first executable slice shipped in `src/data/derived-relationships.js` and the album detail panel. Current browser output derives strong related-album suggestions from shared labels, genres/tags, Rolling Stone list editions, and adjacent release periods. Relationship records now keep typed explanation entries so filtered views can foreground the reason that matched the active relationship type. Deeper contributor/studio/producer relationships still require richer source imports.
 
 Goal: make relationships explicit, inspectable, and deterministic.
 

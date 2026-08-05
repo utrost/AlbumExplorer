@@ -78,6 +78,23 @@ test('filters related albums by allowed relationship types', () => {
   assert.deepEqual(listRelated.map((item) => item.album.id), ['album-a', 'album-c']);
 });
 
+test('keeps explanations typed so filtered views can highlight the matching reason', async () => {
+  const { matchingRelationshipExplanations } = await import('../../src/data/derived-relationships.js');
+  const relationships = buildAlbumRelationships(rows);
+  const ab = relationships.find((relationship) => relationship.pairKey === 'album-a::album-b');
+
+  assert.deepEqual(ab.typedExplanations, [
+    { type: 'shared-label', text: 'Both albums are connected through the label Motown.' },
+    { type: 'shared-genre', text: 'Both albums share the genre/tag soul.' },
+    { type: 'same-list-edition', text: 'Both albums appear in the 2024 Rolling Stone 500.' },
+    { type: 'adjacent-release-period', text: 'Both albums were released within 1 year of each other.' }
+  ]);
+  assert.deepEqual(matchingRelationshipExplanations(ab, ['shared-label']), [
+    'Both albums are connected through the label Motown.'
+  ]);
+  assert.deepEqual(matchingRelationshipExplanations(ab, []), ab.explanations);
+});
+
 test('omits weak genre-only relationships unless they meet the minimum weight', () => {
   const genreOnlyRows = [
     { id: 'album-a', artist: 'Artist A', album: 'Album A', labels: [], genres: ['rock'], ranks: {}, appearances: [] },

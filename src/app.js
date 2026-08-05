@@ -1,7 +1,7 @@
 import { validateCollection } from './data/validator.js';
 import { buildIndexes } from './data/indexes.js';
 import { buildEnrichedComparisonRows, filterRows, sortRows } from './data/enriched-comparison.js';
-import { buildAlbumRelationships, getRelatedAlbums } from './data/derived-relationships.js';
+import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipExplanations } from './data/derived-relationships.js';
 import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { findAlbumPath } from './graph/path-finder.js';
 
@@ -126,6 +126,10 @@ function renderApp() {
   `;
 
   bindInteractions();
+}
+
+function activeRelationshipTypes() {
+  return state.relationshipTypeFilter === 'all' ? [] : [state.relationshipTypeFilter];
 }
 
 function renderControls() {
@@ -286,7 +290,7 @@ function renderPathResult(pathResult, rowById) {
               <span>→</span>
               <strong>${escapeHtml(to?.album ?? hop.to)}</strong>
             </button>
-            <p>${escapeHtml(hop.relationship.explanations[0] ?? hop.relationship.types.join(', '))}</p>
+            <p class="matching-explanation">${escapeHtml(matchingRelationshipExplanations(hop.relationship, activeRelationshipTypes())[0] ?? hop.relationship.types.join(', '))}</p>
           </li>
         `;
       }).join('')}
@@ -304,7 +308,7 @@ function renderFocusedGraph(graph) {
           const from = nodeById.get(edge.from);
           const to = nodeById.get(edge.to);
           if (!from || !to) return '';
-          return `<line x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}" stroke-width="${Math.min(4, 1 + edge.weight / 3).toFixed(2)}"><title>${escapeHtml(edge.explanations[0] ?? edge.types.join(', '))}</title></line>`;
+          return `<line x1="${from.x}" y1="${from.y}" x2="${to.x}" y2="${to.y}" stroke-width="${Math.min(4, 1 + edge.weight / 3).toFixed(2)}"><title>${escapeHtml(matchingRelationshipExplanations(edge, activeRelationshipTypes())[0] ?? edge.types.join(', '))}</title></line>`;
         }).join('')}
         ${graph.nodes.map((node) => `
           <g class="graph-node ${escapeAttribute(node.kind)}" data-graph-album-id="${escapeAttribute(node.id)}" tabindex="0" role="button" aria-label="Select ${escapeAttribute(node.label)} by ${escapeAttribute(node.artist)}" transform="translate(${node.x} ${node.y})">
@@ -329,7 +333,7 @@ function renderRelatedAlbums(relatedAlbums) {
             <span>${escapeHtml(album.artist)} · weight ${relationship.weight}</span>
           </button>
           <ul>
-            ${relationship.explanations.slice(0, 3).map((explanation) => `<li>${escapeHtml(explanation)}</li>`).join('')}
+            ${matchingRelationshipExplanations(relationship, activeRelationshipTypes()).slice(0, 3).map((explanation, index) => `<li class="${index === 0 && activeRelationshipTypes().length ? 'matching-explanation' : ''}">${escapeHtml(explanation)}</li>`).join('')}
           </ul>
         </li>
       `).join('')}

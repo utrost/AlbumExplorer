@@ -18,6 +18,8 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /derived-relationships\.js/);
   assert.match(app, /focused-graph-view\.js/);
   assert.match(app, /path-finder\.js/);
+  assert.match(app, /matchingRelationshipExplanations/);
+  assert.match(app, /class="matching-explanation"/);
   assert.match(app, /data-testid="comparison-search"/);
   assert.match(app, /data-testid="edition-filter"/);
   assert.match(app, /data-testid="metadata-filter"/);

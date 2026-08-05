@@ -62,6 +62,16 @@ export function getRelatedAlbums(albumId, rows, relationships, options = {}) {
     .slice(0, limit);
 }
 
+export function matchingRelationshipExplanations(relationship, allowedTypes = []) {
+  const allowedTypeSet = new Set(allowedTypes ?? []);
+  if (allowedTypeSet.size === 0) return relationship?.explanations ?? [];
+  const typedExplanations = relationship?.typedExplanations ?? [];
+  const matching = typedExplanations
+    .filter((item) => allowedTypeSet.has(item.type))
+    .map((item) => item.text);
+  return matching.length > 0 ? matching : relationship?.explanations ?? [];
+}
+
 function buildPairRelationship(left, right) {
   const parts = [];
   for (const rule of RULES) {
@@ -80,7 +90,8 @@ function buildPairRelationship(left, right) {
 
   if (parts.length === 0) return null;
   const types = parts.map((part) => part.type);
-  const explanations = parts.flatMap((part) => part.explanations);
+  const typedExplanations = parts.flatMap((part) => part.explanations.map((text) => ({ type: part.type, text })));
+  const explanations = typedExplanations.map((item) => item.text);
   const weight = Number(parts.reduce((sum, part) => sum + part.weight, 0).toFixed(2));
   return {
     pairKey: `${left.id}::${right.id}`,
@@ -88,7 +99,8 @@ function buildPairRelationship(left, right) {
     to: right.id,
     types,
     weight,
-    explanations
+    explanations,
+    typedExplanations
   };
 }
 

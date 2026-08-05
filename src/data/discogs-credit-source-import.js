@@ -28,6 +28,12 @@ export function buildDiscogsMasterOverrideMap({ overrides = [] } = {}) {
     .map((override) => [override.albumId, { ...override, discogsMasterId: String(override.discogsMasterId) }]));
 }
 
+export function buildDiscogsCreditGapOverrideMap({ gaps = [] } = {}) {
+  return new Map((gaps ?? [])
+    .filter((gap) => gap.status === 'approved' && gap.albumId)
+    .map((gap) => [gap.albumId, { ...gap }]));
+}
+
 export function selectDiscogsMasterForAlbum(album, results = [], overrides = new Map()) {
   const exact = exactDiscogsMasterSearchResults(album, results);
   const override = overrides.get?.(album.id);

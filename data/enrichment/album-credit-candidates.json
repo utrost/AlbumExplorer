@@ -51627,6 +51627,7 @@
       "reason": "no-exact-discogs-master-search-result"
     }
   ],
+  "documentedGaps": [],
   "source": {
     "system": "discogs",
     "searchEndpoint": "https://api.discogs.com/database/search",
@@ -51635,8 +51636,10 @@
     "delayMs": 1100,
     "overridesPath": "data/review/discogs-credit-master-overrides.json",
     "aliasesPath": "data/review/discogs-credit-search-aliases.json",
+    "creditGapsPath": "data/review/discogs-credit-gap-overrides.json",
     "approvedOverrides": 33,
-    "approvedAliases": 10
+    "approvedAliases": 10,
+    "approvedCreditGaps": 0
   },
   "scope": {
     "comparisonPath": "data/rolling-stone-comparison.json",

@@ -26,6 +26,8 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /Cache path/);
   assert.match(app, /approve-master-override/);
   assert.match(app, /add-search-alias/);
+  assert.match(app, /approved-credit-gap/);
+  assert.match(app, /discogs-credit-gap-overrides\.json/);
   assert.match(app, /Copy JSON snippet/);
   assert.match(app, /derived-relationships\.js/);
   assert.match(app, /shared-producer/);

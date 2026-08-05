@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   buildDiscogsReviewQueue,
+  discogsCreditGapSnippet,
   discogsMasterOverrideSnippet,
   discogsReviewSnippet,
   discogsSearchAliasSnippet,
@@ -123,4 +124,27 @@ test('does not create a misleading paste snippet for inspect-only review cases',
   };
 
   assert.equal(discogsReviewSnippet(item), null);
+});
+
+test('creates a copyable approved credit gap snippet for inspected empty source cases', () => {
+  const item = {
+    kind: 'review',
+    albumId: 'album-beatles-white-album-1968',
+    artist: 'The Beatles',
+    album: 'White Album',
+    releaseYear: 1968,
+    reason: 'source-cache-without-usable-credits',
+    recommendedAction: 'inspect-release-or-mark-gap',
+    sourceDiagnostics: {
+      sourceId: '8513557',
+      cachePath: 'data/imports/discogs/releases/8513557.json'
+    }
+  };
+
+  assert.deepEqual(JSON.parse(discogsCreditGapSnippet(item)), {
+    albumId: 'album-beatles-white-album-1968',
+    status: 'approved',
+    reason: 'Reviewed Discogs source 8513557 for The Beatles — White Album (1968); no usable album-level credits or studio data were available.',
+    sourceCachePath: 'data/imports/discogs/releases/8513557.json'
+  });
 });

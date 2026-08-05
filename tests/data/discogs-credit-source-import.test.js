@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   buildDiscogsCreditSearchAliasMap,
+  buildDiscogsCreditGapOverrideMap,
   buildDiscogsMasterOverrideMap,
   discogsCreditSearchCacheKey,
   discogsSearchAlbumFor,
@@ -120,4 +121,17 @@ test('uses the alias query in the search cache key so edited aliases do not reus
 
   assert.notEqual(discogsCreditSearchCacheKey(withThe), discogsCreditSearchCacheKey(withoutThe));
   assert.match(discogsCreditSearchCacheKey(withoutThe), /^album-notorious-b-i-g-ready-to-die-1994--alias-/);
+});
+
+test('builds a map of approved credit gap reviews only', () => {
+  const gaps = buildDiscogsCreditGapOverrideMap({
+    gaps: [
+      { albumId: album.id, status: 'approved', reason: 'Empty source reviewed.' },
+      { albumId: 'album-unresolved', status: 'pending', reason: 'Not reviewed yet.' },
+      { albumId: 'album-missing-status', reason: 'Missing approval.' }
+    ]
+  });
+
+  assert.equal(gaps.size, 1);
+  assert.equal(gaps.get(album.id).reason, 'Empty source reviewed.');
 });

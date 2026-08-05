@@ -8,6 +8,7 @@ Status: generated review queue, not canonical data.
 - Credit/studio candidates: 433
 - Review items: 234
 - Gaps: 93
+- Documented gaps: 0
 - Total unresolved: 327
 
 ## Review reasons
@@ -26,6 +27,7 @@ The live static app includes a **Discogs credit review** helper above the compar
 
 - For `approve-master-override`, add an approved row to `data/review/discogs-credit-master-overrides.json`.
 - For `add-search-alias`, add an approved row to `data/review/discogs-credit-search-aliases.json`.
+- For an inspected empty/stale source that should be accepted as a gap, add an approved row to `data/review/discogs-credit-gap-overrides.json`.
 - For stale Discogs IDs or empty credit caches, inspect the candidate source and either approve an alternate master, reject it, or leave the album as a documented gap.
 - Re-run `npm run import:discogs-credits`, then `npm run build:discogs-credit-review`.
 

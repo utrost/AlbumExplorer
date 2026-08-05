@@ -19,6 +19,7 @@ export function buildDiscogsCreditReviewReport({ comparison = {}, creditCandidat
       candidates: candidates.length,
       review: review.length,
       gaps: gaps.length,
+      documentedGaps: (creditCandidates.documentedGaps ?? []).length,
       unresolved: review.length + gaps.length,
       reviewReasons: countBy(review, 'reason'),
       gapReasons: countBy(gaps, 'reason')

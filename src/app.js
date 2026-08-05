@@ -6,6 +6,7 @@ import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { findAlbumPath } from './graph/path-finder.js';
 import {
   buildDiscogsReviewQueue,
+  discogsCreditGapSnippet,
   discogsReviewSnippet,
   filterDiscogsReviewQueue,
   nextDiscogsReviewItem
@@ -247,7 +248,7 @@ function renderDiscogsReviewHelper(queue) {
         <li><strong>${report?.summary?.gaps ?? 0}</strong><span>gaps</span></li>
         <li><strong>${queue.items.length}</strong><span>shown after filters</span></li>
       </ul>
-      <p class="muted">Supports <code>approve-master-override</code> and <code>add-search-alias</code> cases without writing to canonical data.</p>
+      <p class="muted">Supports <code>approve-master-override</code>, <code>add-search-alias</code>, and inspected <code>approved-credit-gap</code> cases without writing to canonical data.</p>
       ${renderDiscogsReviewControls(report)}
       ${current ? renderDiscogsReviewItem(current) : '<p class="muted">No unresolved item matches these filters.</p>'}
     </section>
@@ -299,13 +300,20 @@ function renderDiscogsReviewItem(item) {
 }
 
 function renderDiscogsCopySnippet(item, snippet) {
+  const target = discogsSnippetTarget(item);
   return `
-    <h4>${item.recommendedAction === 'add-search-alias' ? 'Alias row' : 'Override row'}</h4>
-    <p class="muted">Copy this into ${item.recommendedAction === 'add-search-alias' ? '<code>data/review/discogs-credit-search-aliases.json</code>' : '<code>data/review/discogs-credit-master-overrides.json</code>'}, then rerun the import/review scripts.</p>
+    <h4>${target.label}</h4>
+    <p class="muted">Copy this into <code>${target.path}</code>, then rerun the import/review scripts.</p>
     <pre data-testid="discogs-review-snippet"><code>${escapeHtml(snippet)}</code></pre>
     <button class="copy-button" type="button" data-copy-review-snippet>Copy JSON snippet</button>
     <button class="copy-button secondary" type="button" data-next-discogs-review>Next case</button>
   `;
+}
+
+function discogsSnippetTarget(item) {
+  if (item.recommendedAction === 'add-search-alias') return { label: 'Alias row', path: 'data/review/discogs-credit-search-aliases.json' };
+  if (item.recommendedAction === 'inspect-release-or-mark-gap') return { label: 'Reviewed credit gap row', path: 'data/review/discogs-credit-gap-overrides.json' };
+  return { label: 'Override row', path: 'data/review/discogs-credit-master-overrides.json' };
 }
 
 function renderDiscogsInspectNotice(item) {
@@ -364,6 +372,7 @@ function selectedDiscogsCandidate(item) {
 }
 
 function discogsSnippetForItem(item, selectedCandidate) {
+  if (item.recommendedAction === 'inspect-release-or-mark-gap') return discogsCreditGapSnippet(item);
   return discogsReviewSnippet(item, selectedCandidate);
 }
 

@@ -67,6 +67,17 @@ export function discogsSearchAliasSnippet(item, alias = {}) {
   }, null, 2);
 }
 
+export function discogsCreditGapSnippet(item) {
+  const sourceId = item?.sourceDiagnostics?.sourceId ?? item?.source?.id ?? '[source-id]';
+  const sourceCachePath = item?.sourceDiagnostics?.cachePath ?? item?.source?.cachePath ?? null;
+  return JSON.stringify({
+    albumId: item.albumId,
+    status: 'approved',
+    reason: `Reviewed Discogs source ${sourceId} for ${formatAlbumName(item)}; no usable album-level credits or studio data were available.`,
+    ...(sourceCachePath ? { sourceCachePath } : {})
+  }, null, 2);
+}
+
 export function discogsReviewSnippet(item, selectedCandidate = null) {
   if (item?.recommendedAction === 'add-search-alias') return discogsSearchAliasSnippet(item);
   if (item?.recommendedAction === 'approve-master-override' && selectedCandidate) return discogsMasterOverrideSnippet(item, selectedCandidate);

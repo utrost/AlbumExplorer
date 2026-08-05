@@ -17,7 +17,7 @@ const IGNORED_ROLE_PATTERNS = [
   /booking/i
 ];
 
-export function buildAlbumCreditCandidates({ albums = [], discogsMastersByAlbumId = new Map() }) {
+export function buildAlbumCreditCandidates({ albums = [], discogsMastersByAlbumId = new Map(), creditGapOverrides = new Map() }) {
   const result = {
     schemaVersion: SCHEMA_VERSION,
     status: 'generated-credit-candidates',
@@ -25,7 +25,8 @@ export function buildAlbumCreditCandidates({ albums = [], discogsMastersByAlbumI
     description: 'Reviewable album credit candidates extracted from cached external source responses. Canonical collection data is not modified.',
     candidates: [],
     review: [],
-    gaps: []
+    gaps: [],
+    documentedGaps: []
   };
 
   for (const album of albums) {
@@ -37,6 +38,11 @@ export function buildAlbumCreditCandidates({ albums = [], discogsMastersByAlbumI
 
     const candidate = albumCreditCandidateFromDiscogsMaster(album, source.master, { cachePath: source.cachePath });
     if (candidate.credits.length === 0 && candidate.studios.length === 0) {
+      const approvedGap = creditGapOverrides.get?.(album.id);
+      if (approvedGap) {
+        result.documentedGaps.push(documentedGapItem(album, approvedGap, 'approved-credit-gap', candidate.source));
+        continue;
+      }
       result.review.push({
         albumId: album.id,
         artist: album.artist,
@@ -147,6 +153,14 @@ function gapItem(album, reason) {
     album: album.album,
     releaseYear: album.releaseYear ?? null,
     reason
+  };
+}
+
+function documentedGapItem(album, override, reason, source = null) {
+  return {
+    ...gapItem(album, reason),
+    reviewReason: override.reason ?? null,
+    ...(source ? { source } : {})
   };
 }
 

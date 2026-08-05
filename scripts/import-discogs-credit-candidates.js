@@ -3,6 +3,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { buildAlbumCreditCandidates } from '../src/data/album-credit-candidates.js';
 import {
+  buildDiscogsCreditGapOverrideMap,
   buildDiscogsCreditSearchAliasMap,
   buildDiscogsMasterOverrideMap,
   discogsCreditSearchCacheKey,
@@ -21,13 +22,16 @@ const retryDelayMs = numericOption(args, '--retry-delay-ms') ?? 15000;
 const cacheDir = option(args, '--cache-dir') ?? 'data/imports/discogs';
 const overridesPath = option(args, '--overrides') ?? 'data/review/discogs-credit-master-overrides.json';
 const aliasesPath = option(args, '--aliases') ?? 'data/review/discogs-credit-search-aliases.json';
+const creditGapsPath = option(args, '--credit-gaps') ?? 'data/review/discogs-credit-gap-overrides.json';
 const userAgent = option(args, '--user-agent') ?? DEFAULT_USER_AGENT;
 
 const comparison = JSON.parse(readFileSync(comparisonPath, 'utf8'));
 const overrideData = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, 'utf8')) : { overrides: [] };
 const aliasData = existsSync(aliasesPath) ? JSON.parse(readFileSync(aliasesPath, 'utf8')) : { aliases: [] };
+const creditGapData = existsSync(creditGapsPath) ? JSON.parse(readFileSync(creditGapsPath, 'utf8')) : { gaps: [] };
 const overrides = buildDiscogsMasterOverrideMap(overrideData);
 const aliases = buildDiscogsCreditSearchAliasMap(aliasData);
+const creditGaps = buildDiscogsCreditGapOverrideMap(creditGapData);
 const albums = (comparison.albums ?? []).slice(0, limit ?? Infinity);
 const searchDir = join(cacheDir, 'master-search');
 const masterDir = join(cacheDir, 'masters');
@@ -40,6 +44,7 @@ mkdirSync(releaseDir, { recursive: true });
 const mastersByAlbumId = new Map();
 const review = [];
 const gaps = [];
+const documentedGaps = [];
 let networkFetches = 0;
 
 for (let index = 0; index < albums.length; index += 1) {
@@ -55,6 +60,12 @@ for (let index = 0; index < albums.length; index += 1) {
   const selected = selectDiscogsMasterForAlbum(queryAlbum, search.results ?? [], overrides);
 
   if (selected.status === 'gap') {
+    const approvedGap = creditGaps.get(album.id);
+    if (approvedGap) {
+      documentedGaps.push(documentedGapItem(album, approvedGap, selected.reason));
+      console.log(`${index + 1}/${albums.length} documented gap ${album.artist} — ${album.album}`);
+      continue;
+    }
     gaps.push(gapItem(album, selected.reason));
     console.log(`${index + 1}/${albums.length} gap ${album.artist} — ${album.album}`);
     continue;
@@ -95,7 +106,7 @@ for (let index = 0; index < albums.length; index += 1) {
 }
 
 const cachedAlbums = albums.filter((album) => mastersByAlbumId.has(album.id));
-const generated = buildAlbumCreditCandidates({ albums: cachedAlbums, discogsMastersByAlbumId: mastersByAlbumId });
+const generated = buildAlbumCreditCandidates({ albums: cachedAlbums, discogsMastersByAlbumId: mastersByAlbumId, creditGapOverrides: creditGaps });
 const output = {
   ...generated,
   generatedAt: null,
@@ -107,8 +118,10 @@ const output = {
     delayMs,
     overridesPath,
     aliasesPath,
+    creditGapsPath,
     approvedOverrides: overrides.size,
-    approvedAliases: aliases.size
+    approvedAliases: aliases.size,
+    approvedCreditGaps: creditGaps.size
   },
   scope: {
     comparisonPath,
@@ -119,6 +132,7 @@ const output = {
     ...candidate,
     source: { ...candidate.source, system: 'discogs-release-cache' }
   })),
+  documentedGaps: [...documentedGaps, ...(generated.documentedGaps ?? [])],
   review: [...review, ...generated.review],
   gaps: [...gaps, ...generated.gaps].filter((gap, index, all) => all.findIndex((item) => item.albumId === gap.albumId) === index)
 };
@@ -128,6 +142,7 @@ console.log(`Discogs credit scope: ${albums.length} albums`);
 console.log(`Discogs credit candidates: ${output.candidates.length}`);
 console.log(`Discogs credit review: ${output.review.length}`);
 console.log(`Discogs credit gaps: ${output.gaps.length}`);
+console.log(`Discogs credit documented gaps: ${output.documentedGaps.length}`);
 console.log(`Network fetches: ${networkFetches}`);
 console.log(`Output: ${outputPath}`);
 console.log(`Raw cache: ${cacheDir}`);
@@ -178,6 +193,15 @@ function discogsSearchUrl(album) {
 
 function gapItem(album, reason) {
   return { albumId: album.id, artist: album.artist, album: album.album, releaseYear: album.releaseYear ?? null, reason };
+}
+
+function documentedGapItem(album, override, sourceGapReason) {
+  return {
+    ...gapItem(album, 'approved-credit-gap'),
+    sourceGapReason,
+    reviewReason: override.reason ?? null,
+    ...(override.sourceCachePath ? { sourceCachePath: override.sourceCachePath } : {})
+  };
 }
 
 function reviewItem(album, reason, results) {

@@ -88,3 +88,34 @@ test('routes source cache with no usable credits to review instead of creating e
   assert.equal(result.review.length, 1);
   assert.equal(result.review[0].reason, 'source-cache-without-usable-credits');
 });
+
+test('moves approved empty-source credit gaps out of the unresolved review queue', () => {
+  const result = buildAlbumCreditCandidates({
+    albums: [album],
+    discogsMastersByAlbumId: new Map([[album.id, { master: { id: 1, title: 'Empty', credits: [], extraartists: [] }, cachePath: 'cache.json' }]]),
+    creditGapOverrides: new Map([[album.id, {
+      albumId: album.id,
+      status: 'approved',
+      reason: 'Reviewed source cache and found no usable album-level credits or studio data.'
+    }]])
+  });
+
+  assert.deepEqual(result.candidates, []);
+  assert.deepEqual(result.review, []);
+  assert.deepEqual(result.gaps, []);
+  assert.deepEqual(result.documentedGaps, [{
+    albumId: album.id,
+    artist: album.artist,
+    album: album.album,
+    releaseYear: album.releaseYear,
+    reason: 'approved-credit-gap',
+    reviewReason: 'Reviewed source cache and found no usable album-level credits or studio data.',
+    source: {
+      system: 'discogs-master-cache',
+      id: '1',
+      title: 'Empty',
+      url: null,
+      cachePath: 'cache.json'
+    }
+  }]);
+});

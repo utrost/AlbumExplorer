@@ -17,12 +17,16 @@ test('static app exposes comparison browser controls, metadata markers, and rela
   assert.match(app, /album-metadata-source-candidates\.json/);
   assert.match(app, /derived-relationships\.js/);
   assert.match(app, /focused-graph-view\.js/);
+  assert.match(app, /path-finder\.js/);
   assert.match(app, /data-testid="comparison-search"/);
   assert.match(app, /data-testid="edition-filter"/);
   assert.match(app, /data-testid="metadata-filter"/);
   assert.match(app, /data-testid="related-albums"/);
   assert.match(app, /data-testid="focused-graph"/);
+  assert.match(app, /data-testid="path-finder"/);
+  assert.match(app, /data-testid="path-destination"/);
   assert.match(app, /Focused graph/);
+  assert.match(app, /Path finder/);
   assert.match(app, /Related albums/);
   assert.match(app, /MusicBrainz/);
 });

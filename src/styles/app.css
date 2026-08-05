@@ -299,6 +299,73 @@ code {
   padding: 10px;
 }
 
+.path-finder {
+  background: #100c0a;
+  border: 1px solid #332721;
+  border-radius: 14px;
+  display: grid;
+  gap: 10px;
+  margin: 0 0 18px;
+  padding: 10px;
+}
+
+.path-finder label {
+  color: #d7a86e;
+  display: grid;
+  font-size: 0.72rem;
+  font-weight: 800;
+  gap: 6px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.path-finder select {
+  background: #17110e;
+  border: 1px solid #3a2e27;
+  border-radius: 10px;
+  color: #f5eee5;
+  font: inherit;
+  min-height: 38px;
+  padding: 0 10px;
+}
+
+.path-steps {
+  display: grid;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.path-steps li {
+  border-top: 1px solid #332721;
+  padding-top: 8px;
+}
+
+.path-steps button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  font: inherit;
+  gap: 6px;
+  padding: 0;
+  text-align: left;
+}
+
+.path-steps p {
+  color: #bdaea0;
+  font-size: 0.82rem;
+  margin: 4px 0 0;
+}
+
+.path-steps button:hover strong {
+  color: #f4c481;
+}
+
 .focused-graph svg {
   display: block;
   height: auto;

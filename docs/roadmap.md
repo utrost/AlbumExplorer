@@ -219,6 +219,8 @@ Goal: show local neighborhoods without creating a whole-collection hairball.
 
 ## Phase 6 — Path finding between albums
 
+Status: first BFS path-finder slice shipped in `src/graph/path-finder.js` and the selected-album detail panel. It supports direct and multi-hop paths up to a bounded depth, preserves relationship explanations for each hop, handles no-path/same-album results, and includes model-level relationship-type filtering for future UI controls.
+
 Goal: answer “how are these two albums connected?” in plain language.
 
 ### Deliverables

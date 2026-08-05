@@ -3,6 +3,7 @@ import { buildIndexes } from './data/indexes.js';
 import { buildEnrichedComparisonRows, filterRows, sortRows } from './data/enriched-comparison.js';
 import { buildAlbumRelationships, getRelatedAlbums } from './data/derived-relationships.js';
 import { buildFocusedGraph } from './views/focused-graph-view.js';
+import { findAlbumPath } from './graph/path-finder.js';
 
 const app = document.querySelector('#app');
 const state = {
@@ -14,6 +15,7 @@ const state = {
   indexes: null,
   sourceCandidates: null,
   relationships: null,
+  pathDestinationId: null,
   filters: {
     search: '',
     editionYear: 'all',
@@ -43,6 +45,7 @@ async function start() {
     state.rows = buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates });
     state.relationships = buildAlbumRelationships(state.rows, { minimumWeight: 2.0 });
     state.selectedId = state.rows[0]?.id ?? null;
+    state.pathDestinationId = state.rows[1]?.id ?? state.rows[0]?.id ?? null;
     renderApp();
   } catch (error) {
     renderError(error);
@@ -71,6 +74,7 @@ function renderApp() {
   state.selectedId = selected?.id ?? null;
   const relatedAlbums = selected ? getRelatedAlbums(selected.id, state.rows, state.relationships, { limit: 6 }) : [];
   const focusedGraph = selected ? buildFocusedGraph({ selectedAlbumId: selected.id, rows: state.rows, relationships: state.relationships, limit: 10 }) : null;
+  const pathResult = selected && state.pathDestinationId ? findAlbumPath({ startAlbumId: selected.id, endAlbumId: state.pathDestinationId, relationships: state.relationships, maxDepth: 3 }) : null;
 
   app.innerHTML = `
     <header class="hero">
@@ -106,7 +110,7 @@ function renderApp() {
         <div class="table-wrap">
           ${renderComparisonTable(state.filteredRows.slice(0, 250))}
         </div>
-        ${selected ? renderAlbumDetail(selected, relatedAlbums, focusedGraph) : '<aside class="detail-panel"><p>No album selected.</p></aside>'}
+        ${selected ? renderAlbumDetail(selected, relatedAlbums, focusedGraph, pathResult) : '<aside class="detail-panel"><p>No album selected.</p></aside>'}
       </div>
     </section>
 
@@ -205,7 +209,7 @@ function renderComparisonRow(row) {
   `;
 }
 
-function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null) {
+function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null, pathResult = null) {
   return `
     <aside class="detail-panel" data-testid="album-detail">
       <p class="eyebrow">Selected album</p>
@@ -224,10 +228,51 @@ function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null) {
       </ol>
       <h3>Focused graph</h3>
       ${renderFocusedGraph(focusedGraph)}
+      <h3>Path finder</h3>
+      ${renderPathFinder(row, pathResult)}
       <h3>Related albums</h3>
       ${renderRelatedAlbums(relatedAlbums)}
       ${row.musicBrainzUrl ? `<p><a class="external-link" href="${escapeAttribute(row.musicBrainzUrl)}" target="_blank" rel="noreferrer">Open MusicBrainz release group</a></p>` : '<p class="muted">No MusicBrainz release-group link yet.</p>'}
     </aside>
+  `;
+}
+
+function renderPathFinder(row, pathResult) {
+  const destinationId = state.pathDestinationId ?? row.id;
+  const rowById = new Map(state.rows.map((item) => [item.id, item]));
+  return `
+    <section class="path-finder" data-testid="path-finder">
+      <label>Destination
+        <select data-testid="path-destination" name="pathDestinationId">
+          ${state.rows.slice(0, 250).map((album) => option(album.id, `${album.artist} — ${album.album}`, destinationId)).join('')}
+        </select>
+      </label>
+      ${renderPathResult(pathResult, rowById)}
+    </section>
+  `;
+}
+
+function renderPathResult(pathResult, rowById) {
+  if (!pathResult) return '<p class="muted">Choose a destination to find a path.</p>';
+  if (!pathResult.found) return `<p class="muted">No path found within ${pathResult.maxDepth} hops.</p>`;
+  if (pathResult.reason === 'same-album') return '<p class="muted">Start and destination are the same album.</p>';
+  return `
+    <ol class="path-steps">
+      ${pathResult.hops.map((hop) => {
+        const from = rowById.get(hop.from);
+        const to = rowById.get(hop.to);
+        return `
+          <li>
+            <button type="button" data-path-album-id="${escapeAttribute(hop.to)}">
+              <strong>${escapeHtml(from?.album ?? hop.from)}</strong>
+              <span>→</span>
+              <strong>${escapeHtml(to?.album ?? hop.to)}</strong>
+            </button>
+            <p>${escapeHtml(hop.relationship.explanations[0] ?? hop.relationship.types.join(', '))}</p>
+          </li>
+        `;
+      }).join('')}
+    </ol>
   `;
 }
 
@@ -315,6 +360,14 @@ function bindInteractions() {
     node.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') selectAlbum(node.dataset.graphAlbumId);
     });
+  }
+  const pathDestination = app.querySelector('[data-testid="path-destination"]');
+  pathDestination?.addEventListener('change', () => {
+    state.pathDestinationId = pathDestination.value;
+    renderApp();
+  });
+  for (const button of app.querySelectorAll('[data-path-album-id]')) {
+    button.addEventListener('click', () => selectAlbum(button.dataset.pathAlbumId));
   }
 }
 

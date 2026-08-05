@@ -5,6 +5,15 @@ import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipEvidence
 import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { findAlbumPath } from './graph/path-finder.js';
 
+const APP_RELATIONSHIP_TYPES = [
+  'shared-label',
+  'shared-producer',
+  'shared-engineer',
+  'shared-studio',
+  'shared-songwriter',
+  'shared-musician'
+];
+
 const app = document.querySelector('#app');
 const state = {
   rows: [],
@@ -47,7 +56,7 @@ async function start() {
     state.sourceCandidates = sourceCandidates;
     state.creditCandidates = creditCandidates;
     state.rows = buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates });
-    state.relationships = buildAlbumRelationships(state.rows, { minimumWeight: 2.0, creditCandidates: creditCandidates.candidates ?? [] });
+    state.relationships = buildAlbumRelationships(state.rows, { minimumWeight: 2.0, allowedTypes: APP_RELATIONSHIP_TYPES, creditCandidates: creditCandidates.candidates ?? [] });
     state.selectedId = state.rows[0]?.id ?? null;
     state.pathDestinationId = state.rows[1]?.id ?? state.rows[0]?.id ?? null;
     renderApp();
@@ -261,9 +270,6 @@ function renderRelationshipTypeFilter() {
         ${option('shared-studio', 'Studios/locations', state.relationshipTypeFilter)}
         ${option('shared-songwriter', 'Songwriters', state.relationshipTypeFilter)}
         ${option('shared-musician', 'Musicians/performers', state.relationshipTypeFilter)}
-        ${option('shared-genre', 'Genres/tags', state.relationshipTypeFilter)}
-        ${option('same-list-edition', 'Rolling Stone editions', state.relationshipTypeFilter)}
-        ${option('adjacent-release-period', 'Adjacent release period', state.relationshipTypeFilter)}
       </select>
     </label>
   `;

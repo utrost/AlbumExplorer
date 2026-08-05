@@ -22,20 +22,36 @@ const RULES = [
   }
 ];
 
+const CREDIT_RULES = [
+  { creditType: 'producer', relationshipType: 'shared-producer', weight: 3.0, explain: (name) => `Both albums credit ${name} as producer.` },
+  { creditType: 'engineer', relationshipType: 'shared-engineer', weight: 2.4, explain: (name) => `Both albums credit ${name} as engineer.` },
+  { creditType: 'songwriter', relationshipType: 'shared-songwriter', weight: 2.2, explain: (name) => `Both albums credit ${name} as songwriter.` },
+  { creditType: 'musician', relationshipType: 'shared-musician', weight: 1.8, explain: (name) => `Both albums credit ${name} as musician/performer.` }
+];
+
+const RELATIONSHIP_TYPE_ORDER = [
+  ...RULES.map((rule) => rule.type),
+  ...CREDIT_RULES.map((rule) => rule.relationshipType),
+  'shared-studio',
+  'adjacent-release-period'
+];
+
 export function buildAlbumRelationships(rows, options = {}) {
   const minimumWeight = options.minimumWeight ?? DEFAULT_MINIMUM_WEIGHT;
-  const relationships = [];
+  const allowedTypeSet = new Set(options.allowedTypes ?? []);
+  const typeIsAllowed = (type) => allowedTypeSet.size === 0 || allowedTypeSet.has(type);
   const sortedRows = [...(rows ?? [])].sort((left, right) => compareText(left.id, right.id));
-  const creditCandidateByAlbumId = new Map((options.creditCandidates ?? []).map((candidate) => [candidate.albumId, candidate]));
+  const rowById = new Map(sortedRows.map((row) => [row.id, row]));
+  const pairBuilders = new Map();
 
-  for (let leftIndex = 0; leftIndex < sortedRows.length; leftIndex += 1) {
-    for (let rightIndex = leftIndex + 1; rightIndex < sortedRows.length; rightIndex += 1) {
-      const relationship = buildPairRelationship(sortedRows[leftIndex], sortedRows[rightIndex], creditCandidateByAlbumId);
-      if (relationship && relationship.weight >= minimumWeight) relationships.push(relationship);
-    }
-  }
+  for (const rule of RULES.filter((rule) => typeIsAllowed(rule.type))) addIndexedMetadataParts(pairBuilders, sortedRows, rule);
+  addIndexedCreditParts(pairBuilders, rowById, options.creditCandidates ?? [], typeIsAllowed);
+  if (typeIsAllowed('adjacent-release-period')) addAdjacentReleasePeriodParts(pairBuilders, sortedRows);
 
-  relationships.sort(compareRelationships);
+  const relationships = [...pairBuilders.values()]
+    .map(finalizePairRelationship)
+    .filter((relationship) => relationship.weight >= minimumWeight)
+    .sort(compareRelationships);
   return relationships;
 }
 
@@ -76,26 +92,122 @@ export function matchingRelationshipEvidence(relationship, allowedTypes = []) {
   return (relationship?.explanations ?? []).map((text) => ({ type: 'explanation', text }));
 }
 
-function buildPairRelationship(left, right, creditCandidateByAlbumId = new Map()) {
-  const parts = [];
-  for (const rule of RULES) {
-    const sharedValues = sharedDisplayValues(rule.values(left), rule.values(right));
-    if (sharedValues.length === 0) continue;
-    const selectedValues = sharedValues.slice(0, RELATIONSHIP_LIMIT_PER_PAIR);
-    parts.push({
-      type: rule.type,
-      weight: rule.weight * selectedValues.length,
-      explanations: selectedValues.map(rule.explain)
+function addIndexedMetadataParts(pairBuilders, rows, rule) {
+  const rowsByValue = new Map();
+  for (const row of rows) {
+    const uniqueValues = uniqueDisplayValues(rule.values(row));
+    for (const value of uniqueValues) {
+      const key = normalize(value);
+      if (!key) continue;
+      if (!rowsByValue.has(key)) rowsByValue.set(key, { displayValue: value, rows: [] });
+      rowsByValue.get(key).rows.push(row);
+    }
+  }
+
+  for (const { displayValue, rows: sharedRows } of rowsByValue.values()) {
+    addPairwiseValue(sharedRows, (left, right) => {
+      addExplanationPart(pairBuilders, left, right, rule.type, rule.weight, rule.explain(displayValue));
+    });
+  }
+}
+
+function addIndexedCreditParts(pairBuilders, rowById, creditCandidates, typeIsAllowed = () => true) {
+  const candidates = (creditCandidates ?? []).filter((candidate) => rowById.has(candidate.albumId));
+  const candidateByAlbumId = new Map(candidates.map((candidate) => [candidate.albumId, candidate]));
+
+  for (const rule of CREDIT_RULES.filter((rule) => typeIsAllowed(rule.relationshipType))) {
+    const candidatesByName = groupCandidatesByCreditName(candidates, rule.creditType);
+    for (const { displayName, candidates: sharedCandidates } of candidatesByName.values()) {
+      addPairwiseValue(sharedCandidates, (leftCandidate, rightCandidate) => {
+        const left = rowById.get(leftCandidate.albumId);
+        const right = rowById.get(rightCandidate.albumId);
+        const provenance = relationshipProvenance(leftCandidate, rightCandidate);
+        addExplanationPart(
+          pairBuilders,
+          left,
+          right,
+          rule.relationshipType,
+          rule.weight,
+          explanationWithProvenance(rule.explain(displayName), provenance)
+        );
+      });
+    }
+  }
+
+  if (!typeIsAllowed('shared-studio')) return candidateByAlbumId;
+  const candidatesByStudio = groupCandidatesByStudioName(candidates);
+  for (const { displayName, candidates: sharedCandidates } of candidatesByStudio.values()) {
+    addPairwiseValue(sharedCandidates, (leftCandidate, rightCandidate) => {
+      const left = rowById.get(leftCandidate.albumId);
+      const right = rowById.get(rightCandidate.albumId);
+      const provenance = relationshipProvenance(leftCandidate, rightCandidate);
+      addExplanationPart(
+        pairBuilders,
+        left,
+        right,
+        'shared-studio',
+        2.6,
+        explanationWithProvenance(`Both albums are connected to the studio/location ${displayName}.`, provenance)
+      );
     });
   }
 
-  const creditParts = creditRelationshipParts(creditCandidateByAlbumId.get(left.id), creditCandidateByAlbumId.get(right.id));
-  parts.push(...creditParts);
+  return candidateByAlbumId;
+}
 
-  const releaseYearPart = adjacentReleasePeriodPart(left, right);
-  if (releaseYearPart) parts.push(releaseYearPart);
+function addAdjacentReleasePeriodParts(pairBuilders, rows) {
+  const rowsByYear = new Map();
+  for (const row of rows) {
+    if (!Number.isInteger(row.releaseYear)) continue;
+    if (!rowsByYear.has(row.releaseYear)) rowsByYear.set(row.releaseYear, []);
+    rowsByYear.get(row.releaseYear).push(row);
+  }
 
-  if (parts.length === 0) return null;
+  for (const row of rows) {
+    if (!Number.isInteger(row.releaseYear)) continue;
+    for (const yearDelta of [1, 2]) {
+      for (const other of rowsByYear.get(row.releaseYear + yearDelta) ?? []) {
+        addExplanationPart(
+          pairBuilders,
+          row,
+          other,
+          'adjacent-release-period',
+          yearDelta === 1 ? 0.6 : 0.4,
+          `Both albums were released within ${yearDelta} year${yearDelta === 1 ? '' : 's'} of each other.`
+        );
+      }
+    }
+  }
+}
+
+function addPairwiseValue(items, callback) {
+  const sortedItems = [...items].sort((left, right) => compareText(left.id ?? left.albumId, right.id ?? right.albumId));
+  for (let leftIndex = 0; leftIndex < sortedItems.length; leftIndex += 1) {
+    for (let rightIndex = leftIndex + 1; rightIndex < sortedItems.length; rightIndex += 1) {
+      callback(sortedItems[leftIndex], sortedItems[rightIndex]);
+    }
+  }
+}
+
+function addExplanationPart(pairBuilders, left, right, type, weightPerExplanation, explanation) {
+  if (!left || !right || left.id === right.id) return;
+  const [from, to] = compareText(left.id, right.id) <= 0 ? [left, right] : [right, left];
+  const pairKey = `${from.id}::${to.id}`;
+  if (!pairBuilders.has(pairKey)) {
+    pairBuilders.set(pairKey, { pairKey, from: from.id, to: to.id, parts: new Map() });
+  }
+  const pair = pairBuilders.get(pairKey);
+  if (!pair.parts.has(type)) pair.parts.set(type, { type, weightPerExplanation, explanations: [] });
+  pair.parts.get(type).explanations.push(explanation);
+}
+
+function finalizePairRelationship(pair) {
+  const parts = RELATIONSHIP_TYPE_ORDER
+    .map((type) => pair.parts.get(type))
+    .filter(Boolean)
+    .map(finalizePart)
+    .filter((part) => part.explanations.length > 0);
+
   const types = parts.map((part) => part.type);
   const typedExplanations = parts.flatMap((part) => part.explanations.map((explanation) => {
     if (typeof explanation === 'string') return { type: part.type, text: explanation };
@@ -104,9 +216,9 @@ function buildPairRelationship(left, right, creditCandidateByAlbumId = new Map()
   const explanations = typedExplanations.map((item) => item.text);
   const weight = Number(parts.reduce((sum, part) => sum + part.weight, 0).toFixed(2));
   return {
-    pairKey: `${left.id}::${right.id}`,
-    from: left.id,
-    to: right.id,
+    pairKey: pair.pairKey,
+    from: pair.from,
+    to: pair.to,
     types,
     weight,
     explanations,
@@ -114,42 +226,61 @@ function buildPairRelationship(left, right, creditCandidateByAlbumId = new Map()
   };
 }
 
-function creditRelationshipParts(leftCandidate, rightCandidate) {
-  if (!leftCandidate || !rightCandidate) return [];
-  const provenance = relationshipProvenance(leftCandidate, rightCandidate);
-  return [
-    creditPart(leftCandidate, rightCandidate, 'producer', 'shared-producer', 3.0, (name) => `Both albums credit ${name} as producer.`, provenance),
-    creditPart(leftCandidate, rightCandidate, 'engineer', 'shared-engineer', 2.4, (name) => `Both albums credit ${name} as engineer.`, provenance),
-    creditPart(leftCandidate, rightCandidate, 'songwriter', 'shared-songwriter', 2.2, (name) => `Both albums credit ${name} as songwriter.`, provenance),
-    creditPart(leftCandidate, rightCandidate, 'musician', 'shared-musician', 1.8, (name) => `Both albums credit ${name} as musician/performer.`, provenance),
-    studioPart(leftCandidate, rightCandidate, provenance)
-  ].filter(Boolean);
-}
-
-function creditPart(leftCandidate, rightCandidate, creditType, relationshipType, weight, explain, provenance) {
-  const sharedNames = sharedDisplayValues(
-    (leftCandidate.credits ?? []).filter((credit) => credit.type === creditType).map((credit) => credit.name),
-    (rightCandidate.credits ?? []).filter((credit) => credit.type === creditType).map((credit) => credit.name)
-  ).slice(0, RELATIONSHIP_LIMIT_PER_PAIR);
-  if (sharedNames.length === 0) return null;
+function finalizePart(part) {
+  const explanations = uniqueExplanations(part.explanations)
+    .sort(compareExplanation)
+    .slice(0, RELATIONSHIP_LIMIT_PER_PAIR);
   return {
-    type: relationshipType,
-    weight: weight * sharedNames.length,
-    explanations: sharedNames.map((name) => explanationWithProvenance(explain(name), provenance))
+    type: part.type,
+    weight: part.weightPerExplanation * explanations.length,
+    explanations
   };
 }
 
-function studioPart(leftCandidate, rightCandidate, provenance) {
-  const sharedNames = sharedDisplayValues(
-    (leftCandidate.studios ?? []).map((studio) => studio.name),
-    (rightCandidate.studios ?? []).map((studio) => studio.name)
-  ).slice(0, RELATIONSHIP_LIMIT_PER_PAIR);
-  if (sharedNames.length === 0) return null;
-  return {
-    type: 'shared-studio',
-    weight: 2.6 * sharedNames.length,
-    explanations: sharedNames.map((name) => explanationWithProvenance(`Both albums are connected to the studio/location ${name}.`, provenance))
-  };
+function uniqueDisplayValues(values) {
+  const byNormalized = new Map();
+  for (const value of values ?? []) {
+    const key = normalize(value);
+    if (!key || byNormalized.has(key)) continue;
+    byNormalized.set(key, value);
+  }
+  return [...byNormalized.values()].sort(compareText);
+}
+
+function uniqueExplanations(explanations) {
+  const byText = new Map();
+  for (const explanation of explanations ?? []) {
+    const text = typeof explanation === 'string' ? explanation : explanation.text;
+    if (!text || byText.has(text)) continue;
+    byText.set(text, explanation);
+  }
+  return [...byText.values()];
+}
+
+function groupCandidatesByCreditName(candidates, creditType) {
+  const byName = new Map();
+  for (const candidate of candidates) {
+    for (const name of uniqueDisplayValues((candidate.credits ?? []).filter((credit) => credit.type === creditType).map((credit) => credit.name))) {
+      const key = normalize(name);
+      if (!key) continue;
+      if (!byName.has(key)) byName.set(key, { displayName: name, candidates: [] });
+      byName.get(key).candidates.push(candidate);
+    }
+  }
+  return byName;
+}
+
+function groupCandidatesByStudioName(candidates) {
+  const byName = new Map();
+  for (const candidate of candidates) {
+    for (const name of uniqueDisplayValues((candidate.studios ?? []).map((studio) => studio.name))) {
+      const key = normalize(name);
+      if (!key) continue;
+      if (!byName.has(key)) byName.set(key, { displayName: name, candidates: [] });
+      byName.get(key).candidates.push(candidate);
+    }
+  }
+  return byName;
 }
 
 function explanationWithProvenance(text, provenance) {
@@ -180,36 +311,18 @@ function candidateSourceProvenance(candidate) {
   };
 }
 
-function adjacentReleasePeriodPart(left, right) {
-  if (!Number.isInteger(left.releaseYear) || !Number.isInteger(right.releaseYear)) return null;
-  const yearDelta = Math.abs(left.releaseYear - right.releaseYear);
-  if (yearDelta === 0 || yearDelta > 2) return null;
-  return {
-    type: 'adjacent-release-period',
-    weight: yearDelta === 1 ? 0.6 : 0.4,
-    explanations: [`Both albums were released within ${yearDelta} year${yearDelta === 1 ? '' : 's'} of each other.`]
-  };
-}
-
-function sharedDisplayValues(leftValues, rightValues) {
-  const rightByNormalized = new Map((rightValues ?? []).map((value) => [normalize(value), value]).filter(([key]) => key));
-  const seen = new Set();
-  const shared = [];
-  for (const leftValue of leftValues ?? []) {
-    const key = normalize(leftValue);
-    if (!key || seen.has(key) || !rightByNormalized.has(key)) continue;
-    seen.add(key);
-    shared.push(leftValue);
-  }
-  return shared.sort(compareText);
-}
-
 function compareRelated(left, right) {
   return right.relationship.weight - left.relationship.weight || compareText(left.album.artist, right.album.artist) || compareText(left.album.album, right.album.album);
 }
 
 function compareRelationships(left, right) {
   return right.weight - left.weight || compareText(left.from, right.from) || compareText(left.to, right.to);
+}
+
+function compareExplanation(left, right) {
+  const leftText = typeof left === 'string' ? left : left.text;
+  const rightText = typeof right === 'string' ? right : right.text;
+  return compareText(leftText, rightText);
 }
 
 function compareText(left, right) {

@@ -1,6 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { performance } from 'node:perf_hooks';
 import { buildAlbumRelationships, getRelatedAlbums } from '../../src/data/derived-relationships.js';
+import { buildEnrichedComparisonRows } from '../../src/data/enriched-comparison.js';
 
 const rows = [
   {
@@ -199,4 +202,21 @@ test('omits weak genre-only relationships unless they meet the minimum weight', 
 
   assert.deepEqual(buildAlbumRelationships(genreOnlyRows), []);
   assert.deepEqual(buildAlbumRelationships(genreOnlyRows, { minimumWeight: 0.5 }).map((relationship) => relationship.types), [['shared-genre']]);
+});
+
+test('builds the app startup relationship layer fast enough for browser startup', () => {
+  const comparison = JSON.parse(readFileSync('data/rolling-stone-comparison.json', 'utf8'));
+  const candidates = JSON.parse(readFileSync('data/enrichment/album-metadata-candidates.json', 'utf8'));
+  const sourceCandidates = JSON.parse(readFileSync('data/enrichment/album-metadata-source-candidates.json', 'utf8'));
+  const creditCandidates = JSON.parse(readFileSync('data/enrichment/album-credit-candidates.json', 'utf8'));
+  const fullRows = buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates });
+  const appRelationshipTypes = ['shared-label', 'shared-producer', 'shared-engineer', 'shared-studio', 'shared-songwriter', 'shared-musician'];
+
+  const startedAt = performance.now();
+  const relationships = buildAlbumRelationships(fullRows, { minimumWeight: 2.0, allowedTypes: appRelationshipTypes, creditCandidates: creditCandidates.candidates ?? [] });
+  const elapsedMs = performance.now() - startedAt;
+
+  assert.equal(fullRows.length, 760);
+  assert.equal(relationships.length, 9007);
+  assert.ok(elapsedMs < 1500, `relationship build took ${elapsedMs.toFixed(1)}ms`);
 });

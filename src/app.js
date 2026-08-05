@@ -6,8 +6,7 @@ import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { findAlbumPath } from './graph/path-finder.js';
 import {
   buildDiscogsReviewQueue,
-  discogsMasterOverrideSnippet,
-  discogsSearchAliasSnippet,
+  discogsReviewSnippet,
   filterDiscogsReviewQueue,
   nextDiscogsReviewItem
 } from './data/discogs-credit-review-helper.js';
@@ -292,13 +291,28 @@ function renderDiscogsReviewItem(item) {
         ${renderDiscogsSourceCandidates(item)}
       </div>
       <div class="review-snippet-box">
-        <h4>${item.recommendedAction === 'add-search-alias' ? 'Alias row' : 'Override row'}</h4>
-        <p class="muted">Copy this into ${item.recommendedAction === 'add-search-alias' ? '<code>data/review/discogs-credit-search-aliases.json</code>' : '<code>data/review/discogs-credit-master-overrides.json</code>'}, then rerun the import/review scripts.</p>
-        <pre data-testid="discogs-review-snippet"><code>${escapeHtml(snippet)}</code></pre>
-        <button class="copy-button" type="button" data-copy-review-snippet>Copy JSON snippet</button>
-        <button class="copy-button secondary" type="button" data-next-discogs-review>Next case</button>
+        ${snippet ? renderDiscogsCopySnippet(item, snippet) : renderDiscogsInspectNotice(item)}
       </div>
     </article>
+  `;
+}
+
+function renderDiscogsCopySnippet(item, snippet) {
+  return `
+    <h4>${item.recommendedAction === 'add-search-alias' ? 'Alias row' : 'Override row'}</h4>
+    <p class="muted">Copy this into ${item.recommendedAction === 'add-search-alias' ? '<code>data/review/discogs-credit-search-aliases.json</code>' : '<code>data/review/discogs-credit-master-overrides.json</code>'}, then rerun the import/review scripts.</p>
+    <pre data-testid="discogs-review-snippet"><code>${escapeHtml(snippet)}</code></pre>
+    <button class="copy-button" type="button" data-copy-review-snippet>Copy JSON snippet</button>
+    <button class="copy-button secondary" type="button" data-next-discogs-review>Next case</button>
+  `;
+}
+
+function renderDiscogsInspectNotice(item) {
+  return `
+    <h4>Needs inspection</h4>
+    <p class="muted">This case is <code>${escapeHtml(item.recommendedAction)}</code>. The selected source did not produce usable credit/studio facts, so the helper will not generate a misleading override or alias snippet.</p>
+    <p class="muted">Inspect the cached Discogs master/release payload, choose an alternate source if one exists, or leave it as a documented gap.</p>
+    <button class="copy-button secondary" type="button" data-next-discogs-review>Next case</button>
   `;
 }
 
@@ -328,8 +342,7 @@ function selectedDiscogsCandidate(item) {
 }
 
 function discogsSnippetForItem(item, selectedCandidate) {
-  if (item.recommendedAction === 'add-search-alias' || !selectedCandidate) return discogsSearchAliasSnippet(item);
-  return discogsMasterOverrideSnippet(item, selectedCandidate);
+  return discogsReviewSnippet(item, selectedCandidate);
 }
 
 function renderComparisonTable(rows) {

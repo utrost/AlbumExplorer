@@ -67,6 +67,12 @@ export function discogsSearchAliasSnippet(item, alias = {}) {
   }, null, 2);
 }
 
+export function discogsReviewSnippet(item, selectedCandidate = null) {
+  if (item?.recommendedAction === 'add-search-alias') return discogsSearchAliasSnippet(item);
+  if (item?.recommendedAction === 'approve-master-override' && selectedCandidate) return discogsMasterOverrideSnippet(item, selectedCandidate);
+  return null;
+}
+
 function formatAlbumName(item) {
   const year = item.releaseYear == null ? 'unknown year' : item.releaseYear;
   return `${item.artist ?? 'Unknown artist'} — ${item.album ?? 'Unknown album'} (${year})`;

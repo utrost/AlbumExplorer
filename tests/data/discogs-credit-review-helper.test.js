@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   buildDiscogsReviewQueue,
   discogsMasterOverrideSnippet,
+  discogsReviewSnippet,
   discogsSearchAliasSnippet,
   filterDiscogsReviewQueue,
   nextDiscogsReviewItem
@@ -107,4 +108,19 @@ test('creates a copyable search alias snippet for no-exact-result gaps', () => {
     releaseYear: 1999,
     reason: 'Alias Discogs credit search to reviewed artist/title for Elvis Presley — The Sun Sessions (1999).'
   });
+});
+
+test('does not create a misleading paste snippet for inspect-only review cases', () => {
+  const item = {
+    kind: 'review',
+    albumId: 'album-beatles-white-album-1968',
+    artist: 'The Beatles',
+    album: 'White Album',
+    releaseYear: 1968,
+    reason: 'source-cache-without-usable-credits',
+    recommendedAction: 'inspect-release-or-mark-gap',
+    sourceCandidates: []
+  };
+
+  assert.equal(discogsReviewSnippet(item), null);
 });

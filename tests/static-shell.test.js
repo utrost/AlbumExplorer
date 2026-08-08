@@ -9,26 +9,15 @@ test('static shell loads the AlbumExplorer app module', () => {
   assert.match(html, /<script type="module" src="\.\/src\/app\.js"><\/script>/);
 });
 
-test('static app exposes comparison browser controls, metadata markers, and related albums', () => {
+test('static app exposes explorer-first controls, app dataset, and relationship views', () => {
   const app = readFileSync('src/app.js', 'utf8');
 
-  assert.match(app, /rolling-stone-comparison\.json/);
-  assert.match(app, /album-metadata-candidates\.json/);
-  assert.match(app, /album-metadata-source-candidates\.json/);
-  assert.match(app, /album-credit-candidates\.json/);
-  assert.match(app, /discogs-credit-review-report\.json/);
-  assert.match(app, /discogs-credit-review-helper\.js/);
-  assert.match(app, /data-testid="discogs-review-helper"/);
-  assert.match(app, /data-testid="discogs-review-snippet"/);
-  assert.match(app, /data-testid="discogs-source-diagnostics"/);
-  assert.match(app, /Source diagnostics/);
-  assert.match(app, /Track-level credits/);
-  assert.match(app, /Cache path/);
-  assert.match(app, /approve-master-override/);
-  assert.match(app, /add-search-alias/);
-  assert.match(app, /approved-credit-gap/);
-  assert.match(app, /discogs-credit-gap-overrides\.json/);
-  assert.match(app, /Copy JSON snippet/);
+  assert.match(app, /data\/app\/album-atlas\.json/);
+  assert.doesNotMatch(app, /discogs-credit-review-report\.json/);
+  assert.doesNotMatch(app, /discogs-credit-review-helper\.js/);
+  assert.doesNotMatch(app, /data-testid="discogs-review-helper"/);
+  assert.match(app, /sanitized exploration data/);
+  assert.match(app, /explicit unknowns/);
   assert.match(app, /derived-relationships\.js/);
   assert.match(app, /shared-producer/);
   assert.match(app, /shared-engineer/);

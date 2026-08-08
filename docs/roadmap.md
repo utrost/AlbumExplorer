@@ -1,9 +1,9 @@
 # AlbumExplorer Roadmap
 
-Status: initial roadmap from the v0.1 project specification  
-Last updated: 2026-08-04
+Status: explorer-first course correction after v0.1 data/enrichment work  
+Last updated: 2026-08-08
 
-AlbumExplorer should grow from a small, static, file-owned prototype into a personal collection atlas. The roadmap keeps the first implementation narrow: prove the data model, validation, browsing, explainable relationships, and focused graph exploration before adding local editing, richer visualizations, or enrichment workflows.
+AlbumExplorer should grow into a personal album atlas. The current correction is explicit: Hermes owns data sanitation/enrichment behind the scenes, while the public app centers exploration of the 760 Rolling Stone album identities. Review queues and candidate files may exist, but they are internal infrastructure unless a curator judgment is genuinely needed.
 
 This document describes phases, exit criteria, and candidate tasks. It is intentionally implementation-facing rather than aspirational.
 
@@ -11,11 +11,34 @@ This document describes phases, exit criteria, and candidate tasks. It is intent
 
 The project succeeds when it can answer these questions from local, version-controlled data:
 
-- Which albums are in the collection, wanted, missing, ordered, sold, or outside the collecting scope?
-- Where does each album appear in the Rolling Stone list editions, and how did its rank change?
+- Which albums make up the Rolling Stone 760-identity universe across the 2003, 2012, 2020, and 2024 editions?
+- Where does each album appear in the list editions, and how did its rank change?
+- What metadata is known, what is merely baseline, and what is explicitly unknown?
 - Why are two albums connected?
 - What nearby albums, people, studios, labels, genres, places, or lists are worth exploring from a selected album?
-- How can the curator export changes back into files that belong in the repository?
+- How can Hermes keep improving raw/enrichment data without making the curator triage hundreds of technical cases?
+
+## Current course correction
+
+The visible product is now the explorer. The internal data pipeline should produce a clean app dataset:
+
+```text
+raw imports/cache/review artifacts
+        ↓
+sanitizing and dataset builder
+        ↓
+data/app/album-atlas.json
+        ↓
+search, filters, detail, graph, paths
+```
+
+Rules:
+
+- Unknowns are valid data states, not failures.
+- Review queues are internal/debug tooling unless Uwe’s taste, ownership, or interpretation is required.
+- The public UI should load `data/app/album-atlas.json`, not raw review reports.
+- A relationship can be shown when it has an explanation and provenance/confidence good enough for exploration.
+- Data-quality dashboards should guide Hermes’s cleanup work, not become the main app experience.
 
 ## Guiding constraints
 

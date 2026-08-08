@@ -10,24 +10,19 @@ This is not meant to become only a catalogue. The interesting question is:
 
 ## Current status
 
-The project now has a first executable file-first slice:
+The project has been re-centered on an explorer-first slice: the app now loads a clean generated atlas dataset from `data/app/album-atlas.json` instead of making the Discogs/MusicBrainz review workflow the visible product surface.
 
-- Node-based Rolling Stone CSV importer.
-- Optional Discogs enrichment script for imported master-release metadata, genres/styles, and cover candidates.
-- Normalized `data/collection.json` seed generated from the first 20 CSV rows.
-- Collection validator that separates fatal errors from warnings and metadata gaps.
-- Generated Rolling Stone comparison dataset with approved alias review for stable cross-edition album identities.
-- Reviewable album metadata enrichment workflow that keeps candidates, overrides, and review gaps outside the canonical collection until accepted.
-- MusicBrainz release-group importer with cached raw API responses and external source candidates for 553 of 760 comparison albums.
-- Discogs credit-source importer across the full 760-album comparison set, preserving raw search/master/release caches, applying reviewed master overrides/search aliases, and generating 433 reviewable producer/engineer/songwriter/musician/studio candidates plus a 327-item review queue.
-- Static case-by-case Discogs credit review helper that loads the unresolved review report, filters by kind/reason/search, shows source candidates and inspect-only source diagnostics, and generates copyable JSON snippets for approved master overrides or search aliases without writing to canonical data.
-- Static Rolling Stone comparison browser for 760 album identities with search, filters, rank history, metadata status, album detail panel, explainable related-album suggestions, a focused SVG relationship graph, an album-to-album path finder, and relationship-type filters that highlight matching explanations in atlas views.
-- The live browser builds a responsive strong relationship layer by default: shared labels plus Discogs producer, engineer, studio, songwriter, and musician/performer edges. Broad genre/list/adjacent-period edges stay in the model but are not materialized in the startup UI until density controls exist.
-- Relationship explanations preserve Discogs provenance for credit/studio-derived edges and show compact source badges linking back to the release/master evidence when available.
-- Deterministic derived relationship layer for shared labels, genres/tags, list editions, adjacent release periods, producers, engineers, studios, songwriters, and musicians/performers.
+What exists now:
+
+- Node-based Rolling Stone importers for the 2003, 2012, 2020, and 2024 list sources.
+- Stable cross-edition comparison data for **760 album identities**.
+- MusicBrainz release-group enrichment for identity/date/tag/source metadata where strict matches are available.
+- Discogs credit/studio candidate extraction used to power producer, engineer, songwriter, musician, and studio relationships.
+- `npm run build:app-dataset`, which merges comparison/enrichment/credit outputs into the app-facing `data/app/album-atlas.json` file with explicit data-quality states.
+- Static Rolling Stone atlas browser with search, filters, rank history, metadata status, album detail panel, explainable related albums, focused SVG relationship graph, album-to-album path finder, and relationship-type filters.
+- Internal review/debug artifacts for Hermes to improve data quality without turning Uwe into the triage workflow.
 - GitHub Pages deployment workflow for the static app.
-- Plain static browser page that loads the seed data and lists albums with validation status.
-- Node test suite for importer, validator, indexes, and static shell.
+- Node test suite for importers, validators, enrichment, app-dataset generation, relationship logic, and the static shell.
 
 ## Live app
 
@@ -47,7 +42,7 @@ npm run build:rolling-stone-comparison
 npm run import:musicbrainz
 npm run enrich:album-metadata
 npm run import:discogs-credits
-npm run build:discogs-credit-review
+npm run build:app-dataset
 python3 -m http.server 4173
 ```
 
@@ -64,13 +59,15 @@ http://127.0.0.1:4173/
 - **Album ≠ physical copy:** the abstract album and the owned pressing are modelled separately.
 - **Relationships over inventory:** ownership matters, but the graph of people, places, labels, studios, lists, and notes is the main value.
 - **Explainable connections:** every visible relationship should say why it exists.
-- **Small first slice:** start with 10–20 carefully chosen albums before trying to model the full collection.
+- **Small first slice:** preserve the tiny seed for schema validation, but make the main product slice the 760-album Rolling Stone atlas.
+- **Explorer over review queues:** review/debug artifacts are internal infrastructure; the public app should load a clean app dataset with explicit unknowns.
 
 ## Documentation
 
 - [Project specification](docs/specification.md) — original full product specification.
 - [Roadmap / phases](docs/roadmap.md) — implementation phases and exit criteria.
 - [Data specification](docs/data-spec.md) — what metadata to collect and how to structure it.
+- [App exploration dataset](docs/app-dataset.md) — clean generated atlas consumed by the public app, with explicit quality states and unknowns.
 - [Rolling Stone CSV import notes](docs/imports/rolling-stone-top-500-csv.md) — mapping and quality notes for the first 2012/2020 source dataset.
 - [Rolling Stone 2003 full text import notes](docs/imports/rolling-stone-2003-full-text.md) — parsed full 2003 list source and remaining metadata gaps.
 - [Rolling Stone 2012 simple text import notes](docs/imports/rolling-stone-2012-simple-text.md) — parsed full 2012 list source from rank-dot rows.

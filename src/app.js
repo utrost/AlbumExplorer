@@ -1,16 +1,9 @@
 import { validateCollection } from './data/validator.js';
 import { buildIndexes } from './data/indexes.js';
-import { buildEnrichedComparisonRows, filterRows, sortRows } from './data/enriched-comparison.js';
+import { filterRows, sortRows } from './data/enriched-comparison.js';
 import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipEvidence, matchingRelationshipExplanations } from './data/derived-relationships.js';
 import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { findAlbumPath } from './graph/path-finder.js';
-import {
-  buildDiscogsReviewQueue,
-  discogsCreditGapSnippet,
-  discogsReviewSnippet,
-  filterDiscogsReviewQueue,
-  nextDiscogsReviewItem
-} from './data/discogs-credit-review-helper.js';
 
 const MIN_SEARCH_CHARACTERS = 3;
 
@@ -31,16 +24,7 @@ const state = {
   collection: null,
   validation: null,
   indexes: null,
-  sourceCandidates: null,
-  creditCandidates: null,
-  discogsReviewReport: null,
-  discogsReviewSelectedId: null,
-  discogsReviewCandidateId: null,
-  discogsReviewFilters: {
-    search: '',
-    kind: 'all',
-    reason: 'all'
-  },
+  atlas: null,
   relationships: null,
   pathDestinationId: null,
   relationshipTypeFilter: 'all',
@@ -58,25 +42,18 @@ start();
 
 async function start() {
   try {
-    const [collection, comparison, candidates, sourceCandidates, creditCandidates, discogsReviewReport] = await Promise.all([
+    const [collection, atlas] = await Promise.all([
       loadJson('./data/collection.json'),
-      loadJson('./data/rolling-stone-comparison.json'),
-      loadJson('./data/enrichment/album-metadata-candidates.json'),
-      loadJson('./data/enrichment/album-metadata-source-candidates.json'),
-      loadJson('./data/enrichment/album-credit-candidates.json'),
-      loadJson('./data/review/discogs-credit-review-report.json')
+      loadJson('./data/app/album-atlas.json')
     ]);
     const validation = validateCollection(collection);
     const indexes = buildIndexes(collection);
     state.collection = collection;
     state.validation = validation;
     state.indexes = indexes;
-    state.sourceCandidates = sourceCandidates;
-    state.creditCandidates = creditCandidates;
-    state.discogsReviewReport = discogsReviewReport;
-    state.discogsReviewSelectedId = discogsReviewReport.items?.[0]?.albumId ?? null;
-    state.rows = buildEnrichedComparisonRows({ comparison, candidates, sourceCandidates });
-    state.relationships = buildAlbumRelationships(state.rows, { minimumWeight: 2.0, allowedTypes: APP_RELATIONSHIP_TYPES, creditCandidates: creditCandidates.candidates ?? [] });
+    state.atlas = atlas;
+    state.rows = atlas.albums ?? [];
+    state.relationships = atlas.relationships ?? buildAlbumRelationships(state.rows, { minimumWeight: 2.0, allowedTypes: APP_RELATIONSHIP_TYPES });
     state.selectedId = state.rows[0]?.id ?? null;
     state.pathDestinationId = state.rows[1]?.id ?? state.rows[0]?.id ?? null;
     renderApp();
@@ -97,25 +74,17 @@ function renderApp() {
   const collection = state.collection;
   const validation = state.validation;
   const indexes = state.indexes;
-  const sourceCandidates = state.sourceCandidates;
-  const creditCandidates = state.creditCandidates;
+  const atlas = state.atlas;
   const fatal = validation.errors.length > 0;
-  const musicBrainzCount = state.rows.filter((row) => row.metadataStatus === 'musicbrainz').length;
-  const baselineCount = state.rows.filter((row) => row.metadataStatus === 'baseline').length;
-  const fourEditionCount = state.rows.filter((row) => row.editionCount === 4).length;
+  const musicBrainzCount = atlas?.summary?.musicBrainzMatched ?? state.rows.filter((row) => row.metadataStatus === 'musicbrainz').length;
+  const baselineCount = atlas?.summary?.rollingStoneBaseline ?? state.rows.filter((row) => row.metadataStatus === 'baseline').length;
+  const creditCandidateCount = atlas?.summary?.creditCandidateAlbums ?? 0;
+  const creditUnknownCount = atlas?.summary?.creditUnknownAlbums ?? 0;
+  const fourEditionCount = atlas?.summary?.fourEditionAlbums ?? state.rows.filter((row) => row.editionCount === 4).length;
   state.filteredRows = sortRows(filterRows(state.rows, state.filters), state.sortKey);
   const selected = state.filteredRows.find((row) => row.id === state.selectedId) ?? state.filteredRows[0] ?? state.rows[0];
   state.selectedId = selected?.id ?? null;
   const activeRelationshipTypes = state.relationshipTypeFilter === 'all' ? [] : [state.relationshipTypeFilter];
-  const discogsReviewItems = filterDiscogsReviewQueue(state.discogsReviewReport?.items ?? [], state.discogsReviewFilters);
-  if (!discogsReviewItems.some((item) => item.albumId === state.discogsReviewSelectedId)) {
-    state.discogsReviewSelectedId = discogsReviewItems[0]?.albumId ?? null;
-    state.discogsReviewCandidateId = null;
-  }
-  const discogsReviewQueue = buildDiscogsReviewQueue(
-    { ...state.discogsReviewReport, items: discogsReviewItems, summary: { ...state.discogsReviewReport?.summary, unresolved: discogsReviewItems.length } },
-    { selectedAlbumId: state.discogsReviewSelectedId }
-  );
   const relatedAlbums = selected ? getRelatedAlbums(selected.id, state.rows, state.relationships, { limit: 6, allowedTypes: activeRelationshipTypes }) : [];
   const focusedGraph = selected ? buildFocusedGraph({ selectedAlbumId: selected.id, rows: state.rows, relationships: state.relationships, limit: 10, allowedTypes: activeRelationshipTypes }) : null;
   const pathResult = selected && state.pathDestinationId ? findAlbumPath({ startAlbumId: selected.id, endAlbumId: state.pathDestinationId, relationships: state.relationships, maxDepth: 3, allowedTypes: activeRelationshipTypes }) : null;
@@ -124,7 +93,7 @@ function renderApp() {
     <header class="hero">
       <p class="eyebrow">File-first Rolling Stone atlas</p>
       <h1>AlbumExplorer</h1>
-      <p class="lede">Browse ${state.rows.length} stable album identities across the Rolling Stone 500 editions, with reviewable MusicBrainz metadata layered on top.</p>
+      <p class="lede">Browse ${state.rows.length} stable album identities across the Rolling Stone 500 editions, with sanitized exploration data and explicit unknowns instead of a user-facing review queue.</p>
     </header>
 
     <section class="panel ${fatal ? 'panel-error' : ''}">
@@ -135,20 +104,17 @@ function renderApp() {
         <li><strong>${baselineCount}</strong><span>Rolling Stone baseline</span></li>
         <li><strong>${fourEditionCount}</strong><span>in all 4 editions</span></li>
         <li><strong>${state.relationships.length}</strong><span>explainable relationships</span></li>
-        <li><strong>${creditCandidates.candidates?.length ?? 0}</strong><span>credit candidates</span></li>
-        <li><strong>${sourceCandidates.review?.length ?? 0}</strong><span>MB review</span></li>
-        <li><strong>${sourceCandidates.gaps?.length ?? 0}</strong><span>MB gaps</span></li>
+        <li><strong>${creditCandidateCount}</strong><span>credit-rich albums</span></li>
+        <li><strong>${creditUnknownCount}</strong><span>explicit credit unknowns</span></li>
       </ul>
-      ${fatal ? renderMessages(validation.errors.slice(0, 10)) : '<p class="ok">No fatal seed validation errors. Generated comparison and enrichment data loaded.</p>'}
+      ${fatal ? renderMessages(validation.errors.slice(0, 10)) : '<p class="ok">No fatal seed validation errors. Clean app dataset loaded from <code>data/app/album-atlas.json</code>.</p>'}
     </section>
-
-    ${renderDiscogsReviewHelper(discogsReviewQueue)}
 
     <section class="panel browser-panel">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Comparison browser</p>
-          <h2>Rolling Stone 500 × metadata</h2>
+          <p class="eyebrow">Explorer first</p>
+          <h2>Rolling Stone 500 atlas</h2>
         </div>
         <p class="muted">Showing <strong>${state.filteredRows.length}</strong> of ${state.rows.length}</p>
       </div>
@@ -209,12 +175,12 @@ function renderControls() {
           ${option('baseline', 'Rolling Stone baseline', state.filters.metadataStatus)}
         </select>
       </label>
-      <label>MB status
+      <label>Source status
         <select name="musicBrainzMatchStatus">
-          ${option('all', 'Any MB status', state.filters.musicBrainzMatchStatus)}
+          ${option('all', 'Any source status', state.filters.musicBrainzMatchStatus)}
           ${option('matched', 'Matched', state.filters.musicBrainzMatchStatus)}
-          ${option('gap', 'Gap', state.filters.musicBrainzMatchStatus)}
-          ${option('review', 'Review', state.filters.musicBrainzMatchStatus)}
+          ${option('gap', 'Unknown', state.filters.musicBrainzMatchStatus)}
+          ${option('review', 'Ambiguous', state.filters.musicBrainzMatchStatus)}
         </select>
       </label>
       <label>Sort
@@ -228,152 +194,6 @@ function renderControls() {
       </label>
     </form>
   `;
-}
-
-function renderDiscogsReviewHelper(queue) {
-  const report = state.discogsReviewReport;
-  const current = queue.current;
-  return `
-    <section class="panel review-helper" data-testid="discogs-review-helper">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Discogs credit review</p>
-          <h2>Case-by-case review helper</h2>
-        </div>
-        <p class="muted">${escapeHtml(queue.progressLabel)}</p>
-      </div>
-      <ul class="metrics compact-metrics">
-        <li><strong>${report?.summary?.unresolved ?? 0}</strong><span>total unresolved</span></li>
-        <li><strong>${report?.summary?.review ?? 0}</strong><span>review items</span></li>
-        <li><strong>${report?.summary?.gaps ?? 0}</strong><span>gaps</span></li>
-        <li><strong>${queue.items.length}</strong><span>shown after filters</span></li>
-      </ul>
-      <p class="muted">Supports <code>approve-master-override</code>, <code>add-search-alias</code>, and inspected <code>approved-credit-gap</code> cases without writing to canonical data.</p>
-      ${renderDiscogsReviewControls(report)}
-      ${current ? renderDiscogsReviewItem(current) : '<p class="muted">No unresolved item matches these filters.</p>'}
-    </section>
-  `;
-}
-
-function renderDiscogsReviewControls(report) {
-  const reasons = [...new Set((report?.items ?? []).map((item) => item.reason).filter(Boolean))].sort();
-  return `
-    <form class="controls review-controls" data-testid="discogs-review-controls">
-      <label>Search unresolved
-        <input name="discogsReviewSearch" type="search" placeholder="artist, album, reason, candidate ID" value="${escapeAttribute(state.discogsReviewFilters.search)}">
-      </label>
-      <label>Kind
-        <select name="discogsReviewKind">
-          ${option('all', 'Any kind', state.discogsReviewFilters.kind)}
-          ${option('review', 'Review', state.discogsReviewFilters.kind)}
-          ${option('gap', 'Gap', state.discogsReviewFilters.kind)}
-        </select>
-      </label>
-      <label>Reason
-        <select name="discogsReviewReason">
-          ${option('all', 'Any reason', state.discogsReviewFilters.reason)}
-          ${reasons.map((reason) => option(reason, reason, state.discogsReviewFilters.reason)).join('')}
-        </select>
-      </label>
-    </form>
-  `;
-}
-
-function renderDiscogsReviewItem(item) {
-  const selectedCandidate = selectedDiscogsCandidate(item);
-  const snippet = discogsSnippetForItem(item, selectedCandidate);
-  return `
-    <article class="review-case">
-      <div class="review-case-main">
-        <p class="eyebrow">${escapeHtml(item.kind)} · ${escapeHtml(item.reason)}</p>
-        <h3>${escapeHtml(item.artist ?? 'Unknown artist')} — ${escapeHtml(item.album ?? 'Unknown album')}</h3>
-        <p class="muted">${item.releaseYear ?? 'unknown year'} · latest rank ${item.latestRank ? `#${item.latestRank}` : 'unknown'} · action: <code>${escapeHtml(item.recommendedAction)}</code></p>
-        <h4>Source candidates</h4>
-        ${renderDiscogsSourceCandidates(item)}
-        ${renderDiscogsSourceDiagnostics(item.sourceDiagnostics)}
-      </div>
-      <div class="review-snippet-box">
-        ${snippet ? renderDiscogsCopySnippet(item, snippet) : renderDiscogsInspectNotice(item)}
-      </div>
-    </article>
-  `;
-}
-
-function renderDiscogsCopySnippet(item, snippet) {
-  const target = discogsSnippetTarget(item);
-  return `
-    <h4>${target.label}</h4>
-    <p class="muted">Copy this into <code>${target.path}</code>, then rerun the import/review scripts.</p>
-    <pre data-testid="discogs-review-snippet"><code>${escapeHtml(snippet)}</code></pre>
-    <button class="copy-button" type="button" data-copy-review-snippet>Copy JSON snippet</button>
-    <button class="copy-button secondary" type="button" data-next-discogs-review>Next case</button>
-  `;
-}
-
-function discogsSnippetTarget(item) {
-  if (item.recommendedAction === 'add-search-alias') return { label: 'Alias row', path: 'data/review/discogs-credit-search-aliases.json' };
-  if (item.recommendedAction === 'inspect-release-or-mark-gap') return { label: 'Reviewed credit gap row', path: 'data/review/discogs-credit-gap-overrides.json' };
-  return { label: 'Override row', path: 'data/review/discogs-credit-master-overrides.json' };
-}
-
-function renderDiscogsInspectNotice(item) {
-  return `
-    <h4>Needs inspection</h4>
-    <p class="muted">This case is <code>${escapeHtml(item.recommendedAction)}</code>. The selected source did not produce usable credit/studio facts, so the helper will not generate a misleading override or alias snippet.</p>
-    <p class="muted">Inspect the cached Discogs master/release payload, choose an alternate source if one exists, or leave it as a documented gap.</p>
-    <button class="copy-button secondary" type="button" data-next-discogs-review>Next case</button>
-  `;
-}
-
-function renderDiscogsSourceDiagnostics(diagnostics) {
-  if (!diagnostics) return '';
-  return `
-    <section class="source-diagnostics" data-testid="discogs-source-diagnostics">
-      <h4>Source diagnostics</h4>
-      <dl class="diagnostic-grid">
-        <div><dt>Source</dt><dd>${escapeHtml(diagnostics.sourceSystem ?? 'unknown')} · ${escapeHtml(diagnostics.sourceTitle ?? diagnostics.sourceId ?? 'unknown')}</dd></div>
-        <div><dt>Master ID</dt><dd>${escapeHtml(diagnostics.masterId ?? 'none')}</dd></div>
-        <div><dt>Release ID</dt><dd>${escapeHtml(diagnostics.releaseId ?? 'none')}</dd></div>
-        <div><dt>Payload kind</dt><dd>${escapeHtml(diagnostics.payloadKind ?? 'unknown')}</dd></div>
-        <div><dt>Cache path</dt><dd><code>${escapeHtml(diagnostics.cachePath ?? 'none')}</code>${diagnostics.cacheAvailable ? '' : ' · missing'}</dd></div>
-        <div><dt>Top-level credits</dt><dd>${diagnostics.topLevelCreditCount ?? 0}</dd></div>
-        <div><dt>Companies</dt><dd>${diagnostics.usableCompanyCount ?? 0} usable of ${diagnostics.companyCount ?? 0}</dd></div>
-        <div><dt>Track-level credits</dt><dd>${diagnostics.trackExtraArtistCount ?? 0} credit rows across ${diagnostics.trackCount ?? 0} tracks</dd></div>
-        <div><dt>Suggested next action</dt><dd><code>${escapeHtml(diagnostics.suggestedAction ?? 'inspect-source')}</code></dd></div>
-      </dl>
-      ${diagnostics.sourceUrl ? `<p><a class="external-link" href="${escapeAttribute(diagnostics.sourceUrl)}" target="_blank" rel="noreferrer">Open selected Discogs source</a></p>` : ''}
-    </section>
-  `;
-}
-
-function renderDiscogsSourceCandidates(item) {
-  if (!item.sourceCandidates?.length) return '<p class="muted">No source candidates. Use the alias snippet as a starting point, edit artist/title if needed, then rerun.</p>';
-  return `
-    <ol class="candidate-list">
-      ${item.sourceCandidates.map((candidate, index) => {
-        const checked = selectedDiscogsCandidate(item)?.id === candidate.id ? 'checked' : '';
-        return `
-          <li>
-            <label>
-              <input type="radio" name="discogsReviewCandidate" value="${escapeAttribute(candidate.id)}" ${checked || (!state.discogsReviewCandidateId && index === 0) ? 'checked' : ''}>
-              <strong>${escapeHtml(candidate.id)}</strong>
-              <span>${escapeHtml(candidate.title ?? 'untitled')}${candidate.year ? ` (${escapeHtml(candidate.year)})` : ''}</span>
-            </label>
-            ${candidate.url ? `<a class="external-link" href="${escapeAttribute(candidate.url)}" target="_blank" rel="noreferrer">Open Discogs master</a>` : ''}
-          </li>
-        `;
-      }).join('')}
-    </ol>
-  `;
-}
-
-function selectedDiscogsCandidate(item) {
-  return item.sourceCandidates?.find((candidate) => candidate.id === state.discogsReviewCandidateId) ?? item.sourceCandidates?.[0] ?? null;
-}
-
-function discogsSnippetForItem(item, selectedCandidate) {
-  if (item.recommendedAction === 'inspect-release-or-mark-gap') return discogsCreditGapSnippet(item);
-  return discogsReviewSnippet(item, selectedCandidate);
 }
 
 function renderComparisonTable(rows) {
@@ -416,7 +236,7 @@ function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null, pathRes
       <dl class="detail-list">
         <div><dt>Release date</dt><dd>${escapeHtml(row.releaseDate ?? 'not enriched yet')}</dd></div>
         <div><dt>Metadata source</dt><dd>${renderMetadataBadge(row)}</dd></div>
-        <div><dt>MusicBrainz status</dt><dd>${escapeHtml(row.musicBrainzMatchStatus)}</dd></div>
+        <div><dt>Source status</dt><dd>${formatSourceStatus(row.musicBrainzMatchStatus)}</dd></div>
         <div><dt>Labels</dt><dd>${escapeHtml(row.labels.join(', ') || 'none yet')}</dd></div>
         <div><dt>Genres/tags</dt><dd>${escapeHtml(formatList(row.genres, 10))}</dd></div>
       </dl>
@@ -573,6 +393,13 @@ function renderMetadataBadge(row) {
   return `<span class="metadata-badge ${escapeAttribute(row.metadataStatus)}">${label}</span>`;
 }
 
+function formatSourceStatus(status) {
+  if (status === 'matched') return 'Matched';
+  if (status === 'gap') return 'Unknown';
+  if (status === 'review') return 'Ambiguous';
+  return status ? String(status).replace(/-/g, ' ') : 'unknown';
+}
+
 function renderSeedAlbum(album, indexes) {
   const appearances = indexes.listAppearancesByAlbumId.get(album.id) ?? [];
   const artist = indexes.artistsById.get(album.primaryArtistId);
@@ -589,29 +416,6 @@ function bindInteractions() {
   const controls = app.querySelector('[data-testid="comparison-controls"]');
   controls?.addEventListener('input', updateFromControls);
   controls?.addEventListener('change', updateFromControls);
-  const reviewControls = app.querySelector('[data-testid="discogs-review-controls"]');
-  reviewControls?.addEventListener('input', updateFromDiscogsReviewControls);
-  reviewControls?.addEventListener('change', updateFromDiscogsReviewControls);
-  for (const radio of app.querySelectorAll('input[name="discogsReviewCandidate"]')) {
-    radio.addEventListener('change', () => {
-      state.discogsReviewCandidateId = radio.value;
-      renderApp();
-    });
-  }
-  const copyReviewSnippet = app.querySelector('[data-copy-review-snippet]');
-  copyReviewSnippet?.addEventListener('click', async () => {
-    const text = app.querySelector('[data-testid="discogs-review-snippet"]')?.textContent ?? '';
-    await navigator.clipboard?.writeText(text);
-    copyReviewSnippet.textContent = 'Copied';
-  });
-  const nextReview = app.querySelector('[data-next-discogs-review]');
-  nextReview?.addEventListener('click', () => {
-    const items = filterDiscogsReviewQueue(state.discogsReviewReport?.items ?? [], state.discogsReviewFilters);
-    const next = nextDiscogsReviewItem(items, state.discogsReviewSelectedId);
-    state.discogsReviewSelectedId = next?.albumId ?? null;
-    state.discogsReviewCandidateId = null;
-    renderApp();
-  });
   for (const row of app.querySelectorAll('.comparison-row')) {
     row.addEventListener('click', () => selectAlbum(row.dataset.albumId));
     row.addEventListener('keydown', (event) => {
@@ -656,18 +460,6 @@ function updateFromControls(event) {
   if (event.target?.name === 'search' && shouldSkipShortSearchRender(state.filters.search, nextFilters.search)) return;
   state.filters = nextFilters;
   state.sortKey = nextSortKey;
-  renderApp();
-}
-
-function updateFromDiscogsReviewControls(event) {
-  const form = event.currentTarget;
-  const data = new FormData(form);
-  state.discogsReviewFilters = {
-    search: data.get('discogsReviewSearch') ?? '',
-    kind: data.get('discogsReviewKind') ?? 'all',
-    reason: data.get('discogsReviewReason') ?? 'all'
-  };
-  state.discogsReviewCandidateId = null;
   renderApp();
 }
 

@@ -6,6 +6,7 @@ import {
   buildDiscogsMasterOverrideMap,
   discogsCreditSearchCacheKey,
   discogsSearchAlbumFor,
+  selectDiscogsImportAlbums,
   selectDiscogsMasterForAlbum
 } from '../../src/data/discogs-credit-source-import.js';
 
@@ -134,4 +135,40 @@ test('builds a map of approved credit gap reviews only', () => {
 
   assert.equal(gaps.size, 1);
   assert.equal(gaps.get(album.id).reason, 'Empty source reviewed.');
+});
+
+test('uses the profile gap report to select only albums missing requested content fields', () => {
+  const comparison = {
+    albums: [
+      { id: 'album-a', artist: 'Artist A', album: 'Album A' },
+      { id: 'album-b', artist: 'Artist B', album: 'Album B' },
+      { id: 'album-c', artist: 'Artist C', album: 'Album C' }
+    ]
+  };
+  const profileGaps = {
+    items: [
+      { albumId: 'album-c', latestRank: 3, missing: ['composerCredits'] },
+      { albumId: 'album-a', latestRank: 1, missing: ['tracklist', 'coverArt'] }
+    ]
+  };
+
+  const selected = selectDiscogsImportAlbums({ comparison, profileGaps, missingFields: ['tracklist', 'coverArt'] });
+
+  assert.deepEqual(selected.map((item) => item.id), ['album-a']);
+});
+
+test('accepts a unique exact Discogs title when the local baseline year is a later compilation/list year', () => {
+  const selected = selectDiscogsMasterForAlbum({
+    id: 'album-elvis-presley-the-sun-sessions-1999',
+    artist: 'Elvis Presley',
+    album: 'The Sun Sessions',
+    releaseYear: 1999
+  }, [
+    { type: 'master', master_id: 198268, title: 'Elvis Presley - The Sun Sessions', year: '1976' },
+    { type: 'master', master_id: 287032, title: 'Elvis Presley - The Sun Sessions CD (Elvis Presley Commemorative Issue)', year: '1987' }
+  ]);
+
+  assert.equal(selected.status, 'matched');
+  assert.equal(selected.reason, 'unique-exact-discogs-master-title-result-year-mismatch');
+  assert.equal(String(selected.result.master_id), '198268');
 });

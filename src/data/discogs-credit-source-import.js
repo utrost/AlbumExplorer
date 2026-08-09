@@ -34,8 +34,19 @@ export function buildDiscogsCreditGapOverrideMap({ gaps = [] } = {}) {
     .map((gap) => [gap.albumId, { ...gap }]));
 }
 
+export function selectDiscogsImportAlbums({ comparison = {}, profileGaps = null, missingFields = [] } = {}) {
+  const albums = comparison.albums ?? [];
+  if (!profileGaps) return albums;
+  const requestedFields = new Set(missingFields);
+  const gapIds = new Set((profileGaps.items ?? [])
+    .filter((item) => !requestedFields.size || (item.missing ?? []).some((field) => requestedFields.has(field)))
+    .map((item) => item.albumId));
+  return albums.filter((album) => gapIds.has(album.id));
+}
+
 export function selectDiscogsMasterForAlbum(album, results = [], overrides = new Map()) {
   const exact = exactDiscogsMasterSearchResults(album, results);
+  const titleExact = exactDiscogsMasterTitleResults(album, results);
   const override = overrides.get?.(album.id);
   if (override) {
     const approved = exact.find((result) => String(result.master_id ?? result.id) === String(override.discogsMasterId));
@@ -48,6 +59,10 @@ export function selectDiscogsMasterForAlbum(album, results = [], overrides = new
   }
   if (exact.length === 1) return { status: 'matched', reason: 'unique-exact-discogs-master-search-result', result: exact[0] };
   if (exact.length > 1) return { status: 'ambiguous', reason: 'ambiguous-discogs-master-search-result', results: exact };
+  if (titleExact.length === 1) {
+    return { status: 'matched', reason: 'unique-exact-discogs-master-title-result-year-mismatch', result: titleExact[0] };
+  }
+  if (titleExact.length > 1) return { status: 'ambiguous', reason: 'ambiguous-discogs-master-title-result-year-mismatch', results: titleExact };
   return { status: 'gap', reason: 'no-exact-discogs-master-search-result' };
 }
 
@@ -59,6 +74,16 @@ export function exactDiscogsMasterSearchResults(album, results = []) {
     if (normalizedResultTitle !== normalizedAlbumTitle && !normalizedResultTitle.endsWith(` ${normalizedAlbumTitle}`)) return false;
     const year = Number(result.year);
     return !album.releaseYear || !Number.isInteger(year) || Math.abs(album.releaseYear - year) <= 1;
+  });
+}
+
+function exactDiscogsMasterTitleResults(album, results = []) {
+  return (results ?? []).filter((result) => {
+    if ((result.type ?? '').toLowerCase() !== 'master') return false;
+    const normalizedResultTitle = normalizeTitle(result.title);
+    const normalizedAlbumTitle = normalizeTitle(album.album);
+    const normalizedArtistAlbumTitle = normalizeTitle([album.artist, album.album].filter(Boolean).join(' '));
+    return normalizedResultTitle === normalizedAlbumTitle || normalizedResultTitle === normalizedArtistAlbumTitle;
   });
 }
 

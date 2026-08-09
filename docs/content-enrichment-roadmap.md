@@ -152,7 +152,7 @@ Why this first:
 
 Deliverables:
 
-- Use missing-profile gap report as input.
+- Use missing-profile gap report as input via `npm run import:discogs-profile-gaps`, which writes `data/enrichment/album-credit-profile-gap-candidates.json` without overwriting the main all-albums credit candidate layer. Current run notes live in [`imports/discogs-profile-gap-import.md`](imports/discogs-profile-gap-import.md).
 - Add alias/fuzzy matching for common album identity variants:
   - punctuation and subtitle variants
   - `The Beatles ("The White Album")` vs `The Beatles`

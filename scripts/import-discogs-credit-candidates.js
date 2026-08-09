@@ -8,6 +8,7 @@ import {
   buildDiscogsMasterOverrideMap,
   discogsCreditSearchCacheKey,
   discogsSearchAlbumFor,
+  selectDiscogsImportAlbums,
   selectDiscogsMasterForAlbum
 } from '../src/data/discogs-credit-source-import.js';
 
@@ -20,19 +21,23 @@ const delayMs = numericOption(args, '--delay-ms') ?? 1100;
 const retryCount = numericOption(args, '--retries') ?? 4;
 const retryDelayMs = numericOption(args, '--retry-delay-ms') ?? 15000;
 const cacheDir = option(args, '--cache-dir') ?? 'data/imports/discogs';
+const profileGapsPath = option(args, '--profile-gaps');
+const missingFields = csvOption(args, '--missing');
 const overridesPath = option(args, '--overrides') ?? 'data/review/discogs-credit-master-overrides.json';
 const aliasesPath = option(args, '--aliases') ?? 'data/review/discogs-credit-search-aliases.json';
 const creditGapsPath = option(args, '--credit-gaps') ?? 'data/review/discogs-credit-gap-overrides.json';
 const userAgent = option(args, '--user-agent') ?? DEFAULT_USER_AGENT;
 
 const comparison = JSON.parse(readFileSync(comparisonPath, 'utf8'));
+const profileGaps = profileGapsPath ? JSON.parse(readFileSync(profileGapsPath, 'utf8')) : null;
 const overrideData = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, 'utf8')) : { overrides: [] };
 const aliasData = existsSync(aliasesPath) ? JSON.parse(readFileSync(aliasesPath, 'utf8')) : { aliases: [] };
 const creditGapData = existsSync(creditGapsPath) ? JSON.parse(readFileSync(creditGapsPath, 'utf8')) : { gaps: [] };
 const overrides = buildDiscogsMasterOverrideMap(overrideData);
 const aliases = buildDiscogsCreditSearchAliasMap(aliasData);
 const creditGaps = buildDiscogsCreditGapOverrideMap(creditGapData);
-const albums = (comparison.albums ?? []).slice(0, limit ?? Infinity);
+const selectedAlbums = selectDiscogsImportAlbums({ comparison, profileGaps, missingFields });
+const albums = selectedAlbums.slice(0, limit ?? Infinity);
 const searchDir = join(cacheDir, 'master-search');
 const masterDir = join(cacheDir, 'masters');
 const releaseDir = join(cacheDir, 'releases');
@@ -125,7 +130,12 @@ const output = {
   },
   scope: {
     comparisonPath,
-    selection: limit ? `first ${albums.length} comparison albums sorted by latest edition rank` : 'all comparison albums sorted by latest edition rank',
+    profileGapsPath: profileGapsPath ?? null,
+    missingFields,
+    selectedAlbumCount: selectedAlbums.length,
+    selection: profileGapsPath
+      ? `${limit ? `first ${albums.length}` : 'all'} profile-gap albums missing ${missingFields.length ? missingFields.join(', ') : 'any field'}`
+      : limit ? `first ${albums.length} comparison albums sorted by latest edition rank` : 'all comparison albums sorted by latest edition rank',
     albumCount: albums.length
   },
   candidates: generated.candidates.map((candidate) => ({
@@ -229,6 +239,12 @@ function option(args, name) {
 function numericOption(args, name) {
   const value = option(args, name);
   return value == null ? null : Number(value);
+}
+
+function csvOption(args, name) {
+  const value = option(args, name);
+  if (!value) return [];
+  return value.split(',').map((item) => item.trim()).filter(Boolean);
 }
 
 function sleep(ms) {

@@ -13,6 +13,7 @@
     "enrich:album-metadata": "node scripts/enrich-album-metadata.js",
     "import:musicbrainz": "node scripts/import-musicbrainz-source-candidates.js",
     "import:discogs-credits": "node scripts/import-discogs-credit-candidates.js",
+    "import:discogs-profile-gaps": "node scripts/import-discogs-credit-candidates.js data/rolling-stone-comparison.json data/enrichment/album-credit-profile-gap-candidates.json --profile-gaps data/enrichment/album-profile-gaps.json --missing coverArt,tracklist",
     "build:discogs-credit-review": "node scripts/build-discogs-credit-review.js",
     "build:album-profile-gaps": "node scripts/build-album-profile-gaps.js",
     "build:app-dataset": "node scripts/build-app-dataset.js"

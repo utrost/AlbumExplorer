@@ -197,18 +197,23 @@ Required for MVP:
 - `releaseYear`, when known
 - `ownershipState`
 
-Strongly recommended:
+Strongly recommended for the product-facing album page:
 
 - `sortTitle`
 - `releaseDate`
+- `cover`
+- `description`: short factual description for list/detail cards
+- `story`: longer context about why the album matters, how it was made, and its reception/influence
+- `tracklist`: ordered tracks with side/position, title, duration, and composer/songwriter credits
+- `durationSeconds`: total album length, when known
 - `genreIds`
 - `labelIds`
 - `studioIds`
 - `contributorIds`
-- `cover`
+- `credits`: structured album-level and track-level contributor credits
 - `notes`
-- `externalRefs`
-- `sourceIds`
+- `externalRefs`: compact source footnotes, not the primary user-facing content
+- `sourceIds`: provenance footnotes for internal audit/debug use
 - `tags`
 
 Useful enrichment:
@@ -218,15 +223,55 @@ Useful enrichment:
 - `recordingEndDate`
 - `language`
 - `trackCount`
-- `durationSeconds`
 - `canonicalEditionNotes`
 - `historicalImportanceSummary`
 - `recordingContextSummary`
 - `productionTechniques`
 - `influenceNotes`
 - `listeningNotes`
+- `artworkNotes`
 
 Do not put physical pressing details on the album. Use `physicalCopies` for those.
+
+## Tracklist records
+
+Tracklists are core album content, not incidental metadata. Prefer an ordered list inside the album record until a split-file model becomes necessary.
+
+```json
+{
+  "tracklist": [
+    {
+      "position": "A1",
+      "disc": 1,
+      "side": "A",
+      "sequence": 1,
+      "title": "So What",
+      "durationSeconds": 565,
+      "composerCredits": [
+        {
+          "name": "Miles Davis",
+          "personId": "person-miles-davis",
+          "creditedAs": "Miles Davis"
+        }
+      ],
+      "performerCredits": [],
+      "sourceIds": []
+    }
+  ]
+}
+```
+
+Track fields to collect:
+
+- `position`: source/display position such as `A1`, `B2`, `1-03`, or `7`
+- `disc`, `side`, and `sequence` where available
+- `title`
+- `durationSeconds`
+- `composerCredits` / `songwriterCredits` / `lyricistCredits`
+- track-specific performer/producer credits where available
+- `sourceIds` as footnotes only
+
+Use `null` for unknown duration or composer data rather than inventing filler. Album-level `durationSeconds` may be imported directly or computed from track durations when all tracks have known lengths.
 
 ## Ownership states
 

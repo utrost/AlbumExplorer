@@ -1,12 +1,12 @@
 # AlbumExplorer
 
-AlbumExplorer is a static, file-first web app for exploring a personal vinyl collection as a relationship atlas.
+AlbumExplorer is a static, file-first web app for exploring a personal vinyl collection as an album atlas.
 
-The first focus is the Rolling Stone “500 Greatest Albums of All Time” lists: which albums appear across editions, which ones are owned or missing, how rankings changed, and how albums connect through people, studios, labels, genres, places, and curator notes.
+The first focus is the Rolling Stone “500 Greatest Albums of All Time” lists: which albums appear across editions, what each album is, why it matters, what is on it, who made the songs, how long it runs, what the cover looks like, which ones are owned or missing, how rankings changed, and how albums connect through people, studios, labels, genres, places, and curator notes.
 
-This is not meant to become only a catalogue. The interesting question is:
+This is not meant to become only a metadata catalogue or source audit. The interesting questions are:
 
-> Why are these records connected, and what can I discover by following that connection?
+> What is the story of this album, what is on it, who made it, and what can I discover by following its connections?
 
 ## Current status
 
@@ -16,10 +16,10 @@ What exists now:
 
 - Node-based Rolling Stone importers for the 2003, 2012, 2020, and 2024 list sources.
 - Stable cross-edition comparison data for **760 album identities**.
-- MusicBrainz release-group enrichment for identity/date/tag/source metadata where strict matches are available.
-- Discogs credit/studio candidate extraction used to power producer, engineer, songwriter, musician, and studio relationships.
+- External-source enrichment infrastructure for album facts. MusicBrainz, Discogs, Wikipedia, and similar sources are implementation details and footnotes, not the main product surface.
+- Current enrichment can already supply identity/date/tag data and some credit/studio candidates used to power producer, engineer, songwriter, musician, and studio relationships.
 - `npm run build:app-dataset`, which merges comparison/enrichment/credit outputs into the app-facing `data/app/album-atlas.json` file with explicit data-quality states.
-- Static Rolling Stone atlas browser with search, filters, rank history, metadata status, album detail panel, explainable related albums, focused SVG relationship graph, album-to-album path finder, and relationship-type filters.
+- Static Rolling Stone atlas browser with search, filters, rank history, album detail panel, explainable related albums, focused SVG relationship graph, album-to-album path finder, and relationship-type filters.
 - Internal review/debug artifacts for Hermes to improve data quality without turning Uwe into the triage workflow.
 - GitHub Pages deployment workflow for the static app.
 - Node test suite for importers, validators, enrichment, app-dataset generation, relationship logic, and the static shell.
@@ -57,9 +57,11 @@ http://127.0.0.1:4173/
 - **Static website:** runs without a backend, account, hosted database, or third-party API.
 - **File-first data:** canonical collection data lives in readable JSON and notes that can be committed to Git.
 - **Album ≠ physical copy:** the abstract album and the owned pressing are modelled separately.
-- **Relationships over inventory:** ownership matters, but the graph of people, places, labels, studios, lists, and notes is the main value.
+- **Album story first:** the album page should foreground description/story, cover art, tracklist, durations, composers/songwriters, performers, and why the record matters.
+- **Relationships over inventory:** ownership matters, but the graph of people, places, labels, studios, lists, and notes is a discovery layer around the album, not a substitute for the album page.
 - **Explainable connections:** every visible relationship should say why it exists.
 - **Small first slice:** preserve the tiny seed for schema validation, but make the main product slice the 760-album Rolling Stone atlas.
+- **Sources as footnotes:** MusicBrainz, Discogs, Wikipedia, and other origins should remain visible as provenance links where useful, but they must not dominate labels, filters, or primary metrics.
 - **Explorer over review queues:** review/debug artifacts are internal infrastructure; the public app should load a clean app dataset with explicit unknowns.
 
 ## Documentation

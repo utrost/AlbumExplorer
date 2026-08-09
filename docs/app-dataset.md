@@ -8,11 +8,26 @@ Script: `npm run build:app-dataset`
 
 ## Why this exists
 
-AlbumExplorer is an exploration system, not a review pipeline. Raw imports, caches, candidate files, and review reports remain useful infrastructure for Hermes, but the product should answer:
+AlbumExplorer is an exploration system, not a review pipeline and not a source-status dashboard. Raw imports, caches, candidate files, and review reports remain useful infrastructure for Hermes, but the product should answer:
 
-> What can I discover by browsing these 760 album identities and their relationships?
+> What is the story of this album, what is on it, who made it, what does it look like, and what can I discover by browsing these 760 album identities and their relationships?
 
-The app dataset therefore keeps useful partial data and makes unknowns explicit. It does **not** require every external-source ambiguity to be reviewed before an album becomes explorable.
+The app dataset therefore keeps useful partial data and makes unknowns explicit. It does **not** require every external-source ambiguity to be reviewed before an album becomes explorable. Source names such as MusicBrainz, Discogs, Wikipedia, and Rolling Stone should be stored as provenance/footnotes; they should not be the main labels a viewer sees when browsing an album.
+
+## Product-facing album profile
+
+The album detail view should prioritize content and meaning:
+
+- album art / cover image
+- short description and longer album story/context
+- tracklist with side/position, track title, duration, and composer/songwriter credits
+- total length
+- album-level contributors: artist, producers, engineers, musicians, studios, labels
+- release date/year and list appearances
+- related albums and paths, explained in human terms
+- compact footnotes/provenance links for factual claims where useful
+
+Data-quality and source-status fields may remain in the JSON for Hermes and debugging, but they are secondary to the album profile.
 
 ## Inputs
 
@@ -27,8 +42,8 @@ The builder currently reads:
 
 The generated file contains:
 
-- `summary` — album count, relationship count, match counts, unknown counts.
-- `albums` — browsable album rows with ranks, metadata, external refs, and `dataQuality` blocks.
+- `summary` — album count, relationship count, content coverage counts, and internal data-quality counts.
+- `albums` — browsable album rows with ranks, story/content fields, cover art, tracklists, contributors, external refs, and `dataQuality` blocks.
 - `relationships` — deterministic relationship edges with typed explanations and provenance where available.
 - `dataQuality` — internal cleanup signals grouped as explicit unknowns/gaps, not user-facing tasks.
 
@@ -79,6 +94,6 @@ data/app/album-atlas.json
 
 ## Product rule
 
-The public UI should consume `data/app/album-atlas.json` and focus on exploration: search, filters, detail, related albums, graph, and path finding.
+The public UI should consume `data/app/album-atlas.json` and focus on exploration: album art, story, tracklist, duration, composers, search, filters, detail, related albums, graph, and path finding.
 
-Review helpers may continue to exist as internal tooling, but they should not be the primary application experience.
+Review helpers and source-match status may continue to exist as internal tooling, but they should not be the primary application experience.

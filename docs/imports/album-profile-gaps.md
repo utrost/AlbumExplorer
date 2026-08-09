@@ -1,0 +1,278 @@
+# Album profile gaps
+
+Status: generated internal enrichment report, not public app content.
+
+This report is derived from `data/app/album-atlas.json` and drives the next content-first enrichment passes. It should help Hermes choose which album profiles need better cover art, stories, tracklists, durations, and composer/songwriter/lyricist credits.
+
+## Summary
+
+- Albums: 760
+- Albums with at least one profile gap: 551
+- Missing cover art: 327
+- Missing tracklists: 327
+- Missing total duration: 399
+- Missing composer/songwriter/lyricist credits: 519
+- Missing useful story/context: 331
+
+## How to use this report
+
+Use the highest-ranked missing albums as input for the next enrichment pass:
+
+1. Prefer second-pass Discogs matching when tracklist and cover art are missing.
+2. Prefer Cover Art Archive when only cover art is missing.
+3. Prefer Wikipedia/Wikidata when story/context is missing.
+4. Prefer deeper MusicBrainz work-credit enrichment when tracklists exist but composer/songwriter/lyricist credits are absent.
+
+Keep source work internal. The public app should continue to show album content and quiet footnotes, not this gap report.
+
+## Top missing profiles by latest Rolling Stone rank
+
+1. The Beach Boys — *Pet Sounds* (1966)
+   - latest rank #2
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+2. Joni Mitchell — *Blue* (1971)
+   - latest rank #3
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+3. The Beatles — *Abbey Road* (1969)
+   - latest rank #5
+   - missing: totalDuration
+   - recommended action: enrich-existing-tracklist-and-story
+
+4. Nirvana — *Nevermind* (1991)
+   - latest rank #6
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+5. Bob Dylan — *Blood on the Tracks* (1975)
+   - latest rank #9
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+6. The Beatles — *The Beatles ("The White Album")* (1968)
+   - latest rank #10
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+7. The Beatles — *The White Album* (1968)
+   - latest rank #10
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+8. Elvis Presley — *Sunrise* (1999)
+   - latest rank #11
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+9. Elvis Presley — *The Sun Sessions* (1999)
+   - latest rank #11
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+10. The Beatles — *Revolver* (1966)
+   - latest rank #11
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+11. Public Enemy — *It Takes a Nation of Millions to Hold Us Back* (1988)
+   - latest rank #15
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+12. Kanye West — *My Beautiful Dark Twisted Fantasy* (2010)
+   - latest rank #17
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+13. Bob Dylan — *Highway 61 Revisited* (1965)
+   - latest rank #18
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+14. Bruce Springsteen — *Born to Run* (1975)
+   - latest rank #21
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+15. The Notorious B.I.G. — *Ready to Die* (1994)
+   - latest rank #22
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+16. John Lennon — *John Lennon/Plastic Ono Band* (1970)
+   - latest rank #23
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+17. The Beatles — *Sgt. Pepper's Lonely Hearts Club Band* (1967)
+   - latest rank #24
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+18. Carole King — *Tapestry* (1971)
+   - latest rank #25
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+19. D'Angelo — *Voodoo* (2000)
+   - latest rank #28
+   - missing: totalDuration
+   - recommended action: enrich-existing-tracklist-and-story
+
+20. The Beatles — *White Album* (1968)
+   - latest rank #29
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+21. Jimi Hendrix — *Are You Experienced* (1967)
+   - latest rank #30
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+22. Miles Davis — *Kind of Blue* (1959)
+   - latest rank #31
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+23. Amy Winehouse — *Back to Black* (2006)
+   - latest rank #33
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+24. Stevie Wonder — *Innervisions* (1973)
+   - latest rank #34
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+25. The Beatles — *Rubber Soul* (1965)
+   - latest rank #35
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+26. Bob Dylan — *Blonde on Blonde* (1966)
+   - latest rank #38
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+27. Muddy Waters — *The Anthology (1947-1972)* (2001)
+   - latest rank #38
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+28. The Beatles — *Please Please Me* (1963)
+   - latest rank #39
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+29. David Bowie — *The Rise and Fall of Ziggy Stardust and the Spiders From Mars* (1972)
+   - latest rank #40
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+30. The Rolling Stones — *Let It Bleed* (1969)
+   - latest rank #41
+   - missing: totalDuration
+   - recommended action: enrich-existing-tracklist-and-story
+
+31. Radiohead — *OK Computer* (1997)
+   - latest rank #42
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+32. Paul Simon — *Graceland* (1986)
+   - latest rank #46
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+33. John Coltrane — *A Love Supreme* (1964)
+   - latest rank #47
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+34. Bob Marley and the Wailers — *Exodus* (1977)
+   - latest rank #48
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+35. Bob Marley and the Wailers — *Legend* (1984)
+   - latest rank #48
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+36. OutKast — *Aquemini* (1998)
+   - latest rank #49
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+37. Jay-Z — *The Blueprint* (2001)
+   - latest rank #50
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+38. David Bowie — *Station to Station* (1976)
+   - latest rank #52
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+39. Jimi Hendrix — *Electric Ladyland* (1968)
+   - latest rank #53
+   - missing: totalDuration
+   - recommended action: enrich-existing-tracklist-and-story
+
+40. Pink Floyd — *The Dark Side of the Moon* (1973)
+   - latest rank #55
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+41. Liz Phair — *Exile in Guyville* (1993)
+   - latest rank #56
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+42. Led Zeppelin — *Led Zeppelin IV* (1971)
+   - latest rank #58
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+43. Creedence Clearwater Revival — *Chronicle, Vol. 1* (1976)
+   - latest rank #59
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+44. Captain Beefheart and his Magic Band — *Trout Mask Replica* (1969)
+   - latest rank #60
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+45. Van Morrison — *Astral Weeks* (1968)
+   - latest rank #60
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+46. OutKast — *Stankonia* (2000)
+   - latest rank #64
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+47. James Brown — *Live at the Apollo* (1963)
+   - latest rank #65
+   - missing: totalDuration, composerCredits
+   - recommended action: enrich-existing-tracklist-and-story
+
+48. Phil Spector — *Back To Mono* (1991)
+   - latest rank #65
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+49. Phil Spector — *Back to Mono (1958-1969)* (1991)
+   - latest rank #65
+   - missing: coverArt, tracklist, totalDuration, composerCredits, story
+   - recommended action: fetch-album-content-sources
+
+50. John Coltrane — *A Love Supreme* (1965)
+   - latest rank #66
+   - missing: composerCredits
+   - recommended action: enrich-existing-tracklist-and-story

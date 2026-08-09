@@ -14,6 +14,7 @@
     "import:musicbrainz": "node scripts/import-musicbrainz-source-candidates.js",
     "import:discogs-credits": "node scripts/import-discogs-credit-candidates.js",
     "build:discogs-credit-review": "node scripts/build-discogs-credit-review.js",
+    "build:album-profile-gaps": "node scripts/build-album-profile-gaps.js",
     "build:app-dataset": "node scripts/build-app-dataset.js"
   }
 }

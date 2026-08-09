@@ -124,12 +124,13 @@ Goal: make the missing album-content work visible to Hermes without exposing a r
 
 Deliverables:
 
-- Generate `data/enrichment/album-profile-gaps.json` grouped by missing field:
+- Generate `data/enrichment/album-profile-gaps.json` grouped by missing field via `npm run build:album-profile-gaps`:
   - missing cover art
   - missing tracklist
   - missing total length
   - missing composer/songwriter/lyricist credits
   - weak/provisional story only
+- Generate a companion human-readable report at `docs/imports/album-profile-gaps.md`.
 - Sort gaps by latest Rolling Stone rank first, so high-value albums improve earliest.
 - Add summary counts and first-N examples for each missing field.
 - Add tests proving the gap report is derived from `data/app/album-atlas.json`, not manually maintained.
@@ -298,10 +299,14 @@ Start with Phase 1 and Phase 2 together in a narrow TDD slice:
 
 1. Write RED tests for `album-profile-gaps` generation from a tiny atlas fixture.
 2. Implement `npm run build:album-profile-gaps`.
-3. Use that report to drive a second-pass Discogs matcher for a small batch of missing high-ranked albums.
-4. Cache raw responses.
-5. Regenerate `data/app/album-atlas.json`.
-6. Report coverage delta:
+3. Build album profile gap report:
+   ```bash
+   npm run build:album-profile-gaps
+   ```
+4. Use that report to drive a second-pass Discogs matcher for a small batch of missing high-ranked albums.
+5. Cache raw responses.
+6. Regenerate `data/app/album-atlas.json`.
+7. Report coverage delta:
 
 ```text
 with cover art: before → after

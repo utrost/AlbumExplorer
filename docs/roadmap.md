@@ -5,7 +5,7 @@ Last updated: 2026-08-08
 
 AlbumExplorer should grow into a personal album atlas. The current correction is explicit: Hermes owns data sanitation/enrichment behind the scenes, while the public app centers exploration of the 760 Rolling Stone album identities. Review queues, source names, and candidate files may exist, but they are internal infrastructure or footnotes unless a curator judgment is genuinely needed.
 
-This document describes phases, exit criteria, and candidate tasks. It is intentionally implementation-facing rather than aspirational.
+This document describes phases, exit criteria, and candidate tasks. It is intentionally implementation-facing rather than aspirational. The active data-collection plan for richer album pages lives in [`content-enrichment-roadmap.md`](content-enrichment-roadmap.md).
 
 ## Product spine
 

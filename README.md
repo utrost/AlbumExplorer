@@ -68,6 +68,7 @@ http://127.0.0.1:4173/
 
 - [Project specification](docs/specification.md) — original full product specification.
 - [Roadmap / phases](docs/roadmap.md) — implementation phases and exit criteria.
+- [Album content enrichment roadmap](docs/content-enrichment-roadmap.md) — active plan for collecting cover art, stories, tracklists, durations, composers, and footnoted provenance.
 - [Data specification](docs/data-spec.md) — what metadata to collect and how to structure it.
 - [App exploration dataset](docs/app-dataset.md) — clean generated atlas consumed by the public app, with explicit quality states and unknowns.
 - [Rolling Stone CSV import notes](docs/imports/rolling-stone-top-500-csv.md) — mapping and quality notes for the first 2012/2020 source dataset.

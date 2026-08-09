@@ -61,7 +61,7 @@ const creditCandidates = {
     {
       albumId: 'album-alpha-one-1970',
       confidence: 'source-cache',
-      source: { system: 'discogs-release-cache' },
+      source: { system: 'discogs-release-cache', cachePath: 'data/imports/discogs/releases/alpha.json', url: 'https://www.discogs.com/release/alpha' },
       credits: [{ type: 'producer', name: 'Pat Producer' }],
       studios: []
     },
@@ -76,6 +76,43 @@ const creditCandidates = {
   gaps: [{ albumId: 'album-gamma-three' }],
   documentedGaps: []
 };
+
+const sourcePayloadsByCachePath = new Map([
+  ['data/imports/discogs/releases/alpha.json', {
+    uri: 'https://www.discogs.com/release/alpha',
+    notes: 'Original gatefold release with a short contextual note.',
+    images: [
+      {
+        type: 'primary',
+        uri: 'https://img.example/alpha-cover-large.jpg',
+        uri150: 'https://img.example/alpha-cover-150.jpg',
+        width: 600,
+        height: 600
+      }
+    ],
+    tracklist: [
+      {
+        position: 'A1',
+        type_: 'track',
+        title: 'Opening Song',
+        duration: '3:15',
+        extraartists: [
+          { name: 'Casey Composer', role: 'Written-By' },
+          { name: 'Pat Producer', role: 'Producer' }
+        ]
+      },
+      {
+        position: 'A2',
+        type_: 'track',
+        title: 'Second Song',
+        duration: '2:45',
+        extraartists: [
+          { name: 'Lee Lyricist', role: 'Lyrics By' }
+        ]
+      }
+    ]
+  }]
+]);
 
 test('builds a clean app-facing dataset with explicit quality states', () => {
   const dataset = buildAppDataset({ comparison, metadataCandidates, sourceCandidates, creditCandidates });
@@ -109,4 +146,27 @@ test('materializes explorer relationships without requiring review data', () => 
   assert.equal(relationship.types.includes('shared-label'), true);
   assert.equal(relationship.types.includes('shared-producer'), true);
   assert.equal(dataset.dataQuality.relationships.types['shared-producer'], 1);
+});
+
+test('builds content-first album profiles with source details as footnotes', () => {
+  const dataset = buildAppDataset({ comparison, metadataCandidates, sourceCandidates, creditCandidates, sourcePayloadsByCachePath });
+
+  assert.equal(dataset.summary.albumProfilesWithTracklists, 1);
+  assert.equal(dataset.summary.albumProfilesWithCoverArt, 1);
+  assert.equal(dataset.summary.albumProfilesWithTotalDuration, 1);
+  assert.equal(dataset.summary.albumProfilesWithComposerCredits, 1);
+
+  const alpha = dataset.albums.find((album) => album.id === 'album-alpha-one-1970');
+  assert.equal(alpha.profile.description, 'Alpha — One (1970).');
+  assert.equal(alpha.profile.story, 'Original gatefold release with a short contextual note.');
+  assert.equal(alpha.profile.coverArt.url, 'https://img.example/alpha-cover-large.jpg');
+  assert.equal(alpha.profile.totalDurationSeconds, 360);
+  assert.deepEqual(alpha.profile.tracklist.map((track) => [track.position, track.title, track.durationSeconds]), [
+    ['A1', 'Opening Song', 195],
+    ['A2', 'Second Song', 165]
+  ]);
+  assert.deepEqual(alpha.profile.tracklist[0].composerCredits.map((credit) => credit.name), ['Casey Composer']);
+  assert.deepEqual(alpha.profile.tracklist[1].lyricistCredits.map((credit) => credit.name), ['Lee Lyricist']);
+  assert.equal(alpha.profile.footnotes[0].label, 'Album content source');
+  assert.equal(alpha.profile.footnotes[0].url, 'https://www.discogs.com/release/alpha');
 });

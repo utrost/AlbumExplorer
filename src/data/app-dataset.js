@@ -10,7 +10,7 @@ export const APP_DATASET_RELATIONSHIP_TYPES = [
   'shared-musician'
 ];
 
-export function buildAppDataset({ comparison, metadataCandidates, sourceCandidates, creditCandidates }, options = {}) {
+export function buildAppDataset({ comparison, metadataCandidates, sourceCandidates, creditCandidates, sourcePayloadsByCachePath = new Map() }, options = {}) {
   const rows = buildEnrichedComparisonRows({
     comparison,
     candidates: metadataCandidates,
@@ -27,6 +27,7 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
   });
   const albums = rows.map((row) => enrichAppAlbum(row, {
     creditCandidate: creditCandidateByAlbumId.get(row.id),
+    sourcePayload: sourcePayloadFor(creditCandidateByAlbumId.get(row.id), sourcePayloadsByCachePath),
     hasCreditGap: creditGapIds.has(row.id),
     hasDocumentedCreditGap: documentedCreditGapIds.has(row.id)
   }));
@@ -53,6 +54,10 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
       creditCandidateAlbums: albums.filter((album) => album.dataQuality.credits.status === 'source-candidate').length,
       creditUnknownAlbums: albums.filter((album) => album.dataQuality.credits.status === 'unknown').length,
       creditDocumentedGaps: albums.filter((album) => album.dataQuality.credits.status === 'documented-gap').length,
+      albumProfilesWithTracklists: albums.filter((album) => album.profile.tracklist.length > 0).length,
+      albumProfilesWithCoverArt: albums.filter((album) => album.profile.coverArt).length,
+      albumProfilesWithTotalDuration: albums.filter((album) => album.profile.totalDurationSeconds != null).length,
+      albumProfilesWithComposerCredits: albums.filter((album) => album.profile.tracklist.some((track) => track.composerCredits.length || track.songwriterCredits.length || track.lyricistCredits.length)).length,
       fourEditionAlbums: albums.filter((album) => album.editionCount === 4).length
     },
     albums,
@@ -61,12 +66,13 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
   };
 }
 
-function enrichAppAlbum(row, { creditCandidate, hasCreditGap, hasDocumentedCreditGap }) {
+function enrichAppAlbum(row, { creditCandidate, sourcePayload, hasCreditGap, hasDocumentedCreditGap }) {
   const metadataQuality = metadataQualityFor(row);
   const creditQuality = creditQualityFor({ creditCandidate, hasCreditGap, hasDocumentedCreditGap });
   return {
     ...row,
     displayTitle: `${row.artist} — ${row.album}`,
+    profile: albumProfileFor(row, { creditCandidate, sourcePayload }),
     dataQuality: {
       identity: {
         status: 'source-confirmed',
@@ -77,6 +83,110 @@ function enrichAppAlbum(row, { creditCandidate, hasCreditGap, hasDocumentedCredi
       credits: creditQuality
     }
   };
+}
+
+function sourcePayloadFor(creditCandidate, sourcePayloadsByCachePath) {
+  const cachePath = creditCandidate?.source?.cachePath;
+  if (!cachePath || !sourcePayloadsByCachePath?.get) return null;
+  return sourcePayloadsByCachePath.get(cachePath) ?? null;
+}
+
+function albumProfileFor(row, { creditCandidate, sourcePayload }) {
+  const tracklist = tracklistFromPayload(sourcePayload);
+  return {
+    description: `${row.artist} — ${row.album}${row.releaseYear ? ` (${row.releaseYear})` : ''}.`,
+    story: cleanStory(sourcePayload?.notes),
+    coverArt: coverArtFromPayload(sourcePayload),
+    tracklist,
+    totalDurationSeconds: totalDurationSeconds(tracklist),
+    footnotes: profileFootnotes(creditCandidate, sourcePayload)
+  };
+}
+
+function cleanStory(value) {
+  const text = String(value ?? '').replace(/\s+/g, ' ').trim();
+  return text || null;
+}
+
+function coverArtFromPayload(sourcePayload) {
+  const image = (sourcePayload?.images ?? []).find((item) => item.type === 'primary') ?? sourcePayload?.images?.[0];
+  if (!image?.uri && !image?.resource_url && !sourcePayload?.thumb) return null;
+  return {
+    url: image?.uri ?? image?.resource_url ?? sourcePayload.thumb,
+    thumbnailUrl: image?.uri150 ?? sourcePayload.thumb ?? null,
+    width: image?.width ?? null,
+    height: image?.height ?? null
+  };
+}
+
+function tracklistFromPayload(sourcePayload) {
+  return (sourcePayload?.tracklist ?? [])
+    .filter((track) => (track.type_ ?? 'track') === 'track' && track.title)
+    .map((track, index) => {
+      const credits = creditsByRole(track.extraartists ?? []);
+      return {
+        position: track.position ?? String(index + 1),
+        disc: discFromPosition(track.position),
+        side: sideFromPosition(track.position),
+        sequence: index + 1,
+        title: track.title,
+        durationSeconds: parseDuration(track.duration),
+        composerCredits: credits.composerCredits,
+        songwriterCredits: credits.songwriterCredits,
+        lyricistCredits: credits.lyricistCredits,
+        performerCredits: credits.performerCredits
+      };
+    });
+}
+
+function creditsByRole(extraartists) {
+  const result = {
+    composerCredits: [],
+    songwriterCredits: [],
+    lyricistCredits: [],
+    performerCredits: []
+  };
+  for (const credit of extraartists) {
+    const normalized = String(credit.role ?? '').toLowerCase();
+    const item = { name: credit.name, creditedAs: credit.name, role: credit.role ?? null };
+    if (!item.name) continue;
+    if (/written|compos/.test(normalized)) result.composerCredits.push(item);
+    else if (/songwrit/.test(normalized)) result.songwriterCredits.push(item);
+    else if (/lyric/.test(normalized)) result.lyricistCredits.push(item);
+    else if (!/produc|engineer|recorded|mixed|mastered/.test(normalized)) result.performerCredits.push(item);
+  }
+  return result;
+}
+
+function discFromPosition(position) {
+  const match = String(position ?? '').match(/^(\d+)[-.]/);
+  return match ? Number(match[1]) : null;
+}
+
+function sideFromPosition(position) {
+  const match = String(position ?? '').match(/^([A-Z])\d+/i);
+  return match ? match[1].toUpperCase() : null;
+}
+
+function parseDuration(duration) {
+  const text = String(duration ?? '').trim();
+  if (!text) return null;
+  const parts = text.split(':').map((part) => Number(part));
+  if (parts.some((part) => !Number.isFinite(part))) return null;
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  return null;
+}
+
+function totalDurationSeconds(tracklist) {
+  if (!tracklist.length || tracklist.some((track) => track.durationSeconds == null)) return null;
+  return tracklist.reduce((sum, track) => sum + track.durationSeconds, 0);
+}
+
+function profileFootnotes(creditCandidate, sourcePayload) {
+  const url = creditCandidate?.source?.url ?? sourcePayload?.uri ?? null;
+  if (!url) return [];
+  return [{ label: 'Album content source', url }];
 }
 
 function metadataQualityFor(row) {

@@ -276,6 +276,91 @@ code {
   margin: 4px 0 0;
 }
 
+.album-profile {
+  background: #100c0a;
+  border: 1px solid #332721;
+  border-radius: 14px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 120px minmax(0, 1fr);
+  margin: 18px 0;
+  padding: 12px;
+}
+
+.album-cover-art,
+.album-cover-placeholder {
+  aspect-ratio: 1;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.album-cover-art {
+  object-fit: cover;
+}
+
+.album-cover-placeholder {
+  align-items: center;
+  background: #221b17;
+  border: 1px dashed #5b4333;
+  color: #bdaea0;
+  display: flex;
+  font-size: 0.82rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.album-story {
+  color: #d5c9bc;
+}
+
+.compact-detail-list {
+  margin-bottom: 0;
+}
+
+.tracklist {
+  background: #100c0a;
+  border: 1px solid #332721;
+  border-radius: 14px;
+  margin: 0 0 18px;
+  padding: 12px;
+}
+
+.tracklist ol {
+  display: grid;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklist li {
+  border-top: 1px solid #332721;
+  display: grid;
+  gap: 6px;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  padding-top: 8px;
+}
+
+.tracklist small {
+  color: #bdaea0;
+  grid-column: 2 / -1;
+}
+
+.track-position {
+  color: #f4c481;
+  font-weight: 800;
+}
+
+.profile-footnotes {
+  border-top: 1px solid #332721;
+  margin-top: 18px;
+  padding-top: 12px;
+}
+
+.profile-footnotes a {
+  color: #9cc8f5;
+}
+
 .rank-history,
 .related-albums {
   display: grid;
@@ -616,6 +701,18 @@ code {
   .detail-panel {
     margin-top: 16px;
     position: static;
+  }
+
+  .album-profile {
+    grid-template-columns: 90px minmax(0, 1fr);
+  }
+
+  .tracklist li {
+    grid-template-columns: 36px minmax(0, 1fr);
+  }
+
+  .tracklist li > span:last-of-type {
+    grid-column: 2;
   }
 
   .comparison-table {

@@ -31,9 +31,7 @@ const state = {
   filters: {
     search: '',
     editionYear: 'all',
-    editionCount: 'all',
-    metadataStatus: 'all',
-    musicBrainzMatchStatus: 'all'
+    editionCount: 'all'
   },
   sortKey: 'latest-rank'
 };
@@ -76,10 +74,10 @@ function renderApp() {
   const indexes = state.indexes;
   const atlas = state.atlas;
   const fatal = validation.errors.length > 0;
-  const musicBrainzCount = atlas?.summary?.musicBrainzMatched ?? state.rows.filter((row) => row.metadataStatus === 'musicbrainz').length;
-  const baselineCount = atlas?.summary?.rollingStoneBaseline ?? state.rows.filter((row) => row.metadataStatus === 'baseline').length;
-  const creditCandidateCount = atlas?.summary?.creditCandidateAlbums ?? 0;
-  const creditUnknownCount = atlas?.summary?.creditUnknownAlbums ?? 0;
+  const tracklistCount = atlas?.summary?.albumProfilesWithTracklists ?? 0;
+  const coverArtCount = atlas?.summary?.albumProfilesWithCoverArt ?? 0;
+  const durationCount = atlas?.summary?.albumProfilesWithTotalDuration ?? 0;
+  const composerCount = atlas?.summary?.albumProfilesWithComposerCredits ?? 0;
   const fourEditionCount = atlas?.summary?.fourEditionAlbums ?? state.rows.filter((row) => row.editionCount === 4).length;
   state.filteredRows = sortRows(filterRows(state.rows, state.filters), state.sortKey);
   const selected = state.filteredRows.find((row) => row.id === state.selectedId) ?? state.filteredRows[0] ?? state.rows[0];
@@ -93,21 +91,21 @@ function renderApp() {
     <header class="hero">
       <p class="eyebrow">File-first Rolling Stone atlas</p>
       <h1>AlbumExplorer</h1>
-      <p class="lede">Browse ${state.rows.length} stable album identities across the Rolling Stone 500 editions, with sanitized exploration data and explicit unknowns instead of a user-facing review queue.</p>
+      <p class="lede">Browse ${state.rows.length} stable album identities across the Rolling Stone 500 editions, centered on album stories, tracklists, cover art, durations, composers, and explainable relationships. Sources stay quiet as footnotes.</p>
     </header>
 
     <section class="panel ${fatal ? 'panel-error' : ''}">
-      <h2>Data health</h2>
+      <h2>Album content coverage</h2>
       <ul class="metrics">
         <li><strong>${state.rows.length}</strong><span>comparison albums</span></li>
-        <li><strong>${musicBrainzCount}</strong><span>MusicBrainz matched</span></li>
-        <li><strong>${baselineCount}</strong><span>Rolling Stone baseline</span></li>
+        <li><strong>${coverArtCount}</strong><span>with cover art</span></li>
+        <li><strong>${tracklistCount}</strong><span>with tracklists</span></li>
+        <li><strong>${durationCount}</strong><span>with total length</span></li>
+        <li><strong>${composerCount}</strong><span>with composers</span></li>
         <li><strong>${fourEditionCount}</strong><span>in all 4 editions</span></li>
         <li><strong>${state.relationships.length}</strong><span>explainable relationships</span></li>
-        <li><strong>${creditCandidateCount}</strong><span>credit-rich albums</span></li>
-        <li><strong>${creditUnknownCount}</strong><span>explicit credit unknowns</span></li>
       </ul>
-      ${fatal ? renderMessages(validation.errors.slice(0, 10)) : '<p class="ok">No fatal seed validation errors. Clean app dataset loaded from <code>data/app/album-atlas.json</code>.</p>'}
+      ${fatal ? renderMessages(validation.errors.slice(0, 10)) : '<p class="ok">Album atlas loaded from <code>data/app/album-atlas.json</code>. Source/provenance details are kept as footnotes.</p>'}
     </section>
 
     <section class="panel browser-panel">
@@ -168,21 +166,6 @@ function renderControls() {
           ${option('1', '1 edition', state.filters.editionCount)}
         </select>
       </label>
-      <label>Metadata
-        <select data-testid="metadata-filter" name="metadataStatus">
-          ${option('all', 'Any metadata', state.filters.metadataStatus)}
-          ${option('musicbrainz', 'MusicBrainz', state.filters.metadataStatus)}
-          ${option('baseline', 'Rolling Stone baseline', state.filters.metadataStatus)}
-        </select>
-      </label>
-      <label>Source status
-        <select name="musicBrainzMatchStatus">
-          ${option('all', 'Any source status', state.filters.musicBrainzMatchStatus)}
-          ${option('matched', 'Matched', state.filters.musicBrainzMatchStatus)}
-          ${option('gap', 'Unknown', state.filters.musicBrainzMatchStatus)}
-          ${option('review', 'Ambiguous', state.filters.musicBrainzMatchStatus)}
-        </select>
-      </label>
       <label>Sort
         <select name="sortKey">
           ${option('latest-rank', 'Latest rank', state.sortKey)}
@@ -204,7 +187,7 @@ function renderComparisonTable(rows) {
           <th>Latest</th>
           <th>Album</th>
           <th>Ranks</th>
-          <th>Metadata</th>
+          <th>Content</th>
         </tr>
       </thead>
       <tbody>
@@ -222,7 +205,7 @@ function renderComparisonRow(row) {
       <td class="rank-cell">${row.latestRank ? `#${row.latestRank}` : '—'}<span>${row.latestEditionYear ?? ''}</span></td>
       <td><strong>${escapeHtml(row.album)}</strong><span>${escapeHtml(row.artist)} · ${row.releaseYear ?? 'year unknown'}</span></td>
       <td>${renderRankBadges(row)}</td>
-      <td>${renderMetadataBadge(row)}</td>
+      <td>${renderContentBadge(row)}</td>
     </tr>
   `;
 }
@@ -233,10 +216,9 @@ function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null, pathRes
       <p class="eyebrow">Selected album</p>
       <h2>${escapeHtml(row.album)}</h2>
       <p class="detail-artist">${escapeHtml(row.artist)} · ${row.releaseYear ?? 'year unknown'}</p>
+      ${renderAlbumProfile(row)}
       <dl class="detail-list">
         <div><dt>Release date</dt><dd>${escapeHtml(row.releaseDate ?? 'not enriched yet')}</dd></div>
-        <div><dt>Metadata source</dt><dd>${renderMetadataBadge(row)}</dd></div>
-        <div><dt>Source status</dt><dd>${formatSourceStatus(row.musicBrainzMatchStatus)}</dd></div>
         <div><dt>Labels</dt><dd>${escapeHtml(row.labels.join(', ') || 'none yet')}</dd></div>
         <div><dt>Genres/tags</dt><dd>${escapeHtml(formatList(row.genres, 10))}</dd></div>
       </dl>
@@ -252,9 +234,64 @@ function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null, pathRes
       ${renderPathFinder(row, pathResult)}
       <h3>Related albums</h3>
       ${renderRelatedAlbums(relatedAlbums)}
-      ${row.musicBrainzUrl ? `<p><a class="external-link" href="${escapeAttribute(row.musicBrainzUrl)}" target="_blank" rel="noreferrer">Open MusicBrainz release group</a></p>` : '<p class="muted">No MusicBrainz release-group link yet.</p>'}
+      ${renderProfileFootnotes(row.profile)}
     </aside>
   `;
+}
+
+function renderAlbumProfile(row) {
+  const profile = row.profile ?? {};
+  return `
+    <section class="album-profile" data-testid="album-profile">
+      ${profile.coverArt?.url ? `<img data-testid="album-cover-art" class="album-cover-art" src="${escapeAttribute(profile.coverArt.url)}" alt="Cover art for ${escapeAttribute(row.album)} by ${escapeAttribute(row.artist)}" loading="lazy">` : '<div data-testid="album-cover-art" class="album-cover-placeholder">Cover art pending</div>'}
+      <div class="album-profile-copy">
+        <p>${escapeHtml(profile.description ?? `${row.artist} — ${row.album}.`)}</p>
+        <p class="album-story">${escapeHtml(profile.story ?? 'Story/context pending.')}</p>
+        <dl class="detail-list compact-detail-list">
+          <div><dt>Total length</dt><dd>${formatDuration(profile.totalDurationSeconds)}</dd></div>
+          <div><dt>Tracks</dt><dd>${profile.tracklist?.length ? profile.tracklist.length : 'pending'}</dd></div>
+        </dl>
+      </div>
+    </section>
+    ${renderTracklist(profile.tracklist)}
+  `;
+}
+
+function renderTracklist(tracklist = []) {
+  if (!tracklist.length) return '<p class="muted" data-testid="tracklist">Tracklist pending.</p>';
+  return `
+    <section class="tracklist" data-testid="tracklist">
+      <h3>Tracklist</h3>
+      <ol>
+        ${tracklist.map((track) => `
+          <li>
+            <span class="track-position">${escapeHtml(track.position ?? '')}</span>
+            <strong>${escapeHtml(track.title)}</strong>
+            <span>${formatDuration(track.durationSeconds)}</span>
+            <small>Composers: ${escapeHtml(formatCreditNames([...(track.composerCredits ?? []), ...(track.songwriterCredits ?? []), ...(track.lyricistCredits ?? [])]))}</small>
+          </li>
+        `).join('')}
+      </ol>
+    </section>
+  `;
+}
+
+function renderProfileFootnotes(profile = {}) {
+  const footnotes = profile.footnotes ?? [];
+  if (!footnotes.length) return '<p class="muted">Footnotes pending.</p>';
+  return `
+    <section class="profile-footnotes">
+      <h3>Footnotes</h3>
+      <ul>
+        ${footnotes.map((footnote) => `<li><a href="${escapeAttribute(footnote.url)}" target="_blank" rel="noreferrer">${escapeHtml(footnote.label)}</a></li>`).join('')}
+      </ul>
+    </section>
+  `;
+}
+
+function formatCreditNames(credits) {
+  const names = [...new Set((credits ?? []).map((credit) => credit.name).filter(Boolean))];
+  return names.length ? names.join(', ') : 'pending';
 }
 
 function renderRelationshipTypeFilter() {
@@ -388,6 +425,14 @@ function renderRankBadges(row) {
     .join('');
 }
 
+function renderContentBadge(row) {
+  const bits = [];
+  if (row.profile?.coverArt) bits.push('art');
+  if (row.profile?.tracklist?.length) bits.push(`${row.profile.tracklist.length} tracks`);
+  if (row.profile?.totalDurationSeconds != null) bits.push(formatDuration(row.profile.totalDurationSeconds));
+  return `<span class="metadata-badge ${bits.length ? 'musicbrainz' : 'baseline'}">${escapeHtml(bits.join(' · ') || 'pending')}</span>`;
+}
+
 function renderMetadataBadge(row) {
   const label = row.metadataStatus === 'musicbrainz' ? 'MusicBrainz' : row.metadataStatus === 'baseline' ? 'RS baseline' : 'Unknown';
   return `<span class="metadata-badge ${escapeAttribute(row.metadataStatus)}">${label}</span>`;
@@ -452,9 +497,7 @@ function updateFromControls(event) {
   const nextFilters = {
     search: data.get('search') ?? '',
     editionYear: data.get('editionYear') ?? 'all',
-    editionCount: data.get('editionCount') ?? 'all',
-    metadataStatus: data.get('metadataStatus') ?? 'all',
-    musicBrainzMatchStatus: data.get('musicBrainzMatchStatus') ?? 'all'
+    editionCount: data.get('editionCount') ?? 'all'
   };
   const nextSortKey = data.get('sortKey') ?? 'latest-rank';
   if (event.target?.name === 'search' && shouldSkipShortSearchRender(state.filters.search, nextFilters.search)) return;
@@ -499,6 +542,17 @@ function formatList(values, limit) {
   const shown = values.slice(0, limit).join(', ');
   const remaining = values.length - limit;
   return remaining > 0 ? `${shown} (+${remaining} more)` : shown;
+}
+
+function formatDuration(seconds) {
+  if (seconds == null) return 'pending';
+  const total = Number(seconds);
+  if (!Number.isFinite(total)) return 'pending';
+  const hours = Math.floor(total / 3600);
+  const minutes = Math.floor((total % 3600) / 60);
+  const remainingSeconds = total % 60;
+  if (hours > 0) return `${hours}:${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+  return `${minutes}:${String(remainingSeconds).padStart(2, '0')}`;
 }
 
 function shortLabel(value) {

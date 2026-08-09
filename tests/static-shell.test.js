@@ -16,8 +16,12 @@ test('static app exposes explorer-first controls, app dataset, and relationship 
   assert.doesNotMatch(app, /discogs-credit-review-report\.json/);
   assert.doesNotMatch(app, /discogs-credit-review-helper\.js/);
   assert.doesNotMatch(app, /data-testid="discogs-review-helper"/);
-  assert.match(app, /sanitized exploration data/);
-  assert.match(app, /explicit unknowns/);
+  assert.match(app, /album stories, tracklists, cover art/);
+  assert.match(app, /data-testid="album-profile"/);
+  assert.match(app, /data-testid="album-cover-art"/);
+  assert.match(app, /data-testid="tracklist"/);
+  assert.match(app, /Composers/);
+  assert.match(app, /Footnotes/);
   assert.match(app, /derived-relationships\.js/);
   assert.match(app, /shared-producer/);
   assert.match(app, /shared-engineer/);
@@ -35,7 +39,8 @@ test('static app exposes explorer-first controls, app dataset, and relationship 
   assert.match(app, /MIN_SEARCH_CHARACTERS/);
   assert.match(app, /Search starts at 3 characters/);
   assert.match(app, /data-testid="edition-filter"/);
-  assert.match(app, /data-testid="metadata-filter"/);
+  assert.doesNotMatch(app, /data-testid="metadata-filter"/);
+  assert.doesNotMatch(app, />Source status</);
   assert.match(app, /data-testid="related-albums"/);
   assert.match(app, /data-testid="focused-graph"/);
   assert.match(app, /data-testid="path-finder"/);
@@ -46,7 +51,6 @@ test('static app exposes explorer-first controls, app dataset, and relationship 
   assert.match(app, /Focused graph/);
   assert.match(app, /Path finder/);
   assert.match(app, /Related albums/);
-  assert.match(app, /MusicBrainz/);
 });
 
 test('GitHub Pages workflow publishes the complete static artifact', () => {

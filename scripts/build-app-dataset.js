@@ -17,11 +17,14 @@ const [comparison, metadataCandidates, sourceCandidates, creditCandidates] = awa
   readJson(creditCandidatesPath)
 ]);
 
+const sourcePayloadsByCachePath = await readSourcePayloadsByCachePath(creditCandidates);
+
 const dataset = buildAppDataset({
   comparison,
   metadataCandidates,
   sourceCandidates,
-  creditCandidates
+  creditCandidates,
+  sourcePayloadsByCachePath
 });
 
 await mkdir(dirname(outputPath), { recursive: true });
@@ -33,8 +36,26 @@ console.log(`MusicBrainz matched: ${dataset.summary.musicBrainzMatched}`);
 console.log(`Rolling Stone baseline: ${dataset.summary.rollingStoneBaseline}`);
 console.log(`Credit candidate albums: ${dataset.summary.creditCandidateAlbums}`);
 console.log(`Credit unknown albums: ${dataset.summary.creditUnknownAlbums}`);
+console.log(`Album profiles with tracklists: ${dataset.summary.albumProfilesWithTracklists}`);
+console.log(`Album profiles with cover art: ${dataset.summary.albumProfilesWithCoverArt}`);
+console.log(`Album profiles with total duration: ${dataset.summary.albumProfilesWithTotalDuration}`);
+console.log(`Album profiles with composer credits: ${dataset.summary.albumProfilesWithComposerCredits}`);
 console.log(`Output: ${outputPath}`);
 
 async function readJson(path) {
   return JSON.parse(await readFile(path, 'utf8'));
+}
+
+async function readSourcePayloadsByCachePath(creditCandidates) {
+  const paths = [...new Set((creditCandidates?.candidates ?? [])
+    .map((candidate) => candidate.source?.cachePath)
+    .filter(Boolean))];
+  const entries = await Promise.all(paths.map(async (path) => {
+    try {
+      return [path, await readJson(path)];
+    } catch {
+      return null;
+    }
+  }));
+  return new Map(entries.filter(Boolean));
 }

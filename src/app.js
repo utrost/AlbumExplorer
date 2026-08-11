@@ -1,9 +1,10 @@
 import { validateCollection } from './data/validator.js';
 import { buildIndexes } from './data/indexes.js';
 import { filterRows, sortRows } from './data/enriched-comparison.js';
-import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipEvidence, matchingRelationshipExplanations } from './data/derived-relationships.js';
+import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipExplanations } from './data/derived-relationships.js';
 import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { renderAlbumProfile, renderProfileFootnotes, formatDuration, escapeHtml, escapeAttribute } from './views/album-profile-view.js';
+import { renderRelationshipTypeFilter, renderRelatedAlbums } from './views/relationship-view.js';
 import { findAlbumPath } from './graph/path-finder.js';
 
 const MIN_SEARCH_CHARACTERS = 3;
@@ -228,31 +229,15 @@ function renderAlbumDetail(row, relatedAlbums = [], focusedGraph = null, pathRes
         ${row.appearances.map((appearance) => `<li><strong>${appearance.editionYear}</strong><span>#${appearance.rank}</span><em>${escapeHtml(appearance.label ?? '')}</em></li>`).join('')}
       </ol>
       <h3>Relationship types</h3>
-      ${renderRelationshipTypeFilter()}
+      ${renderRelationshipTypeFilter(state.relationshipTypeFilter)}
       <h3>Focused graph</h3>
       ${renderFocusedGraph(focusedGraph)}
       <h3>Path finder</h3>
       ${renderPathFinder(row, pathResult)}
       <h3>Related albums</h3>
-      ${renderRelatedAlbums(relatedAlbums)}
+      ${renderRelatedAlbums(relatedAlbums, activeRelationshipTypes())}
       ${renderProfileFootnotes(row.profile)}
     </aside>
-  `;
-}
-
-function renderRelationshipTypeFilter() {
-  return `
-    <label class="relationship-type-filter">Filter relationship views
-      <select data-testid="relationship-type-filter">
-        ${option('all', 'All relationship types', state.relationshipTypeFilter)}
-        ${option('shared-label', 'Labels', state.relationshipTypeFilter)}
-        ${option('shared-producer', 'Producers', state.relationshipTypeFilter)}
-        ${option('shared-engineer', 'Engineers', state.relationshipTypeFilter)}
-        ${option('shared-studio', 'Studios/locations', state.relationshipTypeFilter)}
-        ${option('shared-songwriter', 'Songwriters', state.relationshipTypeFilter)}
-        ${option('shared-musician', 'Musicians/performers', state.relationshipTypeFilter)}
-      </select>
-    </label>
   `;
 }
 
@@ -317,52 +302,6 @@ function renderFocusedGraph(graph) {
       <figcaption class="muted">Selected album plus ${graph.nodes.length - 1} strongest neighbors. Edge thickness follows relationship weight.</figcaption>
     </figure>
   `;
-}
-
-function renderRelatedAlbums(relatedAlbums) {
-  if (relatedAlbums.length === 0) return '<p class="muted" data-testid="related-albums">No strong relationships yet.</p>';
-  return `
-    <ol class="related-albums" data-testid="related-albums">
-      ${relatedAlbums.map(({ album, relationship }) => `
-        <li>
-          <button type="button" data-related-album-id="${escapeAttribute(album.id)}">
-            <strong>${escapeHtml(album.album)}</strong>
-            <span>${escapeHtml(album.artist)} · weight ${relationship.weight}</span>
-          </button>
-          <ul>
-            ${matchingRelationshipEvidence(relationship, activeRelationshipTypes()).slice(0, 3).map((evidence, index) => `<li class="${index === 0 && activeRelationshipTypes().length ? 'matching-explanation' : ''}">${renderRelationshipEvidence(evidence)}</li>`).join('')}
-          </ul>
-        </li>
-      `).join('')}
-    </ol>
-  `;
-}
-
-function renderRelationshipEvidence(evidence) {
-  return `${escapeHtml(evidence.text)}${renderSourceBadges(evidence.provenance)}`;
-}
-
-function renderSourceBadges(provenance) {
-  if (!provenance) return '';
-  const badges = [];
-  const seenBadges = new Set();
-  const pushBadge = (key, html) => {
-    if (seenBadges.has(key)) return;
-    seenBadges.add(key);
-    badges.push(html);
-  };
-  for (const side of [provenance.left, provenance.right]) {
-    if (!side) continue;
-    if (side.masterUrl) pushBadge(`master:${side.masterUrl}`, `<a class="source-badge" href="${escapeAttribute(side.masterUrl)}" target="_blank" rel="noreferrer">Discogs master ${escapeHtml(side.masterId)}</a>`);
-    if (side.releaseUrl) pushBadge(`release:${side.releaseUrl}`, `<a class="source-badge" href="${escapeAttribute(side.releaseUrl)}" target="_blank" rel="noreferrer">Discogs release ${escapeHtml(side.releaseId)}</a>`);
-    if (side.selectedBy && side.selectedBy !== 'discogs-release-cache') pushBadge(`selected:${side.selectedBy}`, `<span class="source-badge muted-source">${escapeHtml(formatSourceSelection(side.selectedBy))}</span>`);
-  }
-  if (badges.length === 0) return '';
-  return `<span class="source-badges" aria-label="Relationship sources">${badges.join('')}</span>`;
-}
-
-function formatSourceSelection(value) {
-  return String(value ?? '').replace(/-/g, ' ');
 }
 
 function renderRankBadges(row) {

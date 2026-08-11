@@ -11,17 +11,19 @@ test('static shell loads the AlbumExplorer app module', () => {
 
 test('static app exposes explorer-first controls, app dataset, and relationship views', () => {
   const app = readFileSync('src/app.js', 'utf8');
+  const albumProfileView = readFileSync('src/views/album-profile-view.js', 'utf8');
 
   assert.match(app, /data\/app\/album-atlas\.json/);
+  assert.match(app, /album-profile-view\.js/);
   assert.doesNotMatch(app, /discogs-credit-review-report\.json/);
   assert.doesNotMatch(app, /discogs-credit-review-helper\.js/);
   assert.doesNotMatch(app, /data-testid="discogs-review-helper"/);
   assert.match(app, /album stories, tracklists, cover art/);
-  assert.match(app, /data-testid="album-profile"/);
-  assert.match(app, /data-testid="album-cover-art"/);
-  assert.match(app, /data-testid="tracklist"/);
-  assert.match(app, /Composers/);
-  assert.match(app, /Footnotes/);
+  assert.match(albumProfileView, /data-testid="album-profile"/);
+  assert.match(albumProfileView, /data-testid="album-cover-art"/);
+  assert.match(albumProfileView, /data-testid="tracklist"/);
+  assert.match(albumProfileView, /Composers/);
+  assert.match(albumProfileView, /Footnotes/);
   assert.match(app, /derived-relationships\.js/);
   assert.match(app, /shared-producer/);
   assert.match(app, /shared-engineer/);

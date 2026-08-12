@@ -7,23 +7,27 @@ const [
   metadataCandidatesPath = 'data/enrichment/album-metadata-candidates.json',
   sourceCandidatesPath = 'data/enrichment/album-metadata-source-candidates.json',
   creditCandidatesPath = 'data/enrichment/album-credit-candidates.json',
+  profileGapCreditCandidatesPath = 'data/enrichment/album-credit-profile-gap-candidates.json',
   outputPath = 'data/app/album-atlas.json'
 ] = process.argv.slice(2);
 
-const [comparison, metadataCandidates, sourceCandidates, creditCandidates] = await Promise.all([
+const [comparison, metadataCandidates, sourceCandidates, creditCandidates, profileGapCreditCandidates] = await Promise.all([
   readJson(comparisonPath),
   readJson(metadataCandidatesPath),
   readJson(sourceCandidatesPath),
-  readJson(creditCandidatesPath)
+  readJson(creditCandidatesPath),
+  readJsonOrEmptyLayer(profileGapCreditCandidatesPath)
 ]);
 
-const sourcePayloadsByCachePath = await readSourcePayloadsByCachePath(creditCandidates);
+const additionalCreditCandidateLayers = profileGapCreditCandidates ? [profileGapCreditCandidates] : [];
+const sourcePayloadsByCachePath = await readSourcePayloadsByCachePath(creditCandidates, additionalCreditCandidateLayers);
 
 const dataset = buildAppDataset({
   comparison,
   metadataCandidates,
   sourceCandidates,
   creditCandidates,
+  additionalCreditCandidateLayers,
   sourcePayloadsByCachePath
 });
 
@@ -46,10 +50,20 @@ async function readJson(path) {
   return JSON.parse(await readFile(path, 'utf8'));
 }
 
-async function readSourcePayloadsByCachePath(creditCandidates) {
-  const paths = [...new Set((creditCandidates?.candidates ?? [])
+async function readJsonOrEmptyLayer(path) {
+  try {
+    return await readJson(path);
+  } catch (error) {
+    if (error.code === 'ENOENT') return null;
+    throw error;
+  }
+}
+
+async function readSourcePayloadsByCachePath(creditCandidates, additionalCreditCandidateLayers = []) {
+  const layers = [creditCandidates, ...additionalCreditCandidateLayers].filter(Boolean);
+  const paths = [...new Set(layers.flatMap((layer) => (layer?.candidates ?? [])
     .map((candidate) => candidate.source?.cachePath)
-    .filter(Boolean))];
+    .filter(Boolean)))];
   const entries = await Promise.all(paths.map(async (path) => {
     try {
       return [path, await readJson(path)];

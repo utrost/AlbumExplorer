@@ -77,6 +77,20 @@ const creditCandidates = {
   documentedGaps: []
 };
 
+const profileGapCreditCandidates = {
+  candidates: [
+    {
+      albumId: 'album-gamma-three',
+      confidence: 'source-cache',
+      source: { system: 'discogs-release-cache', cachePath: 'data/imports/discogs/releases/gamma.json', url: 'https://www.discogs.com/release/gamma' },
+      credits: [{ type: 'engineer', name: 'Eli Engineer' }],
+      studios: []
+    }
+  ],
+  gaps: [],
+  documentedGaps: []
+};
+
 const sourcePayloadsByCachePath = new Map([
   ['data/imports/discogs/releases/alpha.json', {
     uri: 'https://www.discogs.com/release/alpha',
@@ -111,6 +125,11 @@ const sourcePayloadsByCachePath = new Map([
         ]
       }
     ]
+  }],
+  ['data/imports/discogs/releases/gamma.json', {
+    uri: 'https://www.discogs.com/release/gamma',
+    images: [{ type: 'primary', uri: 'https://img.example/gamma-cover.jpg' }],
+    tracklist: [{ position: '1', type_: 'track', title: 'Gap Song', duration: '4:00' }]
   }]
 ]);
 
@@ -169,4 +188,45 @@ test('builds content-first album profiles with source details as footnotes', () 
   assert.deepEqual(alpha.profile.tracklist[1].lyricistCredits.map((credit) => credit.name), ['Lee Lyricist']);
   assert.equal(alpha.profile.footnotes[0].label, 'Album content source');
   assert.equal(alpha.profile.footnotes[0].url, 'https://www.discogs.com/release/alpha');
+});
+
+test('does not promote long technical release notes into album story copy', () => {
+  const dataset = buildAppDataset({
+    comparison,
+    metadataCandidates,
+    sourceCandidates,
+    creditCandidates,
+    sourcePayloadsByCachePath: new Map([
+      ['data/imports/discogs/releases/alpha.json', {
+        notes: "This is the original UK release on pink rim Island labels in matt gatefold cover containing lyrics. Cat.# on cover, labels and runouts. This release has on the back of the cover bottom right edge printer text and another similar release has different matrix markings.",
+        tracklist: []
+      }]
+    ])
+  });
+
+  const alpha = dataset.albums.find((album) => album.id === 'album-alpha-one-1970');
+  assert.equal(alpha.profile.story, null);
+});
+
+test('merges focused profile-gap credit candidates without overwriting the primary credit layer', () => {
+  const dataset = buildAppDataset({
+    comparison,
+    metadataCandidates,
+    sourceCandidates,
+    creditCandidates,
+    additionalCreditCandidateLayers: [profileGapCreditCandidates],
+    sourcePayloadsByCachePath
+  });
+
+  assert.equal(dataset.summary.creditCandidateAlbums, 3);
+  assert.equal(dataset.summary.creditUnknownAlbums, 0);
+  assert.equal(dataset.summary.albumProfilesWithTracklists, 2);
+  assert.equal(dataset.summary.albumProfilesWithCoverArt, 2);
+  assert.equal(dataset.summary.albumProfilesWithTotalDuration, 2);
+  assert.equal(dataset.dataQuality.relationships.types['shared-producer'], 1);
+
+  const gamma = dataset.albums.find((album) => album.id === 'album-gamma-three');
+  assert.equal(gamma.dataQuality.credits.status, 'source-candidate');
+  assert.equal(gamma.profile.coverArt.url, 'https://img.example/gamma-cover.jpg');
+  assert.deepEqual(gamma.profile.tracklist.map((track) => track.title), ['Gap Song']);
 });

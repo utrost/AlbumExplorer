@@ -10,16 +10,17 @@ export const APP_DATASET_RELATIONSHIP_TYPES = [
   'shared-musician'
 ];
 
-export function buildAppDataset({ comparison, metadataCandidates, sourceCandidates, creditCandidates, sourcePayloadsByCachePath = new Map() }, options = {}) {
+export function buildAppDataset({ comparison, metadataCandidates, sourceCandidates, creditCandidates, additionalCreditCandidateLayers = [], sourcePayloadsByCachePath = new Map() }, options = {}) {
   const rows = buildEnrichedComparisonRows({
     comparison,
     candidates: metadataCandidates,
     sourceCandidates
   });
-  const creditCandidateRows = creditCandidates?.candidates ?? [];
+  const mergedCreditCandidates = mergeCreditCandidateLayers(creditCandidates, additionalCreditCandidateLayers);
+  const creditCandidateRows = mergedCreditCandidates.candidates ?? [];
   const creditCandidateByAlbumId = new Map(creditCandidateRows.map((candidate) => [candidate.albumId, candidate]));
-  const creditGapIds = new Set((creditCandidates?.gaps ?? []).map((gap) => gap.albumId));
-  const documentedCreditGapIds = new Set((creditCandidates?.documentedGaps ?? []).map((gap) => gap.albumId));
+  const creditGapIds = new Set((mergedCreditCandidates.gaps ?? []).map((gap) => gap.albumId));
+  const documentedCreditGapIds = new Set((mergedCreditCandidates.documentedGaps ?? []).map((gap) => gap.albumId));
   const relationships = buildAlbumRelationships(rows, {
     minimumWeight: options.minimumRelationshipWeight ?? 2.0,
     allowedTypes: options.relationshipTypes ?? APP_DATASET_RELATIONSHIP_TYPES,
@@ -33,7 +34,7 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
   }));
   const dataQuality = buildDataQuality(albums, relationships, {
     sourceCandidates,
-    creditCandidates
+    creditCandidates: mergedCreditCandidates
   });
 
   return {
@@ -44,7 +45,8 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
       comparison: 'data/rolling-stone-comparison.json',
       metadataCandidates: 'data/enrichment/album-metadata-candidates.json',
       musicBrainzSourceCandidates: 'data/enrichment/album-metadata-source-candidates.json',
-      creditCandidates: 'data/enrichment/album-credit-candidates.json'
+      creditCandidates: 'data/enrichment/album-credit-candidates.json',
+      additionalCreditCandidateLayers: additionalCreditCandidateLayers.length
     },
     summary: {
       albumCount: albums.length,
@@ -63,6 +65,34 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
     albums,
     relationships,
     dataQuality
+  };
+}
+
+function mergeCreditCandidateLayers(primaryLayer = {}, additionalLayers = []) {
+  const layers = [primaryLayer, ...additionalLayers].filter(Boolean);
+  const candidatesByAlbumId = new Map();
+  const gapByAlbumId = new Map();
+  const documentedGapByAlbumId = new Map();
+  for (const layer of layers) {
+    for (const candidate of layer.candidates ?? []) {
+      if (!candidate.albumId) continue;
+      candidatesByAlbumId.set(candidate.albumId, candidate);
+      gapByAlbumId.delete(candidate.albumId);
+      documentedGapByAlbumId.delete(candidate.albumId);
+    }
+    for (const gap of layer.gaps ?? []) {
+      if (!gap.albumId || candidatesByAlbumId.has(gap.albumId)) continue;
+      gapByAlbumId.set(gap.albumId, gap);
+    }
+    for (const gap of layer.documentedGaps ?? []) {
+      if (!gap.albumId || candidatesByAlbumId.has(gap.albumId)) continue;
+      documentedGapByAlbumId.set(gap.albumId, gap);
+    }
+  }
+  return {
+    candidates: [...candidatesByAlbumId.values()],
+    gaps: [...gapByAlbumId.values()],
+    documentedGaps: [...documentedGapByAlbumId.values()]
   };
 }
 
@@ -105,7 +135,14 @@ function albumProfileFor(row, { creditCandidate, sourcePayload }) {
 
 function cleanStory(value) {
   const text = String(value ?? '').replace(/\s+/g, ' ').trim();
-  return text || null;
+  if (!text) return null;
+  if (isTechnicalReleaseNote(text)) return null;
+  return text;
+}
+
+function isTechnicalReleaseNote(text) {
+  if (text.length < 180) return false;
+  return /\b(cat\.?#|runouts?|matrix|labels?|sleeve|gatefold|printed|pressing|release|cover)\b/i.test(text);
 }
 
 function coverArtFromPayload(sourcePayload) {

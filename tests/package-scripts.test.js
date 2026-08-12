@@ -12,3 +12,10 @@ test('package exposes Discogs second-pass profile-gap importer', () => {
   assert.match(packageJson.scripts['import:discogs-profile-gaps'], /--profile-gaps data\/enrichment\/album-profile-gaps\.json/);
   assert.match(packageJson.scripts['import:discogs-profile-gaps'], /--missing coverArt,tracklist/);
 });
+
+test('app dataset builder includes the focused profile-gap candidate layer', () => {
+  const script = readFileSync('scripts/build-app-dataset.js', 'utf8');
+
+  assert.match(script, /album-credit-profile-gap-candidates\.json/);
+  assert.match(script, /additionalCreditCandidateLayers/);
+});

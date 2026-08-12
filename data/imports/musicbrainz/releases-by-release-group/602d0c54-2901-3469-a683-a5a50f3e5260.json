@@ -1,0 +1,3508 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=602d0c54-2901-3469-a683-a5a50f3e5260&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-count": 15,
+  "release-offset": 0,
+  "releases": [
+    {
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "date": "1972",
+      "country": "GB",
+      "release-events": [
+        {
+          "date": "1972",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "count": 6,
+        "darkened": false,
+        "front": true,
+        "back": true,
+        "artwork": true
+      },
+      "quality": "normal",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "id": "135a4684-8a27-410c-83ec-b6aee745d817",
+      "packaging": "Cardboard/Paper Sleeve",
+      "asin": null,
+      "barcode": "",
+      "media": [
+        {
+          "track-count": 11,
+          "position": 1,
+          "title": "",
+          "tracks": [
+            {
+              "title": "Mother and Child Reunion",
+              "position": 1,
+              "recording": {
+                "length": 186226,
+                "video": false,
+                "disambiguation": "",
+                "title": "Mother and Child Reunion",
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03"
+              },
+              "length": 190000,
+              "number": "A1",
+              "id": "98dfe93a-1435-44fa-8981-26c4b58e2e6a"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "length": 283133,
+                "video": false,
+                "disambiguation": "",
+                "title": "Duncan",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "first-release-date": "1972-03"
+              },
+              "title": "Duncan",
+              "id": "82f3f56e-6afa-4527-8c46-e7ac86afee62",
+              "length": 283306,
+              "number": "A2"
+            },
+            {
+              "id": "1a881919-81e6-4a32-b9ed-04c5b62705ab",
+              "number": "A3",
+              "length": 122160,
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 122000,
+                "title": "Everything Put Together Falls Apart",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40"
+              },
+              "title": "Everything Put Together Falls Apart"
+            },
+            {
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "video": false,
+                "length": 234600,
+                "title": "Run That Body Down",
+                "disambiguation": ""
+              },
+              "position": 4,
+              "title": "Run That Body Down",
+              "id": "c2849e60-2b99-4886-8837-0231b5f020ea",
+              "number": "A4",
+              "length": 234440
+            },
+            {
+              "title": "Armistice Day",
+              "position": 5,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "video": false,
+                "length": 237066,
+                "title": "Armistice Day",
+                "disambiguation": ""
+              },
+              "number": "A5",
+              "length": 238093,
+              "id": "49dff54b-cae3-415c-9f21-9351b175d0a2"
+            },
+            {
+              "id": "6a5c2695-682b-4721-ab77-2ace39a65412",
+              "length": 164933,
+              "number": "B1",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard",
+                "length": 163973,
+                "video": false,
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03"
+              },
+              "title": "Me and Julio Down by the Schoolyard"
+            },
+            {
+              "length": 203440,
+              "number": "B2",
+              "id": "7047991b-ef49-4303-a683-f4e1e09a72da",
+              "title": "Peace Like a River",
+              "recording": {
+                "disambiguation": "",
+                "title": "Peace Like a River",
+                "length": 203280,
+                "video": false,
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "first-release-date": "1972-03"
+              },
+              "position": 7
+            },
+            {
+              "number": "B3",
+              "length": 155933,
+              "id": "38555c44-661b-4171-b33f-af38c089fe46",
+              "title": "Papa Hobo",
+              "position": 8,
+              "recording": {
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Papa Hobo",
+                "length": 155933,
+                "video": false
+              }
+            },
+            {
+              "title": "Hobo's Blues",
+              "position": 9,
+              "recording": {
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Hobo’s Blues",
+                "length": 80826,
+                "video": false
+              },
+              "number": "B4",
+              "length": 80826,
+              "id": "6d4a5120-66d5-4bd6-8c1f-5cb13ce2563c"
+            },
+            {
+              "position": 10,
+              "recording": {
+                "length": 178146,
+                "video": false,
+                "disambiguation": "",
+                "title": "Paranoia Blues",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+                "first-release-date": "1972-03"
+              },
+              "title": "Paranoia Blues",
+              "id": "052c9d44-3520-4c4f-b624-14c975369a7b",
+              "number": "B5",
+              "length": 178333
+            },
+            {
+              "length": 223040,
+              "number": "B6",
+              "id": "a116e75a-eee7-4b4b-9b1f-07620521be51",
+              "title": "Congratulations",
+              "position": 11,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "title": "Congratulations",
+                "disambiguation": "",
+                "video": false,
+                "length": 223040
+              }
+            }
+          ],
+          "format": "12\" Vinyl",
+          "id": "3129135b-cf10-324a-a35f-a210c9959376",
+          "track-offset": 0,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ]
+    },
+    {
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "front": true,
+        "artwork": true,
+        "back": true,
+        "darkened": false,
+        "count": 3
+      },
+      "release-events": [
+        {
+          "date": "1990",
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          }
+        }
+      ],
+      "quality": "normal",
+      "status": "Official",
+      "country": "US",
+      "date": "1990",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "media": [
+        {
+          "track-offset": 0,
+          "id": "bb2aea57-f4c6-3167-84aa-703a79b3aba3",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 11,
+          "tracks": [
+            {
+              "length": 190000,
+              "number": "1",
+              "id": "222fed0c-8523-3a1e-a41f-4c61f19b7769",
+              "title": "Mother and Child Reunion",
+              "recording": {
+                "disambiguation": "",
+                "title": "Mother and Child Reunion",
+                "length": 186226,
+                "video": false,
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03"
+              },
+              "position": 1
+            },
+            {
+              "number": "2",
+              "length": 283306,
+              "id": "2517a62e-890e-31db-aafc-13b05055e561",
+              "title": "Duncan",
+              "position": 2,
+              "recording": {
+                "title": "Duncan",
+                "disambiguation": "",
+                "video": false,
+                "length": 283133,
+                "first-release-date": "1972-03",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8"
+              }
+            },
+            {
+              "title": "Everything Put Together Falls Apart",
+              "recording": {
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03",
+                "length": 122000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart"
+              },
+              "position": 3,
+              "number": "3",
+              "length": 122160,
+              "id": "48b94b08-6180-357a-92ed-ae405f0ab375"
+            },
+            {
+              "length": 234440,
+              "number": "4",
+              "id": "9ceda12f-ae54-3d33-8c00-e8218206832f",
+              "title": "Run That Body Down",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "video": false,
+                "length": 234600,
+                "title": "Run That Body Down",
+                "disambiguation": ""
+              },
+              "position": 4
+            },
+            {
+              "number": "5",
+              "length": 238093,
+              "id": "2b553cfe-97a0-32d3-853d-a7ae90a32208",
+              "title": "Armistice Day",
+              "recording": {
+                "title": "Armistice Day",
+                "disambiguation": "",
+                "video": false,
+                "length": 237066,
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8"
+              },
+              "position": 5
+            },
+            {
+              "number": "6",
+              "length": 164933,
+              "id": "d97e6e1b-bbdd-35f9-b8ba-59bfb1643624",
+              "title": "Me and Julio Down by the Schoolyard",
+              "position": 6,
+              "recording": {
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03",
+                "length": 163973,
+                "video": false,
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard"
+              }
+            },
+            {
+              "title": "Peace Like a River",
+              "position": 7,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "video": false,
+                "length": 203280,
+                "title": "Peace Like a River",
+                "disambiguation": ""
+              },
+              "number": "7",
+              "length": 203440,
+              "id": "c54e22fd-a457-36be-ab24-7d3c288a08ba"
+            },
+            {
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "video": false,
+                "length": 155933,
+                "title": "Papa Hobo",
+                "disambiguation": ""
+              },
+              "position": 8,
+              "title": "Papa Hobo",
+              "id": "8b057ad2-b497-3dc0-a14d-e8dc434f1e0d",
+              "length": 155933,
+              "number": "8"
+            },
+            {
+              "id": "90924ad5-c786-3808-843a-95f249a1e8eb",
+              "number": "9",
+              "length": 80826,
+              "recording": {
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03",
+                "length": 80826,
+                "video": false,
+                "disambiguation": "",
+                "title": "Hobo’s Blues"
+              },
+              "position": 9,
+              "title": "Hobo’s Blues"
+            },
+            {
+              "recording": {
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+                "first-release-date": "1972-03",
+                "length": 178146,
+                "video": false,
+                "disambiguation": "",
+                "title": "Paranoia Blues"
+              },
+              "position": 10,
+              "title": "Paranoia Blues",
+              "id": "cc550d07-3ffe-3681-8340-8b295f17d2ce",
+              "length": 178333,
+              "number": "10"
+            },
+            {
+              "id": "be417afb-3932-3f1a-b579-bbd491aed961",
+              "length": 223040,
+              "number": "11",
+              "recording": {
+                "video": false,
+                "length": 223040,
+                "title": "Congratulations",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6"
+              },
+              "position": 11,
+              "title": "Congratulations"
+            }
+          ],
+          "title": ""
+        }
+      ],
+      "asin": "B000002LBV",
+      "barcode": "075992558822",
+      "id": "494ec519-3af5-33c8-8229-7cb7d9de3168",
+      "packaging": null,
+      "packaging-id": null
+    },
+    {
+      "id": "4dea9a77-d661-4b78-b01b-bbe5067bcb06",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "asin": "B00024WYKI",
+      "barcode": "081227889920",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "id": "53487636-32c3-3adf-89db-a9daa3c26bfa",
+          "track-offset": 0,
+          "title": "",
+          "tracks": [
+            {
+              "title": "Mother and Child Reunion",
+              "position": 1,
+              "recording": {
+                "length": 186226,
+                "video": false,
+                "disambiguation": "",
+                "title": "Mother and Child Reunion",
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03"
+              },
+              "length": 189866,
+              "number": "1",
+              "id": "ba41dd3b-9738-3f8f-8921-246615504bb5"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 283133,
+                "title": "Duncan",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8"
+              },
+              "title": "Duncan",
+              "id": "2d1d1ceb-462a-3211-a2c8-8cce07bba748",
+              "length": 283133,
+              "number": "2"
+            },
+            {
+              "title": "Everything Put Together Falls Apart",
+              "position": 3,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "video": false,
+                "length": 122000,
+                "title": "Everything Put Together Falls Apart",
+                "disambiguation": ""
+              },
+              "length": 121866,
+              "number": "3",
+              "id": "7ed1261e-8c7e-39d6-a579-c5918b157f36"
+            },
+            {
+              "title": "Run That Body Down",
+              "position": 4,
+              "recording": {
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Run That Body Down",
+                "length": 234600,
+                "video": false
+              },
+              "length": 234600,
+              "number": "4",
+              "id": "dc03bc07-5f41-370f-bb4a-84c6dd828960"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "title": "Armistice Day",
+                "disambiguation": "",
+                "video": false,
+                "length": 237066,
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8"
+              },
+              "title": "Armistice Day",
+              "id": "546532c9-4fa5-31e4-857a-a9858da414ff",
+              "length": 237066,
+              "number": "5"
+            },
+            {
+              "number": "6",
+              "length": 164813,
+              "id": "b7b3139a-707a-3bca-8008-525e5c02d19f",
+              "title": "Me and Julio Down by the Schoolyard",
+              "position": 6,
+              "recording": {
+                "length": 163973,
+                "video": false,
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03"
+              }
+            },
+            {
+              "id": "7d111ba0-9342-34b9-a638-8b17a75fb9e8",
+              "number": "7",
+              "length": 203280,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "video": false,
+                "length": 203280,
+                "title": "Peace Like a River",
+                "disambiguation": ""
+              },
+              "position": 7,
+              "title": "Peace Like a River"
+            },
+            {
+              "title": "Papa Hobo",
+              "position": 8,
+              "recording": {
+                "video": false,
+                "length": 155933,
+                "title": "Papa Hobo",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26"
+              },
+              "length": 155533,
+              "number": "8",
+              "id": "3ebc42a2-4332-3816-8d4a-be246452d19d"
+            },
+            {
+              "recording": {
+                "length": 80826,
+                "video": false,
+                "disambiguation": "",
+                "title": "Hobo’s Blues",
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03"
+              },
+              "position": 9,
+              "title": "Hobo’s Blues",
+              "id": "45a22400-da41-31fa-9bea-bf8636a2ab6a",
+              "length": 80773,
+              "number": "9"
+            },
+            {
+              "title": "Paranoia Blues",
+              "recording": {
+                "video": false,
+                "length": 178146,
+                "title": "Paranoia Blues",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777"
+              },
+              "position": 10,
+              "number": "10",
+              "length": 178146,
+              "id": "278026c6-2eed-3eb9-9a23-c5346b424f26"
+            },
+            {
+              "title": "Congratulations",
+              "recording": {
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Congratulations",
+                "length": 223040,
+                "video": false
+              },
+              "position": 11,
+              "number": "11",
+              "length": 231080,
+              "id": "f0b258cf-0968-3504-831d-71e8f7931edb"
+            },
+            {
+              "length": 149546,
+              "number": "12",
+              "id": "c81e486c-939e-3886-bebf-e83d33555e7c",
+              "title": "Me and Julio Down by the Schoolyard (demo–San Francisco 2/71)",
+              "position": 12,
+              "recording": {
+                "disambiguation": "demo",
+                "title": "Me and Julio Down by the Schoolyard",
+                "length": 149546,
+                "video": false,
+                "id": "2a073a91-995e-415b-93fd-9b23b8cf5386",
+                "first-release-date": "2004-07-06"
+              }
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 168586,
+                "title": "Duncan",
+                "disambiguation": "demo",
+                "first-release-date": "2004-07-06",
+                "id": "935de698-22ea-4c84-a445-2585846b4263"
+              },
+              "position": 13,
+              "title": "Duncan (demo–San Francisco 2/71)",
+              "id": "fabfd1e3-f4cb-3d9e-8d20-24a7c965668f",
+              "number": "13",
+              "length": 168586
+            },
+            {
+              "title": "Paranoia Blues (unreleased version)",
+              "position": 14,
+              "recording": {
+                "disambiguation": "unreleased version",
+                "title": "Paranoia Blues",
+                "length": 194360,
+                "video": false,
+                "id": "4c959917-ffb1-4e8f-b437-8d640f661f0d",
+                "first-release-date": "2004-07-06"
+              },
+              "length": 194360,
+              "number": "14",
+              "id": "69ed87df-0128-304c-8224-f655fe9f14f6"
+            }
+          ],
+          "track-count": 14,
+          "position": 1
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "date": "2004-07-06",
+      "quality": "normal",
+      "cover-art-archive": {
+        "front": true,
+        "artwork": true,
+        "back": true,
+        "darkened": false,
+        "count": 3
+      },
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2004-07-06"
+        }
+      ],
+      "status": "Official",
+      "country": "US",
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "barcode": "075992558822",
+      "asin": null,
+      "packaging": "Jewel Case",
+      "id": "687c49ad-f891-49da-9b58-db11e592e842",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "id": "1b4b0570-c967-3b69-83e5-130ec78256a8",
+          "format": "CD",
+          "tracks": [
+            {
+              "id": "508e5d39-7ffe-4b29-b8de-53c64b1aea2b",
+              "length": 190000,
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "title": "Mother and Child Reunion",
+                "disambiguation": "",
+                "video": false,
+                "length": 186226
+              },
+              "title": "Mother and Child Reunion"
+            },
+            {
+              "number": "2",
+              "length": 283306,
+              "id": "79364d0b-93c1-4d73-b0fe-68a08d87b16d",
+              "title": "Duncan",
+              "recording": {
+                "length": 283133,
+                "video": false,
+                "disambiguation": "",
+                "title": "Duncan",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "first-release-date": "1972-03"
+              },
+              "position": 2
+            },
+            {
+              "recording": {
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "length": 122000,
+                "video": false
+              },
+              "position": 3,
+              "title": "Everything Put Together Falls Apart",
+              "id": "3711d576-a6b7-422e-bc97-3902f323a649",
+              "length": 122160,
+              "number": "3"
+            },
+            {
+              "id": "12a8bf5a-a497-496d-8dae-aa32b92b6d14",
+              "number": "4",
+              "length": 235000,
+              "recording": {
+                "video": false,
+                "length": 234600,
+                "title": "Run That Body Down",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288"
+              },
+              "position": 4,
+              "title": "Run That Body Down"
+            },
+            {
+              "title": "Armistice Day",
+              "recording": {
+                "title": "Armistice Day",
+                "disambiguation": "",
+                "video": false,
+                "length": 237066,
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8"
+              },
+              "position": 5,
+              "length": 238093,
+              "number": "5",
+              "id": "e12a95c3-b4cb-4f44-a8d8-eb69faa2d404"
+            },
+            {
+              "length": 164933,
+              "number": "6",
+              "id": "4e89afd2-a370-4387-9953-257cae5fdcfd",
+              "title": "Me and Julio Down by the Schoolyard",
+              "recording": {
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": "",
+                "video": false,
+                "length": 163973,
+                "first-release-date": "1972-03",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06"
+              },
+              "position": 6
+            },
+            {
+              "id": "4cdd942c-3f47-4bee-b5fd-235509cd5a04",
+              "number": "7",
+              "length": 203440,
+              "position": 7,
+              "recording": {
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "first-release-date": "1972-03",
+                "length": 203280,
+                "video": false,
+                "disambiguation": "",
+                "title": "Peace Like a River"
+              },
+              "title": "Peace Like a River"
+            },
+            {
+              "title": "Papa Hobo",
+              "recording": {
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Papa Hobo",
+                "length": 155933,
+                "video": false
+              },
+              "position": 8,
+              "length": 155933,
+              "number": "8",
+              "id": "71fe38f1-3dd8-4aa4-873b-368837534d01"
+            },
+            {
+              "title": "Hobo’s Blues",
+              "recording": {
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03",
+                "length": 80826,
+                "video": false,
+                "disambiguation": "",
+                "title": "Hobo’s Blues"
+              },
+              "position": 9,
+              "number": "9",
+              "length": 80826,
+              "id": "594a3d21-7338-4a9f-814a-3c5ef12b2070"
+            },
+            {
+              "title": "Paranoia Blues",
+              "position": 10,
+              "recording": {
+                "title": "Paranoia Blues",
+                "disambiguation": "",
+                "video": false,
+                "length": 178146,
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777"
+              },
+              "length": 178333,
+              "number": "10",
+              "id": "f363df1e-62b3-4b4c-a677-709424866cb0"
+            },
+            {
+              "recording": {
+                "length": 223040,
+                "video": false,
+                "disambiguation": "",
+                "title": "Congratulations",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "first-release-date": "1972-03"
+              },
+              "position": 11,
+              "title": "Congratulations",
+              "id": "6a0b6c2d-f5ea-464d-850a-414ad8effe44",
+              "number": "11",
+              "length": 223040
+            }
+          ],
+          "title": "",
+          "position": 1,
+          "track-count": 11
+        }
+      ],
+      "date": "",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "title": "Paul Simon",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "front": false,
+        "back": false,
+        "artwork": false
+      },
+      "quality": "normal",
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "name": "Canada",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "sort-name": "Canada",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          }
+        }
+      ],
+      "country": "CA"
+    },
+    {
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "count": 7,
+        "darkened": false,
+        "back": true,
+        "artwork": true,
+        "front": true
+      },
+      "release-events": [
+        {
+          "date": "2010",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          }
+        }
+      ],
+      "quality": "normal",
+      "status": "Official",
+      "country": "XE",
+      "date": "2010",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "media": [
+        {
+          "format": "CD",
+          "id": "e1359f3d-b495-3039-a4c9-39dafd534140",
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 14,
+          "position": 1,
+          "title": "",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "title": "Mother and Child Reunion",
+                "disambiguation": "",
+                "video": false,
+                "length": 186226
+              },
+              "title": "Mother and Child Reunion",
+              "id": "288f47b9-179b-4daf-abb9-fe5a988c63ba",
+              "number": "1",
+              "length": 189866
+            },
+            {
+              "length": 283133,
+              "number": "2",
+              "id": "441021f2-073a-43b5-8901-b30bd5d78428",
+              "title": "Duncan",
+              "position": 2,
+              "recording": {
+                "length": 283133,
+                "video": false,
+                "disambiguation": "",
+                "title": "Duncan",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "first-release-date": "1972-03"
+              }
+            },
+            {
+              "title": "Everything Put Together Falls Apart",
+              "recording": {
+                "length": 122000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03"
+              },
+              "position": 3,
+              "number": "3",
+              "length": 121866,
+              "id": "f06c57b0-6a33-40b4-a9ca-025e389124de"
+            },
+            {
+              "id": "76bff94b-ee10-4bbb-9acf-862532ab9119",
+              "length": 234600,
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "title": "Run That Body Down",
+                "length": 234600,
+                "video": false,
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "first-release-date": "1972-03"
+              },
+              "title": "Run That Body Down"
+            },
+            {
+              "length": 237066,
+              "number": "5",
+              "id": "1f059db2-468a-4a9e-a01c-0959677de75f",
+              "title": "Armistice Day",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "video": false,
+                "length": 237066,
+                "title": "Armistice Day",
+                "disambiguation": ""
+              },
+              "position": 5
+            },
+            {
+              "id": "3b8adadb-f8a0-4362-9b29-66c78447185b",
+              "number": "6",
+              "length": 164813,
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard",
+                "length": 163973,
+                "video": false,
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03"
+              },
+              "title": "Me and Julio Down by the Schoolyard"
+            },
+            {
+              "length": 203280,
+              "number": "7",
+              "id": "ce47a2bd-6da7-48e2-82a6-d861e7a040bb",
+              "title": "Peace Like a River",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "title": "Peace Like a River",
+                "length": 203280,
+                "video": false,
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "first-release-date": "1972-03"
+              }
+            },
+            {
+              "length": 155533,
+              "number": "8",
+              "id": "5cd4868e-f2b9-4adf-98dd-b3c1e638500b",
+              "title": "Papa Hobo",
+              "position": 8,
+              "recording": {
+                "video": false,
+                "length": 155933,
+                "title": "Papa Hobo",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26"
+              }
+            },
+            {
+              "id": "c10760be-d44c-4811-aa9a-8868926c2e6f",
+              "number": "9",
+              "length": 80773,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "title": "Hobo’s Blues",
+                "disambiguation": "",
+                "video": false,
+                "length": 80826
+              },
+              "position": 9,
+              "title": "Hobo's Blues"
+            },
+            {
+              "number": "10",
+              "length": 178146,
+              "id": "85ba616c-6a29-4135-a019-1ea755079de8",
+              "title": "Paranoia Blues",
+              "position": 10,
+              "recording": {
+                "video": false,
+                "length": 178146,
+                "title": "Paranoia Blues",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777"
+              }
+            },
+            {
+              "id": "a5fc7867-a774-47fa-84f6-7c738a5fdf8e",
+              "number": "11",
+              "length": 231080,
+              "position": 11,
+              "recording": {
+                "title": "Congratulations",
+                "disambiguation": "",
+                "video": false,
+                "length": 223040,
+                "first-release-date": "1972-03",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6"
+              },
+              "title": "Congratulations"
+            },
+            {
+              "title": "Me and Julio Down by the Schoolyard (Demo - San Francisco 2/71)",
+              "recording": {
+                "first-release-date": "2004-07-06",
+                "id": "2a073a91-995e-415b-93fd-9b23b8cf5386",
+                "video": false,
+                "length": 149546,
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": "demo"
+              },
+              "position": 12,
+              "length": 149546,
+              "number": "12",
+              "id": "f611c29a-3b71-4c14-8c1f-fec834b3eafd"
+            },
+            {
+              "length": 168586,
+              "number": "13",
+              "id": "f71e89a7-23a5-4c6f-a09e-047f5c593bc6",
+              "title": "Duncan (Demo - San Francisco 2/71)",
+              "position": 13,
+              "recording": {
+                "id": "935de698-22ea-4c84-a445-2585846b4263",
+                "first-release-date": "2004-07-06",
+                "length": 168586,
+                "video": false,
+                "disambiguation": "demo",
+                "title": "Duncan"
+              }
+            },
+            {
+              "id": "70e63ec5-75f7-4152-96b5-ba3e737162ea",
+              "number": "14",
+              "length": 194360,
+              "position": 14,
+              "recording": {
+                "id": "4c959917-ffb1-4e8f-b437-8d640f661f0d",
+                "first-release-date": "2004-07-06",
+                "disambiguation": "unreleased version",
+                "title": "Paranoia Blues",
+                "length": 194360,
+                "video": false
+              },
+              "title": "Paranoia Blues (Unreleased version)"
+            }
+          ]
+        }
+      ],
+      "asin": null,
+      "barcode": "886978202321",
+      "id": "696aa6a2-c29e-4e47-ad95-0c90b7634e98",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a"
+    },
+    {
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "id": "282910a2-57f9-302c-b72a-cdefdf4548d0",
+          "format": "Digital Media",
+          "track-offset": 0,
+          "title": "",
+          "tracks": [
+            {
+              "id": "8aeec50f-bb8d-440f-b1b5-a640d94b0dd7",
+              "number": "1",
+              "length": 189866,
+              "position": 1,
+              "recording": {
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03",
+                "length": 186226,
+                "video": false,
+                "disambiguation": "",
+                "title": "Mother and Child Reunion"
+              },
+              "title": "Mother and Child Reunion"
+            },
+            {
+              "title": "Duncan",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "title": "Duncan",
+                "disambiguation": "",
+                "video": false,
+                "length": 283133
+              },
+              "position": 2,
+              "number": "2",
+              "length": 283133,
+              "id": "c725040e-854b-4ce1-ab0b-e0620553fc92"
+            },
+            {
+              "id": "e0d3c95e-345a-4d6e-bcf7-a03b1ff0956c",
+              "number": "3",
+              "length": 121866,
+              "recording": {
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "length": 122000,
+                "video": false
+              },
+              "position": 3,
+              "title": "Everything Put Together Falls Apart"
+            },
+            {
+              "id": "41afcf5f-9c57-4ec2-bd72-deecd6dda62f",
+              "number": "4",
+              "length": 234600,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "title": "Run That Body Down",
+                "disambiguation": "",
+                "video": false,
+                "length": 234600
+              },
+              "position": 4,
+              "title": "Run That Body Down"
+            },
+            {
+              "id": "109d2b67-9329-4e01-ba24-1a86a4459283",
+              "number": "5",
+              "length": 237066,
+              "position": 5,
+              "recording": {
+                "length": 237066,
+                "video": false,
+                "disambiguation": "",
+                "title": "Armistice Day",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "first-release-date": "1972-03"
+              },
+              "title": "Armistice Day"
+            },
+            {
+              "title": "Me and Julio Down by the Schoolyard",
+              "recording": {
+                "video": false,
+                "length": 163973,
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06"
+              },
+              "position": 6,
+              "number": "6",
+              "length": 164813,
+              "id": "0f94236a-7be6-4b2f-86e9-e4f549973e36"
+            },
+            {
+              "number": "7",
+              "length": 203280,
+              "id": "11edf841-b958-4b3c-b2c8-0784b48260e9",
+              "title": "Peace Like a River",
+              "recording": {
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "first-release-date": "1972-03",
+                "length": 203280,
+                "video": false,
+                "disambiguation": "",
+                "title": "Peace Like a River"
+              },
+              "position": 7
+            },
+            {
+              "id": "a6817e12-bd6d-44fe-88b1-2e0295baaa69",
+              "length": 155533,
+              "number": "8",
+              "recording": {
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Papa Hobo",
+                "length": 155933,
+                "video": false
+              },
+              "position": 8,
+              "title": "Papa Hobo"
+            },
+            {
+              "title": "Hobo’s Blues",
+              "position": 9,
+              "recording": {
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03",
+                "length": 80826,
+                "video": false,
+                "disambiguation": "",
+                "title": "Hobo’s Blues"
+              },
+              "length": 80773,
+              "number": "9",
+              "id": "59e1cdc5-55cf-41fe-b648-26f960abe5a4"
+            },
+            {
+              "number": "10",
+              "length": 178146,
+              "id": "509aa2b6-f76e-41df-8259-50d8e34d721c",
+              "title": "Paranoia Blues",
+              "recording": {
+                "video": false,
+                "length": 178146,
+                "title": "Paranoia Blues",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777"
+              },
+              "position": 10
+            },
+            {
+              "recording": {
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "first-release-date": "1972-03",
+                "length": 223040,
+                "video": false,
+                "disambiguation": "",
+                "title": "Congratulations"
+              },
+              "position": 11,
+              "title": "Congratulations",
+              "id": "4aba096e-366c-4dce-bddf-1f9cf64fc940",
+              "length": 224000,
+              "number": "11"
+            }
+          ],
+          "track-count": 11,
+          "position": 1
+        }
+      ],
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "id": "6e255410-d694-4d47-b318-490d3a1125fa",
+      "packaging": "None",
+      "asin": null,
+      "barcode": "886445231878",
+      "country": "US",
+      "cover-art-archive": {
+        "front": false,
+        "artwork": false,
+        "back": false,
+        "darkened": false,
+        "count": 0
+      },
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2015-04-21"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "date": "2015-04-21"
+    },
+    {
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "id": "8c4501a4-ae1c-4c87-9618-474c2ced854a",
+      "packaging": "None",
+      "asin": null,
+      "barcode": "884977674514",
+      "media": [
+        {
+          "track-offset": 0,
+          "id": "feb4faf1-1c92-3fb9-9731-66739f6058ab",
+          "format": "Digital Media",
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1,
+          "track-count": 14,
+          "tracks": [
+            {
+              "length": 189866,
+              "number": "1",
+              "id": "f6946fe5-196d-4b70-a9dd-5a30bc604d35",
+              "title": "Mother and Child Reunion",
+              "position": 1,
+              "recording": {
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03",
+                "length": 186226,
+                "video": false,
+                "disambiguation": "",
+                "title": "Mother and Child Reunion"
+              }
+            },
+            {
+              "recording": {
+                "title": "Duncan",
+                "disambiguation": "",
+                "video": false,
+                "length": 283133,
+                "first-release-date": "1972-03",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8"
+              },
+              "position": 2,
+              "title": "Duncan",
+              "id": "27801f4f-1221-4490-819d-46a62fb2c21e",
+              "length": 283133,
+              "number": "2"
+            },
+            {
+              "length": 121866,
+              "number": "3",
+              "id": "b83391d1-18a1-47b2-bde7-1edfa5432b4d",
+              "title": "Everything Put Together Falls Apart",
+              "position": 3,
+              "recording": {
+                "length": 122000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03"
+              }
+            },
+            {
+              "number": "4",
+              "length": 234600,
+              "id": "e6b8a47b-2ff7-4f9c-b5a2-31d48774c5de",
+              "title": "Run That Body Down",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "title": "Run That Body Down",
+                "disambiguation": "",
+                "video": false,
+                "length": 234600
+              },
+              "position": 4
+            },
+            {
+              "recording": {
+                "length": 237066,
+                "video": false,
+                "disambiguation": "",
+                "title": "Armistice Day",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "first-release-date": "1972-03"
+              },
+              "position": 5,
+              "title": "Armistice Day",
+              "id": "59d72481-5f4d-40a0-a46a-366456879393",
+              "number": "5",
+              "length": 237066
+            },
+            {
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard",
+                "length": 163973,
+                "video": false,
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03"
+              },
+              "title": "Me and Julio Down by the Schoolyard",
+              "id": "83dbd2b8-4831-42f3-af6e-2759ebfa3f4d",
+              "number": "6",
+              "length": 164813
+            },
+            {
+              "id": "05127c97-5e14-4282-84d7-4eee66d14b62",
+              "length": 203280,
+              "number": "7",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "video": false,
+                "length": 203280,
+                "title": "Peace Like a River",
+                "disambiguation": ""
+              },
+              "position": 7,
+              "title": "Peace Like a River"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "title": "Papa Hobo",
+                "length": 155933,
+                "video": false,
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "first-release-date": "1972-03"
+              },
+              "position": 8,
+              "title": "Papa Hobo",
+              "id": "a3766045-4206-40f0-80d2-206ac56443ac",
+              "number": "8",
+              "length": 155533
+            },
+            {
+              "length": 80773,
+              "number": "9",
+              "id": "91209090-3e47-4a64-b0b8-e0298cadb14f",
+              "title": "Hobo’s Blues",
+              "recording": {
+                "video": false,
+                "length": 80826,
+                "title": "Hobo’s Blues",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb"
+              },
+              "position": 9
+            },
+            {
+              "length": 178146,
+              "number": "10",
+              "id": "2f0e9e16-24a1-44b2-9627-4bf640025baf",
+              "title": "Paranoia Blues",
+              "recording": {
+                "length": 178146,
+                "video": false,
+                "disambiguation": "",
+                "title": "Paranoia Blues",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+                "first-release-date": "1972-03"
+              },
+              "position": 10
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 223040,
+                "title": "Congratulations",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6"
+              },
+              "position": 11,
+              "title": "Congratulations",
+              "id": "3448018a-b23c-437e-a947-fed0ac0fb814",
+              "number": "11",
+              "length": 231080
+            },
+            {
+              "title": "Me and Julio Down by the Schoolyard (demo – San Francisco 2/71)",
+              "position": 12,
+              "recording": {
+                "length": 149546,
+                "video": false,
+                "disambiguation": "demo",
+                "title": "Me and Julio Down by the Schoolyard",
+                "id": "2a073a91-995e-415b-93fd-9b23b8cf5386",
+                "first-release-date": "2004-07-06"
+              },
+              "length": 149546,
+              "number": "12",
+              "id": "dd6225a8-1128-4733-b26e-95655797a994"
+            },
+            {
+              "title": "Duncan (demo – San Francisco 2/71)",
+              "recording": {
+                "length": 168586,
+                "video": false,
+                "disambiguation": "demo",
+                "title": "Duncan",
+                "id": "935de698-22ea-4c84-a445-2585846b4263",
+                "first-release-date": "2004-07-06"
+              },
+              "position": 13,
+              "length": 168586,
+              "number": "13",
+              "id": "73f23e1d-7765-4ae1-a05e-947351af5eef"
+            },
+            {
+              "recording": {
+                "id": "4c959917-ffb1-4e8f-b437-8d640f661f0d",
+                "first-release-date": "2004-07-06",
+                "length": 194360,
+                "video": false,
+                "disambiguation": "unreleased version",
+                "title": "Paranoia Blues"
+              },
+              "position": 14,
+              "title": "Paranoia Blues (unreleased version)",
+              "id": "5507b0c6-11a9-48e2-b570-8d22e1c1d765",
+              "length": 194360,
+              "number": "14"
+            }
+          ],
+          "title": ""
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "date": "2010-07-13",
+      "country": "XW",
+      "release-events": [
+        {
+          "date": "2010-07-13",
+          "area": {
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "sort-name": "[Worldwide]",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          }
+        }
+      ],
+      "quality": "normal",
+      "cover-art-archive": {
+        "front": true,
+        "back": false,
+        "artwork": true,
+        "count": 1,
+        "darkened": false
+      },
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "Paul Simon"
+    },
+    {
+      "quality": "normal",
+      "cover-art-archive": {
+        "count": 7,
+        "darkened": false,
+        "front": true,
+        "back": true,
+        "artwork": true
+      },
+      "release-events": [
+        {
+          "date": "1972-03",
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          }
+        }
+      ],
+      "status": "Official",
+      "country": "US",
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "1972-03",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "id": "963f8aa0-7837-39ff-b637-880a157f4cfa",
+          "tracks": [
+            {
+              "recording": {
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Mother and Child Reunion",
+                "length": 186226,
+                "video": false
+              },
+              "position": 1,
+              "title": "Mother and Child Reunion",
+              "id": "9b09ec63-77d5-30de-a6e6-5e40b2336ec2",
+              "length": 190000,
+              "number": "A1"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "title": "Duncan",
+                "length": 283133,
+                "video": false,
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "first-release-date": "1972-03"
+              },
+              "position": 2,
+              "title": "Duncan",
+              "id": "0d20e129-af95-3cbf-81b1-e6ea51c6b290",
+              "number": "A2",
+              "length": 283306
+            },
+            {
+              "recording": {
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "length": 122000,
+                "video": false
+              },
+              "position": 3,
+              "title": "Everything Put Together Falls Apart",
+              "id": "ab753644-10db-3163-879c-5f4f98dd78ec",
+              "length": 122160,
+              "number": "A3"
+            },
+            {
+              "length": 234440,
+              "number": "A4",
+              "id": "fc9d1cef-1334-348d-acbc-a415ea89e261",
+              "title": "Run That Body Down",
+              "recording": {
+                "disambiguation": "",
+                "title": "Run That Body Down",
+                "length": 234600,
+                "video": false,
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "first-release-date": "1972-03"
+              },
+              "position": 4
+            },
+            {
+              "id": "86eb5c78-b2a9-3eaf-ae3c-075203b7cb73",
+              "number": "A5",
+              "length": 238093,
+              "position": 5,
+              "recording": {
+                "title": "Armistice Day",
+                "disambiguation": "",
+                "video": false,
+                "length": 237066,
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8"
+              },
+              "title": "Armistice Day"
+            },
+            {
+              "id": "f279f830-10a0-3858-a27f-e4e1e152d040",
+              "number": "B1",
+              "length": 164933,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": "",
+                "video": false,
+                "length": 163973
+              },
+              "position": 6,
+              "title": "Me and Julio Down by the Schoolyard"
+            },
+            {
+              "id": "63b90504-d8ef-3b88-ba5e-8294df9f8cd3",
+              "number": "B2",
+              "length": 203440,
+              "position": 7,
+              "recording": {
+                "title": "Peace Like a River",
+                "disambiguation": "",
+                "video": false,
+                "length": 203280,
+                "first-release-date": "1972-03",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070"
+              },
+              "title": "Peace Like a River"
+            },
+            {
+              "recording": {
+                "length": 155933,
+                "video": false,
+                "disambiguation": "",
+                "title": "Papa Hobo",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "first-release-date": "1972-03"
+              },
+              "position": 8,
+              "title": "Papa Hobo",
+              "id": "e63e16f2-19c1-3c27-a2cf-1b8cff2aaec8",
+              "number": "B3",
+              "length": 155933
+            },
+            {
+              "title": "Hobo's Blues",
+              "recording": {
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Hobo’s Blues",
+                "length": 80826,
+                "video": false
+              },
+              "position": 9,
+              "number": "B4",
+              "length": 80826,
+              "id": "d0dd3f6d-3acb-37e5-b972-bd2174e247a0"
+            },
+            {
+              "number": "B5",
+              "length": 178333,
+              "id": "7fba8a5b-99b7-3029-9a0f-4e43354fbec9",
+              "title": "Paranoia Blues",
+              "recording": {
+                "video": false,
+                "length": 178146,
+                "title": "Paranoia Blues",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777"
+              },
+              "position": 10
+            },
+            {
+              "length": 223040,
+              "number": "B6",
+              "id": "b11f725f-44f7-37c5-bd06-64f3f9f34c07",
+              "title": "Congratulations",
+              "recording": {
+                "video": false,
+                "length": 223040,
+                "title": "Congratulations",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6"
+              },
+              "position": 11
+            }
+          ],
+          "title": "",
+          "position": 1,
+          "track-count": 11
+        }
+      ],
+      "id": "98525987-1acb-4a44-898e-fb44fa17a2ba",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null,
+      "barcode": ""
+    },
+    {
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "2c1597ed-360a-3953-af63-04208f1ee154",
+          "format": "CD",
+          "track-offset": 0,
+          "title": "",
+          "tracks": [
+            {
+              "length": 190000,
+              "number": "1",
+              "id": "91ed9a52-b004-4ddb-a723-618f32158cd9",
+              "title": "Mother and Child Reunion",
+              "position": 1,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "title": "Mother and Child Reunion",
+                "disambiguation": "",
+                "video": false,
+                "length": 186226
+              }
+            },
+            {
+              "length": 283306,
+              "number": "2",
+              "id": "911c5284-e21b-4f88-8e67-f41f7084384e",
+              "title": "Duncan",
+              "position": 2,
+              "recording": {
+                "length": 283133,
+                "video": false,
+                "disambiguation": "",
+                "title": "Duncan",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "first-release-date": "1972-03"
+              }
+            },
+            {
+              "title": "Everything Put Together Falls Apart",
+              "recording": {
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "length": 122000,
+                "video": false,
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03"
+              },
+              "position": 3,
+              "length": 122160,
+              "number": "3",
+              "id": "bc1bf26d-aef4-4c3c-bb82-fea4fc584d97"
+            },
+            {
+              "id": "3c505b69-dbc4-48d1-a047-60b9b53a4aa3",
+              "length": 235000,
+              "number": "4",
+              "recording": {
+                "title": "Run That Body Down",
+                "disambiguation": "",
+                "video": false,
+                "length": 234600,
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288"
+              },
+              "position": 4,
+              "title": "Run That Body Down"
+            },
+            {
+              "recording": {
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Armistice Day",
+                "length": 237066,
+                "video": false
+              },
+              "position": 5,
+              "title": "Armistice Day",
+              "id": "76124758-7b4d-42cf-96c8-3af28ac465e7",
+              "number": "5",
+              "length": 238093
+            },
+            {
+              "length": 164933,
+              "number": "6",
+              "id": "f2e4d208-da7d-4120-b066-4b0c989793bb",
+              "title": "Me and Julio Down by the Schoolyard",
+              "position": 6,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": "",
+                "video": false,
+                "length": 163973
+              }
+            },
+            {
+              "title": "Peace Like a River",
+              "recording": {
+                "length": 203280,
+                "video": false,
+                "disambiguation": "",
+                "title": "Peace Like a River",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "first-release-date": "1972-03"
+              },
+              "position": 7,
+              "length": 203440,
+              "number": "7",
+              "id": "19c18c65-d7cb-4bcf-9d4c-33624c4132a9"
+            },
+            {
+              "number": "8",
+              "length": 155933,
+              "id": "0d6e2a0f-913b-4645-b718-b257568b7956",
+              "title": "Papa Hobo",
+              "position": 8,
+              "recording": {
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "first-release-date": "1972-03",
+                "length": 155933,
+                "video": false,
+                "disambiguation": "",
+                "title": "Papa Hobo"
+              }
+            },
+            {
+              "length": 80826,
+              "number": "9",
+              "id": "151db570-d966-4d85-b49f-2f9ac1cf9d01",
+              "title": "Hobo’s Blues",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "title": "Hobo’s Blues",
+                "length": 80826,
+                "video": false,
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03"
+              }
+            },
+            {
+              "title": "Paranoia Blues",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+                "title": "Paranoia Blues",
+                "disambiguation": "",
+                "video": false,
+                "length": 178146
+              },
+              "position": 10,
+              "number": "10",
+              "length": 178333,
+              "id": "75c64a02-5407-433f-9e43-be80b088b380"
+            },
+            {
+              "title": "Congratulations",
+              "position": 11,
+              "recording": {
+                "video": false,
+                "length": 223040,
+                "title": "Congratulations",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6"
+              },
+              "length": 223040,
+              "number": "11",
+              "id": "897a6f45-a9a5-4ab2-a129-9ae79393f037"
+            }
+          ],
+          "track-count": 11,
+          "position": 1
+        }
+      ],
+      "barcode": "075992558822",
+      "asin": null,
+      "packaging": null,
+      "id": "9c520dc4-7f33-4b00-80fb-195d9d312185",
+      "packaging-id": null,
+      "title": "Paul Simon",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "sort-name": "Europe",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          }
+        }
+      ],
+      "quality": "normal",
+      "cover-art-archive": {
+        "front": true,
+        "back": true,
+        "artwork": true,
+        "count": 4,
+        "darkened": false
+      },
+      "country": "XE",
+      "date": "",
+      "text-representation": {
+        "script": null,
+        "language": "eng"
+      }
+    },
+    {
+      "barcode": "4547366062274",
+      "asin": "B005OCSTIO",
+      "packaging": "Cardboard/Paper Sleeve",
+      "id": "a46acd7a-2e14-4159-962d-ddc6daa62abd",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "media": [
+        {
+          "format-id": "038ec24e-5d01-3a8c-817e-c51a515b1875",
+          "id": "1d06235e-4f68-3d15-bd8d-edf026dab0e0",
+          "format": "Blu-spec CD",
+          "track-offset": 0,
+          "title": "",
+          "tracks": [
+            {
+              "id": "16bc43cc-7f7c-3b61-94d3-53433f07442c",
+              "length": 189866,
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "video": false,
+                "length": 186226,
+                "title": "Mother and Child Reunion",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da"
+              },
+              "title": "Mother and Child Reunion"
+            },
+            {
+              "length": 283133,
+              "number": "2",
+              "id": "4a464f8f-e99f-32e2-949c-42a293987f60",
+              "title": "Duncan",
+              "position": 2,
+              "recording": {
+                "length": 283133,
+                "video": false,
+                "disambiguation": "",
+                "title": "Duncan",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "first-release-date": "1972-03"
+              }
+            },
+            {
+              "length": 121866,
+              "number": "3",
+              "id": "83190f49-3729-3f55-bc71-eb6926d2d3de",
+              "title": "Everything Put Together Falls Apart",
+              "position": 3,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "title": "Everything Put Together Falls Apart",
+                "disambiguation": "",
+                "video": false,
+                "length": 122000
+              }
+            },
+            {
+              "title": "Run That Body Down",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "title": "Run That Body Down",
+                "disambiguation": "",
+                "video": false,
+                "length": 234600
+              },
+              "position": 4,
+              "length": 234600,
+              "number": "4",
+              "id": "27f73f7e-6adc-38b9-8b4f-cd82db03b981"
+            },
+            {
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "video": false,
+                "length": 237066,
+                "title": "Armistice Day",
+                "disambiguation": ""
+              },
+              "position": 5,
+              "title": "Armistice Day",
+              "id": "2f520a41-905f-3946-890c-2650d3fb37a7",
+              "length": 237066,
+              "number": "5"
+            },
+            {
+              "number": "6",
+              "length": 164813,
+              "id": "dd34f185-c4a1-3b4c-9d02-ec8d24b54cdb",
+              "title": "Me and Julio Down by the Schoolyard",
+              "position": 6,
+              "recording": {
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard",
+                "length": 163973,
+                "video": false
+              }
+            },
+            {
+              "number": "7",
+              "length": 203280,
+              "id": "a7387cf7-2a8f-3c6a-b32b-90d3ab39bd3c",
+              "title": "Peace Like a River",
+              "position": 7,
+              "recording": {
+                "title": "Peace Like a River",
+                "disambiguation": "",
+                "video": false,
+                "length": 203280,
+                "first-release-date": "1972-03",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070"
+              }
+            },
+            {
+              "title": "Papa Hobo",
+              "position": 8,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "video": false,
+                "length": 155933,
+                "title": "Papa Hobo",
+                "disambiguation": ""
+              },
+              "number": "8",
+              "length": 155533,
+              "id": "8aa9294f-a05b-3307-83df-063260797c22"
+            },
+            {
+              "title": "Hobo's Blues",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "title": "Hobo’s Blues",
+                "disambiguation": "",
+                "video": false,
+                "length": 80826
+              },
+              "position": 9,
+              "length": 80773,
+              "number": "9",
+              "id": "f12063a3-6acd-355f-a755-f0c590dc7bd9"
+            },
+            {
+              "number": "10",
+              "length": 178146,
+              "id": "34221860-6626-30fa-8916-30f8641266cc",
+              "title": "Paranoia Blues",
+              "recording": {
+                "title": "Paranoia Blues",
+                "disambiguation": "",
+                "video": false,
+                "length": 178146,
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777"
+              },
+              "position": 10
+            },
+            {
+              "length": 231080,
+              "number": "11",
+              "id": "19f8b770-eee1-3781-b880-08d5ee34a800",
+              "title": "Congratulations",
+              "position": 11,
+              "recording": {
+                "length": 223040,
+                "video": false,
+                "disambiguation": "",
+                "title": "Congratulations",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "first-release-date": "1972-03"
+              }
+            },
+            {
+              "position": 12,
+              "recording": {
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": "demo",
+                "video": false,
+                "length": 149546,
+                "first-release-date": "2004-07-06",
+                "id": "2a073a91-995e-415b-93fd-9b23b8cf5386"
+              },
+              "title": "Me and Julio Down by the Schoolyard (demo)",
+              "id": "9a61e78a-3016-3590-bbb8-f914211d5528",
+              "length": 149546,
+              "number": "12"
+            },
+            {
+              "id": "dc6ba081-cfef-3341-81f2-7cdaa1af0c3f",
+              "number": "13",
+              "length": 168586,
+              "position": 13,
+              "recording": {
+                "id": "935de698-22ea-4c84-a445-2585846b4263",
+                "first-release-date": "2004-07-06",
+                "disambiguation": "demo",
+                "title": "Duncan",
+                "length": 168586,
+                "video": false
+              },
+              "title": "Duncan (demo)"
+            },
+            {
+              "title": "Paranoia Blues (unreleased)",
+              "position": 14,
+              "recording": {
+                "first-release-date": "2004-07-06",
+                "id": "4c959917-ffb1-4e8f-b437-8d640f661f0d",
+                "title": "Paranoia Blues",
+                "disambiguation": "unreleased version",
+                "video": false,
+                "length": 194360
+              },
+              "length": 194360,
+              "number": "14",
+              "id": "34d8d09e-918d-3386-baf6-95842db3013f"
+            }
+          ],
+          "track-count": 14,
+          "position": 1
+        }
+      ],
+      "date": "2011-11-23",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "title": "Paul Simon",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "quality": "normal",
+      "release-events": [
+        {
+          "date": "2011-11-23",
+          "area": {
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Japan",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "sort-name": "Japan",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "front": true,
+        "back": true,
+        "artwork": true,
+        "count": 6,
+        "darkened": false
+      },
+      "country": "JP"
+    },
+    {
+      "media": [
+        {
+          "tracks": [
+            {
+              "id": "d8b387e2-98dc-4447-99a6-4032aea581d2",
+              "number": "1",
+              "length": 190000,
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "title": "Mother and Child Reunion",
+                "length": 186226,
+                "video": false,
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03"
+              },
+              "title": "Mother and Child Reunion"
+            },
+            {
+              "id": "1eb39123-cc95-4431-b6ba-d2b83f2e182c",
+              "length": 283306,
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Duncan",
+                "length": 283133,
+                "video": false
+              },
+              "title": "Duncan"
+            },
+            {
+              "length": 122160,
+              "number": "3",
+              "id": "37db002c-1d88-439a-92dd-ef574da9fff2",
+              "title": "Everything Put Together Falls Apart",
+              "recording": {
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03",
+                "length": 122000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart"
+              },
+              "position": 3
+            },
+            {
+              "recording": {
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "first-release-date": "1972-03",
+                "length": 234600,
+                "video": false,
+                "disambiguation": "",
+                "title": "Run That Body Down"
+              },
+              "position": 4,
+              "title": "Run That Body Down",
+              "id": "90fa1e1b-24d1-4e1d-9d11-7f8976271598",
+              "length": 234440,
+              "number": "4"
+            },
+            {
+              "id": "8243e834-669e-429e-b5bc-51ae87a48f86",
+              "length": 238093,
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "length": 237066,
+                "video": false,
+                "disambiguation": "",
+                "title": "Armistice Day",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "first-release-date": "1972-03"
+              },
+              "title": "Armistice Day"
+            },
+            {
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "video": false,
+                "length": 163973,
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "title": "Me and Julio Down by the Schoolyard",
+              "id": "04709117-f974-451c-82fb-9e6646b807e0",
+              "length": 164933,
+              "number": "6"
+            },
+            {
+              "id": "7371753c-0e15-41eb-8715-58c2eabfd042",
+              "number": "7",
+              "length": 203440,
+              "position": 7,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "video": false,
+                "length": 203280,
+                "title": "Peace Like a River",
+                "disambiguation": ""
+              },
+              "title": "Peace Like a River"
+            },
+            {
+              "title": "Papa Hobo",
+              "position": 8,
+              "recording": {
+                "title": "Papa Hobo",
+                "disambiguation": "",
+                "video": false,
+                "length": 155933,
+                "first-release-date": "1972-03",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26"
+              },
+              "number": "8",
+              "length": 155933,
+              "id": "46e38442-743f-4b8a-ae7a-62a5b5f05776"
+            },
+            {
+              "length": 80826,
+              "number": "9",
+              "id": "4219e1c8-bcef-42f9-b769-98a289133f3a",
+              "title": "Hobo’s Blues",
+              "recording": {
+                "title": "Hobo’s Blues",
+                "disambiguation": "",
+                "video": false,
+                "length": 80826,
+                "first-release-date": "1972-03",
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb"
+              },
+              "position": 9
+            },
+            {
+              "title": "Paranoia Blues",
+              "recording": {
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Paranoia Blues",
+                "length": 178146,
+                "video": false
+              },
+              "position": 10,
+              "number": "10",
+              "length": 178333,
+              "id": "2991f1b6-9c9b-4b92-8ae6-ddc48fe1cf03"
+            },
+            {
+              "id": "32475d0c-82c6-44cf-8dfd-47fe9b9ddced",
+              "length": 223040,
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "disambiguation": "",
+                "title": "Congratulations",
+                "length": 223040,
+                "video": false,
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "first-release-date": "1972-03"
+              },
+              "title": "Congratulations"
+            }
+          ],
+          "title": "",
+          "position": 1,
+          "track-count": 11,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "id": "b0f80745-6e8c-3306-abc3-1f2475459599",
+          "format": "CD"
+        }
+      ],
+      "id": "c0768c2e-f9fa-49f8-86d0-bc8891f292cd",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "barcode": "075992558822",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "front": true,
+        "count": 1,
+        "darkened": false
+      },
+      "quality": "normal",
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "name": "Canada",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "sort-name": "Canada",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "status": "Official",
+      "country": "CA",
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "date": ""
+    },
+    {
+      "media": [
+        {
+          "track-offset": 0,
+          "format": "CD",
+          "id": "3c38dbc0-711a-3735-bf46-a63ac7b68767",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 14,
+          "tracks": [
+            {
+              "id": "f5fadf36-ad52-3849-ae94-d27d2e5a6f2f",
+              "number": "1",
+              "length": 189866,
+              "recording": {
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Mother and Child Reunion",
+                "length": 186226,
+                "video": false
+              },
+              "position": 1,
+              "title": "Mother and Child Reunion"
+            },
+            {
+              "title": "Duncan",
+              "recording": {
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "first-release-date": "1972-03",
+                "length": 283133,
+                "video": false,
+                "disambiguation": "",
+                "title": "Duncan"
+              },
+              "position": 2,
+              "number": "2",
+              "length": 283133,
+              "id": "2cf88c53-016c-3c03-b310-0ec03fec3f85"
+            },
+            {
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "length": 122000,
+                "video": false,
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03"
+              },
+              "title": "Everything Put Together Falls Apart",
+              "id": "9df68e2b-5197-3969-8688-d5fe052dace3",
+              "length": 121866,
+              "number": "3"
+            },
+            {
+              "id": "255b2cbb-ce71-3f45-87f1-8069c83c03a4",
+              "number": "4",
+              "length": 234600,
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "title": "Run That Body Down",
+                "length": 234600,
+                "video": false,
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "first-release-date": "1972-03"
+              },
+              "title": "Run That Body Down"
+            },
+            {
+              "number": "5",
+              "length": 237066,
+              "id": "07158856-9d5d-37b8-a892-db11593e44dd",
+              "title": "Armistice Day",
+              "recording": {
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Armistice Day",
+                "length": 237066,
+                "video": false
+              },
+              "position": 5
+            },
+            {
+              "id": "070339e6-2b5e-3ad1-baf0-872e181a9d35",
+              "length": 164813,
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard",
+                "length": 163973,
+                "video": false,
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03"
+              },
+              "title": "Me and Julio Down by the Schoolyard"
+            },
+            {
+              "title": "Peace Like a River",
+              "position": 7,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "video": false,
+                "length": 203280,
+                "title": "Peace Like a River",
+                "disambiguation": ""
+              },
+              "number": "7",
+              "length": 203280,
+              "id": "5e322d2e-01d2-3781-997f-a10dc4447a1d"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "video": false,
+                "length": 155933,
+                "title": "Papa Hobo",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26"
+              },
+              "title": "Papa Hobo",
+              "id": "3b382961-4796-36c7-8dac-b503d482d7c0",
+              "length": 155533,
+              "number": "8"
+            },
+            {
+              "length": 80773,
+              "number": "9",
+              "id": "6e0b4854-802b-3d7f-8044-663ad3f86974",
+              "title": "Hobo's Blues",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "video": false,
+                "length": 80826,
+                "title": "Hobo’s Blues",
+                "disambiguation": ""
+              },
+              "position": 9
+            },
+            {
+              "title": "Paranoia Blues",
+              "recording": {
+                "video": false,
+                "length": 178146,
+                "title": "Paranoia Blues",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777"
+              },
+              "position": 10,
+              "number": "10",
+              "length": 178146,
+              "id": "f6910429-77b4-3132-9237-47bcaca190b0"
+            },
+            {
+              "id": "69769d36-b538-3e87-a91b-69b2833d77c0",
+              "number": "11",
+              "length": 231080,
+              "position": 11,
+              "recording": {
+                "disambiguation": "",
+                "title": "Congratulations",
+                "length": 223040,
+                "video": false,
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "first-release-date": "1972-03"
+              },
+              "title": "Congratulations"
+            },
+            {
+              "number": "12",
+              "length": 149546,
+              "id": "52fb867e-b9ab-328a-b4f4-a7b8124354bd",
+              "title": "Me and Julio Down by the Schoolyard (demo)",
+              "recording": {
+                "video": false,
+                "length": 149546,
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": "demo",
+                "first-release-date": "2004-07-06",
+                "id": "2a073a91-995e-415b-93fd-9b23b8cf5386"
+              },
+              "position": 12
+            },
+            {
+              "id": "9aee2e3b-a075-38c3-ad74-179caccde50c",
+              "number": "13",
+              "length": 168586,
+              "recording": {
+                "length": 168586,
+                "video": false,
+                "disambiguation": "demo",
+                "title": "Duncan",
+                "id": "935de698-22ea-4c84-a445-2585846b4263",
+                "first-release-date": "2004-07-06"
+              },
+              "position": 13,
+              "title": "Duncan (demo)"
+            },
+            {
+              "id": "d097b3e9-5354-318c-abee-6a10bd3ee15d",
+              "number": "14",
+              "length": 194360,
+              "position": 14,
+              "recording": {
+                "length": 194360,
+                "video": false,
+                "disambiguation": "unreleased version",
+                "title": "Paranoia Blues",
+                "id": "4c959917-ffb1-4e8f-b437-8d640f661f0d",
+                "first-release-date": "2004-07-06"
+              },
+              "title": "Paranoia Blues (unreleased)"
+            }
+          ],
+          "title": ""
+        }
+      ],
+      "id": "c4d8f909-74d3-4389-b323-915e644100c0",
+      "packaging": null,
+      "packaging-id": null,
+      "asin": null,
+      "barcode": "886978202321",
+      "cover-art-archive": {
+        "count": 1,
+        "darkened": false,
+        "front": true,
+        "back": false,
+        "artwork": true
+      },
+      "quality": "normal",
+      "release-events": [
+        {
+          "date": "2011-06-07",
+          "area": null
+        }
+      ],
+      "status": "Official",
+      "country": null,
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "2011-06-07"
+    },
+    {
+      "asin": null,
+      "barcode": "075992558815",
+      "id": "d17c5252-8ea8-49dc-8b72-ba2c9abcff90",
+      "packaging": null,
+      "packaging-id": null,
+      "media": [
+        {
+          "track-count": 11,
+          "position": 1,
+          "title": "",
+          "tracks": [
+            {
+              "id": "102aa069-acda-4b85-b6b1-36caa6930c77",
+              "number": "A1",
+              "length": 190000,
+              "position": 1,
+              "recording": {
+                "title": "Mother and Child Reunion",
+                "disambiguation": "",
+                "video": false,
+                "length": 186226,
+                "first-release-date": "1972-03",
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da"
+              },
+              "title": "Mother and Child Reunion"
+            },
+            {
+              "title": "Duncan",
+              "recording": {
+                "video": false,
+                "length": 283133,
+                "title": "Duncan",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8"
+              },
+              "position": 2,
+              "number": "A2",
+              "length": 283306,
+              "id": "a1f4920a-0901-4a2f-aad1-3b6570d1f94c"
+            },
+            {
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "length": 122000,
+                "video": false,
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03"
+              },
+              "title": "Everything Put Together Falls Apart",
+              "id": "6a5c2f6e-2642-40f5-aa58-ef4f0db40835",
+              "length": 122160,
+              "number": "A3"
+            },
+            {
+              "id": "8516b242-44f4-41df-b295-0ccd402afb8b",
+              "length": 234440,
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "title": "Run That Body Down",
+                "disambiguation": "",
+                "video": false,
+                "length": 234600,
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288"
+              },
+              "title": "Run That Body Down"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "video": false,
+                "length": 237066,
+                "title": "Armistice Day",
+                "disambiguation": ""
+              },
+              "title": "Armistice Day",
+              "id": "53f82bc5-3636-42c6-b160-28505c28dfbb",
+              "number": "A5",
+              "length": 238093
+            },
+            {
+              "recording": {
+                "length": 163973,
+                "video": false,
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03"
+              },
+              "position": 6,
+              "title": "Me and Julio Down by the Schoolyard",
+              "id": "d3a5d853-7ce6-4878-b4c1-d2284207d1f5",
+              "length": 164933,
+              "number": "B1"
+            },
+            {
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "title": "Peace Like a River",
+                "length": 203280,
+                "video": false,
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "first-release-date": "1972-03"
+              },
+              "title": "Peace Like a River",
+              "id": "1fbda6c7-67de-4de2-b874-2fd4cdd6a5e5",
+              "number": "B2",
+              "length": 203440
+            },
+            {
+              "id": "c10b8fad-c60e-4c04-93d6-70756cd8a8ea",
+              "number": "B3",
+              "length": 155933,
+              "recording": {
+                "disambiguation": "",
+                "title": "Papa Hobo",
+                "length": 155933,
+                "video": false,
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26",
+                "first-release-date": "1972-03"
+              },
+              "position": 8,
+              "title": "Papa Hobo"
+            },
+            {
+              "id": "48413198-e7db-44a8-8247-f0d554b13815",
+              "number": "B4",
+              "length": 80826,
+              "recording": {
+                "disambiguation": "",
+                "title": "Hobo’s Blues",
+                "length": 80826,
+                "video": false,
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03"
+              },
+              "position": 9,
+              "title": "Hobo's Blues"
+            },
+            {
+              "recording": {
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Paranoia Blues",
+                "length": 178146,
+                "video": false
+              },
+              "position": 10,
+              "title": "Paranoia Blues",
+              "id": "9dbfd1ef-14cc-43b5-95d2-f09e89adc7ce",
+              "number": "B5",
+              "length": 178333
+            },
+            {
+              "recording": {
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "first-release-date": "1972-03",
+                "length": 223040,
+                "video": false,
+                "disambiguation": "",
+                "title": "Congratulations"
+              },
+              "position": 11,
+              "title": "Congratulations",
+              "id": "f61bf5cb-e860-4614-9720-e50eca7f2b38",
+              "length": 223040,
+              "number": "B6"
+            }
+          ],
+          "id": "9e2c0c75-383b-3d4e-8331-5d77d7f6b0cd",
+          "format": "12\" Vinyl",
+          "track-offset": 0,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "date": "1990",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "disambiguation": "1990 DMM",
+      "title": "Paul Simon",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": false,
+        "front": false,
+        "count": 0,
+        "darkened": false
+      },
+      "release-events": [
+        {
+          "date": "1990",
+          "area": {
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          }
+        }
+      ],
+      "quality": "normal",
+      "status": "Official",
+      "country": "US"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "1990",
+      "country": "US",
+      "status": "Official",
+      "cover-art-archive": {
+        "front": true,
+        "back": false,
+        "artwork": true,
+        "count": 1,
+        "darkened": false
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States"
+          },
+          "date": "1990"
+        }
+      ],
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "Paul Simon",
+      "disambiguation": "",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "packaging": "Jewel Case",
+      "id": "e56293c8-e323-4482-80cd-71915070635f",
+      "barcode": "",
+      "asin": null,
+      "media": [
+        {
+          "title": "",
+          "tracks": [
+            {
+              "title": "Mother and Child Reunion",
+              "position": 1,
+              "recording": {
+                "length": 186226,
+                "video": false,
+                "disambiguation": "",
+                "title": "Mother and Child Reunion",
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03"
+              },
+              "number": "1",
+              "length": 190000,
+              "id": "e7d711c0-4524-3b52-befd-48683a03363d"
+            },
+            {
+              "title": "Duncan",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 283133,
+                "title": "Duncan",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8"
+              },
+              "number": "2",
+              "length": 283306,
+              "id": "6a381427-1b53-33d8-8f4f-bd1fc4f58b59"
+            },
+            {
+              "id": "afd0474c-a0f1-37fa-ab57-af9d3009d318",
+              "length": 122160,
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Everything Put Together Falls Apart",
+                "length": 122000,
+                "video": false
+              },
+              "title": "Everything Put Together Falls Apart"
+            },
+            {
+              "length": 234440,
+              "number": "4",
+              "id": "d0f02379-92ed-3d04-aefa-f0f7ba5af07b",
+              "title": "Run That Body Down",
+              "recording": {
+                "title": "Run That Body Down",
+                "disambiguation": "",
+                "video": false,
+                "length": 234600,
+                "first-release-date": "1972-03",
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288"
+              },
+              "position": 4
+            },
+            {
+              "position": 5,
+              "recording": {
+                "length": 237066,
+                "video": false,
+                "disambiguation": "",
+                "title": "Armistice Day",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "first-release-date": "1972-03"
+              },
+              "title": "Armistice Day",
+              "id": "e9562bba-412c-37ea-85fc-36811009f869",
+              "length": 238093,
+              "number": "5"
+            },
+            {
+              "length": 164933,
+              "number": "6",
+              "id": "54b4c6ab-fd3f-39df-b822-dc28b355ee93",
+              "title": "Me and Julio Down by the Schoolyard",
+              "recording": {
+                "length": 163973,
+                "video": false,
+                "disambiguation": "",
+                "title": "Me and Julio Down by the Schoolyard",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "first-release-date": "1972-03"
+              },
+              "position": 6
+            },
+            {
+              "id": "3f4b5389-977c-30b6-9a4e-df8a1d33dfff",
+              "length": 203440,
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "title": "Peace Like a River",
+                "length": 203280,
+                "video": false,
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "first-release-date": "1972-03"
+              },
+              "title": "Peace Like a River"
+            },
+            {
+              "id": "6c97d367-819c-382e-bb2c-ad3ecd62f3a7",
+              "number": "8",
+              "length": 155933,
+              "recording": {
+                "title": "Papa Hobo",
+                "disambiguation": "",
+                "video": false,
+                "length": 155933,
+                "first-release-date": "1972-03",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26"
+              },
+              "position": 8,
+              "title": "Papa Hobo"
+            },
+            {
+              "length": 80826,
+              "number": "9",
+              "id": "af7091d6-6a99-3347-98af-2cc8f76e39af",
+              "title": "Hobo’s Blues",
+              "recording": {
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Hobo’s Blues",
+                "length": 80826,
+                "video": false
+              },
+              "position": 9
+            },
+            {
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+                "video": false,
+                "length": 178146,
+                "title": "Paranoia Blues",
+                "disambiguation": ""
+              },
+              "position": 10,
+              "title": "Paranoia Blues",
+              "id": "7c89d0a1-0acf-3919-8471-82b802386943",
+              "length": 178333,
+              "number": "10"
+            },
+            {
+              "id": "0037f48a-a068-35be-bec4-1f1f66ddf7b2",
+              "number": "11",
+              "length": 223040,
+              "recording": {
+                "video": false,
+                "length": 223040,
+                "title": "Congratulations",
+                "disambiguation": "",
+                "first-release-date": "1972-03",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6"
+              },
+              "position": 11,
+              "title": "Congratulations"
+            }
+          ],
+          "track-count": 11,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "id": "8cfc4c2d-8ea7-31dc-a726-ad6ef4337181",
+          "track-offset": 0
+        }
+      ]
+    },
+    {
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "format": "12\" Vinyl",
+          "id": "023f53c2-0422-39bc-b70d-a2e24a8cf738",
+          "track-offset": 0,
+          "title": "",
+          "tracks": [
+            {
+              "id": "c731c4c3-7ba9-4683-b434-c26a269d56c9",
+              "length": 190000,
+              "number": "A1",
+              "recording": {
+                "id": "58bd5bf1-3d91-4dac-9abd-7d4f1a1b83da",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Mother and Child Reunion",
+                "length": 186226,
+                "video": false
+              },
+              "position": 1,
+              "title": "Mother and Child Reunion"
+            },
+            {
+              "number": "A2",
+              "length": 283306,
+              "id": "a2f20715-4a81-4bd5-a11b-df1b2a9a0049",
+              "title": "Duncan",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "b0b053c3-237a-422d-bd4b-88749e40ecd8",
+                "video": false,
+                "length": 283133,
+                "title": "Duncan",
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "number": "A3",
+              "length": 122160,
+              "id": "e5c2084c-cb78-4c62-bfbe-c0f4f65e9cf3",
+              "title": "Everything Put Together Falls Apart",
+              "recording": {
+                "title": "Everything Put Together Falls Apart",
+                "disambiguation": "",
+                "video": false,
+                "length": 122000,
+                "first-release-date": "1972-03",
+                "id": "c8b656ce-04ba-48af-a233-546020e9fa40"
+              },
+              "position": 3
+            },
+            {
+              "recording": {
+                "id": "be2fd60d-00ae-4e4b-bc38-a52279409288",
+                "first-release-date": "1972-03",
+                "disambiguation": "",
+                "title": "Run That Body Down",
+                "length": 234600,
+                "video": false
+              },
+              "position": 4,
+              "title": "Run That Body Down",
+              "id": "09219c98-a3d2-42d4-bc39-6f172a7fc88d",
+              "number": "A4",
+              "length": 234440
+            },
+            {
+              "id": "5dd563be-3427-4b61-887b-d5057150d391",
+              "length": 238093,
+              "number": "A5",
+              "position": 5,
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "c5635d5a-e759-4fdc-9c07-9c8fe446a7d8",
+                "title": "Armistice Day",
+                "disambiguation": "",
+                "video": false,
+                "length": 237066
+              },
+              "title": "Armistice Day"
+            },
+            {
+              "title": "Me and Julio Down by the Schoolyard",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "83cdfaa8-aa9a-43a8-b9dd-e7f0e9701c06",
+                "video": false,
+                "length": 163973,
+                "title": "Me and Julio Down by the Schoolyard",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "B1",
+              "length": 164933,
+              "id": "5d548f2f-583c-479b-b199-824c3ba850f1"
+            },
+            {
+              "id": "a19cfdb4-c098-4529-a8a6-6174c59a0d39",
+              "length": 203440,
+              "number": "B2",
+              "recording": {
+                "first-release-date": "1972-03",
+                "id": "da2adb27-3526-4e87-8399-0d53dcc04070",
+                "video": false,
+                "length": 203280,
+                "title": "Peace Like a River",
+                "disambiguation": ""
+              },
+              "position": 7,
+              "title": "Peace Like a River"
+            },
+            {
+              "number": "B3",
+              "length": 155933,
+              "id": "5093b218-d73f-421e-8884-ac100a2bc5dc",
+              "title": "Papa Hobo",
+              "recording": {
+                "title": "Papa Hobo",
+                "disambiguation": "",
+                "video": false,
+                "length": 155933,
+                "first-release-date": "1972-03",
+                "id": "e4b00d3a-8876-44a2-a1e4-7379f6b7ce26"
+              },
+              "position": 8
+            },
+            {
+              "title": "Hobo's Blues",
+              "recording": {
+                "disambiguation": "",
+                "title": "Hobo’s Blues",
+                "length": 80826,
+                "video": false,
+                "id": "492bab1b-1553-40f7-8a3c-5585374449eb",
+                "first-release-date": "1972-03"
+              },
+              "position": 9,
+              "length": 80826,
+              "number": "B4",
+              "id": "26f87836-bfbb-4f2c-bc1c-cb9389b9355c"
+            },
+            {
+              "title": "Paranoia Blues",
+              "recording": {
+                "length": 178146,
+                "video": false,
+                "disambiguation": "",
+                "title": "Paranoia Blues",
+                "id": "0a16e140-4767-4da4-87c1-ae32b0321777",
+                "first-release-date": "1972-03"
+              },
+              "position": 10,
+              "number": "B5",
+              "length": 178333,
+              "id": "61667600-fc46-4608-bd90-a04960741afc"
+            },
+            {
+              "id": "7665a66b-9078-4e00-a205-5bf47ac79124",
+              "number": "B6",
+              "length": 223040,
+              "position": 11,
+              "recording": {
+                "length": 223040,
+                "video": false,
+                "disambiguation": "",
+                "title": "Congratulations",
+                "id": "eae8f75f-4f22-478e-8196-f7adef3e4fe6",
+                "first-release-date": "1972-03"
+              },
+              "title": "Congratulations"
+            }
+          ],
+          "track-count": 11,
+          "position": 1
+        }
+      ],
+      "id": "ff61e541-f5b8-43bd-b019-904a9d02737b",
+      "packaging": null,
+      "packaging-id": null,
+      "asin": null,
+      "barcode": "010963206012",
+      "quality": "normal",
+      "release-events": [
+        {
+          "date": "1998",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "back": false,
+        "artwork": false,
+        "front": false,
+        "count": 0,
+        "darkened": false
+      },
+      "status": "Official",
+      "country": "US",
+      "disambiguation": "",
+      "title": "Paul Simon",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "date": "1998"
+    }
+  ]
+}

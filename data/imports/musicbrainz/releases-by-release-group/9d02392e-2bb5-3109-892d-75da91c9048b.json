@@ -1,0 +1,3412 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=9d02392e-2bb5-3109-892d-75da91c9048b&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-count": 11,
+  "release-offset": 0,
+  "releases": [
+    {
+      "release-events": [
+        {
+          "area": {
+            "name": "[Worldwide]",
+            "type": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "type-id": null,
+            "disambiguation": "",
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ]
+          },
+          "date": "2001-06-01"
+        }
+      ],
+      "title": "Próxima Estación: Esperanza",
+      "asin": null,
+      "media": [
+        {
+          "id": "1fa0aa71-709c-3ac3-80f4-e7256ffb568b",
+          "position": 1,
+          "tracks": [
+            {
+              "recording": {
+                "length": 216066,
+                "disambiguation": "",
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "video": false,
+                "title": "Merry Blues",
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Merry Blues",
+              "number": "1",
+              "position": 1,
+              "length": 216066,
+              "id": "9842c6ac-5d2a-4939-a353-86ce78d6969a"
+            },
+            {
+              "title": "Bixo",
+              "recording": {
+                "length": 112040,
+                "disambiguation": "",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "first-release-date": "2001-06-01",
+                "title": "Bixo",
+                "video": false
+              },
+              "id": "bbc5cb7f-c007-4f4f-91bd-fc1b23766ade",
+              "length": 112040,
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "id": "601a454b-9336-43c2-a46d-784c6ec3b1e4",
+              "length": 89800,
+              "recording": {
+                "length": 89800,
+                "disambiguation": "",
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Eldorado 1997"
+              },
+              "title": "Eldorado 1997"
+            },
+            {
+              "length": 95986,
+              "id": "bb672ed6-9cc7-4572-87af-e5b600d43502",
+              "position": 4,
+              "number": "4",
+              "title": "Promiscuity",
+              "recording": {
+                "length": 95986,
+                "disambiguation": "",
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "first-release-date": "2001-06-01",
+                "title": "Promiscuity",
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "length": 112533,
+                "disambiguation": "",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "video": false,
+                "title": "La primavera",
+                "first-release-date": "2001-06-01"
+              },
+              "title": "La primavera",
+              "number": "5",
+              "position": 5,
+              "length": 112533,
+              "id": "1186ca80-4583-42da-a8dd-87bb46e66b4f"
+            },
+            {
+              "position": 6,
+              "number": "6",
+              "id": "04017c1e-8bdb-4dcb-b5bd-087f901ada11",
+              "length": 239986,
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Me gustas tú",
+                "video": false,
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "disambiguation": "",
+                "length": 239986
+              },
+              "title": "Me gustas tú"
+            },
+            {
+              "id": "2e071591-e4da-4599-ba46-75f73626f447",
+              "length": 279480,
+              "number": "7",
+              "position": 7,
+              "title": "Denia",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Denia",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "disambiguation": "",
+                "length": 279480
+              }
+            },
+            {
+              "title": "Mi vida",
+              "recording": {
+                "length": 152613,
+                "video": false,
+                "title": "Mi vida",
+                "first-release-date": "2001-06-01",
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c",
+                "disambiguation": ""
+              },
+              "length": 152613,
+              "id": "b7829743-d0d5-42d2-8b0b-f1bd3922bb7d",
+              "position": 8,
+              "number": "8"
+            },
+            {
+              "recording": {
+                "length": 114920,
+                "disambiguation": "",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love"
+              },
+              "title": "Trapped by Love",
+              "number": "9",
+              "position": 9,
+              "id": "fa5550b7-f4d9-4352-9dbc-88a85b827fca",
+              "length": 114920
+            },
+            {
+              "number": "10",
+              "position": 10,
+              "length": 116733,
+              "id": "fe33a545-bc14-4203-84b5-b0c878e06e53",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Le rendez-vous",
+                "video": false,
+                "disambiguation": "",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "length": 116733
+              },
+              "title": "Le rendez‐vous"
+            },
+            {
+              "recording": {
+                "length": 229360,
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "disambiguation": "",
+                "title": "Mr. Bobby",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Mr. Bobby",
+              "number": "11",
+              "position": 11,
+              "id": "37a57918-6873-4096-8e98-309239b50b28",
+              "length": 229360
+            },
+            {
+              "title": "Papito",
+              "recording": {
+                "length": 171226,
+                "title": "Papito",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb"
+              },
+              "id": "251d208f-f660-47e4-98bb-abeacd478c36",
+              "length": 171226,
+              "position": 12,
+              "number": "12"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "first-release-date": "2001-06-01",
+                "title": "La chinita",
+                "video": false,
+                "length": 93760
+              },
+              "title": "La chinita",
+              "position": 13,
+              "number": "13",
+              "id": "760bf3d6-3144-4158-a5a9-5230611bc97e",
+              "length": 93760
+            },
+            {
+              "title": "La marea",
+              "recording": {
+                "length": 136906,
+                "title": "La marea",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b"
+              },
+              "id": "40e1e566-65fa-4f6b-9f17-138cc46acd74",
+              "length": 136906,
+              "position": 14,
+              "number": "14"
+            },
+            {
+              "recording": {
+                "video": false,
+                "title": "Homens",
+                "first-release-date": "2001-06-01",
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "length": 198426
+              },
+              "title": "Homens",
+              "position": 15,
+              "number": "15",
+              "length": 198426,
+              "id": "e067f57a-c1d0-48b2-92e7-161222606ed8"
+            },
+            {
+              "recording": {
+                "title": "La vacaloca",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "disambiguation": "",
+                "length": 143640
+              },
+              "title": "La vacaloca",
+              "number": "16",
+              "position": 16,
+              "length": 143640,
+              "id": "7b35c76a-361f-4d70-8974-8837b27a2616"
+            },
+            {
+              "length": 236466,
+              "id": "1d048308-1ffe-4e12-8303-b48264aea3f9",
+              "number": "17",
+              "position": 17,
+              "title": "Infinita tristeza",
+              "recording": {
+                "title": "Infinita tristeza",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec",
+                "length": 236466
+              }
+            }
+          ],
+          "title": "",
+          "track-count": 17,
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0
+        }
+      ],
+      "date": "2001-06-01",
+      "text-representation": {
+        "language": "mul",
+        "script": "Latn"
+      },
+      "barcode": "724381045824",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "121d02e6-a0a7-4db9-ba44-ca9c22f14d2b",
+      "disambiguation": "",
+      "country": "XW",
+      "quality": "normal",
+      "status": "Official",
+      "cover-art-archive": {
+        "darkened": false,
+        "artwork": true,
+        "back": false,
+        "count": 1,
+        "front": true
+      },
+      "packaging": "Jewel Case"
+    },
+    {
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "barcode": "5060281616944",
+      "media": [
+        {
+          "id": "9bde7956-f2ac-31bc-9665-2124e5a22477",
+          "position": 1,
+          "tracks": [
+            {
+              "position": 1,
+              "number": "1",
+              "length": 216066,
+              "id": "c53ebb4a-a999-4b94-801c-ef50f37bbf5e",
+              "recording": {
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "title": "Merry Blues",
+                "video": false,
+                "length": 216066
+              },
+              "title": "Merry Blues"
+            },
+            {
+              "title": "Bixo",
+              "recording": {
+                "length": 112040,
+                "video": false,
+                "title": "Bixo",
+                "first-release-date": "2001-06-01",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "disambiguation": ""
+              },
+              "length": 112040,
+              "id": "16938592-a316-4a5a-981a-3b5f19adc01f",
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "title": "Eldorado 1997",
+              "recording": {
+                "disambiguation": "",
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "video": false,
+                "title": "Eldorado 1997",
+                "first-release-date": "2001-06-01",
+                "length": 89800
+              },
+              "length": 89800,
+              "id": "3795baec-c559-40d4-9197-07191f944739",
+              "position": 3,
+              "number": "3"
+            },
+            {
+              "position": 4,
+              "number": "4",
+              "length": 95986,
+              "id": "7166c104-1a28-4b10-8e7c-a37a65b677e0",
+              "recording": {
+                "length": 95986,
+                "title": "Promiscuity",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "disambiguation": ""
+              },
+              "title": "Promiscuity"
+            },
+            {
+              "number": "5",
+              "position": 5,
+              "id": "0b876ac6-8940-45ed-afb3-36118d7141f8",
+              "length": 112533,
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "La primavera",
+                "video": false,
+                "disambiguation": "",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "length": 112533
+              },
+              "title": "La Primavera"
+            },
+            {
+              "title": "Me Gustas Tu",
+              "recording": {
+                "length": 239986,
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Me gustas tú"
+              },
+              "id": "ac99697c-414c-40b5-9abe-c1a156312b28",
+              "length": 239986,
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "title": "Denia",
+              "recording": {
+                "video": false,
+                "title": "Denia",
+                "first-release-date": "2001-06-01",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "disambiguation": "",
+                "length": 279480
+              },
+              "length": 279480,
+              "id": "f0c6c306-7810-42bd-b9fd-9a48e85cd398",
+              "number": "7",
+              "position": 7
+            },
+            {
+              "recording": {
+                "length": 152613,
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c",
+                "disambiguation": "",
+                "video": false,
+                "title": "Mi vida",
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Mi Vida",
+              "number": "8",
+              "position": 8,
+              "id": "e8370851-e7a0-4ab2-b4a3-a4aa2299dff0",
+              "length": 152613
+            },
+            {
+              "title": "Trapped By Love",
+              "recording": {
+                "length": 114920,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love",
+                "disambiguation": "",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f"
+              },
+              "id": "dc4550fb-54da-4f9a-b6b2-872d382a44db",
+              "length": 114920,
+              "number": "9",
+              "position": 9
+            },
+            {
+              "title": "Le Rendez Vous",
+              "recording": {
+                "disambiguation": "",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Le rendez-vous",
+                "length": 116733
+              },
+              "length": 116733,
+              "id": "8d587a1f-fe8f-43ed-a5c9-008cb996aa36",
+              "position": 10,
+              "number": "10"
+            },
+            {
+              "number": "11",
+              "position": 11,
+              "length": 229360,
+              "id": "c1b37b49-c401-4250-889c-f0cc7980a31b",
+              "recording": {
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Mr. Bobby",
+                "length": 229360
+              },
+              "title": "Mr Bobby"
+            },
+            {
+              "recording": {
+                "length": 171226,
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "title": "Papito",
+                "video": false
+              },
+              "title": "Papito",
+              "number": "12",
+              "position": 12,
+              "id": "75b951b5-55f4-4b3b-9866-1fb7d45a1035",
+              "length": 171226
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La chinita",
+                "length": 93760
+              },
+              "title": "La Chinita",
+              "position": 13,
+              "number": "13",
+              "length": 93760,
+              "id": "1dcb73ef-de97-4a35-baaa-bfb6218c2b37"
+            },
+            {
+              "position": 14,
+              "number": "14",
+              "id": "e34c1d57-4843-4e92-b101-9312177441ec",
+              "length": 136906,
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La marea",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b",
+                "disambiguation": "",
+                "length": 136906
+              },
+              "title": "La Marea"
+            },
+            {
+              "title": "Homens",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Homens",
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "length": 198426
+              },
+              "length": 198426,
+              "id": "436af1d1-e04d-4ee7-9d57-4bd7858f4b64",
+              "number": "15",
+              "position": 15
+            },
+            {
+              "title": "La Vacaloca",
+              "recording": {
+                "length": 143640,
+                "title": "La vacaloca",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac"
+              },
+              "length": 143640,
+              "id": "c62a7b3c-1a5b-42a3-b94d-9150a4a8efbc",
+              "number": "16",
+              "position": 16
+            },
+            {
+              "id": "cfdaac91-5a39-4157-9b13-a03bf25eaeea",
+              "length": 236466,
+              "number": "17",
+              "position": 17,
+              "title": "Infinita Tristeza",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Infinita tristeza",
+                "video": false,
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec",
+                "length": 236466
+              }
+            }
+          ],
+          "track-count": 17,
+          "title": "",
+          "format": "Digital Media",
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "track-offset": 0
+        }
+      ],
+      "asin": null,
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "sort-name": "[Worldwide]",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]"
+          },
+          "date": "2008-05-26"
+        }
+      ],
+      "title": "Próxima Estación: Esperanza",
+      "date": "2008-05-26",
+      "text-representation": {
+        "script": "Latn",
+        "language": "mul"
+      },
+      "quality": "normal",
+      "country": "XW",
+      "status": "Official",
+      "cover-art-archive": {
+        "back": false,
+        "front": true,
+        "count": 2,
+        "darkened": false,
+        "artwork": true
+      },
+      "packaging": "None",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "id": "156b289d-84a4-455a-9045-a8b3cc1ca632"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "mul"
+      },
+      "date": "2001",
+      "release-events": [
+        {
+          "area": {
+            "name": "Europe",
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type-id": null,
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          },
+          "date": "2001"
+        }
+      ],
+      "title": "Próxima estación: Esperanza",
+      "asin": null,
+      "media": [
+        {
+          "id": "601a69c8-1ac5-37ce-a8ae-d6cfad7d7c72",
+          "position": 1,
+          "tracks": [
+            {
+              "position": 1,
+              "number": "1",
+              "length": 216066,
+              "id": "24419023-dd9d-40a7-b01a-8e6695196ae2",
+              "recording": {
+                "disambiguation": "",
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "video": false,
+                "title": "Merry Blues",
+                "first-release-date": "2001-06-01",
+                "length": 216066
+              },
+              "title": "Merry Blues"
+            },
+            {
+              "title": "Bixo",
+              "recording": {
+                "length": 112040,
+                "disambiguation": "",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "title": "Bixo",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "id": "5795025a-e716-403d-954d-0920ed341d0e",
+              "length": 112040,
+              "number": "2",
+              "position": 2
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "length": 89800,
+              "id": "5781d181-b129-43e0-aa51-de8808cb34ac",
+              "recording": {
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "disambiguation": "",
+                "video": false,
+                "title": "Eldorado 1997",
+                "first-release-date": "2001-06-01",
+                "length": 89800
+              },
+              "title": "Eldorado 1997"
+            },
+            {
+              "position": 4,
+              "number": "4",
+              "length": 95986,
+              "id": "6fffa360-a1eb-4c48-afd6-d6fc360a791a",
+              "recording": {
+                "video": false,
+                "title": "Promiscuity",
+                "first-release-date": "2001-06-01",
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "disambiguation": "",
+                "length": 95986
+              },
+              "title": "Promiscuity"
+            },
+            {
+              "length": 112533,
+              "id": "edec98b3-4af3-481f-89fb-521a16c9b351",
+              "position": 5,
+              "number": "5",
+              "title": "La primavera",
+              "recording": {
+                "title": "La primavera",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "length": 112533
+              }
+            },
+            {
+              "position": 6,
+              "number": "6",
+              "id": "2b6e0fe5-b361-4598-9403-6673d29577fa",
+              "length": 239986,
+              "recording": {
+                "disambiguation": "",
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "first-release-date": "2001-06-01",
+                "title": "Me gustas tú",
+                "video": false,
+                "length": 239986
+              },
+              "title": "Me gustas tú"
+            },
+            {
+              "recording": {
+                "length": 279480,
+                "first-release-date": "2001-06-01",
+                "title": "Denia",
+                "video": false,
+                "disambiguation": "",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104"
+              },
+              "title": "Denia",
+              "position": 7,
+              "number": "7",
+              "length": 279480,
+              "id": "cc8d2837-205e-4ef6-8760-3ed937cb0f87"
+            },
+            {
+              "position": 8,
+              "number": "8",
+              "id": "af139783-564d-42d9-a113-95aadee8af47",
+              "length": 152613,
+              "recording": {
+                "length": 152613,
+                "first-release-date": "2001-06-01",
+                "title": "Mi vida",
+                "video": false,
+                "disambiguation": "",
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c"
+              },
+              "title": "Mi vida"
+            },
+            {
+              "length": 114920,
+              "id": "4bd712e8-c3aa-46e5-88a3-cf1e0b872c73",
+              "number": "9",
+              "position": 9,
+              "title": "Trapped by Love",
+              "recording": {
+                "disambiguation": "",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love",
+                "length": 114920
+              }
+            },
+            {
+              "number": "10",
+              "position": 10,
+              "length": 116733,
+              "id": "7989a448-5320-40e2-8acb-c2d4a933b3f9",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Le rendez-vous",
+                "disambiguation": "",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "length": 116733
+              },
+              "title": "Le rendez-vous"
+            },
+            {
+              "number": "11",
+              "position": 11,
+              "id": "3d8255a6-809c-419a-adda-0ed427288a8b",
+              "length": 229360,
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Mr. Bobby",
+                "disambiguation": "",
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "length": 229360
+              },
+              "title": "Mr Bobby"
+            },
+            {
+              "title": "Papito",
+              "recording": {
+                "length": 171226,
+                "title": "Papito",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb"
+              },
+              "id": "d5550a44-2a72-43cc-84e0-e56eacbf1745",
+              "length": 171226,
+              "number": "12",
+              "position": 12
+            },
+            {
+              "title": "La chinita",
+              "recording": {
+                "length": 93760,
+                "disambiguation": "",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "first-release-date": "2001-06-01",
+                "title": "La chinita",
+                "video": false
+              },
+              "length": 93760,
+              "id": "7d22bc9a-e223-4551-b083-78b6a3a6e550",
+              "position": 13,
+              "number": "13"
+            },
+            {
+              "id": "8cd133c3-6e26-402b-a422-084d8432d47d",
+              "length": 136906,
+              "position": 14,
+              "number": "14",
+              "title": "La marea",
+              "recording": {
+                "length": 136906,
+                "disambiguation": "",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b",
+                "first-release-date": "2001-06-01",
+                "title": "La marea",
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "title": "Homens",
+                "video": false,
+                "length": 198426
+              },
+              "title": "Homens",
+              "number": "15",
+              "position": 15,
+              "length": 198426,
+              "id": "7ec4e2c0-d083-4ddf-b0a7-ec0ef6e96f8c"
+            },
+            {
+              "title": "La vacaloca",
+              "recording": {
+                "length": 143640,
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La vacaloca"
+              },
+              "id": "fecf58a2-0437-4027-aedc-be8e7fd05830",
+              "length": 143640,
+              "position": 16,
+              "number": "16"
+            },
+            {
+              "length": 236466,
+              "id": "0a65ca27-c817-4e6a-9bee-aecc83c76810",
+              "number": "17",
+              "position": 17,
+              "title": "Infinita tristeza",
+              "recording": {
+                "length": 236466,
+                "first-release-date": "2001-06-01",
+                "title": "Infinita tristeza",
+                "video": false,
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec"
+              }
+            }
+          ],
+          "track-count": 17,
+          "title": "",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0
+        }
+      ],
+      "barcode": "724381032121",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "1a232efc-bea5-4e8b-b4a9-1ddfc7182d1d",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "back": true,
+        "count": 13,
+        "front": true,
+        "darkened": false,
+        "artwork": true
+      },
+      "status": "Official",
+      "country": "XE",
+      "quality": "normal"
+    },
+    {
+      "status": "Official",
+      "country": "FR",
+      "quality": "normal",
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "darkened": false,
+        "artwork": false,
+        "back": false,
+        "front": false,
+        "count": 0
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "89e5c881-21e6-4d5d-9a63-719839269407",
+      "disambiguation": "Rights Society (Circled): bel BIEM; Matrix / Runout: \"EMI UDEN 8103212 @ 2 1-\" … \"-NL\"",
+      "barcode": "724381032121",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "release-events": [
+        {
+          "date": "2001",
+          "area": {
+            "name": "France",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "sort-name": "France",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "id": "08310658-51eb-3801-80de-5a0739207115"
+          }
+        }
+      ],
+      "title": "Próxima estación: Esperanza",
+      "media": [
+        {
+          "track-count": 17,
+          "title": "",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "id": "997d64c2-50b8-4c06-b34e-d6948475aa1e",
+          "position": 1,
+          "tracks": [
+            {
+              "number": "1",
+              "position": 1,
+              "length": 216066,
+              "id": "07beee49-040a-4aa3-921b-886341ecd26c",
+              "recording": {
+                "disambiguation": "",
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Merry Blues",
+                "length": 216066
+              },
+              "title": "Merry Blues"
+            },
+            {
+              "length": 112040,
+              "id": "ab801bee-440b-4fe3-ad07-4f071aa58be2",
+              "number": "2",
+              "position": 2,
+              "title": "Bixo",
+              "recording": {
+                "video": false,
+                "title": "Bixo",
+                "first-release-date": "2001-06-01",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "disambiguation": "",
+                "length": 112040
+              }
+            },
+            {
+              "id": "b5e9fd94-0ced-4775-b0b1-cae13c8260a9",
+              "length": 89800,
+              "position": 3,
+              "number": "3",
+              "title": "Eldorado 1997",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Eldorado 1997",
+                "video": false,
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "disambiguation": "",
+                "length": 89800
+              }
+            },
+            {
+              "length": 95986,
+              "id": "456f2f2e-f75b-492d-af10-71669f0a2c91",
+              "position": 4,
+              "number": "4",
+              "title": "Promiscuity",
+              "recording": {
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Promiscuity",
+                "length": 95986
+              }
+            },
+            {
+              "title": "La primavera",
+              "recording": {
+                "length": 112533,
+                "title": "La primavera",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "disambiguation": ""
+              },
+              "length": 112533,
+              "id": "eff46eff-abc4-4b69-9dee-c362edc143eb",
+              "position": 5,
+              "number": "5"
+            },
+            {
+              "title": "Me gustas tú",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Me gustas tú",
+                "video": false,
+                "disambiguation": "",
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "length": 239986
+              },
+              "length": 239986,
+              "id": "3f0fae3a-575e-4e23-94b6-b859272df140",
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "recording": {
+                "title": "Denia",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "disambiguation": "",
+                "length": 279480
+              },
+              "title": "Denia",
+              "position": 7,
+              "number": "7",
+              "length": 279480,
+              "id": "b0f580b1-b7db-424c-9136-5af731771b81"
+            },
+            {
+              "title": "Mi vida",
+              "recording": {
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "title": "Mi vida",
+                "video": false,
+                "length": 152613
+              },
+              "length": 152613,
+              "id": "b831d2ba-ddfb-41f9-8970-110429f68a51",
+              "number": "8",
+              "position": 8
+            },
+            {
+              "recording": {
+                "length": 114920,
+                "disambiguation": "",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love"
+              },
+              "title": "Trapped by Love",
+              "position": 9,
+              "number": "9",
+              "length": 114920,
+              "id": "abec1d5d-5e9c-4599-bc91-753ae7675c07"
+            },
+            {
+              "recording": {
+                "length": 116733,
+                "title": "Le rendez-vous",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d"
+              },
+              "title": "Le rendez-vous",
+              "number": "10",
+              "position": 10,
+              "length": 116733,
+              "id": "f3d86493-e3db-4859-9d02-ec324f600aeb"
+            },
+            {
+              "title": "Mr Bobby",
+              "recording": {
+                "disambiguation": "",
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "title": "Mr. Bobby",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 229360
+              },
+              "length": 229360,
+              "id": "94251965-119c-47c2-83dd-cad6869edcbb",
+              "position": 11,
+              "number": "11"
+            },
+            {
+              "number": "12",
+              "position": 12,
+              "id": "d7ec0cb4-e2a9-48e2-891a-d7a182a8de69",
+              "length": 171226,
+              "recording": {
+                "title": "Papito",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb",
+                "disambiguation": "",
+                "length": 171226
+              },
+              "title": "Papito"
+            },
+            {
+              "title": "La chinita",
+              "recording": {
+                "length": 93760,
+                "disambiguation": "",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "first-release-date": "2001-06-01",
+                "title": "La chinita",
+                "video": false
+              },
+              "length": 93760,
+              "id": "6721eeae-1eca-4f9a-a80a-a4b42a9839ad",
+              "number": "13",
+              "position": 13
+            },
+            {
+              "title": "La marea",
+              "recording": {
+                "disambiguation": "",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b",
+                "title": "La marea",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 136906
+              },
+              "length": 136906,
+              "id": "641b9beb-a8fb-4f2c-8974-64a2e777df64",
+              "number": "14",
+              "position": 14
+            },
+            {
+              "id": "99b54ed5-9e45-4edb-8a08-86fdf40411e1",
+              "length": 198426,
+              "position": 15,
+              "number": "15",
+              "title": "Homens",
+              "recording": {
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "video": false,
+                "title": "Homens",
+                "first-release-date": "2001-06-01",
+                "length": 198426
+              }
+            },
+            {
+              "title": "La vacaloca",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "La vacaloca",
+                "video": false,
+                "disambiguation": "",
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "length": 143640
+              },
+              "length": 143640,
+              "id": "19e1896e-60e1-4a20-9a81-b72ad4ec78ea",
+              "number": "16",
+              "position": 16
+            },
+            {
+              "length": 236466,
+              "id": "415eaa12-3aff-46a8-a7cb-8abf71dce116",
+              "position": 17,
+              "number": "17",
+              "title": "Infinita tristeza",
+              "recording": {
+                "length": 236466,
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Infinita tristeza"
+              }
+            }
+          ]
+        }
+      ],
+      "asin": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "spa"
+      },
+      "date": "2001"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "fra"
+      },
+      "date": "2001",
+      "title": "Proxima Estación: Esperanza",
+      "release-events": [
+        {
+          "date": "2001",
+          "area": {
+            "sort-name": "France",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "type": null,
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type-id": null,
+            "disambiguation": "",
+            "name": "France"
+          }
+        }
+      ],
+      "media": [
+        {
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "title": "",
+          "track-count": 18,
+          "tracks": [
+            {
+              "recording": {
+                "length": 216066,
+                "first-release-date": "2001-06-01",
+                "title": "Merry Blues",
+                "video": false,
+                "disambiguation": "",
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a"
+              },
+              "title": "Merry Blues",
+              "position": 1,
+              "number": "1",
+              "id": "a8ecaacb-01e8-311d-8853-f5c3b0c41bb0",
+              "length": 216000
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "id": "0bac3551-2042-3eef-8e70-cdd1f6b8f672",
+              "length": 112000,
+              "recording": {
+                "length": 112040,
+                "disambiguation": "",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "first-release-date": "2001-06-01",
+                "title": "Bixo",
+                "video": false
+              },
+              "title": "Bixo"
+            },
+            {
+              "position": 3,
+              "number": "3",
+              "id": "a0d4433c-1d15-3bec-8164-c57e7c8d0585",
+              "length": 90000,
+              "recording": {
+                "length": 89800,
+                "disambiguation": "",
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "video": false,
+                "title": "Eldorado 1997",
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Eldorado 1997"
+            },
+            {
+              "title": "Promiscuity",
+              "recording": {
+                "disambiguation": "",
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "title": "Promiscuity",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 95986
+              },
+              "length": 96000,
+              "id": "12e9cab3-281d-3485-8ab9-814c6fa478cf",
+              "number": "4",
+              "position": 4
+            },
+            {
+              "title": "La primavera",
+              "recording": {
+                "title": "La primavera",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "disambiguation": "",
+                "length": 112533
+              },
+              "id": "de954e75-cecd-3d59-bc75-3aecc1db0405",
+              "length": 113000,
+              "number": "5",
+              "position": 5
+            },
+            {
+              "title": "Me gustas tú",
+              "recording": {
+                "length": 239986,
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Me gustas tú"
+              },
+              "id": "723937ff-07f1-39df-932b-ffce2a408478",
+              "length": 240000,
+              "number": "6",
+              "position": 6
+            },
+            {
+              "title": "Denia",
+              "recording": {
+                "length": 279480,
+                "video": false,
+                "title": "Denia",
+                "first-release-date": "2001-06-01",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "disambiguation": ""
+              },
+              "length": 279000,
+              "id": "dbd63798-7c84-3b8d-9ece-e172466bc188",
+              "number": "7",
+              "position": 7
+            },
+            {
+              "length": 153000,
+              "id": "41fd5ea8-1318-3af5-8bed-1f82a96fc40b",
+              "position": 8,
+              "number": "8",
+              "title": "Mi vida",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Mi vida",
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c",
+                "disambiguation": "",
+                "length": 152613
+              }
+            },
+            {
+              "id": "301309ed-1fda-3f6d-8d6c-5fb87f937c91",
+              "length": 115000,
+              "position": 9,
+              "number": "9",
+              "title": "Trapped by Love",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "disambiguation": "",
+                "length": 114920
+              }
+            },
+            {
+              "title": "Le Rendez-vous",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Le rendez-vous",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "disambiguation": "",
+                "length": 116733
+              },
+              "id": "d163765e-cfbc-38cc-94e4-c121a6de1879",
+              "length": 117000,
+              "number": "10",
+              "position": 10
+            },
+            {
+              "length": 229000,
+              "id": "57c75c8b-f87f-3291-932f-39aeeb17428e",
+              "position": 11,
+              "number": "11",
+              "title": "Mr. Bobby",
+              "recording": {
+                "length": 229360,
+                "disambiguation": "",
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "video": false,
+                "title": "Mr. Bobby",
+                "first-release-date": "2001-06-01"
+              }
+            },
+            {
+              "number": "12",
+              "position": 12,
+              "id": "fcdce483-d8ac-3f3b-a267-ec0b8f064b44",
+              "length": 171000,
+              "recording": {
+                "length": 171226,
+                "disambiguation": "",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb",
+                "first-release-date": "2001-06-01",
+                "title": "Papito",
+                "video": false
+              },
+              "title": "Papito"
+            },
+            {
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "La chinita",
+                "video": false,
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "disambiguation": "",
+                "length": 93760
+              },
+              "title": "La chinita",
+              "number": "13",
+              "position": 13,
+              "id": "e22d9982-9a3a-3ae2-9023-5f352a905270",
+              "length": 94000
+            },
+            {
+              "length": 157000,
+              "id": "7a590f7a-3fa4-31eb-b2c3-c3cb503a6b05",
+              "position": 14,
+              "number": "14",
+              "title": "La marea",
+              "recording": {
+                "id": "a8345336-34af-4c05-8e0e-b7846d50fcc3",
+                "disambiguation": "",
+                "video": false,
+                "title": "La marea",
+                "first-release-date": "2001",
+                "length": 157000
+              }
+            },
+            {
+              "length": 198000,
+              "id": "f09156d6-958d-39cc-93cc-f3bb4edd5e10",
+              "number": "15",
+              "position": 15,
+              "title": "Homens",
+              "recording": {
+                "title": "Homens",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "length": 198426
+              }
+            },
+            {
+              "length": 144000,
+              "id": "bc23ec04-a25e-30d5-92b8-3d7768900162",
+              "position": 16,
+              "number": "16",
+              "title": "La vacaloca",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La vacaloca",
+                "disambiguation": "",
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "length": 143640
+              }
+            },
+            {
+              "recording": {
+                "length": 236466,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Infinita tristeza",
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec"
+              },
+              "title": "Infinita tristeza",
+              "position": 17,
+              "number": "17",
+              "id": "30a4dcd9-6772-385f-9fdb-a505fed2f504",
+              "length": 236000
+            },
+            {
+              "title": "La trampa (bonus)",
+              "recording": {
+                "disambiguation": "",
+                "id": "cb963a50-f9d4-4503-ba97-5f069165ae02",
+                "title": "La trampa (bonus)",
+                "video": false,
+                "first-release-date": "2001",
+                "length": 211000
+              },
+              "id": "1ca6ced7-47e4-3c52-9506-8999b4adc950",
+              "length": 211000,
+              "number": "18",
+              "position": 18
+            }
+          ],
+          "position": 1,
+          "id": "d019f61d-4ff7-33e3-82e8-c84e2966b0cb"
+        }
+      ],
+      "asin": null,
+      "barcode": "724381045824",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "ae79d6b6-97f7-4145-bd68-345b80cd2586",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "artwork": true,
+        "darkened": false,
+        "count": 1,
+        "front": true,
+        "back": false
+      },
+      "status": "Official",
+      "country": "FR",
+      "quality": "normal"
+    },
+    {
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "barcode": "724381032121",
+      "text-representation": {
+        "script": "Latn",
+        "language": "mul"
+      },
+      "date": "2001-06-01",
+      "media": [
+        {
+          "title": "",
+          "track-count": 17,
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "id": "122ebfa1-03c6-328a-8758-b72f9a0172e4",
+          "position": 1,
+          "tracks": [
+            {
+              "length": 216066,
+              "id": "3d02c4c6-59bc-3d9e-906a-10eb735c5019",
+              "number": "1",
+              "position": 1,
+              "title": "Merry Blues",
+              "recording": {
+                "length": 216066,
+                "first-release-date": "2001-06-01",
+                "title": "Merry Blues",
+                "video": false,
+                "disambiguation": "",
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a"
+              }
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "length": 112040,
+              "id": "dc53c0ff-e158-3835-be34-939b6fc16ab3",
+              "recording": {
+                "disambiguation": "",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "video": false,
+                "title": "Bixo",
+                "first-release-date": "2001-06-01",
+                "length": 112040
+              },
+              "title": "Bixo"
+            },
+            {
+              "length": 89800,
+              "id": "fcca40b8-d692-360c-817a-880e063a283a",
+              "position": 3,
+              "number": "3",
+              "title": "Eldorado 1997",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Eldorado 1997",
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "disambiguation": "",
+                "length": 89800
+              }
+            },
+            {
+              "position": 4,
+              "number": "4",
+              "length": 95986,
+              "id": "8845219d-fda7-3059-9165-01d352f77171",
+              "recording": {
+                "length": 95986,
+                "first-release-date": "2001-06-01",
+                "title": "Promiscuity",
+                "video": false,
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "disambiguation": ""
+              },
+              "title": "Promiscuity"
+            },
+            {
+              "recording": {
+                "length": 112533,
+                "disambiguation": "",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La primavera"
+              },
+              "title": "La primavera",
+              "position": 5,
+              "number": "5",
+              "length": 112533,
+              "id": "d7a435ed-c415-35b2-88cb-20df2711be36"
+            },
+            {
+              "recording": {
+                "video": false,
+                "title": "Me gustas tú",
+                "first-release-date": "2001-06-01",
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "disambiguation": "",
+                "length": 239986
+              },
+              "title": "Me gustas tú",
+              "number": "6",
+              "position": 6,
+              "id": "3ba56d95-6d0d-377c-a89d-82a41e17dac6",
+              "length": 239986
+            },
+            {
+              "id": "ae05af9b-6b92-3637-b8e9-886c1381f9dc",
+              "length": 279480,
+              "position": 7,
+              "number": "7",
+              "title": "Denia",
+              "recording": {
+                "disambiguation": "",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "first-release-date": "2001-06-01",
+                "title": "Denia",
+                "video": false,
+                "length": 279480
+              }
+            },
+            {
+              "title": "Mi vida",
+              "recording": {
+                "video": false,
+                "title": "Mi vida",
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c",
+                "length": 152613
+              },
+              "length": 152613,
+              "id": "18d0b78c-3a8f-351b-bdd0-e0944b365dc1",
+              "number": "8",
+              "position": 8
+            },
+            {
+              "recording": {
+                "length": 114920,
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love"
+              },
+              "title": "Trapped by Love",
+              "number": "9",
+              "position": 9,
+              "length": 114920,
+              "id": "ae02ea56-67a5-3967-8044-98ed322eae43"
+            },
+            {
+              "title": "Le rendez‐vous",
+              "recording": {
+                "title": "Le rendez-vous",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "disambiguation": "",
+                "length": 116733
+              },
+              "length": 116733,
+              "id": "1251d12e-1360-3a3f-a75a-23ffc25170a6",
+              "position": 10,
+              "number": "10"
+            },
+            {
+              "title": "Mr. Bobby",
+              "recording": {
+                "length": 229360,
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Mr. Bobby"
+              },
+              "length": 229360,
+              "id": "07fdf173-399d-37f4-9b86-f4c5702e94b6",
+              "position": 11,
+              "number": "11"
+            },
+            {
+              "number": "12",
+              "position": 12,
+              "length": 171226,
+              "id": "4a41986b-04ad-31d4-bab8-95c7ec8fae4b",
+              "recording": {
+                "title": "Papito",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb",
+                "disambiguation": "",
+                "length": 171226
+              },
+              "title": "Papito"
+            },
+            {
+              "position": 13,
+              "number": "13",
+              "id": "4d3c26a9-484b-384d-8bf6-94b244181b3a",
+              "length": 93760,
+              "recording": {
+                "disambiguation": "",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "title": "La chinita",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 93760
+              },
+              "title": "La chinita"
+            },
+            {
+              "id": "8ef4d020-6091-3eb3-a838-1a6f6e4c5283",
+              "length": 136906,
+              "position": 14,
+              "number": "14",
+              "title": "La marea",
+              "recording": {
+                "length": 136906,
+                "video": false,
+                "title": "La marea",
+                "first-release-date": "2001-06-01",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b",
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Homens",
+              "recording": {
+                "length": 198426,
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "title": "Homens",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "length": 198426,
+              "id": "27fe2e40-2a0e-3665-a211-9b9c2cf5a54c",
+              "number": "15",
+              "position": 15
+            },
+            {
+              "length": 143640,
+              "id": "fc9664f3-a24b-3f29-84b5-58823319a50f",
+              "number": "16",
+              "position": 16,
+              "title": "La vacaloca",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "La vacaloca",
+                "video": false,
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "disambiguation": "",
+                "length": 143640
+              }
+            },
+            {
+              "number": "17",
+              "position": 17,
+              "id": "ebce5761-ddc6-3218-bb6a-8ed5c344e629",
+              "length": 236466,
+              "recording": {
+                "length": 236466,
+                "first-release-date": "2001-06-01",
+                "title": "Infinita tristeza",
+                "video": false,
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec"
+              },
+              "title": "Infinita tristeza"
+            }
+          ]
+        }
+      ],
+      "asin": "B00005BF9Z",
+      "title": "Próxima estación: Esperanza",
+      "release-events": [
+        {
+          "area": {
+            "name": "France",
+            "sort-name": "France",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "type": null,
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "date": "2001-06-01"
+        }
+      ],
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "darkened": false,
+        "artwork": true,
+        "back": true,
+        "count": 12,
+        "front": true
+      },
+      "status": "Official",
+      "quality": "normal",
+      "country": "FR",
+      "disambiguation": "",
+      "id": "b6eb7110-c68a-42d1-97b8-b7da4c4b54db",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "packaging-id": null,
+      "barcode": "5051442881554",
+      "text-representation": {
+        "script": "Latn",
+        "language": "mul"
+      },
+      "date": "2007",
+      "media": [
+        {
+          "position": 1,
+          "tracks": [
+            {
+              "number": "1",
+              "position": 1,
+              "id": "6defd13a-7144-39d8-b12c-f11fe8abc198",
+              "length": 216066,
+              "recording": {
+                "length": 216066,
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "disambiguation": "",
+                "title": "Merry Blues",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Merry Blues"
+            },
+            {
+              "length": 112040,
+              "id": "fd6cf8e7-daba-3b57-b418-77012ab8dbd5",
+              "position": 2,
+              "number": "2",
+              "title": "Bixo",
+              "recording": {
+                "length": 112040,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Bixo",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Eldorado 1997",
+              "recording": {
+                "length": 89800,
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "disambiguation": "",
+                "title": "Eldorado 1997",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "id": "17918dfe-02de-3b6b-a436-1ceca684d85f",
+              "length": 89800,
+              "position": 3,
+              "number": "3"
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "length": 95986,
+              "id": "4ee5b692-e420-373d-a09f-c6efd03e120a",
+              "recording": {
+                "video": false,
+                "title": "Promiscuity",
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "length": 95986
+              },
+              "title": "Promiscuity"
+            },
+            {
+              "position": 5,
+              "number": "5",
+              "id": "863a6fab-8953-3a55-8fde-564a743729d7",
+              "length": 112533,
+              "recording": {
+                "length": 112533,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La primavera",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "disambiguation": ""
+              },
+              "title": "La primavera"
+            },
+            {
+              "position": 6,
+              "number": "6",
+              "length": 239986,
+              "id": "33afc708-e1d2-3cb1-a62b-d37bd623fff1",
+              "recording": {
+                "length": 239986,
+                "video": false,
+                "title": "Me gustas tú",
+                "first-release-date": "2001-06-01",
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "disambiguation": ""
+              },
+              "title": "Me gustas tú"
+            },
+            {
+              "recording": {
+                "length": 279480,
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "disambiguation": "",
+                "title": "Denia",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Denia",
+              "position": 7,
+              "number": "7",
+              "length": 279480,
+              "id": "034f9a09-a383-3557-8700-724bd688d96f"
+            },
+            {
+              "position": 8,
+              "number": "8",
+              "id": "55fd0301-8036-3adf-aa25-4e39135ee8e4",
+              "length": 152613,
+              "recording": {
+                "disambiguation": "",
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c",
+                "first-release-date": "2001-06-01",
+                "title": "Mi vida",
+                "video": false,
+                "length": 152613
+              },
+              "title": "Mi vida"
+            },
+            {
+              "title": "Trapped by Love",
+              "recording": {
+                "disambiguation": "",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love",
+                "length": 114920
+              },
+              "length": 114920,
+              "id": "69a93d15-8ec1-3ac4-ae18-942e8434514a",
+              "position": 9,
+              "number": "9"
+            },
+            {
+              "title": "Le Rendez-vous",
+              "recording": {
+                "length": 116733,
+                "disambiguation": "",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "title": "Le rendez-vous",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "length": 116733,
+              "id": "17897376-3a05-338e-b92d-a539c250810e",
+              "number": "10",
+              "position": 10
+            },
+            {
+              "recording": {
+                "length": 229360,
+                "disambiguation": "",
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "video": false,
+                "title": "Mr. Bobby",
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Mr. Bobby",
+              "position": 11,
+              "number": "11",
+              "id": "788f55ca-99bb-3bcf-9521-48d080a202ec",
+              "length": 229360
+            },
+            {
+              "title": "Papito",
+              "recording": {
+                "length": 171226,
+                "disambiguation": "",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb",
+                "video": false,
+                "title": "Papito",
+                "first-release-date": "2001-06-01"
+              },
+              "id": "300979e6-27e7-3f52-bfe1-e4bde9f73f05",
+              "length": 171226,
+              "position": 12,
+              "number": "12"
+            },
+            {
+              "title": "La chinita",
+              "recording": {
+                "length": 93760,
+                "video": false,
+                "title": "La chinita",
+                "first-release-date": "2001-06-01",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "disambiguation": ""
+              },
+              "id": "4b4e4cff-a6ae-38ad-bd02-abf67929a5a2",
+              "length": 93760,
+              "number": "13",
+              "position": 13
+            },
+            {
+              "recording": {
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b",
+                "disambiguation": "",
+                "video": false,
+                "title": "La marea",
+                "first-release-date": "2001-06-01",
+                "length": 136906
+              },
+              "title": "La marea",
+              "position": 14,
+              "number": "14",
+              "length": 136906,
+              "id": "0d8e4110-249b-31c5-83ab-f953dabff102"
+            },
+            {
+              "title": "Homens",
+              "recording": {
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "title": "Homens",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 198426
+              },
+              "length": 198426,
+              "id": "ccacc7a1-eb99-3b0e-bea8-427ffca22a26",
+              "position": 15,
+              "number": "15"
+            },
+            {
+              "length": 143640,
+              "id": "c231b2d3-0756-3475-a852-c718834ed74d",
+              "number": "16",
+              "position": 16,
+              "title": "La vacaloca",
+              "recording": {
+                "disambiguation": "",
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La vacaloca",
+                "length": 143640
+              }
+            },
+            {
+              "title": "Infinita tristeza",
+              "recording": {
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec",
+                "title": "Infinita tristeza",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 236466
+              },
+              "id": "a683794e-42fe-3fca-b6c0-8eee9c8f68f4",
+              "length": 236466,
+              "number": "17",
+              "position": 17
+            }
+          ],
+          "id": "0333ba52-6cff-3f56-8435-64e43dc6c242",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "track-count": 17,
+          "title": "",
+          "format": "CD"
+        }
+      ],
+      "asin": "B001EPB0JU",
+      "release-events": [
+        {
+          "date": "2007",
+          "area": {
+            "name": "United Kingdom",
+            "type-id": null,
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": null,
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "sort-name": "United Kingdom"
+          }
+        }
+      ],
+      "title": "Proxima Estación: Esperanza",
+      "packaging": null,
+      "cover-art-archive": {
+        "darkened": false,
+        "artwork": true,
+        "back": false,
+        "count": 1,
+        "front": true
+      },
+      "status": "Official",
+      "quality": "normal",
+      "country": "GB",
+      "disambiguation": "",
+      "id": "bef60ad1-4eba-3043-b140-391d261cecf4",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "barcode": "5060281616067",
+      "packaging-id": null,
+      "release-events": [
+        {
+          "date": "2013",
+          "area": {
+            "name": "France",
+            "type-id": null,
+            "disambiguation": "",
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type": null,
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "sort-name": "France"
+          }
+        }
+      ],
+      "title": "Próxima estación: Esperanza",
+      "asin": null,
+      "media": [
+        {
+          "track-count": 17,
+          "title": "",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "id": "f5aff38b-ec8c-321a-a9cf-e713a0e4aec3",
+          "position": 1,
+          "tracks": [
+            {
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Merry Blues",
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "disambiguation": "",
+                "length": 216066
+              },
+              "title": "Merry Blues",
+              "number": "1",
+              "position": 1,
+              "length": 216066,
+              "id": "9d4f4ce0-b20e-4dbe-a084-4abee42f3878"
+            },
+            {
+              "title": "Bixo",
+              "recording": {
+                "length": 112040,
+                "disambiguation": "",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "first-release-date": "2001-06-01",
+                "title": "Bixo",
+                "video": false
+              },
+              "id": "4729ccb0-c00d-495f-b35a-2bf8ed494f31",
+              "length": 112040,
+              "number": "2",
+              "position": 2
+            },
+            {
+              "length": 89800,
+              "id": "14be2eda-65fb-43b4-ae02-721092b0505e",
+              "number": "3",
+              "position": 3,
+              "title": "Eldorado 1997",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Eldorado 1997",
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "disambiguation": "",
+                "length": 89800
+              }
+            },
+            {
+              "recording": {
+                "length": 95986,
+                "disambiguation": "",
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "title": "Promiscuity",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Promiscuity",
+              "position": 4,
+              "number": "4",
+              "length": 95986,
+              "id": "a34baf71-7b93-4bfa-a95e-2a968e6d989a"
+            },
+            {
+              "position": 5,
+              "number": "5",
+              "id": "ba8c347a-97d9-4d94-ad45-bc73cca01994",
+              "length": 112533,
+              "recording": {
+                "length": 112533,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La primavera",
+                "disambiguation": "",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b"
+              },
+              "title": "La primavera"
+            },
+            {
+              "position": 6,
+              "number": "6",
+              "length": 239986,
+              "id": "7180b68a-e0c5-47fd-b551-b6c65ebe5e62",
+              "recording": {
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "disambiguation": "",
+                "video": false,
+                "title": "Me gustas tú",
+                "first-release-date": "2001-06-01",
+                "length": 239986
+              },
+              "title": "Me gustas tú"
+            },
+            {
+              "title": "Denia",
+              "recording": {
+                "length": 279480,
+                "first-release-date": "2001-06-01",
+                "title": "Denia",
+                "video": false,
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "disambiguation": ""
+              },
+              "id": "bad6d4dc-13dc-4e61-812d-2a0e7485ac91",
+              "length": 279480,
+              "number": "7",
+              "position": 7
+            },
+            {
+              "number": "8",
+              "position": 8,
+              "id": "36416b1b-391d-43b4-969a-d9ef3b7cc6fc",
+              "length": 152613,
+              "recording": {
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "title": "Mi vida",
+                "video": false,
+                "length": 152613
+              },
+              "title": "Mi vida"
+            },
+            {
+              "title": "Trapped by Love",
+              "recording": {
+                "length": 114920,
+                "first-release-date": "2001-06-01",
+                "title": "Trapped by Love",
+                "video": false,
+                "disambiguation": "",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f"
+              },
+              "id": "53da7ded-ad5b-443b-925c-4a1d077135fc",
+              "length": 114920,
+              "number": "9",
+              "position": 9
+            },
+            {
+              "id": "c3b75c71-1c5a-4c5b-91e8-c46b68144abd",
+              "length": 116733,
+              "position": 10,
+              "number": "10",
+              "title": "Le rendez-vous",
+              "recording": {
+                "length": 116733,
+                "video": false,
+                "title": "Le rendez-vous",
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d"
+              }
+            },
+            {
+              "id": "f952cc23-82c6-4329-bd4e-edb72f7e2104",
+              "length": 229360,
+              "number": "11",
+              "position": 11,
+              "title": "Mr. Bobby",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Mr. Bobby",
+                "video": false,
+                "disambiguation": "",
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "length": 229360
+              }
+            },
+            {
+              "title": "Papito",
+              "recording": {
+                "length": 171226,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Papito",
+                "disambiguation": "",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb"
+              },
+              "id": "1bac413c-4cfb-4a4a-a9de-24003b6412bb",
+              "length": 171226,
+              "number": "12",
+              "position": 12
+            },
+            {
+              "number": "13",
+              "position": 13,
+              "id": "8affdfb1-576b-4fd4-8503-b3ffcd3052ac",
+              "length": 93760,
+              "recording": {
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La chinita",
+                "length": 93760
+              },
+              "title": "La chinita"
+            },
+            {
+              "title": "La marea",
+              "recording": {
+                "length": 136906,
+                "disambiguation": "",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b",
+                "video": false,
+                "title": "La marea",
+                "first-release-date": "2001-06-01"
+              },
+              "length": 136906,
+              "id": "55545db1-ab69-4457-b72d-0c28747bc2fe",
+              "position": 14,
+              "number": "14"
+            },
+            {
+              "id": "74dfc1e0-a2f6-4f18-be17-7360c0e2edaa",
+              "length": 198426,
+              "number": "15",
+              "position": 15,
+              "title": "Homens",
+              "recording": {
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "title": "Homens",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 198426
+              }
+            },
+            {
+              "position": 16,
+              "number": "16",
+              "length": 143640,
+              "id": "1615bc5f-e3cf-4057-8622-5dcbb45b2e6f",
+              "recording": {
+                "length": 143640,
+                "disambiguation": "",
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "first-release-date": "2001-06-01",
+                "title": "La vacaloca",
+                "video": false
+              },
+              "title": "La vacaloca"
+            },
+            {
+              "length": 236466,
+              "id": "1514f94e-322b-407d-b140-c2896999dd59",
+              "position": 17,
+              "number": "17",
+              "title": "Infinita tristeza",
+              "recording": {
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec",
+                "disambiguation": "",
+                "title": "Infinita tristeza",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 236466
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2013",
+      "text-representation": {
+        "language": "spa",
+        "script": "Latn"
+      },
+      "country": "FR",
+      "quality": "normal",
+      "status": "Official",
+      "cover-art-archive": {
+        "front": true,
+        "count": 2,
+        "back": true,
+        "artwork": true,
+        "darkened": false
+      },
+      "packaging": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "d6014adf-2677-4742-bb4e-1116c2e48f12",
+      "disambiguation": ""
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "mul"
+      },
+      "date": "2001",
+      "title": "Próxima estación: Esperanza",
+      "release-events": [
+        {
+          "area": {
+            "name": "Canada",
+            "sort-name": "Canada",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "type": null,
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "date": "2001"
+        }
+      ],
+      "asin": null,
+      "media": [
+        {
+          "tracks": [
+            {
+              "number": "1",
+              "position": 1,
+              "length": 216066,
+              "id": "439e8d4e-4f58-4f2e-8242-20cc5b8aa3ca",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Merry Blues",
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "disambiguation": "",
+                "length": 216066
+              },
+              "title": "Merry Blues"
+            },
+            {
+              "title": "Bixo",
+              "recording": {
+                "length": 112040,
+                "disambiguation": "",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "first-release-date": "2001-06-01",
+                "title": "Bixo",
+                "video": false
+              },
+              "length": 112040,
+              "id": "896c8572-6c64-4b3f-884d-78d2baa8496b",
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Eldorado 1997",
+                "video": false,
+                "disambiguation": "",
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "length": 89800
+              },
+              "title": "Eldorado 1997",
+              "number": "3",
+              "position": 3,
+              "id": "76ff58ed-cde6-4977-8291-4f35cabdee3c",
+              "length": 89800
+            },
+            {
+              "recording": {
+                "length": 95986,
+                "disambiguation": "",
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "title": "Promiscuity",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Promiscuity",
+              "position": 4,
+              "number": "4",
+              "id": "e6eb0609-d957-436b-b751-fcae21c7b493",
+              "length": 95986
+            },
+            {
+              "recording": {
+                "length": 112533,
+                "disambiguation": "",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La primavera"
+              },
+              "title": "La primavera",
+              "number": "5",
+              "position": 5,
+              "length": 112533,
+              "id": "c508a9dd-7563-45aa-b623-9d09b6f074a1"
+            },
+            {
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Me gustas tú",
+                "video": false,
+                "disambiguation": "",
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "length": 239986
+              },
+              "title": "Me gustas tú",
+              "position": 6,
+              "number": "6",
+              "id": "ddb6fb7b-3884-4728-bc5f-0f4a8ea57a31",
+              "length": 239986
+            },
+            {
+              "length": 279480,
+              "id": "484e455a-6c4a-43b1-a366-3b844a94ab47",
+              "position": 7,
+              "number": "7",
+              "title": "Denia",
+              "recording": {
+                "video": false,
+                "title": "Denia",
+                "first-release-date": "2001-06-01",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "disambiguation": "",
+                "length": 279480
+              }
+            },
+            {
+              "id": "50a48cdd-1977-426e-ab8a-9400b424187b",
+              "length": 152613,
+              "position": 8,
+              "number": "8",
+              "title": "Mi vida",
+              "recording": {
+                "length": 152613,
+                "first-release-date": "2001-06-01",
+                "title": "Mi vida",
+                "video": false,
+                "disambiguation": "",
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c"
+              }
+            },
+            {
+              "length": 114920,
+              "id": "4e2ad36c-ef50-42bb-8749-338df7538f60",
+              "position": 9,
+              "number": "9",
+              "title": "Trapped by Love",
+              "recording": {
+                "disambiguation": "",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "video": false,
+                "title": "Trapped by Love",
+                "first-release-date": "2001-06-01",
+                "length": 114920
+              }
+            },
+            {
+              "id": "ae00358a-6412-4fee-8afd-e4443c97270d",
+              "length": 116733,
+              "number": "10",
+              "position": 10,
+              "title": "Le rendez-vous",
+              "recording": {
+                "length": 116733,
+                "title": "Le rendez-vous",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "11",
+              "position": 11,
+              "id": "5a9a056d-d794-47cb-9b6c-d152c867ca5a",
+              "length": 229360,
+              "recording": {
+                "disambiguation": "",
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Mr. Bobby",
+                "length": 229360
+              },
+              "title": "Mr. Bobby"
+            },
+            {
+              "number": "12",
+              "position": 12,
+              "id": "0d7ffe3a-fbdf-444d-802f-471a1c88ec50",
+              "length": 171226,
+              "recording": {
+                "length": 171226,
+                "title": "Papito",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb"
+              },
+              "title": "Papito"
+            },
+            {
+              "length": 93760,
+              "id": "33e56cd1-47be-4b85-83ee-74b2549a84b9",
+              "position": 13,
+              "number": "13",
+              "title": "La chinita",
+              "recording": {
+                "length": 93760,
+                "title": "La chinita",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "14",
+              "position": 14,
+              "id": "3ab17d18-7fa8-4691-bc04-94f13da6a9c7",
+              "length": 136906,
+              "recording": {
+                "length": 136906,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La marea",
+                "disambiguation": "",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b"
+              },
+              "title": "La marea"
+            },
+            {
+              "position": 15,
+              "number": "15",
+              "id": "af432874-14b5-4994-bb10-b56145e8c378",
+              "length": 198426,
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Homens",
+                "disambiguation": "",
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "length": 198426
+              },
+              "title": "Homens"
+            },
+            {
+              "recording": {
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La vacaloca",
+                "length": 143640
+              },
+              "title": "La vacaloca",
+              "number": "16",
+              "position": 16,
+              "id": "9fecd7c1-1174-4b45-8249-94c0e5d0b97b",
+              "length": 143640
+            },
+            {
+              "position": 17,
+              "number": "17",
+              "id": "718164fc-d3d4-4c5d-9987-dc0fc792111b",
+              "length": 236466,
+              "recording": {
+                "length": 236466,
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec",
+                "video": false,
+                "title": "Infinita tristeza",
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Infinita tristeza"
+            }
+          ],
+          "position": 1,
+          "id": "365f1034-b132-3951-acd6-43227eb3007d",
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "track-count": 17,
+          "title": ""
+        }
+      ],
+      "barcode": "724381032121",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "e00a37e8-75f4-4b4b-9a9b-73bc73509c35",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "back": true,
+        "front": true,
+        "count": 19,
+        "darkened": false,
+        "artwork": true
+      },
+      "status": "Official",
+      "country": "CA",
+      "quality": "normal"
+    },
+    {
+      "release-events": [
+        {
+          "area": {
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "date": "2001"
+        }
+      ],
+      "title": "Próxima estación: Esperanza",
+      "media": [
+        {
+          "id": "0825ac27-ec1e-324c-a830-8418654bdc1d",
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "first-release-date": "2001-06-01",
+                "title": "Merry Blues",
+                "video": false,
+                "length": 216066
+              },
+              "title": "Merry Blues",
+              "number": "1",
+              "position": 1,
+              "id": "53e8ea89-a6cb-4fe2-a3df-f6366283d07a",
+              "length": 216066
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "id": "d9aa2310-cfec-4147-99eb-3d6885adf235",
+              "length": 112026,
+              "recording": {
+                "length": 112040,
+                "disambiguation": "",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "title": "Bixo",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              },
+              "title": "Bixo"
+            },
+            {
+              "recording": {
+                "length": 89800,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Eldorado 1997",
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "disambiguation": ""
+              },
+              "title": "Eldorado 1997",
+              "number": "3",
+              "position": 3,
+              "id": "cf883830-546b-454c-a2b1-f2eb2784d058",
+              "length": 89800
+            },
+            {
+              "title": "Promiscuity",
+              "recording": {
+                "disambiguation": "",
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "first-release-date": "2001-06-01",
+                "title": "Promiscuity",
+                "video": false,
+                "length": 95986
+              },
+              "length": 95973,
+              "id": "37b6a206-49c7-4276-9484-9824416d5d0b",
+              "number": "4",
+              "position": 4
+            },
+            {
+              "length": 112533,
+              "id": "14da19d5-b35b-4fac-bdb8-f7ae53dad006",
+              "position": 5,
+              "number": "5",
+              "title": "La primavera",
+              "recording": {
+                "length": 112533,
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La primavera"
+              }
+            },
+            {
+              "title": "Me gustas tú",
+              "recording": {
+                "title": "Me gustas tú",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "length": 239986
+              },
+              "id": "b5d7ea03-be69-4125-971e-cf26eb0a5176",
+              "length": 240000,
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "length": 279466,
+              "id": "82652710-0564-41f6-9c5a-9346cb7b2b59",
+              "number": "7",
+              "position": 7,
+              "title": "Denia",
+              "recording": {
+                "disambiguation": "",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104",
+                "first-release-date": "2001-06-01",
+                "title": "Denia",
+                "video": false,
+                "length": 279480
+              }
+            },
+            {
+              "position": 8,
+              "number": "8",
+              "id": "2469e8b6-a5fb-4310-a7af-c5857ac1d491",
+              "length": 152626,
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Mi vida",
+                "video": false,
+                "disambiguation": "",
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c",
+                "length": 152613
+              },
+              "title": "Mi vida"
+            },
+            {
+              "number": "9",
+              "position": 9,
+              "id": "fb910e4c-1169-46cc-9582-0857cb843c28",
+              "length": 114906,
+              "recording": {
+                "length": 114920,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love",
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "disambiguation": ""
+              },
+              "title": "Trapped by Love"
+            },
+            {
+              "number": "10",
+              "position": 10,
+              "length": 116733,
+              "id": "a0f79656-37df-4419-9bda-bbb3a55898a5",
+              "recording": {
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "title": "Le rendez-vous",
+                "video": false,
+                "length": 116733
+              },
+              "title": "Le rendez-vous"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "title": "Mr. Bobby",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "length": 229360
+              },
+              "title": "Mr Bobby",
+              "number": "11",
+              "position": 11,
+              "length": 229360,
+              "id": "60f2ad87-afc6-45f8-8170-3bc2f3280899"
+            },
+            {
+              "title": "Papito",
+              "recording": {
+                "length": 171226,
+                "video": false,
+                "title": "Papito",
+                "first-release-date": "2001-06-01",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb",
+                "disambiguation": ""
+              },
+              "length": 171240,
+              "id": "b16d8ad4-b434-4c47-a7da-04a838c032b4",
+              "number": "12",
+              "position": 12
+            },
+            {
+              "length": 93760,
+              "id": "6db2df42-a95c-49ca-b8d7-7db5c12c52d3",
+              "position": 13,
+              "number": "13",
+              "title": "La chinita",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La chinita",
+                "disambiguation": "",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "length": 93760
+              }
+            },
+            {
+              "number": "14",
+              "position": 14,
+              "id": "673f35e2-01b2-456d-badc-930aa9f6d524",
+              "length": 136906,
+              "recording": {
+                "video": false,
+                "title": "La marea",
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b",
+                "length": 136906
+              },
+              "title": "La marea"
+            },
+            {
+              "title": "Homens",
+              "recording": {
+                "title": "Homens",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "length": 198426
+              },
+              "length": 198426,
+              "id": "66571df8-892f-49f9-9e03-4f25385f2af9",
+              "number": "15",
+              "position": 15
+            },
+            {
+              "number": "16",
+              "position": 16,
+              "id": "a4d33c0b-7e6c-4260-b445-3dc0af6339e7",
+              "length": 143640,
+              "recording": {
+                "length": 143640,
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac",
+                "disambiguation": "",
+                "video": false,
+                "title": "La vacaloca",
+                "first-release-date": "2001-06-01"
+              },
+              "title": "La vacaloca"
+            },
+            {
+              "length": 236466,
+              "id": "995e6a27-07f9-41ae-8f9e-848e90360d7b",
+              "number": "17",
+              "position": 17,
+              "title": "Infinita tristeza",
+              "recording": {
+                "length": 236466,
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec",
+                "disambiguation": "",
+                "title": "Infinita tristeza",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              }
+            }
+          ],
+          "position": 1,
+          "format": "CD",
+          "title": "",
+          "track-count": 17,
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "asin": null,
+      "date": "2001",
+      "text-representation": {
+        "script": "Latn",
+        "language": "mul"
+      },
+      "barcode": "724381032121",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "e3a1a506-9fc9-4578-9a18-192653297240",
+      "disambiguation": "",
+      "country": "US",
+      "quality": "normal",
+      "status": "Official",
+      "cover-art-archive": {
+        "darkened": false,
+        "artwork": false,
+        "back": false,
+        "count": 0,
+        "front": false
+      },
+      "packaging": "Jewel Case"
+    },
+    {
+      "asin": "B001E08UES",
+      "media": [
+        {
+          "tracks": [
+            {
+              "length": 216066,
+              "id": "ae978f23-cf95-47ff-971e-062373089181",
+              "position": 1,
+              "number": "1",
+              "title": "Merry Blues",
+              "recording": {
+                "id": "3f3a94fe-1f25-4c6a-8880-dcd79382ea8a",
+                "disambiguation": "",
+                "video": false,
+                "title": "Merry Blues",
+                "first-release-date": "2001-06-01",
+                "length": 216066
+              }
+            },
+            {
+              "position": 2,
+              "number": "2",
+              "length": 112040,
+              "id": "c0cd4058-e2b0-4515-b9fe-4275d615974a",
+              "recording": {
+                "length": 112040,
+                "disambiguation": "",
+                "id": "46a31097-055f-444f-9f78-a45867a850ab",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Bixo"
+              },
+              "title": "Bixo"
+            },
+            {
+              "id": "bae5a8a7-dfc1-4def-9d78-18886b722f2a",
+              "length": 89800,
+              "number": "3",
+              "position": 3,
+              "title": "Eldorado 1997",
+              "recording": {
+                "length": 89800,
+                "disambiguation": "",
+                "id": "5351db83-202e-41b0-9571-aa3a92a3e788",
+                "title": "Eldorado 1997",
+                "video": false,
+                "first-release-date": "2001-06-01"
+              }
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "id": "277655e4-8b29-4371-8940-ad124e6e839a",
+              "length": 95986,
+              "recording": {
+                "id": "212bb253-6631-49fa-af03-44ce49caeaf3",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "title": "Promiscuity",
+                "video": false,
+                "length": 95986
+              },
+              "title": "Promiscuity"
+            },
+            {
+              "recording": {
+                "length": 112533,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La primavera",
+                "disambiguation": "",
+                "id": "cdd1a0e4-d46a-4e7a-8906-77784184782b"
+              },
+              "title": "La primavera",
+              "position": 5,
+              "number": "5",
+              "length": 112533,
+              "id": "ee1a6bb7-9977-4ac7-9fb7-115fe03fecdd"
+            },
+            {
+              "title": "Me gustas tú",
+              "recording": {
+                "disambiguation": "",
+                "id": "a591c74f-05d1-48e5-8a7e-a82becb43e7e",
+                "video": false,
+                "title": "Me gustas tú",
+                "first-release-date": "2001-06-01",
+                "length": 239986
+              },
+              "length": 239986,
+              "id": "da11d348-f561-4802-b73f-16918daff67c",
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "title": "Denia",
+              "recording": {
+                "length": 279480,
+                "video": false,
+                "title": "Denia",
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "1947fcf2-9db1-472f-8d0e-1f7b150d2104"
+              },
+              "length": 279480,
+              "id": "50d7c081-266e-458d-bbf8-d76a1353d2ed",
+              "number": "7",
+              "position": 7
+            },
+            {
+              "position": 8,
+              "number": "8",
+              "length": 152613,
+              "id": "3a697a3d-8d0e-434d-93a5-939d51dd3f96",
+              "recording": {
+                "length": 152613,
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Mi vida",
+                "disambiguation": "",
+                "id": "ffa16d1c-18ca-4c7b-bfb9-8949a6871b5c"
+              },
+              "title": "Mi vida"
+            },
+            {
+              "position": 9,
+              "number": "9",
+              "length": 114920,
+              "id": "a35edfa1-5595-42d7-b78c-94ace07635bb",
+              "recording": {
+                "id": "aa6773d2-90ff-4637-8c7c-948e8eb2581f",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Trapped by Love",
+                "length": 114920
+              },
+              "title": "Trapped by Love"
+            },
+            {
+              "length": 116733,
+              "id": "197d792f-b184-4063-a783-fb1e49cedd17",
+              "position": 10,
+              "number": "10",
+              "title": "Le Rendez-vous",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "title": "Le rendez-vous",
+                "video": false,
+                "disambiguation": "",
+                "id": "66f408bd-a830-41bb-afaa-99a38798f82d",
+                "length": 116733
+              }
+            },
+            {
+              "position": 11,
+              "number": "11",
+              "length": 229360,
+              "id": "6ff46708-8f49-4657-aee3-22e98229a55c",
+              "recording": {
+                "length": 229360,
+                "id": "eab96afa-40ee-457f-885e-569fb4b34a8f",
+                "disambiguation": "",
+                "first-release-date": "2001-06-01",
+                "title": "Mr. Bobby",
+                "video": false
+              },
+              "title": "Mr. Bobby"
+            },
+            {
+              "title": "Papito",
+              "recording": {
+                "length": 171226,
+                "first-release-date": "2001-06-01",
+                "title": "Papito",
+                "video": false,
+                "disambiguation": "",
+                "id": "1f4a2fd3-a648-45bc-b2bb-ab7ec5169bbb"
+              },
+              "length": 171226,
+              "id": "851e37c0-b538-414a-8e33-b175ae45ba23",
+              "position": 12,
+              "number": "12"
+            },
+            {
+              "number": "13",
+              "position": 13,
+              "length": 93760,
+              "id": "1d1ef050-9935-47c0-bc11-be3c514bccaf",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "La chinita",
+                "id": "7454b848-f893-46e2-8a1b-a40a2d3f7160",
+                "disambiguation": "",
+                "length": 93760
+              },
+              "title": "La chinita"
+            },
+            {
+              "recording": {
+                "length": 136906,
+                "video": false,
+                "title": "La marea",
+                "first-release-date": "2001-06-01",
+                "id": "67348ca0-f7fe-4537-a1f2-bd343802d51b",
+                "disambiguation": ""
+              },
+              "title": "La marea",
+              "number": "14",
+              "position": 14,
+              "length": 136906,
+              "id": "0b176357-f7c4-489d-b33e-82148ac52a5e"
+            },
+            {
+              "id": "e3203002-6738-4c4b-ac81-a262b9dc4bec",
+              "length": 198426,
+              "number": "15",
+              "position": 15,
+              "title": "Homens",
+              "recording": {
+                "first-release-date": "2001-06-01",
+                "video": false,
+                "title": "Homens",
+                "id": "70748db4-d9b7-4935-8ff7-560521dda869",
+                "disambiguation": "",
+                "length": 198426
+              }
+            },
+            {
+              "recording": {
+                "length": 143640,
+                "title": "La vacaloca",
+                "video": false,
+                "first-release-date": "2001-06-01",
+                "disambiguation": "",
+                "id": "8c1b6457-47dc-4fff-9cbe-2ae1e99e65ac"
+              },
+              "title": "La vacaloca",
+              "position": 16,
+              "number": "16",
+              "length": 143640,
+              "id": "2eb9e3a1-8723-4a2f-b7d5-58d69dd79081"
+            },
+            {
+              "number": "17",
+              "position": 17,
+              "length": 236466,
+              "id": "b0598465-534e-4184-96a3-501a5d513d8a",
+              "recording": {
+                "disambiguation": "",
+                "id": "72577163-f9f8-4fbc-83f3-cba427066aec",
+                "first-release-date": "2001-06-01",
+                "title": "Infinita tristeza",
+                "video": false,
+                "length": 236466
+              },
+              "title": "Infinita tristeza"
+            }
+          ],
+          "position": 1,
+          "id": "6add90f0-a531-38f9-9dd9-7bb0edd0219b",
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "title": "",
+          "track-count": 17
+        }
+      ],
+      "title": "Proxima Estacion: Esperanza",
+      "release-events": [
+        {
+          "date": "2013-12-09",
+          "area": null
+        }
+      ],
+      "date": "2013-12-09",
+      "text-representation": {
+        "script": "Latn",
+        "language": "mul"
+      },
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "5060107723887",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "id": "f3d93b0e-0b5c-4c6c-be88-a73c3f8fa97e",
+      "quality": "normal",
+      "country": null,
+      "status": "Official",
+      "cover-art-archive": {
+        "count": 2,
+        "front": true,
+        "back": true,
+        "artwork": true,
+        "darkened": false
+      },
+      "packaging": "Cardboard/Paper Sleeve"
+    }
+  ]
+}

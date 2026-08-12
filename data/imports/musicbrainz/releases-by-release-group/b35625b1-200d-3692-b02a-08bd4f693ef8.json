@@ -1,0 +1,1771 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=b35625b1-200d-3692-b02a-08bd4f693ef8&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-count": 8,
+  "release-offset": 0,
+  "releases": [
+    {
+      "cover-art-archive": {
+        "back": false,
+        "front": true,
+        "darkened": false,
+        "count": 1,
+        "artwork": true
+      },
+      "date": "1974-04",
+      "release-events": [
+        {
+          "date": "1974-04",
+          "area": {
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "disambiguation": "",
+            "name": "United States"
+          }
+        }
+      ],
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "id": "000e6233-c4e9-466e-8144-2c362e50816b",
+      "title": "I Want to See the Bright Lights Tonight",
+      "media": [
+        {
+          "id": "88aff0af-48fb-391e-b4b4-3acc775a9b95",
+          "tracks": [
+            {
+              "length": 208493,
+              "title": "When I Get to the Border",
+              "position": 1,
+              "id": "35318b0d-fbfd-3209-b9a4-238246e87b1d",
+              "recording": {
+                "video": false,
+                "id": "1481ca3b-54f1-4c3d-af4b-4d298c7fd68f",
+                "disambiguation": "",
+                "title": "When I Get to the Border",
+                "length": 207000,
+                "first-release-date": "1974-04"
+              },
+              "number": "A1"
+            },
+            {
+              "position": 2,
+              "length": 233173,
+              "title": "The Calvary Cross",
+              "number": "A2",
+              "id": "d301909c-4cc0-3df9-904f-f9500d4ae692",
+              "recording": {
+                "id": "aa90c4d3-bb53-4192-a96b-7c6cc7de1d3f",
+                "video": false,
+                "disambiguation": "",
+                "length": 232000,
+                "first-release-date": "1974-04",
+                "title": "The Calvary Cross"
+              }
+            },
+            {
+              "number": "A3",
+              "id": "72f2771a-6709-313e-bc60-9e715116e74d",
+              "recording": {
+                "id": "37ca22db-683f-4647-a601-c9f03fbe107d",
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1974-04",
+                "length": 206493,
+                "title": "Withered and Died"
+              },
+              "position": 3,
+              "length": 206493,
+              "title": "Withered and Died"
+            },
+            {
+              "number": "A4",
+              "id": "56b065c8-2922-3d4b-add7-2908f58a03a6",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "07fa63b0-68ed-4944-ac06-5ef20fd43c45",
+                "title": "I Want to See the Bright Lights Tonight",
+                "first-release-date": "1974-04",
+                "length": 189333
+              },
+              "position": 4,
+              "length": 189333,
+              "title": "I Want to See the Bright Lights Tonight"
+            },
+            {
+              "recording": {
+                "video": false,
+                "id": "e0b2ef85-21bb-4201-a367-34f8c78ebf95",
+                "disambiguation": "",
+                "title": "Down Where the Drunkards Roll",
+                "first-release-date": "1974-04",
+                "length": 245333
+              },
+              "id": "3f5d0dba-9594-3d93-aa41-c61c66174e5c",
+              "number": "A5",
+              "title": "Down Where the Drunkards Roll",
+              "length": 245333,
+              "position": 5
+            },
+            {
+              "number": "B1",
+              "recording": {
+                "id": "7567f463-2009-45b9-83a4-e30a16393799",
+                "video": false,
+                "disambiguation": "",
+                "length": 172000,
+                "first-release-date": "1974-04",
+                "title": "We Sing Hallelujah"
+              },
+              "id": "f74f5bdc-c308-320a-a7b8-5daa1aecf182",
+              "position": 6,
+              "title": "We Sing Hallelujah",
+              "length": 172000
+            },
+            {
+              "title": "Has He Got a Friend for Me",
+              "length": 213840,
+              "position": 7,
+              "recording": {
+                "id": "702b9dae-9be0-43ee-a267-481bdadeeb02",
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1974-04",
+                "length": 213840,
+                "title": "Has He Got a Friend for Me"
+              },
+              "id": "44704672-513e-3571-844f-d4420b24b432",
+              "number": "B2"
+            },
+            {
+              "number": "B3",
+              "id": "722dc372-b4e3-3920-8321-5fcf7d202f26",
+              "recording": {
+                "length": 205666,
+                "first-release-date": "1974-04",
+                "title": "The Little Beggar Girl",
+                "id": "9ad8d8c4-1cc0-49f7-8a44-3c02dea58672",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "length": 205666,
+              "title": "The Little Beggar Girl"
+            },
+            {
+              "number": "B4",
+              "recording": {
+                "length": 237000,
+                "first-release-date": "1974-04",
+                "title": "The End of the Rainbow",
+                "id": "5f1dcefe-a2c3-4f20-8a11-ba5397e9e050",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "a9aad37f-ac6e-39e3-a9fd-98d1302b9091",
+              "position": 9,
+              "title": "The End of the Rainbow",
+              "length": 237000
+            },
+            {
+              "title": "The Great Valerio",
+              "length": 322666,
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "id": "28ee01a6-7bcf-4ebd-966d-27ba2a382da9",
+                "video": false,
+                "length": 322933,
+                "first-release-date": "1974-04",
+                "title": "The Great Valerio"
+              },
+              "id": "dcc2e51c-4ce4-32c2-9fee-c078c1bd0e71",
+              "number": "B5"
+            }
+          ],
+          "format": "12\" Vinyl",
+          "track-offset": 0,
+          "track-count": 10,
+          "title": "",
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1
+        }
+      ],
+      "country": "US",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Cardboard/Paper Sleeve",
+      "asin": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "barcode": "",
+      "disambiguation": ""
+    },
+    {
+      "id": "2194aff6-e485-4385-a790-c13f9922be6d",
+      "quality": "normal",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "disambiguation": "",
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States"
+          },
+          "date": "1983"
+        }
+      ],
+      "date": "1983",
+      "cover-art-archive": {
+        "artwork": true,
+        "count": 6,
+        "darkened": false,
+        "front": true,
+        "back": true
+      },
+      "disambiguation": "",
+      "barcode": "",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "asin": null,
+      "packaging": "Cardboard/Paper Sleeve",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "country": "US",
+      "title": "I Want to See the Bright Lights Tonight",
+      "media": [
+        {
+          "position": 1,
+          "title": "",
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "track-count": 10,
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "id": "080ce917-e207-320e-b98f-048e8896215d",
+          "tracks": [
+            {
+              "title": "When I Get to the Border",
+              "length": 203000,
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "1481ca3b-54f1-4c3d-af4b-4d298c7fd68f",
+                "title": "When I Get to the Border",
+                "length": 207000,
+                "first-release-date": "1974-04"
+              },
+              "id": "4bd874d6-a58e-3bfe-8fbc-9d82140c3018",
+              "number": "A1"
+            },
+            {
+              "position": 2,
+              "title": "The Calvary Cross",
+              "length": 230000,
+              "number": "A2",
+              "recording": {
+                "id": "aa90c4d3-bb53-4192-a96b-7c6cc7de1d3f",
+                "video": false,
+                "disambiguation": "",
+                "length": 232000,
+                "first-release-date": "1974-04",
+                "title": "The Calvary Cross"
+              },
+              "id": "db502364-d3e9-33c5-8ae7-734d8ae95ea9"
+            },
+            {
+              "title": "Withered and Died",
+              "length": 204000,
+              "position": 3,
+              "recording": {
+                "length": 206493,
+                "first-release-date": "1974-04",
+                "title": "Withered and Died",
+                "id": "37ca22db-683f-4647-a601-c9f03fbe107d",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "6089ce12-bdde-3621-b6a7-ab2488b27990",
+              "number": "A3"
+            },
+            {
+              "recording": {
+                "length": 189333,
+                "first-release-date": "1974-04",
+                "title": "I Want to See the Bright Lights Tonight",
+                "disambiguation": "",
+                "id": "07fa63b0-68ed-4944-ac06-5ef20fd43c45",
+                "video": false
+              },
+              "id": "da0b1bef-7d50-3780-9e25-0327f2e5567b",
+              "number": "A4",
+              "title": "I Want to See the Bright Lights Tonight",
+              "length": 186000,
+              "position": 4
+            },
+            {
+              "length": 244000,
+              "title": "Down Where the Drunkards Roll",
+              "position": 5,
+              "id": "1831b496-c4d3-3ea6-b0ac-271a51e4181b",
+              "recording": {
+                "id": "e0b2ef85-21bb-4201-a367-34f8c78ebf95",
+                "video": false,
+                "disambiguation": "",
+                "length": 245333,
+                "first-release-date": "1974-04",
+                "title": "Down Where the Drunkards Roll"
+              },
+              "number": "A5"
+            },
+            {
+              "id": "44dfd7f6-2a8e-3d66-87a0-3b73db50b4d6",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "7567f463-2009-45b9-83a4-e30a16393799",
+                "title": "We Sing Hallelujah",
+                "length": 172000,
+                "first-release-date": "1974-04"
+              },
+              "number": "B1",
+              "length": 169000,
+              "title": "We Sing Hallelujah",
+              "position": 6
+            },
+            {
+              "position": 7,
+              "length": 210000,
+              "title": "Has He Got a Friend for Me",
+              "number": "B2",
+              "id": "11041e70-b8f7-3ff7-914c-b9f8fdef673e",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "702b9dae-9be0-43ee-a267-481bdadeeb02",
+                "title": "Has He Got a Friend for Me",
+                "first-release-date": "1974-04",
+                "length": 213840
+              }
+            },
+            {
+              "title": "The Little Beggar Girl",
+              "length": 204000,
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "id": "9ad8d8c4-1cc0-49f7-8a44-3c02dea58672",
+                "video": false,
+                "first-release-date": "1974-04",
+                "length": 205666,
+                "title": "The Little Beggar Girl"
+              },
+              "id": "582a1f25-89a9-3fa5-b9ec-14b5bc58c55e",
+              "number": "B3"
+            },
+            {
+              "recording": {
+                "title": "The End of the Rainbow",
+                "first-release-date": "1974-04",
+                "length": 237000,
+                "video": false,
+                "id": "5f1dcefe-a2c3-4f20-8a11-ba5397e9e050",
+                "disambiguation": ""
+              },
+              "id": "7ed1126e-c7d8-3ef7-be89-917187530e67",
+              "number": "B4",
+              "title": "The End of the Rainbow",
+              "length": 234000,
+              "position": 9
+            },
+            {
+              "id": "ff87a400-0f7a-31ec-86d4-5842bd230992",
+              "recording": {
+                "title": "The Great Valerio",
+                "first-release-date": "1974-04",
+                "length": 322933,
+                "video": false,
+                "id": "28ee01a6-7bcf-4ebd-966d-27ba2a382da9",
+                "disambiguation": ""
+              },
+              "number": "B5",
+              "length": 321000,
+              "title": "The Great Valerio",
+              "position": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packaging-id": null,
+      "release-events": [
+        {
+          "date": "1991",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "United States",
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          }
+        }
+      ],
+      "quality": "normal",
+      "id": "2fcdc6d8-feb2-41c2-9f84-57a724a7a664",
+      "cover-art-archive": {
+        "back": true,
+        "darkened": false,
+        "count": 6,
+        "artwork": true,
+        "front": true
+      },
+      "date": "1991",
+      "packaging": null,
+      "asin": null,
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "disambiguation": "",
+      "barcode": "031257440721",
+      "title": "I Want to See the Bright Lights Tonight",
+      "media": [
+        {
+          "id": "f5a588ad-f896-333d-945d-426e705fcb19",
+          "tracks": [
+            {
+              "position": 1,
+              "length": 208493,
+              "title": "When I Get to the Border",
+              "number": "1",
+              "id": "fa4c62f5-3258-44d9-8ae3-d6ff44c9923c",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 207000,
+                "title": "When I Get to the Border",
+                "id": "1481ca3b-54f1-4c3d-af4b-4d298c7fd68f",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 233173,
+              "title": "The Calvary Cross",
+              "position": 2,
+              "id": "2972e23b-638c-474a-a36f-731c9849989e",
+              "recording": {
+                "video": false,
+                "id": "aa90c4d3-bb53-4192-a96b-7c6cc7de1d3f",
+                "disambiguation": "",
+                "title": "The Calvary Cross",
+                "length": 232000,
+                "first-release-date": "1974-04"
+              },
+              "number": "2"
+            },
+            {
+              "recording": {
+                "length": 206493,
+                "first-release-date": "1974-04",
+                "title": "Withered and Died",
+                "id": "37ca22db-683f-4647-a601-c9f03fbe107d",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "2c8ad4b9-beca-44bd-b3ce-6df3bfb22e7f",
+              "number": "3",
+              "title": "Withered and Died",
+              "length": 206493,
+              "position": 3
+            },
+            {
+              "number": "4",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 189333,
+                "title": "I Want to See the Bright Lights Tonight",
+                "id": "07fa63b0-68ed-4944-ac06-5ef20fd43c45",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "573f1754-72d7-4954-a3f7-ef05283a8799",
+              "position": 4,
+              "title": "I Want to See the Bright Lights Tonight",
+              "length": 189333
+            },
+            {
+              "position": 5,
+              "length": 245333,
+              "title": "Down Where the Drunkards Roll",
+              "number": "5",
+              "id": "b131336a-9a50-4db7-8aed-3696d2ac961e",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "e0b2ef85-21bb-4201-a367-34f8c78ebf95",
+                "title": "Down Where the Drunkards Roll",
+                "first-release-date": "1974-04",
+                "length": 245333
+              }
+            },
+            {
+              "number": "6",
+              "id": "9340b3f3-e880-4168-a719-1d8b0da6cbe9",
+              "recording": {
+                "id": "7567f463-2009-45b9-83a4-e30a16393799",
+                "video": false,
+                "disambiguation": "",
+                "length": 172000,
+                "first-release-date": "1974-04",
+                "title": "We Sing Hallelujah"
+              },
+              "position": 6,
+              "length": 172000,
+              "title": "We Sing Hallelujah"
+            },
+            {
+              "number": "7",
+              "id": "cce33bf5-708c-44ec-92a4-6cfe6c0730ba",
+              "recording": {
+                "title": "Has He Got a Friend for Me",
+                "length": 213840,
+                "first-release-date": "1974-04",
+                "disambiguation": "",
+                "video": false,
+                "id": "702b9dae-9be0-43ee-a267-481bdadeeb02"
+              },
+              "position": 7,
+              "length": 213840,
+              "title": "Has He Got a Friend for Me"
+            },
+            {
+              "title": "The Little Beggar Girl",
+              "length": 205666,
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "9ad8d8c4-1cc0-49f7-8a44-3c02dea58672",
+                "title": "The Little Beggar Girl",
+                "length": 205666,
+                "first-release-date": "1974-04"
+              },
+              "id": "76824e4b-4fbb-48cb-b3af-a72e42f3f87e",
+              "number": "8"
+            },
+            {
+              "number": "9",
+              "id": "8d3afc41-0ed5-46d5-9548-9f308b360363",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "5f1dcefe-a2c3-4f20-8a11-ba5397e9e050",
+                "title": "The End of the Rainbow",
+                "first-release-date": "1974-04",
+                "length": 237000
+              },
+              "position": 9,
+              "length": 237000,
+              "title": "The End of the Rainbow"
+            },
+            {
+              "position": 10,
+              "length": 322666,
+              "title": "The Great Valerio",
+              "number": "10",
+              "id": "b2f36539-979b-4798-8e72-c7779eb9a194",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "28ee01a6-7bcf-4ebd-966d-27ba2a382da9",
+                "title": "The Great Valerio",
+                "first-release-date": "1974-04",
+                "length": 322933
+              }
+            }
+          ],
+          "format": "CD",
+          "track-offset": 0,
+          "track-count": 10,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "title": "",
+          "position": 1
+        }
+      ],
+      "country": "US",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "packaging-id": null,
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "sort-name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "name": "Europe",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1993-03-16"
+        },
+        {
+          "date": "1993-03-16",
+          "area": {
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "type-id": null,
+            "type": null
+          }
+        }
+      ],
+      "id": "5c019038-14f8-498a-93a8-53837ac16150",
+      "quality": "normal",
+      "cover-art-archive": {
+        "back": true,
+        "front": true,
+        "count": 3,
+        "darkened": false,
+        "artwork": true
+      },
+      "date": "1993-03-16",
+      "asin": null,
+      "packaging": null,
+      "barcode": "042284636223",
+      "disambiguation": "",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "status": "Official",
+      "country": "XE",
+      "media": [
+        {
+          "track-count": 10,
+          "track-offset": 0,
+          "format": "CD",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "title": "",
+          "id": "e2888a25-6bcb-3697-a960-797ee1aaf325",
+          "tracks": [
+            {
+              "position": 1,
+              "title": "When I Get to the Border",
+              "length": 208493,
+              "number": "1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "1481ca3b-54f1-4c3d-af4b-4d298c7fd68f",
+                "title": "When I Get to the Border",
+                "first-release-date": "1974-04",
+                "length": 207000
+              },
+              "id": "2d70edc6-1181-41f4-9026-e456c4e84965"
+            },
+            {
+              "position": 2,
+              "title": "The Calvary Cross",
+              "length": 233173,
+              "number": "2",
+              "recording": {
+                "disambiguation": "",
+                "id": "aa90c4d3-bb53-4192-a96b-7c6cc7de1d3f",
+                "video": false,
+                "first-release-date": "1974-04",
+                "length": 232000,
+                "title": "The Calvary Cross"
+              },
+              "id": "ec8da484-804d-436f-bb17-6e62a9512a14"
+            },
+            {
+              "number": "3",
+              "id": "39eda704-15ec-440c-af74-7be784b380ef",
+              "recording": {
+                "title": "Withered and Died",
+                "length": 206493,
+                "first-release-date": "1974-04",
+                "video": false,
+                "id": "37ca22db-683f-4647-a601-c9f03fbe107d",
+                "disambiguation": ""
+              },
+              "position": 3,
+              "length": 206493,
+              "title": "Withered and Died"
+            },
+            {
+              "recording": {
+                "id": "07fa63b0-68ed-4944-ac06-5ef20fd43c45",
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1974-04",
+                "length": 189333,
+                "title": "I Want to See the Bright Lights Tonight"
+              },
+              "id": "c03d1d03-872b-4979-80a0-4abf449badd8",
+              "number": "4",
+              "title": "I Want to See the Bright Lights Tonight",
+              "length": 189333,
+              "position": 4
+            },
+            {
+              "position": 5,
+              "title": "Down Where the Drunkards Roll",
+              "length": 245333,
+              "number": "5",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 245333,
+                "title": "Down Where the Drunkards Roll",
+                "disambiguation": "",
+                "id": "e0b2ef85-21bb-4201-a367-34f8c78ebf95",
+                "video": false
+              },
+              "id": "93afb08c-a125-4af4-9418-424c59e8eebd"
+            },
+            {
+              "number": "6",
+              "id": "680e7c2c-b0a0-4239-b158-40c06e926300",
+              "recording": {
+                "title": "We Sing Hallelujah",
+                "first-release-date": "1974-04",
+                "length": 172000,
+                "disambiguation": "",
+                "video": false,
+                "id": "7567f463-2009-45b9-83a4-e30a16393799"
+              },
+              "position": 6,
+              "length": 172066,
+              "title": "We Sing Hallelujah"
+            },
+            {
+              "recording": {
+                "length": 213840,
+                "first-release-date": "1974-04",
+                "title": "Has He Got a Friend for Me",
+                "disambiguation": "",
+                "id": "702b9dae-9be0-43ee-a267-481bdadeeb02",
+                "video": false
+              },
+              "id": "97e12c5e-0a6f-4857-923f-0e3a18cd4147",
+              "number": "7",
+              "title": "Has He Got a Friend for Me",
+              "length": 213773,
+              "position": 7
+            },
+            {
+              "number": "8",
+              "id": "f2859383-8816-4068-869a-f750102f4b48",
+              "recording": {
+                "id": "9ad8d8c4-1cc0-49f7-8a44-3c02dea58672",
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1974-04",
+                "length": 205666,
+                "title": "The Little Beggar Girl"
+              },
+              "position": 8,
+              "length": 205666,
+              "title": "The Little Beggar Girl"
+            },
+            {
+              "number": "9",
+              "id": "211c8d9a-65b0-473a-978c-0609b34b146f",
+              "recording": {
+                "title": "The End of the Rainbow",
+                "first-release-date": "1974-04",
+                "length": 237000,
+                "video": false,
+                "id": "5f1dcefe-a2c3-4f20-8a11-ba5397e9e050",
+                "disambiguation": ""
+              },
+              "position": 9,
+              "length": 237066,
+              "title": "The End of the Rainbow"
+            },
+            {
+              "id": "5e2307db-ac0a-4fe8-90d9-ba38f58cab36",
+              "recording": {
+                "video": false,
+                "id": "28ee01a6-7bcf-4ebd-966d-27ba2a382da9",
+                "disambiguation": "",
+                "title": "The Great Valerio",
+                "length": 322933,
+                "first-release-date": "1974-04"
+              },
+              "number": "10",
+              "length": 322800,
+              "title": "The Great Valerio",
+              "position": 10
+            }
+          ]
+        }
+      ],
+      "title": "I Want to See the Bright Lights Tonight",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "media": [
+        {
+          "tracks": [
+            {
+              "id": "5d25bdbf-2761-4ed9-9976-f9e7ddd541a7",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 207000,
+                "title": "When I Get to the Border",
+                "id": "1481ca3b-54f1-4c3d-af4b-4d298c7fd68f",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "1",
+              "length": 207266,
+              "title": "When I Get to the Border",
+              "position": 1
+            },
+            {
+              "position": 2,
+              "length": 233440,
+              "title": "The Calvary Cross",
+              "number": "2",
+              "id": "1c08dca6-b7cb-4f0e-ae01-d751e8669391",
+              "recording": {
+                "video": false,
+                "id": "aa90c4d3-bb53-4192-a96b-7c6cc7de1d3f",
+                "disambiguation": "",
+                "title": "The Calvary Cross",
+                "length": 232000,
+                "first-release-date": "1974-04"
+              }
+            },
+            {
+              "position": 3,
+              "title": "Withered and Died",
+              "length": 206946,
+              "number": "3",
+              "recording": {
+                "disambiguation": "",
+                "id": "37ca22db-683f-4647-a601-c9f03fbe107d",
+                "video": false,
+                "first-release-date": "1974-04",
+                "length": 206493,
+                "title": "Withered and Died"
+              },
+              "id": "6120f200-c1f0-42ee-8495-e235b3847489"
+            },
+            {
+              "position": 4,
+              "title": "I Want to See the Bright Lights Tonight",
+              "length": 189586,
+              "number": "4",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 189333,
+                "title": "I Want to See the Bright Lights Tonight",
+                "disambiguation": "",
+                "id": "07fa63b0-68ed-4944-ac06-5ef20fd43c45",
+                "video": false
+              },
+              "id": "f926b631-6115-4db1-b8bc-6f917a09678b"
+            },
+            {
+              "position": 5,
+              "title": "Down Where the Drunkards Roll",
+              "length": 246666,
+              "number": "5",
+              "recording": {
+                "length": 245333,
+                "first-release-date": "1974-04",
+                "title": "Down Where the Drunkards Roll",
+                "disambiguation": "",
+                "id": "e0b2ef85-21bb-4201-a367-34f8c78ebf95",
+                "video": false
+              },
+              "id": "dbf9de43-da41-4613-9ceb-d9f1d968b562"
+            },
+            {
+              "position": 6,
+              "title": "We Sing Hallelujah",
+              "length": 172080,
+              "number": "6",
+              "recording": {
+                "disambiguation": "",
+                "id": "7567f463-2009-45b9-83a4-e30a16393799",
+                "video": false,
+                "length": 172000,
+                "first-release-date": "1974-04",
+                "title": "We Sing Hallelujah"
+              },
+              "id": "b9aeb5ff-0af0-463d-8b19-fe4acb5f2341"
+            },
+            {
+              "number": "7",
+              "id": "f459a8cc-748d-4f4c-9540-cd8c69905852",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 213840,
+                "title": "Has He Got a Friend for Me",
+                "id": "702b9dae-9be0-43ee-a267-481bdadeeb02",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 7,
+              "length": 214026,
+              "title": "Has He Got a Friend for Me"
+            },
+            {
+              "title": "The Little Beggar Girl",
+              "length": 206386,
+              "position": 8,
+              "recording": {
+                "id": "9ad8d8c4-1cc0-49f7-8a44-3c02dea58672",
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1974-04",
+                "length": 205666,
+                "title": "The Little Beggar Girl"
+              },
+              "id": "d30265c4-5e5c-4cc1-b384-663b9b906726",
+              "number": "8"
+            },
+            {
+              "position": 9,
+              "title": "The End of the Rainbow",
+              "length": 237253,
+              "number": "9",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "5f1dcefe-a2c3-4f20-8a11-ba5397e9e050",
+                "title": "The End of the Rainbow",
+                "length": 237000,
+                "first-release-date": "1974-04"
+              },
+              "id": "fd85c448-1579-49de-bc18-15a13cd873b4"
+            },
+            {
+              "number": "10",
+              "id": "07c01727-82a1-4ffc-9350-ab9d75d2e252",
+              "recording": {
+                "title": "The Great Valerio",
+                "first-release-date": "1974-04",
+                "length": 322933,
+                "video": false,
+                "id": "28ee01a6-7bcf-4ebd-966d-27ba2a382da9",
+                "disambiguation": ""
+              },
+              "position": 10,
+              "length": 326706,
+              "title": "The Great Valerio"
+            },
+            {
+              "position": 11,
+              "length": 196466,
+              "title": "I Want to See the Bright Lights Tonight (live)",
+              "number": "11",
+              "id": "82a51a34-142d-4586-8f43-70078c510401",
+              "recording": {
+                "length": 196466,
+                "first-release-date": "2004-04-12",
+                "title": "I Want to See the Bright Lights Tonight (live)",
+                "id": "4bd3ff13-bb02-4e96-a0d8-7a3f709b18cb",
+                "video": false,
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK"
+              }
+            },
+            {
+              "id": "569f908c-9ec1-4794-abcb-4b25131b01a9",
+              "recording": {
+                "length": 171453,
+                "first-release-date": "2004-04-12",
+                "title": "Together Again (live)",
+                "id": "49bcce19-05a6-491f-8c03-9a89aee026ad",
+                "video": false,
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK"
+              },
+              "number": "12",
+              "length": 171453,
+              "title": "Together Again (live)",
+              "position": 12
+            },
+            {
+              "number": "13",
+              "id": "a7f70337-e48e-4a84-a83d-df78ecd8d228",
+              "recording": {
+                "length": 596120,
+                "first-release-date": "2004-04-12",
+                "title": "The Calvary Cross",
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK",
+                "id": "d7fc9dd1-0ea1-4ca4-9179-094af725fd48",
+                "video": false
+              },
+              "position": 13,
+              "length": 596120,
+              "title": "The Calvary Cross (live)"
+            }
+          ],
+          "id": "5b73f00d-beac-3784-93db-7eede1eb0cd5",
+          "track-count": 13,
+          "track-offset": 0,
+          "format": "Digital Media",
+          "position": 1,
+          "title": "",
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794"
+        }
+      ],
+      "title": "I Want to See the Bright Lights Tonight",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": null,
+      "packaging": "None",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "disambiguation": "",
+      "barcode": "00602498179079",
+      "cover-art-archive": {
+        "artwork": true,
+        "count": 1,
+        "darkened": false,
+        "front": true,
+        "back": false
+      },
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "id": "9ed47f6b-a362-48f8-892d-5e6f13e36993",
+      "quality": "normal"
+    },
+    {
+      "quality": "normal",
+      "id": "cbefedf1-431b-4aa8-ba4e-8df8d9e5548f",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "release-events": [
+        {
+          "date": "2004-04-12",
+          "area": {
+            "disambiguation": "",
+            "name": "Europe",
+            "sort-name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type-id": null,
+            "type": null
+          }
+        }
+      ],
+      "date": "2004-04-12",
+      "cover-art-archive": {
+        "back": false,
+        "front": true,
+        "artwork": true,
+        "count": 14,
+        "darkened": false
+      },
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "disambiguation": "",
+      "barcode": "602498179079",
+      "packaging": "Jewel Case",
+      "asin": "B0001N9ZKW",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "media": [
+        {
+          "position": 1,
+          "title": "",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 13,
+          "format": "CD",
+          "track-offset": 0,
+          "id": "8a7b5600-1dae-3dc3-86ce-87da5c5652f7",
+          "tracks": [
+            {
+              "position": 1,
+              "length": 207266,
+              "title": "When I Get to the Border",
+              "number": "1",
+              "id": "f754a6a6-0d35-4ba2-b4ab-65ae004df789",
+              "recording": {
+                "title": "When I Get to the Border",
+                "length": 207000,
+                "first-release-date": "1974-04",
+                "disambiguation": "",
+                "video": false,
+                "id": "1481ca3b-54f1-4c3d-af4b-4d298c7fd68f"
+              }
+            },
+            {
+              "number": "2",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 232000,
+                "title": "The Calvary Cross",
+                "disambiguation": "",
+                "id": "aa90c4d3-bb53-4192-a96b-7c6cc7de1d3f",
+                "video": false
+              },
+              "id": "d3b89cfa-014f-4afa-8265-e434c509dc4a",
+              "position": 2,
+              "title": "The Calvary Cross",
+              "length": 233440
+            },
+            {
+              "position": 3,
+              "title": "Withered and Died",
+              "length": 206946,
+              "number": "3",
+              "recording": {
+                "id": "37ca22db-683f-4647-a601-c9f03fbe107d",
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1974-04",
+                "length": 206493,
+                "title": "Withered and Died"
+              },
+              "id": "e482c912-8423-44b1-b50b-2c236a25b31b"
+            },
+            {
+              "number": "4",
+              "recording": {
+                "video": false,
+                "id": "07fa63b0-68ed-4944-ac06-5ef20fd43c45",
+                "disambiguation": "",
+                "title": "I Want to See the Bright Lights Tonight",
+                "length": 189333,
+                "first-release-date": "1974-04"
+              },
+              "id": "dd49d02b-ca33-4db2-87a1-3cfa4c5cfebd",
+              "position": 4,
+              "title": "I Want to See the Bright Lights Tonight",
+              "length": 189586
+            },
+            {
+              "number": "5",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 245333,
+                "title": "Down Where the Drunkards Roll",
+                "disambiguation": "",
+                "id": "e0b2ef85-21bb-4201-a367-34f8c78ebf95",
+                "video": false
+              },
+              "id": "5dade76b-6ab6-45ae-aaf2-893540ca8398",
+              "position": 5,
+              "title": "Down Where the Drunkards Roll",
+              "length": 246666
+            },
+            {
+              "title": "We Sing Hallelujah",
+              "length": 172080,
+              "position": 6,
+              "recording": {
+                "title": "We Sing Hallelujah",
+                "first-release-date": "1974-04",
+                "length": 172000,
+                "video": false,
+                "id": "7567f463-2009-45b9-83a4-e30a16393799",
+                "disambiguation": ""
+              },
+              "id": "abf3cf67-184d-46e5-ae18-57f8d5a8263b",
+              "number": "6"
+            },
+            {
+              "length": 214026,
+              "title": "Has He Got a Friend for Me",
+              "position": 7,
+              "id": "361e8455-d5b7-4fef-a665-f6a279be8008",
+              "recording": {
+                "title": "Has He Got a Friend for Me",
+                "length": 213840,
+                "first-release-date": "1974-04",
+                "disambiguation": "",
+                "video": false,
+                "id": "702b9dae-9be0-43ee-a267-481bdadeeb02"
+              },
+              "number": "7"
+            },
+            {
+              "number": "8",
+              "id": "bf6a4858-b7ab-4ad6-bd2a-f74ea8afbcb0",
+              "recording": {
+                "video": false,
+                "id": "9ad8d8c4-1cc0-49f7-8a44-3c02dea58672",
+                "disambiguation": "",
+                "title": "The Little Beggar Girl",
+                "first-release-date": "1974-04",
+                "length": 205666
+              },
+              "position": 8,
+              "length": 206386,
+              "title": "The Little Beggar Girl"
+            },
+            {
+              "number": "9",
+              "recording": {
+                "disambiguation": "",
+                "id": "5f1dcefe-a2c3-4f20-8a11-ba5397e9e050",
+                "video": false,
+                "first-release-date": "1974-04",
+                "length": 237000,
+                "title": "The End of the Rainbow"
+              },
+              "id": "e1711992-f5fa-4fc6-b80a-d2ace72ca40d",
+              "position": 9,
+              "title": "The End of the Rainbow",
+              "length": 237253
+            },
+            {
+              "position": 10,
+              "length": 326706,
+              "title": "The Great Valerio",
+              "number": "10",
+              "id": "1441420b-59ac-4cdf-9663-e5c8222bbffd",
+              "recording": {
+                "disambiguation": "",
+                "id": "28ee01a6-7bcf-4ebd-966d-27ba2a382da9",
+                "video": false,
+                "length": 322933,
+                "first-release-date": "1974-04",
+                "title": "The Great Valerio"
+              }
+            },
+            {
+              "number": "11",
+              "id": "60ac1249-8382-4024-ba82-a9bf868f9221",
+              "recording": {
+                "title": "I Want to See the Bright Lights Tonight (live)",
+                "first-release-date": "2004-04-12",
+                "length": 196466,
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK",
+                "video": false,
+                "id": "4bd3ff13-bb02-4e96-a0d8-7a3f709b18cb"
+              },
+              "position": 11,
+              "length": 196466,
+              "title": "I Want to See the Bright Lights Tonight (live)"
+            },
+            {
+              "position": 12,
+              "title": "Together Again (live)",
+              "length": 171453,
+              "number": "12",
+              "recording": {
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK",
+                "id": "49bcce19-05a6-491f-8c03-9a89aee026ad",
+                "video": false,
+                "first-release-date": "2004-04-12",
+                "length": 171453,
+                "title": "Together Again (live)"
+              },
+              "id": "07236dcd-1faa-43f9-9438-ddd9d372b864"
+            },
+            {
+              "title": "The Calvary Cross (live)",
+              "length": 596120,
+              "position": 13,
+              "recording": {
+                "first-release-date": "2004-04-12",
+                "length": 596120,
+                "title": "The Calvary Cross",
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK",
+                "id": "d7fc9dd1-0ea1-4ca4-9179-094af725fd48",
+                "video": false
+              },
+              "id": "9cca4cfc-dbc1-4602-afe4-0b11302728ff",
+              "number": "13"
+            }
+          ]
+        }
+      ],
+      "title": "I Want to See the Bright Lights Tonight",
+      "country": "XE",
+      "status": "Official"
+    },
+    {
+      "date": "2004-09-28",
+      "cover-art-archive": {
+        "back": false,
+        "darkened": false,
+        "count": 1,
+        "artwork": true,
+        "front": true
+      },
+      "id": "e69a494e-841d-41a9-be17-8ccb275ff615",
+      "quality": "normal",
+      "packaging-id": null,
+      "release-events": [
+        {
+          "date": "2004-09-28",
+          "area": {
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "name": "United States",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "country": "US",
+      "media": [
+        {
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "title": "When I Get to the Border",
+                "length": 207000,
+                "first-release-date": "1974-04",
+                "video": false,
+                "id": "1481ca3b-54f1-4c3d-af4b-4d298c7fd68f",
+                "disambiguation": ""
+              },
+              "id": "4b54e9dd-ecc2-34ff-b14c-ccfde5d0949b",
+              "position": 1,
+              "title": "When I Get to the Border",
+              "length": 207266
+            },
+            {
+              "title": "The Calvary Cross",
+              "length": 233440,
+              "position": 2,
+              "recording": {
+                "title": "The Calvary Cross",
+                "length": 232000,
+                "first-release-date": "1974-04",
+                "video": false,
+                "id": "aa90c4d3-bb53-4192-a96b-7c6cc7de1d3f",
+                "disambiguation": ""
+              },
+              "id": "083bb5bd-9a56-32bf-a2c8-3be54d2c1b04",
+              "number": "2"
+            },
+            {
+              "position": 3,
+              "title": "Withered and Died",
+              "length": 206946,
+              "number": "3",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "37ca22db-683f-4647-a601-c9f03fbe107d",
+                "title": "Withered and Died",
+                "length": 206493,
+                "first-release-date": "1974-04"
+              },
+              "id": "1ae828c9-fca9-3b5b-91e7-6e3170e35dd4"
+            },
+            {
+              "number": "4",
+              "id": "4ad451ea-201c-3d7b-b3e2-d6c5b783e407",
+              "recording": {
+                "title": "I Want to See the Bright Lights Tonight",
+                "length": 189333,
+                "first-release-date": "1974-04",
+                "disambiguation": "",
+                "video": false,
+                "id": "07fa63b0-68ed-4944-ac06-5ef20fd43c45"
+              },
+              "position": 4,
+              "length": 189586,
+              "title": "I Want to See the Bright Lights Tonight"
+            },
+            {
+              "length": 246666,
+              "title": "Down Where the Drunkards Roll",
+              "position": 5,
+              "id": "f215d9c3-82dc-3664-93b2-4a2a63613c65",
+              "recording": {
+                "video": false,
+                "id": "e0b2ef85-21bb-4201-a367-34f8c78ebf95",
+                "disambiguation": "",
+                "title": "Down Where the Drunkards Roll",
+                "length": 245333,
+                "first-release-date": "1974-04"
+              },
+              "number": "5"
+            },
+            {
+              "number": "6",
+              "recording": {
+                "video": false,
+                "id": "7567f463-2009-45b9-83a4-e30a16393799",
+                "disambiguation": "",
+                "title": "We Sing Hallelujah",
+                "first-release-date": "1974-04",
+                "length": 172000
+              },
+              "id": "a925fb9e-d920-31d8-a9ca-403c0fd44442",
+              "position": 6,
+              "title": "We Sing Hallelujah",
+              "length": 172080
+            },
+            {
+              "position": 7,
+              "title": "Has He Got a Friend for Me",
+              "length": 214026,
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "702b9dae-9be0-43ee-a267-481bdadeeb02",
+                "title": "Has He Got a Friend for Me",
+                "length": 213840,
+                "first-release-date": "1974-04"
+              },
+              "id": "88075f73-7581-3e55-85ed-305fd6443ef5"
+            },
+            {
+              "number": "8",
+              "recording": {
+                "title": "The Little Beggar Girl",
+                "first-release-date": "1974-04",
+                "length": 205666,
+                "video": false,
+                "id": "9ad8d8c4-1cc0-49f7-8a44-3c02dea58672",
+                "disambiguation": ""
+              },
+              "id": "60b7d94a-cfdc-3b4d-a8b3-e41954e72fd3",
+              "position": 8,
+              "title": "The Little Beggar Girl",
+              "length": 206386
+            },
+            {
+              "position": 9,
+              "length": 237253,
+              "title": "The End of the Rainbow",
+              "number": "9",
+              "id": "9edc23d6-7ebb-36de-98ce-de54a562e4bf",
+              "recording": {
+                "id": "5f1dcefe-a2c3-4f20-8a11-ba5397e9e050",
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1974-04",
+                "length": 237000,
+                "title": "The End of the Rainbow"
+              }
+            },
+            {
+              "number": "10",
+              "recording": {
+                "disambiguation": "",
+                "id": "28ee01a6-7bcf-4ebd-966d-27ba2a382da9",
+                "video": false,
+                "length": 322933,
+                "first-release-date": "1974-04",
+                "title": "The Great Valerio"
+              },
+              "id": "675a05cd-ac21-3a54-85cd-d05b826f1944",
+              "position": 10,
+              "title": "The Great Valerio",
+              "length": 326706
+            },
+            {
+              "position": 11,
+              "title": "I Want to See the Bright Lights Tonight (live)",
+              "length": 196466,
+              "number": "11",
+              "recording": {
+                "id": "4bd3ff13-bb02-4e96-a0d8-7a3f709b18cb",
+                "video": false,
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK",
+                "length": 196466,
+                "first-release-date": "2004-04-12",
+                "title": "I Want to See the Bright Lights Tonight (live)"
+              },
+              "id": "081d4089-5363-3f8a-967b-2f9895870b5d"
+            },
+            {
+              "position": 12,
+              "length": 171453,
+              "title": "Together Again (live)",
+              "number": "12",
+              "id": "3b6a40a0-5b2d-3607-89e8-17c66859a6a1",
+              "recording": {
+                "title": "Together Again (live)",
+                "first-release-date": "2004-04-12",
+                "length": 171453,
+                "video": false,
+                "id": "49bcce19-05a6-491f-8c03-9a89aee026ad",
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK"
+              }
+            },
+            {
+              "id": "deb44a72-723d-3a76-ba9c-18245dc0c4ca",
+              "recording": {
+                "length": 596120,
+                "first-release-date": "2004-04-12",
+                "title": "The Calvary Cross",
+                "id": "d7fc9dd1-0ea1-4ca4-9179-094af725fd48",
+                "video": false,
+                "disambiguation": "live, 1975-09-07: The Roundhouse, London, UK"
+              },
+              "number": "13",
+              "length": 596120,
+              "title": "The Calvary Cross (live)",
+              "position": 13
+            }
+          ],
+          "id": "2084f658-6c25-3779-a294-e13f443a0cbe",
+          "position": 1,
+          "title": "",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 13,
+          "format": "CD",
+          "track-offset": 0
+        }
+      ],
+      "title": "I Want to See the Bright Lights Tonight",
+      "status": "Official",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "disambiguation": "",
+      "barcode": "602498179079",
+      "asin": "B0001N9ZKW",
+      "packaging": null
+    },
+    {
+      "release-events": [
+        {
+          "date": "1983",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "name": "United States",
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          }
+        }
+      ],
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "fd8a713f-d806-3635-bff3-cdac51198fc6",
+      "quality": "normal",
+      "cover-art-archive": {
+        "back": true,
+        "front": true,
+        "artwork": true,
+        "count": 4,
+        "darkened": false
+      },
+      "date": "1983",
+      "asin": null,
+      "packaging": "Jewel Case",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "barcode": "031257440721",
+      "disambiguation": "",
+      "country": "US",
+      "media": [
+        {
+          "title": "",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "format": "CD",
+          "track-offset": 0,
+          "track-count": 10,
+          "id": "9bdb7e45-fb91-38de-bcc4-00a71f58d8fc",
+          "tracks": [
+            {
+              "length": 208493,
+              "title": "When I Get to the Border",
+              "position": 1,
+              "id": "51c64403-c1ed-3501-8d69-d0b34d1ed060",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "1481ca3b-54f1-4c3d-af4b-4d298c7fd68f",
+                "title": "When I Get to the Border",
+                "first-release-date": "1974-04",
+                "length": 207000
+              },
+              "number": "1"
+            },
+            {
+              "id": "71d14dca-39a9-3aa8-8a83-ae66f435f84e",
+              "recording": {
+                "id": "aa90c4d3-bb53-4192-a96b-7c6cc7de1d3f",
+                "video": false,
+                "disambiguation": "",
+                "length": 232000,
+                "first-release-date": "1974-04",
+                "title": "The Calvary Cross"
+              },
+              "number": "2",
+              "length": 233173,
+              "title": "The Calvary Cross",
+              "position": 2
+            },
+            {
+              "recording": {
+                "id": "37ca22db-683f-4647-a601-c9f03fbe107d",
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1974-04",
+                "length": 206493,
+                "title": "Withered and Died"
+              },
+              "id": "1499d47c-c29d-3cfb-9c3f-f9b8b8362a7a",
+              "number": "3",
+              "title": "Withered and Died",
+              "length": 206493,
+              "position": 3
+            },
+            {
+              "position": 4,
+              "length": 189333,
+              "title": "I Want to See the Bright Lights Tonight",
+              "number": "4",
+              "id": "e24fa265-018f-3cb5-8a63-d6b37a7b9068",
+              "recording": {
+                "disambiguation": "",
+                "id": "07fa63b0-68ed-4944-ac06-5ef20fd43c45",
+                "video": false,
+                "first-release-date": "1974-04",
+                "length": 189333,
+                "title": "I Want to See the Bright Lights Tonight"
+              }
+            },
+            {
+              "recording": {
+                "title": "Down Where the Drunkards Roll",
+                "first-release-date": "1974-04",
+                "length": 245333,
+                "video": false,
+                "id": "e0b2ef85-21bb-4201-a367-34f8c78ebf95",
+                "disambiguation": ""
+              },
+              "id": "d5480464-0f71-3ab9-aa26-da063245d941",
+              "number": "5",
+              "title": "Down Where the Drunkards Roll",
+              "length": 245333,
+              "position": 5
+            },
+            {
+              "number": "6",
+              "recording": {
+                "disambiguation": "",
+                "id": "7567f463-2009-45b9-83a4-e30a16393799",
+                "video": false,
+                "first-release-date": "1974-04",
+                "length": 172000,
+                "title": "We Sing Hallelujah"
+              },
+              "id": "d734fe91-20b3-3a9e-b7aa-ce2f34ca1368",
+              "position": 6,
+              "title": "We Sing Hallelujah",
+              "length": 172000
+            },
+            {
+              "number": "7",
+              "id": "8da5e38a-cf27-3481-971d-57340a5ac98e",
+              "recording": {
+                "length": 213840,
+                "first-release-date": "1974-04",
+                "title": "Has He Got a Friend for Me",
+                "disambiguation": "",
+                "id": "702b9dae-9be0-43ee-a267-481bdadeeb02",
+                "video": false
+              },
+              "position": 7,
+              "length": 213840,
+              "title": "Has He Got a Friend for Me"
+            },
+            {
+              "number": "8",
+              "id": "cb556fd9-e938-3dc7-bc20-850d88664d8f",
+              "recording": {
+                "disambiguation": "",
+                "id": "9ad8d8c4-1cc0-49f7-8a44-3c02dea58672",
+                "video": false,
+                "length": 205666,
+                "first-release-date": "1974-04",
+                "title": "The Little Beggar Girl"
+              },
+              "position": 8,
+              "length": 205666,
+              "title": "The Little Beggar Girl"
+            },
+            {
+              "number": "9",
+              "id": "85dfcaec-c96e-39f9-894f-4e60579126c0",
+              "recording": {
+                "first-release-date": "1974-04",
+                "length": 237000,
+                "title": "The End of the Rainbow",
+                "id": "5f1dcefe-a2c3-4f20-8a11-ba5397e9e050",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 9,
+              "length": 237000,
+              "title": "The End of the Rainbow"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "28ee01a6-7bcf-4ebd-966d-27ba2a382da9",
+                "video": false,
+                "first-release-date": "1974-04",
+                "length": 322933,
+                "title": "The Great Valerio"
+              },
+              "id": "00b99a6c-7b66-3eb5-919a-bf46ea44be7e",
+              "number": "10",
+              "title": "The Great Valerio",
+              "length": 322666,
+              "position": 10
+            }
+          ]
+        }
+      ],
+      "title": "I Want to See the Bright Lights Tonight",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    }
+  ]
+}

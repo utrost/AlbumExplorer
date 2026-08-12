@@ -1,0 +1,2529 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=26ea6822-538d-3781-ac19-fd3575aa2688&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-offset": 0,
+  "release-count": 10,
+  "releases": [
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null
+          },
+          "date": "1990-01-24"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "media": [
+        {
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "video": false,
+                "id": "da355632-5d1a-4175-b352-a1c895a6a47b",
+                "title": "Let the Good Times Roll",
+                "first-release-date": "1959",
+                "length": 172893,
+                "disambiguation": "mono"
+              },
+              "position": 1,
+              "length": 174106,
+              "title": "Let the Good Times Roll",
+              "id": "7e037993-b187-4eff-b501-d5b2382ca461"
+            },
+            {
+              "length": 164826,
+              "id": "6e0c0c5a-5d3f-4fac-bf29-e6463718530f",
+              "title": "It Had to Be You",
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1959",
+                "id": "ae4610d7-479f-4cba-ae5b-8b52928c22ed",
+                "title": "It Had to Be You",
+                "length": 164826,
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1959",
+                "id": "b654d081-e701-4aca-87c6-b272c07f4c2c",
+                "title": "Alexander’s Ragtime Band",
+                "length": 174440,
+                "video": false
+              },
+              "position": 3,
+              "number": "3",
+              "id": "456e4e7b-3109-4e4f-be98-d4a8b896aa52",
+              "title": "Alexander’s Ragtime Band",
+              "length": 174440
+            },
+            {
+              "position": 4,
+              "recording": {
+                "id": "69f3e935-a06b-475d-8114-0aaa172b2b23",
+                "first-release-date": "1959",
+                "title": "Two Years of Torture",
+                "length": 206000,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "number": "4",
+              "length": 206226,
+              "id": "a1801a6f-d10d-4332-8cad-da0ff4a712c8",
+              "title": "Two Years of Torture"
+            },
+            {
+              "recording": {
+                "video": false,
+                "id": "56aba023-baf0-449b-8173-05a68ede360f",
+                "title": "When Your Lover Has Gone",
+                "first-release-date": "1959",
+                "length": 171773,
+                "disambiguation": "mono"
+              },
+              "position": 5,
+              "number": "5",
+              "id": "8fb92aae-3e29-40c7-a403-d29340ed7bc8",
+              "title": "When Your Lover Has Gone",
+              "length": 172000
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 148013,
+                "title": "’Deed I Do",
+                "id": "f64ad4f3-fc80-42ef-88e3-1971057ca558",
+                "first-release-date": "1959"
+              },
+              "position": 6,
+              "number": "6",
+              "length": 148400,
+              "title": "’Deed I Do",
+              "id": "db8a2d00-c96f-4fbc-934c-8153dc0adf53"
+            },
+            {
+              "id": "9b9dfded-13d4-41ab-9352-74ecafb87761",
+              "title": "Just for a Thrill",
+              "length": 206173,
+              "recording": {
+                "video": false,
+                "length": 204973,
+                "title": "Just for a Thrill",
+                "id": "bb1ca02a-975c-4439-8cc2-51c772ab3103",
+                "first-release-date": "1959",
+                "disambiguation": "mono"
+              },
+              "position": 7,
+              "number": "7"
+            },
+            {
+              "length": 202093,
+              "title": "You Won’t Let Me Go",
+              "id": "1d3db874-f1f9-46ef-af22-729cc10b8640",
+              "recording": {
+                "video": false,
+                "id": "7abb4d59-6c56-4256-8a84-3c78c2c94d12",
+                "title": "You Won’t Let Me Go",
+                "first-release-date": "1959",
+                "length": 200000,
+                "disambiguation": "mono"
+              },
+              "position": 8,
+              "number": "8"
+            },
+            {
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "video": false,
+                "first-release-date": "1959",
+                "id": "b8f130a9-1eb4-410f-bc07-4640646b8192",
+                "title": "Tell Me You’ll Wait for Me",
+                "length": 205133,
+                "disambiguation": "mono"
+              },
+              "title": "Tell Me You’ll Wait for Me",
+              "id": "ce92b1e6-305b-46f3-a043-3f0fd624efe3",
+              "length": 205133
+            },
+            {
+              "id": "8a0111a3-3423-4a14-81d3-d78517222303",
+              "title": "Don’t Let the Sun Catch You Cryin’",
+              "length": 227373,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 225573,
+                "id": "fe0db312-c2a1-4c24-b0e4-145e0e1ac97e",
+                "title": "Don’t Let the Sun Catch You Cryin’",
+                "first-release-date": "1959"
+              },
+              "position": 10,
+              "number": "10"
+            },
+            {
+              "position": 11,
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1959",
+                "id": "9345db42-5408-411f-bff1-3879a5297e27",
+                "title": "Am I Blue",
+                "length": 219000,
+                "video": false
+              },
+              "number": "11",
+              "length": 219960,
+              "id": "fa0d513c-af5a-4751-bd06-b261711e8a54",
+              "title": "Am I Blue"
+            },
+            {
+              "position": 12,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "926a35b6-18a5-45a9-881e-4c2640ea8aa8",
+                "first-release-date": "1959",
+                "title": "Come Rain or Come Shine",
+                "length": 221000
+              },
+              "number": "12",
+              "id": "f4e6e852-09b9-4a64-8673-cecf2c2d8e37",
+              "title": "Come Rain or Come Shine",
+              "length": 219373
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "position": 1,
+          "id": "fa7fa0bd-d201-34bc-9d25-1b6c7a5376aa",
+          "track-count": 12,
+          "title": "",
+          "format": "CD"
+        }
+      ],
+      "status": "Official",
+      "country": "US",
+      "date": "1990-01-24",
+      "packaging": "Jewel Case",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "front": true,
+        "count": 5,
+        "darkened": false,
+        "artwork": true,
+        "back": true
+      },
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "barcode": "075678133824",
+      "asin": "B000002I4U",
+      "title": "The Genius of Ray Charles",
+      "id": "0242aeb6-629f-434d-87c7-5c0eaf83c178"
+    },
+    {
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "1959-10",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "status": "Official",
+      "media": [
+        {
+          "format": "12\" Vinyl",
+          "track-count": 12,
+          "id": "3429e67a-a75e-3582-b2a9-dc77a5efaa07",
+          "title": "",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "recording": {
+                "id": "73aedd21-c5ea-4cb1-8f9f-4a107a283c2f",
+                "first-release-date": "1959-10",
+                "title": "Let the Good Times Roll",
+                "length": 174106,
+                "video": false,
+                "disambiguation": "stereo"
+              },
+              "position": 1,
+              "number": "A1",
+              "id": "5542b894-644c-453f-b414-040218fccec0",
+              "title": "Let the Good Times Roll",
+              "length": 169000
+            },
+            {
+              "length": 161000,
+              "id": "92fc7077-6d43-4a91-94c3-acb3430be11a",
+              "title": "It Had To Be You",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 164666,
+                "id": "c8b43248-8af4-4867-8341-18f9010ab438",
+                "title": "It Had to Be You",
+                "first-release-date": "1959-10",
+                "disambiguation": "stereo"
+              },
+              "number": "A2"
+            },
+            {
+              "number": "A3",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 174440,
+                "title": "Alexander’s Ragtime Band",
+                "id": "ca19e9f7-1f4d-400e-91ca-a27676dbde2a",
+                "first-release-date": "1959-10",
+                "disambiguation": "stereo"
+              },
+              "length": 170000,
+              "title": "Alexander’s Ragtime Band",
+              "id": "e2d58f91-96bf-4df0-96d0-547edd44a492"
+            },
+            {
+              "id": "b05a7af5-b5d3-49e1-b5ae-445b9fb7399c",
+              "title": "Two Years of Torture",
+              "length": 202000,
+              "number": "A4",
+              "recording": {
+                "disambiguation": "stereo",
+                "video": false,
+                "length": 203733,
+                "title": "Two Years of Torture",
+                "id": "8aa6292b-949e-4705-b269-3e893b75ef9f",
+                "first-release-date": "1959-10"
+              },
+              "position": 4
+            },
+            {
+              "id": "7e49ca7c-343d-4166-8e50-079a6622fcc5",
+              "title": "When Your Lover Has Gone",
+              "length": 167000,
+              "number": "A5",
+              "position": 5,
+              "recording": {
+                "video": false,
+                "id": "bb022b2b-5135-4132-a806-d2924ad7ab1e",
+                "first-release-date": "1959-10",
+                "title": "When Your Lover Has Gone",
+                "length": 169320,
+                "disambiguation": "stereo"
+              }
+            },
+            {
+              "title": "Deed I Do",
+              "id": "5d8c6576-716f-4528-ba29-3e49fe565e4e",
+              "length": 143000,
+              "number": "A6",
+              "position": 6,
+              "recording": {
+                "video": false,
+                "first-release-date": "1959-10",
+                "id": "60f0b652-58f3-4e58-90ec-d3cd686e534c",
+                "title": "’Deed I Do",
+                "length": 148400,
+                "disambiguation": "stereo"
+              }
+            },
+            {
+              "length": 201000,
+              "title": "Just for a Thrill",
+              "id": "7e9c66fe-9c5d-4768-bec4-ff35c47ad0bc",
+              "recording": {
+                "disambiguation": "stereo",
+                "length": 206173,
+                "id": "f35f1816-23e0-4a1e-9bf6-7368b8d06ddb",
+                "first-release-date": "1959-10",
+                "title": "Just for a Thrill",
+                "video": false
+              },
+              "position": 7,
+              "number": "B1"
+            },
+            {
+              "number": "B2",
+              "recording": {
+                "disambiguation": "stereo",
+                "id": "987c136d-739d-433f-9ef5-0503d2a94967",
+                "title": "You Won’t Let Me Go",
+                "first-release-date": "1959-10",
+                "length": 201400,
+                "video": false
+              },
+              "position": 8,
+              "title": "You Won’t Let Me Go",
+              "id": "94379d0e-f1ee-401d-aa5d-f72e12fbace2",
+              "length": 196000
+            },
+            {
+              "length": 201000,
+              "title": "Tell Me You’ll Wait for Me",
+              "id": "fb65acda-146c-4ba8-9e9f-12b68ab67241",
+              "recording": {
+                "video": false,
+                "length": 205133,
+                "id": "0520de59-7ba2-4350-b91c-8554b275b4d2",
+                "first-release-date": "1959-10",
+                "title": "Tell Me You’ll Wait for Me",
+                "disambiguation": "stereo"
+              },
+              "position": 9,
+              "number": "B3"
+            },
+            {
+              "number": "B4",
+              "position": 10,
+              "recording": {
+                "disambiguation": "stereo",
+                "video": false,
+                "length": 225333,
+                "id": "410b85ed-05f0-4fb3-bf11-11fb617e4fa4",
+                "title": "Don’t Let the Sun Catch You Cryin’",
+                "first-release-date": "1959-10"
+              },
+              "length": 222000,
+              "id": "81cb685a-5bb2-4082-b59c-0458aa1cc300",
+              "title": "Don’t Let the Sun Catch You Cryin’"
+            },
+            {
+              "length": 215000,
+              "id": "c08cde37-fbc9-4b3a-9a33-280c1b9cef41",
+              "title": "Am I Blue",
+              "number": "B5",
+              "recording": {
+                "disambiguation": "stereo",
+                "length": 219960,
+                "first-release-date": "1959-10",
+                "id": "207afb19-35c2-4e82-9cb5-8ec4614cd73a",
+                "title": "Am I Blue",
+                "video": false
+              },
+              "position": 11
+            },
+            {
+              "length": 220000,
+              "title": "Come Rain or Come Shine",
+              "id": "d4095297-f7a1-4700-948c-a2ed1d4c1fcb",
+              "position": 12,
+              "recording": {
+                "video": false,
+                "id": "732ca921-6d22-42c4-b787-4099b839e2ff",
+                "title": "Come Rain or Come Shine",
+                "first-release-date": "1959-10",
+                "length": 219546,
+                "disambiguation": "stereo"
+              },
+              "number": "B6"
+            }
+          ]
+        }
+      ],
+      "country": "US",
+      "date": "1959-10",
+      "packaging": null,
+      "disambiguation": "stereo",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "front": true,
+        "count": 4
+      },
+      "packaging-id": null,
+      "barcode": null,
+      "asin": null,
+      "title": "The Genius of Ray Charles",
+      "id": "1f77c5cf-7c10-4ebf-8170-21aea019741c"
+    },
+    {
+      "barcode": "075678133824",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": "B000002I4U",
+      "id": "2f1fa63b-6a09-49de-9cf5-0078c7204b70",
+      "title": "The Genius of Ray Charles",
+      "cover-art-archive": {
+        "front": true,
+        "count": 10,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      },
+      "disambiguation": "",
+      "date": "1993-07",
+      "packaging": "Jewel Case",
+      "country": "XE",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "first-release-date": "1959",
+                "id": "da355632-5d1a-4175-b352-a1c895a6a47b",
+                "title": "Let the Good Times Roll",
+                "length": 172893
+              },
+              "position": 1,
+              "number": "1",
+              "title": "Let the Good Times Roll",
+              "id": "6693131a-54cf-3d89-99e9-47a03cdbfe00",
+              "length": 174000
+            },
+            {
+              "length": 165000,
+              "title": "It Had to Be You",
+              "id": "6ccd4d8d-134d-38d9-8af0-995cc732a1d7",
+              "number": "2",
+              "recording": {
+                "disambiguation": "mono",
+                "title": "It Had to Be You",
+                "id": "ae4610d7-479f-4cba-ae5b-8b52928c22ed",
+                "first-release-date": "1959",
+                "length": 164826,
+                "video": false
+              },
+              "position": 2
+            },
+            {
+              "id": "f9a1088d-9b9c-3b6e-9570-9b9e635eeb7e",
+              "title": "Alexander’s Ragtime Band",
+              "length": 174000,
+              "recording": {
+                "video": false,
+                "first-release-date": "1959",
+                "id": "b654d081-e701-4aca-87c6-b272c07f4c2c",
+                "title": "Alexander’s Ragtime Band",
+                "length": 174440,
+                "disambiguation": "mono"
+              },
+              "position": 3,
+              "number": "3"
+            },
+            {
+              "length": 206000,
+              "title": "Two Years of Torture",
+              "id": "3ef6b4dd-bc3b-3c8e-ad83-1ce686b7c416",
+              "number": "4",
+              "recording": {
+                "video": false,
+                "length": 206000,
+                "id": "69f3e935-a06b-475d-8114-0aaa172b2b23",
+                "first-release-date": "1959",
+                "title": "Two Years of Torture",
+                "disambiguation": "mono"
+              },
+              "position": 4
+            },
+            {
+              "title": "When Your Lover Has Gone",
+              "id": "6d780cae-3e36-34b0-a8c1-2aaa19cb71c3",
+              "length": 172000,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "56aba023-baf0-449b-8173-05a68ede360f",
+                "first-release-date": "1959",
+                "title": "When Your Lover Has Gone",
+                "length": 171773
+              },
+              "position": 5,
+              "number": "5"
+            },
+            {
+              "length": 148000,
+              "title": "’Deed I Do",
+              "id": "3c79cc4c-849f-3ceb-b0b5-dedda1bbdf36",
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 148013,
+                "first-release-date": "1959",
+                "id": "f64ad4f3-fc80-42ef-88e3-1971057ca558",
+                "title": "’Deed I Do",
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "length": 206000,
+              "title": "Just for a Thrill",
+              "id": "8bd2285e-20ed-32dd-9196-4aea289bda2f",
+              "recording": {
+                "length": 204973,
+                "title": "Just for a Thrill",
+                "id": "bb1ca02a-975c-4439-8cc2-51c772ab3103",
+                "first-release-date": "1959",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 7,
+              "number": "7"
+            },
+            {
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 200000,
+                "id": "7abb4d59-6c56-4256-8a84-3c78c2c94d12",
+                "first-release-date": "1959",
+                "title": "You Won’t Let Me Go",
+                "video": false
+              },
+              "length": 202000,
+              "id": "425f3dc4-51ad-3a3d-8817-f5bcdc5346d3",
+              "title": "You Won’t Let Me Go"
+            },
+            {
+              "id": "55b4b124-da2a-357b-852f-e79d425fc2ce",
+              "title": "Tell Me You’ll Wait for Me",
+              "length": 205000,
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "video": false,
+                "id": "b8f130a9-1eb4-410f-bc07-4640646b8192",
+                "first-release-date": "1959",
+                "title": "Tell Me You’ll Wait for Me",
+                "length": 205133,
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "length": 227000,
+              "id": "7629b5e9-79a3-3821-9600-ccc4f244629c",
+              "title": "Don’t Let the Sun Catch You Cryin’",
+              "recording": {
+                "video": false,
+                "title": "Don’t Let the Sun Catch You Cryin’",
+                "id": "fe0db312-c2a1-4c24-b0e4-145e0e1ac97e",
+                "first-release-date": "1959",
+                "length": 225573,
+                "disambiguation": "mono"
+              },
+              "position": 10,
+              "number": "10"
+            },
+            {
+              "number": "11",
+              "recording": {
+                "id": "9345db42-5408-411f-bff1-3879a5297e27",
+                "first-release-date": "1959",
+                "title": "Am I Blue",
+                "length": 219000,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 11,
+              "id": "6f0ef12a-ce96-3d02-8764-c299afc402e7",
+              "title": "Am I Blue",
+              "length": 220000
+            },
+            {
+              "length": 219000,
+              "title": "Come Rain or Come Shine",
+              "id": "3ce24b4c-cf9b-336e-9fa7-1793a1ca8244",
+              "position": 12,
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1959",
+                "id": "926a35b6-18a5-45a9-881e-4c2640ea8aa8",
+                "title": "Come Rain or Come Shine",
+                "length": 221000,
+                "video": false
+              },
+              "number": "12"
+            }
+          ],
+          "format": "CD",
+          "title": "",
+          "id": "343cfe6a-cc3a-3e3d-b25b-5b63989572cd",
+          "track-count": 12,
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "status": "Official",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type": null
+          },
+          "date": "1993-07"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal"
+    },
+    {
+      "date": "2005-04-25",
+      "packaging": null,
+      "country": null,
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 172893,
+                "id": "da355632-5d1a-4175-b352-a1c895a6a47b",
+                "first-release-date": "1959",
+                "title": "Let the Good Times Roll"
+              },
+              "position": 1,
+              "title": "Let the Good Times Roll",
+              "id": "075722ac-3675-43d8-b20e-13ff47d04d2f",
+              "length": 172000
+            },
+            {
+              "length": 163000,
+              "id": "d3d64741-4524-4742-ac2e-7077496f482e",
+              "title": "It Had to Be You",
+              "number": "2",
+              "recording": {
+                "video": false,
+                "id": "ae4610d7-479f-4cba-ae5b-8b52928c22ed",
+                "first-release-date": "1959",
+                "title": "It Had to Be You",
+                "length": 164826,
+                "disambiguation": "mono"
+              },
+              "position": 2
+            },
+            {
+              "title": "Alexander's Ragtime Band",
+              "id": "2d584dee-70c2-49e9-b2e0-9a4f2a2494b8",
+              "length": 172000,
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 174440,
+                "title": "Alexander’s Ragtime Band",
+                "id": "b654d081-e701-4aca-87c6-b272c07f4c2c",
+                "first-release-date": "1959",
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "number": "4",
+              "recording": {
+                "length": 206000,
+                "id": "69f3e935-a06b-475d-8114-0aaa172b2b23",
+                "first-release-date": "1959",
+                "title": "Two Years of Torture",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 4,
+              "length": 204000,
+              "title": "Two Years of Torture",
+              "id": "afbc159e-dfcb-44f0-bad6-e88110d3df02"
+            },
+            {
+              "number": "5",
+              "recording": {
+                "video": false,
+                "title": "When Your Lover Has Gone",
+                "id": "56aba023-baf0-449b-8173-05a68ede360f",
+                "first-release-date": "1959",
+                "length": 171773,
+                "disambiguation": "mono"
+              },
+              "position": 5,
+              "length": 170000,
+              "title": "When Your Lover Has Gone",
+              "id": "f03f412f-fd7b-48c1-a9be-e81de5427a7f"
+            },
+            {
+              "title": "Deed I Do",
+              "id": "5bd292a6-af82-44eb-81fb-37bf56687198",
+              "length": 146000,
+              "position": 6,
+              "recording": {
+                "video": false,
+                "id": "f64ad4f3-fc80-42ef-88e3-1971057ca558",
+                "first-release-date": "1959",
+                "title": "’Deed I Do",
+                "length": 148013,
+                "disambiguation": "mono"
+              },
+              "number": "6"
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "id": "bb1ca02a-975c-4439-8cc2-51c772ab3103",
+                "title": "Just for a Thrill",
+                "first-release-date": "1959",
+                "length": 204973,
+                "video": false
+              },
+              "position": 7,
+              "number": "7",
+              "id": "a15fc4e2-c134-4c93-813d-0eeb395f7174",
+              "title": "Just for a Thrill",
+              "length": 204000
+            },
+            {
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 200000,
+                "id": "7abb4d59-6c56-4256-8a84-3c78c2c94d12",
+                "title": "You Won’t Let Me Go",
+                "first-release-date": "1959"
+              },
+              "title": "You Won't Let Me Go",
+              "id": "55c399c9-09c7-4959-8987-cd2c69ad6817",
+              "length": 200000
+            },
+            {
+              "length": 203000,
+              "title": "Tell Me You'll Wait for Me",
+              "id": "6451ed22-b7be-40e6-9a81-30db86e02512",
+              "position": 9,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 205133,
+                "title": "Tell Me You’ll Wait for Me",
+                "id": "b8f130a9-1eb4-410f-bc07-4640646b8192",
+                "first-release-date": "1959",
+                "video": false
+              },
+              "number": "9"
+            },
+            {
+              "length": 225000,
+              "title": "Don't Let the Sun Catch You Cryin'",
+              "id": "f416d74d-4622-4be5-bff7-baee563e3c24",
+              "number": "10",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 225573,
+                "id": "fe0db312-c2a1-4c24-b0e4-145e0e1ac97e",
+                "first-release-date": "1959",
+                "title": "Don’t Let the Sun Catch You Cryin’"
+              },
+              "position": 10
+            },
+            {
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "9345db42-5408-411f-bff1-3879a5297e27",
+                "first-release-date": "1959",
+                "title": "Am I Blue",
+                "length": 219000
+              },
+              "length": 217000,
+              "id": "3a238148-1492-4fed-aea7-64bff44b252b",
+              "title": "Am I Blue"
+            },
+            {
+              "id": "a0ab18d8-eff3-4f1f-850a-9c4992bd6874",
+              "title": "Come Rain or Come Shine",
+              "length": 220000,
+              "recording": {
+                "first-release-date": "1959",
+                "id": "926a35b6-18a5-45a9-881e-4c2640ea8aa8",
+                "title": "Come Rain or Come Shine",
+                "length": 221000,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 12,
+              "number": "12"
+            }
+          ],
+          "id": "3b4ce24d-cd8e-3f1e-8319-642084ddb54e",
+          "title": "",
+          "track-count": 12,
+          "format": "CD",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": null,
+          "date": "2005-04-25"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "barcode": "081227658328",
+      "packaging-id": null,
+      "asin": "B0002W14B0",
+      "title": "The Genius of Ray Charles",
+      "id": "626110a9-2596-46f2-8fcf-dc372256f0de",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 14,
+        "front": true
+      },
+      "disambiguation": ""
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 1,
+        "back": false,
+        "artwork": true
+      },
+      "id": "63445cb9-f5bb-451d-911a-ebdaea6ec0c4",
+      "title": "The Genius Of Ray Charles",
+      "asin": null,
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "barcode": "081227972769",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "sort-name": "[Worldwide]",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "type": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+          },
+          "date": "2011"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "tracks": [
+            {
+              "length": 176893,
+              "title": "Let the Good Times Roll",
+              "id": "49a149e8-e207-417b-b57f-9e9c61767eb9",
+              "position": 1,
+              "recording": {
+                "disambiguation": "stereo",
+                "video": false,
+                "first-release-date": "1959-10",
+                "id": "73aedd21-c5ea-4cb1-8f9f-4a107a283c2f",
+                "title": "Let the Good Times Roll",
+                "length": 174106
+              },
+              "number": "1"
+            },
+            {
+              "length": 164666,
+              "title": "It Had to Be You",
+              "id": "a5c645ba-c714-4c17-b5b9-fc20ffce6a97",
+              "number": "2",
+              "recording": {
+                "disambiguation": "stereo",
+                "first-release-date": "1959-10",
+                "id": "c8b43248-8af4-4867-8341-18f9010ab438",
+                "title": "It Had to Be You",
+                "length": 164666,
+                "video": false
+              },
+              "position": 2
+            },
+            {
+              "recording": {
+                "disambiguation": "stereo",
+                "title": "Alexander’s Ragtime Band",
+                "id": "ca19e9f7-1f4d-400e-91ca-a27676dbde2a",
+                "first-release-date": "1959-10",
+                "length": 174440,
+                "video": false
+              },
+              "position": 3,
+              "number": "3",
+              "title": "Alexander's Ragtime Band",
+              "id": "00db0a89-6d11-4d25-bcfe-59520c0f4415",
+              "length": 174440
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "stereo",
+                "length": 203733,
+                "id": "8aa6292b-949e-4705-b269-3e893b75ef9f",
+                "first-release-date": "1959-10",
+                "title": "Two Years of Torture",
+                "video": false
+              },
+              "title": "Two Years of Torture",
+              "id": "7e68bb25-b83c-4e98-8bc6-31ca708d09e0",
+              "length": 203733
+            },
+            {
+              "length": 169320,
+              "id": "e93b5c11-01e9-4a2b-a179-87dd4faa0a65",
+              "title": "When Your Lover Has Gone",
+              "number": "5",
+              "recording": {
+                "length": 169320,
+                "title": "When Your Lover Has Gone",
+                "id": "bb022b2b-5135-4132-a806-d2924ad7ab1e",
+                "first-release-date": "1959-10",
+                "video": false,
+                "disambiguation": "stereo"
+              },
+              "position": 5
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 148400,
+                "id": "60f0b652-58f3-4e58-90ec-d3cd686e534c",
+                "first-release-date": "1959-10",
+                "title": "’Deed I Do",
+                "disambiguation": "stereo"
+              },
+              "position": 6,
+              "number": "6",
+              "id": "e764d163-9dc2-4646-a1c3-84cf0567f7cd",
+              "title": "Deed I Do",
+              "length": 148400
+            },
+            {
+              "number": "7",
+              "recording": {
+                "video": false,
+                "title": "Just for a Thrill",
+                "id": "f35f1816-23e0-4a1e-9bf6-7368b8d06ddb",
+                "first-release-date": "1959-10",
+                "length": 206173,
+                "disambiguation": "stereo"
+              },
+              "position": 7,
+              "id": "44b82bf0-95be-4cf3-9d0a-2573896df06a",
+              "title": "Just for a Thrill",
+              "length": 208160
+            },
+            {
+              "length": 201400,
+              "title": "You Won't Let Me Go",
+              "id": "0ac22fc2-5eea-47ff-99d1-8cd0b750b036",
+              "recording": {
+                "title": "You Won’t Let Me Go",
+                "id": "987c136d-739d-433f-9ef5-0503d2a94967",
+                "first-release-date": "1959-10",
+                "length": 201400,
+                "video": false,
+                "disambiguation": "stereo"
+              },
+              "position": 8,
+              "number": "8"
+            },
+            {
+              "id": "2a6acd3e-d4df-42e3-ac7c-b2895a637455",
+              "title": "Tell Me You'll Wait for Me",
+              "length": 205133,
+              "position": 9,
+              "recording": {
+                "disambiguation": "stereo",
+                "video": false,
+                "length": 205133,
+                "id": "0520de59-7ba2-4350-b91c-8554b275b4d2",
+                "first-release-date": "1959-10",
+                "title": "Tell Me You’ll Wait for Me"
+              },
+              "number": "9"
+            },
+            {
+              "id": "0bfb2f06-64f9-4b15-b778-f56fdc6de97d",
+              "title": "Don't Let the Sun Catch You Cryin'",
+              "length": 225333,
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "first-release-date": "1959-10",
+                "id": "410b85ed-05f0-4fb3-bf11-11fb617e4fa4",
+                "title": "Don’t Let the Sun Catch You Cryin’",
+                "length": 225333,
+                "video": false,
+                "disambiguation": "stereo"
+              }
+            },
+            {
+              "position": 11,
+              "recording": {
+                "disambiguation": "stereo",
+                "video": false,
+                "id": "207afb19-35c2-4e82-9cb5-8ec4614cd73a",
+                "first-release-date": "1959-10",
+                "title": "Am I Blue",
+                "length": 219960
+              },
+              "number": "11",
+              "title": "Am I Blue",
+              "id": "cd41608c-a1fc-450b-8127-06d110890c20",
+              "length": 219960
+            },
+            {
+              "position": 12,
+              "recording": {
+                "disambiguation": "stereo",
+                "video": false,
+                "title": "Come Rain or Come Shine",
+                "id": "732ca921-6d22-42c4-b787-4099b839e2ff",
+                "first-release-date": "1959-10",
+                "length": 219546
+              },
+              "number": "12",
+              "title": "Come Rain or Come Shine",
+              "id": "2f86301c-4a9c-4439-bbeb-f5e564ce68a4",
+              "length": 221333
+            }
+          ],
+          "track-count": 12,
+          "id": "abc67f1f-9025-3276-aa59-5bb9d83be87c",
+          "title": "",
+          "format": "Digital Media",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "XW",
+      "packaging": "None",
+      "date": "2011"
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "front": false,
+        "count": 0,
+        "darkened": false,
+        "artwork": false,
+        "back": false
+      },
+      "asin": "B000002I4U",
+      "packaging-id": null,
+      "barcode": null,
+      "id": "6d799248-2154-3789-b7df-d76adb2eeeca",
+      "title": "The Genius of Ray Charles",
+      "release-events": [
+        {
+          "date": "1990-01-24",
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States"
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "country": "US",
+      "media": [
+        {
+          "id": "3ba612fb-f94a-3801-b4b7-f69296dbf7c8",
+          "track-count": 12,
+          "title": "",
+          "format": "CD",
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "da355632-5d1a-4175-b352-a1c895a6a47b",
+                "first-release-date": "1959",
+                "title": "Let the Good Times Roll",
+                "length": 172893
+              },
+              "position": 1,
+              "title": "Let the Good Times Roll",
+              "id": "852d311a-c9fb-3289-aeea-2ddeaac68119",
+              "length": 174106
+            },
+            {
+              "title": "It Had to Be You",
+              "id": "0e7f5941-5f10-3fce-9f50-16b54adca080",
+              "length": 164826,
+              "recording": {
+                "video": false,
+                "length": 164826,
+                "id": "ae4610d7-479f-4cba-ae5b-8b52928c22ed",
+                "title": "It Had to Be You",
+                "first-release-date": "1959",
+                "disambiguation": "mono"
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "number": "3",
+              "recording": {
+                "disambiguation": "mono",
+                "length": 174440,
+                "id": "b654d081-e701-4aca-87c6-b272c07f4c2c",
+                "title": "Alexander’s Ragtime Band",
+                "first-release-date": "1959",
+                "video": false
+              },
+              "position": 3,
+              "id": "87513638-c5c3-3d86-ab92-e0ed8f758f28",
+              "title": "Alexander’s Ragtime Band",
+              "length": 174440
+            },
+            {
+              "number": "4",
+              "recording": {
+                "disambiguation": "mono",
+                "title": "Two Years of Torture",
+                "id": "69f3e935-a06b-475d-8114-0aaa172b2b23",
+                "first-release-date": "1959",
+                "length": 206000,
+                "video": false
+              },
+              "position": 4,
+              "id": "6918574e-ae97-32d8-85bb-6a80a4983204",
+              "title": "Two Years of Torture",
+              "length": 206226
+            },
+            {
+              "number": "5",
+              "recording": {
+                "length": 171773,
+                "title": "When Your Lover Has Gone",
+                "id": "56aba023-baf0-449b-8173-05a68ede360f",
+                "first-release-date": "1959",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 5,
+              "length": 172000,
+              "id": "adfc4779-a788-36cd-84b9-9c1d458befaf",
+              "title": "When Your Lover Has Gone"
+            },
+            {
+              "length": 148400,
+              "id": "db337856-5acf-3ed8-b37f-c3558e734e10",
+              "title": "’Deed I Do",
+              "number": "6",
+              "recording": {
+                "length": 148013,
+                "title": "’Deed I Do",
+                "id": "f64ad4f3-fc80-42ef-88e3-1971057ca558",
+                "first-release-date": "1959",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 6
+            },
+            {
+              "title": "Just for a Thrill",
+              "id": "16d4ef14-0bc1-30fe-8ff1-fb4ecc06236d",
+              "length": 206173,
+              "number": "7",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "bb1ca02a-975c-4439-8cc2-51c772ab3103",
+                "first-release-date": "1959",
+                "title": "Just for a Thrill",
+                "length": 204973
+              },
+              "position": 7
+            },
+            {
+              "id": "f6aa4f3b-eb58-3acd-916f-29a63d5a1fde",
+              "title": "You Won’t Let Me Go",
+              "length": 202093,
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "length": 200000,
+                "id": "7abb4d59-6c56-4256-8a84-3c78c2c94d12",
+                "title": "You Won’t Let Me Go",
+                "first-release-date": "1959",
+                "video": false,
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "id": "7465faee-d8ed-33db-af25-00007228d2e2",
+              "title": "Tell Me You’ll Wait for Me",
+              "length": 205133,
+              "recording": {
+                "disambiguation": "mono",
+                "id": "b8f130a9-1eb4-410f-bc07-4640646b8192",
+                "title": "Tell Me You’ll Wait for Me",
+                "first-release-date": "1959",
+                "length": 205133,
+                "video": false
+              },
+              "position": 9,
+              "number": "9"
+            },
+            {
+              "number": "10",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 225573,
+                "first-release-date": "1959",
+                "id": "fe0db312-c2a1-4c24-b0e4-145e0e1ac97e",
+                "title": "Don’t Let the Sun Catch You Cryin’"
+              },
+              "position": 10,
+              "length": 227373,
+              "id": "767cc396-7f25-3752-a3c2-461d85f60dcf",
+              "title": "Don’t Let the Sun Catch You Cryin’"
+            },
+            {
+              "number": "11",
+              "recording": {
+                "disambiguation": "mono",
+                "length": 219000,
+                "title": "Am I Blue",
+                "id": "9345db42-5408-411f-bff1-3879a5297e27",
+                "first-release-date": "1959",
+                "video": false
+              },
+              "position": 11,
+              "id": "7a2e78dc-238d-397c-b83c-ee887e879968",
+              "title": "Am I Blue",
+              "length": 219960
+            },
+            {
+              "recording": {
+                "id": "926a35b6-18a5-45a9-881e-4c2640ea8aa8",
+                "title": "Come Rain or Come Shine",
+                "first-release-date": "1959",
+                "length": 221000,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 12,
+              "number": "12",
+              "id": "6b123048-ccc4-3b72-ac31-a0141cac109b",
+              "title": "Come Rain or Come Shine",
+              "length": 219373
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "packaging": null,
+      "date": "1990-01-24"
+    },
+    {
+      "title": "The Genius of Ray Charles",
+      "id": "7251d3f8-8add-4b3d-9b7d-f7a6aed31a54",
+      "asin": "B004SGYIKA",
+      "barcode": "821797204965",
+      "packaging-id": null,
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "artwork": true
+      },
+      "disambiguation": "mono",
+      "packaging": null,
+      "date": "2012-10-16",
+      "media": [
+        {
+          "format-id": "1a168dbd-d7ce-381d-a38a-3948de2cb4d6",
+          "tracks": [
+            {
+              "title": "Let the Good Times Roll",
+              "id": "00211da5-3a34-4282-9a37-9a7ac41c5f46",
+              "length": 175000,
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1959",
+                "id": "da355632-5d1a-4175-b352-a1c895a6a47b",
+                "title": "Let the Good Times Roll",
+                "length": 172893,
+                "video": false
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "disambiguation": "mono",
+                "id": "ae4610d7-479f-4cba-ae5b-8b52928c22ed",
+                "first-release-date": "1959",
+                "title": "It Had to Be You",
+                "length": 164826,
+                "video": false
+              },
+              "number": "2",
+              "length": 164826,
+              "title": "It Had to Be You",
+              "id": "2bdc092e-a4a4-4b2e-b13e-bb282396c29d"
+            },
+            {
+              "title": "Alexander’s Ragtime Band",
+              "id": "c1e2f99b-8e68-4584-b812-8708590cd45e",
+              "length": 174440,
+              "number": "3",
+              "recording": {
+                "disambiguation": "mono",
+                "id": "b654d081-e701-4aca-87c6-b272c07f4c2c",
+                "title": "Alexander’s Ragtime Band",
+                "first-release-date": "1959",
+                "length": 174440,
+                "video": false
+              },
+              "position": 3
+            },
+            {
+              "length": 206226,
+              "title": "Two Years of Torture",
+              "id": "0006fde5-a3d4-4e6f-ab18-c7c5395aa0f1",
+              "number": "4",
+              "recording": {
+                "length": 206000,
+                "id": "69f3e935-a06b-475d-8114-0aaa172b2b23",
+                "first-release-date": "1959",
+                "title": "Two Years of Torture",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 4
+            },
+            {
+              "recording": {
+                "video": false,
+                "title": "When Your Lover Has Gone",
+                "id": "56aba023-baf0-449b-8173-05a68ede360f",
+                "first-release-date": "1959",
+                "length": 171773,
+                "disambiguation": "mono"
+              },
+              "position": 5,
+              "number": "5",
+              "length": 171000,
+              "title": "When Your Lover Has Gone",
+              "id": "306c87cc-eca5-4632-8c87-beb7a53b6020"
+            },
+            {
+              "length": 148400,
+              "title": "’Deed I Do",
+              "id": "ce1b1c31-3be2-4b06-9067-2dde180b3718",
+              "position": 6,
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1959",
+                "id": "f64ad4f3-fc80-42ef-88e3-1971057ca558",
+                "title": "’Deed I Do",
+                "length": 148013,
+                "video": false
+              },
+              "number": "6"
+            },
+            {
+              "id": "8be941fe-9852-47bc-bddd-ef7e923c1711",
+              "title": "Just for a Thrill",
+              "length": 205000,
+              "number": "7",
+              "recording": {
+                "disambiguation": "mono",
+                "length": 204973,
+                "id": "bb1ca02a-975c-4439-8cc2-51c772ab3103",
+                "title": "Just for a Thrill",
+                "first-release-date": "1959",
+                "video": false
+              },
+              "position": 7
+            },
+            {
+              "id": "0e38b849-d26e-41a1-8a1e-420ba7986c95",
+              "title": "You Won’t Let Me Go",
+              "length": 201000,
+              "number": "8",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "7abb4d59-6c56-4256-8a84-3c78c2c94d12",
+                "first-release-date": "1959",
+                "title": "You Won’t Let Me Go",
+                "length": 200000
+              },
+              "position": 8
+            },
+            {
+              "number": "9",
+              "recording": {
+                "video": false,
+                "first-release-date": "1959",
+                "id": "b8f130a9-1eb4-410f-bc07-4640646b8192",
+                "title": "Tell Me You’ll Wait for Me",
+                "length": 205133,
+                "disambiguation": "mono"
+              },
+              "position": 9,
+              "title": "Tell Me You’ll Wait for Me",
+              "id": "4cdfa28b-4b5c-4058-bea1-515f32b02f8b",
+              "length": 204000
+            },
+            {
+              "title": "Don’t Let the Sun Catch You Cryin’",
+              "id": "f8b80da2-ddd9-48c3-abbd-e48a3b7ea915",
+              "length": 225000,
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 225573,
+                "first-release-date": "1959",
+                "id": "fe0db312-c2a1-4c24-b0e4-145e0e1ac97e",
+                "title": "Don’t Let the Sun Catch You Cryin’"
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "length": 219000,
+                "id": "9345db42-5408-411f-bff1-3879a5297e27",
+                "first-release-date": "1959",
+                "title": "Am I Blue",
+                "video": false
+              },
+              "position": 11,
+              "number": "11",
+              "title": "Am I Blue",
+              "id": "944db16a-d51b-4f2a-90d5-08cb50d477c4",
+              "length": 219000
+            },
+            {
+              "title": "Come Rain or Come Shine",
+              "id": "520fd13e-865d-4c42-9597-6eec58baa64b",
+              "length": 218000,
+              "position": 12,
+              "recording": {
+                "id": "926a35b6-18a5-45a9-881e-4c2640ea8aa8",
+                "title": "Come Rain or Come Shine",
+                "first-release-date": "1959",
+                "length": 221000,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "number": "12"
+            }
+          ],
+          "id": "a91760ca-8cc5-3fd8-911a-18bb2d79ecc2",
+          "title": "",
+          "track-count": 12,
+          "format": "Hybrid SACD (CD layer)",
+          "position": 1,
+          "track-offset": 0
+        },
+        {
+          "format-id": "6c521ee3-f723-41de-bc6b-ec3621b9ffa9",
+          "tracks": [
+            {
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "first-release-date": "1959",
+                "id": "da355632-5d1a-4175-b352-a1c895a6a47b",
+                "title": "Let the Good Times Roll",
+                "length": 172893
+              },
+              "title": "Let the Good Times Roll",
+              "id": "6b9790f2-2318-4a10-bad5-5718971c3f63",
+              "length": 175000
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "first-release-date": "1959",
+                "id": "ae4610d7-479f-4cba-ae5b-8b52928c22ed",
+                "title": "It Had to Be You",
+                "length": 164826,
+                "disambiguation": "mono"
+              },
+              "length": 164826,
+              "title": "It Had to Be You",
+              "id": "3de75c00-85c5-4fd3-be56-8dde7f919c22"
+            },
+            {
+              "length": 174440,
+              "title": "Alexander’s Ragtime Band",
+              "id": "7d28dd4b-5773-4fd9-b1be-5600d8bd2492",
+              "position": 3,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 174440,
+                "id": "b654d081-e701-4aca-87c6-b272c07f4c2c",
+                "first-release-date": "1959",
+                "title": "Alexander’s Ragtime Band",
+                "video": false
+              },
+              "number": "3"
+            },
+            {
+              "length": 206226,
+              "id": "8baa0281-84e8-4533-a4bd-52900c456774",
+              "title": "Two Years of Torture",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "69f3e935-a06b-475d-8114-0aaa172b2b23",
+                "title": "Two Years of Torture",
+                "first-release-date": "1959",
+                "length": 206000
+              },
+              "position": 4,
+              "number": "4"
+            },
+            {
+              "recording": {
+                "title": "When Your Lover Has Gone",
+                "id": "56aba023-baf0-449b-8173-05a68ede360f",
+                "first-release-date": "1959",
+                "length": 171773,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 5,
+              "number": "5",
+              "title": "When Your Lover Has Gone",
+              "id": "025ed6d9-c375-481b-9260-0fca199503da",
+              "length": 171000
+            },
+            {
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "disambiguation": "mono",
+                "id": "f64ad4f3-fc80-42ef-88e3-1971057ca558",
+                "first-release-date": "1959",
+                "title": "’Deed I Do",
+                "length": 148013,
+                "video": false
+              },
+              "id": "1e543872-29e7-40c8-8ff6-abdd0bbad500",
+              "title": "’Deed I Do",
+              "length": 148400
+            },
+            {
+              "title": "Just for a Thrill",
+              "id": "ee16b4fd-ce47-4b36-a6aa-8d7c9b65c46e",
+              "length": 205000,
+              "number": "7",
+              "recording": {
+                "length": 204973,
+                "id": "bb1ca02a-975c-4439-8cc2-51c772ab3103",
+                "title": "Just for a Thrill",
+                "first-release-date": "1959",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 7
+            },
+            {
+              "number": "8",
+              "recording": {
+                "length": 200000,
+                "id": "7abb4d59-6c56-4256-8a84-3c78c2c94d12",
+                "title": "You Won’t Let Me Go",
+                "first-release-date": "1959",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 8,
+              "title": "You Won’t Let Me Go",
+              "id": "cf169644-17f8-4e94-bb6c-1c9abc5c16c3",
+              "length": 201000
+            },
+            {
+              "length": 204000,
+              "title": "Tell Me You’ll Wait for Me",
+              "id": "a47fc8b3-f88c-418b-99f6-fb082eba0dbb",
+              "position": 9,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "title": "Tell Me You’ll Wait for Me",
+                "id": "b8f130a9-1eb4-410f-bc07-4640646b8192",
+                "first-release-date": "1959",
+                "length": 205133
+              },
+              "number": "9"
+            },
+            {
+              "position": 10,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 225573,
+                "first-release-date": "1959",
+                "id": "fe0db312-c2a1-4c24-b0e4-145e0e1ac97e",
+                "title": "Don’t Let the Sun Catch You Cryin’",
+                "video": false
+              },
+              "number": "10",
+              "length": 225000,
+              "id": "15a61c8e-0cbc-4f9a-b518-d3c2aebed02f",
+              "title": "Don’t Let the Sun Catch You Cryin’"
+            },
+            {
+              "title": "Am I Blue",
+              "id": "8dec8440-1d24-4fec-ae2b-1e5438c80b05",
+              "length": 219000,
+              "number": "11",
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1959",
+                "id": "9345db42-5408-411f-bff1-3879a5297e27",
+                "title": "Am I Blue",
+                "length": 219000,
+                "video": false
+              },
+              "position": 11
+            },
+            {
+              "length": 218000,
+              "title": "Come Rain or Come Shine",
+              "id": "207d661a-11d4-40e4-a4b1-1c447d65c5a4",
+              "number": "12",
+              "position": 12,
+              "recording": {
+                "video": false,
+                "length": 221000,
+                "id": "926a35b6-18a5-45a9-881e-4c2640ea8aa8",
+                "title": "Come Rain or Come Shine",
+                "first-release-date": "1959",
+                "disambiguation": "mono"
+              }
+            }
+          ],
+          "format": "Hybrid SACD (SACD layer, 2 channels)",
+          "track-count": 12,
+          "id": "d59d5a73-7d9c-3432-8281-1f675bcff779",
+          "title": "",
+          "position": 2,
+          "track-offset": 0
+        }
+      ],
+      "country": "US",
+      "status": "Official",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States"
+          },
+          "date": "2012-10-16"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      }
+    },
+    {
+      "barcode": null,
+      "packaging-id": null,
+      "asin": null,
+      "id": "7dae4a37-fc87-4ef6-b01f-02ecb6d0887d",
+      "title": "The Genius of Ray Charles",
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "darkened": false,
+        "artwork": true,
+        "back": false
+      },
+      "disambiguation": "mono",
+      "date": "1959",
+      "packaging": null,
+      "country": "US",
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "format": "12\" Vinyl",
+          "track-count": 12,
+          "id": "3db8664e-9f79-38b0-b997-5c6dd7a55670",
+          "title": "",
+          "tracks": [
+            {
+              "id": "f6bac842-fbf8-3538-ae2d-57a2a77a0edf",
+              "title": "Let the Good Times Roll",
+              "length": 174106,
+              "position": 1,
+              "recording": {
+                "video": false,
+                "length": 172893,
+                "id": "da355632-5d1a-4175-b352-a1c895a6a47b",
+                "title": "Let the Good Times Roll",
+                "first-release-date": "1959",
+                "disambiguation": "mono"
+              },
+              "number": "A1"
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "id": "ae4610d7-479f-4cba-ae5b-8b52928c22ed",
+                "first-release-date": "1959",
+                "title": "It Had to Be You",
+                "length": 164826,
+                "video": false
+              },
+              "position": 2,
+              "number": "A2",
+              "length": 164826,
+              "title": "It Had to Be You",
+              "id": "2d613807-9ae9-329f-9553-b84d41507f10"
+            },
+            {
+              "length": 174440,
+              "id": "d6a32c06-a8f5-35b4-ba80-9f75991c62cb",
+              "title": "Alexander's Ragtime Band",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "id": "b654d081-e701-4aca-87c6-b272c07f4c2c",
+                "title": "Alexander’s Ragtime Band",
+                "first-release-date": "1959",
+                "length": 174440,
+                "disambiguation": "mono"
+              },
+              "number": "A3"
+            },
+            {
+              "id": "d6f272d2-aa43-3faa-8bff-0d4f0de09e43",
+              "title": "Two Years of Torture",
+              "length": 206226,
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "length": 206000,
+                "id": "69f3e935-a06b-475d-8114-0aaa172b2b23",
+                "first-release-date": "1959",
+                "title": "Two Years of Torture",
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "position": 5,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 171773,
+                "first-release-date": "1959",
+                "id": "56aba023-baf0-449b-8173-05a68ede360f",
+                "title": "When Your Lover Has Gone"
+              },
+              "number": "A5",
+              "length": 172000,
+              "title": "When Your Lover Has Gone",
+              "id": "5863f376-2cb7-38b5-823e-abfd4fbf16e6"
+            },
+            {
+              "id": "2221a775-7323-353b-86c5-7883cca780a2",
+              "title": "'Deed I Do",
+              "length": 148400,
+              "recording": {
+                "video": false,
+                "length": 148013,
+                "id": "f64ad4f3-fc80-42ef-88e3-1971057ca558",
+                "title": "’Deed I Do",
+                "first-release-date": "1959",
+                "disambiguation": "mono"
+              },
+              "position": 6,
+              "number": "A6"
+            },
+            {
+              "position": 7,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 204973,
+                "id": "bb1ca02a-975c-4439-8cc2-51c772ab3103",
+                "title": "Just for a Thrill",
+                "first-release-date": "1959"
+              },
+              "number": "B1",
+              "id": "3b0a4971-4d3c-321b-8070-bbd1f1aca42d",
+              "title": "Just for a Thrill",
+              "length": 206173
+            },
+            {
+              "recording": {
+                "first-release-date": "1959",
+                "id": "7abb4d59-6c56-4256-8a84-3c78c2c94d12",
+                "title": "You Won’t Let Me Go",
+                "length": 200000,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 8,
+              "number": "B2",
+              "length": 202093,
+              "title": "You Won't Let Me Go",
+              "id": "31510ebd-118e-326c-a688-05a9c3e585cb"
+            },
+            {
+              "number": "B3",
+              "recording": {
+                "video": false,
+                "length": 205133,
+                "id": "b8f130a9-1eb4-410f-bc07-4640646b8192",
+                "title": "Tell Me You’ll Wait for Me",
+                "first-release-date": "1959",
+                "disambiguation": "mono"
+              },
+              "position": 9,
+              "length": 205133,
+              "id": "afbc8bef-8ba4-3441-b7b9-01ff99bb67a8",
+              "title": "Tell Me You'll Wait for Me"
+            },
+            {
+              "position": 10,
+              "recording": {
+                "title": "Don’t Let the Sun Catch You Cryin’",
+                "id": "fe0db312-c2a1-4c24-b0e4-145e0e1ac97e",
+                "first-release-date": "1959",
+                "length": 225573,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "number": "B4",
+              "length": 227373,
+              "title": "Don't Let the Sun Catch You Cryin'",
+              "id": "943f7890-a48c-3954-afcc-cde8bebd1c4a"
+            },
+            {
+              "id": "6d664778-bc64-3802-885d-800eca4c33ac",
+              "title": "Am I Blue",
+              "length": 219960,
+              "position": 11,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 219000,
+                "id": "9345db42-5408-411f-bff1-3879a5297e27",
+                "first-release-date": "1959",
+                "title": "Am I Blue",
+                "video": false
+              },
+              "number": "B5"
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 221000,
+                "id": "926a35b6-18a5-45a9-881e-4c2640ea8aa8",
+                "first-release-date": "1959",
+                "title": "Come Rain or Come Shine"
+              },
+              "position": 12,
+              "number": "B6",
+              "title": "Come Rain or Come Shine",
+              "id": "2ac8e87d-0468-33ba-8431-98fa0b2dde08",
+              "length": 219373
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "status": "Official",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": ""
+          },
+          "date": "1959"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal"
+    },
+    {
+      "disambiguation": "stereo",
+      "cover-art-archive": {
+        "front": true,
+        "count": 5,
+        "darkened": false,
+        "back": false,
+        "artwork": true
+      },
+      "packaging-id": null,
+      "barcode": null,
+      "asin": null,
+      "id": "9f23bdaa-f61f-4931-9258-67ff4b26305f",
+      "title": "The Genius of Ray Charles",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "date": "2009"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "number": "A1",
+              "position": 1,
+              "recording": {
+                "length": 174106,
+                "first-release-date": "1959-10",
+                "id": "73aedd21-c5ea-4cb1-8f9f-4a107a283c2f",
+                "title": "Let the Good Times Roll",
+                "video": false,
+                "disambiguation": "stereo"
+              },
+              "length": 174106,
+              "title": "Let the Good Times Roll",
+              "id": "186e8a71-0d40-4409-8739-4dae1f9e0815"
+            },
+            {
+              "id": "f6890f7f-266e-4382-9cbf-5e128301de63",
+              "title": "It Had to Be You",
+              "length": 164826,
+              "number": "A2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "stereo",
+                "video": false,
+                "length": 164666,
+                "id": "c8b43248-8af4-4867-8341-18f9010ab438",
+                "title": "It Had to Be You",
+                "first-release-date": "1959-10"
+              }
+            },
+            {
+              "length": 174440,
+              "id": "6860b46e-a772-4abb-8cf0-e39fcdd6823e",
+              "title": "Alexander’s Ragtime Band",
+              "number": "A3",
+              "recording": {
+                "id": "ca19e9f7-1f4d-400e-91ca-a27676dbde2a",
+                "title": "Alexander’s Ragtime Band",
+                "first-release-date": "1959-10",
+                "length": 174440,
+                "video": false,
+                "disambiguation": "stereo"
+              },
+              "position": 3
+            },
+            {
+              "recording": {
+                "disambiguation": "stereo",
+                "video": false,
+                "length": 203733,
+                "id": "8aa6292b-949e-4705-b269-3e893b75ef9f",
+                "title": "Two Years of Torture",
+                "first-release-date": "1959-10"
+              },
+              "position": 4,
+              "number": "A4",
+              "id": "d4f12ae8-8a97-4eb2-87aa-311bd3912ef8",
+              "title": "Two Years of Torture",
+              "length": 206226
+            },
+            {
+              "title": "When Your Lover Has Gone",
+              "id": "3876cd22-79ac-4264-b549-e1b2fc27955d",
+              "length": 172000,
+              "number": "A5",
+              "recording": {
+                "disambiguation": "stereo",
+                "id": "bb022b2b-5135-4132-a806-d2924ad7ab1e",
+                "title": "When Your Lover Has Gone",
+                "first-release-date": "1959-10",
+                "length": 169320,
+                "video": false
+              },
+              "position": 5
+            },
+            {
+              "length": 148400,
+              "id": "b78ffd15-95d5-453e-adb2-42c7b0d9310b",
+              "title": "’Deed I Do",
+              "recording": {
+                "disambiguation": "stereo",
+                "first-release-date": "1959-10",
+                "id": "60f0b652-58f3-4e58-90ec-d3cd686e534c",
+                "title": "’Deed I Do",
+                "length": 148400,
+                "video": false
+              },
+              "position": 6,
+              "number": "A6"
+            },
+            {
+              "id": "7a399142-4366-4b4e-b98d-7cc5842d35fb",
+              "title": "Just for a Thrill",
+              "length": 206173,
+              "number": "B1",
+              "recording": {
+                "disambiguation": "stereo",
+                "title": "Just for a Thrill",
+                "id": "f35f1816-23e0-4a1e-9bf6-7368b8d06ddb",
+                "first-release-date": "1959-10",
+                "length": 206173,
+                "video": false
+              },
+              "position": 7
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "stereo",
+                "first-release-date": "1959-10",
+                "id": "987c136d-739d-433f-9ef5-0503d2a94967",
+                "title": "You Won’t Let Me Go",
+                "length": 201400,
+                "video": false
+              },
+              "number": "B2",
+              "title": "You Won’t Let Me Go",
+              "id": "232cca3b-ee3d-4cbe-b0b0-86ff62d20fb9",
+              "length": 202093
+            },
+            {
+              "position": 9,
+              "recording": {
+                "video": false,
+                "length": 205133,
+                "first-release-date": "1959-10",
+                "id": "0520de59-7ba2-4350-b91c-8554b275b4d2",
+                "title": "Tell Me You’ll Wait for Me",
+                "disambiguation": "stereo"
+              },
+              "number": "B3",
+              "id": "692f26ea-b854-46a5-9629-f12194a2d362",
+              "title": "Tell Me You’ll Wait for Me",
+              "length": 205133
+            },
+            {
+              "title": "Don’t Let the Sun Catch You Cryin’",
+              "id": "ac1df8f7-63c4-43d1-a104-4ada4cf9ee25",
+              "length": 227373,
+              "number": "B4",
+              "recording": {
+                "video": false,
+                "first-release-date": "1959-10",
+                "id": "410b85ed-05f0-4fb3-bf11-11fb617e4fa4",
+                "title": "Don’t Let the Sun Catch You Cryin’",
+                "length": 225333,
+                "disambiguation": "stereo"
+              },
+              "position": 10
+            },
+            {
+              "number": "B5",
+              "position": 11,
+              "recording": {
+                "video": false,
+                "id": "207afb19-35c2-4e82-9cb5-8ec4614cd73a",
+                "first-release-date": "1959-10",
+                "title": "Am I Blue",
+                "length": 219960,
+                "disambiguation": "stereo"
+              },
+              "length": 219960,
+              "id": "3e2e5cf2-d1ff-4045-98e6-10ef57706faf",
+              "title": "Am I Blue"
+            },
+            {
+              "position": 12,
+              "recording": {
+                "length": 219546,
+                "title": "Come Rain or Come Shine",
+                "id": "732ca921-6d22-42c4-b787-4099b839e2ff",
+                "first-release-date": "1959-10",
+                "video": false,
+                "disambiguation": "stereo"
+              },
+              "number": "B6",
+              "length": 219373,
+              "title": "Come Rain or Come Shine",
+              "id": "5717dd7d-6064-44d3-9bf2-2b0532655a5b"
+            }
+          ],
+          "track-count": 12,
+          "id": "7a33a462-9324-3ecc-a706-ba46848dea28",
+          "title": "",
+          "format": "12\" Vinyl",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "country": "US",
+      "date": "2009",
+      "packaging": null
+    },
+    {
+      "packaging": "Jewel Case",
+      "date": "1993",
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "recording": {
+                "video": false,
+                "length": 172893,
+                "id": "da355632-5d1a-4175-b352-a1c895a6a47b",
+                "first-release-date": "1959",
+                "title": "Let the Good Times Roll",
+                "disambiguation": "mono"
+              },
+              "position": 1,
+              "number": "1",
+              "length": 174106,
+              "title": "Let the Good Times Roll",
+              "id": "9d199eb9-8ae2-48e4-9b1c-1d1576c6f79f"
+            },
+            {
+              "number": "2",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 164826,
+                "id": "ae4610d7-479f-4cba-ae5b-8b52928c22ed",
+                "first-release-date": "1959",
+                "title": "It Had to Be You"
+              },
+              "position": 2,
+              "length": 164826,
+              "title": "It Had to Be You",
+              "id": "f731e686-a020-40f1-b51b-15761192a185"
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "first-release-date": "1959",
+                "id": "b654d081-e701-4aca-87c6-b272c07f4c2c",
+                "title": "Alexander’s Ragtime Band",
+                "length": 174440,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "title": "Alexander’s Ragtime Band",
+              "id": "24c11140-fd88-42e7-8319-cc7e86f297d9",
+              "length": 174440
+            },
+            {
+              "position": 4,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 206000,
+                "title": "Two Years of Torture",
+                "id": "69f3e935-a06b-475d-8114-0aaa172b2b23",
+                "first-release-date": "1959",
+                "video": false
+              },
+              "number": "4",
+              "title": "Two Years of Torture",
+              "id": "5484ff31-de5f-4e91-9879-a8e83a96a124",
+              "length": 206226
+            },
+            {
+              "length": 172000,
+              "title": "When Your Lover Has Gone",
+              "id": "29f5a43b-8d63-4a52-bfb1-91e4735804f5",
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "video": false,
+                "length": 171773,
+                "title": "When Your Lover Has Gone",
+                "id": "56aba023-baf0-449b-8173-05a68ede360f",
+                "first-release-date": "1959",
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "length": 148400,
+              "id": "66701c52-87c3-4e9f-a01c-fe3ce4cd5403",
+              "title": "’Deed I Do",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 148013,
+                "id": "f64ad4f3-fc80-42ef-88e3-1971057ca558",
+                "title": "’Deed I Do",
+                "first-release-date": "1959"
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "number": "7",
+              "recording": {
+                "video": false,
+                "first-release-date": "1959",
+                "id": "bb1ca02a-975c-4439-8cc2-51c772ab3103",
+                "title": "Just for a Thrill",
+                "length": 204973,
+                "disambiguation": "mono"
+              },
+              "position": 7,
+              "title": "Just for a Thrill",
+              "id": "df514fca-145b-49b0-ba70-07c26f26d0f4",
+              "length": 206173
+            },
+            {
+              "length": 202093,
+              "id": "7148cb77-0938-4218-bcd3-22357e7e3f6c",
+              "title": "You Won’t Let Me Go",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 200000,
+                "id": "7abb4d59-6c56-4256-8a84-3c78c2c94d12",
+                "first-release-date": "1959",
+                "title": "You Won’t Let Me Go"
+              },
+              "position": 8,
+              "number": "8"
+            },
+            {
+              "recording": {
+                "id": "b8f130a9-1eb4-410f-bc07-4640646b8192",
+                "first-release-date": "1959",
+                "title": "Tell Me You’ll Wait for Me",
+                "length": 205133,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 9,
+              "number": "9",
+              "title": "Tell Me You’ll Wait for Me",
+              "id": "1e582299-1ced-4291-9f3a-5d2fb6cfb0eb",
+              "length": 205133
+            },
+            {
+              "length": 227373,
+              "id": "a9d9fd3c-e609-49b9-8ce8-fc1886f0ce27",
+              "title": "Don’t Let the Sun Catch You Cryin’",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "first-release-date": "1959",
+                "id": "fe0db312-c2a1-4c24-b0e4-145e0e1ac97e",
+                "title": "Don’t Let the Sun Catch You Cryin’",
+                "length": 225573
+              },
+              "position": 10,
+              "number": "10"
+            },
+            {
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "length": 219000,
+                "id": "9345db42-5408-411f-bff1-3879a5297e27",
+                "title": "Am I Blue",
+                "first-release-date": "1959",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "length": 219960,
+              "title": "Am I Blue",
+              "id": "aab65678-218c-4dd2-895b-cef9a4ff767b"
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "length": 221000,
+                "id": "926a35b6-18a5-45a9-881e-4c2640ea8aa8",
+                "title": "Come Rain or Come Shine",
+                "first-release-date": "1959",
+                "video": false
+              },
+              "position": 12,
+              "number": "12",
+              "id": "988e1a71-3448-4156-b8b1-d688c0e624f4",
+              "title": "Come Rain or Come Shine",
+              "length": 219373
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "position": 1,
+          "format": "CD",
+          "track-count": 12,
+          "id": "d016af3f-fad3-31ca-bf8d-113c256e7a79",
+          "title": ""
+        }
+      ],
+      "country": "CA",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "1993",
+          "area": {
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "name": "Canada",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Canada"
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "title": "The Genius of Ray Charles",
+      "id": "e7e2840a-3afe-42ce-aba7-eb7f999af709",
+      "asin": null,
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "barcode": "075678133824",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 0,
+        "front": false,
+        "artwork": false,
+        "back": false
+      },
+      "disambiguation": ""
+    }
+  ]
+}

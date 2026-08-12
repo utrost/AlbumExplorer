@@ -1,0 +1,5242 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=4f19b946-6ecb-3801-9248-cc44e9e9a284&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-count": 30,
+  "release-offset": 0,
+  "releases": [
+    {
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 5,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": "black shell",
+      "id": "0bbaf31d-a3f6-42eb-88b3-2e83f6113fe5",
+      "title": "Dirty Mind",
+      "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+      "barcode": "",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null
+          },
+          "date": "1980"
+        }
+      ],
+      "date": "1980",
+      "packaging": "Cassette Case",
+      "media": [
+        {
+          "format-id": "f5e6e254-8f39-331c-936b-9c69d686dc47",
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 251000,
+                "title": "Dirty Mind",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08"
+              },
+              "position": 1,
+              "number": "A1",
+              "id": "ebb0895f-0223-4112-b7b9-fde14720a5e9",
+              "title": "Dirty Mind",
+              "length": null
+            },
+            {
+              "number": "A2",
+              "position": 2,
+              "recording": {
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "title": "When You Were Mine",
+                "video": false,
+                "disambiguation": ""
+              },
+              "title": "When You Were Mine",
+              "id": "1aea95be-31bc-4548-8659-9b4f50c3766f",
+              "length": null
+            },
+            {
+              "length": null,
+              "title": "Do It All Night",
+              "id": "f7ecba6d-e847-47d9-b6a3-a6a9feb99a93",
+              "recording": {
+                "length": 222000,
+                "first-release-date": "1980-10-08",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 3,
+              "number": "A3"
+            },
+            {
+              "length": null,
+              "title": "Gotta Broken Heart Again",
+              "id": "f21e767d-a877-48cf-8a48-939e7d71b25b",
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "title": "Gotta Broken Heart Again",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "length": 133000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": null,
+              "id": "9312f4af-b011-4ef6-a65a-ff20b5d93f33",
+              "title": "Uptown",
+              "number": "B1",
+              "recording": {
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 5
+            },
+            {
+              "title": "Head",
+              "id": "1ef68ed5-d421-4a40-ba40-fec8fd3c0c53",
+              "length": null,
+              "recording": {
+                "length": 283533,
+                "first-release-date": "1980-10-08",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "B2"
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "position": 7,
+              "number": "B3",
+              "id": "e300166c-872b-4e1f-99e3-71fa8f566107",
+              "title": "Sister",
+              "length": null
+            },
+            {
+              "number": "B4",
+              "recording": {
+                "disambiguation": "",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08",
+                "length": 264000,
+                "video": false
+              },
+              "position": 8,
+              "length": null,
+              "id": "f9d8228e-4c6a-4742-90d7-dd8046944e61",
+              "title": "Partyup"
+            }
+          ],
+          "format": "Cassette",
+          "id": "b6221607-948a-4400-94ac-79523877b42d",
+          "track-count": 8,
+          "title": "",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "country": "XE"
+    },
+    {
+      "disambiguation": "with white box on dust sleeve, Ⓖ / WE 361, GEMA/BIEM",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 7,
+        "front": true
+      },
+      "title": "Dirty Mind",
+      "id": "141b415b-ca28-457a-ab33-d8662dc8035e",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe"
+          }
+        }
+      ],
+      "country": "XE",
+      "media": [
+        {
+          "tracks": [
+            {
+              "title": "Dirty Mind",
+              "id": "ce6c5f68-bc83-4325-b271-b68ad957c5ad",
+              "length": 251000,
+              "position": 1,
+              "recording": {
+                "video": false,
+                "length": 251000,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "disambiguation": ""
+              },
+              "number": "A1"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "title": "When You Were Mine",
+                "disambiguation": ""
+              },
+              "number": "A2",
+              "length": 224000,
+              "title": "When You Were Mine",
+              "id": "d0e982e4-5bd1-4ff5-a9f4-e3ed8e0788dd"
+            },
+            {
+              "number": "A3",
+              "position": 3,
+              "recording": {
+                "title": "Do It All Night",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "length": 222000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "0676a164-ae13-4919-935d-c1cc7f758108",
+              "title": "Do It All Night",
+              "length": 222000
+            },
+            {
+              "length": 133000,
+              "title": "Gotta Broken Heart Again",
+              "id": "277c0920-583b-4952-9dd4-427db2e3e193",
+              "number": "A4",
+              "recording": {
+                "video": false,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000,
+                "disambiguation": ""
+              },
+              "position": 4
+            },
+            {
+              "length": 330000,
+              "title": "Uptown",
+              "id": "648472e6-5e5b-4141-9088-773a281f6fdd",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 330000,
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "video": false
+              },
+              "number": "B1"
+            },
+            {
+              "number": "B2",
+              "recording": {
+                "disambiguation": "",
+                "length": 283533,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "position": 6,
+              "id": "1ce3a60c-5cd5-4e3d-8c8a-5baa27d7ab86",
+              "title": "Head",
+              "length": 280000
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "length": 91800
+              },
+              "position": 7,
+              "number": "B3",
+              "id": "ebaf5a71-9456-4f2e-95e5-08297f85d8ce",
+              "title": "Sister",
+              "length": 93000
+            },
+            {
+              "title": "Partyup",
+              "id": "86f23fd1-51cb-4f26-81c4-855b565c3b97",
+              "length": 264000,
+              "number": "B4",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "length": 264000
+              },
+              "position": 8
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "track-offset": 0,
+          "position": 1,
+          "track-count": 8,
+          "id": "70f07198-76ac-418c-b6d1-2c99e9729676",
+          "title": "",
+          "format": "12\" Vinyl"
+        }
+      ],
+      "status": "Official",
+      "date": "",
+      "packaging": "Cardboard/Paper Sleeve"
+    },
+    {
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "length": 251000,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "A1",
+              "length": 251000,
+              "id": "2c0338bc-0e33-4add-877a-55d22d6869c5",
+              "title": "Dirty Mind"
+            },
+            {
+              "length": 224000,
+              "id": "e17a03ab-0037-4787-8194-4b0d597a4024",
+              "title": "When You Were Mine",
+              "number": "A2",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 224000,
+                "first-release-date": "1980-10-08",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "disambiguation": ""
+              }
+            },
+            {
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "length": 222000
+              },
+              "number": "A3",
+              "length": 222000,
+              "title": "Do It All Night",
+              "id": "d799ccd0-ac50-4eeb-b48b-9d80b019aa08"
+            },
+            {
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "length": 133000,
+              "id": "cd3ab981-af81-4eb2-aca2-b57899d32c77",
+              "title": "Gotta Broken Heart Again"
+            },
+            {
+              "id": "486469e2-9e02-427a-93e4-b7c66f52c813",
+              "title": "Uptown",
+              "length": 330000,
+              "recording": {
+                "video": false,
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "B1"
+            },
+            {
+              "id": "37a1c1b1-6e7f-4f4a-8a93-6af5eef6dc2d",
+              "title": "Head",
+              "length": 280000,
+              "recording": {
+                "video": false,
+                "length": 283533,
+                "title": "Head",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "B2"
+            },
+            {
+              "length": 93000,
+              "id": "58794e62-17fb-408e-8a0b-bab5a3db13aa",
+              "title": "Sister",
+              "number": "B3",
+              "recording": {
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "first-release-date": "1980-10-08",
+                "length": 91800,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 7
+            },
+            {
+              "id": "cbbaf5fe-8fbb-450d-8a8e-109625a36967",
+              "title": "Partyup",
+              "length": 264000,
+              "number": "B4",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08",
+                "length": 264000
+              }
+            }
+          ],
+          "id": "e77c1d4e-ce6b-44a8-9ca4-f5c112d0e365",
+          "title": "",
+          "track-count": 8,
+          "format": "12\" Vinyl",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "XE",
+      "status": "Official",
+      "date": "",
+      "packaging": "Cardboard/Paper Sleeve",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "Europe",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          },
+          "date": ""
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null,
+      "title": "Dirty Mind",
+      "id": "150983ca-ff7b-4b90-b273-e952e8713ab2",
+      "disambiguation": "with white box on dust sleeve, Ⓖ / WE 321, GEMA/BIEM",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "front": true,
+        "count": 8,
+        "darkened": false
+      }
+    },
+    {
+      "media": [
+        {
+          "format-id": "f5e6e254-8f39-331c-936b-9c69d686dc47",
+          "tracks": [
+            {
+              "number": "A1",
+              "recording": {
+                "disambiguation": "",
+                "length": 251000,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "video": false
+              },
+              "position": 1,
+              "id": "63e0539b-56ac-4111-b4ef-4d9c3adf5ae1",
+              "title": "Dirty Mind",
+              "length": null
+            },
+            {
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "first-release-date": "1980-10-08",
+                "length": 224000,
+                "video": false
+              },
+              "number": "A2",
+              "title": "When You Were Mine",
+              "id": "b681c8df-2ff6-4f71-87fa-0a17439fb6a3",
+              "length": null
+            },
+            {
+              "length": null,
+              "id": "28be7994-7b60-4806-9e5e-2d3d31f5d957",
+              "title": "Do It All Night",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 222000,
+                "title": "Do It All Night",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "number": "A3"
+            },
+            {
+              "title": "Gotta Broken Heart Again",
+              "id": "9300d863-9d02-4749-9d47-86c6bbc983b7",
+              "length": null,
+              "position": 4,
+              "recording": {
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000,
+                "disambiguation": ""
+              },
+              "number": "A4"
+            },
+            {
+              "length": null,
+              "id": "7154bc32-dc5d-4679-a425-3360b945df20",
+              "title": "Uptown",
+              "recording": {
+                "length": 330000,
+                "first-release-date": "1980-09-10",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "B1"
+            },
+            {
+              "length": null,
+              "id": "13511b74-e61f-4794-ad57-8a53a8ebdb8b",
+              "title": "Head",
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 283533,
+                "title": "Head",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "number": "B2"
+            },
+            {
+              "length": null,
+              "id": "af140fe6-ecff-41bf-847d-b3ea1737a37f",
+              "title": "Sister",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 91800,
+                "title": "Sister",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08"
+              },
+              "number": "B3"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "title": "Partyup",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "length": 264000,
+                "video": false
+              },
+              "number": "B4",
+              "title": "Partyup",
+              "id": "b2cbce45-d1e8-4585-9e93-a78f00c4f6d9",
+              "length": null
+            }
+          ],
+          "track-count": 8,
+          "id": "1b20e0be-2d3b-425d-b45f-7ff4e2225161",
+          "title": "",
+          "format": "Cassette",
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "country": "XE",
+      "status": "Official",
+      "date": "",
+      "packaging": "Cassette Case",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "sort-name": "Europe",
+            "type-id": null,
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          }
+        }
+      ],
+      "title": "Dirty Mind",
+      "id": "1badbfe7-7f36-4b21-9de1-f48a62090213",
+      "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+      "barcode": "075992740845",
+      "asin": null,
+      "disambiguation": "",
+      "cover-art-archive": {
+        "count": 5,
+        "front": true,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      }
+    },
+    {
+      "disambiguation": "clear shell",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 5,
+        "front": true,
+        "artwork": true,
+        "back": true
+      },
+      "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+      "barcode": "",
+      "asin": null,
+      "id": "1d302d75-5980-44b5-86a8-e5727af20f2e",
+      "title": "Dirty Mind",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "sort-name": "Europe",
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "date": ""
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "country": "XE",
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "id": "92fa2744-87f6-4754-b9a4-561912e305a3",
+          "title": "",
+          "track-count": 8,
+          "format": "Cassette",
+          "tracks": [
+            {
+              "length": null,
+              "id": "a7f9e656-eda2-4eff-85dd-133c6d2bd8e0",
+              "title": "Dirty Mind",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "first-release-date": "1980-10-08",
+                "length": 251000
+              },
+              "number": "A1"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "length": 224000
+              },
+              "number": "A2",
+              "id": "1bde9e5b-a478-4670-a608-485a35dbacc5",
+              "title": "When You Were Mine",
+              "length": null
+            },
+            {
+              "length": null,
+              "title": "Do It All Night",
+              "id": "6862366b-3fab-4994-b965-764013543036",
+              "recording": {
+                "video": false,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night",
+                "length": 222000,
+                "disambiguation": ""
+              },
+              "position": 3,
+              "number": "A3"
+            },
+            {
+              "id": "a7982cce-fd9d-4e8d-a85b-284eb213f3c2",
+              "title": "Gotta Broken Heart Again",
+              "length": null,
+              "number": "A4",
+              "recording": {
+                "length": 133000,
+                "first-release-date": "1980-10-08",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4
+            },
+            {
+              "number": "B1",
+              "position": 5,
+              "recording": {
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "6dd3e8df-4bf4-4c5e-b705-43b11301ca66",
+              "title": "Uptown",
+              "length": null
+            },
+            {
+              "number": "B2",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "length": 283533
+              },
+              "length": null,
+              "title": "Head",
+              "id": "8a7104ed-97fd-467f-bf86-9bd0eb16405f"
+            },
+            {
+              "number": "B3",
+              "position": 7,
+              "recording": {
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister",
+                "length": 91800,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": null,
+              "id": "81e0f9ca-b60d-4f7b-b3fb-0091a1d56985",
+              "title": "Sister"
+            },
+            {
+              "number": "B4",
+              "recording": {
+                "disambiguation": "",
+                "length": 264000,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "video": false
+              },
+              "position": 8,
+              "title": "Partyup",
+              "id": "04ad65e5-f01a-4b33-a3f7-94edaeb843e8",
+              "length": null
+            }
+          ],
+          "format-id": "f5e6e254-8f39-331c-936b-9c69d686dc47"
+        }
+      ],
+      "status": "Official",
+      "date": "",
+      "packaging": "Cassette Case"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": ""
+          },
+          "date": "1980-10-08"
+        }
+      ],
+      "status": "Official",
+      "media": [
+        {
+          "format": "12\" Vinyl",
+          "id": "16f0b69c-e601-3b23-83df-74b3ae7ef401",
+          "title": "",
+          "track-count": 8,
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "number": "A1",
+              "position": 1,
+              "recording": {
+                "video": false,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "length": 251000,
+                "disambiguation": ""
+              },
+              "length": 254866,
+              "title": "Dirty Mind",
+              "id": "ef7f7b86-adc0-3b9e-8b5b-cb630f0523f6"
+            },
+            {
+              "length": 227826,
+              "title": "When You Were Mine",
+              "id": "c8199a2e-2de0-35d4-8bad-b2265d13da4e",
+              "number": "A2",
+              "recording": {
+                "length": 224000,
+                "title": "When You Were Mine",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "number": "A3",
+              "position": 3,
+              "recording": {
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "f2187840-bd29-3654-9f4a-595e14c23868",
+              "title": "Do It All Night",
+              "length": 222573
+            },
+            {
+              "position": 4,
+              "recording": {
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "A4",
+              "id": "57c0f4b5-ab98-3931-b4b6-2cb2a1f0d449",
+              "title": "Gotta Broken Heart Again",
+              "length": 136266
+            },
+            {
+              "id": "ca46136e-413c-36df-9f17-bcfce3e20ede",
+              "title": "Uptown",
+              "length": 332226,
+              "number": "B1",
+              "recording": {
+                "disambiguation": "",
+                "length": 330000,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "first-release-date": "1980-09-10",
+                "video": false
+              },
+              "position": 5
+            },
+            {
+              "number": "B2",
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 283533,
+                "title": "Head",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "length": 284706,
+              "title": "Head",
+              "id": "00bc7465-40a9-3bdd-aa43-8aa52c02c4c0"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister",
+                "video": false
+              },
+              "position": 7,
+              "number": "B3",
+              "length": 91800,
+              "id": "a87f9363-980a-3b5c-9fc6-cbada508f00a",
+              "title": "Sister"
+            },
+            {
+              "title": "Partyup",
+              "id": "d8d4540c-4fa5-3c53-9633-024a368c5b51",
+              "length": 264400,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Partyup",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "length": 264000
+              },
+              "position": 8,
+              "number": "B4"
+            }
+          ]
+        }
+      ],
+      "country": "US",
+      "date": "1980-10-08",
+      "packaging": "Cardboard/Paper Sleeve",
+      "disambiguation": "Europadisk plating, Specialty pressing, pinstripe background labels",
+      "cover-art-archive": {
+        "front": true,
+        "count": 10,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      },
+      "id": "281e42d6-389e-4224-9bc6-84220a62d50f",
+      "title": "Dirty Mind",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null
+    },
+    {
+      "media": [
+        {
+          "position": 1,
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "title": "",
+          "id": "255520b9-bd84-4e31-9fc6-aa2712da97f6",
+          "track-count": 8,
+          "tracks": [
+            {
+              "length": 251000,
+              "title": "Dirty Mind",
+              "id": "2aa85307-13e5-4fe0-a8cd-e92f30c4de2a",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "length": 251000,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "video": false
+              },
+              "number": "A1"
+            },
+            {
+              "number": "A2",
+              "recording": {
+                "video": false,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "title": "When You Were Mine",
+                "length": 224000,
+                "disambiguation": ""
+              },
+              "position": 2,
+              "length": 224000,
+              "id": "de954dbe-b8cd-4a30-bb87-da7dea2c39a2",
+              "title": "When You Were Mine"
+            },
+            {
+              "recording": {
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 3,
+              "number": "A3",
+              "title": "Do It All Night",
+              "id": "7c404567-5101-4f08-a512-9630feb1317f",
+              "length": 222000
+            },
+            {
+              "id": "9518e77d-115c-4f86-9c0a-900809a06619",
+              "title": "Gotta Broken Heart Again",
+              "length": 133000,
+              "position": 4,
+              "recording": {
+                "length": 133000,
+                "first-release-date": "1980-10-08",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "A4"
+            },
+            {
+              "length": 330000,
+              "id": "3ac087f3-acbc-49dc-b5f6-efa88b144941",
+              "title": "Uptown",
+              "number": "B1",
+              "position": 5,
+              "recording": {
+                "length": 330000,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "first-release-date": "1980-09-10",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "B2",
+              "position": 6,
+              "recording": {
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "title": "Head",
+                "length": 283533,
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "ba87e28b-6451-404f-9d26-b941795a0d9a",
+              "title": "Head",
+              "length": 280000
+            },
+            {
+              "id": "3307da69-1583-4510-8e5a-672ee45b7888",
+              "title": "Sister",
+              "length": 93000,
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "first-release-date": "1980-10-08"
+              },
+              "number": "B3"
+            },
+            {
+              "length": 264000,
+              "id": "85fb7243-b509-4892-b56a-08489218400e",
+              "title": "Partyup",
+              "number": "B4",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "length": 264000
+              }
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "status": "Official",
+      "country": "XE",
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "",
+      "release-events": [
+        {
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Europe"
+          },
+          "date": ""
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": null,
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "075992740814",
+      "title": "Dirty Mind",
+      "id": "2c610575-fa2f-4433-af2e-693976ba2c0f",
+      "disambiguation": "with white box on dust sleeve, Ⓖ / WE 381, GEMA/BIEM, RSA pressing",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "front": true,
+        "count": 10,
+        "darkened": false
+      }
+    },
+    {
+      "packaging": "None",
+      "date": "",
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "length": 254866,
+              "id": "11913377-9085-448d-973b-76d1fcda9e6f",
+              "title": "Dirty Mind",
+              "position": 1,
+              "recording": {
+                "title": "Dirty Mind",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "length": 251000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "1"
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "title": "When You Were Mine",
+                "length": 224000
+              },
+              "id": "6a90d7a5-1ce6-4356-bea9-5a745ecdeb0d",
+              "title": "When You Were Mine",
+              "length": 225546
+            },
+            {
+              "length": 222560,
+              "title": "Do It All Night",
+              "id": "d6986a10-c570-4cb2-a1b2-7f9af2ca85f7",
+              "number": "3",
+              "recording": {
+                "video": false,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08",
+                "length": 222000,
+                "disambiguation": ""
+              },
+              "position": 3
+            },
+            {
+              "title": "Gotta Broken Heart Again",
+              "id": "33f38eb4-fe19-412a-8df4-af4adc0be2e5",
+              "length": 136266,
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "number": "4"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 330000,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "first-release-date": "1980-09-10"
+              },
+              "position": 5,
+              "number": "5",
+              "length": 332240,
+              "id": "c78a1f9b-c23c-4f26-ad6d-10ba64091802",
+              "title": "Uptown"
+            },
+            {
+              "length": 285506,
+              "id": "747234d3-a002-4fd6-967b-342229efcf2d",
+              "title": "Head",
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "title": "Head",
+                "length": 283533,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "recording": {
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "first-release-date": "1980-10-08",
+                "length": 91800,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 7,
+              "number": "7",
+              "title": "Sister",
+              "id": "1b702922-52b0-4dce-ac1c-af84bb3e3c6f",
+              "length": 91800
+            },
+            {
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "length": 264000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 264400,
+              "title": "Partyup",
+              "id": "d05b21be-5210-435a-a95b-1282eb7f235a"
+            }
+          ],
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1,
+          "track-offset": 0,
+          "title": "",
+          "id": "abab1ae2-2d6c-397f-b926-18663a90250d",
+          "track-count": 8,
+          "format": "Digital Media"
+        }
+      ],
+      "country": "US",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "type-id": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Dirty Mind",
+      "id": "2fede38a-62ed-4da4-93b2-3a2fdf58f4f9",
+      "asin": null,
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "barcode": "886448892984",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "front": true,
+        "count": 1
+      },
+      "disambiguation": ""
+    },
+    {
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "type-id": null,
+            "sort-name": "Europe",
+            "disambiguation": "",
+            "type": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Jewel Case",
+      "date": "",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "title": "Dirty Mind",
+              "id": "5f9d98fb-0d31-4436-a543-994924df3030",
+              "length": 256040,
+              "recording": {
+                "length": 251000,
+                "first-release-date": "1980-10-08",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "number": "2",
+              "recording": {
+                "disambiguation": "",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "first-release-date": "1980-10-08",
+                "length": 224000,
+                "video": false
+              },
+              "position": 2,
+              "length": 227826,
+              "id": "e0f4b2fe-4b1b-482d-9034-ada3bf216213",
+              "title": "When You Were Mine"
+            },
+            {
+              "id": "89f9f29e-867b-40a0-a255-1b1eda3f6b93",
+              "title": "Do It All Night",
+              "length": 222573,
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08",
+                "video": false
+              }
+            },
+            {
+              "title": "Gotta Broken Heart Again",
+              "id": "9f9b452b-720b-4d77-bca4-f015d17a0999",
+              "length": 136266,
+              "number": "4",
+              "recording": {
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "video": false
+              },
+              "position": 5,
+              "number": "5",
+              "id": "81185070-efd6-4914-8466-08765e8d7b8c",
+              "title": "Uptown",
+              "length": 332226
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 283533,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "title": "Head",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "6",
+              "title": "Head",
+              "id": "c740deb3-0d90-43a4-9fb2-74497308d731",
+              "length": 284706
+            },
+            {
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister",
+                "video": false
+              },
+              "number": "7",
+              "length": 91800,
+              "title": "Sister",
+              "id": "d50b7c6e-bef0-4b05-b91c-52b1535c915a"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "length": 264000,
+                "first-release-date": "1980-10-08",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "video": false
+              },
+              "number": "8",
+              "id": "4fbb6811-1af8-4941-99bc-e92d407a524a",
+              "title": "Partyup",
+              "length": 264400
+            }
+          ],
+          "format": "CD",
+          "title": "",
+          "id": "3d95a29c-423c-4f06-b67c-cdf540bdda0b",
+          "track-count": 8,
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "XE",
+      "status": "Official",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "count": 5,
+        "front": true,
+        "darkened": false
+      },
+      "disambiguation": "",
+      "asin": null,
+      "barcode": "",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "3f5e1f85-6f4a-4b9e-a050-618c79d1d394",
+      "title": "Dirty Mind"
+    },
+    {
+      "packaging-id": null,
+      "barcode": "",
+      "asin": null,
+      "title": "Dirty Mind",
+      "id": "5cb4b62b-0169-4dc8-93fd-85a7d4256ecc",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "count": 1,
+        "front": true
+      },
+      "media": [
+        {
+          "format": "Digital Media",
+          "id": "73c311d7-0f0a-32ec-93c0-c8d1a773d54c",
+          "title": "",
+          "track-count": 8,
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "first-release-date": "1980-10-08",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "length": 251000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "length": 254000,
+              "id": "5a0ab537-6c13-45ae-9f3e-229275495a24",
+              "title": "Dirty Mind"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "first-release-date": "1980-10-08"
+              },
+              "number": "2",
+              "id": "2157d396-5a8c-4dc8-a58f-0b753b55c4ca",
+              "title": "When You Were Mine",
+              "length": 226000
+            },
+            {
+              "id": "af0bccc5-300b-4ad4-8d3c-ed7dc390ec9f",
+              "title": "Do It All Night",
+              "length": 222000,
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Gotta Broken Heart Again",
+              "id": "a687f411-5d2a-4db6-a18f-b62b65e81578",
+              "length": 136266,
+              "number": "4",
+              "recording": {
+                "disambiguation": "",
+                "title": "Gotta Broken Heart Again",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "length": 133000,
+                "video": false
+              },
+              "position": 4
+            },
+            {
+              "position": 5,
+              "recording": {
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "5",
+              "length": 330000,
+              "id": "69631b6e-f78e-4cea-b3de-7e584ae45123",
+              "title": "Uptown"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Head",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "length": 283533
+              },
+              "number": "6",
+              "id": "344cc6e7-c818-42c4-b0b4-094adbbaf50b",
+              "title": "Head",
+              "length": 282000
+            },
+            {
+              "length": 91000,
+              "id": "f0f96aac-3afb-40ec-8ebc-5993ae1ef241",
+              "title": "Sister",
+              "position": 7,
+              "recording": {
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "7"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1980-10-08",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "length": 264000,
+                "video": false
+              },
+              "number": "8",
+              "length": 263000,
+              "id": "17068177-d5f3-46f2-ba0a-17f7f4d2b87e",
+              "title": "Partyup"
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "country": "US",
+      "date": "2013",
+      "packaging": null,
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "United States",
+            "type-id": null,
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "date": "2013"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal"
+    },
+    {
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Jewel Case",
+      "date": "",
+      "country": "US",
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "track-count": 8,
+          "id": "f6036d82-831b-3187-b8fd-4cbefef7b7e8",
+          "title": "",
+          "format": "CD",
+          "tracks": [
+            {
+              "id": "6a811f36-52f7-4fc1-afb7-2423ddc2fd93",
+              "title": "Dirty Mind",
+              "length": 254866,
+              "recording": {
+                "disambiguation": "",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "length": 251000,
+                "video": false
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "length": 224000,
+                "title": "When You Were Mine",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "number": "2",
+              "length": 227826,
+              "title": "When You Were Mine",
+              "id": "ec4daa73-c9d5-4476-880c-514e6386251a"
+            },
+            {
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08"
+              },
+              "number": "3",
+              "length": 222573,
+              "id": "baf4924a-b993-4816-bacb-f801c428167a",
+              "title": "Do It All Night"
+            },
+            {
+              "number": "4",
+              "recording": {
+                "video": false,
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "disambiguation": ""
+              },
+              "position": 4,
+              "length": 136266,
+              "id": "de2253fd-735e-4f73-94fe-8347b2e9ae21",
+              "title": "Gotta Broken Heart Again"
+            },
+            {
+              "title": "Uptown",
+              "id": "38021bc1-a61e-4a82-93c8-2010016d852f",
+              "length": 332226,
+              "number": "5",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-09-10",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "length": 330000
+              },
+              "position": 5
+            },
+            {
+              "length": 284706,
+              "title": "Head",
+              "id": "4bc574ef-7390-4fbd-8d0e-61fd645e5f2d",
+              "position": 6,
+              "recording": {
+                "length": 283533,
+                "first-release-date": "1980-10-08",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "6"
+            },
+            {
+              "title": "Sister",
+              "id": "674678e7-bfe8-46b3-a3e5-e1e8ed2ca1c2",
+              "length": 91800,
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "length": 91800,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "video": false
+              }
+            },
+            {
+              "number": "8",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 264000,
+                "first-release-date": "1980-10-08",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup"
+              },
+              "position": 8,
+              "length": 264400,
+              "id": "ed618987-6259-4b52-8cda-c9d4ecd64380",
+              "title": "Partyup"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "status": "Official",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "darkened": false,
+        "front": true,
+        "count": 8
+      },
+      "disambiguation": "mid-late 1980s issue",
+      "asin": null,
+      "barcode": "075992740821",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "title": "Dirty Mind",
+      "id": "5eb93ea1-d271-421e-b2c5-cce8a875b92a"
+    },
+    {
+      "asin": null,
+      "barcode": "081227977771",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "title": "Dirty Mind",
+      "id": "6050572f-d582-4f3a-bc63-0b766df28b11",
+      "disambiguation": "2011 remaster",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": false,
+        "count": 1,
+        "front": true,
+        "darkened": false
+      },
+      "media": [
+        {
+          "title": "",
+          "id": "2e334afd-729f-3187-a982-e6c5be24fcf7",
+          "track-count": 8,
+          "format": "12\" Vinyl",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "number": "A1",
+              "recording": {
+                "title": "Dirty Mind",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "length": 251000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "length": 254866,
+              "id": "9bd00201-df51-4f27-aa3e-7433194dba9c",
+              "title": "Dirty Mind"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "title": "When You Were Mine",
+                "length": 224000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "A2",
+              "title": "When You Were Mine",
+              "id": "a092f25d-f16c-4363-b03e-badfbd052ce7",
+              "length": 227826
+            },
+            {
+              "length": 222573,
+              "title": "Do It All Night",
+              "id": "542ba006-c71c-4541-a04c-238d6824fc02",
+              "number": "A3",
+              "position": 3,
+              "recording": {
+                "length": 222000,
+                "first-release-date": "1980-10-08",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 136266,
+              "title": "Gotta Broken Heart Again",
+              "id": "38aa9069-b0f2-4ef2-86ec-44b0c68afb3b",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "first-release-date": "1980-10-08"
+              },
+              "number": "A4"
+            },
+            {
+              "length": 332226,
+              "title": "Uptown",
+              "id": "67c45bd6-5584-4c20-a76f-0648cb2a119c",
+              "recording": {
+                "video": false,
+                "first-release-date": "1980-09-10",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "length": 330000,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "B1"
+            },
+            {
+              "title": "Head",
+              "id": "23b96466-d487-48ce-88dd-4837687d05a6",
+              "length": 284706,
+              "recording": {
+                "disambiguation": "",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "length": 283533,
+                "video": false
+              },
+              "position": 6,
+              "number": "B2"
+            },
+            {
+              "number": "B3",
+              "recording": {
+                "video": false,
+                "length": 91800,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "disambiguation": ""
+              },
+              "position": 7,
+              "title": "Sister",
+              "id": "604895e2-9bb7-4ebb-bde1-c17f37b7c36c",
+              "length": 91800
+            },
+            {
+              "title": "Partyup",
+              "id": "8d2c8037-2a23-4e46-a186-c2066fca9c51",
+              "length": 264400,
+              "number": "B4",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "length": 264000,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "video": false
+              }
+            }
+          ]
+        }
+      ],
+      "country": "FR",
+      "status": "Official",
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "2011-05",
+      "release-events": [
+        {
+          "date": "2011-05",
+          "area": {
+            "type": null,
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "name": "France",
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type-id": null,
+            "sort-name": "France",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "date": "1984",
+      "packaging": "Cardboard/Paper Sleeve",
+      "country": "XE",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "video": false,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "length": 251000,
+                "disambiguation": ""
+              },
+              "number": "A1",
+              "title": "Dirty Mind",
+              "id": "df32fbd4-8040-494f-99a6-b813e076f0ed",
+              "length": 251000
+            },
+            {
+              "number": "A2",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 224000,
+                "first-release-date": "1980-10-08",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "disambiguation": ""
+              },
+              "length": 224000,
+              "id": "94eb32a6-bf5f-4033-8a1d-4d9c9ca4c35c",
+              "title": "When You Were Mine"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night",
+                "length": 222000,
+                "video": false
+              },
+              "position": 3,
+              "number": "A3",
+              "id": "4cc300e2-8ffd-4c03-bedf-86ac89a27199",
+              "title": "Do It All Night",
+              "length": 222000
+            },
+            {
+              "title": "Gotta Broken Heart Again",
+              "id": "314d1ddf-046d-46a3-93d1-554bf95203a7",
+              "length": 133000,
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 330000,
+              "title": "Uptown",
+              "id": "ed5c5325-281b-4056-8ff8-2907a7595d05",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 330000,
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "video": false
+              },
+              "number": "B1"
+            },
+            {
+              "length": 280000,
+              "title": "Head",
+              "id": "650ee9b3-143f-419a-a7ae-2ea0cfda321a",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "title": "Head",
+                "length": 283533,
+                "video": false
+              },
+              "number": "B2"
+            },
+            {
+              "length": 93000,
+              "id": "e1edfbf8-6892-4e6f-853f-6eab28c5b0e5",
+              "title": "Sister",
+              "number": "B3",
+              "recording": {
+                "disambiguation": "",
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister",
+                "video": false
+              },
+              "position": 7
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "length": 264000
+              },
+              "position": 8,
+              "number": "B4",
+              "length": 264000,
+              "id": "8b8e92b9-bef8-4bdc-980c-fb263492466b",
+              "title": "Partyup"
+            }
+          ],
+          "format": "12\" Vinyl",
+          "id": "efe23de7-539d-41f0-9e6c-dd64024d08c3",
+          "title": "",
+          "track-count": 8,
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "1984",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe"
+          }
+        }
+      ],
+      "title": "Dirty Mind",
+      "id": "6df440db-f152-4f63-8e9d-33eeeb3a48fa",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null,
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 7,
+        "back": true,
+        "artwork": true
+      },
+      "disambiguation": "without white box on dust sleeve, Ⓖ / WE 381, GEMA/BIEM, RSA pressing"
+    },
+    {
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "",
+      "status": "Official",
+      "media": [
+        {
+          "format": "12\" Vinyl",
+          "id": "943c1dd8-e35b-3091-a8c3-0c1fffcd27b4",
+          "title": "",
+          "track-count": 8,
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "length": 251000,
+              "id": "fe4e7721-2eeb-492a-a10f-d92344294fde",
+              "title": "Dirty Mind",
+              "recording": {
+                "first-release-date": "1980-10-08",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "length": 251000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "A1"
+            },
+            {
+              "id": "73378765-8780-4500-9423-802fbdf8c711",
+              "title": "When You Were Mine",
+              "length": 224000,
+              "number": "A2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "title": "When You Were Mine"
+              }
+            },
+            {
+              "title": "Do It All Night",
+              "id": "34e1855e-dff2-4451-9d80-71945abe2fbc",
+              "length": 222000,
+              "number": "A3",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night"
+              },
+              "position": 3
+            },
+            {
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "first-release-date": "1980-10-08",
+                "length": 133000,
+                "video": false
+              },
+              "length": 133000,
+              "title": "Gotta Broken Heart Again",
+              "id": "000c312a-888c-418f-83dd-8d9c07445d6d"
+            },
+            {
+              "title": "Uptown",
+              "id": "73e97758-3119-4d53-b6f5-7ba776e5c968",
+              "length": 330000,
+              "number": "B1",
+              "position": 5,
+              "recording": {
+                "video": false,
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Head",
+              "id": "b278ba04-c099-4eef-9bc7-2502ad957e6d",
+              "length": 280000,
+              "position": 6,
+              "recording": {
+                "first-release-date": "1980-10-08",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "length": 283533,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "B2"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 91800,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister"
+              },
+              "position": 7,
+              "number": "B3",
+              "length": 93000,
+              "title": "Sister",
+              "id": "f8f2cc6a-1d13-4355-947b-361898d730b0"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "length": 264000,
+                "video": false
+              },
+              "position": 8,
+              "number": "B4",
+              "title": "Partyup",
+              "id": "8c946a1f-2dbc-4d86-bff1-ec7bfc1c7793",
+              "length": 264000
+            }
+          ]
+        }
+      ],
+      "country": "US",
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "type": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "type-id": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": null,
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "id": "75f896ea-ce32-4e6e-a6d8-3f56968bd51a",
+      "title": "Dirty Mind",
+      "cover-art-archive": {
+        "front": true,
+        "count": 6,
+        "darkened": false,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": "Jacksonville pressing"
+    },
+    {
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "type-id": null,
+            "sort-name": "Europe",
+            "disambiguation": "",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "",
+      "packaging": "Cardboard/Paper Sleeve",
+      "country": "XE",
+      "media": [
+        {
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 251000,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind"
+              },
+              "position": 1,
+              "number": "A1",
+              "id": "2757f387-bd2a-4fc1-adfb-d7cc812f422a",
+              "title": "Dirty Mind",
+              "length": 251000
+            },
+            {
+              "length": 224000,
+              "id": "0ca8dae0-620b-4a0f-a6a2-46666dd027d4",
+              "title": "When You Were Mine",
+              "recording": {
+                "video": false,
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "position": 2,
+              "number": "A2"
+            },
+            {
+              "title": "Do It All Night",
+              "id": "dcddb96b-62f3-47bc-9065-0d8b6282104a",
+              "length": 222000,
+              "number": "A3",
+              "position": 3,
+              "recording": {
+                "title": "Do It All Night",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "length": 222000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 133000,
+              "id": "0d6f837f-c5d1-4d18-9bf1-6b01982cb088",
+              "title": "Gotta Broken Heart Again",
+              "number": "A4",
+              "recording": {
+                "video": false,
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "disambiguation": ""
+              },
+              "position": 4
+            },
+            {
+              "length": 330000,
+              "title": "Uptown",
+              "id": "5ddadcde-744d-4574-a73a-33a6442eb312",
+              "number": "B1",
+              "recording": {
+                "disambiguation": "",
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "video": false
+              },
+              "position": 5
+            },
+            {
+              "length": 280000,
+              "title": "Head",
+              "id": "45a7d258-c3ff-461c-8a37-d7d4c89cdc1e",
+              "number": "B2",
+              "recording": {
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "length": 283533,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "number": "B3",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister",
+                "video": false
+              },
+              "title": "Sister",
+              "id": "dc09a8d1-dcf4-4b9e-b22e-20e74330c4a0",
+              "length": 93000
+            },
+            {
+              "length": 264000,
+              "id": "44536b1b-e873-4003-9aea-f9bbb74eaa00",
+              "title": "Partyup",
+              "number": "B4",
+              "recording": {
+                "disambiguation": "",
+                "length": 264000,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "video": false
+              },
+              "position": 8
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "track-offset": 0,
+          "position": 1,
+          "format": "12\" Vinyl",
+          "id": "b2ff0e8d-4049-413a-a731-efa5fe5a8ef5",
+          "title": "",
+          "track-count": 8
+        }
+      ],
+      "status": "Official",
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 7,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": "with white box on dust sleeve, Ⓖ / WE 381, GEMA/BIEM, RSA pressing",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null,
+      "id": "7a0fbd11-3cb3-44e3-a26c-071bc434d023",
+      "title": "Dirty Mind"
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "darkened": false,
+        "count": 3,
+        "front": true
+      },
+      "title": "Dirty Mind",
+      "id": "8008001f-5bc9-46a7-b91d-2fd14e624403",
+      "asin": null,
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "barcode": "",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Europe"
+          },
+          "date": "1984"
+        },
+        {
+          "date": "1984",
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "status": "Official",
+      "media": [
+        {
+          "position": 1,
+          "track-offset": 0,
+          "id": "57e76b19-9280-3b65-973b-29b089033191",
+          "title": "",
+          "track-count": 8,
+          "format": "CD",
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 251000,
+                "first-release-date": "1980-10-08",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind"
+              },
+              "position": 1,
+              "number": "1",
+              "length": 256040,
+              "id": "69ccc402-c1bd-43ce-9a80-e04a8a4e7a99",
+              "title": "Dirty Mind"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "title": "When You Were Mine",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "2",
+              "title": "When You Were Mine",
+              "id": "856f699a-364e-441e-bc76-a94ebe5b9d10",
+              "length": 227826
+            },
+            {
+              "id": "3a43c10a-da43-47b0-b7f7-db8aa852c8da",
+              "title": "Do It All Night",
+              "length": 222573,
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08",
+                "length": 222000
+              }
+            },
+            {
+              "number": "4",
+              "recording": {
+                "video": false,
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "disambiguation": ""
+              },
+              "position": 4,
+              "length": 136266,
+              "id": "932bff44-4361-40ab-9537-afcdccb32e75",
+              "title": "Gotta Broken Heart Again"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "video": false,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "title": "Uptown",
+                "length": 330000,
+                "disambiguation": ""
+              },
+              "number": "5",
+              "id": "a15e5dd6-b8f5-4c21-9db1-f27930e7806f",
+              "title": "Uptown",
+              "length": 332226
+            },
+            {
+              "title": "Head",
+              "id": "fceb94f5-b385-4a0b-b611-7bea9ff650c9",
+              "length": 284706,
+              "number": "6",
+              "recording": {
+                "video": false,
+                "length": 283533,
+                "first-release-date": "1980-10-08",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Sister",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "length": 91800
+              },
+              "id": "cb8411cd-12aa-4d58-8fc2-fd365d8c5a76",
+              "title": "Sister",
+              "length": 91800
+            },
+            {
+              "number": "8",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "length": 264000
+              },
+              "position": 8,
+              "length": 264400,
+              "title": "Partyup",
+              "id": "699d5c74-edaf-4049-b891-78fe83eba744"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "country": "XE",
+      "packaging": "Jewel Case",
+      "date": "1984"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "sort-name": "Europe",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          },
+          "date": ""
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "",
+      "packaging": "Cardboard/Paper Sleeve",
+      "media": [
+        {
+          "format": "12\" Vinyl",
+          "id": "9b24fb9b-85e1-4a98-bff5-e83ae24c7dd3",
+          "track-count": 8,
+          "title": "",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "title": "Dirty Mind",
+              "id": "639c7ee8-6d53-46f5-909a-d7495c12e77a",
+              "length": 251000,
+              "recording": {
+                "video": false,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "first-release-date": "1980-10-08",
+                "length": 251000,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "A1"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 224000,
+                "title": "When You Were Mine",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08"
+              },
+              "number": "A2",
+              "title": "When You Were Mine",
+              "id": "309d2433-ea2e-42b5-b42c-90915ad5855b",
+              "length": 224000
+            },
+            {
+              "number": "A3",
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night",
+                "length": 222000,
+                "video": false
+              },
+              "length": 222000,
+              "id": "da927be3-1fb2-4715-abe0-27a98e9337b1",
+              "title": "Do It All Night"
+            },
+            {
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 133000,
+                "title": "Gotta Broken Heart Again",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08"
+              },
+              "length": 133000,
+              "title": "Gotta Broken Heart Again",
+              "id": "6d92e660-1fe3-4bbe-b473-c9669eb705aa"
+            },
+            {
+              "length": 330000,
+              "id": "c4d28b4b-5bdd-428c-9501-1149afed17d5",
+              "title": "Uptown",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-09-10",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "length": 330000
+              },
+              "number": "B1"
+            },
+            {
+              "length": 280000,
+              "title": "Head",
+              "id": "5218483f-685d-47a3-ab6a-3b540c1364b9",
+              "position": 6,
+              "recording": {
+                "video": false,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "length": 283533,
+                "disambiguation": ""
+              },
+              "number": "B2"
+            },
+            {
+              "number": "B3",
+              "position": 7,
+              "recording": {
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "first-release-date": "1980-10-08",
+                "length": 91800,
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "6ff6b071-ebaa-4d39-b06d-c75bc96ac898",
+              "title": "Sister",
+              "length": 93000
+            },
+            {
+              "number": "B4",
+              "recording": {
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08",
+                "length": 264000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "length": 264000,
+              "title": "Partyup",
+              "id": "ba535c65-f7a1-4b7e-be6c-b5f34d729d55"
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "country": "XE",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "darkened": false,
+        "count": 13,
+        "front": true
+      },
+      "disambiguation": "with white box on dust sleeve, Ⓖ / WE 361, GEMA/BIEM, RSA pressing",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "asin": null,
+      "id": "8a94905e-43fa-4e14-9b0f-1ae9dc0356b5",
+      "title": "Dirty Mind"
+    },
+    {
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "2009-07-15",
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Japan",
+            "type-id": null
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "date": "2009-07-15",
+      "media": [
+        {
+          "tracks": [
+            {
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "length": 251000,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "video": false,
+                "disambiguation": ""
+              },
+              "title": "Dirty Mind",
+              "id": "83c261ee-c008-4351-903b-0e4a3308fc7d",
+              "length": 254866
+            },
+            {
+              "length": 227826,
+              "id": "a03caeb9-046a-4a28-a106-1a5fdf3d706b",
+              "title": "When You Were Mine",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "When You Were Mine",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "length": 224000
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "position": 3,
+              "recording": {
+                "title": "Do It All Night",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "length": 222000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "3",
+              "title": "Do It All Night",
+              "id": "82c3e8ed-152a-469c-988c-92113eef3513",
+              "length": 222573
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1980-10-08",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000,
+                "video": false
+              },
+              "length": 136266,
+              "id": "2101bc63-5ede-496d-a85c-70a5e9be2e78",
+              "title": "Gotta Broken Heart Again"
+            },
+            {
+              "title": "Uptown",
+              "id": "27568931-fbf1-4243-933f-e112b0b14fab",
+              "length": 332226,
+              "number": "5",
+              "recording": {
+                "length": 330000,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "title": "Uptown",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 5
+            },
+            {
+              "id": "29cc249c-2ce9-40a0-b365-b6aa37a55b06",
+              "title": "Head",
+              "length": 284706,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 283533,
+                "first-release-date": "1980-10-08",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head"
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "length": 91800,
+              "id": "05e02036-f093-4e27-910f-ecbac8e15aad",
+              "title": "Sister",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "length": 91800
+              },
+              "position": 7,
+              "number": "7"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "length": 264000
+              },
+              "position": 8,
+              "number": "8",
+              "title": "Partyup",
+              "id": "2d330308-a222-4a26-aabd-f597875fe9c9",
+              "length": 264400
+            }
+          ],
+          "format-id": "4856b1c6-674d-3f68-a1dd-8ae517e8b566",
+          "position": 1,
+          "track-offset": 0,
+          "title": "",
+          "id": "afb12ae5-d0db-3768-b61c-d3d39f54db57",
+          "track-count": 8,
+          "format": "SHM-CD"
+        }
+      ],
+      "status": "Official",
+      "country": "JP",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "count": 7,
+        "front": true
+      },
+      "disambiguation": "",
+      "id": "8cdecc6a-c405-4c6c-9064-a3b33686b8c9",
+      "title": "Dirty Mind",
+      "asin": null,
+      "barcode": "4943674091461",
+      "packaging-id": null
+    },
+    {
+      "status": "Official",
+      "media": [
+        {
+          "format": "12\" Vinyl",
+          "id": "9a544ae9-c5fb-359f-bfc2-ecfc14a17904",
+          "title": "",
+          "track-count": 8,
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "number": "A1",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Dirty Mind",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "length": 251000
+              },
+              "length": 251000,
+              "id": "4188fd63-36fc-494b-a731-25d5a82abdc9",
+              "title": "Dirty Mind"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "length": 224000,
+                "first-release-date": "1980-10-08",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "A2",
+              "length": 224000,
+              "title": "When You Were Mine",
+              "id": "fed7abb1-dd9d-41a5-bd10-b640df18196d"
+            },
+            {
+              "length": 222000,
+              "title": "Do It All Night",
+              "id": "96cbc788-2bd2-41fb-8965-dab867697307",
+              "number": "A3",
+              "recording": {
+                "video": false,
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night",
+                "disambiguation": ""
+              },
+              "position": 3
+            },
+            {
+              "number": "A4",
+              "recording": {
+                "video": false,
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "disambiguation": ""
+              },
+              "position": 4,
+              "length": 133000,
+              "title": "Gotta Broken Heart Again",
+              "id": "807d6c56-c933-4a1e-b47a-2e98f414a216"
+            },
+            {
+              "length": 330000,
+              "title": "Uptown",
+              "id": "f771a2e9-fd00-4755-9c7d-81cefe68bd3d",
+              "number": "B1",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1980-09-10",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "length": 330000,
+                "video": false
+              }
+            },
+            {
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "length": 283533,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "number": "B2",
+              "length": 280000,
+              "title": "Head",
+              "id": "aa24d59c-92dc-44ef-b1d3-07ec89487995"
+            },
+            {
+              "id": "c5bb0294-da28-4a3c-baae-90e715806086",
+              "title": "Sister",
+              "length": 93000,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister"
+              },
+              "position": 7,
+              "number": "B3"
+            },
+            {
+              "title": "Partyup",
+              "id": "ef85331c-f68f-4b48-9ded-671b6d248ee2",
+              "length": 264400,
+              "number": "B4",
+              "recording": {
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08",
+                "length": 264000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8
+            }
+          ]
+        }
+      ],
+      "country": "XE",
+      "date": "",
+      "packaging": "Cardboard/Paper Sleeve",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null,
+      "id": "8e92e93c-f620-42d0-9972-16f066f3c221",
+      "title": "Dirty Mind",
+      "disambiguation": "without white box on dust sleeve, Ⓤ / WE 351, GEMA",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 3,
+        "front": true,
+        "back": false,
+        "artwork": true
+      }
+    },
+    {
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "1987-07-07",
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "country": "US",
+      "media": [
+        {
+          "format": "CD",
+          "track-count": 8,
+          "id": "8f7ec5a1-164f-32a8-85f8-5e0dda209306",
+          "title": "",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "id": "2bf89cb9-d24c-375e-a8c6-a21e75e44a48",
+              "title": "Dirty Mind",
+              "length": 256040,
+              "number": "1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "first-release-date": "1980-10-08",
+                "length": 251000
+              },
+              "position": 1
+            },
+            {
+              "title": "When You Were Mine",
+              "id": "8d96d31a-72a2-3be5-bd56-be60ed149b29",
+              "length": 227826,
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "title": "When You Were Mine"
+              }
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08",
+                "length": 222000,
+                "disambiguation": ""
+              },
+              "id": "12e0c6f2-3288-3c35-adac-72b1848e1de6",
+              "title": "Do It All Night",
+              "length": 222573
+            },
+            {
+              "number": "4",
+              "recording": {
+                "video": false,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "length": 136266,
+              "id": "a2a41a6d-090b-3339-a472-2e333944bfd4",
+              "title": "Gotta Broken Heart Again"
+            },
+            {
+              "id": "07bc6011-a3da-35a4-a935-6c640c459d17",
+              "title": "Uptown",
+              "length": 332226,
+              "number": "5",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "title": "Uptown",
+                "length": 330000
+              },
+              "position": 5
+            },
+            {
+              "number": "6",
+              "recording": {
+                "length": 283533,
+                "first-release-date": "1980-10-08",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6,
+              "id": "938e0576-93c7-3055-a4db-aaf073b10258",
+              "title": "Head",
+              "length": 284706
+            },
+            {
+              "length": 91800,
+              "title": "Sister",
+              "id": "03e0cf5f-f7ce-3268-aaa9-9bb4d6c6c4d9",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "length": 91800,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "disambiguation": ""
+              },
+              "number": "7"
+            },
+            {
+              "number": "8",
+              "recording": {
+                "video": false,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08",
+                "length": 264000,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "length": 264400,
+              "title": "Partyup",
+              "id": "16f05180-c04a-3479-a554-37de87bb364a"
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "packaging": null,
+      "date": "1987-07-07",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "front": true,
+        "count": 1,
+        "darkened": false
+      },
+      "id": "b3ef1c0e-b9a4-32de-977f-605846dfd855",
+      "title": "Dirty Mind",
+      "asin": "B000002KLP",
+      "barcode": "075992740821",
+      "packaging-id": null
+    },
+    {
+      "cover-art-archive": {
+        "count": 9,
+        "front": true,
+        "darkened": false,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": "with white box on dust sleeve, Ⓖ / WE 361, GEMA/BIEM, RSA pressing",
+      "asin": null,
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "id": "b81fbaff-6b99-4c2c-bfa9-ca1d4016abea",
+      "title": "Dirty Mind",
+      "release-events": [
+        {
+          "date": "1984",
+          "area": {
+            "sort-name": "Europe",
+            "type-id": null,
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "1984",
+      "media": [
+        {
+          "title": "",
+          "id": "9aa3dac1-4278-4d4a-9fa6-95f201859d7c",
+          "track-count": 8,
+          "format": "12\" Vinyl",
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "length": 251000,
+              "title": "Dirty Mind",
+              "id": "480c2eb6-aa33-4d77-8ef6-4ffd71a19e82",
+              "position": 1,
+              "recording": {
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "length": 251000,
+                "disambiguation": ""
+              },
+              "number": "A1"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "number": "A2",
+              "length": 224000,
+              "id": "4b190fa7-bac0-4ba4-817e-83550fc36ca6",
+              "title": "When You Were Mine"
+            },
+            {
+              "length": 222000,
+              "title": "Do It All Night",
+              "id": "a9c6ba67-8117-497e-aa49-fa55ff2d26b7",
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night"
+              },
+              "number": "A3"
+            },
+            {
+              "length": 133000,
+              "title": "Gotta Broken Heart Again",
+              "id": "540f03e2-8e47-4be2-b3b1-d95e177d4514",
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000
+              }
+            },
+            {
+              "title": "Uptown",
+              "id": "c6b36e35-7f76-4914-b9b6-c5c8e35a1400",
+              "length": 330000,
+              "number": "B1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 330000,
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10"
+              },
+              "position": 5
+            },
+            {
+              "number": "B2",
+              "recording": {
+                "video": false,
+                "length": 283533,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "length": 280000,
+              "title": "Head",
+              "id": "b51fc102-51e5-4b8b-9dcc-1d7c4698fa0f"
+            },
+            {
+              "length": 93000,
+              "id": "9a90d27b-1ce5-4c19-9fca-be2ffe4648f5",
+              "title": "Sister",
+              "number": "B3",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "length": 91800
+              },
+              "position": 7
+            },
+            {
+              "title": "Partyup",
+              "id": "0ae280ce-b665-4cd7-af2d-fdf5189f28e4",
+              "length": 264000,
+              "number": "B4",
+              "position": 8,
+              "recording": {
+                "length": 264000,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              }
+            }
+          ]
+        }
+      ],
+      "country": "XE",
+      "status": "Official"
+    },
+    {
+      "packaging": "Cassette Case",
+      "date": "",
+      "media": [
+        {
+          "title": "",
+          "id": "3e4d1050-7722-3c02-a531-fdf3aefc850e",
+          "track-count": 8,
+          "format": "Cassette",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "f5e6e254-8f39-331c-936b-9c69d686dc47",
+          "tracks": [
+            {
+              "length": null,
+              "id": "250c99bc-c818-49a9-bdb9-ffc9f03789d5",
+              "title": "Dirty Mind",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "length": 251000,
+                "title": "Dirty Mind",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "number": "A1"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1980-10-08",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "length": 224000,
+                "video": false
+              },
+              "position": 2,
+              "number": "A2",
+              "id": "7e554ede-56aa-4b8b-bd96-dde6b50b706f",
+              "title": "When You Were Mine",
+              "length": null
+            },
+            {
+              "title": "Do It All Night",
+              "id": "94db4ab2-73f7-485b-9fc5-796c4edf4c67",
+              "length": null,
+              "position": 3,
+              "recording": {
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night",
+                "length": 222000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "A3"
+            },
+            {
+              "number": "A4",
+              "recording": {
+                "video": false,
+                "title": "Gotta Broken Heart Again",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "length": 133000,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "length": null,
+              "id": "b1651e17-cc5d-446d-a5db-fd9c7ae41dcb",
+              "title": "Gotta Broken Heart Again"
+            },
+            {
+              "recording": {
+                "video": false,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "B1",
+              "title": "Uptown",
+              "id": "6beaf24c-7c72-4ae0-9eb4-30748393127f",
+              "length": null
+            },
+            {
+              "number": "B2",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "title": "Head",
+                "length": 283533
+              },
+              "position": 6,
+              "id": "871b1b74-2c88-4bc5-96c4-3fd54de0442b",
+              "title": "Head",
+              "length": null
+            },
+            {
+              "recording": {
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "first-release-date": "1980-10-08",
+                "length": 91800,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 7,
+              "number": "B3",
+              "length": null,
+              "id": "92431548-55ff-4a22-a987-b93a5bbc368d",
+              "title": "Sister"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1980-10-08",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "length": 264000,
+                "video": false
+              },
+              "number": "B4",
+              "length": null,
+              "id": "ac69927b-8bc2-49f0-8fde-de82aadab833",
+              "title": "Partyup"
+            }
+          ]
+        }
+      ],
+      "country": "US",
+      "status": "Official",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Dirty Mind",
+      "id": "ba523b91-df29-41cf-8759-d8f6f1f46585",
+      "asin": null,
+      "barcode": "075992740845",
+      "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "count": 5,
+        "front": true,
+        "darkened": false
+      },
+      "disambiguation": "reissue"
+    },
+    {
+      "date": "",
+      "packaging": "Jewel Case",
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "length": 251000,
+                "first-release-date": "1980-10-08",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "a2c265a5-82bd-4152-8398-35e731c0cba5",
+              "title": "Dirty Mind",
+              "length": 254866
+            },
+            {
+              "id": "e7e58e39-cb0f-45d2-a10a-42c6966fe80b",
+              "title": "When You Were Mine",
+              "length": 227840,
+              "recording": {
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "first-release-date": "1980-10-08",
+                "length": 224000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 222000,
+                "title": "Do It All Night",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "title": "Do It All Night",
+              "id": "6860872c-785f-4a2d-bdd5-77bc2ecb6c9e",
+              "length": 222560
+            },
+            {
+              "number": "4",
+              "recording": {
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "first-release-date": "1980-10-08",
+                "length": 133000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "length": 136266,
+              "title": "Gotta Broken Heart Again",
+              "id": "4196ce72-a8e8-4d33-83bb-86b8908c86ea"
+            },
+            {
+              "id": "d490561c-7f6f-4596-b886-8d5855042ce5",
+              "title": "Uptown",
+              "length": 332240,
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 330000,
+                "first-release-date": "1980-09-10",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown"
+              },
+              "number": "5"
+            },
+            {
+              "title": "Head",
+              "id": "6b727c86-4850-44dd-986f-9f64b884354a",
+              "length": 284693,
+              "recording": {
+                "disambiguation": "",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "title": "Head",
+                "length": 283533,
+                "video": false
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister",
+                "disambiguation": ""
+              },
+              "length": 91800,
+              "id": "f5812c57-97b9-4a32-97ae-f09b3f88363f",
+              "title": "Sister"
+            },
+            {
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 264000,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08"
+              },
+              "length": 264400,
+              "title": "Partyup",
+              "id": "cb800b73-2bea-4293-b8ff-f60ed409dca0"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-offset": 0,
+          "format": "CD",
+          "title": "",
+          "id": "058ed0f5-d0b6-33c6-afb2-f7891a5e1b07",
+          "track-count": 8
+        }
+      ],
+      "country": "US",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null
+          },
+          "date": ""
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "barcode": "075992740821",
+      "asin": null,
+      "id": "bca1d0be-39ea-44be-b9db-fa74bfe4f470",
+      "title": "Dirty Mind",
+      "cover-art-archive": {
+        "count": 3,
+        "front": true,
+        "darkened": false,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": "WEA Olyphant pressing"
+    },
+    {
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "length": 251000,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "1",
+              "id": "5b182dbb-b745-47e0-b525-d4f362f97655",
+              "title": "Dirty Mind",
+              "length": 254866
+            },
+            {
+              "id": "88db4dd9-f0bc-4fa3-b077-33046f09437c",
+              "title": "When You Were Mine",
+              "length": 227840,
+              "number": "2",
+              "recording": {
+                "length": 224000,
+                "title": "When You Were Mine",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night"
+              },
+              "length": 222560,
+              "id": "4a8dd57b-4d04-488b-a69a-06e7a2d48d48",
+              "title": "Do It All Night"
+            },
+            {
+              "number": "4",
+              "recording": {
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "id": "be8368a9-41a1-4ec2-9ec5-8bf7ce0ca363",
+              "title": "Gotta Broken Heart Again",
+              "length": 136266
+            },
+            {
+              "number": "5",
+              "recording": {
+                "video": false,
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "length": 330000,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "id": "1681a0c9-e45a-4a29-a07d-da1adbe09a3f",
+              "title": "Uptown",
+              "length": 332240
+            },
+            {
+              "position": 6,
+              "recording": {
+                "video": false,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "title": "Head",
+                "length": 283533,
+                "disambiguation": ""
+              },
+              "number": "6",
+              "length": 284693,
+              "id": "16d6f139-8aa3-46a9-bf83-59cc30bcd074",
+              "title": "Head"
+            },
+            {
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister",
+                "length": 91800
+              },
+              "number": "7",
+              "id": "e65e1b09-4ecb-483b-9351-8ac24c601e08",
+              "title": "Sister",
+              "length": 91800
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "title": "Partyup",
+                "length": 264000,
+                "video": false
+              },
+              "number": "8",
+              "title": "Partyup",
+              "id": "e70e7291-ec15-4d58-8593-6220e2633bbd",
+              "length": 264400
+            }
+          ],
+          "id": "2534df9b-ba55-316b-944a-c927ec71b69c",
+          "title": "",
+          "track-count": 8,
+          "format": "CD",
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "country": "US",
+      "status": "Official",
+      "date": "",
+      "packaging": "Jewel Case",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States"
+          },
+          "date": ""
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "barcode": "075992740821",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "title": "Dirty Mind",
+      "id": "cdfe9935-2494-46bd-871f-ba0764d93820",
+      "disambiguation": "WEA Olyphant / Cinram, post-2002 issue",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 8,
+        "front": true,
+        "artwork": true,
+        "back": true
+      }
+    },
+    {
+      "packaging": "Jewel Case",
+      "date": "",
+      "media": [
+        {
+          "format": "CD",
+          "track-count": 8,
+          "id": "fb3e88a4-65aa-31df-9184-a520bfd636a3",
+          "title": "",
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "disambiguation": "",
+                "length": 251000,
+                "first-release-date": "1980-10-08",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "video": false
+              },
+              "position": 1,
+              "title": "Dirty Mind",
+              "id": "96d5802f-7d18-48cc-a1b7-b220b5864440",
+              "length": 256040
+            },
+            {
+              "length": 227826,
+              "title": "When You Were Mine",
+              "id": "0ae53132-2371-44d7-ab19-b226e68c8ef7",
+              "number": "2",
+              "recording": {
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "length": 224000,
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "title": "Do It All Night",
+              "id": "b4449766-18cb-4e43-ae3a-72c4d81b6d5b",
+              "length": 222573,
+              "number": "3",
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1980-10-08",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "length": 222000,
+                "video": false
+              },
+              "position": 3
+            },
+            {
+              "length": 136266,
+              "title": "Gotta Broken Heart Again",
+              "id": "6fb6b947-c575-4a21-9dab-5d356f3a4f2a",
+              "recording": {
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "number": "4"
+            },
+            {
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 330000,
+                "first-release-date": "1980-09-10",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "video": false
+              },
+              "title": "Uptown",
+              "id": "96769d55-a708-4558-93bd-bee09cba90ff",
+              "length": 332226
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 283533,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "position": 6,
+              "number": "6",
+              "length": 284706,
+              "id": "aed0a9b7-bb2b-4e61-926b-0b530eabc626",
+              "title": "Head"
+            },
+            {
+              "id": "11d86ca1-24e2-4283-9ee0-cf96febb431c",
+              "title": "Sister",
+              "length": 91800,
+              "number": "7",
+              "recording": {
+                "video": false,
+                "length": 91800,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "disambiguation": ""
+              },
+              "position": 7
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "length": 264000
+              },
+              "position": 8,
+              "number": "8",
+              "length": 265000,
+              "title": "Partyup",
+              "id": "c2471af9-b8f6-4ca2-bfa0-18b214cb8882"
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "country": "DE",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "type": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type-id": null,
+            "sort-name": "Germany",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "title": "Dirty Mind",
+      "id": "e82cf8ce-c4d4-4574-9c8a-c8f455fa5f7b",
+      "asin": null,
+      "barcode": "075992740821",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "count": 1,
+        "front": true
+      },
+      "disambiguation": ""
+    },
+    {
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "number": "A1",
+              "position": 1,
+              "recording": {
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "title": "Dirty Mind",
+                "first-release-date": "1980-10-08",
+                "length": 251000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": null,
+              "title": "Dirty Mind",
+              "id": "a4ed241f-ca04-4ba4-94e8-27b603533966"
+            },
+            {
+              "length": null,
+              "title": "When You Were Mine",
+              "id": "1206d373-454f-4845-8f1b-c7e10d330c92",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 224000,
+                "title": "When You Were Mine",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08"
+              },
+              "position": 2,
+              "number": "A2"
+            },
+            {
+              "title": "Do It All Night",
+              "id": "ec8bc4d6-bb9b-47ca-bcf9-ef904a930a54",
+              "length": null,
+              "number": "A3",
+              "recording": {
+                "disambiguation": "",
+                "length": 222000,
+                "first-release-date": "1980-10-08",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "video": false
+              },
+              "position": 3
+            },
+            {
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "first-release-date": "1980-10-08",
+                "length": 133000
+              },
+              "title": "Gotta Broken Heart Again",
+              "id": "b0e2dd43-ef1e-43c7-801a-2bd8bac1c9e9",
+              "length": null
+            },
+            {
+              "title": "Uptown",
+              "id": "85aa924b-adb4-4b1f-ae12-dca6e4bbab35",
+              "length": null,
+              "number": "B1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 330000,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "first-release-date": "1980-09-10"
+              },
+              "position": 5
+            },
+            {
+              "length": null,
+              "title": "Head",
+              "id": "429148bc-1049-44f6-a44e-46f20edca85a",
+              "recording": {
+                "length": 283533,
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "B2"
+            },
+            {
+              "length": null,
+              "id": "181bd288-1c2f-45ba-831e-bb91b4f95d3f",
+              "title": "Sister",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister"
+              },
+              "number": "B3"
+            },
+            {
+              "title": "Partyup",
+              "id": "3bca18ea-8fd6-4e49-a73f-b9c1faf1f1ef",
+              "length": null,
+              "number": "B4",
+              "recording": {
+                "video": false,
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08",
+                "length": 264000,
+                "disambiguation": ""
+              },
+              "position": 8
+            }
+          ],
+          "id": "21936968-ec56-32a2-bbb2-24212ca87a97",
+          "title": "",
+          "track-count": 8,
+          "format": "12\" Vinyl",
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "country": "IT",
+      "status": "Promotion",
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "1980",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "name": "Italy",
+            "iso-3166-1-codes": [
+              "IT"
+            ],
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "sort-name": "Italy",
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "date": "1980"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "asin": null,
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "id": "ee7ee803-1693-4787-bcce-13cc2673bd09",
+      "title": "Dirty Mind",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 4,
+        "front": true
+      }
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null
+          },
+          "date": ""
+        }
+      ],
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "number": "A1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "length": 251000
+              },
+              "position": 1,
+              "id": "acd2e04e-9eb0-4c09-80ee-ccbf140ad60b",
+              "title": "Dirty Mind",
+              "length": 251000
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "position": 2,
+              "number": "A2",
+              "id": "0023966d-538d-4288-b77f-b7f418e0063c",
+              "title": "When You Were Mine",
+              "length": 224000
+            },
+            {
+              "number": "A3",
+              "recording": {
+                "disambiguation": "",
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "position": 3,
+              "length": 222000,
+              "title": "Do It All Night",
+              "id": "aa3f72b7-14e7-436a-82e9-b06d5ef28d31"
+            },
+            {
+              "length": 133000,
+              "title": "Gotta Broken Heart Again",
+              "id": "3c0376d0-cfb5-4d1a-a237-b302941f5b33",
+              "recording": {
+                "length": 133000,
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "title": "Gotta Broken Heart Again",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "number": "A4"
+            },
+            {
+              "length": 330000,
+              "id": "ff67f7b1-d211-4abf-90ec-d31953e9d0a3",
+              "title": "Uptown",
+              "position": 5,
+              "recording": {
+                "length": 330000,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "title": "Uptown",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "B1"
+            },
+            {
+              "title": "Head",
+              "id": "75f198d6-f068-480a-9061-e1cce0323d0b",
+              "length": 280000,
+              "number": "B2",
+              "position": 6,
+              "recording": {
+                "first-release-date": "1980-10-08",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "length": 283533,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "B3",
+              "position": 7,
+              "recording": {
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 93000,
+              "id": "9fca3697-f81d-4105-ba46-d55c18fa9c27",
+              "title": "Sister"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "first-release-date": "1980-10-08",
+                "length": 264000,
+                "video": false
+              },
+              "number": "B4",
+              "length": 264000,
+              "id": "c7ebb2ae-b159-4e08-99a4-9692d044f446",
+              "title": "Partyup"
+            }
+          ],
+          "format": "12\" Vinyl",
+          "track-count": 8,
+          "id": "8067cd78-94fa-4e26-ab22-25306e0935a8",
+          "title": "",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "country": "XE",
+      "date": "",
+      "packaging": "Cardboard/Paper Sleeve",
+      "disambiguation": "without white box on dust sleeve, Ⓖ / WE 361, GEMA/BIEM, WEA pressing",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "front": true,
+        "count": 6
+      },
+      "title": "Dirty Mind",
+      "id": "f3a93dbd-64b0-4b65-8df5-fa30d6a337bc",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "asin": null
+    },
+    {
+      "country": "XE",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "length": 251000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "A1",
+              "length": 251000,
+              "id": "4beb8e47-99ef-466e-aaff-9f051e45aa09",
+              "title": "Dirty Mind"
+            },
+            {
+              "id": "ebf1c945-1439-46b6-b89e-aa2b45d8b20a",
+              "title": "When You Were Mine",
+              "length": 224000,
+              "number": "A2",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 224000,
+                "first-release-date": "1980-10-08",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Do It All Night",
+              "id": "5051313a-7c1d-4cf0-9746-f68f4ecfc07b",
+              "length": 222000,
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "length": 222000,
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "first-release-date": "1980-10-08",
+                "title": "Do It All Night",
+                "video": false
+              },
+              "number": "A3"
+            },
+            {
+              "position": 4,
+              "recording": {
+                "video": false,
+                "length": 133000,
+                "title": "Gotta Broken Heart Again",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "number": "A4",
+              "title": "Gotta Broken Heart Again",
+              "id": "40e86f5a-1b70-480d-a019-742642eaa824",
+              "length": 133000
+            },
+            {
+              "number": "B1",
+              "position": 5,
+              "recording": {
+                "first-release-date": "1980-09-10",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "title": "Uptown",
+                "length": 330000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 330000,
+              "id": "5ed4e21b-bb90-4840-8952-98f3cc944384",
+              "title": "Uptown"
+            },
+            {
+              "id": "32bffeef-9332-4e28-af2e-14b56df28fbb",
+              "title": "Head",
+              "length": 280000,
+              "number": "B2",
+              "position": 6,
+              "recording": {
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "title": "Head",
+                "first-release-date": "1980-10-08",
+                "length": 283533,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Sister",
+              "id": "7713bba2-2908-4a5e-94f3-d9bbfc4fab2f",
+              "length": 93000,
+              "recording": {
+                "video": false,
+                "length": 91800,
+                "first-release-date": "1980-10-08",
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "disambiguation": ""
+              },
+              "position": 7,
+              "number": "B3"
+            },
+            {
+              "number": "B4",
+              "position": 8,
+              "recording": {
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "length": 264000,
+                "disambiguation": ""
+              },
+              "id": "34e69e95-8275-4695-8210-8f9057a53ebb",
+              "title": "Partyup",
+              "length": 264000
+            }
+          ],
+          "format": "12\" Vinyl",
+          "id": "80d0e90c-2695-4be0-97a7-3991958ac953",
+          "track-count": 8,
+          "title": "",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "date": "",
+      "packaging": "Cardboard/Paper Sleeve",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "Europe",
+            "type-id": null,
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          },
+          "date": ""
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null,
+      "title": "Dirty Mind",
+      "id": "f6e01bee-d782-49f4-bfca-66c9e8c1806f",
+      "disambiguation": "without white box on dust sleeve, Ⓤ / WE 351, GEMA/Biem",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "front": true,
+        "count": 7,
+        "darkened": false
+      }
+    },
+    {
+      "asin": null,
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "title": "Dirty Mind",
+      "id": "faca645d-fd4e-40ad-a877-4498390b57c8",
+      "disambiguation": "with white box on dust sleeve, Ⓤ / WE 351, no rights society on labels",
+      "cover-art-archive": {
+        "count": 7,
+        "front": true,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      },
+      "media": [
+        {
+          "title": "",
+          "id": "9c869819-7c5d-4dde-a634-4b8eb6d26b20",
+          "track-count": 8,
+          "format": "12\" Vinyl",
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "length": 251000,
+              "title": "Dirty Mind",
+              "id": "48ca338f-9510-4d7d-8423-82b39fcd31ed",
+              "recording": {
+                "video": false,
+                "length": 251000,
+                "title": "Dirty Mind",
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "A1"
+            },
+            {
+              "id": "f77d1437-50dc-4ca7-8ced-b679ce92eac9",
+              "title": "When You Were Mine",
+              "length": 224000,
+              "number": "A2",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 224000,
+                "title": "When You Were Mine",
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "first-release-date": "1980-10-08"
+              },
+              "position": 2
+            },
+            {
+              "length": 222000,
+              "id": "84d50309-7c9e-4bf3-a8a4-a01923fced66",
+              "title": "Do It All Night",
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1980-10-08",
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "length": 222000
+              },
+              "number": "A3"
+            },
+            {
+              "id": "39e2de93-d058-4eb7-8830-286ccd4a0b11",
+              "title": "Gotta Broken Heart Again",
+              "length": 133000,
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "title": "Gotta Broken Heart Again",
+                "length": 133000,
+                "video": false
+              },
+              "number": "A4"
+            },
+            {
+              "number": "B1",
+              "position": 5,
+              "recording": {
+                "video": false,
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "title": "Uptown",
+                "length": 330000,
+                "disambiguation": ""
+              },
+              "length": 330000,
+              "id": "e0adbba2-63e2-43b0-986d-4045a1e7d86f",
+              "title": "Uptown"
+            },
+            {
+              "id": "f759ddad-fbc7-4cbb-bc4d-14e2d358fb72",
+              "title": "Head",
+              "length": 280000,
+              "recording": {
+                "title": "Head",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "length": 283533,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "B2"
+            },
+            {
+              "title": "Sister",
+              "id": "b3b6b6f5-7c35-4cba-a0fa-43960916520f",
+              "length": 93000,
+              "number": "B3",
+              "recording": {
+                "video": false,
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "title": "Sister",
+                "first-release-date": "1980-10-08",
+                "disambiguation": ""
+              },
+              "position": 7
+            },
+            {
+              "length": 264000,
+              "id": "2a5e50f9-f008-4996-8938-ed1ff5133c69",
+              "title": "Partyup",
+              "recording": {
+                "video": false,
+                "length": 264000,
+                "first-release-date": "1980-10-08",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "title": "Partyup",
+                "disambiguation": ""
+              },
+              "position": 8,
+              "number": "B4"
+            }
+          ]
+        }
+      ],
+      "country": "XE",
+      "status": "Official",
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "",
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "Europe",
+            "type-id": null,
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          },
+          "date": ""
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "disambiguation": "256862.3 RSA",
+      "cover-art-archive": {
+        "count": 3,
+        "front": true,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      },
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "barcode": "075992740821",
+      "asin": null,
+      "id": "fb08f6a5-3b0c-3cf4-81d9-967a24e3fc20",
+      "title": "Dirty Mind",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "country": "XE",
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "title": "",
+          "id": "f22a6b45-ad7f-34ba-97fe-5ea67e9b5332",
+          "track-count": 8,
+          "format": "CD",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "video": false,
+                "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+                "first-release-date": "1980-10-08",
+                "title": "Dirty Mind",
+                "length": 251000,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "id": "2be41c6a-9885-3f61-a06e-299a1f8ee2ec",
+              "title": "Dirty Mind",
+              "length": 254866
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "length": 224000,
+                "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+                "title": "When You Were Mine",
+                "first-release-date": "1980-10-08",
+                "video": false
+              },
+              "title": "When You Were Mine",
+              "id": "4032b2d6-5cbe-3348-9b4f-fda9e3c1eab8",
+              "length": 227826
+            },
+            {
+              "position": 3,
+              "recording": {
+                "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68",
+                "title": "Do It All Night",
+                "first-release-date": "1980-10-08",
+                "length": 222000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "3",
+              "title": "Do It All Night",
+              "id": "ff959d11-cf8a-3d1d-a304-e5221e000023",
+              "length": 222573
+            },
+            {
+              "length": 136266,
+              "id": "82df6975-3370-3bd3-8c56-1df14ec206b4",
+              "title": "Gotta Broken Heart Again",
+              "number": "4",
+              "recording": {
+                "length": 133000,
+                "title": "Gotta Broken Heart Again",
+                "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+                "first-release-date": "1980-10-08",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4
+            },
+            {
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "length": 330000,
+                "title": "Uptown",
+                "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace",
+                "first-release-date": "1980-09-10",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "39b4f4f2-a2f8-3d9e-978a-da8367ffed6f",
+              "title": "Uptown",
+              "length": 332226
+            },
+            {
+              "id": "990e0401-e068-3eee-839f-82b49978a868",
+              "title": "Head",
+              "length": 284706,
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+                "first-release-date": "1980-10-08",
+                "title": "Head",
+                "length": 283533,
+                "video": false
+              }
+            },
+            {
+              "length": 91800,
+              "id": "26acda73-156c-3241-92ce-b64b5620812f",
+              "title": "Sister",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 91800,
+                "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+                "first-release-date": "1980-10-08",
+                "title": "Sister"
+              },
+              "position": 7,
+              "number": "7"
+            },
+            {
+              "length": 264400,
+              "id": "9a0253ee-e140-38e4-8c11-ae7e6afed432",
+              "title": "Partyup",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Partyup",
+                "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+                "first-release-date": "1980-10-08",
+                "length": 264000
+              },
+              "position": 8,
+              "number": "8"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "status": "Official",
+      "date": "",
+      "packaging": "Jewel Case"
+    }
+  ]
+}

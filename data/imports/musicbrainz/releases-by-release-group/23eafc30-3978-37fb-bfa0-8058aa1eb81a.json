@@ -1,0 +1,3638 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=23eafc30-3978-37fb-bfa0-8058aa1eb81a&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-count": 17,
+  "release-offset": 0,
+  "releases": [
+    {
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 7,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": "",
+      "asin": null,
+      "barcode": "075596062329",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "title": "Eagles",
+      "id": "08c02182-2a9e-4709-bcea-899ef1f210ce",
+      "release-events": [
+        {
+          "date": "1987",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States"
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Jewel Case",
+      "date": "1987",
+      "media": [
+        {
+          "tracks": [
+            {
+              "title": "Take It Easy",
+              "id": "47ed9787-793b-474c-adf2-f820a5a95f35",
+              "length": 215000,
+              "position": 1,
+              "recording": {
+                "video": false,
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "title": "Take It Easy",
+                "length": 211600,
+                "disambiguation": ""
+              },
+              "number": "1"
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "length": 252000,
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "title": "Witchy Woman",
+                "video": false
+              },
+              "title": "Witchy Woman",
+              "id": "2c2789ea-69ef-4965-86f1-ebb0913c76d5",
+              "length": 253093
+            },
+            {
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Chug All Night",
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "length": 197000
+              },
+              "number": "3",
+              "title": "Chug All Night",
+              "id": "1cadacff-a784-4e1c-8dfa-26c582d29ae2",
+              "length": 198866
+            },
+            {
+              "id": "314cc040-0bfa-4fa1-a9e1-fd7caccc2f62",
+              "title": "Most of Us Are Sad",
+              "length": 218333,
+              "number": "4",
+              "recording": {
+                "title": "Most of Us Are Sad",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4
+            },
+            {
+              "length": 248373,
+              "title": "Nightingale",
+              "id": "c154795b-97e7-4437-9618-661dfc3420eb",
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 248000,
+                "first-release-date": "1972-06-01",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale"
+              }
+            },
+            {
+              "title": "Train Leaves Here This Morning",
+              "id": "ed6b6920-e4d0-4427-9494-e85ae365271b",
+              "length": 253400,
+              "number": "6",
+              "recording": {
+                "length": 250457,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "first-release-date": "1972-06-01",
+                "title": "Train Leaves Here This Morning",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "length": 244293,
+              "title": "Take the Devil",
+              "id": "53aab273-dc62-4f83-815e-eab5759293b8",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "title": "Take the Devil",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "length": 242000,
+                "disambiguation": ""
+              },
+              "number": "7"
+            },
+            {
+              "length": 182400,
+              "title": "Earlybird",
+              "id": "fb8a4d61-8b48-4672-9f4c-94b587c3c78b",
+              "position": 8,
+              "recording": {
+                "video": false,
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "first-release-date": "1972-06-01",
+                "title": "Earlybird",
+                "length": 180413,
+                "disambiguation": ""
+              },
+              "number": "8"
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 257962,
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "position": 9,
+              "number": "9",
+              "id": "481ebb80-fa63-4c9a-a4c0-fff358910a0a",
+              "title": "Peaceful Easy Feeling",
+              "length": 260973
+            },
+            {
+              "position": 10,
+              "recording": {
+                "length": 174733,
+                "first-release-date": "1972-06-01",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "title": "Tryin’",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "10",
+              "length": 174733,
+              "id": "fded7b3e-2c2a-4a08-b426-4c853aefdd3b",
+              "title": "Tryin’"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "position": 1,
+          "title": "",
+          "id": "e9ab1c10-ed11-3d7a-a24d-e45b0617e819",
+          "track-count": 10,
+          "format": "CD"
+        }
+      ],
+      "status": "Official",
+      "country": "US"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "United States",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "date": "1972-06-01"
+        }
+      ],
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "number": "A1",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "length": 211600,
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "title": "Take It Easy",
+                "video": false
+              },
+              "length": 215600,
+              "title": "Take It Easy",
+              "id": "78aee329-9b74-37c3-a83b-e38e97cb8a93"
+            },
+            {
+              "number": "A2",
+              "recording": {
+                "video": false,
+                "title": "Witchy Woman",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "length": 252000,
+                "disambiguation": ""
+              },
+              "position": 2,
+              "id": "53449496-b824-3d02-b03c-3526ea5c04c3",
+              "title": "Witchy Woman",
+              "length": 253093
+            },
+            {
+              "title": "Chug All Night",
+              "id": "38230c79-ba68-3adc-be72-263aa59a1731",
+              "length": 198866,
+              "position": 3,
+              "recording": {
+                "video": false,
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "length": 197000,
+                "disambiguation": ""
+              },
+              "number": "A3"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "title": "Most of Us Are Sad",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "video": false
+              },
+              "position": 4,
+              "number": "A4",
+              "title": "Most of Us Are Sad",
+              "id": "e06f4435-3f5a-340e-b10c-2166f1129696",
+              "length": 218333
+            },
+            {
+              "length": 248373,
+              "id": "8e0a7ec2-a7fb-3c5b-ac58-7fb8c0a1e751",
+              "title": "Nightingale",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "first-release-date": "1972-06-01",
+                "length": 248000,
+                "video": false
+              },
+              "number": "A5"
+            },
+            {
+              "title": "Train Leaves Here This Morning",
+              "id": "5ec8d1eb-7178-3428-9dd8-6e34ac5b89b0",
+              "length": 253400,
+              "number": "B1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 250457,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01"
+              },
+              "position": 6
+            },
+            {
+              "number": "B2",
+              "recording": {
+                "disambiguation": "",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "first-release-date": "1972-06-01",
+                "length": 242000,
+                "video": false
+              },
+              "position": 7,
+              "length": 244293,
+              "id": "0bcd643d-8a2c-34ae-a08f-1101eefebd05",
+              "title": "Take the Devil"
+            },
+            {
+              "title": "Earlybird",
+              "id": "22ba57e6-c16b-3cc2-adb1-8354046c4460",
+              "length": 182400,
+              "number": "B3",
+              "recording": {
+                "length": 180413,
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "first-release-date": "1972-06-01",
+                "title": "Earlybird",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8
+            },
+            {
+              "number": "B4",
+              "position": 9,
+              "recording": {
+                "video": false,
+                "title": "Peaceful Easy Feeling",
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "length": 257962,
+                "disambiguation": ""
+              },
+              "id": "4c966bc3-2357-3f5c-b744-7a4779672e58",
+              "title": "Peaceful Easy Feeling",
+              "length": 260973
+            },
+            {
+              "number": "B5",
+              "recording": {
+                "disambiguation": "",
+                "length": 174733,
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "title": "Tryin’",
+                "video": false
+              },
+              "position": 10,
+              "length": 174733,
+              "id": "f334f048-1b0b-3058-9c52-f0ee1d06efe1",
+              "title": "Tryin'"
+            }
+          ],
+          "id": "2a1a4f22-07ff-33d7-96c5-641c98e3f285",
+          "track-count": 10,
+          "title": "",
+          "format": "12\" Vinyl",
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "country": "US",
+      "date": "1972-06-01",
+      "packaging": null,
+      "disambiguation": "",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "count": 4,
+        "front": true,
+        "darkened": false
+      },
+      "title": "Eagles",
+      "id": "150e50b2-570b-456a-baf4-0da3437d19bd",
+      "packaging-id": null,
+      "barcode": "",
+      "asin": null
+    },
+    {
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 6,
+        "back": true,
+        "artwork": true
+      },
+      "disambiguation": "",
+      "barcode": "075596062329",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": "B000002GYN",
+      "id": "2dfce14c-6259-434e-a6d0-0be4d42bb7b5",
+      "title": "Eagles",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "sort-name": "Europe",
+            "disambiguation": "",
+            "type": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          },
+          "date": "1990"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "1990",
+      "packaging": "Jewel Case",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "title": "Take It Easy",
+              "id": "529bc596-d5f9-4697-a490-aecd28e7092a",
+              "length": 216000,
+              "recording": {
+                "length": 211600,
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "title": "Take It Easy",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "id": "b1297bf7-0a36-4bc1-8eb3-2783af0fd460",
+              "title": "Witchy Woman",
+              "length": 253000,
+              "recording": {
+                "video": false,
+                "length": 252000,
+                "title": "Witchy Woman",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "length": 199000,
+              "id": "e3002757-e919-4e5d-a44d-a44fb5f20223",
+              "title": "Chug All Night",
+              "position": 3,
+              "recording": {
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "length": 197000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "3"
+            },
+            {
+              "length": 218000,
+              "title": "Most of Us Are Sad",
+              "id": "29eb921e-ea64-464b-aea6-a77378ee3776",
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "title": "Most of Us Are Sad",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "recording": {
+                "first-release-date": "1972-06-01",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "length": 248000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "5",
+              "length": 248000,
+              "title": "Nightingale",
+              "id": "2b7cebcf-f93d-4eef-a8f9-55b7efcae2e4"
+            },
+            {
+              "length": 253000,
+              "id": "89c5a1ae-805b-42a1-a5d8-fbb731e6a5d2",
+              "title": "Train Leaves Here This Morning",
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 250457,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "number": "6"
+            },
+            {
+              "length": 244000,
+              "id": "752a85fe-7d44-491e-97ee-76d146dfe772",
+              "title": "Take the Devil",
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "first-release-date": "1972-06-01",
+                "length": 242000
+              },
+              "position": 7
+            },
+            {
+              "title": "Earlybird",
+              "id": "3995b679-60be-43f4-b570-52a8082889c0",
+              "length": 182000,
+              "recording": {
+                "video": false,
+                "first-release-date": "1972-06-01",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "length": 180413,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "number": "8"
+            },
+            {
+              "number": "9",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 257962,
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "title": "Peaceful Easy Feeling"
+              },
+              "position": 9,
+              "title": "Peaceful Easy Feeling",
+              "id": "6170a239-742a-4b40-847f-9024221ee670",
+              "length": 261000
+            },
+            {
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "video": false,
+                "title": "Tryin’",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "length": 174733,
+                "disambiguation": ""
+              },
+              "id": "105cf434-3897-4351-8d90-ae4bef1ab69d",
+              "title": "Tryin’",
+              "length": 175000
+            }
+          ],
+          "format": "CD",
+          "id": "6015d93b-3865-3ae5-85f5-9a922c711126",
+          "track-count": 10,
+          "title": "",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "country": "XE"
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "front": true,
+        "count": 3,
+        "darkened": false
+      },
+      "id": "35b7db5a-e9a1-3e92-adcd-165f33ae7a68",
+      "title": "Eagles",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "barcode": "075596062329",
+      "asin": "B000002GYN",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "1987",
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Europe"
+          }
+        }
+      ],
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "recording": {
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "title": "Take It Easy",
+                "first-release-date": "1972-06-01",
+                "length": 211600,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1",
+              "length": 215600,
+              "id": "cf11c609-edec-3fe2-b16c-57c29058a0ed",
+              "title": "Take It Easy"
+            },
+            {
+              "length": 253093,
+              "title": "Witchy Woman",
+              "id": "7d7ddfc8-3acf-390a-addf-85d3871d1e44",
+              "number": "2",
+              "recording": {
+                "length": 252000,
+                "title": "Witchy Woman",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "length": 198866,
+              "title": "Chug All Night",
+              "id": "65855f68-f3e6-3f1b-a413-c41598733a09",
+              "number": "3",
+              "recording": {
+                "disambiguation": "",
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "length": 197000,
+                "video": false
+              },
+              "position": 3
+            },
+            {
+              "number": "4",
+              "recording": {
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "title": "Most of Us Are Sad",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "title": "Most of Us Are Sad",
+              "id": "394290cd-a177-33ce-b53c-bb07a78f898f",
+              "length": 218333
+            },
+            {
+              "length": 248373,
+              "id": "8cece3d8-d81a-375c-beb2-472bb665c95c",
+              "title": "Nightingale",
+              "number": "5",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "first-release-date": "1972-06-01",
+                "title": "Nightingale",
+                "length": 248000
+              },
+              "position": 5
+            },
+            {
+              "number": "6",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "length": 250457
+              },
+              "position": 6,
+              "id": "8d7d726b-d683-3c89-8dd4-0b87ef98f110",
+              "title": "Train Leaves Here This Morning",
+              "length": 253400
+            },
+            {
+              "position": 7,
+              "recording": {
+                "video": false,
+                "title": "Take the Devil",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "length": 242000,
+                "disambiguation": ""
+              },
+              "number": "7",
+              "id": "b2c2f777-d4df-35c1-ad34-d3e2f3528478",
+              "title": "Take the Devil",
+              "length": 244293
+            },
+            {
+              "id": "7c968ee1-bdf0-3a6c-977c-e8018787b7d7",
+              "title": "Earlybird",
+              "length": 182400,
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "video": false,
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "first-release-date": "1972-06-01",
+                "length": 180413,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 260973,
+              "title": "Peaceful Easy Feeling",
+              "id": "3732feab-2bdc-34c6-a551-2bcbbb327aa9",
+              "number": "9",
+              "recording": {
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "title": "Peaceful Easy Feeling",
+                "length": 257962,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 9
+            },
+            {
+              "length": 174733,
+              "title": "Tryin'",
+              "id": "ebeae6a7-8356-34e5-8dfd-ec06ca9eeee6",
+              "recording": {
+                "disambiguation": "",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "title": "Tryin’",
+                "length": 174733,
+                "video": false
+              },
+              "position": 10,
+              "number": "10"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "position": 1,
+          "track-count": 10,
+          "id": "aa3d4d02-30ef-3dad-a4d8-6c51aa9e4202",
+          "title": "",
+          "format": "CD"
+        }
+      ],
+      "country": "XE",
+      "date": "1987",
+      "packaging": "Jewel Case"
+    },
+    {
+      "date": "",
+      "packaging": "Jewel Case",
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "title": "Take It Easy",
+              "id": "1d752fc3-0ed8-40ee-bad8-d4bcaae406f1",
+              "length": 212000,
+              "number": "1",
+              "recording": {
+                "title": "Take It Easy",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "length": 211600,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1
+            },
+            {
+              "title": "Witchy Woman",
+              "id": "32de161b-5db4-4035-8caa-c8211670cd5f",
+              "length": 252000,
+              "number": "2",
+              "recording": {
+                "title": "Witchy Woman",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "length": 252000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "length": 196000,
+              "title": "Chug All Night",
+              "id": "823fa3c4-a4fa-44db-967f-3c553e203cd0",
+              "recording": {
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "title": "Chug All Night",
+                "first-release-date": "1972-06-01",
+                "length": 197000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 3,
+              "number": "3"
+            },
+            {
+              "id": "866607bc-b245-44fc-90ad-910b45d26157",
+              "title": "Most of Us Are Sad",
+              "length": 216000,
+              "recording": {
+                "disambiguation": "",
+                "length": 216000,
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "title": "Most of Us Are Sad",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "position": 4,
+              "number": "4"
+            },
+            {
+              "length": 248373,
+              "title": "Nightingale",
+              "id": "3a1ecc82-f5a6-4cdf-96eb-18504716cb14",
+              "recording": {
+                "video": false,
+                "title": "Nightingale",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "first-release-date": "1972-06-01",
+                "length": 248000,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "5"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 250457,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "first-release-date": "1972-06-01",
+                "title": "Train Leaves Here This Morning",
+                "disambiguation": ""
+              },
+              "number": "6",
+              "length": 250000,
+              "title": "Train Leaves Here This Morning",
+              "id": "d9a6567c-c6b3-43de-aed5-e14fc2a96a35"
+            },
+            {
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "length": 242000,
+                "first-release-date": "1972-06-01",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "video": false
+              },
+              "number": "7",
+              "length": 241000,
+              "title": "Take the Devil",
+              "id": "56130b41-6696-4f67-af5c-c560298a7459"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1972-06-01",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "length": 180413,
+                "video": false
+              },
+              "number": "8",
+              "title": "Earlybird",
+              "id": "aeb21f1e-7315-439e-9565-61917d3db98d",
+              "length": 180000
+            },
+            {
+              "title": "Peaceful Easy Feeling",
+              "id": "225cac5b-ce78-4ebb-bd4f-c657b051ef89",
+              "length": 258000,
+              "number": "9",
+              "recording": {
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "title": "Peaceful Easy Feeling",
+                "length": 257962,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 9
+            },
+            {
+              "title": "Tryin’",
+              "id": "f7e82d03-cd17-4abf-84f3-a88ebc8fdb32",
+              "length": 173000,
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "title": "Tryin’",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "length": 174733,
+                "video": false
+              },
+              "number": "10"
+            }
+          ],
+          "format": "CD",
+          "id": "5c02044f-2194-357a-8c19-5ebfefa32520",
+          "track-count": 10,
+          "title": "",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "DE",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "type": null,
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "sort-name": "Germany",
+            "type-id": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "title": "Eagles",
+      "id": "38610210-acd1-4633-9e43-949912d21adc",
+      "barcode": "075596062329",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "cover-art-archive": {
+        "count": 2,
+        "front": true,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      },
+      "disambiguation": ""
+    },
+    {
+      "country": "JP",
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "track-count": 10,
+          "id": "9c2a74ca-1bb1-3ed4-886d-b5596db282cb",
+          "title": "",
+          "format": "CD",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "disambiguation": "",
+                "length": 211600,
+                "title": "Take It Easy",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "position": 1,
+              "id": "5d3c5cc6-46a0-49c7-aafd-5a5dcfd31767",
+              "title": "Take It Easy",
+              "length": 216000
+            },
+            {
+              "id": "fd11c64e-d74e-4164-b536-123391ac046f",
+              "title": "Witchy Woman",
+              "length": 253000,
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1972-06-01",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "title": "Witchy Woman",
+                "length": 252000
+              }
+            },
+            {
+              "position": 3,
+              "recording": {
+                "length": 197000,
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "title": "Chug All Night",
+                "first-release-date": "1972-06-01",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "3",
+              "length": 199000,
+              "title": "Chug All Night",
+              "id": "4638c178-4a11-4267-9127-8987cc56fac4"
+            },
+            {
+              "id": "c1009df3-48ce-4355-8818-95213a8e24fb",
+              "title": "Most of Us Are Sad",
+              "length": 218000,
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Most of Us Are Sad",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "length": 216000
+              },
+              "number": "4"
+            },
+            {
+              "id": "9d8b3bf4-149f-40e0-9b5e-967f062b0f49",
+              "title": "Nightingale",
+              "length": 248000,
+              "number": "5",
+              "recording": {
+                "disambiguation": "",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "first-release-date": "1972-06-01",
+                "length": 248000,
+                "video": false
+              },
+              "position": 5
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 250457,
+                "first-release-date": "1972-06-01",
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "6",
+              "id": "cb3ee088-0b91-4112-b2cc-621f2da47715",
+              "title": "Train Leaves Here This Morning",
+              "length": 253000
+            },
+            {
+              "length": 244000,
+              "title": "Take the Devil",
+              "id": "aa934f39-d5dc-4af0-ba21-3e463c41217b",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "first-release-date": "1972-06-01",
+                "length": 242000,
+                "disambiguation": ""
+              },
+              "number": "7"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 180413,
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "first-release-date": "1972-06-01"
+              },
+              "position": 8,
+              "number": "8",
+              "title": "Earlybird",
+              "id": "22b7ec99-a40c-4561-b121-aadd2f24f3c6",
+              "length": 182000
+            },
+            {
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "video": false,
+                "length": 257962,
+                "first-release-date": "1972-06-01",
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "disambiguation": ""
+              },
+              "length": 261000,
+              "id": "2f58198e-dfce-4192-ac9e-013e5e1284a8",
+              "title": "Peaceful Easy Feeling"
+            },
+            {
+              "number": "10",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 174733,
+                "title": "Tryin’",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01"
+              },
+              "position": 10,
+              "length": 175000,
+              "id": "df686ee2-6d0f-48f0-819b-f38cbba7cc79",
+              "title": "Tryin’"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "status": "Official",
+      "date": "2024-08-21",
+      "packaging": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "2024-08-21",
+          "area": {
+            "sort-name": "Japan",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+          }
+        }
+      ],
+      "id": "4804db49-9cbb-46bf-86d6-aaa05ce3da64",
+      "title": "Eagles",
+      "barcode": "4943674393244",
+      "packaging-id": null,
+      "asin": null,
+      "disambiguation": "",
+      "cover-art-archive": {
+        "darkened": false,
+        "front": false,
+        "count": 0,
+        "artwork": false,
+        "back": false
+      }
+    },
+    {
+      "id": "51ad6290-a2b2-4dbf-9a74-7a32ee026f9a",
+      "title": "Eagles",
+      "barcode": "4943674214099",
+      "packaging-id": null,
+      "asin": null,
+      "cover-art-archive": {
+        "artwork": false,
+        "back": false,
+        "darkened": false,
+        "front": false,
+        "count": 0
+      },
+      "disambiguation": "",
+      "date": "2015-07-22",
+      "packaging": null,
+      "country": "JP",
+      "media": [
+        {
+          "format": "CD",
+          "track-count": 10,
+          "id": "c2b77c27-cfef-3141-9852-152865167a1c",
+          "title": "",
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1972-06-01",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "title": "Take It Easy",
+                "length": 211600,
+                "video": false
+              },
+              "position": 1,
+              "number": "1",
+              "length": 215600,
+              "id": "98efb578-d8c8-4259-87ec-e0011b61e4c2",
+              "title": "Take It Easy"
+            },
+            {
+              "length": 253093,
+              "id": "aae562b5-716d-4293-8a19-22e2c18cac54",
+              "title": "Witchy Woman",
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "title": "Witchy Woman",
+                "first-release-date": "1972-06-01",
+                "length": 252000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "id": "0f748054-9d62-4a83-8951-e3c178f5a2c6",
+              "title": "Chug All Night",
+              "length": 198866,
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "length": 197000,
+                "first-release-date": "1972-06-01",
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "title": "Chug All Night",
+                "video": false
+              },
+              "number": "3"
+            },
+            {
+              "length": 218333,
+              "id": "cdab7c61-5590-4f1a-afbe-73cda96ae308",
+              "title": "Most of Us Are Sad",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "title": "Most of Us Are Sad",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "disambiguation": ""
+              },
+              "number": "4"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "first-release-date": "1972-06-01",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "length": 248000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "5",
+              "length": 248373,
+              "id": "0d91e9d4-2f48-4c43-88f6-0c82a1164c7a",
+              "title": "Nightingale"
+            },
+            {
+              "title": "Train Leaves Here This Morning",
+              "id": "7eac8d94-a287-4bfd-a862-b90eacc3543b",
+              "length": 253400,
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Train Leaves Here This Morning",
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "first-release-date": "1972-06-01",
+                "length": 250457
+              }
+            },
+            {
+              "length": 244293,
+              "title": "Take the Devil",
+              "id": "acf12d6b-1122-45ca-b35c-484f88c310fe",
+              "position": 7,
+              "recording": {
+                "first-release-date": "1972-06-01",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "length": 242000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "7"
+            },
+            {
+              "title": "Earlybird",
+              "id": "45926fa9-cec7-46d1-bc59-d33e27e20bc1",
+              "length": 182400,
+              "number": "8",
+              "recording": {
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "first-release-date": "1972-06-01",
+                "title": "Earlybird",
+                "length": 180413,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "title": "Peaceful Easy Feeling",
+                "length": 257962,
+                "video": false
+              },
+              "position": 9,
+              "number": "9",
+              "title": "Peaceful Easy Feeling",
+              "id": "17c3d36b-67c1-466e-8d6b-4b00a096947f",
+              "length": 260973
+            },
+            {
+              "position": 10,
+              "recording": {
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "title": "Tryin’",
+                "length": 174733,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "10",
+              "length": 174733,
+              "title": "Tryin’",
+              "id": "12f8fe30-1fd7-493d-a22e-40b00a46f7f7"
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "sort-name": "Japan",
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "date": "2015-07-22"
+        }
+      ]
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 2,
+        "front": true,
+        "back": false,
+        "artwork": true
+      },
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "barcode": "603497923144",
+      "asin": null,
+      "id": "5565a04f-3938-465d-84e8-6fdc180262d5",
+      "title": "Eagles",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2013",
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "type": null,
+            "name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "disambiguation": "",
+            "sort-name": "[Worldwide]",
+            "type-id": null
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "country": "XW",
+      "media": [
+        {
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "disambiguation": "",
+                "title": "Take It Easy",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "length": 211600,
+                "video": false
+              },
+              "position": 1,
+              "length": 215600,
+              "title": "Take It Easy",
+              "id": "b249c916-2866-44fe-a99d-75150dd9e0ae"
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "title": "Witchy Woman",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "length": 252000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 253093,
+              "title": "Witchy Woman",
+              "id": "12e7dfbf-a6aa-449c-a7fa-823423f21110"
+            },
+            {
+              "number": "3",
+              "recording": {
+                "disambiguation": "",
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "length": 197000,
+                "video": false
+              },
+              "position": 3,
+              "title": "Chug All Night",
+              "id": "e7fc6eb9-110c-4889-9d3f-05be77d077a1",
+              "length": 198866
+            },
+            {
+              "recording": {
+                "length": 216000,
+                "first-release-date": "1972-06-01",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "title": "Most of Us Are Sad",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "number": "4",
+              "title": "Most of Us Are Sad",
+              "id": "3ea3f057-a06e-44df-a7f7-d49657f46273",
+              "length": 218333
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Nightingale",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "first-release-date": "1972-06-01",
+                "length": 248000
+              },
+              "position": 5,
+              "number": "5",
+              "length": 248373,
+              "id": "58529e17-ef5e-470b-8dce-dee85607eac4",
+              "title": "Nightingale"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "length": 250457
+              },
+              "position": 6,
+              "number": "6",
+              "length": 253400,
+              "title": "Train Leaves Here This Morning",
+              "id": "3f4715c2-d330-4d1c-9ce0-f71ebef6a81c"
+            },
+            {
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "title": "Take the Devil",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "length": 242000,
+                "video": false
+              },
+              "title": "Take the Devil",
+              "id": "5fa3c1c7-ed23-483a-989a-ff9984458b10",
+              "length": 244293
+            },
+            {
+              "id": "d60ac890-e6ea-4aee-b118-457f5a90cfc1",
+              "title": "Earlybird",
+              "length": 182400,
+              "number": "8",
+              "recording": {
+                "video": false,
+                "length": 180413,
+                "title": "Earlybird",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "position": 8
+            },
+            {
+              "length": 260973,
+              "title": "Peaceful Easy Feeling",
+              "id": "163b371c-a2ff-4a5c-85c8-e04b7d1e7437",
+              "number": "9",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1972-06-01",
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "length": 257962
+              },
+              "position": 9
+            },
+            {
+              "number": "10",
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1972-06-01",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "title": "Tryin’",
+                "length": 174733,
+                "video": false
+              },
+              "position": 10,
+              "length": 174733,
+              "id": "05493f12-5c05-49ed-b4ea-aae296be35f2",
+              "title": "Tryin’"
+            }
+          ],
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1,
+          "track-offset": 0,
+          "title": "",
+          "id": "c376ac12-ff52-3900-8e3f-b975fae9a803",
+          "track-count": 10,
+          "format": "Digital Media"
+        }
+      ],
+      "status": "Official",
+      "date": "2013",
+      "packaging": "None"
+    },
+    {
+      "id": "7812ae37-44e5-331a-bfc3-6de87cd30cf3",
+      "title": "Eagles",
+      "barcode": "4943674052950",
+      "packaging-id": null,
+      "asin": "B0002VL6Y6",
+      "cover-art-archive": {
+        "artwork": false,
+        "back": false,
+        "front": false,
+        "count": 0,
+        "darkened": false
+      },
+      "disambiguation": "",
+      "date": "2004-10-06",
+      "packaging": null,
+      "media": [
+        {
+          "tracks": [
+            {
+              "length": 215600,
+              "id": "fec37198-cfc1-3f0a-b902-4ec0711d2a76",
+              "title": "Take It Easy",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 211600,
+                "title": "Take It Easy",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01"
+              },
+              "number": "1"
+            },
+            {
+              "number": "2",
+              "recording": {
+                "length": 252000,
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "title": "Witchy Woman",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2,
+              "title": "Witchy Woman",
+              "id": "cab1f00a-45d9-33fa-8f5a-c699dca97c33",
+              "length": 253093
+            },
+            {
+              "id": "7497b704-000a-3266-b7f9-0b34079bf51e",
+              "title": "Chug All Night",
+              "length": 198866,
+              "number": "3",
+              "recording": {
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "length": 197000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 3
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "length": 216000,
+                "first-release-date": "1972-06-01",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "title": "Most of Us Are Sad",
+                "video": false,
+                "disambiguation": ""
+              },
+              "title": "Most of Us Are Sad",
+              "id": "f7bd77ee-a2f4-3c25-99b1-08f14b04788c",
+              "length": 218333
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 248000,
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "5",
+              "length": 248373,
+              "id": "16ede406-b2c9-3340-a929-c7f1ef88ad88",
+              "title": "Nightingale"
+            },
+            {
+              "number": "6",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "length": 250457
+              },
+              "position": 6,
+              "id": "4dff6838-f8cb-3c16-9e6b-b1eb987f1bb4",
+              "title": "Train Leaves Here This Morning",
+              "length": 253400
+            },
+            {
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1972-06-01",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "length": 242000
+              },
+              "id": "467d9da7-cf56-37f2-ab78-11e415b372a9",
+              "title": "Take the Devil",
+              "length": 244293
+            },
+            {
+              "length": 182400,
+              "title": "Earlybird",
+              "id": "efd8d069-6dd7-338d-8a0a-8fcc97952204",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "length": 180413,
+                "title": "Earlybird",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "number": "8"
+            },
+            {
+              "title": "Peaceful Easy Feeling",
+              "id": "0b967be7-57ac-3280-a274-1033100086d9",
+              "length": 260973,
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "first-release-date": "1972-06-01",
+                "length": 257962,
+                "video": false
+              }
+            },
+            {
+              "length": 174733,
+              "id": "da42ebbe-6f6d-3a4a-b768-5c5607f7352a",
+              "title": "Tryin'",
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 174733,
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "title": "Tryin’"
+              }
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-offset": 0,
+          "format": "CD",
+          "title": "",
+          "id": "76a5d7c6-b695-3ec4-b486-a632259f78e7",
+          "track-count": 10
+        }
+      ],
+      "country": "JP",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "2004-10-06",
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Japan"
+          }
+        }
+      ]
+    },
+    {
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 211600,
+                "first-release-date": "1972-06-01",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "title": "Take It Easy"
+              },
+              "number": "A1",
+              "title": "Take It Easy",
+              "id": "51626f3a-4d13-4c6d-bf08-ab3fefba1847",
+              "length": 213000
+            },
+            {
+              "title": "Witchy Woman",
+              "id": "35dca828-576c-48c5-a0cd-215fcc47038f",
+              "length": 257000,
+              "recording": {
+                "disambiguation": "",
+                "length": 252000,
+                "first-release-date": "1972-06-01",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "title": "Witchy Woman",
+                "video": false
+              },
+              "position": 2,
+              "number": "A2"
+            },
+            {
+              "position": 3,
+              "recording": {
+                "video": false,
+                "first-release-date": "1972-06-01",
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "title": "Chug All Night",
+                "length": 197000,
+                "disambiguation": ""
+              },
+              "number": "B1",
+              "id": "d53d12c9-f2d0-4778-b04f-99a9a7013f3b",
+              "title": "Chug All Night",
+              "length": 197000
+            },
+            {
+              "position": 4,
+              "recording": {
+                "title": "Most of Us Are Sad",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "B2",
+              "length": 216000,
+              "title": "Most of Us Are Sad",
+              "id": "1871e71a-4cc8-43bc-afee-8595688278b7"
+            },
+            {
+              "length": 243000,
+              "id": "deb5297f-c617-4a9f-bc02-3d2d555f68fb",
+              "title": "Nightingale",
+              "recording": {
+                "disambiguation": "",
+                "length": 248000,
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "first-release-date": "1972-06-01",
+                "title": "Nightingale",
+                "video": false
+              },
+              "position": 5,
+              "number": "B3"
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1,
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "id": "bf95e90c-1d9b-3030-91c5-65331e565ca6",
+          "track-count": 5,
+          "title": ""
+        },
+        {
+          "tracks": [
+            {
+              "id": "6d383f99-f192-4de5-9155-600afbe5ac27",
+              "title": "Train Leaves Here This Morning",
+              "length": 250000,
+              "recording": {
+                "video": false,
+                "length": 250457,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "C1"
+            },
+            {
+              "length": 244000,
+              "id": "f99732b9-df35-43dd-9ae1-d591e0107087",
+              "title": "Take the Devil",
+              "position": 2,
+              "recording": {
+                "length": 242000,
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "title": "Take the Devil",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "C2"
+            },
+            {
+              "position": 3,
+              "recording": {
+                "video": false,
+                "title": "Earlybird",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "first-release-date": "1972-06-01",
+                "length": 180413,
+                "disambiguation": ""
+              },
+              "number": "D1",
+              "title": "Earlybird",
+              "id": "30c86c99-60d5-4040-a85f-cad1018ff52f",
+              "length": 181000
+            },
+            {
+              "number": "D2",
+              "recording": {
+                "disambiguation": "",
+                "length": 257962,
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "title": "Peaceful Easy Feeling",
+                "video": false
+              },
+              "position": 4,
+              "id": "e7d26124-0764-4a43-a8e0-647c6d41b469",
+              "title": "Peaceful Easy Feeling",
+              "length": 258000
+            },
+            {
+              "recording": {
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "title": "Tryin’",
+                "length": 174733,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "D3",
+              "length": 173000,
+              "id": "7e86f964-57ae-46ad-9937-c7e431f0b445",
+              "title": "Tryin’"
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "track-offset": 0,
+          "position": 2,
+          "format": "12\" Vinyl",
+          "title": "",
+          "id": "2da498ec-59ff-38c8-9ebe-99b42ed58a2f",
+          "track-count": 5
+        }
+      ],
+      "country": "US",
+      "packaging": "Box",
+      "date": "2021-09-02",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "2021-09-02",
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "id": "7b98d767-5576-49fe-9c88-a0fc680bf45e",
+      "title": "Eagles",
+      "asin": null,
+      "packaging-id": "c1668fc7-8944-4a00-bc3e-46e8d861d211",
+      "barcode": "821797202428",
+      "disambiguation": "Mastered on The Gain 2 Ultra Analog System™ on 180g Supervinyl",
+      "cover-art-archive": {
+        "artwork": false,
+        "back": false,
+        "count": 0,
+        "front": false,
+        "darkened": false
+      }
+    },
+    {
+      "date": "2013-06-25",
+      "packaging": "None",
+      "country": null,
+      "media": [
+        {
+          "format": "Digital Media",
+          "title": "",
+          "id": "300ae626-2876-3cf7-887d-70a5e760a92e",
+          "track-count": 10,
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "video": false,
+                "length": 211600,
+                "title": "Take It Easy",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "position": 1,
+              "id": "7f8a9be2-c705-4160-9908-818e2e9eeb42",
+              "title": "Take It Easy",
+              "length": 211577
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "title": "Witchy Woman",
+                "first-release-date": "1972-06-01",
+                "length": 252000,
+                "video": false
+              },
+              "position": 2,
+              "number": "2",
+              "id": "0c788901-200a-4dff-815d-9c7571f61c86",
+              "title": "Witchy Woman",
+              "length": 250888
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "length": 197000,
+                "disambiguation": ""
+              },
+              "title": "Chug All Night",
+              "id": "3b354d13-8d44-477e-9b83-48033c87b4ce",
+              "length": 195655
+            },
+            {
+              "number": "4",
+              "recording": {
+                "video": false,
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "title": "Most of Us Are Sad",
+                "length": 216000,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "id": "7dedd4a8-2a5d-4cb8-91cb-2b5e44d90140",
+              "title": "Most of Us Are Sad",
+              "length": 215420
+            },
+            {
+              "recording": {
+                "length": 248000,
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "first-release-date": "1972-06-01",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "5",
+              "id": "698fd3d5-daa4-4d1a-9c28-7afad1daffc0",
+              "title": "Nightingale",
+              "length": 245598
+            },
+            {
+              "length": 250456,
+              "id": "18570b7e-69b2-400f-8a42-bc0824ab596f",
+              "title": "Train Leaves Here This Morning",
+              "number": "6",
+              "recording": {
+                "video": false,
+                "length": 250457,
+                "title": "Train Leaves Here This Morning",
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 242000,
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "title": "Take the Devil"
+              },
+              "position": 7,
+              "title": "Take the Devil",
+              "id": "a4bd3c37-32ab-4729-805a-fc857b4fd1e0",
+              "length": 240827
+            },
+            {
+              "id": "0a252270-4900-4807-bf88-111062a956f4",
+              "title": "Earlybird",
+              "length": 179943,
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1972-06-01",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "length": 180413,
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 257962,
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "first-release-date": "1972-06-01"
+              },
+              "position": 9,
+              "number": "9",
+              "length": 257962,
+              "title": "Peaceful Easy Feeling",
+              "id": "c1942864-defc-4dd7-8e33-5a118c3f3517"
+            },
+            {
+              "number": "10",
+              "recording": {
+                "first-release-date": "1972-06-01",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "title": "Tryin’",
+                "length": 174733,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 10,
+              "length": 175000,
+              "id": "06160a54-0266-496a-8de6-8e763b7a68b7",
+              "title": "Tryin’"
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": null,
+          "date": "2013-06-25"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "barcode": "603497921300",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "asin": null,
+      "title": "Eagles",
+      "id": "7e656ba0-b0d8-4bb5-8502-b36a8441c095",
+      "cover-art-archive": {
+        "front": true,
+        "count": 2,
+        "darkened": false,
+        "artwork": true,
+        "back": false
+      },
+      "disambiguation": ""
+    },
+    {
+      "title": "Eagles",
+      "id": "93f6811a-4c0c-4903-83a1-a33cef97892d",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "asin": null,
+      "cover-art-archive": {
+        "count": 4,
+        "front": true,
+        "darkened": false,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": "",
+      "date": "1982",
+      "packaging": "Cardboard/Paper Sleeve",
+      "status": "Official",
+      "media": [
+        {
+          "position": 1,
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "track-count": 10,
+          "id": "fa92586e-cf6a-3a67-b633-ab5cb16486da",
+          "title": "",
+          "tracks": [
+            {
+              "id": "4e560220-0dac-478b-87f3-ee464eaaad79",
+              "title": "Take It Easy",
+              "length": 215600,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "title": "Take It Easy",
+                "length": 211600
+              },
+              "position": 1,
+              "number": "A1"
+            },
+            {
+              "number": "A2",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1972-06-01",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "title": "Witchy Woman",
+                "length": 252000
+              },
+              "position": 2,
+              "title": "Witchy Woman",
+              "id": "eb30b59c-334f-4e4e-b69d-4a09b2e5e65e",
+              "length": 253093
+            },
+            {
+              "id": "778c1f57-da1d-4fe1-b37e-251e449c92b7",
+              "title": "Chug All Night",
+              "length": 198866,
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 197000,
+                "first-release-date": "1972-06-01",
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "title": "Chug All Night",
+                "disambiguation": ""
+              },
+              "number": "A3"
+            },
+            {
+              "length": 218333,
+              "title": "Most of Us Are Sad",
+              "id": "abe49df2-7941-4936-8024-b1bd18c0fa7b",
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "title": "Most of Us Are Sad",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "video": false
+              }
+            },
+            {
+              "length": 248373,
+              "title": "Nightingale",
+              "id": "3a00cc2e-023b-422b-a191-110246aea6ca",
+              "number": "A5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "first-release-date": "1972-06-01",
+                "length": 248000
+              }
+            },
+            {
+              "number": "B1",
+              "recording": {
+                "video": false,
+                "length": 250457,
+                "first-release-date": "1972-06-01",
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "length": 253400,
+              "title": "Train Leaves Here This Morning",
+              "id": "60a18247-5166-44f8-bff0-3739311d9140"
+            },
+            {
+              "number": "B2",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "title": "Take the Devil",
+                "length": 242000
+              },
+              "id": "3c8fb309-adc9-4c35-89ba-5368c81b03b1",
+              "title": "Take the Devil",
+              "length": 244293
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 180413,
+                "first-release-date": "1972-06-01",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "video": false
+              },
+              "position": 8,
+              "number": "B3",
+              "length": 182400,
+              "title": "Earlybird",
+              "id": "0bf5d15c-8ba9-46a4-bcde-7caa8a3ef8bf"
+            },
+            {
+              "number": "B4",
+              "position": 9,
+              "recording": {
+                "video": false,
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "first-release-date": "1972-06-01",
+                "length": 257962,
+                "disambiguation": ""
+              },
+              "length": 260973,
+              "title": "Peaceful Easy Feeling",
+              "id": "e3928a8c-55d1-468a-bfcd-ae431b1226fb"
+            },
+            {
+              "length": 174733,
+              "id": "1db183ea-36a0-4c7b-9e02-c31c727b66db",
+              "title": "Tryin’",
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 174733,
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "title": "Tryin’",
+                "first-release-date": "1972-06-01"
+              },
+              "number": "B5"
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "country": "DE",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "1982",
+          "area": {
+            "sort-name": "Germany",
+            "type-id": null,
+            "disambiguation": "",
+            "name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type": null,
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+          }
+        }
+      ]
+    },
+    {
+      "asin": "B00006L5SZ",
+      "barcode": "075596062350",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "99ea07be-35d8-4742-bce4-e40e3d9341dd",
+      "title": "Eagles",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 6,
+        "front": true,
+        "back": true,
+        "artwork": true
+      },
+      "disambiguation": "",
+      "packaging": "Jewel Case",
+      "date": "1999",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "title": "Take It Easy",
+              "id": "1cdeaae8-138c-3b99-915d-324d28595d16",
+              "length": 215600,
+              "recording": {
+                "disambiguation": "",
+                "length": 211600,
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "title": "Take It Easy",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "id": "0896712e-c5d5-3ba8-8290-0ba6bb07c98a",
+              "title": "Witchy Woman",
+              "length": 253093,
+              "number": "2",
+              "recording": {
+                "video": false,
+                "length": 252000,
+                "first-release-date": "1972-06-01",
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "title": "Witchy Woman",
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "length": 198866,
+              "title": "Chug All Night",
+              "id": "933eaa75-f48a-3d7f-9a71-119ca3b0d3ec",
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "title": "Chug All Night",
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "length": 197000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Most of Us Are Sad",
+              "id": "b95faef6-7e80-338d-8185-2aa5c7d48d3a",
+              "length": 218333,
+              "recording": {
+                "video": false,
+                "first-release-date": "1972-06-01",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "title": "Most of Us Are Sad",
+                "length": 216000,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "number": "4"
+            },
+            {
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 248000,
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "first-release-date": "1972-06-01",
+                "title": "Nightingale",
+                "video": false
+              },
+              "length": 248373,
+              "id": "fb1274ee-ea77-3de5-9331-36d7510cb818",
+              "title": "Nightingale"
+            },
+            {
+              "length": 253400,
+              "id": "ab1e0960-c0d2-318d-af9c-31830554795c",
+              "title": "Train Leaves Here This Morning",
+              "number": "6",
+              "recording": {
+                "video": false,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "length": 250457,
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 242000,
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "title": "Take the Devil"
+              },
+              "position": 7,
+              "title": "Take the Devil",
+              "id": "f45dd698-c569-37ab-a144-d9f0b8702334",
+              "length": 244293
+            },
+            {
+              "id": "54d0a10d-18af-3dd5-8a4e-78cdcc67029c",
+              "title": "Earlybird",
+              "length": 182400,
+              "recording": {
+                "length": 180413,
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "first-release-date": "1972-06-01",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "number": "8"
+            },
+            {
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 257962,
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "first-release-date": "1972-06-01"
+              },
+              "title": "Peaceful Easy Feeling",
+              "id": "5af0c6f4-198d-3821-9e4a-125df856ec23",
+              "length": 260973
+            },
+            {
+              "id": "e7a991d2-45f5-391d-a363-52f60469b4db",
+              "title": "Tryin’",
+              "length": 174733,
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "video": false,
+                "title": "Tryin’",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "length": 174733,
+                "disambiguation": ""
+              }
+            }
+          ],
+          "id": "2728e849-3010-3cb7-b5be-56abb713a556",
+          "track-count": 10,
+          "title": "",
+          "format": "CD",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "CA",
+      "status": "Official",
+      "release-events": [
+        {
+          "area": {
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "type": null,
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "name": "Canada",
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Canada"
+          },
+          "date": "1999"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          },
+          "date": "1999"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "video": false,
+                "length": 211600,
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "title": "Take It Easy",
+                "disambiguation": ""
+              },
+              "length": 212000,
+              "id": "950a24f4-e63f-4f46-b76a-9a276d299a80",
+              "title": "Take It Easy"
+            },
+            {
+              "position": 2,
+              "recording": {
+                "length": 252000,
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "title": "Witchy Woman",
+                "first-release-date": "1972-06-01",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "2",
+              "length": 252000,
+              "title": "Witchy Woman",
+              "id": "9ad522d7-7c0e-4afc-a804-fb9cf6e8afe2"
+            },
+            {
+              "recording": {
+                "video": false,
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "length": 197000,
+                "disambiguation": ""
+              },
+              "position": 3,
+              "number": "3",
+              "length": 196000,
+              "id": "5688ea72-c7de-4c25-9e61-4dc8bf22cd95",
+              "title": "Chug All Night"
+            },
+            {
+              "title": "Most of Us Are Sad",
+              "id": "031ed572-aaed-4dcb-9f7b-0b909f8ba932",
+              "length": 216000,
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "title": "Most of Us Are Sad",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 248373,
+              "id": "90258e9a-f9ac-4b15-b690-fc051e4c4419",
+              "title": "Nightingale",
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1972-06-01",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "length": 248000
+              }
+            },
+            {
+              "length": 250000,
+              "title": "Train Leaves Here This Morning",
+              "id": "4f520472-82f0-422d-8f91-b43fe087571d",
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "first-release-date": "1972-06-01",
+                "title": "Train Leaves Here This Morning",
+                "length": 250457,
+                "video": false
+              }
+            },
+            {
+              "title": "Take the Devil",
+              "id": "180ce05c-efaf-42e3-b319-6c06330dec0c",
+              "length": 241000,
+              "number": "7",
+              "recording": {
+                "video": false,
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "title": "Take the Devil",
+                "length": 242000,
+                "disambiguation": ""
+              },
+              "position": 7
+            },
+            {
+              "id": "2b66fb31-9935-4eff-8c7d-e96bb075b015",
+              "title": "Earlybird",
+              "length": 180000,
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "length": 180413,
+                "title": "Earlybird",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "number": "8"
+            },
+            {
+              "length": 258000,
+              "title": "Peaceful Easy Feeling",
+              "id": "ffb67cf1-03d2-4398-a705-61f680f9430b",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "title": "Peaceful Easy Feeling",
+                "length": 257962
+              },
+              "number": "9"
+            },
+            {
+              "length": 173000,
+              "id": "cf7f3baa-b219-4bc1-9f30-fc0d05e7e080",
+              "title": "Tryin’",
+              "recording": {
+                "length": 174733,
+                "first-release-date": "1972-06-01",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "title": "Tryin’",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 10,
+              "number": "10"
+            }
+          ],
+          "format": "CD",
+          "title": "",
+          "id": "04de51d6-b5c2-317e-960f-407fd6f40d95",
+          "track-count": 10,
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "country": "US",
+      "packaging": "Jewel Case",
+      "date": "1999",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "front": false,
+        "count": 1
+      },
+      "asin": null,
+      "barcode": "081227999230",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "ae4862d5-3c1c-44dd-bd50-9e2858f6a17e",
+      "title": "Eagles"
+    },
+    {
+      "packaging": "Jewel Case",
+      "date": "2000",
+      "status": "Official",
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "format": "CD",
+          "id": "fd47973f-0fd5-3da6-83c2-d876c4261fe6",
+          "title": "",
+          "track-count": 10,
+          "tracks": [
+            {
+              "length": 213000,
+              "id": "1cb5319f-c973-4ac7-8e89-2d65cbeb9164",
+              "title": "Take It Easy",
+              "recording": {
+                "disambiguation": "",
+                "length": 211600,
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "title": "Take It Easy",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "id": "17891f64-dd16-43eb-8978-b76fc15fcae0",
+              "title": "Witchy Woman",
+              "length": 252000,
+              "number": "2",
+              "recording": {
+                "video": false,
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "title": "Witchy Woman",
+                "length": 252000,
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "title": "Chug All Night",
+              "id": "76b50821-4171-44b7-9981-d5f5f59e60a0",
+              "length": 196000,
+              "number": "3",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 197000,
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "title": "Chug All Night",
+                "first-release-date": "1972-06-01"
+              },
+              "position": 3
+            },
+            {
+              "length": 216000,
+              "title": "Most of Us Are Sad",
+              "id": "f8d7ba40-1ca1-4112-8e1c-09953ec2592c",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "title": "Most of Us Are Sad",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "length": 216000,
+                "disambiguation": ""
+              },
+              "number": "4"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "title": "Nightingale",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "first-release-date": "1972-06-01",
+                "length": 248000,
+                "video": false
+              },
+              "number": "5",
+              "title": "Nightingale",
+              "id": "0dfa1728-a5e7-4525-b31c-d578184b2e5f",
+              "length": 248000
+            },
+            {
+              "number": "6",
+              "recording": {
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "length": 250457,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6,
+              "id": "714760bc-9460-4011-9984-a22e81929b0a",
+              "title": "Train Leaves Here This Morning",
+              "length": 250000
+            },
+            {
+              "recording": {
+                "first-release-date": "1972-06-01",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "length": 242000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 7,
+              "number": "7",
+              "length": 241000,
+              "title": "Take the Devil",
+              "id": "49990097-4d4b-4b95-9429-2d916c26ae50"
+            },
+            {
+              "number": "8",
+              "recording": {
+                "length": 180413,
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "first-release-date": "1972-06-01",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "length": 180000,
+              "id": "568a9a3c-d4b8-4d28-9a68-03c3ee624f21",
+              "title": "Earlybird"
+            },
+            {
+              "id": "2ff6a9a3-3b02-4820-8056-d45ec4ba828f",
+              "title": "Peaceful Easy Feeling",
+              "length": 258000,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1972-06-01",
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "length": 257962,
+                "video": false
+              },
+              "position": 9,
+              "number": "9"
+            },
+            {
+              "number": "10",
+              "recording": {
+                "video": false,
+                "title": "Tryin’",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "length": 174733,
+                "disambiguation": ""
+              },
+              "position": 10,
+              "length": 173000,
+              "id": "7ed189f9-054b-48fc-90a0-321ec22a82ea",
+              "title": "Tryin'"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "country": "XE",
+      "release-events": [
+        {
+          "date": "2000",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": null,
+      "barcode": "075596062329",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "c2730eec-dbaa-45f8-a8c7-97f3d273691e",
+      "title": "Eagles",
+      "cover-art-archive": {
+        "front": true,
+        "count": 7,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      },
+      "disambiguation": ""
+    },
+    {
+      "title": "Eagles",
+      "id": "e7c3c70a-90e3-412f-928a-61a0f2d33601",
+      "barcode": "821797222969",
+      "packaging-id": null,
+      "asin": null,
+      "cover-art-archive": {
+        "count": 9,
+        "front": true,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      },
+      "disambiguation": "",
+      "date": "2021-08-16",
+      "packaging": null,
+      "country": "US",
+      "media": [
+        {
+          "format-id": "1a168dbd-d7ce-381d-a38a-3948de2cb4d6",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Take It Easy",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "first-release-date": "1972-06-01",
+                "length": 211600
+              },
+              "number": "1",
+              "id": "933777c3-aa57-4991-8a1c-006e1e3a1faf",
+              "title": "Take It Easy",
+              "length": 213426
+            },
+            {
+              "number": "2",
+              "recording": {
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "title": "Witchy Woman",
+                "length": 252000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2,
+              "id": "01cea5cc-09f2-444a-b254-59688616a25d",
+              "title": "Witchy Woman",
+              "length": 251653
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "length": 197000
+              },
+              "position": 3,
+              "number": "3",
+              "id": "06c17e49-a0b1-4cfd-a8a8-8c83e76ff968",
+              "title": "Chug All Night",
+              "length": 196586
+            },
+            {
+              "length": 215933,
+              "id": "a70c6d71-c57b-4831-9ee2-9e4ab103bc1f",
+              "title": "Most of Us Are Sad",
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "length": 216000,
+                "title": "Most of Us Are Sad",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              }
+            },
+            {
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "first-release-date": "1972-06-01",
+                "length": 248000,
+                "video": false
+              },
+              "number": "5",
+              "length": 250866,
+              "title": "Nightingale",
+              "id": "2ccb5db1-f673-457b-af18-f9bde4be0469"
+            },
+            {
+              "id": "3493366b-3433-48d9-8eab-e9df5acae50c",
+              "title": "Train Leaves Here This Morning",
+              "length": 250693,
+              "position": 6,
+              "recording": {
+                "video": false,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "length": 250457,
+                "disambiguation": ""
+              },
+              "number": "6"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "first-release-date": "1972-06-01",
+                "title": "Take the Devil",
+                "length": 242000,
+                "video": false
+              },
+              "position": 7,
+              "number": "7",
+              "id": "632562ed-c488-4e91-9100-38752c5365dd",
+              "title": "Take the Devil",
+              "length": 241626
+            },
+            {
+              "length": 180360,
+              "id": "82a1137e-8cf8-4f9a-839f-f00cc0a94b5c",
+              "title": "Earlybird",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 180413,
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "first-release-date": "1972-06-01",
+                "title": "Earlybird"
+              },
+              "position": 8,
+              "number": "8"
+            },
+            {
+              "position": 9,
+              "recording": {
+                "video": false,
+                "length": 257962,
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "title": "Peaceful Easy Feeling",
+                "disambiguation": ""
+              },
+              "number": "9",
+              "title": "Peaceful Easy Feeling",
+              "id": "b44f11d4-652a-410c-9d89-a15cb66f5386",
+              "length": 258093
+            },
+            {
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "video": false,
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "title": "Tryin’",
+                "length": 174733,
+                "disambiguation": ""
+              },
+              "title": "Tryin’",
+              "id": "fb0d9b96-31c6-4358-b5a4-98fa7f5af1a7",
+              "length": 175000
+            }
+          ],
+          "title": "",
+          "id": "2ed800a3-211e-35e1-a383-3c93ce23b999",
+          "track-count": 10,
+          "format": "Hybrid SACD (CD layer)",
+          "track-offset": 0,
+          "position": 1
+        },
+        {
+          "position": 2,
+          "track-offset": 0,
+          "id": "978d074e-d854-3a28-89f7-518e0a81b5c3",
+          "track-count": 10,
+          "title": "",
+          "format": "Hybrid SACD (SACD layer, 2 channels)",
+          "tracks": [
+            {
+              "recording": {
+                "video": false,
+                "length": 211600,
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "title": "Take It Easy",
+                "first-release-date": "1972-06-01",
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1",
+              "length": 213000,
+              "id": "47083798-678a-47bc-b9c8-d34369816b3e",
+              "title": "Take It Easy"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 252000,
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "title": "Witchy Woman",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "position": 2,
+              "number": "2",
+              "id": "5b08f16b-7f7a-4fea-bd48-dece5ac3c0c4",
+              "title": "Witchy Woman",
+              "length": 252000
+            },
+            {
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 197000,
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "disambiguation": ""
+              },
+              "number": "3",
+              "length": 197000,
+              "title": "Chug All Night",
+              "id": "6c0e07d8-d250-4b9c-b5f0-d43a378c6d46"
+            },
+            {
+              "recording": {
+                "length": 216000,
+                "first-release-date": "1972-06-01",
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "title": "Most of Us Are Sad",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "number": "4",
+              "id": "625d9f11-08b2-40d9-91ab-385baed7b4a5",
+              "title": "Most of Us Are Sad",
+              "length": 216000
+            },
+            {
+              "position": 5,
+              "recording": {
+                "video": false,
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "first-release-date": "1972-06-01",
+                "length": 248000,
+                "disambiguation": ""
+              },
+              "number": "5",
+              "length": 251000,
+              "title": "Nightingale",
+              "id": "82792ab0-0dcd-4f25-afce-006404ed540a"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "title": "Train Leaves Here This Morning",
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "first-release-date": "1972-06-01",
+                "length": 250457,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "6",
+              "length": 251000,
+              "id": "8de4a2df-78b9-469a-ade6-ee8b2719375b",
+              "title": "Train Leaves Here This Morning"
+            },
+            {
+              "length": 242000,
+              "id": "24603912-48c3-456b-af37-2267f6d51f63",
+              "title": "Take the Devil",
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "first-release-date": "1972-06-01",
+                "length": 242000,
+                "video": false
+              },
+              "position": 7
+            },
+            {
+              "number": "8",
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1972-06-01",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird",
+                "length": 180413,
+                "video": false
+              },
+              "position": 8,
+              "id": "6987708c-9af8-49dd-b26e-f56655f19b0e",
+              "title": "Earlybird",
+              "length": 180000
+            },
+            {
+              "number": "9",
+              "recording": {
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "title": "Peaceful Easy Feeling",
+                "first-release-date": "1972-06-01",
+                "length": 257962,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 9,
+              "title": "Peaceful Easy Feeling",
+              "id": "19c7ab25-c15a-4e4c-bb07-20a7158921ec",
+              "length": 258000
+            },
+            {
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Tryin’",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "first-release-date": "1972-06-01",
+                "length": 174733
+              },
+              "number": "10",
+              "length": 175000,
+              "title": "Tryin’",
+              "id": "1aaa77c2-0746-44a1-ac65-fdcfc65ca443"
+            }
+          ],
+          "format-id": "6c521ee3-f723-41de-bc6b-ec3621b9ffa9"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2021-08-16",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null
+          }
+        }
+      ]
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2013-04-26",
+          "area": {
+            "sort-name": "[Worldwide]",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "2013-04-26",
+      "packaging": "None",
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "id": "f60dc209-cf27-48de-94f8-6749247b19cc",
+              "title": "Take It Easy",
+              "length": 211000,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 211600,
+                "first-release-date": "1972-06-01",
+                "id": "a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+                "title": "Take It Easy"
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "title": "Witchy Woman",
+              "id": "64977b23-d43f-4eb5-ac9b-8a5c4e441749",
+              "length": 250000,
+              "recording": {
+                "disambiguation": "",
+                "length": 252000,
+                "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+                "first-release-date": "1972-06-01",
+                "title": "Witchy Woman",
+                "video": false
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "number": "3",
+              "recording": {
+                "length": 197000,
+                "id": "c4c84b29-af1b-498b-b291-39b90f270847",
+                "first-release-date": "1972-06-01",
+                "title": "Chug All Night",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 3,
+              "length": 195000,
+              "title": "Chug All Night",
+              "id": "97eb7dc6-f8b7-47e8-b0e8-4be21ce8bfdd"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 216000,
+                "id": "4d847a55-d0f4-4926-82a7-8ade8207acb0",
+                "first-release-date": "1972-06-01",
+                "title": "Most of Us Are Sad"
+              },
+              "position": 4,
+              "number": "4",
+              "length": 215000,
+              "id": "75528c1b-d2b4-4219-bfb7-852af5876db3",
+              "title": "Most of Us Are Sad"
+            },
+            {
+              "length": 245000,
+              "id": "3332be89-daed-4abc-9a70-4ee25a10875a",
+              "title": "Nightingale",
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "id": "6932e4bf-0d2d-4703-96ab-31a84d0a6210",
+                "title": "Nightingale",
+                "first-release-date": "1972-06-01",
+                "length": 248000,
+                "video": false
+              }
+            },
+            {
+              "length": 250000,
+              "title": "Train Leaves Here This Morning",
+              "id": "63eb643d-65b7-46ae-ad83-cdf0b8475c9d",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "length": 250457,
+                "id": "1e60b91a-3e53-4fd8-a22a-fc65a7606ef2",
+                "title": "Train Leaves Here This Morning",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "number": "6"
+            },
+            {
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1972-06-01",
+                "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+                "title": "Take the Devil",
+                "length": 242000,
+                "video": false
+              },
+              "title": "Take the Devil",
+              "id": "33183229-c164-4415-9598-5c905f0a4b62",
+              "length": 240000
+            },
+            {
+              "length": 179000,
+              "title": "Earlybird",
+              "id": "8accf40b-60f0-4376-8b76-14d77fd10895",
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 180413,
+                "first-release-date": "1972-06-01",
+                "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+                "title": "Earlybird"
+              }
+            },
+            {
+              "id": "ac79136a-8a81-4a7f-97b1-0feadac527d3",
+              "title": "Peaceful Easy Feeling",
+              "length": 257000,
+              "number": "9",
+              "recording": {
+                "disambiguation": "",
+                "length": 257962,
+                "title": "Peaceful Easy Feeling",
+                "id": "0f026cb2-07ab-4e4a-aaf2-cb9e1a902969",
+                "first-release-date": "1972-06-01",
+                "video": false
+              },
+              "position": 9
+            },
+            {
+              "title": "Tryin’",
+              "id": "12322121-25f7-4e77-a4b6-60d5c2beac72",
+              "length": 173000,
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "length": 174733,
+                "first-release-date": "1972-06-01",
+                "id": "fed673c6-2c96-4d64-b478-e6d4c668be8d",
+                "title": "Tryin’",
+                "video": false,
+                "disambiguation": ""
+              }
+            }
+          ],
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1,
+          "track-offset": 0,
+          "format": "Digital Media",
+          "title": "",
+          "id": "8f225463-8070-36d0-9245-961a21754c55",
+          "track-count": 10
+        }
+      ],
+      "country": "XW",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 1,
+        "front": true,
+        "artwork": true,
+        "back": false
+      },
+      "disambiguation": "",
+      "barcode": "603497923212",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "asin": null,
+      "title": "Eagles",
+      "id": "f1af7555-4ef3-4d46-9244-b20c264d957b"
+    }
+  ]
+}

@@ -1,0 +1,3649 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=022e4221-f872-39e2-bac5-d924c849a52d&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-count": 15,
+  "release-offset": 0,
+  "releases": [
+    {
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 1,
+        "artwork": true,
+        "back": false
+      },
+      "disambiguation": "",
+      "barcode": "015775157729",
+      "packaging-id": null,
+      "asin": "B000000ISJ",
+      "id": "145963b4-25d0-3be2-afc4-ecae79b1300b",
+      "title": "Born Under a Bad Sign",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          },
+          "date": "1993-04-06"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "1993-04-06",
+      "packaging": null,
+      "country": "US",
+      "media": [
+        {
+          "position": 1,
+          "track-offset": 0,
+          "format": "CD",
+          "title": "",
+          "id": "f77a6e17-7964-354d-9b07-425a6f8047b9",
+          "track-count": 11,
+          "tracks": [
+            {
+              "length": 169906,
+              "title": "Born Under a Bad Sign",
+              "id": "79b6e89e-556b-3a6a-8f98-28791777477b",
+              "recording": {
+                "length": 167333,
+                "first-release-date": "1984",
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "title": "Crosscut Saw",
+              "id": "bd4135f0-eced-3de1-9cc0-a17f9c8c8902",
+              "length": 157653,
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "title": "Crosscut Saw",
+                "first-release-date": "1986",
+                "length": 155000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "3",
+              "recording": {
+                "length": 154000,
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "first-release-date": "1989",
+                "title": "Kansas City",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 3,
+              "length": 155226,
+              "title": "Kansas City",
+              "id": "e55300bd-2b6f-315a-a51e-997aae34f38e"
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "length": 170000,
+                "first-release-date": "1969",
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "disambiguation": ""
+              },
+              "id": "391d4bc6-d2b9-3de9-8123-0db071e8728d",
+              "title": "Oh, Pretty Woman",
+              "length": 170906
+            },
+            {
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 132706,
+                "first-release-date": "1989",
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "title": "Down Don’t Bother Me",
+                "video": false
+              },
+              "title": "Down Don’t Bother Me",
+              "id": "bfdfb6a5-d6f7-302d-ab1c-8183daeb153c",
+              "length": 132706
+            },
+            {
+              "id": "ea07f562-cf66-3f3b-91e7-6cad17a0876c",
+              "title": "The Hunter",
+              "length": 167746,
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "video": false,
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "first-release-date": "1993-04-06",
+                "title": "The Hunter",
+                "length": 165920,
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "id": "fba7e6b8-31ad-4a3b-a3f4-2eec8085e4eb",
+                "title": "I Almost Lost My Mind",
+                "first-release-date": "1993-04-06",
+                "length": 212773,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 212773,
+              "title": "I Almost Lost My Mind",
+              "id": "29851d77-cc4b-3184-b09b-0babcd710475"
+            },
+            {
+              "length": 273333,
+              "id": "88c991d5-e22f-3dc9-a76c-ce3892a5e7f6",
+              "title": "Personal Manager",
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "video": false,
+                "length": 272133,
+                "first-release-date": "1993-04-06",
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "title": "Personal Manager",
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 203506,
+              "title": "Laundromat Blues",
+              "id": "5babce4a-e2a1-3332-ad4e-a4e1eebce8e7",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "length": 202120,
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "title": "Laundromat Blues",
+                "first-release-date": "1989",
+                "video": false
+              },
+              "number": "9"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 229986,
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "title": "As the Years Go Passing By",
+                "first-release-date": "1993-04-06"
+              },
+              "position": 10,
+              "number": "10",
+              "title": "As the Years Go Passing By",
+              "id": "c0365e0e-2e85-3479-830c-5c29ce48f97c",
+              "length": 230773
+            },
+            {
+              "length": 227000,
+              "id": "8b412fcc-4550-32cb-996e-9dcb2b740d13",
+              "title": "The Very Thought of You",
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "first-release-date": "1993-04-06",
+                "title": "The Very Thought of You",
+                "length": 227000,
+                "video": false,
+                "disambiguation": ""
+              }
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "status": "Official"
+    },
+    {
+      "date": "2023-05-12",
+      "packaging": "Super Jewel Box",
+      "media": [
+        {
+          "id": "ccfca2bf-4bc8-3220-9b7a-0e9f528a0982",
+          "track-count": 11,
+          "title": "",
+          "format": "Hybrid SACD (CD layer)",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "1a168dbd-d7ce-381d-a38a-3948de2cb4d6",
+          "tracks": [
+            {
+              "length": 167693,
+              "title": "Born Under a Bad Sign",
+              "id": "459df5da-a5ea-4357-b9ee-1846b037aa3b",
+              "recording": {
+                "length": 167333,
+                "first-release-date": "1984",
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "first-release-date": "1986",
+                "title": "Crosscut Saw",
+                "length": 155000,
+                "disambiguation": ""
+              },
+              "length": 156226,
+              "title": "Crosscut Saw",
+              "id": "e9148fe6-084a-4024-9790-edc3a0284bad"
+            },
+            {
+              "length": 153346,
+              "id": "aad1b72a-a7dc-492e-b9f7-5d7187e9d2ac",
+              "title": "Kansas City",
+              "recording": {
+                "disambiguation": "",
+                "length": 154000,
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "first-release-date": "1989",
+                "title": "Kansas City",
+                "video": false
+              },
+              "position": 3,
+              "number": "3"
+            },
+            {
+              "length": 170333,
+              "id": "8a1e67e9-64e4-4246-ab1a-7ac63d14f934",
+              "title": "Oh, Pretty Woman",
+              "number": "4",
+              "recording": {
+                "video": false,
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "first-release-date": "1969",
+                "length": 170000,
+                "disambiguation": ""
+              },
+              "position": 4
+            },
+            {
+              "length": 131186,
+              "title": "Down Don’t Bother Me",
+              "id": "86ecdfa1-183c-4f5a-ab7a-ec338bacf065",
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "video": false,
+                "title": "Down Don’t Bother Me",
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "first-release-date": "1989",
+                "length": 132706,
+                "disambiguation": ""
+              }
+            },
+            {
+              "id": "fb278da1-cfbe-4c51-9c73-37316ee40dad",
+              "title": "The Hunter",
+              "length": 165920,
+              "position": 6,
+              "recording": {
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "title": "The Hunter",
+                "first-release-date": "1993-04-06",
+                "length": 165920,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "6"
+            },
+            {
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "first-release-date": "1993",
+                "id": "60ff9bf8-b4b0-4544-8db6-341ddd4bc984",
+                "title": "I Almost Lost My Mind",
+                "length": 211000,
+                "disambiguation": ""
+              },
+              "length": 211360,
+              "title": "I Almost Lost My Mind",
+              "id": "8d7e03b0-28d3-435e-8078-7a496cce9d8e"
+            },
+            {
+              "number": "8",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 272133,
+                "title": "Personal Manager",
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "first-release-date": "1993-04-06"
+              },
+              "position": 8,
+              "title": "Personal Manager",
+              "id": "34fcdb37-ba43-4616-beb1-15f521e4707b",
+              "length": 272133
+            },
+            {
+              "title": "Laundromat Blues",
+              "id": "a02813f7-48ec-486d-8917-c3f5eced6b27",
+              "length": 202120,
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "length": 202120,
+                "first-release-date": "1989",
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "title": "Laundromat Blues",
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "title": "As the Years Go Passing By",
+                "first-release-date": "1993-04-06",
+                "length": 229986
+              },
+              "position": 10,
+              "number": "10",
+              "title": "As the Years Go Passing By",
+              "id": "66e34d7a-b6a5-4b90-b699-5db3ec847193",
+              "length": 229986
+            },
+            {
+              "number": "11",
+              "recording": {
+                "disambiguation": "",
+                "title": "The Very Thought of You",
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "first-release-date": "1993-04-06",
+                "length": 227000,
+                "video": false
+              },
+              "position": 11,
+              "id": "592dc614-bdc0-43cc-ab06-133e01ea2479",
+              "title": "The Very Thought of You",
+              "length": 227306
+            }
+          ]
+        },
+        {
+          "tracks": [
+            {
+              "title": "Born Under a Bad Sign",
+              "id": "3d234d57-4ed6-4d66-80b2-960143e9bb2f",
+              "length": 169906,
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 167333,
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign",
+                "first-release-date": "1984"
+              },
+              "number": "1"
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "title": "Crosscut Saw",
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "first-release-date": "1986",
+                "length": 155000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 157653,
+              "title": "Crosscut Saw",
+              "id": "f1d01976-ddec-4b95-a545-5ba5c07f7038"
+            },
+            {
+              "position": 3,
+              "recording": {
+                "length": 154000,
+                "title": "Kansas City",
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "first-release-date": "1989",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "3",
+              "title": "Kansas City",
+              "id": "d8d4205e-a072-45ef-a53f-f197098c1663",
+              "length": 155226
+            },
+            {
+              "length": 170906,
+              "id": "d49cae88-fbce-4f4a-974e-733ffa616d97",
+              "title": "Oh, Pretty Woman",
+              "number": "4",
+              "recording": {
+                "disambiguation": "",
+                "title": "Oh, Pretty Woman",
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "first-release-date": "1969",
+                "length": 170000,
+                "video": false
+              },
+              "position": 4
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 132706,
+                "first-release-date": "1989",
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "title": "Down Don’t Bother Me",
+                "disambiguation": ""
+              },
+              "position": 5,
+              "number": "5",
+              "title": "Down Don’t Bother Me",
+              "id": "941a3490-badc-489e-a8f7-341fde8eb75d",
+              "length": 132706
+            },
+            {
+              "length": 167746,
+              "title": "The Hunter",
+              "id": "ff05307b-3add-4e2e-ba23-77ac23e0b1b0",
+              "recording": {
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "first-release-date": "1993-04-06",
+                "title": "The Hunter",
+                "length": 165920,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "title": "I Almost Lost My Mind",
+              "id": "c877f6ab-8f4f-4e28-843b-04498dc9311c",
+              "length": 212773,
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "length": 211000,
+                "id": "60ff9bf8-b4b0-4544-8db6-341ddd4bc984",
+                "first-release-date": "1993",
+                "title": "I Almost Lost My Mind",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 273333,
+              "id": "66e6cc6f-f217-4a8e-b000-5a4c3c4822a9",
+              "title": "Personal Manager",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "length": 272133,
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "first-release-date": "1993-04-06",
+                "title": "Personal Manager",
+                "video": false
+              },
+              "number": "8"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "first-release-date": "1989",
+                "title": "Laundromat Blues",
+                "length": 202120,
+                "video": false
+              },
+              "position": 9,
+              "number": "9",
+              "length": 203506,
+              "title": "Laundromat Blues",
+              "id": "bc914ee1-6937-42f1-8807-56ad4e747208"
+            },
+            {
+              "number": "10",
+              "recording": {
+                "disambiguation": "",
+                "length": 229986,
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "first-release-date": "1993-04-06",
+                "title": "As the Years Go Passing By",
+                "video": false
+              },
+              "position": 10,
+              "id": "1e9a1d5f-2732-43f0-a912-85aab2c940c5",
+              "title": "As the Years Go Passing By",
+              "length": 230773
+            },
+            {
+              "length": 227000,
+              "title": "The Very Thought of You",
+              "id": "b1a455ff-7491-47d7-acba-4b1021bdb0aa",
+              "position": 11,
+              "recording": {
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "title": "The Very Thought of You",
+                "first-release-date": "1993-04-06",
+                "length": 227000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "11"
+            }
+          ],
+          "format-id": "6c521ee3-f723-41de-bc6b-ec3621b9ffa9",
+          "position": 2,
+          "track-offset": 0,
+          "format": "Hybrid SACD (SACD layer, 2 channels)",
+          "title": "",
+          "id": "edd10336-1edb-3152-909b-78c06bb1b3b7",
+          "track-count": 11
+        }
+      ],
+      "country": "US",
+      "status": "Official",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2023-05-12",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "barcode": "888072416895",
+      "packaging-id": "dfb7da53-866f-4dfd-a016-80bafaeff3db",
+      "asin": null,
+      "id": "208d0fd9-a4c9-4272-8d8d-ddf42bdd9017",
+      "title": "Born Under a Bad Sign",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 3,
+        "front": true,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": ""
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2013",
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "2013",
+      "packaging": null,
+      "media": [
+        {
+          "tracks": [
+            {
+              "title": "Born Under a Bad Sign",
+              "id": "04a8bf3a-51a4-4cd5-8943-35708d3bd92b",
+              "length": 169000,
+              "number": "1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 167333,
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign",
+                "first-release-date": "1984"
+              },
+              "position": 1
+            },
+            {
+              "length": 155000,
+              "title": "Crosscut Saw",
+              "id": "691b1f53-cba4-4a3f-87b6-d97c7e51311c",
+              "recording": {
+                "video": false,
+                "length": 155000,
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "title": "Crosscut Saw",
+                "first-release-date": "1986",
+                "disambiguation": ""
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "id": "18df066b-ba3b-4556-8162-6ee1ccfef9c7",
+              "title": "Kansas City",
+              "length": 153000,
+              "recording": {
+                "disambiguation": "",
+                "length": 154000,
+                "title": "Kansas City",
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "first-release-date": "1989",
+                "video": false
+              },
+              "position": 3,
+              "number": "3"
+            },
+            {
+              "id": "2df971aa-21c8-4332-8418-ba26a27f9b4a",
+              "title": "Oh, Pretty Woman",
+              "length": 170000,
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1969",
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "length": 170000,
+                "video": false
+              }
+            },
+            {
+              "title": "Down Don’t Bother Me",
+              "id": "119bf296-e118-43b9-92c7-065679fc6de8",
+              "length": 131000,
+              "number": "5",
+              "recording": {
+                "disambiguation": "",
+                "title": "Down Don’t Bother Me",
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "first-release-date": "1989",
+                "length": 132706,
+                "video": false
+              },
+              "position": 5
+            },
+            {
+              "title": "The Hunter",
+              "id": "2f2b7d6a-9815-4701-a514-68a177e0329c",
+              "length": 165000,
+              "recording": {
+                "video": false,
+                "length": 165920,
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "title": "The Hunter",
+                "first-release-date": "1993-04-06",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "title": "I Almost Lost My Mind",
+                "id": "60ff9bf8-b4b0-4544-8db6-341ddd4bc984",
+                "first-release-date": "1993",
+                "length": 211000,
+                "video": false
+              },
+              "position": 7,
+              "id": "2179a622-a824-4ce4-9c4e-d355708b83fe",
+              "title": "I Almost Lost My Mind",
+              "length": 211000
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1993-04-06",
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "title": "Personal Manager",
+                "length": 272133
+              },
+              "number": "8",
+              "length": 271000,
+              "title": "Personal Manager",
+              "id": "98b896d5-1602-43dd-8109-9eab0888d9e6"
+            },
+            {
+              "id": "649ef5d6-bd66-4f0c-971c-1a97d5683990",
+              "title": "Laundromat Blues",
+              "length": 202000,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "first-release-date": "1989",
+                "title": "Laundromat Blues",
+                "length": 202120
+              },
+              "position": 9,
+              "number": "9"
+            },
+            {
+              "id": "8b017dee-8718-4db4-820e-1b2e4d560a1f",
+              "title": "As the Years Go Passing By",
+              "length": 227000,
+              "number": "10",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 229986,
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "first-release-date": "1993-04-06",
+                "title": "As the Years Go Passing By"
+              },
+              "position": 10
+            },
+            {
+              "length": 230000,
+              "title": "The Very Thought of You",
+              "id": "12de1d83-2bf9-49e7-8d8b-efd2bfdbb7c2",
+              "recording": {
+                "disambiguation": "",
+                "length": 227000,
+                "first-release-date": "1993-04-06",
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "title": "The Very Thought of You",
+                "video": false
+              },
+              "position": 11,
+              "number": "11"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "4a0bdccb-9065-4b4e-a7e4-39b5dd99d11f",
+                "first-release-date": "2013-04-02",
+                "title": "Born Under A Bad Sign",
+                "length": 172000,
+                "video": false
+              },
+              "position": 12,
+              "number": "12",
+              "id": "f67ab451-b873-4814-8e0e-7a3f3cec2dbd",
+              "title": "Born Under a Bad Sign (take 1)",
+              "length": 172000
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 181000,
+                "first-release-date": "2013-04-02",
+                "id": "725aed1b-530c-4e2b-9626-b56390330ce8",
+                "title": "Crosscut Saw (take 1)"
+              },
+              "position": 13,
+              "number": "13",
+              "title": "Crosscut Saw (take 1)",
+              "id": "fd88d43a-f138-43e7-aef3-df025c175d26",
+              "length": 181000
+            },
+            {
+              "length": 168000,
+              "title": "The Hunter (take 1)",
+              "id": "55b536d5-2283-49f1-b746-46974f286391",
+              "number": "14",
+              "position": 14,
+              "recording": {
+                "video": false,
+                "id": "dbfd4b24-8282-44fd-852e-312f36932e19",
+                "title": "The Hunter (take 1)",
+                "first-release-date": "2013-04-02",
+                "length": 168000,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 201000,
+              "title": "Personal Manager (take 1)",
+              "id": "2ef5abf2-400f-4413-a351-5b48b636ab1a",
+              "number": "15",
+              "recording": {
+                "video": false,
+                "title": "Personal Manager (take 1)",
+                "id": "0483f385-88a5-4344-96c4-f5330407e298",
+                "first-release-date": "2013-04-02",
+                "length": 201000,
+                "disambiguation": ""
+              },
+              "position": 15
+            },
+            {
+              "length": 126000,
+              "id": "b31bf4b8-1a4f-4d73-8fa1-8840d9dea968",
+              "title": "Untitled Instrumental (take 1)",
+              "position": 16,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 126000,
+                "title": "Untitled Instrumental (take 1)",
+                "id": "95c4effb-e3a6-4f94-b188-7bb39e0b5d8f",
+                "first-release-date": "2013-04-02"
+              },
+              "number": "16"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-offset": 0,
+          "format": "CD",
+          "id": "011d745f-d14b-38ca-9b12-0f29e4c736db",
+          "title": "",
+          "track-count": 16
+        }
+      ],
+      "country": "XE",
+      "status": "Official",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 12,
+        "front": true,
+        "back": true,
+        "artwork": true
+      },
+      "disambiguation": "",
+      "barcode": "888072343344",
+      "packaging-id": null,
+      "asin": null,
+      "id": "2f20ec93-83a0-4e55-828c-1c87634f82fc",
+      "title": "Born Under a Bad Sign"
+    },
+    {
+      "barcode": "4260019715470",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null,
+      "id": "3f2bf97b-fd4a-4c6c-bd2f-f016e5231c59",
+      "title": "Born Under a Bad Sign",
+      "disambiguation": "Stereo Remaster 180g",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": false,
+        "darkened": false,
+        "count": 0,
+        "front": false
+      },
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "recording": {
+                "video": false,
+                "length": 167333,
+                "title": "Born Under a Bad Sign",
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "first-release-date": "1984",
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "A1",
+              "id": "f4b64445-0490-4d04-afe7-0e529610e727",
+              "title": "Born Under A Bad Sign",
+              "length": 165000
+            },
+            {
+              "id": "6518a227-9cc3-4255-bf93-ee61dc16fd70",
+              "title": "Crosscut Saw",
+              "length": 151000,
+              "recording": {
+                "length": 155000,
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "title": "Crosscut Saw",
+                "first-release-date": "1986",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2,
+              "number": "A2"
+            },
+            {
+              "id": "107dcf07-2504-4392-82a6-9d1f05f0d60b",
+              "title": "Kansas City",
+              "length": 149000,
+              "number": "A3",
+              "position": 3,
+              "recording": {
+                "length": 154000,
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "first-release-date": "1989",
+                "title": "Kansas City",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 170000,
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "first-release-date": "1969",
+                "video": false
+              },
+              "position": 4,
+              "number": "A4",
+              "title": "Oh, Pretty Woman",
+              "id": "46386f73-7fdd-49c9-8bd5-97281580b081",
+              "length": 165000
+            },
+            {
+              "title": "Down Don't Bother Me",
+              "id": "f2b2a843-85fc-480e-9e21-08da092afba4",
+              "length": 133000,
+              "position": 5,
+              "recording": {
+                "first-release-date": "1989",
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "title": "Down Don’t Bother Me",
+                "length": 132706,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "A5"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "video": false,
+                "first-release-date": "1993-04-06",
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "title": "The Hunter",
+                "length": 165920,
+                "disambiguation": ""
+              },
+              "number": "A6",
+              "length": 163000,
+              "id": "7a12cbd2-c70a-44b6-b72b-ee92afdc35bc",
+              "title": "The Hunter"
+            },
+            {
+              "length": 205000,
+              "id": "f0c8cd41-01d3-4ad8-8522-1660a9acb84d",
+              "title": "I Almost Lost My Mind",
+              "number": "B1",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "length": 211000,
+                "title": "I Almost Lost My Mind",
+                "id": "60ff9bf8-b4b0-4544-8db6-341ddd4bc984",
+                "first-release-date": "1993",
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "B2",
+              "recording": {
+                "length": 272133,
+                "title": "Personal Manager",
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "first-release-date": "1993-04-06",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "length": 268000,
+              "id": "90bb8ceb-ad5a-4894-845d-b0d3839f18a5",
+              "title": "Personal Manager"
+            },
+            {
+              "number": "B3",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "title": "Laundromat Blues",
+                "first-release-date": "1989",
+                "length": 202120
+              },
+              "title": "Laundromat Blues",
+              "id": "58b42953-a678-4ce9-bb3a-26e9457e8c43",
+              "length": 199000
+            },
+            {
+              "length": 223000,
+              "title": "As The Years Go Passing By",
+              "id": "721aab8c-45c7-4307-b22f-ec5229f220ae",
+              "number": "B4",
+              "recording": {
+                "length": 229986,
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "title": "As the Years Go Passing By",
+                "first-release-date": "1993-04-06",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 10
+            },
+            {
+              "length": 225000,
+              "id": "5e12f948-f772-4363-8ae6-4774755bfe43",
+              "title": "The Very Thought Of You",
+              "number": "B5",
+              "recording": {
+                "disambiguation": "",
+                "title": "The Very Thought of You",
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "first-release-date": "1993-04-06",
+                "length": 227000,
+                "video": false
+              },
+              "position": 11
+            }
+          ],
+          "id": "260a842c-1c03-30f5-8001-c3298df5bb43",
+          "track-count": 11,
+          "title": "",
+          "format": "12\" Vinyl",
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "country": "DE",
+      "status": "Official",
+      "date": "2018",
+      "packaging": "Cardboard/Paper Sleeve",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "type": null
+          },
+          "date": "2018"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal"
+    },
+    {
+      "country": "US",
+      "media": [
+        {
+          "track-count": 11,
+          "id": "1fc9fb7e-caf9-33ee-825c-f2fbe80b290b",
+          "title": "",
+          "format": "12\" Vinyl",
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "number": "A1",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 167333,
+                "first-release-date": "1984",
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign"
+              },
+              "title": "Born Under A Bad Sign",
+              "id": "65d09754-cdf3-4e00-9f0e-189dad5948f3",
+              "length": 165000
+            },
+            {
+              "length": 151000,
+              "id": "ecae71c7-a673-4800-adbf-2474c90184f9",
+              "title": "Crosscut Saw",
+              "number": "A2",
+              "recording": {
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "title": "Crosscut Saw",
+                "first-release-date": "1986",
+                "length": 155000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1989",
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "title": "Kansas City",
+                "length": 154000
+              },
+              "position": 3,
+              "number": "A3",
+              "length": 149000,
+              "title": "Kansas City",
+              "id": "d2c2281a-4211-4ba8-838a-716b2b61a624"
+            },
+            {
+              "recording": {
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "first-release-date": "1969",
+                "length": 170000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "number": "A4",
+              "id": "eb757f09-aefd-4aae-8f67-17ed8dbe06b6",
+              "title": "Oh, Pretty Woman",
+              "length": 165000
+            },
+            {
+              "position": 5,
+              "recording": {
+                "video": false,
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "title": "Down Don’t Bother Me",
+                "first-release-date": "1989",
+                "length": 132706,
+                "disambiguation": ""
+              },
+              "number": "A5",
+              "length": 133000,
+              "title": "Down Don't Bother Me",
+              "id": "48504c03-b67a-4411-a976-0a79ab1321c0"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 165920,
+                "first-release-date": "1993-04-06",
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "title": "The Hunter",
+                "disambiguation": ""
+              },
+              "number": "A6",
+              "title": "The Hunter",
+              "id": "d8e918da-9976-4c57-b042-d1ba4f3afd47",
+              "length": 163000
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 211000,
+                "title": "I Almost Lost My Mind",
+                "id": "60ff9bf8-b4b0-4544-8db6-341ddd4bc984",
+                "first-release-date": "1993"
+              },
+              "position": 7,
+              "number": "B1",
+              "length": 205000,
+              "id": "db0a279c-4e1c-4b1a-8782-dfe8634ee882",
+              "title": "I Almost Lost My Mind"
+            },
+            {
+              "number": "B2",
+              "recording": {
+                "disambiguation": "",
+                "title": "Personal Manager",
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "first-release-date": "1993-04-06",
+                "length": 272133,
+                "video": false
+              },
+              "position": 8,
+              "length": 268000,
+              "id": "2848df94-5e9f-4c75-86c7-d8fa1db61bf7",
+              "title": "Personal Manager"
+            },
+            {
+              "title": "Laundromat Blues",
+              "id": "290e77fc-abef-4d53-8d7e-79bff3e7f1df",
+              "length": 199000,
+              "number": "B3",
+              "position": 9,
+              "recording": {
+                "length": 202120,
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "first-release-date": "1989",
+                "title": "Laundromat Blues",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 229986,
+                "title": "As the Years Go Passing By",
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "first-release-date": "1993-04-06",
+                "video": false
+              },
+              "position": 10,
+              "number": "B4",
+              "length": 223000,
+              "id": "b5b0056e-92e6-444c-9f32-a4013baae5a4",
+              "title": "As The Years Go Passing By"
+            },
+            {
+              "id": "192329b0-ed58-41e8-8870-b903a3e16f9b",
+              "title": "The Very Thought Of You",
+              "length": 225000,
+              "recording": {
+                "disambiguation": "",
+                "length": 227000,
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "first-release-date": "1993-04-06",
+                "title": "The Very Thought of You",
+                "video": false
+              },
+              "position": 11,
+              "number": "B5"
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "2023",
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States"
+          },
+          "date": "2023"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": null,
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "888072416888",
+      "title": "Born Under A Bad Sign",
+      "id": "513dfcdd-15bc-43e0-81a2-e9aef0ce61b6",
+      "disambiguation": "180g Stereo Reissue",
+      "cover-art-archive": {
+        "front": false,
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "artwork": false
+      }
+    },
+    {
+      "text-representation": {
+        "script": null,
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2019-04-13",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "media": [
+        {
+          "format": "12\" Vinyl",
+          "track-count": 11,
+          "id": "3c528514-7b25-3feb-ab59-1a18816d1607",
+          "title": "",
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "title": "Born Under a Bad Sign",
+                "id": "a8e42f90-9240-438c-8ded-4f4f3ef1997d",
+                "first-release-date": "1967-08",
+                "length": 169906,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "number": "1",
+              "id": "ef03764a-c341-454a-bb23-0ca55934960f",
+              "title": "Born Under a Bad Sign",
+              "length": 169906
+            },
+            {
+              "position": 2,
+              "recording": {
+                "length": 157653,
+                "id": "284fbdb3-c585-494e-9eab-a18e6f376454",
+                "first-release-date": "1967-08",
+                "title": "Crosscut Saw",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "number": "2",
+              "title": "Crosscut Saw",
+              "id": "e23302bb-9474-4ae9-b041-56b86bc1c6ca",
+              "length": 157653
+            },
+            {
+              "title": "Kansas City",
+              "id": "0b2747dd-f8dc-498f-90f4-e59cffbe967c",
+              "length": 155226,
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "title": "Kansas City",
+                "id": "4242eb38-8b10-4c71-b1d5-d0c9dcd21955",
+                "first-release-date": "1967-08",
+                "length": 155226,
+                "video": false,
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "recording": {
+                "title": "Oh, Pretty Woman",
+                "id": "e97a63d0-5f45-4c66-982e-b5bed9788f7d",
+                "first-release-date": "1967-08",
+                "length": 170906,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 4,
+              "number": "4",
+              "length": 170906,
+              "title": "Oh, Pretty Woman",
+              "id": "9d6defc1-0165-4b0b-bdeb-8c445e4ce5f5"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "title": "Down Don’t Bother Me",
+                "id": "c1449664-62fc-48a3-939f-cc49565a8772",
+                "first-release-date": "1967-08",
+                "length": 132706
+              },
+              "number": "5",
+              "length": 132706,
+              "title": "Down Don’t Bother Me",
+              "id": "13faef11-f724-4a7d-9e9c-dadee78fef59"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "bfb32d50-b2d1-4282-a008-a8cf4f028a50",
+                "first-release-date": "1967-08",
+                "title": "The Hunter",
+                "length": 167746
+              },
+              "number": "6",
+              "length": 167746,
+              "id": "0352eed2-256b-4eff-b31a-843a36a96960",
+              "title": "The Hunter"
+            },
+            {
+              "length": 212773,
+              "id": "d291c2fc-1dcb-431f-aa6b-e572185d14f2",
+              "title": "I Almost Lost My Mind",
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 212773,
+                "first-release-date": "1967-08",
+                "id": "8a447c52-6024-4f9d-8dee-aee2b06b9fc7",
+                "title": "I Almost Lost My Mind",
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "id": "3bda6b29-0140-4a14-8554-165a2e8d2ea4",
+                "title": "Personal Manager",
+                "first-release-date": "1967-08",
+                "length": 273333,
+                "video": false
+              },
+              "position": 8,
+              "number": "8",
+              "length": 273333,
+              "id": "c0b97715-34cc-4090-9a29-4aa6d293d72b",
+              "title": "Personal Manager"
+            },
+            {
+              "position": 9,
+              "recording": {
+                "video": false,
+                "length": 203506,
+                "id": "3f88c6af-cf42-4159-9433-f48b1fd9f1b5",
+                "title": "Laundromat Blues",
+                "first-release-date": "1967-08",
+                "disambiguation": "mono"
+              },
+              "number": "9",
+              "title": "Laundromat Blues",
+              "id": "1d8e4518-48d2-4b38-b539-a05fca78f637",
+              "length": 203506
+            },
+            {
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "video": false,
+                "length": 230773,
+                "first-release-date": "1967-08",
+                "id": "dd505920-6b7a-4d88-b85b-e6c4822c493e",
+                "title": "As the Years Go Passing By",
+                "disambiguation": "mono"
+              },
+              "id": "d1ccb41a-a23e-4835-9753-6627eb5d72a0",
+              "title": "As the Years Go Passing By",
+              "length": 230773
+            },
+            {
+              "length": 227000,
+              "title": "The Very Thought of You",
+              "id": "6396999f-9b08-4f1b-a4e5-ec79fdd14cc5",
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 227000,
+                "id": "f3aab342-f501-43b4-8a6e-4b0bab40df39",
+                "title": "The Very Thought of You",
+                "first-release-date": "1967-08"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "country": "US",
+      "date": "2019-04-13",
+      "packaging": "Cardboard/Paper Sleeve",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 5,
+        "front": true,
+        "back": true,
+        "artwork": true
+      },
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "888072087583",
+      "asin": null,
+      "id": "546207da-e991-43ae-805a-0bb8fe5f93d9",
+      "title": "Born Under A Bad Sign"
+    },
+    {
+      "asin": "B00005JAWZ",
+      "barcode": "090204994946",
+      "packaging-id": null,
+      "title": "Born Under a Bad Sign",
+      "id": "76041515-b64c-3102-9f93-68e70bdaccdb",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "darkened": false,
+        "front": false,
+        "count": 0,
+        "artwork": false,
+        "back": false
+      },
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "format": "CD",
+          "track-count": 11,
+          "id": "10afd551-87ae-3eaf-95d9-2f141c8466de",
+          "title": "",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign",
+                "first-release-date": "1984",
+                "length": 167333,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "length": 169906,
+              "title": "Born Under a Bad Sign",
+              "id": "499eb62f-d8a0-3d8e-adcb-5e0ba6a50f80"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 155000,
+                "first-release-date": "1986",
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "title": "Crosscut Saw"
+              },
+              "position": 2,
+              "number": "2",
+              "title": "Crosscut Saw",
+              "id": "cfe1a9ae-e4a0-3ab0-8d34-d51e6701a06d",
+              "length": 157653
+            },
+            {
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "title": "Kansas City",
+                "first-release-date": "1989",
+                "length": 154000,
+                "video": false
+              },
+              "number": "3",
+              "title": "Kansas City",
+              "id": "f0b3dc9a-a5d1-39b2-96d7-cfdc7a68855f",
+              "length": 155226
+            },
+            {
+              "length": 170906,
+              "id": "b0738b21-eebe-38aa-8b4b-f680e8f9dc79",
+              "title": "Oh, Pretty Woman",
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "length": 170000,
+                "first-release-date": "1969",
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "video": false
+              }
+            },
+            {
+              "id": "cf43d056-a573-3eac-9799-413ace24c646",
+              "title": "Down Don't Bother Me",
+              "length": 132706,
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 132706,
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "first-release-date": "1989",
+                "title": "Down Don’t Bother Me",
+                "video": false
+              }
+            },
+            {
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 165920,
+                "first-release-date": "1993-04-06",
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "title": "The Hunter"
+              },
+              "title": "The Hunter",
+              "id": "066dc39a-a4cc-3bdd-9fa6-a36d648af682",
+              "length": 167746
+            },
+            {
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "length": 212773,
+                "id": "fba7e6b8-31ad-4a3b-a3f4-2eec8085e4eb",
+                "first-release-date": "1993-04-06",
+                "title": "I Almost Lost My Mind",
+                "disambiguation": ""
+              },
+              "length": 212773,
+              "id": "4fa775eb-8801-3ae9-aee3-11659740893b",
+              "title": "I Almost Lost My Mind"
+            },
+            {
+              "number": "8",
+              "recording": {
+                "video": false,
+                "length": 272133,
+                "title": "Personal Manager",
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "first-release-date": "1993-04-06",
+                "disambiguation": ""
+              },
+              "position": 8,
+              "length": 273333,
+              "title": "Personal Manager",
+              "id": "e0ea23ad-2051-3bb5-a358-01fa58a3dbdf"
+            },
+            {
+              "position": 9,
+              "recording": {
+                "video": false,
+                "length": 202120,
+                "first-release-date": "1989",
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "title": "Laundromat Blues",
+                "disambiguation": ""
+              },
+              "number": "9",
+              "title": "Laundromat Blues",
+              "id": "790422f3-1c92-3604-b8ce-97ee59af3748",
+              "length": 203506
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 229986,
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "title": "As the Years Go Passing By",
+                "first-release-date": "1993-04-06"
+              },
+              "position": 10,
+              "number": "10",
+              "title": "As the Years Go Passing By",
+              "id": "910da95c-8e0b-3e59-86a8-6a72dadae6ee",
+              "length": 230773
+            },
+            {
+              "position": 11,
+              "recording": {
+                "video": false,
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "title": "The Very Thought of You",
+                "first-release-date": "1993-04-06",
+                "length": 227000,
+                "disambiguation": ""
+              },
+              "number": "11",
+              "length": 227000,
+              "id": "9f00b8a2-e275-30f3-8833-18fdb614744e",
+              "title": "The Very Thought of You"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "country": "DE",
+      "status": "Official",
+      "packaging": null,
+      "date": "2002",
+      "release-events": [
+        {
+          "area": {
+            "name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type": null,
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "sort-name": "Germany",
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "date": "2002"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "cover-art-archive": {
+        "back": false,
+        "artwork": false,
+        "front": false,
+        "count": 0,
+        "darkened": false
+      },
+      "disambiguation": "mono",
+      "title": "Born Under a Bad Sign",
+      "id": "7c445ca5-3bc1-4606-ad01-528513c436e2",
+      "asin": null,
+      "barcode": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "2019-04-12",
+          "area": {
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "date": "2019-04-12",
+      "media": [
+        {
+          "id": "90fe3712-cd28-37f5-9104-0a02a6c9d1b0",
+          "track-count": 11,
+          "title": "",
+          "format": "Digital Media",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "tracks": [
+            {
+              "length": 169906,
+              "title": "Born Under a Bad Sign",
+              "id": "1e411cf0-21a4-46a3-ba15-5b9aaa974ac9",
+              "position": 1,
+              "recording": {
+                "id": "a8e42f90-9240-438c-8ded-4f4f3ef1997d",
+                "title": "Born Under a Bad Sign",
+                "first-release-date": "1967-08",
+                "length": 169906,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "number": "1"
+            },
+            {
+              "length": 157653,
+              "title": "Crosscut Saw",
+              "id": "c80eb112-3352-4c74-8efe-6cef9e519377",
+              "number": "2",
+              "recording": {
+                "length": 157653,
+                "title": "Crosscut Saw",
+                "id": "284fbdb3-c585-494e-9eab-a18e6f376454",
+                "first-release-date": "1967-08",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 2
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "id": "4242eb38-8b10-4c71-b1d5-d0c9dcd21955",
+                "title": "Kansas City",
+                "first-release-date": "1967-08",
+                "length": 155226,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "title": "Kansas City",
+              "id": "7c32ae16-a00f-40a1-866e-3aa4a0cbf4d2",
+              "length": 155226
+            },
+            {
+              "id": "548df0cd-20bc-4802-92be-a7b8cb75d4a7",
+              "title": "Oh, Pretty Woman",
+              "length": 170906,
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "first-release-date": "1967-08",
+                "id": "e97a63d0-5f45-4c66-982e-b5bed9788f7d",
+                "title": "Oh, Pretty Woman",
+                "length": 170906,
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "length": 132706,
+              "title": "Down Don’t Bother Me",
+              "id": "e1daf57c-01ff-4484-9987-8968a79f1f5f",
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "length": 132706,
+                "id": "c1449664-62fc-48a3-939f-cc49565a8772",
+                "title": "Down Don’t Bother Me",
+                "first-release-date": "1967-08"
+              }
+            },
+            {
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 167746,
+                "id": "bfb32d50-b2d1-4282-a008-a8cf4f028a50",
+                "first-release-date": "1967-08",
+                "title": "The Hunter",
+                "disambiguation": "mono"
+              },
+              "length": 167746,
+              "id": "1a42d5ef-7144-4d17-bd71-0767c3f5c7d5",
+              "title": "The Hunter"
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 212773,
+                "first-release-date": "1967-08",
+                "id": "8a447c52-6024-4f9d-8dee-aee2b06b9fc7",
+                "title": "I Almost Lost My Mind",
+                "disambiguation": "mono"
+              },
+              "position": 7,
+              "number": "7",
+              "length": 212773,
+              "title": "I Almost Lost My Mind",
+              "id": "795266e3-85ed-4143-9872-9e8a020e2fe4"
+            },
+            {
+              "length": 273333,
+              "id": "73971b23-13f3-4176-8718-0f521428b9b9",
+              "title": "Personal Manager",
+              "number": "8",
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "3bda6b29-0140-4a14-8554-165a2e8d2ea4",
+                "title": "Personal Manager",
+                "first-release-date": "1967-08",
+                "length": 273333
+              },
+              "position": 8
+            },
+            {
+              "number": "9",
+              "recording": {
+                "first-release-date": "1967-08",
+                "id": "3f88c6af-cf42-4159-9433-f48b1fd9f1b5",
+                "title": "Laundromat Blues",
+                "length": 203506,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 9,
+              "id": "eb11bddf-cc63-4be1-b1ab-198d808c1612",
+              "title": "Laundromat Blues",
+              "length": 203506
+            },
+            {
+              "recording": {
+                "video": false,
+                "id": "dd505920-6b7a-4d88-b85b-e6c4822c493e",
+                "title": "As the Years Go Passing By",
+                "first-release-date": "1967-08",
+                "length": 230773,
+                "disambiguation": "mono"
+              },
+              "position": 10,
+              "number": "10",
+              "length": 230773,
+              "title": "As the Years Go Passing By",
+              "id": "c73602e9-d06f-4738-b6dd-b3e252d5a8e6"
+            },
+            {
+              "title": "The Very Thought of You",
+              "id": "6f68caf3-7110-4511-bb1f-dc26fb77941e",
+              "length": 227000,
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1967-08",
+                "id": "f3aab342-f501-43b4-8a6e-4b0bab40df39",
+                "title": "The Very Thought of You",
+                "length": 227000,
+                "video": false
+              }
+            }
+          ]
+        }
+      ],
+      "country": "US",
+      "status": "Official"
+    },
+    {
+      "cover-art-archive": {
+        "artwork": true,
+        "back": false,
+        "front": true,
+        "count": 1,
+        "darkened": false
+      },
+      "disambiguation": "Stax Remasters",
+      "id": "7ebdb6e7-a2fb-43c4-8ef1-5c73e2309515",
+      "title": "Born Under a Bad Sign",
+      "asin": "B00BCMT4RA",
+      "packaging-id": null,
+      "barcode": "888072343344",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "2013-04-02",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "date": "2013-04-02",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 167333,
+                "first-release-date": "1984",
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign"
+              },
+              "position": 1,
+              "length": 169000,
+              "id": "336b8ad3-ee67-4a69-b50c-32c3feebab31",
+              "title": "Born Under a Bad Sign"
+            },
+            {
+              "length": 155000,
+              "id": "7b22a2b6-9f16-413e-8b29-fdde92e00948",
+              "title": "Crosscut Saw",
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 155000,
+                "title": "Crosscut Saw",
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "first-release-date": "1986",
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Kansas City",
+              "id": "d5c711db-16d1-4e6d-a948-9a944bbadf01",
+              "length": 153000,
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 154000,
+                "first-release-date": "1989",
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "title": "Kansas City",
+                "disambiguation": ""
+              },
+              "number": "3"
+            },
+            {
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 170000,
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "first-release-date": "1969"
+              },
+              "number": "4",
+              "title": "Oh, Pretty Woman",
+              "id": "764936fd-016c-4d45-8abe-16c4432f7b50",
+              "length": 170000
+            },
+            {
+              "number": "5",
+              "recording": {
+                "disambiguation": "",
+                "length": 132706,
+                "title": "Down Don’t Bother Me",
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "first-release-date": "1989",
+                "video": false
+              },
+              "position": 5,
+              "length": 131000,
+              "id": "93cd566a-8f44-4d22-ad14-322d6d22282b",
+              "title": "Down Don’t Bother Me"
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 165920,
+                "first-release-date": "1993-04-06",
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "title": "The Hunter",
+                "disambiguation": ""
+              },
+              "position": 6,
+              "number": "6",
+              "length": 165000,
+              "title": "The Hunter",
+              "id": "6063ea10-94bb-489e-b593-0075c490918b"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "60ff9bf8-b4b0-4544-8db6-341ddd4bc984",
+                "title": "I Almost Lost My Mind",
+                "first-release-date": "1993",
+                "length": 211000,
+                "video": false
+              },
+              "position": 7,
+              "number": "7",
+              "length": 211000,
+              "title": "I Almost Lost My Mind",
+              "id": "a52493b2-302b-4523-a1fa-dc52ec8a6710"
+            },
+            {
+              "number": "8",
+              "recording": {
+                "disambiguation": "",
+                "title": "Personal Manager",
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "first-release-date": "1993-04-06",
+                "length": 272133,
+                "video": false
+              },
+              "position": 8,
+              "title": "Personal Manager",
+              "id": "d0b6aac6-08cd-441e-9139-af5154136879",
+              "length": 271000
+            },
+            {
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 202120,
+                "title": "Laundromat Blues",
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "first-release-date": "1989"
+              },
+              "length": 202000,
+              "title": "Laundromat Blues",
+              "id": "9406071a-f142-494e-9937-d7880f3f3d3f"
+            },
+            {
+              "length": 227000,
+              "title": "As the Years Go Passing By",
+              "id": "2ab06c31-9510-4706-b3d7-12e27762d669",
+              "position": 10,
+              "recording": {
+                "first-release-date": "1993-04-06",
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "title": "As the Years Go Passing By",
+                "length": 229986,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "10"
+            },
+            {
+              "number": "11",
+              "recording": {
+                "video": false,
+                "first-release-date": "1993-04-06",
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "title": "The Very Thought of You",
+                "length": 227000,
+                "disambiguation": ""
+              },
+              "position": 11,
+              "title": "The Very Thought of You",
+              "id": "96cfcce5-403b-41be-aa37-73e1c7786e30",
+              "length": 230000
+            },
+            {
+              "length": 172000,
+              "id": "4c3b117f-bec9-447d-92bf-eb3a95ca6d43",
+              "title": "Born Under A Bad Sign (take 1 - alternate)",
+              "number": "12",
+              "recording": {
+                "video": false,
+                "length": 172000,
+                "id": "4a0bdccb-9065-4b4e-a7e4-39b5dd99d11f",
+                "first-release-date": "2013-04-02",
+                "title": "Born Under A Bad Sign",
+                "disambiguation": ""
+              },
+              "position": 12
+            },
+            {
+              "id": "4d25aaf2-f312-4332-a9d9-d1e3727ac292",
+              "title": "Crosscut Saw (take 1 - alternate)",
+              "length": 181000,
+              "position": 13,
+              "recording": {
+                "disambiguation": "",
+                "id": "725aed1b-530c-4e2b-9626-b56390330ce8",
+                "title": "Crosscut Saw (take 1)",
+                "first-release-date": "2013-04-02",
+                "length": 181000,
+                "video": false
+              },
+              "number": "13"
+            },
+            {
+              "recording": {
+                "video": false,
+                "title": "The Hunter (take 1)",
+                "id": "dbfd4b24-8282-44fd-852e-312f36932e19",
+                "first-release-date": "2013-04-02",
+                "length": 168000,
+                "disambiguation": ""
+              },
+              "position": 14,
+              "number": "14",
+              "length": 168000,
+              "id": "95a864c7-3fa4-4c58-a468-8365f719d427",
+              "title": "The Hunter (take 1 - alternate)"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 201000,
+                "id": "0483f385-88a5-4344-96c4-f5330407e298",
+                "title": "Personal Manager (take 1)",
+                "first-release-date": "2013-04-02"
+              },
+              "position": 15,
+              "number": "15",
+              "id": "9512d411-d5e4-47c7-be15-164e40fe9a73",
+              "title": "Personal Manager (take 15 - alternate)",
+              "length": 201000
+            },
+            {
+              "number": "16",
+              "position": 16,
+              "recording": {
+                "video": false,
+                "id": "95c4effb-e3a6-4f94-b188-7bb39e0b5d8f",
+                "title": "Untitled Instrumental (take 1)",
+                "first-release-date": "2013-04-02",
+                "length": 126000,
+                "disambiguation": ""
+              },
+              "title": "Untitled Instrumental",
+              "id": "6b2603c4-0674-45a5-874d-f7082c00cd20",
+              "length": 126000
+            }
+          ],
+          "format": "CD",
+          "id": "fee22de3-ef6c-3a65-9781-45fa5ab2c24c",
+          "title": "",
+          "track-count": 16,
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "US",
+      "status": "Official"
+    },
+    {
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 1,
+        "artwork": true,
+        "back": false
+      },
+      "disambiguation": "mono",
+      "id": "9f9ec056-1613-4f5d-9341-56e8a68708e3",
+      "title": "Born Under a Bad Sign",
+      "packaging-id": null,
+      "barcode": null,
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "1967-08",
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null
+          }
+        }
+      ],
+      "date": "1967-08",
+      "packaging": null,
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "title": "Born Under a Bad Sign",
+              "id": "c6a01bc9-de19-31d1-af7b-162a23afb63b",
+              "length": 169906,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "id": "a8e42f90-9240-438c-8ded-4f4f3ef1997d",
+                "first-release-date": "1967-08",
+                "title": "Born Under a Bad Sign",
+                "length": 169906
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "id": "46fd3983-e847-3764-abd1-8c59b5faef9e",
+              "title": "Crosscut Saw",
+              "length": 157653,
+              "recording": {
+                "video": false,
+                "title": "Crosscut Saw",
+                "id": "284fbdb3-c585-494e-9eab-a18e6f376454",
+                "first-release-date": "1967-08",
+                "length": 157653,
+                "disambiguation": "mono"
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "length": 155226,
+              "title": "Kansas City",
+              "id": "04d87ef3-e768-3822-b6a6-2d4cce97eda2",
+              "position": 3,
+              "recording": {
+                "length": 155226,
+                "first-release-date": "1967-08",
+                "id": "4242eb38-8b10-4c71-b1d5-d0c9dcd21955",
+                "title": "Kansas City",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "number": "3"
+            },
+            {
+              "length": 170906,
+              "id": "02fbb869-1cf9-3b3a-a987-360f67dbf7d1",
+              "title": "Oh, Pretty Woman",
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "title": "Oh, Pretty Woman",
+                "id": "e97a63d0-5f45-4c66-982e-b5bed9788f7d",
+                "first-release-date": "1967-08",
+                "length": 170906,
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "position": 5,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "first-release-date": "1967-08",
+                "id": "c1449664-62fc-48a3-939f-cc49565a8772",
+                "title": "Down Don’t Bother Me",
+                "length": 132706
+              },
+              "number": "5",
+              "id": "0a19c8f2-7004-3e12-a6b5-654b9ed27096",
+              "title": "Down Don't Bother Me",
+              "length": 132706
+            },
+            {
+              "number": "6",
+              "recording": {
+                "id": "bfb32d50-b2d1-4282-a008-a8cf4f028a50",
+                "title": "The Hunter",
+                "first-release-date": "1967-08",
+                "length": 167746,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 6,
+              "id": "6d3adbf2-4536-3b72-b3b5-8a0468670efa",
+              "title": "The Hunter",
+              "length": 167746
+            },
+            {
+              "length": 212773,
+              "title": "I Almost Lost My Mind",
+              "id": "3958ce69-347c-35f0-a503-72ae3a054594",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "length": 212773,
+                "first-release-date": "1967-08",
+                "id": "8a447c52-6024-4f9d-8dee-aee2b06b9fc7",
+                "title": "I Almost Lost My Mind",
+                "disambiguation": "mono"
+              },
+              "number": "7"
+            },
+            {
+              "title": "Personal Manager",
+              "id": "6a635fb5-90e0-310d-b3ef-cd9bd50c8d9a",
+              "length": 273333,
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "length": 273333,
+                "title": "Personal Manager",
+                "id": "3bda6b29-0140-4a14-8554-165a2e8d2ea4",
+                "first-release-date": "1967-08",
+                "video": false,
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "title": "Laundromat Blues",
+              "id": "8eacb054-69e3-36e5-aa21-4453bac2196a",
+              "length": 203506,
+              "number": "9",
+              "recording": {
+                "length": 203506,
+                "id": "3f88c6af-cf42-4159-9433-f48b1fd9f1b5",
+                "first-release-date": "1967-08",
+                "title": "Laundromat Blues",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 9
+            },
+            {
+              "number": "10",
+              "recording": {
+                "length": 230773,
+                "title": "As the Years Go Passing By",
+                "id": "dd505920-6b7a-4d88-b85b-e6c4822c493e",
+                "first-release-date": "1967-08",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 10,
+              "length": 230773,
+              "title": "As the Years Go Passing By",
+              "id": "7972709a-e7c2-335f-b928-8db758eeee06"
+            },
+            {
+              "id": "9ed6b5f6-fd3d-383e-a4a7-f30746e32301",
+              "title": "The Very Thought of You",
+              "length": 227000,
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "length": 227000,
+                "id": "f3aab342-f501-43b4-8a6e-4b0bab40df39",
+                "first-release-date": "1967-08",
+                "title": "The Very Thought of You",
+                "video": false,
+                "disambiguation": "mono"
+              }
+            }
+          ],
+          "format-id": "10e17707-9751-3aaf-95b2-2432acd5374c",
+          "track-offset": 0,
+          "position": 1,
+          "id": "92e0326f-6819-3d61-9840-1b12f15e965c",
+          "track-count": 11,
+          "title": "",
+          "format": "Vinyl"
+        }
+      ],
+      "country": "US"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2002-06-18",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "2002-06-18",
+      "packaging": null,
+      "country": "US",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "length": 169906,
+              "id": "9be6c225-8dba-3de9-b2b8-a07197ae0e6a",
+              "title": "Born Under a Bad Sign",
+              "position": 1,
+              "recording": {
+                "length": 167333,
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign",
+                "first-release-date": "1984",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "1"
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 155000,
+                "title": "Crosscut Saw",
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "first-release-date": "1986",
+                "disambiguation": ""
+              },
+              "length": 157653,
+              "id": "61ad41a2-5146-3933-92fd-e524fcec0e14",
+              "title": "Crosscut Saw"
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 154000,
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "title": "Kansas City",
+                "first-release-date": "1989",
+                "disambiguation": ""
+              },
+              "position": 3,
+              "number": "3",
+              "title": "Kansas City",
+              "id": "180d5a1b-1c6a-3e40-b037-7b995dc67037",
+              "length": 155226
+            },
+            {
+              "title": "Oh, Pretty Woman",
+              "id": "5e6bf378-3aa2-3491-9b71-02ef01d30891",
+              "length": 170906,
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "first-release-date": "1969",
+                "title": "Oh, Pretty Woman",
+                "length": 170000
+              }
+            },
+            {
+              "title": "Down Don't Bother Me",
+              "id": "43f31af3-198f-3644-8cbf-0f9090cab481",
+              "length": 132706,
+              "number": "5",
+              "recording": {
+                "video": false,
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "title": "Down Don’t Bother Me",
+                "first-release-date": "1989",
+                "length": 132706,
+                "disambiguation": ""
+              },
+              "position": 5
+            },
+            {
+              "id": "71f2721b-55f4-3d00-b9ff-0d61e6a88450",
+              "title": "The Hunter",
+              "length": 167746,
+              "recording": {
+                "disambiguation": "",
+                "length": 165920,
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "first-release-date": "1993-04-06",
+                "title": "The Hunter",
+                "video": false
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "title": "I Almost Lost My Mind",
+              "id": "b8b82d2d-7d50-3e3b-9311-c43b743789a7",
+              "length": 212773,
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "id": "fba7e6b8-31ad-4a3b-a3f4-2eec8085e4eb",
+                "title": "I Almost Lost My Mind",
+                "first-release-date": "1993-04-06",
+                "length": 212773,
+                "video": false
+              },
+              "position": 7
+            },
+            {
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 272133,
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "first-release-date": "1993-04-06",
+                "title": "Personal Manager"
+              },
+              "id": "4d5d74ab-6794-32ea-b4cf-6b7acc2182fe",
+              "title": "Personal Manager",
+              "length": 273333
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "title": "Laundromat Blues",
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "first-release-date": "1989",
+                "length": 202120,
+                "video": false
+              },
+              "position": 9,
+              "number": "9",
+              "id": "83dec485-0fd7-3e07-b940-2c005fbc0869",
+              "title": "Laundromat Blues",
+              "length": 203506
+            },
+            {
+              "position": 10,
+              "recording": {
+                "length": 229986,
+                "title": "As the Years Go Passing By",
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "first-release-date": "1993-04-06",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "10",
+              "length": 230773,
+              "id": "c128415c-fadd-3727-a643-a3f354dfc2b9",
+              "title": "As the Years Go Passing By"
+            },
+            {
+              "title": "The Very Thought of You",
+              "id": "297b5ab0-e388-30dc-b838-c5778d72008c",
+              "length": 227000,
+              "number": "11",
+              "recording": {
+                "disambiguation": "",
+                "length": 227000,
+                "title": "The Very Thought of You",
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "first-release-date": "1993-04-06",
+                "video": false
+              },
+              "position": 11
+            }
+          ],
+          "format": "CD",
+          "id": "4d99e1b8-df9c-32aa-8266-f348d3363d40",
+          "title": "",
+          "track-count": 11,
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 2,
+        "front": true,
+        "back": false,
+        "artwork": true
+      },
+      "disambiguation": "",
+      "packaging-id": null,
+      "barcode": "025218860628",
+      "asin": "B00006878K",
+      "title": "Born Under a Bad Sign",
+      "id": "9fa36ff8-ba96-3201-bda1-729389a87620"
+    },
+    {
+      "asin": null,
+      "barcode": null,
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "id": "d11f914b-c376-49ec-a565-b8bf2c346af5",
+      "title": "Born Under a Bad Sign",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": false,
+        "count": 1,
+        "front": true,
+        "darkened": false
+      },
+      "disambiguation": "Stereo",
+      "packaging": "None",
+      "date": "2023-04-21",
+      "media": [
+        {
+          "tracks": [
+            {
+              "id": "22a3a1ac-6c6d-453b-95b7-5902b46ac779",
+              "title": "Born Under a Bad Sign",
+              "length": 169906,
+              "number": "1",
+              "recording": {
+                "video": false,
+                "id": "a8e42f90-9240-438c-8ded-4f4f3ef1997d",
+                "first-release-date": "1967-08",
+                "title": "Born Under a Bad Sign",
+                "length": 169906,
+                "disambiguation": "mono"
+              },
+              "position": 1
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 157653,
+                "id": "284fbdb3-c585-494e-9eab-a18e6f376454",
+                "title": "Crosscut Saw",
+                "first-release-date": "1967-08",
+                "disambiguation": "mono"
+              },
+              "position": 2,
+              "number": "2",
+              "id": "01e5b339-0fe3-4fda-a548-176e7a197a83",
+              "title": "Crosscut Saw",
+              "length": 157653
+            },
+            {
+              "number": "3",
+              "recording": {
+                "length": 155226,
+                "id": "4242eb38-8b10-4c71-b1d5-d0c9dcd21955",
+                "title": "Kansas City",
+                "first-release-date": "1967-08",
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 3,
+              "length": 155226,
+              "title": "Kansas City",
+              "id": "4506150c-b9ed-4d22-9f25-ee255a90f535"
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 170906,
+                "title": "Oh, Pretty Woman",
+                "id": "e97a63d0-5f45-4c66-982e-b5bed9788f7d",
+                "first-release-date": "1967-08",
+                "disambiguation": "mono"
+              },
+              "position": 4,
+              "number": "4",
+              "title": "Oh, Pretty Woman",
+              "id": "73c70d53-b976-46bd-ae27-66831732ffac",
+              "length": 170906
+            },
+            {
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "video": false,
+                "length": 132706,
+                "first-release-date": "1967-08",
+                "id": "c1449664-62fc-48a3-939f-cc49565a8772",
+                "title": "Down Don’t Bother Me",
+                "disambiguation": "mono"
+              },
+              "length": 132706,
+              "id": "6f2bfee5-f2ea-4953-a111-b94e8245e733",
+              "title": "Down Don’t Bother Me"
+            },
+            {
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "title": "The Hunter",
+                "id": "bfb32d50-b2d1-4282-a008-a8cf4f028a50",
+                "first-release-date": "1967-08",
+                "length": 167746,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "length": 167746,
+              "title": "The Hunter",
+              "id": "d231ae26-9c40-415d-8890-a90e52582557"
+            },
+            {
+              "id": "cae648b8-8aa5-437b-b480-1e098d299b38",
+              "title": "I Almost Lost My Mind",
+              "length": 212773,
+              "number": "7",
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1967-08",
+                "id": "8a447c52-6024-4f9d-8dee-aee2b06b9fc7",
+                "title": "I Almost Lost My Mind",
+                "length": 212773,
+                "video": false
+              },
+              "position": 7
+            },
+            {
+              "position": 8,
+              "recording": {
+                "video": false,
+                "length": 273333,
+                "first-release-date": "1967-08",
+                "id": "3bda6b29-0140-4a14-8554-165a2e8d2ea4",
+                "title": "Personal Manager",
+                "disambiguation": "mono"
+              },
+              "number": "8",
+              "length": 273333,
+              "title": "Personal Manager",
+              "id": "21147131-57b5-4b73-accf-892e3ca69f74"
+            },
+            {
+              "recording": {
+                "video": false,
+                "id": "3f88c6af-cf42-4159-9433-f48b1fd9f1b5",
+                "title": "Laundromat Blues",
+                "first-release-date": "1967-08",
+                "length": 203506,
+                "disambiguation": "mono"
+              },
+              "position": 9,
+              "number": "9",
+              "id": "aacbe71b-6716-429c-8f0f-a53018db57e5",
+              "title": "Laundromat Blues",
+              "length": 203506
+            },
+            {
+              "recording": {
+                "title": "As the Years Go Passing By",
+                "id": "dd505920-6b7a-4d88-b85b-e6c4822c493e",
+                "first-release-date": "1967-08",
+                "length": 230773,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 10,
+              "number": "10",
+              "length": 230773,
+              "title": "As the Years Go Passing By",
+              "id": "c80f48e5-1a73-4174-853d-327a83eec218"
+            },
+            {
+              "length": 227000,
+              "id": "bbcb57f8-05cd-4c95-8320-ece80bd3f44d",
+              "title": "The Very Thought of You",
+              "number": "11",
+              "recording": {
+                "video": false,
+                "length": 227000,
+                "title": "The Very Thought of You",
+                "id": "f3aab342-f501-43b4-8a6e-4b0bab40df39",
+                "first-release-date": "1967-08",
+                "disambiguation": "mono"
+              },
+              "position": 11
+            }
+          ],
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "track-offset": 0,
+          "position": 1,
+          "format": "Digital Media",
+          "track-count": 11,
+          "id": "2d2f1457-f60e-35d7-9e0c-6633ab87c67c",
+          "title": ""
+        }
+      ],
+      "country": "XW",
+      "status": "Official",
+      "release-events": [
+        {
+          "date": "2023-04-21",
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "[Worldwide]"
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "barcode": "090771503114",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": "B00000IM2R",
+      "title": "Born Under a Bad Sign",
+      "id": "e25ff129-8f74-4741-9479-699047756873",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "count": 0,
+        "front": false,
+        "darkened": false,
+        "back": false,
+        "artwork": false
+      },
+      "media": [
+        {
+          "id": "eef44a3e-853f-3a4f-a042-095bfb01ca1e",
+          "track-count": 13,
+          "title": "",
+          "format": "12\" Vinyl",
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "length": 167000,
+              "title": "Born Under a Bad Sign",
+              "id": "ab8cd588-91ba-3453-8d55-1f0467d16de3",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 167333,
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign",
+                "first-release-date": "1984"
+              },
+              "position": 1,
+              "number": "A1"
+            },
+            {
+              "title": "Crosscut Saw",
+              "id": "809ec25c-88eb-3580-a424-3276047ce29d",
+              "length": 155000,
+              "number": "A2",
+              "recording": {
+                "disambiguation": "",
+                "length": 155000,
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "title": "Crosscut Saw",
+                "first-release-date": "1986",
+                "video": false
+              },
+              "position": 2
+            },
+            {
+              "length": 154000,
+              "title": "Kansas City",
+              "id": "0ed46d48-ca84-3a8f-b47e-bb61ba674e08",
+              "number": "A3",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1989",
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "title": "Kansas City",
+                "length": 154000
+              },
+              "position": 3
+            },
+            {
+              "number": "A4",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "first-release-date": "1969",
+                "length": 170000
+              },
+              "position": 4,
+              "length": 170000,
+              "id": "546c29c4-c43f-317b-905b-f4cd2bdac73f",
+              "title": "Oh, Pretty Woman"
+            },
+            {
+              "id": "9d8adde4-dd70-3a15-9536-a37f935f503e",
+              "title": "Down Don't Bother Me",
+              "length": 132000,
+              "number": "A5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 132706,
+                "first-release-date": "1989",
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "title": "Down Don’t Bother Me"
+              }
+            },
+            {
+              "number": "A6",
+              "position": 6,
+              "recording": {
+                "length": 165920,
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "first-release-date": "1993-04-06",
+                "title": "The Hunter",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "80731a7a-002e-3e91-b4ba-2464358e9f76",
+              "title": "The Hunter",
+              "length": 164000
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "8bba4420-e49f-4d6c-815e-0dd467ad94c0",
+                "title": "Funk-Shun",
+                "first-release-date": "1998-11-24",
+                "length": 152000
+              },
+              "position": 7,
+              "number": "A7",
+              "length": 152000,
+              "id": "024e66a6-e7b8-3b14-b903-396559c0f451",
+              "title": "Funk-Shun"
+            },
+            {
+              "length": 211000,
+              "id": "74095227-7ac9-393e-8d49-0baa692f610d",
+              "title": "I Almost Lost My Mind",
+              "recording": {
+                "id": "fba7e6b8-31ad-4a3b-a3f4-2eec8085e4eb",
+                "title": "I Almost Lost My Mind",
+                "first-release-date": "1993-04-06",
+                "length": 212773,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "number": "B1"
+            },
+            {
+              "id": "7d5a88fc-5a8b-3e3f-b111-2771828215c2",
+              "title": "Personal Manager",
+              "length": 269000,
+              "recording": {
+                "video": false,
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "first-release-date": "1993-04-06",
+                "title": "Personal Manager",
+                "length": 272133,
+                "disambiguation": ""
+              },
+              "position": 9,
+              "number": "B2"
+            },
+            {
+              "id": "fd0b2fdf-c518-3d7f-90ef-e63030877202",
+              "title": "Laundromat Blues",
+              "length": 202000,
+              "number": "B3",
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "title": "Laundromat Blues",
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "first-release-date": "1989",
+                "length": 202120,
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 229986,
+                "first-release-date": "1993-04-06",
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "title": "As the Years Go Passing By",
+                "video": false
+              },
+              "position": 11,
+              "number": "B4",
+              "length": 228000,
+              "title": "As the Years Go Passing By",
+              "id": "b538bc99-b3b6-3004-ad3b-eb0467d5b1d9"
+            },
+            {
+              "number": "B5",
+              "position": 12,
+              "recording": {
+                "video": false,
+                "length": 227000,
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "title": "The Very Thought of You",
+                "first-release-date": "1993-04-06",
+                "disambiguation": ""
+              },
+              "length": 227000,
+              "title": "The Very Thought of You",
+              "id": "d1571525-845a-3b83-bb73-f13196518423"
+            },
+            {
+              "length": 141000,
+              "title": "Overall Junction",
+              "id": "750ae388-3102-3da9-aed1-22d745bfc9cc",
+              "number": "B6",
+              "position": 13,
+              "recording": {
+                "disambiguation": "",
+                "id": "f58d9153-72ec-41bc-94d4-31aba718c3c4",
+                "first-release-date": "1998-11-24",
+                "title": "Overall Junction",
+                "length": 141000,
+                "video": false
+              }
+            }
+          ]
+        }
+      ],
+      "country": "US",
+      "status": "Official",
+      "date": "1998-11-24",
+      "packaging": "Cardboard/Paper Sleeve",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          },
+          "date": "1998-11-24"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal"
+    },
+    {
+      "id": "ed991947-36de-42c7-bd82-b0a1610beaef",
+      "title": "Born Under a Bad Sign",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": null,
+      "asin": null,
+      "disambiguation": "",
+      "cover-art-archive": {
+        "front": false,
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "artwork": false
+      },
+      "status": null,
+      "media": [
+        {
+          "position": 1,
+          "track-offset": 0,
+          "title": "",
+          "id": "181655f6-2d61-37ce-a18a-26c4a64ef2a2",
+          "track-count": 11,
+          "format": "12\" Vinyl",
+          "tracks": [
+            {
+              "length": 169906,
+              "id": "95f2943a-1036-4006-99fc-8432691e53d7",
+              "title": "Born Under a Bad Sign",
+              "recording": {
+                "first-release-date": "1967-08",
+                "id": "a8e42f90-9240-438c-8ded-4f4f3ef1997d",
+                "title": "Born Under a Bad Sign",
+                "length": 169906,
+                "video": false,
+                "disambiguation": "mono"
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 157653,
+                "title": "Crosscut Saw",
+                "id": "284fbdb3-c585-494e-9eab-a18e6f376454",
+                "first-release-date": "1967-08",
+                "video": false
+              },
+              "length": 157653,
+              "title": "Crosscut Saw",
+              "id": "53e0ff75-8c91-478e-98d8-ff90d9a3b8d1"
+            },
+            {
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 155226,
+                "id": "4242eb38-8b10-4c71-b1d5-d0c9dcd21955",
+                "title": "Kansas City",
+                "first-release-date": "1967-08",
+                "disambiguation": "mono"
+              },
+              "number": "3",
+              "length": 155226,
+              "title": "Kansas City",
+              "id": "3d9b6258-5bee-407e-a6d8-1b610dbac039"
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "title": "Oh, Pretty Woman",
+                "id": "e97a63d0-5f45-4c66-982e-b5bed9788f7d",
+                "first-release-date": "1967-08",
+                "length": 170906
+              },
+              "length": 170906,
+              "title": "Oh, Pretty Woman",
+              "id": "27b497fe-bfe3-4fe4-bbe2-bc0e667b7f78"
+            },
+            {
+              "id": "b983c22d-72fb-4e04-b346-d25819679afc",
+              "title": "Down Don't Bother Me",
+              "length": 132706,
+              "position": 5,
+              "recording": {
+                "video": false,
+                "title": "Down Don’t Bother Me",
+                "id": "c1449664-62fc-48a3-939f-cc49565a8772",
+                "first-release-date": "1967-08",
+                "length": 132706,
+                "disambiguation": "mono"
+              },
+              "number": "5"
+            },
+            {
+              "id": "8a38f3fd-ad4e-4164-a223-649a055c9f9a",
+              "title": "The Hunter",
+              "length": 167746,
+              "recording": {
+                "disambiguation": "mono",
+                "first-release-date": "1967-08",
+                "id": "bfb32d50-b2d1-4282-a008-a8cf4f028a50",
+                "title": "The Hunter",
+                "length": 167746,
+                "video": false
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "title": "I Almost Lost My Mind",
+              "id": "429a2abc-3561-4a03-848d-7789769da390",
+              "length": 212773,
+              "recording": {
+                "video": false,
+                "length": 212773,
+                "title": "I Almost Lost My Mind",
+                "id": "8a447c52-6024-4f9d-8dee-aee2b06b9fc7",
+                "first-release-date": "1967-08",
+                "disambiguation": "mono"
+              },
+              "position": 7,
+              "number": "7"
+            },
+            {
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "mono",
+                "id": "3bda6b29-0140-4a14-8554-165a2e8d2ea4",
+                "title": "Personal Manager",
+                "first-release-date": "1967-08",
+                "length": 273333,
+                "video": false
+              },
+              "length": 273333,
+              "id": "370f5b2d-4ea8-43a6-9699-ad692b981d63",
+              "title": "Personal Manager"
+            },
+            {
+              "id": "3c46b79f-d2f8-4199-a3d2-826fe3f65f33",
+              "title": "Laundromat Blues",
+              "length": 203506,
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "length": 203506,
+                "title": "Laundromat Blues",
+                "id": "3f88c6af-cf42-4159-9433-f48b1fd9f1b5",
+                "first-release-date": "1967-08",
+                "video": false,
+                "disambiguation": "mono"
+              }
+            },
+            {
+              "title": "As the Years Go Passing By",
+              "id": "666a09b4-b434-489c-946f-8d6c3f68a993",
+              "length": 230773,
+              "position": 10,
+              "recording": {
+                "disambiguation": "mono",
+                "length": 230773,
+                "title": "As the Years Go Passing By",
+                "id": "dd505920-6b7a-4d88-b85b-e6c4822c493e",
+                "first-release-date": "1967-08",
+                "video": false
+              },
+              "number": "10"
+            },
+            {
+              "recording": {
+                "disambiguation": "mono",
+                "video": false,
+                "first-release-date": "1967-08",
+                "id": "f3aab342-f501-43b4-8a6e-4b0bab40df39",
+                "title": "The Very Thought of You",
+                "length": 227000
+              },
+              "position": 11,
+              "number": "11",
+              "length": 227000,
+              "title": "The Very Thought of You",
+              "id": "240b1c88-50c2-4890-b3f2-2ce563018af5"
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "country": "JP",
+      "date": "1982",
+      "packaging": "Cardboard/Paper Sleeve",
+      "status-id": null,
+      "quality": "normal",
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "name": "Japan",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type-id": null,
+            "sort-name": "Japan",
+            "disambiguation": ""
+          },
+          "date": "1982"
+        }
+      ]
+    },
+    {
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "",
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany"
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "packaging": null,
+      "date": "",
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "length": 169906,
+              "title": "Born Under a Bad Sign",
+              "id": "beb7c616-f8e1-4015-b72f-b767afaaca8f",
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "video": false,
+                "length": 167333,
+                "first-release-date": "1984",
+                "id": "12bea3fb-fdf2-44d0-bf98-ce0128cce98b",
+                "title": "Born Under a Bad Sign",
+                "disambiguation": ""
+              }
+            },
+            {
+              "id": "2abe3c18-83c5-4613-8b82-d6ff1b63ca9f",
+              "title": "Crosscut Saw",
+              "length": 157653,
+              "recording": {
+                "video": false,
+                "length": 155000,
+                "first-release-date": "1986",
+                "id": "74918c5a-9585-4070-944e-e3de8741795d",
+                "title": "Crosscut Saw",
+                "disambiguation": ""
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "title": "Kansas City",
+                "id": "d13993e6-a75f-4c52-9f97-83c198d8db68",
+                "first-release-date": "1989",
+                "length": 154000,
+                "disambiguation": ""
+              },
+              "length": 155226,
+              "title": "Kansas City",
+              "id": "b75e207a-dfa7-453e-b541-f1f10b52a53d"
+            },
+            {
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "length": 170000,
+                "first-release-date": "1969",
+                "id": "f929e464-81ea-4176-9e1a-b463a95b0b99",
+                "title": "Oh, Pretty Woman",
+                "video": false
+              },
+              "number": "4",
+              "id": "56e30c21-3efb-4b04-8d9f-ae72ef506d10",
+              "title": "Oh, Pretty Woman",
+              "length": 170906
+            },
+            {
+              "position": 5,
+              "recording": {
+                "length": 132706,
+                "title": "Down Don’t Bother Me",
+                "id": "6f242721-67b9-4424-9469-384c238f6f8d",
+                "first-release-date": "1989",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "5",
+              "title": "Down Don't Bother Me",
+              "id": "a362815f-0aaf-4e13-9bc1-b4c10ea687dc",
+              "length": 132706
+            },
+            {
+              "number": "6",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 165920,
+                "id": "93456287-1f0d-4a27-a41b-3cc7dcabeb99",
+                "first-release-date": "1993-04-06",
+                "title": "The Hunter"
+              },
+              "position": 6,
+              "length": 167746,
+              "id": "1591e8a0-43da-490b-b2cf-2182021b5dd5",
+              "title": "The Hunter"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "title": "I Almost Lost My Mind",
+                "id": "fba7e6b8-31ad-4a3b-a3f4-2eec8085e4eb",
+                "first-release-date": "1993-04-06",
+                "length": 212773,
+                "video": false
+              },
+              "position": 7,
+              "number": "7",
+              "id": "5d8ff158-71a8-4f80-a4bd-50f27eef64c3",
+              "title": "I Almost Lost My Mind",
+              "length": 212773
+            },
+            {
+              "length": 273333,
+              "title": "Personal Manager",
+              "id": "b99f7d4c-adec-465e-a573-a7dfb6a553d2",
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1993-04-06",
+                "id": "3c1f4a41-3db1-4499-bfb0-7b50a705903a",
+                "title": "Personal Manager",
+                "length": 272133,
+                "video": false
+              }
+            },
+            {
+              "length": 203506,
+              "title": "Laundromat Blues",
+              "id": "d692fe02-7c43-461c-ab9b-25bf33b7bae0",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1989",
+                "id": "f798a254-4c96-4f55-9a31-0c2413da450b",
+                "title": "Laundromat Blues",
+                "length": 202120,
+                "video": false
+              },
+              "number": "9"
+            },
+            {
+              "id": "1b51722f-231f-4bd1-9f8a-91dd6006c06e",
+              "title": "As the Years Go Passing By",
+              "length": 230773,
+              "recording": {
+                "disambiguation": "",
+                "length": 229986,
+                "id": "5a448f55-bcb0-44dd-9b1c-9129e9561d6f",
+                "first-release-date": "1993-04-06",
+                "title": "As the Years Go Passing By",
+                "video": false
+              },
+              "position": 10,
+              "number": "10"
+            },
+            {
+              "title": "The Very Thought of You",
+              "id": "39e0501b-63f2-41e6-9595-5df06864f2ac",
+              "length": 227000,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "The Very Thought of You",
+                "id": "af80b4f8-273c-4e1b-9715-3d6717733ea7",
+                "first-release-date": "1993-04-06",
+                "length": 227000
+              },
+              "position": 11,
+              "number": "11"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "position": 1,
+          "format": "CD",
+          "track-count": 11,
+          "id": "6fe51d76-c0fb-34d2-8643-d7b5a168ce24",
+          "title": ""
+        }
+      ],
+      "country": "DE",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "count": 3,
+        "front": true,
+        "darkened": false
+      },
+      "disambiguation": "",
+      "title": "Born Under a Bad Sign",
+      "id": "f68ec9d0-befb-49a3-9177-e51f2696d89d",
+      "asin": null,
+      "packaging-id": null,
+      "barcode": "090204668625"
+    }
+  ]
+}

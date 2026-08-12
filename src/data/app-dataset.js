@@ -10,7 +10,7 @@ export const APP_DATASET_RELATIONSHIP_TYPES = [
   'shared-musician'
 ];
 
-export function buildAppDataset({ comparison, metadataCandidates, sourceCandidates, creditCandidates, additionalCreditCandidateLayers = [], coverArtCandidates = null, sourcePayloadsByCachePath = new Map() }, options = {}) {
+export function buildAppDataset({ comparison, metadataCandidates, sourceCandidates, creditCandidates, additionalCreditCandidateLayers = [], coverArtCandidates = null, musicBrainzReleaseCandidates = null, sourcePayloadsByCachePath = new Map() }, options = {}) {
   const rows = buildEnrichedComparisonRows({
     comparison,
     candidates: metadataCandidates,
@@ -20,6 +20,7 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
   const creditCandidateRows = mergedCreditCandidates.candidates ?? [];
   const creditCandidateByAlbumId = new Map(creditCandidateRows.map((candidate) => [candidate.albumId, candidate]));
   const coverArtCandidateByAlbumId = new Map((coverArtCandidates?.candidates ?? []).map((candidate) => [candidate.albumId, candidate]));
+  const musicBrainzReleaseCandidateByAlbumId = new Map((musicBrainzReleaseCandidates?.candidates ?? []).map((candidate) => [candidate.albumId, candidate]));
   const creditGapIds = new Set((mergedCreditCandidates.gaps ?? []).map((gap) => gap.albumId));
   const documentedCreditGapIds = new Set((mergedCreditCandidates.documentedGaps ?? []).map((gap) => gap.albumId));
   const relationships = buildAlbumRelationships(rows, {
@@ -30,6 +31,7 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
   const albums = rows.map((row) => enrichAppAlbum(row, {
     creditCandidate: creditCandidateByAlbumId.get(row.id),
     coverArtCandidate: coverArtCandidateByAlbumId.get(row.id),
+    musicBrainzReleaseCandidate: musicBrainzReleaseCandidateByAlbumId.get(row.id),
     sourcePayload: sourcePayloadFor(creditCandidateByAlbumId.get(row.id), sourcePayloadsByCachePath),
     hasCreditGap: creditGapIds.has(row.id),
     hasDocumentedCreditGap: documentedCreditGapIds.has(row.id)
@@ -49,7 +51,8 @@ export function buildAppDataset({ comparison, metadataCandidates, sourceCandidat
       musicBrainzSourceCandidates: 'data/enrichment/album-metadata-source-candidates.json',
       creditCandidates: 'data/enrichment/album-credit-candidates.json',
       additionalCreditCandidateLayers: additionalCreditCandidateLayers.length,
-      coverArtCandidates: coverArtCandidates ? 'data/enrichment/cover-art-archive-candidates.json' : null
+      coverArtCandidates: coverArtCandidates ? 'data/enrichment/cover-art-archive-candidates.json' : null,
+      musicBrainzReleaseCandidates: musicBrainzReleaseCandidates ? 'data/enrichment/musicbrainz-release-candidates.json' : null
     },
     summary: {
       albumCount: albums.length,
@@ -99,13 +102,13 @@ function mergeCreditCandidateLayers(primaryLayer = {}, additionalLayers = []) {
   };
 }
 
-function enrichAppAlbum(row, { creditCandidate, coverArtCandidate, sourcePayload, hasCreditGap, hasDocumentedCreditGap }) {
+function enrichAppAlbum(row, { creditCandidate, coverArtCandidate, musicBrainzReleaseCandidate, sourcePayload, hasCreditGap, hasDocumentedCreditGap }) {
   const metadataQuality = metadataQualityFor(row);
   const creditQuality = creditQualityFor({ creditCandidate, hasCreditGap, hasDocumentedCreditGap });
   return {
     ...row,
     displayTitle: `${row.artist} — ${row.album}`,
-    profile: albumProfileFor(row, { creditCandidate, coverArtCandidate, sourcePayload }),
+    profile: albumProfileFor(row, { creditCandidate, coverArtCandidate, musicBrainzReleaseCandidate, sourcePayload }),
     dataQuality: {
       identity: {
         status: 'source-confirmed',
@@ -124,15 +127,16 @@ function sourcePayloadFor(creditCandidate, sourcePayloadsByCachePath) {
   return sourcePayloadsByCachePath.get(cachePath) ?? null;
 }
 
-function albumProfileFor(row, { creditCandidate, coverArtCandidate, sourcePayload }) {
-  const tracklist = tracklistFromPayload(sourcePayload);
+function albumProfileFor(row, { creditCandidate, coverArtCandidate, musicBrainzReleaseCandidate, sourcePayload }) {
+  const discogsTracklist = tracklistFromPayload(sourcePayload);
+  const tracklist = discogsTracklist.length ? discogsTracklist : (musicBrainzReleaseCandidate?.tracklist ?? []);
   return {
     description: `${row.artist} — ${row.album}${row.releaseYear ? ` (${row.releaseYear})` : ''}.`,
     story: cleanStory(sourcePayload?.notes),
     coverArt: coverArtCandidate?.coverArt ?? coverArtFromPayload(sourcePayload),
     tracklist,
     totalDurationSeconds: totalDurationSeconds(tracklist),
-    footnotes: profileFootnotes(creditCandidate, sourcePayload, coverArtCandidate)
+    footnotes: profileFootnotes(creditCandidate, sourcePayload, coverArtCandidate, musicBrainzReleaseCandidate, discogsTracklist)
   };
 }
 
@@ -224,10 +228,13 @@ function totalDurationSeconds(tracklist) {
   return tracklist.reduce((sum, track) => sum + track.durationSeconds, 0);
 }
 
-function profileFootnotes(creditCandidate, sourcePayload, coverArtCandidate) {
+function profileFootnotes(creditCandidate, sourcePayload, coverArtCandidate, musicBrainzReleaseCandidate, discogsTracklist = []) {
   const footnotes = [];
   const url = creditCandidate?.source?.url ?? sourcePayload?.uri ?? null;
   if (url) footnotes.push({ label: 'Album content source', url });
+  if (!discogsTracklist.length && musicBrainzReleaseCandidate?.source?.url) {
+    footnotes.push({ label: 'MusicBrainz release source', url: musicBrainzReleaseCandidate.source.url });
+  }
   const coverUrl = coverArtCandidate?.source?.release ?? coverArtCandidate?.source?.musicBrainzReleaseGroupUrl ?? null;
   if (coverUrl) footnotes.push({ label: 'Cover art source', url: coverUrl });
   return footnotes;

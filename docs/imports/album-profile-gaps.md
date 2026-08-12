@@ -9,8 +9,8 @@ This report is derived from `data/app/album-atlas.json` and drives the next cont
 - Albums: 760
 - Albums with at least one profile gap: 718
 - Missing cover art: 128
-- Missing tracklists: 318
-- Missing total duration: 394
+- Missing tracklists: 124
+- Missing total duration: 200
 - Missing composer/songwriter/lyricist credits: 515
 - Missing useful story/context: 691
 
@@ -164,8 +164,8 @@ Keep source work internal. The public app should continue to show album content 
 
 28. The Notorious B.I.G. — *Ready to Die* (1994)
    - latest rank #22
-   - missing: tracklist, totalDuration, composerCredits, story
-   - recommended action: fetch-album-content-sources
+   - missing: composerCredits, story
+   - recommended action: enrich-existing-tracklist-and-story
 
 29. John Lennon — *John Lennon/Plastic Ono Band* (1970)
    - latest rank #23
@@ -179,8 +179,8 @@ Keep source work internal. The public app should continue to show album content 
 
 31. The Beatles — *Sgt. Pepper's Lonely Hearts Club Band* (1967)
    - latest rank #24
-   - missing: tracklist, totalDuration, composerCredits, story
-   - recommended action: fetch-album-content-sources
+   - missing: composerCredits, story
+   - recommended action: enrich-existing-tracklist-and-story
 
 32. Carole King — *Tapestry* (1971)
    - latest rank #25
@@ -224,8 +224,8 @@ Keep source work internal. The public app should continue to show album content 
 
 40. Amy Winehouse — *Back to Black* (2006)
    - latest rank #33
-   - missing: tracklist, totalDuration, composerCredits, story
-   - recommended action: fetch-album-content-sources
+   - missing: composerCredits, story
+   - recommended action: enrich-existing-tracklist-and-story
 
 41. Stevie Wonder — *Innervisions* (1973)
    - latest rank #34

@@ -1,0 +1,566 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=68f8c63d-3e54-4f26-8ce3-41a7bc1ca7fd&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-count": 2,
+  "release-offset": 0,
+  "releases": [
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 18,
+        "back": true,
+        "artwork": true
+      },
+      "id": "4c2001fd-93e7-4efb-ba2b-f8a747bcd4d3",
+      "title": "X 100PRE",
+      "asin": null,
+      "packaging-id": null,
+      "barcode": "193483899374",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "2019",
+          "area": {
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "spa",
+        "script": "Latn"
+      },
+      "country": "US",
+      "media": [
+        {
+          "track-count": 15,
+          "id": "251705dd-209f-345e-adeb-bf0422746f7e",
+          "title": "",
+          "format": "CD",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "disambiguation": "",
+                "length": 236216,
+                "id": "77b4b401-eeda-48f1-9c24-773ff65d546e",
+                "first-release-date": "2018-12-24",
+                "title": "NI BIEN NI MAL",
+                "video": false
+              },
+              "position": 1,
+              "length": 236226,
+              "title": "NI BIEN NI MAL",
+              "id": "40d40f76-f357-4fcf-8dae-8d54daa8c75c"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 170506,
+                "first-release-date": "2018-12-24",
+                "id": "00498a53-8cbc-4aad-aa3f-10cb5159a63d",
+                "title": "200 MPH"
+              },
+              "position": 2,
+              "number": "2",
+              "id": "6d9b34d4-ac26-494c-8e8a-5c0d0679ed0f",
+              "title": "200 MPH",
+              "length": 170506
+            },
+            {
+              "title": "¿Quién tú eres?",
+              "id": "97c0006a-0f1b-4038-bede-ce2d348ab5e5",
+              "length": 159226,
+              "position": 3,
+              "recording": {
+                "length": 159226,
+                "id": "f8710f01-04d3-40b6-88cc-9800f31b63f9",
+                "first-release-date": "2018-12-24",
+                "title": "¿Quién tú eres?",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "3"
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "length": 229453,
+                "id": "b837adaf-39a0-4545-97ab-cff4f51ade81",
+                "first-release-date": "2018-12-24",
+                "title": "Caro",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "73371121-f49e-4c34-a6a9-ce963e638491",
+              "title": "Caro",
+              "length": 229453
+            },
+            {
+              "position": 5,
+              "recording": {
+                "id": "c368732b-90d3-4cb6-9bfc-346c21827aab",
+                "title": "Tenemos que hablar",
+                "first-release-date": "2018-12-24",
+                "length": 224520,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "5",
+              "length": 224520,
+              "id": "13013252-1900-4f70-8717-ecbe0c748da3",
+              "title": "Tenemos que hablar"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 233120,
+                "id": "95c46667-3721-467b-9116-52dc1064b5ef",
+                "title": "Otra noche en Miami",
+                "first-release-date": "2018-12-24",
+                "disambiguation": ""
+              },
+              "number": "6",
+              "length": 233120,
+              "id": "8fb4b193-6dc5-4bdb-8dc9-93bfcb24c027",
+              "title": "Otra noche en Miami"
+            },
+            {
+              "recording": {
+                "video": false,
+                "length": 193211,
+                "title": "Ser bichote",
+                "id": "7e11116f-17bc-41a0-aa01-ff9701e1c859",
+                "first-release-date": "2018-12-24",
+                "disambiguation": ""
+              },
+              "position": 7,
+              "number": "7",
+              "title": "Ser bichote",
+              "id": "6188f782-c477-4811-8695-eb8d83d037d2",
+              "length": 193213
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 169248,
+                "id": "a5675d21-cf7b-4d37-aefd-b8c4885c028c",
+                "first-release-date": "2018-12-24",
+                "title": "Si estuviésemos juntos"
+              },
+              "position": 8,
+              "number": "8",
+              "length": 169253,
+              "title": "Si estuviésemos juntos",
+              "id": "047d26c4-398d-4ba0-89d6-92d9c2d4df0c"
+            },
+            {
+              "recording": {
+                "video": false,
+                "first-release-date": "2018-12-14",
+                "id": "3db3658e-1d89-4e3c-90cf-19d47849d7a8",
+                "title": "Solo de mí",
+                "length": 197968,
+                "disambiguation": ""
+              },
+              "position": 9,
+              "number": "9",
+              "length": 197346,
+              "id": "a7d05de7-c7f1-4015-b4cf-daa96491f302",
+              "title": "Solo de mí"
+            },
+            {
+              "length": 188653,
+              "id": "9fbd055a-abec-4c31-b2da-5c82e074ccfe",
+              "title": "Cuando perriabas",
+              "number": "10",
+              "recording": {
+                "length": 188653,
+                "first-release-date": "2018-12-24",
+                "id": "d8cb6634-0b46-42c5-9c5c-5ad18a0f0541",
+                "title": "Cuando perriabas",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 10
+            },
+            {
+              "number": "11",
+              "recording": {
+                "disambiguation": "",
+                "length": 300586,
+                "id": "f38d9591-cd42-4af6-b4fc-2bdc6ef733e1",
+                "title": "La Romana",
+                "first-release-date": "2018-12-24",
+                "video": false
+              },
+              "position": 11,
+              "length": 300586,
+              "title": "La Romana",
+              "id": "27329fd2-0733-4ced-9c74-9007d7d8046a"
+            },
+            {
+              "number": "12",
+              "position": 12,
+              "recording": {
+                "video": false,
+                "length": 230573,
+                "id": "8bdad3b2-3fb7-4d19-a825-bc6d8724b5e9",
+                "first-release-date": "2018-12-24",
+                "title": "Como antes",
+                "disambiguation": ""
+              },
+              "title": "Como antes",
+              "id": "5a363774-ec07-4cd9-83bb-ea96cf96fdda",
+              "length": 230573
+            },
+            {
+              "length": 284853,
+              "id": "ce1d6123-e3c9-4dbe-9ccd-d5199377f142",
+              "title": "RLNDT",
+              "position": 13,
+              "recording": {
+                "length": 284853,
+                "id": "b4c50855-c7c7-4f33-a664-6dd24327efbf",
+                "first-release-date": "2018-12-24",
+                "title": "RLNDT",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "13"
+            },
+            {
+              "length": 208080,
+              "title": "Estamos bien",
+              "id": "0ae8c364-4ccf-4d27-a0ae-3892928b1698",
+              "position": 14,
+              "recording": {
+                "first-release-date": "2018-06-28",
+                "id": "5d989393-6e63-4d4d-9e03-324d9b8f695c",
+                "title": "Estamos bien",
+                "length": 208080,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "14"
+            },
+            {
+              "title": "MIA",
+              "id": "99dce7cc-4d98-4404-b7c1-529194242dff",
+              "length": 210360,
+              "number": "15",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 210367,
+                "title": "MIA",
+                "id": "9611378b-f76b-4795-b61d-da9e0ee07850",
+                "first-release-date": "2018-10-11"
+              },
+              "position": 15
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "packaging": null,
+      "date": "2019"
+    },
+    {
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "2018-12-24",
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "[Worldwide]",
+            "type-id": null
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "spa"
+      },
+      "packaging": "None",
+      "date": "2018-12-24",
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "tracks": [
+            {
+              "recording": {
+                "first-release-date": "2018-12-24",
+                "id": "77b4b401-eeda-48f1-9c24-773ff65d546e",
+                "title": "NI BIEN NI MAL",
+                "length": 236216,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1",
+              "length": 236216,
+              "id": "0b35f370-16b0-41b0-9be2-2a31bcdc6a0e",
+              "title": "NI BIEN NI MAL"
+            },
+            {
+              "title": "200 MPH",
+              "id": "ba6d95c1-28f4-419a-b7cb-64f81461cbdd",
+              "length": 171000,
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "2018-12-24",
+                "id": "00498a53-8cbc-4aad-aa3f-10cb5159a63d",
+                "title": "200 MPH",
+                "length": 170506,
+                "video": false
+              },
+              "number": "2"
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "length": 159226,
+                "title": "¿Quién tú eres?",
+                "id": "f8710f01-04d3-40b6-88cc-9800f31b63f9",
+                "first-release-date": "2018-12-24",
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 159229,
+              "id": "0c8a3570-bca4-4aae-9cf1-c572778651cb",
+              "title": "¿Quién tú eres?"
+            },
+            {
+              "number": "4",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "b837adaf-39a0-4545-97ab-cff4f51ade81",
+                "title": "Caro",
+                "first-release-date": "2018-12-24",
+                "length": 229453
+              },
+              "position": 4,
+              "length": 229456,
+              "id": "26113bf0-c509-4447-af4d-9ee03169dcfa",
+              "title": "Caro"
+            },
+            {
+              "length": 225000,
+              "id": "78520254-4b42-4d7a-bb3e-45f9a3b421b7",
+              "title": "Tenemos que hablar",
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "c368732b-90d3-4cb6-9bfc-346c21827aab",
+                "first-release-date": "2018-12-24",
+                "title": "Tenemos que hablar",
+                "length": 224520
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "95c46667-3721-467b-9116-52dc1064b5ef",
+                "title": "Otra noche en Miami",
+                "first-release-date": "2018-12-24",
+                "length": 233120
+              },
+              "position": 6,
+              "number": "6",
+              "length": 233128,
+              "id": "3e3456a7-6b66-4e1d-b9ae-97956114b621",
+              "title": "Otra noche en Miami"
+            },
+            {
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "7e11116f-17bc-41a0-aa01-ff9701e1c859",
+                "title": "Ser bichote",
+                "first-release-date": "2018-12-24",
+                "length": 193211
+              },
+              "position": 7,
+              "length": 193211,
+              "title": "Ser bichote",
+              "id": "d30a4591-92e6-4e99-b425-eb1b7ab11ff1"
+            },
+            {
+              "length": 169248,
+              "title": "Si estuviésemos juntos",
+              "id": "096445a6-9a95-44fa-b686-a035d7e44cb9",
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "a5675d21-cf7b-4d37-aefd-b8c4885c028c",
+                "first-release-date": "2018-12-24",
+                "title": "Si estuviésemos juntos",
+                "length": 169248
+              }
+            },
+            {
+              "id": "269a804b-f71c-4ac0-84b4-d51c01daa4ad",
+              "title": "Solo de mí",
+              "length": 198000,
+              "recording": {
+                "video": false,
+                "id": "3db3658e-1d89-4e3c-90cf-19d47849d7a8",
+                "title": "Solo de mí",
+                "first-release-date": "2018-12-14",
+                "length": 197968,
+                "disambiguation": ""
+              },
+              "position": 9,
+              "number": "9"
+            },
+            {
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "video": false,
+                "id": "d8cb6634-0b46-42c5-9c5c-5ad18a0f0541",
+                "first-release-date": "2018-12-24",
+                "title": "Cuando perriabas",
+                "length": 188653,
+                "disambiguation": ""
+              },
+              "length": 189000,
+              "title": "Cuando perriabas",
+              "id": "af4e2fb3-8a1c-462b-bdcf-c75cbfab9efa"
+            },
+            {
+              "id": "c79f2d95-5454-45fb-a5af-8d0bfb8df0b4",
+              "title": "La Romana",
+              "length": 301000,
+              "number": "11",
+              "recording": {
+                "disambiguation": "",
+                "id": "f38d9591-cd42-4af6-b4fc-2bdc6ef733e1",
+                "title": "La Romana",
+                "first-release-date": "2018-12-24",
+                "length": 300586,
+                "video": false
+              },
+              "position": 11
+            },
+            {
+              "length": 231000,
+              "title": "Como antes",
+              "id": "bcd1a749-ae0f-4a81-b1c4-3470ca5a4ace",
+              "position": 12,
+              "recording": {
+                "video": false,
+                "length": 230573,
+                "id": "8bdad3b2-3fb7-4d19-a825-bc6d8724b5e9",
+                "title": "Como antes",
+                "first-release-date": "2018-12-24",
+                "disambiguation": ""
+              },
+              "number": "12"
+            },
+            {
+              "length": 285000,
+              "title": "RLNDT",
+              "id": "2e6b84c1-5c5c-4119-8e42-90b04b35389f",
+              "position": 13,
+              "recording": {
+                "video": false,
+                "title": "RLNDT",
+                "id": "b4c50855-c7c7-4f33-a664-6dd24327efbf",
+                "first-release-date": "2018-12-24",
+                "length": 284853,
+                "disambiguation": ""
+              },
+              "number": "13"
+            },
+            {
+              "position": 14,
+              "recording": {
+                "video": false,
+                "length": 208080,
+                "title": "Estamos bien",
+                "id": "5d989393-6e63-4d4d-9e03-324d9b8f695c",
+                "first-release-date": "2018-06-28",
+                "disambiguation": ""
+              },
+              "number": "14",
+              "length": 208080,
+              "title": "Estamos bien",
+              "id": "752fb0b8-7d65-4e2b-ac09-138539b3ccbc"
+            },
+            {
+              "length": 210368,
+              "title": "MIA",
+              "id": "d406d63b-4a33-46da-ad25-588abf0991e2",
+              "position": 15,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 210367,
+                "id": "9611378b-f76b-4795-b61d-da9e0ee07850",
+                "first-release-date": "2018-10-11",
+                "title": "MIA"
+              },
+              "number": "15"
+            }
+          ],
+          "id": "488d2f79-3391-317e-bc12-a2df7698b822",
+          "title": "",
+          "track-count": 15,
+          "format": "Digital Media",
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "country": "XW",
+      "status": "Official",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "count": 1,
+        "front": true
+      },
+      "disambiguation": "",
+      "title": "X 100PRE",
+      "id": "691a36e6-8cd9-4066-820e-2f261a8bca97",
+      "asin": null,
+      "barcode": "193483317984",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b"
+    }
+  ]
+}

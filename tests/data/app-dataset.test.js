@@ -107,6 +107,32 @@ const coverArtCandidates = {
   gaps: []
 };
 
+const musicBrainzReleaseCandidates = {
+  candidates: [
+    {
+      albumId: 'album-beta-two-1971',
+      tracklist: [
+        {
+          position: '1',
+          disc: 1,
+          side: null,
+          sequence: 1,
+          title: 'MusicBrainz Song',
+          durationSeconds: 123,
+          recordingId: 'recording-beta-song',
+          composerCredits: [],
+          songwriterCredits: [],
+          lyricistCredits: [],
+          performerCredits: []
+        }
+      ],
+      totalDurationSeconds: 123,
+      source: { system: 'musicbrainz-release', url: 'https://musicbrainz.org/release/beta-release' }
+    }
+  ],
+  gaps: []
+};
+
 const sourcePayloadsByCachePath = new Map([
   ['data/imports/discogs/releases/alpha.json', {
     uri: 'https://www.discogs.com/release/alpha',
@@ -265,4 +291,30 @@ test('merges focused profile-gap credit candidates without overwriting the prima
   assert.equal(gamma.profile.coverArt.url, 'https://coverartarchive.org/gamma-front.jpg');
   assert.deepEqual(gamma.profile.tracklist.map((track) => track.title), ['Gap Song']);
   assert.deepEqual(gamma.profile.footnotes.map((footnote) => footnote.label), ['Album content source', 'Cover art source']);
+});
+
+
+test('uses MusicBrainz release candidates to fill tracklist and duration gaps without replacing Discogs content', () => {
+  const dataset = buildAppDataset({
+    comparison,
+    metadataCandidates,
+    sourceCandidates,
+    creditCandidates,
+    musicBrainzReleaseCandidates,
+    sourcePayloadsByCachePath
+  });
+
+  assert.equal(dataset.summary.albumProfilesWithTracklists, 2);
+  assert.equal(dataset.summary.albumProfilesWithTotalDuration, 2);
+
+  const alpha = dataset.albums.find((album) => album.id === 'album-alpha-one-1970');
+  assert.deepEqual(alpha.profile.tracklist.map((track) => track.title), ['Opening Song', 'Second Song']);
+  assert.equal(alpha.profile.footnotes[0].label, 'Album content source');
+
+  const beta = dataset.albums.find((album) => album.id === 'album-beta-two-1971');
+  assert.deepEqual(beta.profile.tracklist.map((track) => [track.title, track.durationSeconds, track.recordingId]), [
+    ['MusicBrainz Song', 123, 'recording-beta-song']
+  ]);
+  assert.equal(beta.profile.totalDurationSeconds, 123);
+  assert.deepEqual(beta.profile.footnotes.map((footnote) => footnote.label), ['MusicBrainz release source']);
 });

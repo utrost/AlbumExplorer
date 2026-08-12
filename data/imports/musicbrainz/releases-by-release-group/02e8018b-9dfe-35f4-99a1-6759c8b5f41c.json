@@ -1,0 +1,2636 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/release?release-group=02e8018b-9dfe-35f4-99a1-6759c8b5f41c&inc=media%2Brecordings&fmt=json&limit=100",
+  "release-offset": 0,
+  "release-count": 12,
+  "releases": [
+    {
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 12,
+        "front": true,
+        "artwork": true,
+        "back": true
+      },
+      "disambiguation": "",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "barcode": "045778756629",
+      "asin": null,
+      "id": "071e6c3e-9573-4dc0-b733-caee6d32e573",
+      "title": "The Heart of Saturday Night",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "date": "2018-03-09"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "2018-03-09",
+      "packaging": "Digipak",
+      "country": "US",
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "format": "CD",
+          "id": "ec827330-8b7f-3dca-877c-afec4e025293",
+          "title": "",
+          "track-count": 11,
+          "tracks": [
+            {
+              "recording": {
+                "length": 203000,
+                "title": "New Coat of Paint",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "first-release-date": "1974-10-15",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1",
+              "id": "65f23a12-85e4-4e87-8e41-1e115daf8066",
+              "title": "New Coat of Paint",
+              "length": 202960
+            },
+            {
+              "length": 210226,
+              "id": "8eabfd26-c57f-417c-912c-048bf0d56813",
+              "title": "San Diego Serenade",
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "title": "San Diego Serenade",
+                "first-release-date": "1974-10-15",
+                "length": 210026,
+                "video": false
+              }
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "first-release-date": "1974-10-15",
+                "title": "Semi Suite",
+                "length": 209306,
+                "disambiguation": ""
+              },
+              "id": "f8c4bd57-e4b0-48cc-8018-b543f15b20ea",
+              "title": "Semi Suite",
+              "length": 209266
+            },
+            {
+              "title": "Shiver Me Timbers",
+              "id": "d8150b04-85cb-4beb-9fec-b942493bcf93",
+              "length": 266666,
+              "position": 4,
+              "recording": {
+                "title": "Shiver Me Timbers",
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "first-release-date": "1974-10-15",
+                "length": 266560,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "4"
+            },
+            {
+              "id": "d423d38d-9540-4e79-9d72-5f3555401044",
+              "title": "Diamonds on My Windshield",
+              "length": 192400,
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 192373,
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "first-release-date": "1974-10-15",
+                "video": false
+              }
+            },
+            {
+              "length": 233146,
+              "title": "(Looking for) The Heart of Saturday Night",
+              "id": "2b907899-e11c-4636-b2de-140b1d55766c",
+              "position": 6,
+              "recording": {
+                "length": 233160,
+                "first-release-date": "1974-10-15",
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "6"
+            },
+            {
+              "number": "7",
+              "recording": {
+                "video": false,
+                "title": "Fumblin’ With the Blues",
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "first-release-date": "1974-10-15",
+                "length": 182840,
+                "disambiguation": ""
+              },
+              "position": 7,
+              "length": 182893,
+              "id": "27ece567-cc84-4686-9bfa-ad386175631f",
+              "title": "Fumblin’ With the Blues"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "video": false,
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "title": "Please Call Me, Baby",
+                "first-release-date": "1974-10-15",
+                "length": 265733,
+                "disambiguation": ""
+              },
+              "number": "8",
+              "length": 265746,
+              "id": "d8263fd2-c7f7-4d62-94cc-af9f8d27fbe5",
+              "title": "Please Call Me, Baby"
+            },
+            {
+              "title": "Depot, Depot",
+              "id": "d36969c3-fedd-423d-879d-b6d88d9afa36",
+              "length": 226626,
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "title": "Depot, Depot",
+                "first-release-date": "1974-10-15",
+                "length": 226533,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 306893,
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "title": "Drunk on the Moon",
+                "first-release-date": "1974-10-15"
+              },
+              "position": 10,
+              "number": "10",
+              "title": "Drunk on the Moon",
+              "id": "2f2e804d-5941-47fa-af65-9b0c89833aff",
+              "length": 306906
+            },
+            {
+              "position": 11,
+              "recording": {
+                "video": false,
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "first-release-date": "1974-10-15",
+                "length": 196933,
+                "disambiguation": ""
+              },
+              "number": "11",
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "id": "8408c05a-2756-43a7-9eea-8b61546137a4",
+              "length": 197040
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "status": "Official"
+    },
+    {
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "date": "1990"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "date": "1990",
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "recording": {
+                "video": false,
+                "length": 203000,
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "title": "New Coat of Paint",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1",
+              "title": "New Coat of Paint",
+              "id": "8ca1f5ae-b068-3acc-95db-c635870a1f24",
+              "length": 203666
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "length": 210026,
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "first-release-date": "1974-10-15",
+                "title": "San Diego Serenade",
+                "video": false
+              },
+              "title": "San Diego Serenade",
+              "id": "9585cc66-b91d-3d24-b46d-92a59d777a77",
+              "length": 210026
+            },
+            {
+              "length": 209306,
+              "id": "449d6881-2b04-3a0b-8c87-cd575611b6b3",
+              "title": "Semi Suite",
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "title": "Semi Suite",
+                "first-release-date": "1974-10-15",
+                "length": 209306
+              },
+              "number": "3"
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "title": "Shiver Me Timbers",
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "first-release-date": "1974-10-15",
+                "length": 266560,
+                "video": false,
+                "disambiguation": ""
+              },
+              "title": "Shiver Me Timbers",
+              "id": "59a9de42-ceb0-3931-983b-8aaaaf7bc5c4",
+              "length": 266560
+            },
+            {
+              "number": "5",
+              "recording": {
+                "length": 192373,
+                "title": "Diamonds on My Windshield",
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "first-release-date": "1974-10-15",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 5,
+              "title": "Diamonds on My Windshield",
+              "id": "96a7612f-a627-3cf5-8ed6-045aa4ac7ca8",
+              "length": 192373
+            },
+            {
+              "title": "(Looking for) The Heart of Saturday Night",
+              "id": "303b2824-bdba-3b56-9f46-42a1ddb33a47",
+              "length": 233160,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 233160,
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "first-release-date": "1974-10-15",
+                "title": "(Looking for) The Heart of Saturday Night"
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "length": 182840,
+              "title": "Fumblin’ With the Blues",
+              "id": "c9bd0818-dd5f-3e14-bba1-1ea7281740bc",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "length": 182840,
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "first-release-date": "1974-10-15",
+                "title": "Fumblin’ With the Blues",
+                "video": false
+              },
+              "number": "7"
+            },
+            {
+              "id": "638b8e0a-cb3d-3151-9516-0d668151fd72",
+              "title": "Please Call Me, Baby",
+              "length": 265733,
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 265733,
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "first-release-date": "1974-10-15",
+                "title": "Please Call Me, Baby"
+              },
+              "number": "8"
+            },
+            {
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "title": "Depot, Depot",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "first-release-date": "1974-10-15",
+                "length": 226533,
+                "video": false
+              },
+              "number": "9",
+              "length": 226533,
+              "title": "Depot, Depot",
+              "id": "4fb888be-44a8-3ed1-b3b6-e2892e0b0372"
+            },
+            {
+              "title": "Drunk on the Moon",
+              "id": "f6ecf350-b0ba-3f7b-ade3-b3c24d869e00",
+              "length": 306893,
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "first-release-date": "1974-10-15",
+                "title": "Drunk on the Moon",
+                "length": 306893,
+                "video": false
+              }
+            },
+            {
+              "id": "3de3188a-6ad8-3cd1-b9ef-b32bff671d58",
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "length": 196933,
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "first-release-date": "1974-10-15",
+                "length": 196933
+              }
+            }
+          ],
+          "title": "",
+          "id": "7dfa4da0-c0b4-3797-a2fc-b71922c7d8cc",
+          "track-count": 11,
+          "format": "CD",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "US",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "front": true,
+        "count": 7,
+        "darkened": false
+      },
+      "disambiguation": "",
+      "title": "The Heart of Saturday Night",
+      "id": "1828741e-e2b7-382e-968e-bc536eb154e2",
+      "asin": "B000002GXS",
+      "packaging-id": null,
+      "barcode": "075596059725"
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 9,
+        "front": true,
+        "artwork": true,
+        "back": true
+      },
+      "asin": null,
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "4943674096503",
+      "title": "The Heart of Saturday Night",
+      "id": "2b7e94f2-873a-455e-a95a-9589ed6a0e09",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Japan",
+            "type-id": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type": null,
+            "name": "Japan",
+            "iso-3166-1-codes": [
+              "JP"
+            ]
+          },
+          "date": "2010-03-10"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "media": [
+        {
+          "track-count": 11,
+          "id": "809f3236-1c5b-30ae-a47a-ce8c01074ef0",
+          "title": "",
+          "format": "CD",
+          "track-offset": 0,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "length": 203666,
+              "id": "7537c49c-548a-45bc-99d8-310d33c3a3a7",
+              "title": "New Coat of Paint",
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "length": 203000,
+                "first-release-date": "1974-10-15",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "title": "New Coat of Paint",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "id": "33c0c6a5-43fc-4da0-b08c-428114b00afd",
+              "title": "San Diego Serenade",
+              "length": 210026,
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "title": "San Diego Serenade",
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "first-release-date": "1974-10-15",
+                "length": 210026,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "position": 3,
+              "recording": {
+                "video": false,
+                "length": 209306,
+                "first-release-date": "1974-10-15",
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "title": "Semi Suite",
+                "disambiguation": ""
+              },
+              "number": "3",
+              "id": "266e0c9a-f8a3-4728-8d79-e042312ffb89",
+              "title": "Semi Suite",
+              "length": 209306
+            },
+            {
+              "title": "Shiver Me Timbers",
+              "id": "56cea022-70e0-4aed-9fee-f8cbb673b2f4",
+              "length": 266560,
+              "number": "4",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 266560,
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "first-release-date": "1974-10-15",
+                "title": "Shiver Me Timbers"
+              },
+              "position": 4
+            },
+            {
+              "length": 192373,
+              "id": "fc9b6684-6f09-4718-b0be-d40b4c25efbb",
+              "title": "Diamonds on My Windshield",
+              "position": 5,
+              "recording": {
+                "first-release-date": "1974-10-15",
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "length": 192373,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "5"
+            },
+            {
+              "title": "(Looking for) The Heart of Saturday Night",
+              "id": "5a77b66c-e6d4-445f-a7f1-5319586e6cf0",
+              "length": 233160,
+              "number": "6",
+              "recording": {
+                "length": 233160,
+                "title": "(Looking for) The Heart of Saturday Night",
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "first-release-date": "1974-10-15",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Fumblin’ With the Blues",
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "first-release-date": "1974-10-15",
+                "length": 182840
+              },
+              "number": "7",
+              "length": 182840,
+              "id": "7255cee8-f571-492e-8321-477d22323c35",
+              "title": "Fumblin’ With the Blues"
+            },
+            {
+              "title": "Please Call Me, Baby",
+              "id": "faff0a48-c736-4210-ae70-9102dbf13793",
+              "length": 265733,
+              "position": 8,
+              "recording": {
+                "length": 265733,
+                "first-release-date": "1974-10-15",
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "title": "Please Call Me, Baby",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "8"
+            },
+            {
+              "id": "583262a7-fe73-4257-a7a2-dd5d4ff65425",
+              "title": "Depot, Depot",
+              "length": 226533,
+              "position": 9,
+              "recording": {
+                "video": false,
+                "title": "Depot, Depot",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "first-release-date": "1974-10-15",
+                "length": 226533,
+                "disambiguation": ""
+              },
+              "number": "9"
+            },
+            {
+              "number": "10",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 306893,
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "first-release-date": "1974-10-15",
+                "title": "Drunk on the Moon"
+              },
+              "position": 10,
+              "length": 306893,
+              "title": "Drunk on the Moon",
+              "id": "c524e3f2-833e-488a-87d9-6a26ecaef026"
+            },
+            {
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "id": "dbd67b0f-162b-4431-9da0-47af18225a35",
+              "length": 196933,
+              "recording": {
+                "disambiguation": "",
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "first-release-date": "1974-10-15",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "length": 196933,
+                "video": false
+              },
+              "position": 11,
+              "number": "11"
+            }
+          ]
+        }
+      ],
+      "country": "JP",
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "2010-03-10"
+    },
+    {
+      "disambiguation": "Columbia House club edition",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "darkened": false,
+        "count": 3,
+        "front": true
+      },
+      "asin": null,
+      "barcode": "075596059725",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "title": "The Heart of Saturday Night",
+      "id": "5a6a5636-a1ba-45bd-8c59-bd5a07ec84d1",
+      "release-events": [
+        {
+          "date": "1990",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States"
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "number": "1",
+              "recording": {
+                "video": false,
+                "length": 203000,
+                "title": "New Coat of Paint",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 1,
+              "id": "7820718c-6285-4445-8b7a-bde0c2d35236",
+              "title": "New Coat of Paint",
+              "length": 202973
+            },
+            {
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "title": "San Diego Serenade",
+                "first-release-date": "1974-10-15",
+                "length": 210026
+              },
+              "number": "2",
+              "length": 210026,
+              "title": "San Diego Serenade",
+              "id": "a1361724-95d9-492e-818c-d90a47da4fc6"
+            },
+            {
+              "length": 209306,
+              "title": "Semi Suite",
+              "id": "a17832fd-2563-4b09-adbf-12bf516c4341",
+              "position": 3,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "first-release-date": "1974-10-15",
+                "title": "Semi Suite",
+                "length": 209306
+              },
+              "number": "3"
+            },
+            {
+              "id": "5cec69cc-5b1f-4f5e-ab0c-49a3a95e32e5",
+              "title": "Shiver Me Timbers",
+              "length": 266560,
+              "number": "4",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1974-10-15",
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "title": "Shiver Me Timbers",
+                "length": 266560
+              },
+              "position": 4
+            },
+            {
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 192373,
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "first-release-date": "1974-10-15",
+                "video": false
+              },
+              "number": "5",
+              "title": "Diamonds on My Windshield",
+              "id": "b9c5df51-70be-4ae5-b5ea-7d9c063292b6",
+              "length": 192440
+            },
+            {
+              "length": 233093,
+              "id": "6140ed06-ddf9-4668-932d-3b9734e629d7",
+              "title": "(Looking for) The Heart of Saturday Night",
+              "number": "6",
+              "recording": {
+                "video": false,
+                "length": 233160,
+                "first-release-date": "1974-10-15",
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "length": 182800,
+              "id": "4a928cec-43d2-4bd7-8a4b-386450f8488d",
+              "title": "Fumblin’ With the Blues",
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "title": "Fumblin’ With the Blues",
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "first-release-date": "1974-10-15",
+                "length": 182840,
+                "video": false
+              }
+            },
+            {
+              "number": "8",
+              "recording": {
+                "video": false,
+                "length": 265733,
+                "title": "Please Call Me, Baby",
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 8,
+              "id": "6d1985b6-4da1-4d2f-8309-f47823b6feb3",
+              "title": "Please Call Me, Baby",
+              "length": 265733
+            },
+            {
+              "length": 226573,
+              "title": "Depot, Depot",
+              "id": "32378310-a24d-43e5-a4ed-185ca3fe6b97",
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "length": 226533,
+                "first-release-date": "1974-10-15",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "title": "Depot, Depot",
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 306866,
+              "title": "Drunk on the Moon",
+              "id": "b5ae7d7d-861e-4d07-9fde-fa1a5f9438d9",
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "video": false,
+                "length": 306893,
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "first-release-date": "1974-10-15",
+                "title": "Drunk on the Moon",
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "id": "1a3e54bf-4353-4230-a87c-6a9ce05386e5",
+              "length": 196800,
+              "number": "11",
+              "recording": {
+                "video": false,
+                "length": 196933,
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 11
+            }
+          ],
+          "track-count": 11,
+          "id": "21985a6f-b208-31d2-877d-33dc97e51423",
+          "title": "",
+          "format": "CD",
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "country": "US",
+      "packaging": "Jewel Case",
+      "date": "1990"
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "front": false,
+        "count": 0,
+        "darkened": false,
+        "artwork": false,
+        "back": false
+      },
+      "barcode": "075596059725",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "title": "The Heart of Saturday Night",
+      "id": "5c05be97-a1cf-4c5d-8817-8420427b36e0",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "iso-3166-1-codes": [
+              "AU"
+            ],
+            "name": "Australia",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Australia",
+            "type-id": null
+          },
+          "date": ""
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "media": [
+        {
+          "track-offset": 0,
+          "position": 1,
+          "format": "CD",
+          "id": "bb93f1db-f7aa-3b1b-ac84-1ef9327cb546",
+          "track-count": 11,
+          "title": "",
+          "tracks": [
+            {
+              "length": 203666,
+              "title": "New Coat of Paint",
+              "id": "e392b9f1-b6d5-467a-8bf8-6a9a9879e7c9",
+              "recording": {
+                "length": 203000,
+                "title": "New Coat of Paint",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "first-release-date": "1974-10-15",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 210026,
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "first-release-date": "1974-10-15",
+                "title": "San Diego Serenade"
+              },
+              "position": 2,
+              "number": "2",
+              "title": "San Diego Serenade",
+              "id": "59cac7bc-9915-4ffe-bf5c-21e0777b5fbf",
+              "length": 210026
+            },
+            {
+              "length": 209306,
+              "title": "Semi Suite",
+              "id": "450206b9-7543-40c9-af46-6486c9712a1a",
+              "number": "3",
+              "recording": {
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "first-release-date": "1974-10-15",
+                "title": "Semi Suite",
+                "length": 209306,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 3
+            },
+            {
+              "length": 266560,
+              "title": "Shiver Me Timbers",
+              "id": "0c49c491-b54c-43fc-b05a-c727e0642da4",
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "length": 266560,
+                "first-release-date": "1974-10-15",
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "title": "Shiver Me Timbers",
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1974-10-15",
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "length": 192373
+              },
+              "position": 5,
+              "number": "5",
+              "id": "0f82afd4-7d60-44db-a188-30555eca7004",
+              "title": "Diamonds on My Windshield",
+              "length": 192373
+            },
+            {
+              "number": "6",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "first-release-date": "1974-10-15",
+                "length": 233160
+              },
+              "length": 233160,
+              "title": "(Looking for) The Heart of Saturday Night",
+              "id": "7b01646e-5489-4404-b4b9-5cf3c21fd40a"
+            },
+            {
+              "length": 182840,
+              "id": "a8630472-010e-436c-85ba-8a1458901209",
+              "title": "Fumblin’ With the Blues",
+              "recording": {
+                "length": 182840,
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "first-release-date": "1974-10-15",
+                "title": "Fumblin’ With the Blues",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 7,
+              "number": "7"
+            },
+            {
+              "title": "Please Call Me, Baby",
+              "id": "7460856e-7c2a-499c-b3f1-4669a8e7f0f4",
+              "length": 265733,
+              "number": "8",
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1974-10-15",
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "title": "Please Call Me, Baby",
+                "length": 265733,
+                "video": false
+              },
+              "position": 8
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1974-10-15",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "title": "Depot, Depot",
+                "length": 226533,
+                "video": false
+              },
+              "position": 9,
+              "number": "9",
+              "length": 226533,
+              "title": "Depot, Depot",
+              "id": "8bc440e1-d23a-4324-bb06-3fc7b6c929f5"
+            },
+            {
+              "length": 306893,
+              "id": "bb04f993-c075-46dd-bddd-db76ba2e1611",
+              "title": "Drunk on the Moon",
+              "number": "10",
+              "recording": {
+                "video": false,
+                "first-release-date": "1974-10-15",
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "title": "Drunk on the Moon",
+                "length": 306893,
+                "disambiguation": ""
+              },
+              "position": 10
+            },
+            {
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "disambiguation": "",
+                "length": 196933,
+                "first-release-date": "1974-10-15",
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "video": false
+              },
+              "length": 196933,
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "id": "97d58095-f921-423c-800e-4088cd5a487e"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "status": "Official",
+      "country": "AU",
+      "date": "",
+      "packaging": "Jewel Case"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Germany",
+            "type-id": null,
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type": null,
+            "name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ]
+          },
+          "date": "1999"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "1999",
+      "packaging": "Jewel Case",
+      "country": "DE",
+      "media": [
+        {
+          "format": "CD",
+          "id": "2c001c58-ea20-3dde-803b-e95c82231b03",
+          "title": "",
+          "track-count": 11,
+          "position": 1,
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "id": "f56a3511-5cca-49af-9d8e-3689785fb35e",
+              "title": "New Coat of Paint",
+              "length": 203666,
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "length": 203000,
+                "title": "New Coat of Paint",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "first-release-date": "1974-10-15",
+                "video": false
+              }
+            },
+            {
+              "id": "ba2c8eca-a3c7-4102-8c70-b02ade24aaaa",
+              "title": "San Diego Serenade",
+              "length": 210026,
+              "recording": {
+                "disambiguation": "",
+                "length": 210026,
+                "first-release-date": "1974-10-15",
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "title": "San Diego Serenade",
+                "video": false
+              },
+              "position": 2,
+              "number": "2"
+            },
+            {
+              "length": 209306,
+              "id": "e5c9a329-db32-4902-a104-3f891a6cd4ad",
+              "title": "Semi Suite",
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "first-release-date": "1974-10-15",
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "title": "Semi Suite",
+                "length": 209306,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "4",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 266560,
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "title": "Shiver Me Timbers",
+                "first-release-date": "1974-10-15"
+              },
+              "position": 4,
+              "id": "f0b3e24d-6019-443d-ab94-671e62b17893",
+              "title": "Shiver Me Timbers",
+              "length": 266560
+            },
+            {
+              "length": 192373,
+              "id": "f5a753df-5f2a-423c-9a53-4291880959d5",
+              "title": "Diamonds on My Windshield",
+              "number": "5",
+              "recording": {
+                "title": "Diamonds on My Windshield",
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "first-release-date": "1974-10-15",
+                "length": 192373,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 5
+            },
+            {
+              "length": 233160,
+              "title": "(Looking for) The Heart of Saturday Night",
+              "id": "9f725b8d-83d5-4994-9797-2abfe848c9f5",
+              "number": "6",
+              "recording": {
+                "length": 233160,
+                "first-release-date": "1974-10-15",
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "id": "a3bb747a-e4aa-4866-8a67-b3d48584a01c",
+              "title": "Fumblin’ With the Blues",
+              "length": 182840,
+              "number": "7",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "length": 182840,
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "title": "Fumblin’ With the Blues",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 265733,
+              "id": "3639faa3-ad16-42a7-9cb7-a7e706bb7025",
+              "title": "Please Call Me, Baby",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1974-10-15",
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "title": "Please Call Me, Baby",
+                "length": 265733,
+                "video": false
+              },
+              "number": "8"
+            },
+            {
+              "length": 226533,
+              "title": "Depot, Depot",
+              "id": "be2c8c31-a6aa-43c7-ac43-25c996d0e5c5",
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "title": "Depot, Depot",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "first-release-date": "1974-10-15",
+                "length": 226533,
+                "video": false
+              }
+            },
+            {
+              "title": "Drunk on the Moon",
+              "id": "a2d5111b-9efa-416a-b92b-a5ec92af91f0",
+              "length": 306893,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 306893,
+                "first-release-date": "1974-10-15",
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "title": "Drunk on the Moon"
+              },
+              "position": 10,
+              "number": "10"
+            },
+            {
+              "number": "11",
+              "position": 11,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "first-release-date": "1974-10-15",
+                "length": 196933
+              },
+              "length": 196933,
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "id": "6e94d42a-bf90-457d-ab25-ffda1db33581"
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 6,
+        "front": true
+      },
+      "disambiguation": "",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "barcode": "075596059725",
+      "asin": null,
+      "id": "66ca6b0b-14a5-4a4b-a4a7-33d08d0e6de9",
+      "title": "The Heart of Saturday Night"
+    },
+    {
+      "country": "US",
+      "media": [
+        {
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 203000,
+                "first-release-date": "1974-10-15",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "title": "New Coat of Paint",
+                "video": false
+              },
+              "position": 1,
+              "number": "1",
+              "length": 203666,
+              "id": "f9b9ea2b-02ba-3c45-a9dd-5f392b3dcedb",
+              "title": "New Coat of Paint"
+            },
+            {
+              "id": "41bdd998-b6c1-3714-ba55-4d2816922722",
+              "title": "San Diego Serenade",
+              "length": 210026,
+              "position": 2,
+              "recording": {
+                "video": false,
+                "title": "San Diego Serenade",
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "first-release-date": "1974-10-15",
+                "length": 210026,
+                "disambiguation": ""
+              },
+              "number": "2"
+            },
+            {
+              "length": 209306,
+              "id": "d5249b0e-f232-3694-889f-6d6160c14cb3",
+              "title": "Semi Suite",
+              "number": "3",
+              "recording": {
+                "video": false,
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "first-release-date": "1974-10-15",
+                "title": "Semi Suite",
+                "length": 209306,
+                "disambiguation": ""
+              },
+              "position": 3
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "length": 266560,
+                "title": "Shiver Me Timbers",
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "title": "Shiver Me Timbers",
+              "id": "4b4e1a88-29c1-37b9-9701-06e4440f31c4",
+              "length": 266560
+            },
+            {
+              "number": "5",
+              "recording": {
+                "disambiguation": "",
+                "length": 192373,
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "first-release-date": "1974-10-15",
+                "title": "Diamonds on My Windshield",
+                "video": false
+              },
+              "position": 5,
+              "id": "3ae1a9fc-cba5-3baa-9b52-2366bcd0fb74",
+              "title": "Diamonds on My Windshield",
+              "length": 192373
+            },
+            {
+              "length": 233160,
+              "title": "(Looking for) The Heart of Saturday Night",
+              "id": "88da9660-2209-3383-842a-a764aac50c5a",
+              "recording": {
+                "disambiguation": "",
+                "length": 233160,
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "first-release-date": "1974-10-15",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "video": false
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "length": 182840,
+              "id": "dd4d4c0e-5e96-3df6-8347-500de20cae83",
+              "title": "Fumblin’ With the Blues",
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1974-10-15",
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "title": "Fumblin’ With the Blues",
+                "length": 182840
+              },
+              "number": "7"
+            },
+            {
+              "title": "Please Call Me, Baby",
+              "id": "9b0fffc1-e967-38bd-afaf-dea3638065ae",
+              "length": 265733,
+              "number": "8",
+              "recording": {
+                "video": false,
+                "length": 265733,
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "title": "Please Call Me, Baby",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 8
+            },
+            {
+              "number": "9",
+              "position": 9,
+              "recording": {
+                "video": false,
+                "first-release-date": "1974-10-15",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "title": "Depot, Depot",
+                "length": 226533,
+                "disambiguation": ""
+              },
+              "length": 226533,
+              "id": "5e485e11-c7ed-34aa-a7ab-9f8aedf21c52",
+              "title": "Depot, Depot"
+            },
+            {
+              "number": "10",
+              "recording": {
+                "video": false,
+                "length": 306893,
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "title": "Drunk on the Moon",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 10,
+              "length": 306893,
+              "title": "Drunk on the Moon",
+              "id": "3fa472c4-cddf-3035-aeb2-d92db6c6de69"
+            },
+            {
+              "id": "9d3987f1-46b1-30ea-95e3-486ae9522fa7",
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "length": 196933,
+              "position": 11,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 196933,
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "first-release-date": "1974-10-15",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)"
+              },
+              "number": "11"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "position": 1,
+          "format": "CD",
+          "track-count": 11,
+          "id": "1b113a27-0d7d-3a58-a52f-bddc755061a2",
+          "title": ""
+        }
+      ],
+      "status": "Official",
+      "date": "1990",
+      "packaging": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "1990",
+          "area": {
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "type-id": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "title": "The Heart of Saturday Night",
+      "id": "7c660e69-4d7b-3aca-9bc0-4895fd9ef1d1",
+      "barcode": "075596059725",
+      "packaging-id": null,
+      "asin": "B000002GXS",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "count": 5,
+        "front": true,
+        "darkened": false,
+        "artwork": true,
+        "back": true
+      }
+    },
+    {
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "[Worldwide]",
+            "type-id": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "type": null
+          },
+          "date": "2018-03-09"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "tracks": [
+            {
+              "length": 203000,
+              "id": "e5123e04-a028-4a5d-af3f-3a0386fc5de0",
+              "title": "New Coat of Paint",
+              "recording": {
+                "video": false,
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "title": "New Coat of Paint",
+                "first-release-date": "1974-10-15",
+                "length": 203000,
+                "disambiguation": ""
+              },
+              "position": 1,
+              "number": "1"
+            },
+            {
+              "length": 210000,
+              "id": "bf38048e-385b-49e1-90c5-6f0a285a3541",
+              "title": "San Diego Serenade",
+              "number": "2",
+              "recording": {
+                "disambiguation": "",
+                "length": 210026,
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "first-release-date": "1974-10-15",
+                "title": "San Diego Serenade",
+                "video": false
+              },
+              "position": 2
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "title": "Semi Suite",
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "first-release-date": "1974-10-15",
+                "length": 209306,
+                "video": false
+              },
+              "position": 3,
+              "number": "3",
+              "title": "Semi Suite",
+              "id": "7a093f09-e527-4b9e-9d60-57bf884102ba",
+              "length": 209000
+            },
+            {
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "first-release-date": "1974-10-15",
+                "title": "Shiver Me Timbers",
+                "length": 266560,
+                "video": false,
+                "disambiguation": ""
+              },
+              "title": "Shiver Me Timbers",
+              "id": "b7855643-1db9-45da-bf8b-9119035544a5",
+              "length": 267000
+            },
+            {
+              "title": "Diamonds on My Windshield",
+              "id": "25fe27a0-3175-48a4-a768-906260a9c51a",
+              "length": 192000,
+              "number": "5",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "first-release-date": "1974-10-15",
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "length": 192373,
+                "video": false
+              }
+            },
+            {
+              "title": "(Looking for) The Heart of Saturday Night",
+              "id": "f9fecc62-d892-48e9-a3f4-c40e380d4944",
+              "length": 233000,
+              "number": "6",
+              "recording": {
+                "disambiguation": "",
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "first-release-date": "1974-10-15",
+                "length": 233160,
+                "video": false
+              },
+              "position": 6
+            },
+            {
+              "number": "7",
+              "recording": {
+                "video": false,
+                "length": 182840,
+                "first-release-date": "1974-10-15",
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "title": "Fumblin’ With the Blues",
+                "disambiguation": ""
+              },
+              "position": 7,
+              "id": "01697684-30df-4f10-b36a-fa9ad85d5029",
+              "title": "Fumblin’ With the Blues",
+              "length": 183000
+            },
+            {
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "length": 265733,
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "title": "Please Call Me, Baby",
+                "first-release-date": "1974-10-15",
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 266000,
+              "id": "0260c7df-10fe-47c5-8685-aa7a21fc9958",
+              "title": "Please Call Me, Baby"
+            },
+            {
+              "recording": {
+                "video": false,
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "title": "Depot, Depot",
+                "first-release-date": "1974-10-15",
+                "length": 226533,
+                "disambiguation": ""
+              },
+              "position": 9,
+              "number": "9",
+              "length": 227000,
+              "id": "5c171614-64be-43d8-bb4e-f3993e3c4320",
+              "title": "Depot, Depot"
+            },
+            {
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "length": 306893,
+                "first-release-date": "1974-10-15",
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "title": "Drunk on the Moon",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "7024e3a0-d915-4495-9636-310d7f399356",
+              "title": "Drunk on the Moon",
+              "length": 307000
+            },
+            {
+              "recording": {
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "first-release-date": "1974-10-15",
+                "length": 196933,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 11,
+              "number": "11",
+              "length": 197000,
+              "id": "80cfdda8-d5b0-47ad-9337-033d5874ed7a",
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)"
+            }
+          ],
+          "format": "Digital Media",
+          "title": "",
+          "id": "e99cb498-02c6-329d-9ba5-4b1e0f1b8362",
+          "track-count": 11,
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "XW",
+      "status": "Official",
+      "packaging": "None",
+      "date": "2018-03-09",
+      "disambiguation": "remastered 24-bit/96Hz",
+      "cover-art-archive": {
+        "count": 0,
+        "front": false,
+        "darkened": false,
+        "artwork": false,
+        "back": false
+      },
+      "asin": null,
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "barcode": "457787566050",
+      "title": "The Heart of Saturday Night",
+      "id": "9fa3fe16-f59b-4fa8-87d6-4e769dbfe557"
+    },
+    {
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null
+          },
+          "date": "1974-10-15"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "1974-10-15",
+      "packaging": "Cardboard/Paper Sleeve",
+      "media": [
+        {
+          "tracks": [
+            {
+              "number": "A1",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "New Coat of Paint",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "first-release-date": "1974-10-15",
+                "length": 203000
+              },
+              "position": 1,
+              "title": "New Coat of Paint",
+              "id": "2161e105-8c48-382d-be54-5c8e0f982011",
+              "length": 203666
+            },
+            {
+              "number": "A2",
+              "recording": {
+                "video": false,
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "title": "San Diego Serenade",
+                "first-release-date": "1974-10-15",
+                "length": 210026,
+                "disambiguation": ""
+              },
+              "position": 2,
+              "title": "San Diego Serenade",
+              "id": "0f6a8a99-86ec-3e1a-9dfb-1765cff47dcd",
+              "length": 210026
+            },
+            {
+              "number": "A3",
+              "recording": {
+                "video": false,
+                "first-release-date": "1974-10-15",
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "title": "Semi Suite",
+                "length": 209306,
+                "disambiguation": ""
+              },
+              "position": 3,
+              "id": "b143f5c5-a2b8-3e0c-8188-a29654ce4212",
+              "title": "Semi Suite",
+              "length": 209306
+            },
+            {
+              "length": 266560,
+              "title": "Shiver Me Timbers",
+              "id": "e663e700-4cc6-3f1c-af6c-4fcd5bc9cf3f",
+              "recording": {
+                "length": 266560,
+                "first-release-date": "1974-10-15",
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "title": "Shiver Me Timbers",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "number": "A4"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "first-release-date": "1974-10-15",
+                "length": 192373,
+                "video": false
+              },
+              "number": "A5",
+              "id": "453ed81a-251f-3547-bc21-1a26004fa9bb",
+              "title": "Diamonds on My Windshield",
+              "length": 192373
+            },
+            {
+              "id": "b46f4603-6804-35c5-98f3-be686b5d9a37",
+              "title": "(Looking for) The Heart of Saturday Night",
+              "length": 233160,
+              "position": 6,
+              "recording": {
+                "video": false,
+                "first-release-date": "1974-10-15",
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "length": 233160,
+                "disambiguation": ""
+              },
+              "number": "A6"
+            },
+            {
+              "number": "B1",
+              "position": 7,
+              "recording": {
+                "length": 182840,
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "first-release-date": "1974-10-15",
+                "title": "Fumblin’ With the Blues",
+                "video": false,
+                "disambiguation": ""
+              },
+              "title": "Fumblin’ With the Blues",
+              "id": "24dd3c09-5aed-3fcb-a8f9-d56bb8be1a83",
+              "length": 182840
+            },
+            {
+              "title": "Please Call Me, Baby",
+              "id": "61e4a1c4-8642-3a16-9a84-306c6bb4c740",
+              "length": 265733,
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "first-release-date": "1974-10-15",
+                "title": "Please Call Me, Baby",
+                "length": 265733,
+                "video": false
+              },
+              "number": "B2"
+            },
+            {
+              "length": 226533,
+              "id": "acefbe0c-0fc9-3745-8d63-a39ff0a52914",
+              "title": "Depot, Depot",
+              "position": 9,
+              "recording": {
+                "video": false,
+                "length": 226533,
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "first-release-date": "1974-10-15",
+                "title": "Depot, Depot",
+                "disambiguation": ""
+              },
+              "number": "B3"
+            },
+            {
+              "title": "Drunk on the Moon",
+              "id": "e1c4fe56-77cf-356c-8dc7-518e27bcfed4",
+              "length": 306893,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 306893,
+                "title": "Drunk on the Moon",
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "first-release-date": "1974-10-15"
+              },
+              "position": 10,
+              "number": "B4"
+            },
+            {
+              "length": 196933,
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "id": "0e7f56be-08b6-3fa2-ae57-17113fe81a52",
+              "number": "B5",
+              "position": 11,
+              "recording": {
+                "video": false,
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "first-release-date": "1974-10-15",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "length": 196933,
+                "disambiguation": ""
+              }
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "track-offset": 0,
+          "position": 1,
+          "format": "12\" Vinyl",
+          "id": "05301b44-99bd-3046-bb9e-bd64144cf5a7",
+          "title": "",
+          "track-count": 11
+        }
+      ],
+      "country": "US",
+      "status": "Official",
+      "cover-art-archive": {
+        "darkened": false,
+        "front": true,
+        "count": 1,
+        "artwork": true,
+        "back": false
+      },
+      "disambiguation": "",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": null,
+      "title": "The Heart of Saturday Night",
+      "id": "ae74248e-9416-4b11-8466-d636f96b6b9e"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States"
+          },
+          "date": "1990"
+        }
+      ],
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "length": 203000,
+              "title": "New Coat of Paint",
+              "id": "acca2647-a3d6-4ec3-baa6-79ea85275056",
+              "number": "1",
+              "recording": {
+                "length": 203000,
+                "title": "New Coat of Paint",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "first-release-date": "1974-10-15",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 1
+            },
+            {
+              "number": "2",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "length": 210026,
+                "title": "San Diego Serenade",
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "id": "9e2ebfb6-470f-4a2e-8c7b-c46047af3ff8",
+              "title": "San Diego Serenade",
+              "length": 210026
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "first-release-date": "1974-10-15",
+                "title": "Semi Suite",
+                "length": 209306,
+                "video": false
+              },
+              "position": 3,
+              "number": "3",
+              "title": "Semi Suite",
+              "id": "3c5be2d4-edfc-4ffe-a350-32ab876dea99",
+              "length": 209306
+            },
+            {
+              "title": "Shiver Me Timbers",
+              "id": "d22ab810-e86f-4cc1-a387-069c2cca545c",
+              "length": 266560,
+              "number": "4",
+              "position": 4,
+              "recording": {
+                "disambiguation": "",
+                "length": 266560,
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "title": "Shiver Me Timbers",
+                "first-release-date": "1974-10-15",
+                "video": false
+              }
+            },
+            {
+              "length": 192373,
+              "id": "da62d007-ca62-4d28-9278-86f190750379",
+              "title": "Diamonds on My Windshield",
+              "recording": {
+                "disambiguation": "",
+                "length": 192373,
+                "first-release-date": "1974-10-15",
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "video": false
+              },
+              "position": 5,
+              "number": "5"
+            },
+            {
+              "length": 233160,
+              "id": "ce71674b-c202-46da-bf6e-73e0d687713b",
+              "title": "(Looking for) The Heart of Saturday Night",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 233160,
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "first-release-date": "1974-10-15",
+                "title": "(Looking for) The Heart of Saturday Night"
+              },
+              "position": 6,
+              "number": "6"
+            },
+            {
+              "length": 182840,
+              "title": "Fumblin’ With the Blues",
+              "id": "30bda6e5-6df5-43f2-aa87-3e6e42341704",
+              "recording": {
+                "first-release-date": "1974-10-15",
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "title": "Fumblin’ With the Blues",
+                "length": 182840,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 7,
+              "number": "7"
+            },
+            {
+              "title": "Please Call Me, Baby",
+              "id": "de776b35-2ded-4f62-82ee-af4266ea3801",
+              "length": 265733,
+              "number": "8",
+              "recording": {
+                "video": false,
+                "length": 265733,
+                "title": "Please Call Me, Baby",
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 8
+            },
+            {
+              "number": "9",
+              "recording": {
+                "video": false,
+                "length": 226533,
+                "first-release-date": "1974-10-15",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "title": "Depot, Depot",
+                "disambiguation": ""
+              },
+              "position": 9,
+              "length": 226533,
+              "id": "1fc206f9-7215-46b6-8c22-7741998b8b48",
+              "title": "Depot, Depot"
+            },
+            {
+              "title": "Drunk on the Moon",
+              "id": "9bb40603-b9c9-423f-be20-eb07cada4d94",
+              "length": 306893,
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "first-release-date": "1974-10-15",
+                "title": "Drunk on the Moon",
+                "length": 306893,
+                "video": false
+              }
+            },
+            {
+              "number": "11",
+              "recording": {
+                "video": false,
+                "length": 196933,
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 11,
+              "id": "aefc62c4-6451-4699-90e9-e2b5d976c7a7",
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+              "length": 196933
+            }
+          ],
+          "format": "CD",
+          "id": "ebe673d1-dcdd-37b6-bbef-3f3098e084c5",
+          "track-count": 11,
+          "title": "",
+          "track-offset": 0,
+          "position": 1
+        }
+      ],
+      "status": "Official",
+      "country": "US",
+      "date": "1990",
+      "packaging": null,
+      "disambiguation": "BMG Distribution",
+      "cover-art-archive": {
+        "count": 0,
+        "front": false,
+        "darkened": false,
+        "artwork": false,
+        "back": false
+      },
+      "id": "bd25171d-3641-4761-b1a8-eda6b208add6",
+      "title": "The Heart of Saturday Night",
+      "packaging-id": null,
+      "barcode": null,
+      "asin": null
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "front": false,
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "artwork": false
+      },
+      "barcode": "045778756629",
+      "packaging-id": null,
+      "asin": null,
+      "title": "The Heart Of Saturday Night",
+      "id": "c2e66c67-67b3-403c-b074-d5d7375e975a",
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "release-events": [
+        {
+          "date": "2018-03-20",
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "type-id": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "status-id": null,
+      "quality": "normal",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "length": 200000,
+              "id": "0c346c0d-2614-45bf-9560-ae167bb59e26",
+              "title": "New Coat Of Paint",
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 203000,
+                "first-release-date": "1974-10-15",
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "title": "New Coat of Paint"
+              }
+            },
+            {
+              "position": 2,
+              "recording": {
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "first-release-date": "1974-10-15",
+                "title": "San Diego Serenade",
+                "length": 210026,
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "2",
+              "length": 205000,
+              "title": "San Diego Serenade",
+              "id": "a013a602-a1e4-4219-86d9-b69cb8e06a7c"
+            },
+            {
+              "number": "3",
+              "position": 3,
+              "recording": {
+                "video": false,
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "title": "Semi Suite",
+                "first-release-date": "1974-10-15",
+                "length": 209306,
+                "disambiguation": ""
+              },
+              "id": "ae37e731-ec45-4315-a1f6-b5c0cf143dcb",
+              "title": "Semi Suite",
+              "length": 202000
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "length": 266560,
+                "title": "Shiver Me Timbers",
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "first-release-date": "1974-10-15",
+                "video": false
+              },
+              "position": 4,
+              "number": "4",
+              "id": "8efd4b42-9b67-466c-b2ef-d58bdc52ad70",
+              "title": "Shiver Me Timbers",
+              "length": 261000
+            },
+            {
+              "length": 190000,
+              "id": "4828e56d-e729-47b0-beea-199b71ed3e7c",
+              "title": "Diamonds On My Windshield",
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1974-10-15",
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "length": 192373
+              },
+              "number": "5"
+            },
+            {
+              "number": "6",
+              "recording": {
+                "disambiguation": "",
+                "length": 233160,
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "first-release-date": "1974-10-15",
+                "video": false
+              },
+              "position": 6,
+              "length": 230000,
+              "id": "f5741f3d-1faa-4d52-ae5a-6d41cc95e8e0",
+              "title": "(Looking For) The Heart Of Saturday Night"
+            },
+            {
+              "length": 179000,
+              "id": "bc1b1b32-9c6d-49e0-9388-cf57582174f2",
+              "title": "Fumblin' With The Blues",
+              "position": 7,
+              "recording": {
+                "length": 182840,
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "first-release-date": "1974-10-15",
+                "title": "Fumblin’ With the Blues",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "7"
+            },
+            {
+              "length": 263000,
+              "title": "Please Call Me, Baby",
+              "id": "190d09d6-d08b-46aa-a634-63ce7868d2e6",
+              "number": "8",
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "title": "Please Call Me, Baby",
+                "first-release-date": "1974-10-15",
+                "length": 265733,
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "title": "Depot, Depot",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "first-release-date": "1974-10-15",
+                "length": 226533
+              },
+              "position": 9,
+              "number": "9",
+              "length": 222000,
+              "id": "fee6ac4d-3182-4037-82cd-b852bcf06145",
+              "title": "Depot, Depot"
+            },
+            {
+              "length": 305000,
+              "id": "d2c8dd5d-efaf-461b-a360-2e3b5bd19849",
+              "title": "Drunk On The Moon",
+              "number": "10",
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "length": 306893,
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "first-release-date": "1974-10-15",
+                "title": "Drunk on the Moon",
+                "video": false
+              }
+            },
+            {
+              "number": "11",
+              "recording": {
+                "length": 196933,
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "first-release-date": "1974-10-15",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 11,
+              "title": "The Ghosts Of Saturday Night (After Hours At Napoleone's Pizza House)",
+              "id": "4cdd26f7-e516-4a5d-bc95-ee7182a7938d",
+              "length": 197000
+            }
+          ],
+          "id": "752d9ec4-6ada-3d19-b600-c06e91aba267",
+          "track-count": 11,
+          "title": "",
+          "format": "CD",
+          "position": 1,
+          "track-offset": 0
+        }
+      ],
+      "country": "US",
+      "status": null,
+      "date": "2018-03-20",
+      "packaging": null
+    },
+    {
+      "asin": null,
+      "barcode": "8714092756623",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "title": "The Heart of Saturday Night",
+      "id": "cf63ba7f-f7d9-483c-bd62-af8541ffb2b2",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "darkened": false,
+        "front": false,
+        "count": 0,
+        "artwork": false,
+        "back": false
+      },
+      "media": [
+        {
+          "position": 1,
+          "track-offset": 0,
+          "format": "CD",
+          "track-count": 11,
+          "id": "5967ad10-5ffc-3195-bfae-2217743d696a",
+          "title": "",
+          "tracks": [
+            {
+              "number": "1",
+              "position": 1,
+              "recording": {
+                "length": 203000,
+                "id": "87fd3a23-3792-460d-8ec5-b30c457c7188",
+                "title": "New Coat of Paint",
+                "first-release-date": "1974-10-15",
+                "video": false,
+                "disambiguation": ""
+              },
+              "id": "08fb3970-2533-4e99-a1ec-3551bc3fc905",
+              "title": "New Coat of Paint",
+              "length": 203000
+            },
+            {
+              "number": "2",
+              "recording": {
+                "video": false,
+                "length": 210026,
+                "title": "San Diego Serenade",
+                "id": "6fab5153-08f1-495d-a77d-677709e5c94b",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 2,
+              "id": "51c107fe-2a69-42ab-9564-4fddc97fcba9",
+              "title": "San Diego Serenade",
+              "length": 210000
+            },
+            {
+              "number": "3",
+              "recording": {
+                "video": false,
+                "length": 209306,
+                "title": "Semi Suite",
+                "id": "343b2714-fde9-4c96-a252-873f99d276b6",
+                "first-release-date": "1974-10-15",
+                "disambiguation": ""
+              },
+              "position": 3,
+              "length": 209000,
+              "title": "Semi Suite",
+              "id": "c9821a4a-3770-47d4-8880-67e9697dceba"
+            },
+            {
+              "title": "Shiver Me Timbers",
+              "id": "eaa3d81b-0745-4989-b53c-4fd7b6ddbd4d",
+              "length": 267000,
+              "number": "4",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 266560,
+                "id": "7112e17f-aa4f-455c-b462-cb2173569a86",
+                "title": "Shiver Me Timbers",
+                "first-release-date": "1974-10-15"
+              },
+              "position": 4
+            },
+            {
+              "id": "1b34b2ac-23a2-485f-bc4d-72d7ec7ccf3e",
+              "title": "Diamonds on My Windshield",
+              "length": 192000,
+              "position": 5,
+              "recording": {
+                "disambiguation": "",
+                "length": 192373,
+                "id": "8ee44e2a-cae8-4a78-93f2-1d2784b6a50f",
+                "title": "Diamonds on My Windshield",
+                "first-release-date": "1974-10-15",
+                "video": false
+              },
+              "number": "5"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "video": false,
+                "length": 233160,
+                "first-release-date": "1974-10-15",
+                "id": "9ba54ad0-8f4e-47e9-a8cd-9a50e056db47",
+                "title": "(Looking for) The Heart of Saturday Night",
+                "disambiguation": ""
+              },
+              "number": "6",
+              "id": "72e402c9-eb1e-40c3-a4a2-3e17380b25cc",
+              "title": "(Looking for) The Heart of Saturday Night",
+              "length": 233000
+            },
+            {
+              "number": "7",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 182840,
+                "first-release-date": "1974-10-15",
+                "id": "6729544b-3b74-43d4-b6d8-84b6973a4201",
+                "title": "Fumblin’ With the Blues"
+              },
+              "position": 7,
+              "id": "2fb01060-5b81-4323-a8dd-bf49010533d1",
+              "title": "Fumblin' With the Blues",
+              "length": 183000
+            },
+            {
+              "recording": {
+                "id": "46d1737a-6d75-4618-a5c5-f761cf2859c9",
+                "title": "Please Call Me, Baby",
+                "first-release-date": "1974-10-15",
+                "length": 265733,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 8,
+              "number": "8",
+              "length": 266000,
+              "id": "e9c3ceac-d8c8-48af-9197-01f98876d5ad",
+              "title": "Please Call Me, Baby"
+            },
+            {
+              "number": "9",
+              "recording": {
+                "disambiguation": "",
+                "length": 226533,
+                "first-release-date": "1974-10-15",
+                "id": "f18e37e9-37f3-4d62-81b2-34b201b9485b",
+                "title": "Depot, Depot",
+                "video": false
+              },
+              "position": 9,
+              "length": 227000,
+              "id": "297defda-e8c9-45db-b740-a2c93954ad62",
+              "title": "Depot, Depot"
+            },
+            {
+              "length": 307000,
+              "title": "Drunk on the Moon",
+              "id": "85a9dcd5-0136-4cd0-8138-99ee81338774",
+              "position": 10,
+              "recording": {
+                "length": 306893,
+                "id": "f3f04b37-1c19-47bb-8135-9020342365a2",
+                "title": "Drunk on the Moon",
+                "first-release-date": "1974-10-15",
+                "video": false,
+                "disambiguation": ""
+              },
+              "number": "10"
+            },
+            {
+              "length": 197000,
+              "title": "The Ghosts of Saturday Night (After Hours at Napoleone's Pizza House)",
+              "id": "9892fe32-beb7-4c23-9dc0-ec816e783626",
+              "number": "11",
+              "recording": {
+                "disambiguation": "",
+                "id": "b9b4b756-f5ee-4ee4-95ec-d0b45fa59ae3",
+                "first-release-date": "1974-10-15",
+                "title": "The Ghosts of Saturday Night (After Hours at Napoleone’s Pizza House)",
+                "length": 196933,
+                "video": false
+              },
+              "position": 11
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "country": "GB",
+      "status": "Official",
+      "packaging": "Digipak",
+      "date": "2018",
+      "release-events": [
+        {
+          "date": "2018",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "United Kingdom",
+            "type-id": null,
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "type": null
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    }
+  ]
+}

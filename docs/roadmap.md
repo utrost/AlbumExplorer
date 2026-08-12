@@ -1,7 +1,7 @@
 # AlbumExplorer Roadmap
 
 Status: explorer-first course correction after v0.1 data/enrichment work  
-Last updated: 2026-08-08
+Last updated: 2026-08-12
 
 AlbumExplorer should grow into a personal album atlas. The current correction is explicit: Hermes owns data sanitation/enrichment behind the scenes, while the public app centers exploration of the 760 Rolling Stone album identities. Review queues, source names, and candidate files may exist, but they are internal infrastructure or footnotes unless a curator judgment is genuinely needed.
 
@@ -43,6 +43,13 @@ Rules:
 - The public UI should load `data/app/album-atlas.json`, not raw review reports.
 - A relationship can be shown when it has an explanation and provenance/confidence good enough for exploration.
 - Data-quality dashboards should guide Hermes’s cleanup work, not become the main app experience.
+
+Current progress summary:
+
+- Phase 0–3: shipped/superseded by the current static Rolling Stone atlas.
+- Phase 4–6: first executable slices shipped for explainable relationships, focused graph exploration, and album-to-album path finding.
+- Phase 7: active product-feature frontier. A first 2020 → 2024 movement summary is now visible in the static app; richer single-edition and two-edition comparison controls remain next.
+- Content enrichment continues in parallel through [`content-enrichment-roadmap.md`](content-enrichment-roadmap.md), especially cover art, tracklists, durations, and composer/songwriter coverage.
 
 ## Guiding constraints
 
@@ -383,17 +390,13 @@ Only consider these after the core atlas proves useful:
 - Native mobile app.
 - Multi-user collaboration or cloud sync.
 
-## Immediate next implementation order
+## Current immediate next implementation order
 
-1. Add repository skeleton and static development instructions.
-2. Use the staged [Rolling Stone Top 500 CSV](imports/rolling-stone-top-500-csv.md) as the first importer/validator exercise.
-3. Create a tiny but representative seed dataset.
-4. Implement validator and indexes with tests.
-5. Build collection browser and album detail view.
-6. Add explicit and derived relationships with explanations.
-7. Add focused SVG graph around one album.
-8. Add BFS path finder and plain-language path results.
-9. Add list-edition comparison once enough list data exists.
+1. Ship the first Phase 7 list-comparison slice: a 2020 → 2024 movement summary with added, removed, rising, falling, and unchanged counts.
+2. Expand Phase 7 into explicit single-edition and two-edition controls, including edition selectors and movement/status filters.
+3. Extract the growing browser shell into smaller view/controller modules before adding timeline or richer graph modes.
+4. Continue the content-enrichment roadmap by using the generated profile gap report to raise cover art, tracklist, duration, and composer/songwriter coverage.
+5. Add URL-encoded state only after the main comparison/relationship surfaces have stable UI semantics.
 
 ## Open decisions
 

@@ -678,6 +678,50 @@ code {
   padding: 0 12px 12px;
 }
 
+.compact-table {
+  max-height: 52vh;
+}
+
+.compact-metrics {
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+}
+
+.compact-metrics strong {
+  font-size: 1.5rem;
+}
+
+.movement-row td > span {
+  color: #bdaea0;
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 3px;
+}
+
+.movement {
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 4px 9px;
+}
+
+.movement.added,
+.movement.rising {
+  background: #17321e;
+  color: #a8d6a2;
+}
+
+.movement.removed,
+.movement.falling {
+  background: #3a1f1b;
+  color: #f0a39a;
+}
+
+.movement.unchanged {
+  background: #251b16;
+  color: #d8c1a4;
+}
+
 .compact-list {
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }

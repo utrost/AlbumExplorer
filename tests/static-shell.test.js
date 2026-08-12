@@ -55,6 +55,13 @@ test('static app exposes explorer-first controls, app dataset, and relationship 
   assert.match(app, /Focused graph/);
   assert.match(app, /Path finder/);
   assert.match(app, /Related albums/);
+  assert.match(app, /list-comparison\.js/);
+  assert.match(app, /data-testid="list-comparison"/);
+  assert.match(app, /2020 → 2024/);
+  assert.match(app, /Added/);
+  assert.match(app, /Removed/);
+  assert.match(app, /Rising/);
+  assert.match(app, /Falling/);
 });
 
 test('GitHub Pages workflow publishes the complete static artifact', () => {

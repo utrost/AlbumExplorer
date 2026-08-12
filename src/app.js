@@ -1,6 +1,7 @@
 import { validateCollection } from './data/validator.js';
 import { buildIndexes } from './data/indexes.js';
 import { filterRows, sortRows } from './data/enriched-comparison.js';
+import { buildListComparison } from './data/list-comparison.js';
 import { buildAlbumRelationships, getRelatedAlbums, matchingRelationshipExplanations } from './data/derived-relationships.js';
 import { buildFocusedGraph } from './views/focused-graph-view.js';
 import { renderAlbumProfile, renderProfileFootnotes, formatDuration, escapeHtml, escapeAttribute } from './views/album-profile-view.js';
@@ -88,6 +89,7 @@ function renderApp() {
   const relatedAlbums = selected ? getRelatedAlbums(selected.id, state.rows, state.relationships, { limit: 6, allowedTypes: activeRelationshipTypes }) : [];
   const focusedGraph = selected ? buildFocusedGraph({ selectedAlbumId: selected.id, rows: state.rows, relationships: state.relationships, limit: 10, allowedTypes: activeRelationshipTypes }) : null;
   const pathResult = selected && state.pathDestinationId ? findAlbumPath({ startAlbumId: selected.id, endAlbumId: state.pathDestinationId, relationships: state.relationships, maxDepth: 3, allowedTypes: activeRelationshipTypes }) : null;
+  const listComparison = buildListComparison(state.rows, { fromYear: 2020, toYear: 2024 });
 
   app.innerHTML = `
     <header class="hero">
@@ -126,6 +128,8 @@ function renderApp() {
         ${selected ? renderAlbumDetail(selected, relatedAlbums, focusedGraph, pathResult) : '<aside class="detail-panel"><p>No album selected.</p></aside>'}
       </div>
     </section>
+
+    ${renderListComparison(listComparison)}
 
     <section class="panel compact-seed">
       <h2>Seed collection prototype</h2>
@@ -179,6 +183,63 @@ function renderControls() {
       </label>
     </form>
   `;
+}
+
+function renderListComparison(comparison) {
+  return `
+    <section class="panel" data-testid="list-comparison">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">List comparison</p>
+          <h2>2020 → 2024 movement</h2>
+        </div>
+        <p class="muted">${comparison.counts.persistent} persistent · ${comparison.counts.added} added · ${comparison.counts.removed} removed</p>
+      </div>
+      <ul class="metrics compact-metrics">
+        <li><strong>${comparison.counts.added}</strong><span>Added</span></li>
+        <li><strong>${comparison.counts.removed}</strong><span>Removed</span></li>
+        <li><strong>${comparison.counts.rising}</strong><span>Rising</span></li>
+        <li><strong>${comparison.counts.falling}</strong><span>Falling</span></li>
+        <li><strong>${comparison.counts.unchanged}</strong><span>Unchanged</span></li>
+      </ul>
+      <div class="table-wrap compact-table">
+        <table class="comparison-table movement-table">
+          <thead>
+            <tr>
+              <th>Album</th>
+              <th>2020</th>
+              <th>2024</th>
+              <th>Change</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${comparison.rows.slice(0, 40).map(renderListComparisonRow).join('')}
+          </tbody>
+        </table>
+      </div>
+      <p class="muted table-note">Showing top ${Math.min(40, comparison.rows.length)} by 2024 rank, with 2020-only removed albums after current entries.</p>
+    </section>
+  `;
+}
+
+function renderListComparisonRow(item) {
+  return `
+    <tr class="movement-row ${escapeAttribute(item.status)}">
+      <td><strong>${escapeHtml(item.album)}</strong><span>${escapeHtml(item.artist)} · ${item.releaseYear ?? 'year unknown'}</span></td>
+      <td>${item.fromRank == null ? '—' : `#${item.fromRank}`}</td>
+      <td>${item.toRank == null ? '—' : `#${item.toRank}`}</td>
+      <td>${renderMovement(item)}</td>
+    </tr>
+  `;
+}
+
+function renderMovement(item) {
+  if (item.status === 'added') return '<span class="movement added">Added</span>';
+  if (item.status === 'removed') return '<span class="movement removed">Removed</span>';
+  if (item.status === 'unchanged') return '<span class="movement unchanged">Unchanged</span>';
+  const direction = item.movement > 0 ? 'Rising' : 'Falling';
+  const sign = item.movement > 0 ? '+' : '';
+  return `<span class="movement ${escapeAttribute(item.status)}">${direction} ${sign}${item.movement}</span>`;
 }
 
 function renderComparisonTable(rows) {

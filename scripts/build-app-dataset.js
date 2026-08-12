@@ -8,15 +8,17 @@ const [
   sourceCandidatesPath = 'data/enrichment/album-metadata-source-candidates.json',
   creditCandidatesPath = 'data/enrichment/album-credit-candidates.json',
   profileGapCreditCandidatesPath = 'data/enrichment/album-credit-profile-gap-candidates.json',
+  coverArtCandidatesPath = 'data/enrichment/cover-art-archive-candidates.json',
   outputPath = 'data/app/album-atlas.json'
 ] = process.argv.slice(2);
 
-const [comparison, metadataCandidates, sourceCandidates, creditCandidates, profileGapCreditCandidates] = await Promise.all([
+const [comparison, metadataCandidates, sourceCandidates, creditCandidates, profileGapCreditCandidates, coverArtCandidates] = await Promise.all([
   readJson(comparisonPath),
   readJson(metadataCandidatesPath),
   readJson(sourceCandidatesPath),
   readJson(creditCandidatesPath),
-  readJsonOrEmptyLayer(profileGapCreditCandidatesPath)
+  readJsonOrEmptyLayer(profileGapCreditCandidatesPath),
+  readJsonOrEmptyLayer(coverArtCandidatesPath)
 ]);
 
 const additionalCreditCandidateLayers = profileGapCreditCandidates ? [profileGapCreditCandidates] : [];
@@ -28,6 +30,7 @@ const dataset = buildAppDataset({
   sourceCandidates,
   creditCandidates,
   additionalCreditCandidateLayers,
+  coverArtCandidates,
   sourcePayloadsByCachePath
 });
 

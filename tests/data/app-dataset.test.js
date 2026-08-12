@@ -91,10 +91,26 @@ const profileGapCreditCandidates = {
   documentedGaps: []
 };
 
+const coverArtCandidates = {
+  candidates: [
+    {
+      albumId: 'album-gamma-three',
+      coverArt: {
+        url: 'https://coverartarchive.org/gamma-front.jpg',
+        thumbnailUrl: 'https://coverartarchive.org/gamma-small.jpg',
+        width: 1000,
+        height: 1000
+      },
+      source: { system: 'cover-art-archive', release: 'https://musicbrainz.org/release/gamma' }
+    }
+  ],
+  gaps: []
+};
+
 const sourcePayloadsByCachePath = new Map([
   ['data/imports/discogs/releases/alpha.json', {
     uri: 'https://www.discogs.com/release/alpha',
-    notes: 'Original gatefold release with a short contextual note.',
+    notes: 'A concise album context note.',
     images: [
       {
         type: 'primary',
@@ -177,7 +193,7 @@ test('builds content-first album profiles with source details as footnotes', () 
 
   const alpha = dataset.albums.find((album) => album.id === 'album-alpha-one-1970');
   assert.equal(alpha.profile.description, 'Alpha — One (1970).');
-  assert.equal(alpha.profile.story, 'Original gatefold release with a short contextual note.');
+  assert.equal(alpha.profile.story, 'A concise album context note.');
   assert.equal(alpha.profile.coverArt.url, 'https://img.example/alpha-cover-large.jpg');
   assert.equal(alpha.profile.totalDurationSeconds, 360);
   assert.deepEqual(alpha.profile.tracklist.map((track) => [track.position, track.title, track.durationSeconds]), [
@@ -208,6 +224,24 @@ test('does not promote long technical release notes into album story copy', () =
   assert.equal(alpha.profile.story, null);
 });
 
+test('does not promote short pressing or label-variant notes into album story copy', () => {
+  const dataset = buildAppDataset({
+    comparison,
+    metadataCandidates,
+    sourceCandidates,
+    creditCandidates,
+    sourcePayloadsByCachePath: new Map([
+      ['data/imports/discogs/releases/alpha.json', {
+        notes: 'Label variant: layout and font. deep groove pressing Original copies include inner sleeve promoting Motown releases.',
+        tracklist: []
+      }]
+    ])
+  });
+
+  const alpha = dataset.albums.find((album) => album.id === 'album-alpha-one-1970');
+  assert.equal(alpha.profile.story, null);
+});
+
 test('merges focused profile-gap credit candidates without overwriting the primary credit layer', () => {
   const dataset = buildAppDataset({
     comparison,
@@ -215,6 +249,7 @@ test('merges focused profile-gap credit candidates without overwriting the prima
     sourceCandidates,
     creditCandidates,
     additionalCreditCandidateLayers: [profileGapCreditCandidates],
+    coverArtCandidates,
     sourcePayloadsByCachePath
   });
 
@@ -227,6 +262,7 @@ test('merges focused profile-gap credit candidates without overwriting the prima
 
   const gamma = dataset.albums.find((album) => album.id === 'album-gamma-three');
   assert.equal(gamma.dataQuality.credits.status, 'source-candidate');
-  assert.equal(gamma.profile.coverArt.url, 'https://img.example/gamma-cover.jpg');
+  assert.equal(gamma.profile.coverArt.url, 'https://coverartarchive.org/gamma-front.jpg');
   assert.deepEqual(gamma.profile.tracklist.map((track) => track.title), ['Gap Song']);
+  assert.deepEqual(gamma.profile.footnotes.map((footnote) => footnote.label), ['Album content source', 'Cover art source']);
 });

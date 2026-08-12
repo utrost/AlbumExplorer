@@ -19,3 +19,11 @@ test('app dataset builder includes the focused profile-gap candidate layer', () 
   assert.match(script, /album-credit-profile-gap-candidates\.json/);
   assert.match(script, /additionalCreditCandidateLayers/);
 });
+
+test('package exposes Cover Art Archive focused importer and app dataset builder consumes it', () => {
+  assert.match(packageJson.scripts['import:cover-art-archive'], /scripts\/import-cover-art-archive-candidates\.js/);
+  const script = readFileSync('scripts/build-app-dataset.js', 'utf8');
+
+  assert.match(script, /cover-art-archive-candidates\.json/);
+  assert.match(script, /coverArtCandidates/);
+});

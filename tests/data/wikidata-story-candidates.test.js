@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   buildWikidataStoryCandidates,
+  mergeWikidataStoryCandidateLayers,
   selectWikidataStoryImportAlbums
 } from '../../src/data/wikidata-story-candidates.js';
 
@@ -98,4 +99,31 @@ test('builds concise story candidates from cached Wikidata and Wikipedia summari
   assert.equal(output.candidates[0].source.wikidataUrl, 'https://www.wikidata.org/wiki/Q123');
   assert.equal(output.candidates[0].source.wikipediaUrl, 'https://en.wikipedia.org/wiki/One_(Alpha_album)');
   assert.deepEqual(output.gaps.map((gap) => [gap.albumId, gap.reason]), [['album-beta-two-1971', 'weak-or-disambiguation-summary']]);
+});
+
+test('merges rerun story layers without losing previous candidates when a smaller scope is imported', () => {
+  const previous = {
+    candidates: [
+      { albumId: 'album-alpha-one-1970', profile: { story: 'Existing sourced story.' } },
+      { albumId: 'album-beta-two-1971', profile: { story: 'Candidate replaced by better rerun.' } }
+    ],
+    gaps: [{ albumId: 'album-gamma-three', reason: 'wikidata-response-missing' }]
+  };
+  const rerun = {
+    candidates: [{ albumId: 'album-beta-two-1971', profile: { story: 'Fresh sourced story.' } }],
+    gaps: [{ albumId: 'album-delta-four', reason: 'weak-or-disambiguation-summary' }]
+  };
+
+  const merged = mergeWikidataStoryCandidateLayers(previous, rerun);
+
+  assert.deepEqual(merged.candidates.map((candidate) => [candidate.albumId, candidate.profile.story]), [
+    ['album-alpha-one-1970', 'Existing sourced story.'],
+    ['album-beta-two-1971', 'Fresh sourced story.']
+  ]);
+  assert.deepEqual(merged.gaps.map((gap) => [gap.albumId, gap.reason]), [
+    ['album-gamma-three', 'wikidata-response-missing'],
+    ['album-delta-four', 'weak-or-disambiguation-summary']
+  ]);
+  assert.equal(merged.summary.candidateCount, 2);
+  assert.equal(merged.summary.gapCount, 2);
 });

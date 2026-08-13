@@ -42,17 +42,50 @@ export function buildWikidataStoryCandidates({ albums = [], responsesByAlbumId =
       }
     });
   }
-  return {
+  return summarizeLayer({
     generatedAt: null,
     status: 'generated-wikidata-story-candidates',
     source: { system: 'wikidata-wikipedia' },
-    summary: {
-      selectedAlbumCount: albums.length,
-      candidateCount: candidates.length,
-      gapCount: gaps.length
-    },
     candidates,
     gaps
+  }, albums.length);
+}
+
+export function mergeWikidataStoryCandidateLayers(previous = {}, next = {}) {
+  const candidatesByAlbumId = new Map();
+  const gapsByAlbumId = new Map();
+  for (const candidate of previous.candidates ?? []) {
+    if (candidate.albumId) candidatesByAlbumId.set(candidate.albumId, candidate);
+  }
+  for (const gap of previous.gaps ?? []) {
+    if (gap.albumId && !candidatesByAlbumId.has(gap.albumId)) gapsByAlbumId.set(gap.albumId, gap);
+  }
+  for (const candidate of next.candidates ?? []) {
+    if (!candidate.albumId) continue;
+    candidatesByAlbumId.set(candidate.albumId, candidate);
+    gapsByAlbumId.delete(candidate.albumId);
+  }
+  for (const gap of next.gaps ?? []) {
+    if (!gap.albumId || candidatesByAlbumId.has(gap.albumId)) continue;
+    gapsByAlbumId.set(gap.albumId, gap);
+  }
+  return summarizeLayer({
+    ...previous,
+    ...next,
+    candidates: [...candidatesByAlbumId.values()],
+    gaps: [...gapsByAlbumId.values()]
+  });
+}
+
+function summarizeLayer(layer, selectedAlbumCount = layer.summary?.selectedAlbumCount ?? layer.candidates?.length ?? 0) {
+  return {
+    ...layer,
+    summary: {
+      ...(layer.summary ?? {}),
+      selectedAlbumCount,
+      candidateCount: layer.candidates?.length ?? 0,
+      gapCount: layer.gaps?.length ?? 0
+    }
   };
 }
 

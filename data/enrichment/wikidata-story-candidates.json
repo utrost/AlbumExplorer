@@ -7,12 +7,12 @@
     "wikipediaEndpoint": "https://en.wikipedia.org/api/rest_v1/page/summary/{title}",
     "cacheDir": "data/imports/wikidata/story-by-release-group",
     "userAgent": "AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)",
-    "delayMs": 250
+    "delayMs": 500
   },
   "summary": {
-    "selectedAlbumCount": 50,
-    "candidateCount": 48,
-    "gapCount": 2
+    "selectedAlbumCount": 150,
+    "candidateCount": 192,
+    "gapCount": 6
   },
   "candidates": [
     {
@@ -974,6 +974,2886 @@
         "wikipediaTitle": "Talking_Book",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Talking_Book"
       }
+    },
+    {
+      "albumId": "album-captain-beefheart-and-his-magic-band-trout-mask-replica-1969",
+      "artist": "Captain Beefheart and his Magic Band",
+      "album": "Trout Mask Replica",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Captain Beefheart and his Magic Band",
+        "story": "Trout Mask Replica is the third studio album by the American musician Captain Beefheart and His Magic Band, released as a double album on June 16, 1969, by Straight Records. The music was composed by Captain Beefheart and arranged by drummer John \"Drumbo\" French."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "e6a580bd-5d29-3acd-a959-0bfab002ee6f",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/e6a580bd-5d29-3acd-a959-0bfab002ee6f",
+        "wikidataEntityId": "Q194790",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q194790",
+        "wikipediaTitle": "Trout_Mask_Replica",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Trout_Mask_Replica"
+      }
+    },
+    {
+      "albumId": "album-van-morrison-astral-weeks-1968",
+      "artist": "Van Morrison",
+      "album": "Astral Weeks",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1968 studio album by Van Morrison",
+        "story": "Astral Weeks is the second studio album by Northern Irish singer-songwriter Van Morrison. It was recorded at Century Sound Studios in New York during September and October 1968 and released in November of the same year by Warner Bros."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "7d568f14-d86e-3584-97d0-c1824599de04",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/7d568f14-d86e-3584-97d0-c1824599de04",
+        "wikidataEntityId": "Q750452",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q750452",
+        "wikipediaTitle": "Astral_Weeks",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Astral_Weeks"
+      }
+    },
+    {
+      "albumId": "album-eric-b-and-rakim-paid-in-full-1987",
+      "artist": "Eric B. and Rakim",
+      "album": "Paid in Full",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Eric B. & Rakim",
+        "story": "Paid in Full is the debut studio album by American hip hop duo Eric B. & Rakim, released on July 7, 1987, by Island-subsidiary label 4th & B'way Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "e124668d-731c-3d2f-bd38-facf91df5e27",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/e124668d-731c-3d2f-bd38-facf91df5e27",
+        "wikidataEntityId": "Q1643785",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1643785",
+        "wikipediaTitle": "Paid_in_Full_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Paid_in_Full_(album)"
+      }
+    },
+    {
+      "albumId": "album-guns-n-roses-appetite-for-destruction-1987",
+      "artist": "Guns N' Roses",
+      "album": "Appetite for Destruction",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1987 debut studio album by Guns N’ Roses",
+        "story": "Appetite for Destruction is the debut studio album by American hard rock band Guns N' Roses, released on July 21, 1987, by Geffen Records. The album was recorded from January 18 to June 23 in 1987, and was produced by Mike Clink."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a0b94d0a-210b-4b15-bd1d-93be2196c14a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a0b94d0a-210b-4b15-bd1d-93be2196c14a",
+        "wikidataEntityId": "Q270690",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q270690",
+        "wikipediaTitle": "Appetite_for_Destruction",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Appetite_for_Destruction"
+      }
+    },
+    {
+      "albumId": "album-steely-dan-aja-1977",
+      "artist": "Steely Dan",
+      "album": "Aja",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1977 studio album by Steely Dan",
+        "story": "Aja is the sixth studio album by the American rock band Steely Dan, released on September 23, 1977, by ABC Records. For the album, band leaders Walter Becker and Donald Fagen pushed Steely Dan further into experimenting with different combinations of session players, enlisting the services of nearly 40 musicians, while pursuing longer, more sophisticated compositions and arrangements."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "8588c5a5-b491-37a4-8d51-2227346a072e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/8588c5a5-b491-37a4-8d51-2227346a072e",
+        "wikidataEntityId": "Q411814",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q411814",
+        "wikipediaTitle": "Aja_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Aja_(album)"
+      }
+    },
+    {
+      "albumId": "album-outkast-stankonia-2000",
+      "artist": "OutKast",
+      "album": "Stankonia",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by OutKast",
+        "story": "Stankonia is the fourth studio album by the American hip hop duo Outkast, released on October 31, 2000, by LaFace Records and Arista Records. The album was recorded in the duo's recently purchased Atlanta recording facility, Stankonia Studios, which allowed for fewer time and recording constraints, and featured production work from Earthtone III and longtime collaborators Organized Noize."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "00d2cd53-21c9-3738-b683-56847b7b0040",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/00d2cd53-21c9-3738-b683-56847b7b0040",
+        "wikidataEntityId": "Q378166",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q378166",
+        "wikipediaTitle": "Stankonia",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Stankonia"
+      }
+    },
+    {
+      "albumId": "album-john-coltrane-a-love-supreme-1965",
+      "artist": "John Coltrane",
+      "album": "A Love Supreme",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1965 studio album by John Coltrane",
+        "story": "A Love Supreme is an album by the American jazz saxophonist and composer John Coltrane. It was recorded in one session on December 9, 1964, at Van Gelder Studio in Englewood Cliffs, New Jersey, with a quartet featuring pianist McCoy Tyner, bassist Jimmy Garrison, and drummer Elvin Jones."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "77cf47ba-58cd-3f3d-a5f9-79bf89860421",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/77cf47ba-58cd-3f3d-a5f9-79bf89860421",
+        "wikidataEntityId": "Q5106",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q5106",
+        "wikipediaTitle": "A_Love_Supreme",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/A_Love_Supreme"
+      }
+    },
+    {
+      "albumId": "album-jay-z-reasonable-doubt-1996",
+      "artist": "Jay-Z",
+      "album": "Reasonable Doubt",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1996 studio album by Jay-Z",
+        "story": "Reasonable Doubt is the debut studio album by American rapper Jay-Z. It was released on June 25, 1996, by his own record label Roc-A-Fella Records and distributed by Priority Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a7f852ba-08bc-36f1-92f3-4dc127f4b70a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a7f852ba-08bc-36f1-92f3-4dc127f4b70a",
+        "wikidataEntityId": "Q845329",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q845329",
+        "wikipediaTitle": "Reasonable_Doubt_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Reasonable_Doubt_(album)"
+      }
+    },
+    {
+      "albumId": "album-kate-bush-hounds-of-love-1985",
+      "artist": "Kate Bush",
+      "album": "Hounds of Love",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1985 studio album by Kate Bush",
+        "story": "Hounds of Love is the fifth studio album by the English musician Kate Bush, released on 16 September 1985 by EMI Records. It was a commercial and artistic success and marked a return to the public eye for Bush after the relatively low sales of her previous album, 1982's The Dreaming."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "017f2a37-a78f-3578-9611-fa40408e5d90",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/017f2a37-a78f-3578-9611-fa40408e5d90",
+        "wikidataEntityId": "Q1055992",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1055992",
+        "wikipediaTitle": "Hounds_of_Love",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Hounds_of_Love"
+      }
+    },
+    {
+      "albumId": "album-alanis-morissette-jagged-little-pill-1995",
+      "artist": "Alanis Morissette",
+      "album": "Jagged Little Pill",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1995 studio album by Alanis Morissette",
+        "story": "Jagged Little Pill is the third studio album by Canadian-American singer Alanis Morissette, released by Maverick on June 13, 1995. Recorded in Hollywood at Westlake with production by Glen Ballard, it was Morissette's first album to be released worldwide."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ee3d18ed-d6a8-37c7-a964-41bbdb6d59f1",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ee3d18ed-d6a8-37c7-a964-41bbdb6d59f1",
+        "wikidataEntityId": "Q750084",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q750084",
+        "wikipediaTitle": "Jagged_Little_Pill",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jagged_Little_Pill"
+      }
+    },
+    {
+      "albumId": "album-n-w-a-straight-outta-compton-1988",
+      "artist": "N.W.A",
+      "album": "Straight Outta Compton",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by N.W.A.",
+        "story": "A, released on January 25, 1989, through Priority and Ruthless Records. A members Dr."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "fed1608d-80b7-38d2-aeb8-c6357f0d4c23",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/fed1608d-80b7-38d2-aeb8-c6357f0d4c23",
+        "wikidataEntityId": "Q644326",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q644326",
+        "wikipediaTitle": "Straight_Outta_Compton",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Straight_Outta_Compton"
+      }
+    },
+    {
+      "albumId": "album-neil-young-harvest-1972",
+      "artist": "Neil Young",
+      "album": "Harvest",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 studio album by Neil Young",
+        "story": "Harvest is the fourth studio album by Canadian-American musician Neil Young, released on February 15, 1972, by Reprise Records. It featured the London Symphony Orchestra on two tracks and vocals by guests David Crosby, Graham Nash, Linda Ronstadt, Stephen Stills, and James Taylor."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b25419cf-71bf-3a54-8cd4-2161c61056a0",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b25419cf-71bf-3a54-8cd4-2161c61056a0",
+        "wikidataEntityId": "Q537983",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q537983",
+        "wikipediaTitle": "Harvest_(Neil_Young_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Harvest_(Neil_Young_album)"
+      }
+    },
+    {
+      "albumId": "album-my-bloody-valentine-loveless-1991",
+      "artist": "My Bloody Valentine",
+      "album": "Loveless",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by My Bloody Valentine",
+        "story": "Loveless is the second studio album by the Irish rock band My Bloody Valentine, released on 4 November 1991 in the United Kingdom by Creation Records and in the United States by Sire Records. It was recorded between February 1989 and September 1991, with vocalist and guitarist Kevin Shields leading sessions and experimenting with glide guitar technique, non-standard tunings, digital sampling, and meticulous production methods."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "cb76227e-3ac0-3002-9a10-615a5b73cc59",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/cb76227e-3ac0-3002-9a10-615a5b73cc59",
+        "wikidataEntityId": "Q174163",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q174163",
+        "wikipediaTitle": "Loveless_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Loveless_(album)"
+      }
+    },
+    {
+      "albumId": "album-aretha-franklin-lady-soul-1968",
+      "artist": "Aretha Franklin",
+      "album": "Lady Soul",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1968 studio album by Aretha Franklin",
+        "story": "Lady Soul is the twelfth studio album by American singer Aretha Franklin, released on January 22, 1968, by Atlantic Records. The album stayed at #1 for sixteen weeks on Billboard's R&B album chart, and it hit number 2 on the pop album chart during a year-long run."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "05571372-5b11-39b7-89c5-1c02589a27c8",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/05571372-5b11-39b7-89c5-1c02589a27c8",
+        "wikidataEntityId": "Q928442",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q928442",
+        "wikipediaTitle": "Lady_Soul",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Lady_Soul"
+      }
+    },
+    {
+      "albumId": "album-prince-purple-rain-1984",
+      "artist": "Prince",
+      "album": "Purple Rain",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1984 studio/soundtrack album by Prince and the Revolution",
+        "story": "Purple Rain is the sixth studio album by the American musician Prince, featuring his backing band the Revolution. It was released on June 25, 1984, through Warner Bros."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b93a7c47-a6d4-33f2-9034-53fdd991f4ba",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b93a7c47-a6d4-33f2-9034-53fdd991f4ba",
+        "wikidataEntityId": "Q253004",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q253004",
+        "wikipediaTitle": "Purple_Rain_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Purple_Rain_(album)"
+      }
+    },
+    {
+      "albumId": "album-who-whos-next-1971",
+      "artist": "The Who",
+      "album": "Who's Next",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by The Who",
+        "story": "Who's Next is the fifth studio album by the English rock band the Who, released on 2 August 1971, by Track Records in the United Kingdom and by Decca Records in the United States. It developed from the aborted Lifehouse project, a multi-media rock opera conceived by the group's guitarist Pete Townshend as a follow-up to the band's 1969 album Tommy."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "9584e28b-66a7-3846-8d52-b3008a283539",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/9584e28b-66a7-3846-8d52-b3008a283539",
+        "wikidataEntityId": "Q729387",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q729387",
+        "wikipediaTitle": "Who's_Next",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Who%27s_Next"
+      }
+    },
+    {
+      "albumId": "album-sly-and-the-family-stone-theres-a-riot-goin-on-1971",
+      "artist": "Sly and the Family Stone",
+      "album": "There's a Riot Goin' On",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by Sly & the Family Stone",
+        "story": "There's a Riot Goin' On is the fifth studio album by the American funk and soul band Sly and the Family Stone. It was released in November 1971 by Epic Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "d8b8448a-2634-3e92-ac86-cf55e018f825",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/d8b8448a-2634-3e92-ac86-cf55e018f825",
+        "wikidataEntityId": "Q258003",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q258003",
+        "wikipediaTitle": "There's_a_Riot_Goin'_On",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/There%27s_a_Riot_Goin%27_On"
+      }
+    },
+    {
+      "albumId": "album-dusty-springfield-dusty-in-memphis-1969",
+      "artist": "Dusty Springfield",
+      "album": "Dusty in Memphis",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 studio album by Dusty Springfield",
+        "story": "Dusty in Memphis is the fifth studio album by English singer Dusty Springfield, released on 31 March 1969 in the United States by Atlantic Records and by Philips Records internationally. Springfield worked on the album with a team of musicians and producers that included Jerry Wexler, Arif Mardin, Tom Dowd, conductor Gene Orloff, backing vocalists the Sweet Inspirations, bassist Tommy Cogbill, and guitarist Reggie Young."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "aac8700b-8f62-30fc-ac2a-23b6cb37e3c3",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/aac8700b-8f62-30fc-ac2a-23b6cb37e3c3",
+        "wikidataEntityId": "Q723817",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q723817",
+        "wikipediaTitle": "Dusty_in_Memphis",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Dusty_in_Memphis"
+      }
+    },
+    {
+      "albumId": "album-ac-dc-back-in-black-1980",
+      "artist": "AC/DC",
+      "album": "Back in Black",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1980 studio album by AC/DC",
+        "story": "Back in Black is the seventh studio album by Australian rock band AC/DC, released on 25 July 1980, by Albert Productions and Atlantic Records. It was the band's first album to feature Brian Johnson as lead singer, following the death of their previous vocalist Bon Scott."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "d3bc1a64-7561-3787-b680-0003aa50f8f1",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/d3bc1a64-7561-3787-b680-0003aa50f8f1",
+        "wikidataEntityId": "Q155715",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q155715",
+        "wikipediaTitle": "Back_in_Black",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Back_in_Black"
+      }
+    },
+    {
+      "albumId": "album-doors-the-doors-1967",
+      "artist": "The Doors",
+      "album": "The Doors",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 studio album by the Doors",
+        "story": "The Doors is the debut studio album by the American rock band the Doors, released on January 4, 1967, by Elektra Records. Recorded in August 1966 at Sunset Sound Recorders in Hollywood, California, the album was produced by Paul A."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "8ebffd15-06c3-3b88-a761-ec18c5513287",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/8ebffd15-06c3-3b88-a761-ec18c5513287",
+        "wikidataEntityId": "Q201949",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q201949",
+        "wikipediaTitle": "The_Doors_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Doors_(album)"
+      }
+    },
+    {
+      "albumId": "album-miles-davis-bitches-brew-1970",
+      "artist": "Miles Davis",
+      "album": "Bitches Brew",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by Miles Davis",
+        "story": "Bitches Brew is a studio album by the American jazz trumpeter, composer, and bandleader Miles Davis. It was recorded from August 19 to 21, 1969, at Columbia's Studio B in New York City and released on March 30, 1970, by Columbia Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a9e30282-5b37-3f92-b897-b9659a1a312b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a9e30282-5b37-3f92-b897-b9659a1a312b",
+        "wikidataEntityId": "Q804096",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q804096",
+        "wikipediaTitle": "Bitches_Brew",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Bitches_Brew"
+      }
+    },
+    {
+      "albumId": "album-erykah-badu-baduizm-1997",
+      "artist": "Erykah Badu",
+      "album": "Baduizm",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Erykah Badu",
+        "story": "Baduizm is the debut studio album by American singer-songwriter Erykah Badu. It was released on February 11, 1997, by Kedar Records and Universal Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "45536412-c62c-34fc-9524-0bac1d2542c1",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/45536412-c62c-34fc-9524-0bac1d2542c1",
+        "wikidataEntityId": "Q2415000",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q2415000",
+        "wikipediaTitle": "Baduizm",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Baduizm"
+      }
+    },
+    {
+      "albumId": "album-neil-young-after-the-gold-rush-1970",
+      "artist": "Neil Young",
+      "album": "After the Gold Rush",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by Neil Young",
+        "story": "After the Gold Rush is the third studio album by the Canadian-American musician Neil Young, released in September 1970 on Reprise Records. It is one of four high-profile solo albums released by the members of folk rock group Crosby, Stills, Nash & Young in the wake of their chart-topping 1970 album Déjà Vu."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b6a3952b-9977-351c-a80a-73e023143858",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b6a3952b-9977-351c-a80a-73e023143858",
+        "wikidataEntityId": "Q264397",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q264397",
+        "wikipediaTitle": "After_the_Gold_Rush",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/After_the_Gold_Rush"
+      }
+    },
+    {
+      "albumId": "album-bruce-springsteen-darkness-on-the-edge-of-town-1978",
+      "artist": "Bruce Springsteen",
+      "album": "Darkness on the Edge of Town",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1978 studio album by Bruce Springsteen",
+        "story": "Darkness on the Edge of Town is the fourth studio album by the American singer-songwriter Bruce Springsteen, released on June 2, 1978, by Columbia Records. The album was recorded after a series of legal disputes between Springsteen and his former manager Mike Appel, during sessions in New York City with the E Street Band from June 1977 to March 1978."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b613123b-a234-3f48-9c45-e05bf4e6b9e7",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b613123b-a234-3f48-9c45-e05bf4e6b9e7",
+        "wikidataEntityId": "Q902146",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q902146",
+        "wikipediaTitle": "Darkness_on_the_Edge_of_Town",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Darkness_on_the_Edge_of_Town"
+      }
+    },
+    {
+      "albumId": "album-jimi-hendrix-experience-axis-bold-as-love-1967",
+      "artist": "The Jimi Hendrix Experience",
+      "album": "Axis: Bold as Love",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 studio album by The Jimi Hendrix Experience",
+        "story": "Axis: Bold as Love is the second studio album by the Jimi Hendrix Experience. It was first released by Track Records in the United Kingdom on December 1, 1967, only seven months after the release of the group's highly successful debut album, Are You Experienced."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "d0b1e21e-cef6-4575-8d92-1afea1894ca3",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/d0b1e21e-cef6-4575-8d92-1afea1894ca3",
+        "wikidataEntityId": "Q616268",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q616268",
+        "wikipediaTitle": "Axis:_Bold_as_Love",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Axis:_Bold_as_Love"
+      }
+    },
+    {
+      "albumId": "album-missy-misdemeanor-elliott-supa-dupa-fly-1997",
+      "artist": "Missy \"Misdemeanor\" Elliott",
+      "album": "Supa Dupa Fly",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Missy Elliott",
+        "story": "Supa Dupa Fly is the debut studio album by American rapper Missy \"Misdemeanor\" Elliott, released on July 15, 1997, by The Goldmind, East West, and Elektra Entertainment Group. The album was recorded and produced solely by Timbaland in October 1996, and features the singles \"The Rain \", \"Sock It 2 Me\", \"Hit Em wit da Hee\" and \"Beep Me 911\"."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "45a68d94-6923-38c1-a6dd-4cfc1cdc193a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/45a68d94-6923-38c1-a6dd-4cfc1cdc193a",
+        "wikidataEntityId": "Q240228",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q240228",
+        "wikipediaTitle": "Supa_Dupa_Fly",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Supa_Dupa_Fly"
+      }
+    },
+    {
+      "albumId": "album-stooges-fun-house-1970",
+      "artist": "The Stooges",
+      "album": "Fun House",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by the Stooges",
+        "story": "Fun House is the second studio album by American rock band the Stooges. It was released on July 7, 1970, by Elektra Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "edd57263-df77-3f1a-8803-8beb5d5b1a64",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/edd57263-df77-3f1a-8803-8beb5d5b1a64",
+        "wikidataEntityId": "Q1004341",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1004341",
+        "wikipediaTitle": "Fun_House_(The_Stooges_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fun_House_(The_Stooges_album)"
+      }
+    },
+    {
+      "albumId": "album-r-e-m-automatic-for-the-people-1992",
+      "artist": "R.E.M.",
+      "album": "Automatic for the People",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1992 studio album by R.E.M.",
+        "story": ", released on October 5, 1992, in the United Kingdom and Europe, and on the following day in the United States, by Warner Bros. Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c86c6af9-d10e-3079-b34b-30b682a797eb",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c86c6af9-d10e-3079-b34b-30b682a797eb",
+        "wikidataEntityId": "Q782550",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q782550",
+        "wikipediaTitle": "Automatic_for_the_People",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Automatic_for_the_People"
+      }
+    },
+    {
+      "albumId": "album-metallica-master-of-puppets-1986",
+      "artist": "Metallica",
+      "album": "Master of Puppets",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1986 studio album by Metallica",
+        "story": "Master of Puppets is the third studio album by the American heavy metal band Metallica, released on March 3, 1986, by Elektra Records. Recorded in Copenhagen, Denmark, at Sweet Silence Studios with producer Flemming Rasmussen, it is the band's final album to feature bassist Cliff Burton."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "3d00fb45-f8ab-3436-a8e1-b4bfc4d66913",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/3d00fb45-f8ab-3436-a8e1-b4bfc4d66913",
+        "wikidataEntityId": "Q187507",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q187507",
+        "wikipediaTitle": "Master_of_Puppets",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Master_of_Puppets"
+      }
+    },
+    {
+      "albumId": "album-lucinda-williams-car-wheels-on-a-gravel-road-1998",
+      "artist": "Lucinda Williams",
+      "album": "Car Wheels on a Gravel Road",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1998 studio album by Lucinda Williams",
+        "story": "Car Wheels on a Gravel Road is the fifth studio album by American singer-songwriter Lucinda Williams, released on June 30, 1998, by Mercury Records. The album was recorded and co-produced by Williams in Nashville, Tennessee and Canoga Park, California, and features guest appearances by Steve Earle and Emmylou Harris."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "493de006-33bf-3404-9bb7-1f3b0c22ce05",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/493de006-33bf-3404-9bb7-1f3b0c22ce05",
+        "wikidataEntityId": "Q858302",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q858302",
+        "wikipediaTitle": "Car_Wheels_on_a_Gravel_Road",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Car_Wheels_on_a_Gravel_Road"
+      }
+    },
+    {
+      "albumId": "album-taylor-swift-red-2012",
+      "artist": "Taylor Swift",
+      "album": "Red",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2012 studio album by Taylor Swift",
+        "story": "Red is the fourth studio album by the American singer-songwriter Taylor Swift. It was released on October 22, 2012, through Big Machine Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a73cecde-0923-40ad-aad1-e8c24ba6c3d2",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a73cecde-0923-40ad-aad1-e8c24ba6c3d2",
+        "wikidataEntityId": "Q858750",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q858750",
+        "wikipediaTitle": "Red_(Taylor_Swift_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Red_(Taylor_Swift_album)"
+      }
+    },
+    {
+      "albumId": "album-band-music-from-big-pink-1968",
+      "artist": "The Band",
+      "album": "Music From Big Pink",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1968 debut studio album by the Band",
+        "story": "Music from Big Pink is the debut studio album by the Canadian-American rock band the Band. Released on July 1, 1968, by Capitol Records, it employs a distinctive blend of country, rock, folk, classical, R&B, blues, and soul."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "466fddac-8006-3e71-bbe7-7aa0f587aa88",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/466fddac-8006-3e71-bbe7-7aa0f587aa88",
+        "wikidataEntityId": "Q1063385",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1063385",
+        "wikipediaTitle": "Music_from_Big_Pink",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Music_from_Big_Pink"
+      }
+    },
+    {
+      "albumId": "album-led-zeppelin-led-zeppelin-1969",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 studio album by Led Zeppelin",
+        "story": "Led Zeppelin is the debut studio album by the English rock band Led Zeppelin. It was released in January 1969 in the United States, and on 31 March 1969 in the United Kingdom, through Atlantic Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "0f18ec88-aa87-38a9-8a65-f03d81763560",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/0f18ec88-aa87-38a9-8a65-f03d81763560",
+        "wikidataEntityId": "Q131392",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q131392",
+        "wikipediaTitle": "Led_Zeppelin_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Led_Zeppelin_(album)"
+      }
+    },
+    {
+      "albumId": "album-cream-fresh-cream-1966",
+      "artist": "Cream",
+      "album": "Fresh Cream",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1966 studio album by Cream",
+        "story": "Fresh Cream is the debut studio album by the British rock band Cream, consisting of bassist Jack Bruce, guitarist Eric Clapton and drummer Ginger Baker. A mix of blues covers and originals, the album was a pivotal release in the history of blues rock, inspiring many further bands in the genre, as well as being instrumental in the development of jam rock and, later, heavy metal music."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "38d65202-a589-38ad-bf19-6161193340ee",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/38d65202-a589-38ad-bf19-6161193340ee",
+        "wikidataEntityId": "Q841457",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q841457",
+        "wikipediaTitle": "Fresh_Cream",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fresh_Cream"
+      }
+    },
+    {
+      "albumId": "album-clash-the-clash-1977",
+      "artist": "The Clash",
+      "album": "The Clash",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1977 studio album by The Clash",
+        "story": "The Clash is the debut studio album by the English punk rock band the Clash, released on 8 April 1977 through CBS Records. Recorded and mixed over three weeks in February 1977 for £4,000, it would go on to reach No."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ca91cb5a-7ecc-3c46-84a0-0d4951889374",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ca91cb5a-7ecc-3c46-84a0-0d4951889374",
+        "wikidataEntityId": "Q775208",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q775208",
+        "wikipediaTitle": "The_Clash_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Clash_(album)"
+      }
+    },
+    {
+      "albumId": "album-rolling-stones-sticky-fingers-1971",
+      "artist": "The Rolling Stones",
+      "album": "Sticky Fingers",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by The Rolling Stones",
+        "story": "Sticky Fingers is the ninth studio album by the English rock band the Rolling Stones. It was released on 23 April 1971 on the Rolling Stones' new label, Rolling Stones Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "4a4213d0-f224-3d51-bcca-476f61162681",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/4a4213d0-f224-3d51-bcca-476f61162681",
+        "wikidataEntityId": "Q745850",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q745850",
+        "wikipediaTitle": "Sticky_Fingers",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Sticky_Fingers"
+      }
+    },
+    {
+      "albumId": "album-hole-live-through-this-1994",
+      "artist": "Hole",
+      "album": "Live Through This",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Hole",
+        "story": "Live Through This is the second studio album by the American alternative rock band Hole, released on April 12, 1994, by DGC Records. Recorded in late 1993, it departed from the band's unpolished hardcore aesthetics to more refined melodies and song structure."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "fe676d05-f97c-303a-890b-da53c69e5d42",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/fe676d05-f97c-303a-890b-da53c69e5d42",
+        "wikidataEntityId": "Q946807",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q946807",
+        "wikipediaTitle": "Live_Through_This",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Live_Through_This"
+      }
+    },
+    {
+      "albumId": "album-television-marquee-moon-1977",
+      "artist": "Television",
+      "album": "Marquee Moon",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1977 debut studio album by Television",
+        "story": "Marquee Moon is the debut album by the American rock band Television, released on February 8, 1977, by Elektra Records. In the years leading up to the album, Television had become a prominent act in the New York music scene and generated interest from a number of record labels, eventually signing a record deal with Elektra."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "2b9f99d8-becf-3fc3-86a6-2bdd4cef93fe",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/2b9f99d8-becf-3fc3-86a6-2bdd4cef93fe",
+        "wikidataEntityId": "Q432372",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q432372",
+        "wikipediaTitle": "Marquee_Moon",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Marquee_Moon"
+      }
+    },
+    {
+      "albumId": "album-lou-reed-transformer-1972",
+      "artist": "Lou Reed",
+      "album": "Transformer",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 studio album by Lou Reed",
+        "story": "Transformer is the second solo studio album by American musician Lou Reed. Produced by David Bowie and Mick Ronson, the album was released on November 8, 1972 by RCA Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6c8345df-f822-33af-b64a-eff2e46941b9",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6c8345df-f822-33af-b64a-eff2e46941b9",
+        "wikidataEntityId": "Q631153",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q631153",
+        "wikipediaTitle": "Transformer_(Lou_Reed_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Transformer_(Lou_Reed_album)"
+      }
+    },
+    {
+      "albumId": "album-joni-mitchell-court-and-spark-1974",
+      "artist": "Joni Mitchell",
+      "album": "Court and Spark",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1974 studio album by Joni Mitchell",
+        "story": "Court and Spark is the sixth studio album by Canadian singer-songwriter Joni Mitchell. Released by Asylum Records in January 1974, it infuses the folk rock style of her previous albums with jazz elements."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "3bd19e28-698e-3b7e-a8ec-f872bf001651",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/3bd19e28-698e-3b7e-a8ec-f872bf001651",
+        "wikidataEntityId": "Q869433",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q869433",
+        "wikipediaTitle": "Court_and_Spark",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Court_and_Spark"
+      }
+    },
+    {
+      "albumId": "album-janet-jackson-control-1986",
+      "artist": "Janet Jackson",
+      "album": "Control",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1986 studio album by Janet Jackson",
+        "story": "Control is the third studio album by American singer Janet Jackson, released on February 4, 1986, by A&M Records. Her collaborations with the songwriters and record producers Jimmy Jam and Terry Lewis resulted in an unconventional sound: a fusion of rhythm and blues, rap vocals, funk, disco, and synthesized percussion that established Jackson, Jam, and Lewis as leading innovators of contemporary R&B."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b23d3137-df51-3047-a6a5-b5efbde50f22",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b23d3137-df51-3047-a6a5-b5efbde50f22",
+        "wikidataEntityId": "Q530266",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q530266",
+        "wikipediaTitle": "Control_(Janet_Jackson_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Control_(Janet_Jackson_album)"
+      }
+    },
+    {
+      "albumId": "album-elton-john-goodbye-yellow-brick-road-1973",
+      "artist": "Elton John",
+      "album": "Goodbye Yellow Brick Road",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1973 double studio album by Elton John",
+        "story": "Goodbye Yellow Brick Road is the seventh studio album by British singer, pianist and composer Elton John. A double album, it was released on 5 October 1973, by DJM Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "80df0f1b-4ce7-348a-aa1b-0d31ebff111a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/80df0f1b-4ce7-348a-aa1b-0d31ebff111a",
+        "wikidataEntityId": "Q827363",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q827363",
+        "wikipediaTitle": "Goodbye_Yellow_Brick_Road",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Goodbye_Yellow_Brick_Road"
+      }
+    },
+    {
+      "albumId": "album-smiths-the-queen-is-dead-1986",
+      "artist": "The Smiths",
+      "album": "The Queen Is Dead",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by The Smiths",
+        "story": "The Queen Is Dead is the third studio album by the English rock band the Smiths, released on 16 June 1986 by Rough Trade Records. Following the release of their second album Meat Is Murder, the Smiths retreated to Greater Manchester to begin work on new material, with Johnny Marr and Morrissey writing extensively at Marr's home in Bowdon as the band sought to escape the pressures of London and their label Rough Trade."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "d8dde278-482c-3cc8-a530-fea70476f3a5",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/d8dde278-482c-3cc8-a530-fea70476f3a5",
+        "wikidataEntityId": "Q853308",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q853308",
+        "wikipediaTitle": "The_Queen_Is_Dead",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Queen_Is_Dead"
+      }
+    },
+    {
+      "albumId": "album-strokes-is-this-it-2001",
+      "artist": "The Strokes",
+      "album": "Is This It",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2001 debut album by The Strokes",
+        "story": "Is This It is the debut studio album by American rock band the Strokes. It was first released on July 30, 2001, in Australia, with RCA Records handling the release internationally and Rough Trade Records handling the United Kingdom release."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "efea26d1-a016-30f6-b8e2-bc8c02336b0a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/efea26d1-a016-30f6-b8e2-bc8c02336b0a",
+        "wikidataEntityId": "Q779275",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q779275",
+        "wikipediaTitle": "Is_This_It",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Is_This_It"
+      }
+    },
+    {
+      "albumId": "album-kendrick-lamar-good-kid-m-a-a-d-city-2012",
+      "artist": "Kendrick Lamar",
+      "album": "good kid, m.A.A.d city",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Kendrick Lamar",
+        "story": "D City is the second studio album by the American rapper Kendrick Lamar. It was released on October 22, 2012, by Interscope Records, Top Dawg Entertainment and Dr."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "499c19c8-0dab-4824-884b-6191d145e95b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/499c19c8-0dab-4824-884b-6191d145e95b",
+        "wikidataEntityId": "Q1930676",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1930676",
+        "wikipediaTitle": "Good_Kid,_M.A.A.D_City",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Good_Kid,_M.A.A.D_City"
+      }
+    },
+    {
+      "albumId": "album-cure-disintegration-1989",
+      "artist": "The Cure",
+      "album": "Disintegration",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1989 studio album by the Cure",
+        "story": "Disintegration is the eighth studio album by the English rock band the Cure, released on 2 May 1989, by Fiction Records. The band recorded the album at Hookend Recording Studios in Checkendon, Oxfordshire, with co-producer David M."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "494bf606-d2f7-36d0-8340-eadad8601d2b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/494bf606-d2f7-36d0-8340-eadad8601d2b",
+        "wikidataEntityId": "Q939505",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q939505",
+        "wikipediaTitle": "Disintegration_(The_Cure_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Disintegration_(The_Cure_album)"
+      }
+    },
+    {
+      "albumId": "album-rolling-stones-out-of-our-heads-1965",
+      "artist": "The Rolling Stones",
+      "album": "Out Of Our Heads",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1965 UK studio album by The Rolling Stones",
+        "story": "Out of Our Heads is the third studio album by the English rock band the Rolling Stones, released in two editions with different covers and track listings. In the United States, London Records released it in July 1965 as the band's fourth American album, while Decca Records released its UK edition on 24 September 1965 as the third British album."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "3be81f5e-9bdd-303a-b9bf-f8eb2059ef9f",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/3be81f5e-9bdd-303a-b9bf-f8eb2059ef9f",
+        "wikidataEntityId": "Q580504",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q580504",
+        "wikipediaTitle": "Out_of_Our_Heads",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Out_of_Our_Heads"
+      }
+    },
+    {
+      "albumId": "album-sly-and-the-family-stone-stand-1969",
+      "artist": "Sly and the Family Stone",
+      "album": "Stand!",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 studio album by Sly and the Family Stone",
+        "story": "Stand! is the fourth album by American soul-funk band Sly and the Family Stone, released on May 3, 1969."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "86871123-60e4-30a5-aae3-36e810e0964b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/86871123-60e4-30a5-aae3-36e810e0964b",
+        "wikidataEntityId": "Q429521",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q429521",
+        "wikipediaTitle": "Stand!",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Stand!"
+      }
+    },
+    {
+      "albumId": "album-van-morrison-moondance-1970",
+      "artist": "Van Morrison",
+      "album": "Moondance",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by Van Morrison",
+        "story": "Moondance is the third studio album by Northern Irish singer-songwriter Van Morrison. It was released on 27 January 1970 by Warner Bros."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "16506432-d133-3b2f-a504-dc88966dad2a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/16506432-d133-3b2f-a504-dc88966dad2a",
+        "wikidataEntityId": "Q1179158",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1179158",
+        "wikipediaTitle": "Moondance",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Moondance"
+      }
+    },
+    {
+      "albumId": "album-elvis-costello-this-years-model-1978",
+      "artist": "Elvis Costello",
+      "album": "This Year's Model",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Elvis Costello",
+        "story": "This Year's Model is the second studio album by the English singer-songwriter Elvis Costello, released on 17 March 1978 through Radar Records. After being backed by Clover for his debut album My Aim Is True (1977), Costello formed the Attractions—keyboardist Steve Nieve, bassist Bruce Thomas and drummer Pete Thomas —as his permanent backing band."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "5e8117f4-a87f-3732-be5f-313c7e5b308d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/5e8117f4-a87f-3732-be5f-313c7e5b308d",
+        "wikidataEntityId": "Q1188324",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1188324",
+        "wikipediaTitle": "This_Year's_Model",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/This_Year%27s_Model"
+      }
+    },
+    {
+      "albumId": "album-nine-inch-nails-the-downward-spiral-1994",
+      "artist": "Nine Inch Nails",
+      "album": "The Downward Spiral",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1994 studio album by Nine Inch Nails",
+        "story": "The Downward Spiral is the second studio album by the American industrial rock band Nine Inch Nails, fronted by Trent Reznor. It was released on March 8, 1994, by Nothing Records and Interscope Records in the United States and Island Records in Europe."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "7c4cab8d-dead-3870-b501-93c90fd0a580",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/7c4cab8d-dead-3870-b501-93c90fd0a580",
+        "wikidataEntityId": "Q784933",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q784933",
+        "wikipediaTitle": "The_Downward_Spiral",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Downward_Spiral"
+      }
+    },
+    {
+      "albumId": "album-led-zeppelin-led-zeppelin-ii-1969",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin II",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 studio album by Led Zeppelin",
+        "story": "Led Zeppelin II is the second studio album by the English rock band Led Zeppelin, released on 22 October 1969 in the United States and on 31 October 1969 in the United Kingdom by Atlantic Records. Recording sessions for the album took place at several locations in both the United Kingdom and North America from January to August 1969."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "33b4653d-006e-3cc1-8afb-386b15a6cd6e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/33b4653d-006e-3cc1-8afb-386b15a6cd6e",
+        "wikidataEntityId": "Q209539",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q209539",
+        "wikipediaTitle": "Led_Zeppelin_II",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Led_Zeppelin_II"
+      }
+    },
+    {
+      "albumId": "album-run-d-m-c-raising-hell-1986",
+      "artist": "Run-D.M.C",
+      "album": "Raising Hell",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1986 studio album by Run–D.M.C.",
+        "story": ", released on May 15, 1986, by Profile Records. The album was produced by Russell Simmons and Rick Rubin."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a209c0a5-e9b2-37ff-a76d-df5bc405a0e8",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a209c0a5-e9b2-37ff-a76d-df5bc405a0e8",
+        "wikidataEntityId": "Q521828",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q521828",
+        "wikipediaTitle": "Raising_Hell_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Raising_Hell_(album)"
+      }
+    },
+    {
+      "albumId": "album-moby-grape-moby-grape-1967",
+      "artist": "Moby Grape",
+      "album": "Moby Grape",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 self-titled debut studio album by Moby Grape",
+        "story": "Moby Grape is the 1967 debut studio album by rock band Moby Grape. Coming from the San Francisco scene, their reputation quickly grew to immense proportions, leading to a bidding war and a contract with Columbia Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "483f15b5-e784-3c78-ba40-1988f5f9c6a4",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/483f15b5-e784-3c78-ba40-1988f5f9c6a4",
+        "wikidataEntityId": "Q846125",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q846125",
+        "wikipediaTitle": "Moby_Grape_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Moby_Grape_(album)"
+      }
+    },
+    {
+      "albumId": "album-u2-achtung-baby-1991",
+      "artist": "U2",
+      "album": "Achtung Baby",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1991 studio album by U2",
+        "story": "Achtung Baby is the seventh studio album by the Irish rock band U2. It was produced by Daniel Lanois and Brian Eno, and was released on 18 November 1991 by Island Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "744c7a1b-ac79-35c4-bd92-7e2c6a24c8d8",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/744c7a1b-ac79-35c4-bd92-7e2c6a24c8d8",
+        "wikidataEntityId": "Q308801",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q308801",
+        "wikipediaTitle": "Achtung_Baby",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Achtung_Baby"
+      }
+    },
+    {
+      "albumId": "album-beastie-boys-pauls-boutique-1989",
+      "artist": "Beastie Boys",
+      "album": "Paul's Boutique",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1989 studio album by Beastie Boys",
+        "story": "Paul's Boutique is the second album by the American hip-hop group the Beastie Boys, released on July 25, 1989, by Capitol Records. Produced by the Beastie Boys and the Dust Brothers, it makes extensive use of samples drawn from genres including funk, soul, rock and jazz."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b534aa01-d621-31ba-9278-38a500e3cdca",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b534aa01-d621-31ba-9278-38a500e3cdca",
+        "wikidataEntityId": "Q977418",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q977418",
+        "wikipediaTitle": "Paul's_Boutique",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Paul%27s_Boutique"
+      }
+    },
+    {
+      "albumId": "album-ray-charles-modern-sounds-in-country-and-western-music-1962",
+      "artist": "Ray Charles",
+      "album": "Modern Sounds in Country and Western Music",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1962 studio album by Ray Charles",
+        "story": "Modern Sounds in Country and Western Music is a studio album by the American singer and pianist Ray Charles. It was recorded in February 1962 at Capitol Studios in New York City and United Western Recorders in Hollywood, and released in March of that year by ABC-Paramount Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "38671d62-32bd-399d-abbd-0f685c2fd4a3",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/38671d62-32bd-399d-abbd-0f685c2fd4a3",
+        "wikidataEntityId": "Q860771",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q860771",
+        "wikipediaTitle": "Modern_Sounds_in_Country_and_Western_Music",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Modern_Sounds_in_Country_and_Western_Music"
+      }
+    },
+    {
+      "albumId": "album-byrds-younger-than-yesterday-1967",
+      "artist": "The Byrds",
+      "album": "Younger Than Yesterday",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 studio album by The Byrds",
+        "story": "Younger Than Yesterday is the fourth studio album by the American rock band the Byrds, released on February 6, 1967, by Columbia Records. It saw the band continuing to integrate elements of psychedelia and jazz into their music, a process they had begun on their previous album, Fifth Dimension."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "4e4c1014-7c7b-397a-9c80-35b115a034fe",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/4e4c1014-7c7b-397a-9c80-35b115a034fe",
+        "wikidataEntityId": "Q2031535",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q2031535",
+        "wikipediaTitle": "Younger_Than_Yesterday",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Younger_Than_Yesterday"
+      }
+    },
+    {
+      "albumId": "album-iggy-and-the-stooges-raw-power-1973",
+      "artist": "Iggy and the Stooges",
+      "album": "Raw Power",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1973 studio album by the Stooges",
+        "story": "Raw Power is the third studio album by American rock band the Stooges, released on February 7, 1973, by Columbia Records. The album departed from the \"groove-ridden, feel-based songs\" of the band's first two records in favor of a more anthemic hard rock approach inspired by new guitarist James Williamson, who co-wrote the album's eight songs with singer Iggy Pop."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "156cbf68-eaea-3f6a-852e-aa6afbd779db",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/156cbf68-eaea-3f6a-852e-aa6afbd779db",
+        "wikidataEntityId": "Q918613",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q918613",
+        "wikipediaTitle": "Raw_Power",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Raw_Power"
+      }
+    },
+    {
+      "albumId": "album-queen-a-night-at-the-opera-1975",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1975 studio album by Queen",
+        "story": "A Night at the Opera is the fourth studio album by the British rock band Queen, released on 28 November 1975, by EMI Records in the United Kingdom and Elektra Records in the United States. Produced by Roy Thomas Baker and Queen, it was reportedly the most expensive album ever recorded at the time of its release."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6b47c9a0-b9e1-3df9-a5e8-50a6ce0dbdbd",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6b47c9a0-b9e1-3df9-a5e8-50a6ce0dbdbd",
+        "wikidataEntityId": "Q193477",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q193477",
+        "wikipediaTitle": "A_Night_at_the_Opera_(Queen_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)"
+      }
+    },
+    {
+      "albumId": "album-pink-floyd-the-wall-1979",
+      "artist": "Pink Floyd",
+      "album": "The Wall",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "double studio album by British band Pink Floyd",
+        "story": "The Wall is the eleventh studio album by the English rock band Pink Floyd, released on 30 November 1979 by Harvest/EMI and Columbia/CBS Records. It is the last album to include all four post-Barrett–era band members."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f2026101-945b-3d05-9ef4-aa718fc3feef",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f2026101-945b-3d05-9ef4-aa718fc3feef",
+        "wikidataEntityId": "Q151114",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q151114",
+        "wikipediaTitle": "The_Wall",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Wall"
+      }
+    },
+    {
+      "albumId": "album-prince-1999-1982",
+      "artist": "Prince",
+      "album": "1999",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1982 studio album by Prince and the Revolution",
+        "story": "1999 is the fifth studio album by the American singer-songwriter and musician Prince, released on October 27, 1982, by Warner Bros. Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "561be5b7-a39c-3866-859d-d86f30816ae7",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/561be5b7-a39c-3866-859d-d86f30816ae7",
+        "wikidataEntityId": "Q208824",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q208824",
+        "wikipediaTitle": "1999_(Prince_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/1999_(Prince_album)"
+      }
+    },
+    {
+      "albumId": "album-portishead-dummy-1994",
+      "artist": "Portishead",
+      "album": "Dummy",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1994 studio album by Portishead",
+        "story": "Dummy is the debut studio album by English electronic music band Portishead, released on 22 August 1994 by Go! Beat Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "48140466-cff6-3222-bd55-63c27e43190d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/48140466-cff6-3222-bd55-63c27e43190d",
+        "wikidataEntityId": "Q911143",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q911143",
+        "wikipediaTitle": "Dummy_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Dummy_(album)"
+      }
+    },
+    {
+      "albumId": "album-joni-mitchell-hejira-1976",
+      "artist": "Joni Mitchell",
+      "album": "Hejira",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1976 studio album by Joni Mitchell",
+        "story": "Hejira is the eighth studio album by Canadian singer-songwriter Joni Mitchell, released in 1976 on Asylum Records. Its material was written during a period of frequent travel in late 1975 and early 1976, and reflects Mitchell's experiences on the road during that time."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "039f2ae4-36dd-3608-9103-67ce7f6c9288",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/039f2ae4-36dd-3608-9103-67ce7f6c9288",
+        "wikidataEntityId": "Q1035073",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1035073",
+        "wikipediaTitle": "Hejira_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Hejira_(album)"
+      }
+    },
+    {
+      "albumId": "album-u2-the-joshua-tree-1987",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1987 studio album by U2",
+        "story": "The Joshua Tree is the fifth studio album by the Irish rock band U2. It was produced by Daniel Lanois and Brian Eno, and was released on 9 March 1987 by Island Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6f3e9fa6-be7a-3de8-a2b2-2072ece8a54d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6f3e9fa6-be7a-3de8-a2b2-2072ece8a54d",
+        "wikidataEntityId": "Q152873",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q152873",
+        "wikipediaTitle": "The_Joshua_Tree",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Joshua_Tree"
+      }
+    },
+    {
+      "albumId": "album-funkadelic-maggot-brain-1971",
+      "artist": "Funkadelic",
+      "album": "Maggot Brain",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "Third studio album by the American funk band Funkadelic released in July 1971 by Westbound Records",
+        "story": "Maggot Brain is the third studio album by the American funk rock band Funkadelic, released by Westbound Records in July 1971. It was produced by bandleader George Clinton and recorded at United Sound Systems in Detroit during late 1970 and early 1971."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a334e612-e736-3b4f-82b4-c4dfb774983c",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a334e612-e736-3b4f-82b4-c4dfb774983c",
+        "wikidataEntityId": "Q937641",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q937641",
+        "wikipediaTitle": "Maggot_Brain",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Maggot_Brain"
+      }
+    },
+    {
+      "albumId": "album-adele-21-2011",
+      "artist": "Adele",
+      "album": "21",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2011 studio album by Adele",
+        "story": "21 is the second studio album by the English singer-songwriter Adele. It was released on 24 January 2011 in Europe by XL Recordings and on 22 February 2011 in North America by Columbia Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "e4174758-d333-4a8e-a31f-dd0edd51518e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/e4174758-d333-4a8e-a31f-dd0edd51518e",
+        "wikidataEntityId": "Q155169",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q155169",
+        "wikipediaTitle": "21_(Adele_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/21_(Adele_album)"
+      }
+    },
+    {
+      "albumId": "album-black-sabbath-paranoid-1970",
+      "artist": "Black Sabbath",
+      "album": "Paranoid",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by Black Sabbath",
+        "story": "Paranoid is the second studio album by the British heavy metal and rock and roll band Black Sabbath. It was released on 18 September 1970 in the United Kingdom by Vertigo Records, and on 7 January 1971 in the United States by Warner Bros."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "cc053745-c447-3566-8f27-bed5438c9133",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/cc053745-c447-3566-8f27-bed5438c9133",
+        "wikidataEntityId": "Q271787",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q271787",
+        "wikipediaTitle": "Paranoid_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Paranoid_(album)"
+      }
+    },
+    {
+      "albumId": "album-meters-rejuvenation-1974",
+      "artist": "The Meters",
+      "album": "Rejuvenation",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1974 album by The Meters",
+        "story": "Rejuvenation is the fifth studio album by the New Orleans funk group the Meters. It was released in 1974."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ed25b54a-8287-375f-ae31-42c69785cec8",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ed25b54a-8287-375f-ae31-42c69785cec8",
+        "wikidataEntityId": "Q7310577",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q7310577",
+        "wikipediaTitle": "Rejuvenation_(The_Meters_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Rejuvenation_(The_Meters_album)"
+      }
+    },
+    {
+      "albumId": "album-pixies-doolittle-1989",
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1989 studio album by Pixies",
+        "story": "Doolittle is the second studio album by the American alternative rock band Pixies, released on April 17, 1989, on 4AD. The album was an instant critical success and became the band's breakthrough album."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "1aa41b19-5a72-341b-bd91-4cf61d1dab6b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/1aa41b19-5a72-341b-bd91-4cf61d1dab6b",
+        "wikidataEntityId": "Q909006",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q909006",
+        "wikipediaTitle": "Doolittle_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Doolittle_(album)"
+      }
+    },
+    {
+      "albumId": "album-velvet-underground-the-velvet-underground-1969",
+      "artist": "The Velvet Underground",
+      "album": "The Velvet Underground",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 self-titled studio album by The Velvet Underground",
+        "story": "The Velvet Underground is the third studio album by the American rock band the Velvet Underground. Released in March 1969 by MGM Records, it was their first record with multi-instrumentalist Doug Yule, who replaced previous member John Cale."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a616dcf5-7a1f-3afe-a53b-27281c2bf75e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a616dcf5-7a1f-3afe-a53b-27281c2bf75e",
+        "wikidataEntityId": "Q848781",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q848781",
+        "wikipediaTitle": "The_Velvet_Underground_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Velvet_Underground_(album)"
+      }
+    },
+    {
+      "albumId": "album-led-zeppelin-physical-graffiti-1975",
+      "artist": "Led Zeppelin",
+      "album": "Physical Graffiti",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1975 studio album by Led Zeppelin",
+        "story": "Physical Graffiti is the sixth studio album by the English rock band Led Zeppelin. Released as a double album on 24 February 1975 in the United States and on 28 February 1975 in the United Kingdom, it was the group's first album to be released under their new label, Swan Song Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "116c9490-6af4-3827-8261-2d5b1f508fe7",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/116c9490-6af4-3827-8261-2d5b1f508fe7",
+        "wikidataEntityId": "Q210809",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q210809",
+        "wikipediaTitle": "Physical_Graffiti",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Physical_Graffiti"
+      }
+    },
+    {
+      "albumId": "album-eminem-the-marshall-mathers-lp-2000",
+      "artist": "Eminem",
+      "album": "The Marshall Mathers LP",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2000 studio album by Eminem",
+        "story": "The Marshall Mathers LP is the third studio album by the American rapper Eminem, released on May 23, 2000, by Goliath Artists, Aftermath Entertainment, WEB Entertainment, and Interscope Records. Production on the album was handled by Dr."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b0fa91c8-0996-38f1-ab84-797f58d7c4eb",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b0fa91c8-0996-38f1-ab84-797f58d7c4eb",
+        "wikidataEntityId": "Q153607",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q153607",
+        "wikipediaTitle": "The_Marshall_Mathers_LP",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP"
+      }
+    },
+    {
+      "albumId": "album-blondie-parallel-lines-1978",
+      "artist": "Blondie",
+      "album": "Parallel Lines",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1978 studio album by Blondie",
+        "story": "Parallel Lines is the third studio album by American rock band Blondie, released on September 8, 1978, by Chrysalis Records. An instant critical and commercial success, the album reached No."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "0c1a4d70-5926-3ae8-aa25-466fe65639fe",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/0c1a4d70-5926-3ae8-aa25-466fe65639fe",
+        "wikidataEntityId": "Q1072373",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1072373",
+        "wikipediaTitle": "Parallel_Lines",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Parallel_Lines"
+      }
+    },
+    {
+      "albumId": "album-jeff-buckley-grace-1994",
+      "artist": "Jeff Buckley",
+      "album": "Grace",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1994 studio album by Jeff Buckley",
+        "story": "Grace is the only studio album by the American singer-songwriter Jeff Buckley, released in the UK and Europe on August 15, 1994 and in the US on August 23, 1994 by Columbia Records. It was produced by Buckley and Andy Wallace."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ea29c347-696f-3165-986d-7bad1394b178",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ea29c347-696f-3165-986d-7bad1394b178",
+        "wikidataEntityId": "Q642737",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q642737",
+        "wikipediaTitle": "Grace_(Jeff_Buckley_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Grace_(Jeff_Buckley_album)"
+      }
+    },
+    {
+      "albumId": "album-frank-ocean-channel-orange-2012",
+      "artist": "Frank Ocean",
+      "album": "Channel Orange",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2012 debut studio album by Frank Ocean",
+        "story": "Channel Orange is the debut studio album by the American R&B singer-songwriter Frank Ocean. It was released on July 10, 2012, by Def Jam Recordings."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f8f4167d-897c-4b25-a171-638374d1dfa4",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f8f4167d-897c-4b25-a171-638374d1dfa4",
+        "wikidataEntityId": "Q402035",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q402035",
+        "wikipediaTitle": "Channel_Orange",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Channel_Orange"
+      }
+    },
+    {
+      "albumId": "album-john-prine-john-prine-1971",
+      "artist": "John Prine",
+      "album": "John Prine",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by John Prine",
+        "story": "John Prine is the debut album by American country/folk singer-songwriter John Prine, issued by Atlantic Records in 1971. In 2012, the album was ranked number 452 on Rolling Stone magazine's list of the 500 greatest albums of all time."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a13154a4-14a1-3344-ae14-3bea728ebe58",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a13154a4-14a1-3344-ae14-3bea728ebe58",
+        "wikidataEntityId": "Q1101326",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1101326",
+        "wikipediaTitle": "John_Prine_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Prine_(album)"
+      }
+    },
+    {
+      "albumId": "album-santana-santana-1969",
+      "artist": "Santana",
+      "album": "Santana",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 debut studio album by Santana",
+        "story": "Santana is the debut studio album by American Latin rock band Santana, released on August 22, 1969, by Columbia Records. Over half of the album's length is composed of instrumental music, recorded by what was originally a purely free-form jam band."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "cbe55545-7a3e-3f8c-8c5f-33984a818e91",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/cbe55545-7a3e-3f8c-8c5f-33984a818e91",
+        "wikidataEntityId": "Q1920700",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1920700",
+        "wikipediaTitle": "Santana_(1969_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Santana_(1969_album)"
+      }
+    },
+    {
+      "albumId": "album-bruce-springsteen-nebraska-1982",
+      "artist": "Bruce Springsteen",
+      "album": "Nebraska",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1982 studio album by Bruce Springsteen",
+        "story": "Nebraska is the sixth studio album by the American singer-songwriter Bruce Springsteen, released on September 30, 1982, through Columbia Records. Springsteen recorded the songs unaccompanied on a four-track recorder in the bedroom of his home in Colts Neck, New Jersey."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "324aee0c-36ec-35c1-9c93-b67a1d428037",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/324aee0c-36ec-35c1-9c93-b67a1d428037",
+        "wikidataEntityId": "Q852024",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q852024",
+        "wikipediaTitle": "Nebraska_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Nebraska_(album)"
+      }
+    },
+    {
+      "albumId": "album-george-michael-faith-1987",
+      "artist": "George Michael",
+      "album": "Faith",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1987 debut solo album by George Michael",
+        "story": "Faith is the debut solo studio album by the English singer-songwriter George Michael, released on 30 October 1987 by Columbia Records in the US and on 2 November by Epic Records in the UK. In addition to playing various instruments on the album, Michael wrote and produced every track on the recording except for one, \"Look at Your Hands\", which he co-wrote with David Austin."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "4e61585f-f341-3174-85cf-afad8df46fbe",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/4e61585f-f341-3174-85cf-afad8df46fbe",
+        "wikidataEntityId": "Q568555",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q568555",
+        "wikipediaTitle": "Faith_(George_Michael_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Faith_(George_Michael_album)"
+      }
+    },
+    {
+      "albumId": "album-pj-harvey-rid-of-me-1993",
+      "artist": "PJ Harvey",
+      "album": "Rid of Me",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1993 studio album by PJ Harvey",
+        "story": "Rid of Me is the second studio album by the English singer-songwriter PJ Harvey, released on 26 April 1993 by Island Records, approximately one year after the release of her critically acclaimed debut studio album Dry (1992). It marked a departure from Harvey's previous songwriting, being more raw and aggressive than its predecessor."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c1bb54cc-751d-300c-ba29-d7502d571c2d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c1bb54cc-751d-300c-ba29-d7502d571c2d",
+        "wikidataEntityId": "Q1074272",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1074272",
+        "wikipediaTitle": "Rid_of_Me",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Rid_of_Me"
+      }
+    },
+    {
+      "albumId": "album-jay-z-the-black-album-2003",
+      "artist": "Jay-Z",
+      "album": "The Black Album",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2003 studio album by Jay-Z",
+        "story": "The Black Album is the eighth studio album by American rapper Jay-Z, released on November 14, 2003, through Roc-A-Fella Records and The Island Def Jam Music Group. It was advertised as his final album before retiring, which is also a recurring theme throughout the songs, although Jay-Z resumed his recording career in 2005."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "77befaa0-662e-3d84-ba45-c862e16dc109",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/77befaa0-662e-3d84-ba45-c862e16dc109",
+        "wikidataEntityId": "Q2563740",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q2563740",
+        "wikipediaTitle": "The_Black_Album_(Jay-Z_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Black_Album_(Jay-Z_album)"
+      }
+    },
+    {
+      "albumId": "album-replacements-let-it-be-1984",
+      "artist": "The Replacements",
+      "album": "Let It Be",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1984 studio album by The Replacements",
+        "story": "Let It Be is the third studio album by American rock band the Replacements. It was released on October 2, 1984, by Twin/Tone Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "2c644807-3b5d-39d4-8c65-dec603bf3f3a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/2c644807-3b5d-39d4-8c65-dec603bf3f3a",
+        "wikidataEntityId": "Q1040457",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1040457",
+        "wikipediaTitle": "Let_It_Be_(The_Replacements_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Let_It_Be_(The_Replacements_album)"
+      }
+    },
+    {
+      "albumId": "album-elton-john-captain-fantastic-and-the-brown-dirt-cowboy-1975",
+      "artist": "Elton John",
+      "album": "Captain Fantastic And The Brown Dirt Cowboy",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1975 studio album by Elton John",
+        "story": "Captain Fantastic and the Brown Dirt Cowboy is the ninth studio album by British musician Elton John, released on 23 May 1975 by DJM Records in the UK and MCA Records in the US. The album is an autobiographical account of the early musical careers of Elton John and his long-term lyricist Bernie Taupin."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "31edc094-37e7-3b02-b79b-f8442cc3fbdb",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/31edc094-37e7-3b02-b79b-f8442cc3fbdb",
+        "wikidataEntityId": "Q1754335",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1754335",
+        "wikipediaTitle": "Captain_Fantastic_and_the_Brown_Dirt_Cowboy",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Captain_Fantastic_and_the_Brown_Dirt_Cowboy"
+      }
+    },
+    {
+      "albumId": "album-police-synchronicity-1983",
+      "artist": "The Police",
+      "album": "Synchronicity",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1983 album by The Police",
+        "story": "Synchronicity is the fifth and final studio album by the English rock band the Police, released on 17 June 1983 by A&M Records. The band's most successful release, the album includes the hit singles \"Every Breath You Take\", \"King of Pain\", \"Wrapped Around Your Finger\", and \"Synchronicity II\"."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f6df6292-fd40-37c3-bd61-22c53abfe773",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f6df6292-fd40-37c3-bd61-22c53abfe773",
+        "wikidataEntityId": "Q1064318",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1064318",
+        "wikipediaTitle": "Synchronicity_(The_Police_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Synchronicity_(The_Police_album)"
+      }
+    },
+    {
+      "albumId": "album-pearl-jam-ten-1991",
+      "artist": "Pearl Jam",
+      "album": "Ten",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1991 debut studio album by Pearl Jam",
+        "story": "Ten is the debut studio album by American rock band Pearl Jam, released on August 27, 1991, through Epic Records. Following the dissolution of their previous band Mother Love Bone in 1990, bassist Jeff Ament and guitarist Stone Gossard began rehearsing with new guitarist Mike McCready."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "cea5d18a-1924-3cda-bebc-38933834b25d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/cea5d18a-1924-3cda-bebc-38933834b25d",
+        "wikidataEntityId": "Q383227",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q383227",
+        "wikipediaTitle": "Ten_(Pearl_Jam_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ten_(Pearl_Jam_album)"
+      }
+    },
+    {
+      "albumId": "album-crosby-stills-and-nash-crosby-stills-and-nash-1969",
+      "artist": "Crosby, Stills & Nash",
+      "album": "Crosby, Stills & Nash",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "studio album by Crosby, Stills & Nash",
+        "story": "Crosby, Stills & Nash is the debut studio album by the folk rock supergroup Crosby, Stills & Nash (CSN), released on May 29, 1969, by Atlantic Records. It is the only release by the band prior to adding Neil Young to their lineup."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a2735d5f-27c0-3176-85df-e77f669dcca1",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a2735d5f-27c0-3176-85df-e77f669dcca1",
+        "wikidataEntityId": "Q869918",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q869918",
+        "wikipediaTitle": "Crosby,_Stills_&_Nash_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Crosby,_Stills_%26_Nash_(album)"
+      }
+    },
+    {
+      "albumId": "album-pulp-different-class-1995",
+      "artist": "Pulp",
+      "album": "Different Class",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1995 album by Pulp",
+        "story": "Different Class is the fifth studio album by English rock band Pulp, released on 30 October 1995 by Island Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "88f69eab-8f07-343b-847c-b944ad33dfcf",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/88f69eab-8f07-343b-847c-b944ad33dfcf",
+        "wikidataEntityId": "Q771579",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q771579",
+        "wikipediaTitle": "Different_Class",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Different_Class"
+      }
+    },
+    {
+      "albumId": "album-johnny-cash-at-folsom-prison-1968",
+      "artist": "Johnny Cash",
+      "album": "At Folsom Prison",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1968 live album by Johnny Cash",
+        "story": "At Folsom Prison is the first live album by American singer-songwriter Johnny Cash, released by Columbia Records on May 6, 1968. It was recorded at Folsom State Prison, California, on January 13, 1968."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6b4ea595-3378-3019-be5f-058412670791",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6b4ea595-3378-3019-be5f-058412670791",
+        "wikidataEntityId": "Q752937",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q752937",
+        "wikipediaTitle": "At_Folsom_Prison",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/At_Folsom_Prison"
+      }
+    },
+    {
+      "albumId": "album-elvis-costello-and-the-attractions-imperial-bedroom-1982",
+      "artist": "Elvis Costello and the Attractions",
+      "album": "Imperial Bedroom",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1982 studio album by Elvis Costello & the Attractions",
+        "story": "Imperial Bedroom is the seventh studio album by the English singer-songwriter Elvis Costello, and his sixth with the Attractions—keyboardist Steve Nieve, bassist Bruce Thomas and drummer Pete Thomas. It was released on 2 July 1982 through F-Beat Records in the United Kingdom and Columbia Records in the United States."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "8c7bf795-c1b7-3d84-8034-45fa568e1916",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/8c7bf795-c1b7-3d84-8034-45fa568e1916",
+        "wikidataEntityId": "Q846779",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q846779",
+        "wikipediaTitle": "Imperial_Bedroom",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Imperial_Bedroom"
+      }
+    },
+    {
+      "albumId": "album-depeche-mode-violator-1990",
+      "artist": "Depeche Mode",
+      "album": "Violator",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1990 studio album by Depeche Mode",
+        "story": "Violator is the seventh studio album by the English electronic band Depeche Mode, released on 19 March 1990 by Mute Records internationally and by Sire and Reprise Records in the United States. It was produced by the band and Mark Ellis, professionally known as Flood."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "71f1482e-e63f-3b2c-811b-939f62708f2a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/71f1482e-e63f-3b2c-811b-939f62708f2a",
+        "wikidataEntityId": "Q683079",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q683079",
+        "wikipediaTitle": "Violator_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Violator_(album)"
+      }
+    },
+    {
+      "albumId": "album-steely-dan-cant-buy-a-thrill-1972",
+      "artist": "Steely Dan",
+      "album": "Can't Buy a Thrill",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 debut studio album by Steely Dan",
+        "story": "Can't Buy a Thrill is the debut studio album by American rock band Steely Dan, released in November 1972, by ABC Records. It was written by band members Walter Becker and Donald Fagen, and recorded in August 1972 at the Village Recorder in Los Angeles with producer Gary Katz."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "9d73a864-2976-3286-b6c1-8aabc7407737",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/9d73a864-2976-3286-b6c1-8aabc7407737",
+        "wikidataEntityId": "Q857908",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q857908",
+        "wikipediaTitle": "Can't_Buy_a_Thrill",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Can%27t_Buy_a_Thrill"
+      }
+    },
+    {
+      "albumId": "album-billy-joel-the-stranger-1977",
+      "artist": "Billy Joel",
+      "album": "The Stranger",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1977 studio album by Billy Joel",
+        "story": "The Stranger is the fifth studio album by American singer-songwriter Billy Joel, released on September 29, 1977, by Columbia Records. It was the first of Joel's albums to be produced by Phil Ramone, with whom he would work for five subsequent albums."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "735bcee6-6be6-3957-af15-d21ba2bd355b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/735bcee6-6be6-3957-af15-d21ba2bd355b",
+        "wikidataEntityId": "Q202183",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q202183",
+        "wikipediaTitle": "The_Stranger_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Stranger_(album)"
+      }
+    },
+    {
+      "albumId": "album-taylor-swift-folklore-2020",
+      "artist": "Taylor Swift",
+      "album": "Folklore",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2020 studio album by Taylor Swift",
+        "story": "Folklore is the eighth studio album by the American singer-songwriter Taylor Swift. It was surprise-released on July 24, 2020, through Republic Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f1d08326-c23b-4b43-be3b-20b33ab10bf6",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f1d08326-c23b-4b43-be3b-20b33ab10bf6",
+        "wikidataEntityId": "Q97620733",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q97620733",
+        "wikipediaTitle": "Folklore_(Taylor_Swift_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Folklore_(Taylor_Swift_album)"
+      }
+    },
+    {
+      "albumId": "album-sonic-youth-daydream-nation-1988",
+      "artist": "Sonic Youth",
+      "album": "Daydream Nation",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1988 studio album by Sonic Youth",
+        "story": "Daydream Nation is the fifth studio album by American alternative rock band Sonic Youth, released on October 18, 1988. The band recorded the album between July and August 1988 at Greene St."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "24769a99-8189-3d8c-947e-dbc8574dad5c",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/24769a99-8189-3d8c-947e-dbc8574dad5c",
+        "wikidataEntityId": "Q902833",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q902833",
+        "wikipediaTitle": "Daydream_Nation",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Daydream_Nation"
+      }
+    },
+    {
+      "albumId": "album-byrds-the-notorious-byrd-brothers-1968",
+      "artist": "The Byrds",
+      "album": "The Notorious Byrd Brothers",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by The Byrds",
+        "story": "The Notorious Byrd Brothers is the fifth studio album by the American rock band the Byrds, released on January 15, 1968, by Columbia Records. The album represents the pinnacle of the Byrds' late-'60s musical experimentation, with the band blending together elements of psychedelia, folk rock, country, electronic music, baroque pop, and jazz."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "5f8c3b00-bdfe-38ea-8a5d-61dc7e50882e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/5f8c3b00-bdfe-38ea-8a5d-61dc7e50882e",
+        "wikidataEntityId": "Q1077979",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1077979",
+        "wikipediaTitle": "The_Notorious_Byrd_Brothers",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Notorious_Byrd_Brothers"
+      }
+    },
+    {
+      "albumId": "album-simon-and-garfunkel-bridge-over-troubled-water-1970",
+      "artist": "Simon and Garfunkel",
+      "album": "Bridge Over Troubled Water",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by Simon & Garfunkel",
+        "story": "Bridge over Troubled Water is the fifth and final studio album by the American folk rock duo Simon & Garfunkel. The album was released on January 26, 1970 through Columbia Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c39f7f80-d42f-3669-9653-230f8e922083",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c39f7f80-d42f-3669-9653-230f8e922083",
+        "wikidataEntityId": "Q655502",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q655502",
+        "wikipediaTitle": "Bridge_over_Troubled_Water",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Bridge_over_Troubled_Water"
+      }
+    },
+    {
+      "albumId": "album-nirvana-in-utero-1993",
+      "artist": "Nirvana",
+      "album": "In Utero",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1993 studio album by Nirvana",
+        "story": "In Utero is the third and final studio album by the American rock band Nirvana, released on September 21, 1993, by DGC Records. After breaking into the mainstream with their previous album, Nevermind (1991), Nirvana hired Steve Albini to record In Utero, seeking a more complex, abrasive sound that was reminiscent of their work prior to Nevermind."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "2a0981fb-9593-3019-864b-ce934d97a16e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/2a0981fb-9593-3019-864b-ce934d97a16e",
+        "wikidataEntityId": "Q222001",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q222001",
+        "wikipediaTitle": "In_Utero",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/In_Utero"
+      }
+    },
+    {
+      "albumId": "album-carpenters-close-to-you-1970",
+      "artist": "Carpenters",
+      "album": "Close To You",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by The Carpenters",
+        "story": "Close to You is the second studio album by the American music duo the Carpenters, released on August 19, 1970. In 2003, the album was ranked No."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ca8d0ba2-f227-3665-9104-30e3c09eafae",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ca8d0ba2-f227-3665-9104-30e3c09eafae",
+        "wikidataEntityId": "Q868020",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q868020",
+        "wikipediaTitle": "Close_to_You_(The_Carpenters_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Close_to_You_(The_Carpenters_album)"
+      }
+    },
+    {
+      "albumId": "album-public-enemy-fear-of-a-black-planet-1990",
+      "artist": "Public Enemy",
+      "album": "Fear of a Black Planet",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Public Enemy",
+        "story": "Fear of a Black Planet is the third studio album by American hip hop group Public Enemy. It was released on April 10, 1990, by Def Jam Recordings and Columbia Records, and produced by the group's production team The Bomb Squad, who expanded on the sample-layered sound of Public Enemy's previous album, It Takes a Nation of Millions to Hold Us Back (1988)."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "13cf2244-c850-304d-bc46-b30e3f10e0cc",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/13cf2244-c850-304d-bc46-b30e3f10e0cc",
+        "wikidataEntityId": "Q996926",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q996926",
+        "wikipediaTitle": "Fear_of_a_Black_Planet",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fear_of_a_Black_Planet"
+      }
+    },
+    {
+      "albumId": "album-rod-stewart-every-picture-tells-a-story-1971",
+      "artist": "Rod Stewart",
+      "album": "Every Picture Tells a Story",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by Rod Stewart",
+        "story": "Every Picture Tells a Story is the third studio album by British singer-songwriter Rod Stewart, released on 28 May 1971, by Mercury Records. It incorporates hard rock, folk, and blues styles."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "d4e7be0c-6db3-372e-aee6-e048dbb9ac51",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/d4e7be0c-6db3-372e-aee6-e048dbb9ac51",
+        "wikidataEntityId": "Q993764",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q993764",
+        "wikipediaTitle": "Every_Picture_Tells_a_Story",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Every_Picture_Tells_a_Story"
+      }
+    },
+    {
+      "albumId": "album-love-forever-changes-1967",
+      "artist": "Love",
+      "album": "Forever Changes",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 studio album by Love",
+        "story": "Forever Changes is the third studio album by the American rock band Love, released in November 1967 by Elektra Records. The album saw the group embrace a subtler folk-influenced sound based around acoustic guitars and orchestral arrangements, while primary songwriter Arthur Lee explored darker themes alluding to mortality and his growing disillusionment with the era's counterculture."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c7035bc6-6101-326f-992c-401d451c1716",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c7035bc6-6101-326f-992c-401d451c1716",
+        "wikidataEntityId": "Q1002861",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1002861",
+        "wikipediaTitle": "Forever_Changes",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Forever_Changes"
+      }
+    },
+    {
+      "albumId": "album-rolling-stones-the-rolling-stones-now-1965",
+      "artist": "The Rolling Stones",
+      "album": "The Rolling Stones Now!",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1965 studio album by the Rolling Stones",
+        "story": "The Rolling Stones, Now! is the third American studio album by the English rock band the Rolling Stones, released on 13 February 1965 by their initial American distributor, London Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "367b4517-4cb1-3834-8132-e980ddb65162",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/367b4517-4cb1-3834-8132-e980ddb65162",
+        "wikidataEntityId": "Q958862",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q958862",
+        "wikipediaTitle": "The_Rolling_Stones,_Now!",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Rolling_Stones,_Now!"
+      }
+    },
+    {
+      "albumId": "album-bob-dylan-bringing-it-all-back-home-1965",
+      "artist": "Bob Dylan",
+      "album": "Bringing It All Back Home",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1965 studio album by Bob Dylan",
+        "story": "Bringing It All Back Home is the fifth studio album by the American singer-songwriter Bob Dylan. Released by Columbia Records in April 1965, the album was Dylan's first to incorporate electric instrumentation."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6cadda7c-fbd0-3b19-9546-56915e3305d8",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6cadda7c-fbd0-3b19-9546-56915e3305d8",
+        "wikidataEntityId": "Q268106",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q268106",
+        "wikipediaTitle": "Bringing_It_All_Back_Home",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Bringing_It_All_Back_Home"
+      }
+    },
+    {
+      "albumId": "album-bob-marley-and-the-wailers-natty-dread-1974",
+      "artist": "Bob Marley and the Wailers",
+      "album": "Natty Dread",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1974 studio album by Bob Marley and the Wailers",
+        "story": "Natty Dread is the seventh album by Bob Marley and the Wailers, released in 1974. Previously Marley had recorded with Peter Tosh and Bunny Wailer as the Wailers, and this was his first record without them."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "e776533c-4132-3b63-bfaa-94fe901951b5",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/e776533c-4132-3b63-bfaa-94fe901951b5",
+        "wikidataEntityId": "Q913435",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q913435",
+        "wikipediaTitle": "Natty_Dread",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Natty_Dread"
+      }
+    },
+    {
+      "albumId": "album-fleetwood-mac-fleetwood-mac-1975",
+      "artist": "Fleetwood Mac",
+      "album": "Fleetwood Mac",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1975 self-titled studio album by Fleetwood Mac",
+        "story": "Fleetwood Mac is the tenth studio album by the British-American rock band Fleetwood Mac, released on 11 July 1975 in the United States and on 1 August 1975 in the United Kingdom by Reprise Records. It is the band's second eponymous album, the first being their 1968 debut album, and is sometimes referred to by fans as the White Album."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6b5d9bf1-f496-34b5-9488-7df2533d6208",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6b5d9bf1-f496-34b5-9488-7df2533d6208",
+        "wikidataEntityId": "Q1427756",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1427756",
+        "wikipediaTitle": "Fleetwood_Mac_(1975_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fleetwood_Mac_(1975_album)"
+      }
+    },
+    {
+      "albumId": "album-james-taylor-sweet-baby-james-1970",
+      "artist": "James Taylor",
+      "album": "Sweet Baby James",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by James Taylor",
+        "story": "Sweet Baby James is the second studio album by American singer-songwriter James Taylor, released on February 1, 1970, by Warner Bros. Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a3a2756d-93b4-37c6-8b82-513070ef58d6",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a3a2756d-93b4-37c6-8b82-513070ef58d6",
+        "wikidataEntityId": "Q745580",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q745580",
+        "wikipediaTitle": "Sweet_Baby_James",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Sweet_Baby_James"
+      }
+    },
+    {
+      "albumId": "album-dangelo-brown-sugar-1995",
+      "artist": "D'Angelo",
+      "album": "Brown Sugar",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1995 debut studio album by D'Angelo",
+        "story": "Brown Sugar is the debut studio album by the American musician D'Angelo, released on July 3, 1995, through EMI. The album was recorded during 1994 and 1995 in sessions at Battery Studios and RPM Studios in New York City and at the Pookie Lab in Sacramento."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a4591f67-48d9-36ae-bc68-2deb954d0a15",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a4591f67-48d9-36ae-bc68-2deb954d0a15",
+        "wikidataEntityId": "Q779719",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q779719",
+        "wikipediaTitle": "Brown_Sugar_(D'Angelo_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brown_Sugar_(D%27Angelo_album)"
+      }
+    },
+    {
+      "albumId": "album-cyndi-lauper-shes-so-unusual-1983",
+      "artist": "Cyndi Lauper",
+      "album": "She's So Unusual",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1983 debut studio album by Cyndi Lauper",
+        "story": "She's So Unusual is the debut solo studio album by American pop singer Cyndi Lauper, released on October 13, 1983, by Portrait Records. It stands out for its commercial success, achieving four top-five singles—a pioneering achievement for a female artist's first album."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "46d415e9-39b7-3978-9e3d-d9d8a32c6751",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/46d415e9-39b7-3978-9e3d-d9d8a32c6751",
+        "wikidataEntityId": "Q263323",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q263323",
+        "wikipediaTitle": "She's_So_Unusual",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/She%27s_So_Unusual"
+      }
+    },
+    {
+      "albumId": "album-rolling-stones-beggars-banquet-1968",
+      "artist": "The Rolling Stones",
+      "album": "Beggars Banquet",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1968 studio album by the Rolling Stones",
+        "story": "Beggars Banquet is the seventh studio album by the English rock band the Rolling Stones, released on 6 December 1968 by Decca Records in the United Kingdom and London Records in the United States. It was the first Rolling Stones album produced by Jimmy Miller, whose production work formed a key aspect of the Rolling Stones' sound throughout the late 1960s and early 1970s."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6e672bbd-7c7f-32f8-8335-c603be99d13b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6e672bbd-7c7f-32f8-8335-c603be99d13b",
+        "wikidataEntityId": "Q339065",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q339065",
+        "wikipediaTitle": "Beggars_Banquet",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Beggars_Banquet"
+      }
+    },
+    {
+      "albumId": "album-red-hot-chili-peppers-blood-sugar-sex-magik-1991",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Blood Sugar Sex Magik",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1991 studio album by Red Hot Chili Peppers",
+        "story": "Blood Sugar Sex Magik is the fifth studio album by the American rock band Red Hot Chili Peppers, released on September 24, 1991, by Warner Bros. Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "68bee70d-b425-3813-aca7-dd7b912c3d11",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/68bee70d-b425-3813-aca7-dd7b912c3d11",
+        "wikidataEntityId": "Q329396",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q329396",
+        "wikipediaTitle": "Blood_Sugar_Sex_Magik",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Blood_Sugar_Sex_Magik"
+      }
+    },
+    {
+      "albumId": "album-sly-and-the-family-stone-fresh-1973",
+      "artist": "Sly & The Family Stone",
+      "album": "Fresh",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Sly and the Family Stone",
+        "story": "Fresh is the sixth album by American funk band Sly and the Family Stone, released by Epic and CBS Records in June 1973. Written and produced by Sly Stone over two years, Fresh has been described as a lighter and more accessible take on the dense, drum machine-driven sound of its landmark 1971 predecessor There's a Riot Goin' On."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c026bf5e-ea8e-31b2-b372-4f76a1403acd",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c026bf5e-ea8e-31b2-b372-4f76a1403acd",
+        "wikidataEntityId": "Q3753076",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q3753076",
+        "wikipediaTitle": "Fresh_(Sly_and_the_Family_Stone_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fresh_(Sly_and_the_Family_Stone_album)"
+      }
+    },
+    {
+      "albumId": "album-ice-cube-amerikkkas-most-wanted-1990",
+      "artist": "Ice Cube",
+      "album": "AmeriKKKa's Most Wanted",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Ice Cube",
+        "story": "AmeriKKKa's Most Wanted is the debut studio album by American rapper Ice Cube, released on May 16, 1990, by Priority Records. A."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f7e8792d-4aaf-389c-b0e5-a4bbae2bacdf",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f7e8792d-4aaf-389c-b0e5-a4bbae2bacdf",
+        "wikidataEntityId": "Q689666",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q689666",
+        "wikipediaTitle": "AmeriKKKa's_Most_Wanted",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/AmeriKKKa%27s_Most_Wanted"
+      }
+    },
+    {
+      "albumId": "album-buffalo-springfield-buffalo-springfield-again-1967",
+      "artist": "Buffalo Springfield",
+      "album": "Buffalo Springfield Again",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 album of Buffalo Springfield",
+        "story": "Buffalo Springfield Again is the second album by Buffalo Springfield, released on Atco Records in October 1967. The album features some of the group's best-known songs, including \"Mr."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "28768f4d-dd43-382d-a56f-79ddfa6597a9",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/28768f4d-dd43-382d-a56f-79ddfa6597a9",
+        "wikidataEntityId": "Q851530",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q851530",
+        "wikipediaTitle": "Buffalo_Springfield_Again",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Buffalo_Springfield_Again"
+      }
+    },
+    {
+      "albumId": "album-t-rex-electric-warrior-1971",
+      "artist": "T. Rex",
+      "album": "Electric Warrior",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by T. Rex",
+        "story": "Electric Warrior is the second studio album by English rock band T. Rex and their sixth since their 1968 debut as Tyrannosaurus Rex, released on 24 September 1971, by Fly Records in the United Kingdom and Reprise Records in the United States."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "e53310bf-8ccc-3d7f-a0b7-5ca4dbababcb",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/e53310bf-8ccc-3d7f-a0b7-5ca4dbababcb",
+        "wikidataEntityId": "Q940412",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q940412",
+        "wikipediaTitle": "Electric_Warrior",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Electric_Warrior"
+      }
+    },
+    {
+      "albumId": "album-quicksilver-messenger-service-happy-trails-1969",
+      "artist": "Quicksilver Messenger Service",
+      "album": "Happy Trails",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 live album by Quicksilver Messenger Service",
+        "story": "Happy Trails is the second album of the American band Quicksilver Messenger Service. Most of the album was recorded from two performances at the Fillmore East and Fillmore West, although it is not clear which parts were recorded at which Fillmore."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "688f6d4d-c035-3454-b840-62d191d305e9",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/688f6d4d-c035-3454-b840-62d191d305e9",
+        "wikidataEntityId": "Q754693",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q754693",
+        "wikipediaTitle": "Happy_Trails_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Happy_Trails_(album)"
+      }
+    },
+    {
+      "albumId": "album-who-tommy-1969",
+      "artist": "The Who",
+      "album": "Tommy",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 double studio album by The Who",
+        "story": "Tommy is the fourth studio album by the English rock band the Who, released on 19 May 1969. Written primarily by guitarist Pete Townshend, Tommy is a double album and an early rock opera that tells the story of the fictional Tommy Walker and his path to becoming a spiritual leader and messianic figure."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "0e587339-406a-3d21-8678-73e46e250379",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/0e587339-406a-3d21-8678-73e46e250379",
+        "wikidataEntityId": "Q372055",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q372055",
+        "wikipediaTitle": "Tommy_(The_Who_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Tommy_(The_Who_album)"
+      }
+    },
+    {
+      "albumId": "album-etta-james-at-last-1960",
+      "artist": "Etta James",
+      "album": "At Last!",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1960 studio album by Etta James",
+        "story": "At Last! is the debut studio album by American blues and soul artist Etta James."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "56933d06-34a0-3a49-8e42-7c39f8c356dd",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/56933d06-34a0-3a49-8e42-7c39f8c356dd",
+        "wikidataEntityId": "Q3280688",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q3280688",
+        "wikipediaTitle": "At_Last!",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/At_Last!"
+      }
+    },
+    {
+      "albumId": "album-beastie-boys-licensed-to-ill-1986",
+      "artist": "Beastie Boys",
+      "album": "Licensed to Ill",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1989 debut studio album by Beastie Boys",
+        "story": "Licensed to Ill is the debut studio album by the American hip-hop group Beastie Boys, released on November 15, 1986, by Def Jam and Columbia Records. The album became the first rap LP to top the Billboard 200 chart, and was the second rap album to be certified Platinum by the Recording Industry Association of America (RIAA)."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "57f5e7c8-2a6e-34a0-b4cd-0e77695bc36f",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/57f5e7c8-2a6e-34a0-b4cd-0e77695bc36f",
+        "wikidataEntityId": "Q1073460",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1073460",
+        "wikipediaTitle": "Licensed_to_Ill",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Licensed_to_Ill"
+      }
+    },
+    {
+      "albumId": "album-creedence-clearwater-revival-willy-and-the-poor-boys-1969",
+      "artist": "Creedence Clearwater Revival",
+      "album": "Willy and the Poor Boys",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 studio album by Creedence Clearwater Revival",
+        "story": "Willy and the Poor Boys is the fourth studio album by the American rock band Creedence Clearwater Revival, released on October 29, 1969, by Fantasy Records. It was the last of three studio albums the band released that year, arriving just three months after Green River."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "5fdea541-32fc-3b17-b7c4-50b40f65203d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/5fdea541-32fc-3b17-b7c4-50b40f65203d",
+        "wikidataEntityId": "Q1546636",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1546636",
+        "wikipediaTitle": "Willy_and_the_Poor_Boys",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Willy_and_the_Poor_Boys"
+      }
+    },
+    {
+      "albumId": "album-michael-jackson-bad-1987",
+      "artist": "Michael Jackson",
+      "album": "Bad",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1987 studio album by Michael Jackson",
+        "story": "Bad is the seventh studio album by the American singer Michael Jackson. It was released on August 31, 1987, by Epic Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "a5711a77-42d1-3f4c-830c-e27a96f0800f",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/a5711a77-42d1-3f4c-830c-e27a96f0800f",
+        "wikidataEntityId": "Q44142",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q44142",
+        "wikipediaTitle": "Bad_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Bad_(album)"
+      }
+    },
+    {
+      "albumId": "album-leonard-cohen-songs-of-leonard-cohen-1967",
+      "artist": "Leonard Cohen",
+      "album": "Songs of Leonard Cohen",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 studio album by Leonard Cohen",
+        "story": "Songs of Leonard Cohen is the debut studio album by Canadian singer-songwriter Leonard Cohen, released on December 27, 1967, on Columbia Records. More successful in Europe than in North America, Songs of Leonard Cohen foreshadowed the kind of chart success Cohen would go on to achieve."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "34291a49-8df9-304e-bd39-16b11d829d5f",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/34291a49-8df9-304e-bd39-16b11d829d5f",
+        "wikidataEntityId": "Q923550",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q923550",
+        "wikipediaTitle": "Songs_of_Leonard_Cohen",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Songs_of_Leonard_Cohen"
+      }
+    },
+    {
+      "albumId": "album-beatles-meet-the-beatles-1964",
+      "artist": "The Beatles",
+      "album": "Meet the Beatles!",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1964 US studio album by the Beatles",
+        "story": "Meet the Beatles! is a studio album by the English rock band the Beatles, released as their second album in the United States."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c2c696fc-6beb-3dfb-bb15-7bb021ebeb5d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c2c696fc-6beb-3dfb-bb15-7bb021ebeb5d",
+        "wikidataEntityId": "Q913616",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q913616",
+        "wikipediaTitle": "Meet_the_Beatles!",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Meet_the_Beatles!"
+      }
+    },
+    {
+      "albumId": "album-pavement-slanted-and-enchanted-1992",
+      "artist": "Pavement",
+      "album": "Slanted and Enchanted",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Pavement",
+        "story": "Slanted and Enchanted is the debut studio album by American indie rock band Pavement, released on April 20, 1992, by Matador Records. It is the only Pavement album to feature drummer Gary Young."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "869f9eac-2a40-3a41-80a3-6bf2297a7cbc",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/869f9eac-2a40-3a41-80a3-6bf2297a7cbc",
+        "wikidataEntityId": "Q120712",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q120712",
+        "wikipediaTitle": "Slanted_and_Enchanted",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Slanted_and_Enchanted"
+      }
+    },
+    {
+      "albumId": "album-ac-dc-highway-to-hell-1979",
+      "artist": "AC/DC",
+      "album": "Highway To Hell",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1979 studio album by AC/DC",
+        "story": "Highway to Hell is the sixth studio album by Australian hard rock band AC/DC, released on 27 July 1979, by Albert Productions and Atlantic Records. It is the first of three albums produced by Robert John \"Mutt\" Lange, and is the last album featuring lead singer Bon Scott, who died on 19 February 1980."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f85647ec-a69b-3b0a-ad04-bb6076c4dcf1",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f85647ec-a69b-3b0a-ad04-bb6076c4dcf1",
+        "wikidataEntityId": "Q285929",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q285929",
+        "wikipediaTitle": "Highway_to_Hell",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Highway_to_Hell"
+      }
+    },
+    {
+      "albumId": "album-sade-diamond-life-1984",
+      "artist": "Sade",
+      "album": "Diamond Life",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1984 debut album by Sade",
+        "story": "Diamond Life is the debut studio album by English band Sade, released in the United Kingdom on 16 July 1984 by Epic Records and in the United States on 27 February 1985 by Portrait Records. After studying fashion design, and later modelling, Sade Adu began backup-singing with British band Pride."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "af2a0c41-e612-3232-949d-bdca340c407c",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/af2a0c41-e612-3232-949d-bdca340c407c",
+        "wikidataEntityId": "Q904971",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q904971",
+        "wikipediaTitle": "Diamond_Life",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Diamond_Life"
+      }
+    },
+    {
+      "albumId": "album-a-tribe-called-quest-midnight-marauders-1993",
+      "artist": "A Tribe Called Quest",
+      "album": "Midnight Marauders",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by A Tribe Called Quest",
+        "story": "Midnight Marauders is the third studio album by American hip-hop group A Tribe Called Quest, released on November 9, 1993, by Jive Records. The recording sessions for the album occurred at Battery Studios, Platinum Island Studios, and Sorcerer Sound in New York City."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c2afedfb-034a-3683-ad47-e4404cd7c485",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c2afedfb-034a-3683-ad47-e4404cd7c485",
+        "wikidataEntityId": "Q631450",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q631450",
+        "wikipediaTitle": "Midnight_Marauders",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Midnight_Marauders"
+      }
+    },
+    {
+      "albumId": "album-simon-and-garfunkel-parsley-sage-rosemary-and-thyme-1966",
+      "artist": "Simon And Garfunkel",
+      "album": "Parsley, Sage, Rosemary And Thyme",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1966 studio album by Simon & Garfunkel",
+        "story": "Parsley, Sage, Rosemary and Thyme is the third studio album by the American folk rock duo Simon & Garfunkel. Produced by Bob Johnston, the album was released on October 24, 1966, in the United States by Columbia Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "1e9428ef-9c74-3bb8-8b14-e53defab3b48",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/1e9428ef-9c74-3bb8-8b14-e53defab3b48",
+        "wikidataEntityId": "Q747405",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q747405",
+        "wikipediaTitle": "Parsley,_Sage,_Rosemary_and_Thyme",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Parsley,_Sage,_Rosemary_and_Thyme"
+      }
+    },
+    {
+      "albumId": "album-nick-drake-pink-moon-1972",
+      "artist": "Nick Drake",
+      "album": "Pink Moon",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 studio album by Nick Drake",
+        "story": "Pink Moon is the third and final studio album by the English musician Nick Drake, released in the UK by Island Records on 25 February 1972. It was the only one of Drake's studio albums to be released in North America during his lifetime."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "740ec10a-e887-38a6-a04d-fe2069c9e2a7",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/740ec10a-e887-38a6-a04d-fe2069c9e2a7",
+        "wikidataEntityId": "Q574910",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q574910",
+        "wikipediaTitle": "Pink_Moon",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Pink_Moon"
+      }
+    },
+    {
+      "albumId": "album-kanye-west-graduation-2007",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2007 album by Kanye West",
+        "story": "Graduation is the third studio album by the American rapper Kanye West. It was released on September 11, 2007, through Def Jam Recordings and Roc-A-Fella Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "d44c50ad-61fd-3fce-95fc-27024d7f1d30",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/d44c50ad-61fd-3fce-95fc-27024d7f1d30",
+        "wikidataEntityId": "Q1129439",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1129439",
+        "wikipediaTitle": "Graduation_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Graduation_(album)"
+      }
+    },
+    {
+      "albumId": "album-cat-stevens-tea-for-the-tillerman-1970",
+      "artist": "Cat Stevens",
+      "album": "Tea for the Tillerman",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by Cat Stevens",
+        "story": "Tea for the Tillerman is the fourth studio album by British-born singer-songwriter Cat Stevens, released on 23 November 1970 by Island Records in the United Kingdom and A&M in North America. Recorded between May and July of 1970 at three studios in London, it features some of Stevens's most iconic and best-known songs."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "418678e7-2807-3bed-a305-11b4181e533e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/418678e7-2807-3bed-a305-11b4181e533e",
+        "wikidataEntityId": "Q1077486",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1077486",
+        "wikipediaTitle": "Tea_for_the_Tillerman",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Tea_for_the_Tillerman"
+      }
+    },
+    {
+      "albumId": "album-cream-wheels-of-fire-1968",
+      "artist": "Cream",
+      "album": "Wheels Of Fire",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1968 studio and live album by Cream",
+        "story": "Wheels of Fire is the third album by the British rock band Cream. It was released in the US on 14 June 1968 as a two-disc vinyl LP, with one disc recorded in the studio and the other recorded live."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "d4cd45f8-9a77-3449-a23c-0167e181fb5e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/d4cd45f8-9a77-3449-a23c-0167e181fb5e",
+        "wikidataEntityId": "Q902413",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q902413",
+        "wikipediaTitle": "Wheels_of_Fire",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Wheels_of_Fire"
+      }
+    },
+    {
+      "albumId": "album-david-bowie-low-1977",
+      "artist": "David Bowie",
+      "album": "Low",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1977 studio album by David Bowie",
+        "story": "Low is the eleventh studio album by the English musician David Bowie, released on 14 January 1977 through RCA Records. The first of three collaborations with the producer Tony Visconti and the musician Brian Eno that became known as the Berlin Trilogy, the project originated following Bowie's move to France in 1976 with his friend Iggy Pop to rid themselves of their drug addictions."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f6a51281-56c4-3538-b915-65a9d4eb29b5",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f6a51281-56c4-3538-b915-65a9d4eb29b5",
+        "wikidataEntityId": "Q837214",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q837214",
+        "wikipediaTitle": "Low_(David_Bowie_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Low_(David_Bowie_album)"
+      }
+    },
+    {
+      "albumId": "album-eagles-eagles-1972",
+      "artist": "Eagles",
+      "album": "Eagles",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 self-titled debut studio album by Eagles",
+        "story": "Eagles is the debut studio album by American rock band the Eagles. The album was recorded at London's Olympic Studios with producer Glyn Johns and released on June 1, 1972, by Asylum Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "23eafc30-3978-37fb-bfa0-8058aa1eb81a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/23eafc30-3978-37fb-bfa0-8058aa1eb81a",
+        "wikidataEntityId": "Q987438",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q987438",
+        "wikipediaTitle": "Eagles_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Eagles_(album)"
+      }
+    },
+    {
+      "albumId": "album-lil-wayne-tha-carter-iii-2008",
+      "artist": "Lil Wayne",
+      "album": "Tha Carter III",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2008 studio album by Lil Wayne",
+        "story": "Tha Carter III is the sixth studio album by American rapper Lil Wayne, released on June 10, 2008, by Cash Money, Universal Motown and Young Money Entertainment. It follows a string of mixtape releases and guest appearances on other hip hop and R&B artists' albums."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "cb688885-74b2-4e9b-a18c-6102866151f2",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/cb688885-74b2-4e9b-a18c-6102866151f2",
+        "wikidataEntityId": "Q1417942",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1417942",
+        "wikipediaTitle": "Tha_Carter_III",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Tha_Carter_III"
+      }
+    },
+    {
+      "albumId": "album-joy-division-unknown-pleasures-1979",
+      "artist": "Joy Division",
+      "album": "Unknown Pleasures",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1979 studio album by Joy Division",
+        "story": "Unknown Pleasures is the debut studio album by the English rock band Joy Division. It was released on 15 June 1979 through Factory Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "42352def-1aab-3000-b548-895ebd869cb6",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/42352def-1aab-3000-b548-895ebd869cb6",
+        "wikidataEntityId": "Q735573",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q735573",
+        "wikipediaTitle": "Unknown_Pleasures",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Unknown_Pleasures"
+      }
+    },
+    {
+      "albumId": "album-nina-simone-wild-is-the-wind-1966",
+      "artist": "Nina Simone",
+      "album": "Wild Is the Wind",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1966 studio album by Nina Simone",
+        "story": "Wild Is the Wind is the sixth studio album by American singer and pianist Nina Simone released by Philips Records in 1966. The album was compiled from several recordings that were left over from sessions for previous Philips albums."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b4433a3e-d5ad-3d99-965c-96bfb6a0f071",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b4433a3e-d5ad-3d99-965c-96bfb6a0f071",
+        "wikidataEntityId": "Q754696",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q754696",
+        "wikipediaTitle": "Wild_Is_the_Wind_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Wild_Is_the_Wind_(album)"
+      }
+    },
+    {
+      "albumId": "album-rolling-stones-tattoo-you-1981",
+      "artist": "The Rolling Stones",
+      "album": "Tattoo You",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1981 studio album by The Rolling Stones",
+        "story": "Tattoo You is the sixteenth UK and eighteenth US studio album by the English rock band the Rolling Stones, released on 24 August 1981 by Rolling Stones Records. The album is mostly composed of studio outtakes recorded during the 1970s, and contains one of the band's most well-known songs, \"Start Me Up\", which hit number two on the US Billboard singles charts."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "fdbc4f51-817d-33ab-af9f-4bcc22286932",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/fdbc4f51-817d-33ab-af9f-4bcc22286932",
+        "wikidataEntityId": "Q547315",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q547315",
+        "wikipediaTitle": "Tattoo_You",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Tattoo_You"
+      }
+    },
+    {
+      "albumId": "album-tom-petty-wildflowers-1994",
+      "artist": "Tom Petty",
+      "album": "Wildflowers",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1994 solo studio album by Tom Petty",
+        "story": "Wildflowers is the second solo studio album by American musician Tom Petty, released on November 1, 1994, by Warner Bros. Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "80a0451a-d135-3517-96e4-3629dc4f66b9",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/80a0451a-d135-3517-96e4-3629dc4f66b9",
+        "wikidataEntityId": "Q1935759",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1935759",
+        "wikipediaTitle": "Wildflowers_(Tom_Petty_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Wildflowers_(Tom_Petty_album)"
+      }
+    },
+    {
+      "albumId": "album-grateful-dead-american-beauty-1970",
+      "artist": "Grateful Dead",
+      "album": "American Beauty",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 studio album by Grateful Dead",
+        "story": "American Beauty is the fifth studio album by American rock band the Grateful Dead. Released in November 1970, by Warner Bros."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "994c2c59-d32f-304e-8f53-bda17a254f52",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/994c2c59-d32f-304e-8f53-bda17a254f52",
+        "wikidataEntityId": "Q255923",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q255923",
+        "wikipediaTitle": "American_Beauty_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/American_Beauty_(album)"
+      }
+    },
+    {
+      "albumId": "album-bo-diddley-go-bo-diddley-1959",
+      "artist": "Bo Diddley",
+      "album": "Go Bo Diddley",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Bo Diddley",
+        "story": "Go Bo Diddley is the second album by American rock and roll musician Bo Diddley, released in July 1959. The album was Bo's first studio album that included some material that had not been prereleased on singles, and his first LP for Checker Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "5aff3ef3-68f5-3043-8399-4569b9a3466b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/5aff3ef3-68f5-3043-8399-4569b9a3466b",
+        "wikidataEntityId": "Q5574731",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q5574731",
+        "wikipediaTitle": "Go_Bo_Diddley",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Go_Bo_Diddley"
+      }
+    },
+    {
+      "albumId": "album-elliott-smith-either-or-1997",
+      "artist": "Elliott Smith",
+      "album": "Either/Or",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1997 studio album by Elliott Smith",
+        "story": "Either/Or is the third studio album by American singer-songwriter Elliott Smith. Either/Or was recorded in several locations, mostly in Portland, Oregon – while Smith was still a member of Heatmiser – and was produced by Smith, Tom Rothrock and Rob Schnapf."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "dfb85157-313b-3f5f-8739-a5162bcb6345",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/dfb85157-313b-3f5f-8739-a5162bcb6345",
+        "wikidataEntityId": "Q988557",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q988557",
+        "wikipediaTitle": "Either/Or_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Either/Or_(album)"
+      }
+    },
+    {
+      "albumId": "album-bobby-bland-two-steps-from-the-blues-1961",
+      "artist": "Bobby Bland",
+      "album": "Two Steps From The Blues",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1961 compilation album by Bobby Bland",
+        "story": "Two Steps from the Blues is the debut album by American blues singer Bobby Bland, in 1961. It compiles five songs recorded between 1956 and 1960 and seven songs recorded in two sessions from August 3 to November 12, 1960."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "959bffeb-cdb8-3559-a0e7-2c88d278e7bf",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/959bffeb-cdb8-3559-a0e7-2c88d278e7bf",
+        "wikidataEntityId": "Q7859256",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q7859256",
+        "wikipediaTitle": "Two_Steps_from_the_Blues",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Two_Steps_from_the_Blues"
+      }
+    },
+    {
+      "albumId": "album-oasis-definitely-maybe-1994",
+      "artist": "Oasis",
+      "album": "Definitely Maybe",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1994 studio album by Oasis",
+        "story": "Definitely Maybe is the debut studio album by the English rock band Oasis, released on 29 August 1994 by Creation Records. The album features Noel Gallagher on lead guitar, backing vocals and as chief songwriter, Liam Gallagher on lead vocals, Paul \"Bonehead\" Arthurs on rhythm guitar, Paul \"Guigsy\" McGuigan on bass guitar and Tony McCarroll on drums."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "451dca98-c118-32e1-9244-c47ca9c3c0f9",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/451dca98-c118-32e1-9244-c47ca9c3c0f9",
+        "wikidataEntityId": "Q328993",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q328993",
+        "wikipediaTitle": "Definitely_Maybe",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Definitely_Maybe"
+      }
     }
   ],
   "gaps": [
@@ -990,12 +3870,44 @@
       "album": "The Chronic",
       "reason": "weak-or-disambiguation-summary",
       "musicBrainzReleaseGroupId": "ad444843-7160-33d7-b0c9-fc99f2c14a99"
+    },
+    {
+      "albumId": "album-david-bowie-hunky-dory-1971",
+      "artist": "David Bowie",
+      "album": "Hunky Dory",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": "743b0b2e-a23a-3182-950e-232f8cb0dfb7"
+    },
+    {
+      "albumId": "album-bruce-springsteen-born-in-the-u-s-a-1984",
+      "artist": "Bruce Springsteen",
+      "album": "Born in the U.S.A.",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": "3c39a076-8e52-38f2-8076-260d0672fb23"
+    },
+    {
+      "albumId": "album-r-e-m-murmur-1983",
+      "artist": "R.E.M.",
+      "album": "Murmur",
+      "reason": "weak-or-disambiguation-summary",
+      "musicBrainzReleaseGroupId": "de790d3d-a35c-364c-a8fb-adfb73084a45"
+    },
+    {
+      "albumId": "album-cream-disraeli-gears-1967",
+      "artist": "Cream",
+      "album": "Disraeli Gears",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": "bbd66e31-ac27-3432-81a7-0d4b4b4c5de5"
     }
   ],
   "scope": {
     "atlasPath": "data/app/album-atlas.json",
-    "selectedAlbumCount": 504,
-    "selection": "first 50 story gaps with MusicBrainz release-group refs",
-    "albumCount": 50
+    "selectedAlbumCount": 456,
+    "selection": "first 150 story gaps with MusicBrainz release-group refs",
+    "albumCount": 150,
+    "previousCandidateCount": 192,
+    "previousGapCount": 6,
+    "mergedCandidateCount": 192,
+    "mergedGapCount": 6
   }
 }

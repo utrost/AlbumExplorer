@@ -7,12 +7,12 @@ This report is derived from `data/app/album-atlas.json` and drives the next cont
 ## Summary
 
 - Albums: 760
-- Albums with at least one profile gap: 701
+- Albums with at least one profile gap: 664
 - Missing cover art: 128
 - Missing tracklists: 124
 - Missing total duration: 200
 - Missing composer/songwriter/lyricist credits: 515
-- Missing useful story/context: 643
+- Missing useful story/context: 499
 
 ## How to use this report
 

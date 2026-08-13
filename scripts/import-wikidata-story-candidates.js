@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import { buildWikidataStoryCandidates, selectWikidataStoryImportAlbums } from '../src/data/wikidata-story-candidates.js';
+import { buildWikidataStoryCandidates, mergeWikidataStoryCandidateLayers, selectWikidataStoryImportAlbums } from '../src/data/wikidata-story-candidates.js';
 
 const DEFAULT_USER_AGENT = 'AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)';
 const WIKIDATA_SPARQL_URL = 'https://query.wikidata.org/sparql';
@@ -36,7 +36,7 @@ for (let index = 0; index < albums.length; index += 1) {
   console.log(`${index + 1}/${albums.length} ${response?.wikipediaSummary?.extract ? 'cached' : 'gap'} ${album.artist} — ${album.album}`);
 }
 
-const output = {
+const batchOutput = {
   ...buildWikidataStoryCandidates({ albums, responsesByAlbumId }),
   source: {
     system: 'wikidata-wikipedia',
@@ -53,11 +53,21 @@ const output = {
     albumCount: albums.length
   }
 };
+const existingOutput = existsSync(outputPath) ? JSON.parse(readFileSync(outputPath, 'utf8')) : null;
+const output = existingOutput ? mergeWikidataStoryCandidateLayers(existingOutput, batchOutput) : batchOutput;
+output.source = batchOutput.source;
+output.scope = {
+  ...batchOutput.scope,
+  previousCandidateCount: existingOutput?.summary?.candidateCount ?? 0,
+  previousGapCount: existingOutput?.summary?.gapCount ?? 0,
+  mergedCandidateCount: output.summary.candidateCount,
+  mergedGapCount: output.summary.gapCount
+};
 
 writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
 console.log(`Wikidata/Wikipedia story scope: ${albums.length} albums`);
-console.log(`Story candidates: ${output.candidates.length}`);
-console.log(`Story gaps: ${output.gaps.length}`);
+console.log(`Story candidates: ${output.candidates.length} (batch ${batchOutput.candidates.length})`);
+console.log(`Story gaps: ${output.gaps.length} (batch ${batchOutput.gaps.length})`);
 console.log(`Network fetches: ${networkFetches}`);
 console.log(`Output: ${outputPath}`);
 console.log(`Raw cache: ${cacheDir}`);
@@ -66,6 +76,7 @@ async function fetchOrReadStoryJson(cachePath, album) {
   if (existsSync(cachePath)) return JSON.parse(readFileSync(cachePath, 'utf8'));
   if (networkFetches > 0) await sleep(delayMs);
   const wikidata = await fetchWikidataForMusicBrainzReleaseGroup(album.musicBrainzReleaseGroupId);
+  if (wikidata?.transientError) return null;
   if (!wikidata?.entityId) {
     const gap = { fetchedAt: null, albumId: album.id, musicBrainzReleaseGroupId: album.musicBrainzReleaseGroupId, wikidata: null, wikipediaSummary: null };
     writeFileSync(cachePath, `${JSON.stringify(gap, null, 2)}\n`, 'utf8');
@@ -100,7 +111,7 @@ LIMIT 1`;
   networkFetches += 1;
   if (!response.ok) {
     console.warn(`Wikidata request failed for ${mbid}: ${response.status} ${response.statusText}`);
-    return null;
+    return { transientError: true, status: response.status };
   }
   const data = await response.json();
   const binding = data.results?.bindings?.[0];

@@ -133,6 +133,24 @@ const musicBrainzReleaseCandidates = {
   gaps: []
 };
 
+const wikidataStoryCandidates = {
+  candidates: [
+    {
+      albumId: 'album-beta-two-1971',
+      profile: {
+        description: '1971 studio album by Beta',
+        story: 'Two is a landmark album with a compact sourced story.'
+      },
+      source: {
+        system: 'wikidata-wikipedia',
+        wikidataUrl: 'https://www.wikidata.org/wiki/Q456',
+        wikipediaUrl: 'https://en.wikipedia.org/wiki/Two_(Beta_album)'
+      }
+    }
+  ],
+  gaps: []
+};
+
 const sourcePayloadsByCachePath = new Map([
   ['data/imports/discogs/releases/alpha.json', {
     uri: 'https://www.discogs.com/release/alpha',
@@ -317,4 +335,25 @@ test('uses MusicBrainz release candidates to fill tracklist and duration gaps wi
   ]);
   assert.equal(beta.profile.totalDurationSeconds, 123);
   assert.deepEqual(beta.profile.footnotes.map((footnote) => footnote.label), ['MusicBrainz release source']);
+});
+
+test('uses Wikidata/Wikipedia story candidates without replacing source-cache Discogs stories', () => {
+  const dataset = buildAppDataset({
+    comparison,
+    metadataCandidates,
+    sourceCandidates,
+    creditCandidates,
+    wikidataStoryCandidates,
+    sourcePayloadsByCachePath
+  });
+
+  const alpha = dataset.albums.find((album) => album.id === 'album-alpha-one-1970');
+  assert.equal(alpha.profile.description, 'Alpha — One (1970).');
+  assert.equal(alpha.profile.story, 'A concise album context note.');
+  assert.deepEqual(alpha.profile.footnotes.map((footnote) => footnote.label), ['Album content source']);
+
+  const beta = dataset.albums.find((album) => album.id === 'album-beta-two-1971');
+  assert.equal(beta.profile.description, '1971 studio album by Beta');
+  assert.equal(beta.profile.story, 'Two is a landmark album with a compact sourced story.');
+  assert.deepEqual(beta.profile.footnotes.map((footnote) => footnote.label), ['Album story source']);
 });

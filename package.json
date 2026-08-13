@@ -16,6 +16,7 @@
     "import:discogs-profile-gaps": "node scripts/import-discogs-credit-candidates.js data/rolling-stone-comparison.json data/enrichment/album-credit-profile-gap-candidates.json --profile-gaps data/enrichment/album-profile-gaps.json --missing coverArt,tracklist",
     "import:cover-art-archive": "node scripts/import-cover-art-archive-candidates.js",
     "import:musicbrainz-releases": "node scripts/import-musicbrainz-release-candidates.js",
+    "import:wikidata-stories": "node scripts/import-wikidata-story-candidates.js",
     "build:discogs-credit-review": "node scripts/build-discogs-credit-review.js",
     "build:album-profile-gaps": "node scripts/build-album-profile-gaps.js",
     "build:app-dataset": "node scripts/build-app-dataset.js"

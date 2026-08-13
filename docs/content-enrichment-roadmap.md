@@ -1,31 +1,33 @@
 # Album Content Enrichment Roadmap
 
 Status: active roadmap for the content-first album atlas  
-Last updated: 2026-08-09  
+Last updated: 2026-08-13  
 Related docs: [`app-dataset.md`](app-dataset.md), [`data-spec.md`](data-spec.md), [`roadmap.md`](roadmap.md)
 
 AlbumExplorer should collect more data by treating MusicBrainz, Discogs, Wikipedia, Wikidata, Cover Art Archive, and other references as **feedstock**. The public app should foreground the album: cover, story, description, tracklist, duration, composers, contributors, ranks, and related albums. Source names and URLs should remain compact footnotes/provenance, not the main user-facing experience.
 
 ## Current coverage baseline
 
-Generated from `data/app/album-atlas.json` after commit `014fdda`:
+Generated from `data/app/album-atlas.json` after commit `6a10357` plus the first Wikidata/Wikipedia story slice:
 
 ```text
 albums: 760
-explainable relationships: 9051
-with cover art: 433
-with tracklists: 433
-with total length: 361
-with composer/songwriter/lyricist credits: 241
+explainable relationships: 9062
+with cover art: 632
+with tracklists: 636
+with total length: 560
+with composer/songwriter/lyricist credits: 245
+with sourced story/context: 117
 ```
 
 Remaining visible gaps:
 
 ```text
-without cover art: 327
-without tracklists: 327
-without total length: 399
-without composer/songwriter/lyricist credits: 519
+without cover art: 128
+without tracklists: 124
+without total length: 200
+without composer/songwriter/lyricist credits: 515
+without story/context: 643
 ```
 
 These are album-profile gaps, not user homework. Hermes should improve them through internal enrichment passes, preserving raw source responses under `data/imports/` and regenerating the app-facing atlas.
@@ -222,6 +224,7 @@ Deliverables:
   - `profile.description`: short factual card text
   - `profile.story`: concise neutral story/context
   - story footnotes
+- First executable slice: `npm run import:wikidata-stories -- --limit 50` resolves story candidates by MusicBrainz release-group ID, caches combined Wikidata/Wikipedia summary payloads under `data/imports/wikidata/story-by-release-group/`, writes `data/enrichment/wikidata-story-candidates.json`, and the app dataset builder consumes that layer by default.
 - Avoid long copied article text. Prefer a compact summary written from cached source material.
 
 Exit criteria:

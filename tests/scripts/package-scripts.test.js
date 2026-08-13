@@ -16,3 +16,15 @@ test('app dataset build consumes the generated MusicBrainz release candidate lay
   assert.match(buildAppDatasetScript, /musicbrainz-release-candidates\.json/);
   assert.match(buildAppDatasetScript, /musicBrainzReleaseCandidates/);
 });
+
+test('exposes a Wikidata/Wikipedia story import command for story gaps', () => {
+  assert.equal(
+    packageJson.scripts['import:wikidata-stories'],
+    'node scripts/import-wikidata-story-candidates.js'
+  );
+});
+
+test('app dataset build consumes the generated Wikidata story candidate layer by default', () => {
+  assert.match(buildAppDatasetScript, /wikidata-story-candidates\.json/);
+  assert.match(buildAppDatasetScript, /wikidataStoryCandidates/);
+});

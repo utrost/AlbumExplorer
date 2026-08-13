@@ -1,0 +1,1001 @@
+{
+  "generatedAt": null,
+  "status": "generated-wikidata-story-candidates",
+  "source": {
+    "system": "wikidata-wikipedia",
+    "wikidataEndpoint": "https://query.wikidata.org/sparql",
+    "wikipediaEndpoint": "https://en.wikipedia.org/api/rest_v1/page/summary/{title}",
+    "cacheDir": "data/imports/wikidata/story-by-release-group",
+    "userAgent": "AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)",
+    "delayMs": 250
+  },
+  "summary": {
+    "selectedAlbumCount": 50,
+    "candidateCount": 48,
+    "gapCount": 2
+  },
+  "candidates": [
+    {
+      "albumId": "album-marvin-gaye-whats-going-on-1971",
+      "artist": "Marvin Gaye",
+      "album": "What's Going On",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by Marvin Gaye",
+        "story": "What's Going On is the eleventh studio album by the American soul singer Marvin Gaye. It was released on May 21, 1971, by the Motown Records subsidiary label Tamla."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c1fa4d2c-ec62-37d5-b01d-6df7f8fd2c90",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c1fa4d2c-ec62-37d5-b01d-6df7f8fd2c90",
+        "wikidataEntityId": "Q901648",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q901648",
+        "wikipediaTitle": "What's_Going_On_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/What%27s_Going_On_(album)"
+      }
+    },
+    {
+      "albumId": "album-beach-boys-pet-sounds-1966",
+      "artist": "The Beach Boys",
+      "album": "Pet Sounds",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1966 studio album by the Beach Boys",
+        "story": "Pet Sounds is the eleventh studio album by the American rock band the Beach Boys, released on May 16, 1966, by Capitol Records. It was produced, arranged, and primarily composed by Brian Wilson with guest lyricist Tony Asher."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "fdd96703-7b21-365e-bdea-38029fbeb84e",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/fdd96703-7b21-365e-bdea-38029fbeb84e",
+        "wikidataEntityId": "Q212863",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q212863",
+        "wikipediaTitle": "Pet_Sounds",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Pet_Sounds"
+      }
+    },
+    {
+      "albumId": "album-joni-mitchell-blue-1971",
+      "artist": "Joni Mitchell",
+      "album": "Blue",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by Joni Mitchell",
+        "story": "Blue is the fourth studio album by the Canadian singer-songwriter Joni Mitchell. It was released on June 22, 1971, through Reprise Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "42d725fb-a8b7-388c-8866-3b02789af326",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/42d725fb-a8b7-388c-8866-3b02789af326",
+        "wikidataEntityId": "Q804554",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q804554",
+        "wikipediaTitle": "Blue_(Joni_Mitchell_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Blue_(Joni_Mitchell_album)"
+      }
+    },
+    {
+      "albumId": "album-stevie-wonder-songs-in-the-key-of-life-1976",
+      "artist": "Stevie Wonder",
+      "album": "Songs in the Key of Life",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1976 studio album by Stevie Wonder",
+        "story": "Songs in the Key of Life is the eighteenth studio album by the American singer, songwriter and musician Stevie Wonder. A triple album, it was released on September 28, 1976, by Tamla Records, a division of Motown."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ea88b09b-fd34-33cf-a3e5-25a3a2fb4c6f",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ea88b09b-fd34-33cf-a3e5-25a3a2fb4c6f",
+        "wikidataEntityId": "Q845040",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q845040",
+        "wikipediaTitle": "Songs_in_the_Key_of_Life",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Songs_in_the_Key_of_Life"
+      }
+    },
+    {
+      "albumId": "album-beatles-abbey-road-1969",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 studio album by the Beatles",
+        "story": "Abbey Road is the eleventh studio album by the English rock band the Beatles, released on 26 September 1969 by Apple Records. It is the last album the group recorded; although Let It Be was released later, it had actually been recorded earlier but delayed due to production issues."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "9162580e-5df4-32de-80cc-f45a8d8a9b1d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/9162580e-5df4-32de-80cc-f45a8d8a9b1d",
+        "wikidataEntityId": "Q173643",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q173643",
+        "wikipediaTitle": "Abbey_Road",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbey_Road"
+      }
+    },
+    {
+      "albumId": "album-nirvana-nevermind-1991",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1991 studio album by Nirvana",
+        "story": "Nevermind is the second studio album by the American rock band Nirvana, released on September 24, 1991, by DGC Records. It was Nirvana's first release to feature drummer Dave Grohl."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "1b022e01-4da6-387b-8658-8678046e4cef",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/1b022e01-4da6-387b-8658-8678046e4cef",
+        "wikidataEntityId": "Q17444",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q17444",
+        "wikipediaTitle": "Nevermind",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Nevermind"
+      }
+    },
+    {
+      "albumId": "album-fleetwood-mac-rumours-1977",
+      "artist": "Fleetwood Mac",
+      "album": "Rumours",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1977 studio album by Fleetwood Mac",
+        "story": "Rumours is the eleventh studio album by the British and American rock band Fleetwood Mac, released on 4 February 1977, by Warner Bros. Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6",
+        "wikidataEntityId": "Q695405",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q695405",
+        "wikipediaTitle": "Rumours_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Rumours_(album)"
+      }
+    },
+    {
+      "albumId": "album-bob-dylan-blood-on-the-tracks-1975",
+      "artist": "Bob Dylan",
+      "album": "Blood on the Tracks",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1975 studio album by Bob Dylan",
+        "story": "Blood on the Tracks is the fifteenth studio album by the American singer-songwriter Bob Dylan, released on January 20, 1975, by Columbia Records. The album marked Dylan's return to Columbia after two albums with Asylum Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "9c1b8072-eb1d-33d2-af8c-984d46e40902",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/9c1b8072-eb1d-33d2-af8c-984d46e40902",
+        "wikidataEntityId": "Q300854",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q300854",
+        "wikipediaTitle": "Blood_on_the_Tracks",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Blood_on_the_Tracks"
+      }
+    },
+    {
+      "albumId": "album-lauryn-hill-the-miseducation-of-lauryn-hill-1998",
+      "artist": "Lauryn Hill",
+      "album": "The Miseducation of Lauryn Hill",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1998 studio album by Lauryn Hill",
+        "story": "The Miseducation of Lauryn Hill is the debut solo studio album by the American rapper and singer-songwriter Lauryn Hill. It was released on August 19, 1998, by Ruffhouse Records and Columbia Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "8691d12c-abd8-385c-b1eb-d841190124f7",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/8691d12c-abd8-385c-b1eb-d841190124f7",
+        "wikidataEntityId": "Q945926",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q945926",
+        "wikipediaTitle": "The_Miseducation_of_Lauryn_Hill",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Miseducation_of_Lauryn_Hill"
+      }
+    },
+    {
+      "albumId": "album-beatles-revolver-1966",
+      "artist": "The Beatles",
+      "album": "Revolver",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1966 studio album by the Beatles",
+        "story": "Revolver is the seventh studio album by the English rock band the Beatles. It was released on 5 August 1966, accompanied by the double A-side single \"Eleanor Rigby\" and \"Yellow Submarine\"."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "72d15666-99a7-321e-b1f3-a3f8c09dff9f",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/72d15666-99a7-321e-b1f3-a3f8c09dff9f",
+        "wikidataEntityId": "Q185121",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q185121",
+        "wikipediaTitle": "Revolver_(Beatles_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Revolver_(Beatles_album)"
+      }
+    },
+    {
+      "albumId": "album-michael-jackson-thriller-1982",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2008 studio album (reissue) by Michael Jackson",
+        "story": "Thriller 25 is the 25th-anniversary reissue of Thriller (1982), the sixth studio album by American singer and songwriter Michael Jackson. The original album has sold 70 million copies worldwide, making it the best-selling album of all time."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f32fab67-77dd-3937-addc-9062e28e4c37",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f32fab67-77dd-3937-addc-9062e28e4c37",
+        "wikidataEntityId": "Q745960",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q745960",
+        "wikipediaTitle": "Thriller_25",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Thriller_25"
+      }
+    },
+    {
+      "albumId": "album-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-1967",
+      "artist": "Aretha Franklin",
+      "album": "I Never Loved a Man the Way I Love You",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 studio album by Aretha Franklin",
+        "story": "I Never Loved a Man the Way I Love You is the ninth studio album by American singer Aretha Franklin, released on March 10, 1967, by Atlantic Records. It was Franklin's first release under her contract with the label, following her departure from Columbia Records after eight unsuccessful jazz standard albums, and marked a commercial breakthrough for her, becoming her first top 10 album in the United States, reaching number 2 on the Billboard 200."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "7d8f07a7-4c64-3afb-8daf-8f1d4df89a78",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/7d8f07a7-4c64-3afb-8daf-8f1d4df89a78",
+        "wikidataEntityId": "Q595440",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q595440",
+        "wikipediaTitle": "I_Never_Loved_a_Man_the_Way_I_Love_You",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/I_Never_Loved_a_Man_the_Way_I_Love_You"
+      }
+    },
+    {
+      "albumId": "album-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-1988",
+      "artist": "Public Enemy",
+      "album": "It Takes a Nation of Millions to Hold Us Back",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1988 music album by Public Enemy",
+        "story": "It Takes a Nation of Millions to Hold Us Back is the second studio album by American hip hop group Public Enemy, released on June 28, 1988, by Def Jam Recordings and Columbia Records. It was recorded from 1987 to 1988 in sessions at Chung King Studios, Greene St."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "01921d99-9d15-3fce-8734-46e58327cfb7",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/01921d99-9d15-3fce-8734-46e58327cfb7",
+        "wikidataEntityId": "Q926127",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q926127",
+        "wikipediaTitle": "It_Takes_a_Nation_of_Millions_to_Hold_Us_Back",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/It_Takes_a_Nation_of_Millions_to_Hold_Us_Back"
+      }
+    },
+    {
+      "albumId": "album-kanye-west-my-beautiful-dark-twisted-fantasy-2010",
+      "artist": "Kanye West",
+      "album": "My Beautiful Dark Twisted Fantasy",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2010 studio album by Kanye West",
+        "story": "My Beautiful Dark Twisted Fantasy is the fifth studio album by the American rapper Kanye West. It was released by Def Jam Recordings and Roc-A-Fella Records on November 22, 2010."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "5d6e21e1-deb5-428e-bb42-c2a567f3619b",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/5d6e21e1-deb5-428e-bb42-c2a567f3619b",
+        "wikidataEntityId": "Q547624",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q547624",
+        "wikipediaTitle": "My_Beautiful_Dark_Twisted_Fantasy",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+      }
+    },
+    {
+      "albumId": "album-bob-dylan-highway-61-revisited-1965",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1965 studio album by Bob Dylan",
+        "story": "Highway 61 Revisited is the sixth studio album by the American singer-songwriter Bob Dylan, released on August 30, 1965, by Columbia Records. Dylan continued the musical approach of his previous album Bringing It All Back Home (1965), using rock musicians as his backing band on every track of the album in a further departure from his primarily acoustic folk sound, except for the closing track, the 11-minute ballad \"Desolation Row\"."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "fb48b1dc-412f-36aa-8820-1023c08c46c6",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/fb48b1dc-412f-36aa-8820-1023c08c46c6",
+        "wikidataEntityId": "Q217211",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q217211",
+        "wikipediaTitle": "Highway_61_Revisited",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+      }
+    },
+    {
+      "albumId": "album-radiohead-kid-a-2000",
+      "artist": "Radiohead",
+      "album": "Kid A",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2000 studio album by Radiohead",
+        "story": "Kid A is the fourth studio album by the English rock band Radiohead, released on 2 October 2000 by Parlophone. It was recorded with their producer, Nigel Godrich, in Paris, Copenhagen, Gloucestershire and Oxfordshire."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "e75c0549-ad55-39e3-8025-c72c5d4a3c5d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/e75c0549-ad55-39e3-8025-c72c5d4a3c5d",
+        "wikidataEntityId": "Q220726",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q220726",
+        "wikipediaTitle": "Kid_A",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Kid_A"
+      }
+    },
+    {
+      "albumId": "album-bruce-springsteen-born-to-run-1975",
+      "artist": "Bruce Springsteen",
+      "album": "Born to Run",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1975 studio album by Bruce Springsteen",
+        "story": "Born to Run is the third studio album by the American singer-songwriter Bruce Springsteen, released on August 25, 1975, through Columbia Records. Co-produced by Springsteen with his manager Mike Appel and the producer Jon Landau, its recording took place in New York."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "39b22944-7503-3937-8bba-09b17281cc6a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/39b22944-7503-3937-8bba-09b17281cc6a",
+        "wikidataEntityId": "Q752366",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q752366",
+        "wikipediaTitle": "Born_to_Run",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Born_to_Run"
+      }
+    },
+    {
+      "albumId": "album-notorious-b-i-g-ready-to-die-1994",
+      "artist": "The Notorious B.I.G.",
+      "album": "Ready to Die",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1994 debut studio album by The Notorious B.I.G.",
+        "story": ", released on September 13, 1994, by Bad Boy Records and distributed by Arista Records. The album features productions by Bad Boy founder Sean Combs, Easy Mo Bee, Chucky Thompson, DJ Premier and Lord Finesse, among others."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "5afcfeac-118a-35e6-af0d-35ec9003354d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/5afcfeac-118a-35e6-af0d-35ec9003354d",
+        "wikidataEntityId": "Q529999",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q529999",
+        "wikipediaTitle": "Ready_to_Die",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ready_to_Die"
+      }
+    },
+    {
+      "albumId": "album-john-lennon-john-lennon-plastic-ono-band-1970",
+      "artist": "John Lennon",
+      "album": "John Lennon/Plastic Ono Band",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1970 debut solo album by English rock musician John Lennon",
+        "story": "John Lennon/Plastic Ono Band is the first solo album by English musician John Lennon after the break-up of the Beatles. Backed by the Plastic Ono Band, it was released by Apple Records on 11 December 1970 in tandem with the similarly titled album by his wife, Yoko Ono."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "8be83468-4917-390d-82b6-d890f058cd22",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/8be83468-4917-390d-82b6-d890f058cd22",
+        "wikidataEntityId": "Q603000",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q603000",
+        "wikipediaTitle": "John_Lennon/Plastic_Ono_Band",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Lennon/Plastic_Ono_Band"
+      }
+    },
+    {
+      "albumId": "album-velvet-underground-the-velvet-underground-and-nico-1967",
+      "artist": "The Velvet Underground",
+      "album": "The Velvet Underground and Nico",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 self-titled debut studio album by The Velvet Underground & Nico",
+        "story": "The Velvet Underground & Nico is the debut studio album by the American rock band the Velvet Underground and the German singer Nico, released by Verve Records in March 1967. The album was recorded in 1966 on Ludlow Street, New York while the band were featured on Andy Warhol's Exploding Plastic Inevitable tour."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "5cbd9d7b-597a-3c5e-bfd1-c2b364215560",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/5cbd9d7b-597a-3c5e-bfd1-c2b364215560",
+        "wikidataEntityId": "Q259667",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q259667",
+        "wikipediaTitle": "The_Velvet_Underground_&_Nico",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Velvet_Underground_%26_Nico"
+      }
+    },
+    {
+      "albumId": "album-beatles-sgt-peppers-lonely-hearts-club-band-1967",
+      "artist": "The Beatles",
+      "album": "Sgt. Pepper's Lonely Hearts Club Band",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 studio album by The Beatles",
+        "story": "Sgt. Pepper's Lonely Hearts Club Band is the eighth studio album by the English rock band the Beatles."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "9f7a4c28-8fa2-3113-929c-c47a9f7982c3",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/9f7a4c28-8fa2-3113-929c-c47a9f7982c3",
+        "wikidataEntityId": "Q169226",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q169226",
+        "wikipediaTitle": "Sgt._Pepper's_Lonely_Hearts_Club_Band",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band"
+      }
+    },
+    {
+      "albumId": "album-carole-king-tapestry-1971",
+      "artist": "Carole King",
+      "album": "Tapestry",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by Carole King",
+        "story": "Tapestry is the second studio album by the American singer-songwriter Carole King. Produced by Lou Adler, it was released on February 10, 1971, through Ode Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6e4f39e6-3403-39d7-81c6-8e61a990d509",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6e4f39e6-3403-39d7-81c6-8e61a990d509",
+        "wikidataEntityId": "Q411032",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q411032",
+        "wikipediaTitle": "Tapestry_(Carole_King_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Tapestry_(Carole_King_album)"
+      }
+    },
+    {
+      "albumId": "album-patti-smith-horses-1975",
+      "artist": "Patti Smith",
+      "album": "Horses",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1975 debut studio album by Patti Smith",
+        "story": "Horses is the debut studio album by American musician Patti Smith, released on November 10, 1975 by Arista Records. Smith, supported by her regular backing band, recorded the album at Electric Lady Studios in September 1975, choosing former Velvet Underground member John Cale as the album's producer."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ff8f533c-3cb3-3877-9209-11f433edaad2",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ff8f533c-3cb3-3877-9209-11f433edaad2",
+        "wikidataEntityId": "Q774927",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q774927",
+        "wikipediaTitle": "Horses_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Horses_(album)"
+      }
+    },
+    {
+      "albumId": "album-wu-tang-clan-enter-the-wu-tang-36-chambers-1993",
+      "artist": "Wu-Tang Clan",
+      "album": "Enter the Wu-Tang(36 Chambers)",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1993 studio album by Wu-Tang Clan",
+        "story": "Enter the Wu-Tang , often referred to as simply 36 Chambers, is the debut studio album by the American hip-hop collective Wu-Tang Clan, released on November 9, 1993, by Wu-Tang Records, Loud Records, RCA Records, and Bertelsmann Music Group. The recording sessions took place during late 1992 to early 1993 at Firehouse Studio in New York City, and the album was produced by the group's de facto leader RZA."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "610fb60f-900a-3c42-ac7d-f6b6aa8035f9",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/610fb60f-900a-3c42-ac7d-f6b6aa8035f9",
+        "wikidataEntityId": "Q679150",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q679150",
+        "wikipediaTitle": "Enter_the_Wu-Tang_(36_Chambers)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)"
+      }
+    },
+    {
+      "albumId": "album-dangelo-voodoo-2000",
+      "artist": "D'Angelo",
+      "album": "Voodoo",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2000 studio album by D'Angelo",
+        "story": "Voodoo is the second studio album by American musician D'Angelo, released on January 25, 2000, through Virgin Records. D'Angelo recorded the album during 1997 and 1999 at Electric Lady Studios in New York City, with an extensive line-up of musicians associated with the Soulquarians musical collective."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "9605c075-c64c-366b-ad7f-ec98523fc162",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/9605c075-c64c-366b-ad7f-ec98523fc162",
+        "wikidataEntityId": "Q2748045",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q2748045",
+        "wikipediaTitle": "Voodoo_(D'Angelo_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      }
+    },
+    {
+      "albumId": "album-miles-davis-kind-of-blue-1959",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1959 studio album by Miles Davis",
+        "story": "Kind of Blue is a studio album by American jazz musician Miles Davis, released on August 17, 1959, by Columbia Records. For this album, Davis led a sextet featuring saxophonists John Coltrane and Julian \"Cannonball\" Adderley, pianist Bill Evans, bassist Paul Chambers, and drummer Jimmy Cobb, with new band pianist Wynton Kelly replacing Evans on \"Freddie Freeloader\"."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "8e8a594f-2175-38c7-a871-abb68ec363e7",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/8e8a594f-2175-38c7-a871-abb68ec363e7",
+        "wikidataEntityId": "Q283221",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q283221",
+        "wikipediaTitle": "Kind_of_Blue",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+      }
+    },
+    {
+      "albumId": "album-beyonce-lemonade-2016",
+      "artist": "Beyoncé",
+      "album": "Lemonade",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2016 studio album by Beyoncé",
+        "story": "Lemonade is the sixth studio album by the American singer and songwriter Beyoncé. It was surprise-released on April 23, 2016, by Parkwood Entertainment and Columbia Records, as a visual album together with a film of the same name."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c1f22e07-7bdf-4a4f-8b50-7747c1091ef6",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c1f22e07-7bdf-4a4f-8b50-7747c1091ef6",
+        "wikidataEntityId": "Q23905116",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q23905116",
+        "wikipediaTitle": "Lemonade_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Lemonade_(album)"
+      }
+    },
+    {
+      "albumId": "album-amy-winehouse-back-to-black-2006",
+      "artist": "Amy Winehouse",
+      "album": "Back to Black",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2006 studio album by Amy Winehouse",
+        "story": "Back to Black is the second and final studio album by the English singer-songwriter Amy Winehouse, released on 27 October 2006 by Island Records. Winehouse predominantly based the album on her tumultuous relationship with Blake Fielder-Civil, who temporarily left her to pursue an ex-girlfriend."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6eac2e57-ee50-36f8-b0c4-c4c847a2c098",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6eac2e57-ee50-36f8-b0c4-c4c847a2c098",
+        "wikidataEntityId": "Q156670",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q156670",
+        "wikipediaTitle": "Back_to_Black",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Back_to_Black"
+      }
+    },
+    {
+      "albumId": "album-stevie-wonder-innervisions-1973",
+      "artist": "Stevie Wonder",
+      "album": "Innervisions",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1973 studio album by Stevie Wonder",
+        "story": "Innervisions is the sixteenth studio album by American singer, songwriter, and musician Stevie Wonder, released on August 3, 1973, by Tamla, a subsidiary of Motown Records. A landmark recording of Wonder's \"classic period\", the album has been regarded as completing his transition from the \"Little Stevie Wonder\" known for romantic ballads into a more musically mature, conscious, and grown-up artist."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "e626b377-74c5-3b97-8f16-8cef5e1c04ea",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/e626b377-74c5-3b97-8f16-8cef5e1c04ea",
+        "wikidataEntityId": "Q1049169",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1049169",
+        "wikipediaTitle": "Innervisions",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Innervisions"
+      }
+    },
+    {
+      "albumId": "album-beatles-rubber-soul-1965",
+      "artist": "The Beatles",
+      "album": "Rubber Soul",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1965 studio album by the Beatles",
+        "story": "Rubber Soul is the sixth studio album by the English rock band the Beatles. It was released on 3 December 1965 in the United Kingdom on EMI's Parlophone label, accompanied by the non-album double A-side single \"We Can Work It Out\" / \"Day Tripper\"."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "dca03435-8adb-30a5-ba82-5a162267ff38",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/dca03435-8adb-30a5-ba82-5a162267ff38",
+        "wikidataEntityId": "Q190640",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q190640",
+        "wikipediaTitle": "Rubber_Soul",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Rubber_Soul"
+      }
+    },
+    {
+      "albumId": "album-michael-jackson-off-the-wall-1979",
+      "artist": "Michael Jackson",
+      "album": "Off the Wall",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1979 studio album by Michael Jackson",
+        "story": "Off the Wall is the fifth studio album by the American singer Michael Jackson, released on August 10, 1979, by Epic Records. It was Jackson's first album released through Epic Records, and the first produced by Quincy Jones, whom he previously collaborated with while working on the 1978 film The Wiz."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ee749c63-5699-38e0-b565-7e84414648d9",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ee749c63-5699-38e0-b565-7e84414648d9",
+        "wikidataEntityId": "Q44289",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q44289",
+        "wikipediaTitle": "Off_the_Wall",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Off_the_Wall"
+      }
+    },
+    {
+      "albumId": "album-bob-dylan-blonde-on-blonde-1966",
+      "artist": "Bob Dylan",
+      "album": "Blonde on Blonde",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1966 studio album by Bob Dylan",
+        "story": "Blonde on Blonde is the seventh studio album by the American singer-songwriter Bob Dylan, released as a double album on June 20, 1966, by Columbia Records. Recording sessions began in New York in October 1965 with numerous backing musicians, including members of Dylan's live backing band, the Hawks."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "329fb554-2a81-3d8a-8e22-ec2c66810019",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/329fb554-2a81-3d8a-8e22-ec2c66810019",
+        "wikidataEntityId": "Q598116",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q598116",
+        "wikipediaTitle": "Blonde_on_Blonde",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Blonde_on_Blonde"
+      }
+    },
+    {
+      "albumId": "album-talking-heads-remain-in-light-1980",
+      "artist": "Talking Heads",
+      "album": "Remain in Light",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1980 studio album by Talking Heads",
+        "story": "Remain in Light is the fourth studio album by the American rock band Talking Heads, released on October 8, 1980, by Sire Records. The band's third and final album to be produced by Brian Eno, Remain in Light was recorded at Compass Point Studios in the Bahamas and Sigma Sound Studios in New York in July and August 1980."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f6b1b900-6108-32f0-abbd-2855af9151eb",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f6b1b900-6108-32f0-abbd-2855af9151eb",
+        "wikidataEntityId": "Q843416",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q843416",
+        "wikipediaTitle": "Remain_in_Light",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Remain_in_Light"
+      }
+    },
+    {
+      "albumId": "album-beatles-please-please-me-1963",
+      "artist": "The Beatles",
+      "album": "Please Please Me",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1963 debut studio album by The Beatles",
+        "story": "Please Please Me is the debut studio album by English rock band the Beatles. Produced by George Martin, it was released in the United Kingdom on EMI's Parlophone label on 22 March 1963."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "de208292-8db5-3aed-a14a-b37a84d8c521",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/de208292-8db5-3aed-a14a-b37a84d8c521",
+        "wikidataEntityId": "Q181826",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q181826",
+        "wikipediaTitle": "Please_Please_Me",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Please_Please_Me"
+      }
+    },
+    {
+      "albumId": "album-david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars-1972",
+      "artist": "David Bowie",
+      "album": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 studio album by David Bowie",
+        "story": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars is the fifth studio album by the English musician David Bowie, released on 16 June 1972 in the United Kingdom through RCA Records. It was co-produced by Bowie and Ken Scott and features Bowie's backing band the Spiders from Mars, composed of Mick Ronson (guitar), Trevor Bolder (bass) and Mick Woodmansey (drums)."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "6c9ae3dd-32ad-472c-96be-69d0a3536261",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/6c9ae3dd-32ad-472c-96be-69d0a3536261",
+        "wikidataEntityId": "Q682846",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q682846",
+        "wikipediaTitle": "The_Rise_and_Fall_of_Ziggy_Stardust_and_the_Spiders_from_Mars",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Rise_and_Fall_of_Ziggy_Stardust_and_the_Spiders_from_Mars"
+      }
+    },
+    {
+      "albumId": "album-rolling-stones-let-it-bleed-1969",
+      "artist": "The Rolling Stones",
+      "album": "Let It Bleed",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 studio album by the Rolling Stones",
+        "story": "Let It Bleed is the eighth studio album by the English rock band the Rolling Stones, released on 28 November 1969 by London Records in the United States and on 5 December 1969 by Decca Records in the United Kingdom. Released during the band's 1969 American Tour, it is the follow-up to Beggars Banquet (1968), and, like that album, is a return to the group's more blues-oriented approach that was prominent in the pre-Aftermath (1966) period of their career."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "784c0edd-0f37-33a2-9ca5-dff87b4f999c",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/784c0edd-0f37-33a2-9ca5-dff87b4f999c",
+        "wikidataEntityId": "Q379339",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q379339",
+        "wikipediaTitle": "Let_It_Bleed",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Let_It_Bleed"
+      }
+    },
+    {
+      "albumId": "album-radiohead-ok-computer-1997",
+      "artist": "Radiohead",
+      "album": "OK Computer",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1997 studio album by Radiohead",
+        "story": "OK Computer is the third studio album by the English rock band Radiohead, released on 21 May 1997. With their producer, Nigel Godrich, Radiohead recorded most of OK Computer in their rehearsal space in Oxfordshire and the historic mansion of St Catherine's Court in Bath in 1996 and early 1997."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "b1392450-e666-3926-a536-22c65f834433",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/b1392450-e666-3926-a536-22c65f834433",
+        "wikidataEntityId": "Q202996",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q202996",
+        "wikipediaTitle": "OK_Computer",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/OK_Computer"
+      }
+    },
+    {
+      "albumId": "album-nas-illmatic-1994",
+      "artist": "Nas",
+      "album": "Illmatic",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1994 studio album by Nas",
+        "story": "Illmatic is the debut studio album by the American rapper Nas, released on April 19, 1994, through Columbia Records. After signing with the label with the help of MC Serch, Nas recorded the album in 1992 and 1993 at Chung King Studios, D&D Recording, Battery Studios, and Unique Recording Studios in New York City."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "28298e2c-4d70-3eed-a0f5-a3280c662b3d",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/28298e2c-4d70-3eed-a0f5-a3280c662b3d",
+        "wikidataEntityId": "Q847541",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q847541",
+        "wikipediaTitle": "Illmatic",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Illmatic"
+      }
+    },
+    {
+      "albumId": "album-paul-simon-graceland-1986",
+      "artist": "Paul Simon",
+      "album": "Graceland",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1986 studio album by Paul Simon",
+        "story": "Graceland is the seventh solo studio album by the American singer-songwriter Paul Simon. It was produced by Simon, engineered by Roy Halee, and released on August 25, 1986, by Warner Bros."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "19847822-1430-3380-9cf1-bc45545b34ac",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/19847822-1430-3380-9cf1-bc45545b34ac",
+        "wikidataEntityId": "Q1027822",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1027822",
+        "wikipediaTitle": "Graceland_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Graceland_(album)"
+      }
+    },
+    {
+      "albumId": "album-ramones-ramones-1976",
+      "artist": "Ramones",
+      "album": "Ramones",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1976 self-titled debut studio album by Ramones",
+        "story": "Ramones is the debut studio album by the American punk rock band Ramones, released on April 23, 1976, by Sire Records. After Hit Parader editor Lisa Robinson saw the band at a gig in New York City, she wrote several articles about the group and asked Danny Fields to be their manager."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "7de1e321-4a53-3feb-b83e-f1dab88bf952",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/7de1e321-4a53-3feb-b83e-f1dab88bf952",
+        "wikidataEntityId": "Q176284",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q176284",
+        "wikipediaTitle": "Ramones_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ramones_(album)"
+      }
+    },
+    {
+      "albumId": "album-bob-marley-and-the-wailers-exodus-1977",
+      "artist": "Bob Marley and the Wailers",
+      "album": "Exodus",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1977 studio album by Bob Marley & the Wailers",
+        "story": "Exodus is the ninth studio album by Jamaican reggae band Bob Marley and the Wailers, first released in June 1977 through Island Records, following Rastaman Vibration (1976). The album's production has been characterized as laid-back with pulsating bass beats and an emphasis on piano, trumpet and guitar."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c5650313-60f3-34d3-92e4-300545133792",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c5650313-60f3-34d3-92e4-300545133792",
+        "wikidataEntityId": "Q913633",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q913633",
+        "wikipediaTitle": "Exodus_(Bob_Marley_and_the_Wailers_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Exodus_(Bob_Marley_and_the_Wailers_album)"
+      }
+    },
+    {
+      "albumId": "album-outkast-aquemini-1998",
+      "artist": "OutKast",
+      "album": "Aquemini",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by OutKast",
+        "story": "Aquemini is the third studio album by the American hip hop duo Outkast, released on September 29, 1998, by LaFace Records and Arista Records. The title is a portmanteau of the two performers' Zodiac signs: Aquarius and Gemini, which is indicative of the album's recurring theme of the differing personalities of the two members."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "eb655897-6cc5-3fc1-b9ed-5008eb80c682",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/eb655897-6cc5-3fc1-b9ed-5008eb80c682",
+        "wikidataEntityId": "Q623242",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q623242",
+        "wikipediaTitle": "Aquemini",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Aquemini"
+      }
+    },
+    {
+      "albumId": "album-david-bowie-station-to-station-1976",
+      "artist": "David Bowie",
+      "album": "Station to Station",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1976 studio album by David Bowie",
+        "story": "Station to Station is the tenth studio album by the English musician David Bowie, released on 23 January 1976 through RCA Records. Regarded as one of his most significant works, the album was the vehicle for Bowie's performance persona the Thin White Duke."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "686cdbd1-b400-32d8-8cb8-9317a2e41a58",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/686cdbd1-b400-32d8-8cb8-9317a2e41a58",
+        "wikidataEntityId": "Q831890",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q831890",
+        "wikipediaTitle": "Station_to_Station",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Station_to_Station"
+      }
+    },
+    {
+      "albumId": "album-pink-floyd-the-dark-side-of-the-moon-1973",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1973 studio album by British band Pink Floyd",
+        "story": "The Dark Side of the Moon is the eighth studio album by the English progressive rock band Pink Floyd, released on 1 March 1973 by Capitol Records in the United States, and on 16 March 1973 by Harvest Records in the United Kingdom. Developed during live performances, it was conceived as a concept album that would focus on the pressures faced by the band during their arduous lifestyle, and also deal with the mental health problems of former band member Syd Barrett."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "f5093c06-23e3-404f-aeaa-40f72885ee3a",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/f5093c06-23e3-404f-aeaa-40f72885ee3a",
+        "wikidataEntityId": "Q150901",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q150901",
+        "wikipediaTitle": "The_Dark_Side_of_the_Moon",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon"
+      }
+    },
+    {
+      "albumId": "album-liz-phair-exile-in-guyville-1993",
+      "artist": "Liz Phair",
+      "album": "Exile in Guyville",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Liz Phair",
+        "story": "Exile in Guyville is the debut studio album by the American singer-songwriter Liz Phair, released on June 22, 1993, by Matador Records. It was recorded at Idful Music Corporation in Chicago between 1992 and 1993 and produced by Phair and Brad Wood."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "c186db82-9988-367e-8486-2e38e9b6c8db",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/c186db82-9988-367e-8486-2e38e9b6c8db",
+        "wikidataEntityId": "Q821216",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q821216",
+        "wikipediaTitle": "Exile_in_Guyville",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Exile_in_Guyville"
+      }
+    },
+    {
+      "albumId": "album-band-the-band-1969",
+      "artist": "The Band",
+      "album": "The Band",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1969 studio album by the Band",
+        "story": "The Band, also known as The Brown Album, is the second studio album by the Canadian-American rock band the Band, released on September 22, 1969, by Capitol Records. According to Rob Bowman's liner notes for the 2000 reissue, The Band has been viewed as a concept album, with the songs focusing on people, places and traditions associated with a traditional view of Americana."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "ea337405-285f-3846-9049-5e3addf149fc",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/ea337405-285f-3846-9049-5e3addf149fc",
+        "wikidataEntityId": "Q926142",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q926142",
+        "wikipediaTitle": "The_Band_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Band_(album)"
+      }
+    },
+    {
+      "albumId": "album-led-zeppelin-led-zeppelin-iv-1971",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1971 studio album by Led Zeppelin",
+        "story": "The untitled fourth studio album by the English rock band Led Zeppelin, commonly known as Led Zeppelin IV, was released on 8 November 1971, by Atlantic Records. It was produced by the band's guitarist, Jimmy Page, and recorded between December 1970 and February 1971, mostly in the country house Headley Grange."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "2e61da88-39e9-3473-81d2-c964cb394952",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/2e61da88-39e9-3473-81d2-c964cb394952",
+        "wikidataEntityId": "Q201940",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q201940",
+        "wikipediaTitle": "Led_Zeppelin_IV",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      }
+    },
+    {
+      "albumId": "album-stevie-wonder-talking-book-1972",
+      "artist": "Stevie Wonder",
+      "album": "Talking Book",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 studio album by Stevie Wonder",
+        "story": "Talking Book is the fifteenth studio album by American singer, songwriter, and musician Stevie Wonder, released on October 27, 1972, by Tamla, a subsidiary of Motown Records. This album and Music of My Mind, released earlier the same year, are generally considered to mark the start of Wonder's \"classic period\"."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": "58c6d809-bfa7-3b25-acf3-a99d53402b08",
+        "musicBrainzReleaseGroupUrl": "https://musicbrainz.org/release-group/58c6d809-bfa7-3b25-acf3-a99d53402b08",
+        "wikidataEntityId": "Q676192",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q676192",
+        "wikipediaTitle": "Talking_Book",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Talking_Book"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "albumId": "album-clash-london-calling-1979",
+      "artist": "The Clash",
+      "album": "London Calling",
+      "reason": "weak-or-disambiguation-summary",
+      "musicBrainzReleaseGroupId": "8d73e45e-7ca1-3cb4-ae28-6da76196c17c"
+    },
+    {
+      "albumId": "album-dr-dre-the-chronic-1992",
+      "artist": "Dr. Dre",
+      "album": "The Chronic",
+      "reason": "weak-or-disambiguation-summary",
+      "musicBrainzReleaseGroupId": "ad444843-7160-33d7-b0c9-fc99f2c14a99"
+    }
+  ],
+  "scope": {
+    "atlasPath": "data/app/album-atlas.json",
+    "selectedAlbumCount": 504,
+    "selection": "first 50 story gaps with MusicBrainz release-group refs",
+    "albumCount": 50
+  }
+}

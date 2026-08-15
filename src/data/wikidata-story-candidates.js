@@ -10,6 +10,19 @@ export function selectWikidataStoryImportAlbums({ albums = [] } = {}) {
     .sort(compareImportAlbums);
 }
 
+export function selectWikidataStoryFallbackImportAlbums({ albums = [], existingLayer = {} } = {}) {
+  const coveredAlbumIds = new Set((existingLayer.candidates ?? []).map((candidate) => candidate.albumId).filter(Boolean));
+  return (albums ?? [])
+    .filter((album) => !hasUsefulStory(album.profile?.story))
+    .filter((album) => !coveredAlbumIds.has(album.id))
+    .sort(compareImportAlbums);
+}
+
+export function selectWikidataStoryFallbackEntity(album, entities = []) {
+  const exact = (entities ?? []).filter((entity) => isExactAlbumEntity(album, entity));
+  return exact.length === 1 ? exact[0] : null;
+}
+
 export function buildWikidataStoryCandidates({ albums = [], responsesByAlbumId = new Map() } = {}) {
   const candidates = [];
   const gaps = [];
@@ -112,6 +125,30 @@ function storyFromExtract(extract) {
 
 function isDisambiguationText(text) {
   return /\bmay refer to\b|\bcan refer to\b|\bdisambiguation\b/i.test(text);
+}
+
+function isExactAlbumEntity(album, entity) {
+  if (!entity?.wikipediaTitle && !entity?.wikipediaUrl) return false;
+  const albumTitle = normalizeTitle(album.album);
+  const labels = [entity.label, ...(entity.aliases ?? [])].map(normalizeTitle).filter(Boolean);
+  if (!labels.includes(albumTitle)) return false;
+  const description = String(entity.description ?? '').toLowerCase();
+  if (!/\balbum\b/.test(description)) return false;
+  if (/\btour\b|\bsong\b|\bsingle\b|\bfilm\b|\bbook\b|\breissue\b/.test(description)) return false;
+  if (album.releaseYear && description.match(/\b(19|20)\d{2}\b/)) {
+    return description.includes(String(album.releaseYear));
+  }
+  return true;
+}
+
+function normalizeTitle(value) {
+  return String(value ?? '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/gi, ' ')
+    .trim()
+    .toLowerCase();
 }
 
 function hasUsefulStory(story) {

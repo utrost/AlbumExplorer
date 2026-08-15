@@ -17,7 +17,7 @@ with cover art: 632
 with tracklists: 636
 with total length: 560
 with composer/songwriter/lyricist credits: 245
-with sourced story/context: 547
+with sourced story/context: 587
 ```
 
 Remaining visible gaps:
@@ -27,7 +27,7 @@ without cover art: 128
 without tracklists: 124
 without total length: 200
 without composer/songwriter/lyricist credits: 515
-without story/context: 213
+without story/context: 173
 ```
 
 These are album-profile gaps, not user homework. Hermes should improve them through internal enrichment passes, preserving raw source responses under `data/imports/` and regenerating the app-facing atlas.
@@ -225,6 +225,7 @@ Deliverables:
   - `profile.story`: concise neutral story/context
   - story footnotes
 - First executable slice: `npm run import:wikidata-stories -- --limit 300` resolves story candidates by MusicBrainz release-group ID, caches combined Wikidata/Wikipedia summary payloads under `data/imports/wikidata/story-by-release-group/`, writes/merges `data/enrichment/wikidata-story-candidates.json`, and the app dataset builder consumes that layer by default.
+- Fallback slice: `npm run import:wikidata-stories -- --fallback --limit 80` searches Wikidata by album title for remaining uncovered story gaps, accepts only one exact album-ish English Wikipedia match, caches raw responses under `data/imports/wikidata/story-by-title/`, and merges the candidates into the same generated story layer.
 - Avoid long copied article text. Prefer a compact summary written from cached source material.
 
 Exit criteria:

@@ -5,14 +5,14 @@
     "system": "wikidata-wikipedia",
     "wikidataEndpoint": "https://query.wikidata.org/sparql",
     "wikipediaEndpoint": "https://en.wikipedia.org/api/rest_v1/page/summary/{title}",
-    "cacheDir": "data/imports/wikidata/story-by-release-group",
+    "cacheDir": "data/imports/wikidata/story-by-title",
     "userAgent": "AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)",
-    "delayMs": 300
+    "delayMs": 250
   },
   "summary": {
-    "selectedAlbumCount": 300,
-    "candidateCount": 478,
-    "gapCount": 14
+    "selectedAlbumCount": 80,
+    "candidateCount": 518,
+    "gapCount": 51
   },
   "candidates": [
     {
@@ -9574,29 +9574,822 @@
         "wikipediaTitle": "Born_Under_a_Bad_Sign",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Born_Under_a_Bad_Sign"
       }
-    }
-  ],
-  "gaps": [
+    },
+    {
+      "albumId": "album-prince-and-the-revolution-purple-rain-1984",
+      "artist": "Prince and the Revolution",
+      "album": "Purple Rain",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1984 studio/soundtrack album by Prince and the Revolution",
+        "story": "Purple Rain is the sixth studio album by the American musician Prince, featuring his backing band the Revolution. It was released on June 25, 1984, through Warner Bros."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q253004",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q253004",
+        "wikipediaTitle": "Purple_Rain_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Purple_Rain_(album)"
+      }
+    },
+    {
+      "albumId": "album-rolling-stones-exile-on-main-street-1972",
+      "artist": "The Rolling Stones",
+      "album": "Exile on Main Street",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 double studio album by The Rolling Stones",
+        "story": "Exile on Main St. is the tenth studio album by the English rock band the Rolling Stones, released on 12 May 1972, by Rolling Stones Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q217248",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q217248",
+        "wikipediaTitle": "Exile_on_Main_St.",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Exile_on_Main_St."
+      }
+    },
     {
       "albumId": "album-clash-london-calling-1979",
       "artist": "The Clash",
       "album": "London Calling",
-      "reason": "weak-or-disambiguation-summary",
-      "musicBrainzReleaseGroupId": "8d73e45e-7ca1-3cb4-ae28-6da76196c17c"
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1979 studio album by the Clash",
+        "story": "London Calling is the third studio album by the English rock band the Clash. It was originally released as a double album in the United Kingdom on 14 December 1979 by CBS Records, and in the United States and Canada in January 1980 by Epic Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q19003",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q19003",
+        "wikipediaTitle": "London_Calling",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/London_Calling"
+      }
     },
+    {
+      "albumId": "album-beatles-white-album-1968",
+      "artist": "The Beatles",
+      "album": "White Album",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1968 studio album by the Beatles",
+        "story": "The Beatles is the ninth studio album and only double album by the English rock band the Beatles, released on 22 November 1968. Featuring a plain white sleeve, the cover contains no graphics or text other than the band's name embossed."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q3295515",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q3295515",
+        "wikipediaTitle": "The_Beatles_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+      }
+    },
+    {
+      "albumId": "album-jimi-hendrix-are-you-experienced-1967",
+      "artist": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1967 debut studio album by The Jimi Hendrix Experience",
+        "story": "Are You Experienced is the debut studio album by the Jimi Hendrix Experience, released in May 1967. The album was an immediate critical and commercial success, and is widely regarded as one of the greatest albums of all time."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q640397",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q640397",
+        "wikipediaTitle": "Are_You_Experienced",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Are_You_Experienced"
+      }
+    },
+    {
+      "albumId": "album-prince-sign-o-the-times-1987",
+      "artist": "Prince",
+      "album": "Sign O' the Times",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1987 studio album by Prince",
+        "story": "Sign o' the Times is the ninth studio album by the American singer and songwriter Prince. It was released on March 31, 1987, as a double album by Paisley Park Records and Warner Bros."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q1187787",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1187787",
+        "wikipediaTitle": "Sign_o'_the_Times",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Sign_o'_the_Times"
+      }
+    },
+    {
+      "albumId": "album-john-coltrane-a-love-supreme-1964",
+      "artist": "John Coltrane",
+      "album": "A Love Supreme",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Chanté Moore",
+        "story": "A Love Supreme is the second studio album by American singer Chanté Moore. It was released by Silas Records and MCA Records on November 15, 1994, in the United States."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q4657975",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q4657975",
+        "wikipediaTitle": "A_Love_Supreme_(Chanté_Moore_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/A_Love_Supreme_(Chant%C3%A9_Moore_album)"
+      }
+    },
+    {
+      "albumId": "album-bob-marley-and-the-wailers-legend-1984",
+      "artist": "Bob Marley and the Wailers",
+      "album": "Legend",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1984 album by Clannad - Robin of Sherwood soundtrack",
+        "story": "Legend is a 1984 soundtrack album for the ITV television series Robin of Sherwood, by the Irish band Clannad. It is their seventh album."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q3755504",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q3755504",
+        "wikipediaTitle": "Legend_(Robin_of_Sherwood_soundtrack)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Legend_(Robin_of_Sherwood_soundtrack)"
+      }
+    },
+    {
+      "albumId": "album-jimi-hendrix-electric-ladyland-1968",
+      "artist": "Jimi Hendrix",
+      "album": "Electric Ladyland",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1968 double studio album by The Jimi Hendrix Experience",
+        "story": "Electric Ladyland is the third and final studio album by the Jimi Hendrix Experience, released in October 1968. A double album, it was the only record from the Experience with production solely credited to Hendrix."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q524415",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q524415",
+        "wikipediaTitle": "Electric_Ladyland",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Electric_Ladyland"
+      }
+    },
+    {
+      "albumId": "album-james-brown-star-time-1991",
+      "artist": "James Brown",
+      "album": "Star Time",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "compilation album",
+        "story": "Star Time is a four-CD box set by American musician James Brown. Released in May 1991 by Polydor Records, its contents span most of the length of his career up to the time of its release, starting in 1956 with his first hit record, \"Please, Please, Please\", and ending with \"Unity\", his 1984 collaboration with Afrika Bambaataa."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q613274",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q613274",
+        "wikipediaTitle": "Star_Time_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Star_Time_(album)"
+      }
+    },
+    {
+      "albumId": "album-creedence-clearwater-revival-chronicle-vol-1-1976",
+      "artist": "Creedence Clearwater Revival",
+      "album": "Chronicle, Vol. 1",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "compilation album by Creedence Clearwater Revival",
+        "story": "Chronicle, or fully Chronicle: The 20 Greatest Hits, is a greatest hits album by the American rock band Creedence Clearwater Revival. It was released in January 1976 by Fantasy Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q2277614",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q2277614",
+        "wikipediaTitle": "Chronicle:_The_20_Greatest_Hits",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Chronicle%3A_The_20_Greatest_Hits"
+      }
+    },
+    {
+      "albumId": "album-phil-spector-back-to-mono-1991",
+      "artist": "Phil Spector",
+      "album": "Back To Mono",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "compilation album",
+        "story": "Back to Mono (1958–1969) is a box set that compiles tracks produced by the American record producer Phil Spector between 1958 and 1969. It was released in 1991 by ABKCO."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q576557",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q576557",
+        "wikipediaTitle": "Back_to_Mono_(1958–1969)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Back_to_Mono_(1958%E2%80%931969)"
+      }
+    },
+    {
+      "albumId": "album-curtis-mayfield-super-fly-1972",
+      "artist": "Curtis Mayfield",
+      "album": "Super Fly",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 soundtrack album by Curtis Mayfield",
+        "story": "Super Fly is the third studio album by American soul musician Curtis Mayfield, released on July 11, 1972, by Curtom Records as the soundtrack for the blaxploitation film of the same name. The album was Mayfield's first full soundtrack, and his third solo effort since leaving the Impressions."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q930135",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q930135",
+        "wikipediaTitle": "Super_Fly_(soundtrack)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Super_Fly_(soundtrack)"
+      }
+    },
+    {
+      "albumId": "album-elvis-presley-the-sun-sessions-1976",
+      "artist": "Elvis Presley",
+      "album": "The Sun Sessions",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1976 compilation album by Elvis Presley",
+        "story": "The Sun Sessions is a compilation album by American singer Elvis Presley, issued by RCA Records in 1976. The album contains Presley's earliest commercial recordings, made in Memphis, Tennessee, for Sun Records in 1954 and 1955."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q1077777",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1077777",
+        "wikipediaTitle": "The_Sun_Sessions",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Sun_Sessions"
+      }
+    },
+    {
+      "albumId": "album-frank-ocean-blond-2016",
+      "artist": "Frank Ocean",
+      "album": "Blond",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2016 studio album by Frank Ocean",
+        "story": "Blonde is the second studio album by the American singer Frank Ocean. It was released on August 20, 2016, as a timed exclusive on both the iTunes Store and Apple Music, which followed immediately after the August 19 release of Ocean's video album Endless."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q26450992",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q26450992",
+        "wikipediaTitle": "Blonde_(Frank_Ocean_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Blonde_(Frank_Ocean_album)"
+      }
+    },
+    {
+      "albumId": "album-sex-pistols-never-mind-the-bollocks-heres-the-sex-pistols-1977",
+      "artist": "The Sex Pistols",
+      "album": "Never Mind the Bollocks Here's the Sex Pistols",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1977 debut album of the Sex Pistols",
+        "story": "Never Mind the Bollocks, Here's the Sex Pistols is the only studio album by the English punk rock band the Sex Pistols. It was released on 28 October 1977 through Virgin Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q457275",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q457275",
+        "wikipediaTitle": "Never_Mind_the_Bollocks,_Here's_the_Sex_Pistols",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Never_Mind_the_Bollocks%2C_Here's_the_Sex_Pistols"
+      }
+    },
+    {
+      "albumId": "album-allman-brothers-at-fillmore-east-1971",
+      "artist": "The Allman Brothers",
+      "album": "At Fillmore East",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "live album by The Allman Brothers Band",
+        "story": "At Fillmore East is the first live album by American rock band the Allman Brothers Band, and their third release overall. Produced by Tom Dowd, the album was released on July 6, 1971 in the United States, by Capricorn Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q1087498",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1087498",
+        "wikipediaTitle": "At_Fillmore_East",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/At_Fillmore_East"
+      }
+    },
+    {
+      "albumId": "album-mamas-and-the-papas-if-you-can-believe-your-eyes-and-ears-1966",
+      "artist": "The Mamas & The Papas",
+      "album": "If You Can Believe Your Eyes And Ears",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1966 debut studio album by The Mamas & the Papas",
+        "story": "If You Can Believe Your Eyes and Ears is the debut studio album by the American-Canadian folk rock vocal group the Mamas & the Papas, released on February 28, 1966 through Dunhill Records. It is the band's only album to reach number one on the Billboard 200."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q1040127",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1040127",
+        "wikipediaTitle": "If_You_Can_Believe_Your_Eyes_and_Ears",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/If_You_Can_Believe_Your_Eyes_and_Ears"
+      }
+    },
+    {
+      "albumId": "album-eagles-hotel-california-1976",
+      "artist": "The Eagles",
+      "album": "Hotel California",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1976 studio album by the Eagles",
+        "story": "Hotel California is the fifth studio album by the American rock band the Eagles, released on December 8, 1976, by Asylum Records. Recorded by the band and produced by Bill Szymczyk at the Criteria and Record Plant studios between March and October 1976, it was the band's first album with guitarist Joe Walsh, who had replaced founding member Bernie Leadon, and the last to feature founding bassist/vocalist Randy Meisner."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q752172",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q752172",
+        "wikipediaTitle": "Hotel_California_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Hotel_California_(album)"
+      }
+    },
+    {
+      "albumId": "album-jimmy-cliff-the-harder-they-come-1972",
+      "artist": "Jimmy Cliff",
+      "album": "The Harder They Come",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Jimmy Cliff",
+        "story": "The Harder They Come is the soundtrack album to the film of the same name, released in 1972 in the United Kingdom as Island Records ILPS 9202. It was issued in February 1973 in North America as Mango Records SMAS-7400."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q937034",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q937034",
+        "wikipediaTitle": "The_Harder_They_Come_(soundtrack)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Harder_They_Come_(soundtrack)"
+      }
+    },
+    {
+      "albumId": "album-original-soundtrack-the-harder-they-come-1973",
+      "artist": "Original Soundtrack",
+      "album": "The Harder They Come",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Jimmy Cliff",
+        "story": "The Harder They Come is the soundtrack album to the film of the same name, released in 1972 in the United Kingdom as Island Records ILPS 9202. It was issued in February 1973 in North America as Mango Records SMAS-7400."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q937034",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q937034",
+        "wikipediaTitle": "The_Harder_They_Come_(soundtrack)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Harder_They_Come_(soundtrack)"
+      }
+    },
+    {
+      "albumId": "album-stooges-raw-power-1973",
+      "artist": "The Stooges",
+      "album": "Raw Power",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1973 studio album by the Stooges",
+        "story": "Raw Power is the third studio album by American rock band the Stooges, released on February 7, 1973, by Columbia Records. The album departed from the \"groove-ridden, feel-based songs\" of the band's first two records in favor of a more anthemic hard rock approach inspired by new guitarist James Williamson, who co-wrote the album's eight songs with singer Iggy Pop."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q918613",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q918613",
+        "wikipediaTitle": "Raw_Power",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Raw_Power"
+      }
+    },
+    {
+      "albumId": "album-hank-williams-40-greatest-hits-1978",
+      "artist": "Hank Williams",
+      "album": "40 Greatest Hits",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Hank Williams",
+        "story": "40 Greatest Hits is a two-record greatest hits compilation by American singer-songwriter Hank Williams. It was released in 1978 by Mercury Records – who under PolyGram became responsible for the MGM tape vault – on the 25th anniversary of Williams' death."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q4637398",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q4637398",
+        "wikipediaTitle": "40_Greatest_Hits_(Hank_Williams_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/40_Greatest_Hits_(Hank_Williams_album)"
+      }
+    },
+    {
+      "albumId": "album-elton-john-greatest-hits-1974",
+      "artist": "Elton John",
+      "album": "Greatest Hits",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1974 greatest hits album by Elton John",
+        "story": "Greatest Hits is the eleventh official album release for British musician Elton John, and the first compilation. Released on 8 November 1974, it spans the years 1970 to 1974, compiling ten of John's singles, with one track variation for releases in North America and for Europe and Australia."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q1754297",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q1754297",
+        "wikipediaTitle": "Greatest_Hits_(Elton_John_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greatest_Hits_(Elton_John_album)"
+      }
+    },
+    {
+      "albumId": "album-n-w-a-straight-outta-compton-1998",
+      "artist": "N.W.A.",
+      "album": "Straight Outta Compton",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by N.W.A.",
+        "story": "A, released on January 25, 1989, through Priority and Ruthless Records. A members Dr."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q644326",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q644326",
+        "wikipediaTitle": "Straight_Outta_Compton",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Straight_Outta_Compton"
+      }
+    },
+    {
+      "albumId": "album-pretenders-pretenders-1980",
+      "artist": "The Pretenders",
+      "album": "Pretenders",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1980 self-titled debut studio album by The Pretenders",
+        "story": "Pretenders is the debut studio album by British-American band the Pretenders, released in December 1979 in the United Kingdom and January 1980 in the United States. A combination of rock and roll, punk and new wave music, it was an immediate success."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q755468",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q755468",
+        "wikipediaTitle": "Pretenders_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Pretenders_(album)"
+      }
+    },
+    {
+      "albumId": "album-joy-division-closer-1981",
+      "artist": "Joy Division",
+      "album": "Closer",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "Ty album",
+        "story": "Closer is the third studio album by British hip hop musician Ty. It was released on Big Dada in 2006."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q16246177",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q16246177",
+        "wikipediaTitle": "Closer_(Ty_album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Closer_(Ty_album)"
+      }
+    },
+    {
+      "albumId": "album-otis-redding-the-dock-of-the-bay-1968",
+      "artist": "Otis Redding",
+      "album": "The Dock Of The Bay",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "compilation album by Otis Redding",
+        "story": "The Dock of the Bay is the first of a number of posthumously released Otis Redding albums, and his seventh studio album. It contains a number of singles, B-sides, and previously released album tracks dating back to 1965, including one of his best known songs, the posthumous hit \"(Sittin' On) The Dock of the Bay\"."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q722873",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q722873",
+        "wikipediaTitle": "The_Dock_of_the_Bay_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Dock_of_the_Bay_(album)"
+      }
+    },
+    {
+      "albumId": "album-elvis-costello-imperial-bedroom-1982",
+      "artist": "Elvis Costello",
+      "album": "Imperial Bedroom",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1982 studio album by Elvis Costello & the Attractions",
+        "story": "Imperial Bedroom is the seventh studio album by the English singer-songwriter Elvis Costello, and his sixth with the Attractions—keyboardist Steve Nieve, bassist Bruce Thomas and drummer Pete Thomas. It was released on 2 July 1982 through F-Beat Records in the United Kingdom and Columbia Records in the United States."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q846779",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q846779",
+        "wikipediaTitle": "Imperial_Bedroom",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Imperial_Bedroom"
+      }
+    },
+    {
+      "albumId": "album-parliament-funkadelic-one-nation-under-a-groove-1978",
+      "artist": "Parliament/Funkadelic",
+      "album": "One Nation Under A Groove",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Funkadelic",
+        "story": "One Nation Under a Groove is the tenth studio album by American funk rock band Funkadelic, released on September 22, 1978, on Warner Bros. Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q636006",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q636006",
+        "wikipediaTitle": "One_Nation_Under_a_Groove",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/One_Nation_Under_a_Groove"
+      }
+    },
+    {
+      "albumId": "album-notorious-b-i-g-life-after-death-1997",
+      "artist": "Notorious B.I.G.",
+      "album": "Life After Death",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1997 studio album by The Notorious B.I.G.",
+        "story": ", released on March 25, 1997, by Bad Boy Records and distributed by Arista Records. A double album, it was released sixteen days after his murder."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q519122",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q519122",
+        "wikipediaTitle": "Life_After_Death",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Life_After_Death"
+      }
+    },
+    {
+      "albumId": "album-bob-marley-and-the-wailers-and-the-wailers-natty-dread-1974",
+      "artist": "Bob Marley & The Wailers & The Wailers",
+      "album": "Natty Dread",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1974 studio album by Bob Marley and the Wailers",
+        "story": "Natty Dread is the seventh album by Bob Marley and the Wailers, released in 1974. Previously Marley had recorded with Peter Tosh and Bunny Wailer as the Wailers, and this was his first record without them."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q913435",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q913435",
+        "wikipediaTitle": "Natty_Dread",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Natty_Dread"
+      }
+    },
+    {
+      "albumId": "album-john-mayall-blues-breakers-with-eric-clapton-1966",
+      "artist": "John Mayall",
+      "album": "Blues Breakers With Eric Clapton",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1966 album by John Mayall & the Bluesbreakers",
+        "story": "Blues Breakers, colloquially known as The Beano Album, is the debut studio album by the English blues rock band John Mayall & the Bluesbreakers, originally credited to John Mayall with Eric Clapton. Produced by Mike Vernon and released in 1966 by Decca Records (UK) and London Records (US), it pioneered a guitar-dominated blues-rock sound."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q19260",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q19260",
+        "wikipediaTitle": "Blues_Breakers_with_Eric_Clapton",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Blues_Breakers_with_Eric_Clapton"
+      }
+    },
+    {
+      "albumId": "album-various-artists-nuggets-original-artyfacts-from-the-first-psychedelic-era-1965-1968-1972",
+      "artist": "Various Artists",
+      "album": "Nuggets: Original Artyfacts From The First Psychedelic Era, 1965-1968",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1972 compilation album; various artists",
+        "story": "Nuggets: Original Artyfacts from the First Psychedelic Era is a compilation album of American psychedelic and garage rock singles that were released during the mid-to-late 1960s. The album was created by Lenny Kaye, and produced under the supervision of Elektra Records founder, Jac Holzman."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q744572",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q744572",
+        "wikipediaTitle": "Nuggets:_Original_Artyfacts_from_the_First_Psychedelic_Era,_1965–1968",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Nuggets%3A_Original_Artyfacts_from_the_First_Psychedelic_Era%2C_1965%E2%80%931968"
+      }
+    },
+    {
+      "albumId": "album-b-52s-the-b-52s-1979",
+      "artist": "The B-52's",
+      "album": "The B-52's",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1979 self-titled debut studio album by The B-52’s",
+        "story": "The B-52's is the debut studio album by American new wave band the B-52's, released on July 6, 1979. The album's kitschy lyrics and mood and hook-laden harmonies helped establish a fanbase for the band, who went on to release several chart-topping singles."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q302812",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q302812",
+        "wikipediaTitle": "The_B-52's_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_B-52's_(album)"
+      }
+    },
+    {
+      "albumId": "album-pavement-slanted-and-enchanted-1993",
+      "artist": "Pavement",
+      "album": "Slanted and Enchanted",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Pavement",
+        "story": "Slanted and Enchanted is the debut studio album by American indie rock band Pavement, released on April 20, 1992, by Matador Records. It is the only Pavement album to feature drummer Gary Young."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q120712",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q120712",
+        "wikipediaTitle": "Slanted_and_Enchanted",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Slanted_and_Enchanted"
+      }
+    },
+    {
+      "albumId": "album-run-dmc-raising-hell-1986",
+      "artist": "Run-DMC",
+      "album": "Raising Hell",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "1986 studio album by Run–D.M.C.",
+        "story": ", released on May 15, 1986, by Profile Records. The album was produced by Russell Simmons and Rick Rubin."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q521828",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q521828",
+        "wikipediaTitle": "Raising_Hell_(album)",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Raising_Hell_(album)"
+      }
+    },
+    {
+      "albumId": "album-ray-charles-the-birth-of-soul-1991",
+      "artist": "Ray Charles",
+      "album": "The Birth of Soul",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "compilation album by Ray Charles",
+        "story": "The Birth of Soul: The Complete Atlantic Rhythm and Blues Recordings is a 3-CD box set compilation by American musician Ray Charles, released in 1991."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q722775",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q722775",
+        "wikipediaTitle": "The_Birth_of_Soul",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Birth_of_Soul"
+      }
+    },
+    {
+      "albumId": "album-fiona-apple-the-idler-wheel-2012",
+      "artist": "Fiona Apple",
+      "album": "The Idler Wheel",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "2012 studio album by Fiona Apple",
+        "story": "The Idler Wheel... is the fourth studio album by American singer-songwriter Fiona Apple."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q2004110",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q2004110",
+        "wikipediaTitle": "The_Idler_Wheel...",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Idler_Wheel..."
+      }
+    },
+    {
+      "albumId": "album-professor-longhair-new-orleans-piano-1972",
+      "artist": "Professor Longhair",
+      "album": "New Orleans Piano",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "profile": {
+        "description": "album by Professor Longhair",
+        "story": "New Orleans Piano is a 1972 album by Professor Longhair. It consists of material recorded in 1949 and 1953, including tracks previously released by Atlantic Records."
+      },
+      "source": {
+        "system": "wikidata-wikipedia",
+        "musicBrainzReleaseGroupId": null,
+        "musicBrainzReleaseGroupUrl": null,
+        "wikidataEntityId": "Q7010760",
+        "wikidataUrl": "https://www.wikidata.org/wiki/Q7010760",
+        "wikipediaTitle": "New_Orleans_Piano",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/New_Orleans_Piano"
+      }
+    }
+  ],
+  "gaps": [
     {
       "albumId": "album-dr-dre-the-chronic-1992",
       "artist": "Dr. Dre",
       "album": "The Chronic",
       "reason": "weak-or-disambiguation-summary",
-      "musicBrainzReleaseGroupId": "ad444843-7160-33d7-b0c9-fc99f2c14a99"
+      "musicBrainzReleaseGroupId": null
     },
     {
       "albumId": "album-r-e-m-murmur-1983",
       "artist": "R.E.M.",
       "album": "Murmur",
       "reason": "weak-or-disambiguation-summary",
-      "musicBrainzReleaseGroupId": "de790d3d-a35c-364c-a8fb-adfb73084a45"
+      "musicBrainzReleaseGroupId": null
     },
     {
       "albumId": "album-devo-q-are-we-not-men-a-we-are-devo-1978",
@@ -9674,16 +10467,283 @@
       "album": "Document",
       "reason": "weak-or-disambiguation-summary",
       "musicBrainzReleaseGroupId": "137385b2-b4cc-385e-9d59-781e7674f5bc"
+    },
+    {
+      "albumId": "album-clash-london-calling-1980",
+      "artist": "The Clash",
+      "album": "London Calling",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-beatles-the-beatles-the-white-album-1968",
+      "artist": "The Beatles",
+      "album": "The Beatles (\"The White Album\")",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-beatles-the-white-album-1968",
+      "artist": "The Beatles",
+      "album": "The White Album",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-elvis-presley-the-sun-sessions-1999",
+      "artist": "Elvis Presley",
+      "album": "The Sun Sessions",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-velvet-underground-and-nico-the-velvet-underground-1967",
+      "artist": "The Velvet Underground and Nico",
+      "album": "The Velvet Underground",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-robert-johnson-the-complete-recordings-1990",
+      "artist": "Robert Johnson",
+      "album": "The Complete Recordings",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-muddy-waters-the-anthology-1947-1972-2001",
+      "artist": "Muddy Waters",
+      "album": "The Anthology (1947-1972)",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-james-brown-live-at-the-apollo-1963",
+      "artist": "James Brown",
+      "album": "Live at the Apollo",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-phil-spector-back-to-mono-1958-1969-1991",
+      "artist": "Phil Spector",
+      "album": "Back to Mono (1958-1969)",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-clash-the-clash-1979",
+      "artist": "The Clash",
+      "album": "The Clash",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-jimi-hendrix-experience-axis-bold-as-love-1968",
+      "artist": "The Jimi Hendrix Experience",
+      "album": "Axis: Bold as Love",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-john-lennon-plastic-ono-band-1970",
+      "artist": "John Lennon",
+      "album": "Plastic Ono Band",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-zombies-odessey-and-oracle-1969",
+      "artist": "The Zombies",
+      "album": "Odessey and Oracle",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-de-la-soul-three-feet-high-and-rising-1989",
+      "artist": "De La Soul",
+      "album": "Three Feet High And Rising",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-john-coltrane-giant-steps-1959",
+      "artist": "John Coltrane",
+      "album": "Giant Steps",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-fiona-apple-when-the-pawn-1999",
+      "artist": "Fiona Apple",
+      "album": "When the Pawn …",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-who-the-who-sell-out-1968",
+      "artist": "The Who",
+      "album": "The Who Sell Out",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-bob-marley-and-the-wailers-and-the-wailers-catch-a-fire-1973",
+      "artist": "Bob Marley & The Wailers & The Wailers",
+      "album": "Catch A Fire",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-original-soundtrack-saturday-night-fever-1977",
+      "artist": "Original Soundtrack",
+      "album": "Saturday Night Fever",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-various-artists-saturday-night-fever-original-soundtrack-1977",
+      "artist": "Various Artists",
+      "album": "Saturday Night Fever (Original Soundtrack)",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-madonna-the-immaculate-collection-1990",
+      "artist": "Madonna",
+      "album": "The Immaculate Collection",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-bob-marley-and-the-wailers-catch-a-fire-1973",
+      "artist": "Bob Marley and the Wailers",
+      "album": "Catch a Fire",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-phil-spector-a-christmas-gift-for-you-1963",
+      "artist": "Phil Spector",
+      "album": "A Christmas Gift For You",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-various-artists-saturday-night-fever-1977",
+      "artist": "Various Artists",
+      "album": "Saturday Night Fever",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-buddy-holly-20-golden-greats-1978",
+      "artist": "Buddy Holly",
+      "album": "20 Golden Greats",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-jimmy-cliff-and-various-artists-the-harder-they-come-original-soundtrack-1972",
+      "artist": "Jimmy Cliff and Various Artists",
+      "album": "The Harder They Come: Original Soundtrack",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-curtis-mayfield-and-the-impressions-the-anthology-1961-1977-1992",
+      "artist": "Curtis Mayfield And The Impressions",
+      "album": "The Anthology 1961 - 1977",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-otis-redding-otis-blue-1965",
+      "artist": "Otis Redding",
+      "album": "Otis Blue",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-etta-james-at-last-1961",
+      "artist": "Etta James",
+      "album": "At Last!",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-john-mayall-with-eric-clapton-blues-breakers-1966",
+      "artist": "John Mayall With Eric Clapton",
+      "album": "Blues Breakers",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-little-walter-the-best-of-1957",
+      "artist": "Little Walter",
+      "album": "The Best Of",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-little-walter-the-best-of-1964",
+      "artist": "Little Walter",
+      "album": "The Best Of",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-nick-drake-pink-moon-1979",
+      "artist": "Nick Drake",
+      "album": "Pink Moon",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-neil-young-and-crazy-horse-everybody-knows-this-is-nowhere-1969",
+      "artist": "Neil Young & Crazy Horse",
+      "album": "Everybody Knows This Is Nowhere",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-neil-young-with-crazy-horse-everybody-knows-this-is-nowhere-1969",
+      "artist": "Neil Young With Crazy Horse",
+      "album": "Everybody Knows This Is Nowhere",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-joy-divison-unknown-pleasures-1980",
+      "artist": "Joy Divison",
+      "album": "Unknown Pleasures",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-bo-diddley-bo-diddley-go-bo-diddley-1990",
+      "artist": "Bo Diddley",
+      "album": "Bo Diddley/Go Bo Diddley",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
+    },
+    {
+      "albumId": "album-wilco-yankee-hotel-foxtrot-2001",
+      "artist": "Wilco",
+      "album": "Yankee Hotel Foxtrot",
+      "reason": "wikidata-response-missing",
+      "musicBrainzReleaseGroupId": null
     }
   ],
   "scope": {
     "atlasPath": "data/app/album-atlas.json",
-    "selectedAlbumCount": 312,
-    "selection": "first 300 story gaps with MusicBrainz release-group refs",
-    "albumCount": 300,
-    "previousCandidateCount": 192,
-    "previousGapCount": 6,
-    "mergedCandidateCount": 478,
-    "mergedGapCount": 14
+    "selectedAlbumCount": 213,
+    "selection": "first 80 uncovered story gaps using title/year fallback",
+    "mode": "title-year-fallback",
+    "albumCount": 80,
+    "previousCandidateCount": 478,
+    "previousGapCount": 14,
+    "mergedCandidateCount": 518,
+    "mergedGapCount": 51
   }
 }

@@ -1,7 +1,13 @@
 #!/usr/bin/env node
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import { buildWikidataStoryCandidates, mergeWikidataStoryCandidateLayers, selectWikidataStoryImportAlbums } from '../src/data/wikidata-story-candidates.js';
+import {
+  buildWikidataStoryCandidates,
+  mergeWikidataStoryCandidateLayers,
+  selectWikidataStoryFallbackEntity,
+  selectWikidataStoryFallbackImportAlbums,
+  selectWikidataStoryImportAlbums
+} from '../src/data/wikidata-story-candidates.js';
 
 const DEFAULT_USER_AGENT = 'AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)';
 const WIKIDATA_SPARQL_URL = 'https://query.wikidata.org/sparql';
@@ -17,10 +23,14 @@ const [
 
 const limit = numericOption(args, '--limit');
 const delayMs = numericOption(args, '--delay-ms') ?? 1100;
-const cacheDir = option(args, '--cache-dir') ?? 'data/imports/wikidata/story-by-release-group';
+const fallbackMode = args.includes('--fallback');
+const existingOutput = existsSync(outputPath) ? JSON.parse(readFileSync(outputPath, 'utf8')) : null;
+const cacheDir = option(args, '--cache-dir') ?? (fallbackMode ? 'data/imports/wikidata/story-by-title' : 'data/imports/wikidata/story-by-release-group');
 const userAgent = option(args, '--user-agent') ?? DEFAULT_USER_AGENT;
 const atlas = JSON.parse(readFileSync(atlasPath, 'utf8'));
-const selectedAlbums = selectWikidataStoryImportAlbums({ albums: atlas.albums ?? [] });
+const selectedAlbums = fallbackMode
+  ? selectWikidataStoryFallbackImportAlbums({ albums: atlas.albums ?? [], existingLayer: existingOutput })
+  : selectWikidataStoryImportAlbums({ albums: atlas.albums ?? [] });
 const albums = selectedAlbums.slice(0, limit ?? Infinity);
 const responsesByAlbumId = new Map();
 let networkFetches = 0;
@@ -30,7 +40,7 @@ mkdirSync(cacheDir, { recursive: true });
 
 for (let index = 0; index < albums.length; index += 1) {
   const album = albums[index];
-  const cachePath = join(cacheDir, `${album.musicBrainzReleaseGroupId}.json`);
+  const cachePath = join(cacheDir, `${fallbackMode ? album.id : album.musicBrainzReleaseGroupId}.json`);
   const response = await fetchOrReadStoryJson(cachePath, album);
   if (response) responsesByAlbumId.set(album.id, response);
   console.log(`${index + 1}/${albums.length} ${response?.wikipediaSummary?.extract ? 'cached' : 'gap'} ${album.artist} — ${album.album}`);
@@ -49,11 +59,13 @@ const batchOutput = {
   scope: {
     atlasPath,
     selectedAlbumCount: selectedAlbums.length,
-    selection: limit ? `first ${albums.length} story gaps with MusicBrainz release-group refs` : 'all story gaps with MusicBrainz release-group refs',
+    selection: fallbackMode
+      ? (limit ? `first ${albums.length} uncovered story gaps using title/year fallback` : 'all uncovered story gaps using title/year fallback')
+      : (limit ? `first ${albums.length} story gaps with MusicBrainz release-group refs` : 'all story gaps with MusicBrainz release-group refs'),
+    mode: fallbackMode ? 'title-year-fallback' : 'musicbrainz-release-group',
     albumCount: albums.length
   }
 };
-const existingOutput = existsSync(outputPath) ? JSON.parse(readFileSync(outputPath, 'utf8')) : null;
 const output = existingOutput ? mergeWikidataStoryCandidateLayers(existingOutput, batchOutput) : batchOutput;
 output.source = batchOutput.source;
 output.scope = {
@@ -75,10 +87,12 @@ console.log(`Raw cache: ${cacheDir}`);
 async function fetchOrReadStoryJson(cachePath, album) {
   if (existsSync(cachePath)) return JSON.parse(readFileSync(cachePath, 'utf8'));
   if (networkFetches > 0) await sleep(delayMs);
-  const wikidata = await fetchWikidataForMusicBrainzReleaseGroup(album.musicBrainzReleaseGroupId);
+  const wikidata = fallbackMode
+    ? await fetchWikidataFallbackForAlbum(album)
+    : await fetchWikidataForMusicBrainzReleaseGroup(album.musicBrainzReleaseGroupId);
   if (wikidata?.transientError) return null;
   if (!wikidata?.entityId) {
-    const gap = { fetchedAt: null, albumId: album.id, musicBrainzReleaseGroupId: album.musicBrainzReleaseGroupId, wikidata: null, wikipediaSummary: null };
+    const gap = { fetchedAt: null, albumId: album.id, musicBrainzReleaseGroupId: album.musicBrainzReleaseGroupId, fallbackMode, wikidata: null, wikipediaSummary: null };
     writeFileSync(cachePath, `${JSON.stringify(gap, null, 2)}\n`, 'utf8');
     return gap;
   }
@@ -91,11 +105,52 @@ async function fetchOrReadStoryJson(cachePath, album) {
     fetchedAt: null,
     albumId: album.id,
     musicBrainzReleaseGroupId: album.musicBrainzReleaseGroupId,
+    fallbackMode,
     wikidata,
     wikipediaSummary
   };
   writeFileSync(cachePath, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');
   return payload;
+}
+
+async function fetchWikidataFallbackForAlbum(album) {
+  const search = album.album;
+  const searchUrl = `https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&limit=8&search=${encodeURIComponent(search)}`;
+  const searchResponse = await fetch(searchUrl, { headers: { 'User-Agent': userAgent, Accept: 'application/json' } });
+  networkFetches += 1;
+  if (!searchResponse.ok) {
+    console.warn(`Wikidata fallback search failed for ${album.artist} — ${album.album}: ${searchResponse.status} ${searchResponse.statusText}`);
+    return { transientError: true, status: searchResponse.status };
+  }
+  const searchData = await searchResponse.json();
+  const ids = (searchData.search ?? []).map((item) => item.id).filter(Boolean);
+  if (!ids.length) return null;
+  if (networkFetches > 0) await sleep(delayMs);
+  const entities = await fetchWikidataEntityDetails(ids);
+  if (entities?.transientError) return entities;
+  return selectWikidataStoryFallbackEntity(album, entities);
+}
+
+async function fetchWikidataEntityDetails(ids) {
+  const url = `https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|descriptions|aliases|sitelinks&languages=en&sitefilter=enwiki&ids=${encodeURIComponent(ids.join('|'))}`;
+  const response = await fetch(url, { headers: { 'User-Agent': userAgent, Accept: 'application/json' } });
+  networkFetches += 1;
+  if (!response.ok) {
+    console.warn(`Wikidata entity lookup failed: ${response.status} ${response.statusText}`);
+    return { transientError: true, status: response.status };
+  }
+  const data = await response.json();
+  return Object.values(data.entities ?? {}).map((entity) => {
+    const title = entity.sitelinks?.enwiki?.title ?? null;
+    return {
+      entityId: entity.id,
+      label: entity.labels?.en?.value ?? null,
+      description: entity.descriptions?.en?.value ?? null,
+      aliases: (entity.aliases?.en ?? []).map((alias) => alias.value),
+      wikipediaTitle: title ? title.replace(/ /g, '_') : null,
+      wikipediaUrl: title ? `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}` : null
+    };
+  });
 }
 
 async function fetchWikidataForMusicBrainzReleaseGroup(mbid) {

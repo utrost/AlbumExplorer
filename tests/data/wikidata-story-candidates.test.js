@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import {
   buildWikidataStoryCandidates,
   mergeWikidataStoryCandidateLayers,
+  selectWikidataStoryFallbackEntity,
+  selectWikidataStoryFallbackImportAlbums,
   selectWikidataStoryImportAlbums
 } from '../../src/data/wikidata-story-candidates.js';
 
@@ -126,4 +128,37 @@ test('merges rerun story layers without losing previous candidates when a smalle
   ]);
   assert.equal(merged.summary.candidateCount, 2);
   assert.equal(merged.summary.gapCount, 2);
+});
+
+test('selects fallback story gaps not already covered by generated candidates', () => {
+  const albums = [
+    { id: 'album-covered', artist: 'Covered', album: 'Story', latestRank: 1, profile: { story: null }, externalRefs: [] },
+    { id: 'album-high', artist: 'High', album: 'Gap', latestRank: 3, profile: { story: null }, externalRefs: [] },
+    { id: 'album-low', artist: 'Low', album: 'Gap', latestRank: 20, profile: { story: 'Story/context pending.' }, externalRefs: [] },
+    { id: 'album-done', artist: 'Done', album: 'Story', latestRank: 2, profile: { story: 'Already sourced.' }, externalRefs: [] }
+  ];
+
+  const selected = selectWikidataStoryFallbackImportAlbums({
+    albums,
+    existingLayer: { candidates: [{ albumId: 'album-covered' }] }
+  });
+
+  assert.deepEqual(selected.map((album) => album.id), ['album-high', 'album-low']);
+});
+
+test('accepts one exact album-ish fallback entity and rejects ambiguous exact entities', () => {
+  const album = { artist: 'The Clash', album: 'London Calling', releaseYear: 1979 };
+  const accepted = selectWikidataStoryFallbackEntity(album, [
+    { entityId: 'Q1', label: 'London Calling', description: '1979 studio album by the Clash', wikipediaTitle: 'London_Calling', wikipediaUrl: 'https://en.wikipedia.org/wiki/London_Calling' },
+    { entityId: 'Q2', label: 'London Calling Tour', description: 'concert tour', wikipediaTitle: 'London_Calling_Tour' }
+  ]);
+
+  assert.equal(accepted.entityId, 'Q1');
+
+  const ambiguous = selectWikidataStoryFallbackEntity(album, [
+    { entityId: 'Q1', label: 'London Calling', description: '1979 studio album by the Clash', wikipediaTitle: 'London_Calling' },
+    { entityId: 'Q3', label: 'London Calling', description: '1979 soundtrack album', wikipediaTitle: 'London_Calling_Soundtrack' }
+  ]);
+
+  assert.equal(ambiguous, null);
 });

@@ -1,0 +1,4301 @@
+{
+  "generatedAt": null,
+  "status": "generated-musicbrainz-work-credit-candidates",
+  "source": {
+    "system": "musicbrainz-work-credit",
+    "recordingEndpoint": "https://musicbrainz.org/ws/2/recording/{mbid}?inc=work-rels&fmt=json",
+    "workEndpoint": "https://musicbrainz.org/ws/2/work/{mbid}?inc=artist-rels&fmt=json",
+    "recordingCacheDir": "data/imports/musicbrainz/recordings",
+    "workCacheDir": "data/imports/musicbrainz/works",
+    "userAgent": "AlbumExplorer/0.1.0 (https://github.com/utrost/AlbumExplorer)",
+    "delayMs": 1100
+  },
+  "summary": {
+    "selectedAlbumCount": 10,
+    "candidateCount": 10,
+    "gapCount": 0,
+    "creditedTrackCount": 131
+  },
+  "candidates": [
+    {
+      "albumId": "album-notorious-b-i-g-ready-to-die-1994",
+      "artist": "The Notorious B.I.G.",
+      "album": "Ready to Die",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 2,
+          "position": "A2",
+          "recordingId": "42fd64d1-ce8a-4d3e-8af2-ce646f05a678",
+          "title": "Things Done Changed",
+          "workIds": [
+            "65ecdf9f-472d-3893-a6d5-e8ac964c5872"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Kevin Scott",
+              "creditedAs": "Kevin Scott",
+              "role": "writer",
+              "musicBrainzArtistId": "b4d403ef-156b-4882-b30b-090ebe25f7e6"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 3,
+          "position": "A3",
+          "recordingId": "ed4a3111-b4b7-45ed-8f11-d69a461a0f8e",
+          "title": "Gimmie the Loot",
+          "workIds": [
+            "45d3b990-7e44-3369-98f2-a79906450680"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Charlie Brown",
+              "creditedAs": "Bryan Higgins",
+              "role": "writer",
+              "musicBrainzArtistId": "76cc2b96-b065-450c-a366-3420f50341b7"
+            },
+            {
+              "name": "Busta Rhymes",
+              "creditedAs": "Trevor Tahiem Smith, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "10a9ff92-9637-4498-afea-7044b2ab0dc0"
+            },
+            {
+              "name": "Dinco D",
+              "creditedAs": "James Jackson",
+              "role": "writer",
+              "musicBrainzArtistId": "df78c5ab-5a5c-4875-af18-75151fcd2b44"
+            },
+            {
+              "name": "Easy Mo Bee",
+              "creditedAs": "Osten Harvey, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5"
+            },
+            {
+              "name": "Fredro Starr",
+              "creditedAs": "Fredro Scruggs, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "646942bd-dc4c-42f0-b6a2-683821ebd5ca"
+            },
+            {
+              "name": "Guru",
+              "creditedAs": "Keith Elam",
+              "role": "writer",
+              "musicBrainzArtistId": "215c6ab2-7888-4061-bd56-9fb650328106"
+            },
+            {
+              "name": "Ali Shaheed Muhammad",
+              "creditedAs": "Ali Shaheed Muhammad",
+              "role": "writer",
+              "musicBrainzArtistId": "d5ee9a6f-8e10-47e7-bca7-7e3f82aad769"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Phife Dawg",
+              "creditedAs": "Malik Isaac Taylor",
+              "role": "writer",
+              "musicBrainzArtistId": "d9f3f7ca-9963-45c5-85b3-81f306614ff8"
+            },
+            {
+              "name": "DJ Premier",
+              "creditedAs": "Chris Martin",
+              "role": "writer",
+              "musicBrainzArtistId": "084e06f5-3c82-4b71-bd94-dd69e7bd515e"
+            },
+            {
+              "name": "Q‐Tip",
+              "creditedAs": "Kamaal Ibn John Fareed",
+              "role": "writer",
+              "musicBrainzArtistId": "b3c94036-6166-41d2-91a2-dc3a0b5fa188"
+            },
+            {
+              "name": "Sticky Fingaz",
+              "creditedAs": "Kirk Jones",
+              "role": "writer",
+              "musicBrainzArtistId": "dd10cfe1-ced1-49f1-92cf-ac33265dc274"
+            },
+            {
+              "name": "Tyrone Taylor",
+              "creditedAs": "Tyrone Taylor",
+              "role": "writer",
+              "musicBrainzArtistId": "f02e98c4-a0fa-4c02-ac0a-587f4319ac87"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 4,
+          "position": "A4",
+          "recordingId": "64b25c2b-005b-463f-87ad-d20d78ba1d83",
+          "title": "Machine Gun Funk",
+          "workIds": [
+            "40b8db4f-af5c-3610-9a7b-1802d22efac7"
+          ],
+          "composerCredits": [
+            {
+              "name": "Marley Marl",
+              "creditedAs": "Marlon Williams",
+              "role": "composer",
+              "musicBrainzArtistId": "8e7f5842-de5e-4eab-8d5f-0a55c84f4cb1"
+            },
+            {
+              "name": "DJ Premier",
+              "creditedAs": "Chris Martin",
+              "role": "composer",
+              "musicBrainzArtistId": "084e06f5-3c82-4b71-bd94-dd69e7bd515e"
+            }
+          ],
+          "songwriterCredits": [
+            {
+              "name": "DoItAll",
+              "creditedAs": "Dupré Kelly",
+              "role": "writer",
+              "musicBrainzArtistId": "f86c1440-6020-4817-8db5-fa1c8e6174f7"
+            },
+            {
+              "name": "Easy Mo Bee",
+              "creditedAs": "Osten Harvey, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5"
+            },
+            {
+              "name": "Mr. Funke",
+              "creditedAs": "Al'Terik Wardrick",
+              "role": "writer",
+              "musicBrainzArtistId": "df7cfeac-533f-4553-9bef-b0585d3b4683"
+            },
+            {
+              "name": "Guru",
+              "creditedAs": "Keith Elam",
+              "role": "writer",
+              "musicBrainzArtistId": "215c6ab2-7888-4061-bd56-9fb650328106"
+            },
+            {
+              "name": "K‐Def",
+              "creditedAs": "Kevin Hansford",
+              "role": "writer",
+              "musicBrainzArtistId": "e9d23114-8264-48e1-9c44-55677c873092"
+            }
+          ],
+          "lyricistCredits": [
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "lyricist",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ]
+        },
+        {
+          "sequence": 5,
+          "position": "A5",
+          "recordingId": "c08b8fd6-9149-48fd-a64d-0e24aba959ff",
+          "title": "Warning",
+          "workIds": [
+            "cbce18f4-8ad5-330d-aad3-bbb3d556a325"
+          ],
+          "composerCredits": [
+            {
+              "name": "Burt Bacharach",
+              "creditedAs": "Burt Bacharach",
+              "role": "composer",
+              "musicBrainzArtistId": "2882ffa3-dec9-4055-a842-a950728bcb02"
+            }
+          ],
+          "songwriterCredits": [
+            {
+              "name": "Easy Mo Bee",
+              "creditedAs": "Osten Harvey, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ],
+          "lyricistCredits": [
+            {
+              "name": "Hal David",
+              "creditedAs": "Hal David",
+              "role": "lyricist",
+              "musicBrainzArtistId": "41f5d2cd-672b-460e-8ab6-e29db2f1e088"
+            }
+          ]
+        },
+        {
+          "sequence": 6,
+          "position": "A6",
+          "recordingId": "ad93b7ff-25c2-48bd-8535-50c3f1ca3773",
+          "title": "Ready to Die",
+          "workIds": [
+            "7746a1dd-3700-375b-b759-b7310ab4e41b"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Diddy",
+              "creditedAs": "Sean Combs",
+              "role": "writer",
+              "musicBrainzArtistId": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+            },
+            {
+              "name": "Easy Mo Bee",
+              "creditedAs": "Osten Harvey, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5"
+            },
+            {
+              "name": "Barbara Mason",
+              "creditedAs": "Barbara Mason",
+              "role": "writer",
+              "musicBrainzArtistId": "91cfbe94-7fc3-4bcc-9d95-767d87ac2ae5"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 7,
+          "position": "A7",
+          "recordingId": "1141016d-20e8-439b-8e16-c2bfd7621229",
+          "title": "One More Chance",
+          "workIds": [
+            "791eaa33-8479-33e6-8272-e31bcd44ced5"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Diddy",
+              "creditedAs": "Sean Combs",
+              "role": "writer",
+              "musicBrainzArtistId": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+            },
+            {
+              "name": "Norman Glover",
+              "creditedAs": "Norman Glover",
+              "role": "writer",
+              "musicBrainzArtistId": "bbf47530-670b-462f-ac5f-99ce263995bd"
+            },
+            {
+              "name": "Lord Digga",
+              "creditedAs": "Reginald Ellis",
+              "role": "writer",
+              "musicBrainzArtistId": "e6cc256d-b41d-4a33-b612-06541a4fd36d"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Chucky Thompson",
+              "creditedAs": "Chucky Thompson",
+              "role": "writer",
+              "musicBrainzArtistId": "afbd0a93-cdfc-47cf-9456-1e4eaa3bb6e2"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 8,
+          "position": "A8",
+          "recordingId": "83f2708d-3c33-4b71-a972-dd0b5c2b5b7f",
+          "title": "Fuck Me (interlude)",
+          "workIds": [
+            "ea4fa15f-fe08-3543-a7b6-6598d16e1fc3"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Diddy",
+              "creditedAs": "Sean Combs",
+              "role": "writer",
+              "musicBrainzArtistId": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 9,
+          "position": "A9",
+          "recordingId": "0edbf1f6-b562-42d8-9515-7da7b84f8bbd",
+          "title": "The What",
+          "workIds": [
+            "8dd7ee5e-5ee8-335a-add0-c530a4943f68"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Easy Mo Bee",
+              "creditedAs": "Osten Harvey, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5"
+            },
+            {
+              "name": "Method Man",
+              "creditedAs": "Clifford Smith",
+              "role": "writer",
+              "musicBrainzArtistId": "94dbfe2e-ca48-4e08-a5a8-e1e74136c63d"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 10,
+          "position": "B1",
+          "recordingId": "181c0a32-6e3f-4680-8a7d-1daf0b42e43b",
+          "title": "Juicy",
+          "workIds": [
+            "4f99ef5b-691a-3ef2-bbae-21645001e51a"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Diddy",
+              "creditedAs": "Sean Combs",
+              "role": "writer",
+              "musicBrainzArtistId": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+            },
+            {
+              "name": "James Mtume",
+              "creditedAs": "James Mtume",
+              "role": "writer",
+              "musicBrainzArtistId": "53b9e1e3-ee9f-4c73-9cc8-6781ee976cf6"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Poke",
+              "creditedAs": "Jean-Claude Olivier",
+              "role": "writer",
+              "musicBrainzArtistId": "817f3417-0669-47f2-81ff-399851fb66ee"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 11,
+          "position": "B2",
+          "recordingId": "0bc9a2bc-8375-4ab9-8da8-6b1dc095e5db",
+          "title": "Everyday Struggle",
+          "workIds": [
+            "0916ef4b-d6fd-3a0a-a0c9-d68317f25dbd"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Norman Glover",
+              "creditedAs": "Norman Glover",
+              "role": "writer",
+              "musicBrainzArtistId": "bbf47530-670b-462f-ac5f-99ce263995bd"
+            },
+            {
+              "name": "Dave Grusin",
+              "creditedAs": "Dave Grusin",
+              "role": "writer",
+              "musicBrainzArtistId": "7915b61a-da59-4e4e-83d3-bde7a24bd1ba"
+            },
+            {
+              "name": "Lord Digga",
+              "creditedAs": "Reginald Ellis",
+              "role": "writer",
+              "musicBrainzArtistId": "e6cc256d-b41d-4a33-b612-06541a4fd36d"
+            },
+            {
+              "name": "Harvey Mason",
+              "creditedAs": "Harvey Mason",
+              "role": "writer",
+              "musicBrainzArtistId": "1081d9bb-17fa-43cf-8b2e-05f7e6029f70"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 12,
+          "position": "B3",
+          "recordingId": "57e3ec3e-4edf-4eeb-86c4-44a5e8bb7dde",
+          "title": "Me & My Bitch",
+          "workIds": [
+            "d22e4b4c-1e8d-35e6-82ba-f5f1f4c70a3f"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Diddy",
+              "creditedAs": "Sean Combs",
+              "role": "writer",
+              "musicBrainzArtistId": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+            },
+            {
+              "name": "Norman Glover",
+              "creditedAs": "Norman Glover",
+              "role": "writer",
+              "musicBrainzArtistId": "bbf47530-670b-462f-ac5f-99ce263995bd"
+            },
+            {
+              "name": "Lord Digga",
+              "creditedAs": "Reginald Ellis",
+              "role": "writer",
+              "musicBrainzArtistId": "e6cc256d-b41d-4a33-b612-06541a4fd36d"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Chucky Thompson",
+              "creditedAs": "Chucky Thompson",
+              "role": "writer",
+              "musicBrainzArtistId": "afbd0a93-cdfc-47cf-9456-1e4eaa3bb6e2"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 13,
+          "position": "B4",
+          "recordingId": "8154704f-cedf-4b1e-95b1-5ad7b5a24052",
+          "title": "Big Poppa",
+          "workIds": [
+            "7dc304f1-c115-3591-b16d-2fac9aa0fb37"
+          ],
+          "composerCredits": [
+            {
+              "name": "Ernie Isley",
+              "creditedAs": "Ernie Isley",
+              "role": "composer",
+              "musicBrainzArtistId": "1dfbd38a-ab4d-4766-b1bf-f66dc728a8a8"
+            },
+            {
+              "name": "Marvin Isley",
+              "creditedAs": "Marvin Isley",
+              "role": "composer",
+              "musicBrainzArtistId": "e036f67c-30f6-4ce3-bc2d-3440cdb611f6"
+            },
+            {
+              "name": "O’Kelly Isley",
+              "creditedAs": "O’Kelly Isley",
+              "role": "composer",
+              "musicBrainzArtistId": "3b07b441-ee1b-4482-a34a-dd8150f73a0c"
+            },
+            {
+              "name": "Ronald Isley",
+              "creditedAs": "Ronald Isley",
+              "role": "composer",
+              "musicBrainzArtistId": "ad8585b3-655e-4e6f-82a8-e10f89ec65f3"
+            },
+            {
+              "name": "Rudolph Isley",
+              "creditedAs": "Rudolph Isley",
+              "role": "composer",
+              "musicBrainzArtistId": "4ea2e016-183d-4225-b5ea-6df98e926f38"
+            },
+            {
+              "name": "Chris Jasper",
+              "creditedAs": "Chris Jasper",
+              "role": "composer",
+              "musicBrainzArtistId": "ef1b6332-ab9c-49ce-b3ed-10aa36c31d2b"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "lyricist",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ]
+        },
+        {
+          "sequence": 14,
+          "position": "B5",
+          "recordingId": "3f0becd5-c548-4c62-8ac1-33bb7db05a2b",
+          "title": "Respect",
+          "workIds": [
+            "d582f0da-e2f5-3b13-8874-6132769435f7"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Harry Wayne Casey",
+              "creditedAs": "Harry Wayne Casey",
+              "role": "writer",
+              "musicBrainzArtistId": "43c1447a-6292-44e3-b66a-eb0337768170"
+            },
+            {
+              "name": "Diana King",
+              "creditedAs": "Diana King",
+              "role": "writer",
+              "musicBrainzArtistId": "72447757-809b-4de5-8e25-f4a9adc24cf3"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 15,
+          "position": "B6",
+          "recordingId": "fca30760-7e5f-4c0c-9563-81cd4eaa799e",
+          "title": "Friend of Mine",
+          "workIds": [
+            "2bb83807-d79d-3847-86a4-9c1c02efe527"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Robert “Kool” Bell",
+              "creditedAs": "Robert “Kool” Bell",
+              "role": "writer",
+              "musicBrainzArtistId": "ecfc4ffa-eaa4-499c-8297-fcf4b6c71a11"
+            },
+            {
+              "name": "Ronald Bell",
+              "creditedAs": "Ronald Bell",
+              "role": "writer",
+              "musicBrainzArtistId": "2eba96b1-2469-410c-becd-41dca42f1d31"
+            },
+            {
+              "name": "Black Mamba",
+              "creditedAs": "Black Mamba",
+              "role": "writer",
+              "musicBrainzArtistId": "2d093339-6437-4023-9667-a49410862fd4"
+            },
+            {
+              "name": "Don Boyce",
+              "creditedAs": "Don Boyce",
+              "role": "writer",
+              "musicBrainzArtistId": "0e66797d-0960-46cb-99e8-a4a78b733e87"
+            },
+            {
+              "name": "George Brown",
+              "creditedAs": "George Brown",
+              "role": "writer",
+              "musicBrainzArtistId": "e7be80ec-af74-4e8b-b1e1-32e5fb4a5038"
+            },
+            {
+              "name": "Easy Mo Bee",
+              "creditedAs": "Osten Harvey, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5"
+            },
+            {
+              "name": "Robert Spike Mickens",
+              "creditedAs": "Robert Spike Mickens",
+              "role": "writer",
+              "musicBrainzArtistId": "7f70114d-77bf-4a0a-b7a3-fd92909b3cd8"
+            },
+            {
+              "name": "Otha Nash",
+              "creditedAs": "Otha Nash",
+              "role": "writer",
+              "musicBrainzArtistId": "2e9fd7a6-7248-49a6-8c73-dc38b8966952"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "Claydes Smith",
+              "creditedAs": "Claydes Smith",
+              "role": "writer",
+              "musicBrainzArtistId": "2e5124d4-42bf-4a72-b4f1-0e44d04f8127"
+            },
+            {
+              "name": "Dennis “D.T.” Thomas",
+              "creditedAs": "Dennis “D.T.” Thomas",
+              "role": "writer",
+              "musicBrainzArtistId": "343e5377-7a0c-4252-a830-b0d495ea3888"
+            },
+            {
+              "name": "Ricky West",
+              "creditedAs": "Richard Westfield",
+              "role": "writer",
+              "musicBrainzArtistId": "a285d32b-8a86-47b9-ae99-5d2cb9d89cad"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 16,
+          "position": "B7",
+          "recordingId": "306c705e-d3f7-46e2-aa43-6105bc0e82d7",
+          "title": "Unbelievable",
+          "workIds": [
+            "8c0cdc6e-1a89-3eba-a797-ba326934a2b9"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "R. Kelly",
+              "creditedAs": "R. Kelly",
+              "role": "writer",
+              "musicBrainzArtistId": "c2d25856-a09a-4d15-b404-77dd19c19e63"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "name": "DJ Premier",
+              "creditedAs": "Chris Martin",
+              "role": "writer",
+              "musicBrainzArtistId": "084e06f5-3c82-4b71-bd94-dd69e7bd515e"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 17,
+          "position": "B8",
+          "recordingId": "126f140b-5392-44f1-ba84-e3a963d0e132",
+          "title": "Suicidal Thoughts",
+          "workIds": [
+            "8a69e27c-0955-34ff-bd53-a38a98e4814e"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Robert Hall, Jr.",
+              "creditedAs": "Robert Hall, Jr.",
+              "role": "writer",
+              "musicBrainzArtistId": "c0cdae5d-f44b-4af4-b821-e7e01cc53c3b"
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "creditedAs": "Christopher Wallace",
+              "role": "writer",
+              "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            }
+          ],
+          "lyricistCredits": []
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/5afcfeac-118a-35e6-af0d-35ec9003354d"
+      }
+    },
+    {
+      "albumId": "album-beatles-sgt-peppers-lonely-hearts-club-band-1967",
+      "artist": "The Beatles",
+      "album": "Sgt. Pepper's Lonely Hearts Club Band",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 1,
+          "position": "1",
+          "recordingId": "c55e74ff-bd7d-40ff-a591-c6993c59bda8",
+          "title": "Sgt. Pepper’s Lonely Hearts Club Band",
+          "workIds": [
+            "c6402058-011c-30d1-8189-6d8eedebfed2"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 2,
+          "position": "2",
+          "recordingId": "a40d2f44-5ddb-4df4-ae55-1acbfef415ae",
+          "title": "With a Little Help From My Friends",
+          "workIds": [
+            "8388f958-0fef-30ea-a70a-f1803868ecf9"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 3,
+          "position": "3",
+          "recordingId": "e766a942-00ac-48bc-9ea3-05d4a0c3997a",
+          "title": "Lucy in the Sky With Diamonds",
+          "workIds": [
+            "7368c546-3275-3490-af03-1b4772a14892"
+          ],
+          "composerCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "composer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "composer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ]
+        },
+        {
+          "sequence": 4,
+          "position": "4",
+          "recordingId": "637ad74f-52ce-4fa2-b59f-2fef882223ab",
+          "title": "Getting Better",
+          "workIds": [
+            "9b94cf34-8bee-33da-8e88-83c853e10c2b"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 5,
+          "position": "5",
+          "recordingId": "88ee00a0-669f-4eec-a0ec-f4f5a0fc643b",
+          "title": "Fixing a Hole",
+          "workIds": [
+            "97977664-6cb2-31f7-8ffd-5e86f7c7a419"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 7,
+          "position": "7",
+          "recordingId": "f65b8d16-67ab-4beb-9ff5-62d413ff482b",
+          "title": "Being for the Benefit of Mr. Kite!",
+          "workIds": [
+            "531b2a9e-66b5-34ef-abb8-a499fdf3c308"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 8,
+          "position": "8",
+          "recordingId": "ec129384-8ac7-46eb-b202-cca844fe6c79",
+          "title": "Within You Without You",
+          "workIds": [
+            "45dca4f3-5afa-3c77-bf64-cdb2bbde93b6"
+          ],
+          "composerCredits": [
+            {
+              "name": "George Harrison",
+              "creditedAs": "George Harrison",
+              "role": "composer",
+              "musicBrainzArtistId": "42a8f507-8412-4611-854f-926571049fa0"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "George Harrison",
+              "creditedAs": "George Harrison",
+              "role": "lyricist",
+              "musicBrainzArtistId": "42a8f507-8412-4611-854f-926571049fa0"
+            }
+          ]
+        },
+        {
+          "sequence": 9,
+          "position": "9",
+          "recordingId": "163cf257-2f13-4766-8bd4-3c4da5351ea1",
+          "title": "When I’m Sixty‐Four",
+          "workIds": [
+            "0ccca825-3af9-35e8-9378-7d50a28db027"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 10,
+          "position": "10",
+          "recordingId": "6a9e5022-69fd-4664-b04b-8a232139db6b",
+          "title": "Lovely Rita",
+          "workIds": [
+            "2c938be6-7a64-3ca4-b011-52c87ce1b332"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 11,
+          "position": "11",
+          "recordingId": "8d963999-a0af-431a-940c-0b24712df1aa",
+          "title": "Good Morning Good Morning",
+          "workIds": [
+            "5846bdf0-e20f-3e76-98d6-79b1c6299a63"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 12,
+          "position": "12",
+          "recordingId": "61f3b135-e4e3-4aad-b25d-14343bfc5999",
+          "title": "Sgt. Pepper’s Lonely Hearts Club Band (reprise)",
+          "workIds": [
+            "ba8adcd2-537e-3204-a427-86b391e40469",
+            "c6402058-011c-30d1-8189-6d8eedebfed2"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 13,
+          "position": "13",
+          "recordingId": "17c75743-6fc2-4c72-8152-25c5b45dfea7",
+          "title": "A Day in the Life",
+          "workIds": [
+            "fd1aa4f2-ba26-3a05-b72d-4392c35a073c"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Lennon",
+              "creditedAs": "John Lennon",
+              "role": "writer",
+              "musicBrainzArtistId": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+            },
+            {
+              "name": "Paul McCartney",
+              "creditedAs": "Paul McCartney",
+              "role": "writer",
+              "musicBrainzArtistId": "ba550d0e-adac-4864-b88b-407cab5e76af"
+            }
+          ],
+          "lyricistCredits": []
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/9f7a4c28-8fa2-3113-929c-c47a9f7982c3"
+      }
+    },
+    {
+      "albumId": "album-amy-winehouse-back-to-black-2006",
+      "artist": "Amy Winehouse",
+      "album": "Back to Black",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 1,
+          "position": "1",
+          "recordingId": "873eba85-b721-4728-be2e-96ce94cccb8b",
+          "title": "Rehab",
+          "workIds": [
+            "4ec05a31-2fb9-386b-b929-4edfbf856467"
+          ],
+          "composerCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "composer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "lyricist",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ]
+        },
+        {
+          "sequence": 2,
+          "position": "2",
+          "recordingId": "222e611f-2e4b-4569-80a4-0a38402f0c63",
+          "title": "You Know I’m No Good",
+          "workIds": [
+            "7c208a4d-4c79-31cd-8354-0eb6ac0c296a"
+          ],
+          "composerCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "composer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "lyricist",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ]
+        },
+        {
+          "sequence": 3,
+          "position": "3",
+          "recordingId": "217c4f4a-d6d1-44db-9581-4cc83b738446",
+          "title": "Me & Mr Jones",
+          "workIds": [
+            "0e222757-2be6-3007-adc9-90a93da71901"
+          ],
+          "composerCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "composer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "lyricist",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ]
+        },
+        {
+          "sequence": 4,
+          "position": "4",
+          "recordingId": "8f3461f5-6833-44a6-b705-1b65ef610102",
+          "title": "Just Friends",
+          "workIds": [
+            "abcbce59-6eae-3a43-9abe-3703d0357640"
+          ],
+          "composerCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "composer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "lyricist",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ]
+        },
+        {
+          "sequence": 5,
+          "position": "5",
+          "recordingId": "b0adc7a8-0a90-4e09-8839-a66f315234a2",
+          "title": "Back to Black",
+          "workIds": [
+            "769f4a49-44f5-3588-bf07-c19e01952501"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Mark Ronson",
+              "creditedAs": "Mark Ronson",
+              "role": "writer",
+              "musicBrainzArtistId": "c3c82bdc-d9e7-4836-9746-c24ead47ca19"
+            },
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "writer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 6,
+          "position": "6",
+          "recordingId": "b7e172f3-1f8f-49bf-a4a9-141cd64979c7",
+          "title": "Love Is a Losing Game",
+          "workIds": [
+            "6d5b6d4f-dc85-32e4-9b0f-277f9a8558e1"
+          ],
+          "composerCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "composer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "lyricist",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ]
+        },
+        {
+          "sequence": 7,
+          "position": "7",
+          "recordingId": "b47bf632-f6ca-42fa-9db9-10d38797aa9d",
+          "title": "Tears Dry on Their Own",
+          "workIds": [
+            "d6906cc9-13fb-3d7e-89a2-bb20af7b6c22"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Nickolas Ashford",
+              "creditedAs": "Nickolas Ashford",
+              "role": "writer",
+              "musicBrainzArtistId": "f47e95aa-2228-4122-858d-4bcb1506057c"
+            },
+            {
+              "name": "Valerie Simpson",
+              "creditedAs": "Valerie Simpson",
+              "role": "writer",
+              "musicBrainzArtistId": "03f97204-818e-45e0-b3d5-1108a52789ba"
+            },
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "writer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 8,
+          "position": "8",
+          "recordingId": "3f221ae8-79b1-442f-8af6-c020028e58f1",
+          "title": "Wake Up Alone",
+          "workIds": [
+            "92d4ae50-43c7-30cc-80c5-6148854e54b6"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Paul Staveley O’Duffy",
+              "creditedAs": "Paul Staveley O’Duffy",
+              "role": "writer",
+              "musicBrainzArtistId": "856b770d-78e6-4229-83db-b3f100cf6ec7"
+            },
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "writer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 9,
+          "position": "9",
+          "recordingId": "17c5cd7a-c6d3-4483-8aab-51ee156a2e77",
+          "title": "Some Unholy War",
+          "workIds": [
+            "5d6dc97f-4343-3d1b-a2bc-4f162c61f38d"
+          ],
+          "composerCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "composer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "lyricist",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ]
+        },
+        {
+          "sequence": 11,
+          "position": "11",
+          "recordingId": "75855dc2-d0b2-41c9-9906-59ccd254291b",
+          "title": "You Know I’m No Good",
+          "workIds": [
+            "7c208a4d-4c79-31cd-8354-0eb6ac0c296a"
+          ],
+          "composerCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "composer",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Amy Winehouse",
+              "creditedAs": "Amy Winehouse",
+              "role": "lyricist",
+              "musicBrainzArtistId": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/6eac2e57-ee50-36f8-b0c4-c4c847a2c098"
+      }
+    },
+    {
+      "albumId": "album-paul-simon-graceland-1986",
+      "artist": "Paul Simon",
+      "album": "Graceland",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 1,
+          "position": "1",
+          "recordingId": "43aa23e4-b522-48ca-a0fe-e63aec7d5295",
+          "title": "The Boy in the Bubble",
+          "workIds": [
+            "d6f7935a-a783-49ae-afe5-a3f79df143a9"
+          ],
+          "composerCredits": [
+            {
+              "name": "Forere Motloheloa",
+              "creditedAs": "Forere Motloheloa",
+              "role": "composer",
+              "musicBrainzArtistId": "6744961f-f01d-4240-b1c9-049c45ee856b"
+            },
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 2,
+          "position": "2",
+          "recordingId": "263798a5-ccb7-49d1-8478-da1d6f2b7c1e",
+          "title": "Graceland",
+          "workIds": [
+            "fcbcd9ad-c16c-3986-8224-d58bfaebff5f"
+          ],
+          "composerCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 3,
+          "position": "3",
+          "recordingId": "ebf11bdd-0588-44c6-8d92-b029fee7d58d",
+          "title": "I Know What I Know",
+          "workIds": [
+            "48b6b4dc-a32d-37c5-8462-7af8a2c317f3"
+          ],
+          "composerCredits": [
+            {
+              "name": "General M. D. Shirinda",
+              "creditedAs": "General M. D. Shirinda",
+              "role": "composer",
+              "musicBrainzArtistId": "4305173a-cafa-416f-b8b3-7d16343201a4"
+            },
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 4,
+          "position": "4",
+          "recordingId": "9526475e-3d01-47fc-b142-1d127f462d44",
+          "title": "Gumboots",
+          "workIds": [
+            "683661f8-4124-36db-ab44-c26a86ad1cd9"
+          ],
+          "composerCredits": [
+            {
+              "name": "Johnson Mkhalali",
+              "creditedAs": "Johnjon Mkhalali",
+              "role": "composer",
+              "musicBrainzArtistId": "9622b95c-253b-442b-a7ff-527d7b27da53"
+            },
+            {
+              "name": "Lulu Masilela",
+              "creditedAs": "Lulu Masilela",
+              "role": "composer",
+              "musicBrainzArtistId": "3955d486-cb60-4159-b56d-6809ec2fba92"
+            },
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 5,
+          "position": "5",
+          "recordingId": "42933ea3-9f5c-426c-9e86-24de756eae60",
+          "title": "Diamonds on the Soles of Her Shoes",
+          "workIds": [
+            "67b69bf5-25f8-31c4-8fde-6b27cf979563"
+          ],
+          "composerCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [
+            {
+              "name": "Joseph Shabalala",
+              "creditedAs": "Joseph Shabalala",
+              "role": "writer",
+              "musicBrainzArtistId": "1391550a-b7f1-4033-9927-fb8855f2493e"
+            }
+          ],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 6,
+          "position": "6",
+          "recordingId": "01e1696b-b3c7-4ffe-a42b-ec2c952f7429",
+          "title": "You Can Call Me Al",
+          "workIds": [
+            "687f76e8-9da4-31a7-acc5-ae17a05db1fd"
+          ],
+          "composerCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 7,
+          "position": "7",
+          "recordingId": "7d4844ad-fc1e-4491-b57a-e7f925cbd53f",
+          "title": "Under African Skies",
+          "workIds": [
+            "aaf3ce5f-47d2-3c08-a09f-b46a64317c5c"
+          ],
+          "composerCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 8,
+          "position": "8",
+          "recordingId": "71cd6064-0c37-4d6e-8e98-003d676915c3",
+          "title": "Homeless",
+          "workIds": [
+            "f703d921-fd1d-3e98-bfd6-24814b5564b7"
+          ],
+          "composerCredits": [
+            {
+              "name": "Joseph Shabalala",
+              "creditedAs": "Joseph Shabalala",
+              "role": "composer",
+              "musicBrainzArtistId": "1391550a-b7f1-4033-9927-fb8855f2493e"
+            },
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Joseph Shabalala",
+              "creditedAs": "Joseph Shabalala",
+              "role": "lyricist",
+              "musicBrainzArtistId": "1391550a-b7f1-4033-9927-fb8855f2493e"
+            },
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 9,
+          "position": "9",
+          "recordingId": "073788f1-aca2-482f-9a64-6dde4f16012d",
+          "title": "Crazy Love, Vol. II",
+          "workIds": [
+            "ab21fc13-46b1-35ae-bd99-cd6ab54280a7"
+          ],
+          "composerCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 10,
+          "position": "10",
+          "recordingId": "804dc517-65a6-4a48-80b8-3e850aff6218",
+          "title": "That Was Your Mother",
+          "workIds": [
+            "67055b43-cd69-3505-a133-e14792a7e4b5"
+          ],
+          "composerCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        },
+        {
+          "sequence": 11,
+          "position": "11",
+          "recordingId": "8bbb4009-ab4a-4c84-a90f-9f8433767af5",
+          "title": "All Around the World or The Myth of Fingerprints",
+          "workIds": [
+            "cecb2d57-13c7-3805-86cb-aa9e45637d4e"
+          ],
+          "composerCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "composer",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Paul Simon",
+              "creditedAs": "Paul Simon",
+              "role": "lyricist",
+              "musicBrainzArtistId": "05517043-ff78-4988-9c22-88c68588ebb9"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/19847822-1430-3380-9cf1-bc45545b34ac"
+      }
+    },
+    {
+      "albumId": "album-bob-marley-and-the-wailers-exodus-1977",
+      "artist": "Bob Marley and the Wailers",
+      "album": "Exodus",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 1,
+          "position": "1",
+          "recordingId": "d8b155c4-a5fc-4b9e-9cec-a683fd84202c",
+          "title": "Natural Mystic",
+          "workIds": [
+            "3fc3d231-2ea3-333c-9884-38293f6ca35b"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 2,
+          "position": "2",
+          "recordingId": "f88b36f7-9ab9-46b1-8ae7-0492de4a3846",
+          "title": "So Much Things to Say",
+          "workIds": [
+            "375f7407-c072-3a21-baff-a33d7cdb0bf3"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 3,
+          "position": "3",
+          "recordingId": "492d2bc3-eba9-4a2d-96a1-756fc5dc6d14",
+          "title": "Guiltiness",
+          "workIds": [
+            "8991a954-8d35-3a91-9b5e-a3e7894ccc7b"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 4,
+          "position": "4",
+          "recordingId": "efd33029-9dae-4a94-99bf-13868531cb9f",
+          "title": "The Heathen",
+          "workIds": [
+            "4eca2971-aa63-3991-bff1-286b872c7bf3"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 5,
+          "position": "5",
+          "recordingId": "4ee2ff88-ac68-4dee-9f7f-da99f6600415",
+          "title": "Exodus",
+          "workIds": [
+            "0b3ffb87-c57c-376f-9ad7-3274a7d28d1a"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 6,
+          "position": "6",
+          "recordingId": "755ea925-c364-4e59-b21f-8d0f4f73f821",
+          "title": "Jammin'",
+          "workIds": [
+            "18dcf0dc-a900-3bdc-b853-5d826abe8916"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 7,
+          "position": "7",
+          "recordingId": "4d8ca8d4-6254-4967-b4db-53e5844e79d0",
+          "title": "Waiting in Vain",
+          "workIds": [
+            "a7fb843e-5e9e-3f16-886b-0228f68d064d"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 8,
+          "position": "8",
+          "recordingId": "1dc2cb5f-5521-426d-a312-6b80c4f1a17b",
+          "title": "Turn Your Lights Down Low",
+          "workIds": [
+            "0983820d-abc4-34da-83e8-654dc168e038"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 9,
+          "position": "9",
+          "recordingId": "33b9b9fd-15a1-4e1f-a10a-3d15df5e58f0",
+          "title": "Three Little Birds",
+          "workIds": [
+            "1a21f426-46e6-37db-a6e0-fd2c5166099c"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            }
+          ]
+        },
+        {
+          "sequence": 10,
+          "position": "10",
+          "recordingId": "76ad38d7-4d80-45a0-992a-68388621067a",
+          "title": "One Love, People Get Ready",
+          "workIds": [
+            "36ff6f1f-b063-3c35-8abc-1fb667aecb8e"
+          ],
+          "composerCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "composer",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            },
+            {
+              "name": "Curtis Mayfield",
+              "creditedAs": "Curtis Mayfield",
+              "role": "composer",
+              "musicBrainzArtistId": "4dca4bb2-23ba-4103-97e6-5810311db33a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Bob Marley",
+              "creditedAs": "Bob Marley",
+              "role": "lyricist",
+              "musicBrainzArtistId": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+            },
+            {
+              "name": "Curtis Mayfield",
+              "creditedAs": "Curtis Mayfield",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4dca4bb2-23ba-4103-97e6-5810311db33a"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/c5650313-60f3-34d3-92e4-300545133792"
+      }
+    },
+    {
+      "albumId": "album-led-zeppelin-led-zeppelin-iv-1971",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 1,
+          "position": "1",
+          "recordingId": "f8f0e1c4-310b-4107-bed2-f4394d37b033",
+          "title": "Black Dog",
+          "workIds": [
+            "294f1232-b03b-355b-8985-1d10f5b99db3"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Paul Jones",
+              "creditedAs": "John Paul Jones",
+              "role": "writer",
+              "musicBrainzArtistId": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "creditedAs": "Jimmy Page",
+              "role": "writer",
+              "musicBrainzArtistId": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "creditedAs": "Robert Plant",
+              "role": "writer",
+              "musicBrainzArtistId": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 2,
+          "position": "2",
+          "recordingId": "dd2e50c0-e6e5-4566-a47b-daf32cc8c18b",
+          "title": "Rock and Roll",
+          "workIds": [
+            "d47cdd1d-a33d-32ae-bb2c-00a846d61930"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Bonham",
+              "creditedAs": "John Bonham",
+              "role": "writer",
+              "musicBrainzArtistId": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "John Paul Jones",
+              "creditedAs": "John Paul Jones",
+              "role": "writer",
+              "musicBrainzArtistId": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "creditedAs": "Jimmy Page",
+              "role": "writer",
+              "musicBrainzArtistId": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "creditedAs": "Robert Plant",
+              "role": "writer",
+              "musicBrainzArtistId": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 3,
+          "position": "3",
+          "recordingId": "f5e3a2d9-29c9-4684-bf38-178c4ce76e3c",
+          "title": "The Battle of Evermore",
+          "workIds": [
+            "8022b399-665c-358e-b3dd-d52186ef1104"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Jimmy Page",
+              "creditedAs": "Jimmy Page",
+              "role": "writer",
+              "musicBrainzArtistId": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "creditedAs": "Robert Plant",
+              "role": "writer",
+              "musicBrainzArtistId": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 4,
+          "position": "4",
+          "recordingId": "ccfdd180-22e1-49b9-bd81-b5fcf2c6474e",
+          "title": "Stairway to Heaven",
+          "workIds": [
+            "968ee3c5-21fa-35de-88f9-bd1c300ac3ee"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Jimmy Page",
+              "creditedAs": "Jimmy Page",
+              "role": "writer",
+              "musicBrainzArtistId": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "creditedAs": "Robert Plant",
+              "role": "writer",
+              "musicBrainzArtistId": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 5,
+          "position": "5",
+          "recordingId": "2ff06d14-7e70-4713-94e9-5fb44de6f036",
+          "title": "Misty Mountain Hop",
+          "workIds": [
+            "ef0a0d51-257a-3d2b-8878-d9fc4ce30844"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Paul Jones",
+              "creditedAs": "John Paul Jones",
+              "role": "writer",
+              "musicBrainzArtistId": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Jimmy Page",
+              "creditedAs": "Jimmy Page",
+              "role": "writer",
+              "musicBrainzArtistId": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "creditedAs": "Robert Plant",
+              "role": "writer",
+              "musicBrainzArtistId": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 6,
+          "position": "6",
+          "recordingId": "c5da2d84-c7d2-4bee-9416-a94394b11af1",
+          "title": "Four Sticks",
+          "workIds": [
+            "28feac8d-e956-39de-a30e-4bed76ee6af0"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Jimmy Page",
+              "creditedAs": "Jimmy Page",
+              "role": "writer",
+              "musicBrainzArtistId": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "creditedAs": "Robert Plant",
+              "role": "writer",
+              "musicBrainzArtistId": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 7,
+          "position": "7",
+          "recordingId": "f0fb5510-32d0-4276-9072-5a208b07d4e8",
+          "title": "Going to California",
+          "workIds": [
+            "a2da6ada-671c-38f0-918a-c4dad81e9e53"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Jimmy Page",
+              "creditedAs": "Jimmy Page",
+              "role": "writer",
+              "musicBrainzArtistId": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "creditedAs": "Robert Plant",
+              "role": "writer",
+              "musicBrainzArtistId": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 8,
+          "position": "8",
+          "recordingId": "3d4edbbd-8cd1-4c8a-be02-d19ded65e00f",
+          "title": "When the Levee Breaks",
+          "workIds": [
+            "1269b977-73c5-3f6f-a223-7d0e8d56bf8a"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "John Bonham",
+              "creditedAs": "John Bonham",
+              "role": "writer",
+              "musicBrainzArtistId": "9c2b375c-ce68-44a8-90ac-e06b177f43f9"
+            },
+            {
+              "name": "John Paul Jones",
+              "creditedAs": "John Paul Jones",
+              "role": "writer",
+              "musicBrainzArtistId": "4490113a-3880-4f5b-a39b-105bfceaed04"
+            },
+            {
+              "name": "Memphis Minnie",
+              "creditedAs": "Memphis Minnie",
+              "role": "writer",
+              "musicBrainzArtistId": "ff748426-8873-4725-bdc7-c2b18b510d41"
+            },
+            {
+              "name": "Jimmy Page",
+              "creditedAs": "Jimmy Page",
+              "role": "writer",
+              "musicBrainzArtistId": "519774a4-3b18-4042-b8c0-927845a616c9"
+            },
+            {
+              "name": "Robert Plant",
+              "creditedAs": "Robert Plant",
+              "role": "writer",
+              "musicBrainzArtistId": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc"
+            }
+          ],
+          "lyricistCredits": []
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/2e61da88-39e9-3473-81d2-c964cb394952"
+      }
+    },
+    {
+      "albumId": "album-captain-beefheart-and-his-magic-band-trout-mask-replica-1969",
+      "artist": "Captain Beefheart and his Magic Band",
+      "album": "Trout Mask Replica",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 1,
+          "position": "A1",
+          "recordingId": "9e516210-dd88-492a-bd15-54cf730da346",
+          "title": "Frownland",
+          "workIds": [
+            "0cc919e6-bffd-4572-972c-d2236598b7c9"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 2,
+          "position": "A2",
+          "recordingId": "8949fdd8-26ed-4698-b8b3-1b93fc787b3d",
+          "title": "The Dust Blows Forward 'n' The Dust Blows Back",
+          "workIds": [
+            "27d21beb-2b92-386a-b5a8-5fc2dc2f93f4"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 3,
+          "position": "A3",
+          "recordingId": "fb464c8b-1747-424b-9911-317f69baf746",
+          "title": "Dachau Blues",
+          "workIds": [
+            "f3e8fd75-7165-31d6-884b-5a10ce20da4a"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 4,
+          "position": "A4",
+          "recordingId": "551d0095-8d5e-41a8-af0e-a301f53af2f4",
+          "title": "Ella Guru",
+          "workIds": [
+            "a2bc8783-5343-370c-97fc-f25484a62db8"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 5,
+          "position": "A5",
+          "recordingId": "06070d14-c693-4137-a526-cd957d3db3ea",
+          "title": "Hair Pie: Bake 1",
+          "workIds": [
+            "e4bd8d9f-eb39-4bf4-a958-a301a5e5e22a"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 6,
+          "position": "A6",
+          "recordingId": "35b08160-b0e7-4ed5-aecc-a2720aa17775",
+          "title": "Moonlight on Vermont",
+          "workIds": [
+            "53aed9f6-3bb7-4583-9204-d2cb283da797"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 7,
+          "position": "A7",
+          "recordingId": "2412d460-d5d2-4077-893b-bb8c9729f7ce",
+          "title": "Pachuco Cadaver",
+          "workIds": [
+            "0ede2d70-7a07-4ca7-ac5c-4d334bef9a49"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 8,
+          "position": "A8",
+          "recordingId": "7586210b-2422-44c3-b084-dd73fedb3f53",
+          "title": "Bills Corpse",
+          "workIds": [
+            "fdbb441d-9305-4d94-85a7-5ce8d589a6c6"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 9,
+          "position": "A9",
+          "recordingId": "48426acb-ac59-445d-ab28-9b8925c9c8f9",
+          "title": "Sweet Sweet Bulbs",
+          "workIds": [
+            "097edf45-f7a4-4a4a-9271-105c2fd03a90"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 10,
+          "position": "A10",
+          "recordingId": "6b8142bc-e815-48ec-8373-8453b71f8a8a",
+          "title": "Neon Meate Dream of a Octafish",
+          "workIds": [
+            "bfbecb87-3ecf-3cf9-9917-501277633b52"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 11,
+          "position": "A11",
+          "recordingId": "d054f351-e4d6-49ce-9868-427c8bff97a5",
+          "title": "China Pig",
+          "workIds": [
+            "b577592c-d9b1-3d02-a8c8-bbcb848796ee"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 12,
+          "position": "A12",
+          "recordingId": "7551c9e4-def3-489c-a780-7d52de153f30",
+          "title": "My Human Gets Me Blues",
+          "workIds": [
+            "81313232-72a5-4326-9d51-c505dc6ac03e"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 13,
+          "position": "A13",
+          "recordingId": "b19f7ff1-ee5e-4fc6-b71c-4514b9973031",
+          "title": "Dali's Car",
+          "workIds": [
+            "fc8b87ed-5696-43fa-b35d-9c45c9a35f40"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 14,
+          "position": "A14",
+          "recordingId": "37c32422-b5f4-4fc9-bfd4-a09d40c26dc8",
+          "title": "Hair Pie: Bake 2",
+          "workIds": [
+            "4e475a28-1613-3761-8109-c74085e6defe"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 15,
+          "position": "B1",
+          "recordingId": "4fed18f5-b078-4d4d-93fc-d6da1124cf16",
+          "title": "Pena",
+          "workIds": [
+            "c47be14c-7133-4f79-b4a6-80973a910229"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 16,
+          "position": "B2",
+          "recordingId": "dd21f737-cc43-4b61-9b5b-62b33f36777e",
+          "title": "Well",
+          "workIds": [
+            "34449155-c43b-46b9-9966-9b1e50bbab2a"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 18,
+          "position": "B4",
+          "recordingId": "9951d943-7683-4c60-a34a-1ab245359d22",
+          "title": "Fallin' Ditch",
+          "workIds": [
+            "1328bc20-1176-43e9-8cf3-4efee196b00c"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 19,
+          "position": "B5",
+          "recordingId": "03e78575-0926-443b-9f23-31b70a43bafa",
+          "title": "Sugar 'n' Spikes",
+          "workIds": [
+            "52a6becc-a924-3a91-990e-bd29dd622f8a"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 20,
+          "position": "B6",
+          "recordingId": "c0ba609d-87b5-4bbd-88ef-872aacd6190f",
+          "title": "Ant Man Bee",
+          "workIds": [
+            "d8ef235f-abc8-4d04-b970-c7231cbfce7c"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 21,
+          "position": "B7",
+          "recordingId": "ed88169e-bee4-460e-8d9f-c98800aab088",
+          "title": "Orange Claw Hammer",
+          "workIds": [
+            "33cb92f7-3a94-358a-b366-30bc743e5eb8"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 22,
+          "position": "B8",
+          "recordingId": "e093fce2-0f90-4d58-9f93-106661a88793",
+          "title": "Wild Life",
+          "workIds": [
+            "a786d753-5cc6-3dd0-be90-75b590a62d5e"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 23,
+          "position": "B9",
+          "recordingId": "26389bfc-2e1a-489b-8359-de453269b182",
+          "title": "She's Too Much for My Mirror",
+          "workIds": [
+            "fe210bcd-058b-4628-b278-056904950d22"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 24,
+          "position": "B10",
+          "recordingId": "921d80f2-97e7-4faf-92f3-7c3b548f7406",
+          "title": "Hobo Chang Ba",
+          "workIds": [
+            "3c028686-3e1f-4b70-9191-8fd2a35714eb"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 25,
+          "position": "B11",
+          "recordingId": "dd516e45-e790-4530-8be0-17a1d9bebe27",
+          "title": "The Blimp (Mousetrapreplica)",
+          "workIds": [
+            "8ed9dd11-0c2c-4483-9688-83de8b58cb10"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 26,
+          "position": "B12",
+          "recordingId": "fe799810-bf44-4601-b1ad-618332e5fc91",
+          "title": "Steal Softly Thru Snow",
+          "workIds": [
+            "98e66656-e8b0-4bc5-bb6e-6f4b2b6011b9"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 27,
+          "position": "B13",
+          "recordingId": "20e759f6-6350-4d6f-b90d-be9068744ff6",
+          "title": "Old Fart at Play",
+          "workIds": [
+            "57246b19-235a-4953-95ef-751ccd02ccb5"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        },
+        {
+          "sequence": 28,
+          "position": "B14",
+          "recordingId": "f6686f67-171c-40ed-8200-b95a27965d03",
+          "title": "Veteran's Day Poppy",
+          "workIds": [
+            "4b546761-d77f-4f37-a277-cf766d883f91"
+          ],
+          "composerCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "composer",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Don van Vliet",
+              "creditedAs": "Don van Vliet",
+              "role": "lyricist",
+              "musicBrainzArtistId": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/e6a580bd-5d29-3acd-a959-0bfab002ee6f"
+      }
+    },
+    {
+      "albumId": "album-outkast-stankonia-2000",
+      "artist": "OutKast",
+      "album": "Stankonia",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 2,
+          "position": "2",
+          "recordingId": "08b05dcc-0d04-49d9-a99e-80634618556d",
+          "title": "Gasoline Dreams",
+          "workIds": [
+            "3095daa7-5e02-31b8-ace2-80f7feadfaa6"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            },
+            {
+              "name": "Khujo Goodie",
+              "creditedAs": "Willie Knighton",
+              "role": "writer",
+              "musicBrainzArtistId": "81eb1203-49fa-456b-b138-41193ab179b1"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 4,
+          "position": "4",
+          "recordingId": "50348531-e601-4053-8f19-16b375fed767",
+          "title": "So Fresh, So Clean",
+          "workIds": [
+            "213d5806-5138-374e-948b-e70fb1a69cae"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Organized Noize",
+              "creditedAs": "Organized Noize",
+              "role": "writer",
+              "musicBrainzArtistId": "63b5fb07-930a-45cd-8913-19785eaa31c7"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 5,
+          "position": "5",
+          "recordingId": "71de7dc6-e863-4ff5-939e-7d1dc57d880a",
+          "title": "Ms. Jackson",
+          "workIds": [
+            "bde09555-585b-326d-8046-59821f75ec92"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 6,
+          "position": "6",
+          "recordingId": "3d2eacab-fb0b-4190-866c-a668c047b5c4",
+          "title": "Snappin' & Trappin'",
+          "workIds": [
+            "778e38ef-1be1-3010-918e-f7176013c0a1"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Cory Andrews",
+              "creditedAs": "Cory Andrews",
+              "role": "writer",
+              "musicBrainzArtistId": "ac4dc1d2-a791-4930-b834-7fdcc2117865"
+            },
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            },
+            {
+              "name": "Michael Render",
+              "creditedAs": "Michael Render",
+              "role": "writer",
+              "musicBrainzArtistId": "682cb2b6-a202-468b-b1df-ac28b40fd5be"
+            },
+            {
+              "name": "John E.E. Smith",
+              "creditedAs": "John E.E. Smith",
+              "role": "writer",
+              "musicBrainzArtistId": "5a3b4a0e-3187-4b99-8b69-7e647a02474c"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 8,
+          "position": "8",
+          "recordingId": "1809ac9d-36f1-4b68-8de9-049f5ed7553c",
+          "title": "Spaghetti Junction",
+          "workIds": [
+            "7cf714d5-a97b-340b-9186-9017e7cc709f"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Organized Noize",
+              "creditedAs": "Organized Noize",
+              "role": "writer",
+              "musicBrainzArtistId": "63b5fb07-930a-45cd-8913-19785eaa31c7"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 10,
+          "position": "10",
+          "recordingId": "f6f6ebcd-aa70-440e-9f7d-b169a39fcf03",
+          "title": "I'll Call Before I Come",
+          "workIds": [
+            "2a0f3ce7-4b59-314c-9154-0328969650c3"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            },
+            {
+              "name": "Gangsta Boo",
+              "creditedAs": "Lola Mitchell",
+              "role": "writer",
+              "musicBrainzArtistId": "39964eb9-3bf1-42c2-9cd6-b14079aef98c"
+            },
+            {
+              "name": "Rashida Roberts",
+              "creditedAs": "Rashida Roberts",
+              "role": "writer",
+              "musicBrainzArtistId": "e0468e85-310c-4a2b-a66c-aa2ea077e27c"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 11,
+          "position": "11",
+          "recordingId": "5983a45e-76a9-4d3e-baf9-2ccced1d47e8",
+          "title": "B.O.B.",
+          "workIds": [
+            "4f7808c3-4bd6-344f-b2e5-1a6ecc630648"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 12,
+          "position": "12",
+          "recordingId": "4bf163f2-32bd-49aa-bf19-23f42f99bd12",
+          "title": "Xplosion",
+          "workIds": [
+            "5c6b27cf-5014-34ec-a3a9-c5d4b7996d69"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            },
+            {
+              "name": "Louis Freese",
+              "creditedAs": "Louis Freese",
+              "role": "writer",
+              "musicBrainzArtistId": "c1e4a400-5761-4904-9ccb-38974ad6a388"
+            },
+            {
+              "name": "Erin Johnson",
+              "creditedAs": "Erin Johnson",
+              "role": "writer",
+              "musicBrainzArtistId": "35a2824d-41be-492c-9d1c-5096d749ac0f"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 14,
+          "position": "14",
+          "recordingId": "7850190d-1b4f-407e-bb78-bfac9cd0d10c",
+          "title": "We Luv Deez Hoez",
+          "workIds": [
+            "199e2dc0-8743-3915-8db6-173470ae7140"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Big Gipp",
+              "creditedAs": "Cameron Gipp",
+              "role": "writer",
+              "musicBrainzArtistId": "5cb395b6-1cb9-4c9c-a79a-01a66513d1f6"
+            },
+            {
+              "name": "Organized Noize",
+              "creditedAs": "Organized Noize",
+              "role": "writer",
+              "musicBrainzArtistId": "63b5fb07-930a-45cd-8913-19785eaa31c7"
+            },
+            {
+              "name": "Bolivar Troncoso",
+              "creditedAs": "Bolivar Troncoso",
+              "role": "writer",
+              "musicBrainzArtistId": "8ed0c375-9f78-4b0f-b432-7438c4ad58d2"
+            },
+            {
+              "name": "Jamahr Williams",
+              "creditedAs": "Jamahr Williams",
+              "role": "writer",
+              "musicBrainzArtistId": "50d00c7f-4a27-45b6-b942-6b083e31e32f"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 15,
+          "position": "15",
+          "recordingId": "8b3cdbe6-1f4c-4f40-ac9a-0709bf9d1e5f",
+          "title": "Humble Mumble",
+          "workIds": [
+            "dc38f11b-747a-3fce-8621-a8656928c84b"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Erykah Badu",
+              "creditedAs": "Erica Wright",
+              "role": "writer",
+              "musicBrainzArtistId": "321531fc-db73-4ffa-a959-61a61a2908c1"
+            },
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 17,
+          "position": "17",
+          "recordingId": "c7717347-11f8-4132-a7c3-43180da79888",
+          "title": "?",
+          "workIds": [
+            "e236db79-ff5c-3d20-9730-366c962e7fff"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 18,
+          "position": "18",
+          "recordingId": "3a83f9c9-c255-4870-a661-cd7fa16541aa",
+          "title": "Red Velvet",
+          "workIds": [
+            "5fa365b3-a42e-3b8f-b11e-151ea08cd715"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 20,
+          "position": "20",
+          "recordingId": "092448b0-46bd-4ad4-9029-b8502ad50b07",
+          "title": "Gangsta Shit",
+          "workIds": [
+            "22b38438-8df2-38ec-906f-31d05b91fbc2"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Cory Andrews",
+              "creditedAs": "Cory Andrews",
+              "role": "writer",
+              "musicBrainzArtistId": "ac4dc1d2-a791-4930-b834-7fdcc2117865"
+            },
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            },
+            {
+              "name": "Brian Loving",
+              "creditedAs": "Brian Loving",
+              "role": "writer",
+              "musicBrainzArtistId": "2e2b9524-2301-4bd2-80e2-c263bad20021"
+            },
+            {
+              "name": "Carl Mo",
+              "creditedAs": "Carl Mo",
+              "role": "writer",
+              "musicBrainzArtistId": "dfe7421a-e4a8-4330-8fc0-f69777e7b707"
+            },
+            {
+              "name": "T‐Mo",
+              "creditedAs": "Robert Barnett",
+              "role": "writer",
+              "musicBrainzArtistId": "b60ee7a4-1f2d-4df7-aecc-b1b35fd32bf4"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 21,
+          "position": "21",
+          "recordingId": "be87e074-40f6-4a36-a1aa-5fb38310e76c",
+          "title": "Toilet Tisha",
+          "workIds": [
+            "79a5ae32-446f-3d86-b2bd-e18d0ec7495e"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 22,
+          "position": "22",
+          "recordingId": "eaf54c84-2c7d-4b0d-ba4c-ffe03a1d710f",
+          "title": "Slum Beautiful",
+          "workIds": [
+            "6753c634-3e9c-3092-9bc0-de6b69eef759"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            },
+            {
+              "name": "CeeLo Green",
+              "creditedAs": "Thomas DeCarlo Callaway",
+              "role": "writer",
+              "musicBrainzArtistId": "2c69465c-0f76-45ce-90a2-1ed0fdacc997"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 24,
+          "position": "24",
+          "recordingId": "93ffe25a-1913-4fef-9528-2c4dc71deea2",
+          "title": "Stankonia (Stanklove)",
+          "workIds": [
+            "d91a4522-8314-324f-9fd0-93167bbc91bd"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Big Rube",
+              "creditedAs": "Ruben Bailey",
+              "role": "writer",
+              "musicBrainzArtistId": "e7f0bd46-bbd8-4082-af04-2d053db7aed9"
+            },
+            {
+              "name": "Sleepy Brown",
+              "creditedAs": "Patrick Brown",
+              "role": "writer",
+              "musicBrainzArtistId": "e220955e-2810-4bbb-811b-6d30f62b6392"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 26,
+          "position": "2",
+          "recordingId": "72640944-bdd8-4a26-936f-dd5190b7b5ee",
+          "title": "Sole Sunday",
+          "workIds": [
+            "6139677d-330f-40bd-a6f5-a31d81e5abb2"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "André Benjamin",
+              "creditedAs": "André Benjamin",
+              "role": "writer",
+              "musicBrainzArtistId": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+            },
+            {
+              "name": "Big Boi",
+              "creditedAs": "Antwan André Patton",
+              "role": "writer",
+              "musicBrainzArtistId": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+            },
+            {
+              "name": "Big Gipp",
+              "creditedAs": "Cameron Gipp",
+              "role": "writer",
+              "musicBrainzArtistId": "5cb395b6-1cb9-4c9c-a79a-01a66513d1f6"
+            },
+            {
+              "name": "Mr. DJ",
+              "creditedAs": "David Sheats",
+              "role": "writer",
+              "musicBrainzArtistId": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba"
+            },
+            {
+              "name": "Khujo Goodie",
+              "creditedAs": "Willie Knighton",
+              "role": "writer",
+              "musicBrainzArtistId": "81eb1203-49fa-456b-b138-41193ab179b1"
+            }
+          ],
+          "lyricistCredits": []
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/00d2cd53-21c9-3738-b683-56847b7b0040"
+      }
+    },
+    {
+      "albumId": "album-alanis-morissette-jagged-little-pill-1995",
+      "artist": "Alanis Morissette",
+      "album": "Jagged Little Pill",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 1,
+          "position": "1",
+          "recordingId": "c5659cc0-b86b-4e2f-95f3-8d55b0d1e672",
+          "title": "All I Really Want",
+          "workIds": [
+            "3f82c0b7-0e2c-31c4-89f2-8e2fab08f3ae"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 2,
+          "position": "2",
+          "recordingId": "8e25b4da-cd53-45d8-9c86-aa0d72d8b5ce",
+          "title": "You Oughta Know",
+          "workIds": [
+            "b6025a57-0821-3bdd-9b03-ca24e2e08b37"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 3,
+          "position": "3",
+          "recordingId": "b0ead1e3-f8a0-4078-b994-c0c6a3f407c5",
+          "title": "Perfect",
+          "workIds": [
+            "695a6ce0-6ba9-3b31-9db6-319312d5eb7b"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 4,
+          "position": "4",
+          "recordingId": "a905e294-853a-436c-aa70-161e930265ee",
+          "title": "Hand in My Pocket",
+          "workIds": [
+            "9223a61c-6464-3e6d-8eeb-9feb63e94c48"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 5,
+          "position": "5",
+          "recordingId": "f171431e-2e3f-4898-a6e3-7062920c4e21",
+          "title": "Right Through You",
+          "workIds": [
+            "9e3198d2-bb20-3dce-8506-d2bb4dcbf0d2"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 7,
+          "position": "7",
+          "recordingId": "e3b19d83-1fe3-47ac-91d3-36ce33d53732",
+          "title": "You Learn",
+          "workIds": [
+            "54ed1837-acb6-3f09-aa70-423ed2fc35dc"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 8,
+          "position": "8",
+          "recordingId": "30624418-169b-4007-9b50-27414a63f5de",
+          "title": "Head Over Feet",
+          "workIds": [
+            "7defb790-4666-384e-b576-247ffeb6af13"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 9,
+          "position": "9",
+          "recordingId": "5955a265-57f9-4a3d-a7fa-27049469ca64",
+          "title": "Mary Jane",
+          "workIds": [
+            "63c0c831-05ff-3476-b998-c5ba45a88f29"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 10,
+          "position": "10",
+          "recordingId": "245329cb-8cdb-43ba-8fe4-0b3e1aad8761",
+          "title": "Ironic",
+          "workIds": [
+            "f945ef48-6d7f-3de1-a98f-bb9b1b148bff"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 11,
+          "position": "11",
+          "recordingId": "cd7c7fc6-c8dc-4b3e-8ae7-b92bb301bb3b",
+          "title": "Not the Doctor",
+          "workIds": [
+            "602d7498-7bd6-3c15-91c6-4f026a261aaf"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 12,
+          "position": "12",
+          "recordingId": "d3e78cc1-2f05-4e59-96f0-5b07495bb877",
+          "title": "Wake Up",
+          "workIds": [
+            "8a77695d-5a4b-3117-8213-a09bc3bb771b"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        },
+        {
+          "sequence": 13,
+          "position": "13",
+          "recordingId": "8a2f962e-0512-4d38-82b7-cbd6fefc9aed",
+          "title": "You Oughta Know (Jimmy the Saint Blend) / Your House",
+          "workIds": [
+            "b6025a57-0821-3bdd-9b03-ca24e2e08b37",
+            "bcdf4a66-8493-4ada-93fe-5bf72d687d8d"
+          ],
+          "composerCredits": [
+            {
+              "name": "Glen Ballard",
+              "creditedAs": "Glen Ballard",
+              "role": "composer",
+              "musicBrainzArtistId": "4d9768fd-947c-4b0a-beba-6191e2c830e2"
+            },
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "composer",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Alanis Morissette",
+              "creditedAs": "Alanis Morissette",
+              "role": "lyricist",
+              "musicBrainzArtistId": "4bdcee62-4902-4773-8cd1-e252e2e31225"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/ee3d18ed-d6a8-37c7-a964-41bbdb6d59f1"
+      }
+    },
+    {
+      "albumId": "album-n-w-a-straight-outta-compton-1988",
+      "artist": "N.W.A",
+      "album": "Straight Outta Compton",
+      "status": "candidate",
+      "confidence": "source-cache",
+      "tracks": [
+        {
+          "sequence": 1,
+          "position": "A1",
+          "recordingId": "179e7031-0c6c-498b-beb1-c9b27be9fb0c",
+          "title": "Straight Outta Compton",
+          "workIds": [
+            "fee433fa-763c-3674-8649-ea6b25d83689"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Dr. Dre",
+              "creditedAs": "Andre Young",
+              "role": "writer",
+              "musicBrainzArtistId": "5f6ab597-f57a-40da-be9e-adad48708203"
+            },
+            {
+              "name": "Eazy‐E",
+              "creditedAs": "Eric Wright",
+              "role": "writer",
+              "musicBrainzArtistId": "c3009d7a-51ac-4c9c-888a-04f5c3c4be0c"
+            },
+            {
+              "name": "Ice Cube",
+              "creditedAs": "O’Shea Jackson",
+              "role": "writer",
+              "musicBrainzArtistId": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+            },
+            {
+              "name": "MC Ren",
+              "creditedAs": "Lorenzo Patterson",
+              "role": "writer",
+              "musicBrainzArtistId": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 2,
+          "position": "A2",
+          "recordingId": "b8a42a61-e69b-43d5-84e9-6e3503f0d692",
+          "title": "_ _ _ _ tha Police (Fill in the Blanks)",
+          "workIds": [
+            "33b40a2d-eb2a-33a2-828b-96a498aa8d3f"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Eazy‐E",
+              "creditedAs": "Eazy‐E",
+              "role": "writer",
+              "musicBrainzArtistId": "c3009d7a-51ac-4c9c-888a-04f5c3c4be0c"
+            },
+            {
+              "name": "Ice Cube",
+              "creditedAs": "O’Shea Jackson",
+              "role": "writer",
+              "musicBrainzArtistId": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+            },
+            {
+              "name": "MC Ren",
+              "creditedAs": "Lorenzo Patterson",
+              "role": "writer",
+              "musicBrainzArtistId": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 3,
+          "position": "A3",
+          "recordingId": "d9633e2f-1d46-49e9-bc9e-9f80557d4414",
+          "title": "Gangsta Gangsta",
+          "workIds": [
+            "ca2775a7-3a92-4ea6-9d23-82fdc2714183"
+          ],
+          "composerCredits": [
+            {
+              "name": "Leroy Bonner",
+              "creditedAs": "Leroy Bonner",
+              "role": "composer",
+              "musicBrainzArtistId": "88b1b2c9-1cda-4dda-ae4b-2e8a4d00356a"
+            },
+            {
+              "name": "Dr. Dre",
+              "creditedAs": "Andre Young",
+              "role": "composer",
+              "musicBrainzArtistId": "5f6ab597-f57a-40da-be9e-adad48708203"
+            },
+            {
+              "name": "Eazy‐E",
+              "creditedAs": "Eric Wright",
+              "role": "composer",
+              "musicBrainzArtistId": "c3009d7a-51ac-4c9c-888a-04f5c3c4be0c"
+            },
+            {
+              "name": "Ice Cube",
+              "creditedAs": "O'Shea Jackson",
+              "role": "composer",
+              "musicBrainzArtistId": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+            },
+            {
+              "name": "Marshall Jones",
+              "creditedAs": "Marshall Jones",
+              "role": "composer",
+              "musicBrainzArtistId": "58824ae6-8f93-4e09-a1c3-c50858f912a7"
+            },
+            {
+              "name": "Ralph “Pee Wee” Middlebrooks",
+              "creditedAs": "Ralph “Pee Wee” Middlebrooks",
+              "role": "composer",
+              "musicBrainzArtistId": "e0f608de-b289-46eb-aba6-bcce89fd9d2d"
+            },
+            {
+              "name": "Junie Morrison",
+              "creditedAs": "Walter Morrison",
+              "role": "composer",
+              "musicBrainzArtistId": "39d895fa-c8e1-4dfe-ae14-9a1a302e64aa"
+            },
+            {
+              "name": "MC Ren",
+              "creditedAs": "Lorenzo Patterson",
+              "role": "composer",
+              "musicBrainzArtistId": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf"
+            },
+            {
+              "name": "Clarence Satchell",
+              "creditedAs": "Andrew Noland",
+              "role": "composer",
+              "musicBrainzArtistId": "eb2a70c7-7dab-415a-9546-79b5092f3461"
+            },
+            {
+              "name": "Greg Webster",
+              "creditedAs": "Greg Webster",
+              "role": "composer",
+              "musicBrainzArtistId": "68a77226-cc92-4e95-b264-18d219499b1b"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Eazy‐E",
+              "creditedAs": "Eazy‐E",
+              "role": "lyricist",
+              "musicBrainzArtistId": "c3009d7a-51ac-4c9c-888a-04f5c3c4be0c"
+            },
+            {
+              "name": "Ice Cube",
+              "creditedAs": "Ice Cube",
+              "role": "lyricist",
+              "musicBrainzArtistId": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+            },
+            {
+              "name": "MC Ren",
+              "creditedAs": "MC Ren",
+              "role": "lyricist",
+              "musicBrainzArtistId": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf"
+            }
+          ]
+        },
+        {
+          "sequence": 4,
+          "position": "A4",
+          "recordingId": "267f123e-ba15-42e7-9943-6ebd8765f6f0",
+          "title": "If It Ain’t Ruff",
+          "workIds": [
+            "b9af2834-8eb2-48f5-8795-3e7a636b1e1a"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Dr. Dre",
+              "creditedAs": "Andre Young",
+              "role": "writer",
+              "musicBrainzArtistId": "5f6ab597-f57a-40da-be9e-adad48708203"
+            },
+            {
+              "name": "MC Ren",
+              "creditedAs": "Lorenzo Patterson",
+              "role": "writer",
+              "musicBrainzArtistId": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 5,
+          "position": "A5",
+          "recordingId": "2c697f9c-ae59-4d19-a381-6f221e04f301",
+          "title": "Parental Discretion Iz Advised",
+          "workIds": [
+            "3facce6b-6302-4622-a7ea-6feb81e0555d"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Eazy‐E",
+              "creditedAs": "Eazy‐E",
+              "role": "writer",
+              "musicBrainzArtistId": "c3009d7a-51ac-4c9c-888a-04f5c3c4be0c"
+            },
+            {
+              "name": "Ice Cube",
+              "creditedAs": "Ice Cube",
+              "role": "writer",
+              "musicBrainzArtistId": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+            },
+            {
+              "name": "MC Ren",
+              "creditedAs": "MC Ren",
+              "role": "writer",
+              "musicBrainzArtistId": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 6,
+          "position": "B1",
+          "recordingId": "b7fa4a61-2446-40ea-b2d2-a7802a215134",
+          "title": "Express Yourself",
+          "workIds": [
+            "5ccba98b-b00f-3b05-aab0-174da6601e6f"
+          ],
+          "composerCredits": [
+            {
+              "name": "Charles Wright",
+              "creditedAs": "Charles Wright",
+              "role": "composer",
+              "musicBrainzArtistId": "dd868e1f-6d8d-44bc-822e-1c6159a228dc"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": [
+            {
+              "name": "Ice Cube",
+              "creditedAs": "O’Shea Jackson",
+              "role": "lyricist",
+              "musicBrainzArtistId": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+            }
+          ]
+        },
+        {
+          "sequence": 8,
+          "position": "B3",
+          "recordingId": "681e6de5-f120-48bb-ba07-69d8030edbd7",
+          "title": "I Ain’t tha 1",
+          "workIds": [
+            "4b6ef7ba-8cb8-4254-8814-4245c5f35fa7"
+          ],
+          "composerCredits": [],
+          "songwriterCredits": [
+            {
+              "name": "Ice Cube",
+              "creditedAs": "O'Shea Jackson",
+              "role": "writer",
+              "musicBrainzArtistId": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+            },
+            {
+              "name": "Randy Muller",
+              "creditedAs": "Randy Muller",
+              "role": "writer",
+              "musicBrainzArtistId": "2ab42057-ed4f-4ab0-b0a0-92e4f475aba7"
+            }
+          ],
+          "lyricistCredits": []
+        },
+        {
+          "sequence": 9,
+          "position": "B4",
+          "recordingId": "504bc14c-970f-4777-920e-68287ff208ff",
+          "title": "Dopeman (remix)",
+          "workIds": [
+            "55416664-b149-3ce4-a748-be920c70949b"
+          ],
+          "composerCredits": [
+            {
+              "name": "Ant Banks",
+              "creditedAs": "Ant Banks",
+              "role": "composer",
+              "musicBrainzArtistId": "74d6a4f2-d466-4429-bcc8-a8ba930d874e"
+            },
+            {
+              "name": "Ice Cube",
+              "creditedAs": "Ice Cube",
+              "role": "composer",
+              "musicBrainzArtistId": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+            },
+            {
+              "name": "Mack 10",
+              "creditedAs": "Dedrick Rolison",
+              "role": "composer",
+              "musicBrainzArtistId": "c3b4e25b-977f-4cb6-96d7-f68afbac732f"
+            }
+          ],
+          "songwriterCredits": [],
+          "lyricistCredits": []
+        }
+      ],
+      "source": {
+        "system": "musicbrainz-work-credit",
+        "url": "https://musicbrainz.org/release-group/fed1608d-80b7-38d2-aeb8-c6357f0d4c23"
+      }
+    }
+  ],
+  "gaps": [],
+  "scope": {
+    "atlasPath": "/tmp/album-atlas-no-work.json",
+    "selectedAlbumCount": 194,
+    "selection": "first 10 composer-credit gaps with MusicBrainz recording refs",
+    "albumCount": 10
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/073788f1-aca2-482f-9a64-6dde4f16012d?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "ab21fc13-46b1-35ae-bd99-cd6ab54280a7",
+        "title": "Crazy Love, Volume II",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.881.633-4",
+          "T-921.049.703-3"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "id": "073788f1-aca2-482f-9a64-6dde4f16012d",
+  "title": "Crazy Love, Vol. II",
+  "first-release-date": "1986-08-29",
+  "length": 259000
+}

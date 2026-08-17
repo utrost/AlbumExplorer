@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b0ead1e3-f8a0-4078-b994-c0c6a3f407c5?inc=work-rels&fmt=json",
+  "id": "b0ead1e3-f8a0-4078-b994-c0c6a3f407c5",
+  "first-release-date": "1995-06-09",
+  "title": "Perfect",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.273.612-6"
+        ],
+        "id": "695a6ce0-6ba9-3b31-9db6-319312d5eb7b",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Perfect",
+        "language": "eng",
+        "type": "Song"
+      },
+      "ended": false,
+      "direction": "forward",
+      "begin": null
+    }
+  ],
+  "disambiguation": "",
+  "length": 187893,
+  "video": false
+}

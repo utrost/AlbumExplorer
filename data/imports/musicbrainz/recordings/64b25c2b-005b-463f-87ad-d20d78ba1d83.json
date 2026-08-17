@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/64b25c2b-005b-463f-87ad-d20d78ba1d83?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "forward",
+      "target-credit": "",
+      "source-credit": "",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "ended": false,
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "title": "Machine Gun Funk",
+        "attributes": [],
+        "id": "40b8db4f-af5c-3610-9a7b-1802d22efac7",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song"
+      }
+    }
+  ],
+  "length": 256000,
+  "id": "64b25c2b-005b-463f-87ad-d20d78ba1d83",
+  "title": "Machine Gun Funk",
+  "disambiguation": "",
+  "video": false,
+  "first-release-date": "1994-09-13"
+}

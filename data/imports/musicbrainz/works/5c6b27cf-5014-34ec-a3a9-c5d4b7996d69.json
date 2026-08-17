@@ -1,0 +1,130 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5c6b27cf-5014-34ec-a3a9-c5d4b7996d69?inc=artist-rels&fmt=json",
+  "languages": [],
+  "attributes": [],
+  "iswcs": [],
+  "id": "5c6b27cf-5014-34ec-a3a9-c5d4b7996d69",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "artist": {
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "name": "André Benjamin",
+        "country": "US",
+        "sort-name": "Benjamin, André",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "sort-name": "Big Boi",
+        "country": "US",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "name": "Big Boi",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "Antwan André Patton",
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    },
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "country": "US",
+        "sort-name": "DJ, Mr.",
+        "name": "Mr. DJ",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "disambiguation": "US hip-hop producer David Sheats",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "David Sheats",
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Freese, Louis",
+        "name": "Louis Freese",
+        "id": "c1e4a400-5761-4904-9ccb-38974ad6a388"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Johnson, Erin",
+        "country": null,
+        "name": "Erin Johnson",
+        "id": "35a2824d-41be-492c-9d1c-5096d749ac0f"
+      },
+      "attribute-values": {},
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "language": null,
+  "type-id": null,
+  "title": "Xplosion",
+  "type": null
+}

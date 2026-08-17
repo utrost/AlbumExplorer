@@ -1,0 +1,130 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0916ef4b-d6fd-3a0a-a0c9-d68317f25dbd?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "id": "0916ef4b-d6fd-3a0a-a0c9-d68317f25dbd",
+  "title": "Everyday Struggle",
+  "language": null,
+  "type": null,
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "bbf47530-670b-462f-ac5f-99ce263995bd",
+        "country": null,
+        "type": "Person",
+        "name": "Norman Glover",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Glover, Norman"
+      }
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "7915b61a-da59-4e4e-83d3-bde7a24bd1ba",
+        "country": "US",
+        "name": "Dave Grusin",
+        "type": "Person",
+        "disambiguation": "American pianist and score composer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Grusin, Dave"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "Reginald Ellis",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "hip hop producer Reginald Ellis, Masta Ace associated",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lord Digga",
+        "id": "e6cc256d-b41d-4a33-b612-06541a4fd36d",
+        "country": null,
+        "name": "Lord Digga",
+        "type": "Person"
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "jazz drummer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Mason, Harvey",
+        "id": "1081d9bb-17fa-43cf-8b2e-05f7e6029f70",
+        "country": "US",
+        "name": "Harvey Mason",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "Christopher Wallace",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Notorious B.I.G., The",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "The Notorious B.I.G.",
+        "type": "Person",
+        "country": "US",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+      }
+    }
+  ],
+  "disambiguation": "",
+  "languages": [],
+  "iswcs": [],
+  "type-id": null
+}

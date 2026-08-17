@@ -1,0 +1,72 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ab21fc13-46b1-35ae-bd99-cd6ab54280a7?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "of Simon & Garfunkel",
+        "sort-name": "Simon, Paul",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "name": "Paul Simon",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type": "Person",
+        "name": "Paul Simon",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Simon, Paul",
+        "disambiguation": "of Simon & Garfunkel"
+      },
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "ab21fc13-46b1-35ae-bd99-cd6ab54280a7",
+  "title": "Crazy Love, Volume II",
+  "attributes": [
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "23805061",
+      "type": "BMI ID"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.881.633-4",
+    "T-921.049.703-3"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

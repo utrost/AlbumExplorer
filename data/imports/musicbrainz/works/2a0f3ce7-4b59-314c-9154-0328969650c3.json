@@ -1,0 +1,130 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2a0f3ce7-4b59-314c-9154-0328969650c3?inc=artist-rels&fmt=json",
+  "type": null,
+  "relations": [
+    {
+      "artist": {
+        "type": "Person",
+        "name": "André Benjamin",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Benjamin, André",
+        "disambiguation": ""
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer"
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Big Boi",
+        "disambiguation": "",
+        "name": "Big Boi",
+        "type": "Person",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "target-credit": "Antwan André Patton",
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "artist": {
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "country": "US",
+        "type": "Person",
+        "name": "Mr. DJ",
+        "disambiguation": "US hip-hop producer David Sheats",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "DJ, Mr."
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "David Sheats"
+    },
+    {
+      "target-credit": "Lola Mitchell",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Gangsta Boo",
+        "disambiguation": "",
+        "name": "Gangsta Boo",
+        "type": "Person",
+        "id": "39964eb9-3bf1-42c2-9cd6-b14079aef98c",
+        "country": "US"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "name": "Rashida Roberts",
+        "type": "Person",
+        "country": null,
+        "id": "e0468e85-310c-4a2b-a66c-aa2ea077e27c",
+        "sort-name": "Roberts, Rashida",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    }
+  ],
+  "language": null,
+  "title": "I'll Call Before I Come",
+  "id": "2a0f3ce7-4b59-314c-9154-0328969650c3",
+  "attributes": [],
+  "type-id": null,
+  "iswcs": [],
+  "languages": [],
+  "disambiguation": ""
+}

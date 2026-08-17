@@ -1,0 +1,84 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8c0cdc6e-1a89-3eba-a797-ba326934a2b9?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [],
+  "language": null,
+  "type": null,
+  "attributes": [],
+  "id": "8c0cdc6e-1a89-3eba-a797-ba326934a2b9",
+  "title": "Unbelievable",
+  "relations": [
+    {
+      "attribute-values": {},
+      "type": "writer",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "sort-name": "Kelly, R.",
+        "name": "R. Kelly",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "c2d25856-a09a-4d15-b404-77dd19c19e63"
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "type": "Person",
+        "name": "The Notorious B.I.G.",
+        "sort-name": "Notorious B.I.G., The",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "Christopher Wallace"
+    },
+    {
+      "target-credit": "Chris Martin",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "id": "084e06f5-3c82-4b71-bd94-dd69e7bd515e",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US hip hop producer & DJ",
+        "sort-name": "Premier, DJ",
+        "name": "DJ Premier",
+        "type": "Person"
+      },
+      "ended": false
+    }
+  ],
+  "iswcs": [],
+  "type-id": null
+}

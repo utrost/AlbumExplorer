@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/88ee00a0-669f-4eec-a0ec-f4f5a0fc643b?inc=work-rels&fmt=json",
+  "id": "88ee00a0-669f-4eec-a0ec-f4f5a0fc643b",
+  "first-release-date": "1967-05-26",
+  "title": "Fixing a Hole",
+  "length": 157000,
+  "video": false,
+  "disambiguation": "original mono studio mix",
+  "relations": [
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "end": "1967-02-21",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": "1967-02-09",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "iswcs": [
+          "T-010.436.647-3"
+        ],
+        "id": "97977664-6cb2-31f7-8ffd-5e86f7c7a419",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Fixing a Hole",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance"
+    }
+  ]
+}

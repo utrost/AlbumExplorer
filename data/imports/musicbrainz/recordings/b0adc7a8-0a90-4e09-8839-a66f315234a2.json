@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b0adc7a8-0a90-4e09-8839-a66f315234a2?inc=work-rels&fmt=json",
+  "length": 241141,
+  "id": "b0adc7a8-0a90-4e09-8839-a66f315234a2",
+  "first-release-date": "2006-10-30",
+  "video": false,
+  "disambiguation": "explicit",
+  "title": "Back to Black",
+  "relations": [
+    {
+      "target-type": "work",
+      "end": null,
+      "direction": "forward",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "work": {
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "title": "Back to Black",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "769f4a49-44f5-3588-bf07-c19e01952501",
+        "iswcs": [
+          "T-900.190.402-5"
+        ],
+        "attributes": [],
+        "language": "eng"
+      },
+      "type": "performance",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false
+    }
+  ]
+}

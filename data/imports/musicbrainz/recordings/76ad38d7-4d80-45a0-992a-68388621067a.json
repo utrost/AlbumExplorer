@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/76ad38d7-4d80-45a0-992a-68388621067a?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "forward",
+      "begin": "1977-01",
+      "ended": true,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "work": {
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "36ff6f1f-b063-3c35-8abc-1fb667aecb8e",
+        "type": "Song",
+        "title": "One Love / People Get Ready",
+        "language": "eng",
+        "iswcs": [
+          "T-070.121.116-6"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "end": "1977-04",
+      "attribute-ids": {},
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance"
+    }
+  ],
+  "length": 172000,
+  "first-release-date": "1977-06-03",
+  "title": "One Love / People Get Ready",
+  "video": false,
+  "id": "76ad38d7-4d80-45a0-992a-68388621067a",
+  "disambiguation": "1977 re-recording"
+}

@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d8ef235f-abc8-4d04-b970-c7231cbfce7c?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "attributes": [],
+  "id": "d8ef235f-abc8-4d04-b970-c7231cbfce7c",
+  "disambiguation": "",
+  "relations": [
+    {
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "disambiguation": ""
+      },
+      "attribute-ids": {},
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "end": null,
+      "begin": null,
+      "ended": false,
+      "type": "arranger",
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Don van Vliet",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "sort-name": "Vliet, Don van"
+      }
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {},
+      "end": null,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Don van Vliet",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "sort-name": "Vliet, Don van"
+      },
+      "begin": null,
+      "ended": false,
+      "type": "lyricist",
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": ""
+    }
+  ],
+  "language": "eng",
+  "title": "Ant Man Bee",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

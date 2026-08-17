@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3fc3d231-2ea3-333c-9884-38293f6ca35b?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "language": "eng",
+  "relations": [
+    {
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "artist": {
+        "type": "Person",
+        "country": "JM",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Jamaican reggae artist",
+        "name": "Bob Marley",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "sort-name": "Marley, Bob"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "begin": null
+    },
+    {
+      "begin": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "JM",
+        "type": "Person",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "sort-name": "Marley, Bob",
+        "disambiguation": "Jamaican reggae artist",
+        "name": "Bob Marley"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false
+    }
+  ],
+  "title": "Natural Mystic",
+  "disambiguation": "",
+  "id": "3fc3d231-2ea3-333c-9884-38293f6ca35b",
+  "iswcs": [],
+  "attributes": []
+}

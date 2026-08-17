@@ -1,0 +1,84 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/55416664-b149-3ce4-a748-be920c70949b?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "title": "Dopeman",
+  "language": null,
+  "id": "55416664-b149-3ce4-a748-be920c70949b",
+  "type": null,
+  "type-id": null,
+  "disambiguation": "",
+  "relations": [
+    {
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "target-type": "artist",
+      "source-credit": "",
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "name": "Ant Banks",
+        "country": "US",
+        "type": "Person",
+        "id": "74d6a4f2-d466-4429-bcc8-a8ba930d874e",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Banks, Ant"
+      },
+      "begin": null
+    },
+    {
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "name": "Ice Cube",
+        "country": "US",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "sort-name": "Ice Cube"
+      },
+      "begin": null,
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "Dedrick Rolison",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "name": "Mack 10",
+        "country": "US",
+        "type": "Person",
+        "id": "c3b4e25b-977f-4cb6-96d7-f68afbac732f",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Mack 10"
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {}
+    }
+  ],
+  "attributes": [],
+  "languages": []
+}

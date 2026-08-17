@@ -1,0 +1,68 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/61f3b135-e4e3-4aad-b25d-14343bfc5999?inc=work-rels&fmt=json",
+  "length": 79000,
+  "relations": [
+    {
+      "direction": "forward",
+      "source-credit": "",
+      "ended": true,
+      "attribute-values": {},
+      "begin": "1967-04-01",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "id": "ba8adcd2-537e-3204-a427-86b391e40469",
+        "type": "Song",
+        "iswcs": [],
+        "language": "eng",
+        "title": "Sgt. Pepper’s Lonely Hearts Club Band (reprise)",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "attribute-ids": {},
+      "end": "1967-04-01",
+      "attributes": [],
+      "target-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work"
+    },
+    {
+      "target-credit": "",
+      "work": {
+        "title": "Sgt. Pepper’s Lonely Hearts Club Band",
+        "language": "eng",
+        "iswcs": [
+          "T-010.971.514-1"
+        ],
+        "id": "c6402058-011c-30d1-8189-6d8eedebfed2",
+        "type": "Song",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "source-credit": "",
+      "begin": null,
+      "ended": false,
+      "attribute-values": {}
+    }
+  ],
+  "id": "61f3b135-e4e3-4aad-b25d-14343bfc5999",
+  "disambiguation": "original mono studio mix",
+  "video": false,
+  "title": "Sgt. Pepper’s Lonely Hearts Club Band (Reprise)",
+  "first-release-date": "1967-05-26"
+}

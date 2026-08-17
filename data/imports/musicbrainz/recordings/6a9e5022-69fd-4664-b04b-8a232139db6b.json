@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6a9e5022-69fd-4664-b04b-8a232139db6b?inc=work-rels&fmt=json",
+  "disambiguation": "original mono studio mix",
+  "video": false,
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "2c938be6-7a64-3ca4-b011-52c87ce1b332",
+        "title": "Lovely Rita",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-010.436.200-6"
+        ],
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": true,
+      "end": "1967-03-21",
+      "begin": "1967-02-23",
+      "attribute-ids": {}
+    }
+  ],
+  "length": 163000,
+  "title": "Lovely Rita",
+  "id": "6a9e5022-69fd-4664-b04b-8a232139db6b",
+  "first-release-date": "1967-05-26"
+}

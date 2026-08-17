@@ -1,0 +1,107 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/cbce18f4-8ad5-330d-aad3-bbb3d556a325?inc=artist-rels&fmt=json",
+  "id": "cbce18f4-8ad5-330d-aad3-bbb3d556a325",
+  "title": "Warning",
+  "attributes": [],
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bacharach, Burt",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Burt Bacharach",
+        "id": "2882ffa3-dec9-4055-a842-a950728bcb02",
+        "country": "US"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "David, Hal",
+        "id": "41f5d2cd-672b-460e-8ab6-e29db2f1e088",
+        "country": "US",
+        "name": "Hal David",
+        "type": "Person"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    },
+    {
+      "artist": {
+        "sort-name": "Easy Mo Bee",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Easy Mo Bee",
+        "type": "Person",
+        "country": "US",
+        "id": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "Osten Harvey, Jr.",
+      "attribute-values": {},
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer"
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Notorious B.I.G., The",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "The Notorious B.I.G.",
+        "country": "US",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+      },
+      "target-credit": "Christopher Wallace",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    }
+  ],
+  "type": null,
+  "language": null,
+  "languages": [],
+  "iswcs": [],
+  "disambiguation": "",
+  "type-id": null
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0983820d-abc4-34da-83e8-654dc168e038?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "artist": {
+        "name": "Bob Marley",
+        "country": "JM",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Jamaican reggae artist",
+        "type": "Person",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "sort-name": "Marley, Bob"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "direction": "backward",
+      "source-credit": "",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-credit": ""
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-type": "artist",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Marley, Bob",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Jamaican reggae artist",
+        "type": "Person",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "country": "JM",
+        "name": "Bob Marley"
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "backward"
+    }
+  ],
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "id": "0983820d-abc4-34da-83e8-654dc168e038",
+  "type": "Song",
+  "title": "Turn Your Lights Down Low",
+  "language": "eng",
+  "iswcs": [
+    "T-070.184.561-5"
+  ]
+}

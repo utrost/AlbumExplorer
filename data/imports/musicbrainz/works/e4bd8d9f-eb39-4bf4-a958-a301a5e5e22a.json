@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e4bd8d9f-eb39-4bf4-a958-a301a5e5e22a?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "id": "e4bd8d9f-eb39-4bf4-a958-a301a5e5e22a",
+  "title": "Hair Pie: Bake 1",
+  "language": "zxx",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "arranger",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "artist": {
+        "name": "Don van Vliet",
+        "type": "Person",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Vliet, Don van",
+        "disambiguation": ""
+      }
+    },
+    {
+      "artist": {
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "country": "US",
+        "type": "Person",
+        "name": "Don van Vliet",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Vliet, Don van"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer"
+    }
+  ],
+  "disambiguation": "",
+  "languages": [
+    "zxx"
+  ],
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

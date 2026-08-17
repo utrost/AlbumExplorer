@@ -1,0 +1,84 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/79a5ae32-446f-3d86-b2bd-e18d0ec7495e?inc=artist-rels&fmt=json",
+  "language": null,
+  "type-id": null,
+  "title": "Toilet Tisha",
+  "type": null,
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "André Benjamin",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "sort-name": "Benjamin, André",
+        "country": "US"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "target-type": "artist",
+      "artist": {
+        "name": "Big Boi",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "sort-name": "Big Boi",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "Antwan André Patton",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "target-credit": "David Sheats",
+      "artist": {
+        "name": "Mr. DJ",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "sort-name": "DJ, Mr.",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US hip-hop producer David Sheats"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "id": "79a5ae32-446f-3d86-b2bd-e18d0ec7495e",
+  "iswcs": [],
+  "languages": [],
+  "attributes": []
+}

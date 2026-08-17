@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/20e759f6-6350-4d6f-b90d-be9068744ff6?inc=work-rels&fmt=json",
+  "id": "20e759f6-6350-4d6f-b90d-be9068744ff6",
+  "first-release-date": "1969-11",
+  "title": "Old Fart at Play",
+  "disambiguation": "",
+  "length": 111266,
+  "video": false,
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "work": {
+        "id": "57246b19-235a-4953-95ef-751ccd02ccb5",
+        "iswcs": [],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Old Fart at Play",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "begin": null,
+      "direction": "forward",
+      "ended": false
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fee433fa-763c-3674-8649-ea6b25d83689?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "Andre Young",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Andre Young, rap producer",
+        "id": "5f6ab597-f57a-40da-be9e-adad48708203",
+        "name": "Dr. Dre",
+        "country": "US",
+        "sort-name": "Dre, Dr."
+      },
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Eazy‐E",
+        "country": "US",
+        "id": "c3009d7a-51ac-4c9c-888a-04f5c3c4be0c",
+        "name": "Eazy‐E"
+      },
+      "target-credit": "Eric Wright",
+      "target-type": "artist"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "O’Shea Jackson",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Ice Cube",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "sort-name": "Ice Cube",
+        "country": "US"
+      }
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "Lorenzo Patterson",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf",
+        "name": "MC Ren",
+        "sort-name": "Ren, MC",
+        "country": "US"
+      },
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Straight Outta Compton",
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "002159 128 78"
+    },
+    {
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "type": "SPAC ID",
+      "value": "5034801"
+    },
+    {
+      "value": "476454",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SOBODAYCOM ID",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "value": "5034801"
+    },
+    {
+      "value": "806100900",
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+    },
+    {
+      "value": "2.451.888",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type": "SGACEDOM ID",
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "value": "5034801"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "934801"
+    },
+    {
+      "value": "934801",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "727041",
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID",
+      "value": "2094778"
+    },
+    {
+      "value": "056883540",
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "type": "SACIM ID",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "value": "5034801"
+    },
+    {
+      "value": "42 912 992 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "253275000"
+    },
+    {
+      "value": "10532BM",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "type": "NICAUTOR ID",
+      "value": "5034801"
+    },
+    {
+      "type": "MACP ID",
+      "type-id": "8da393f8-33c5-4ddf-afda-a035f0d46026",
+      "value": "1000342135"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0A3-9223-9"
+    },
+    {
+      "value": "2454975-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "value": "940226",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "168233"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "5845520"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "10046491"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "13490968"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000744193"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000744192"
+    },
+    {
+      "value": "490666929",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "value": "GW03893630",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "value": "2315280",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "value": "5479039",
+      "type": "APA ID",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID",
+      "value": "160916301"
+    },
+    {
+      "value": "4638757",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID"
+    },
+    {
+      "value": "5034801",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "type": "AEI ID"
+    },
+    {
+      "value": "5034801",
+      "type": "ACAM ID",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+    },
+    {
+      "type": "AACIMH ID",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "value": "5034801"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.168.232-7"
+  ],
+  "id": "fee433fa-763c-3674-8649-ea6b25d83689"
+}

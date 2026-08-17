@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a40d2f44-5ddb-4df4-ae55-1acbfef415ae?inc=work-rels&fmt=json",
+  "first-release-date": "1967-05-26",
+  "id": "a40d2f44-5ddb-4df4-ae55-1acbfef415ae",
+  "length": 164000,
+  "video": false,
+  "disambiguation": "original mono studio mix",
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1967-03-29",
+      "ended": true,
+      "work": {
+        "title": "With a Little Help From My Friends",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-010.433.617-5"
+        ],
+        "id": "8388f958-0fef-30ea-a70a-f1803868ecf9",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1967-03-30",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "title": "With a Little Help From My Friends"
+}

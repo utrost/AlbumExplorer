@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0edbf1f6-b562-42d8-9515-7da7b84f8bbd?inc=work-rels&fmt=json",
+  "title": "The What",
+  "video": false,
+  "length": 237480,
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "id": "8dd7ee5e-5ee8-335a-add0-c530a4943f68",
+        "iswcs": [],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "The What",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "begin": null,
+      "direction": "forward",
+      "ended": false
+    }
+  ],
+  "id": "0edbf1f6-b562-42d8-9515-7da7b84f8bbd",
+  "first-release-date": "1994-09-13"
+}

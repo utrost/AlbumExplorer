@@ -1,0 +1,149 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/27d21beb-2b92-386a-b5a8-5fc2dc2f93f4?inc=artist-rels&fmt=json",
+  "id": "27d21beb-2b92-386a-b5a8-5fc2dc2f93f4",
+  "iswcs": [
+    "T-700.011.368-0"
+  ],
+  "attributes": [
+    {
+      "value": "1050285",
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "12115576"
+    },
+    {
+      "value": "1109523",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "value": "1109523",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "1608177",
+      "type": "SACVEN ID",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID",
+      "value": "0D2-2490-6"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "1388085"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "350463"
+    },
+    {
+      "type": "ARTISJUS ID",
+      "type-id": "5e3b8fc2-3a4e-4a92-a572-6339863c1cf4",
+      "value": "4000668163"
+    },
+    {
+      "value": "3576435",
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "162590301"
+    },
+    {
+      "value": "5326991",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "The Dust Blows Forward ’n The Dust Blows Back",
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "arranger",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "sort-name": "Vliet, Don van",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "name": "Don van Vliet",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08"
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "name": "Don van Vliet",
+        "sort-name": "Vliet, Don van",
+        "country": "US"
+      },
+      "target-type": "artist"
+    },
+    {
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Vliet, Don van",
+        "country": "US",
+        "name": "Don van Vliet",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist"
+    }
+  ],
+  "disambiguation": ""
+}

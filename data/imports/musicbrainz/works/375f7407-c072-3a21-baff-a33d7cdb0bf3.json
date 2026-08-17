@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/375f7407-c072-3a21-baff-a33d7cdb0bf3?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Bob Marley",
+        "type": "Person",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "country": "JM",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Marley, Bob",
+        "disambiguation": "Jamaican reggae artist"
+      }
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type": "Person",
+        "name": "Bob Marley",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "country": "JM",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Marley, Bob",
+        "disambiguation": "Jamaican reggae artist"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "lyricist",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    }
+  ],
+  "attributes": [],
+  "id": "375f7407-c072-3a21-baff-a33d7cdb0bf3",
+  "title": "So Much Things to Say"
+}

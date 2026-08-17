@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/52a6becc-a924-3a91-990e-bd29dd622f8a?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "id": "52a6becc-a924-3a91-990e-bd29dd622f8a",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "title": "Sugar ’n Spikes",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "sort-name": "Vliet, Don van",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "name": "Don van Vliet"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "arranger",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Vliet, Don van",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "name": "Don van Vliet",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-type": "artist"
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0b3ffb87-c57c-376f-9ad7-3274a7d28d1a?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-070.050.791-0"
+  ],
+  "id": "0b3ffb87-c57c-376f-9ad7-3274a7d28d1a",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Exodus",
+  "relations": [
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Jamaican reggae artist",
+        "name": "Bob Marley",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "sort-name": "Marley, Bob",
+        "country": "JM"
+      },
+      "target-credit": ""
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "name": "Bob Marley",
+        "sort-name": "Marley, Bob",
+        "country": "JM",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Jamaican reggae artist"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "disambiguation": ""
+}

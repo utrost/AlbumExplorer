@@ -1,0 +1,118 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f703d921-fd1d-3e98-bfd6-24814b5564b7?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "country": "ZA",
+        "sort-name": "Shabalala, Joseph",
+        "id": "1391550a-b7f1-4033-9927-fb8855f2493e",
+        "name": "Joseph Shabalala",
+        "disambiguation": "founder and musical director of Ladysmith Black Mambazo",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": []
+    },
+    {
+      "target-credit": "",
+      "artist": {
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "name": "Paul Simon",
+        "sort-name": "Simon, Paul",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "of Simon & Garfunkel"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "name": "Joseph Shabalala",
+        "id": "1391550a-b7f1-4033-9927-fb8855f2493e",
+        "sort-name": "Shabalala, Joseph",
+        "country": "ZA",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "founder and musical director of Ladysmith Black Mambazo"
+      },
+      "attribute-values": {},
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "of Simon & Garfunkel",
+        "name": "Paul Simon",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "country": "US",
+        "sort-name": "Simon, Paul"
+      },
+      "target-credit": ""
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "mul",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Homeless",
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "580656"
+    }
+  ],
+  "languages": [
+    "eng",
+    "zul"
+  ],
+  "id": "f703d921-fd1d-3e98-bfd6-24814b5564b7",
+  "iswcs": [
+    "T-904.996.553-9"
+  ]
+}

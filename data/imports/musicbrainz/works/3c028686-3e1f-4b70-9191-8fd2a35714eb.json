@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3c028686-3e1f-4b70-9191-8fd2a35714eb?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "title": "Hobo Chang Ba",
+  "attributes": [],
+  "id": "3c028686-3e1f-4b70-9191-8fd2a35714eb",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "end": null,
+      "attribute-values": {},
+      "type": "arranger"
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "target-credit": "",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "ended": false,
+      "artist": {
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "name": "Don van Vliet",
+        "type": "Person",
+        "sort-name": "Vliet, Don van"
+      },
+      "attributes": [],
+      "type": "composer",
+      "attribute-values": {}
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type": "lyricist",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "name": "Don van Vliet",
+        "type": "Person",
+        "sort-name": "Vliet, Don van",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ]
+}

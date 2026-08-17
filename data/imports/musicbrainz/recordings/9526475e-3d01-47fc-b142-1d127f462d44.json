@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9526475e-3d01-47fc-b142-1d127f462d44?inc=work-rels&fmt=json",
+  "first-release-date": "1986-08-29",
+  "id": "9526475e-3d01-47fc-b142-1d127f462d44",
+  "disambiguation": "",
+  "length": 164800,
+  "video": false,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Gumboots",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-904.996.523-3"
+        ],
+        "id": "683661f8-4124-36db-ab44-c26a86ad1cd9"
+      },
+      "ended": false,
+      "direction": "forward",
+      "begin": null
+    }
+  ],
+  "title": "Gumboots"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ebf11bdd-0588-44c6-8d92-b029fee7d58d?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 193173,
+  "id": "ebf11bdd-0588-44c6-8d92-b029fee7d58d",
+  "title": "I Know What I Know",
+  "first-release-date": "1986-08-29",
+  "relations": [
+    {
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-906.681.023-9"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "title": "I Know What I Know",
+        "id": "48b6b4dc-a32d-37c5-8462-7af8a2c317f3",
+        "attributes": []
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false
+}

@@ -27,3 +27,11 @@ test('package exposes Cover Art Archive focused importer and app dataset builder
   assert.match(script, /cover-art-archive-candidates\.json/);
   assert.match(script, /coverArtCandidates/);
 });
+
+test('package exposes MusicBrainz work-credit importer and app dataset builder consumes it', () => {
+  assert.match(packageJson.scripts['import:musicbrainz-work-credits'], /scripts\/import-musicbrainz-work-credit-candidates\.js/);
+  const script = readFileSync('scripts/build-app-dataset.js', 'utf8');
+
+  assert.match(script, /musicbrainz-work-credit-candidates\.json/);
+  assert.match(script, /musicBrainzWorkCreditCandidates/);
+});

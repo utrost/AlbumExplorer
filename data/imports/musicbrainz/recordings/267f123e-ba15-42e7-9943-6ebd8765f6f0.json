@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/267f123e-ba15-42e7-9943-6ebd8765f6f0?inc=work-rels&fmt=json",
+  "title": "If It Ain’t Ruff",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "begin": null,
+      "type": "performance",
+      "ended": false,
+      "work": {
+        "id": "b9af2834-8eb2-48f5-8795-3e7a636b1e1a",
+        "disambiguation": "",
+        "iswcs": [
+          "T-071.184.060-6"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "If It Ain’t Ruff",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": []
+    }
+  ],
+  "disambiguation": "",
+  "id": "267f123e-ba15-42e7-9943-6ebd8765f6f0",
+  "video": false,
+  "length": 214426,
+  "first-release-date": "1988-08-08"
+}

@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/65ecdf9f-472d-3893-a6d5-e8ac964c5872?inc=artist-rels&fmt=json",
+  "type": null,
+  "disambiguation": "",
+  "languages": [],
+  "language": null,
+  "type-id": null,
+  "iswcs": [],
+  "title": "Things Done Changed",
+  "id": "65ecdf9f-472d-3893-a6d5-e8ac964c5872",
+  "attributes": [],
+  "relations": [
+    {
+      "target-credit": "Christopher Wallace",
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type": "writer",
+      "attribute-values": {},
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Notorious B.I.G., The",
+        "name": "The Notorious B.I.G.",
+        "type": "Person"
+      },
+      "ended": false,
+      "attributes": []
+    },
+    {
+      "attribute-values": {},
+      "type": "writer",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "engineer",
+        "sort-name": "Scott, Kevin",
+        "type": "Person",
+        "name": "Kevin Scott",
+        "id": "b4d403ef-156b-4882-b30b-090ebe25f7e6",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "end": null,
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward"
+    }
+  ]
+}

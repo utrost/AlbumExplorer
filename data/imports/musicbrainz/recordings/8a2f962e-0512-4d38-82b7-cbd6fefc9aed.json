@@ -1,0 +1,72 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/8a2f962e-0512-4d38-82b7-cbd6fefc9aed?inc=work-rels&fmt=json",
+  "first-release-date": "1995-06-09",
+  "id": "8a2f962e-0512-4d38-82b7-cbd6fefc9aed",
+  "video": false,
+  "length": 491013,
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "work",
+      "ordering-key": 1,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "iswcs": [
+          "T-070.282.410-9"
+        ],
+        "id": "b6025a57-0821-3bdd-9b03-ca24e2e08b37",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "You Oughta Know",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": ""
+      }
+    },
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "ordering-key": 2,
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "direction": "forward",
+      "ended": false,
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Your House",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "id": "bcdf4a66-8493-4ada-93fe-5bf72d687d8d",
+        "iswcs": [
+          "T-070.282.428-9"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance"
+    }
+  ],
+  "title": "You Oughta Know (Jimmy the Saint blend) / Your House (a cappella)"
+}

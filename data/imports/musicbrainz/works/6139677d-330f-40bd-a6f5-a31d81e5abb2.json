@@ -1,0 +1,130 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6139677d-330f-40bd-a6f5-a31d81e5abb2?inc=artist-rels&fmt=json",
+  "type-id": null,
+  "iswcs": [],
+  "languages": [],
+  "disambiguation": "",
+  "type": null,
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Benjamin, André",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "country": "US",
+        "type": "Person",
+        "name": "André Benjamin"
+      }
+    },
+    {
+      "target-credit": "Antwan André Patton",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Big Boi",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Big Boi",
+        "country": "US",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "Cameron Gipp",
+      "artist": {
+        "country": "US",
+        "id": "5cb395b6-1cb9-4c9c-a79a-01a66513d1f6",
+        "name": "Big Gipp",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Big Gipp",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "David Sheats",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "US hip-hop producer David Sheats",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "DJ, Mr.",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "country": "US",
+        "type": "Person",
+        "name": "Mr. DJ"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "Willie Knighton",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "id": "81eb1203-49fa-456b-b138-41193ab179b1",
+        "type": "Person",
+        "name": "Khujo Goodie",
+        "disambiguation": "",
+        "sort-name": "Goodie, Khujo",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    }
+  ],
+  "language": null,
+  "id": "6139677d-330f-40bd-a6f5-a31d81e5abb2",
+  "title": "Sole Sunday",
+  "attributes": []
+}

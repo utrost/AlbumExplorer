@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4eca2971-aa63-3991-bff1-286b872c7bf3?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "name": "Bob Marley",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "country": "JM",
+        "sort-name": "Marley, Bob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Jamaican reggae artist"
+      },
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Jamaican reggae artist",
+        "name": "Bob Marley",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "country": "JM",
+        "sort-name": "Marley, Bob"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "The Heathen",
+  "language": "eng",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "4eca2971-aa63-3991-bff1-286b872c7bf3",
+  "iswcs": []
+}

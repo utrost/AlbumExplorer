@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d3e78cc1-2f05-4e59-96f0-5b07495bb877?inc=work-rels&fmt=json",
+  "first-release-date": "1995-06-09",
+  "id": "d3e78cc1-2f05-4e59-96f0-5b07495bb877",
+  "length": 293800,
+  "video": false,
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "id": "8a77695d-5a4b-3117-8213-a09bc3bb771b",
+        "iswcs": [
+          "T-070.281.301-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "title": "Wake Up",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "begin": null,
+      "direction": "forward",
+      "ended": false
+    }
+  ],
+  "title": "Wake Up"
+}

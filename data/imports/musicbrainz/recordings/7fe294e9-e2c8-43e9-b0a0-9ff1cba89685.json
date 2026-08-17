@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7fe294e9-e2c8-43e9-b0a0-9ff1cba89685?inc=work-rels&fmt=json",
+  "length": 215066,
+  "id": "7fe294e9-e2c8-43e9-b0a0-9ff1cba89685",
+  "first-release-date": "1967-05-26",
+  "title": "She’s Leaving Home",
+  "video": false,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-010.433.714-5"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "7c61468a-308d-3cd3-92ae-cc0858744949",
+        "title": "She’s Leaving Home",
+        "attributes": []
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": "1967-03-20",
+      "attribute-ids": {},
+      "begin": "1967-03-17",
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true
+    }
+  ],
+  "disambiguation": "original mono studio mix"
+}

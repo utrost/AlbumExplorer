@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/28feac8d-e956-39de-a30e-4bed76ee6af0?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "sort-name": "Page, Jimmy",
+        "id": "519774a4-3b18-4042-b8c0-927845a616c9",
+        "name": "Jimmy Page"
+      },
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "of Led Zeppelin",
+        "name": "Robert Plant",
+        "id": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc",
+        "sort-name": "Plant, Robert",
+        "country": "GB"
+      }
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "title": "Four Sticks",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "28feac8d-e956-39de-a30e-4bed76ee6af0",
+  "iswcs": [
+    "T-070.056.818-8"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/48b6b4dc-a32d-37c5-8462-7af8a2c317f3?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-type": "artist",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "4305173a-cafa-416f-b8b3-7d16343201a4",
+        "name": "General M. D. Shirinda",
+        "sort-name": "Shirinda, M. D., General",
+        "country": null
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "country": "US",
+        "sort-name": "Simon, Paul",
+        "name": "Paul Simon",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "disambiguation": "of Simon & Garfunkel",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": []
+    },
+    {
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "of Simon & Garfunkel",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Simon, Paul",
+        "country": "US",
+        "name": "Paul Simon",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "I Know What I Know",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "value": "633042",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    }
+  ],
+  "iswcs": [
+    "T-906.681.023-9"
+  ],
+  "id": "48b6b4dc-a32d-37c5-8462-7af8a2c317f3"
+}

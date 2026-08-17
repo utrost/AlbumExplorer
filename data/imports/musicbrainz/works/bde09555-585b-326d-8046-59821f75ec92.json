@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/bde09555-585b-326d-8046-59821f75ec92?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "type-id": null,
+  "attributes": [],
+  "title": "Ms. Jackson",
+  "id": "bde09555-585b-326d-8046-59821f75ec92",
+  "language": "eng",
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "name": "André Benjamin",
+        "country": "US",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "sort-name": "Benjamin, André",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "name": "Big Boi",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Big Boi",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "Antwan André Patton",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "name": "Mr. DJ",
+        "type": "Person",
+        "disambiguation": "US hip-hop producer David Sheats",
+        "sort-name": "DJ, Mr.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "David Sheats",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "type": null
+}

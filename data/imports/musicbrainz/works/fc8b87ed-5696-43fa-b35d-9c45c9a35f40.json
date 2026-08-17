@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fc8b87ed-5696-43fa-b35d-9c45c9a35f40?inc=artist-rels&fmt=json",
+  "id": "fc8b87ed-5696-43fa-b35d-9c45c9a35f40",
+  "iswcs": [],
+  "languages": [
+    "zxx"
+  ],
+  "attributes": [],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Dali’s Car",
+  "language": "zxx",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Vliet, Don van",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "name": "Don van Vliet"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "type": "arranger",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "disambiguation": ""
+}

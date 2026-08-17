@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fdbb441d-9305-4d94-85a7-5ce8d589a6c6?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Vliet, Don van",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "name": "Don van Vliet",
+        "type": "Person"
+      },
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "arranger",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Vliet, Don van",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "country": "US",
+        "type": "Person",
+        "name": "Don van Vliet"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Vliet, Don van",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Don van Vliet",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "country": "US"
+      },
+      "type": "lyricist",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "title": "Bills Corpse",
+  "id": "fdbb441d-9305-4d94-85a7-5ce8d589a6c6",
+  "attributes": []
+}

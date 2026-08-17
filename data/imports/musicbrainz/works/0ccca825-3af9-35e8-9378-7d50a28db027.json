@@ -1,0 +1,81 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0ccca825-3af9-35e8-9378-7d50a28db027?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "country": "GB",
+        "sort-name": "Lennon, John",
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "name": "John Lennon",
+        "disambiguation": "The Beatles",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "disambiguation": "The Beatles",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "sort-name": "McCartney, Paul",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "name": "Paul McCartney"
+      },
+      "target-credit": ""
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "When I’m Sixty‐Four",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "value": "001114603",
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "value": "242954EM",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "1644238",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    }
+  ],
+  "id": "0ccca825-3af9-35e8-9378-7d50a28db027",
+  "iswcs": [
+    "T-900.306.439-9"
+  ]
+}

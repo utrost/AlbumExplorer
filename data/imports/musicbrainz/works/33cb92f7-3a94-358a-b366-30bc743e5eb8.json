@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/33cb92f7-3a94-358a-b366-30bc743e5eb8?inc=artist-rels&fmt=json",
+  "title": "Orange Claw Hammer",
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "begin": null,
+      "artist": {
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type": "arranger",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {}
+    },
+    {
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "name": "Don van Vliet",
+        "sort-name": "Vliet, Don van",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward"
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Vliet, Don van",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "name": "Don van Vliet"
+      },
+      "attribute-ids": {},
+      "type": "lyricist",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {}
+    }
+  ],
+  "language": "eng",
+  "id": "33cb92f7-3a94-358a-b366-30bc743e5eb8",
+  "attributes": [],
+  "iswcs": []
+}

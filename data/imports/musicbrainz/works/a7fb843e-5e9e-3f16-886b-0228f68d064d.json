@@ -1,0 +1,156 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a7fb843e-5e9e-3f16-886b-0228f68d064d?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.203.461-4"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Marley, Bob",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Jamaican reggae artist",
+        "type": "Person",
+        "name": "Bob Marley",
+        "country": "JM",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "lyricist",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "sort-name": "Marley, Bob",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Jamaican reggae artist",
+        "type": "Person",
+        "name": "Bob Marley",
+        "country": "JM",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "a7fb843e-5e9e-3f16-886b-0228f68d064d",
+  "title": "Waiting in Vain",
+  "attributes": [
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "22343",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "value": "10862242",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "value": "760671",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0W1-1557-8",
+      "type": "JASRAC ID"
+    },
+    {
+      "value": "26494240",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "1972870"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "10072498",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "9916857"
+    },
+    {
+      "value": "9911451",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "203462",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-009913123",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "530225828"
+    },
+    {
+      "value": "GW34781280",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW33557005"
+    },
+    {
+      "type": "APRA ID",
+      "value": "GW00202610",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2353249",
+      "type": "APDAYC ID"
+    },
+    {
+      "value": "45044701",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4676662"
+    }
+  ]
+}

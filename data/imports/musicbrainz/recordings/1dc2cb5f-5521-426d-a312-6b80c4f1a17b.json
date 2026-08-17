@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/1dc2cb5f-5521-426d-a312-6b80c4f1a17b?inc=work-rels&fmt=json",
+  "id": "1dc2cb5f-5521-426d-a312-6b80c4f1a17b",
+  "first-release-date": "1977-06-03",
+  "title": "Turn Your Lights Down Low",
+  "disambiguation": "",
+  "length": 219160,
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1977-04",
+      "ended": true,
+      "direction": "forward",
+      "begin": "1977-01",
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "iswcs": [
+          "T-070.184.561-5"
+        ],
+        "id": "0983820d-abc4-34da-83e8-654dc168e038",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Turn Your Lights Down Low",
+        "disambiguation": ""
+      }
+    }
+  ]
+}

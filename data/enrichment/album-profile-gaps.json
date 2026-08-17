@@ -10,10 +10,10 @@
       "coverArt": 128,
       "tracklist": 124,
       "totalDuration": 200,
-      "composerCredits": 515,
+      "composerCredits": 505,
       "story": 173
     },
-    "albumsWithAnyGap": 577
+    "albumsWithAnyGap": 568
   },
   "groups": {
     "coverArt": {
@@ -215,17 +215,16 @@
             "2012": 60
           },
           "missing": [
-            "coverArt",
-            "composerCredits"
+            "coverArt"
           ],
           "existing": {
             "hasCoverArt": false,
             "trackCount": 28,
             "hasTotalDuration": true,
-            "hasComposerCredits": false,
+            "hasComposerCredits": true,
             "hasStory": true
           },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
+          "recommendedAction": "fetch-cover-art-source"
         },
         {
           "albumId": "album-phil-spector-back-to-mono-1991",
@@ -11963,7 +11962,7 @@
     },
     "composerCredits": {
       "field": "composerCredits",
-      "count": 515,
+      "count": 505,
       "items": [
         {
           "albumId": "album-beach-boys-pet-sounds-1966",
@@ -12292,31 +12291,6 @@
           "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
-          "albumId": "album-notorious-b-i-g-ready-to-die-1994",
-          "artist": "The Notorious B.I.G.",
-          "album": "Ready to Die",
-          "releaseYear": 1994,
-          "latestRank": 22,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 134,
-            "2012": 134,
-            "2020": 22,
-            "2024": 22
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 17,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-john-lennon-john-lennon-plastic-ono-band-1970",
           "artist": "John Lennon",
           "album": "John Lennon/Plastic Ono Band",
@@ -12334,31 +12308,6 @@
             "hasCoverArt": true,
             "trackCount": 11,
             "hasTotalDuration": false,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-beatles-sgt-peppers-lonely-hearts-club-band-1967",
-          "artist": "The Beatles",
-          "album": "Sgt. Pepper's Lonely Hearts Club Band",
-          "releaseYear": 1967,
-          "latestRank": 24,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 1,
-            "2012": 1,
-            "2020": 24,
-            "2024": 24
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 13,
-            "hasTotalDuration": true,
             "hasComposerCredits": false,
             "hasStory": true
           },
@@ -12460,30 +12409,6 @@
           "existing": {
             "hasCoverArt": true,
             "trackCount": 5,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-amy-winehouse-back-to-black-2006",
-          "artist": "Amy Winehouse",
-          "album": "Back to Black",
-          "releaseYear": 2006,
-          "latestRank": 33,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2012": 451,
-            "2020": 33,
-            "2024": 33
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 11,
             "hasTotalDuration": true,
             "hasComposerCredits": false,
             "hasStory": true
@@ -12669,31 +12594,6 @@
           "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
-          "albumId": "album-paul-simon-graceland-1986",
-          "artist": "Paul Simon",
-          "album": "Graceland",
-          "releaseYear": 1986,
-          "latestRank": 46,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 71,
-            "2012": 71,
-            "2020": 46,
-            "2024": 46
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 11,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-john-coltrane-a-love-supreme-1964",
           "artist": "John Coltrane",
           "album": "A Love Supreme",
@@ -12709,31 +12609,6 @@
           "existing": {
             "hasCoverArt": true,
             "trackCount": 3,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-bob-marley-and-the-wailers-exodus-1977",
-          "artist": "Bob Marley and the Wailers",
-          "album": "Exodus",
-          "releaseYear": 1977,
-          "latestRank": 48,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 169,
-            "2012": 169,
-            "2020": 71,
-            "2024": 48
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 10,
             "hasTotalDuration": true,
             "hasComposerCredits": false,
             "hasStory": true
@@ -12894,31 +12769,6 @@
           "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
-          "albumId": "album-led-zeppelin-led-zeppelin-iv-1971",
-          "artist": "Led Zeppelin",
-          "album": "Led Zeppelin IV",
-          "releaseYear": 1971,
-          "latestRank": 58,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 69,
-            "2012": 69,
-            "2020": 58,
-            "2024": 58
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 8,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-creedence-clearwater-revival-chronicle-vol-1-1976",
           "artist": "Creedence Clearwater Revival",
           "album": "Chronicle, Vol. 1",
@@ -12945,30 +12795,6 @@
           "recommendedAction": "fetch-album-content-sources"
         },
         {
-          "albumId": "album-captain-beefheart-and-his-magic-band-trout-mask-replica-1969",
-          "artist": "Captain Beefheart and his Magic Band",
-          "album": "Trout Mask Replica",
-          "releaseYear": 1969,
-          "latestRank": 60,
-          "latestEditionYear": 2012,
-          "ranks": {
-            "2003": 60,
-            "2012": 60
-          },
-          "missing": [
-            "coverArt",
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": false,
-            "trackCount": 28,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-van-morrison-astral-weeks-1968",
           "artist": "Van Morrison",
           "album": "Astral Weeks",
@@ -12987,31 +12813,6 @@
           "existing": {
             "hasCoverArt": true,
             "trackCount": 8,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-outkast-stankonia-2000",
-          "artist": "OutKast",
-          "album": "Stankonia",
-          "releaseYear": 2000,
-          "latestRank": 64,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 361,
-            "2012": 361,
-            "2020": 64,
-            "2024": 64
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 26,
             "hasTotalDuration": true,
             "hasComposerCredits": false,
             "hasStory": true
@@ -13137,53 +12938,6 @@
           "existing": {
             "hasCoverArt": true,
             "trackCount": 12,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-alanis-morissette-jagged-little-pill-1995",
-          "artist": "Alanis Morissette",
-          "album": "Jagged Little Pill",
-          "releaseYear": 1995,
-          "latestRank": 69,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2020": 69,
-            "2024": 69
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 13,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-n-w-a-straight-outta-compton-1988",
-          "artist": "N.W.A",
-          "album": "Straight Outta Compton",
-          "releaseYear": 1988,
-          "latestRank": 70,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2012": 144,
-            "2020": 70,
-            "2024": 70
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 10,
             "hasTotalDuration": true,
             "hasComposerCredits": false,
             "hasStory": true
@@ -29524,31 +29278,6 @@
       "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
-      "albumId": "album-notorious-b-i-g-ready-to-die-1994",
-      "artist": "The Notorious B.I.G.",
-      "album": "Ready to Die",
-      "releaseYear": 1994,
-      "latestRank": 22,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 134,
-        "2012": 134,
-        "2020": 22,
-        "2024": 22
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 17,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-john-lennon-john-lennon-plastic-ono-band-1970",
       "artist": "John Lennon",
       "album": "John Lennon/Plastic Ono Band",
@@ -29566,31 +29295,6 @@
         "hasCoverArt": true,
         "trackCount": 11,
         "hasTotalDuration": false,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-beatles-sgt-peppers-lonely-hearts-club-band-1967",
-      "artist": "The Beatles",
-      "album": "Sgt. Pepper's Lonely Hearts Club Band",
-      "releaseYear": 1967,
-      "latestRank": 24,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 1,
-        "2012": 1,
-        "2020": 24,
-        "2024": 24
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 13,
-        "hasTotalDuration": true,
         "hasComposerCredits": false,
         "hasStory": true
       },
@@ -29717,30 +29421,6 @@
       "existing": {
         "hasCoverArt": true,
         "trackCount": 5,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-amy-winehouse-back-to-black-2006",
-      "artist": "Amy Winehouse",
-      "album": "Back to Black",
-      "releaseYear": 2006,
-      "latestRank": 33,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2012": 451,
-        "2020": 33,
-        "2024": 33
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 11,
         "hasTotalDuration": true,
         "hasComposerCredits": false,
         "hasStory": true
@@ -29976,31 +29656,6 @@
       "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
-      "albumId": "album-paul-simon-graceland-1986",
-      "artist": "Paul Simon",
-      "album": "Graceland",
-      "releaseYear": 1986,
-      "latestRank": 46,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 71,
-        "2012": 71,
-        "2020": 46,
-        "2024": 46
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 11,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-john-coltrane-a-love-supreme-1964",
       "artist": "John Coltrane",
       "album": "A Love Supreme",
@@ -30016,31 +29671,6 @@
       "existing": {
         "hasCoverArt": true,
         "trackCount": 3,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-bob-marley-and-the-wailers-exodus-1977",
-      "artist": "Bob Marley and the Wailers",
-      "album": "Exodus",
-      "releaseYear": 1977,
-      "latestRank": 48,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 169,
-        "2012": 169,
-        "2020": 71,
-        "2024": 48
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 10,
         "hasTotalDuration": true,
         "hasComposerCredits": false,
         "hasStory": true
@@ -30226,31 +29856,6 @@
       "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
-      "albumId": "album-led-zeppelin-led-zeppelin-iv-1971",
-      "artist": "Led Zeppelin",
-      "album": "Led Zeppelin IV",
-      "releaseYear": 1971,
-      "latestRank": 58,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 69,
-        "2012": 69,
-        "2020": 58,
-        "2024": 58
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 8,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-creedence-clearwater-revival-chronicle-vol-1-1976",
       "artist": "Creedence Clearwater Revival",
       "album": "Chronicle, Vol. 1",
@@ -30288,17 +29893,16 @@
         "2012": 60
       },
       "missing": [
-        "coverArt",
-        "composerCredits"
+        "coverArt"
       ],
       "existing": {
         "hasCoverArt": false,
         "trackCount": 28,
         "hasTotalDuration": true,
-        "hasComposerCredits": false,
+        "hasComposerCredits": true,
         "hasStory": true
       },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
+      "recommendedAction": "fetch-cover-art-source"
     },
     {
       "albumId": "album-van-morrison-astral-weeks-1968",
@@ -30319,31 +29923,6 @@
       "existing": {
         "hasCoverArt": true,
         "trackCount": 8,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-outkast-stankonia-2000",
-      "artist": "OutKast",
-      "album": "Stankonia",
-      "releaseYear": 2000,
-      "latestRank": 64,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 361,
-        "2012": 361,
-        "2020": 64,
-        "2024": 64
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 26,
         "hasTotalDuration": true,
         "hasComposerCredits": false,
         "hasStory": true
@@ -30494,53 +30073,6 @@
       "existing": {
         "hasCoverArt": true,
         "trackCount": 12,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-alanis-morissette-jagged-little-pill-1995",
-      "artist": "Alanis Morissette",
-      "album": "Jagged Little Pill",
-      "releaseYear": 1995,
-      "latestRank": 69,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2020": 69,
-        "2024": 69
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 13,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-n-w-a-straight-outta-compton-1988",
-      "artist": "N.W.A",
-      "album": "Straight Outta Compton",
-      "releaseYear": 1988,
-      "latestRank": 70,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2012": 144,
-        "2020": 70,
-        "2024": 70
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 10,
         "hasTotalDuration": true,
         "hasComposerCredits": false,
         "hasStory": true

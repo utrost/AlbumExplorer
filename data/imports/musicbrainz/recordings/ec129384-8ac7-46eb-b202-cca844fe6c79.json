@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ec129384-8ac7-46eb-b202-cca844fe6c79?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "end": "1967-04-03",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "45dca4f3-5afa-3c77-bf64-cdb2bbde93b6",
+        "type": "Song",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-010.158.850-4"
+        ],
+        "language": "eng",
+        "title": "Within You Without You"
+      },
+      "attribute-ids": {},
+      "attributes": [],
+      "target-credit": "",
+      "ended": true,
+      "attribute-values": {},
+      "begin": "1967-03-15",
+      "direction": "forward",
+      "source-credit": ""
+    }
+  ],
+  "length": 305066,
+  "first-release-date": "1967-05-26",
+  "video": false,
+  "title": "Within You Without You",
+  "disambiguation": "original mono studio mix",
+  "id": "ec129384-8ac7-46eb-b202-cca844fe6c79"
+}

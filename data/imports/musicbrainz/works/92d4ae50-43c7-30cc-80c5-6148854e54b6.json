@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/92d4ae50-43c7-30cc-80c5-6148854e54b6?inc=artist-rels&fmt=json",
+  "id": "92d4ae50-43c7-30cc-80c5-6148854e54b6",
+  "iswcs": [
+    "T-011.648.420-8"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "value": "9522033-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Wake Up Alone",
+  "language": "eng",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Paul Staveley O’Duffy",
+        "id": "856b770d-78e6-4229-83db-b3f100cf6ec7",
+        "country": "GB",
+        "sort-name": "O’Duffy, Paul Staveley"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "country": "GB",
+        "sort-name": "Winehouse, Amy",
+        "id": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3",
+        "name": "Amy Winehouse",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ]
+}

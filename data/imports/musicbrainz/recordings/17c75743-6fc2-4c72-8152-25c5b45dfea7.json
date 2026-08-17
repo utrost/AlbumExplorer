@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/17c75743-6fc2-4c72-8152-25c5b45dfea7?inc=work-rels&fmt=json",
+  "title": "A Day in the Life",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1967-02-22",
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "A Day in the Life",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "id": "fd1aa4f2-ba26-3a05-b72d-4392c35a073c",
+        "iswcs": [
+          "T-010.140.236-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "ended": true,
+      "direction": "forward",
+      "begin": "1967-01-19"
+    }
+  ],
+  "disambiguation": "original stereo studio mix",
+  "video": false,
+  "length": 334000,
+  "id": "17c75743-6fc2-4c72-8152-25c5b45dfea7",
+  "first-release-date": "1967-05-26"
+}

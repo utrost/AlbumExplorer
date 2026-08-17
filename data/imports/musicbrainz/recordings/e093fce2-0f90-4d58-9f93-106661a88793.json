@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e093fce2-0f90-4d58-9f93-106661a88793?inc=work-rels&fmt=json",
+  "length": 189533,
+  "first-release-date": "1969-11",
+  "id": "e093fce2-0f90-4d58-9f93-106661a88793",
+  "video": false,
+  "title": "Wild Life",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "source-credit": "",
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "attributes": [],
+      "type": "performance",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "id": "a786d753-5cc6-3dd0-be90-75b590a62d5e",
+        "iswcs": [],
+        "attributes": [],
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "Wild Life",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ]
+}

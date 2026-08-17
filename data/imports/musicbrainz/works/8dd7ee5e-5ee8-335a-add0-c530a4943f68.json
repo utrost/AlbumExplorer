@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8dd7ee5e-5ee8-335a-add0-c530a4943f68?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "language": "eng",
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "8dd7ee5e-5ee8-335a-add0-c530a4943f68",
+  "attributes": [],
+  "title": "The What",
+  "relations": [
+    {
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": "Osten Harvey, Jr.",
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "name": "Easy Mo Bee",
+        "type": "Person",
+        "sort-name": "Easy Mo Bee",
+        "id": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer"
+    },
+    {
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "name": "Method Man",
+        "sort-name": "Method Man",
+        "disambiguation": "of the Wu‐Tang Clan",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "94dbfe2e-ca48-4e08-a5a8-e1e74136c63d"
+      },
+      "ended": false,
+      "target-credit": "Clifford Smith",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward"
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "Christopher Wallace",
+      "artist": {
+        "type": "Person",
+        "name": "The Notorious B.I.G.",
+        "sort-name": "Notorious B.I.G., The",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+      },
+      "ended": false,
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "attribute-values": {}
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/34449155-c43b-46b9-9966-9b1e50bbab2a?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "attributes": [],
+  "id": "34449155-c43b-46b9-9966-9b1e50bbab2a",
+  "title": "Well",
+  "relations": [
+    {
+      "attribute-values": {},
+      "type": "arranger",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "attributes": [],
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward"
+    },
+    {
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": "",
+      "source-credit": "",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Don van Vliet",
+        "sort-name": "Vliet, Don van"
+      },
+      "attribute-values": {},
+      "type": "composer"
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "end": null,
+      "ended": false,
+      "artist": {
+        "disambiguation": "",
+        "name": "Don van Vliet",
+        "type": "Person",
+        "sort-name": "Vliet, Don van",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "attributes": [],
+      "type": "lyricist",
+      "attribute-values": {}
+    }
+  ],
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

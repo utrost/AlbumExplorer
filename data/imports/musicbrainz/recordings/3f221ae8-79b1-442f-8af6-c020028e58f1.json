@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3f221ae8-79b1-442f-8af6-c020028e58f1?inc=work-rels&fmt=json",
+  "id": "3f221ae8-79b1-442f-8af6-c020028e58f1",
+  "video": false,
+  "disambiguation": "",
+  "first-release-date": "2006-10-30",
+  "length": 222000,
+  "relations": [
+    {
+      "begin": null,
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "work": {
+        "iswcs": [
+          "T-011.648.420-8"
+        ],
+        "attributes": [],
+        "disambiguation": "",
+        "id": "92d4ae50-43c7-30cc-80c5-6148854e54b6",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "title": "Wake Up Alone",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "title": "Wake Up Alone"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f65b8d16-67ab-4beb-9ff5-62d413ff482b?inc=work-rels&fmt=json",
+  "length": 157533,
+  "title": "Being for the Benefit of Mr. Kite!",
+  "id": "f65b8d16-67ab-4beb-9ff5-62d413ff482b",
+  "first-release-date": "1967-05-26",
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "531b2a9e-66b5-34ef-abb8-a499fdf3c308",
+        "title": "Being for the Benefit of Mr. Kite!",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-010.436.208-4"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "end": "1967-03-28",
+      "attribute-ids": {},
+      "begin": "1967-02-17"
+    }
+  ],
+  "video": false,
+  "disambiguation": "original mono studio mix"
+}

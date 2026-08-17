@@ -1,0 +1,153 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/199e2dc0-8743-3915-8db6-173470ae7140?inc=artist-rels&fmt=json",
+  "language": null,
+  "type-id": null,
+  "title": "We Luv Deez Hoez",
+  "type": null,
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Benjamin, André",
+        "country": "US",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "name": "André Benjamin",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "attributes": [],
+      "target-credit": "Antwan André Patton",
+      "artist": {
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "name": "Big Boi",
+        "country": "US",
+        "sort-name": "Big Boi",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "5cb395b6-1cb9-4c9c-a79a-01a66513d1f6",
+        "name": "Big Gipp",
+        "sort-name": "Big Gipp",
+        "country": "US"
+      },
+      "target-credit": "Cameron Gipp",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Organized Noize",
+        "country": "US",
+        "id": "63b5fb07-930a-45cd-8913-19785eaa31c7",
+        "name": "Organized Noize",
+        "disambiguation": "Atlanta hip-hop production group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "type": "Group"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "8ed0c375-9f78-4b0f-b432-7438c4ad58d2",
+        "name": "Bolivar Troncoso",
+        "country": null,
+        "sort-name": "Troncoso, Bolivar"
+      },
+      "target-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "sort-name": "Williams, Jamahr",
+        "name": "Jamahr Williams",
+        "id": "50d00c7f-4a27-45b6-b942-6b083e31e32f"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "iswcs": [],
+  "id": "199e2dc0-8743-3915-8db6-173470ae7140",
+  "languages": [],
+  "attributes": []
+}

@@ -1,0 +1,84 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d582f0da-e2f5-3b13-8874-6132769435f7?inc=artist-rels&fmt=json",
+  "language": null,
+  "type-id": null,
+  "title": "Respect",
+  "type": null,
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "name": "Harry Wayne Casey",
+        "id": "43c1447a-6292-44e3-b66a-eb0337768170",
+        "sort-name": "Casey, Harry Wayne",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "country": "JM",
+        "sort-name": "King, Diana",
+        "name": "Diana King",
+        "id": "72447757-809b-4de5-8e25-f4a9adc24cf3",
+        "disambiguation": "Jamaican-American singer-songwriter",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "target-type": "artist",
+      "artist": {
+        "country": "US",
+        "sort-name": "Notorious B.I.G., The",
+        "name": "The Notorious B.I.G.",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "Christopher Wallace",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    }
+  ],
+  "iswcs": [],
+  "id": "d582f0da-e2f5-3b13-8874-6132769435f7",
+  "attributes": [],
+  "languages": []
+}

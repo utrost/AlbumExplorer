@@ -1,0 +1,153 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/778e38ef-1be1-3010-918e-f7176013c0a1?inc=artist-rels&fmt=json",
+  "languages": [],
+  "attributes": [],
+  "id": "778e38ef-1be1-3010-918e-f7176013c0a1",
+  "iswcs": [],
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "country": null,
+        "sort-name": "Andrews, Cory",
+        "name": "Cory Andrews",
+        "id": "ac4dc1d2-a791-4930-b834-7fdcc2117865",
+        "disambiguation": "hip-hop artist from Atlanta, GA",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "name": "André Benjamin",
+        "sort-name": "Benjamin, André",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Big Boi",
+        "country": "US",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "name": "Big Boi"
+      },
+      "target-credit": "Antwan André Patton",
+      "attribute-values": {},
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "David Sheats",
+      "artist": {
+        "country": "US",
+        "sort-name": "DJ, Mr.",
+        "name": "Mr. DJ",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "disambiguation": "US hip-hop producer David Sheats",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Render, Michael",
+        "country": "US",
+        "name": "Michael Render",
+        "id": "682cb2b6-a202-468b-b1df-ac28b40fd5be"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "country": null,
+        "sort-name": "Smith, John E.E.",
+        "id": "5a3b4a0e-3187-4b99-8b69-7e647a02474c",
+        "name": "John E.E. Smith",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "title": "Snappin' & Trappin'",
+  "type-id": null,
+  "language": null,
+  "type": null
+}

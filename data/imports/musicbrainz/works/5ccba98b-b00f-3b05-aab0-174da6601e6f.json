@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5ccba98b-b00f-3b05-aab0-174da6601e6f?inc=artist-rels&fmt=json",
+  "title": "Express Yourself",
+  "attributes": [],
+  "id": "5ccba98b-b00f-3b05-aab0-174da6601e6f",
+  "relations": [
+    {
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "dd868e1f-6d8d-44bc-822e-1c6159a228dc",
+        "type": "Person",
+        "name": "Charles Wright",
+        "sort-name": "Wright, Charles",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "attribute-values": {},
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": ""
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "O’Shea Jackson",
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "ended": false,
+      "artist": {
+        "sort-name": "Ice Cube",
+        "name": "Ice Cube",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+      },
+      "attributes": [],
+      "type": "lyricist",
+      "attribute-values": {}
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "disambiguation": "N.W.A. version",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song"
+}

@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b577592c-d9b1-3d02-a8c8-bbcb848796ee?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-700.005.488-8"
+  ],
+  "relations": [
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "type": "arranger",
+      "attribute-values": {},
+      "source-credit": "",
+      "end": null,
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type": "Person",
+        "name": "Don van Vliet",
+        "sort-name": "Vliet, Don van",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "attributes": []
+    },
+    {
+      "attribute-values": {},
+      "type": "composer",
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "name": "Don van Vliet",
+        "sort-name": "Vliet, Don van",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+      },
+      "ended": false,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "end": null,
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward"
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type": "lyricist",
+      "attribute-values": {},
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "ended": false,
+      "artist": {
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "name": "Don van Vliet",
+        "type": "Person",
+        "sort-name": "Vliet, Don van"
+      },
+      "attributes": []
+    }
+  ],
+  "title": "China Pig",
+  "attributes": [],
+  "id": "b577592c-d9b1-3d02-a8c8-bbcb848796ee"
+}

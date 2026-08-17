@@ -1,0 +1,107 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3095daa7-5e02-31b8-ace2-80f7feadfaa6?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-type": "artist",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "André Benjamin",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "sort-name": "Benjamin, André",
+        "country": "US"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-credit": "Antwan André Patton",
+      "artist": {
+        "sort-name": "Big Boi",
+        "country": "US",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "name": "Big Boi",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "David Sheats",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US hip-hop producer David Sheats",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "name": "Mr. DJ",
+        "country": "US",
+        "sort-name": "DJ, Mr."
+      },
+      "attributes": []
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Goodie, Khujo",
+        "country": "US",
+        "name": "Khujo Goodie",
+        "id": "81eb1203-49fa-456b-b138-41193ab179b1"
+      },
+      "target-credit": "Willie Knighton",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "disambiguation": "",
+  "type": null,
+  "title": "Gasoline Dreams",
+  "type-id": null,
+  "language": null,
+  "attributes": [],
+  "languages": [],
+  "iswcs": [],
+  "id": "3095daa7-5e02-31b8-ace2-80f7feadfaa6"
+}

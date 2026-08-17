@@ -337,6 +337,62 @@ test('uses MusicBrainz release candidates to fill tracklist and duration gaps wi
   assert.deepEqual(beta.profile.footnotes.map((footnote) => footnote.label), ['MusicBrainz release source']);
 });
 
+test('uses MusicBrainz work-credit candidates to fill missing composers without replacing source-cache track credits', () => {
+  const musicBrainzWorkCreditCandidates = {
+    candidates: [
+      {
+        albumId: 'album-alpha-one-1970',
+        tracks: [
+          {
+            sequence: 1,
+            title: 'Opening Song',
+            composerCredits: [{ name: 'Wrong Replacement', creditedAs: 'Wrong Replacement', role: 'composer' }],
+            songwriterCredits: [],
+            lyricistCredits: []
+          }
+        ],
+        source: { system: 'musicbrainz-work-credit', url: 'https://musicbrainz.org/release/alpha-release' }
+      },
+      {
+        albumId: 'album-beta-two-1971',
+        tracks: [
+          {
+            sequence: 1,
+            recordingId: 'recording-beta-song',
+            title: 'MusicBrainz Song',
+            composerCredits: [],
+            songwriterCredits: [
+              { name: 'Writer One', creditedAs: 'Writer One', role: 'writer' },
+              { name: 'Writer Two', creditedAs: 'Writer Two', role: 'writer' }
+            ],
+            lyricistCredits: []
+          }
+        ],
+        source: { system: 'musicbrainz-work-credit', url: 'https://musicbrainz.org/release/beta-release' }
+      }
+    ]
+  };
+
+  const dataset = buildAppDataset({
+    comparison,
+    metadataCandidates,
+    sourceCandidates,
+    creditCandidates,
+    musicBrainzReleaseCandidates,
+    musicBrainzWorkCreditCandidates,
+    sourcePayloadsByCachePath
+  });
+
+  assert.equal(dataset.summary.albumProfilesWithComposerCredits, 2);
+
+  const alpha = dataset.albums.find((album) => album.id === 'album-alpha-one-1970');
+  assert.deepEqual(alpha.profile.tracklist[0].composerCredits.map((credit) => credit.name), ['Casey Composer']);
+
+  const beta = dataset.albums.find((album) => album.id === 'album-beta-two-1971');
+  assert.deepEqual(beta.profile.tracklist[0].songwriterCredits.map((credit) => credit.name), ['Writer One', 'Writer Two']);
+  assert.deepEqual(beta.profile.footnotes.map((footnote) => footnote.label), ['MusicBrainz release source', 'MusicBrainz work credit source']);
+});
+
 test('uses Wikidata/Wikipedia story candidates without replacing source-cache Discogs stories', () => {
   const dataset = buildAppDataset({
     comparison,

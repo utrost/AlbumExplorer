@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0cc919e6-bffd-4572-972c-d2236598b7c9?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "id": "0cc919e6-bffd-4572-972c-d2236598b7c9",
+  "title": "Frownland",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "arranger",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "artist": {
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type": "Person",
+        "name": "Don van Vliet",
+        "disambiguation": "",
+        "sort-name": "Vliet, Don van",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    },
+    {
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Vliet, Don van",
+        "disambiguation": "",
+        "name": "Don van Vliet",
+        "type": "Person",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "country": "US"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type": "Person",
+        "name": "Don van Vliet",
+        "disambiguation": "",
+        "sort-name": "Vliet, Don van",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    }
+  ],
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-700.015.234-3"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

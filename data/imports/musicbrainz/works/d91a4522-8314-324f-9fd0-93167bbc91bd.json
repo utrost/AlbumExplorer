@@ -1,0 +1,130 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d91a4522-8314-324f-9fd0-93167bbc91bd?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-credit": "",
+      "artist": {
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "name": "André Benjamin",
+        "sort-name": "Benjamin, André",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "attributes": [],
+      "artist": {
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "name": "Big Boi",
+        "country": "US",
+        "sort-name": "Big Boi",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "Antwan André Patton",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "rapper",
+        "name": "Big Rube",
+        "id": "e7f0bd46-bbd8-4082-af04-2d053db7aed9",
+        "sort-name": "Big Rube",
+        "country": "US"
+      },
+      "target-credit": "Ruben Bailey",
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "name": "Sleepy Brown",
+        "id": "e220955e-2810-4bbb-811b-6d30f62b6392",
+        "sort-name": "Brown, Sleepy",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "Patrick Brown",
+      "attribute-values": {},
+      "target-type": "artist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-credit": "David Sheats",
+      "artist": {
+        "country": "US",
+        "sort-name": "DJ, Mr.",
+        "name": "Mr. DJ",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "disambiguation": "US hip-hop producer David Sheats",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "disambiguation": "",
+  "type": null,
+  "type-id": null,
+  "title": "Stankonia (Stanklove)",
+  "language": null,
+  "languages": [],
+  "attributes": [],
+  "id": "d91a4522-8314-324f-9fd0-93167bbc91bd",
+  "iswcs": []
+}

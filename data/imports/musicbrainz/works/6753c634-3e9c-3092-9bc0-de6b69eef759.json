@@ -1,0 +1,107 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6753c634-3e9c-3092-9bc0-de6b69eef759?inc=artist-rels&fmt=json",
+  "type": null,
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Benjamin, André",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "name": "André Benjamin",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "Antwan André Patton",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Big Boi",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "country": "US",
+        "name": "Big Boi",
+        "type": "Person"
+      }
+    },
+    {
+      "target-credit": "David Sheats",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "DJ, Mr.",
+        "disambiguation": "US hip-hop producer David Sheats",
+        "type": "Person",
+        "name": "Mr. DJ",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "country": "US"
+      },
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "Thomas DeCarlo Callaway",
+      "artist": {
+        "country": "US",
+        "id": "2c69465c-0f76-45ce-90a2-1ed0fdacc997",
+        "name": "CeeLo Green",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Green, CeeLo",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "language": null,
+  "id": "6753c634-3e9c-3092-9bc0-de6b69eef759",
+  "title": "Slum Beautiful",
+  "attributes": [],
+  "type-id": null,
+  "languages": [],
+  "iswcs": [],
+  "disambiguation": ""
+}

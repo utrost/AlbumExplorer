@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/4ee2ff88-ac68-4dee-9f7f-da99f6600415?inc=work-rels&fmt=json",
+  "id": "4ee2ff88-ac68-4dee-9f7f-da99f6600415",
+  "title": "Exodus",
+  "relations": [
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "target-type": "work",
+      "attribute-ids": {},
+      "begin": "1977-01",
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type": "Song",
+        "title": "Exodus",
+        "id": "0b3ffb87-c57c-376f-9ad7-3274a7d28d1a",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.050.791-0"
+        ]
+      },
+      "type": "performance",
+      "attribute-values": {},
+      "ended": true,
+      "attributes": [],
+      "end": "1977-04",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "length": 459666,
+  "disambiguation": "album version",
+  "first-release-date": "1977-06-03",
+  "video": false
+}

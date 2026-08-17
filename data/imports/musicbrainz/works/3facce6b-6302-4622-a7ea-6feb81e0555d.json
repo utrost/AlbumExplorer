@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3facce6b-6302-4622-a7ea-6feb81e0555d?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-902.885.768-3"
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "relations": [
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "id": "c3009d7a-51ac-4c9c-888a-04f5c3c4be0c",
+        "type": "Person",
+        "name": "Eazy‐E",
+        "disambiguation": "",
+        "sort-name": "Eazy‐E",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Ice Cube",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "country": "US",
+        "type": "Person",
+        "name": "Ice Cube"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "name": "MC Ren",
+        "id": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Ren, MC",
+        "disambiguation": ""
+      }
+    }
+  ],
+  "language": "eng",
+  "id": "3facce6b-6302-4622-a7ea-6feb81e0555d",
+  "title": "Parental Discretion Iz Advised",
+  "attributes": []
+}

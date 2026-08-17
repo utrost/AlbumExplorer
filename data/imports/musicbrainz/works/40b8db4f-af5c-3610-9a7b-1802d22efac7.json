@@ -1,0 +1,201 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/40b8db4f-af5c-3610-9a7b-1802d22efac7?inc=artist-rels&fmt=json",
+  "id": "40b8db4f-af5c-3610-9a7b-1802d22efac7",
+  "iswcs": [],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Machine Gun Funk",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "QB hip hop producer & DJ of Juice Crew",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Marley Marl",
+        "name": "Marley Marl",
+        "id": "8e7f5842-de5e-4eab-8d5f-0a55c84f4cb1"
+      },
+      "target-credit": "Marlon Williams",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US hip hop producer & DJ",
+        "name": "DJ Premier",
+        "id": "084e06f5-3c82-4b71-bd94-dd69e7bd515e",
+        "country": "US",
+        "sort-name": "Premier, DJ"
+      },
+      "target-credit": "Chris Martin",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "Christopher Wallace",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Notorious B.I.G., The",
+        "country": "US",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "name": "The Notorious B.I.G."
+      },
+      "attributes": [],
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "DoItAll",
+        "country": "US",
+        "id": "f86c1440-6020-4817-8db5-fa1c8e6174f7",
+        "name": "DoItAll"
+      },
+      "target-credit": "Dupré Kelly",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "artist": {
+        "country": "US",
+        "sort-name": "Easy Mo Bee",
+        "id": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5",
+        "name": "Easy Mo Bee",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "Osten Harvey, Jr.",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "Al'Terik Wardrick",
+      "artist": {
+        "id": "df7cfeac-533f-4553-9bef-b0585d3b4683",
+        "name": "Mr. Funke",
+        "country": null,
+        "sort-name": "Funke, Mr.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "attributes": [],
+      "target-credit": "Keith Elam",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "rapper Keith Elam of Gang Starr",
+        "name": "Guru",
+        "id": "215c6ab2-7888-4061-bd56-9fb650328106",
+        "country": "US",
+        "sort-name": "Guru"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "e9d23114-8264-48e1-9c44-55677c873092",
+        "name": "K‐Def",
+        "sort-name": "K‐Def",
+        "country": "US"
+      },
+      "target-credit": "Kevin Hansford",
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    }
+  ],
+  "disambiguation": ""
+}

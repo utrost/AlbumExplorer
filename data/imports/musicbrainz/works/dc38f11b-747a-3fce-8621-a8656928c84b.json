@@ -1,0 +1,107 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/dc38f11b-747a-3fce-8621-a8656928c84b?inc=artist-rels&fmt=json",
+  "languages": [],
+  "iswcs": [],
+  "disambiguation": "",
+  "type-id": null,
+  "id": "dc38f11b-747a-3fce-8621-a8656928c84b",
+  "title": "Humble Mumble",
+  "attributes": [],
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "Erica Wright",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Badu, Erykah",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "321531fc-db73-4ffa-a959-61a61a2908c1",
+        "type": "Person",
+        "name": "Erykah Badu"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Benjamin, André",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "André Benjamin",
+        "country": "US",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33"
+      }
+    },
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "Antwan André Patton",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Big Boi",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "type": "Person",
+        "name": "Big Boi"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "artist": {
+        "name": "Mr. DJ",
+        "type": "Person",
+        "country": "US",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "sort-name": "DJ, Mr.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US hip-hop producer David Sheats"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "David Sheats"
+    }
+  ],
+  "type": null,
+  "language": null
+}

@@ -1,0 +1,132 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/791eaa33-8479-33e6-8272-e31bcd44ced5?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "One More Chance",
+  "relations": [
+    {
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "target-credit": "Sean Combs",
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "name": "Diddy",
+        "disambiguation": "Sean Combs, aka Puff Daddy, P. Diddy",
+        "sort-name": "Diddy",
+        "id": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6"
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "type": "Person",
+        "sort-name": "Glover, Norman",
+        "id": "bbf47530-670b-462f-ac5f-99ce263995bd",
+        "name": "Norman Glover",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist"
+    },
+    {
+      "ended": false,
+      "type": "writer",
+      "target-credit": "Reginald Ellis",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "sort-name": "Lord Digga",
+        "id": "e6cc256d-b41d-4a33-b612-06541a4fd36d",
+        "disambiguation": "hip hop producer Reginald Ellis, Masta Ace associated",
+        "name": "Lord Digga",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null,
+      "begin": null
+    },
+    {
+      "begin": null,
+      "artist": {
+        "disambiguation": "",
+        "name": "The Notorious B.I.G.",
+        "sort-name": "Notorious B.I.G., The",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "Christopher Wallace",
+      "ended": false,
+      "type": "writer"
+    },
+    {
+      "type": "writer",
+      "ended": false,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "disambiguation": "",
+        "name": "Chucky Thompson",
+        "id": "afbd0a93-cdfc-47cf-9456-1e4eaa3bb6e2",
+        "sort-name": "Thompson, Chucky",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US"
+      },
+      "begin": null
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [],
+  "iswcs": [],
+  "disambiguation": "",
+  "id": "791eaa33-8479-33e6-8272-e31bcd44ced5"
+}

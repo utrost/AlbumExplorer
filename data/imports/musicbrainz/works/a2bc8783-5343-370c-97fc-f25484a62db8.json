@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a2bc8783-5343-370c-97fc-f25484a62db8?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-700.012.027-6"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "type": "arranger",
+      "attribute-values": {},
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "source-credit": "",
+      "end": null,
+      "artist": {
+        "name": "Don van Vliet",
+        "type": "Person",
+        "sort-name": "Vliet, Don van",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+      },
+      "ended": false,
+      "attributes": [],
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null
+    },
+    {
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": "",
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "name": "Don van Vliet",
+        "sort-name": "Vliet, Don van",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer"
+    },
+    {
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "name": "Don van Vliet",
+        "type": "Person",
+        "sort-name": "Vliet, Don van"
+      },
+      "ended": false,
+      "attributes": [],
+      "type": "lyricist",
+      "attribute-values": {},
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "target-credit": ""
+    }
+  ],
+  "attributes": [],
+  "id": "a2bc8783-5343-370c-97fc-f25484a62db8",
+  "title": "Ella Guru",
+  "type": "Song",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

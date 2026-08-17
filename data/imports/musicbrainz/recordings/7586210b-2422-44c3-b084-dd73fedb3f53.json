@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7586210b-2422-44c3-b084-dd73fedb3f53?inc=work-rels&fmt=json",
+  "first-release-date": "1969-11",
+  "id": "7586210b-2422-44c3-b084-dd73fedb3f53",
+  "disambiguation": "",
+  "video": false,
+  "length": 108933,
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "id": "fdbb441d-9305-4d94-85a7-5ce8d589a6c6",
+        "iswcs": [],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "title": "Bills Corpse",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": ""
+      }
+    }
+  ],
+  "title": "Bills Corpse"
+}

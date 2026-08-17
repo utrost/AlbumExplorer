@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b9af2834-8eb2-48f5-8795-3e7a636b1e1a?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-071.184.060-6"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "b9af2834-8eb2-48f5-8795-3e7a636b1e1a",
+  "title": "If It Ain’t Ruff",
+  "attributes": [
+    {
+      "value": "3171635-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0A7-3454-7",
+      "type": "JASRAC ID"
+    },
+    {
+      "value": "GW03001144",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "390496570"
+    }
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "Andre Young",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "Andre Young, rap producer",
+        "sort-name": "Dre, Dr.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "5f6ab597-f57a-40da-be9e-adad48708203",
+        "name": "Dr. Dre",
+        "type": "Person"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "target-credit": "Lorenzo Patterson",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "name": "MC Ren",
+        "type": "Person",
+        "id": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Ren, MC",
+        "disambiguation": ""
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    }
+  ],
+  "language": "eng"
+}

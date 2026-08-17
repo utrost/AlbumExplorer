@@ -10,11 +10,12 @@ const [
   profileGapCreditCandidatesPath = 'data/enrichment/album-credit-profile-gap-candidates.json',
   coverArtCandidatesPath = 'data/enrichment/cover-art-archive-candidates.json',
   musicBrainzReleaseCandidatesPath = 'data/enrichment/musicbrainz-release-candidates.json',
+  musicBrainzWorkCreditCandidatesPath = 'data/enrichment/musicbrainz-work-credit-candidates.json',
   wikidataStoryCandidatesPath = 'data/enrichment/wikidata-story-candidates.json',
   outputPath = 'data/app/album-atlas.json'
 ] = process.argv.slice(2);
 
-const [comparison, metadataCandidates, sourceCandidates, creditCandidates, profileGapCreditCandidates, coverArtCandidates, musicBrainzReleaseCandidates, wikidataStoryCandidates] = await Promise.all([
+const [comparison, metadataCandidates, sourceCandidates, creditCandidates, profileGapCreditCandidates, coverArtCandidates, musicBrainzReleaseCandidates, musicBrainzWorkCreditCandidates, wikidataStoryCandidates] = await Promise.all([
   readJson(comparisonPath),
   readJson(metadataCandidatesPath),
   readJson(sourceCandidatesPath),
@@ -22,6 +23,7 @@ const [comparison, metadataCandidates, sourceCandidates, creditCandidates, profi
   readJsonOrEmptyLayer(profileGapCreditCandidatesPath),
   readJsonOrEmptyLayer(coverArtCandidatesPath),
   readJsonOrEmptyLayer(musicBrainzReleaseCandidatesPath),
+  readJsonOrEmptyLayer(musicBrainzWorkCreditCandidatesPath),
   readJsonOrEmptyLayer(wikidataStoryCandidatesPath)
 ]);
 
@@ -36,6 +38,7 @@ const dataset = buildAppDataset({
   additionalCreditCandidateLayers,
   coverArtCandidates,
   musicBrainzReleaseCandidates,
+  musicBrainzWorkCreditCandidates,
   wikidataStoryCandidates,
   sourcePayloadsByCachePath
 });

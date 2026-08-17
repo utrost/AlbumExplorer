@@ -1,0 +1,107 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7746a1dd-3700-375b-b759-b7310ab4e41b?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "languages": [],
+  "disambiguation": "",
+  "type-id": null,
+  "id": "7746a1dd-3700-375b-b759-b7310ab4e41b",
+  "title": "Ready to Die",
+  "attributes": [],
+  "relations": [
+    {
+      "artist": {
+        "disambiguation": "Sean Combs, aka Puff Daddy, P. Diddy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Diddy",
+        "id": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6",
+        "country": "US",
+        "name": "Diddy",
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "Sean Combs",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "writer"
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "Osten Harvey, Jr.",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "ddac1a2e-3fb5-4af6-adf0-f6008c7ddfb5",
+        "country": "US",
+        "type": "Person",
+        "name": "Easy Mo Bee",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Easy Mo Bee"
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Mason, Barbara",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "91cfbe94-7fc3-4bcc-9d95-767d87ac2ae5",
+        "type": "Person",
+        "name": "Barbara Mason"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "Christopher Wallace",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Notorious B.I.G., The",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "country": "US",
+        "type": "Person",
+        "name": "The Notorious B.I.G."
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    }
+  ],
+  "type": null,
+  "language": null
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c55e74ff-bd7d-40ff-a591-c6993c59bda8?inc=work-rels&fmt=json",
+  "video": false,
+  "relations": [
+    {
+      "work": {
+        "disambiguation": "",
+        "iswcs": [
+          "T-010.971.514-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "c6402058-011c-30d1-8189-6d8eedebfed2",
+        "title": "Sgt. Pepper’s Lonely Hearts Club Band",
+        "language": "eng",
+        "type": "Song"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": "1967-02-01",
+      "attribute-ids": {},
+      "end": "1967-03-03",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type": "performance"
+    }
+  ],
+  "id": "c55e74ff-bd7d-40ff-a591-c6993c59bda8",
+  "first-release-date": "1967-05-26",
+  "title": "Sgt. Pepper’s Lonely Hearts Club Band",
+  "length": 122000,
+  "disambiguation": "original mono studio mix"
+}

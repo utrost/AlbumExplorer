@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a786d753-5cc6-3dd0-be90-75b590a62d5e?inc=artist-rels&fmt=json",
+  "title": "Wild Life",
+  "language": "eng",
+  "iswcs": [],
+  "type": "Song",
+  "id": "a786d753-5cc6-3dd0-be90-75b590a62d5e",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "attributes": [],
+  "relations": [
+    {
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "name": "Don van Vliet",
+        "sort-name": "Vliet, Don van",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "direction": "backward",
+      "source-credit": "",
+      "target-type": "artist",
+      "type": "arranger",
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": []
+    },
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "begin": null,
+      "artist": {
+        "sort-name": "Vliet, Don van",
+        "type": "Person",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "Don van Vliet"
+      },
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-type": "artist",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-type": "artist",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Vliet, Don van",
+        "type": "Person",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "country": "US",
+        "name": "Don van Vliet"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

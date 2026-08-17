@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8991a954-8d35-3a91-9b5e-a3e7894ccc7b?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "artist": {
+        "country": "JM",
+        "sort-name": "Marley, Bob",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "name": "Bob Marley",
+        "disambiguation": "Jamaican reggae artist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "Jamaican reggae artist",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "JM",
+        "sort-name": "Marley, Bob",
+        "name": "Bob Marley",
+        "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Guiltiness",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "id": "8991a954-8d35-3a91-9b5e-a3e7894ccc7b"
+}

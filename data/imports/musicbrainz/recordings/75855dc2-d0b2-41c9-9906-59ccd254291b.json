@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/75855dc2-d0b2-41c9-9906-59ccd254291b?inc=work-rels&fmt=json",
+  "id": "75855dc2-d0b2-41c9-9906-59ccd254291b",
+  "title": "You Know I’m No Good (remix)",
+  "first-release-date": "2006-12-17",
+  "length": 202733,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "7c208a4d-4c79-31cd-8354-0eb6ac0c296a",
+        "title": "You Know I’m No Good",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-900.192.724-8"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "video": false,
+  "disambiguation": "Ghostface UK version"
+}

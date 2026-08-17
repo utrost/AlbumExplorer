@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ba8adcd2-537e-3204-a427-86b391e40469?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "id": "ba8adcd2-537e-3204-a427-86b391e40469",
+  "title": "Sgt. Pepper’s Lonely Hearts Club Band (reprise)",
+  "language": "eng",
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "country": "GB",
+        "type": "Person",
+        "name": "John Lennon",
+        "disambiguation": "The Beatles",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lennon, John"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "McCartney, Paul",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "The Beatles",
+        "type": "Person",
+        "name": "Paul McCartney",
+        "country": "GB",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af"
+      }
+    }
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

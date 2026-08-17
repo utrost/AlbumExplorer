@@ -1,0 +1,179 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4b546761-d77f-4f37-a277-cf766d883f91?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "artist": {
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "type": "Person"
+      },
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "type": "arranger",
+      "ended": false
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "name": "Don van Vliet",
+        "disambiguation": "",
+        "sort-name": "Vliet, Don van",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "begin": null,
+      "type": "composer",
+      "ended": false,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": ""
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "lyricist",
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {},
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "disambiguation": ""
+      }
+    }
+  ],
+  "title": "Veteran’s Day Poppy",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "id": "4b546761-d77f-4f37-a277-cf766d883f91",
+  "disambiguation": "",
+  "iswcs": [
+    "T-700.076.292-7"
+  ],
+  "attributes": [
+    {
+      "type": "SPA ID",
+      "value": "1050333",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "809858700",
+      "type": "SIAE ID"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "817.227"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "2942531",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "2942531",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "1738662",
+      "type": "SACVEN ID"
+    },
+    {
+      "type": "SACM ID",
+      "value": "091704870",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "69 581 122 01",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "69 581 122 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "043381800"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "1059804N",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "JASRAC ID",
+      "value": "0V0-7033-3",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+    },
+    {
+      "type": "GEMA ID",
+      "value": "858489-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "1776534"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000773175"
+    },
+    {
+      "type": "BMI ID",
+      "value": "1585107",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "3466309",
+      "type": "APDAYC ID"
+    },
+    {
+      "value": "525588301",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/687f76e8-9da4-31a7-acc5-ae17a05db1fd?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "1712169",
+      "type": "BMI ID"
+    }
+  ],
+  "id": "687f76e8-9da4-31a7-acc5-ae17a05db1fd",
+  "title": "You Can Call Me Al",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "artist": {
+        "disambiguation": "of Simon & Garfunkel",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Simon, Paul",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "country": "US",
+        "type": "Person",
+        "name": "Paul Simon"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer"
+    },
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Simon, Paul",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "of Simon & Garfunkel",
+        "type": "Person",
+        "name": "Paul Simon",
+        "country": "US",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "lyricist",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.248.213-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

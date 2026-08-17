@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ea4fa15f-fe08-3543-a7b6-6598d16e1fc3?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "title": "Fuck Me (interlude)",
+  "language": null,
+  "type-id": null,
+  "disambiguation": "",
+  "type": null,
+  "id": "ea4fa15f-fe08-3543-a7b6-6598d16e1fc3",
+  "attributes": [],
+  "relations": [
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "name": "Diddy",
+        "sort-name": "Diddy",
+        "type": "Person",
+        "id": "cabb4fcf-4067-4ba5-908d-76ee66fcf0c6",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Sean Combs, aka Puff Daddy, P. Diddy"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Sean Combs",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "ended": false,
+      "attribute-values": {},
+      "begin": null,
+      "artist": {
+        "name": "The Notorious B.I.G.",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "type": "Person",
+        "sort-name": "Notorious B.I.G., The"
+      },
+      "direction": "backward",
+      "source-credit": "",
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "Christopher Wallace",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": []
+    }
+  ],
+  "languages": []
+}

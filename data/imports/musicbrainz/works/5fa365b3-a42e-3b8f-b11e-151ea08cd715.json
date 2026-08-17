@@ -1,0 +1,84 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5fa365b3-a42e-3b8f-b11e-151ea08cd715?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "id": "5fa365b3-a42e-3b8f-b11e-151ea08cd715",
+  "attributes": [],
+  "iswcs": [],
+  "type-id": null,
+  "type": null,
+  "languages": [],
+  "language": null,
+  "relations": [
+    {
+      "type": "writer",
+      "ended": false,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "sort-name": "Benjamin, André",
+        "disambiguation": "",
+        "name": "André Benjamin"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null,
+      "begin": null
+    },
+    {
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Big Boi",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "disambiguation": "",
+        "name": "Big Boi"
+      },
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "target-credit": "Antwan André Patton",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "DJ, Mr.",
+        "id": "6bacfd5e-b541-436e-bee8-ffc0f7c15dba",
+        "name": "Mr. DJ",
+        "disambiguation": "US hip-hop producer David Sheats"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "David Sheats",
+      "ended": false,
+      "type": "writer"
+    }
+  ],
+  "title": "Red Velvet"
+}

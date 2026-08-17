@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/097edf45-f7a4-4a4a-9271-105c2fd03a90?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "id": "097edf45-f7a4-4a4a-9271-105c2fd03a90",
+  "type": "Song",
+  "iswcs": [],
+  "title": "Sweet Sweet Bulbs",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "target-type": "artist",
+      "type": "arranger",
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "type": "Person",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "country": "US"
+      },
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "target-type": "artist",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "type": "Person",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Vliet, Don van",
+        "name": "Don van Vliet",
+        "country": "US"
+      },
+      "begin": null,
+      "source-credit": "",
+      "direction": "backward"
+    },
+    {
+      "target-type": "artist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "artist": {
+        "name": "Don van Vliet",
+        "country": "US",
+        "id": "6b905738-f1b5-4851-942e-ee0118f3e44a",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Vliet, Don van"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "backward"
+    }
+  ],
+  "attributes": []
+}

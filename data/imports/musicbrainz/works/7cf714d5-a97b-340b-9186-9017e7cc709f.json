@@ -1,0 +1,84 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7cf714d5-a97b-340b-9186-9017e7cc709f?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "languages": [],
+  "disambiguation": "",
+  "type-id": null,
+  "id": "7cf714d5-a97b-340b-9186-9017e7cc709f",
+  "title": "Spaghetti Junction",
+  "attributes": [],
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Benjamin, André",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "André Benjamin",
+        "id": "c0345ce5-eb29-4de3-bc26-5cd3c932ac33",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Big Boi",
+        "disambiguation": "",
+        "name": "Big Boi",
+        "type": "Person",
+        "id": "9724aa19-fdf9-49d0-9f9d-944e462e2a5c",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "target-credit": "Antwan André Patton",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "Atlanta hip-hop production group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "sort-name": "Organized Noize",
+        "id": "63b5fb07-930a-45cd-8913-19785eaa31c7",
+        "country": "US",
+        "name": "Organized Noize",
+        "type": "Group"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    }
+  ],
+  "type": null,
+  "language": null
+}

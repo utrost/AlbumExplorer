@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e766a942-00ac-48bc-9ea3-05d4a0c3997a?inc=work-rels&fmt=json",
+  "length": 208466,
+  "first-release-date": "1967-05-26",
+  "video": false,
+  "id": "e766a942-00ac-48bc-9ea3-05d4a0c3997a",
+  "disambiguation": "original mono studio mix",
+  "title": "Lucy in the Sky With Diamonds",
+  "relations": [
+    {
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "id": "7368c546-3275-3490-af03-1b4772a14892",
+        "attributes": [],
+        "iswcs": [
+          "T-010.434.501-8"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "Lucy in the Sky With Diamonds"
+      },
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "end": "1967-03-02",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "begin": "1967-03-01"
+    }
+  ]
+}

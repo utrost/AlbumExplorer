@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d9633e2f-1d46-49e9-bc9e-9f80557d4414?inc=work-rels&fmt=json",
+  "length": 336640,
+  "first-release-date": "1988-08-08",
+  "id": "d9633e2f-1d46-49e9-bc9e-9f80557d4414",
+  "title": "Gangsta Gangsta",
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "id": "ca2775a7-3a92-4ea6-9d23-82fdc2714183",
+        "title": "Gangsta Gangsta",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.068.318-6",
+          "T-071.130.994-2"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

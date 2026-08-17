@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/db162da7-6b98-3fac-8884-85c280e19c78?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.041.686-9"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "value": "305169",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "id": "db162da7-6b98-3fac-8884-85c280e19c78",
+  "title": "Dirty Little Girl",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "country": "GB",
+        "name": "Elton John",
+        "type": "Person",
+        "disambiguation": "English singer, songwriter, pianist, and composer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "John, Elton"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "lyricist",
+      "artist": {
+        "country": "GB",
+        "id": "9a0d0b2d-a727-44a6-a172-53766f186834",
+        "type": "Person",
+        "name": "Bernie Taupin",
+        "disambiguation": "",
+        "sort-name": "Taupin, Bernie",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e9561dbe-f7a3-4652-97a1-4e365c15f9fe?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "e9561dbe-f7a3-4652-97a1-4e365c15f9fe",
+  "iswcs": [
+    "T-070.058.738-7"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "sort-name": "Jackson, Janet",
+        "id": "6be2828f-6c0d-4059-99d4-fa18acf1a296",
+        "name": "Janet Jackson"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "James Samuel Harris III",
+      "artist": {
+        "name": "Jimmy Jam",
+        "id": "d79976d7-d895-480e-83c2-877f4cdd7073",
+        "sort-name": "Jam, Jimmy",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "James Harris of Jam & Lewis"
+      },
+      "attributes": []
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "US hip-hop/soul songwriter, producer & label owner",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Lewis, Terry",
+        "name": "Terry Lewis",
+        "id": "e458eba7-ccb7-47bb-8057-473330c61040"
+      },
+      "attribute-values": {}
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Funny How Time Flies (When You're Having Fun)",
+  "type": "Song"
+}

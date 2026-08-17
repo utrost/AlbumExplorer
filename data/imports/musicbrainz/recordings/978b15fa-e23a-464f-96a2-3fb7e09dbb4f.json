@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/978b15fa-e23a-464f-96a2-3fb7e09dbb4f?inc=work-rels&fmt=json",
+  "length": 223000,
+  "first-release-date": "2012-08-10",
+  "id": "978b15fa-e23a-464f-96a2-3fb7e09dbb4f",
+  "video": false,
+  "title": "Red",
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "id": "40d8c1f5-714d-4e36-8326-bb8300998ca7",
+        "iswcs": [
+          "T-908.943.420-8"
+        ],
+        "attributes": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Red",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attribute-ids": {}
+    }
+  ]
+}

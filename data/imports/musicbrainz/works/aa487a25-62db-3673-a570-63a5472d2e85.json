@@ -1,0 +1,144 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/aa487a25-62db-3673-a570-63a5472d2e85?inc=artist-rels&fmt=json",
+  "disambiguation": "from the songspiel “Mahagonny” & opera “Rise and Fall of the City of Mahagonny”",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-071.434.173-7"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "76102833600",
+      "type": "SIAE ID"
+    },
+    {
+      "value": "3187955",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "3187955",
+      "type": "SAYCE ID"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "698531",
+      "type": "SADAIC ID"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2436387",
+      "type": "SACVEN ID"
+    },
+    {
+      "value": "008675600",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "70532"
+    },
+    {
+      "value": "310019986",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "3811547",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type": "APA ID",
+      "value": "5466089",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4245986",
+      "type": "AGADU ID"
+    }
+  ],
+  "id": "aa487a25-62db-3673-a570-63a5472d2e85",
+  "title": "Alabama Song",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "id": "0e738f68-783c-4a6a-80ae-4f7500861060",
+        "type": "Person",
+        "name": "Kurt Weill",
+        "disambiguation": "composer",
+        "sort-name": "Weill, Kurt",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "type": "lyricist",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Brecht, Bertolt",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Bertolt Brecht",
+        "id": "95fb3a0c-fc74-4f51-acba-bbe5b3a78e32",
+        "country": "DE"
+      }
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "translator",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "da6c5d8a-ce13-474d-9375-61feb29039a5",
+      "artist": {
+        "country": "DE",
+        "id": "59a49b36-6a2c-4906-a143-9e9c4290e64a",
+        "name": "Elisabeth Hauptmann",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Hauptmann, Elisabeth",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    }
+  ]
+}

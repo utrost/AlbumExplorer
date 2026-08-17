@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/9b76704a-ab3b-3301-b5f9-97b4e5ab1e29?inc=artist-rels&fmt=json",
+  "title": "Bite Our Style (interlude)",
+  "attributes": [],
+  "id": "9b76704a-ab3b-3301-b5f9-97b4e5ab1e29",
+  "relations": [
+    {
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "sort-name": "Elliott, Missy",
+        "type": "Person",
+        "name": "Missy Elliott",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward",
+      "target-credit": "Melissa Elliott"
+    },
+    {
+      "attribute-values": {},
+      "type": "writer",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "disambiguation": "",
+        "name": "Timbaland",
+        "type": "Person",
+        "sort-name": "Timbaland",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "Timothy Mosley",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song"
+}

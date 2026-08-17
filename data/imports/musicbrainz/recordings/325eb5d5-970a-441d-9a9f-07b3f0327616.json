@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/325eb5d5-970a-441d-9a9f-07b3f0327616?inc=work-rels&fmt=json",
+  "disambiguation": "'Goodbye Yellow Brick Road' album version",
+  "video": false,
+  "relations": [
+    {
+      "begin": "1973-05",
+      "attribute-ids": {},
+      "end": "1973-05",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-010.440.739-7"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "title": "Grey Seal",
+        "id": "ddb0ca7e-38aa-30dd-90d6-150e44339fbb",
+        "language": "eng",
+        "type": "Song"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "title": "Grey Seal",
+  "id": "325eb5d5-970a-441d-9a9f-07b3f0327616",
+  "first-release-date": "1973-10-05",
+  "length": 240360
+}

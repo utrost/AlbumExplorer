@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ed2f3608-dfc6-3065-9878-97331267459f?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Funeral for a Friend / Love Lies Bleeding",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "country": "GB",
+        "sort-name": "John, Elton",
+        "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "name": "Elton John",
+        "disambiguation": "English singer, songwriter, pianist, and composer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "id": "9a0d0b2d-a727-44a6-a172-53766f186834",
+        "name": "Bernie Taupin",
+        "sort-name": "Taupin, Bernie",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "iswcs": [],
+  "id": "ed2f3608-dfc6-3065-9878-97331267459f",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

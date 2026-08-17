@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fff344f4-dc0a-40c3-b28b-a403cd2cd849?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "fff344f4-dc0a-40c3-b28b-a403cd2cd849",
+  "iswcs": [],
+  "relations": [
+    {
+      "target-type": "artist",
+      "artist": {
+        "sort-name": "Costello, Elvis",
+        "country": "GB",
+        "name": "Elvis Costello",
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "GB",
+        "sort-name": "Costello, Elvis",
+        "name": "Elvis Costello",
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Hand in Hand"
+}

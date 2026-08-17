@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0daa772f-8b4a-4987-8c4c-12b1f7506642?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "id": "0daa772f-8b4a-4987-8c4c-12b1f7506642",
+  "languages": [],
+  "attributes": [],
+  "type": null,
+  "type-id": null,
+  "title": "She Walks Over Me",
+  "language": null,
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "sort-name": "Erlandson, Eric",
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "name": "Eric Erlandson",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "sort-name": "Love, Courtney",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "name": "Courtney Love",
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "disambiguation": ""
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ecd838da-35f8-3984-8e75-3ea7c0320208?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "attributes": [],
+  "id": "ecd838da-35f8-3984-8e75-3ea7c0320208",
+  "language": "eng",
+  "relations": [
+    {
+      "source-credit": "",
+      "artist": {
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "sort-name": "Costello, Elvis",
+        "name": "Elvis Costello",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "sort-name": "Costello, Elvis",
+        "name": "Elvis Costello",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attribute-ids": {},
+      "type": "lyricist",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "title": "No Action"
+}

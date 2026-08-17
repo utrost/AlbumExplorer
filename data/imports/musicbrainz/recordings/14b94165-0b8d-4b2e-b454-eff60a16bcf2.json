@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/14b94165-0b8d-4b2e-b454-eff60a16bcf2?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo studio mix",
+  "id": "14b94165-0b8d-4b2e-b454-eff60a16bcf2",
+  "first-release-date": "1967-01-04",
+  "title": "Twentieth Century Fox",
+  "video": false,
+  "length": 154000,
+  "relations": [
+    {
+      "direction": "forward",
+      "source-credit": "",
+      "ended": true,
+      "attribute-values": {},
+      "begin": "1966-09",
+      "target-credit": "",
+      "end": "1966-09",
+      "attribute-ids": {},
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.182.851-4"
+        ],
+        "title": "Twentieth Century Fox",
+        "language": "eng",
+        "id": "bc6f2e9a-d4b3-3b76-a7e7-c1f4ed07caac",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ]
+}

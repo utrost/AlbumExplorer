@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/10d1de41-e137-4736-8b30-2334f6f92d00?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-071.874.224-5"
+  ],
+  "id": "10d1de41-e137-4736-8b30-2334f6f92d00",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Frankly, Mr. Shankly",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Marr, Johnny",
+        "name": "Johnny Marr",
+        "id": "ff621094-2a76-401f-8398-b75b5fd2be24"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "English singer‐songwriter",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Morrissey",
+        "name": "Morrissey",
+        "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    }
+  ]
+}

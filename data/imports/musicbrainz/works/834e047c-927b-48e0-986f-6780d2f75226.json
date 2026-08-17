@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/834e047c-927b-48e0-986f-6780d2f75226?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "834e047c-927b-48e0-986f-6780d2f75226",
+  "title": "Jennifer’s Body",
+  "attributes": [],
+  "relations": [
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "country": "US",
+        "type": "Person",
+        "name": "Eric Erlandson",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Erlandson, Eric"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "name": "Courtney Love",
+        "country": "US",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "sort-name": "Love, Courtney",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "type": "Song",
+  "language": "eng"
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/bf0ebaa0-c212-37c5-a1f2-7b26db8db05e?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "id": "bf0ebaa0-c212-37c5-a1f2-7b26db8db05e",
+  "iswcs": [
+    "T-070.924.898-5"
+  ],
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "language": "eng",
+  "relations": [
+    {
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "sort-name": "Verlaine, Tom",
+        "name": "Tom Verlaine",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "ended": false,
+      "type": "lyricist",
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "type": "Person",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "sort-name": "Verlaine, Tom",
+        "disambiguation": "",
+        "name": "Tom Verlaine"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "title": "See No Evil"
+}

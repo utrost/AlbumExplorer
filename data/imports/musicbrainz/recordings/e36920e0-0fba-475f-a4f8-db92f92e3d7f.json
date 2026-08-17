@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e36920e0-0fba-475f-a4f8-db92f92e3d7f?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo studio mix",
+  "video": false,
+  "relations": [
+    {
+      "end": "1966-09",
+      "attribute-ids": {},
+      "begin": "1966-09",
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "cab082a3-fbe9-3ec7-8180-08e8c0495512",
+        "title": "Take It as It Comes",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-070.182.875-2"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    }
+  ],
+  "length": 137000,
+  "id": "e36920e0-0fba-475f-a4f8-db92f92e3d7f",
+  "title": "Take It as It Comes",
+  "first-release-date": "1967-01-04"
+}

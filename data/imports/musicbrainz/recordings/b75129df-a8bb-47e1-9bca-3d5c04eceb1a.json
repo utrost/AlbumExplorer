@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b75129df-a8bb-47e1-9bca-3d5c04eceb1a?inc=work-rels&fmt=json",
+  "first-release-date": "1969-01-12",
+  "video": false,
+  "title": "You Shook Me",
+  "disambiguation": "",
+  "id": "b75129df-a8bb-47e1-9bca-3d5c04eceb1a",
+  "relations": [
+    {
+      "target-credit": "",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "id": "eed98f33-d536-37c9-a838-22f5ad947837",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "iswcs": [
+          "T-060.570.132-3",
+          "T-070.248.330-4"
+        ],
+        "title": "You Shook Me",
+        "language": "eng"
+      },
+      "end": "1968-10",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "attributes": [
+        "cover"
+      ],
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "source-credit": "",
+      "begin": "1968-09",
+      "ended": true,
+      "attribute-values": {}
+    }
+  ],
+  "length": 388000
+}

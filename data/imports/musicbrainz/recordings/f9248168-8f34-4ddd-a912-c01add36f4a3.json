@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f9248168-8f34-4ddd-a912-c01add36f4a3?inc=work-rels&fmt=json",
+  "video": false,
+  "title": "That’s How Strong My Love Is",
+  "first-release-date": "1965-07-30",
+  "disambiguation": "mono",
+  "id": "f9248168-8f34-4ddd-a912-c01add36f4a3",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work",
+      "attributes": [
+        "cover"
+      ],
+      "end": "1965-05-10",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "type": "Song",
+        "id": "9066e377-5e8b-3907-aaab-f33cfefd1b2d",
+        "title": "That’s How Strong My Love Is",
+        "language": "eng",
+        "iswcs": [
+          "T-070.940.526-4"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "target-credit": "",
+      "begin": "1965-05-10",
+      "ended": true,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "forward"
+    }
+  ],
+  "length": 145707
+}

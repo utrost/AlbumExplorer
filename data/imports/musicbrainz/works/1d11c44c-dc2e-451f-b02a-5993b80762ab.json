@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/1d11c44c-dc2e-451f-b02a-5993b80762ab?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-011.401.587-0"
+  ],
+  "attributes": [],
+  "id": "1d11c44c-dc2e-451f-b02a-5993b80762ab",
+  "language": "eng",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "writer",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "artist": {
+        "country": "GB",
+        "type": "Person",
+        "disambiguation": "The Clash/Big Audio Dynamite",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4",
+        "sort-name": "Jones, Mick",
+        "name": "Mick Jones"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "sort-name": "Strummer, Joe",
+        "name": "Joe Strummer",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person"
+      },
+      "source-credit": "",
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attributes": [],
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {}
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "title": "Garageland"
+}

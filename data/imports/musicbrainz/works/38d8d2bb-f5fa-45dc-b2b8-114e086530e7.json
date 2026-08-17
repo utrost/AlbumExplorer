@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/38d8d2bb-f5fa-45dc-b2b8-114e086530e7?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "id": "38d8d2bb-f5fa-45dc-b2b8-114e086530e7",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "type": "Song",
+  "title": "Protex Blue",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "artist": {
+        "name": "Mick Jones",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4",
+        "country": "GB",
+        "sort-name": "Jones, Mick",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "The Clash/Big Audio Dynamite"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "name": "Joe Strummer",
+        "country": "GB",
+        "sort-name": "Strummer, Joe",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    }
+  ],
+  "disambiguation": ""
+}

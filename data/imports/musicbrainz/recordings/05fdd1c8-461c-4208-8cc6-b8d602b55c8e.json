@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/05fdd1c8-461c-4208-8cc6-b8d602b55c8e?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-011.401.587-0"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "1d11c44c-dc2e-451f-b02a-5993b80762ab",
+        "title": "Garageland",
+        "attributes": []
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "video": false,
+  "length": 193000,
+  "id": "05fdd1c8-461c-4208-8cc6-b8d602b55c8e",
+  "first-release-date": "1977-04-08",
+  "title": "Garageland"
+}

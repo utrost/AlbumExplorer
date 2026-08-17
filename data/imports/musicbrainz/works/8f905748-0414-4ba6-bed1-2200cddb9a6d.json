@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8f905748-0414-4ba6-bed1-2200cddb9a6d?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "id": "8f905748-0414-4ba6-bed1-2200cddb9a6d",
+  "iswcs": [],
+  "relations": [
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Jackson, Janet",
+        "country": "US",
+        "name": "Janet Jackson",
+        "id": "6be2828f-6c0d-4059-99d4-fa18acf1a296",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "James Samuel Harris III",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "James Harris of Jam & Lewis",
+        "id": "d79976d7-d895-480e-83c2-877f4cdd7073",
+        "name": "Jimmy Jam",
+        "sort-name": "Jam, Jimmy",
+        "country": "US"
+      },
+      "attributes": [],
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "country": "US",
+        "sort-name": "Lewis, Terry",
+        "name": "Terry Lewis",
+        "id": "e458eba7-ccb7-47bb-8057-473330c61040",
+        "disambiguation": "US hip-hop/soul songwriter, producer & label owner",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Control",
+  "language": "eng"
+}

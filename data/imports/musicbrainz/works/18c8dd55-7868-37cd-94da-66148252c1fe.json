@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/18c8dd55-7868-37cd-94da-66148252c1fe?inc=artist-rels&fmt=json",
+  "title": "The Under Assistant West Coast Promotion Man",
+  "language": "eng",
+  "iswcs": [
+    "T-010.442.363-3"
+  ],
+  "id": "18c8dd55-7868-37cd-94da-66148252c1fe",
+  "type": null,
+  "type-id": null,
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-type": "artist",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "source-credit": "",
+      "begin": null,
+      "artist": {
+        "type": "Group",
+        "id": "18b60be3-6b62-48b3-b1eb-4cb46d7cca9d",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "disambiguation": "",
+        "sort-name": "Nanker Phelge",
+        "name": "Nanker Phelge",
+        "country": "GB"
+      },
+      "attribute-values": {},
+      "ended": false
+    },
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "begin": null,
+      "artist": {
+        "disambiguation": "",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "type": "Group",
+        "id": "18b60be3-6b62-48b3-b1eb-4cb46d7cca9d",
+        "sort-name": "Nanker Phelge",
+        "name": "Nanker Phelge",
+        "country": "GB"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "artist",
+      "type": "lyricist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

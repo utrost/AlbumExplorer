@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/349255b5-c179-491a-b7c7-2d18a927a205?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "attributes": [],
+  "id": "349255b5-c179-491a-b7c7-2d18a927a205",
+  "disambiguation": "",
+  "relations": [
+    {
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "composer",
+      "begin": null,
+      "artist": {
+        "sort-name": "Costello, Elvis",
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "name": "Elvis Costello",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "type": "Person"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {}
+    },
+    {
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "sort-name": "Costello, Elvis",
+        "name": "Elvis Costello",
+        "disambiguation": "",
+        "country": "GB",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null
+    }
+  ],
+  "language": "eng",
+  "title": "Little Triggers",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

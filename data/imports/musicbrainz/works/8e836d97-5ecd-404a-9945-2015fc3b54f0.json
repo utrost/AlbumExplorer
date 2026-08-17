@@ -1,0 +1,176 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8e836d97-5ecd-404a-9945-2015fc3b54f0?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "value": "004781 381 30",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "value": "2701358",
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID",
+      "value": "75211550"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "12858452900"
+    },
+    {
+      "value": "12.613.747",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "value": "10701048",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "10701048"
+    },
+    {
+      "value": "960695",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID"
+    },
+    {
+      "value": "26 606 502 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "399530750"
+    },
+    {
+      "value": "113745ES",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "7A7-6222-1",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "13256177-001"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "6796037"
+    },
+    {
+      "value": "26489855",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "value": "7573659",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "10189285"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-007879306"
+    },
+    {
+      "value": "15008972",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "value": "GW43479714",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "9335290"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "6527949"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-909.055.637-9"
+  ],
+  "id": "8e836d97-5ecd-404a-9945-2015fc3b54f0",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "sort-name": "Swift, Taylor",
+        "id": "20244d07-534f-4eff-b4d4-930878889970",
+        "name": "Taylor Swift",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "sort-name": "Swift, Taylor",
+        "id": "20244d07-534f-4eff-b4d4-930878889970",
+        "name": "Taylor Swift",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "title": "I Almost Do",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "type": "Song"
+}

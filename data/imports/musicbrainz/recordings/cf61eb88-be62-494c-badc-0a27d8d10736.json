@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/cf61eb88-be62-494c-badc-0a27d8d10736?inc=work-rels&fmt=json",
+  "length": 211760,
+  "first-release-date": "1980-07-25",
+  "id": "cf61eb88-be62-494c-badc-0a27d8d10736",
+  "title": "Givin the Dog a Bone",
+  "relations": [
+    {
+      "begin": "1980-04",
+      "attribute-ids": {},
+      "end": "1980-05",
+      "ended": true,
+      "target-type": "work",
+      "direction": "forward",
+      "type": "performance",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-010.571.082-4",
+          "T-060.048.202-7"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "e066a95e-0c83-3d8a-b739-baad6678ed02",
+        "title": "Given the Dog a Bone",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

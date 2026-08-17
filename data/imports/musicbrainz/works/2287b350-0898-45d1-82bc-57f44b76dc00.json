@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2287b350-0898-45d1-82bc-57f44b76dc00?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "iswcs": [],
+  "id": "2287b350-0898-45d1-82bc-57f44b76dc00",
+  "relations": [
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Erlandson, Eric",
+        "name": "Eric Erlandson",
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789"
+      },
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "name": "Courtney Love",
+        "country": "US",
+        "sort-name": "Love, Courtney",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain"
+      },
+      "target-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Olympia"
+}

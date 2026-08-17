@@ -1,0 +1,179 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f8ee65f8-3af9-497a-931c-197c73faa96c?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "Kendrick Duckworth",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "artist": {
+        "sort-name": "Lamar, Kendrick",
+        "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "name": "Kendrick Lamar",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "type": "Person"
+      },
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward"
+    },
+    {
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "DK",
+        "name": "Rune Rask",
+        "disambiguation": "",
+        "id": "372c6077-a358-416e-8ded-872040d3b830",
+        "sort-name": "Rask, Rune"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "artist": {
+        "type": "Person",
+        "country": "DK",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Jonas Vestergaard",
+        "id": "53977ec7-0951-4a78-9b81-0f1767d82005",
+        "sort-name": "Vestergaard, Jonas"
+      },
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": ""
+    }
+  ],
+  "title": "The Art of Peer Pressure",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "id": "f8ee65f8-3af9-497a-931c-197c73faa96c",
+  "disambiguation": "",
+  "iswcs": [
+    "T-909.204.317-9"
+  ],
+  "attributes": [
+    {
+      "value": "004778 958 73",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "2666516"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "75398574",
+      "type": "SOCAN ID"
+    },
+    {
+      "value": "74559105",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "12838588500",
+      "type": "SIAE ID"
+    },
+    {
+      "type": "SGAE ID",
+      "value": "12.826.047",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type": "SAYCO ID",
+      "value": "10715530",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "10715530"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "13330108-001"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "7980128"
+    },
+    {
+      "value": "7921757",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "10253001",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "8346903",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "CASH ID",
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec",
+      "value": "C-1243988282"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "14505431"
+    },
+    {
+      "value": "884758404",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "value": "GW43487291",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "type": "AKM ID",
+      "value": "763909101",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    }
+  ]
+}

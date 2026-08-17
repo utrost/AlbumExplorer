@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/91e62243-2060-4611-a415-ec3270f83238?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "title": "The Rain (Supa Dupa Fly)",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [],
+        "attributes": [],
+        "disambiguation": "",
+        "id": "3e526374-dc3f-35ce-8b5a-1b1be2346546"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "title": "The Rain (Supa Dupa Fly)",
+  "disambiguation": "explicit",
+  "video": false,
+  "id": "91e62243-2060-4611-a415-ec3270f83238",
+  "length": 251000,
+  "first-release-date": "1997-07-11"
+}

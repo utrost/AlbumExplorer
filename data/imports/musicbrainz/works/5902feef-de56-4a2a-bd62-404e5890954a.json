@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5902feef-de56-4a2a-bd62-404e5890954a?inc=artist-rels&fmt=json",
+  "type": null,
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type-id": null,
+        "sort-name": "Spencer Bernard",
+        "disambiguation": "",
+        "type": null,
+        "name": "Spencer Bernard",
+        "id": "438c8129-2577-4d4f-8e2c-f1497c322555",
+        "country": null
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Spencer Bernard",
+        "id": "438c8129-2577-4d4f-8e2c-f1497c322555",
+        "country": null,
+        "name": "Spencer Bernard",
+        "type": null
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "language": null,
+  "id": "5902feef-de56-4a2a-bd62-404e5890954a",
+  "title": "He Doesn't Know I'm Alive",
+  "attributes": [],
+  "type-id": null,
+  "languages": [],
+  "iswcs": [],
+  "disambiguation": ""
+}

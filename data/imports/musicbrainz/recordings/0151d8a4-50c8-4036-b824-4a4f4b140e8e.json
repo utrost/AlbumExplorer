@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0151d8a4-50c8-4036-b824-4a4f4b140e8e?inc=work-rels&fmt=json",
+  "first-release-date": "1986-03-03",
+  "id": "0151d8a4-50c8-4036-b824-4a4f4b140e8e",
+  "relations": [
+    {
+      "begin": "1985-09-01",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "disambiguation": "",
+        "title": "Master of Puppets",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-070.115.558-9"
+        ],
+        "id": "19ec21de-2d93-390c-98b0-b68d98c4baf5"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1985-12-27",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "disambiguation": "",
+  "video": false,
+  "length": 515240,
+  "title": "Master of Puppets"
+}

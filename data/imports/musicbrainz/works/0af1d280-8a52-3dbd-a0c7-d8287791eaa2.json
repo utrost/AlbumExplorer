@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0af1d280-8a52-3dbd-a0c7-d8287791eaa2?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "Melissa Elliott",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "name": "Missy Elliott",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "sort-name": "Elliott, Missy",
+        "country": "US"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "Timothy Mosley",
+      "artist": {
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "name": "Timbaland",
+        "country": "US",
+        "sort-name": "Timbaland",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "disambiguation": "",
+  "type": null,
+  "title": "They Don't Wanna Fuck Wit Me",
+  "type-id": null,
+  "language": null,
+  "languages": [],
+  "attributes": [],
+  "iswcs": [],
+  "id": "0af1d280-8a52-3dbd-a0c7-d8287791eaa2"
+}

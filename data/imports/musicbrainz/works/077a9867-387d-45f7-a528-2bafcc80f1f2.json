@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/077a9867-387d-45f7-a528-2bafcc80f1f2?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "Kendrick Duckworth",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "country": "US",
+        "type": "Person",
+        "name": "Kendrick Lamar",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lamar, Kendrick"
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "952701d5-59d2-40c5-b7a1-0d7925d5e351",
+        "country": "US",
+        "type": "Person",
+        "name": "Jack Splash",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Splash, Jack"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "id": "6f92929a-6381-48ac-b348-83b43b9cf646",
+        "type": "Person",
+        "name": "Jazmine Sullivan",
+        "disambiguation": "",
+        "sort-name": "Sullivan, Jazmine",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "077a9867-387d-45f7-a528-2bafcc80f1f2",
+  "title": "Now or Never",
+  "attributes": []
+}

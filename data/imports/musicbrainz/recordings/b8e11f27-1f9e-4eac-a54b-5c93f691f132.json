@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b8e11f27-1f9e-4eac-a54b-5c93f691f132?inc=work-rels&fmt=json",
+  "length": 336000,
+  "first-release-date": "1977-02-08",
+  "video": false,
+  "id": "b8e11f27-1f9e-4eac-a54b-5c93f691f132",
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "work": {
+        "attributes": [],
+        "iswcs": [
+          "T-071.062.109-2"
+        ],
+        "id": "cec94446-eed3-377b-92d0-bc25023207e6",
+        "disambiguation": "",
+        "title": "Guiding Light",
+        "language": "eng",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "title": "Guiding Light"
+}

@@ -1,0 +1,116 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/71774d74-54c1-41de-a4b2-65f3662b2051?inc=artist-rels&fmt=json",
+  "id": "71774d74-54c1-41de-a4b2-65f3662b2051",
+  "title": "Real",
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "004789 783 71",
+      "type": "SUISA ID"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "12.994.369"
+    },
+    {
+      "value": "56636509",
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290",
+      "type": "SESAC ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "408614150",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "A03IZET00"
+    },
+    {
+      "type": "PRS tune code",
+      "value": "117281AT",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-007953447",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "884758408"
+    },
+    {
+      "value": "GW43487297",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "type": "AKM ID",
+      "value": "790311601",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    }
+  ],
+  "relations": [
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "Kendrick Duckworth",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Lamar, Kendrick",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Kendrick Lamar",
+        "country": "US",
+        "id": "381086ea-f511-4aba-bdf9-71c753dc5077"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Martin, Terrace",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Terrace Martin",
+        "id": "47d06156-05af-420e-8835-be50353a5d52",
+        "country": "US"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "iswcs": [
+    "T-910.059.258-3"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

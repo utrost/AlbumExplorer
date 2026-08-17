@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a9d5e6ed-0300-4284-85fc-a5c4e246e670?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "type": "performance",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": true,
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "disambiguation": "from the songspiel “Mahagonny” & opera “Rise and Fall of the City of Mahagonny”",
+        "title": "Alabama Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "id": "aa487a25-62db-3673-a570-63a5472d2e85",
+        "iswcs": [
+          "T-071.434.173-7"
+        ],
+        "attributes": []
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "begin": "1966-09",
+      "target-type": "work",
+      "end": "1966-09",
+      "direction": "forward",
+      "attributes": [
+        "cover"
+      ]
+    }
+  ],
+  "disambiguation": "original stereo studio mix",
+  "title": "Alabama Song (Whisky Bar)",
+  "video": false,
+  "id": "a9d5e6ed-0300-4284-85fc-a5c4e246e670",
+  "first-release-date": "1967-01-04",
+  "length": 200000
+}

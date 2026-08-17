@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/39495add-a349-4793-aafb-15ceea67c22e?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "id": "39495add-a349-4793-aafb-15ceea67c22e",
+  "disambiguation": "",
+  "relations": [
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Eric Erlandson",
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "country": "US",
+        "sort-name": "Erlandson, Eric"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Love, Courtney",
+        "country": "US",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "name": "Courtney Love",
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "title": "Asking for It",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "type": "Song"
+}

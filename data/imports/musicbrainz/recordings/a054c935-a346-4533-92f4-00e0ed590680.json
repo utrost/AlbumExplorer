@@ -1,0 +1,74 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a054c935-a346-4533-92f4-00e0ed590680?inc=work-rels&fmt=json",
+  "video": false,
+  "first-release-date": "1986-06-16",
+  "disambiguation": "",
+  "relations": [
+    {
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type": "Song",
+        "attributes": [],
+        "id": "3d018430-7fe9-4815-9249-37b9e8672265",
+        "title": "Take Me Back to Dear Old Blighty",
+        "iswcs": [
+          "T-010.433.839-7"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type": "performance",
+      "attribute-values": {},
+      "ended": true,
+      "attributes": [
+        "partial"
+      ],
+      "end": "1985",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "direction": "forward",
+      "begin": "1985",
+      "target-type": "work",
+      "attribute-ids": {
+        "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+      }
+    },
+    {
+      "direction": "forward",
+      "target-type": "work",
+      "attribute-ids": {},
+      "begin": "1985",
+      "target-credit": "",
+      "ended": true,
+      "attributes": [],
+      "source-credit": "",
+      "end": "1985",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "iswcs": [
+          "T-900.231.897-0"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "ef49b05c-13b3-32e7-93e3-f0251847e5cc",
+        "attributes": [],
+        "title": "The Queen Is Dead",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng"
+      },
+      "type": "performance",
+      "attribute-values": {}
+    }
+  ],
+  "length": 384333,
+  "id": "a054c935-a346-4533-92f4-00e0ed590680",
+  "title": "The Queen Is Dead"
+}

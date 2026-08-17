@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7dee4afc-5931-4295-955a-7ae44f403e70?inc=work-rels&fmt=json",
+  "id": "7dee4afc-5931-4295-955a-7ae44f403e70",
+  "first-release-date": "2012-10-21",
+  "title": "Swimming Pools (Drank) (extended version)",
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": null,
+      "ended": false,
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Swimming Pools (Drank)",
+        "type": "Song",
+        "disambiguation": "",
+        "id": "9db5f356-0dc9-45d4-be6b-d7c3b7cba5d8",
+        "iswcs": [
+          "T-912.609.747-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "length": 313704,
+  "disambiguation": "explicit"
+}

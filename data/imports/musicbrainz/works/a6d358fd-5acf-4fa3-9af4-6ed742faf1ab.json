@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a6d358fd-5acf-4fa3-9af4-6ed742faf1ab?inc=artist-rels&fmt=json",
+  "id": "a6d358fd-5acf-4fa3-9af4-6ed742faf1ab",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "What’s My Name",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "artist",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "The Clash/Big Audio Dynamite",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4",
+        "name": "Mick Jones",
+        "sort-name": "Jones, Mick",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "23076ae4-ac76-4468-95fc-d8bae9e70f0a",
+        "name": "Keith Levene",
+        "sort-name": "Levene, Keith",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "name": "Joe Strummer",
+        "country": "GB",
+        "sort-name": "Strummer, Joe"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer"
+    }
+  ]
+}

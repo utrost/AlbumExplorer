@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ff643591-5388-4553-bb39-a7f8e9b59cba?inc=work-rels&fmt=json",
+  "length": 323000,
+  "first-release-date": "2012-10-22",
+  "video": false,
+  "id": "ff643591-5388-4553-bb39-a7f8e9b59cba",
+  "disambiguation": "",
+  "relations": [
+    {
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "ended": false,
+      "type": "performance",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "title": "State of Grace",
+        "disambiguation": "",
+        "id": "65bdb1d3-a969-4dde-967a-9cfa67d0168c",
+        "iswcs": [
+          "T-908.996.380-4"
+        ],
+        "attributes": []
+      }
+    }
+  ],
+  "title": "State of Grace (acoustic version)"
+}

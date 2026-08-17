@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/9e67cc21-fe2b-32e6-8761-274211cd2e2e?inc=artist-rels&fmt=json",
+  "type-id": null,
+  "disambiguation": "",
+  "type": null,
+  "id": "9e67cc21-fe2b-32e6-8761-274211cd2e2e",
+  "iswcs": [],
+  "language": null,
+  "title": "Don't Be Commin' (in My Face)",
+  "languages": [],
+  "attributes": [],
+  "relations": [
+    {
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "Melissa Elliott",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "name": "Missy Elliott",
+        "country": "US",
+        "type": "Person",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "sort-name": "Elliott, Missy"
+      },
+      "begin": null,
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "target-type": "artist",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "Timothy Mosley",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "begin": null,
+      "artist": {
+        "name": "Timbaland",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "sort-name": "Timbaland"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "direction": "backward",
+      "source-credit": ""
+    }
+  ]
+}

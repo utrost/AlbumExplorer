@@ -1,0 +1,339 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/14ebb10c-6500-43c5-8ee0-56a957d9d3cd?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Cardona, Eric",
+        "country": "US",
+        "name": "Eric Cardona",
+        "id": "cd8ec158-8431-4a4a-a42b-f95862747f2c",
+        "disambiguation": "guitarist-singer",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "artist": {
+        "name": "Gabel D'Amico",
+        "id": "08dfe373-cd7c-41f0-9833-5382231b338a",
+        "country": "US",
+        "sort-name": "D'Amico, Gabel",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "bassist"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "Andre Young, rap producer",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Dre, Dr.",
+        "country": "US",
+        "name": "Dr. Dre",
+        "id": "5f6ab597-f57a-40da-be9e-adad48708203"
+      },
+      "target-credit": "Andre Young",
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "singer",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Estella, Andrea",
+        "country": "US",
+        "name": "Andrea Estella",
+        "id": "baca76dc-bf18-424b-ba34-83a0c352e4f4"
+      },
+      "target-credit": "Andrea Hernandez",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "name": "Udbhav Gupta",
+        "id": "2a0873c9-7509-4e03-9beb-da641d97908d",
+        "sort-name": "Gupta, Udbhav",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "name": "Kendrick Lamar",
+        "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "sort-name": "Lamar, Kendrick",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "Kendrick Duckworth",
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    },
+    {
+      "target-credit": "Elijah Molina",
+      "artist": {
+        "name": "Scoop DeVille",
+        "id": "e5c8b8c2-8b59-46ea-b4b3-625cd2ddbba5",
+        "sort-name": "Scoop DeVille",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Ujueta, Bryan",
+        "country": "US",
+        "name": "Bryan Ujueta",
+        "id": "33adf207-83b7-4703-9113-745a062fe3d0",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "The Recipe",
+  "attributes": [
+    {
+      "value": "004778 960 86",
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type": "SPAC ID",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "value": "5015185"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "4230826"
+    },
+    {
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "type": "SOBODAYCOM ID",
+      "value": "5015185"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "11874828000"
+    },
+    {
+      "value": "12.334.536",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "type": "SGACEDOM ID",
+      "value": "5015185"
+    },
+    {
+      "value": "10793204",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "10793204"
+    },
+    {
+      "value": "1193188",
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "value": "5015185",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "type": "SACIM ID"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "A07PWT000"
+    },
+    {
+      "value": "102478DW",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "5015185",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "type": "NICAUTOR ID"
+    },
+    {
+      "value": "6334134",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "8806488"
+    },
+    {
+      "value": "C-1244889922",
+      "type": "CASH ID",
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec"
+    },
+    {
+      "value": "W-007366312",
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "value": "14120835",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "value": "883971676",
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW42500804"
+    },
+    {
+      "value": "9254012",
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "value": "5647601",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID"
+    },
+    {
+      "value": "6226540",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID"
+    },
+    {
+      "value": "5015185",
+      "type": "AEI ID",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826"
+    },
+    {
+      "type": "ACAM ID",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "5015185"
+    },
+    {
+      "value": "5015185",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "type": "AACIMH ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-912.901.787-4"
+  ],
+  "id": "14ebb10c-6500-43c5-8ee0-56a957d9d3cd"
+}

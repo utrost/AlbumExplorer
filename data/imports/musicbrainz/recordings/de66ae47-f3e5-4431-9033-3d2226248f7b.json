@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/de66ae47-f3e5-4431-9033-3d2226248f7b?inc=work-rels&fmt=json",
+  "disambiguation": "mono",
+  "length": 219893,
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1965-05-12",
+      "ended": true,
+      "direction": "forward",
+      "begin": "1965-05-11",
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "iswcs": [
+          "T-010.065.911-7"
+        ],
+        "id": "cce65a6c-a0c2-31fa-b9e3-732e5798b6f2",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "The Spider and the Fly",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": ""
+      }
+    }
+  ],
+  "title": "The Spider and the Fly",
+  "first-release-date": "1965-07-30",
+  "id": "de66ae47-f3e5-4431-9033-3d2226248f7b"
+}

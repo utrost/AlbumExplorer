@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f2ebc997-1dbd-331c-93a7-78949838c241?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-900.231.899-2"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Johnny Marr",
+        "type": "Person",
+        "country": "GB",
+        "id": "ff621094-2a76-401f-8398-b75b5fd2be24",
+        "sort-name": "Marr, Johnny",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "disambiguation": "English singer‐songwriter",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Morrissey",
+        "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+        "country": "GB",
+        "name": "Morrissey",
+        "type": "Person"
+      }
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "f2ebc997-1dbd-331c-93a7-78949838c241",
+  "title": "Vicar in a Tutu",
+  "attributes": []
+}

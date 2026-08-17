@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ab7805a8-c161-403d-92bf-a92c8b8e17dc?inc=work-rels&fmt=json",
+  "title": "Hurt",
+  "video": false,
+  "first-release-date": "1994-03-08",
+  "disambiguation": "explicit album version",
+  "id": "ab7805a8-c161-403d-92bf-a92c8b8e17dc",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work",
+      "attributes": [],
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "title": "Hurt",
+        "iswcs": [
+          "T-070.207.393-5",
+          "T-070.898.276-6"
+        ],
+        "type": "Song",
+        "id": "ca56bd56-0e88-35f3-aec2-12eb8e9c739e",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "end": null,
+      "target-credit": "",
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "forward"
+    }
+  ],
+  "length": 374066
+}

@@ -1,0 +1,104 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/45ab5006-66a3-44dc-8b90-f6d54027426a?inc=artist-rels&fmt=json",
+  "id": "45ab5006-66a3-44dc-8b90-f6d54027426a",
+  "iswcs": [
+    "T-902.868.448-2"
+  ],
+  "attributes": [
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW04931546"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "330428578"
+    },
+    {
+      "value": "1B3-7428-8",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Compton’s ’n the House",
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "attributes": [],
+      "target-credit": "Andre Young",
+      "artist": {
+        "name": "Dr. Dre",
+        "id": "5f6ab597-f57a-40da-be9e-adad48708203",
+        "country": "US",
+        "sort-name": "Dre, Dr.",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Andre Young, rap producer"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Ice Cube",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "country": "US",
+        "sort-name": "Ice Cube"
+      },
+      "target-credit": "O'Shea Jackson",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Ren, MC",
+        "name": "MC Ren",
+        "id": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf"
+      },
+      "target-credit": "Lorenzo Patterson",
+      "attributes": []
+    }
+  ],
+  "disambiguation": ""
+}

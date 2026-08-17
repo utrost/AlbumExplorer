@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/59fdc91b-91a5-4dde-a059-c989e5b629d1?inc=work-rels&fmt=json",
+  "id": "59fdc91b-91a5-4dde-a059-c989e5b629d1",
+  "first-release-date": "1967-01-04",
+  "title": "The Crystal Ship",
+  "relations": [
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "end": "1966-09",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": "1966-09",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "4d7d93fd-13f6-3dfb-a030-ef8ba64076d5",
+        "iswcs": [
+          "T-070.027.422-1"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "The Crystal Ship",
+        "type": "Song"
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance"
+    }
+  ],
+  "disambiguation": "original stereo studio mix",
+  "video": false,
+  "length": 154000
+}

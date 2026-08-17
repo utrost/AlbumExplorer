@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/43fa113b-240b-3d48-8584-5bfab6064515?inc=artist-rels&fmt=json",
+  "title": "Busta's Outro",
+  "type-id": null,
+  "language": null,
+  "type": null,
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "name": "Busta Rhymes",
+        "id": "10a9ff92-9637-4498-afea-7044b2ab0dc0",
+        "country": "US",
+        "sort-name": "Busta Rhymes",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "Trevor Tahiem Smith, Jr.",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "name": "Timbaland",
+        "country": "US",
+        "sort-name": "Timbaland"
+      },
+      "target-credit": "Timothy Mosley",
+      "attribute-values": {},
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "iswcs": [],
+  "id": "43fa113b-240b-3d48-8584-5bfab6064515",
+  "languages": [],
+  "attributes": []
+}

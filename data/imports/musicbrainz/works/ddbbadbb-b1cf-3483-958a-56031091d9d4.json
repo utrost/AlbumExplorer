@@ -1,0 +1,236 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ddbbadbb-b1cf-3483-958a-56031091d9d4?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "title": "I Want to Take You Higher",
+  "relations": [
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Sylvester Stewart",
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US",
+        "name": "Sly Stone",
+        "id": "a833e001-7c3b-491f-b7d4-2ef367837b95",
+        "sort-name": "Stone, Sly"
+      },
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": []
+    },
+    {
+      "attribute-ids": {},
+      "target-credit": "Sylvester Stewart",
+      "attribute-values": {},
+      "ended": false,
+      "type": "lyricist",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "name": "Sly Stone",
+        "sort-name": "Stone, Sly",
+        "id": "a833e001-7c3b-491f-b7d4-2ef367837b95",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "language": "eng",
+  "iswcs": [
+    "T-070.240.968-4"
+  ],
+  "attributes": [
+    {
+      "value": "5200800",
+      "type": "SPAC ID",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46"
+    },
+    {
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "value": "5200800",
+      "type": "SOBODAYCOM ID"
+    },
+    {
+      "value": "5200800",
+      "type": "SGACEDOM ID",
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca"
+    },
+    {
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "type": "NICAUTOR ID",
+      "value": "5200800"
+    },
+    {
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "value": "5200800",
+      "type": "AEI ID"
+    },
+    {
+      "type": "AACIMH ID",
+      "value": "5200800",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865"
+    },
+    {
+      "value": "5200800",
+      "type": "SACIM ID",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe"
+    },
+    {
+      "value": "300531",
+      "type": "ACDAM ID",
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e"
+    },
+    {
+      "value": "7595899",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "7594342",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "240988",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "10608714"
+    },
+    {
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "5200800",
+      "type": "ACAM ID"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID",
+      "value": "2315265"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2150212",
+      "type": "SACVEN ID"
+    },
+    {
+      "value": "2399623",
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "1212867",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "1212867",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "150643"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "72201753200",
+      "type": "SIAE ID"
+    },
+    {
+      "type": "SPA ID",
+      "value": "31027",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "value": "3300HU",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "471173050",
+      "type": "SABAM ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "000633500"
+    },
+    {
+      "value": "W-000056302",
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "245883",
+      "type": "SADAIC ID"
+    },
+    {
+      "type": "AKM ID",
+      "value": "25758801",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "64 352 755 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID",
+      "value": "3.110.081"
+    },
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID",
+      "value": "000145 337 10"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW01073137"
+    },
+    {
+      "type": "SOCAN ID",
+      "value": "12223109",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type": "GEMA ID",
+      "value": "827721-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "691777",
+      "type": "BMI ID"
+    }
+  ],
+  "id": "ddbbadbb-b1cf-3483-958a-56031091d9d4"
+}

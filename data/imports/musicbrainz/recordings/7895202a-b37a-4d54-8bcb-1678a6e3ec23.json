@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7895202a-b37a-4d54-8bcb-1678a6e3ec23?inc=work-rels&fmt=json",
+  "first-release-date": "1969-10-22",
+  "id": "7895202a-b37a-4d54-8bcb-1678a6e3ec23",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1969-08",
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "iswcs": [
+          "T-070.098.937-2",
+          "T-932.127.395-4"
+        ],
+        "id": "9aa319e5-6ddf-3dc8-9b74-5e1e465e2b03",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Living Loving Maid (She’s Just a Woman)",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "ended": true,
+      "begin": "1969-04",
+      "direction": "forward"
+    }
+  ],
+  "disambiguation": "original studio mix",
+  "video": false,
+  "length": 159306,
+  "title": "Living Loving Maid (She's Just a Woman)"
+}

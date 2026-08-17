@@ -1,0 +1,141 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/59366304-15f3-4ffa-a535-e29fc72be5fa?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "attributes": [],
+      "artist": {
+        "disambiguation": "The Clash/Big Audio Dynamite",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Jones, Mick",
+        "name": "Mick Jones",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "sort-name": "Strummer, Joe",
+        "country": "GB",
+        "name": "Joe Strummer",
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "title": "I’m So Bored With the U.S.A.",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID",
+      "value": "002175 018 93"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "1406017"
+    },
+    {
+      "value": "73541951",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "value": "10950320",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID"
+    },
+    {
+      "value": "78100304900",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID"
+    },
+    {
+      "value": "614542100",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "A059E0800"
+    },
+    {
+      "value": "6865348A",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0I1-3646-1"
+    },
+    {
+      "value": "1412381-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "958843"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "9073112"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000312070"
+    },
+    {
+      "value": "GW01931864",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "value": "9182316",
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    }
+  ],
+  "iswcs": [
+    "T-011.401.593-8"
+  ],
+  "id": "59366304-15f3-4ffa-a535-e29fc72be5fa"
+}

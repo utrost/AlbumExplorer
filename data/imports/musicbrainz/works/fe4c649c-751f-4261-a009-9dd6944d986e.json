@@ -1,0 +1,81 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fe4c649c-751f-4261-a009-9dd6944d986e?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-909.055.632-4"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Swift, Taylor",
+        "id": "20244d07-534f-4eff-b4d4-930878889970",
+        "country": "US",
+        "type": "Person",
+        "name": "Taylor Swift"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "artist": {
+        "country": "US",
+        "id": "9f41f18b-23b2-4052-af25-0664dbfc9085",
+        "type": "Person",
+        "name": "Dan Wilson",
+        "disambiguation": "American singer/songwriter",
+        "sort-name": "Wilson, Dan",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer"
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "title": "Come Back… Be Here",
+  "id": "fe4c649c-751f-4261-a009-9dd6944d986e",
+  "attributes": [
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "7A7-6217-5"
+    },
+    {
+      "type": "BMI ID",
+      "value": "15008966",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "884655609"
+    }
+  ]
+}

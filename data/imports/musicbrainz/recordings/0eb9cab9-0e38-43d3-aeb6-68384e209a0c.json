@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0eb9cab9-0e38-43d3-aeb6-68384e209a0c?inc=work-rels&fmt=json",
+  "id": "0eb9cab9-0e38-43d3-aeb6-68384e209a0c",
+  "first-release-date": "2012-10-21",
+  "length": 273606,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "source-credit": "",
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "attributes": [],
+      "type": "performance",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "attributes": [],
+        "iswcs": [],
+        "id": "07958afa-573a-4ed9-a508-15fa6ec6bdf7",
+        "type-id": null,
+        "title": "Sherane a.k.a. Master Splinter’s Daughter",
+        "type": null,
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ]
+      }
+    }
+  ],
+  "disambiguation": "explicit",
+  "title": "Sherane a.k.a Master Splinter’s Daughter",
+  "video": false
+}

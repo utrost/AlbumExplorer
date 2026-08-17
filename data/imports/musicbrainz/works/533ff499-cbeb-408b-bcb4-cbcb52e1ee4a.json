@@ -1,0 +1,122 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/533ff499-cbeb-408b-bcb4-cbcb52e1ee4a?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "disambiguation": "",
+  "type": "Song",
+  "relations": [
+    {
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "id": "3a67cda4-4363-4d05-84e5-0d6f22c2f7ac",
+        "type": "Person",
+        "name": "Brock Korsan",
+        "sort-name": "Korsan, Brock",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "type": "writer"
+    },
+    {
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Kendrick Lamar",
+        "sort-name": "Lamar, Kendrick"
+      },
+      "attribute-values": {},
+      "type": "writer",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "target-credit": "Kendrick Duckworth"
+    },
+    {
+      "type": "writer",
+      "attribute-values": {},
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "48263831-f264-485d-92ad-dd6a08004aa4",
+        "country": null,
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Parker, Dawaun",
+        "type": "Person",
+        "name": "Dawaun Parker"
+      },
+      "ended": false,
+      "attributes": [],
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "end": null,
+      "ended": false,
+      "artist": {
+        "disambiguation": "",
+        "name": "Rahki",
+        "type": "Person",
+        "sort-name": "Rahki",
+        "id": "0b15bed5-5365-4e7f-ab80-240078b15414",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "attributes": [],
+      "type": "writer",
+      "attribute-values": {},
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "Columbus Smith"
+    }
+  ],
+  "title": "Black Boy Fly",
+  "attributes": [
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "15171646",
+      "type": "BMI ID"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "884758410"
+    }
+  ],
+  "id": "533ff499-cbeb-408b-bcb4-cbcb52e1ee4a",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-915.083.353-7"
+  ]
+}

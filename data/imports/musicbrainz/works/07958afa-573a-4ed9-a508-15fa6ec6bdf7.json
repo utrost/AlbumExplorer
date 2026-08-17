@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/07958afa-573a-4ed9-a508-15fa6ec6bdf7?inc=artist-rels&fmt=json",
+  "id": "07958afa-573a-4ed9-a508-15fa6ec6bdf7",
+  "title": "Sherane a.k.a. Master Splinter’s Daughter",
+  "attributes": [],
+  "relations": [
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "Chris Whitacre",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Dow Jones",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Chris Whitacre",
+        "name": "Dow Jones",
+        "type": "Person",
+        "country": null,
+        "id": "4c69a8c4-f61e-42bc-a402-5077251cfc25"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "artist": {
+        "type": "Person",
+        "name": "Henny tha Bizness",
+        "id": "2e7f222c-7848-4fbb-abcd-77caaa5b999c",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Henny tha Bizness",
+        "disambiguation": "hip hop producer"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "Justin Henderson"
+    },
+    {
+      "target-credit": "Kendrick Duckworth",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "country": "US",
+        "type": "Person",
+        "name": "Kendrick Lamar",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lamar, Kendrick"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    }
+  ],
+  "type": null,
+  "language": "eng",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": null
+}

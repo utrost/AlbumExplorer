@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/95e3a251-1737-4b48-af8b-735cae50de2d?inc=work-rels&fmt=json",
+  "length": 323493,
+  "first-release-date": "1969-04",
+  "disambiguation": "",
+  "video": false,
+  "id": "95e3a251-1737-4b48-af8b-735cae50de2d",
+  "relations": [
+    {
+      "end": "1969",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "begin": "1969",
+      "type": "performance",
+      "ended": true,
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "I Want to Take You Higher",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "id": "ddbbadbb-b1cf-3483-958a-56031091d9d4",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [
+          "T-070.240.968-4"
+        ]
+      },
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": ""
+    }
+  ],
+  "title": "I Want to Take You Higher"
+}

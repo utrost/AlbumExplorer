@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/092ae218-6cec-4253-b9b3-7101aba83eca?inc=work-rels&fmt=json",
+  "first-release-date": "1977-02-08",
+  "id": "092ae218-6cec-4253-b9b3-7101aba83eca",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "forward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-070.891.553-0"
+        ],
+        "id": "6058789d-56c6-37a9-b060-c0bfba82cb1d",
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Elevation"
+      },
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null
+    }
+  ],
+  "length": 308000,
+  "video": false,
+  "disambiguation": "",
+  "title": "Elevation"
+}

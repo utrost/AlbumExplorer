@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/1d1279bc-7a7a-4a09-a874-4037366240d5?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "end": "1965-05-10",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "begin": "1965-05-10",
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "title": "Mercy, Mercy",
+        "id": "151aceac-3595-38e0-9341-e583279c13ae",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.242.160-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [
+        "cover"
+      ]
+    }
+  ],
+  "video": false,
+  "id": "1d1279bc-7a7a-4a09-a874-4037366240d5",
+  "title": "Mercy Mercy",
+  "first-release-date": "1965-07-30",
+  "length": 167000,
+  "disambiguation": "mono"
+}

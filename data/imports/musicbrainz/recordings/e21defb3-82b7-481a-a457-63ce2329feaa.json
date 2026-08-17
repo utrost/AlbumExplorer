@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e21defb3-82b7-481a-a457-63ce2329feaa?inc=work-rels&fmt=json",
+  "title": "Thank You",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1969-08",
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.183.229-2"
+        ],
+        "id": "975c64de-9161-3161-9729-3a2e0e938d78",
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Thank You"
+      },
+      "ended": true,
+      "direction": "forward",
+      "begin": "1969-04"
+    }
+  ],
+  "video": false,
+  "length": 289320,
+  "disambiguation": "original studio mix",
+  "id": "e21defb3-82b7-481a-a457-63ce2329feaa",
+  "first-release-date": "1969-10-22"
+}

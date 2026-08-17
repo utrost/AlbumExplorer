@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3f7e04ef-822a-412a-8fc7-669dcee6dbfa?inc=work-rels&fmt=json",
+  "title": "Good Times Bad Times",
+  "video": false,
+  "length": 166160,
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": "1968-10",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "work": {
+        "iswcs": [
+          "T-070.066.161-5"
+        ],
+        "id": "9bbdbd7f-3b4d-33db-8a07-8b53b72293f7",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Good Times Bad Times",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "begin": "1968-09",
+      "direction": "forward",
+      "ended": true
+    }
+  ],
+  "id": "3f7e04ef-822a-412a-8fc7-669dcee6dbfa",
+  "first-release-date": "1969-01-12"
+}

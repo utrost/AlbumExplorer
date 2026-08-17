@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3d018430-7fe9-4815-9249-37b9e8672265?inc=artist-rels&fmt=json",
+  "id": "3d018430-7fe9-4815-9249-37b9e8672265",
+  "iswcs": [
+    "T-010.433.839-7"
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Take Me Back to Dear Old Blighty",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "early 20th century songwriter",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Godfrey, Fred",
+        "name": "Fred Godfrey",
+        "id": "b3dd78d2-8ca3-42f0-90d9-7e4b7ff7610a"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": null,
+        "sort-name": "Mills, Arthur J.",
+        "id": "b63de73e-882a-4594-b10c-53051dbf5d47",
+        "name": "Arthur J. Mills"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "music hall songwriter",
+        "name": "Bennett Scott",
+        "id": "61955c4b-7b55-4943-92bf-e5773180bce6",
+        "sort-name": "Scott, Bennett",
+        "country": null
+      },
+      "target-credit": ""
+    }
+  ]
+}

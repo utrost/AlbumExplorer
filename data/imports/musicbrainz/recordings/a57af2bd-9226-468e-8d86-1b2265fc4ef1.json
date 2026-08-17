@@ -1,0 +1,44 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a57af2bd-9226-468e-8d86-1b2265fc4ef1?inc=work-rels&fmt=json",
+  "length": 229440,
+  "id": "a57af2bd-9226-468e-8d86-1b2265fc4ef1",
+  "title": "Candle in the Wind",
+  "first-release-date": "1973-10-05",
+  "video": false,
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-011.520.443-7",
+          "T-070.028.244-5",
+          "T-900.318.691-2",
+          "T-900.318.692-3"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "a5215e7d-36e8-3c17-abb7-5fc5e27b2312",
+        "title": "Candle in the Wind",
+        "attributes": []
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "type": "performance",
+      "begin": "1973-05",
+      "attribute-ids": {},
+      "end": "1973-05"
+    }
+  ],
+  "disambiguation": "original stereo mix"
+}

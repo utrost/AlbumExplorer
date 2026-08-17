@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ef71afb6-5e51-41df-999b-9e7c7306063a?inc=work-rels&fmt=json",
+  "length": 255773,
+  "id": "ef71afb6-5e51-41df-999b-9e7c7306063a",
+  "first-release-date": "1980-07-25",
+  "title": "Back in Black",
+  "relations": [
+    {
+      "work": {
+        "title": "Back in Black",
+        "id": "b18c6ef9-bbc3-3c28-81f9-5afcc59355f0",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-060.108.262-5",
+          "T-901.068.221-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": "1980-04",
+      "attribute-ids": {},
+      "end": "1980-05",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type": "performance"
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

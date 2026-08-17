@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/cccf8761-0e13-3a48-b06f-5c9e35784d1a?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "id": "cccf8761-0e13-3a48-b06f-5c9e35784d1a",
+  "title": "Miss World",
+  "language": null,
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "country": "US",
+        "name": "Eric Erlandson",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Erlandson, Eric"
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "name": "Courtney Love",
+        "country": "US",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "sort-name": "Love, Courtney",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "type": null,
+  "disambiguation": "",
+  "iswcs": [],
+  "languages": [],
+  "type-id": null
+}

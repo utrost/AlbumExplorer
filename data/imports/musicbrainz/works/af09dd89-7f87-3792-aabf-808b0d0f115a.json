@@ -1,0 +1,156 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/af09dd89-7f87-3792-aabf-808b0d0f115a?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-011.401.600-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Jones, Mick",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "The Clash/Big Audio Dynamite",
+        "name": "Mick Jones",
+        "type": "Person",
+        "country": "GB",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "name": "Joe Strummer",
+        "country": "GB",
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "sort-name": "Strummer, Joe",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      }
+    }
+  ],
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000491 229 83",
+      "type": "SUISA ID"
+    },
+    {
+      "value": "1406640",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "231333"
+    },
+    {
+      "value": "78100375100",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "4.272.065",
+      "type": "SGAE ID"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "10444663"
+    },
+    {
+      "type": "SADAIC ID",
+      "value": "790126",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "type": "SACVEN ID",
+      "value": "4020548",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "A051BIV00",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "value": "6865358R",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type": "ECAD ID",
+      "value": "693000",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000312066"
+    },
+    {
+      "value": "4000425685",
+      "type-id": "5e3b8fc2-3a4e-4a92-a572-6339863c1cf4",
+      "type": "ARTISJUS ID"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW02326444"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "3316615"
+    },
+    {
+      "value": "5264260",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID"
+    },
+    {
+      "type": "AKM ID",
+      "value": "45167801",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "value": "2309986301",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    }
+  ],
+  "id": "af09dd89-7f87-3792-aabf-808b0d0f115a",
+  "title": "London’s Burning"
+}

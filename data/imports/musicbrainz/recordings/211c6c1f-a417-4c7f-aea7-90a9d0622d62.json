@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/211c6c1f-a417-4c7f-aea7-90a9d0622d62?inc=work-rels&fmt=json",
+  "id": "211c6c1f-a417-4c7f-aea7-90a9d0622d62",
+  "first-release-date": "1965-07-30",
+  "title": "Good Times",
+  "relations": [
+    {
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1965-05-12",
+      "ended": true,
+      "direction": "forward",
+      "begin": "1965-05-11",
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Good Times",
+        "type": "Song",
+        "disambiguation": "",
+        "id": "f322792d-9f7a-38f2-bddb-73731c1b2039",
+        "iswcs": [
+          "T-070.234.323-4"
+        ],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      }
+    }
+  ],
+  "disambiguation": "mono",
+  "length": 119000,
+  "video": false
+}

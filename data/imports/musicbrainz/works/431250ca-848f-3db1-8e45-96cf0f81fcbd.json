@@ -1,0 +1,234 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/431250ca-848f-3db1-8e45-96cf0f81fcbd?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "id": "49acbee5-5fb5-4cf1-868f-67bc01de2d84",
+        "name": "Brian Johnson",
+        "country": "GB",
+        "sort-name": "Johnson, Brian",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "AC/DC lead singer"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "a0a54c69-b0d2-4d2a-bcf8-994b8846b0d8",
+        "name": "Angus Young",
+        "sort-name": "Young, Angus",
+        "country": "AU",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "member of AC/DC"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "id": "ea719716-da05-46f8-bbd5-cc5803db3d0e",
+        "name": "Malcolm Young",
+        "country": "AU",
+        "sort-name": "Young, Malcolm",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "guitar player for AC/DC"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Rock and Roll Ain’t Noise Pollution",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "type": "APA ID",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "value": "5089014"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "6843257"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "307046"
+    },
+    {
+      "value": "2341866",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "16873455",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID",
+      "value": "4185805"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2070759"
+    },
+    {
+      "value": "2591761",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID"
+    },
+    {
+      "value": "2591761",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "72626"
+    },
+    {
+      "value": "3815961",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "80353023100"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID",
+      "value": "14822477000"
+    },
+    {
+      "value": "14822440300",
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+    },
+    {
+      "value": "10882006300",
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "28493"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "2078FM"
+    },
+    {
+      "value": "W-000070183",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e",
+      "type": "OSA ID",
+      "value": "I000.78.13.35"
+    },
+    {
+      "value": "269179",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID",
+      "value": "77283601"
+    },
+    {
+      "value": "80 283 518 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID"
+    },
+    {
+      "value": "285.368",
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000485 865 41"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW00557146"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID",
+      "value": "10927237"
+    },
+    {
+      "value": "1183155-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "480150870"
+    },
+    {
+      "value": "0R1-2017-3",
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+    }
+  ],
+  "iswcs": [
+    "T-060.044.148-2"
+  ],
+  "id": "431250ca-848f-3db1-8e45-96cf0f81fcbd"
+}

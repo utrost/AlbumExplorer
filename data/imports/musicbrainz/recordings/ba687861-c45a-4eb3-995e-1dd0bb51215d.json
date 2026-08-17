@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ba687861-c45a-4eb3-995e-1dd0bb51215d?inc=work-rels&fmt=json",
+  "length": 248000,
+  "title": "Roy Rogers",
+  "id": "ba687861-c45a-4eb3-995e-1dd0bb51215d",
+  "first-release-date": "1973-10-05",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.128.367-1"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "2ba7c626-28e3-3956-86a7-8042ab903e3a",
+        "title": "Roy Rogers",
+        "attributes": []
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": "1973-05",
+      "attribute-ids": {},
+      "begin": "1973-05",
+      "type": "performance",
+      "ended": true,
+      "target-type": "work",
+      "direction": "forward"
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

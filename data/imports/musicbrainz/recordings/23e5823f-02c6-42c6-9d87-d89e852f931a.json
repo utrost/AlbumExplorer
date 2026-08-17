@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/23e5823f-02c6-42c6-9d87-d89e852f931a?inc=work-rels&fmt=json",
+  "first-release-date": "1978",
+  "id": "23e5823f-02c6-42c6-9d87-d89e852f931a",
+  "video": false,
+  "length": 228973,
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "work": {
+        "iswcs": [],
+        "id": "772c8f1f-7cbe-42cf-a779-5cc47b95ed15",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "The Beat",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "begin": null,
+      "direction": "forward",
+      "ended": false
+    }
+  ],
+  "title": "The Beat"
+}

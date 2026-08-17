@@ -1,0 +1,107 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ec21aa69-af72-3b6e-951f-f329710f214b?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "attributes": [],
+  "disambiguation": "",
+  "id": "ec21aa69-af72-3b6e-951f-f329710f214b",
+  "languages": [],
+  "type": null,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Badu, Erykah",
+        "id": "321531fc-db73-4ffa-a959-61a61a2908c1",
+        "name": "Erykah Badu",
+        "disambiguation": ""
+      },
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": []
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Longtime producer and manager for The Roots",
+        "name": "Richard Nichols",
+        "id": "29181727-a888-431e-a6c5-bd7f4969a318",
+        "sort-name": "Nichols, Richard"
+      },
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "fde17fa5-3238-439f-ab1c-c37671e3c3b3",
+        "sort-name": "Poyser, James",
+        "disambiguation": "soul, r&b, hip-hop producer and songwriter",
+        "name": "James Poyser"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "artist": {
+        "disambiguation": "US hip hop group",
+        "name": "The Roots",
+        "sort-name": "Roots, The",
+        "id": "80b3cf5e-18fe-4c59-98c7-e5bb87210710",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "type": "Group",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "title": "Sometimes...",
+  "language": null,
+  "type-id": null
+}

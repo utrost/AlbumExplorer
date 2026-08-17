@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0b260003-1625-42c3-8489-1e5757a1e8cd?inc=work-rels&fmt=json",
+  "length": 130960,
+  "first-release-date": "1977-04-08",
+  "id": "0b260003-1625-42c3-8489-1e5757a1e8cd",
+  "video": false,
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "performance",
+      "ended": false,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "work": {
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "title": "London’s Burning",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "iswcs": [
+          "T-011.401.600-0"
+        ],
+        "disambiguation": "",
+        "id": "af09dd89-7f87-3792-aabf-808b0d0f115a"
+      },
+      "target-type": "work",
+      "attribute-values": {},
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "end": null,
+      "begin": null
+    }
+  ],
+  "title": "London’s Burning"
+}

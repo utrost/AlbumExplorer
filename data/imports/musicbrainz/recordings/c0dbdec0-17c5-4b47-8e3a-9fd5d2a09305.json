@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c0dbdec0-17c5-4b47-8e3a-9fd5d2a09305?inc=work-rels&fmt=json",
+  "title": "I Know It’s Over",
+  "disambiguation": "",
+  "video": false,
+  "length": 349733,
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1985",
+      "ended": true,
+      "work": {
+        "iswcs": [
+          "T-900.231.895-8"
+        ],
+        "id": "c5da22a0-9f3a-3f12-a5b3-c82f71aec3ea",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "I Know It’s Over",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1985",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "id": "c0dbdec0-17c5-4b47-8e3a-9fd5d2a09305",
+  "first-release-date": "1986-06-16"
+}

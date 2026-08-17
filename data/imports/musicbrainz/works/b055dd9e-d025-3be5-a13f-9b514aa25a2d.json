@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b055dd9e-d025-3be5-a13f-9b514aa25a2d?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "target-type": "artist",
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "country": "GB",
+        "name": "Elton John",
+        "sort-name": "John, Elton",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "English singer, songwriter, pianist, and composer",
+        "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "type": "Person"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false
+    },
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "begin": null,
+      "artist": {
+        "sort-name": "Taupin, Bernie",
+        "id": "9a0d0b2d-a727-44a6-a172-53766f186834",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "name": "Bernie Taupin"
+      },
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-type": "artist",
+      "type": "lyricist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "attributes": [
+    {
+      "value": "1367142",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-010.459.681-7"
+  ],
+  "title": "Social Disease",
+  "language": "eng",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "b055dd9e-d025-3be5-a13f-9b514aa25a2d",
+  "type": "Song"
+}

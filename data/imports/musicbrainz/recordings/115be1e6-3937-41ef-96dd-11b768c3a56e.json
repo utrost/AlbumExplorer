@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/115be1e6-3937-41ef-96dd-11b768c3a56e?inc=work-rels&fmt=json",
+  "id": "115be1e6-3937-41ef-96dd-11b768c3a56e",
+  "first-release-date": "2012-10-21",
+  "title": "Compton",
+  "disambiguation": "explicit",
+  "video": false,
+  "length": 248000,
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "forward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-913.783.661-4"
+        ],
+        "id": "605b12b9-ca06-4515-b4e6-eeb4be260a0d",
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Compton"
+      },
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null
+    }
+  ]
+}

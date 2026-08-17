@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/55fd05ea-0067-41cb-a2e9-e4e264a1d51b?inc=work-rels&fmt=json",
+  "first-release-date": "1977-04-08",
+  "id": "55fd05ea-0067-41cb-a2e9-e4e264a1d51b",
+  "video": false,
+  "length": 182000,
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "id": "85232a8c-12c6-392f-8307-3e3102cea108",
+        "iswcs": [],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Remote Control",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward"
+    }
+  ],
+  "title": "Remote Control"
+}

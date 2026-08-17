@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/4670cfcd-f13c-4be2-81c3-6f39d8876af7?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "id": "4670cfcd-f13c-4be2-81c3-6f39d8876af7",
+  "first-release-date": "1977-04-08",
+  "title": "Janie Jones",
+  "length": 126160,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "4966955f-bad0-4c6b-abb2-4998d2c734bc",
+        "title": "Janie Jones",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ],
+  "video": false
+}

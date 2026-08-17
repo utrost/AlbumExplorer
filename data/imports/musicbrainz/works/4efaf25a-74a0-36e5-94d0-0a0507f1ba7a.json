@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4efaf25a-74a0-36e5-94d0-0a0507f1ba7a?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "relations": [
+    {
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "6be2828f-6c0d-4059-99d4-fa18acf1a296",
+        "type": "Person",
+        "sort-name": "Jackson, Janet",
+        "name": "Janet Jackson",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward"
+    },
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Jam, Jimmy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "James Harris of Jam & Lewis",
+        "id": "d79976d7-d895-480e-83c2-877f4cdd7073",
+        "type": "Person",
+        "country": "US",
+        "name": "Jimmy Jam"
+      },
+      "begin": null,
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "James Samuel Harris III",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist"
+    },
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "id": "e458eba7-ccb7-47bb-8057-473330c61040",
+        "type": "Person",
+        "disambiguation": "US hip-hop/soul songwriter, producer & label owner",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lewis, Terry",
+        "name": "Terry Lewis",
+        "country": "US"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer"
+    }
+  ],
+  "type": "Song",
+  "id": "4efaf25a-74a0-36e5-94d0-0a0507f1ba7a",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "title": "Nasty",
+  "language": "eng",
+  "iswcs": [
+    "T-070.155.058-4"
+  ]
+}

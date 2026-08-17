@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/53ef3104-91ff-3fe8-80c4-f16dd3d6c787?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "title": "Jamaica Jerk-Off",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "name": "Elton John",
+        "country": "GB",
+        "sort-name": "John, Elton",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "English singer, songwriter, pianist, and composer"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Taupin, Bernie",
+        "country": "GB",
+        "name": "Bernie Taupin",
+        "id": "9a0d0b2d-a727-44a6-a172-53766f186834"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [
+    "T-010.456.347-4"
+  ],
+  "id": "53ef3104-91ff-3fe8-80c4-f16dd3d6c787",
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "757792"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

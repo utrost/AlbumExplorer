@@ -1,0 +1,206 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ac4b9252-416f-34bc-9809-73fbb6d5690b?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "id": "a833e001-7c3b-491f-b7d4-2ef367837b95",
+        "sort-name": "Stone, Sly",
+        "name": "Sly Stone",
+        "country": "US"
+      },
+      "begin": null,
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "Sylvester Stewart",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "target-type": "artist"
+    },
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "name": "Sly Stone",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "a833e001-7c3b-491f-b7d4-2ef367837b95",
+        "type": "Person",
+        "sort-name": "Stone, Sly"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "Sylvester Stewart",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-type": "artist"
+    }
+  ],
+  "attributes": [
+    {
+      "value": "000158 546 81",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID",
+      "value": "262686"
+    },
+    {
+      "value": "12427772",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID",
+      "value": "72201754900"
+    },
+    {
+      "value": "642.037",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "value": "1586553",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "1586553"
+    },
+    {
+      "value": "1574501",
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "value": "121361619",
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "value": "68 346 046 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "value": "000810000",
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "213724800"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "3300HN"
+    },
+    {
+      "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e",
+      "type": "OSA ID",
+      "value": "I000.32.86.29"
+    },
+    {
+      "value": "0S0-3815-3",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    },
+    {
+      "value": "829215-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "value": "2561928",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "6658938"
+    },
+    {
+      "value": "243642",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec",
+      "type": "CASH ID",
+      "value": "C-1234716912"
+    },
+    {
+      "value": "W-000253463",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "ARTISJUS ID",
+      "type-id": "5e3b8fc2-3a4e-4a92-a572-6339863c1cf4",
+      "value": "4000513627"
+    },
+    {
+      "value": "GW03989156",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "value": "2404685",
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "value": "25758701",
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "value": "25524101",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "value": "297874",
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+      "type": "ACDAM ID"
+    },
+    {
+      "value": "1343641",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "id": "ac4b9252-416f-34bc-9809-73fbb6d5690b",
+  "type": "Song",
+  "iswcs": [
+    "T-070.243.622-3"
+  ],
+  "language": "eng",
+  "title": "Sing a Simple Song"
+}

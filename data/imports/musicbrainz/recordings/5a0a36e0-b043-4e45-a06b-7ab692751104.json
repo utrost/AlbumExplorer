@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5a0a36e0-b043-4e45-a06b-7ab692751104?inc=work-rels&fmt=json",
+  "id": "5a0a36e0-b043-4e45-a06b-7ab692751104",
+  "first-release-date": "1965-07-30",
+  "title": "Play With Fire",
+  "length": 135080,
+  "video": false,
+  "disambiguation": "mono",
+  "relations": [
+    {
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-010.065.387-9"
+        ],
+        "id": "ea934515-6f2a-332f-946e-81289f5d3dd5",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Play With Fire",
+        "language": "eng",
+        "type": "Song"
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "forward",
+      "begin": "1965-01-17",
+      "ended": true,
+      "end": "1965-01-18",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work"
+    }
+  ]
+}

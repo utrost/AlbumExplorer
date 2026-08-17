@@ -1,0 +1,209 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/13387ed0-a22f-34c1-b3a9-721597d89ad0?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "artist": {
+        "name": "Johnny Marr",
+        "disambiguation": "",
+        "id": "ff621094-2a76-401f-8398-b75b5fd2be24",
+        "sort-name": "Marr, Johnny",
+        "type": "Person",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward"
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "disambiguation": "English singer‐songwriter",
+        "name": "Morrissey",
+        "sort-name": "Morrissey",
+        "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6"
+      },
+      "attribute-ids": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "ended": false,
+      "type": "named after work",
+      "begin": null,
+      "artist": {
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "type": "Group",
+        "country": "JP",
+        "name": "There Is a Light That Never Goes Out",
+        "disambiguation": "",
+        "sort-name": "There Is a Light That Never Goes Out",
+        "id": "7583f25b-fd8e-470c-97f1-2ff90c2fbc85"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "535fdfed-3bca-40ad-966b-e67be7882d09"
+    }
+  ],
+  "language": "eng",
+  "title": "There Is a Light That Never Goes Out",
+  "disambiguation": "",
+  "id": "13387ed0-a22f-34c1-b3a9-721597d89ad0",
+  "attributes": [
+    {
+      "value": "001531 898 61",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "type": "SPAC ID",
+      "value": "5031309",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46"
+    },
+    {
+      "value": "195822",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "12473707"
+    },
+    {
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "value": "5031309",
+      "type": "SOBODAYCOM ID"
+    },
+    {
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "value": "5031309",
+      "type": "SGACEDOM ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "4759649"
+    },
+    {
+      "type": "SADAIC ID",
+      "value": "728094",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "type": "SACIM ID",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "value": "5031309"
+    },
+    {
+      "value": "1368DQ",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "NICAUTOR ID",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "value": "5031309"
+    },
+    {
+      "type": "LatinNet ID",
+      "type-id": "78cf692f-a43b-46fc-993b-635c5bd86375",
+      "value": "2573"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0T3-0309-8",
+      "type": "JASRAC ID"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "1969916-001",
+      "type": "GEMA ID"
+    },
+    {
+      "value": "4323017",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "2620133",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "13491235",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "1486915"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "500383973"
+    },
+    {
+      "type": "APRA ID",
+      "value": "GW01625382",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "6253006"
+    },
+    {
+      "value": "5031309",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "type": "AEI ID"
+    },
+    {
+      "type": "ACAM ID",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "5031309"
+    },
+    {
+      "type": "AACIMH ID",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "value": "5031309"
+    }
+  ],
+  "iswcs": [
+    "T-900.032.090-1"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/958fd167-0305-4021-85fc-e8ee5cc7fc45?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1985",
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "The Boy With the Thorn in His Side",
+        "type": "Song",
+        "disambiguation": "",
+        "id": "2b3a5792-3818-33f1-b43d-30b9e0698b2b",
+        "iswcs": [
+          "T-071.927.189-2"
+        ],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "ended": true,
+      "begin": "1985",
+      "direction": "forward"
+    }
+  ],
+  "disambiguation": "",
+  "video": false,
+  "length": 197106,
+  "title": "The Boy with the Thorn in His Side",
+  "first-release-date": "1985-09-16",
+  "id": "958fd167-0305-4021-85fc-e8ee5cc7fc45"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/4efb9929-c313-4631-8679-938b1677c8a3?inc=work-rels&fmt=json",
+  "id": "4efb9929-c313-4631-8679-938b1677c8a3",
+  "title": "Everything Has Changed",
+  "first-release-date": "2012-08-10",
+  "length": 245000,
+  "relations": [
+    {
+      "type": "performance",
+      "ended": false,
+      "target-type": "work",
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-908.996.395-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "title": "Everything Has Changed",
+        "id": "8c58a94d-989a-4264-9941-6a792bf871b4",
+        "attributes": []
+      }
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3e526374-dc3f-35ce-8b5a-1b1be2346546?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "The Rain (Supa Dupa Fly)",
+  "relations": [
+    {
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "target-credit": "Melissa Elliott",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "type": "Person",
+        "sort-name": "Elliott, Missy",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "name": "Missy Elliott",
+        "disambiguation": "American rapper, singer, dancer & record producer"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "begin": null
+    },
+    {
+      "target-credit": "Timothy Mosley",
+      "attributes": [],
+      "source-credit": "",
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "name": "Timbaland",
+        "disambiguation": "",
+        "sort-name": "Timbaland",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US"
+      }
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [],
+  "iswcs": [],
+  "disambiguation": "",
+  "id": "3e526374-dc3f-35ce-8b5a-1b1be2346546"
+}

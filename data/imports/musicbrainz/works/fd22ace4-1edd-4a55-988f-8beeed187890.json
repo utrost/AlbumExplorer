@@ -1,0 +1,161 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fd22ace4-1edd-4a55-988f-8beeed187890?inc=artist-rels&fmt=json",
+  "id": "fd22ace4-1edd-4a55-988f-8beeed187890",
+  "iswcs": [
+    "T-909.257.369-8"
+  ],
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "004760 687 23",
+      "type": "SUISA ID"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "2650190",
+      "type": "SPA ID"
+    },
+    {
+      "value": "75371195",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "value": "12.705.651",
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type": "SAYCO ID",
+      "value": "10715538",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "value": "10715538",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID",
+      "value": "26 602 623 11"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "407416750",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "value": "113877LU",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type": "JASRAC ID",
+      "value": "7A7-6737-1",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "13251864-001"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "16870443",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "7921758",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "10212617",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec",
+      "value": "C-1243988301",
+      "type": "CASH ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "value": "W-007920384",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type": "ASCAP ID",
+      "value": "884665064",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "value": "GW43487294",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "value": "765193901",
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    }
+  ],
+  "language": "eng",
+  "relations": [
+    {
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Kendrick Duckworth",
+      "type": "writer",
+      "attribute-ids": {},
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "sort-name": "Lamar, Kendrick",
+        "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "name": "Kendrick Lamar"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "149f91ef-1287-46da-9a8e-87fee02f1471",
+        "sort-name": "Williams, Pharrell",
+        "name": "Pharrell Williams"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {}
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "good kid",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

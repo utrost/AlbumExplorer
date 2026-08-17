@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2efcf2e5-75c5-4c29-8ecb-29617466548d?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "id": "2efcf2e5-75c5-4c29-8ecb-29617466548d",
+  "relations": [
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Erlandson, Eric",
+        "country": "US",
+        "name": "Eric Erlandson",
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789"
+      },
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Love, Courtney",
+        "country": "US",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "name": "Courtney Love"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "name": "Courtney Love",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "sort-name": "Love, Courtney",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain"
+      },
+      "attribute-values": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Doll Parts"
+}

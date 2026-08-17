@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6058789d-56c6-37a9-b060-c0bfba82cb1d?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "iswcs": [
+    "T-070.891.553-0"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "6058789d-56c6-37a9-b060-c0bfba82cb1d",
+  "attributes": [],
+  "title": "Elevation",
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "composer",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "sort-name": "Verlaine, Tom",
+        "type": "Person",
+        "name": "Tom Verlaine",
+        "disambiguation": ""
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "lyricist",
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "name": "Tom Verlaine",
+        "type": "Person",
+        "sort-name": "Verlaine, Tom",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "ended": false
+    }
+  ]
+}

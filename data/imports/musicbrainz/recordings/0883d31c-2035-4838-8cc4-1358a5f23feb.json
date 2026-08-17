@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0883d31c-2035-4838-8cc4-1358a5f23feb?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "ended": false,
+      "type": "performance",
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "work": {
+        "id": "a6d358fd-5acf-4fa3-9af4-6ed742faf1ab",
+        "disambiguation": "",
+        "iswcs": [],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "What’s My Name",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song"
+      },
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "begin": null
+    }
+  ],
+  "title": "What’s My Name",
+  "disambiguation": "",
+  "video": false,
+  "id": "0883d31c-2035-4838-8cc4-1358a5f23feb",
+  "first-release-date": "1977-04-08",
+  "length": 101240
+}

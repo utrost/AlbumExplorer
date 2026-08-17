@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/381e3e56-9dae-440e-8b12-b88d9eb5539d?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Erlandson, Eric",
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "country": "US",
+        "name": "Eric Erlandson",
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Love, Courtney",
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain",
+        "name": "Courtney Love",
+        "type": "Person",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "country": "US"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "writer"
+    }
+  ],
+  "attributes": [],
+  "id": "381e3e56-9dae-440e-8b12-b88d9eb5539d",
+  "title": "Violet",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": []
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a6ea8fbf-1266-4e30-92e0-dc4e4d9f5b44?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "relations": [
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "sort-name": "Erlandson, Eric",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "country": "US",
+        "name": "Eric Erlandson"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-credit": "",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist"
+    },
+    {
+      "begin": null,
+      "artist": {
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "type": "Person",
+        "sort-name": "Love, Courtney",
+        "name": "Courtney Love",
+        "country": "US"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {}
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "title": "Gutless",
+  "iswcs": [],
+  "id": "a6ea8fbf-1266-4e30-92e0-dc4e4d9f5b44",
+  "type": "Song",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

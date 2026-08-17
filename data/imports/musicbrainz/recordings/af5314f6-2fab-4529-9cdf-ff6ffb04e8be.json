@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/af5314f6-2fab-4529-9cdf-ff6ffb04e8be?inc=work-rels&fmt=json",
+  "length": 240133,
+  "first-release-date": "2012-08-10",
+  "id": "af5314f6-2fab-4529-9cdf-ff6ffb04e8be",
+  "title": "The Lucky One",
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "iswcs": [
+          "T-909.055.641-5"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "96699523-dcc9-448e-885f-77770dab89c8",
+        "title": "The Lucky One",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9bbd9db4-3ded-4b2c-9d5f-37df07ee9fe7?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 121000,
+  "id": "9bbd9db4-3ded-4b2c-9d5f-37df07ee9fe7",
+  "title": "No Action",
+  "first-release-date": "1978-03-17",
+  "relations": [
+    {
+      "work": {
+        "title": "No Action",
+        "id": "ecd838da-35f8-3984-8e75-3ea7c0320208",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "ended": false,
+      "target-type": "work",
+      "direction": "forward",
+      "type": "performance"
+    }
+  ],
+  "video": false
+}

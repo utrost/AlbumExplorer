@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/772c8f1f-7cbe-42cf-a779-5cc47b95ed15?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "language": "eng",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "direction": "backward",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "target-credit": "",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Costello, Elvis",
+        "name": "Elvis Costello",
+        "type": "Person",
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "ended": false,
+      "attributes": [],
+      "type": "composer",
+      "attribute-values": {}
+    },
+    {
+      "type": "lyricist",
+      "attribute-values": {},
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "name": "Elvis Costello",
+        "type": "Person",
+        "sort-name": "Costello, Elvis",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist"
+    }
+  ],
+  "id": "772c8f1f-7cbe-42cf-a779-5cc47b95ed15",
+  "attributes": [],
+  "title": "The Beat"
+}

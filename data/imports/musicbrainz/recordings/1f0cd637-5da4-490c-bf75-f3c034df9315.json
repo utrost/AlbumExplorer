@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/1f0cd637-5da4-490c-bf75-f3c034df9315?inc=work-rels&fmt=json",
+  "length": 186560,
+  "first-release-date": "1977-04-08",
+  "id": "1f0cd637-5da4-490c-bf75-f3c034df9315",
+  "title": "Deny",
+  "disambiguation": "",
+  "video": false,
+  "relations": [
+    {
+      "attributes": [],
+      "end": null,
+      "target-type": "work",
+      "direction": "forward",
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "language": "eng",
+        "attributes": [],
+        "iswcs": [],
+        "id": "beb1def8-e6f5-4155-9a93-47981d2fa387",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Deny",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "performance"
+    }
+  ]
+}

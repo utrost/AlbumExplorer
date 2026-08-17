@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/02fac8cb-82c0-4129-803e-f675e8468a93?inc=work-rels&fmt=json",
+  "first-release-date": "2012-10-21",
+  "title": "Real",
+  "video": false,
+  "id": "02fac8cb-82c0-4129-803e-f675e8468a93",
+  "disambiguation": "explicit",
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "forward",
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "71774d74-54c1-41de-a4b2-65f3662b2051",
+        "type": "Song",
+        "iswcs": [
+          "T-910.059.258-3"
+        ],
+        "language": "eng",
+        "title": "Real"
+      },
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work"
+    }
+  ],
+  "length": 443413
+}

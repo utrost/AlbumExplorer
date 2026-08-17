@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7a52b1a4-8150-3813-8a66-9776abef6778?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "id": "7a52b1a4-8150-3813-8a66-9776abef6778",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Best Friends",
+  "language": "eng",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "name": "Missy Elliott",
+        "country": "US",
+        "sort-name": "Elliott, Missy"
+      },
+      "target-credit": "Melissa Elliott",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "Timothy Mosley",
+      "artist": {
+        "sort-name": "Timbaland",
+        "country": "US",
+        "name": "Timbaland",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    }
+  ]
+}

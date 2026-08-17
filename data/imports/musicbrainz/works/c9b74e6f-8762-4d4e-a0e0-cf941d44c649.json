@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c9b74e6f-8762-4d4e-a0e0-cf941d44c649?inc=artist-rels&fmt=json",
+  "id": "c9b74e6f-8762-4d4e-a0e0-cf941d44c649",
+  "title": "Plump",
+  "attributes": [],
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "type": "Person",
+        "name": "Eric Erlandson",
+        "disambiguation": "",
+        "sort-name": "Erlandson, Eric",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer"
+    },
+    {
+      "artist": {
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "country": "US",
+        "type": "Person",
+        "name": "Courtney Love",
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Love, Courtney"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer"
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

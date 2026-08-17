@@ -1,0 +1,252 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5f704355-671e-3277-9474-88a2f967b3da?inc=artist-rels&fmt=json",
+  "title": "The End",
+  "language": "eng",
+  "iswcs": [
+    "T-070.050.250-6"
+  ],
+  "type": "Song",
+  "id": "5f704355-671e-3277-9474-88a2f967b3da",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Densmore, John",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "83d3cc07-60e7-4139-b5f0-3cda9f5aa99b",
+        "country": "US",
+        "name": "John Densmore"
+      },
+      "begin": null,
+      "source-credit": "",
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": ""
+    },
+    {
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "American guitarist, member of The Doors",
+        "id": "b553f0ad-4543-46f2-88ea-1dc94a11c91a",
+        "type": "Person",
+        "sort-name": "Krieger, Robby",
+        "name": "Robby Krieger",
+        "country": "US"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "direction": "backward",
+      "source-credit": "",
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": []
+    },
+    {
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "sort-name": "Manzarek, Ray",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "fe93a178-183a-42c9-b3c7-53102b8c724d",
+        "type": "Person",
+        "country": "US",
+        "name": "Ray Manzarek"
+      }
+    },
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "id": "c6619f89-5454-4e2d-aa19-b5596ba3b4c6",
+        "type": "Person",
+        "disambiguation": "lead vocalist of the Doors",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Morrison, Jim",
+        "name": "Jim Morrison",
+        "country": "US"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist"
+    }
+  ],
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000176 102 14"
+    },
+    {
+      "value": "84526",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "value": "20542197",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "68100064400"
+    },
+    {
+      "value": "771476",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "value": "771476",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "745139",
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID",
+      "value": "2635852"
+    },
+    {
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "value": "040734504"
+    },
+    {
+      "value": "63 018 214 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "043875500"
+    },
+    {
+      "value": "2289HS",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type-id": "8da393f8-33c5-4ddf-afda-a035f0d46026",
+      "type": "MACP ID",
+      "value": "1000267430"
+    },
+    {
+      "type-id": "78cf692f-a43b-46fc-993b-635c5bd86375",
+      "type": "LatinNet ID",
+      "value": "899"
+    },
+    {
+      "value": "0E0-1136-1",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    },
+    {
+      "value": "436637-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "2622496"
+    },
+    {
+      "value": "873218",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "9910250"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "50251"
+    },
+    {
+      "value": "W-000248836",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "350054989"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW02393938"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "2208527"
+    },
+    {
+      "value": "5488908",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "19638901"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID",
+      "value": "4337302"
+    },
+    {
+      "value": "4049090",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "type": "ACAM ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

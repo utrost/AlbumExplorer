@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b86125b1-abdd-491b-874b-42f06599651b?inc=work-rels&fmt=json",
+  "id": "b86125b1-abdd-491b-874b-42f06599651b",
+  "first-release-date": "1969-04",
+  "title": "Somebody’s Watching You",
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1969-01-08",
+      "ended": true,
+      "direction": "forward",
+      "begin": "1969-01-08",
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Somebody’s Watching You",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.243.773-7"
+        ],
+        "id": "b3fa1780-37e9-48a6-bc39-81c48740e65d",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      }
+    }
+  ],
+  "disambiguation": "",
+  "video": false,
+  "length": 201000
+}

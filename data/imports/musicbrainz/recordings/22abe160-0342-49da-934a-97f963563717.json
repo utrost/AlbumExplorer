@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/22abe160-0342-49da-934a-97f963563717?inc=work-rels&fmt=json",
+  "first-release-date": "1973-10-05",
+  "video": false,
+  "disambiguation": "",
+  "id": "22abe160-0342-49da-934a-97f963563717",
+  "title": "This Song Has No Title",
+  "relations": [
+    {
+      "begin": "1973-05",
+      "target-type": "work",
+      "attribute-ids": {},
+      "direction": "forward",
+      "target-credit": "",
+      "attributes": [],
+      "ended": true,
+      "source-credit": "",
+      "end": "1973-05",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-010.455.543-2"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "9969f89b-e9e1-3a24-8704-6c7bb001ea1f",
+        "attributes": [],
+        "title": "This Song Has No Title"
+      },
+      "attribute-values": {},
+      "type": "performance"
+    }
+  ],
+  "length": 143293
+}

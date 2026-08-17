@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3bfda26a-49fa-4bc4-a4d6-8bbfa0767ab7?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "first-release-date": "1986-03-03",
+  "video": false,
+  "title": "Battery",
+  "id": "3bfda26a-49fa-4bc4-a4d6-8bbfa0767ab7",
+  "length": 312360,
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": "1985-09-01",
+      "target-type": "work",
+      "attribute-ids": {},
+      "direction": "forward",
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Battery",
+        "attributes": [],
+        "id": "a13a4029-ecd5-3930-b673-96ae651ea519",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.017.067-7"
+        ]
+      },
+      "end": "1985-12-27",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "ended": true
+    }
+  ]
+}

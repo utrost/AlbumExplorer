@@ -1,0 +1,236 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8cbaa12e-b3bb-4286-8a3e-0a07d8ed3acb?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "name": "Sly Stone",
+        "sort-name": "Stone, Sly",
+        "id": "a833e001-7c3b-491f-b7d4-2ef367837b95",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Sylvester Stewart",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer"
+    },
+    {
+      "target-type": "artist",
+      "type": "lyricist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-credit": "Sylvester Stewart",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "sort-name": "Stone, Sly",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "a833e001-7c3b-491f-b7d4-2ef367837b95",
+        "type": "Person",
+        "country": "US",
+        "name": "Sly Stone"
+      },
+      "direction": "backward",
+      "source-credit": ""
+    }
+  ],
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID",
+      "value": "001607 449 71"
+    },
+    {
+      "value": "1441513",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "value": "3453387",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID",
+      "value": "492912"
+    },
+    {
+      "value": "12105607",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "12830545400"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "94100098900"
+    },
+    {
+      "value": "81257008500",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID"
+    },
+    {
+      "value": "11.106.144",
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID",
+      "value": "12.881.537"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "1100327"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "1100327"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID",
+      "value": "903619"
+    },
+    {
+      "value": "1608794",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "value": "129817747",
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "value": "66 221 095 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID",
+      "value": "79 058 444 11"
+    },
+    {
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "26 635 392 11"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "210398000"
+    },
+    {
+      "value": "1806FN",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID",
+      "value": "0D2-2926-6"
+    },
+    {
+      "value": "827425-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "6658932"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "1386656"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "7594305"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "7595894"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "7837800"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "11196336"
+    },
+    {
+      "value": "W-000023768",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW03712923"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "3579482"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID",
+      "value": "29543201"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID",
+      "value": "5313970"
+    },
+    {
+      "value": "318566",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "type": "Song",
+  "id": "8cbaa12e-b3bb-4286-8a3e-0a07d8ed3acb",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-700.010.091-6"
+  ],
+  "title": "Don’t Call Me Nigger, Whitey",
+  "language": "eng"
+}

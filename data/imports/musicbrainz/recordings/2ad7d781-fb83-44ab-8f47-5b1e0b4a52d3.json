@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/2ad7d781-fb83-44ab-8f47-5b1e0b4a52d3?inc=work-rels&fmt=json",
+  "id": "2ad7d781-fb83-44ab-8f47-5b1e0b4a52d3",
+  "disambiguation": "mono",
+  "first-release-date": "1965-07-30",
+  "title": "I’m Alright",
+  "video": false,
+  "length": 145146,
+  "relations": [
+    {
+      "begin": "1965-03-05",
+      "ended": true,
+      "attribute-values": {},
+      "direction": "forward",
+      "source-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "da366b44-4151-3195-afc2-4d1822b6c3eb",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "title": "I'm Alright",
+        "language": "eng",
+        "iswcs": []
+      },
+      "attribute-ids": {
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "end": "1965-03-07",
+      "attributes": [
+        "live"
+      ],
+      "target-credit": ""
+    }
+  ]
+}

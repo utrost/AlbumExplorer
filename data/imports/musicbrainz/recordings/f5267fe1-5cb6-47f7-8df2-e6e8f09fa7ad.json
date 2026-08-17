@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f5267fe1-5cb6-47f7-8df2-e6e8f09fa7ad?inc=work-rels&fmt=json",
+  "id": "f5267fe1-5cb6-47f7-8df2-e6e8f09fa7ad",
+  "title": "The Thing That Should Not Be",
+  "first-release-date": "1986-03-03",
+  "length": 396173,
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "ended": true,
+      "target-type": "work",
+      "direction": "forward",
+      "end": "1985-12-27",
+      "begin": "1985-09-01",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "845c7fe0-e11d-3e7b-ad42-814e5c285e13",
+        "title": "The Thing That Should Not Be",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-070.186.595-3"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "disambiguation": ""
+}

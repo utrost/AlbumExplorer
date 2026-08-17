@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4d9f91e3-f508-3b8c-88a0-f2b390442ec4?inc=artist-rels&fmt=json",
+  "type": null,
+  "type-id": null,
+  "language": null,
+  "title": "Next Lifetime",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Badu, Erykah",
+        "name": "Erykah Badu",
+        "id": "321531fc-db73-4ffa-a959-61a61a2908c1"
+      },
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Tone the Backbone",
+        "country": null,
+        "id": "9b71ad4a-df8e-4142-88f8-4d757ba18f55",
+        "name": "Tone the Backbone"
+      },
+      "target-credit": "A. Scott",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer"
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [],
+  "id": "4d9f91e3-f508-3b8c-88a0-f2b390442ec4",
+  "attributes": [],
+  "languages": []
+}

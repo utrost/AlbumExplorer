@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2fa9f0cc-72c6-3ad0-913e-1904f9bf9d4e?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "name": "Erykah Badu",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "321531fc-db73-4ffa-a959-61a61a2908c1",
+        "type": "Person",
+        "sort-name": "Badu, Erykah"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer"
+    },
+    {
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "direction": "backward",
+      "source-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "603198dd-1269-4100-b802-f0c7f4e40b4c",
+        "sort-name": "Jamal, JaBorn",
+        "name": "JaBorn Jamal",
+        "country": null
+      },
+      "begin": null
+    }
+  ],
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "id": "2fa9f0cc-72c6-3ad0-913e-1904f9bf9d4e",
+  "type": "Song",
+  "iswcs": [],
+  "language": "eng",
+  "title": "On & On"
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8edcd65a-452e-3819-969e-02039ed2c482?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "title": "What Is and What Should Never Be",
+  "iswcs": [
+    "T-070.202.113-3"
+  ],
+  "id": "8edcd65a-452e-3819-969e-02039ed2c482",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "attributes": [],
+  "relations": [
+    {
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "name": "Jimmy Page",
+        "country": "GB",
+        "id": "519774a4-3b18-4042-b8c0-927845a616c9",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Page, Jimmy"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "sort-name": "Plant, Robert",
+        "disambiguation": "of Led Zeppelin",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc",
+        "country": "GB",
+        "name": "Robert Plant"
+      },
+      "begin": null,
+      "source-credit": "",
+      "direction": "backward"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

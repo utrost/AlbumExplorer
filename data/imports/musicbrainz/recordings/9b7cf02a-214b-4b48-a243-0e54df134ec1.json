@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9b7cf02a-214b-4b48-a243-0e54df134ec1?inc=work-rels&fmt=json",
+  "length": 189587,
+  "first-release-date": "1965-07-30",
+  "id": "9b7cf02a-214b-4b48-a243-0e54df134ec1",
+  "video": false,
+  "title": "Cry to Me",
+  "disambiguation": "mono",
+  "relations": [
+    {
+      "attributes": [
+        "cover"
+      ],
+      "direction": "forward",
+      "end": "1965-05-12",
+      "target-type": "work",
+      "begin": "1965-05-11",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Cry to Me",
+        "language": "eng",
+        "iswcs": [
+          "T-910.298.092-7"
+        ],
+        "attributes": [],
+        "id": "bac1d4f9-0a5e-3475-a4c1-ebdb9b9cf893"
+      },
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "ended": true,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "performance"
+    }
+  ]
+}

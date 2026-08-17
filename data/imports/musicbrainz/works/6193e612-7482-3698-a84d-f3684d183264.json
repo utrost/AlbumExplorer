@@ -1,0 +1,242 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6193e612-7482-3698-a84d-f3684d183264?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Kirk Hammett",
+        "type": "Person",
+        "country": "US",
+        "id": "4c45495f-b9f3-4d03-9fac-d44c8a77f5de",
+        "sort-name": "Hammett, Kirk",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Hetfield, James",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "68c34082-c1d5-4399-af9b-3921ca0a6a1f",
+        "name": "James Hetfield",
+        "type": "Person"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Ulrich, Lars",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "e2190b35-1181-44f6-8587-4c04123a6f30",
+        "type": "Person",
+        "name": "Lars Ulrich"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "68c34082-c1d5-4399-af9b-3921ca0a6a1f",
+        "country": "US",
+        "name": "James Hetfield",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Hetfield, James"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "type": "Song",
+  "attributes": [
+    {
+      "value": "49407833",
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290",
+      "type": "SESAC ID"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4683649"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "225570601"
+    },
+    {
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "value": "5254058",
+      "type": "APA ID"
+    },
+    {
+      "type": "APA ID",
+      "value": "5277604",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2356099",
+      "type": "APDAYC ID"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW00788195"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000514445"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "8963638"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "204990"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "46617",
+      "type": "ECAD ID"
+    },
+    {
+      "type": "ECAD ID",
+      "value": "22612521",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type": "GEMA ID",
+      "value": "2419794-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0W2-1534-3"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "3995FN",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "497143700"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "42 910 297 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "86 156 388 11"
+    },
+    {
+      "type": "SADAIC ID",
+      "value": "716692",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "value": "905158",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "975176",
+      "type": "SAYCE ID"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "975176",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SGAE ID",
+      "value": "845.945",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "589703",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "1666361",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "002128 833 80"
+    }
+  ],
+  "id": "6193e612-7482-3698-a84d-f3684d183264",
+  "title": "Welcome Home (Sanitarium)",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.204.989-5"
+  ]
+}

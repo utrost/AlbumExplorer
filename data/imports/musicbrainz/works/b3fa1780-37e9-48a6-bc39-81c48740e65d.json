@@ -1,0 +1,76 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b3fa1780-37e9-48a6-bc39-81c48740e65d?inc=artist-rels&fmt=json",
+  "id": "b3fa1780-37e9-48a6-bc39-81c48740e65d",
+  "title": "Somebody’s Watching You",
+  "attributes": [
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0S0-2237-1",
+      "type": "JASRAC ID"
+    },
+    {
+      "value": "1373773",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    }
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "Sylvester Stewart",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Sly Stone",
+        "type": "Person",
+        "country": "US",
+        "id": "a833e001-7c3b-491f-b7d4-2ef367837b95",
+        "sort-name": "Stone, Sly",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      }
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "Sylvester Stewart",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Stone, Sly",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "a833e001-7c3b-491f-b7d4-2ef367837b95",
+        "name": "Sly Stone",
+        "type": "Person"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.243.773-7"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

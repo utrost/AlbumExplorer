@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d528d647-cabf-4001-a8f1-78be5637d66b?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 239000,
+  "video": false,
+  "relations": [
+    {
+      "ended": true,
+      "begin": "1980-04",
+      "direction": "forward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "9f1c1581-ac83-3936-ae4a-17daa60253ad",
+        "iswcs": [
+          "T-060.123.520-4"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Have a Drink on Me"
+      },
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1980-05"
+    }
+  ],
+  "title": "Have a Drink on Me",
+  "first-release-date": "1980-07-25",
+  "id": "d528d647-cabf-4001-a8f1-78be5637d66b"
+}

@@ -1,0 +1,70 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b6993ace-4af4-4bb7-959b-afb3b6719c3d?inc=work-rels&fmt=json",
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": true,
+      "end": "1968-10",
+      "begin": "1968-09",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "title": "Black Mountain Side",
+        "id": "2984fe19-95e4-321b-babc-34c4cde17ba6",
+        "language": "zxx",
+        "type": "Song",
+        "disambiguation": "Led Zeppelin instrumental",
+        "iswcs": [
+          "T-070.014.082-4"
+        ],
+        "languages": [
+          "zxx"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": "1968-10",
+      "end": "1968-10",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "language": "zxx",
+        "type": "Song",
+        "attributes": [],
+        "id": "2984fe19-95e4-321b-babc-34c4cde17ba6",
+        "title": "Black Mountain Side",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "Led Zeppelin instrumental",
+        "iswcs": [
+          "T-070.014.082-4"
+        ],
+        "languages": [
+          "zxx"
+        ]
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "id": "b6993ace-4af4-4bb7-959b-afb3b6719c3d",
+  "title": "Black Mountain Side",
+  "first-release-date": "1969-01-12",
+  "length": 132573,
+  "disambiguation": ""
+}

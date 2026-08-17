@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0fb9f17d-a461-3638-9f70-8560554c1b9b?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-type": "artist",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "source-credit": "",
+      "begin": null,
+      "artist": {
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Verlaine, Tom",
+        "name": "Tom Verlaine",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "ended": false
+    },
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "country": "US",
+        "name": "Tom Verlaine",
+        "sort-name": "Verlaine, Tom",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "begin": null,
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-type": "artist"
+    },
+    {
+      "target-type": "artist",
+      "type": "named after work",
+      "type-id": "535fdfed-3bca-40ad-966b-e67be7882d09",
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "ended": false,
+      "attribute-values": {},
+      "begin": null,
+      "artist": {
+        "type": "Group",
+        "id": "6999f790-25f4-44a3-b745-1e3e01fde0f5",
+        "disambiguation": "UK 80s indie pop band",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "sort-name": "Felt",
+        "name": "Felt",
+        "country": "GB"
+      },
+      "direction": "backward",
+      "source-credit": ""
+    }
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "title": "Venus",
+  "iswcs": [
+    "T-902.757.400-1"
+  ],
+  "id": "0fb9f17d-a461-3638-9f70-8560554c1b9b",
+  "type": "Song",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

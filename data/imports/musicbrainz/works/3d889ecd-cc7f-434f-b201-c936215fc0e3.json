@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3d889ecd-cc7f-434f-b201-c936215fc0e3?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Softer, Softest",
+  "relations": [
+    {
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Erlandson, Eric",
+        "country": "US",
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "name": "Eric Erlandson"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Love, Courtney",
+        "name": "Courtney Love",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853"
+      },
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    }
+  ],
+  "disambiguation": "",
+  "id": "3d889ecd-cc7f-434f-b201-c936215fc0e3",
+  "iswcs": [],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

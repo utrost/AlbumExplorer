@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/dbe40fed-da40-4776-b2c1-5eefded4d499?inc=work-rels&fmt=json",
+  "id": "dbe40fed-da40-4776-b2c1-5eefded4d499",
+  "first-release-date": "1997-02-11",
+  "title": "4 Leaf Clover",
+  "disambiguation": "",
+  "length": 274533,
+  "video": false,
+  "relations": [
+    {
+      "begin": null,
+      "direction": "forward",
+      "ended": false,
+      "work": {
+        "iswcs": [
+          "T-070.185.953-1"
+        ],
+        "id": "8697e1b6-c614-35cc-aee5-98aee5f8ec3b",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Touch a Four Leaf Clover",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "type": "performance",
+      "attributes": [
+        "cover"
+      ],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ]
+}

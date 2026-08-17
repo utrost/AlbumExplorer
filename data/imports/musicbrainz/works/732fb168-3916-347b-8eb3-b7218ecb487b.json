@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/732fb168-3916-347b-8eb3-b7218ecb487b?inc=artist-rels&fmt=json",
+  "type-id": null,
+  "disambiguation": "",
+  "languages": [],
+  "iswcs": [],
+  "language": null,
+  "type": null,
+  "relations": [
+    {
+      "artist": {
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "sort-name": "Elliott, Missy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "type": "Person",
+        "name": "Missy Elliott"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "Melissa Elliott",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer"
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Timbaland",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "type": "Person",
+        "name": "Timbaland"
+      },
+      "attribute-values": {},
+      "target-credit": "Timothy Mosley",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    }
+  ],
+  "attributes": [],
+  "id": "732fb168-3916-347b-8eb3-b7218ecb487b",
+  "title": "Why You Hurt Me"
+}

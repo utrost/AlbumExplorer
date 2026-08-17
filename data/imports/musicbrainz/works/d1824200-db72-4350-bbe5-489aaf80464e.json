@@ -1,0 +1,171 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d1824200-db72-4350-bbe5-489aaf80464e?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-908.996.392-8"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "id": "20244d07-534f-4eff-b4d4-930878889970",
+        "country": "US",
+        "name": "Taylor Swift",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Swift, Taylor"
+      },
+      "target-credit": "Taylor Alison Swift",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Swift, Taylor",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Taylor Swift",
+        "id": "20244d07-534f-4eff-b4d4-930878889970",
+        "country": "US"
+      },
+      "target-credit": "Taylor Alison Swift",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "d1824200-db72-4350-bbe5-489aaf80464e",
+  "title": "Begin Again",
+  "attributes": [
+    {
+      "value": "004760 053 64",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "2701380",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "75071063"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "12858175700"
+    },
+    {
+      "value": "12.551.261",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "10702579"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "10702579",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "960691"
+    },
+    {
+      "value": "26 578 826 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "394974050",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "112360FS"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "13191990-001"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "6732037",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "7601892",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "value": "W-007824424",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW43364972"
+    },
+    {
+      "value": "9191286",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "750727801"
+    },
+    {
+      "value": "6527929",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "14925459"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "7A7-6216-7"
+    }
+  ]
+}

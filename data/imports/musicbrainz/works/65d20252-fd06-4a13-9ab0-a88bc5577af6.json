@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/65d20252-fd06-4a13-9ab0-a88bc5577af6?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-type": "artist",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "ended": false,
+      "attribute-values": {},
+      "begin": null,
+      "artist": {
+        "country": "GB",
+        "name": "Stuart Moxham",
+        "sort-name": "Moxham, Stuart",
+        "id": "78525942-beef-47e8-adbe-cee933e52128",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "name": "Stuart Moxham",
+        "country": "GB",
+        "id": "78525942-beef-47e8-adbe-cee933e52128",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Moxham, Stuart"
+      },
+      "attribute-values": {},
+      "ended": false
+    }
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-010.205.239-0"
+  ],
+  "title": "Credit in the Straight World",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "id": "65d20252-fd06-4a13-9ab0-a88bc5577af6"
+}

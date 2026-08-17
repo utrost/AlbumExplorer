@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a2f5a915-eb71-4b6e-aecb-a43347315058?inc=work-rels&fmt=json",
+  "id": "a2f5a915-eb71-4b6e-aecb-a43347315058",
+  "first-release-date": "1973-10-05",
+  "length": 234733,
+  "relations": [
+    {
+      "begin": "1973-05",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "direction": "forward",
+      "target-type": "work",
+      "end": "1973-05",
+      "target-credit": "",
+      "ended": true,
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "title": "Sweet Painted Lady",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "b8981ce6-ebe3-31d1-a7b4-62b58ee8970f",
+        "attributes": [],
+        "iswcs": [
+          "T-072.809.393-3"
+        ],
+        "language": "eng"
+      },
+      "attribute-ids": {}
+    }
+  ],
+  "disambiguation": "",
+  "title": "Sweet Painted Lady",
+  "video": false
+}

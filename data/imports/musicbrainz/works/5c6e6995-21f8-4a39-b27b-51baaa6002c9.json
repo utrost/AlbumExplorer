@@ -1,0 +1,40 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5c6e6995-21f8-4a39-b27b-51baaa6002c9?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": null,
+  "attributes": [],
+  "id": "5c6e6995-21f8-4a39-b27b-51baaa6002c9",
+  "title": "Quiet on tha Set",
+  "relations": [
+    {
+      "attribute-values": {},
+      "type": "writer",
+      "attributes": [],
+      "artist": {
+        "id": "a6f5f408-e37e-444a-a0dc-ea41a152dfcf",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Ren, MC",
+        "name": "MC Ren",
+        "type": "Person"
+      },
+      "ended": false,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "iswcs": [],
+  "type-id": null
+}

@@ -1,0 +1,69 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/442a56d4-9f64-3720-abe3-755ed7e5bab0?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID",
+      "value": "83483"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "id": "442a56d4-9f64-3720-abe3-755ed7e5bab0",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "English singer, songwriter, pianist, and composer",
+        "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "name": "Elton John",
+        "sort-name": "John, Elton",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Bernie Taupin",
+        "id": "9a0d0b2d-a727-44a6-a172-53766f186834",
+        "country": "GB",
+        "sort-name": "Taupin, Bernie"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "The Ballad of Danny Bailey (1909-34)"
+}

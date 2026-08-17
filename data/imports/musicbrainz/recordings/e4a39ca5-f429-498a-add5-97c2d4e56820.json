@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e4a39ca5-f429-498a-add5-97c2d4e56820?inc=work-rels&fmt=json",
+  "id": "e4a39ca5-f429-498a-add5-97c2d4e56820",
+  "first-release-date": "2012-10-22",
+  "title": "Black Boy Fly",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Black Boy Fly",
+        "language": "eng",
+        "disambiguation": "",
+        "iswcs": [
+          "T-915.083.353-7"
+        ],
+        "id": "533ff499-cbeb-408b-bcb4-cbcb52e1ee4a",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "ended": false,
+      "direction": "forward",
+      "begin": null
+    }
+  ],
+  "video": false,
+  "length": 279000,
+  "disambiguation": ""
+}

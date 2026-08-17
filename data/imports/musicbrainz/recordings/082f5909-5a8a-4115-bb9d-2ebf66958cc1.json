@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/082f5909-5a8a-4115-bb9d-2ebf66958cc1?inc=work-rels&fmt=json",
+  "id": "082f5909-5a8a-4115-bb9d-2ebf66958cc1",
+  "first-release-date": "1973-10-05",
+  "title": "Social Disease",
+  "disambiguation": "",
+  "length": 224000,
+  "video": false,
+  "relations": [
+    {
+      "end": "1973-05",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "b055dd9e-d025-3be5-a13f-9b514aa25a2d",
+        "iswcs": [
+          "T-010.459.681-7"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Social Disease",
+        "language": "eng",
+        "type": "Song"
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "forward",
+      "begin": "1973-05",
+      "ended": true
+    }
+  ]
+}

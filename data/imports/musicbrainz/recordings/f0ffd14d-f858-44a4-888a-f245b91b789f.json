@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f0ffd14d-f858-44a4-888a-f245b91b789f?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "077a9867-387d-45f7-a528-2bafcc80f1f2",
+        "title": "Now or Never",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "video": false,
+  "length": 256093,
+  "id": "f0ffd14d-f858-44a4-888a-f245b91b789f",
+  "title": "Now or Never",
+  "first-release-date": "2012-10-22",
+  "disambiguation": ""
+}

@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c6c014d1-52ba-3c45-8295-27ee9832181d?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "name": "John Densmore",
+        "id": "83d3cc07-60e7-4139-b5f0-3cda9f5aa99b",
+        "sort-name": "Densmore, John",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US"
+      },
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward"
+    },
+    {
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "American guitarist, member of The Doors",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "b553f0ad-4543-46f2-88ea-1dc94a11c91a",
+        "sort-name": "Krieger, Robby",
+        "name": "Robby Krieger"
+      }
+    },
+    {
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "Ray Manzarek",
+        "id": "fe93a178-183a-42c9-b3c7-53102b8c724d",
+        "sort-name": "Manzarek, Ray"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "writer",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "artist": {
+        "name": "Jim Morrison",
+        "id": "c6619f89-5454-4e2d-aa19-b5596ba3b4c6",
+        "sort-name": "Morrison, Jim",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "lead vocalist of the Doors",
+        "type": "Person",
+        "country": "US"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "title": "I Looked at You",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "c6c014d1-52ba-3c45-8295-27ee9832181d",
+  "attributes": [],
+  "iswcs": [],
+  "language": "eng"
+}

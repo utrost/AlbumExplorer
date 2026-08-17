@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/44b6ea5d-33dc-4374-bc4a-bb3309db2e5a?inc=work-rels&fmt=json",
+  "first-release-date": "2012-08-10",
+  "id": "44b6ea5d-33dc-4374-bc4a-bb3309db2e5a",
+  "length": 191880,
+  "relations": [
+    {
+      "attributes": [],
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "begin": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "language": "eng",
+        "id": "aa42d642-3771-4180-9c53-00ba22df5a4b",
+        "iswcs": [
+          "T-909.327.997-1"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "title": "We Are Never Ever Getting Back Together",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attribute-ids": {},
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "performance"
+    }
+  ],
+  "video": false,
+  "title": "We Are Never Ever Getting Back Together",
+  "disambiguation": ""
+}

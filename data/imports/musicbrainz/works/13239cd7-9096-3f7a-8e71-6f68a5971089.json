@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/13239cd7-9096-3f7a-8e71-6f68a5971089?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "title": "I'm Talkin'",
+  "language": null,
+  "id": "13239cd7-9096-3f7a-8e71-6f68a5971089",
+  "type": null,
+  "type-id": null,
+  "disambiguation": "",
+  "attributes": [],
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "sort-name": "Elliott, Missy",
+        "name": "Missy Elliott",
+        "country": "US"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "Melissa Elliott",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer"
+    },
+    {
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "Timothy Mosley",
+      "artist": {
+        "country": "US",
+        "name": "Timbaland",
+        "sort-name": "Timbaland",
+        "type": "Person",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "direction": "backward",
+      "source-credit": ""
+    }
+  ],
+  "languages": []
+}

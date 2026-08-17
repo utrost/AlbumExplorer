@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/da366b44-4151-3195-afc2-4d1822b6c3eb?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "id": "da366b44-4151-3195-afc2-4d1822b6c3eb",
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "type": "Group",
+        "country": "GB",
+        "sort-name": "Nanker Phelge",
+        "id": "18b60be3-6b62-48b3-b1eb-4cb46d7cca9d",
+        "name": "Nanker Phelge"
+      },
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "type": "Group",
+        "disambiguation": "",
+        "id": "18b60be3-6b62-48b3-b1eb-4cb46d7cca9d",
+        "name": "Nanker Phelge",
+        "country": "GB",
+        "sort-name": "Nanker Phelge"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": ""
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "I'm Alright",
+  "language": "eng",
+  "type": "Song"
+}

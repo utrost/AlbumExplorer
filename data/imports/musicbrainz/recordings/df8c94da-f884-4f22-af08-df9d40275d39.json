@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/df8c94da-f884-4f22-af08-df9d40275d39?inc=work-rels&fmt=json",
+  "id": "df8c94da-f884-4f22-af08-df9d40275d39",
+  "first-release-date": "1980-07-25",
+  "title": "Shake a Leg",
+  "length": 245493,
+  "video": false,
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "iswcs": [
+          "T-060.075.179-8"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type": "Song",
+        "attributes": [],
+        "id": "d8c8e367-d432-3290-a5df-61438c03cc7f",
+        "title": "Shake a Leg"
+      },
+      "type": "performance",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "end": "1980-05",
+      "begin": "1980-04",
+      "attribute-ids": {}
+    }
+  ],
+  "disambiguation": ""
+}

@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a63b208c-4c33-4c04-820a-8348933f3d20?inc=work-rels&fmt=json",
+  "title": "Plump",
+  "video": false,
+  "first-release-date": "1994-04-08",
+  "disambiguation": "",
+  "id": "a63b208c-4c33-4c04-820a-8348933f3d20",
+  "relations": [
+    {
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "direction": "forward",
+      "source-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "work": {
+        "id": "c9b74e6f-8762-4d4e-a0e0-cf941d44c649",
+        "type": "Song",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [],
+        "title": "Plump",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": ""
+    }
+  ],
+  "length": 154200
+}

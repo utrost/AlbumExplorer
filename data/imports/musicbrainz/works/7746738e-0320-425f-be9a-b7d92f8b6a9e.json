@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7746738e-0320-425f-be9a-b7d92f8b6a9e?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "title": "I Think That I Would Die",
+  "id": "7746738e-0320-425f-be9a-b7d92f8b6a9e",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bjelland, Kat",
+        "disambiguation": "",
+        "name": "Kat Bjelland",
+        "type": "Person",
+        "id": "46f4f238-6edc-4e59-87bf-523a508bdc57",
+        "country": "US"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "b3461bc9-768d-40fe-8d47-c93c2c0e2789",
+        "country": "US",
+        "name": "Eric Erlandson",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Erlandson, Eric"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "US rock vocalist, widow to Kurt Cobain",
+        "sort-name": "Love, Courtney",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "31d2041c-985d-48f7-b6e2-2a70cdf14853",
+        "name": "Courtney Love",
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

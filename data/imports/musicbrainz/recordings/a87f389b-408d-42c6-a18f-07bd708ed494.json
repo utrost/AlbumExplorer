@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a87f389b-408d-42c6-a18f-07bd708ed494?inc=work-rels&fmt=json",
+  "length": 222000,
+  "relations": [
+    {
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.241.576-6"
+        ],
+        "title": "The Last Time",
+        "id": "d12cf1ae-7feb-3f04-88e9-c4d7df3ff754",
+        "attributes": []
+      },
+      "type": "performance",
+      "attribute-values": {},
+      "ended": true,
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "end": "1965-02-17",
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "target-type": "work",
+      "begin": "1965-01-17"
+    }
+  ],
+  "title": "The Last Time",
+  "id": "a87f389b-408d-42c6-a18f-07bd708ed494",
+  "video": false,
+  "first-release-date": "1965-02-26",
+  "disambiguation": "mono version"
+}

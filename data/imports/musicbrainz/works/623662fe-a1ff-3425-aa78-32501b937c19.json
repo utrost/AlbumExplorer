@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/623662fe-a1ff-3425-aa78-32501b937c19?inc=artist-rels&fmt=json",
+  "languages": [],
+  "disambiguation": "",
+  "language": null,
+  "type": null,
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "writer",
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "sort-name": "Badu, Erykah",
+        "name": "Erykah Badu",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "321531fc-db73-4ffa-a959-61a61a2908c1"
+      }
+    },
+    {
+      "direction": "backward",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "target-credit": "",
+      "artist": {
+        "id": "02669ae0-7b21-4648-8a2e-04a28aaba9d1",
+        "country": null,
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Bradford, Robert",
+        "name": "Robert Bradford",
+        "type": "Person"
+      },
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "attribute-values": {}
+    }
+  ],
+  "attributes": [],
+  "id": "623662fe-a1ff-3425-aa78-32501b937c19",
+  "title": "No Love",
+  "iswcs": [],
+  "type-id": null
+}

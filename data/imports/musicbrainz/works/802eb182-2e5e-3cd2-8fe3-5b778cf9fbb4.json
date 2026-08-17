@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/802eb182-2e5e-3cd2-8fe3-5b778cf9fbb4?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "title": "Torn Curtain",
+  "attributes": [],
+  "id": "802eb182-2e5e-3cd2-8fe3-5b778cf9fbb4",
+  "relations": [
+    {
+      "attribute-values": {},
+      "type": "composer",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "name": "Tom Verlaine",
+        "type": "Person",
+        "sort-name": "Verlaine, Tom",
+        "disambiguation": ""
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "sort-name": "Verlaine, Tom",
+        "name": "Tom Verlaine",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "type": "lyricist",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "target-credit": ""
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-902.915.959-9"
+  ]
+}

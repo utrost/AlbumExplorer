@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c7c25302-69ab-4a9d-b967-23cbc6793854?inc=work-rels&fmt=json",
+  "id": "c7c25302-69ab-4a9d-b967-23cbc6793854",
+  "first-release-date": "1980-07-25",
+  "title": "Hells Bells",
+  "disambiguation": "",
+  "video": false,
+  "length": 312400,
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1980-04",
+      "ended": true,
+      "work": {
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Hells Bells",
+        "language": "eng",
+        "disambiguation": "",
+        "iswcs": [
+          "T-060.185.874-5"
+        ],
+        "id": "e21b57da-06bd-3394-80f5-d7bb41ffb32a",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "end": "1980-05",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ]
+}

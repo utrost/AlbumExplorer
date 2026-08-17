@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a64a6a7d-cbd5-4b2d-b6d6-4897124d2bb0?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 219000,
+  "id": "a64a6a7d-cbd5-4b2d-b6d6-4897124d2bb0",
+  "first-release-date": "1969-04",
+  "title": "You Can Make It If You Try",
+  "video": false,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-700.082.842-4"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "8723b34b-9529-4fb9-9f87-e76d9f7c7834",
+        "title": "You Can Make It If You Try",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": "1968-09-23",
+      "begin": "1968-09-23",
+      "attribute-ids": {},
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": true
+    }
+  ]
+}

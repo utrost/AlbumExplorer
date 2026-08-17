@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/beb1def8-e6f5-4155-9a93-47981d2fa387?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "The Clash/Big Audio Dynamite",
+        "sort-name": "Jones, Mick",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4",
+        "type": "Person",
+        "name": "Mick Jones"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Strummer, Joe",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "type": "Person",
+        "name": "Joe Strummer"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "language": "eng",
+  "title": "Deny",
+  "id": "beb1def8-e6f5-4155-9a93-47981d2fa387",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "disambiguation": ""
+}

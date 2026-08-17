@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3f121557-38fe-3ce2-b3f4-580b4bc51135?inc=artist-rels&fmt=json",
+  "type": null,
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Badu, Erykah",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Erykah Badu",
+        "id": "321531fc-db73-4ffa-a959-61a61a2908c1",
+        "country": "US"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bradford, Robert",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Robert Bradford",
+        "id": "02669ae0-7b21-4648-8a2e-04a28aaba9d1",
+        "country": null
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false
+    }
+  ],
+  "language": null,
+  "id": "3f121557-38fe-3ce2-b3f4-580b4bc51135",
+  "title": "Appletree",
+  "attributes": [],
+  "type-id": null,
+  "iswcs": [],
+  "languages": [],
+  "disambiguation": ""
+}

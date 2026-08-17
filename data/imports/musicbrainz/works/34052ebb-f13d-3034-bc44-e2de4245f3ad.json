@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/34052ebb-f13d-3034-bc44-e2de4245f3ad?inc=artist-rels&fmt=json",
+  "type-id": null,
+  "disambiguation": "",
+  "type": null,
+  "languages": [],
+  "title": "Certainly (Flipped It)",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "Erykah Badu",
+        "id": "321531fc-db73-4ffa-a959-61a61a2908c1",
+        "sort-name": "Badu, Erykah"
+      },
+      "source-credit": "",
+      "begin": null
+    },
+    {
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "country": null,
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "id": "faba9d40-8fef-4b83-a81a-c5edabac2a01",
+        "sort-name": "Chinwah, Madukwu",
+        "name": "Madukwu Chinwah"
+      },
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward"
+    }
+  ],
+  "language": null,
+  "iswcs": [],
+  "attributes": [],
+  "id": "34052ebb-f13d-3034-bc44-e2de4245f3ad"
+}

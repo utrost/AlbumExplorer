@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b6cdc451-b16b-3d5f-8895-0edc5b816761?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [],
+  "iswcs": [],
+  "type-id": null,
+  "attributes": [],
+  "id": "b6cdc451-b16b-3d5f-8895-0edc5b816761",
+  "title": "Izzy Izzy Ahh",
+  "language": null,
+  "type": null,
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "name": "Missy Elliott",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Elliott, Missy",
+        "disambiguation": "American rapper, singer, dancer & record producer"
+      },
+      "target-credit": "Melissa Elliott",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "Timothy Mosley",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "country": "US",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "name": "Timbaland",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Timbaland",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    }
+  ]
+}

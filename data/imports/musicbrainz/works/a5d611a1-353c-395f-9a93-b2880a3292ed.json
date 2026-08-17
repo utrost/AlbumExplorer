@@ -1,0 +1,254 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a5d611a1-353c-395f-9a93-b2880a3292ed?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "title": "You Shook Me All Night Long",
+  "iswcs": [
+    "T-060.148.228-3"
+  ],
+  "type": "Song",
+  "id": "a5d611a1-353c-395f-9a93-b2880a3292ed",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "name": "Brian Johnson",
+        "country": "GB",
+        "id": "49acbee5-5fb5-4cf1-868f-67bc01de2d84",
+        "type": "Person",
+        "disambiguation": "AC/DC lead singer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Johnson, Brian"
+      },
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "disambiguation": "member of AC/DC",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "a0a54c69-b0d2-4d2a-bcf8-994b8846b0d8",
+        "sort-name": "Young, Angus",
+        "name": "Angus Young",
+        "country": "AU"
+      },
+      "attribute-values": {},
+      "ended": false
+    },
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "country": "AU",
+        "name": "Malcolm Young",
+        "sort-name": "Young, Malcolm",
+        "id": "ea719716-da05-46f8-bbd5-cc5803db3d0e",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "guitar player for AC/DC"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-credit": "",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist"
+    }
+  ],
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID",
+      "value": "000622 209 11"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID",
+      "value": "69247"
+    },
+    {
+      "value": "10914425",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID"
+    },
+    {
+      "value": "80353022700",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "18.106.609"
+    },
+    {
+      "value": "722482",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "value": "722482",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID"
+    },
+    {
+      "value": "269293",
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "type": "SACVEN ID",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "3284253"
+    },
+    {
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "value": "150603607"
+    },
+    {
+      "value": "80 230 313 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "053480600"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "3468CP"
+    },
+    {
+      "value": "0Y0-6839-9",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "1183149-001"
+    },
+    {
+      "value": "15316265",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "31286536"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "330275"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "2275451"
+    },
+    {
+      "value": "9920289",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "3880066",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "10223330",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "10055022"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "18991645"
+    },
+    {
+      "value": "W-000070198",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-010804202"
+    },
+    {
+      "value": "550112091",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "type-id": "5e3b8fc2-3a4e-4a92-a572-6339863c1cf4",
+      "type": "ARTISJUS ID",
+      "value": "4002181736"
+    },
+    {
+      "value": "GW03241338",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2086076"
+    },
+    {
+      "value": "2182766",
+      "type": "APA ID",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID",
+      "value": "65854801"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "6031759"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

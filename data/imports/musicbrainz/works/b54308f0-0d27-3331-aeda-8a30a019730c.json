@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b54308f0-0d27-3331-aeda-8a30a019730c?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "relations": [
+    {
+      "artist": {
+        "sort-name": "Elliott, Missy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "name": "Missy Elliott",
+        "type": "Person",
+        "country": "US",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "Melissa Elliott",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer"
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "Timothy Mosley",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Timbaland",
+        "disambiguation": "",
+        "name": "Timbaland",
+        "type": "Person",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "country": "US"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    }
+  ],
+  "type": "Song",
+  "attributes": [],
+  "id": "b54308f0-0d27-3331-aeda-8a30a019730c",
+  "title": "Pass da Blunt"
+}

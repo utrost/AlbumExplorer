@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b6cbe414-8b21-4600-8588-f6a80fd7043a?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "end": "1985-12-27",
+      "begin": "1985-09-01",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "title": "Orion",
+        "id": "4bd346e7-814a-3af7-a538-faf17da70981",
+        "attributes": [],
+        "type": null,
+        "language": "zxx",
+        "languages": [
+          "zxx"
+        ],
+        "iswcs": [
+          "T-070.162.223-2"
+        ],
+        "disambiguation": "",
+        "type-id": null
+      }
+    }
+  ],
+  "video": false,
+  "first-release-date": "1986-03-03",
+  "id": "b6cbe414-8b21-4600-8588-f6a80fd7043a",
+  "title": "Orion",
+  "length": 507293,
+  "disambiguation": ""
+}

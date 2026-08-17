@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6452e3d1-83da-4de8-bdb8-0560e4b5ce9b?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "id": "6452e3d1-83da-4de8-bdb8-0560e4b5ce9b",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "The Pleasure Principle",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "sort-name": "Moir, Monte",
+        "country": "US",
+        "name": "Monte Moir",
+        "id": "94c46b35-04a6-416d-8c8b-12df90604158",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer"
+    },
+    {
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "id": "94c46b35-04a6-416d-8c8b-12df90604158",
+        "name": "Monte Moir",
+        "country": "US",
+        "sort-name": "Moir, Monte",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attributes": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5df9640d-217a-4480-bdc8-8173d137dd54?inc=work-rels&fmt=json",
+  "video": false,
+  "first-release-date": "1973-10-05",
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": "1973-05",
+      "target-type": "work",
+      "attribute-ids": {},
+      "direction": "forward",
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "language": "eng",
+        "type": "Song",
+        "id": "6ef8fb46-a4dc-312f-9a18-e21682fd7550",
+        "attributes": [],
+        "title": "Bennie and the Jets",
+        "iswcs": [
+          "T-010.454.630-6",
+          "T-070.014.719-8"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "end": "1973-05",
+      "attributes": [],
+      "ended": true
+    }
+  ],
+  "length": 322826,
+  "id": "5df9640d-217a-4480-bdc8-8173d137dd54",
+  "title": "Bennie and the Jets"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fd83178d-c064-4689-9c09-bef8f1c4cad9?inc=work-rels&fmt=json",
+  "id": "fd83178d-c064-4689-9c09-bef8f1c4cad9",
+  "disambiguation": "explicit",
+  "title": "The Art of Peer Pressure",
+  "video": false,
+  "first-release-date": "2012-10-21",
+  "length": 324466,
+  "relations": [
+    {
+      "ended": false,
+      "attribute-values": {},
+      "begin": null,
+      "direction": "forward",
+      "source-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "work": {
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "f8ee65f8-3af9-497a-931c-197c73faa96c",
+        "type": "Song",
+        "iswcs": [
+          "T-909.204.317-9"
+        ],
+        "title": "The Art of Peer Pressure",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": ""
+    }
+  ]
+}

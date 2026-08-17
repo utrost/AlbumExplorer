@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e492bc5b-469e-497b-903d-64a9713deee0?inc=work-rels&fmt=json",
+  "video": false,
+  "first-release-date": "1973-10-05",
+  "disambiguation": "",
+  "relations": [
+    {
+      "direction": "forward",
+      "attribute-ids": {},
+      "target-type": "work",
+      "begin": "1973-05",
+      "target-credit": "",
+      "end": "1973-05",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "ended": true,
+      "attributes": [],
+      "type": "performance",
+      "attribute-values": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.066.566-2"
+        ],
+        "title": "Goodbye Yellow Brick Road",
+        "attributes": [],
+        "id": "619f48c9-3cc8-3cf2-85a3-cc0fc360d780",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng"
+      }
+    }
+  ],
+  "length": 194853,
+  "id": "e492bc5b-469e-497b-903d-64a9713deee0",
+  "title": "Goodbye Yellow Brick Road"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/92b46a2a-7b6a-4d56-a4ab-2b228a50da7c?inc=work-rels&fmt=json",
+  "first-release-date": "2012-10-22",
+  "id": "92b46a2a-7b6a-4d56-a4ab-2b228a50da7c",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "work": {
+        "iswcs": [
+          "T-909.055.632-4"
+        ],
+        "id": "fe4c649c-751f-4261-a009-9dd6944d986e",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Come Back… Be Here",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward"
+    }
+  ],
+  "length": 223000,
+  "video": false,
+  "disambiguation": "",
+  "title": "Come Back… Be Here"
+}

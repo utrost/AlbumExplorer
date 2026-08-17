@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/21a79a7e-36d6-4b35-b9bd-3db0ca8dfb0d?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 96426,
+  "title": "48 Hours",
+  "id": "21a79a7e-36d6-4b35-b9bd-3db0ca8dfb0d",
+  "first-release-date": "1977-04-08",
+  "video": false,
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "direction": "forward",
+      "target-type": "work",
+      "ended": false,
+      "type": "performance",
+      "work": {
+        "id": "30ca8aa1-8cd0-4801-9d6f-dfe027a3eed0",
+        "title": "48 Hours",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-011.401.586-9"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ]
+}

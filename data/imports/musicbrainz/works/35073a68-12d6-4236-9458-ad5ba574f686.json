@@ -1,0 +1,107 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/35073a68-12d6-4236-9458-ad5ba574f686?inc=artist-rels&fmt=json",
+  "languages": [],
+  "attributes": [],
+  "iswcs": [],
+  "id": "35073a68-12d6-4236-9458-ad5ba574f686",
+  "relations": [
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "publishing",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "id": "6be2828f-6c0d-4059-99d4-fa18acf1a296",
+        "name": "Janet Jackson",
+        "sort-name": "Jackson, Janet",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a442b140-830b-30b0-a4aa-2e36f098b6aa"
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "6be2828f-6c0d-4059-99d4-fa18acf1a296",
+        "name": "Janet Jackson",
+        "country": "US",
+        "sort-name": "Jackson, Janet"
+      },
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer"
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "target-credit": "James Samuel Harris III",
+      "artist": {
+        "id": "d79976d7-d895-480e-83c2-877f4cdd7073",
+        "name": "Jimmy Jam",
+        "country": "US",
+        "sort-name": "Jam, Jimmy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "James Harris of Jam & Lewis"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "artist": {
+        "sort-name": "Lewis, Terry",
+        "country": "US",
+        "name": "Terry Lewis",
+        "id": "e458eba7-ccb7-47bb-8057-473330c61040",
+        "disambiguation": "US hip-hop/soul songwriter, producer & label owner",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    }
+  ],
+  "disambiguation": "",
+  "type": null,
+  "language": null,
+  "type-id": null,
+  "title": "You Can Be Mine"
+}

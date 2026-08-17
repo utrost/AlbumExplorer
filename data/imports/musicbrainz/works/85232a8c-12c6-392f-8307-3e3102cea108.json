@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/85232a8c-12c6-392f-8307-3e3102cea108?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "artist": {
+        "disambiguation": "The Clash/Big Audio Dynamite",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Jones, Mick",
+        "name": "Mick Jones",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "attributes": [],
+      "artist": {
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "name": "Joe Strummer",
+        "country": "GB",
+        "sort-name": "Strummer, Joe",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Remote Control",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "id": "85232a8c-12c6-392f-8307-3e3102cea108",
+  "iswcs": []
+}

@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5b15fff9-21b0-3cc5-a947-ee060de0a279?inc=artist-rels&fmt=json",
+  "type-id": null,
+  "disambiguation": "",
+  "iswcs": [],
+  "languages": [],
+  "language": null,
+  "type": null,
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "Melissa Elliott",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Elliott, Missy",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "country": "US",
+        "type": "Person",
+        "name": "Missy Elliott"
+      },
+      "type": "composer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "artist": {
+        "name": "Timbaland",
+        "type": "Person",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Timbaland",
+        "disambiguation": ""
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "Timothy Mosley",
+      "attribute-values": {}
+    }
+  ],
+  "attributes": [],
+  "title": "Gettaway",
+  "id": "5b15fff9-21b0-3cc5-a947-ee060de0a279"
+}

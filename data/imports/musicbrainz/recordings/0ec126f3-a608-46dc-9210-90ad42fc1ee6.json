@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0ec126f3-a608-46dc-9210-90ad42fc1ee6?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.052.649-3"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "title": "Eraser",
+        "id": "4ba8e0ef-c725-39c1-9562-776037497a69",
+        "attributes": []
+      }
+    }
+  ],
+  "video": false,
+  "first-release-date": "1994-03-08",
+  "id": "0ec126f3-a608-46dc-9210-90ad42fc1ee6",
+  "title": "Eraser",
+  "length": 293506,
+  "disambiguation": ""
+}

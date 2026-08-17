@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/87796b4c-ca10-47bc-a608-299401674653?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "begin": "1973-05",
+      "end": "1973-05",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "disambiguation": "",
+        "id": "67c2a444-764b-3980-92ba-5b4170d735db",
+        "iswcs": [
+          "T-900.014.411-6"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "title": "Your Sister Can't Twist (but She Can Rock 'n Roll)"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": true,
+      "type": "performance"
+    }
+  ],
+  "title": "Your Sister Can’t Twist (but She Can Rock ’n’ Roll)",
+  "first-release-date": "1973-10-05",
+  "length": 162000,
+  "disambiguation": "",
+  "video": false,
+  "id": "87796b4c-ca10-47bc-a608-299401674653"
+}

@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b0b6a875-794c-4f3c-966a-07d7cd8caf68?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "title": "Police & Thieves",
+  "video": false,
+  "relations": [
+    {
+      "attributes": [
+        "cover"
+      ],
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "begin": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "iswcs": [],
+        "attributes": [],
+        "id": "7d383382-87e4-3a1e-9d03-6f30451316f6",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Police and Thieves"
+      },
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "performance"
+    }
+  ],
+  "length": 360533,
+  "id": "b0b6a875-794c-4f3c-966a-07d7cd8caf68",
+  "first-release-date": "1977-04-08"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/628b1e02-54a0-4259-a6e7-5455f2869d22?inc=work-rels&fmt=json",
+  "id": "628b1e02-54a0-4259-a6e7-5455f2869d22",
+  "video": false,
+  "disambiguation": "",
+  "length": 428000,
+  "first-release-date": "1967-01-04",
+  "relations": [
+    {
+      "type": "performance",
+      "ended": true,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "work": {
+        "language": "eng",
+        "title": "Light My Fire",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "iswcs": [
+          "T-070.098.574-5"
+        ],
+        "id": "848800af-3111-3771-aa13-ef91d43b4879",
+        "disambiguation": ""
+      },
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1966-09",
+      "begin": "1966-09"
+    }
+  ],
+  "title": "Light My Fire"
+}

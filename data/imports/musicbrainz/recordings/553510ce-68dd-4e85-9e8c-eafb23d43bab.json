@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/553510ce-68dd-4e85-9e8c-eafb23d43bab?inc=work-rels&fmt=json",
+  "video": false,
+  "id": "553510ce-68dd-4e85-9e8c-eafb23d43bab",
+  "disambiguation": "",
+  "length": 387000,
+  "first-release-date": "1969-01-12",
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "end": "1968-10",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": "1968-09",
+      "type": "performance",
+      "ended": true,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "work": {
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "Dazed and Confused",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "iswcs": [
+          "T-070.041.166-0"
+        ],
+        "disambiguation": "Led Zeppelin version",
+        "id": "324e9a98-a968-3f27-b274-4bccc2ebe0c8"
+      }
+    }
+  ],
+  "title": "Dazed and Confused"
+}

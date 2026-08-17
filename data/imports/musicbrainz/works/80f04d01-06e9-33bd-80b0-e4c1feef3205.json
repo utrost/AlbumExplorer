@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/80f04d01-06e9-33bd-80b0-e4c1feef3205?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "id": "80f04d01-06e9-33bd-80b0-e4c1feef3205",
+  "attributes": [],
+  "iswcs": [],
+  "title": "Hit 'em Wit da Hee",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "type": "composer",
+      "target-credit": "Melissa Elliott",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": null,
+      "artist": {
+        "name": "Missy Elliott",
+        "sort-name": "Elliott, Missy",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "type": "Person",
+        "country": "US"
+      },
+      "source-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": []
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "sort-name": "Lil’ Kim",
+        "id": "bc1b5c95-e6d6-46b5-957a-5e8908b02c1e",
+        "name": "Lil’ Kim",
+        "country": "US",
+        "disambiguation": "US rapper",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type": "composer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Kimberly Jones",
+      "attribute-ids": {}
+    },
+    {
+      "type": "composer",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "Timothy Mosley",
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "name": "Timbaland",
+        "sort-name": "Timbaland",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US"
+      },
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": []
+    }
+  ]
+}

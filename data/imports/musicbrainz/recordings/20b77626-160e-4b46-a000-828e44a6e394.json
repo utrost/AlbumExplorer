@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/20b77626-160e-4b46-a000-828e44a6e394?inc=work-rels&fmt=json",
+  "first-release-date": "1969-11-28",
+  "video": false,
+  "title": "How Many More Times",
+  "disambiguation": "",
+  "id": "20b77626-160e-4b46-a000-828e44a6e394",
+  "relations": [
+    {
+      "direction": "forward",
+      "source-credit": "",
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "work": {
+        "language": "eng",
+        "title": "How Many More Times",
+        "iswcs": [
+          "T-070.075.920-1"
+        ],
+        "type": "Song",
+        "id": "f38484b2-f85c-36b9-b0f9-ce5cd9ae4bda",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "length": 210000
+}

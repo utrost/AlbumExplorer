@@ -1,0 +1,282 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/cab082a3-fbe9-3ec7-8180-08e8c0495512?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Take It as It Comes",
+  "relations": [
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Densmore, John",
+        "country": "US",
+        "name": "John Densmore",
+        "id": "83d3cc07-60e7-4139-b5f0-3cda9f5aa99b"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Krieger, Robby",
+        "country": "US",
+        "id": "b553f0ad-4543-46f2-88ea-1dc94a11c91a",
+        "name": "Robby Krieger",
+        "disambiguation": "American guitarist, member of The Doors",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "sort-name": "Manzarek, Ray",
+        "id": "fe93a178-183a-42c9-b3c7-53102b8c724d",
+        "name": "Ray Manzarek",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Morrison, Jim",
+        "country": "US",
+        "id": "c6619f89-5454-4e2d-aa19-b5596ba3b4c6",
+        "name": "Jim Morrison",
+        "disambiguation": "lead vocalist of the Doors",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    }
+  ],
+  "disambiguation": "",
+  "id": "cab082a3-fbe9-3ec7-8180-08e8c0495512",
+  "iswcs": [
+    "T-070.182.875-2"
+  ],
+  "attributes": [
+    {
+      "value": "000627 986 41",
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "value": "5019248",
+      "type": "SPAC ID",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "31794"
+    },
+    {
+      "value": "5019248",
+      "type": "SOBODAYCOM ID",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID",
+      "value": "68100200100"
+    },
+    {
+      "value": "95.548",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type": "SGACEDOM ID",
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "value": "5019248"
+    },
+    {
+      "value": "707976622",
+      "type": "SESAC ID",
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290"
+    },
+    {
+      "value": "942198",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "942198"
+    },
+    {
+      "value": "746120",
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "value": "2087517",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "value": "012131356",
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "type": "SACIM ID",
+      "value": "5019248"
+    },
+    {
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "68 854 945 11"
+    },
+    {
+      "value": "A03DR2U00",
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "125216A"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "2290AW"
+    },
+    {
+      "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e",
+      "type": "OSA ID",
+      "value": "I000.36.65.50"
+    },
+    {
+      "value": "5019248",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "type": "NICAUTOR ID"
+    },
+    {
+      "value": "0T0-0118-1",
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+    },
+    {
+      "value": "436745-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "873209"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "182876"
+    },
+    {
+      "value": "C-1209489841",
+      "type": "CASH ID",
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec"
+    },
+    {
+      "value": "W-000102046",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "value": "500184894",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2332408"
+    },
+    {
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID",
+      "value": "5489652"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "16100601"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4648975"
+    },
+    {
+      "value": "5019248",
+      "type": "AEI ID",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826"
+    },
+    {
+      "value": "5019248",
+      "type": "ACAM ID",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+    },
+    {
+      "value": "5019248",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "type": "AACIMH ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

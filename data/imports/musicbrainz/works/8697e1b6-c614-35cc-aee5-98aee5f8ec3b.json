@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8697e1b6-c614-35cc-aee5-98aee5f8ec3b?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "title": "Touch a Four Leaf Clover",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "member of Atlantic Starr",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lewis, David",
+        "country": "US",
+        "name": "David Lewis",
+        "id": "e676922e-7c48-4996-92ce-079d84e2e8d1"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "member of Atlantic Starr",
+        "id": "706e02fc-1e91-412c-a3e6-00801fe16247",
+        "name": "Wayne Lewis",
+        "sort-name": "Lewis, Wayne",
+        "country": "US"
+      },
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.185.953-1"
+  ],
+  "id": "8697e1b6-c614-35cc-aee5-98aee5f8ec3b",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "500355100"
+    }
+  ]
+}

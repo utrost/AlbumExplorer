@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/30ca8aa1-8cd0-4801-9d6f-dfe027a3eed0?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-011.401.586-9"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "30ca8aa1-8cd0-4801-9d6f-dfe027a3eed0",
+  "title": "48 Hours",
+  "attributes": [],
+  "type": "Song",
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "name": "Mick Jones",
+        "type": "Person",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Jones, Mick",
+        "disambiguation": "The Clash/Big Audio Dynamite"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "country": "GB",
+        "name": "Joe Strummer",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Strummer, Joe"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    }
+  ],
+  "language": "eng"
+}

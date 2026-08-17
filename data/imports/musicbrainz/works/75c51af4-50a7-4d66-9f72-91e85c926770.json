@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/75c51af4-50a7-4d66-9f72-91e85c926770?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "id": "75c51af4-50a7-4d66-9f72-91e85c926770",
+  "iswcs": [],
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "name": "Elvis Costello",
+        "country": "GB",
+        "sort-name": "Costello, Elvis"
+      },
+      "attributes": [],
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "country": "GB",
+        "sort-name": "Costello, Elvis",
+        "name": "Elvis Costello",
+        "id": "8a338e06-d182-46f2-bd16-30a09bc840ba",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Lip Service",
+  "language": "eng",
+  "type": "Song"
+}

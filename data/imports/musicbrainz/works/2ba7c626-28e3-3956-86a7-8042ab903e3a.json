@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2ba7c626-28e3-3956-86a7-8042ab903e3a?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID",
+      "value": "1273087"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.128.367-1"
+  ],
+  "id": "2ba7c626-28e3-3956-86a7-8042ab903e3a",
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "country": "GB",
+        "sort-name": "John, Elton",
+        "id": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "name": "Elton John",
+        "disambiguation": "English singer, songwriter, pianist, and composer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Taupin, Bernie",
+        "country": "GB",
+        "id": "9a0d0b2d-a727-44a6-a172-53766f186834",
+        "name": "Bernie Taupin",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Roy Rogers",
+  "type": "Song"
+}

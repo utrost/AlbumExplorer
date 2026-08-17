@@ -1,0 +1,144 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e12dc3de-ed8a-3d7f-a473-b67f454f147c?inc=artist-rels&fmt=json",
+  "id": "e12dc3de-ed8a-3d7f-a473-b67f454f147c",
+  "title": "Your Time Is Gonna Come",
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "value": "000120 661 38",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type": "SGAE ID",
+      "value": "58.111",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "2597536"
+    },
+    {
+      "type": "SACVEN ID",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2073122"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "08309K"
+    },
+    {
+      "type": "LatinNet ID",
+      "value": "9946",
+      "type-id": "78cf692f-a43b-46fc-993b-635c5bd86375"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0Y0-0700-4",
+      "type": "JASRAC ID"
+    },
+    {
+      "value": "211845",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000192502",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type": "ASCAP ID",
+      "value": "550064714",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4709334",
+      "type": "AGADU ID"
+    }
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "4490113a-3880-4f5b-a39b-105bfceaed04",
+        "country": "GB",
+        "name": "John Paul Jones",
+        "type": "Person",
+        "disambiguation": "UK rock musician of Led Zeppelin & Them Crooked Vultures",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Jones, John Paul"
+      }
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "artist": {
+        "name": "Jimmy Page",
+        "type": "Person",
+        "id": "519774a4-3b18-4042-b8c0-927845a616c9",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Page, Jimmy",
+        "disambiguation": ""
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "of Led Zeppelin",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Plant, Robert",
+        "id": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc",
+        "country": "GB",
+        "name": "Robert Plant",
+        "type": "Person"
+      }
+    }
+  ],
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.211.844-2"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

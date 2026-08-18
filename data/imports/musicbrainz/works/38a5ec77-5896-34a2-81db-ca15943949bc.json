@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/38a5ec77-5896-34a2-81db-ca15943949bc?inc=artist-rels&fmt=json",
+  "title": "Pedestal",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "name": "Geoff Barrow",
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6",
+        "sort-name": "Barrow, Geoff",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {}
+    },
+    {
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "GB",
+        "name": "Beth Gibbons",
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "sort-name": "Gibbons, Beth"
+      },
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "writer"
+    },
+    {
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "artist": {
+        "sort-name": "Utley, Adrian",
+        "id": "619b1116-740e-42e0-bdfe-96af274f79f7",
+        "name": "Adrian Utley",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": ""
+    }
+  ],
+  "language": "eng",
+  "id": "38a5ec77-5896-34a2-81db-ca15943949bc",
+  "attributes": [],
+  "iswcs": [
+    "T-011.480.597-8"
+  ]
+}

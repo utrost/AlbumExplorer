@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/acc77bdd-7ae4-4658-bde5-92b50ecff5d3?inc=work-rels&fmt=json",
+  "first-release-date": "1970-02-01",
+  "id": "acc77bdd-7ae4-4658-bde5-92b50ecff5d3",
+  "length": 262000,
+  "video": false,
+  "disambiguation": "original album mix",
+  "relations": [
+    {
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Another Song",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "fba19219-dc40-3f2d-b1b6-aabf6f94df68",
+        "iswcs": [
+          "T-914.722.226-2"
+        ]
+      },
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    }
+  ],
+  "title": "Another Song"
+}

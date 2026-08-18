@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d0534d57-7bf4-438a-8418-3101d1e9b3f2?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Alright",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "name": "D’Angelo",
+        "sort-name": "D’Angelo",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US soul singer, songwriter & producer"
+      },
+      "target-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "D’Angelo",
+        "country": "US",
+        "name": "D’Angelo",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "disambiguation": "US soul singer, songwriter & producer",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "id": "d0534d57-7bf4-438a-8418-3101d1e9b3f2",
+  "iswcs": [],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

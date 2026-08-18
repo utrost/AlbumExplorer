@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/dce2ef42-e12c-4c0f-ab27-b69495c3a41e?inc=work-rels&fmt=json",
+  "first-release-date": "1969-10-22",
+  "id": "dce2ef42-e12c-4c0f-ab27-b69495c3a41e",
+  "length": 260914,
+  "video": false,
+  "disambiguation": "original studio mix",
+  "relations": [
+    {
+      "ended": true,
+      "direction": "forward",
+      "begin": "1969-04",
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "disambiguation": "",
+        "type": null,
+        "type-id": null,
+        "language": "zxx",
+        "title": "Moby Dick",
+        "languages": [
+          "zxx"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-070.112.742-5"
+        ],
+        "id": "2f5a6c59-d6b4-3bb7-9134-0fee120e3209"
+      },
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1969-08"
+    }
+  ],
+  "title": "Moby Dick"
+}

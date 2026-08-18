@@ -10,10 +10,10 @@
       "coverArt": 128,
       "tracklist": 124,
       "totalDuration": 200,
-      "composerCredits": 470,
+      "composerCredits": 463,
       "story": 173
     },
-    "albumsWithAnyGap": 533
+    "albumsWithAnyGap": 527
   },
   "groups": {
     "coverArt": {
@@ -1092,17 +1092,16 @@
             "2012": 180
           },
           "missing": [
-            "coverArt",
-            "composerCredits"
+            "coverArt"
           ],
           "existing": {
             "hasCoverArt": false,
             "trackCount": 12,
             "hasTotalDuration": true,
-            "hasComposerCredits": false,
+            "hasComposerCredits": true,
             "hasStory": true
           },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
+          "recommendedAction": "fetch-cover-art-source"
         },
         {
           "albumId": "album-etta-james-at-last-1961",
@@ -11962,7 +11961,7 @@
     },
     "composerCredits": {
       "field": "composerCredits",
-      "count": 470,
+      "count": 463,
       "items": [
         {
           "albumId": "album-beach-boys-pet-sounds-1966",
@@ -14504,31 +14503,6 @@
           "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
-          "albumId": "album-nirvana-in-utero-1993",
-          "artist": "Nirvana",
-          "album": "In Utero",
-          "releaseYear": 1993,
-          "latestRank": 173,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 435,
-            "2012": 435,
-            "2020": 173,
-            "2024": 173
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 12,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-bob-dylan-desire-1976",
           "artist": "Bob Dylan",
           "album": "Desire",
@@ -14579,29 +14553,6 @@
           "recommendedAction": "fetch-album-content-sources"
         },
         {
-          "albumId": "album-carpenters-close-to-you-1970",
-          "artist": "Carpenters",
-          "album": "Close To You",
-          "releaseYear": 1970,
-          "latestRank": 175,
-          "latestEditionYear": 2012,
-          "ranks": {
-            "2003": 175,
-            "2012": 175
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 12,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-parliament-funkadelic-one-nation-under-a-groove-1978",
           "artist": "Parliament/Funkadelic",
           "album": "One Nation Under A Groove",
@@ -14625,31 +14576,6 @@
             "hasStory": true
           },
           "recommendedAction": "fetch-album-content-sources"
-        },
-        {
-          "albumId": "album-rod-stewart-every-picture-tells-a-story-1971",
-          "artist": "Rod Stewart",
-          "album": "Every Picture Tells a Story",
-          "releaseYear": 1971,
-          "latestRank": 177,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 172,
-            "2012": 172,
-            "2020": 177,
-            "2024": 177
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 8,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
           "albumId": "album-curtis-mayfield-and-the-impressions-the-anthology-1961-1977-1992",
@@ -14761,30 +14687,6 @@
           "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
-          "albumId": "album-rolling-stones-the-rolling-stones-now-1965",
-          "artist": "The Rolling Stones",
-          "album": "The Rolling Stones Now!",
-          "releaseYear": 1965,
-          "latestRank": 180,
-          "latestEditionYear": 2012,
-          "ranks": {
-            "2003": 180,
-            "2012": 180
-          },
-          "missing": [
-            "coverArt",
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": false,
-            "trackCount": 12,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-bob-dylan-bringing-it-all-back-home-1965",
           "artist": "Bob Dylan",
           "album": "Bringing It All Back Home",
@@ -14840,79 +14742,6 @@
           "latestEditionYear": 2003,
           "ranks": {
             "2003": 181
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 9,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-james-taylor-sweet-baby-james-1970",
-          "artist": "James Taylor",
-          "album": "Sweet Baby James",
-          "releaseYear": 1970,
-          "latestRank": 182,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 104,
-            "2012": 104,
-            "2020": 182,
-            "2024": 182
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 11,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-dangelo-brown-sugar-1995",
-          "artist": "D'Angelo",
-          "album": "Brown Sugar",
-          "releaseYear": 1995,
-          "latestRank": 183,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2020": 183,
-            "2024": 183
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 10,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-cyndi-lauper-shes-so-unusual-1983",
-          "artist": "Cyndi Lauper",
-          "album": "She's So Unusual",
-          "releaseYear": 1983,
-          "latestRank": 184,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 487,
-            "2012": 487,
-            "2020": 184,
-            "2024": 184
           },
           "missing": [
             "composerCredits"
@@ -30947,31 +30776,6 @@
       "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
-      "albumId": "album-nirvana-in-utero-1993",
-      "artist": "Nirvana",
-      "album": "In Utero",
-      "releaseYear": 1993,
-      "latestRank": 173,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 435,
-        "2012": 435,
-        "2020": 173,
-        "2024": 173
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 12,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-bob-dylan-desire-1976",
       "artist": "Bob Dylan",
       "album": "Desire",
@@ -31022,29 +30826,6 @@
       "recommendedAction": "fetch-album-content-sources"
     },
     {
-      "albumId": "album-carpenters-close-to-you-1970",
-      "artist": "Carpenters",
-      "album": "Close To You",
-      "releaseYear": 1970,
-      "latestRank": 175,
-      "latestEditionYear": 2012,
-      "ranks": {
-        "2003": 175,
-        "2012": 175
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 12,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-parliament-funkadelic-one-nation-under-a-groove-1978",
       "artist": "Parliament/Funkadelic",
       "album": "One Nation Under A Groove",
@@ -31068,31 +30849,6 @@
         "hasStory": true
       },
       "recommendedAction": "fetch-album-content-sources"
-    },
-    {
-      "albumId": "album-rod-stewart-every-picture-tells-a-story-1971",
-      "artist": "Rod Stewart",
-      "album": "Every Picture Tells a Story",
-      "releaseYear": 1971,
-      "latestRank": 177,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 172,
-        "2012": 172,
-        "2020": 177,
-        "2024": 177
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 8,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
       "albumId": "album-curtis-mayfield-and-the-impressions-the-anthology-1961-1977-1992",
@@ -31215,17 +30971,16 @@
         "2012": 180
       },
       "missing": [
-        "coverArt",
-        "composerCredits"
+        "coverArt"
       ],
       "existing": {
         "hasCoverArt": false,
         "trackCount": 12,
         "hasTotalDuration": true,
-        "hasComposerCredits": false,
+        "hasComposerCredits": true,
         "hasStory": true
       },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
+      "recommendedAction": "fetch-cover-art-source"
     },
     {
       "albumId": "album-bob-dylan-bringing-it-all-back-home-1965",
@@ -31283,79 +31038,6 @@
       "latestEditionYear": 2003,
       "ranks": {
         "2003": 181
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 9,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-james-taylor-sweet-baby-james-1970",
-      "artist": "James Taylor",
-      "album": "Sweet Baby James",
-      "releaseYear": 1970,
-      "latestRank": 182,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 104,
-        "2012": 104,
-        "2020": 182,
-        "2024": 182
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 11,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-dangelo-brown-sugar-1995",
-      "artist": "D'Angelo",
-      "album": "Brown Sugar",
-      "releaseYear": 1995,
-      "latestRank": 183,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2020": 183,
-        "2024": 183
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 10,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-cyndi-lauper-shes-so-unusual-1983",
-      "artist": "Cyndi Lauper",
-      "album": "She's So Unusual",
-      "releaseYear": 1983,
-      "latestRank": 184,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 487,
-        "2012": 487,
-        "2020": 184,
-        "2024": 184
       },
       "missing": [
         "composerCredits"

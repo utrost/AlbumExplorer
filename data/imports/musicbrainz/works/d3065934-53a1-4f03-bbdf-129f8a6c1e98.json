@@ -1,0 +1,72 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d3065934-53a1-4f03-bbdf-129f8a6c1e98?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "7974596"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "id": "d3065934-53a1-4f03-bbdf-129f8a6c1e98",
+  "iswcs": [
+    "T-070.040.821-4",
+    "T-900.760.465-1"
+  ],
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "id": "85ae85b9-0d16-408d-ac3e-df3f7650ef54",
+        "name": "Artie Butler",
+        "country": "US",
+        "sort-name": "Butler, Artie",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "id": "24252d8a-38e7-4358-bfe7-70d845f156ba",
+        "name": "Jerry Leiber",
+        "country": "US",
+        "sort-name": "Leiber, Jerry",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Down Home Girl",
+  "language": "eng"
+}

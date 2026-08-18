@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a99c39dd-3bb1-4021-be2e-ecc6c6db8351?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo mix",
+  "video": false,
+  "id": "a99c39dd-3bb1-4021-be2e-ecc6c6db8351",
+  "first-release-date": "1970-01-20",
+  "length": 292653,
+  "title": "Bridge Over Troubled Water",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "end": "1969-11-09",
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "begin": "1969-11-09",
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "id": "048976c0-44b3-3da7-85cf-2da8341b1e66",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [
+          "T-070.880.931-7"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Bridge Over Troubled Water",
+        "language": "eng",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ]
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": ""
+    }
+  ]
+}

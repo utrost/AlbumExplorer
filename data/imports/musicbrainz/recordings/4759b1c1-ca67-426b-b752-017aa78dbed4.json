@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/4759b1c1-ca67-426b-b752-017aa78dbed4?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "id": "94ef64ef-96c0-32b7-83fa-f20d7a4ca829",
+        "title": "Mr. Guder",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-042.098.379-4",
+          "T-317.082.805-0",
+          "T-914.727.108-7"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "video": false,
+  "id": "4759b1c1-ca67-426b-b752-017aa78dbed4",
+  "title": "Mr. Guder",
+  "first-release-date": "1970-02-01",
+  "length": 197000
+}

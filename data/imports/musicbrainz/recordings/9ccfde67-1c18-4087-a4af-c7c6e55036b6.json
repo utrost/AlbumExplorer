@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9ccfde67-1c18-4087-a4af-c7c6e55036b6?inc=work-rels&fmt=json",
+  "id": "9ccfde67-1c18-4087-a4af-c7c6e55036b6",
+  "first-release-date": "1965",
+  "title": "Mona (I Need You Baby)",
+  "length": 215240,
+  "video": false,
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": "1964-01-04",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Mona",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "id": "2e0de115-e833-3b42-8fba-b20314b0284f",
+        "iswcs": [
+          "T-070.242.249-8",
+          "T-700.027.510-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "direction": "forward",
+      "begin": "1964-01-03",
+      "ended": true
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/60b16917-06de-3b85-ac8f-d17bb142fb17?inc=artist-rels&fmt=json",
+  "id": "60b16917-06de-3b85-ac8f-d17bb142fb17",
+  "type": "Song",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.247.363-9"
+  ],
+  "title": "Time After Time",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "artist": {
+        "sort-name": "Hyman, Rob",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "id": "ac3a43db-8437-44c5-b8b8-740a7211dde9",
+        "country": "US",
+        "name": "Rob Hyman"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": ""
+    },
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "7bd9e20e-74b9-446a-a2ed-a223f82a36e7",
+        "sort-name": "Lauper, Cyndi",
+        "name": "Cyndi Lauper",
+        "country": "US"
+      },
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "attributes": [
+    {
+      "type": "SPAC ID",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "value": "982784"
+    },
+    {
+      "value": "982784",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "type": "SOBODAYCOM ID"
+    },
+    {
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "type": "SGACEDOM ID",
+      "value": "982784"
+    },
+    {
+      "type": "NICAUTOR ID",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "value": "982784"
+    },
+    {
+      "value": "982784",
+      "type": "AEI ID",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826"
+    },
+    {
+      "value": "982784",
+      "type": "AACIMH ID",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865"
+    },
+    {
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "type": "SACIM ID",
+      "value": "982784"
+    },
+    {
+      "value": "727",
+      "type-id": "78cf692f-a43b-46fc-993b-635c5bd86375",
+      "type": "LatinNet ID"
+    },
+    {
+      "value": "293986",
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+      "type": "ACDAM ID"
+    },
+    {
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID",
+      "value": "5454678"
+    },
+    {
+      "value": "9949791",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "993872",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "9914397"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "9911740"
+    },
+    {
+      "value": "8433087",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "247383"
+    },
+    {
+      "value": "13470975",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "10076126",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "982784",
+      "type": "ACAM ID",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "6216137"
+    },
+    {
+      "value": "2187613",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "4310242"
+    },
+    {
+      "value": "2409273",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "value": "954476",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "12100143"
+    },
+    {
+      "value": "954476",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "value": "32842",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "value": "123656",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "6686418V"
+    },
+    {
+      "value": "140869700",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "value": "044091501"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000295182"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "301089"
+    },
+    {
+      "value": "102842501",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID",
+      "value": "84 212 170 11"
+    },
+    {
+      "value": "660.240",
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID",
+      "value": "001354 982 59"
+    },
+    {
+      "value": "GW37076336",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "value": "GW01942687",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "207972521"
+    },
+    {
+      "value": "10694202",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "5139790-001"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "1687316-001"
+    },
+    {
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290",
+      "type": "SESAC ID",
+      "value": "49011713"
+    },
+    {
+      "value": "1514977",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "500357064"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID",
+      "value": "0T2-6547-1"
+    }
+  ]
+}

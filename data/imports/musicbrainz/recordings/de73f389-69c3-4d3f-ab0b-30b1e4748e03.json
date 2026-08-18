@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/de73f389-69c3-4d3f-ab0b-30b1e4748e03?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "source-credit": "",
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "attributes": [],
+      "type": "performance",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {},
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "title": "Bullet the Blue Sky",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "id": "82469601-f419-3df9-8a39-83887fb5e031",
+        "iswcs": [
+          "T-011.335.527-3"
+        ],
+        "attributes": []
+      }
+    }
+  ],
+  "title": "Bullet the Blue Sky",
+  "disambiguation": "",
+  "video": false,
+  "first-release-date": "1987-03-09",
+  "id": "de73f389-69c3-4d3f-ab0b-30b1e4748e03",
+  "length": 272000
+}

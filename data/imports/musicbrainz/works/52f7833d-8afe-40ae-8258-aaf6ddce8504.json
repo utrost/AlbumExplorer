@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/52f7833d-8afe-40ae-8258-aaf6ddce8504?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "ended": false,
+      "type": "writer",
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "sort-name": "Dessner, Aaron",
+        "id": "1890e726-4817-42f4-92e7-ca78bef6692a",
+        "name": "Aaron Dessner",
+        "disambiguation": "",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "begin": null
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "name": "Taylor Swift",
+        "disambiguation": "",
+        "sort-name": "Swift, Taylor",
+        "id": "20244d07-534f-4eff-b4d4-930878889970"
+      },
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    }
+  ],
+  "title": "the 1",
+  "language": "eng",
+  "disambiguation": "",
+  "id": "52f7833d-8afe-40ae-8258-aaf6ddce8504",
+  "attributes": [],
+  "iswcs": []
+}

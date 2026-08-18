@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a46d5218-a865-4301-93d0-c43ee896ab11?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 262933,
+  "id": "a46d5218-a865-4301-93d0-c43ee896ab11",
+  "title": "Brown Sugar",
+  "first-release-date": "1995-07-04",
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "iswcs": [
+          "T-917.661.489-4"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "7353220a-c2a0-44ad-9a28-f0dd5399ee83",
+        "title": "Brown Sugar",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      }
+    }
+  ],
+  "video": false
+}

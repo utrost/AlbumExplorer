@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/88389b59-382d-4b47-8219-c803ded75e01?inc=work-rels&fmt=json",
+  "id": "88389b59-382d-4b47-8219-c803ded75e01",
+  "disambiguation": "",
+  "first-release-date": "1965",
+  "video": false,
+  "title": "What a Shame",
+  "length": 170000,
+  "relations": [
+    {
+      "begin": "1964-11-08",
+      "ended": true,
+      "attribute-values": {},
+      "direction": "forward",
+      "source-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "end": "1964-11-08",
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "title": "What a Shame",
+        "iswcs": [
+          "T-010.065.915-1"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "type": "Song",
+        "id": "5b2b3481-7d8c-47df-b62b-8ec0afff8b53",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "attributes": [],
+      "target-credit": ""
+    }
+  ]
+}

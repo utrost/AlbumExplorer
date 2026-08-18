@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/bf1e8b83-9618-3386-8a3d-65bd6fb779ec?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "artist": {
+        "country": "US",
+        "id": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255",
+        "type": "Person",
+        "name": "Kurt Cobain",
+        "disambiguation": "lead singer and guitarist for Nirvana",
+        "sort-name": "Cobain, Kurt",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "artist": {
+        "name": "Kurt Cobain",
+        "type": "Person",
+        "country": "US",
+        "id": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255",
+        "sort-name": "Cobain, Kurt",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "lead singer and guitarist for Nirvana"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "lyricist"
+    }
+  ],
+  "attributes": [],
+  "title": "Tourette’s",
+  "id": "bf1e8b83-9618-3386-8a3d-65bd6fb779ec",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-072.735.897-5"
+  ]
+}

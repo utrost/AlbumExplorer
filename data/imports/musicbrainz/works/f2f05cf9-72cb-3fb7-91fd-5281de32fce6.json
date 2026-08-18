@@ -1,0 +1,137 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f2f05cf9-72cb-3fb7-91fd-5281de32fce6?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-042.098.413-9",
+    "T-070.113.954-9"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "id": "412faa8b-0bf2-490a-aaea-45185504f2b2",
+        "country": "US",
+        "type": "Person",
+        "name": "Richard Carpenter",
+        "disambiguation": "The Carpenters",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Carpenter, Richard"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": "1968",
+      "begin": "1968",
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": true
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "sort-name": "Bettis, John",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "John Bettis",
+        "country": "US",
+        "id": "3241363a-f7c0-4d3d-b154-d0b7132067b4"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "attributes": [
+    {
+      "value": "71.374",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "12309443",
+      "type": "SOCAN ID"
+    },
+    {
+      "type": "SAYCO ID",
+      "value": "3703911",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "3703911",
+      "type": "SAYCE ID"
+    },
+    {
+      "type": "SACVEN ID",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2613949"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0M0-3858-4"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "1321362-001"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "113955"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "11184518",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "BMI ID",
+      "value": "967589",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "430265564",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "APRA ID",
+      "value": "GW00916146",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2265973"
+    },
+    {
+      "type": "AGADU ID",
+      "value": "4516170",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    }
+  ],
+  "title": "Maybe It's You",
+  "id": "f2f05cf9-72cb-3fb7-91fd-5281de32fce6"
+}

@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/2242630f-591f-4d8a-8019-f7ba01b97ca1?inc=work-rels&fmt=json",
+  "first-release-date": "1965",
+  "id": "2242630f-591f-4d8a-8019-f7ba01b97ca1",
+  "relations": [
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "iswcs": [
+          "T-070.242.814-5"
+        ],
+        "id": "6fd787db-6b7b-411b-ade6-4034603f7fd9",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Pain in My Heart",
+        "disambiguation": "soul ballad performed by Otis Redding, The Rolling Stones"
+      },
+      "ended": true,
+      "begin": "1964-11-02",
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1964-11-02",
+      "target-type": "work",
+      "attributes": [
+        "cover"
+      ],
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "disambiguation": "",
+  "length": 132000,
+  "video": false,
+  "title": "Pain in My Heart"
+}

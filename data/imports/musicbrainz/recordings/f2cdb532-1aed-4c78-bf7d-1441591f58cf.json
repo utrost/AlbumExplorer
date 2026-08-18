@@ -1,0 +1,70 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f2cdb532-1aed-4c78-bf7d-1441591f58cf?inc=work-rels&fmt=json",
+  "id": "f2cdb532-1aed-4c78-bf7d-1441591f58cf",
+  "first-release-date": "1970-02",
+  "title": "Oh Baby, Don’t You Loose Your Lip on Me",
+  "relations": [
+    {
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-914.709.539-4"
+        ],
+        "id": "919119c4-1f07-39ed-aebe-36af76b3f240",
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Oh Baby, Don't You Loose Your Lip on Me"
+      },
+      "ended": true,
+      "direction": "forward",
+      "begin": "1969-12",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1969-12",
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "disambiguation": "",
+        "title": "Oh Baby, Don't You Loose Your Lip on Me",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "919119c4-1f07-39ed-aebe-36af76b3f240",
+        "iswcs": [
+          "T-914.709.539-4"
+        ]
+      },
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    }
+  ],
+  "length": 110360,
+  "video": false,
+  "disambiguation": ""
+}

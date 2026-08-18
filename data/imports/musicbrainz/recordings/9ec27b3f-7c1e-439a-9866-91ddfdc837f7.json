@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9ec27b3f-7c1e-439a-9866-91ddfdc837f7?inc=work-rels&fmt=json",
+  "id": "9ec27b3f-7c1e-439a-9866-91ddfdc837f7",
+  "first-release-date": "1970-02-01",
+  "title": "Crescent Noon",
+  "disambiguation": "",
+  "video": false,
+  "length": 250000,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-072.565.557-1"
+        ],
+        "id": "ee19cbaa-2f4b-3a83-8cf0-d0f10ca0afec",
+        "disambiguation": "",
+        "title": "Crescent Noon",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song"
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8c8559e1-20b9-342a-ab79-9f98a1095060?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "438853"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "685658"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "685658"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "908068"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "653463A"
+    },
+    {
+      "value": "5278084",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "id": "8c8559e1-20b9-342a-ab79-9f98a1095060",
+  "iswcs": [
+    "T-900.028.038-6"
+  ],
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "English composer, conductor, and pianist",
+        "name": "Benjamin Britten",
+        "id": "49ae5227-605a-47a8-9b8e-cd89bf01a97c",
+        "country": "GB",
+        "sort-name": "Britten, Benjamin"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "disambiguation": "from the cantata “A Boy was Born” by Benjamin Britten",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Corpus Christi Carol"
+}

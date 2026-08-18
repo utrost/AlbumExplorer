@@ -1,0 +1,76 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/13dbe61a-0331-4f93-9d37-52571ae834a2?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "sort-name": "Michael, George",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "name": "George Michael",
+        "country": "GB",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "artist": {
+        "name": "George Michael",
+        "sort-name": "Michael, George",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "GB"
+      },
+      "source-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type": "lyricist",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {}
+    }
+  ],
+  "title": "I Want Your Sex: Rhythm 2: Brass in Love",
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "13dbe61a-0331-4f93-9d37-52571ae834a2",
+  "attributes": [
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "320351160"
+    },
+    {
+      "value": "0I2-9303-5",
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+    }
+  ],
+  "iswcs": [
+    "T-902.910.644-3"
+  ],
+  "language": "eng"
+}

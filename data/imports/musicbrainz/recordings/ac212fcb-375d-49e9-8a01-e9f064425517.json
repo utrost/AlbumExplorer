@@ -1,0 +1,70 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ac212fcb-375d-49e9-8a01-e9f064425517?inc=work-rels&fmt=json",
+  "disambiguation": "including “Henry” prelude",
+  "relations": [
+    {
+      "end": "1971-01",
+      "begin": "1971-01",
+      "attribute-ids": {},
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "ordering-key": 1,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "prelude to “Maggie May”",
+        "languages": [
+          "zxx"
+        ],
+        "iswcs": [],
+        "type-id": null,
+        "attributes": [],
+        "id": "88dee82e-7a43-4315-9b3f-a3e4470861c7",
+        "title": "Henry",
+        "language": "zxx",
+        "type": null
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "d1d9ef76-8d7d-37d6-9be1-9128185b0195",
+        "title": "Maggie May",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.112.990-9"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": "1971-01",
+      "attribute-ids": {},
+      "begin": "1971-01",
+      "type": "performance",
+      "ordering-key": 2,
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward"
+    }
+  ],
+  "video": false,
+  "title": "Maggie May",
+  "id": "ac212fcb-375d-49e9-8a01-e9f064425517",
+  "first-release-date": "1971-05-18",
+  "length": 347133
+}

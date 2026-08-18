@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e257d6fd-7c9b-3ead-8d5d-4b5f41998144?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Reed, Lou",
+        "name": "Lou Reed",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist",
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Lou Reed",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+        "sort-name": "Reed, Lou",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "That's the Story of My Life",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "e257d6fd-7c9b-3ead-8d5d-4b5f41998144",
+  "iswcs": [
+    "T-700.071.014-7"
+  ]
+}

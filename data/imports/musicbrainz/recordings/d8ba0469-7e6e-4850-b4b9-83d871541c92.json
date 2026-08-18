@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d8ba0469-7e6e-4850-b4b9-83d871541c92?inc=work-rels&fmt=json",
+  "first-release-date": "1970-02-01",
+  "id": "d8ba0469-7e6e-4850-b4b9-83d871541c92",
+  "disambiguation": "",
+  "length": 170000,
+  "video": false,
+  "relations": [
+    {
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.013.083-1",
+          "T-900.008.701-4"
+        ],
+        "id": "74e33237-62d6-35d2-8a39-892b9d3f1506",
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Baby It’s You",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng"
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "direction": "forward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "target-type": "work"
+    }
+  ],
+  "title": "Baby It’s You"
+}

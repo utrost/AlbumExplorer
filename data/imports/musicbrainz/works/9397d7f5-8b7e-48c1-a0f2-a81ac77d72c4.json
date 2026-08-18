@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/9397d7f5-8b7e-48c1-a0f2-a81ac77d72c4?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US soul singer, songwriter & producer",
+        "country": "US",
+        "name": "D’Angelo",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "sort-name": "D’Angelo"
+      },
+      "attribute-ids": {},
+      "type": "composer",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "US soul singer, songwriter & producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "D’Angelo",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "name": "D’Angelo"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "When We Get By",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "value": "530413713",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    }
+  ],
+  "iswcs": [
+    "T-070.207.546-4"
+  ],
+  "id": "9397d7f5-8b7e-48c1-a0f2-a81ac77d72c4",
+  "language": "eng"
+}

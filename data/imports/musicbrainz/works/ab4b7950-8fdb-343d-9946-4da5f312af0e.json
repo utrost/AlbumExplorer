@@ -1,0 +1,156 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ab4b7950-8fdb-343d-9946-4da5f312af0e?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Oh! Susanna",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "sort-name": "[traditional]",
+        "country": "XW",
+        "name": "[traditional]",
+        "id": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+        "disambiguation": "special purpose artist",
+        "type": "Other",
+        "type-id": "ac897045-5043-3294-969b-187360e45d86"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "dd28ee68-673e-4fe9-acfc-fa3c81877469",
+        "name": "Stephen Foster",
+        "sort-name": "Foster, Stephen",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "composer"
+      },
+      "attributes": [],
+      "target-type": "artist"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type": "Other",
+        "type-id": "ac897045-5043-3294-969b-187360e45d86",
+        "disambiguation": "special purpose artist",
+        "name": "[traditional]",
+        "id": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+        "country": "XW",
+        "sort-name": "[traditional]"
+      },
+      "target-credit": ""
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "sort-name": "Foster, Stephen",
+        "country": "US",
+        "name": "Stephen Foster",
+        "id": "dd28ee68-673e-4fe9-acfc-fa3c81877469",
+        "disambiguation": "composer",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "Production music composer",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "sort-name": "Spencer, Herbert",
+        "name": "Herbert Spencer",
+        "id": "936e6ece-22a0-4d3f-9e3f-0e804aa7fef6"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "0a1771e1-8639-4740-8a43-bdafc050c3da",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "orchestrator",
+      "source-credit": "",
+      "attribute-ids": {}
+    }
+  ],
+  "iswcs": [
+    "T-902.489.142-7",
+    "T-915.723.299-0"
+  ],
+  "id": "ab4b7950-8fdb-343d-9946-4da5f312af0e",
+  "attributes": [
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "10612075"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "7576055K"
+    },
+    {
+      "value": "6311387T",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "9574426-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

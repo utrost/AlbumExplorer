@@ -1,0 +1,132 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ff0496d7-9248-362d-8271-42f93f7cb68f?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type-id": null,
+  "title": "Mothers of the Disappeared",
+  "type": null,
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "artist",
+      "target-credit": "Bono",
+      "artist": {
+        "disambiguation": "singer of U2",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bono",
+        "country": "IE",
+        "name": "Bono",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "IE",
+        "sort-name": "Clayton, Adam",
+        "name": "Adam Clayton",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-credit": "The Edge",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "U2 guitarist David Evans",
+        "name": "The Edge",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "sort-name": "Edge, The",
+        "country": "IE"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Mullen, Larry, Jr.",
+        "country": "IE",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a",
+        "name": "Larry Mullen, Jr."
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "country": "IE",
+        "sort-name": "Bono",
+        "name": "Bono",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "disambiguation": "singer of U2",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist"
+    }
+  ],
+  "id": "ff0496d7-9248-362d-8271-42f93f7cb68f",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "attributes": []
+}

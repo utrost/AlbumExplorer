@@ -1,0 +1,47 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7545370d-fa64-4f75-bc5a-731056f7a4a1?inc=work-rels&fmt=json",
+  "title": "(They Long to Be) Close to You",
+  "relations": [
+    {
+      "ended": true,
+      "type": "performance",
+      "attributes": [
+        "cover"
+      ],
+      "target-credit": "",
+      "source-credit": "",
+      "work": {
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "(They Long to Be) Close to You",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "iswcs": [
+          "T-070.028.723-5",
+          "T-070.182.412-5",
+          "T-309.251.703-4"
+        ],
+        "disambiguation": "",
+        "id": "31ad6e20-d507-3b77-8d69-86ffe34332a2"
+      },
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "end": "1970-03-24",
+      "begin": "1970-03-24"
+    }
+  ],
+  "id": "7545370d-fa64-4f75-bc5a-731056f7a4a1",
+  "video": false,
+  "disambiguation": "album version",
+  "length": 274000,
+  "first-release-date": "1970-02-01"
+}

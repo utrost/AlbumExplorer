@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2e24af5c-529f-4af6-9abc-2d6e5db203d7?inc=artist-rels&fmt=json",
+  "id": "2e24af5c-529f-4af6-9abc-2d6e5db203d7",
+  "disambiguation": "",
+  "attributes": [],
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "begin": null,
+      "artist": {
+        "sort-name": "Archer, Luther",
+        "id": "5ff96870-4ef2-4a5b-9bee-c2e14989eb30",
+        "disambiguation": "",
+        "name": "Luther Archer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "type": "Person"
+      },
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "type": "writer",
+      "ended": false
+    },
+    {
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "20016e90-f5e7-47bb-a99a-ba8f48452b49",
+        "sort-name": "Archer, Rodney",
+        "name": "Rodney Archer",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "disambiguation": "US soul singer, songwriter & producer",
+        "name": "D’Angelo",
+        "sort-name": "D’Angelo",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a"
+      },
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    }
+  ],
+  "language": "eng",
+  "title": "Higher",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ]
+}

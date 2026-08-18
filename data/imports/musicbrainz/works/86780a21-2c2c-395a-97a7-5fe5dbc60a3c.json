@@ -1,0 +1,76 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/86780a21-2c2c-395a-97a7-5fe5dbc60a3c?inc=artist-rels&fmt=json",
+  "title": "Country Road",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "singer-songwriter and guitarist",
+        "type": "Person",
+        "country": "US",
+        "name": "James Taylor",
+        "sort-name": "Taylor, James",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "composer"
+    },
+    {
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "begin": null,
+      "artist": {
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "sort-name": "Taylor, James",
+        "name": "James Taylor",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "singer-songwriter and guitarist"
+      },
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {},
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "lyricist"
+    }
+  ],
+  "language": "eng",
+  "id": "86780a21-2c2c-395a-97a7-5fe5dbc60a3c",
+  "attributes": [
+    {
+      "value": "251478",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "value": "891295207",
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    }
+  ],
+  "iswcs": [
+    "T-914.694.277-0"
+  ]
+}

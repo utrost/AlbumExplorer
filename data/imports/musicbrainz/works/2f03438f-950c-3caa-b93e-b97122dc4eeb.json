@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2f03438f-950c-3caa-b93e-b97122dc4eeb?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-072.735.896-4"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Kurt Cobain",
+        "type": "Person",
+        "country": "US",
+        "id": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255",
+        "sort-name": "Cobain, Kurt",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "lead singer and guitarist for Nirvana"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "artist": {
+        "disambiguation": "lead singer and guitarist for Nirvana",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Cobain, Kurt",
+        "id": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255",
+        "country": "US",
+        "name": "Kurt Cobain",
+        "type": "Person"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "lyricist"
+    }
+  ],
+  "attributes": [],
+  "title": "Radio Friendly Unit Shifter",
+  "id": "2f03438f-950c-3caa-b93e-b97122dc4eeb"
+}

@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4b856d64-1502-3f7a-a08e-6d3a0306f10f?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Barrow, Geoff",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Geoff Barrow",
+        "country": "GB",
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Gibbons, Beth",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Beth Gibbons",
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "country": "GB"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer"
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Utley, Adrian",
+        "disambiguation": "",
+        "name": "Adrian Utley",
+        "type": "Person",
+        "id": "619b1116-740e-42e0-bdfe-96af274f79f7",
+        "country": "GB"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "title": "It’s a Fire",
+  "id": "4b856d64-1502-3f7a-a08e-6d3a0306f10f",
+  "attributes": []
+}

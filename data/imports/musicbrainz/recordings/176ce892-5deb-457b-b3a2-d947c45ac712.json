@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/176ce892-5deb-457b-b3a2-d947c45ac712?inc=work-rels&fmt=json",
+  "first-release-date": "1987-02",
+  "id": "176ce892-5deb-457b-b3a2-d947c45ac712",
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": null,
+      "ended": false,
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "6d0b966b-4f31-393d-ae32-a07e477f7744",
+        "iswcs": [
+          "T-011.335.525-1"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Where the Streets Have No Name",
+        "language": "eng"
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "length": 337520,
+  "video": false,
+  "disambiguation": "",
+  "title": "Where the Streets Have No Name"
+}

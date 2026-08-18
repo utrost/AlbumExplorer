@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/82e2676d-e700-33b3-a77d-042d863ca7db?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "id": "82e2676d-e700-33b3-a77d-042d863ca7db",
+  "iswcs": [
+    "T-071.247.946-3"
+  ],
+  "attributes": [],
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "Strangers",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "attributes": [],
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "GB",
+        "name": "Geoff Barrow",
+        "sort-name": "Barrow, Geoff",
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "writer"
+    },
+    {
+      "attribute-ids": {},
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "sort-name": "Gibbons, Beth",
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "name": "Beth Gibbons",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "begin": null,
+      "artist": {
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "name": "Adrian Utley",
+        "sort-name": "Utley, Adrian",
+        "id": "619b1116-740e-42e0-bdfe-96af274f79f7"
+      },
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {}
+    }
+  ]
+}

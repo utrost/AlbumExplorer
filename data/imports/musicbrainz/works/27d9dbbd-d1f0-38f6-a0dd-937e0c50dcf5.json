@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/27d9dbbd-d1f0-38f6-a0dd-937e0c50dcf5?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "iswcs": [
+    "T-070.256.586-3"
+  ],
+  "id": "27d9dbbd-d1f0-38f6-a0dd-937e0c50dcf5",
+  "language": "eng",
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "composer",
+      "attribute-ids": {},
+      "artist": {
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "sort-name": "Taylor, James",
+        "name": "James Taylor",
+        "country": "US",
+        "disambiguation": "singer-songwriter and guitarist",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward"
+    },
+    {
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "singer-songwriter and guitarist",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "James Taylor",
+        "sort-name": "Taylor, James",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a"
+      },
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Anywhere Like Heaven",
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ]
+}

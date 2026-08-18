@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/de60352a-6c1a-4322-a1b0-2cb8e4129a43?inc=work-rels&fmt=json",
+  "id": "de60352a-6c1a-4322-a1b0-2cb8e4129a43",
+  "first-release-date": "1983-10-14",
+  "title": "When You Were Mine",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "forward",
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "When You Were Mine",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "9744c918-e954-3583-94da-b41886149ecd",
+        "iswcs": [
+          "T-070.204.005-8"
+        ]
+      },
+      "target-type": "work",
+      "attributes": [
+        "cover"
+      ],
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null
+    }
+  ],
+  "length": 306493,
+  "video": false,
+  "disambiguation": ""
+}

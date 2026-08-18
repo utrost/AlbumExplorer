@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/50fd6b05-c0a1-4125-9246-c326b8029d02?inc=work-rels&fmt=json",
+  "id": "50fd6b05-c0a1-4125-9246-c326b8029d02",
+  "first-release-date": "1994-08-15",
+  "title": "Corpus Christi Carol",
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "forward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "work": {
+        "iswcs": [
+          "T-900.028.038-6"
+        ],
+        "id": "8c8559e1-20b9-342a-ab79-9f98a1095060",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Corpus Christi Carol",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "from the cantata “A Boy was Born” by Benjamin Britten"
+      }
+    }
+  ],
+  "video": false,
+  "length": 176533,
+  "disambiguation": ""
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/919119c4-1f07-39ed-aebe-36af76b3f240?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-914.709.539-4"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "name": "James Taylor",
+        "type": "Person",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Taylor, James",
+        "disambiguation": "singer-songwriter and guitarist"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "name": "James Taylor",
+        "type": "Person",
+        "disambiguation": "singer-songwriter and guitarist",
+        "sort-name": "Taylor, James",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    }
+  ],
+  "attributes": [],
+  "id": "919119c4-1f07-39ed-aebe-36af76b3f240",
+  "title": "Oh Baby, Don't You Loose Your Lip on Me"
+}

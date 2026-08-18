@@ -1,0 +1,229 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/965c0731-790f-4a8b-b8cf-0ef0f7f7d0c1?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "relations": [
+    {
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "name": "William Bowery",
+        "type": "Person",
+        "country": "GB",
+        "id": "24f1ab88-3e5e-42b1-9cc9-16d5922c610b",
+        "sort-name": "Bowery, William",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      }
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Swift, Taylor",
+        "id": "20244d07-534f-4eff-b4d4-930878889970",
+        "country": "US",
+        "name": "Taylor Swift",
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "0f1d5b01-8784-4870-9bd6-fa43178b9441",
+        "country": "US",
+        "name": "Justin Vernon",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Vernon, Justin"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    }
+  ],
+  "type": "Song",
+  "attributes": [
+    {
+      "value": "006609 257 30",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "value": "5130093",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "type": "SPAC ID"
+    },
+    {
+      "type": "SPA ID",
+      "value": "8368149",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "210440504",
+      "type": "SOCAN ID"
+    },
+    {
+      "type": "SOBODAYCOM ID",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "value": "5130093"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "21832593000"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "21838109500",
+      "type": "SIAE ID"
+    },
+    {
+      "value": "19.314.579",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "value": "5130093",
+      "type": "SGACEDOM ID"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "13321599"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "13335803",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SADAIC ID",
+      "value": "2272571",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "value": "5130093",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "type": "SACIM ID"
+    },
+    {
+      "type": "SABAM ID",
+      "value": "A0F18RV00",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "type": "PRS tune code",
+      "value": "417676HS",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "value": "5130093",
+      "type": "NICAUTOR ID"
+    },
+    {
+      "type-id": "78cf692f-a43b-46fc-993b-635c5bd86375",
+      "value": "8675",
+      "type": "LatinNet ID"
+    },
+    {
+      "value": "1O6-3858-1",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "26778484"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-021775435",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "BMI ID",
+      "value": "44546213",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "type": "ASCAP ID",
+      "value": "908748698",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "value": "GW58704320",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "value": "10598866",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "value": "AWK1604957",
+      "type-id": "46f95ee0-123f-4f8e-8ccc-54c7c652dda0",
+      "type": "AMRA ID"
+    },
+    {
+      "value": "5130093",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "type": "AEI ID"
+    },
+    {
+      "value": "5130093",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "type": "ACAM ID"
+    },
+    {
+      "value": "5130093",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "type": "AACIMH ID"
+    }
+  ],
+  "id": "965c0731-790f-4a8b-b8cf-0ef0f7f7d0c1",
+  "title": "exile",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-300.265.154-5"
+  ]
+}

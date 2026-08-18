@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3b25ce67-56be-4553-b333-783c788bc88a?inc=work-rels&fmt=json",
+  "first-release-date": "1970-02",
+  "id": "3b25ce67-56be-4553-b333-783c788bc88a",
+  "relations": [
+    {
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1969-12",
+      "ended": true,
+      "begin": "1969-12",
+      "direction": "forward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "work": {
+        "type": "Song",
+        "title": "Blossom",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.257.699-5"
+        ],
+        "id": "b94891dd-839a-3b36-a3e1-c604f4a0741d",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      }
+    }
+  ],
+  "disambiguation": "",
+  "length": 134000,
+  "video": false,
+  "title": "Blossom"
+}

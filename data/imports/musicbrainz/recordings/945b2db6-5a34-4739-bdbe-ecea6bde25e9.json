@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/945b2db6-5a34-4739-bdbe-ecea6bde25e9?inc=work-rels&fmt=json",
+  "first-release-date": "1965",
+  "id": "945b2db6-5a34-4739-bdbe-ecea6bde25e9",
+  "video": false,
+  "length": 253413,
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": true,
+      "direction": "forward",
+      "begin": "1964-11-02",
+      "type": "performance",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "source-credit": "",
+      "work": {
+        "id": "d3065934-53a1-4f03-bbdf-129f8a6c1e98",
+        "iswcs": [
+          "T-070.040.821-4",
+          "T-900.760.465-1"
+        ],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Down Home Girl",
+        "disambiguation": ""
+      },
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1964-11-02"
+    }
+  ],
+  "title": "Down Home Girl"
+}

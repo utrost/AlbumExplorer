@@ -1,0 +1,81 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/300deafc-f911-4899-b8ad-3a00d85057df?inc=work-rels&fmt=json",
+  "first-release-date": "1971-05-18",
+  "video": false,
+  "title": "That’s All Right",
+  "id": "300deafc-f911-4899-b8ad-3a00d85057df",
+  "disambiguation": "with Amazing Grace on same track",
+  "relations": [
+    {
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "ordering-key": 1,
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.250.140-3",
+          "T-071.224.825-3"
+        ],
+        "title": "That’s All Right",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "type": "Song",
+        "id": "3577574c-23aa-3613-bfa4-49fef16b5519"
+      },
+      "end": "1971-01",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "attributes": [
+        "cover"
+      ],
+      "target-credit": "",
+      "begin": "1971-01",
+      "ended": true,
+      "attribute-values": {},
+      "direction": "forward",
+      "source-credit": ""
+    },
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work",
+      "ordering-key": 2,
+      "attributes": [
+        "cover"
+      ],
+      "work": {
+        "title": "Amazing Grace",
+        "language": "eng",
+        "iswcs": [
+          "T-909.680.315-5"
+        ],
+        "disambiguation": "popular hymn first published 1779, catch‐all",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "a5393197-4f8e-31f3-a535-2de2ff275133",
+        "type": "Song",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "end": null,
+      "target-credit": "",
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "forward"
+    }
+  ],
+  "length": 360000
+}

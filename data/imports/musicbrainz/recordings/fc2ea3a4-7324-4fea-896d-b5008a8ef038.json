@@ -1,0 +1,76 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fc2ea3a4-7324-4fea-896d-b5008a8ef038?inc=work-rels&fmt=json",
+  "first-release-date": "1970-02",
+  "video": false,
+  "disambiguation": "",
+  "title": "Oh, Susannah",
+  "id": "fc2ea3a4-7324-4fea-896d-b5008a8ef038",
+  "length": 121293,
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1969-12",
+      "target-type": "work",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "target-credit": "",
+      "end": "1969-12",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "ended": true,
+      "attributes": [
+        "cover"
+      ],
+      "type": "performance",
+      "attribute-values": {},
+      "work": {
+        "iswcs": [
+          "T-902.489.142-7",
+          "T-915.723.299-0"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "ab4b7950-8fdb-343d-9946-4da5f312af0e",
+        "attributes": [],
+        "title": "Oh! Susanna",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng"
+      }
+    },
+    {
+      "direction": "forward",
+      "attribute-ids": {},
+      "target-type": "work",
+      "begin": null,
+      "target-credit": "",
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-902.489.142-7",
+          "T-915.723.299-0"
+        ],
+        "title": "Oh! Susanna",
+        "attributes": [],
+        "id": "ab4b7950-8fdb-343d-9946-4da5f312af0e"
+      },
+      "type": "performance",
+      "attribute-values": {}
+    }
+  ]
+}

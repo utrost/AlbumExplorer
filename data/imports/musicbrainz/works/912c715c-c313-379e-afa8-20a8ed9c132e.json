@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/912c715c-c313-379e-afa8-20a8ed9c132e?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-011.422.358-3"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "name": "Bono",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bono",
+        "disambiguation": "singer of U2"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "artist": {
+        "type": "Person",
+        "name": "Adam Clayton",
+        "country": "IE",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "sort-name": "Clayton, Adam",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "composer"
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "name": "The Edge",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Edge, The",
+        "disambiguation": "U2 guitarist David Evans"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Mullen, Larry, Jr.",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a",
+        "country": "IE",
+        "name": "Larry Mullen, Jr.",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "type": "lyricist",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bono",
+        "disambiguation": "singer of U2",
+        "name": "Bono",
+        "type": "Person",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "country": "IE"
+      }
+    }
+  ],
+  "attributes": [],
+  "title": "Ultra Violet (Light My Way)",
+  "id": "912c715c-c313-379e-afa8-20a8ed9c132e"
+}

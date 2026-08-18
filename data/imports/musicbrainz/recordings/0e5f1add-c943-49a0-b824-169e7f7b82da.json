@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0e5f1add-c943-49a0-b824-169e7f7b82da?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "work": {
+        "language": "eng",
+        "title": "Girls Just Want to Have Fun",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.067.685-2"
+        ],
+        "attributes": [],
+        "id": "b61e1a55-a136-35c4-ba91-8514258ecad5",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "title": "Girls Just Want to Have Fun",
+  "video": false,
+  "id": "0e5f1add-c943-49a0-b824-169e7f7b82da",
+  "disambiguation": "",
+  "length": 231266,
+  "first-release-date": "1983-10-14"
+}

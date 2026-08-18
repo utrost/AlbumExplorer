@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b6097e16-f138-4413-82a5-56aabaa0aab2?inc=work-rels&fmt=json",
+  "first-release-date": "1993-09-21",
+  "id": "b6097e16-f138-4413-82a5-56aabaa0aab2",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Dumb",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.248.661-0"
+        ],
+        "id": "28fbba54-7a8c-38f9-8b1a-36cbe55eaf91",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "ended": true,
+      "begin": "1993-02-12",
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1993-02-26",
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "disambiguation": "",
+  "length": 152106,
+  "video": false,
+  "title": "Dumb"
+}

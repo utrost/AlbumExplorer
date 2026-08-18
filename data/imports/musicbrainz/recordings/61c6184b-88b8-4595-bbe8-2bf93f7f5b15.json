@@ -1,0 +1,76 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/61c6184b-88b8-4595-bbe8-2bf93f7f5b15?inc=work-rels&fmt=json",
+  "length": 185000,
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "target-type": "work",
+      "direction": "forward",
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "iswcs": [
+          "T-070.202.573-7",
+          "T-931.294.426-6"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "e6bdb1d1-8df2-3970-ab68-02045b3c6204",
+        "title": "We’ve Only Just Begun"
+      },
+      "attribute-values": {},
+      "type": "performance",
+      "attributes": [
+        "cover"
+      ],
+      "ended": false,
+      "source-credit": "",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    },
+    {
+      "end": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "ended": false,
+      "attributes": [],
+      "type": "performance",
+      "attribute-values": {},
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type": "Song",
+        "id": "e6bdb1d1-8df2-3970-ab68-02045b3c6204",
+        "attributes": [],
+        "title": "We’ve Only Just Begun",
+        "iswcs": [
+          "T-070.202.573-7",
+          "T-931.294.426-6"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "direction": "forward",
+      "target-type": "work",
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": ""
+    }
+  ],
+  "title": "We’ve Only Just Begun",
+  "id": "61c6184b-88b8-4595-bbe8-2bf93f7f5b15",
+  "disambiguation": "",
+  "video": false,
+  "first-release-date": "1970-02-01"
+}

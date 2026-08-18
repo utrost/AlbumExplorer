@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0e71119b-65bb-4e34-a8b0-8870d4cc213a?inc=work-rels&fmt=json",
+  "first-release-date": "1984-05",
+  "length": 288000,
+  "disambiguation": "studio, version 3b",
+  "id": "0e71119b-65bb-4e34-a8b0-8870d4cc213a",
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "ended": true,
+      "work": {
+        "id": "8ecc135f-ce4e-3fd3-9e9f-7944bd4daa9b",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [
+          "T-070.043.095-0"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Darlington County",
+        "language": "eng",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ]
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "end": "1982-05-13",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "begin": "1982-05-13"
+    }
+  ],
+  "title": "Darlington County"
+}

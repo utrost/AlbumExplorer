@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/8fb9d952-0d7d-4c52-9483-b13e6e77c8d0?inc=work-rels&fmt=json",
+  "title": "Every Picture Tells a Story",
+  "disambiguation": "",
+  "length": 359000,
+  "video": false,
+  "relations": [
+    {
+      "end": "1971-01",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "work": {
+        "id": "951a57c0-fd6d-4faa-a1a4-f6d1dac524a1",
+        "iswcs": [
+          "T-070.881.327-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Every Picture Tells a Story",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "forward",
+      "begin": "1971-01",
+      "ended": true
+    }
+  ],
+  "id": "8fb9d952-0d7d-4c52-9483-b13e6e77c8d0",
+  "first-release-date": "1971-05-18"
+}

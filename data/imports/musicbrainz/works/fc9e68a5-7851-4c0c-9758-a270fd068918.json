@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fc9e68a5-7851-4c0c-9758-a270fd068918?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "iswcs": [],
+  "attributes": [],
+  "id": "fc9e68a5-7851-4c0c-9758-a270fd068918",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "Jonz in My Bonz",
+  "relations": [
+    {
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US soul singer, songwriter & producer",
+        "type": "Person",
+        "country": "US",
+        "name": "D’Angelo",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "sort-name": "D’Angelo"
+      },
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "writer"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "artist": {
+        "id": "82f8dd22-0319-4f35-953c-358b3f883027",
+        "sort-name": "Stone, Angie",
+        "name": "Angie Stone",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person"
+      },
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attributes": [],
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {}
+    }
+  ]
+}

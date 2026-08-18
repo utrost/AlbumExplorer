@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/695c175d-bd7c-3ab6-80f3-fe6880a6f07b?inc=artist-rels&fmt=json",
+  "id": "695c175d-bd7c-3ab6-80f3-fe6880a6f07b",
+  "iswcs": [
+    "T-070.275.921-4"
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Sunny Skies",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "name": "James Taylor",
+        "country": "US",
+        "sort-name": "Taylor, James",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "singer-songwriter and guitarist"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "singer-songwriter and guitarist",
+        "name": "James Taylor",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "sort-name": "Taylor, James",
+        "country": "US"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist"
+    }
+  ],
+  "disambiguation": ""
+}

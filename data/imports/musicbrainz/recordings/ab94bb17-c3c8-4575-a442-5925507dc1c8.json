@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ab94bb17-c3c8-4575-a442-5925507dc1c8?inc=work-rels&fmt=json",
+  "id": "ab94bb17-c3c8-4575-a442-5925507dc1c8",
+  "title": "Down the Road Apiece",
+  "relations": [
+    {
+      "begin": "1964-06-11",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "target-type": "work",
+      "direction": "forward",
+      "target-credit": "",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1964-06-11",
+      "attributes": [
+        "cover"
+      ],
+      "ended": true,
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "iswcs": [
+          "T-070.261.083-0"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "209fd9b7-e830-3127-b5c9-8bc4a5bcb11f",
+        "attributes": [],
+        "title": "Down the Road Apiece",
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      }
+    }
+  ],
+  "length": 176173,
+  "disambiguation": "",
+  "first-release-date": "1965",
+  "video": false
+}

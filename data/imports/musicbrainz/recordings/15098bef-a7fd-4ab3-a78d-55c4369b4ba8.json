@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/15098bef-a7fd-4ab3-a78d-55c4369b4ba8?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "video": false,
+  "length": 140000,
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1964-07-23",
+      "ended": true,
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-010.065.903-7"
+        ],
+        "id": "c77b2813-9f95-4e18-8b43-b749aa792453",
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Surprise, Surprise",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng"
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1964-07-23",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "title": "Surprise, Surprise",
+  "first-release-date": "1965",
+  "id": "15098bef-a7fd-4ab3-a78d-55c4369b4ba8"
+}

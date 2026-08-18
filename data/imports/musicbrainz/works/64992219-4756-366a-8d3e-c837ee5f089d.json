@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/64992219-4756-366a-8d3e-c837ee5f089d?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "language": "eng",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-072.735.895-3"
+  ],
+  "relations": [
+    {
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "composer",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "artist": {
+        "sort-name": "Cobain, Kurt",
+        "name": "Kurt Cobain",
+        "type": "Person",
+        "disambiguation": "lead singer and guitarist for Nirvana",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255"
+      },
+      "ended": false
+    },
+    {
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "ended": false,
+      "artist": {
+        "disambiguation": "lead singer and guitarist for Nirvana",
+        "sort-name": "Cobain, Kurt",
+        "name": "Kurt Cobain",
+        "type": "Person",
+        "id": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "type": "lyricist",
+      "attribute-values": {},
+      "direction": "backward",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "target-credit": ""
+    }
+  ],
+  "title": "Milk It",
+  "attributes": [],
+  "id": "64992219-4756-366a-8d3e-c837ee5f089d"
+}

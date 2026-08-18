@@ -1,0 +1,47 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/593dd058-3f57-4b8e-add9-fd3f796bcf36?inc=work-rels&fmt=json",
+  "first-release-date": "1965",
+  "id": "593dd058-3f57-4b8e-add9-fd3f796bcf36",
+  "disambiguation": "",
+  "length": 180000,
+  "video": false,
+  "relations": [
+    {
+      "end": "1964-09-02",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "target-type": "work",
+      "work": {
+        "id": "8d10fe8b-e86a-338f-944d-710b41fb017e",
+        "iswcs": [
+          "T-060.570.110-7",
+          "T-070.241.754-6",
+          "T-918.240.729-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "The Red Rooster",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "source-credit": "",
+      "direction": "forward",
+      "begin": "1964-09-02",
+      "ended": true
+    }
+  ],
+  "title": "Little Red Rooster"
+}

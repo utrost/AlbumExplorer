@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b175c850-0249-48ae-af23-5543c56dd45f?inc=work-rels&fmt=json",
+  "video": false,
+  "length": 203000,
+  "disambiguation": "original stereo studio mix",
+  "relations": [
+    {
+      "end": "1969-12",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "work": {
+        "iswcs": [
+          "T-070.262.980-8"
+        ],
+        "id": "70230b79-40c7-31ce-9937-93f40a357d2c",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "Fire and Rain",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "forward",
+      "begin": "1969-12",
+      "ended": true
+    }
+  ],
+  "title": "Fire and Rain",
+  "first-release-date": "1970-02",
+  "id": "b175c850-0249-48ae-af23-5543c56dd45f"
+}

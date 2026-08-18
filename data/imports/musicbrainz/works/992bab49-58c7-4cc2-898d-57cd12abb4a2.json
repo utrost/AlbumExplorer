@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/992bab49-58c7-4cc2-898d-57cd12abb4a2?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Mandolin Wind",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "a35237a0-4f47-40a6-b6f3-1e786db23402",
+        "name": "Rod Stewart",
+        "sort-name": "Stewart, Rod",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist",
+      "attributes": [],
+      "artist": {
+        "sort-name": "Stewart, Rod",
+        "country": "GB",
+        "name": "Rod Stewart",
+        "id": "a35237a0-4f47-40a6-b6f3-1e786db23402",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "iswcs": [
+    "T-070.914.665-5"
+  ],
+  "id": "992bab49-58c7-4cc2-898d-57cd12abb4a2",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

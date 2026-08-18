@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9b53ee0e-3f4e-49c7-8663-9bba029c3175?inc=work-rels&fmt=json",
+  "length": 177000,
+  "first-release-date": "1965",
+  "id": "9b53ee0e-3f4e-49c7-8663-9bba029c3175",
+  "video": false,
+  "title": "Everybody Needs Somebody to Love",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "performance",
+      "target-credit": "",
+      "ended": true,
+      "attribute-values": {},
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Everybody Needs Somebody to Love",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "disambiguation": "",
+        "language": "eng",
+        "attributes": [],
+        "iswcs": [
+          "T-901.432.908-9"
+        ],
+        "id": "84c3151f-6d1e-3cf8-aaef-025df5c9a3d6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": "1964-11-02",
+      "source-credit": "",
+      "direction": "forward",
+      "end": "1964-11-02",
+      "target-type": "work",
+      "attributes": [
+        "cover"
+      ]
+    }
+  ]
+}

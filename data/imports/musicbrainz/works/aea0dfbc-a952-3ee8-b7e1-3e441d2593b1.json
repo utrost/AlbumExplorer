@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/aea0dfbc-a952-3ee8-b7e1-3e441d2593b1?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.232.068-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "value": "71941",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "id": "aea0dfbc-a952-3ee8-b7e1-3e441d2593b1",
+  "title": "Baby Driver",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "of Simon & Garfunkel",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Simon, Paul",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "country": "US",
+        "name": "Paul Simon",
+        "type": "Person"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type": "Person",
+        "name": "Paul Simon",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Simon, Paul",
+        "disambiguation": "of Simon & Garfunkel"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ]
+}

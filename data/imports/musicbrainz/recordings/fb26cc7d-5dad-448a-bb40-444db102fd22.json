@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fb26cc7d-5dad-448a-bb40-444db102fd22?inc=work-rels&fmt=json",
+  "id": "fb26cc7d-5dad-448a-bb40-444db102fd22",
+  "disambiguation": "explicit",
+  "title": "the 1",
+  "video": false,
+  "first-release-date": "2020-07-24",
+  "length": 210240,
+  "relations": [
+    {
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "work": {
+        "title": "the 1",
+        "language": "eng",
+        "iswcs": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "id": "52f7833d-8afe-40ae-8258-aaf6ddce8504",
+        "type": "Song",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work",
+      "source-credit": "",
+      "direction": "forward",
+      "ended": false,
+      "attribute-values": {},
+      "begin": null
+    }
+  ]
+}

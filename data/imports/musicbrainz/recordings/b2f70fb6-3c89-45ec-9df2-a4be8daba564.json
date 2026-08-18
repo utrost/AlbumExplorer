@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b2f70fb6-3c89-45ec-9df2-a4be8daba564?inc=work-rels&fmt=json",
+  "first-release-date": "1993-08-23",
+  "id": "b2f70fb6-3c89-45ec-9df2-a4be8daba564",
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1993-02-12",
+      "ended": true,
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Heart‐Shaped Box",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.248.659-6"
+        ],
+        "id": "340b9356-1db6-30d7-aa79-3b56e4d5aa08",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1993-02-26",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "length": 281333,
+  "disambiguation": "",
+  "title": "Heart‐Shaped Box"
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c2c4bec7-2650-34ac-9af6-7ad4652de03b?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.276.289-7"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "c2c4bec7-2650-34ac-9af6-7ad4652de03b",
+  "title": "Suite for 20 G",
+  "attributes": [],
+  "type": "Song",
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "singer-songwriter and guitarist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Taylor, James",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "country": "US",
+        "name": "James Taylor",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "sort-name": "Taylor, James",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "singer-songwriter and guitarist",
+        "name": "James Taylor",
+        "type": "Person",
+        "country": "US",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a"
+      }
+    }
+  ],
+  "language": "eng"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/19dcc05e-6f91-42e3-b549-d80135d8b45a?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 342533,
+  "first-release-date": "1994-07",
+  "id": "19dcc05e-6f91-42e3-b549-d80135d8b45a",
+  "title": "Mojo Pin",
+  "relations": [
+    {
+      "ended": false,
+      "target-type": "work",
+      "direction": "forward",
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-906.099.916-8"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "591303a7-9c56-316b-9e2a-2728842f69fd",
+        "title": "Mojo Pin",
+        "attributes": []
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false
+}

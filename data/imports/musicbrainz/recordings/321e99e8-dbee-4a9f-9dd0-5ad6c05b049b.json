@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/321e99e8-dbee-4a9f-9dd0-5ad6c05b049b?inc=work-rels&fmt=json",
+  "title": "Off the Hook",
+  "relations": [
+    {
+      "end": "1964-09-02",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "begin": "1964-09-02",
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "title": "Off the Hook",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-010.065.547-7"
+        ],
+        "attributes": [],
+        "id": "470f8fb6-be7a-429b-b356-3a7a3277ab6f",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": ""
+    }
+  ],
+  "disambiguation": "",
+  "video": false,
+  "id": "321e99e8-dbee-4a9f-9dd0-5ad6c05b049b",
+  "first-release-date": "1965",
+  "length": 155000
+}

@@ -1,0 +1,74 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a56ec42b-7d4a-40e8-a20c-b9866cb3c9b3?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "value": "1686138",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "1713736-001"
+    }
+  ],
+  "id": "a56ec42b-7d4a-40e8-a20c-b9866cb3c9b3",
+  "title": "Witness",
+  "language": "eng",
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lauper, Cyndi",
+        "id": "7bd9e20e-74b9-446a-a2ed-a223f82a36e7",
+        "country": "US",
+        "type": "Person",
+        "name": "Cyndi Lauper"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Turi, John",
+        "id": "e2357a9a-af18-4919-8e84-23c342add57c",
+        "country": null,
+        "type": "Person",
+        "name": "John Turi"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "type": "Song"
+}

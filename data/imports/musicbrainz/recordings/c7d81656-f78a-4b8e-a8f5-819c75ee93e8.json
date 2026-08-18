@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c7d81656-f78a-4b8e-a8f5-819c75ee93e8?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 224680,
+  "title": "Tomorrow Is Such a Long Time",
+  "id": "c7d81656-f78a-4b8e-a8f5-819c75ee93e8",
+  "first-release-date": "1971-05-18",
+  "video": false,
+  "relations": [
+    {
+      "begin": "1971-01",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "end": "1971-01",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "3b8edf37-08fb-341f-85fa-eb82e54c1baa",
+        "title": "Tomorrow Is a Long Time",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.250.145-8"
+        ],
+        "disambiguation": ""
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ]
+}

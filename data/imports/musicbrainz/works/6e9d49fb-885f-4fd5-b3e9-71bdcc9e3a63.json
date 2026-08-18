@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6e9d49fb-885f-4fd5-b3e9-71bdcc9e3a63?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Shit, Damn, Motherfucker",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "sort-name": "D’Angelo",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "name": "D’Angelo",
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "US soul singer, songwriter & producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type": "composer",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "attribute-ids": {}
+    },
+    {
+      "artist": {
+        "name": "D’Angelo",
+        "sort-name": "D’Angelo",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US soul singer, songwriter & producer",
+        "type": "Person",
+        "country": "US"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "lyricist",
+      "attribute-ids": {}
+    }
+  ],
+  "language": "eng",
+  "attributes": [],
+  "iswcs": [
+    "T-070.276.569-2"
+  ],
+  "id": "6e9d49fb-885f-4fd5-b3e9-71bdcc9e3a63"
+}

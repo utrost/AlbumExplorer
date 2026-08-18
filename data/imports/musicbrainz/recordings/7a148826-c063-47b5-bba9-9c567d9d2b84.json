@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7a148826-c063-47b5-bba9-9c567d9d2b84?inc=work-rels&fmt=json",
+  "first-release-date": "1993-09-21",
+  "id": "7a148826-c063-47b5-bba9-9c567d9d2b84",
+  "disambiguation": "",
+  "length": 115693,
+  "video": false,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1993-02-26",
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Very Ape",
+        "language": "eng",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "0529dda5-a464-3f14-bcd8-dffe9cc39e3f",
+        "iswcs": [
+          "T-072.735.894-2"
+        ]
+      },
+      "ended": true,
+      "direction": "forward",
+      "begin": "1993-02-12"
+    }
+  ],
+  "title": "Very Ape"
+}

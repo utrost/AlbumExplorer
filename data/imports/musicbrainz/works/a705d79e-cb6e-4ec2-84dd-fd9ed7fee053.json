@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a705d79e-cb6e-4ec2-84dd-fd9ed7fee053?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "name": "D’Angelo",
+        "type": "Person",
+        "country": "US",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "sort-name": "D’Angelo",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US soul singer, songwriter & producer"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Saadiq, Raphael",
+        "id": "a2eb319d-a45e-43c3-bb14-d0ffb577222c",
+        "country": "US",
+        "type": "Person",
+        "name": "Raphael Saadiq"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "language": "eng",
+  "id": "a705d79e-cb6e-4ec2-84dd-fd9ed7fee053",
+  "title": "Lady",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-071.065.902-1"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

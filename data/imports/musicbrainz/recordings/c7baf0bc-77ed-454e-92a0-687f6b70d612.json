@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c7baf0bc-77ed-454e-92a0-687f6b70d612?inc=work-rels&fmt=json",
+  "id": "c7baf0bc-77ed-454e-92a0-687f6b70d612",
+  "first-release-date": "1994-06-25",
+  "title": "Pedestal",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "id": "38a5ec77-5896-34a2-81db-ca15943949bc",
+        "iswcs": [
+          "T-011.480.597-8"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "title": "Pedestal",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "forward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "disambiguation": "",
+  "length": 221000,
+  "video": false
+}

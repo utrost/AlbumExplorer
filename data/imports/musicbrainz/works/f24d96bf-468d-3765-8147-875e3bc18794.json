@@ -1,0 +1,132 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f24d96bf-468d-3765-8147-875e3bc18794?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Trip Through Your Wires",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "Bono",
+      "artist": {
+        "sort-name": "Bono",
+        "country": "IE",
+        "name": "Bono",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "disambiguation": "singer of U2",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Clayton, Adam",
+        "country": "IE",
+        "name": "Adam Clayton",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer"
+    },
+    {
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "U2 guitarist David Evans",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "name": "The Edge",
+        "country": "IE",
+        "sort-name": "Edge, The"
+      },
+      "target-credit": "The Edge",
+      "target-type": "artist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "IE",
+        "sort-name": "Mullen, Larry, Jr.",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a",
+        "name": "Larry Mullen, Jr."
+      },
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "singer of U2",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "name": "Bono",
+        "sort-name": "Bono",
+        "country": "IE"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist"
+    }
+  ],
+  "id": "f24d96bf-468d-3765-8147-875e3bc18794",
+  "iswcs": [],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

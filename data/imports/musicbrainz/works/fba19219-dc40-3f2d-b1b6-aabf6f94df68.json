@@ -1,0 +1,151 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fba19219-dc40-3f2d-b1b6-aabf6f94df68?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "id": "3241363a-f7c0-4d3d-b154-d0b7132067b4",
+        "name": "John Bettis",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Bettis, John",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "artist": {
+        "id": "412faa8b-0bf2-490a-aaea-45185504f2b2",
+        "country": "US",
+        "name": "Richard Carpenter",
+        "type": "Person",
+        "disambiguation": "The Carpenters",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Carpenter, Richard"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer"
+    }
+  ],
+  "type": "Song",
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "value": "000818 358 57",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type": "SPAC ID",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "value": "5256992"
+    },
+    {
+      "value": "78593",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "12015216",
+      "type": "SOCAN ID"
+    },
+    {
+      "type": "SOBODAYCOM ID",
+      "value": "5256992",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80"
+    },
+    {
+      "value": "5256992",
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "type": "SGACEDOM ID"
+    },
+    {
+      "value": "5256992",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "type": "SACIM ID"
+    },
+    {
+      "type": "NICAUTOR ID",
+      "value": "5256992",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6"
+    },
+    {
+      "value": "0A0-3422-7",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    },
+    {
+      "value": "395786-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type": "ECAD ID",
+      "value": "23115046",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "47564"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "310121016",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "AGADU ID",
+      "value": "5191471",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    },
+    {
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "value": "5256992",
+      "type": "AEI ID"
+    },
+    {
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "5256992",
+      "type": "ACAM ID"
+    },
+    {
+      "type": "AACIMH ID",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "value": "5256992"
+    }
+  ],
+  "id": "fba19219-dc40-3f2d-b1b6-aabf6f94df68",
+  "title": "Another Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-914.722.226-2"
+  ],
+  "languages": [
+    "eng"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/64b9876c-e15d-48ed-92a5-3b797606b22e?inc=work-rels&fmt=json",
+  "video": false,
+  "id": "64b9876c-e15d-48ed-92a5-3b797606b22e",
+  "disambiguation": "",
+  "length": 228000,
+  "first-release-date": "1983-10-14",
+  "relations": [
+    {
+      "type": "performance",
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "work": {
+        "attributes": [],
+        "iswcs": [
+          "T-070.925.321-3"
+        ],
+        "id": "8e476356-4ff8-4329-9cce-94289ab76bb2",
+        "disambiguation": "",
+        "language": "eng",
+        "title": "She Bop",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null
+    }
+  ],
+  "title": "She Bop"
+}

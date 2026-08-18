@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c0307b7c-1d4f-4e45-a9a4-1201ab785437?inc=work-rels&fmt=json",
+  "id": "c0307b7c-1d4f-4e45-a9a4-1201ab785437",
+  "first-release-date": "1970-02-01",
+  "title": "Help",
+  "video": false,
+  "length": 183000,
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "id": "8b771af1-a04f-3ac5-bc53-d73849ffad16",
+        "iswcs": [
+          "T-010.140.359-1",
+          "T-070.918.749-4"
+        ],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "Help!",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "source-credit": "",
+      "direction": "forward",
+      "begin": null,
+      "ended": false
+    }
+  ]
+}

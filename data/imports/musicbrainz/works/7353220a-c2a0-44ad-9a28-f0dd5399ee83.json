@@ -1,0 +1,151 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7353220a-c2a0-44ad-9a28-f0dd5399ee83?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-917.661.489-4"
+  ],
+  "attributes": [
+    {
+      "value": "239510001",
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "type": "AKM ID",
+      "value": "258620401",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "value": "885132479",
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "value": "3849697-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "value": "5567466",
+      "type": "APA ID"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "2179839",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "value": "GW09980841",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "1897523",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0F3-9029-3",
+      "type": "JASRAC ID"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "95 270 886 11",
+      "type": "SACEM ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "1354048"
+    },
+    {
+      "type": "SAYCO ID",
+      "value": "1354048",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "value": "2.875.118",
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type": "SIAE ID",
+      "value": "93354084900",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID",
+      "value": "78162672"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID",
+      "value": "429953"
+    },
+    {
+      "value": "005133 871 67",
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    }
+  ],
+  "id": "7353220a-c2a0-44ad-9a28-f0dd5399ee83",
+  "language": "eng",
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "name": "D’Angelo",
+        "sort-name": "D’Angelo",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US soul singer, songwriter & producer",
+        "country": "US"
+      },
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward"
+    },
+    {
+      "attributes": [],
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "Ali Shaheed Muhammad",
+        "sort-name": "Muhammad, Ali Shaheed",
+        "id": "d5ee9a6f-8e10-47e7-bca7-7e3f82aad769"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "writer"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "title": "Brown Sugar"
+}

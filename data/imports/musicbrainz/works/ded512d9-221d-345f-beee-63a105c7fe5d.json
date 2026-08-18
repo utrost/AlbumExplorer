@@ -1,0 +1,221 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ded512d9-221d-345f-beee-63a105c7fe5d?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "artist": {
+        "name": "George Michael",
+        "sort-name": "Michael, George",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "attribute-ids": {},
+      "type": "lyricist",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "artist": {
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "sort-name": "Michael, George",
+        "name": "George Michael",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person"
+      },
+      "source-credit": ""
+    }
+  ],
+  "title": "Faith",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "ded512d9-221d-345f-beee-63a105c7fe5d",
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "value": "002023 270 29",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type": "SPA ID",
+      "value": "224572",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "value": "10640713",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type": "SGAE ID",
+      "value": "42.204",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "3698330",
+      "type": "SAYCO ID"
+    },
+    {
+      "value": "3698330",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type": "SADAIC ID",
+      "value": "703056",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "type": "SACVEN ID",
+      "value": "2914609",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID",
+      "value": "040603622"
+    },
+    {
+      "value": "87 273 372 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "201385200"
+    },
+    {
+      "type": "PRS tune code",
+      "value": "6571255N",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "0F2-0360-4",
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+    },
+    {
+      "value": "21146940-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "value": "2126668-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "1926386",
+      "type": "ECAD ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "58989",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "2363065",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "9165576",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "8820777",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "3429506",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec",
+      "type": "CASH ID",
+      "value": "C-1011745052"
+    },
+    {
+      "value": "W-000585504",
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "value": "W-009914540",
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "360234999",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "APRA ID",
+      "value": "GW01284712",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "2216918",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID",
+      "value": "136020401"
+    },
+    {
+      "value": "811244601",
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4343393",
+      "type": "AGADU ID"
+    },
+    {
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "4047599",
+      "type": "ACAM ID"
+    }
+  ],
+  "iswcs": [
+    "T-070.058.988-3"
+  ],
+  "language": "eng"
+}

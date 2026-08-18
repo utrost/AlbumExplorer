@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a038ea5f-5213-30d5-b28b-df85a6e4c835?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "artist": {
+        "sort-name": "Reed, Lou",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Lou Reed",
+        "country": "US",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "country": "US",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+        "name": "Lou Reed",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Reed, Lou",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "a038ea5f-5213-30d5-b28b-df85a6e4c835",
+  "title": "The Murder Mystery",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-700.045.888-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

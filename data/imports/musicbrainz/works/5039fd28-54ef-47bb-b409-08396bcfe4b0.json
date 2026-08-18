@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5039fd28-54ef-47bb-b409-08396bcfe4b0?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Jones, Mick",
+        "disambiguation": "The Clash/Big Audio Dynamite",
+        "type": "Person",
+        "name": "Mick Jones",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4",
+        "country": "GB"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "name": "Joe Strummer",
+        "country": "GB",
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "sort-name": "Strummer, Joe",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "5039fd28-54ef-47bb-b409-08396bcfe4b0",
+  "title": "Hate & War",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

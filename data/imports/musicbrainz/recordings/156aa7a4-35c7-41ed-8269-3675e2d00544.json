@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/156aa7a4-35c7-41ed-8269-3675e2d00544?inc=work-rels&fmt=json",
+  "first-release-date": "1987-10-30",
+  "video": false,
+  "disambiguation": "",
+  "title": "Father Figure",
+  "id": "156aa7a4-35c7-41ed-8269-3675e2d00544",
+  "length": 337893,
+  "relations": [
+    {
+      "source-credit": "",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "ended": false,
+      "attributes": [],
+      "type": "performance",
+      "attribute-values": {},
+      "work": {
+        "title": "Father Figure",
+        "id": "c1349e5f-e273-3f29-8b90-7e4efa7fe2f4",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.059.022-2"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "George Michael song",
+        "language": "eng",
+        "type": "Song"
+      },
+      "direction": "forward",
+      "begin": null,
+      "target-type": "work",
+      "attribute-ids": {},
+      "target-credit": ""
+    }
+  ]
+}

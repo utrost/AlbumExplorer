@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/05f76905-ac17-3eb0-b08c-d155b9e579a5?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "country": "GB",
+        "name": "George Michael",
+        "sort-name": "Michael, George",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "name": "George Michael",
+        "sort-name": "Michael, George",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "type": "Person"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-type": "artist",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": ""
+    }
+  ],
+  "attributes": [],
+  "languages": [],
+  "iswcs": [],
+  "language": null,
+  "title": "Hand to Mouth",
+  "id": "05f76905-ac17-3eb0-b08c-d155b9e579a5",
+  "type": null,
+  "type-id": null,
+  "disambiguation": ""
+}

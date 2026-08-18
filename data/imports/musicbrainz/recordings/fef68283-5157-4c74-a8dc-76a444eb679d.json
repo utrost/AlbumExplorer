@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fef68283-5157-4c74-a8dc-76a444eb679d?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "title": "Mansion on the Hill",
+        "id": "b1684ddf-3673-348f-847a-7a538230d5f5",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.114.819-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "type": "performance",
+      "begin": "1982-01-03",
+      "attribute-ids": {},
+      "end": "1982-01-03"
+    }
+  ],
+  "video": false,
+  "length": 243000,
+  "first-release-date": "1982-09-20",
+  "id": "fef68283-5157-4c74-a8dc-76a444eb679d",
+  "title": "Mansion on the Hill",
+  "disambiguation": "version 1c"
+}

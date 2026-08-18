@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e2c5d227-90aa-4cc4-b1cc-ba7d412f05fe?inc=work-rels&fmt=json",
+  "first-release-date": "1970-09-18",
+  "id": "e2c5d227-90aa-4cc4-b1cc-ba7d412f05fe",
+  "relations": [
+    {
+      "end": "1970-07-08",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "0416c284-809d-303b-a903-39821fbe334e",
+        "iswcs": [
+          "T-070.118.573-0"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Planet Caravan"
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "forward",
+      "begin": "1970-06-16",
+      "ended": true
+    }
+  ],
+  "disambiguation": "original stereo studio mix",
+  "video": false,
+  "length": 268333,
+  "title": "Planet Caravan"
+}

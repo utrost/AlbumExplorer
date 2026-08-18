@@ -1,0 +1,40 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/1807f129-b234-4696-9ced-28ffdff1dd6d?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "id": "1807f129-b234-4696-9ced-28ffdff1dd6d",
+  "type": "Song",
+  "language": "eng",
+  "title": "Careless Love",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "artist": {
+        "name": "[traditional]",
+        "country": "XW",
+        "type": "Other",
+        "id": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+        "disambiguation": "special purpose artist",
+        "type-id": "ac897045-5043-3294-969b-187360e45d86",
+        "sort-name": "[traditional]"
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": ""
+    }
+  ],
+  "attributes": []
+}

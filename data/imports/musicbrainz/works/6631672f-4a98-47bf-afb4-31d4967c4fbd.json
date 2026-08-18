@@ -1,0 +1,161 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6631672f-4a98-47bf-afb4-31d4967c4fbd?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.234.394-9"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000101 614 54"
+    },
+    {
+      "value": "218704",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "value": "12169157",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "6.712",
+      "type": "SGAE ID"
+    },
+    {
+      "value": "1163130",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "1163130",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "2318634",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "value": "052729183",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "05594R"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "1426343-001",
+      "type": "GEMA ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "897102"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "234414",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "APRA ID",
+      "value": "GW43330865",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "value": "GW00394873",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "2392421",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "958490801"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "5403840"
+    },
+    {
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+      "value": "306841",
+      "type": "ACDAM ID"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "517278"
+    }
+  ],
+  "id": "6631672f-4a98-47bf-afb4-31d4967c4fbd",
+  "title": "Half as Much",
+  "language": "eng",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Curley Williams",
+        "type": "Person",
+        "country": "US",
+        "id": "9e55fb56-70ac-41c4-b678-bbb4978829ba",
+        "sort-name": "Williams, Curley",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type": "composer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": true,
+      "end": "1951",
+      "attribute-ids": {},
+      "begin": "1951"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "id": "9e55fb56-70ac-41c4-b678-bbb4978829ba",
+        "name": "Curley Williams",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Williams, Curley",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": "1951",
+      "end": "1951",
+      "target-type": "artist",
+      "ended": true,
+      "direction": "backward",
+      "type": "lyricist"
+    }
+  ],
+  "type": "Song"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/914c9160-2084-4a5e-b8c2-8813df6bbf21?inc=work-rels&fmt=json",
+  "length": 255000,
+  "video": false,
+  "disambiguation": "studio, version 3d",
+  "relations": [
+    {
+      "end": "1982-05-05",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Glory Days",
+        "disambiguation": "",
+        "id": "e59ca323-dd32-3a0b-80a9-d42746362213",
+        "iswcs": [
+          "T-070.067.773-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "forward",
+      "begin": "1982-05-05",
+      "ended": true
+    }
+  ],
+  "title": "Glory Days",
+  "first-release-date": "1984-05",
+  "id": "914c9160-2084-4a5e-b8c2-8813df6bbf21"
+}

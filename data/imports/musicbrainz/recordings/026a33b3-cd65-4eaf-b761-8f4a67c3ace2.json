@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/026a33b3-cd65-4eaf-b761-8f4a67c3ace2?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 272200,
+  "video": false,
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "type": "Song",
+        "title": "Lilac Wine",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": "",
+        "id": "e8f3c63b-76a9-30ac-88fd-a524caebba4e",
+        "iswcs": [
+          "T-070.095.959-6"
+        ],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "type": "performance",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "source-credit": "",
+      "direction": "forward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "title": "Lilac Wine",
+  "first-release-date": "1994-08-15",
+  "id": "026a33b3-cd65-4eaf-b761-8f4a67c3ace2"
+}

@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e255d43a-7d36-4bac-86b2-f7286445a499?inc=work-rels&fmt=json",
+  "length": 195826,
+  "id": "e255d43a-7d36-4bac-86b2-f7286445a499",
+  "title": "Born to Lose",
+  "first-release-date": "1962-04",
+  "relations": [
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "begin": null,
+      "end": null,
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "c3e4cde3-40af-4350-a16e-906492c27dcf",
+        "title": "Born to Lose",
+        "language": "eng",
+        "type": "Song"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [
+        "cover"
+      ],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "video": false,
+  "disambiguation": "stereo"
+}

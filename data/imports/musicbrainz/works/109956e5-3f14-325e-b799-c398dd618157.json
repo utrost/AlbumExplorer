@@ -1,0 +1,250 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/109956e5-3f14-325e-b799-c398dd618157?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "relations": [
+    {
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Bono",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "name": "Bono",
+        "disambiguation": "singer of U2",
+        "country": "IE",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "IE",
+        "type": "Person",
+        "sort-name": "Clayton, Adam",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "name": "Adam Clayton",
+        "disambiguation": ""
+      },
+      "begin": null,
+      "type": "composer",
+      "ended": false,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "U2 guitarist David Evans",
+        "name": "The Edge",
+        "sort-name": "Edge, The",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "IE"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type": "composer",
+      "ended": false
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "name": "Larry Mullen, Jr.",
+        "disambiguation": "",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a",
+        "sort-name": "Mullen, Larry, Jr.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "IE"
+      },
+      "begin": null,
+      "type": "composer",
+      "ended": false,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": ""
+    },
+    {
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {},
+      "end": null,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "sort-name": "Bono",
+        "disambiguation": "singer of U2",
+        "name": "Bono",
+        "country": "IE",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "lyricist"
+    }
+  ],
+  "title": "Tryin’ to Throw Your Arms Around the World",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "id": "109956e5-3f14-325e-b799-c398dd618157",
+  "disambiguation": "",
+  "attributes": [
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "324598",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "19815371900"
+    },
+    {
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290",
+      "value": "47108856",
+      "type": "SESAC ID"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "4447745",
+      "type": "SAYCO ID"
+    },
+    {
+      "value": "4447745",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "41 455 298 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "318499500"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "544774BT"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "6993839K"
+    },
+    {
+      "value": "0A6-1692-7",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "2756314-001",
+      "type": "GEMA ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "62656"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "4243847",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "9935218",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "3682900"
+    },
+    {
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec",
+      "value": "C-1013288935",
+      "type": "CASH ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000946157"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "500460835",
+      "type": "ASCAP ID"
+    },
+    {
+      "value": "GW04198253",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "2808218",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "value": "AWK225934",
+      "type-id": "46f95ee0-123f-4f8e-8ccc-54c7c652dda0",
+      "type": "AMRA ID"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "187311301"
+    },
+    {
+      "type": "AGADU ID",
+      "value": "5940276",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    }
+  ],
+  "iswcs": [
+    "T-010.269.864-5"
+  ]
+}

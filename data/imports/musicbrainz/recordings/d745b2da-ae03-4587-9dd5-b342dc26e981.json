@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d745b2da-ae03-4587-9dd5-b342dc26e981?inc=work-rels&fmt=json",
+  "video": false,
+  "disambiguation": "closet mix",
+  "title": "What Goes On",
+  "relations": [
+    {
+      "target-type": "work",
+      "end": null,
+      "direction": "forward",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "id": "a8ae9146-51a2-3663-b23f-28795eea351a",
+        "attributes": [],
+        "iswcs": [
+          "T-070.247.813-4"
+        ],
+        "title": "What Goes On",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type": "performance",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false
+    }
+  ],
+  "length": 274837,
+  "id": "d745b2da-ae03-4587-9dd5-b342dc26e981",
+  "first-release-date": "1969-03"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/bc1157df-5e74-4beb-b200-bfe0654722fb?inc=work-rels&fmt=json",
+  "length": 166000,
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "forward",
+      "begin": "1969-11-08",
+      "attribute-values": {},
+      "ended": true,
+      "attributes": [],
+      "attribute-ids": {},
+      "work": {
+        "id": "f0533e48-7c15-3f42-b53b-6cb0f9d762c2",
+        "type": "Song",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Why Don't You Write Me",
+        "iswcs": [
+          "T-070.940.829-6"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "end": "1969-11-08",
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work"
+    }
+  ],
+  "id": "bc1157df-5e74-4beb-b200-bfe0654722fb",
+  "disambiguation": "original stereo mix",
+  "title": "Why Don’t You Write Me",
+  "video": false,
+  "first-release-date": "1970-01-26"
+}

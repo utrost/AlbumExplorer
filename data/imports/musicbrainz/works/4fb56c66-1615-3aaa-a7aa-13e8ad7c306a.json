@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4fb56c66-1615-3aaa-a7aa-13e8ad7c306a?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6",
+        "name": "Geoff Barrow",
+        "country": "GB",
+        "sort-name": "Barrow, Geoff",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Beth Gibbons",
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "sort-name": "Gibbons, Beth",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "It Could Be Sweet",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-011.480.598-9"
+  ],
+  "id": "4fb56c66-1615-3aaa-a7aa-13e8ad7c306a"
+}

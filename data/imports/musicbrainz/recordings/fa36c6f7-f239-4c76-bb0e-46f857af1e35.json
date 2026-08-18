@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fa36c6f7-f239-4c76-bb0e-46f857af1e35?inc=work-rels&fmt=json",
+  "length": 214360,
+  "id": "fa36c6f7-f239-4c76-bb0e-46f857af1e35",
+  "title": "Vienna",
+  "first-release-date": "1977-09-29",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "id": "5ce5737d-35c1-42b8-8f30-58aea3f260a1",
+        "title": "Vienna",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.195.897-5"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": false
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

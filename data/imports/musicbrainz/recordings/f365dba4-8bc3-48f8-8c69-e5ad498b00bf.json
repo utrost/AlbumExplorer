@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f365dba4-8bc3-48f8-8c69-e5ad498b00bf?inc=work-rels&fmt=json",
+  "first-release-date": "1962-04",
+  "id": "f365dba4-8bc3-48f8-8c69-e5ad498b00bf",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1962-02",
+      "target-type": "work",
+      "attributes": [
+        "cover"
+      ],
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Careless Love",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "1807f129-b234-4696-9ced-28ffdff1dd6d",
+        "iswcs": []
+      },
+      "ended": true,
+      "begin": "1962-02",
+      "direction": "forward"
+    }
+  ],
+  "video": false,
+  "length": 239253,
+  "disambiguation": "stereo",
+  "title": "Careless Love"
+}

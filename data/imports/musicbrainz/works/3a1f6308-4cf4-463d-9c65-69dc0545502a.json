@@ -1,0 +1,177 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3a1f6308-4cf4-463d-9c65-69dc0545502a?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Geezer Butler",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "country": "GB",
+        "sort-name": "Butler, Geezer"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Iommi, Tony",
+        "country": "GB",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "name": "Tony Iommi",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Ozzy Osbourne",
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "sort-name": "Osbourne, Ozzy",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Ward, Bill",
+        "country": "GB",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "name": "Bill Ward"
+      },
+      "target-credit": "",
+      "target-type": "artist"
+    }
+  ],
+  "disambiguation": "intro to Fairies Wear Boots",
+  "type": null,
+  "type-id": null,
+  "language": "zxx",
+  "title": "Jack the Stripper",
+  "attributes": [
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "262677"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID",
+      "value": "10544961"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "93302092900"
+    },
+    {
+      "value": "860377",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "value": "860377",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "2893311",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID",
+      "value": "94 078 976 11"
+    },
+    {
+      "value": "90346",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "W-000870199",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "value": "GW19346358",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "value": "2247450",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "value": "4472191",
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    },
+    {
+      "value": "400126047",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    }
+  ],
+  "languages": [
+    "zxx"
+  ],
+  "id": "3a1f6308-4cf4-463d-9c65-69dc0545502a",
+  "iswcs": [
+    "T-070.090.345-2"
+  ]
+}

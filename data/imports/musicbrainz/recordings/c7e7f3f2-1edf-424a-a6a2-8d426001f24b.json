@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c7e7f3f2-1edf-424a-a6a2-8d426001f24b?inc=work-rels&fmt=json",
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "ended": true,
+      "target-type": "work",
+      "direction": "forward",
+      "end": "1982-01-03",
+      "begin": "1982-01-03",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.129.287-6"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "efa14865-61d7-33b6-b597-fdef24f39943",
+        "title": "Reason to Believe",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ],
+  "title": "Reason to Believe",
+  "id": "c7e7f3f2-1edf-424a-a6a2-8d426001f24b",
+  "first-release-date": "1982-09-20",
+  "length": 249000,
+  "disambiguation": "version 1b"
+}

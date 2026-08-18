@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/2cb12f44-7e95-40db-8b7e-b34e97a3bc26?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo mix",
+  "length": 188333,
+  "id": "2cb12f44-7e95-40db-8b7e-b34e97a3bc26",
+  "title": "El cóndor pasa (If I Could)",
+  "first-release-date": "1970-01-26",
+  "video": false,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "Simon & Garfunkel version",
+        "iswcs": [
+          "T-901.133.047-5",
+          "T-930.385.939-4"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "7cdbb7a0-438a-3dc1-b360-c44ba8c8a337",
+        "title": "El cóndor pasa (If I Could)",
+        "language": "eng",
+        "type": "Song"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": "1969-11-02",
+      "attribute-ids": {},
+      "begin": "1969-11-02",
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": true
+    }
+  ]
+}

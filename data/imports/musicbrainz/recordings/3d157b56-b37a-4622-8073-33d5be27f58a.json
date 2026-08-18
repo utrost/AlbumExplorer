@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3d157b56-b37a-4622-8073-33d5be27f58a?inc=work-rels&fmt=json",
+  "id": "3d157b56-b37a-4622-8073-33d5be27f58a",
+  "first-release-date": "1969-03",
+  "title": "I’m Set Free",
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "begin": null,
+      "ended": false,
+      "work": {
+        "iswcs": [
+          "T-700.027.147-8"
+        ],
+        "id": "22ba38f1-3370-3765-87ec-b7424eef110a",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "I’m Set Free",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {}
+    }
+  ],
+  "disambiguation": "closet mix",
+  "length": 244613,
+  "video": false
+}

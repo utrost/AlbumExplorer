@@ -1,0 +1,226 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/90b747e9-4b1d-3452-a875-cc9facb6639e?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-070.349.091-8"
+  ],
+  "title": "Afterhours",
+  "language": "eng",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "90b747e9-4b1d-3452-a875-cc9facb6639e",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+        "type": "Person",
+        "sort-name": "Reed, Lou",
+        "name": "Lou Reed",
+        "country": "US"
+      },
+      "begin": null,
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "artist": {
+        "country": "US",
+        "name": "Lou Reed",
+        "sort-name": "Reed, Lou",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-type": "artist",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": ""
+    }
+  ],
+  "attributes": [
+    {
+      "value": "002159 759 43",
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID",
+      "value": "300415"
+    },
+    {
+      "value": "12003195",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID",
+      "value": "77202669200"
+    },
+    {
+      "value": "222.356",
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "1000760"
+    },
+    {
+      "value": "1000760",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID",
+      "value": "733244"
+    },
+    {
+      "type": "SACVEN ID",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2034104"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID",
+      "value": "060437695"
+    },
+    {
+      "value": "161862272",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID"
+    },
+    {
+      "value": "23 044 940 01",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "60 080 804 01"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "838321900"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "081011600"
+    },
+    {
+      "value": "6622366F",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "I000.28.24.25",
+      "type": "OSA ID",
+      "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID",
+      "value": "0A1-3048-0"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "9746158-001"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "741735-001"
+    },
+    {
+      "value": "170990",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "value": "402961",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "8544874"
+    },
+    {
+      "value": "W-005131749",
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000001349"
+    },
+    {
+      "value": "9918",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "value": "4000193724",
+      "type": "ARTISJUS ID",
+      "type-id": "5e3b8fc2-3a4e-4a92-a572-6339863c1cf4"
+    },
+    {
+      "value": "GW01782427",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "2457769"
+    },
+    {
+      "value": "43975801",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "5173267"
+    },
+    {
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+      "type": "ACDAM ID",
+      "value": "254475"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

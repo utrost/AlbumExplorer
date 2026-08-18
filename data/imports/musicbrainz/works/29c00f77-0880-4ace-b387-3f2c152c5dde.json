@@ -1,0 +1,176 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/29c00f77-0880-4ace-b387-3f2c152c5dde?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "name": "Billy Joel",
+        "country": "US",
+        "type": "Person",
+        "id": "64b94289-9474-4d43-8c93-918ccc1920d1",
+        "disambiguation": "American singer‐songwriter and pianist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Joel, Billy"
+      },
+      "attribute-values": {},
+      "ended": false
+    },
+    {
+      "begin": null,
+      "artist": {
+        "name": "Billy Joel",
+        "country": "US",
+        "disambiguation": "American singer‐songwriter and pianist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "64b94289-9474-4d43-8c93-918ccc1920d1",
+        "type": "Person",
+        "sort-name": "Joel, Billy"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {}
+    }
+  ],
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID",
+      "value": "000471 366 85"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID",
+      "value": "90798"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "214763"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID",
+      "value": "10866274"
+    },
+    {
+      "value": "910705",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "910705"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID",
+      "value": "2504351"
+    },
+    {
+      "value": "2359825",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "value": "019923569",
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "value": "77 232 699 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "value": "007035100",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "value": "2076DR",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "1052465-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "7213062"
+    },
+    {
+      "value": "143260",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000316634"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW00258336"
+    },
+    {
+      "value": "2290875",
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "value": "46986301",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID",
+      "value": "4605243"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0S2-4641-4"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "490391743"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.143.259-8"
+  ],
+  "language": "eng",
+  "title": "Scenes From an Italian Restaurant",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "id": "29c00f77-0880-4ace-b387-3f2c152c5dde"
+}

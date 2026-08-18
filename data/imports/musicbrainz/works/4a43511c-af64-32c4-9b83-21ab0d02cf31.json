@@ -1,0 +1,256 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4a43511c-af64-32c4-9b83-21ab0d02cf31?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-010.445.903-1",
+    "T-070.080.330-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Iron Man",
+  "id": "4a43511c-af64-32c4-9b83-21ab0d02cf31",
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "value": "001302 512 35",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "226871",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "10354034",
+      "type": "SOCAN ID"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "856684",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "856684",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "703017",
+      "type": "SADAIC ID"
+    },
+    {
+      "type": "SACVEN ID",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2625643"
+    },
+    {
+      "value": "018254889",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "64 335 900 11",
+      "type": "SACEM ID"
+    },
+    {
+      "type": "SABAM ID",
+      "value": "006992200",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "value": "1827AW",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "394540-001"
+    },
+    {
+      "value": "1641516",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "11277751",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "80331",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "5954891",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000054335"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW02281335",
+      "type": "APRA ID"
+    },
+    {
+      "value": "2237754",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "type": "APA ID",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "value": "5251766"
+    },
+    {
+      "value": "23155001",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "value": "4467461",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "390246321",
+      "type": "ASCAP ID"
+    },
+    {
+      "value": "0I1-8916-5",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    }
+  ],
+  "relations": [
+    {
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "name": "Geezer Butler",
+        "country": "GB",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "sort-name": "Butler, Geezer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      }
+    },
+    {
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Iommi, Tony",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "name": "Tony Iommi",
+        "type": "Person"
+      }
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Osbourne, Ozzy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "type": "Person",
+        "name": "Ozzy Osbourne"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Bill Ward",
+        "type": "Person",
+        "country": "GB",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "sort-name": "Ward, Bill",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990."
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Butler, Geezer",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "country": "GB",
+        "type": "Person",
+        "name": "Geezer Butler"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "lyricist"
+    }
+  ],
+  "type": "Song",
+  "language": "eng"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/2e54bb4e-cef7-469f-89c5-7d17d173ead0?inc=work-rels&fmt=json",
+  "id": "2e54bb4e-cef7-469f-89c5-7d17d173ead0",
+  "first-release-date": "1969-03",
+  "length": 284163,
+  "relations": [
+    {
+      "target-type": "work",
+      "end": null,
+      "direction": "forward",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "Beginning to See the Light",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "1633f0a7-b20c-3aa2-af0a-f18034572a1c",
+        "iswcs": [
+          "T-070.232.960-9"
+        ],
+        "attributes": [],
+        "language": "eng"
+      },
+      "type": "performance",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false
+    }
+  ],
+  "video": false,
+  "disambiguation": "closet mix",
+  "title": "Beginning to See the Light"
+}

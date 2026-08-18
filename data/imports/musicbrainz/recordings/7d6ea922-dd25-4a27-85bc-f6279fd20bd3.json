@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7d6ea922-dd25-4a27-85bc-f6279fd20bd3?inc=work-rels&fmt=json",
+  "disambiguation": "studio, version 1",
+  "length": 240000,
+  "title": "No Surrender",
+  "id": "7d6ea922-dd25-4a27-85bc-f6279fd20bd3",
+  "first-release-date": "1984-05",
+  "video": false,
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "id": "5282969b-4c49-3013-aa05-8af5c4be6ae9",
+        "title": "No Surrender",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.154.880-2"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type": "performance",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "end": "1983-10-27",
+      "begin": "1983-10-25",
+      "attribute-ids": {}
+    }
+  ]
+}

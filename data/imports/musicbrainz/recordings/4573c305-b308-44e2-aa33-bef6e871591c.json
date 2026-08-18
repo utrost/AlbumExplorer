@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/4573c305-b308-44e2-aa33-bef6e871591c?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "first-release-date": "1982-10-27",
+  "video": false,
+  "title": "Delirious",
+  "id": "4573c305-b308-44e2-aa33-bef6e871591c",
+  "length": 240005,
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": "1982-05-09",
+      "attribute-ids": {},
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "iswcs": [
+          "T-070.042.825-6"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "b4b7f105-729c-4714-bff2-3d37981dd143",
+        "attributes": [],
+        "title": "Delirious"
+      },
+      "end": "1982-05-09",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "ended": true
+    }
+  ]
+}

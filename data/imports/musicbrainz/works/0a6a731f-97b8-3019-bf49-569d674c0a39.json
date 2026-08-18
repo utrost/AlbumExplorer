@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0a6a731f-97b8-3019-bf49-569d674c0a39?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Simon, Paul",
+        "disambiguation": "of Simon & Garfunkel",
+        "name": "Paul Simon",
+        "type": "Person",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "country": "US"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "name": "Paul Simon",
+        "type": "Person",
+        "country": "US",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "sort-name": "Simon, Paul",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "of Simon & Garfunkel"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "lyricist",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    }
+  ],
+  "language": "eng",
+  "title": "The Only Living Boy in New York",
+  "id": "0a6a731f-97b8-3019-bf49-569d674c0a39",
+  "attributes": [
+    {
+      "value": "1128748",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.242.762-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f756e289-1c53-4450-a7af-93e8b8cb0ac2?inc=work-rels&fmt=json",
+  "length": 343211,
+  "video": false,
+  "disambiguation": "closet mix",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "id": "9b3cb1e3-01f0-3777-958d-441ed9bafca5",
+        "iswcs": [
+          "T-070.242.819-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Pale Blue Eyes",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null
+    }
+  ],
+  "title": "Pale Blue Eyes",
+  "first-release-date": "1969-03",
+  "id": "f756e289-1c53-4450-a7af-93e8b8cb0ac2"
+}

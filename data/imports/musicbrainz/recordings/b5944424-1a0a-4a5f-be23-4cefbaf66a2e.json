@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b5944424-1a0a-4a5f-be23-4cefbaf66a2e?inc=work-rels&fmt=json",
+  "id": "b5944424-1a0a-4a5f-be23-4cefbaf66a2e",
+  "video": false,
+  "disambiguation": "original stereo mix",
+  "length": 224000,
+  "first-release-date": "1970-01-26",
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "So Long, Frank Lloyd Wright",
+        "disambiguation": "",
+        "id": "b694450b-c116-3373-b20c-4071096418a3",
+        "attributes": [],
+        "iswcs": [
+          "T-070.940.279-8"
+        ]
+      },
+      "ended": true,
+      "type": "performance",
+      "begin": "1969-11-09",
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "end": "1969-11-09"
+    }
+  ],
+  "title": "So Long, Frank Lloyd Wright"
+}

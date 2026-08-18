@@ -1,0 +1,141 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5c7614bd-8a4e-40a3-aba7-644e642e4046?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Just a Little Lovin’ (Will Go a Long Way)",
+  "language": "eng",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "1c4c789d-06af-42ef-b86c-7d6bf49c652c",
+        "name": "Eddy Arnold",
+        "sort-name": "Arnold, Eddy",
+        "country": "US"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "id": "32e1255d-67ab-4cdf-9e68-91affc2b9470",
+        "name": "Zeke Clements",
+        "country": "US",
+        "sort-name": "Clements, Zeke",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US country musician"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    }
+  ],
+  "disambiguation": "",
+  "id": "5c7614bd-8a4e-40a3-aba7-644e642e4046",
+  "iswcs": [
+    "T-070.939.652-0"
+  ],
+  "attributes": [
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID",
+      "value": "257703"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID",
+      "value": "625.942"
+    },
+    {
+      "value": "1240466",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "value": "1240466",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "13194R"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "1160723-001"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "4325755"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "1908452"
+    },
+    {
+      "value": "1003889",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "11191818",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000251029"
+    },
+    {
+      "value": "782735",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW04355083"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "4233279"
+    },
+    {
+      "value": "980201",
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

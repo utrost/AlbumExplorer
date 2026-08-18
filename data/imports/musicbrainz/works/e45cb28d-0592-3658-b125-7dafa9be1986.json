@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e45cb28d-0592-3658-b125-7dafa9be1986?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "id": "e45cb28d-0592-3658-b125-7dafa9be1986",
+  "iswcs": [
+    "T-900.254.576-8"
+  ],
+  "attributes": [],
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "title": "Sour Times",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "artist": {
+        "name": "Geoff Barrow",
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6",
+        "sort-name": "Barrow, Geoff",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "GB"
+      },
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "writer"
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "sort-name": "Gibbons, Beth",
+        "name": "Beth Gibbons",
+        "country": "GB",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "type": "writer",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "name": "Adrian Utley",
+        "sort-name": "Utley, Adrian",
+        "id": "619b1116-740e-42e0-bdfe-96af274f79f7",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "GB"
+      },
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward"
+    }
+  ]
+}

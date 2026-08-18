@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3fce1ba0-ac1b-4b44-ae34-d5054125fbf1?inc=work-rels&fmt=json",
+  "length": 221466,
+  "video": false,
+  "disambiguation": "album version",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Even Better Than the Real Thing",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-001.787.935-4",
+          "T-011.422.355-0"
+        ],
+        "id": "88e5d62d-935b-3f49-a049-2cc0d1a5ebff",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward"
+    }
+  ],
+  "title": "Even Better Than the Real Thing",
+  "first-release-date": "1991-11-18",
+  "id": "3fce1ba0-ac1b-4b44-ae34-d5054125fbf1"
+}

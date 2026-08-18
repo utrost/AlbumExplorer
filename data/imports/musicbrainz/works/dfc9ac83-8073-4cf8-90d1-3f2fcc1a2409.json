@@ -1,0 +1,126 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/dfc9ac83-8073-4cf8-90d1-3f2fcc1a2409?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "value": "5130098",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "type": "SPAC ID"
+    },
+    {
+      "value": "5130098",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "type": "SOBODAYCOM ID"
+    },
+    {
+      "value": "5130098",
+      "type": "SGACEDOM ID",
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID",
+      "value": "2312209"
+    },
+    {
+      "value": "5130098",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "type": "SACIM ID"
+    },
+    {
+      "value": "5130098",
+      "type": "NICAUTOR ID",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6"
+    },
+    {
+      "value": "44546223",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    },
+    {
+      "value": "908748708",
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "6507607"
+    },
+    {
+      "type": "AEI ID",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "value": "5130098"
+    },
+    {
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "type": "ACAM ID",
+      "value": "5130098"
+    },
+    {
+      "value": "5130098",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "type": "AACIMH ID"
+    }
+  ],
+  "iswcs": [
+    "T-300.218.140-6"
+  ],
+  "id": "dfc9ac83-8073-4cf8-90d1-3f2fcc1a2409",
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "sort-name": "Dessner, Aaron",
+        "country": "US",
+        "name": "Aaron Dessner",
+        "id": "1890e726-4817-42f4-92e7-ca78bef6692a",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Swift, Taylor",
+        "country": "US",
+        "name": "Taylor Swift",
+        "id": "20244d07-534f-4eff-b4d4-930878889970"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "the last great american dynasty",
+  "type": "Song"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fac139cc-466c-4639-ac8e-6d8ed4c7e830?inc=work-rels&fmt=json",
+  "length": 455826,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "id": "29c00f77-0880-4ace-b387-3f2c152c5dde",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.143.259-8"
+        ],
+        "language": "eng",
+        "title": "Scenes From an Italian Restaurant"
+      },
+      "target-credit": "",
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "forward"
+    }
+  ],
+  "id": "fac139cc-466c-4639-ac8e-6d8ed4c7e830",
+  "disambiguation": "",
+  "video": false,
+  "title": "Scenes From an Italian Restaurant",
+  "first-release-date": "1977-09-29"
+}

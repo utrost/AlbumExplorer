@@ -1,0 +1,240 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/12b53203-64af-3a94-b3ec-11fad7c7d809?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Butler, Geezer",
+        "name": "Geezer Butler",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "country": "GB",
+        "sort-name": "Iommi, Tony",
+        "name": "Tony Iommi",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "artist": {
+        "sort-name": "Osbourne, Ozzy",
+        "country": "GB",
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "name": "Ozzy Osbourne",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-credit": "",
+      "artist": {
+        "name": "Bill Ward",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "sort-name": "Ward, Bill",
+        "country": "GB",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990."
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Geezer Butler",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "sort-name": "Butler, Geezer",
+        "country": "GB"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "title": "War Pigs",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID",
+      "value": "001307 107 19"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "226925"
+    },
+    {
+      "value": "10810713",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "3896018"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "3896018"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "1564365"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID",
+      "value": "018255886"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID",
+      "value": "69 817 354 11"
+    },
+    {
+      "value": "006973400",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "value": "1838LW",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "367065-001"
+    },
+    {
+      "value": "8378376",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "202325"
+    },
+    {
+      "value": "W-004373845",
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000570573"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000114378"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW01492527"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "21723001"
+    },
+    {
+      "value": "6143116",
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    },
+    {
+      "value": "530169167",
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0W1-4716-0"
+    }
+  ],
+  "id": "12b53203-64af-3a94-b3ec-11fad7c7d809",
+  "iswcs": [
+    "T-070.202.324-2"
+  ]
+}

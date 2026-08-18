@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/cbd98d8f-3793-3558-92e3-2fa39457dcf0?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "Sock It 2 Me",
+  "relations": [
+    {
+      "target-credit": "Shawntae Harris",
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Brat, Da",
+        "id": "f545eed4-cd4c-40a3-89c0-edf4d195e52e",
+        "name": "Da Brat"
+      },
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null
+    },
+    {
+      "source-credit": "",
+      "artist": {
+        "name": "Missy Elliott",
+        "sort-name": "Elliott, Missy",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "type": "Person",
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "target-credit": "Melissa Elliott",
+      "attribute-values": {},
+      "ended": false,
+      "type": "composer",
+      "attribute-ids": {}
+    },
+    {
+      "type": "composer",
+      "target-credit": "Timothy Mosley",
+      "attribute-values": {},
+      "ended": false,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US",
+        "name": "Timbaland",
+        "sort-name": "Timbaland",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1"
+      },
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": []
+    }
+  ],
+  "language": "eng",
+  "iswcs": [],
+  "attributes": [],
+  "id": "cbd98d8f-3793-3558-92e3-2fa39457dcf0"
+}

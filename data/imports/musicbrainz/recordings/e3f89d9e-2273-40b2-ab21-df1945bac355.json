@@ -1,0 +1,70 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e3f89d9e-2273-40b2-ab21-df1945bac355?inc=work-rels&fmt=json",
+  "first-release-date": "1987-10-30",
+  "id": "e3f89d9e-2273-40b2-ab21-df1945bac355",
+  "length": 557240,
+  "relations": [
+    {
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "attributes": [],
+        "iswcs": [
+          "T-070.083.994-6"
+        ],
+        "id": "0edb3629-96f8-36d8-afe6-4db399df7ba3",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "I Want Your Sex: Rhythm 1: Lust",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song"
+      },
+      "type": "performance",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "source-credit": "",
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "attributes": [],
+      "type": "performance",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "iswcs": [
+          "T-902.910.644-3"
+        ],
+        "attributes": [],
+        "id": "13dbe61a-0331-4f93-9d37-52571ae834a2",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "title": "I Want Your Sex: Rhythm 2: Brass in Love"
+      }
+    }
+  ],
+  "video": false,
+  "title": "I Want Your Sex, Parts 1 & 2",
+  "disambiguation": ""
+}

@@ -1,0 +1,69 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c3e4cde3-40af-4350-a16e-906492c27dcf?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-type": "artist",
+      "target-credit": "Frankie Brown",
+      "artist": {
+        "name": "Ted Daffan",
+        "id": "3fe8e700-1c9c-4490-a793-a3a4e7914418",
+        "sort-name": "Daffan, Ted",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "3fe8e700-1c9c-4490-a793-a3a4e7914418",
+        "name": "Ted Daffan",
+        "country": "US",
+        "sort-name": "Daffan, Ted"
+      },
+      "target-credit": "Frankie Brown",
+      "attributes": [],
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Born to Lose",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "140653"
+    }
+  ],
+  "iswcs": [],
+  "id": "c3e4cde3-40af-4350-a16e-906492c27dcf"
+}

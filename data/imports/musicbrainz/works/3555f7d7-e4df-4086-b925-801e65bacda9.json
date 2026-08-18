@@ -1,0 +1,70 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3555f7d7-e4df-4086-b925-801e65bacda9?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "artist": {
+        "disambiguation": "Special Purpose Artist – Do not add releases here, if possible.",
+        "name": "[unknown]",
+        "id": "125ec42a-7229-4250-afc5-e057484327fe",
+        "sort-name": "[unknown]",
+        "type": "Other",
+        "country": "XW",
+        "type-id": "ac897045-5043-3294-969b-187360e45d86"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "attributes": [
+        "electric guitar"
+      ],
+      "target-credit": "",
+      "source-credit": "",
+      "ended": false,
+      "type": "instrument arranger",
+      "begin": null,
+      "attribute-credits": {},
+      "attribute-ids": {
+        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+      },
+      "type-id": "0084e70a-873e-4f7f-b3ff-635b9e863dae",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "country": "GB",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "6d24f102-5c43-453a-8664-4ee092f441cf",
+        "sort-name": "May, Brian",
+        "disambiguation": "Queen guitarist",
+        "name": "Brian May"
+      }
+    }
+  ],
+  "language": "zxx",
+  "title": "God Save the Queen",
+  "languages": [
+    "zxx"
+  ],
+  "type": null,
+  "type-id": null,
+  "iswcs": [
+    "T-010.154.487-9"
+  ],
+  "attributes": [],
+  "id": "3555f7d7-e4df-4086-b925-801e65bacda9",
+  "disambiguation": "UK rock group Queen’s version"
+}

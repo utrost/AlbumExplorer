@@ -1,0 +1,122 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c6e550c4-82ea-485d-8ca7-e8d8843478ed?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-910.219.901-9"
+  ],
+  "title": "Gimmie Danger",
+  "language": "eng",
+  "id": "c6e550c4-82ea-485d-8ca7-e8d8843478ed",
+  "type": "Song",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [
+    {
+      "value": "000468958",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    },
+    {
+      "value": "GW04257510",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    }
+  ],
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "source-credit": "",
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "name": "Iggy Pop",
+        "sort-name": "Pop, Iggy",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    },
+    {
+      "begin": null,
+      "artist": {
+        "name": "James Williamson",
+        "country": "US",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "type": "Person",
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Williamson, James"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "direction": "backward",
+      "source-credit": "",
+      "target-type": "artist",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": []
+    },
+    {
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "name": "Iggy Pop",
+        "sort-name": "Pop, Iggy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward"
+    },
+    {
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "name": "James Williamson",
+        "sort-name": "Williamson, James",
+        "type": "Person",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Iggy and The Stooges guitarist"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {}
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

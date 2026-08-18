@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3080e30c-404b-4335-bd91-5e36d9e7ef04?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": "1982-03-30",
+      "end": "1982-03-30",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.101.289-6"
+        ],
+        "language": "eng",
+        "type": "Song",
+        "attributes": [],
+        "id": "a7033763-b552-446c-b879-a2e83ca4856a",
+        "title": "Let’s Pretend We’re Married"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "title": "Let’s Pretend We’re Married",
+  "id": "3080e30c-404b-4335-bd91-5e36d9e7ef04",
+  "first-release-date": "1982-10-27",
+  "length": 440000
+}

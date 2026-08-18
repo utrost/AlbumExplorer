@@ -10,10 +10,10 @@
       "coverArt": 128,
       "tracklist": 124,
       "totalDuration": 200,
-      "composerCredits": 487,
+      "composerCredits": 470,
       "story": 173
     },
-    "albumsWithAnyGap": 550
+    "albumsWithAnyGap": 533
   },
   "groups": {
     "coverArt": {
@@ -11962,7 +11962,7 @@
     },
     "composerCredits": {
       "field": "composerCredits",
-      "count": 487,
+      "count": 470,
       "items": [
         {
           "albumId": "album-beach-boys-pet-sounds-1966",
@@ -13739,56 +13739,6 @@
           "recommendedAction": "fetch-album-content-sources"
         },
         {
-          "albumId": "album-led-zeppelin-led-zeppelin-ii-1969",
-          "artist": "Led Zeppelin",
-          "album": "Led Zeppelin II",
-          "releaseYear": 1969,
-          "latestRank": 123,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 79,
-            "2012": 79,
-            "2020": 123,
-            "2024": 123
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 9,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-u2-achtung-baby-1991",
-          "artist": "U2",
-          "album": "Achtung Baby",
-          "releaseYear": 1991,
-          "latestRank": 124,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 63,
-            "2012": 63,
-            "2020": 124,
-            "2024": 124
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 12,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-beastie-boys-pauls-boutique-1989",
           "artist": "Beastie Boys",
           "album": "Paul's Boutique",
@@ -13841,78 +13791,6 @@
           "recommendedAction": "fetch-album-content-sources"
         },
         {
-          "albumId": "album-ray-charles-modern-sounds-in-country-and-western-music-1962",
-          "artist": "Ray Charles",
-          "album": "Modern Sounds in Country and Western Music",
-          "releaseYear": 1962,
-          "latestRank": 127,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 105,
-            "2012": 105,
-            "2020": 127,
-            "2024": 127
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 12,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-iggy-and-the-stooges-raw-power-1973",
-          "artist": "Iggy and the Stooges",
-          "album": "Raw Power",
-          "releaseYear": 1973,
-          "latestRank": 128,
-          "latestEditionYear": 2003,
-          "ranks": {
-            "2003": 128
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 8,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-queen-a-night-at-the-opera-1975",
-          "artist": "Queen",
-          "album": "A Night at the Opera",
-          "releaseYear": 1975,
-          "latestRank": 128,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 231,
-            "2012": 231,
-            "2020": 128,
-            "2024": 128
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 12,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-stooges-raw-power-1973",
           "artist": "The Stooges",
           "album": "Raw Power",
@@ -13958,56 +13836,6 @@
             "hasCoverArt": true,
             "trackCount": 26,
             "hasTotalDuration": false,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-prince-1999-1982",
-          "artist": "Prince",
-          "album": "1999",
-          "releaseYear": 1982,
-          "latestRank": 130,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 163,
-            "2012": 163,
-            "2020": 130,
-            "2024": 130
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 11,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-portishead-dummy-1994",
-          "artist": "Portishead",
-          "album": "Dummy",
-          "releaseYear": 1994,
-          "latestRank": 131,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 419,
-            "2012": 419,
-            "2020": 131,
-            "2024": 131
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 11,
-            "hasTotalDuration": true,
             "hasComposerCredits": false,
             "hasStory": true
           },
@@ -14089,31 +13917,6 @@
           "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
-          "albumId": "album-u2-the-joshua-tree-1987",
-          "artist": "U2",
-          "album": "The Joshua Tree",
-          "releaseYear": 1987,
-          "latestRank": 135,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 27,
-            "2012": 27,
-            "2020": 135,
-            "2024": 135
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 11,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-elton-john-greatest-hits-1974",
           "artist": "Elton John",
           "album": "Greatest Hits",
@@ -14167,31 +13970,6 @@
             "hasStory": false
           },
           "recommendedAction": "fetch-album-content-sources"
-        },
-        {
-          "albumId": "album-black-sabbath-paranoid-1970",
-          "artist": "Black Sabbath",
-          "album": "Paranoid",
-          "releaseYear": 1970,
-          "latestRank": 139,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 131,
-            "2012": 131,
-            "2020": 139,
-            "2024": 139
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 8,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
           "albumId": "album-meters-rejuvenation-1974",
@@ -14271,31 +14049,6 @@
           "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
-          "albumId": "album-bruce-springsteen-born-in-the-u-s-a-1984",
-          "artist": "Bruce Springsteen",
-          "album": "Born in the U.S.A.",
-          "releaseYear": 1984,
-          "latestRank": 142,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 86,
-            "2012": 86,
-            "2020": 142,
-            "2024": 142
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 12,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-phil-spector-a-christmas-gift-for-you-1963",
           "artist": "Phil Spector",
           "album": "A Christmas Gift For You",
@@ -14323,31 +14076,6 @@
           "recommendedAction": "fetch-album-content-sources"
         },
         {
-          "albumId": "album-velvet-underground-the-velvet-underground-1969",
-          "artist": "The Velvet Underground",
-          "album": "The Velvet Underground",
-          "releaseYear": 1969,
-          "latestRank": 143,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 316,
-            "2012": 316,
-            "2020": 143,
-            "2024": 143
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 10,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-n-w-a-straight-outta-compton-1998",
           "artist": "N.W.A.",
           "album": "Straight Outta Compton",
@@ -14373,31 +14101,6 @@
           "recommendedAction": "fetch-album-content-sources"
         },
         {
-          "albumId": "album-jeff-buckley-grace-1994",
-          "artist": "Jeff Buckley",
-          "album": "Grace",
-          "releaseYear": 1994,
-          "latestRank": 147,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 304,
-            "2012": 304,
-            "2020": 147,
-            "2024": 147
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 10,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-john-prine-john-prine-1971",
           "artist": "John Prine",
           "album": "John Prine",
@@ -14416,56 +14119,6 @@
           "existing": {
             "hasCoverArt": true,
             "trackCount": 13,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-bruce-springsteen-nebraska-1982",
-          "artist": "Bruce Springsteen",
-          "album": "Nebraska",
-          "releaseYear": 1982,
-          "latestRank": 150,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 226,
-            "2012": 226,
-            "2020": 150,
-            "2024": 150
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 10,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-george-michael-faith-1987",
-          "artist": "George Michael",
-          "album": "Faith",
-          "releaseYear": 1987,
-          "latestRank": 151,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 472,
-            "2012": 472,
-            "2020": 151,
-            "2024": 151
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 11,
             "hasTotalDuration": true,
             "hasComposerCredits": false,
             "hasStory": true
@@ -14826,53 +14479,6 @@
           "recommendedAction": "enrich-existing-tracklist-and-story"
         },
         {
-          "albumId": "album-billy-joel-the-stranger-1977",
-          "artist": "Billy Joel",
-          "album": "The Stranger",
-          "releaseYear": 1977,
-          "latestRank": 169,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 70,
-            "2012": 70,
-            "2020": 169,
-            "2024": 169
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 10,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-taylor-swift-folklore-2020",
-          "artist": "Taylor Swift",
-          "album": "Folklore",
-          "releaseYear": 2020,
-          "latestRank": 170,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2024": 170
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 16,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
           "albumId": "album-sonic-youth-daydream-nation-1988",
           "artist": "Sonic Youth",
           "album": "Daydream Nation",
@@ -14891,31 +14497,6 @@
           "existing": {
             "hasCoverArt": true,
             "trackCount": 14,
-            "hasTotalDuration": true,
-            "hasComposerCredits": false,
-            "hasStory": true
-          },
-          "recommendedAction": "enrich-existing-tracklist-and-story"
-        },
-        {
-          "albumId": "album-simon-and-garfunkel-bridge-over-troubled-water-1970",
-          "artist": "Simon and Garfunkel",
-          "album": "Bridge Over Troubled Water",
-          "releaseYear": 1970,
-          "latestRank": 172,
-          "latestEditionYear": 2024,
-          "ranks": {
-            "2003": 51,
-            "2012": 51,
-            "2020": 172,
-            "2024": 172
-          },
-          "missing": [
-            "composerCredits"
-          ],
-          "existing": {
-            "hasCoverArt": true,
-            "trackCount": 11,
             "hasTotalDuration": true,
             "hasComposerCredits": false,
             "hasStory": true
@@ -30483,31 +30064,6 @@
       "recommendedAction": "fetch-album-content-sources"
     },
     {
-      "albumId": "album-led-zeppelin-led-zeppelin-ii-1969",
-      "artist": "Led Zeppelin",
-      "album": "Led Zeppelin II",
-      "releaseYear": 1969,
-      "latestRank": 123,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 79,
-        "2012": 79,
-        "2020": 123,
-        "2024": 123
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 9,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-moby-grape-moby-grape-1967",
       "artist": "Moby Grape",
       "album": "Moby Grape",
@@ -30526,31 +30082,6 @@
         "trackCount": 13,
         "hasTotalDuration": false,
         "hasComposerCredits": true,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-u2-achtung-baby-1991",
-      "artist": "U2",
-      "album": "Achtung Baby",
-      "releaseYear": 1991,
-      "latestRank": 124,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 63,
-        "2012": 63,
-        "2020": 124,
-        "2024": 124
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 12,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
         "hasStory": true
       },
       "recommendedAction": "enrich-existing-tracklist-and-story"
@@ -30608,31 +30139,6 @@
       "recommendedAction": "fetch-album-content-sources"
     },
     {
-      "albumId": "album-ray-charles-modern-sounds-in-country-and-western-music-1962",
-      "artist": "Ray Charles",
-      "album": "Modern Sounds in Country and Western Music",
-      "releaseYear": 1962,
-      "latestRank": 127,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 105,
-        "2012": 105,
-        "2020": 127,
-        "2024": 127
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 12,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-byrds-younger-than-yesterday-1967",
       "artist": "The Byrds",
       "album": "Younger Than Yesterday",
@@ -30651,53 +30157,6 @@
         "trackCount": 11,
         "hasTotalDuration": false,
         "hasComposerCredits": true,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-iggy-and-the-stooges-raw-power-1973",
-      "artist": "Iggy and the Stooges",
-      "album": "Raw Power",
-      "releaseYear": 1973,
-      "latestRank": 128,
-      "latestEditionYear": 2003,
-      "ranks": {
-        "2003": 128
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 8,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-queen-a-night-at-the-opera-1975",
-      "artist": "Queen",
-      "album": "A Night at the Opera",
-      "releaseYear": 1975,
-      "latestRank": 128,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 231,
-        "2012": 231,
-        "2020": 128,
-        "2024": 128
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 12,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
         "hasStory": true
       },
       "recommendedAction": "enrich-existing-tracklist-and-story"
@@ -30748,56 +30207,6 @@
         "hasCoverArt": true,
         "trackCount": 26,
         "hasTotalDuration": false,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-prince-1999-1982",
-      "artist": "Prince",
-      "album": "1999",
-      "releaseYear": 1982,
-      "latestRank": 130,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 163,
-        "2012": 163,
-        "2020": 130,
-        "2024": 130
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 11,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-portishead-dummy-1994",
-      "artist": "Portishead",
-      "album": "Dummy",
-      "releaseYear": 1994,
-      "latestRank": 131,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 419,
-        "2012": 419,
-        "2020": 131,
-        "2024": 131
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 11,
-        "hasTotalDuration": true,
         "hasComposerCredits": false,
         "hasStory": true
       },
@@ -30904,31 +30313,6 @@
       "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
-      "albumId": "album-u2-the-joshua-tree-1987",
-      "artist": "U2",
-      "album": "The Joshua Tree",
-      "releaseYear": 1987,
-      "latestRank": 135,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 27,
-        "2012": 27,
-        "2020": 135,
-        "2024": 135
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 11,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-elton-john-greatest-hits-1974",
       "artist": "Elton John",
       "album": "Greatest Hits",
@@ -30982,31 +30366,6 @@
         "hasStory": false
       },
       "recommendedAction": "fetch-album-content-sources"
-    },
-    {
-      "albumId": "album-black-sabbath-paranoid-1970",
-      "artist": "Black Sabbath",
-      "album": "Paranoid",
-      "releaseYear": 1970,
-      "latestRank": 139,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 131,
-        "2012": 131,
-        "2020": 139,
-        "2024": 139
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 8,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
       "albumId": "album-meters-rejuvenation-1974",
@@ -31086,31 +30445,6 @@
       "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
-      "albumId": "album-bruce-springsteen-born-in-the-u-s-a-1984",
-      "artist": "Bruce Springsteen",
-      "album": "Born in the U.S.A.",
-      "releaseYear": 1984,
-      "latestRank": 142,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 86,
-        "2012": 86,
-        "2020": 142,
-        "2024": 142
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 12,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-phil-spector-a-christmas-gift-for-you-1963",
       "artist": "Phil Spector",
       "album": "A Christmas Gift For You",
@@ -31138,31 +30472,6 @@
       "recommendedAction": "fetch-album-content-sources"
     },
     {
-      "albumId": "album-velvet-underground-the-velvet-underground-1969",
-      "artist": "The Velvet Underground",
-      "album": "The Velvet Underground",
-      "releaseYear": 1969,
-      "latestRank": 143,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 316,
-        "2012": 316,
-        "2020": 143,
-        "2024": 143
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 10,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-n-w-a-straight-outta-compton-1998",
       "artist": "N.W.A.",
       "album": "Straight Outta Compton",
@@ -31188,31 +30497,6 @@
       "recommendedAction": "fetch-album-content-sources"
     },
     {
-      "albumId": "album-jeff-buckley-grace-1994",
-      "artist": "Jeff Buckley",
-      "album": "Grace",
-      "releaseYear": 1994,
-      "latestRank": 147,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 304,
-        "2012": 304,
-        "2020": 147,
-        "2024": 147
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 10,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-john-prine-john-prine-1971",
       "artist": "John Prine",
       "album": "John Prine",
@@ -31231,56 +30515,6 @@
       "existing": {
         "hasCoverArt": true,
         "trackCount": 13,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-bruce-springsteen-nebraska-1982",
-      "artist": "Bruce Springsteen",
-      "album": "Nebraska",
-      "releaseYear": 1982,
-      "latestRank": 150,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 226,
-        "2012": 226,
-        "2020": 150,
-        "2024": 150
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 10,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-george-michael-faith-1987",
-      "artist": "George Michael",
-      "album": "Faith",
-      "releaseYear": 1987,
-      "latestRank": 151,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 472,
-        "2012": 472,
-        "2020": 151,
-        "2024": 151
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 11,
         "hasTotalDuration": true,
         "hasComposerCredits": false,
         "hasStory": true
@@ -31641,31 +30875,6 @@
       "recommendedAction": "enrich-existing-tracklist-and-story"
     },
     {
-      "albumId": "album-billy-joel-the-stranger-1977",
-      "artist": "Billy Joel",
-      "album": "The Stranger",
-      "releaseYear": 1977,
-      "latestRank": 169,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 70,
-        "2012": 70,
-        "2020": 169,
-        "2024": 169
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 10,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
       "albumId": "album-cream-disraeli-gears-1967",
       "artist": "Cream",
       "album": "Disraeli Gears",
@@ -31685,28 +30894,6 @@
         "trackCount": 11,
         "hasTotalDuration": false,
         "hasComposerCredits": true,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-taylor-swift-folklore-2020",
-      "artist": "Taylor Swift",
-      "album": "Folklore",
-      "releaseYear": 2020,
-      "latestRank": 170,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2024": 170
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 16,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
         "hasStory": true
       },
       "recommendedAction": "enrich-existing-tracklist-and-story"
@@ -31755,31 +30942,6 @@
         "trackCount": 11,
         "hasTotalDuration": false,
         "hasComposerCredits": true,
-        "hasStory": true
-      },
-      "recommendedAction": "enrich-existing-tracklist-and-story"
-    },
-    {
-      "albumId": "album-simon-and-garfunkel-bridge-over-troubled-water-1970",
-      "artist": "Simon and Garfunkel",
-      "album": "Bridge Over Troubled Water",
-      "releaseYear": 1970,
-      "latestRank": 172,
-      "latestEditionYear": 2024,
-      "ranks": {
-        "2003": 51,
-        "2012": 51,
-        "2020": 172,
-        "2024": 172
-      },
-      "missing": [
-        "composerCredits"
-      ],
-      "existing": {
-        "hasCoverArt": true,
-        "trackCount": 11,
-        "hasTotalDuration": true,
-        "hasComposerCredits": false,
         "hasStory": true
       },
       "recommendedAction": "enrich-existing-tracklist-and-story"

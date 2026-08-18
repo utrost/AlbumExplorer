@@ -1,0 +1,235 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7949591a-49c1-31c3-85a8-33d7e6065698?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-070.118.529-6"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "7949591a-49c1-31c3-85a8-33d7e6065698",
+  "title": "Paranoid",
+  "attributes": [
+    {
+      "value": "000123 334 38",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "value": "10555300",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "1521398",
+      "type": "SAYCO ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "1521398",
+      "type": "SAYCE ID"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "703015"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "66 668 280 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SABAM ID",
+      "value": "787713800",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "type": "SABAM ID",
+      "value": "006903000",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "2642FW",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "396507-001"
+    },
+    {
+      "type": "ECAD ID",
+      "value": "8226",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "118530",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "17138998",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-004373859"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000089055",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW02325943"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2268251",
+      "type": "APDAYC ID"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "6180321",
+      "type": "AGADU ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "460130867"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0P0-0258-1"
+    }
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Butler, Geezer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "name": "Geezer Butler",
+        "type": "Person"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "country": "GB",
+        "name": "Tony Iommi",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Iommi, Tony"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Osbourne, Ozzy",
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "country": "GB",
+        "type": "Person",
+        "name": "Ozzy Osbourne"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "artist": {
+        "sort-name": "Ward, Bill",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990.",
+        "name": "Bill Ward",
+        "type": "Person",
+        "country": "GB",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer"
+    },
+    {
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "name": "Geezer Butler",
+        "type": "Person",
+        "country": "GB",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "sort-name": "Butler, Geezer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      }
+    }
+  ],
+  "language": "eng"
+}

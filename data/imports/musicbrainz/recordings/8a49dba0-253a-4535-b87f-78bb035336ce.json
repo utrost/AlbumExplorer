@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/8a49dba0-253a-4535-b87f-78bb035336ce?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "work": {
+        "id": "575522cd-b99b-3507-bb32-b3998344ce27",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [
+          "T-011.480.595-6"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Roads",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ]
+      },
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "title": "Roads",
+  "first-release-date": "1994-08-22",
+  "length": 305173,
+  "disambiguation": "",
+  "video": false,
+  "id": "8a49dba0-253a-4535-b87f-78bb035336ce"
+}

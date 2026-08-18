@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/18fe52d0-d030-4430-8b63-81b682baa5cc?inc=work-rels&fmt=json",
+  "disambiguation": "album version",
+  "length": 298000,
+  "id": "18fe52d0-d030-4430-8b63-81b682baa5cc",
+  "title": "Little Red Corvette",
+  "first-release-date": "1982-10-27",
+  "video": false,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.101.322-0"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "78858d55-8b4c-469d-89c0-aee1de130b8f",
+        "title": "Little Red Corvette",
+        "language": "eng",
+        "type": "Song"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": "1982-05-20",
+      "attribute-ids": {},
+      "begin": "1982-05-20",
+      "type": "performance",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward"
+    }
+  ]
+}

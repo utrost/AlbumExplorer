@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a46d027a-39e0-4b47-b19b-bb7682839ac5?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-010.154.482-4"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "cb6c5931-436c-38c5-9d24-044f37d1fe35",
+        "title": "Death on Two Legs (Dedicated To…)",
+        "attributes": []
+      }
+    }
+  ],
+  "video": false,
+  "length": 223293,
+  "id": "a46d027a-39e0-4b47-b19b-bb7682839ac5",
+  "title": "Death on Two Legs (Dedicated to…)",
+  "first-release-date": "1975-11-21"
+}

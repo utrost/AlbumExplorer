@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/506ae263-7f46-47b7-9e83-055505cfb279?inc=work-rels&fmt=json",
+  "length": 200360,
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "forward",
+      "attribute-values": {},
+      "ended": true,
+      "begin": "1977",
+      "target-credit": "",
+      "attributes": [],
+      "work": {
+        "id": "ce17e05a-b0d3-4f04-aea6-05386f6b2bd1",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.143.319-3"
+        ],
+        "title": "She’s Always a Woman",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "attribute-ids": {},
+      "end": "1977",
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance"
+    }
+  ],
+  "disambiguation": "",
+  "id": "506ae263-7f46-47b7-9e83-055505cfb279",
+  "first-release-date": "1977-09-29",
+  "video": false,
+  "title": "She’s Always a Woman"
+}

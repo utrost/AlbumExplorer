@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/eae22cd3-750a-4e01-82e4-6df58b3d5070?inc=work-rels&fmt=json",
+  "disambiguation": "version 6a",
+  "id": "eae22cd3-750a-4e01-82e4-6df58b3d5070",
+  "video": false,
+  "title": "Johnny 99",
+  "first-release-date": "1982-09-20",
+  "length": 218000,
+  "relations": [
+    {
+      "attribute-ids": {},
+      "end": "1982-01-03",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "id": "f80534bf-958d-34c0-83cb-d7edbe887cdf",
+        "iswcs": [
+          "T-010.184.571-9",
+          "T-070.090.215-3"
+        ],
+        "title": "Johnny 99",
+        "language": "eng"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "direction": "forward",
+      "source-credit": "",
+      "begin": "1982-01-03",
+      "attribute-values": {},
+      "ended": true
+    }
+  ]
+}

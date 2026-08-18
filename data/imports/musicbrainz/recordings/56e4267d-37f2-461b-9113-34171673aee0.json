@@ -1,0 +1,74 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/56e4267d-37f2-461b-9113-34171673aee0?inc=work-rels&fmt=json",
+  "id": "56e4267d-37f2-461b-9113-34171673aee0",
+  "title": "I Love You So Much It Hurts",
+  "relations": [
+    {
+      "attributes": [],
+      "ended": false,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "end": null,
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-031.656.719-7"
+        ],
+        "title": "I Love You So Much It Hurts",
+        "attributes": [],
+        "id": "4635727b-2a1a-45be-bb95-169e2f14415f",
+        "type": "Song",
+        "language": "eng",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ]
+      },
+      "attribute-values": {},
+      "type": "performance",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "work",
+      "direction": "forward",
+      "target-credit": ""
+    },
+    {
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-031.656.719-7"
+        ],
+        "title": "I Love You So Much It Hurts",
+        "attributes": [],
+        "id": "4635727b-2a1a-45be-bb95-169e2f14415f"
+      },
+      "attribute-values": {},
+      "type": "performance",
+      "attributes": [
+        "cover"
+      ],
+      "ended": false,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-credit": "",
+      "target-type": "work",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "begin": null,
+      "direction": "forward"
+    }
+  ],
+  "length": 214333,
+  "disambiguation": "stereo",
+  "first-release-date": "1962-04",
+  "video": false
+}

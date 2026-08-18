@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/95fa8195-7bf9-4738-8682-23ce2a49fb0a?inc=work-rels&fmt=json",
+  "id": "95fa8195-7bf9-4738-8682-23ce2a49fb0a",
+  "title": "Nebraska",
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": "1982-01-03",
+      "target-type": "work",
+      "attribute-ids": {},
+      "direction": "forward",
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "title": "Nebraska",
+        "attributes": [],
+        "id": "88bc0066-6896-36e2-9f93-bbac8aa4f839",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.154.686-2"
+        ],
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type": "Song"
+      },
+      "end": "1982-01-03",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "ended": true
+    }
+  ],
+  "length": 269000,
+  "disambiguation": "version 6b",
+  "first-release-date": "1982-09-20",
+  "video": false
+}

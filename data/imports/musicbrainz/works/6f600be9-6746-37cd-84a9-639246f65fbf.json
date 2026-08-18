@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6f600be9-6746-37cd-84a9-639246f65fbf?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-011.422.352-7"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bono",
+        "disambiguation": "singer of U2",
+        "name": "Bono",
+        "type": "Person",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "country": "IE"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Adam Clayton",
+        "type": "Person",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Clayton, Adam",
+        "disambiguation": ""
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "country": "IE",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "type": "Person",
+        "name": "The Edge",
+        "disambiguation": "U2 guitarist David Evans",
+        "sort-name": "Edge, The",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a",
+        "country": "IE",
+        "name": "Larry Mullen, Jr.",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Mullen, Larry, Jr."
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "lyricist",
+      "artist": {
+        "disambiguation": "singer of U2",
+        "sort-name": "Bono",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "IE",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "name": "Bono",
+        "type": "Person"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "6f600be9-6746-37cd-84a9-639246f65fbf",
+  "title": "Zoo Station",
+  "attributes": []
+}

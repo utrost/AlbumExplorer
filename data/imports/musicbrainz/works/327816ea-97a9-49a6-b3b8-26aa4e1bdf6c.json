@@ -1,0 +1,122 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/327816ea-97a9-49a6-b3b8-26aa4e1bdf6c?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "disambiguation": "",
+        "name": "Iggy Pop",
+        "sort-name": "Pop, Iggy",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7"
+      },
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "sort-name": "Williamson, James",
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "name": "James Williamson",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "begin": null,
+      "type": "composer",
+      "ended": false,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": ""
+    },
+    {
+      "artist": {
+        "sort-name": "Pop, Iggy",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "name": "Iggy Pop",
+        "disambiguation": "",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": ""
+    },
+    {
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "name": "James Williamson",
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "sort-name": "Williamson, James",
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "writer"
+    }
+  ],
+  "title": "Shake Appeal",
+  "disambiguation": "",
+  "id": "327816ea-97a9-49a6-b3b8-26aa4e1bdf6c",
+  "iswcs": [
+    "T-910.298.147-5"
+  ],
+  "attributes": [
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "1318057",
+      "type": "BMI ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "value": "495781698",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    }
+  ]
+}

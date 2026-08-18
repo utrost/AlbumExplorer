@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6df4a3ce-57f5-46e1-b922-44d2945fbf59?inc=work-rels&fmt=json",
+  "first-release-date": "2020-07-24",
+  "id": "6df4a3ce-57f5-46e1-b922-44d2945fbf59",
+  "disambiguation": "explicit",
+  "length": 294520,
+  "video": false,
+  "relations": [
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "direction": "forward",
+      "ended": false,
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "title": "betty",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "9f24824b-1777-45e1-a829-bba8f0ca5b27",
+        "iswcs": [
+          "T-300.265.176-1"
+        ]
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance"
+    }
+  ],
+  "title": "betty"
+}

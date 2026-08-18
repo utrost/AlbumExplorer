@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/60631848-81df-3413-9262-826f319aea70?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-credit": "",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "direction": "backward",
+      "source-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "id": "ff4c8d42-4871-4778-885b-d41b01245133",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Dixon, Willie",
+        "name": "Willie Dixon",
+        "country": "US"
+      },
+      "begin": null
+    },
+    {
+      "target-type": "artist",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "artist": {
+        "country": "GB",
+        "name": "Jimmy Page",
+        "sort-name": "Page, Jimmy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "519774a4-3b18-4042-b8c0-927845a616c9",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward"
+    },
+    {
+      "artist": {
+        "name": "Robert Plant",
+        "country": "GB",
+        "id": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc",
+        "type": "Person",
+        "disambiguation": "of Led Zeppelin",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Plant, Robert"
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "direction": "backward",
+      "source-credit": "",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-credit": ""
+    },
+    {
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "name": "Willie Dixon",
+        "sort-name": "Dixon, Willie",
+        "type": "Person",
+        "id": "ff4c8d42-4871-4778-885b-d41b01245133",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "direction": "backward",
+      "source-credit": "",
+      "target-type": "artist",
+      "type": "lyricist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": []
+    }
+  ],
+  "id": "60631848-81df-3413-9262-826f319aea70",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "Led Zeppelin version",
+  "iswcs": [],
+  "title": "Bring It On Home",
+  "language": "eng"
+}

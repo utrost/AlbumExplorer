@@ -1,0 +1,76 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4635727b-2a1a-45be-bb95-169e2f14415f?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "iswcs": [
+    "T-031.656.719-7"
+  ],
+  "attributes": [
+    {
+      "value": "W-000238473",
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "value": "647947",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "id": "4635727b-2a1a-45be-bb95-169e2f14415f",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "I Love You So Much It Hurts",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US",
+        "name": "Floyd Tillman",
+        "sort-name": "Tillman, Floyd",
+        "id": "99eeb0bb-0591-4254-90db-bd62ee7e20fc"
+      },
+      "source-credit": "",
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "type": "composer",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {}
+    },
+    {
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "name": "Floyd Tillman",
+        "id": "99eeb0bb-0591-4254-90db-bd62ee7e20fc",
+        "sort-name": "Tillman, Floyd",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/afcf55ff-45fa-4d03-bd54-3d1c3dd58a1e?inc=work-rels&fmt=json",
+  "title": "Just a Little Lovin’",
+  "id": "afcf55ff-45fa-4d03-bd54-3d1c3dd58a1e",
+  "first-release-date": "1962-04",
+  "length": 209000,
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [
+        "cover"
+      ],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.939.652-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type": "Song",
+        "attributes": [],
+        "id": "5c7614bd-8a4e-40a3-aba7-644e642e4046",
+        "title": "Just a Little Lovin’ (Will Go a Long Way)"
+      }
+    }
+  ],
+  "disambiguation": "stereo"
+}

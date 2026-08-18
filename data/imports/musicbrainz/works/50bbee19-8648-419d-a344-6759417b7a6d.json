@@ -1,0 +1,127 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/50bbee19-8648-419d-a344-6759417b7a6d?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "zxx"
+  ],
+  "iswcs": [
+    "T-070.128.146-0"
+  ],
+  "type-id": null,
+  "attributes": [
+    {
+      "value": "137232A",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "I001.50.11.81",
+      "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e",
+      "type": "OSA ID"
+    },
+    {
+      "value": "128147",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    }
+  ],
+  "id": "50bbee19-8648-419d-a344-6759417b7a6d",
+  "title": "Rat Salad",
+  "language": "zxx",
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "name": "Geezer Butler",
+        "country": "GB",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "sort-name": "Butler, Geezer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "artist": {
+        "sort-name": "Iommi, Tony",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Tony Iommi",
+        "country": "GB",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer"
+    },
+    {
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Osbourne, Ozzy",
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "country": "GB",
+        "type": "Person",
+        "name": "Ozzy Osbourne"
+      }
+    },
+    {
+      "artist": {
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990.",
+        "sort-name": "Ward, Bill",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "type": "Person",
+        "name": "Bill Ward"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer"
+    }
+  ],
+  "type": null
+}

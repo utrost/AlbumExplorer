@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5efc1689-a6e8-45d3-a481-774be58e8b59?inc=work-rels&fmt=json",
+  "length": 304026,
+  "first-release-date": "1994-08-22",
+  "id": "5efc1689-a6e8-45d3-a481-774be58e8b59",
+  "video": false,
+  "title": "Biscuit",
+  "disambiguation": "",
+  "relations": [
+    {
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "target-type": "work",
+      "end": null,
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "performance",
+      "work": {
+        "iswcs": [
+          "T-070.885.119-7"
+        ],
+        "attributes": [],
+        "id": "ad71a5bb-3b49-3b3e-8bc6-6fe159cb2643",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Biscuit"
+      },
+      "attribute-ids": {}
+    }
+  ]
+}

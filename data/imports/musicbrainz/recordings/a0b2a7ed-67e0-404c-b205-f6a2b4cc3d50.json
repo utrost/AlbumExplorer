@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a0b2a7ed-67e0-404c-b205-f6a2b4cc3d50?inc=work-rels&fmt=json",
+  "video": false,
+  "first-release-date": "1962-04",
+  "disambiguation": "stereo",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "target-type": "work",
+      "direction": "forward",
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "ended": false,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-900.304.600-2",
+          "T-906.252.865-8"
+        ],
+        "title": "Bye Bye Love",
+        "attributes": [],
+        "id": "315e6c1e-4543-3bfd-a7d8-b268d10255d1"
+      },
+      "attribute-values": {},
+      "type": "performance"
+    }
+  ],
+  "length": 131000,
+  "id": "a0b2a7ed-67e0-404c-b205-f6a2b4cc3d50",
+  "title": "Bye Bye, Love"
+}

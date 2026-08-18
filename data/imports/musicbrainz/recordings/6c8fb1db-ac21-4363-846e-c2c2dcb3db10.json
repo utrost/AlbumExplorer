@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6c8fb1db-ac21-4363-846e-c2c2dcb3db10?inc=work-rels&fmt=json",
+  "id": "6c8fb1db-ac21-4363-846e-c2c2dcb3db10",
+  "first-release-date": "1982-09-20",
+  "title": "Open All Night",
+  "length": 173000,
+  "video": false,
+  "disambiguation": "version 3b",
+  "relations": [
+    {
+      "end": "1982-01-03",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "work": {
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Open All Night",
+        "type": "Song",
+        "disambiguation": "",
+        "id": "4a938f40-95cf-3d4a-a21a-f5732689238b",
+        "iswcs": [
+          "T-070.161.649-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "begin": "1982-01-03",
+      "direction": "forward",
+      "ended": true
+    }
+  ]
+}

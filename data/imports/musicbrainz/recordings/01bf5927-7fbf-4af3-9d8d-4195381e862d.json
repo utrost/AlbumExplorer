@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/01bf5927-7fbf-4af3-9d8d-4195381e862d?inc=work-rels&fmt=json",
+  "first-release-date": "2020-07-24",
+  "id": "01bf5927-7fbf-4af3-9d8d-4195381e862d",
+  "length": 208906,
+  "video": false,
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "seven",
+        "language": "eng",
+        "disambiguation": "",
+        "id": "3ff83ae5-845a-4cc7-a794-06c1be11f647",
+        "iswcs": [
+          "T-300.265.164-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "begin": null,
+      "direction": "forward",
+      "ended": false
+    }
+  ],
+  "title": "seven"
+}

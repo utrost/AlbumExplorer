@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/22ba38f1-3370-3765-87ec-b7424eef110a?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-700.027.147-8"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "22ba38f1-3370-3765-87ec-b7424eef110a",
+  "attributes": [],
+  "title": "I’m Set Free",
+  "relations": [
+    {
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "composer",
+      "source-credit": "",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "artist": {
+        "sort-name": "Reed, Lou",
+        "name": "Lou Reed",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1"
+      },
+      "ended": false
+    },
+    {
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward",
+      "target-credit": "",
+      "attributes": [],
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+        "sort-name": "Reed, Lou",
+        "name": "Lou Reed",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "type": "lyricist"
+    }
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/94e24aee-330a-4f58-8774-794683684651?inc=work-rels&fmt=json",
+  "disambiguation": "stereo",
+  "relations": [
+    {
+      "source-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "fff25742-47f9-3390-bd76-651876b8ee29",
+        "title": "I Can’t Stop Lovin’ You",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-010.937.857-5",
+          "T-070.918.904-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "type": "performance",
+      "begin": "1962-02-15",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "end": "1962-02-15"
+    }
+  ],
+  "video": false,
+  "id": "94e24aee-330a-4f58-8774-794683684651",
+  "first-release-date": "1962-04",
+  "title": "I Can’t Stop Loving You",
+  "length": 253800
+}

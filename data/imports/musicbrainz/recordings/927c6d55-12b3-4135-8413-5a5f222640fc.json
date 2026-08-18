@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/927c6d55-12b3-4135-8413-5a5f222640fc?inc=work-rels&fmt=json",
+  "length": 243573,
+  "id": "927c6d55-12b3-4135-8413-5a5f222640fc",
+  "title": "Mysterious Ways",
+  "first-release-date": "1991-11-18",
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "id": "5716b432-aa76-3653-af05-ab558eef84d5",
+        "title": "Mysterious Ways",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-011.422.357-2"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "disambiguation": ""
+}

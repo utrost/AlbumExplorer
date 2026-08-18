@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6acf49a7-22d8-4615-b7e5-aaa13a5c3bd0?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "id": "6acf49a7-22d8-4615-b7e5-aaa13a5c3bd0",
+  "iswcs": [],
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "country": "US",
+        "sort-name": "Pop, Iggy",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "name": "Iggy Pop",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "name": "James Williamson",
+        "country": "US",
+        "sort-name": "Williamson, James",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Iggy and The Stooges guitarist"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer"
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "name": "Iggy Pop",
+        "country": "US",
+        "sort-name": "Pop, Iggy"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "name": "James Williamson",
+        "country": "US",
+        "sort-name": "Williamson, James"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "I Need Somebody"
+}

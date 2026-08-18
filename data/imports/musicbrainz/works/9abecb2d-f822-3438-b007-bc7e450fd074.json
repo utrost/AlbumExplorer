@@ -1,0 +1,297 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/9abecb2d-f822-3438-b007-bc7e450fd074?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "artist": {
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "sort-name": "Michael, George",
+        "name": "George Michael",
+        "country": "GB",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "name": "George Michael",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "sort-name": "Michael, George",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "GB"
+      },
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type": "lyricist",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {}
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "One More Try",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "9abecb2d-f822-3438-b007-bc7e450fd074",
+  "iswcs": [
+    "T-070.162.275-4",
+    "T-072.521.683-0"
+  ],
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "value": "007279 991 81",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type": "SPA ID",
+      "value": "1535144",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID",
+      "value": "5.037.211"
+    },
+    {
+      "value": "6240497",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "6240497",
+      "type": "SAYCE ID"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID",
+      "value": "2984812"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID",
+      "value": "197405054"
+    },
+    {
+      "value": "26 563 813 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "value": "3353659C",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "4279440-001",
+      "type": "GEMA ID"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "1918492"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "162276"
+    },
+    {
+      "type": "ASCAP ID",
+      "value": "451007295",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "value": "001621 769 71",
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "224574",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "value": "10386095",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "225211817",
+      "type": "SOCAN ID"
+    },
+    {
+      "value": "87329018900",
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "16.709",
+      "type": "SGAE ID"
+    },
+    {
+      "type": "SESAC ID",
+      "value": "717039357",
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290"
+    },
+    {
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290",
+      "type": "SESAC ID",
+      "value": "62077664"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "832321"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "832321",
+      "type": "SAYCE ID"
+    },
+    {
+      "value": "2514182",
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "1578681",
+      "type": "SADAIC ID"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "3269535",
+      "type": "SACVEN ID"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID",
+      "value": "040603818"
+    },
+    {
+      "value": "88 023 419 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "value": "201381400",
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "6580132R",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "0O1-4364-4",
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
+    },
+    {
+      "value": "2126671-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type": "ECAD ID",
+      "value": "2013079",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "value": "3429513",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "6283705"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "6019072"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "10253324",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec",
+      "type": "CASH ID",
+      "value": "C-1006040431"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000585508"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "450193201"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW00901311"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2308541",
+      "type": "APDAYC ID"
+    },
+    {
+      "type": "APA ID",
+      "value": "2356939",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "138660901",
+      "type": "AKM ID"
+    },
+    {
+      "type": "AGADU ID",
+      "value": "4555685",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    },
+    {
+      "value": "2356939",
+      "type": "ACAM ID",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+    }
+  ],
+  "language": "eng"
+}

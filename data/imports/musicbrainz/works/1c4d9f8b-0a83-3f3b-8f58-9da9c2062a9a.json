@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/1c4d9f8b-0a83-3f3b-8f58-9da9c2062a9a?inc=artist-rels&fmt=json",
+  "title": "Wandering Star",
+  "id": "1c4d9f8b-0a83-3f3b-8f58-9da9c2062a9a",
+  "attributes": [],
+  "relations": [
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Barrow, Geoff",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6",
+        "name": "Geoff Barrow",
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "country": "GB",
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "name": "Beth Gibbons",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Gibbons, Beth",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.933.746-1"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

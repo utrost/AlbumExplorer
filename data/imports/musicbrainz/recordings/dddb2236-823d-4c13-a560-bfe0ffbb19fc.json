@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/dddb2236-823d-4c13-a560-bfe0ffbb19fc?inc=work-rels&fmt=json",
+  "first-release-date": "1991-10-21",
+  "id": "dddb2236-823d-4c13-a560-bfe0ffbb19fc",
+  "length": 269066,
+  "relations": [
+    {
+      "attributes": [],
+      "target-type": "work",
+      "end": null,
+      "direction": "forward",
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "The Fly",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "attributes": [],
+        "iswcs": [
+          "T-011.422.356-1"
+        ],
+        "id": "eeb53902-97bd-39a0-aa4f-883814ec05fb"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "performance"
+    }
+  ],
+  "title": "The Fly",
+  "disambiguation": "",
+  "video": false
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9c3af90e-2487-4706-a1c7-3c963ee4579e?inc=work-rels&fmt=json",
+  "id": "9c3af90e-2487-4706-a1c7-3c963ee4579e",
+  "first-release-date": "1977-09-29",
+  "title": "The Stranger",
+  "disambiguation": "",
+  "length": 310000,
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.143.249-6"
+        ],
+        "id": "ef486542-02d2-38d5-ad43-e11667597703",
+        "disambiguation": "",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "The Stranger",
+        "type": "Song"
+      }
+    }
+  ]
+}

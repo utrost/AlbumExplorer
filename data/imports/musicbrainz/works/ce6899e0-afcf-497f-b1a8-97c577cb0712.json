@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ce6899e0-afcf-497f-b1a8-97c577cb0712?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "iswcs": [
+    "T-300.265.189-6"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [],
+  "title": "mirrorball",
+  "id": "ce6899e0-afcf-497f-b1a8-97c577cb0712",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "name": "Jack Antonoff",
+        "country": "US",
+        "id": "1155a7a9-a7b4-46ba-ba27-6b6c98be487e",
+        "sort-name": "Antonoff, Jack",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Swift, Taylor",
+        "id": "20244d07-534f-4eff-b4d4-930878889970",
+        "country": "US",
+        "type": "Person",
+        "name": "Taylor Swift"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ]
+}

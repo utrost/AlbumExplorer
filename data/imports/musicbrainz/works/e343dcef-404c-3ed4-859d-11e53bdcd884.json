@@ -1,0 +1,155 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e343dcef-404c-3ed4-859d-11e53bdcd884?inc=artist-rels&fmt=json",
+  "type-id": null,
+  "iswcs": [],
+  "relations": [
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "singer of U2",
+        "sort-name": "Bono",
+        "name": "Bono",
+        "type": "Person"
+      },
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-credit": "Bono",
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist"
+    },
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "disambiguation": "",
+        "name": "Adam Clayton",
+        "type": "Person",
+        "sort-name": "Clayton, Adam",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "IE"
+      },
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {}
+    },
+    {
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "IE",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "type": "Person",
+        "name": "The Edge",
+        "sort-name": "Edge, The",
+        "disambiguation": "U2 guitarist David Evans"
+      },
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward",
+      "target-credit": "The Edge"
+    },
+    {
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "composer",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "sort-name": "Mullen, Larry, Jr.",
+        "name": "Larry Mullen, Jr.",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a"
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "attribute-values": {},
+      "type": "dedication",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "disambiguation": "New Zealand producer/engineer",
+        "sort-name": "Carroll, Greg",
+        "type": "Person",
+        "name": "Greg Carroll",
+        "id": "b45bdbd3-841a-4f7a-a069-8e1e9fa2a28e",
+        "country": "NZ",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "26131498-00e8-4136-b937-22a4be01a63d",
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward"
+    },
+    {
+      "type": "lyricist",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "singer of U2",
+        "sort-name": "Bono",
+        "type": "Person",
+        "name": "Bono"
+      },
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null
+    }
+  ],
+  "title": "One Tree Hill",
+  "id": "e343dcef-404c-3ed4-859d-11e53bdcd884",
+  "attributes": [],
+  "type": null,
+  "disambiguation": "",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ]
+}

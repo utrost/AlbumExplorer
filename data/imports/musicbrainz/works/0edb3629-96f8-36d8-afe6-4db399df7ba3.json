@@ -1,0 +1,166 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0edb3629-96f8-36d8-afe6-4db399df7ba3?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.083.994-6"
+  ],
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "composer",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "name": "George Michael",
+        "sort-name": "Michael, George",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "attribute-values": {},
+      "type": "lyricist",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Michael, George",
+        "type": "Person",
+        "name": "George Michael",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "title": "I Want Your Sex: Rhythm 1: Lust",
+  "id": "0edb3629-96f8-36d8-afe6-4db399df7ba3",
+  "attributes": [
+    {
+      "value": "0I2-9090-7",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    },
+    {
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "type": "AACIMH ID",
+      "value": "4026207"
+    },
+    {
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "4026207",
+      "type": "ACAM ID"
+    },
+    {
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "value": "4026207",
+      "type": "AEI ID"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4456945",
+      "type": "AGADU ID"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "390445080",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000551702"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "83995"
+    },
+    {
+      "value": "6482414",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "6019052",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "4152779"
+    },
+    {
+      "value": "3429508",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "3146838",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "NICAUTOR ID",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "value": "4026207"
+    },
+    {
+      "value": "1109KU",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "SACIM ID",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "value": "4026207"
+    },
+    {
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "value": "4026207",
+      "type": "SGACEDOM ID"
+    },
+    {
+      "value": "4026207",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "type": "SOBODAYCOM ID"
+    },
+    {
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "type": "SPAC ID",
+      "value": "4026207"
+    },
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000443 942 83",
+      "type": "SUISA ID"
+    }
+  ]
+}

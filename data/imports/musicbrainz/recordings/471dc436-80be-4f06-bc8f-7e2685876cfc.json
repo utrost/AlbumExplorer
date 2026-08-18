@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/471dc436-80be-4f06-bc8f-7e2685876cfc?inc=work-rels&fmt=json",
+  "id": "471dc436-80be-4f06-bc8f-7e2685876cfc",
+  "video": false,
+  "disambiguation": "",
+  "length": 172000,
+  "first-release-date": "1975-11-21",
+  "title": "You’re My Best Friend",
+  "relations": [
+    {
+      "begin": null,
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "work": {
+        "language": "eng",
+        "title": "You’re My Best Friend",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-010.117.366-3",
+          "T-010.117.369-6",
+          "T-010.158.302-1"
+        ],
+        "attributes": [],
+        "id": "2b563c5e-3eed-3405-949d-065c58191284",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "ended": false
+    }
+  ]
+}

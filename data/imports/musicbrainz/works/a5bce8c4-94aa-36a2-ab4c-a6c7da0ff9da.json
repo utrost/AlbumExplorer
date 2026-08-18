@@ -1,0 +1,127 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a5bce8c4-94aa-36a2-ab4c-a6c7da0ff9da?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "value": "GW33919874",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "481964070"
+    },
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID",
+      "value": "1230444"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "id": "a5bce8c4-94aa-36a2-ab4c-a6c7da0ff9da",
+  "iswcs": [
+    "T-910.220.038-4"
+  ],
+  "relations": [
+    {
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Pop, Iggy",
+        "name": "Iggy Pop",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "name": "James Williamson",
+        "country": "US",
+        "sort-name": "Williamson, James",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Iggy and The Stooges guitarist"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "sort-name": "Pop, Iggy",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "name": "Iggy Pop"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist"
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Williamson, James",
+        "country": "US",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "name": "James Williamson"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Raw Power"
+}

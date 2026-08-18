@@ -1,0 +1,75 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d244cc78-53af-4024-b743-4b2387dc55e0?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo studio mix",
+  "relations": [
+    {
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": true,
+      "end": "1970-07-08",
+      "begin": "1970-06-16",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "title": "Fairies Wear Boots",
+        "id": "7e9f897b-0ae0-3e7f-b211-c4d8178b84d7",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-010.449.119-1",
+          "T-070.056.733-4"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {
+        "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [
+        "medley"
+      ],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": null,
+        "language": "zxx",
+        "id": "3a1f6308-4cf4-463d-9c65-69dc0545502a",
+        "title": "Jack the Stripper",
+        "attributes": [],
+        "type-id": null,
+        "iswcs": [
+          "T-070.090.345-2"
+        ],
+        "languages": [
+          "zxx"
+        ],
+        "disambiguation": "intro to Fairies Wear Boots"
+      }
+    }
+  ],
+  "video": false,
+  "length": 374000,
+  "first-release-date": "1970-09-18",
+  "id": "d244cc78-53af-4024-b743-4b2387dc55e0",
+  "title": "Jack the Stripper / Fairies Wear Boots"
+}

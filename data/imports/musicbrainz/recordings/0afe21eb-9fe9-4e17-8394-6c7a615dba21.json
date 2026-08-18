@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0afe21eb-9fe9-4e17-8394-6c7a615dba21?inc=work-rels&fmt=json",
+  "length": 219587,
+  "id": "0afe21eb-9fe9-4e17-8394-6c7a615dba21",
+  "title": "Some Kinda Love",
+  "first-release-date": "1969-03",
+  "video": false,
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "db32bf6b-6729-3566-9854-a9c118d75a26",
+        "title": "Some Kinda Love",
+        "attributes": []
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "disambiguation": "closet mix"
+}

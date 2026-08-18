@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/49a09711-fb05-495a-87eb-0346b14061bf?inc=work-rels&fmt=json",
+  "disambiguation": "version 6a",
+  "video": false,
+  "length": 236826,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1982-01-03",
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.004.553-9"
+        ],
+        "id": "edee001d-572c-352a-8486-dcfe06f8fc90",
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Atlantic City"
+      },
+      "ended": true,
+      "direction": "forward",
+      "begin": "1982-01-03"
+    }
+  ],
+  "title": "Atlantic City",
+  "first-release-date": "1982-09-20",
+  "id": "49a09711-fb05-495a-87eb-0346b14061bf"
+}

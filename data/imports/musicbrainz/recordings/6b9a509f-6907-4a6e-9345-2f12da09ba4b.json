@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6b9a509f-6907-4a6e-9345-2f12da09ba4b?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "video": false,
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "c90fe41d-9409-377b-aa32-3d0730d0e865",
+        "title": "With or Without You",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-011.245.656-0",
+          "T-011.336.805-0",
+          "T-925.518.827-3"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "first-release-date": "1987-02",
+  "id": "6b9a509f-6907-4a6e-9345-2f12da09ba4b",
+  "title": "With or Without You",
+  "length": 296160
+}

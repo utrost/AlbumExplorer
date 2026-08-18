@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/71c2acbb-c5ff-4677-ab7b-525ee2f70c66?inc=work-rels&fmt=json",
+  "length": 260933,
+  "title": "Bring It On Home",
+  "id": "71c2acbb-c5ff-4677-ab7b-525ee2f70c66",
+  "first-release-date": "1969-10-22",
+  "video": false,
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "Led Zeppelin version",
+        "type": "Song",
+        "language": "eng",
+        "title": "Bring It On Home",
+        "id": "60631848-81df-3413-9262-826f319aea70",
+        "attributes": []
+      },
+      "type": "performance",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "end": "1969-08",
+      "attribute-ids": {},
+      "begin": "1969-04"
+    }
+  ],
+  "disambiguation": "original studio mix"
+}

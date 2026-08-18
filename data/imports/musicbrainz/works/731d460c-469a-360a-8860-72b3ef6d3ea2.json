@@ -1,0 +1,132 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/731d460c-469a-360a-8860-72b3ef6d3ea2?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "id": "731d460c-469a-360a-8860-72b3ef6d3ea2",
+  "title": "Red Hill Mining Town",
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "artist": {
+        "type": "Person",
+        "name": "Bono",
+        "country": "IE",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "sort-name": "Bono",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "singer of U2"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "Bono",
+      "attribute-values": {}
+    },
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "name": "Adam Clayton",
+        "type": "Person",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Clayton, Adam",
+        "disambiguation": ""
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "The Edge",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "U2 guitarist David Evans",
+        "sort-name": "Edge, The",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "IE",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "name": "The Edge",
+        "type": "Person"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "sort-name": "Mullen, Larry, Jr.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Larry Mullen, Jr.",
+        "type": "Person",
+        "country": "IE",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "lyricist",
+      "artist": {
+        "disambiguation": "singer of U2",
+        "sort-name": "Bono",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "IE",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "name": "Bono",
+        "type": "Person"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "type": null,
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "type-id": null
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8c048d25-5f2b-3cfc-ad7e-bcb0287df128?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-010.154.485-7"
+  ],
+  "id": "8c048d25-5f2b-3cfc-ad7e-bcb0287df128",
+  "relations": [
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Queen guitarist",
+        "name": "Brian May",
+        "id": "6d24f102-5c43-453a-8664-4ee092f441cf",
+        "sort-name": "May, Brian",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "target-type": "artist"
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Queen guitarist",
+        "name": "Brian May",
+        "id": "6d24f102-5c43-453a-8664-4ee092f441cf",
+        "country": "GB",
+        "sort-name": "May, Brian"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "The Prophet’s Song"
+}

@@ -1,0 +1,138 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4d1f3c04-e67e-3e0b-b5eb-5979619acb05?inc=artist-rels&fmt=json",
+  "title": "It Makes No Difference Now",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "artist": {
+        "name": "Jimmie Davis",
+        "sort-name": "Davis, Jimmie",
+        "id": "06ed4e1e-4416-4a7c-b14b-bc68dfd252aa",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "American politician, singer and songwriter",
+        "type": "Person",
+        "country": "US"
+      },
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false
+    },
+    {
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US",
+        "name": "Floyd Tillman",
+        "id": "99eeb0bb-0591-4254-90db-bd62ee7e20fc",
+        "sort-name": "Tillman, Floyd"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "attribute-ids": {},
+      "type": "lyricist",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "American politician, singer and songwriter",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Davis, Jimmie",
+        "id": "06ed4e1e-4416-4a7c-b14b-bc68dfd252aa",
+        "name": "Jimmie Davis"
+      },
+      "source-credit": ""
+    },
+    {
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "artist": {
+        "id": "99eeb0bb-0591-4254-90db-bd62ee7e20fc",
+        "sort-name": "Tillman, Floyd",
+        "name": "Floyd Tillman",
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist"
+    },
+    {
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": "1938-05-25",
+      "begin": "1938-05-25",
+      "artist": {
+        "name": "Floyd Tillman",
+        "sort-name": "Tillman, Floyd",
+        "id": "99eeb0bb-0591-4254-90db-bd62ee7e20fc",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US"
+      },
+      "source-credit": "",
+      "type-id": "a442b140-830b-30b0-a4aa-2e36f098b6aa",
+      "attribute-ids": {},
+      "target-credit": "",
+      "ended": true,
+      "attribute-values": {},
+      "type": "publishing"
+    }
+  ],
+  "language": "eng",
+  "id": "4d1f3c04-e67e-3e0b-b5eb-5979619acb05",
+  "attributes": [
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "737690",
+      "type": "BMI ID"
+    }
+  ],
+  "iswcs": []
+}

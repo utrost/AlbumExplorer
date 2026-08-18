@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2b847e84-8c50-3ec3-9a7c-64c35bdc7f9f?inc=artist-rels&fmt=json",
+  "title": "Prove It",
+  "language": "eng",
+  "iswcs": [
+    "T-073.175.574-0"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "id": "2b847e84-8c50-3ec3-9a7c-64c35bdc7f9f",
+  "relations": [
+    {
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "name": "Tom Verlaine",
+        "sort-name": "Verlaine, Tom",
+        "type": "Person",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "name": "Tom Verlaine",
+        "sort-name": "Verlaine, Tom",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59"
+      },
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-type": "artist",
+      "type": "lyricist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

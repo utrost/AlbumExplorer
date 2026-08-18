@@ -1,0 +1,69 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/016ff040-00ff-3429-b30b-8607a94abff4?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "title": "I Want Your Sex: Rhythm 3: A Last Request",
+  "attributes": [
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0I2-9304-3"
+    }
+  ],
+  "id": "016ff040-00ff-3429-b30b-8607a94abff4",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward",
+      "target-credit": "",
+      "source-credit": "",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "name": "George Michael",
+        "type": "Person",
+        "sort-name": "Michael, George",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer"
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "",
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+        "name": "George Michael",
+        "type": "Person",
+        "sort-name": "Michael, George",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "attribute-values": {}
+    }
+  ]
+}

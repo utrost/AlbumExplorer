@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7cafa219-936c-45d0-9673-af298ad1589e?inc=work-rels&fmt=json",
+  "id": "7cafa219-936c-45d0-9673-af298ad1589e",
+  "first-release-date": "1984-05",
+  "title": "Born in the U.S.A.",
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1982-05-03",
+      "ended": true,
+      "begin": "1982-04-27",
+      "direction": "forward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Born in the U.S.A.",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.016.411-9"
+        ],
+        "id": "55d593ce-52cc-30ec-9494-eca1ab879f5c",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      }
+    }
+  ],
+  "disambiguation": "studio, version 12a take 9 edit 1",
+  "length": 279000,
+  "video": false
+}

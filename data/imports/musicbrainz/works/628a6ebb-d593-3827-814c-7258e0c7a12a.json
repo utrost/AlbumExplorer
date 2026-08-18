@@ -1,0 +1,261 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/628a6ebb-d593-3827-814c-7258e0c7a12a?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "name": "Bono",
+        "country": "IE",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "sort-name": "Bono",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "singer of U2"
+      },
+      "type": "composer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "country": "IE",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "name": "Adam Clayton",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Clayton, Adam",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "type": "composer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "U2 guitarist David Evans",
+        "sort-name": "Edge, The",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "IE",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "type": "Person",
+        "name": "The Edge"
+      }
+    },
+    {
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "name": "Larry Mullen, Jr.",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Mullen, Larry, Jr.",
+        "disambiguation": ""
+      }
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "disambiguation": "singer of U2",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bono",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "country": "IE",
+        "name": "Bono",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    }
+  ],
+  "language": "eng",
+  "id": "628a6ebb-d593-3827-814c-7258e0c7a12a",
+  "title": "Love Is Blindness",
+  "attributes": [
+    {
+      "value": "001965 242 46",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "value": "324601",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "10815064"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "91353032400"
+    },
+    {
+      "value": "2.302.035",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "value": "4396606",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "4396606"
+    },
+    {
+      "type": "SADAIC ID",
+      "value": "722351",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "value": "92 162 779 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "318499700",
+      "type": "SABAM ID"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "6993844R",
+      "type": "PRS tune code"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0A6-1695-1",
+      "type": "JASRAC ID"
+    },
+    {
+      "type": "GEMA ID",
+      "value": "2756321-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "value": "46413",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "3682903",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "4243325",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "9935206",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000961850",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "420383991",
+      "type": "ASCAP ID"
+    },
+    {
+      "value": "886000522",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW04894702"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "2806810",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "value": "AWK190228",
+      "type-id": "46f95ee0-123f-4f8e-8ccc-54c7c652dda0",
+      "type": "AMRA ID"
+    },
+    {
+      "type": "AKM ID",
+      "value": "188958001",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "5940285",
+      "type": "AGADU ID"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-010.269.033-4",
+    "T-011.422.360-7"
+  ],
+  "disambiguation": ""
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/868e3b55-4e4a-475f-94a8-020a6edc0aa2?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo studio mix",
+  "id": "868e3b55-4e4a-475f-94a8-020a6edc0aa2",
+  "title": "Paranoid",
+  "video": false,
+  "first-release-date": "1970-08-07",
+  "length": 168266,
+  "relations": [
+    {
+      "attribute-values": {},
+      "ended": true,
+      "begin": "1970-06-16",
+      "source-credit": "",
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": "1970-07-08",
+      "work": {
+        "type": "Song",
+        "id": "7949591a-49c1-31c3-85a8-33d7e6065698",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.118.529-6"
+        ],
+        "language": "eng",
+        "title": "Paranoid",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "target-credit": ""
+    }
+  ]
+}

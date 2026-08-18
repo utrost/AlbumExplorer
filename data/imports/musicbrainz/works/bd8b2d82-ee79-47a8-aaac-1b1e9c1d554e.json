@@ -1,0 +1,69 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/bd8b2d82-ee79-47a8-aaac-1b1e9c1d554e?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "disambiguation": "",
+  "type": "Song",
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Daffan, Ted",
+        "disambiguation": "",
+        "name": "Ted Daffan",
+        "type": "Person",
+        "id": "3fe8e700-1c9c-4490-a793-a3a4e7914418",
+        "country": "US"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "American politician, singer and songwriter",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Davis, Jimmie",
+        "id": "06ed4e1e-4416-4a7c-b14b-bc68dfd252aa",
+        "country": "US",
+        "name": "Jimmie Davis",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false
+    }
+  ],
+  "language": "eng",
+  "id": "bd8b2d82-ee79-47a8-aaac-1b1e9c1d554e",
+  "title": "Worried Mind",
+  "attributes": [
+    {
+      "value": "1695528",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e118badd-0ff3-4286-a523-38ce0a3ed953?inc=work-rels&fmt=json",
+  "length": 173000,
+  "id": "e118badd-0ff3-4286-a523-38ce0a3ed953",
+  "first-release-date": "1970-01-26",
+  "title": "Bye Bye Love",
+  "relations": [
+    {
+      "end": "1969-11-14",
+      "begin": "1969-11-14",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "type": "performance",
+      "ended": true,
+      "target-type": "work",
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "id": "315e6c1e-4543-3bfd-a7d8-b268d10255d1",
+        "title": "Bye Bye Love",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-900.304.600-2",
+          "T-906.252.865-8"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "source-credit": ""
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "begin": null,
+      "end": null,
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-900.304.600-2",
+          "T-906.252.865-8"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "315e6c1e-4543-3bfd-a7d8-b268d10255d1",
+        "title": "Bye Bye Love",
+        "attributes": []
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [
+        "cover"
+      ],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-900.304.600-2",
+          "T-906.252.865-8"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "title": "Bye Bye Love",
+        "id": "315e6c1e-4543-3bfd-a7d8-b268d10255d1",
+        "attributes": []
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false
+    }
+  ],
+  "video": false,
+  "disambiguation": "original stereo mix"
+}

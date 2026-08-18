@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/1633f0a7-b20c-3aa2-af0a-f18034572a1c?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "id": "1633f0a7-b20c-3aa2-af0a-f18034572a1c",
+  "attributes": [],
+  "iswcs": [
+    "T-070.232.960-9"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "begin": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "name": "Lou Reed",
+        "sort-name": "Reed, Lou",
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US"
+      },
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type": "composer",
+      "ended": false
+    },
+    {
+      "begin": null,
+      "artist": {
+        "id": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+        "sort-name": "Reed, Lou",
+        "name": "Lou Reed",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "type": "Person"
+      },
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "type": "lyricist",
+      "ended": false
+    }
+  ],
+  "language": "eng",
+  "title": "Beginning to See the Light"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/bf39f6ca-2bea-4c64-af05-e907dfa6c4e2?inc=work-rels&fmt=json",
+  "length": 191000,
+  "first-release-date": "1984-05",
+  "video": false,
+  "id": "bf39f6ca-2bea-4c64-af05-e907dfa6c4e2",
+  "disambiguation": "studio, version 4b",
+  "relations": [
+    {
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "end": "1982-05-06",
+      "begin": "1982-04-30",
+      "ended": true,
+      "type": "performance",
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "work": {
+        "id": "90963641-d3b1-3d89-aec1-c913c6c03fc4",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [
+          "T-070.204.700-4"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Working on the Highway",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ]
+      }
+    }
+  ],
+  "title": "Working on the Highway"
+}

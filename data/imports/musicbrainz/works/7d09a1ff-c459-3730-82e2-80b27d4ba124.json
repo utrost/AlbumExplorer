@@ -1,0 +1,254 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7d09a1ff-c459-3730-82e2-80b27d4ba124?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000082 669 84"
+    },
+    {
+      "value": "29723",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "value": "25642134",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "10408398"
+    },
+    {
+      "value": "70200139800",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID",
+      "value": "94.825"
+    },
+    {
+      "value": "3700415",
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "value": "3700415",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID",
+      "value": "2887100"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID",
+      "value": "048856244"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "004778400"
+    },
+    {
+      "value": "190085K",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "371775-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "value": "6392591",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "value": "14634144",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "value": "98935",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000123757"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "848222"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "420153935"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW17654438"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2255885"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID",
+      "value": "16086201"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID",
+      "value": "2235474601"
+    }
+  ],
+  "relations": [
+    {
+      "begin": null,
+      "artist": {
+        "id": "9c2b375c-ce68-44a8-90ac-e06b177f43f9",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bonham, John",
+        "name": "John Bonham",
+        "country": "GB"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "direction": "backward",
+      "source-credit": "",
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": []
+    },
+    {
+      "target-credit": "Chester Arthur Burnett",
+      "attributes": [
+        "additional"
+      ],
+      "attribute-ids": {
+        "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+      },
+      "end": null,
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "sort-name": "Howlin’ Wolf",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "id": "ca5b38c2-f39d-45a4-ad3d-daf4448846ef",
+        "country": "US",
+        "name": "Howlin’ Wolf"
+      },
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "country": "GB",
+        "name": "John Paul Jones",
+        "sort-name": "Jones, John Paul",
+        "type": "Person",
+        "id": "4490113a-3880-4f5b-a39b-105bfceaed04",
+        "disambiguation": "UK rock musician of Led Zeppelin & Them Crooked Vultures",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "begin": null,
+      "artist": {
+        "country": "GB",
+        "name": "Jimmy Page",
+        "sort-name": "Page, Jimmy",
+        "id": "519774a4-3b18-4042-b8c0-927845a616c9",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward"
+    },
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "sort-name": "Plant, Robert",
+        "type": "Person",
+        "id": "bd53f9a7-8be9-46b0-bf7d-1deea3cb57bc",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "of Led Zeppelin",
+        "country": "GB",
+        "name": "Robert Plant"
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "id": "7d09a1ff-c459-3730-82e2-80b27d4ba124",
+  "type": "Song",
+  "language": "eng",
+  "title": "The Lemon Song",
+  "iswcs": [
+    "T-070.098.934-9"
+  ]
+}

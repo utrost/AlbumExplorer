@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/1b9735ab-f5fd-3e8d-8075-dec5aa478809?inc=artist-rels&fmt=json",
+  "title": "Friendly Skies",
+  "type": null,
+  "disambiguation": "",
+  "languages": [],
+  "type-id": null,
+  "relations": [
+    {
+      "attributes": [],
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "American rapper, singer, dancer & record producer",
+        "type": "Person",
+        "id": "a0b8cb9e-7532-45fe-a74c-30e7c4009a39",
+        "sort-name": "Elliott, Missy",
+        "name": "Missy Elliott"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Melissa Elliott",
+      "type": "composer"
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Timbaland",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "sort-name": "Timbaland",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type": "composer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Timothy Mosley",
+      "attribute-ids": {}
+    }
+  ],
+  "language": null,
+  "id": "1b9735ab-f5fd-3e8d-8075-dec5aa478809",
+  "attributes": [],
+  "iswcs": []
+}

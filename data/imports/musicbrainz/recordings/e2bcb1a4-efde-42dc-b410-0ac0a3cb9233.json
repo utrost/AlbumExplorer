@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e2bcb1a4-efde-42dc-b410-0ac0a3cb9233?inc=work-rels&fmt=json",
+  "first-release-date": "1969-03",
+  "id": "e2bcb1a4-efde-42dc-b410-0ac0a3cb9233",
+  "length": 130273,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "source-credit": "",
+      "direction": "forward",
+      "end": null,
+      "target-type": "work",
+      "attributes": [],
+      "type": "performance",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "id": "90b747e9-4b1d-3452-a875-cc9facb6639e",
+        "iswcs": [
+          "T-070.349.091-8"
+        ],
+        "attributes": [],
+        "language": "eng",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "Afterhours",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "video": false,
+  "title": "After Hours",
+  "disambiguation": "closet mix"
+}

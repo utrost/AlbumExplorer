@@ -1,0 +1,132 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/79d50dfd-a44a-38ac-8f75-de8cc2eefe12?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "In God’s Country",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "Bono",
+      "artist": {
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "name": "Bono",
+        "sort-name": "Bono",
+        "country": "IE",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "singer of U2"
+      },
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer"
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "name": "Adam Clayton",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "country": "IE",
+        "sort-name": "Clayton, Adam",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "The Edge",
+      "artist": {
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "name": "The Edge",
+        "country": "IE",
+        "sort-name": "Edge, The",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "U2 guitarist David Evans"
+      },
+      "attribute-values": {}
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Larry Mullen, Jr.",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a",
+        "sort-name": "Mullen, Larry, Jr.",
+        "country": "IE"
+      },
+      "attribute-values": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Bono",
+        "country": "IE",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "name": "Bono",
+        "disambiguation": "singer of U2",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [],
+  "id": "79d50dfd-a44a-38ac-8f75-de8cc2eefe12",
+  "languages": [
+    "eng"
+  ],
+  "attributes": []
+}

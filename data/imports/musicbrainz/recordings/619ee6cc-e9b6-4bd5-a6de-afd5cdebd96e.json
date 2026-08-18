@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/619ee6cc-e9b6-4bd5-a6de-afd5cdebd96e?inc=work-rels&fmt=json",
+  "first-release-date": "1984-05",
+  "id": "619ee6cc-e9b6-4bd5-a6de-afd5cdebd96e",
+  "video": false,
+  "length": 226000,
+  "disambiguation": "studio, version 2b",
+  "relations": [
+    {
+      "end": "1983-10-10",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "id": "ceb9c01a-a31a-3bf8-8289-e81f880f53d4",
+        "iswcs": [
+          "T-070.016.419-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Bobby Jean",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "forward",
+      "begin": "1983-07-28",
+      "ended": true
+    }
+  ],
+  "title": "Bobby Jean"
+}

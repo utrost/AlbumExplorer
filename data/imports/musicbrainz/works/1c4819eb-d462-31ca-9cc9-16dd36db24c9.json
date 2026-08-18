@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/1c4819eb-d462-31ca-9cc9-16dd36db24c9?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-010.154.486-8"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "id": "6d24f102-5c43-453a-8664-4ee092f441cf",
+        "type": "Person",
+        "name": "Brian May",
+        "disambiguation": "Queen guitarist",
+        "sort-name": "May, Brian",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "name": "Brian May",
+        "country": "GB",
+        "id": "6d24f102-5c43-453a-8664-4ee092f441cf",
+        "sort-name": "May, Brian",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Queen guitarist"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "1c4819eb-d462-31ca-9cc9-16dd36db24c9",
+  "title": "Sweet Lady",
+  "attributes": []
+}

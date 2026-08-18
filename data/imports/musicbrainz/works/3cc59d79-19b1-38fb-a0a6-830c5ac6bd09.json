@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3cc59d79-19b1-38fb-a0a6-830c5ac6bd09?inc=artist-rels&fmt=json",
+  "id": "3cc59d79-19b1-38fb-a0a6-830c5ac6bd09",
+  "title": "So Cruel",
+  "attributes": [],
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c",
+        "country": "IE",
+        "type": "Person",
+        "name": "Bono",
+        "disambiguation": "singer of U2",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bono"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Clayton, Adam",
+        "id": "1f52af22-0207-40ac-9a15-e5052bb670c2",
+        "country": "IE",
+        "name": "Adam Clayton",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward"
+    },
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "country": "IE",
+        "id": "a94e530f-4e9f-40e6-b44b-ebec06f7900e",
+        "name": "The Edge",
+        "type": "Person",
+        "disambiguation": "U2 guitarist David Evans",
+        "sort-name": "Edge, The",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "country": "IE",
+        "id": "0ce1a4c2-ad1e-40d0-80da-d3396bc6518a",
+        "type": "Person",
+        "name": "Larry Mullen, Jr.",
+        "disambiguation": "",
+        "sort-name": "Mullen, Larry, Jr.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Bono",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "singer of U2",
+        "type": "Person",
+        "name": "Bono",
+        "country": "IE",
+        "id": "7f347782-eb14-40c3-98e2-17b6e1bfe56c"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-011.422.354-9"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

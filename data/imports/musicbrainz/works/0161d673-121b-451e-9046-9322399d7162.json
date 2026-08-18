@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0161d673-121b-451e-9046-9322399d7162?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type": null,
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "artist": {
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "country": "US",
+        "type": "Person",
+        "name": "Iggy Pop",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Pop, Iggy"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "sort-name": "Williamson, James",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "type": "Person",
+        "name": "James Williamson"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "country": "US",
+        "type": "Person",
+        "name": "Iggy Pop",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Pop, Iggy"
+      },
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "sort-name": "Williamson, James",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "type": "Person",
+        "name": "James Williamson"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false
+    }
+  ],
+  "attributes": [],
+  "title": "Penetration",
+  "id": "0161d673-121b-451e-9046-9322399d7162",
+  "type-id": null,
+  "disambiguation": "",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ]
+}

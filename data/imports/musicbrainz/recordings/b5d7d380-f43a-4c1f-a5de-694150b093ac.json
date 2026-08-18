@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b5d7d380-f43a-4c1f-a5de-694150b093ac?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "id": "b5d7d380-f43a-4c1f-a5de-694150b093ac",
+  "title": "Mysterons",
+  "video": false,
+  "first-release-date": "1994-08-22",
+  "length": 306200,
+  "relations": [
+    {
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "work": {
+        "type": "Song",
+        "id": "2f68c789-eb72-3e12-8226-558b80e0979f",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "title": "Mysterons",
+        "language": "eng",
+        "iswcs": [
+          "T-011.480.596-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "begin": null,
+      "source-credit": "",
+      "direction": "forward"
+    }
+  ]
+}

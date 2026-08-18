@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e26a4230-72bf-4fbe-b86b-2f045ebb2cb7?inc=work-rels&fmt=json",
+  "first-release-date": "1975-11-21",
+  "id": "e26a4230-72bf-4fbe-b86b-2f045ebb2cb7",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Seaside Rendezvous",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-010.154.481-3"
+        ],
+        "id": "f5a287c5-0cce-3551-9736-17875cb0f5a8"
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward"
+    }
+  ],
+  "disambiguation": "",
+  "video": false,
+  "length": 136826,
+  "title": "Seaside Rendezvous"
+}

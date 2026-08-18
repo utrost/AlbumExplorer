@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/82002f3e-b0ae-4d69-bbd4-92192d331b79?inc=work-rels&fmt=json",
+  "disambiguation": "version 4b",
+  "id": "82002f3e-b0ae-4d69-bbd4-92192d331b79",
+  "video": false,
+  "length": 339000,
+  "first-release-date": "1982-09-20",
+  "title": "Highway Patrolman",
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "end": "1982-01-03",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "begin": "1982-01-03",
+      "type": "performance",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "title": "Highway Patrolman",
+        "disambiguation": "",
+        "id": "df9a8e73-191e-3d35-b840-71d097dca0a3",
+        "iswcs": [
+          "T-070.077.661-9"
+        ],
+        "attributes": []
+      }
+    }
+  ]
+}

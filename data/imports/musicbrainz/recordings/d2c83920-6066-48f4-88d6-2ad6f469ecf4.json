@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d2c83920-6066-48f4-88d6-2ad6f469ecf4?inc=work-rels&fmt=json",
+  "id": "d2c83920-6066-48f4-88d6-2ad6f469ecf4",
+  "first-release-date": "1982-10-27",
+  "title": "1999",
+  "disambiguation": "album version",
+  "length": 378000,
+  "video": false,
+  "relations": [
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "end": "1982-08",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": "1982-07",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "id": "15fe7352-dfea-3452-90a4-1412c93386e2",
+        "iswcs": [
+          "T-070.154.680-6"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "title": "1999",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance"
+    }
+  ]
+}

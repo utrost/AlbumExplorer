@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2f68c789-eb72-3e12-8226-558b80e0979f?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "2f68c789-eb72-3e12-8226-558b80e0979f",
+  "iswcs": [
+    "T-011.480.596-7"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Barrow, Geoff",
+        "name": "Geoff Barrow",
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "country": "GB",
+        "sort-name": "Gibbons, Beth",
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "name": "Beth Gibbons",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Utley, Adrian",
+        "country": "GB",
+        "id": "619b1116-740e-42e0-bdfe-96af274f79f7",
+        "name": "Adrian Utley",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Mysterons",
+  "type": "Song"
+}

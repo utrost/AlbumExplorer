@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c2e1bbbf-c6fc-4a81-9804-1f68d01f5318?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "iswcs": [],
+  "id": "c2e1bbbf-c6fc-4a81-9804-1f68d01f5318",
+  "language": "eng",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Pop, Iggy",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "name": "Iggy Pop"
+      },
+      "source-credit": ""
+    },
+    {
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "country": "US",
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Williamson, James",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "name": "James Williamson"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer"
+    }
+  ],
+  "type-id": null,
+  "title": "Hard to Beat",
+  "type": null,
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ad71a5bb-3b49-3b3e-8bc6-6fe159cb2643?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Barrow, Geoff",
+        "disambiguation": "",
+        "name": "Geoff Barrow",
+        "type": "Person",
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6",
+        "country": "GB"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "country": "GB",
+        "name": "Beth Gibbons",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Gibbons, Beth"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "ad71a5bb-3b49-3b3e-8bc6-6fe159cb2643",
+  "title": "Biscuit",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.885.119-7"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

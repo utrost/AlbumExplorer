@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/145f5c43-0ac2-4886-8b09-63d0e92ded5d?inc=work-rels&fmt=json",
+  "title": "Glory Box",
+  "id": "145f5c43-0ac2-4886-8b09-63d0e92ded5d",
+  "first-release-date": "1994-08-22",
+  "length": 305573,
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-042.104.147-5",
+          "T-070.249.213-4"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "95ec9982-e079-3f4c-a03e-4f4629e4e5af",
+        "title": "Glory Box",
+        "attributes": []
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

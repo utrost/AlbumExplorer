@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/01ea1189-e0d2-48a0-9dc2-c615785a5ae0?inc=work-rels&fmt=json",
+  "length": 331573,
+  "id": "01ea1189-e0d2-48a0-9dc2-c615785a5ae0",
+  "first-release-date": "1986-03-03",
+  "title": "Damage, Inc.",
+  "video": false,
+  "relations": [
+    {
+      "begin": "1985-09-01",
+      "attribute-ids": {},
+      "end": "1985-12-27",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.043.583-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "title": "Damage, Inc.",
+        "id": "4ec34a05-99aa-3299-a0c4-922c1e255810",
+        "language": "eng",
+        "type": "Song"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "disambiguation": ""
+}

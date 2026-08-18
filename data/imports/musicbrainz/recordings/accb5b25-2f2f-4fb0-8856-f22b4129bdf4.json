@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/accb5b25-2f2f-4fb0-8856-f22b4129bdf4?inc=work-rels&fmt=json",
+  "title": "peace",
+  "id": "accb5b25-2f2f-4fb0-8856-f22b4129bdf4",
+  "first-release-date": "2020-07-24",
+  "length": 234000,
+  "relations": [
+    {
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "01a657bc-9eab-4839-9862-bb5f9ca71556",
+        "title": "peace",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-300.218.143-9"
+        ],
+        "disambiguation": ""
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    }
+  ],
+  "video": false,
+  "disambiguation": "explicit"
+}

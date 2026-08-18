@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/1b47010a-ecac-4455-966a-60c45c11bf7d?inc=work-rels&fmt=json",
+  "length": 197000,
+  "first-release-date": "1969",
+  "id": "1b47010a-ecac-4455-966a-60c45c11bf7d",
+  "title": "Baby Driver",
+  "disambiguation": "original stereo mix",
+  "video": false,
+  "relations": [
+    {
+      "source-credit": "",
+      "begin": "1969-11-02",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "target-type": "work",
+      "end": "1969-11-02",
+      "direction": "forward",
+      "attribute-values": {},
+      "ended": true,
+      "target-credit": "",
+      "type": "performance",
+      "work": {
+        "title": "Baby Driver",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "aea0dfbc-a952-3ee8-b7e1-3e441d2593b1",
+        "attributes": [],
+        "iswcs": [
+          "T-070.232.068-0"
+        ],
+        "language": "eng"
+      },
+      "attribute-ids": {}
+    }
+  ]
+}

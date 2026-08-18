@@ -1,0 +1,111 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/bd032842-8b9c-3c57-acc9-77e847565cca?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-011.401.623-7"
+  ],
+  "title": "Career Opportunities",
+  "id": "bd032842-8b9c-3c57-acc9-77e847565cca",
+  "attributes": [],
+  "relations": [
+    {
+      "type": "writer",
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "end": null,
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "19237b9f-2457-4eec-99f5-3166fc73fb4d",
+        "name": "Topper Headon",
+        "type": "Person",
+        "sort-name": "Headon, Topper",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "target-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "attribute-values": {},
+      "type": "writer",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "disambiguation": "The Clash/Big Audio Dynamite",
+        "name": "Mick Jones",
+        "type": "Person",
+        "sort-name": "Jones, Mick",
+        "id": "01f8343c-06e2-4f05-a137-f8ea7efa85c4",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward"
+    },
+    {
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "64c43453-f396-42b1-bff5-01644d710d94",
+        "type": "Person",
+        "name": "Paul Simonon",
+        "sort-name": "Simonon, Paul",
+        "disambiguation": ""
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "type": "writer",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": ""
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "id": "af4ea2a3-c54d-40b4-8120-a1f0b838ad54",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "disambiguation": "",
+        "name": "Joe Strummer",
+        "type": "Person",
+        "sort-name": "Strummer, Joe"
+      },
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ]
+}

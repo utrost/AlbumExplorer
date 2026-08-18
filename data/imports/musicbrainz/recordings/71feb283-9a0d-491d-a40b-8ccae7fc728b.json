@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/71feb283-9a0d-491d-a40b-8ccae7fc728b?inc=work-rels&fmt=json",
+  "id": "71feb283-9a0d-491d-a40b-8ccae7fc728b",
+  "disambiguation": "",
+  "first-release-date": "1994-08-15",
+  "title": "Grace",
+  "video": false,
+  "length": 322146,
+  "relations": [
+    {
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "direction": "forward",
+      "source-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "attribute-ids": {},
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "title": "Grace",
+        "language": "eng",
+        "iswcs": [
+          "T-070.234.344-9"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "id": "39007fd1-b760-3652-bce5-2f8675aecc49",
+        "type": "Song"
+      },
+      "end": null,
+      "attributes": [],
+      "target-credit": ""
+    }
+  ]
+}

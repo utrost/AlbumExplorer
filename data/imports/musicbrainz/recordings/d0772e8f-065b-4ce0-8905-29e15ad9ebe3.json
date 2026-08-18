@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d0772e8f-065b-4ce0-8905-29e15ad9ebe3?inc=work-rels&fmt=json",
+  "id": "d0772e8f-065b-4ce0-8905-29e15ad9ebe3",
+  "first-release-date": "1991-11-18",
+  "title": "So Cruel",
+  "relations": [
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "direction": "forward",
+      "ended": false,
+      "work": {
+        "id": "3cc59d79-19b1-38fb-a0a6-830c5ac6bd09",
+        "iswcs": [
+          "T-011.422.354-9"
+        ],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "So Cruel",
+        "disambiguation": ""
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance"
+    }
+  ],
+  "disambiguation": "",
+  "length": 349200,
+  "video": false
+}

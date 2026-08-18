@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6db17e6e-94d8-4794-9364-c761ad667fb1?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "id": "12b53203-64af-3a94-b3ec-11fad7c7d809",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.202.324-2"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "War Pigs",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1970-07-08",
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "begin": "1970-06-16"
+    }
+  ],
+  "title": "War Pigs / Luke’s Wall",
+  "disambiguation": "original stereo studio mix",
+  "id": "6db17e6e-94d8-4794-9364-c761ad667fb1",
+  "video": false,
+  "first-release-date": "1970-09-18",
+  "length": 476226
+}

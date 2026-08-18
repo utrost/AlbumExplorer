@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a8cddb19-5bc2-409c-b147-5595731076af?inc=work-rels&fmt=json",
+  "disambiguation": "studio, version 4b",
+  "first-release-date": "1984-05",
+  "video": false,
+  "title": "Downbound Train",
+  "id": "a8cddb19-5bc2-409c-b147-5595731076af",
+  "length": 215000,
+  "relations": [
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "target-type": "work",
+      "attribute-ids": {},
+      "begin": "1982-04-27",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.043.101-1"
+        ],
+        "title": "Downbound Train",
+        "id": "64efb75c-59e3-3540-b05f-4dcd319d7af2",
+        "attributes": [],
+        "type": "Song",
+        "disambiguation": "",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ]
+      },
+      "type": "performance",
+      "attribute-values": {},
+      "ended": true,
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "end": "1982-05-06"
+    }
+  ]
+}

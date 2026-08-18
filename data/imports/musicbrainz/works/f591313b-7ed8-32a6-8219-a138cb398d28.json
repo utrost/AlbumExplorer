@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f591313b-7ed8-32a6-8219-a138cb398d28?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-900.254.577-9"
+  ],
+  "id": "f591313b-7ed8-32a6-8219-a138cb398d28",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "5082a11f-7203-4ff3-ae04-2a0150d3bbb6",
+        "name": "Geoff Barrow",
+        "country": "GB",
+        "sort-name": "Barrow, Geoff",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "name": "Beth Gibbons",
+        "id": "5adcb9d9-5ea2-428d-af46-ef626966e106",
+        "country": "GB",
+        "sort-name": "Gibbons, Beth",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-type": "artist"
+    },
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "name": "Adrian Utley",
+        "id": "619b1116-740e-42e0-bdfe-96af274f79f7",
+        "sort-name": "Utley, Adrian",
+        "country": "GB",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Numb"
+}

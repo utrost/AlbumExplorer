@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/cf0afe0f-7fd7-4cb9-87a1-82a960739c2b?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "end": "1983-06-29",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "My Hometown",
+        "language": "eng",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-070.115.116-7"
+        ],
+        "id": "4b3b9bf5-380b-3c0f-8a7e-4f654bf84290"
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "forward",
+      "begin": "1983-06-29",
+      "ended": true
+    }
+  ],
+  "disambiguation": "studio, version 7 take 3",
+  "length": 273000,
+  "video": false,
+  "title": "My Hometown",
+  "first-release-date": "1984-05",
+  "id": "cf0afe0f-7fd7-4cb9-87a1-82a960739c2b"
+}

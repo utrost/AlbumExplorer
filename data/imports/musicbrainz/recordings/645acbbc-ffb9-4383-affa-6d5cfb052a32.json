@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/645acbbc-ffb9-4383-affa-6d5cfb052a32?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1969-11-08",
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "begin": "1969-11-08",
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "The Boxer",
+        "disambiguation": "",
+        "id": "d45cd2ac-52d2-3469-b9c3-985dc15523ef",
+        "attributes": [],
+        "iswcs": [
+          "T-070.880.909-9"
+        ]
+      },
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "title": "The Boxer",
+  "length": 310013,
+  "first-release-date": "1969",
+  "disambiguation": "original stereo mix",
+  "id": "645acbbc-ffb9-4383-affa-6d5cfb052a32",
+  "video": false
+}

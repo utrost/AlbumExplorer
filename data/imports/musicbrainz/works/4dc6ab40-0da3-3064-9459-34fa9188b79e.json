@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4dc6ab40-0da3-3064-9459-34fa9188b79e?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "sort-name": "Verlaine, Tom",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Tom Verlaine",
+        "country": "US",
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "lyricist",
+      "artist": {
+        "id": "b54065f0-61b3-4f6f-ba4a-ce15564fbd59",
+        "country": "US",
+        "name": "Tom Verlaine",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Verlaine, Tom"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "language": "eng",
+  "title": "Friction",
+  "id": "4dc6ab40-0da3-3064-9459-34fa9188b79e",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.892.868-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

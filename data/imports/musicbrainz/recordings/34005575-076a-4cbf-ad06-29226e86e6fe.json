@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/34005575-076a-4cbf-ad06-29226e86e6fe?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "title": "The Stranger (reprise)",
+  "id": "34005575-076a-4cbf-ad06-29226e86e6fe",
+  "first-release-date": "1977-09-29",
+  "length": 117000,
+  "relations": [
+    {
+      "source-credit": "",
+      "attributes": [
+        "partial"
+      ],
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "iswcs": [
+          "T-070.143.249-6"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "ef486542-02d2-38d5-ad43-e11667597703",
+        "title": "The Stranger",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "begin": null,
+      "attribute-ids": {
+        "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+      },
+      "end": null
+    }
+  ],
+  "video": false
+}

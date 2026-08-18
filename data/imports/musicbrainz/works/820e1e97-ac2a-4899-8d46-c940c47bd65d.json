@@ -1,0 +1,122 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/820e1e97-ac2a-4899-8d46-c940c47bd65d?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-910.219.866-3"
+  ],
+  "relations": [
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "ended": false,
+      "artist": {
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Iggy Pop",
+        "sort-name": "Pop, Iggy"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "sort-name": "Williamson, James",
+        "type": "Person",
+        "name": "James Williamson",
+        "disambiguation": "Iggy and The Stooges guitarist"
+      },
+      "attribute-values": {},
+      "type": "composer",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "target-credit": ""
+    },
+    {
+      "type": "writer",
+      "attribute-values": {},
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "name": "Iggy Pop",
+        "sort-name": "Pop, Iggy",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7"
+      },
+      "ended": false,
+      "attributes": [],
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {}
+    },
+    {
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "name": "James Williamson",
+        "type": "Person",
+        "sort-name": "Williamson, James",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "ended": false
+    }
+  ],
+  "title": "Death Trip",
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "342910854"
+    },
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID",
+      "value": "288192"
+    }
+  ],
+  "id": "820e1e97-ac2a-4899-8d46-c940c47bd65d",
+  "type": "Song",
+  "disambiguation": "",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ]
+}

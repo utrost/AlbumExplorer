@@ -1,0 +1,213 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/324e9a98-a968-3f27-b274-4bccc2ebe0c8?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "country": "GB",
+        "name": "Jimmy Page",
+        "sort-name": "Page, Jimmy",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "519774a4-3b18-4042-b8c0-927845a616c9",
+        "type": "Person"
+      },
+      "begin": null,
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "target-type": "artist"
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "519774a4-3b18-4042-b8c0-927845a616c9",
+        "sort-name": "Page, Jimmy",
+        "name": "Jimmy Page",
+        "country": "GB"
+      },
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "target-credit": "",
+      "attributes": [
+        "additional"
+      ],
+      "attribute-ids": {
+        "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+      },
+      "end": null,
+      "target-type": "artist",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "artist": {
+        "name": "Jake Holmes",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "e1c69c84-5941-4c57-a041-2808d4d88db4",
+        "type": "Person",
+        "sort-name": "Holmes, Jake"
+      },
+      "attribute-values": {},
+      "ended": false
+    }
+  ],
+  "attributes": [
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "193910"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "756908"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "756908"
+    },
+    {
+      "value": "231895",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID",
+      "value": "2640499"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID",
+      "value": "42 660 112 11"
+    },
+    {
+      "value": "62 429 174 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "001442300"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "51116V"
+    },
+    {
+      "value": "1000284312",
+      "type-id": "8da393f8-33c5-4ddf-afda-a035f0d46026",
+      "type": "MACP ID"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID",
+      "value": "0D1-4450-3"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "24387418-001"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "2972533"
+    },
+    {
+      "value": "41167",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "6586567"
+    },
+    {
+      "value": "18338267",
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "W-000785232",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "value": "340128276",
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW03264344"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "2199798"
+    },
+    {
+      "value": "5435864",
+      "type": "APA ID",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "value": "19622701",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "value": "4317129",
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "2143137-001"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "Led Zeppelin version",
+  "id": "324e9a98-a968-3f27-b274-4bccc2ebe0c8",
+  "type": "Song",
+  "language": "eng",
+  "title": "Dazed and Confused",
+  "iswcs": [
+    "T-070.041.166-0"
+  ]
+}

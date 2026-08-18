@@ -1,0 +1,127 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/87519b04-b88d-3740-a06b-492a2e45440a?inc=artist-rels&fmt=json",
+  "id": "87519b04-b88d-3740-a06b-492a2e45440a",
+  "iswcs": [
+    "T-072.111.283-9"
+  ],
+  "attributes": [
+    {
+      "value": "490584704",
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "value": "1303544",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "value": "GW03167762",
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Search and Destroy",
+  "language": "eng",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Pop, Iggy",
+        "country": "US",
+        "name": "Iggy Pop",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7"
+      },
+      "attribute-values": {}
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "name": "James Williamson",
+        "sort-name": "Williamson, James",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Iggy and The Stooges guitarist"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Pop, Iggy",
+        "country": "US",
+        "name": "Iggy Pop",
+        "id": "f37b3f31-b1f8-4b88-8cb5-b34f709b17d7"
+      },
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Williamson, James",
+        "country": "US",
+        "id": "ce433190-9ca1-467c-b5fd-c57ae7f4768c",
+        "name": "James Williamson",
+        "disambiguation": "Iggy and The Stooges guitarist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "target-type": "artist"
+    }
+  ]
+}

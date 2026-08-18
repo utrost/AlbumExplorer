@@ -1,0 +1,74 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/81fdea38-2a56-4906-a1b8-adcdfa9ab684?inc=work-rels&fmt=json",
+  "first-release-date": "1962-04",
+  "id": "81fdea38-2a56-4906-a1b8-adcdfa9ab684",
+  "length": 132400,
+  "video": false,
+  "disambiguation": "stereo",
+  "relations": [
+    {
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-903.988.232-1"
+        ],
+        "id": "ef9f0ca3-d45d-3452-aacb-64f9b95c211f",
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Hey, Good Lookin’"
+      },
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "type": "performance",
+      "begin": null,
+      "direction": "forward",
+      "ended": false,
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "attributes": [
+        "cover"
+      ],
+      "target-credit": "",
+      "target-type": "work"
+    },
+    {
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "work": {
+        "id": "ef9f0ca3-d45d-3452-aacb-64f9b95c211f",
+        "iswcs": [
+          "T-903.988.232-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Hey, Good Lookin’",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "forward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "title": "Hey, Good Lookin’"
+}

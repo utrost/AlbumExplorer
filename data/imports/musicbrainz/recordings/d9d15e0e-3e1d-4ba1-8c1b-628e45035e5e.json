@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d9d15e0e-3e1d-4ba1-8c1b-628e45035e5e?inc=work-rels&fmt=json",
+  "length": 206000,
+  "first-release-date": "1984-05",
+  "id": "d9d15e0e-3e1d-4ba1-8c1b-628e45035e5e",
+  "title": "Cover Me",
+  "disambiguation": "studio, version 2b",
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "end": "1982-01-25",
+      "direction": "forward",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "begin": "1982-01-25",
+      "attribute-ids": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "title": "Cover Me",
+        "language": "eng",
+        "iswcs": [
+          "T-070.030.530-1"
+        ],
+        "attributes": [],
+        "id": "13da1f8d-c08d-3d9b-891b-395e363c3a5b"
+      },
+      "type": "performance",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": true
+    }
+  ]
+}

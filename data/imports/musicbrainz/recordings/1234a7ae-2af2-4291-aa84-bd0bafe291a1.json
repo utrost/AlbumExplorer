@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/1234a7ae-2af2-4291-aa84-bd0bafe291a1?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "video": false,
+  "id": "1234a7ae-2af2-4291-aa84-bd0bafe291a1",
+  "first-release-date": "1994-08-22",
+  "length": 253760,
+  "relations": [
+    {
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Sour Times",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "id": "e45cb28d-0592-3658-b125-7dafa9be1986",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [
+          "T-900.254.576-8"
+        ]
+      },
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "type": "performance",
+      "ended": false,
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {}
+    }
+  ],
+  "title": "Sour Times"
+}

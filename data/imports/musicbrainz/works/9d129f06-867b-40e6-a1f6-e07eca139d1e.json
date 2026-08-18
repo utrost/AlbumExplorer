@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/9d129f06-867b-40e6-a1f6-e07eca139d1e?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "source-credit": "",
+      "artist": {
+        "name": "Ice Cube",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "sort-name": "Ice Cube",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US"
+      },
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {}
+    },
+    {
+      "artist": {
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "Eric Sadler",
+        "id": "7837e565-e2a7-45d5-8683-123cfc26bf1c",
+        "sort-name": "Sadler, Eric"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {}
+    },
+    {
+      "attribute-ids": {},
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "lyricist",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US",
+        "name": "Ice Cube",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "sort-name": "Ice Cube"
+      },
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "You Can’t Fade Me",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "9d129f06-867b-40e6-a1f6-e07eca139d1e",
+  "iswcs": [],
+  "attributes": [],
+  "language": "eng"
+}

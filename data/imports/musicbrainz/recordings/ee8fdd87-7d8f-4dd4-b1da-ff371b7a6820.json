@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ee8fdd87-7d8f-4dd4-b1da-ff371b7a6820?inc=work-rels&fmt=json",
+  "id": "ee8fdd87-7d8f-4dd4-b1da-ff371b7a6820",
+  "video": false,
+  "disambiguation": "",
+  "length": 146373,
+  "first-release-date": "1961",
+  "title": "St. James Infirmary",
+  "relations": [
+    {
+      "ended": false,
+      "type": "performance",
+      "work": {
+        "id": "ec198dd2-19af-3528-a083-f05dda2931e1",
+        "disambiguation": "Joe Primrose’s arrangement",
+        "iswcs": [
+          "T-071.070.447-4",
+          "T-902.883.621-7"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "St. James Infirmary",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "begin": null
+    }
+  ]
+}

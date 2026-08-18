@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/85465eb1-f250-4f7f-845e-856ef8e16297?inc=work-rels&fmt=json",
+  "id": "85465eb1-f250-4f7f-845e-856ef8e16297",
+  "disambiguation": "explicit",
+  "video": false,
+  "title": "Love on the Brain",
+  "first-release-date": "2016-01-28",
+  "length": 224000,
+  "relations": [
+    {
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "source-credit": "",
+      "direction": "forward",
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "work": {
+        "type": "Song",
+        "id": "55a7e31f-da75-4b86-b54f-fc765e871559",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "language": "eng",
+        "title": "Love on the Brain",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      }
+    }
+  ]
+}

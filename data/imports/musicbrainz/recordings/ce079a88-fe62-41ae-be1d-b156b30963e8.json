@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ce079a88-fe62-41ae-be1d-b156b30963e8?inc=work-rels&fmt=json",
+  "disambiguation": "explicit",
+  "video": false,
+  "id": "ce079a88-fe62-41ae-be1d-b156b30963e8",
+  "first-release-date": "2016-01-28",
+  "length": 253000,
+  "relations": [
+    {
+      "begin": null,
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "Kiss It Better",
+        "disambiguation": "",
+        "id": "aceb1050-aafa-4766-a7f8-638b981b4e00",
+        "attributes": [],
+        "iswcs": []
+      },
+      "type": "performance",
+      "ended": false
+    }
+  ],
+  "title": "Kiss It Better"
+}

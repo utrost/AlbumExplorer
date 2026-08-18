@@ -1,0 +1,69 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7c0007ce-16fd-3d2f-b5c3-470085ff11e6?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "value": "1733942",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "id": "7c0007ce-16fd-3d2f-b5c3-470085ff11e6",
+  "iswcs": [],
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "country": null,
+        "sort-name": "Solomon, Don",
+        "id": "5e24b691-beda-4b03-8231-9b7790091300",
+        "name": "Don Solomon",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "Don Solomon",
+      "attribute-values": {},
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "sort-name": "Tyler, Steven",
+        "id": "7d3f7aed-fb9c-4e80-b198-64cd6ae31cb8",
+        "name": "Steven Tyler",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "You See Me Crying"
+}

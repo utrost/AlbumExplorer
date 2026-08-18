@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fdd71455-4142-378d-9cfe-304512c30c8b?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "title": "Wake Up",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "name": "Tim Commerford",
+        "id": "4d61abe3-ce6d-4383-b2cd-8b4491496549",
+        "sort-name": "Commerford, Tim",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "attribute-ids": {},
+      "type": "composer",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "artist": {
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "Tom Morello",
+        "id": "42a636a0-dbe4-4d0c-abe2-1590fad9531b",
+        "sort-name": "Morello, Tom"
+      },
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type": "composer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "artist": {
+        "sort-name": "Rocha, Zack de la",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "name": "Zack de la Rocha",
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {}
+    },
+    {
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "Brad Wilk",
+        "sort-name": "Wilk, Brad",
+        "id": "b48aebac-8c3e-48aa-b5e6-2b38f30f5f78"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Rocha, Zack de la",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "name": "Zack de la Rocha"
+      },
+      "source-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "type": "lyricist",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false
+    }
+  ],
+  "language": "eng",
+  "id": "fdd71455-4142-378d-9cfe-304512c30c8b",
+  "iswcs": [
+    "T-901.998.743-0"
+  ],
+  "attributes": []
+}

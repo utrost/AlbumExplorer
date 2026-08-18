@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/00ea8070-688d-4e95-b2b6-7f623bc77b8e?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "name": "Ice Cube",
+        "country": "US",
+        "sort-name": "Ice Cube"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Sadler, Eric",
+        "country": "US",
+        "name": "Eric Sadler",
+        "id": "7837e565-e2a7-45d5-8683-123cfc26bf1c"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    }
+  ],
+  "type-id": null,
+  "title": "The Nigga Ya Love to Hate",
+  "language": null,
+  "type": null,
+  "attributes": [],
+  "languages": [],
+  "iswcs": [],
+  "id": "00ea8070-688d-4e95-b2b6-7f623bc77b8e"
+}

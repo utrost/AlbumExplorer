@@ -1,0 +1,92 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6936d1e1-62b3-403f-8a8e-7c97b84e8b9a?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "title": "Consideration",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "country": null,
+        "sort-name": "Donaldson, Tyran",
+        "name": "Tyran Donaldson",
+        "id": "01ad46b5-59c5-4295-a500-88742320ec3a",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "Robyn Fenty",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Barbadian R&B/pop singer",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "name": "Rihanna",
+        "country": "US",
+        "sort-name": "Rihanna"
+      },
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "SZA",
+        "country": "US",
+        "name": "SZA",
+        "id": "272989c8-5535-492d-a25c-9f58803e027f"
+      },
+      "target-credit": "Solána Rowe",
+      "attribute-values": {},
+      "target-type": "artist"
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [],
+  "id": "6936d1e1-62b3-403f-8a8e-7c97b84e8b9a",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "value": "16486320-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    }
+  ]
+}

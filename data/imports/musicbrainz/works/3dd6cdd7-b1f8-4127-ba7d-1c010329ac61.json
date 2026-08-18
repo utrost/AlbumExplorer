@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3dd6cdd7-b1f8-4127-ba7d-1c010329ac61?inc=artist-rels&fmt=json",
+  "id": "3dd6cdd7-b1f8-4127-ba7d-1c010329ac61",
+  "disambiguation": "",
+  "attributes": [],
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Fauntleroy, James",
+        "id": "4e481ad9-aa5d-4a1a-b2fc-444c0ad48b7e",
+        "disambiguation": "",
+        "name": "James Fauntleroy",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {}
+    },
+    {
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "Barbadian R&B/pop singer",
+        "name": "Rihanna",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "sort-name": "Rihanna",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US"
+      },
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "attributes": [],
+      "target-credit": "Robyn Fenty",
+      "source-credit": ""
+    },
+    {
+      "target-credit": "Robert Taylor",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "name": "Shea Taylor",
+        "disambiguation": "",
+        "id": "d35fff9b-9581-4851-9fbc-511267e692f0",
+        "sort-name": "Taylor, Shea"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null
+    }
+  ],
+  "language": "eng",
+  "title": "James Joint",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ]
+}

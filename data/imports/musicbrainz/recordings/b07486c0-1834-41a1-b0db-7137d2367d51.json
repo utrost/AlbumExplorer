@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b07486c0-1834-41a1-b0db-7137d2367d51?inc=work-rels&fmt=json",
+  "id": "b07486c0-1834-41a1-b0db-7137d2367d51",
+  "title": "Tough Mary (mono version)",
+  "first-release-date": "1960-11-15",
+  "length": 146000,
+  "video": false,
+  "relations": [
+    {
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "4a2fe916-8aff-421d-8db2-4ab1ee852ee9",
+        "title": "Tough Mary",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-918.296.308-2"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "ended": false,
+      "target-type": "work",
+      "direction": "forward",
+      "type": "performance"
+    }
+  ],
+  "disambiguation": ""
+}

@@ -1,0 +1,155 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/48b38327-9638-40dd-858a-49a98843a510?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "sort-name": "Bourelly, Bibi",
+        "id": "92955cd0-0dc7-4be4-90b6-5d69fd299e8c",
+        "name": "Bibi Bourelly"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "soul singer",
+        "id": "fec55784-ff5c-4992-83dd-1f7c4b10c6bf",
+        "name": "Jerry Butler",
+        "country": "US",
+        "sort-name": "Butler, Jerry"
+      },
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Fauntleroy, James",
+        "country": "US",
+        "id": "4e481ad9-aa5d-4a1a-b2fc-444c0ad48b7e",
+        "name": "James Fauntleroy"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "id": "bccbc99f-fcd9-4ed4-b8ab-b327f6b5f708",
+        "name": "Leon Huff",
+        "sort-name": "Huff, Leon",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Philly soul producer, of Gamble & Huff"
+      },
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "artist": {
+        "country": "US",
+        "sort-name": "No I.D.",
+        "id": "1cd913a1-5641-4b2a-9624-a0417914e3e7",
+        "name": "No I.D.",
+        "disambiguation": "producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "Ernest Wilson",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Barbadian R&B/pop singer",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "name": "Rihanna",
+        "sort-name": "Rihanna",
+        "country": "US"
+      },
+      "target-credit": "Robyn Fenty",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Higher",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "48b38327-9638-40dd-858a-49a98843a510",
+  "iswcs": []
+}

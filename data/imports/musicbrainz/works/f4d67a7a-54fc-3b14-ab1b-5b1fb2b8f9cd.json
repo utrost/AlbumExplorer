@@ -1,0 +1,128 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f4d67a7a-54fc-3b14-ab1b-5b1fb2b8f9cd?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "AS80CE0DE3BDAF8EAF87",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "263469",
+      "type-id": "c681ac0e-4fe5-47be-ba7e-da2658013744",
+      "type": "VCPMC ID"
+    }
+  ],
+  "id": "f4d67a7a-54fc-3b14-ab1b-5b1fb2b8f9cd",
+  "title": "Frozen",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "arranger",
+      "artist": {
+        "country": "GB",
+        "id": "8f7bf43e-2a13-431a-a274-19e28965fe07",
+        "name": "Craig Armstrong",
+        "type": "Person",
+        "disambiguation": "Scottish score composer",
+        "sort-name": "Armstrong, Craig",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "attributes": [
+        "additional"
+      ],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "country": "US",
+        "id": "47f1c600-2372-45f9-a228-3e9bcf64a083",
+        "type": "Person",
+        "name": "Patrick Leonard",
+        "disambiguation": "producer, songwriter and pianist",
+        "sort-name": "Leonard, Patrick",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "arranger",
+      "begin": null,
+      "attribute-ids": {
+        "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+      },
+      "end": null
+    },
+    {
+      "artist": {
+        "type": "Person",
+        "name": "Patrick Leonard",
+        "id": "47f1c600-2372-45f9-a228-3e9bcf64a083",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Leonard, Patrick",
+        "disambiguation": "producer, songwriter and pianist"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer"
+    },
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "name": "Madonna",
+        "country": "US",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "sort-name": "Madonna",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "“Queen of Pop”"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.263.449-8",
+    "T-317.107.132-8",
+    "T-913.544.993-3"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

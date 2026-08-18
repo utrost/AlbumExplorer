@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c11ccc51-7802-46aa-a5db-8b1eee0a93ea?inc=work-rels&fmt=json",
+  "title": "Woo",
+  "disambiguation": "explicit",
+  "video": false,
+  "length": 235586,
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "id": "b073d52f-4f09-4ed1-aacd-f2403aae15ff",
+        "iswcs": [],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Woo",
+        "disambiguation": ""
+      }
+    }
+  ],
+  "id": "c11ccc51-7802-46aa-a5db-8b1eee0a93ea",
+  "first-release-date": "2016-01-28"
+}

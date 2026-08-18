@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/9313f690-c5e0-475a-98da-f17de4dd5ae6?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "id": "9313f690-c5e0-475a-98da-f17de4dd5ae6",
+  "language": "zxx",
+  "title": "Orchid",
+  "iswcs": [],
+  "languages": [
+    "zxx"
+  ],
+  "attributes": [
+    {
+      "value": "560685-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    }
+  ],
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "target-type": "artist",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "name": "Tony Iommi",
+        "country": "GB",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "sort-name": "Iommi, Tony"
+      },
+      "begin": null,
+      "source-credit": "",
+      "direction": "backward"
+    }
+  ]
+}

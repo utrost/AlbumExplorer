@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5beb2acc-7352-417c-bd1f-8beed87407bc?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "id": "5beb2acc-7352-417c-bd1f-8beed87407bc",
+  "first-release-date": "1998-02-23",
+  "title": "To Have and Not to Hold",
+  "length": 322906,
+  "relations": [
+    {
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "d291a707-a3ce-42cc-a98a-9d4b60f9e921",
+        "title": "To Have and Not to Hold",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ],
+  "video": false
+}

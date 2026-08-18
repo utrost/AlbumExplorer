@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b6b30086-0fd5-3dee-b301-c17444e4bfd5?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "iswcs": [
+    "T-070.156.026-0"
+  ],
+  "id": "b6b30086-0fd5-3dee-b301-c17444e4bfd5",
+  "disambiguation": "",
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "name": "Joe Perry",
+        "disambiguation": "guitarist for Aerosmith",
+        "id": "be797221-0117-45e3-81da-996f8d29db62",
+        "sort-name": "Perry, Joe",
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "writer"
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "name": "Steven Tyler",
+        "disambiguation": "",
+        "sort-name": "Tyler, Steven",
+        "id": "7d3f7aed-fb9c-4e80-b198-64cd6ae31cb8"
+      }
+    }
+  ],
+  "title": "No More No More",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

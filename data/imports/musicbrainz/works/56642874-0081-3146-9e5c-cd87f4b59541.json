@@ -1,0 +1,48 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/56642874-0081-3146-9e5c-cd87f4b59541?inc=artist-rels&fmt=json",
+  "id": "56642874-0081-3146-9e5c-cd87f4b59541",
+  "title": "Countdown",
+  "attributes": [
+    {
+      "type": "ICE ID",
+      "value": "10906913",
+      "type-id": "7e149f56-d72b-4392-bdef-7f5a3261ad8d"
+    }
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Coltrane, John",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "b625448e-bf4a-41c3-a421-72ad46cdb831",
+        "type": "Person",
+        "name": "John Coltrane"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    }
+  ],
+  "language": "zxx",
+  "iswcs": [
+    "T-070.245.305-1"
+  ],
+  "languages": [
+    "zxx"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

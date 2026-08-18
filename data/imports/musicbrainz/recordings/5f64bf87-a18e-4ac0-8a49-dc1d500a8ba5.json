@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5f64bf87-a18e-4ac0-8a49-dc1d500a8ba5?inc=work-rels&fmt=json",
+  "id": "5f64bf87-a18e-4ac0-8a49-dc1d500a8ba5",
+  "first-release-date": "1992-09-04",
+  "length": 314173,
+  "relations": [
+    {
+      "type": "performance",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "title": "Killing in the Name",
+        "iswcs": [
+          "T-070.248.626-7"
+        ],
+        "attributes": [],
+        "id": "32ca89bc-03d4-3b68-b172-511401d1a433",
+        "language": "eng"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "begin": null,
+      "target-type": "work",
+      "end": null,
+      "direction": "forward",
+      "attributes": []
+    }
+  ],
+  "disambiguation": "",
+  "title": "Killing in the Name",
+  "video": false
+}

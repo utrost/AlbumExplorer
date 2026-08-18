@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ac8c46cb-d9b9-4e70-bda9-1ffc36e05eb6?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "type": "performance",
+      "ended": false,
+      "work": {
+        "id": "922a3cf9-c15b-32e2-8dd6-6c0b561a9833",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.142.425-0"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Sweet Emotion",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "direction": "forward",
+      "begin": null
+    }
+  ],
+  "title": "Sweet Emotion",
+  "id": "ac8c46cb-d9b9-4e70-bda9-1ffc36e05eb6",
+  "video": false,
+  "disambiguation": "album version",
+  "first-release-date": "1975-04-08",
+  "length": 274586
+}

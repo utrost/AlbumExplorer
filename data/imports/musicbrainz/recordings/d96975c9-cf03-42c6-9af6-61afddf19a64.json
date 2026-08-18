@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d96975c9-cf03-42c6-9af6-61afddf19a64?inc=work-rels&fmt=json",
+  "first-release-date": "2016-01-28",
+  "video": false,
+  "title": "Higher",
+  "disambiguation": "explicit",
+  "id": "d96975c9-cf03-42c6-9af6-61afddf19a64",
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "forward",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "type": "Song",
+        "id": "48b38327-9638-40dd-858a-49a98843a510",
+        "language": "eng",
+        "title": "Higher",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance"
+    }
+  ],
+  "length": 120626
+}

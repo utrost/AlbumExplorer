@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/bcb2841c-a2ef-43d6-89ef-d636ea0eee48?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work",
+      "begin": null,
+      "ended": false,
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "title": "Shakermaker",
+        "language": "eng",
+        "disambiguation": "",
+        "id": "7ce18e4e-1a44-4eea-ab41-b241950ea330",
+        "attributes": [],
+        "iswcs": [
+          "T-900.254.125-5"
+        ]
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": []
+    }
+  ],
+  "title": "Shakermaker",
+  "video": false,
+  "id": "bcb2841c-a2ef-43d6-89ef-d636ea0eee48",
+  "disambiguation": "",
+  "first-release-date": "1994-01-04",
+  "length": 308506
+}

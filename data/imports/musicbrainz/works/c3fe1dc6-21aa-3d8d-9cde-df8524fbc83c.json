@@ -1,0 +1,261 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c3fe1dc6-21aa-3d8d-9cde-df8524fbc83c?inc=artist-rels&fmt=json",
+  "id": "c3fe1dc6-21aa-3d8d-9cde-df8524fbc83c",
+  "iswcs": [
+    "T-070.247.531-7",
+    "T-917.601.661-8"
+  ],
+  "attributes": [
+    {
+      "value": "9070",
+      "type": "LatinNet ID",
+      "type-id": "78cf692f-a43b-46fc-993b-635c5bd86375"
+    },
+    {
+      "value": "294153",
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+      "type": "ACDAM ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "3522305"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "247551"
+    },
+    {
+      "value": "11869317",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID",
+      "value": "9542978"
+    },
+    {
+      "value": "2039248",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "value": "78100690100",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID"
+    },
+    {
+      "value": "12054",
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "value": "3686BS",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "192873CN",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "442184800",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "000022900"
+    },
+    {
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "value": "013663996"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000101996"
+    },
+    {
+      "type": "OSA ID",
+      "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e",
+      "value": "I000.17.04.40"
+    },
+    {
+      "value": "226575",
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "value": "000009 748 00",
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW00153772"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "33420946"
+    },
+    {
+      "value": "23761613",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "1326393-001"
+    },
+    {
+      "value": "1559259",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "value": "500126518",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "value": "0T0-7150-2",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "title": "Tutti Frutti",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "American songwriter",
+        "id": "f3897319-c9a4-4550-8b20-de5d508f8f15",
+        "name": "Dorothy LaBostrie",
+        "country": "US",
+        "sort-name": "LaBostrie, Dorothy"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "Richard Wayne Penniman",
+      "artist": {
+        "name": "Little Richard",
+        "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+        "country": "US",
+        "sort-name": "Little Richard",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Joe Lubin",
+        "id": "a99a7722-450e-427a-908d-9c1ecaab3707",
+        "sort-name": "Lubin, Joe",
+        "country": "GB"
+      },
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "f3897319-c9a4-4550-8b20-de5d508f8f15",
+        "name": "Dorothy LaBostrie",
+        "country": "US",
+        "sort-name": "LaBostrie, Dorothy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "American songwriter"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "Richard Wayne Penniman",
+      "artist": {
+        "sort-name": "Little Richard",
+        "country": "US",
+        "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+        "name": "Little Richard",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "attribute-values": {}
+    }
+  ],
+  "disambiguation": ""
+}

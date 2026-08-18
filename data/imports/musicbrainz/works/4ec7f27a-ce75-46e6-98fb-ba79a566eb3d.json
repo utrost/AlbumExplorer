@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4ec7f27a-ce75-46e6-98fb-ba79a566eb3d?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "iswcs": [],
+  "id": "4ec7f27a-ce75-46e6-98fb-ba79a566eb3d",
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "The Beatles",
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "name": "John Lennon",
+        "sort-name": "Lennon, John",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "The Beatles",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lennon, John",
+        "country": "GB",
+        "name": "John Lennon",
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+      },
+      "attribute-values": {},
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "title": "How?",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "type": "Song"
+}

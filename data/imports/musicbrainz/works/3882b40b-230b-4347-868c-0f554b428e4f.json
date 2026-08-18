@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3882b40b-230b-4347-868c-0f554b428e4f?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "iswcs": [],
+  "id": "3882b40b-230b-4347-868c-0f554b428e4f",
+  "language": "san",
+  "relations": [
+    {
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "“Queen of Pop”",
+        "country": "US",
+        "name": "Madonna",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "sort-name": "Madonna"
+      },
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "type": "writer"
+    },
+    {
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "writer",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "country": "GB",
+        "type": "Person",
+        "disambiguation": "English musician, composer and record producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Orbit, William",
+        "id": "a7412cd0-e0b8-4fa1-8d24-75bb92a84946",
+        "name": "William Orbit"
+      },
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Shanti/Ashtangi",
+  "languages": [
+    "san"
+  ],
+  "type": "Song",
+  "disambiguation": ""
+}

@@ -1,0 +1,48 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/20b62bc7-8997-442e-9cde-7cebca01a085?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-930.320.031-9"
+  ],
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "00000700095727"
+    }
+  ],
+  "disambiguation": "",
+  "id": "20b62bc7-8997-442e-9cde-7cebca01a085",
+  "languages": [
+    "eng"
+  ],
+  "type": "Audio drama",
+  "language": "eng",
+  "relations": [
+    {
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Ice Cube",
+        "sort-name": "Ice Cube",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "begin": null
+    }
+  ],
+  "title": "JD’s Gaffilin’",
+  "type-id": "40ed00fb-cd1d-3de5-afcc-4d08720d63e7"
+}

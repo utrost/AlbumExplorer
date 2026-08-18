@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/319d5bd4-1dee-45e6-9fdd-9a278a3b1127?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "target-credit": "",
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "65380f7e-cb7a-4594-ae44-28ff55160746",
+        "sort-name": "Epworth, Paul",
+        "type": "Person",
+        "name": "Paul Epworth",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "attributes": [],
+      "type": "writer",
+      "attribute-values": {}
+    },
+    {
+      "target-credit": "Christian Boggs",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "writer",
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "country": null,
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "f2f01d9c-fc0e-4b3b-b12b-7efe3c74b897",
+        "sort-name": "Mitus",
+        "name": "Mitus",
+        "type": "Person",
+        "disambiguation": "producer"
+      },
+      "ended": false
+    },
+    {
+      "artist": {
+        "name": "Rihanna",
+        "type": "Person",
+        "sort-name": "Rihanna",
+        "disambiguation": "Barbadian R&B/pop singer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c"
+      },
+      "ended": false,
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "end": null,
+      "type": "writer",
+      "attribute-values": {},
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "Robyn Fenty"
+    },
+    {
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "disambiguation": "English singer",
+        "sort-name": "Welch, Florence",
+        "name": "Florence Welch",
+        "type": "Person",
+        "id": "88798869-338b-418e-9c47-97365444b734",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "type": "writer",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "target-credit": ""
+    }
+  ],
+  "id": "319d5bd4-1dee-45e6-9fdd-9a278a3b1127",
+  "attributes": [],
+  "title": "Goodnight Gotham",
+  "type": "Song",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

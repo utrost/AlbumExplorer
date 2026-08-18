@@ -1,0 +1,68 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/13a8a0c5-7648-4f6a-a7bd-64103509c93b?inc=work-rels&fmt=json",
+  "id": "13a8a0c5-7648-4f6a-a7bd-64103509c93b",
+  "disambiguation": "",
+  "first-release-date": "1971-07-21",
+  "video": false,
+  "title": "After Forever",
+  "length": 327000,
+  "relations": [
+    {
+      "direction": "forward",
+      "source-credit": "",
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "attribute-ids": {},
+      "end": null,
+      "work": {
+        "type": "Song",
+        "id": "fa3d999b-1733-3f6f-a22a-b54f5835ee08",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "title": "After Forever",
+        "language": "eng",
+        "iswcs": [
+          "T-070.003.256-9"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "attributes": [],
+      "target-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work"
+    },
+    {
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "ecce1a1f-de07-340f-8fea-46b20302fe43",
+        "type": "Song",
+        "iswcs": [],
+        "language": "eng",
+        "title": "Lord of This World"
+      },
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "forward"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8aacf2e9-62ab-30a6-b10b-69abf788447d?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID",
+      "value": "001936 212 68"
+    },
+    {
+      "value": "262676",
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "value": "10699424",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "value": "126.286",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "803543"
+    },
+    {
+      "value": "803543",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "2626306",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID",
+      "value": "030080342"
+    },
+    {
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "63 959 715 11"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "141745200"
+    },
+    {
+      "value": "136605X",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "394110-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "959640"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "77687"
+    },
+    {
+      "value": "11183938",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "380232980"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW12052128"
+    },
+    {
+      "value": "2235223",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "value": "145413501",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "value": "4426216",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "id": "8aacf2e9-62ab-30a6-b10b-69abf788447d",
+  "iswcs": [
+    "T-010.169.763-5",
+    "T-070.077.686-8"
+  ],
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "sort-name": "Butler, Geezer",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "name": "Geezer Butler"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "name": "Tony Iommi",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "country": "GB",
+        "sort-name": "Iommi, Tony",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": ""
+    },
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "name": "Ozzy Osbourne",
+        "country": "GB",
+        "sort-name": "Osbourne, Ozzy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attributes": []
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990.",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Ward, Bill",
+        "country": "GB",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "name": "Bill Ward"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "country": "GB",
+        "sort-name": "Butler, Geezer",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "name": "Geezer Butler",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Hand of Doom",
+  "language": "eng"
+}

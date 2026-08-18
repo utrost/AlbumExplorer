@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/af501cd2-7c1a-4b1b-bcb0-e1488bc849f0?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Sky Fits Heaven",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "producer, songwriter and pianist",
+        "id": "47f1c600-2372-45f9-a228-3e9bcf64a083",
+        "name": "Patrick Leonard",
+        "sort-name": "Leonard, Patrick",
+        "country": "US"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "“Queen of Pop”",
+        "name": "Madonna",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "country": "US",
+        "sort-name": "Madonna"
+      },
+      "target-type": "artist"
+    }
+  ],
+  "iswcs": [],
+  "id": "af501cd2-7c1a-4b1b-bcb0-e1488bc849f0",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

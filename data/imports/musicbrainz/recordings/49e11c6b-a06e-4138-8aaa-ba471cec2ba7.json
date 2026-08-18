@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/49e11c6b-a06e-4138-8aaa-ba471cec2ba7?inc=work-rels&fmt=json",
+  "length": 72000,
+  "first-release-date": "2016-01-28",
+  "id": "49e11c6b-a06e-4138-8aaa-ba471cec2ba7",
+  "title": "James Joint",
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type": "performance",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "title": "James Joint",
+        "id": "3dd6cdd7-b1f8-4127-ba7d-1c010329ac61",
+        "attributes": []
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "disambiguation": "explicit"
+}

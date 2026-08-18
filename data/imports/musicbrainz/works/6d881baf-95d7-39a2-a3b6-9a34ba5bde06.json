@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6d881baf-95d7-39a2-a3b6-9a34ba5bde06?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-901.999.562-1"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [],
+  "id": "6d881baf-95d7-39a2-a3b6-9a34ba5bde06",
+  "title": "Settle for Nothing",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Commerford, Tim",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "4d61abe3-ce6d-4383-b2cd-8b4491496549",
+        "type": "Person",
+        "name": "Tim Commerford"
+      },
+      "type": "composer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Morello, Tom",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Tom Morello",
+        "type": "Person",
+        "country": "US",
+        "id": "42a636a0-dbe4-4d0c-abe2-1590fad9531b"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    },
+    {
+      "artist": {
+        "country": "US",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "name": "Zack de la Rocha",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Rocha, Zack de la",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Wilk, Brad",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "b48aebac-8c3e-48aa-b5e6-2b38f30f5f78",
+        "name": "Brad Wilk",
+        "type": "Person"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "artist": {
+        "country": "US",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "name": "Zack de la Rocha",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Rocha, Zack de la",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "lyricist"
+    }
+  ]
+}

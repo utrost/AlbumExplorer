@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b9fda05f-74c3-43b6-ac6f-c894934721de?inc=work-rels&fmt=json",
+  "title": "Countdown",
+  "disambiguation": "studio, 1959-05-04: original mono master recording",
+  "video": false,
+  "length": 141000,
+  "relations": [
+    {
+      "begin": "1959-05-04",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "zxx",
+        "title": "Countdown",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.245.305-1"
+        ],
+        "id": "56642874-0081-3146-9e5c-cd87f4b59541",
+        "languages": [
+          "zxx"
+        ],
+        "attributes": []
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1959-05-04",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "id": "b9fda05f-74c3-43b6-ac6f-c894934721de",
+  "first-release-date": "1960-01-27"
+}

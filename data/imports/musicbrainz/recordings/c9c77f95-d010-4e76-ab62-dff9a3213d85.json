@@ -1,0 +1,68 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c9c77f95-d010-4e76-ab62-dff9a3213d85?inc=work-rels&fmt=json",
+  "title": "You Can’t Fade Me / JD’s Gaffilin’",
+  "relations": [
+    {
+      "work": {
+        "disambiguation": "",
+        "id": "20b62bc7-8997-442e-9cde-7cebca01a085",
+        "attributes": [],
+        "iswcs": [
+          "T-930.320.031-9"
+        ],
+        "type-id": "40ed00fb-cd1d-3de5-afcc-4d08720d63e7",
+        "type": "Audio drama",
+        "languages": [
+          "eng"
+        ],
+        "title": "JD’s Gaffilin’",
+        "language": "eng"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "performance",
+      "begin": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "end": null,
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work"
+    },
+    {
+      "ended": false,
+      "type": "performance",
+      "work": {
+        "id": "9d129f06-867b-40e6-a1f6-e07eca139d1e",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "You Can’t Fade Me",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ]
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "begin": null
+    }
+  ],
+  "disambiguation": "explicit",
+  "video": false,
+  "id": "c9c77f95-d010-4e76-ab62-dff9a3213d85",
+  "length": 312933,
+  "first-release-date": "1990-05-15"
+}

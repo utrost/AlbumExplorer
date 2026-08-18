@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0603ae5b-d99c-4d4b-ace0-1cbe360f1505?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "id": "0603ae5b-d99c-4d4b-ace0-1cbe360f1505",
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "name": "Bibi Bourelly",
+        "id": "92955cd0-0dc7-4be4-90b6-5d69fd299e8c",
+        "sort-name": "Bourelly, Bibi",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "Chauncey Hollis",
+      "artist": {
+        "id": "bf314a8f-5dc6-4dc5-8819-d25b4cc38164",
+        "name": "Hit‐Boy",
+        "sort-name": "Hit‐Boy",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US hip‐hop producer/rapper Chauncey Hollis"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "Robyn Fenty",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Barbadian R&B/pop singer",
+        "name": "Rihanna",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "sort-name": "Rihanna",
+        "country": "US"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "Jacques Webster",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US rapper",
+        "id": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "name": "Travis Scott",
+        "sort-name": "Scott, Travis",
+        "country": "US"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Pose",
+  "type": "Song"
+}

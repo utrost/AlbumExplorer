@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ad766dd3-58b5-39a0-9020-8be72ec1a59f?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "id": "ad766dd3-58b5-39a0-9020-8be72ec1a59f",
+  "attributes": [],
+  "iswcs": [
+    "T-070.248.625-6"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "name": "Tim Commerford",
+        "disambiguation": "",
+        "sort-name": "Commerford, Tim",
+        "id": "4d61abe3-ce6d-4383-b2cd-8b4491496549"
+      },
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "begin": null,
+      "type": "composer",
+      "ended": false,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": ""
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Tom Morello",
+        "disambiguation": "",
+        "sort-name": "Morello, Tom",
+        "id": "42a636a0-dbe4-4d0c-abe2-1590fad9531b",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": ""
+    },
+    {
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "name": "Zack de la Rocha",
+        "disambiguation": "",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "sort-name": "Rocha, Zack de la",
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "begin": null,
+      "type": "composer",
+      "ended": false,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "composer",
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Wilk, Brad",
+        "id": "b48aebac-8c3e-48aa-b5e6-2b38f30f5f78",
+        "disambiguation": "",
+        "name": "Brad Wilk"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "ended": false,
+      "type": "lyricist",
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "name": "Zack de la Rocha",
+        "disambiguation": "",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "sort-name": "Rocha, Zack de la"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {}
+    }
+  ],
+  "language": "eng",
+  "title": "Bombtrack"
+}

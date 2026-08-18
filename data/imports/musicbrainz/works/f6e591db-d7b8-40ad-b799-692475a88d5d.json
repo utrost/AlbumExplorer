@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f6e591db-d7b8-40ad-b799-692475a88d5d?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "id": "f6e591db-d7b8-40ad-b799-692475a88d5d",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "I Don’t Want No Woman",
+  "relations": [
+    {
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Robey, Don",
+        "country": "US",
+        "name": "Don Robey",
+        "id": "2e1620fc-6474-4026-a7d6-f10156965707",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Robey, Don",
+        "name": "Don Robey",
+        "id": "2e1620fc-6474-4026-a7d6-f10156965707"
+      },
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null
+    }
+  ],
+  "disambiguation": ""
+}

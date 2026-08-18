@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b16b3a84-c890-4d3a-aee8-2020c525b244?inc=work-rels&fmt=json",
+  "length": 364000,
+  "first-release-date": "1992-11-06",
+  "id": "b16b3a84-c890-4d3a-aee8-2020c525b244",
+  "title": "Wake Up",
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-901.998.743-0"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "fdd71455-4142-378d-9cfe-304512c30c8b",
+        "title": "Wake Up",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      }
+    }
+  ],
+  "disambiguation": ""
+}

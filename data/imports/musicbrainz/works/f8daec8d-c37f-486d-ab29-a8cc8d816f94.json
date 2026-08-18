@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f8daec8d-c37f-486d-ab29-a8cc8d816f94?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Gallagher, Noel",
+        "type": "Person",
+        "name": "Noel Gallagher",
+        "disambiguation": "",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d"
+      },
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "type": "lyricist",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "name": "Noel Gallagher",
+        "type": "Person",
+        "sort-name": "Gallagher, Noel",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "attributes": [],
+  "id": "f8daec8d-c37f-486d-ab29-a8cc8d816f94",
+  "title": "Married With Children",
+  "iswcs": [
+    "T-011.476.573-9"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

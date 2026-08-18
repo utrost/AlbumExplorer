@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/87e571cc-29d3-48b5-9746-3b74ae082680?inc=work-rels&fmt=json",
+  "first-release-date": "1994-01-04",
+  "id": "87e571cc-29d3-48b5-9746-3b74ae082680",
+  "title": "Up in the Sky",
+  "length": 268866,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-011.476.579-5"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "210592da-667a-4212-bcbd-3ed245d544f6",
+        "title": "Up in the Sky",
+        "attributes": []
+      }
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

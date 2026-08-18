@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e4f10aea-d030-4c13-a09a-832504ef2a5e?inc=work-rels&fmt=json",
+  "first-release-date": "1956-03",
+  "id": "e4f10aea-d030-4c13-a09a-832504ef2a5e",
+  "relations": [
+    {
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "direction": "forward",
+      "ended": false,
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "bd8f1069-d8a8-432b-a905-8eb2fef0120c",
+        "iswcs": [
+          "T-070.243.671-2"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Slippin’ and Slidin’",
+        "language": "eng"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance"
+    }
+  ],
+  "video": false,
+  "length": 145000,
+  "disambiguation": "master",
+  "title": "Slippin’ and Slidin’ (Peepin’ and Hidin’)"
+}

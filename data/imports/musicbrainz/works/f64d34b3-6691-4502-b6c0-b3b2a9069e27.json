@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f64d34b3-6691-4502-b6c0-b3b2a9069e27?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "f64d34b3-6691-4502-b6c0-b3b2a9069e27",
+  "iswcs": [
+    "T-011.476.570-6"
+  ],
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "name": "Noel Gallagher",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "country": "GB",
+        "sort-name": "Gallagher, Noel",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Gallagher, Noel",
+        "country": "GB",
+        "name": "Noel Gallagher",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {}
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Digsy’s Dinner"
+}

@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/24d32691-e26d-32fb-8f6f-46c2688e348d?inc=artist-rels&fmt=json",
+  "type-id": null,
+  "iswcs": [],
+  "relations": [
+    {
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": "",
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "attributes": [],
+      "artist": {
+        "disambiguation": "US soul singer, songwriter & producer",
+        "sort-name": "D’Angelo",
+        "name": "D’Angelo",
+        "type": "Person",
+        "id": "b66771cc-45fa-4a32-b14f-5337d7223d7a",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer"
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Archer, Luther",
+        "name": "Luther Archer",
+        "type": "Person",
+        "id": "5ff96870-4ef2-4a5b-9bee-c2e14989eb30",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "title": "Smooth",
+  "attributes": [],
+  "id": "24d32691-e26d-32fb-8f6f-46c2688e348d",
+  "type": null,
+  "language": null,
+  "disambiguation": "",
+  "languages": []
+}

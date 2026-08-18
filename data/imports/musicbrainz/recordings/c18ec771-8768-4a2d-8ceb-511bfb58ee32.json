@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c18ec771-8768-4a2d-8ceb-511bfb58ee32?inc=work-rels&fmt=json",
+  "id": "c18ec771-8768-4a2d-8ceb-511bfb58ee32",
+  "first-release-date": "1957-03",
+  "title": "Baby",
+  "disambiguation": "master",
+  "length": 124000,
+  "video": false,
+  "relations": [
+    {
+      "work": {
+        "disambiguation": "Don't You Want a Man Like Me",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Baby",
+        "type": "Song",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [],
+        "id": "52eb9c2e-03be-4f0c-a8da-f96eb04b2c7d"
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "forward",
+      "begin": "1955-09-14",
+      "ended": true,
+      "end": "1955-09-14",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work"
+    }
+  ]
+}

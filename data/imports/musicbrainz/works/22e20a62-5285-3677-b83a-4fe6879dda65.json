@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/22e20a62-5285-3677-b83a-4fe6879dda65?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Rock ’n’ Roll Star",
+  "language": "eng",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "name": "Noel Gallagher",
+        "country": "GB",
+        "sort-name": "Gallagher, Noel"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "sort-name": "Gallagher, Noel",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "name": "Noel Gallagher"
+      },
+      "attribute-values": {},
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "iswcs": [
+    "T-011.476.574-0"
+  ],
+  "id": "22e20a62-5285-3677-b83a-4fe6879dda65",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

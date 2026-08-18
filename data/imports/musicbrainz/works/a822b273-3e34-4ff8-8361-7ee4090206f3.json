@@ -1,0 +1,163 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a822b273-3e34-4ff8-8361-7ee4090206f3?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "title": "Desperado",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "begin": null,
+      "artist": {
+        "name": "BANKS",
+        "id": "faa28a33-5470-4b90-90c3-e71955d93a44",
+        "sort-name": "BANKS",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US singer/songwriter Jillian Banks",
+        "country": "US"
+      },
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "target-credit": "Jillian Banks",
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer"
+    },
+    {
+      "attribute-ids": {},
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "James Fauntleroy",
+        "id": "4e481ad9-aa5d-4a1a-b2fc-444c0ad48b7e",
+        "sort-name": "Fauntleroy, James"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "name": "Derrus Rachel",
+        "id": "5543cd43-6c21-4919-9395-a0945ade5364",
+        "sort-name": "Rachel, Derrus",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null
+      },
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type": "writer",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "attribute-ids": {},
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "Robyn Fenty",
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Barbadian R&B/pop singer",
+        "country": "US",
+        "name": "Rihanna",
+        "sort-name": "Rihanna",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c"
+      },
+      "source-credit": "",
+      "begin": null
+    },
+    {
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "writer",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "sort-name": "Schultz, Mick",
+        "id": "e2df4579-cae3-4b7a-97c3-49e0ff30b2bf",
+        "name": "Mick Schultz",
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "attribute-ids": {},
+      "type": "writer",
+      "target-credit": "Krystin “Rook Monroe” Watkins",
+      "attribute-values": {},
+      "ended": false,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "artist": {
+        "name": "Krystin Watkins",
+        "sort-name": "Watkins, Krystin",
+        "id": "389c1474-5787-4606-bde5-2369e415f04e",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null
+      },
+      "begin": null
+    }
+  ],
+  "language": "eng",
+  "id": "a822b273-3e34-4ff8-8361-7ee4090206f3",
+  "iswcs": [
+    "T-918.727.626-2"
+  ],
+  "attributes": [
+    {
+      "value": "16460179-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    }
+  ]
+}

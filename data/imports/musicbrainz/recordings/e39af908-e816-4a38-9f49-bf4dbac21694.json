@@ -1,0 +1,68 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e39af908-e816-4a38-9f49-bf4dbac21694?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "title": "Children of the Grave",
+        "id": "08b8087b-a576-3fe7-a37f-bc35ceaea292",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.028.005-2"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "iswcs": [],
+        "languages": [
+          "zxx"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "e8538a91-a5f7-4728-9429-1d89129d5a79",
+        "title": "Embryo",
+        "attributes": [],
+        "type": "Song",
+        "language": "zxx"
+      }
+    }
+  ],
+  "video": false,
+  "length": 300040,
+  "id": "e39af908-e816-4a38-9f49-bf4dbac21694",
+  "title": "Children of the Grave",
+  "first-release-date": "1971"
+}

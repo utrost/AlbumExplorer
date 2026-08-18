@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/478c5ef7-d20a-3853-b059-c05c47733bc7?inc=artist-rels&fmt=json",
+  "id": "478c5ef7-d20a-3853-b059-c05c47733bc7",
+  "title": "Township Rebellion",
+  "attributes": [],
+  "relations": [
+    {
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "sort-name": "Commerford, Tim",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Tim Commerford",
+        "country": "US",
+        "id": "4d61abe3-ce6d-4383-b2cd-8b4491496549"
+      }
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "country": "US",
+        "id": "42a636a0-dbe4-4d0c-abe2-1590fad9531b",
+        "type": "Person",
+        "name": "Tom Morello",
+        "disambiguation": "",
+        "sort-name": "Morello, Tom",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "composer",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Rocha, Zack de la",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "country": "US",
+        "type": "Person",
+        "name": "Zack de la Rocha"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "id": "b48aebac-8c3e-48aa-b5e6-2b38f30f5f78",
+        "country": "US",
+        "name": "Brad Wilk",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Wilk, Brad"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "type": "lyricist",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "country": "US",
+        "name": "Zack de la Rocha",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Rocha, Zack de la"
+      }
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-902.000.146-1"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

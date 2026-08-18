@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/20ca09ca-6d25-40f8-9488-ea1c12836fa2?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "attributes": [],
+        "title": "Needed Me",
+        "id": "f17c8539-e346-48e2-b75a-39dc5b4d1893",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-061.662.565-0"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "title": "Needed Me",
+  "id": "20ca09ca-6d25-40f8-9488-ea1c12836fa2",
+  "first-release-date": "2016-01-28",
+  "length": 191600,
+  "disambiguation": "explicit"
+}

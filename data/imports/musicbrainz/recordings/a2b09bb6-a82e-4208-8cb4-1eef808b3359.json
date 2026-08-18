@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a2b09bb6-a82e-4208-8cb4-1eef808b3359?inc=work-rels&fmt=json",
+  "id": "a2b09bb6-a82e-4208-8cb4-1eef808b3359",
+  "video": false,
+  "disambiguation": "",
+  "first-release-date": "1979-06-15",
+  "length": 352693,
+  "relations": [
+    {
+      "work": {
+        "disambiguation": "",
+        "id": "b081d632-52f3-31e7-baf1-cfc6ac8dfdff",
+        "attributes": [],
+        "iswcs": [
+          "T-010.185.665-8"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "title": "I Remember Nothing",
+        "language": "eng"
+      },
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "ended": true,
+      "type": "performance",
+      "begin": "1979-04-01",
+      "end": "1979-04-17",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "attribute-values": {},
+      "target-type": "work"
+    }
+  ],
+  "title": "I Remember Nothing"
+}

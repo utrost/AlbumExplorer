@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/649b6d16-68af-4bb5-9da9-3819758a01dc?inc=work-rels&fmt=json",
+  "length": 237947,
+  "first-release-date": "2016-01-28",
+  "id": "649b6d16-68af-4bb5-9da9-3819758a01dc",
+  "title": "Close to You",
+  "disambiguation": "",
+  "video": false,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "begin": null,
+      "target-type": "work",
+      "end": null,
+      "direction": "forward",
+      "attributes": [],
+      "type": "performance",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "iswcs": [],
+        "attributes": [],
+        "id": "e8ffc99f-d230-4c7b-9fff-5d3e5947fb8e",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "title": "Close to You"
+      }
+    }
+  ]
+}

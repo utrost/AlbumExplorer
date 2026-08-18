@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3daf86f3-f77b-43ec-b99b-af45a59ba418?inc=work-rels&fmt=json",
+  "id": "3daf86f3-f77b-43ec-b99b-af45a59ba418",
+  "first-release-date": "1955-10",
+  "title": "Tutti Frutti",
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1955-09-14",
+      "ended": true,
+      "work": {
+        "id": "c3fe1dc6-21aa-3d8d-9cde-df8524fbc83c",
+        "iswcs": [
+          "T-070.247.531-7",
+          "T-917.601.661-8"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "title": "Tutti Frutti",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "end": "1955-09-14",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "length": 144640,
+  "video": false,
+  "disambiguation": "original specialty recording (1955)"
+}

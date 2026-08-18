@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/887d5e34-9228-4c9d-ba6a-2df078ee1c6c?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "title": "Little Boy Blue",
+        "id": "cead7af2-d96a-42bc-885d-27bde10c7cea",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ],
+  "length": 158733,
+  "id": "887d5e34-9228-4c9d-ba6a-2df078ee1c6c",
+  "title": "Little Boy Blue",
+  "first-release-date": "1961"
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3c25c32c-947a-405b-918a-596d1f202c7a?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [],
+  "id": "3c25c32c-947a-405b-918a-596d1f202c7a",
+  "title": "Little Star",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Madonna",
+        "disambiguation": "“Queen of Pop”",
+        "type": "Person",
+        "name": "Madonna",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "country": "US"
+      },
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Nowels, Rick",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Rick Nowels",
+        "country": "US",
+        "id": "035bc391-d7dd-4a68-8321-fa1e02697fc8"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    }
+  ]
+}

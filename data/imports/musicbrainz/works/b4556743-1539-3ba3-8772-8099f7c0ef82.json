@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b4556743-1539-3ba3-8772-8099f7c0ef82?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "b4556743-1539-3ba3-8772-8099f7c0ef82",
+  "iswcs": [
+    "T-700.075.292-3"
+  ],
+  "relations": [
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "sort-name": "Brown, John Riley",
+        "country": "US",
+        "name": "John Riley Brown",
+        "id": "17616949-debe-4ec7-bdc6-317445308686",
+        "disambiguation": "aka Texas Johnny Brown",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "target-credit": "Deadric Malone",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "2e1620fc-6474-4026-a7d6-f10156965707",
+        "name": "Don Robey",
+        "sort-name": "Robey, Don",
+        "country": "US"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Two Steps From the Blues",
+  "language": "eng"
+}

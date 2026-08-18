@@ -1,0 +1,215 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b3c34cc3-aadd-3469-9907-199e3c402ab8?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "type": "Person",
+        "sort-name": "Collins, David",
+        "id": "e1e03c18-b4ce-41ff-850a-c9b276a3035d",
+        "disambiguation": "Writer of Drowned World/Substitute for Love",
+        "name": "David Collins"
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "writer"
+    },
+    {
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "id": "5061911c-56ff-4967-9cbc-de1601beea96",
+        "sort-name": "Kerr, Anita",
+        "disambiguation": "",
+        "name": "Anita Kerr",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "sort-name": "Madonna",
+        "disambiguation": "“Queen of Pop”",
+        "name": "Madonna"
+      },
+      "attributes": [],
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "source-credit": "",
+      "ended": false,
+      "type": "writer"
+    },
+    {
+      "type": "writer",
+      "ended": false,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "name": "Rod McKuen",
+        "disambiguation": "",
+        "id": "a12980dd-8cf1-4802-84e3-32c08560cf49",
+        "sort-name": "McKuen, Rod"
+      },
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "begin": null
+    },
+    {
+      "begin": null,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "sort-name": "Orbit, William",
+        "id": "a7412cd0-e0b8-4fa1-8d24-75bb92a84946",
+        "name": "William Orbit",
+        "disambiguation": "English musician, composer and record producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "type": "Person"
+      },
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "ended": false,
+      "type": "writer"
+    }
+  ],
+  "title": "Drowned World/Substitute for Love",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "002764 460 47",
+      "type": "SUISA ID"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "3.624.355"
+    },
+    {
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290",
+      "value": "46859886",
+      "type": "SESAC ID"
+    },
+    {
+      "value": "2953834",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "2953834",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "3509571",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "522509300"
+    },
+    {
+      "type": "PRS tune code",
+      "value": "4999DN",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "I000.57.18.62",
+      "type-id": "2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e",
+      "type": "OSA ID"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "4300747-001"
+    },
+    {
+      "value": "W-002194418",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "value": "340414368",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "value": "GW15380570",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "value": "2798587",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "291721401",
+      "type": "AKM ID"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "6156896"
+    }
+  ],
+  "iswcs": [
+    "T-900.087.964-1"
+  ],
+  "disambiguation": "",
+  "id": "b3c34cc3-aadd-3469-9907-199e3c402ab8"
+}

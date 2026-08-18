@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/83d49988-7e7d-4443-a233-4ccf793ab81a?inc=artist-rels&fmt=json",
+  "id": "83d49988-7e7d-4443-a233-4ccf793ab81a",
+  "disambiguation": "",
+  "iswcs": [
+    "T-011.476.568-2"
+  ],
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "country": "GB",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Gallagher, Noel",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "name": "Noel Gallagher",
+        "disambiguation": ""
+      },
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "type": "composer",
+      "ended": false
+    },
+    {
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "lyricist",
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "name": "Noel Gallagher",
+        "disambiguation": "",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "sort-name": "Gallagher, Noel"
+      },
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {}
+    }
+  ],
+  "title": "Bring It On Down",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song"
+}

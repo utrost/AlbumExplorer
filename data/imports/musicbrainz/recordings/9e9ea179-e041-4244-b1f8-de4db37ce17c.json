@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9e9ea179-e041-4244-b1f8-de4db37ce17c?inc=work-rels&fmt=json",
+  "length": 163000,
+  "video": false,
+  "disambiguation": "album version",
+  "relations": [
+    {
+      "begin": "1960-11-12",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "iswcs": [
+          "T-071.346.663-7"
+        ],
+        "id": "817eecd0-ae6c-3c2f-934c-b91e4e8b3458",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "I Pity the Fool",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "end": "1960-11-12",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "title": "I Pity the Fool",
+  "first-release-date": "1961",
+  "id": "9e9ea179-e041-4244-b1f8-de4db37ce17c"
+}

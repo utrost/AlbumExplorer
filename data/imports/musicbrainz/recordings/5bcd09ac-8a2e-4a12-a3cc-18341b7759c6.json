@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5bcd09ac-8a2e-4a12-a3cc-18341b7759c6?inc=work-rels&fmt=json",
+  "first-release-date": "1992-11-06",
+  "id": "5bcd09ac-8a2e-4a12-a3cc-18341b7759c6",
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1991",
+      "ended": true,
+      "direction": "forward",
+      "begin": "1991",
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Bombtrack",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "ad766dd3-58b5-39a0-9020-8be72ec1a59f",
+        "iswcs": [
+          "T-070.248.625-6"
+        ]
+      }
+    }
+  ],
+  "disambiguation": "",
+  "video": false,
+  "length": 244493,
+  "title": "Bombtrack"
+}

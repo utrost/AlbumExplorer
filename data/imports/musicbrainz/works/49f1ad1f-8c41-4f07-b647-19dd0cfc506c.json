@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/49f1ad1f-8c41-4f07-b647-19dd0cfc506c?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "name": "Madonna",
+        "type": "Person",
+        "disambiguation": "“Queen of Pop”",
+        "sort-name": "Madonna",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Melvoin, Susannah",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "b02d3739-af33-4a8d-94a6-13a093414d08",
+        "type": "Person",
+        "name": "Susannah Melvoin"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "a7412cd0-e0b8-4fa1-8d24-75bb92a84946",
+        "country": "GB",
+        "name": "William Orbit",
+        "type": "Person",
+        "disambiguation": "English musician, composer and record producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Orbit, William"
+      }
+    }
+  ],
+  "type": "Song",
+  "attributes": [],
+  "title": "Candy Perfume Girl",
+  "id": "49f1ad1f-8c41-4f07-b647-19dd0cfc506c"
+}

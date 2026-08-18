@@ -1,0 +1,74 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/9e29408a-8b8e-4a49-9d08-1765f263f28d?inc=work-rels&fmt=json",
+  "id": "9e29408a-8b8e-4a49-9d08-1765f263f28d",
+  "first-release-date": "1975-04-08",
+  "title": "Big Ten Inch Record",
+  "length": 135000,
+  "video": false,
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "e7a7b706-1876-35eb-91ce-bd12c2c4d31f",
+        "iswcs": [
+          "T-070.014.965-0"
+        ],
+        "disambiguation": "",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Big Ten Inch Record",
+        "type": "Song"
+      },
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {}
+    },
+    {
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "direction": "forward",
+      "ended": false,
+      "work": {
+        "disambiguation": "",
+        "title": "Big Ten Inch Record",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.014.965-0"
+        ],
+        "id": "e7a7b706-1876-35eb-91ce-bd12c2c4d31f"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance"
+    }
+  ]
+}

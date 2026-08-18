@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f861ba2d-53c5-49e1-8edc-514cc6ff852f?inc=work-rels&fmt=json",
+  "id": "f861ba2d-53c5-49e1-8edc-514cc6ff852f",
+  "first-release-date": "1960-01-27",
+  "title": "Mr. P.C.",
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1959-05-05",
+      "ended": true,
+      "begin": "1959-05-05",
+      "direction": "forward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "type-id": null,
+        "language": "zxx",
+        "title": "Mr. P.C.",
+        "type": null,
+        "disambiguation": "",
+        "id": "aac2b2ad-8e45-3abf-8532-d2abd8079b79",
+        "iswcs": [
+          "T-070.242.324-2"
+        ],
+        "attributes": [],
+        "languages": [
+          "zxx"
+        ]
+      }
+    }
+  ],
+  "disambiguation": "studio, 1959-05-05: original mono master recording",
+  "length": 417000,
+  "video": false
+}

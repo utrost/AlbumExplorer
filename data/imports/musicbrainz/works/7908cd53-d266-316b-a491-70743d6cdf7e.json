@@ -1,0 +1,208 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7908cd53-d266-316b-a491-70743d6cdf7e?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "name": "Geezer Butler",
+        "type": "Person",
+        "country": "GB",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "sort-name": "Butler, Geezer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "GB",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "name": "Tony Iommi",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Iommi, Tony",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "country": "GB",
+        "type": "Person",
+        "name": "Ozzy Osbourne",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Osbourne, Ozzy"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Ward, Bill",
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990.",
+        "type": "Person",
+        "name": "Bill Ward",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "country": "GB"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer"
+    }
+  ],
+  "language": "eng",
+  "id": "7908cd53-d266-316b-a491-70743d6cdf7e",
+  "title": "Solitude",
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "001936 214 64"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "262947"
+    },
+    {
+      "value": "28451802",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID"
+    },
+    {
+      "type": "SGAE ID",
+      "value": "74.330",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "930415"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "930415",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "2360751",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "type": "SACM ID",
+      "value": "109933858",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "68 462 610 11"
+    },
+    {
+      "type": "SABAM ID",
+      "value": "218648200",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "1847FQ"
+    },
+    {
+      "value": "396642-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type": "ECAD ID",
+      "value": "1194112",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "141456"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000072292",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "490292976",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "2289259",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "24545901"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4625079"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-010.447.558-2",
+    "T-070.141.455-2"
+  ],
+  "disambiguation": ""
+}

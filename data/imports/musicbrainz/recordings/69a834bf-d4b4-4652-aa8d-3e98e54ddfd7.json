@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/69a834bf-d4b4-4652-aa8d-3e98e54ddfd7?inc=work-rels&fmt=json",
+  "length": 196493,
+  "id": "69a834bf-d4b4-4652-aa8d-3e98e54ddfd7",
+  "first-release-date": "1990-05-15",
+  "title": "A Gangsta’s Fairytale",
+  "video": false,
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "4af77d2a-8f96-4d0e-a274-a6211521a59f",
+        "title": "A Gangsta’s Fairytale",
+        "attributes": []
+      },
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    }
+  ],
+  "disambiguation": "explicit"
+}

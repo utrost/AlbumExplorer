@@ -1,0 +1,261 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4679e271-b7c1-3331-882e-2a173f2001e4?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": "1955-11-29",
+      "ended": true,
+      "end": "1955-11-29",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "artist": {
+        "id": "44389e9f-8ae9-40ff-8645-d082a9109e72",
+        "name": "Robert “Bumps” Blackwell",
+        "sort-name": "Blackwell, Robert “Bumps”",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "Robert Alexander Blackwell",
+      "attributes": [],
+      "target-type": "artist"
+    },
+    {
+      "ended": true,
+      "begin": "1955-11-29",
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "e4eb9c22-c61f-4363-8617-ba22f3efdc01",
+        "name": "Enotris Johnson",
+        "country": "US",
+        "sort-name": "Johnson, Enotris"
+      },
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": "1955-11-29"
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": true,
+      "direction": "backward",
+      "begin": "1955-11-29",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": "1955-11-29",
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "Richard Wayne Penniman",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Little Richard",
+        "name": "Little Richard",
+        "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be"
+      },
+      "attributes": []
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Long Tall Sally",
+  "language": "eng",
+  "attributes": [
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "579181EN"
+    },
+    {
+      "value": "4055378",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "type": "SPAC ID"
+    },
+    {
+      "value": "4055378",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "type": "SOBODAYCOM ID"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID",
+      "value": "66100582000"
+    },
+    {
+      "value": "4055378",
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "type": "SGACEDOM ID"
+    },
+    {
+      "type": "SACIM ID",
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "value": "4055378"
+    },
+    {
+      "value": "4055378",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+      "type": "NICAUTOR ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "33187644"
+    },
+    {
+      "value": "6633250",
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    },
+    {
+      "value": "4055378",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "type": "AEI ID"
+    },
+    {
+      "value": "4055378",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "type": "AACIMH ID"
+    },
+    {
+      "value": "4055378",
+      "type": "ACAM ID",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+    },
+    {
+      "value": "AWK701114",
+      "type": "AMRA ID",
+      "type-id": "46f95ee0-123f-4f8e-8ccc-54c7c652dda0"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW02783604"
+    },
+    {
+      "value": "897826",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID"
+    },
+    {
+      "value": "W-000123709",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "value": "1973669",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "8503182",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "9244124",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "10083406"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "6293543"
+    },
+    {
+      "value": "3442FR",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "276895LS"
+    },
+    {
+      "value": "704193400",
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "value": "65 146 190 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID",
+      "value": "013664108"
+    },
+    {
+      "value": "3271480",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID",
+      "value": "918768"
+    },
+    {
+      "value": "622170",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "622170",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "value": "14.847",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "value": "12287858",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "value": "6496",
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000026 299 06"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "id": "4679e271-b7c1-3331-882e-2a173f2001e4",
+  "iswcs": [
+    "T-030.546.594-4",
+    "T-320.379.096-5",
+    "T-913.970.386-9"
+  ]
+}

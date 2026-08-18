@@ -1,0 +1,92 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/55a7e31f-da75-4b86-b54f-fc765e871559?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "title": "Love on the Brain",
+  "attributes": [
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "14394663-001"
+    }
+  ],
+  "id": "55a7e31f-da75-4b86-b54f-fc765e871559",
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "id": "84dcf9b5-e200-44d3-888d-f5599a63c0fe",
+        "name": "Joseph Angel",
+        "type": "Person",
+        "sort-name": "Angel, Joseph",
+        "disambiguation": ""
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "end": null,
+      "attributes": [],
+      "artist": {
+        "name": "Fred Ball",
+        "type": "Person",
+        "sort-name": "Ball, Fred",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "NO",
+        "id": "13c74252-ddd1-4f12-92e8-dc547f387ee3"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "target-credit": ""
+    },
+    {
+      "target-credit": "Robyn Fenty",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "name": "Rihanna",
+        "sort-name": "Rihanna",
+        "disambiguation": "Barbadian R&B/pop singer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c"
+      },
+      "ended": false
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": []
+}

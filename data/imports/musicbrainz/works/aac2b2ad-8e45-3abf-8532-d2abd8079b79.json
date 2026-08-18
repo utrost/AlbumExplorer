@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/aac2b2ad-8e45-3abf-8532-d2abd8079b79?inc=artist-rels&fmt=json",
+  "language": "zxx",
+  "attributes": [],
+  "iswcs": [
+    "T-070.242.324-2"
+  ],
+  "id": "aac2b2ad-8e45-3abf-8532-d2abd8079b79",
+  "type-id": null,
+  "title": "Mr. P.C.",
+  "type": null,
+  "languages": [
+    "zxx"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "composer",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "artist": {
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "name": "John Coltrane",
+        "id": "b625448e-bf4a-41c3-a421-72ad46cdb831",
+        "sort-name": "Coltrane, John"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "type": "named after artist",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {},
+      "type-id": "e9823163-51a2-4ce8-95e9-4257dec92ee2",
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US jazz bassist",
+        "sort-name": "Chambers, Paul",
+        "id": "b6ff4fd0-03ae-41a6-942e-7de13124b970",
+        "name": "Paul Chambers"
+      },
+      "source-credit": "",
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attributes": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/04913868-2b04-4fa1-a737-bb1383d3ffa3?inc=work-rels&fmt=json",
+  "first-release-date": "1971-09-09",
+  "video": false,
+  "disambiguation": "original studio mix",
+  "title": "Gimme Some Truth",
+  "id": "04913868-2b04-4fa1-a737-bb1383d3ffa3",
+  "length": 195333,
+  "relations": [
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "begin": "1971-05-25",
+      "target-type": "work",
+      "attribute-ids": {},
+      "type": "performance",
+      "attribute-values": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-900.012.654-5",
+          "T-903.042.552-6"
+        ],
+        "title": "Gimme Some Truth",
+        "attributes": [],
+        "id": "e9819ea5-b2f0-37dc-aeb6-c670d06643e4",
+        "type": "Song",
+        "disambiguation": "",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ]
+      },
+      "end": "1971-07-05",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "ended": true,
+      "attributes": []
+    }
+  ]
+}

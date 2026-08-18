@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/1570c1cf-8868-430b-b28e-c77bdf27b2c2?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "iswcs": [
+    "T-902.827.012-4"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "00000690511823"
+    }
+  ],
+  "title": "It’s a Man’s World",
+  "id": "1570c1cf-8868-430b-b28e-c77bdf27b2c2",
+  "language": "eng",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Sir Jinx",
+        "id": "e17b5852-c397-4b18-8f38-2384dc2c69ef",
+        "country": "US",
+        "name": "Sir Jinx",
+        "type": "Person"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "name": "Ice Cube",
+        "type": "Person",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Ice Cube",
+        "disambiguation": ""
+      },
+      "type": "lyricist",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    }
+  ],
+  "type": "Song"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/34cbc1ea-2ce8-4979-9cfa-63c0f13b830e?inc=work-rels&fmt=json",
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type": "performance",
+      "begin": "1959-05-04",
+      "attribute-ids": {},
+      "end": "1959-05-04",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "work": {
+        "id": "48ab39af-2662-391b-822c-d57d9315daf9",
+        "title": "Cousin Mary",
+        "attributes": [],
+        "type": "Song",
+        "language": "zxx",
+        "languages": [
+          "zxx"
+        ],
+        "iswcs": [
+          "T-070.245.645-8"
+        ],
+        "disambiguation": "original instrumental version",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "length": 345000,
+  "first-release-date": "1960-01-27",
+  "id": "34cbc1ea-2ce8-4979-9cfa-63c0f13b830e",
+  "title": "Cousin Mary",
+  "disambiguation": "studio, 1959-05-04: original album mono recording"
+}

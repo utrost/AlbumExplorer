@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c67abe29-533f-4354-b818-c20168d215d0?inc=work-rels&fmt=json",
+  "id": "c67abe29-533f-4354-b818-c20168d215d0",
+  "first-release-date": "1979-06-15",
+  "title": "Insight",
+  "length": 268000,
+  "video": false,
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1979-04-17",
+      "ended": true,
+      "direction": "forward",
+      "begin": "1979-04-01",
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "c1d9a671-c4cc-3a13-8ad2-dd632ffecfad",
+        "iswcs": [
+          "T-010.185.666-9"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Insight",
+        "type": "Song"
+      }
+    }
+  ]
+}

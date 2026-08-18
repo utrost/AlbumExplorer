@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/07a0af29-83d0-41e1-b7dc-c0dfc1efd5e7?inc=artist-rels&fmt=json",
+  "id": "07a0af29-83d0-41e1-b7dc-c0dfc1efd5e7",
+  "title": "Oh Why?",
+  "attributes": [],
+  "type": "Song",
+  "relations": [
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Scott, William L.",
+        "id": "e4692f49-44c4-4192-8fd4-a268e0949296",
+        "country": "US",
+        "type": "Person",
+        "name": "William L. Scott"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null
+    },
+    {
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Scott, William L.",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "William L. Scott",
+        "id": "e4692f49-44c4-4192-8fd4-a268e0949296",
+        "country": "US"
+      }
+    }
+  ],
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

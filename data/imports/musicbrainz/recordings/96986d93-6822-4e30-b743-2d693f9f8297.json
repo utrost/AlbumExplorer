@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/96986d93-6822-4e30-b743-2d693f9f8297?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "iswcs": [
+          "T-011.476.568-2"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "83d49988-7e7d-4443-a233-4ccf793ab81a",
+        "title": "Bring It On Down",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      }
+    }
+  ],
+  "video": false,
+  "length": 257826,
+  "id": "96986d93-6822-4e30-b743-2d693f9f8297",
+  "title": "Bring It On Down",
+  "first-release-date": "1994-01-04",
+  "disambiguation": ""
+}

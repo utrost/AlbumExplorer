@@ -1,0 +1,155 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5839ba29-74c5-4aa5-bf2f-96c2e081132e?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Boi‐1da",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "producer",
+        "name": "Boi‐1da",
+        "type": "Person",
+        "country": "CA",
+        "id": "99d40e84-b385-4185-a309-7c5d29b9c612"
+      },
+      "attribute-values": {},
+      "target-credit": "Matthew Samuels",
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "name": "Junior Braithwaite",
+        "country": "JM",
+        "id": "2736c64a-80fe-4bcd-95b7-3199b8d65707",
+        "sort-name": "Braithwaite, Junior",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "Adam Feeney",
+      "artist": {
+        "name": "Frank Dukes",
+        "type": "Person",
+        "id": "fb7d550f-7518-41ba-95db-33db5287d8e2",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Frank Dukes",
+        "disambiguation": "Canadian record producer, songwriter, musician"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "Sex with Me song",
+        "sort-name": "Hansen, Chris",
+        "type-id": null,
+        "country": null,
+        "id": "31ac3012-4769-46f4-8d68-e94a080d61cc",
+        "name": "Chris Hansen",
+        "type": null
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "target-credit": "Robyn Fenty",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "Barbadian R&B/pop singer",
+        "sort-name": "Rihanna",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "type": "Person",
+        "name": "Rihanna"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "artist": {
+        "disambiguation": "US hip hop producer & songwriter",
+        "sort-name": "Vinylz",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "60bec7fc-22ad-4597-a928-781c576ebccd",
+        "name": "Vinylz",
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "Anderson Hernandez",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer"
+    }
+  ],
+  "attributes": [],
+  "title": "Sex With Me",
+  "id": "5839ba29-74c5-4aa5-bf2f-96c2e081132e"
+}

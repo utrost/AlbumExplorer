@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/19be61ff-16b7-4fe1-b58e-9d8bad59a28a?inc=work-rels&fmt=json",
+  "video": false,
+  "first-release-date": "1960-01-27",
+  "disambiguation": "studio, 1959-05-05: original album mono recording",
+  "relations": [
+    {
+      "begin": "1959-05-05",
+      "target-type": "work",
+      "attribute-ids": {},
+      "direction": "forward",
+      "target-credit": "",
+      "attributes": [],
+      "ended": true,
+      "source-credit": "",
+      "end": "1959-05-05",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "language": "zxx",
+        "languages": [
+          "zxx"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.234.217-3"
+        ],
+        "title": "Giant Steps",
+        "attributes": [],
+        "id": "c53130a9-3173-37d2-bedd-f7b6a2e17b89"
+      },
+      "attribute-values": {},
+      "type": "performance"
+    }
+  ],
+  "length": 283000,
+  "id": "19be61ff-16b7-4fe1-b58e-9d8bad59a28a",
+  "title": "Giant Steps"
+}

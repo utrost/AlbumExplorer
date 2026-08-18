@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b3e5952c-81e3-3a64-b465-37f8fb1d711a?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-901.997.245-3"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "artist": {
+        "type": "Person",
+        "name": "Tim Commerford",
+        "country": "US",
+        "id": "4d61abe3-ce6d-4383-b2cd-8b4491496549",
+        "sort-name": "Commerford, Tim",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "name": "Tom Morello",
+        "country": "US",
+        "id": "42a636a0-dbe4-4d0c-abe2-1590fad9531b",
+        "sort-name": "Morello, Tom",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      }
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "sort-name": "Rocha, Zack de la",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Zack de la Rocha",
+        "type": "Person",
+        "country": "US",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "name": "Brad Wilk",
+        "country": "US",
+        "id": "b48aebac-8c3e-48aa-b5e6-2b38f30f5f78",
+        "sort-name": "Wilk, Brad",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "country": "US",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "name": "Zack de la Rocha",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Rocha, Zack de la",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type": "lyricist",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    }
+  ],
+  "language": "eng",
+  "id": "b3e5952c-81e3-3a64-b465-37f8fb1d711a",
+  "title": "Know Your Enemy",
+  "attributes": []
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3f3caa31-b454-4179-820e-af0ae76c140d?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "title": "Nothing Really Matters",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "id": "3f3caa31-b454-4179-820e-af0ae76c140d",
+  "attributes": [],
+  "relations": [
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "begin": null,
+      "artist": {
+        "name": "Patrick Leonard",
+        "country": "US",
+        "disambiguation": "producer, songwriter and pianist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "47f1c600-2372-45f9-a228-3e9bcf64a083",
+        "type": "Person",
+        "sort-name": "Leonard, Patrick"
+      },
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "name": "Madonna",
+        "sort-name": "Madonna",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "type": "Person",
+        "disambiguation": "“Queen of Pop”",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {},
+      "direction": "backward",
+      "source-credit": "",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "Madonna Louise Veronica Ciccone"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

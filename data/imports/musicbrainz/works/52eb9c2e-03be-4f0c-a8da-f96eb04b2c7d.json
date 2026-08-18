@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/52eb9c2e-03be-4f0c-a8da-f96eb04b2c7d?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Baby",
+  "language": "eng",
+  "type": "Song",
+  "disambiguation": "Don't You Want a Man Like Me",
+  "relations": [
+    {
+      "ended": true,
+      "begin": "1955-02",
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "Richard Wayne Penniman",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Little Richard",
+        "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+        "country": "US",
+        "sort-name": "Little Richard"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": "1955-02"
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": true,
+      "begin": "1955-02",
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": "1955-02",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "Richard Wayne Penniman",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Little Richard",
+        "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+        "country": "US",
+        "sort-name": "Little Richard"
+      }
+    }
+  ],
+  "id": "52eb9c2e-03be-4f0c-a8da-f96eb04b2c7d",
+  "iswcs": [],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

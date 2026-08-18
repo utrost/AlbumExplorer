@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6bf91726-a26d-45c7-ac70-aff4631a6b5c?inc=work-rels&fmt=json",
+  "video": false,
+  "title": "Spiral",
+  "disambiguation": "studio, 1959-05-04: original mono master recording",
+  "relations": [
+    {
+      "source-credit": "",
+      "begin": "1959-05-04",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "end": "1959-05-04",
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "ended": true,
+      "target-credit": "",
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "zxx"
+        ],
+        "title": "Spiral",
+        "language": "zxx",
+        "iswcs": [
+          "T-700.066.307-2"
+        ],
+        "attributes": [],
+        "id": "4fbc94e6-44f4-3d51-901b-caf823a07a57"
+      },
+      "attribute-ids": {}
+    }
+  ],
+  "length": 356000,
+  "first-release-date": "1960-01-27",
+  "id": "6bf91726-a26d-45c7-ac70-aff4631a6b5c"
+}

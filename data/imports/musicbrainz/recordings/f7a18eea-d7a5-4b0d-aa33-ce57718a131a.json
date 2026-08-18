@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f7a18eea-d7a5-4b0d-aa33-ce57718a131a?inc=work-rels&fmt=json",
+  "id": "f7a18eea-d7a5-4b0d-aa33-ce57718a131a",
+  "disambiguation": "explicit",
+  "title": "Consideration",
+  "video": false,
+  "first-release-date": "2016-01-28",
+  "length": 161000,
+  "relations": [
+    {
+      "source-credit": "",
+      "direction": "forward",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "attributes": [],
+      "attribute-ids": {},
+      "work": {
+        "type": "Song",
+        "id": "6936d1e1-62b3-403f-8a8e-7c97b84e8b9a",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "iswcs": [],
+        "language": "eng",
+        "title": "Consideration",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "end": null,
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work"
+    }
+  ]
+}

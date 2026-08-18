@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/840ee517-3bf8-4816-b825-40b17a88b382?inc=work-rels&fmt=json",
+  "id": "840ee517-3bf8-4816-b825-40b17a88b382",
+  "first-release-date": "1994-08-30",
+  "title": "Married With Children",
+  "disambiguation": "",
+  "length": 192506,
+  "video": false,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "disambiguation": "",
+        "title": "Married With Children",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-011.476.573-9"
+        ],
+        "id": "f8daec8d-c37f-486d-ab29-a8cc8d816f94"
+      },
+      "ended": false,
+      "direction": "forward",
+      "begin": null
+    }
+  ]
+}

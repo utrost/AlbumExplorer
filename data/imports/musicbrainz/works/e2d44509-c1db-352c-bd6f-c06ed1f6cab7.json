@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e2d44509-c1db-352c-bd6f-c06ed1f6cab7?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.940.461-4"
+  ],
+  "languages": [
+    "zxx"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "attributes": [],
+  "id": "e2d44509-c1db-352c-bd6f-c06ed1f6cab7",
+  "title": "Syeeda's Song Flute",
+  "language": "zxx",
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Coltrane, John",
+        "id": "b625448e-bf4a-41c3-a421-72ad46cdb831",
+        "country": "US",
+        "name": "John Coltrane",
+        "type": "Person"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ]
+}

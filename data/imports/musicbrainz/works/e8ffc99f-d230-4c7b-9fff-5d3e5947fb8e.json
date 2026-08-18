@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e8ffc99f-d230-4c7b-9fff-5d3e5947fb8e?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "attributes": [],
+  "id": "e8ffc99f-d230-4c7b-9fff-5d3e5947fb8e",
+  "language": "eng",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "artist": {
+        "name": "James Fauntleroy",
+        "id": "4e481ad9-aa5d-4a1a-b2fc-444c0ad48b7e",
+        "sort-name": "Fauntleroy, James",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "artist": {
+        "id": "50b95bb6-dcdc-4424-ba3b-e48692d954bf",
+        "sort-name": "Kennedy, Brian",
+        "name": "Brian Kennedy",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US composer, producer, multi-instrumentalist",
+        "type": "Person"
+      },
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "writer",
+      "attribute-ids": {}
+    },
+    {
+      "attribute-ids": {},
+      "type": "writer",
+      "target-credit": "Robyn Fenty",
+      "attribute-values": {},
+      "ended": false,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Barbadian R&B/pop singer",
+        "type": "Person",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "sort-name": "Rihanna",
+        "name": "Rihanna"
+      },
+      "source-credit": "",
+      "begin": null
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "title": "Close to You"
+}

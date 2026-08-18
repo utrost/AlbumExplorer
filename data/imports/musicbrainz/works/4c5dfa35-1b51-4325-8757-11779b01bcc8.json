@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4c5dfa35-1b51-4325-8757-11779b01bcc8?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "artist": {
+        "id": "c701434f-a2e8-4503-ba79-4aa32eff765b",
+        "sort-name": "Price, Leo",
+        "name": "Leo Price",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person"
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "composer"
+    },
+    {
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "name": "Leo Price",
+        "id": "c701434f-a2e8-4503-ba79-4aa32eff765b",
+        "sort-name": "Price, Leo",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "lyricist",
+      "attribute-ids": {}
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "artist": {
+        "sort-name": "Little Richard",
+        "id": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+        "name": "Little Richard",
+        "country": "US",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attributes": [],
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {}
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "title": "Can’t Believe You Wanna Leave",
+  "iswcs": [],
+  "attributes": [],
+  "id": "4c5dfa35-1b51-4325-8757-11779b01bcc8",
+  "language": "eng"
+}

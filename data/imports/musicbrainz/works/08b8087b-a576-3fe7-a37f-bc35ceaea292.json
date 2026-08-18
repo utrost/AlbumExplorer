@@ -1,0 +1,145 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/08b8087b-a576-3fe7-a37f-bc35ceaea292?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-070.028.005-2"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "composer",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "name": "Geezer Butler",
+        "type": "Person",
+        "sort-name": "Butler, Geezer",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "composer",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Iommi, Tony",
+        "name": "Tony Iommi",
+        "type": "Person"
+      }
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "",
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "type": "Person",
+        "name": "Ozzy Osbourne",
+        "sort-name": "Osbourne, Ozzy",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "attribute-values": {}
+    },
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "name": "Bill Ward",
+        "type": "Person",
+        "sort-name": "Ward, Bill",
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990."
+      },
+      "attributes": [],
+      "target-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "name": "Geezer Butler",
+        "type": "Person",
+        "sort-name": "Butler, Geezer",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "type": "lyricist",
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": ""
+    }
+  ],
+  "attributes": [
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0C0-2429-6"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "330185910",
+      "type": "ASCAP ID"
+    }
+  ],
+  "id": "08b8087b-a576-3fe7-a37f-bc35ceaea292",
+  "title": "Children of the Grave",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng"
+}

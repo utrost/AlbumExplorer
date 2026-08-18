@@ -1,0 +1,134 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a1761f22-5596-3701-b141-4bb445385f53?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "id": "a1761f22-5596-3701-b141-4bb445385f53",
+  "iswcs": [
+    "T-070.248.629-0"
+  ],
+  "relations": [
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "name": "Tim Commerford",
+        "id": "4d61abe3-ce6d-4383-b2cd-8b4491496549",
+        "country": "US",
+        "sort-name": "Commerford, Tim",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "id": "42a636a0-dbe4-4d0c-abe2-1590fad9531b",
+        "name": "Tom Morello",
+        "country": "US",
+        "sort-name": "Morello, Tom",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "name": "Zack de la Rocha",
+        "sort-name": "Rocha, Zack de la",
+        "country": "US"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Wilk, Brad",
+        "country": "US",
+        "name": "Brad Wilk",
+        "id": "b48aebac-8c3e-48aa-b5e6-2b38f30f5f78",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "aa659468-db56-41c9-b6fe-61f4bb2ef1a6",
+        "name": "Zack de la Rocha",
+        "country": "US",
+        "sort-name": "Rocha, Zack de la"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Freedom"
+}

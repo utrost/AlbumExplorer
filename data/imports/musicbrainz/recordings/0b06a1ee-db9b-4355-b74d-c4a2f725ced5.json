@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0b06a1ee-db9b-4355-b74d-c4a2f725ced5?inc=work-rels&fmt=json",
+  "first-release-date": "1957-03",
+  "length": 127707,
+  "disambiguation": "master",
+  "id": "0b06a1ee-db9b-4355-b74d-c4a2f725ced5",
+  "video": false,
+  "relations": [
+    {
+      "begin": "1956-02-09",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1956-02-09",
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "work": {
+        "attributes": [],
+        "iswcs": [],
+        "disambiguation": "",
+        "id": "07a0af29-83d0-41e1-b7dc-c0dfc1efd5e7",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "Oh Why?",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "type": "performance",
+      "ended": true
+    }
+  ],
+  "title": "Oh Why?"
+}

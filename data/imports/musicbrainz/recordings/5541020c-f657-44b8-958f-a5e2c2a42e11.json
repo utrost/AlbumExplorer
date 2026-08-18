@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5541020c-f657-44b8-958f-a5e2c2a42e11?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo studio mix",
+  "first-release-date": "1970-09-18",
+  "video": false,
+  "id": "5541020c-f657-44b8-958f-a5e2c2a42e11",
+  "title": "Hand of Doom",
+  "relations": [
+    {
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-010.169.763-5",
+          "T-070.077.686-8"
+        ],
+        "title": "Hand of Doom",
+        "id": "8aacf2e9-62ab-30a6-b10b-69abf788447d",
+        "attributes": []
+      },
+      "source-credit": "",
+      "end": "1970-07-08",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "ended": true,
+      "target-credit": "",
+      "begin": "1970-06-16",
+      "attribute-ids": {},
+      "target-type": "work",
+      "direction": "forward"
+    }
+  ],
+  "length": 428000
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fc425fc4-e883-4c10-9345-63c99a0126b9?inc=work-rels&fmt=json",
+  "id": "fc425fc4-e883-4c10-9345-63c99a0126b9",
+  "title": "New Dawn Fades",
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1979-04-01",
+      "target-type": "work",
+      "attribute-ids": {},
+      "target-credit": "",
+      "end": "1979-04-17",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "ended": true,
+      "attributes": [],
+      "type": "performance",
+      "attribute-values": {},
+      "work": {
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "iswcs": [
+          "T-010.185.663-6"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "e890cb40-9026-3ef2-992f-1ad74ff27d46",
+        "title": "New Dawn Fades"
+      }
+    }
+  ],
+  "length": 287213,
+  "first-release-date": "1979-06-15",
+  "video": false,
+  "disambiguation": ""
+}

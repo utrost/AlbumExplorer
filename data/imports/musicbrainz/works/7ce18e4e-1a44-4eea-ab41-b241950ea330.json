@@ -1,0 +1,161 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7ce18e4e-1a44-4eea-ab41-b241950ea330?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "artist": {
+        "sort-name": "Backer, Bill",
+        "id": "e3cd6c6c-6290-403d-ab55-c941d41b77ff",
+        "name": "Bill Backer",
+        "country": "US",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": null,
+      "artist": {
+        "name": "Roger Cook",
+        "sort-name": "Cook, Roger",
+        "id": "d69790d2-58cd-4e95-bd65-a11389855bf0",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "US‐based British singer, songwriter and producer",
+        "country": "GB"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "id": "171e5e5e-85fa-4620-b737-0241c4266732",
+        "sort-name": "Davis, Roquel",
+        "name": "Roquel Davis"
+      },
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null
+    },
+    {
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "sort-name": "Gallagher, Noel",
+        "name": "Noel Gallagher",
+        "country": "GB",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [
+        "additional"
+      ],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {
+        "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+      }
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "name": "Roger Greenaway",
+        "sort-name": "Greenaway, Roger",
+        "id": "9e0aeaf5-f2f0-4eaf-a257-b8d33b8987b0"
+      },
+      "attribute-ids": {},
+      "type": "composer",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "name": "Noel Gallagher",
+        "sort-name": "Gallagher, Noel",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type": "lyricist",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {}
+    }
+  ],
+  "title": "Shakermaker",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "7ce18e4e-1a44-4eea-ab41-b241950ea330",
+  "attributes": [],
+  "iswcs": [
+    "T-900.254.125-5"
+  ],
+  "language": "eng"
+}

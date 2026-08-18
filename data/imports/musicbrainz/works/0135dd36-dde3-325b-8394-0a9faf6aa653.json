@@ -1,0 +1,248 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0135dd36-dde3-325b-8394-0a9faf6aa653?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "44389e9f-8ae9-40ff-8645-d082a9109e72",
+        "sort-name": "Blackwell, Robert “Bumps”",
+        "type": "Person",
+        "name": "Robert “Bumps” Blackwell",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "type": "composer",
+      "attribute-values": {}
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward",
+      "target-credit": "",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "c343d682-7507-446f-97b1-6f39a9594c22",
+        "sort-name": "Marascalco, John",
+        "name": "John Marascalco",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "type": "composer"
+    },
+    {
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward",
+      "target-credit": "",
+      "attributes": [],
+      "artist": {
+        "id": "44389e9f-8ae9-40ff-8645-d082a9109e72",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Blackwell, Robert “Bumps”",
+        "type": "Person",
+        "name": "Robert “Bumps” Blackwell"
+      },
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "type": "lyricist"
+    },
+    {
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "lyricist",
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "id": "c343d682-7507-446f-97b1-6f39a9594c22",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "name": "John Marascalco",
+        "type": "Person",
+        "sort-name": "Marascalco, John"
+      }
+    }
+  ],
+  "title": "Ready Teddy",
+  "id": "0135dd36-dde3-325b-8394-0a9faf6aa653",
+  "attributes": [
+    {
+      "value": "579189BP",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "1232346"
+    },
+    {
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "type": "ACAM ID",
+      "value": "5032118"
+    },
+    {
+      "value": "298549",
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+      "type": "ACDAM ID"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "6250821"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "599601"
+    },
+    {
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID",
+      "value": "5130081"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2403801"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW00386579"
+    },
+    {
+      "value": "W-000094803",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "11187570"
+    },
+    {
+      "value": "13329768",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "243123",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "67875",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "8da393f8-33c5-4ddf-afda-a035f0d46026",
+      "value": "1000373965",
+      "type": "MACP ID"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "3442ES"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "07775Z"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "000575700"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "67 638 490 11",
+      "type": "SACEM ID"
+    },
+    {
+      "value": "013426912",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID",
+      "value": "2314443"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "264566",
+      "type": "SADAIC ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "3269029"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "3269029"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "82504166",
+      "type": "SOCAN ID"
+    },
+    {
+      "value": "53399",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "value": "000087 029 95",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.243.103-5",
+    "T-320.379.557-3"
+  ]
+}

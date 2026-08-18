@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ecce1a1f-de07-340f-8fea-46b20302fe43?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "disambiguation": "",
+        "name": "Geezer Butler",
+        "type": "Person",
+        "sort-name": "Butler, Geezer"
+      },
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "",
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "ended": false,
+      "artist": {
+        "name": "Tony Iommi",
+        "type": "Person",
+        "sort-name": "Iommi, Tony",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252"
+      },
+      "attributes": [],
+      "type": "writer",
+      "attribute-values": {}
+    },
+    {
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "sort-name": "Osbourne, Ozzy",
+        "name": "Ozzy Osbourne",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "Black Sabbath drummer and founding member who launched his solo career in 1990.",
+        "sort-name": "Ward, Bill",
+        "type": "Person",
+        "name": "Bill Ward",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "ended": false,
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "end": null,
+      "type": "writer",
+      "attribute-values": {}
+    }
+  ],
+  "title": "Lord of This World",
+  "attributes": [],
+  "id": "ecce1a1f-de07-340f-8fea-46b20302fe43",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "language": "eng",
+  "type": "Song"
+}

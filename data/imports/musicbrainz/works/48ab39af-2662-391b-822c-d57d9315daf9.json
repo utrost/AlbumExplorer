@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/48ab39af-2662-391b-822c-d57d9315daf9?inc=artist-rels&fmt=json",
+  "id": "48ab39af-2662-391b-822c-d57d9315daf9",
+  "iswcs": [
+    "T-070.245.645-8"
+  ],
+  "attributes": [],
+  "language": "zxx",
+  "relations": [
+    {
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US",
+        "name": "John Coltrane",
+        "sort-name": "Coltrane, John",
+        "id": "b625448e-bf4a-41c3-a421-72ad46cdb831"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {}
+    }
+  ],
+  "type": "Song",
+  "disambiguation": "original instrumental version",
+  "languages": [
+    "zxx"
+  ],
+  "title": "Cousin Mary",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

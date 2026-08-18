@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/de3f2e4f-2b38-40ff-9831-5353fa7418ef?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Never Ending",
+  "language": "eng",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "English singer‐songwriter",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "sort-name": "Dido",
+        "id": "d1353a0c-26fb-4318-a116-defde9c7c9ad",
+        "name": "Dido"
+      },
+      "target-credit": "Dido Armstrong",
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "id": "12718e0c-546e-45f7-ae86-9dbaa65797d2",
+        "name": "Paul Herman",
+        "country": "GB",
+        "sort-name": "Herman, Paul",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "Robyn Fenty",
+      "artist": {
+        "disambiguation": "Barbadian R&B/pop singer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "sort-name": "Rihanna",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "name": "Rihanna"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "name": "Chad Sabo",
+        "id": "3a9d1231-4aaf-4385-876a-f019ca136253",
+        "country": null,
+        "sort-name": "Sabo, Chad",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "disambiguation": "",
+  "id": "de3f2e4f-2b38-40ff-9831-5353fa7418ef",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "attributes": []
+}

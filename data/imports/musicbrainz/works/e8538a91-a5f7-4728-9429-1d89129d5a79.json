@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e8538a91-a5f7-4728-9429-1d89129d5a79?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "zxx"
+  ],
+  "iswcs": [],
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "name": "Tony Iommi",
+        "country": "GB",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "sort-name": "Iommi, Tony",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    }
+  ],
+  "type": "Song",
+  "language": "zxx",
+  "title": "Embryo",
+  "id": "e8538a91-a5f7-4728-9429-1d89129d5a79",
+  "attributes": [
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "560676-001",
+      "type": "GEMA ID"
+    }
+  ]
+}

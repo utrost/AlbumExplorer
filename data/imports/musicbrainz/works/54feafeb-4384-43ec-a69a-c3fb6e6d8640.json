@@ -1,0 +1,178 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/54feafeb-4384-43ec-a69a-c3fb6e6d8640?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "relations": [
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "id": "ebb3798a-d737-4341-a089-7bef8063b856",
+        "sort-name": "Barnes, Evon",
+        "name": "Evon Barnes",
+        "country": null
+      },
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "id": "92955cd0-0dc7-4be4-90b6-5d69fd299e8c",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Bourelly, Bibi",
+        "name": "Bibi Bourelly",
+        "country": "US"
+      },
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "781b3842-89d4-418f-b59d-49eb695615dd",
+        "type": "Person",
+        "sort-name": "Bourelly, Jean-Paul",
+        "name": "Jean-Paul Bourelly",
+        "country": "US"
+      },
+      "begin": null,
+      "ended": false,
+      "attribute-values": {}
+    },
+    {
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Godbey, Chris",
+        "type": "Person",
+        "id": "8ec64b80-cd1c-4acc-bc14-0fb9ad96f7dd",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "American mixer, engineer, composer",
+        "country": "US",
+        "name": "Chris Godbey"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-credit": "",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "id": "0706d352-fe7d-4303-af08-d6affbb10128",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US producer and keyboardist",
+        "sort-name": "Jones, Daniel",
+        "name": "Daniel Jones",
+        "country": "US"
+      },
+      "begin": null
+    },
+    {
+      "artist": {
+        "name": "Rihanna",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Barbadian R&B/pop singer",
+        "type": "Person",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "sort-name": "Rihanna"
+      },
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "source-credit": "",
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "Robyn Fenty"
+    },
+    {
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Timbaland",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+        "type": "Person",
+        "country": "US",
+        "name": "Timbaland"
+      },
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "target-credit": "Timothy Mosley"
+    }
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "54feafeb-4384-43ec-a69a-c3fb6e6d8640",
+  "type": "Song",
+  "iswcs": [],
+  "title": "Yeah, I Said It",
+  "language": "eng"
+}

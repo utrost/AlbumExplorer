@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3e3c8753-1e1d-4cbb-89d7-1b96b2403c84?inc=work-rels&fmt=json",
+  "length": 166000,
+  "id": "3e3c8753-1e1d-4cbb-89d7-1b96b2403c84",
+  "first-release-date": "1971-09-09",
+  "disambiguation": "original studio mix",
+  "title": "Oh My Love",
+  "video": false,
+  "relations": [
+    {
+      "attributes": [],
+      "target-type": "work",
+      "end": "1971-05-28",
+      "direction": "forward",
+      "source-credit": "",
+      "begin": "1971-05-28",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "language": "eng",
+        "iswcs": [
+          "T-011.375.785-9"
+        ],
+        "attributes": [],
+        "id": "67bc7f84-cbbb-3127-b008-e84af2fab4e7",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "title": "Oh My Love"
+      },
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": true,
+      "type": "performance"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/cb024c92-8c35-3340-a3a9-2bcfd736274d?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "guitarist for Aerosmith",
+        "sort-name": "Perry, Joe",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "be797221-0117-45e3-81da-996f8d29db62",
+        "name": "Joe Perry",
+        "type": "Person"
+      }
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Tyler, Steven",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "7d3f7aed-fb9c-4e80-b198-64cd6ae31cb8",
+        "type": "Person",
+        "name": "Steven Tyler"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "type": "Song",
+  "attributes": [
+    {
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "value": "4051878",
+      "type": "SPAC ID"
+    },
+    {
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
+      "value": "4051878",
+      "type": "SOBODAYCOM ID"
+    },
+    {
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "value": "4051878",
+      "type": "SGACEDOM ID"
+    },
+    {
+      "type": "NICAUTOR ID",
+      "value": "4051878",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6"
+    },
+    {
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "value": "4051878",
+      "type": "AEI ID"
+    },
+    {
+      "type": "AACIMH ID",
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "value": "4051878"
+    },
+    {
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "value": "4051878",
+      "type": "SACIM ID"
+    },
+    {
+      "type": "APA ID",
+      "value": "5443060",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "9911386"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "5115056",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "203061",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "16112843"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "12093712",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "1053441",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "ACAM ID",
+      "value": "4051878",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+    },
+    {
+      "value": "4677245",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID"
+    },
+    {
+      "type": "SACVEN ID",
+      "value": "2182268",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2077892",
+      "type": "SACVEN ID"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "6227551"
+    },
+    {
+      "value": "2791169",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "970730",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "970730",
+      "type": "SAYCO ID"
+    },
+    {
+      "type": "ECAD ID",
+      "value": "15486245",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "76100458400"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "123119",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "1984AV",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "004538800",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "value": "018235500",
+      "type": "SACM ID"
+    },
+    {
+      "value": "W-000210672",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "SADAIC ID",
+      "value": "258050",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "41828401",
+      "type": "AKM ID"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "75 034 106 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "140.346"
+    },
+    {
+      "type": "SUISA ID",
+      "value": "000426 355 95",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type": "APRA ID",
+      "value": "GW01279652",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "10810458",
+      "type": "SOCAN ID"
+    },
+    {
+      "value": "1341542-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "1599866"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "530198260",
+      "type": "ASCAP ID"
+    },
+    {
+      "value": "0W0-9559-3",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID"
+    }
+  ],
+  "title": "Walk This Way",
+  "id": "cb024c92-8c35-3340-a3a9-2bcfd736274d",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.203.060-1"
+  ],
+  "languages": [
+    "eng"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b073d52f-4f09-4ed1-aacd-f2403aae15ff?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "id": "b073d52f-4f09-4ed1-aacd-f2403aae15ff",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Woo",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "fc7ac183-74f9-417a-bfbb-8c5840d01fa7",
+        "name": "Jean Baptiste",
+        "country": "US",
+        "sort-name": "Baptiste, Jean",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "target-type": "artist",
+      "target-credit": "Chauncey Hollis",
+      "artist": {
+        "sort-name": "Hit‐Boy",
+        "country": "US",
+        "id": "bf314a8f-5dc6-4dc5-8819-d25b4cc38164",
+        "name": "Hit‐Boy",
+        "disambiguation": "US hip‐hop producer/rapper Chauncey Hollis",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "disambiguation": "American R&B singer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Jeremih",
+        "country": "US",
+        "id": "1c009a08-74d1-4682-bc56-8bfbe9e66b62",
+        "name": "Jeremih"
+      },
+      "target-credit": "Jeremih Felton",
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "sort-name": "Rachel, Derrus",
+        "name": "Derrus Rachel",
+        "id": "5543cd43-6c21-4919-9395-a0945ade5364"
+      },
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "attributes": [],
+      "target-credit": "Robyn Fenty",
+      "artist": {
+        "disambiguation": "Barbadian R&B/pop singer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Rihanna",
+        "country": "US",
+        "id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+        "name": "Rihanna"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer"
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "name": "Travis Scott",
+        "id": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "country": "US",
+        "sort-name": "Scott, Travis",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US rapper"
+      },
+      "target-credit": "Jacques Webster",
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "Terius Nash",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US singer, songwriter & RnB producer Terius Youngdell Nash",
+        "name": "The‐Dream",
+        "id": "66a4b9d2-d5a6-40b8-93d5-0bdd1dbb4b43",
+        "sort-name": "The‐Dream",
+        "country": "US"
+      },
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "id": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "name": "The Weeknd",
+        "country": "CA",
+        "sort-name": "Weeknd, The",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Canadian R&B singer"
+      },
+      "target-credit": "Abel Tesfaye",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "disambiguation": ""
+}

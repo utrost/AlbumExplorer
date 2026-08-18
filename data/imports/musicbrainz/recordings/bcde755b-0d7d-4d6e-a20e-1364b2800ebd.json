@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/bcde755b-0d7d-4d6e-a20e-1364b2800ebd?inc=work-rels&fmt=json",
+  "video": false,
+  "id": "bcde755b-0d7d-4d6e-a20e-1364b2800ebd",
+  "disambiguation": "",
+  "length": 372706,
+  "first-release-date": "1993",
+  "relations": [
+    {
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "title": "Frozen",
+        "disambiguation": "",
+        "id": "f4d67a7a-54fc-3b14-ab1b-5b1fb2b8f9cd",
+        "iswcs": [
+          "T-070.263.449-8",
+          "T-317.107.132-8",
+          "T-913.544.993-3"
+        ],
+        "attributes": []
+      },
+      "type": "performance",
+      "ended": false,
+      "begin": null,
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {}
+    }
+  ],
+  "title": "Frozen"
+}

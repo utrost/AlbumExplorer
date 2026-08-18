@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4af77d2a-8f96-4d0e-a274-a6211521a59f?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "iswcs": [],
+  "attributes": [],
+  "id": "4af77d2a-8f96-4d0e-a274-a6211521a59f",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "title": "A Gangsta’s Fairytale",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "artist": {
+        "name": "Eric Sadler",
+        "sort-name": "Sadler, Eric",
+        "id": "7837e565-e2a7-45d5-8683-123cfc26bf1c",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US"
+      },
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "attributes": [],
+      "type": "composer",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "attribute-ids": {}
+    },
+    {
+      "artist": {
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "sort-name": "Ice Cube",
+        "name": "Ice Cube",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "type": "lyricist",
+      "attribute-ids": {}
+    }
+  ]
+}

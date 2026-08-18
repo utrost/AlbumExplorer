@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/02f281d0-74f5-4ad1-98f9-0cfb9d58f927?inc=work-rels&fmt=json",
+  "length": 213906,
+  "first-release-date": "1969-05-23",
+  "id": "02f281d0-74f5-4ad1-98f9-0cfb9d58f927",
+  "title": "The Acid Queen",
+  "video": false,
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": "1968-10",
+      "end": "1969-03",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "iswcs": [
+          "T-010.162.998-4",
+          "T-011.235.041-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "f203d47c-7247-3663-933f-7d8e1d80b1d3",
+        "title": "The Acid Queen",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "disambiguation": "original studio mix"
+}

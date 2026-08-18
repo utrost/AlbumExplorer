@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/933974da-3e35-4d82-8d6b-0510fe9387f6?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "AC/DC member",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "id": "0d212894-db54-4cc1-9ded-3cac50183a1d",
+        "sort-name": "Scott, Bon",
+        "name": "Bon Scott",
+        "country": "GB"
+      },
+      "begin": null,
+      "source-credit": "",
+      "direction": "backward"
+    },
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "sort-name": "Young, Angus",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "member of AC/DC",
+        "type": "Person",
+        "id": "a0a54c69-b0d2-4d2a-bcf8-994b8846b0d8",
+        "country": "AU",
+        "name": "Angus Young"
+      },
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "name": "Malcolm Young",
+        "country": "AU",
+        "disambiguation": "guitar player for AC/DC",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "ea719716-da05-46f8-bbd5-cc5803db3d0e",
+        "type": "Person",
+        "sort-name": "Young, Malcolm"
+      },
+      "begin": null,
+      "source-credit": "",
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": ""
+    }
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-060.160.627-2"
+  ],
+  "title": "Get It Hot",
+  "language": "eng",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "933974da-3e35-4d82-8d6b-0510fe9387f6",
+  "type": "Song"
+}

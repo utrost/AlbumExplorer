@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3129b2ee-03fe-477c-92f7-e275b96f5071?inc=work-rels&fmt=json",
+  "id": "3129b2ee-03fe-477c-92f7-e275b96f5071",
+  "first-release-date": "1963-11-22",
+  "title": "All I’ve Got to Do",
+  "length": 125000,
+  "video": false,
+  "disambiguation": "original stereo studio mix",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1963-09-11",
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "All I’ve Got to Do",
+        "type": "Song",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "01f35a80-893c-3d2b-b74d-05a3ec9abc0f",
+        "iswcs": [
+          "T-010.068.557-1"
+        ]
+      },
+      "ended": true,
+      "begin": "1963-09-11",
+      "direction": "forward"
+    }
+  ]
+}

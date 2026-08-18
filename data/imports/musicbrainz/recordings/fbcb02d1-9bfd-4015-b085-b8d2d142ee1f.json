@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fbcb02d1-9bfd-4015-b085-b8d2d142ee1f?inc=work-rels&fmt=json",
+  "length": 12333,
+  "first-release-date": "1969-05-23",
+  "id": "fbcb02d1-9bfd-4015-b085-b8d2d142ee1f",
+  "title": "Miracle Cure",
+  "disambiguation": "original studio mix",
+  "video": false,
+  "relations": [
+    {
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "disambiguation": "Extra! Extra!",
+        "title": "Miracle Cure",
+        "language": "eng",
+        "iswcs": [
+          "T-010.162.741-1",
+          "T-010.175.619-7"
+        ],
+        "attributes": [],
+        "id": "f45c98fd-89a7-3ccf-9fe9-f2c4fc05eb16"
+      },
+      "attribute-ids": {},
+      "begin": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "direction": "forward",
+      "target-type": "work",
+      "end": null
+    }
+  ]
+}

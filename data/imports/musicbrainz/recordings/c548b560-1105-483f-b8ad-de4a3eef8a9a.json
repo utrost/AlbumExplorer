@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c548b560-1105-483f-b8ad-de4a3eef8a9a?inc=work-rels&fmt=json",
+  "disambiguation": "album version",
+  "id": "c548b560-1105-483f-b8ad-de4a3eef8a9a",
+  "first-release-date": "1987-08-31",
+  "title": "I Just Can’t Stop Loving You",
+  "video": false,
+  "length": 263000,
+  "relations": [
+    {
+      "target-credit": "",
+      "end": null,
+      "work": {
+        "iswcs": [
+          "T-070.240.625-4"
+        ],
+        "language": "eng",
+        "title": "I Just Can’t Stop Loving You",
+        "id": "f03fee20-1d2d-3eb0-80b2-9db0eef9e212",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "attribute-ids": {},
+      "attributes": [],
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "source-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null
+    }
+  ]
+}

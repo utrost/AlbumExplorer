@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2e0c8348-a184-372a-b6d5-f6d690d90785?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "iswcs": [
+    "T-010.162.883-4"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "2e0c8348-a184-372a-b6d5-f6d690d90785",
+  "attributes": [],
+  "title": "Smash the Mirror",
+  "relations": [
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "ended": true,
+      "artist": {
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "of The Who",
+        "sort-name": "Townshend, Pete",
+        "type": "Person",
+        "name": "Pete Townshend"
+      },
+      "attributes": [],
+      "source-credit": "",
+      "end": "1969",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "direction": "backward",
+      "begin": "1969",
+      "target-type": "artist",
+      "attribute-ids": {}
+    },
+    {
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": "",
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "disambiguation": "of The Who",
+        "sort-name": "Townshend, Pete",
+        "name": "Pete Townshend",
+        "type": "Person",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "type": "lyricist"
+    }
+  ]
+}

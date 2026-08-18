@@ -1,0 +1,122 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3dbcceb8-1716-43b1-a494-ba95a4160915?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-902.856.252-9"
+  ],
+  "title": "AmeriKKKa’s Most Wanted",
+  "id": "3dbcceb8-1716-43b1-a494-ba95a4160915",
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "00000311517114"
+    },
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID",
+      "value": "35607"
+    }
+  ],
+  "relations": [
+    {
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "target-credit": "",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "Keith Boxley",
+        "type": "Person",
+        "sort-name": "Boxley, Keith",
+        "disambiguation": "American hip hop producer and DJ",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "888aa27b-49e2-43ed-aeea-4a9e83cccf5f"
+      },
+      "ended": false,
+      "attributes": [],
+      "type": "composer",
+      "attribute-values": {}
+    },
+    {
+      "ended": false,
+      "artist": {
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "name": "Ice Cube",
+        "type": "Person",
+        "sort-name": "Ice Cube"
+      },
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "attribute-values": {},
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "target-credit": ""
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "type": "composer",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Sadler, Eric",
+        "name": "Eric Sadler",
+        "type": "Person",
+        "id": "7837e565-e2a7-45d5-8683-123cfc26bf1c",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "attribute-values": {},
+      "type": "lyricist",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Ice Cube",
+        "sort-name": "Ice Cube"
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-credit": "",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward"
+    }
+  ]
+}

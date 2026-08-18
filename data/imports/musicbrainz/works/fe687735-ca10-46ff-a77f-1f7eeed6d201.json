@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/fe687735-ca10-46ff-a77f-1f7eeed6d201?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-070.206.419-4"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "fe687735-ca10-46ff-a77f-1f7eeed6d201",
+  "title": "Who’s the Mack?",
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "00000530368871"
+    }
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer",
+      "artist": {
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "sort-name": "J.B.’s, The",
+        "disambiguation": "",
+        "name": "The J.B.’s",
+        "type": "Group",
+        "id": "cb6a2948-7b9b-4a15-8c71-2b79cc76408e",
+        "country": "US"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": ""
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "sort-name": "Ice Cube",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Ice Cube",
+        "type": "Person",
+        "country": "US",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "lyricist",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    }
+  ],
+  "language": "eng"
+}

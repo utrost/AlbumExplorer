@@ -1,0 +1,231 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b839598d-48bb-3636-9012-b095b0fed1a6?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-010.134.574-7"
+  ],
+  "title": "This Boy",
+  "language": "eng",
+  "id": "b839598d-48bb-3636-9012-b095b0fed1a6",
+  "type": "Song",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "end": "1963-09",
+      "attributes": [],
+      "target-credit": "",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "country": "GB",
+        "name": "John Lennon",
+        "sort-name": "Lennon, John",
+        "type": "Person",
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "The Beatles"
+      },
+      "begin": "1963-09",
+      "attribute-values": {},
+      "ended": true
+    },
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "begin": "1963-09",
+      "artist": {
+        "country": "GB",
+        "name": "Paul McCartney",
+        "sort-name": "McCartney, Paul",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "type": "Person",
+        "disambiguation": "The Beatles",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "ended": true,
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": "1963-09",
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "attributes": [
+    {
+      "value": "000015 271 39",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "type": "SPAC ID",
+      "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+      "value": "3418123"
+    },
+    {
+      "value": "3418123",
+      "type": "SOBODAYCOM ID",
+      "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80"
+    },
+    {
+      "value": "75100378000",
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "25.182"
+    },
+    {
+      "value": "3418123",
+      "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+      "type": "SGACEDOM ID"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "1357971"
+    },
+    {
+      "value": "9123258",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "1357971"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "210744"
+    },
+    {
+      "value": "3382636",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "value": "008873175",
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+      "type": "SACIM ID",
+      "value": "3418123"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID",
+      "value": "61 626 007 11"
+    },
+    {
+      "value": "006883300",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "34616P"
+    },
+    {
+      "value": "3418123",
+      "type": "NICAUTOR ID",
+      "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "635813-001"
+    },
+    {
+      "value": "142542",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "63644"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "2273074"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "3405373"
+    },
+    {
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec",
+      "type": "CASH ID",
+      "value": "C-1004520610"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000105422"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW01314826"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "1061175"
+    },
+    {
+      "type": "APDAYC ID",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "9348494"
+    },
+    {
+      "value": "8517101",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "value": "3418123",
+      "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+      "type": "AEI ID"
+    },
+    {
+      "type": "ACAM ID",
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "3418123"
+    },
+    {
+      "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+      "type": "AACIMH ID",
+      "value": "3418123"
+    },
+    {
+      "value": "500157208",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0T0-8670-4"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

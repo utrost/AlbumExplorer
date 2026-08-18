@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c19dd49a-c17f-3f9a-98fa-afe47744600b?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-900.008.747-8"
+  ],
+  "title": "Do You Think It’s Alright?",
+  "attributes": [],
+  "id": "c19dd49a-c17f-3f9a-98fa-afe47744600b",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": "1969",
+      "direction": "backward",
+      "target-credit": "",
+      "end": "1969",
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "of The Who",
+        "name": "Pete Townshend",
+        "type": "Person",
+        "sort-name": "Townshend, Pete",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "ended": true,
+      "attribute-values": {},
+      "type": "composer"
+    },
+    {
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "sort-name": "Townshend, Pete",
+        "type": "Person",
+        "name": "Pete Townshend",
+        "disambiguation": "of The Who"
+      },
+      "attribute-values": {},
+      "type": "lyricist",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "target-credit": ""
+    }
+  ],
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "language": "eng"
+}

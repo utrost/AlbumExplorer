@@ -1,0 +1,122 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/249f3b0d-755e-4e0c-858b-b79a06fec1da?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "artist": {
+        "id": "ba42218e-c081-4b97-9f53-63f25efea3f0",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Gorrie, Alan",
+        "type": "Person",
+        "name": "Alan Gorrie"
+      },
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist"
+    },
+    {
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "target-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "end": null,
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "name": "Ice Cube",
+        "sort-name": "Ice Cube",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer"
+    },
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "ended": false,
+      "artist": {
+        "type": "Person",
+        "name": "Weldon Irvine",
+        "sort-name": "Irvine, Weldon",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "92a0f97c-311e-4ca9-8bb3-247b3d96d41b"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {}
+    },
+    {
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward",
+      "target-credit": "",
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "attributes": [],
+      "artist": {
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "name": "Ice Cube",
+        "type": "Person",
+        "sort-name": "Ice Cube"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "lyricist"
+    }
+  ],
+  "title": "What They Hittin’ Foe?",
+  "id": "249f3b0d-755e-4e0c-858b-b79a06fec1da",
+  "attributes": [
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "00000533230334"
+    },
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "1888639"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-903.049.873-8"
+  ]
+}

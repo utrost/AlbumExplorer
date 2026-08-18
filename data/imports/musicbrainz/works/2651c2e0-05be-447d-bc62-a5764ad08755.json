@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2651c2e0-05be-447d-bc62-a5764ad08755?inc=artist-rels&fmt=json",
+  "title": "Take the Devil",
+  "attributes": [],
+  "id": "2651c2e0-05be-447d-bc62-a5764ad08755",
+  "relations": [
+    {
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": "",
+      "artist": {
+        "id": "1798d7ba-fc22-4cca-bbda-7542ab5a3c67",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Meisner, Randy",
+        "type": "Person",
+        "name": "Randy Meisner"
+      },
+      "ended": false,
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "attribute-values": {}
+    },
+    {
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "id": "1798d7ba-fc22-4cca-bbda-7542ab5a3c67",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Randy Meisner",
+        "sort-name": "Meisner, Randy"
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "type": "lyricist",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward",
+      "target-credit": ""
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-902.725.640-2"
+  ],
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song"
+}

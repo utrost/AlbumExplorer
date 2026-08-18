@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ae2c5d82-1295-4f2a-8680-8bd42e61281a?inc=work-rels&fmt=json",
+  "title": "Don’t Bother Me",
+  "relations": [
+    {
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Don’t Bother Me",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-010.168.585-1"
+        ],
+        "id": "c31e5675-8fb4-38fc-a160-7e41638a9ffc",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "ended": true,
+      "direction": "forward",
+      "begin": "1963-09-12",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1963-09-12",
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    }
+  ],
+  "video": false,
+  "length": 149000,
+  "disambiguation": "original stereo studio mix",
+  "id": "ae2c5d82-1295-4f2a-8680-8bd42e61281a",
+  "first-release-date": "1963-11-22"
+}

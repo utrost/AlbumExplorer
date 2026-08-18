@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/8132924e-f98f-4ebe-abc7-d81330f56104?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "target-credit": "Dwayne Carter",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "ac9a487a-d9d2-4f27-bb23-0f4686488345",
+        "name": "Lil Wayne",
+        "country": "US",
+        "sort-name": "Lil Wayne"
+      },
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "disambiguation": "associated with CanZion Producciones",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": null,
+        "sort-name": "Salinas, Juan",
+        "name": "Juan Salinas",
+        "id": "704b2e04-7846-429f-aeab-86cb91af8737"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "disambiguation": "US rapper/producer Oscar Salinas, of Play N Skillz",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Skillz",
+        "name": "Skillz",
+        "id": "2851622c-1388-4dd4-a0fc-d26961d87dee"
+      },
+      "target-credit": "Oscar Salinas",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "attributes": [],
+      "artist": {
+        "country": "US",
+        "sort-name": "T‐Pain",
+        "id": "ce55e49a-32f4-4757-9849-bf04d06d5fcc",
+        "name": "T‐Pain",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "target-credit": "Faheem Najm",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Got Money",
+  "language": "eng",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "8132924e-f98f-4ebe-abc7-d81330f56104",
+  "iswcs": []
+}

@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7b1a53a1-fd20-3acb-9d4c-62262feb8c11?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "AC/DC member",
+        "name": "Bon Scott",
+        "id": "0d212894-db54-4cc1-9ded-3cac50183a1d",
+        "country": "GB",
+        "sort-name": "Scott, Bon"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "artist": {
+        "id": "a0a54c69-b0d2-4d2a-bcf8-994b8846b0d8",
+        "name": "Angus Young",
+        "sort-name": "Young, Angus",
+        "country": "AU",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "member of AC/DC"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "guitar player for AC/DC",
+        "name": "Malcolm Young",
+        "id": "ea719716-da05-46f8-bbd5-cc5803db3d0e",
+        "country": "AU",
+        "sort-name": "Young, Malcolm"
+      },
+      "attributes": [],
+      "target-type": "artist"
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Night Prowler",
+  "type": "Song",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-060.036.707-4"
+  ],
+  "id": "7b1a53a1-fd20-3acb-9d4c-62262feb8c11"
+}

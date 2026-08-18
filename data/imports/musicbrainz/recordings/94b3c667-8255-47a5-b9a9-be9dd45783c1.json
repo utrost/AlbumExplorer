@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/94b3c667-8255-47a5-b9a9-be9dd45783c1?inc=work-rels&fmt=json",
+  "first-release-date": "1969-05-23",
+  "id": "94b3c667-8255-47a5-b9a9-be9dd45783c1",
+  "length": 246400,
+  "relations": [
+    {
+      "begin": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "direction": "forward",
+      "end": null,
+      "target-type": "work",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "attributes": [],
+        "iswcs": [
+          "T-010.164.983-5"
+        ],
+        "id": "06a0dca5-e43d-304b-b65e-bd1e656fd2a3",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Cousin Kevin",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song"
+      },
+      "attribute-ids": {}
+    }
+  ],
+  "title": "Cousin Kevin",
+  "disambiguation": "original studio mix",
+  "video": false
+}

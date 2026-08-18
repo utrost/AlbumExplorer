@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e82df028-8183-407d-ad7b-754c9d18ba51?inc=work-rels&fmt=json",
+  "first-release-date": "1990-05-15",
+  "id": "e82df028-8183-407d-ad7b-754c9d18ba51",
+  "length": 326826,
+  "relations": [
+    {
+      "attributes": [],
+      "target-type": "work",
+      "end": null,
+      "direction": "forward",
+      "source-credit": "",
+      "begin": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "1570c1cf-8868-430b-b28e-c77bdf27b2c2",
+        "iswcs": [
+          "T-902.827.012-4"
+        ],
+        "attributes": [],
+        "language": "eng",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "It’s a Man’s World",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "video": false,
+  "title": "It’s a Man’s World",
+  "disambiguation": "explicit"
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2f72c3e3-f84e-33e1-8125-35815f8ba09c?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type": "composer",
+      "ended": true,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": "1969",
+      "begin": "1969",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "disambiguation": "of The Who",
+        "sort-name": "Townshend, Pete",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "name": "Pete Townshend",
+        "type": "Person"
+      }
+    },
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "lyricist",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "name": "Pete Townshend",
+        "type": "Person",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Townshend, Pete",
+        "disambiguation": "of The Who"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "2f72c3e3-f84e-33e1-8125-35815f8ba09c",
+  "title": "1921",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-010.162.997-3"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

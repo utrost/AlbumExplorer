@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d31111a2-bd92-4dc0-baab-e1e1de47574e?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-071.228.731-4"
+  ],
+  "language": "eng",
+  "relations": [
+    {
+      "artist": {
+        "name": "Gene Clark",
+        "type": "Person",
+        "country": "US",
+        "id": "2b6f3780-6fb6-42c2-95bb-5e080772e38c",
+        "sort-name": "Clark, Gene",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US singer-songwriter; founder of The Byrds"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer"
+    },
+    {
+      "artist": {
+        "sort-name": "Leadon, Bernie",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Bernie Leadon",
+        "type": "Person",
+        "country": "US",
+        "id": "839464fe-cd82-4aea-b866-cc2d29e31bb3"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer"
+    }
+  ],
+  "type": "Song",
+  "attributes": [],
+  "title": "Train Leaves Here This Mornin’",
+  "id": "d31111a2-bd92-4dc0-baab-e1e1de47574e"
+}

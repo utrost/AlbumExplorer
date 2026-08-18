@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/802c715a-90f7-3753-a89d-77f5671951e9?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "802c715a-90f7-3753-a89d-77f5671951e9",
+  "attributes": [],
+  "title": "All I Could Do Was Cry",
+  "relations": [
+    {
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "sort-name": "Davis, Billy",
+        "type": "Person",
+        "name": "Billy Davis",
+        "disambiguation": "r&b producer/songwriter/performer Roquel Davis",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "f5febddd-f906-4566-999e-e9484aad4419"
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "type": "writer"
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward",
+      "target-credit": "Gwen Gordy",
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "bccfd052-9c02-472e-8437-f3ca9cb31833",
+        "type": "Person",
+        "name": "Gwen Fuqua",
+        "sort-name": "Fuqua, Gwen",
+        "disambiguation": "US songwriter/composer, née Gwendolyn Gordy"
+      },
+      "attribute-values": {},
+      "type": "writer"
+    },
+    {
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "name": "Berry Gordy",
+        "type": "Person",
+        "sort-name": "Gordy, Berry",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "55bc7f0d-bc56-4a5e-8555-77557bb757cd"
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward",
+      "target-credit": ""
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

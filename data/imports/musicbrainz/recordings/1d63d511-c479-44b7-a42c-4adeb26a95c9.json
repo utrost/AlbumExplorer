@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/1d63d511-c479-44b7-a42c-4adeb26a95c9?inc=work-rels&fmt=json",
+  "length": 242000,
+  "id": "1d63d511-c479-44b7-a42c-4adeb26a95c9",
+  "first-release-date": "1972-06-01",
+  "disambiguation": "",
+  "title": "Take the Devil",
+  "video": false,
+  "relations": [
+    {
+      "attributes": [],
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "begin": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Take the Devil",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "attributes": [],
+        "iswcs": [
+          "T-902.725.640-2"
+        ],
+        "id": "2651c2e0-05be-447d-bc62-a5764ad08755"
+      },
+      "attribute-ids": {},
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "performance"
+    }
+  ]
+}

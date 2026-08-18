@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ba4891f3-b9f7-429a-8dc0-745619db898d?inc=work-rels&fmt=json",
+  "title": "august",
+  "disambiguation": "",
+  "video": false,
+  "relations": [
+    {
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "iswcs": [
+          "T-300.265.187-4"
+        ],
+        "attributes": [],
+        "id": "6ce75487-483b-48a7-a988-9b16f0912e51",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "august"
+      },
+      "type": "performance",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": ""
+    }
+  ],
+  "length": 261920,
+  "first-release-date": "2020-07-24",
+  "id": "ba4891f3-b9f7-429a-8dc0-745619db898d"
+}

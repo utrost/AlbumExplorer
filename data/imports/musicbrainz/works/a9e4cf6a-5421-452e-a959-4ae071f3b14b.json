@@ -1,0 +1,76 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a9e4cf6a-5421-452e-a959-4ae071f3b14b?inc=artist-rels&fmt=json",
+  "id": "a9e4cf6a-5421-452e-a959-4ae071f3b14b",
+  "title": "The Bomb",
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "00000320403989"
+    },
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "2052735",
+      "type": "BMI ID"
+    }
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "artist": {
+        "sort-name": "Sir Jinx",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Sir Jinx",
+        "country": "US",
+        "id": "e17b5852-c397-4b18-8f38-2384dc2c69ef"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Ice Cube",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "type": "Person",
+        "name": "Ice Cube"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "language": "eng",
+  "iswcs": [
+    "T-070.018.625-9"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

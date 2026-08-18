@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/204345d1-99a1-4675-ab5f-85c15d97cef0?inc=work-rels&fmt=json",
+  "length": 130706,
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "work": {
+        "type": "Song",
+        "id": "d3d652a9-8afd-4d5e-a85a-d5d15e5d9c58",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "title": "I’m Only Out for One Thang",
+        "language": "eng",
+        "iswcs": [
+          "T-906.699.809-2"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "source-credit": "",
+      "direction": "forward",
+      "ended": false,
+      "attribute-values": {},
+      "begin": null
+    }
+  ],
+  "disambiguation": "explicit",
+  "id": "204345d1-99a1-4675-ab5f-85c15d97cef0",
+  "first-release-date": "1990-05-15",
+  "title": "I’m Only Out for One Thang",
+  "video": false
+}

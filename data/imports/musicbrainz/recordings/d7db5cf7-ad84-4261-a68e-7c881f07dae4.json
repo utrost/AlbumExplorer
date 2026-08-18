@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d7db5cf7-ad84-4261-a68e-7c881f07dae4?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "title": "Witchy Woman",
+  "id": "d7db5cf7-ad84-4261-a68e-7c881f07dae4",
+  "first-release-date": "1972-06-01",
+  "length": 252000,
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.202.521-5"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "b2775a8f-5911-33bf-b50f-9725a9279289",
+        "title": "Witchy Woman",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ]
+}

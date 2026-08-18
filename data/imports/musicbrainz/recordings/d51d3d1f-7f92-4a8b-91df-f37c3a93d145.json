@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d51d3d1f-7f92-4a8b-91df-f37c3a93d145?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo studio mix",
+  "length": 133386,
+  "id": "d51d3d1f-7f92-4a8b-91df-f37c3a93d145",
+  "title": "It Won’t Be Long",
+  "first-release-date": "1963-11-22",
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "end": "1963-07-30",
+      "attribute-ids": {},
+      "begin": "1963-07-30",
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-900.009.125-8"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "a3fb304a-3680-369c-b9a1-61d0931a1a60",
+        "title": "It Won’t Be Long",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      }
+    }
+  ]
+}

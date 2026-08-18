@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7750b3a2-b167-47db-ac21-ce7533c986f4?inc=work-rels&fmt=json",
+  "length": 232000,
+  "id": "7750b3a2-b167-47db-ac21-ce7533c986f4",
+  "first-release-date": "1987-08-25",
+  "title": "Liberian Girl",
+  "video": false,
+  "relations": [
+    {
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.241.688-3"
+        ],
+        "language": "eng",
+        "type": "Song",
+        "attributes": [],
+        "id": "d2e8de39-2337-3e6c-b50a-7f408f8454b7",
+        "title": "Liberian Girl"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "disambiguation": "album version"
+}

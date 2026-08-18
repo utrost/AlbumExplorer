@@ -1,0 +1,70 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f5a1617a-7895-4983-ae5e-8be1b263039b?inc=work-rels&fmt=json",
+  "first-release-date": "1969",
+  "id": "f5a1617a-7895-4983-ae5e-8be1b263039b",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "id": "c19dd49a-c17f-3f9a-98fa-afe47744600b",
+        "iswcs": [
+          "T-900.008.747-8"
+        ],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "title": "Do You Think It’s Alright?",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": ""
+    },
+    {
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "b05455ae-ec70-3430-a0ab-0edc2bf1b2b1",
+        "iswcs": [
+          "T-010.168.116-6"
+        ],
+        "disambiguation": "",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Fiddle About",
+        "type": "Song"
+      }
+    }
+  ],
+  "disambiguation": "",
+  "video": false,
+  "length": 114106,
+  "title": "Do You Think It’s Alright / Fiddle About"
+}

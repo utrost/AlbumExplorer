@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/bcf26430-70e9-4c73-ac21-8b9da0d53b29?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "performance",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Earlybird",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [
+          "T-070.050.506-1"
+        ],
+        "id": "0381a7d8-76b9-48b2-a5d9-5564297924c4",
+        "language": "eng"
+      },
+      "attribute-ids": {}
+    }
+  ],
+  "disambiguation": "",
+  "title": "Earlybird",
+  "video": false,
+  "id": "bcf26430-70e9-4c73-ac21-8b9da0d53b29",
+  "first-release-date": "1972-06-01",
+  "length": 180413
+}

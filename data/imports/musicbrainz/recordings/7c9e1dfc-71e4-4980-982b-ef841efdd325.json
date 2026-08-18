@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7c9e1dfc-71e4-4980-982b-ef841efdd325?inc=work-rels&fmt=json",
+  "id": "7c9e1dfc-71e4-4980-982b-ef841efdd325",
+  "first-release-date": "1963-11-29",
+  "title": "This Boy",
+  "relations": [
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "end": "1963-10-17",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": "1963-10-17",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "iswcs": [
+          "T-010.134.574-7"
+        ],
+        "id": "b839598d-48bb-3636-9012-b095b0fed1a6",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "This Boy",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance"
+    }
+  ],
+  "video": false,
+  "length": 135000,
+  "disambiguation": "original mono studio mix"
+}

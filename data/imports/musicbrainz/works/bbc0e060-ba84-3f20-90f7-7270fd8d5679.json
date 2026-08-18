@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/bbc0e060-ba84-3f20-90f7-7270fd8d5679?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "composer",
+      "ended": true,
+      "begin": "1969",
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": "1969",
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "of The Who",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Townshend, Pete",
+        "country": "GB",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "name": "Pete Townshend"
+      },
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "of The Who",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Townshend, Pete",
+        "country": "GB",
+        "name": "Pete Townshend",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Sally Simpson",
+  "type": "Song",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "bbc0e060-ba84-3f20-90f7-7270fd8d5679",
+  "iswcs": [
+    "T-010.162.882-3"
+  ]
+}

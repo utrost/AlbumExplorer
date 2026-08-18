@@ -1,0 +1,46 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/edcb5d90-0521-49e8-8a9c-a66e8056ab22?inc=work-rels&fmt=json",
+  "length": 186640,
+  "id": "edcb5d90-0521-49e8-8a9c-a66e8056ab22",
+  "first-release-date": "1960-11-15",
+  "title": "I Just Want to Make Love to You (mono version)",
+  "relations": [
+    {
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type": "performance",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "begin": null,
+      "end": null,
+      "attributes": [
+        "cover"
+      ],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "id": "20c7178f-8ab9-3d6e-8c4f-1135d997fe8e",
+        "title": "I Just Wanna Make Love to You",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.241.429-6",
+          "T-906.252.887-4"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

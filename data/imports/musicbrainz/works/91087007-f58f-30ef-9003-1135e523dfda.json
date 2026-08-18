@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/91087007-f58f-30ef-9003-1135e523dfda?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "country": "US",
+        "disambiguation": "“King of Pop”",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Jackson, Michael",
+        "id": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+        "name": "Michael Jackson"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "composer",
+      "attribute-ids": {}
+    },
+    {
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "“King of Pop”",
+        "country": "US",
+        "name": "Michael Jackson",
+        "sort-name": "Jackson, Michael",
+        "id": "f27ec8db-af05-4f36-916e-3d57f91ecf5e"
+      },
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward"
+    }
+  ],
+  "title": "Another Part of Me",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "91087007-f58f-30ef-9003-1135e523dfda",
+  "attributes": [],
+  "iswcs": [
+    "T-070.231.992-3"
+  ],
+  "language": "eng"
+}

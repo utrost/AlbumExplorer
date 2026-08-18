@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6596e4d9-4464-45ff-aff7-fe0fd4745be8?inc=work-rels&fmt=json",
+  "title": "I’m Free",
+  "id": "6596e4d9-4464-45ff-aff7-fe0fd4745be8",
+  "length": 159000,
+  "relations": [
+    {
+      "ended": true,
+      "attributes": [],
+      "end": "1969-03",
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-010.162.697-4",
+          "T-011.246.167-2"
+        ],
+        "title": "I’m Free",
+        "attributes": [],
+        "id": "2586aa1d-53b3-3762-9cb7-02929ed2b185",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng"
+      },
+      "type": "performance",
+      "attribute-values": {},
+      "direction": "forward",
+      "begin": "1968-10",
+      "attribute-ids": {},
+      "target-type": "work",
+      "target-credit": ""
+    }
+  ],
+  "first-release-date": "1969-05-23",
+  "video": false,
+  "disambiguation": "original studio mix"
+}

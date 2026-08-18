@@ -1,0 +1,78 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5e8dab22-ccea-48e7-ba5d-171983abd375?inc=work-rels&fmt=json",
+  "length": 358266,
+  "first-release-date": "1969",
+  "video": false,
+  "id": "5e8dab22-ccea-48e7-ba5d-171983abd375",
+  "disambiguation": "",
+  "title": "Overture / It’s a Boy",
+  "relations": [
+    {
+      "ended": false,
+      "type": "performance",
+      "attributes": [
+        "medley"
+      ],
+      "target-credit": "",
+      "source-credit": "",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "title": "It’s a Boy",
+        "language": "eng",
+        "disambiguation": "",
+        "id": "89c2c0a8-94d6-3b90-bd0e-4e7f6a82f7c7",
+        "attributes": [],
+        "iswcs": [
+          "T-010.025.346-0"
+        ]
+      },
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "attribute-ids": {
+        "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "begin": null
+    },
+    {
+      "begin": null,
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {
+        "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+      },
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "work": {
+        "disambiguation": "Tommy",
+        "id": "e4a45b5e-e6f8-3972-82c8-651e89c16927",
+        "iswcs": [
+          "T-900.008.914-5"
+        ],
+        "attributes": [],
+        "type-id": "7b72b6c1-0d76-3262-9925-aedfab92ef01",
+        "languages": [
+          "eng"
+        ],
+        "type": "Overture",
+        "language": "eng",
+        "title": "Overture"
+      },
+      "source-credit": "",
+      "attributes": [
+        "medley"
+      ],
+      "target-credit": "",
+      "type": "performance",
+      "ended": false
+    }
+  ]
+}

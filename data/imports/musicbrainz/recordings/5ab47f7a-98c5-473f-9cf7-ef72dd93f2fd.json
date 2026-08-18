@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5ab47f7a-98c5-473f-9cf7-ef72dd93f2fd?inc=work-rels&fmt=json",
+  "length": 314000,
+  "first-release-date": "2008-06-09",
+  "disambiguation": "",
+  "video": false,
+  "id": "5ab47f7a-98c5-473f-9cf7-ef72dd93f2fd",
+  "relations": [
+    {
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Pussy Monster",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "id": "0fdfef37-b9a4-401f-a690-6f2bd343aff4",
+        "disambiguation": "",
+        "iswcs": [],
+        "attributes": []
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "title": "Pussy Monster"
+}

@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4984f2e1-5ff6-34ef-a0d0-4723cab1f7ca?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "GB",
+        "id": "0d212894-db54-4cc1-9ded-3cac50183a1d",
+        "name": "Bon Scott",
+        "type": "Person",
+        "disambiguation": "AC/DC member",
+        "sort-name": "Scott, Bon",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "AU",
+        "id": "a0a54c69-b0d2-4d2a-bcf8-994b8846b0d8",
+        "type": "Person",
+        "name": "Angus Young",
+        "disambiguation": "member of AC/DC",
+        "sort-name": "Young, Angus",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "name": "Malcolm Young",
+        "type": "Person",
+        "id": "ea719716-da05-46f8-bbd5-cc5803db3d0e",
+        "country": "AU",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Young, Malcolm",
+        "disambiguation": "guitar player for AC/DC"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "4984f2e1-5ff6-34ef-a0d0-4723cab1f7ca",
+  "title": "Girls Got Rhythm",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-060.076.706-3"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

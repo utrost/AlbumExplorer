@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/bda73f49-47e0-4850-b276-9280d63a2760?inc=work-rels&fmt=json",
+  "length": 23826,
+  "relations": [
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "begin": null,
+      "target-type": "work",
+      "attribute-ids": {},
+      "type": "performance",
+      "attribute-values": {},
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "disambiguation": "",
+        "type": "Song",
+        "id": "bf4ae634-189f-3100-be59-af4875086935",
+        "attributes": [],
+        "title": "There’s a Doctor",
+        "iswcs": [
+          "T-010.163.516-8"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "ended": false,
+      "attributes": []
+    }
+  ],
+  "title": "There’s a Doctor",
+  "id": "bda73f49-47e0-4850-b276-9280d63a2760",
+  "video": false,
+  "first-release-date": "1969-05-23",
+  "disambiguation": "original studio mix"
+}

@@ -1,0 +1,192 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ed26d4de-d9db-361c-8bea-b7c08c7312b5?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-010.166.442-9"
+  ],
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000178 301 99"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "6413",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "75100201800",
+      "type": "SIAE ID"
+    },
+    {
+      "value": "24.583",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type": "SAYCO ID",
+      "value": "1357956",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "1357956",
+      "type": "SAYCE ID"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "11899097"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "210505"
+    },
+    {
+      "type": "SACVEN ID",
+      "value": "3975365",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+    },
+    {
+      "type": "SACM ID",
+      "value": "008872570",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "66 905 220 11",
+      "type": "SACEM ID"
+    },
+    {
+      "value": "014173100",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "value": "71315H",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "634817-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type": "ECAD ID",
+      "value": "86750",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "value": "4820804",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "11269693"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000066835"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW03005554"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "9334540",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type": "APA ID",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "value": "5243329"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "48886401"
+    },
+    {
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "4031407",
+      "type": "ACAM ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "value": "420120194",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    },
+    {
+      "type-id": "7526c19d-3be4-3420-b6cc-9fb6e49fa1a9",
+      "value": "E major",
+      "value-id": "5fd130f8-4180-38d8-9a8a-2f49d783792c",
+      "type": "Key"
+    }
+  ],
+  "disambiguation": "",
+  "id": "ed26d4de-d9db-361c-8bea-b7c08c7312b5",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "relations": [
+    {
+      "begin": "1963-09",
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "The Beatles",
+        "name": "John Lennon",
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "sort-name": "Lennon, John"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": "1963-09",
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "type": "writer",
+      "ended": true
+    },
+    {
+      "type": "writer",
+      "ended": true,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "country": "GB",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "McCartney, Paul",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "disambiguation": "The Beatles",
+        "name": "Paul McCartney"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": "1963-09",
+      "begin": "1963-09"
+    }
+  ],
+  "title": "Little Child",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

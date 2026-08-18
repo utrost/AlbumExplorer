@@ -1,0 +1,48 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6a81b509-a0bd-4714-8b86-84866e6416e7?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "language": "eng",
+  "type": "Audio drama",
+  "id": "6a81b509-a0bd-4714-8b86-84866e6416e7",
+  "attributes": [
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "00000506140830"
+    }
+  ],
+  "title": "The Drive‐By",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward",
+      "target-credit": "",
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "artist": {
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Ice Cube",
+        "type": "Person",
+        "name": "Ice Cube"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type": "lyricist"
+    }
+  ],
+  "iswcs": [
+    "T-902.215.553-9"
+  ],
+  "type-id": "40ed00fb-cd1d-3de5-afcc-4d08720d63e7"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/778e7766-3e46-4b4a-9313-00e260e76c3e?inc=work-rels&fmt=json",
+  "id": "778e7766-3e46-4b4a-9313-00e260e76c3e",
+  "disambiguation": "album version",
+  "video": false,
+  "title": "Another Part of Me",
+  "first-release-date": "1987-08-25",
+  "length": 234733,
+  "relations": [
+    {
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "direction": "forward",
+      "source-credit": "",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-type": "work",
+      "end": null,
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "title": "Another Part of Me",
+        "iswcs": [
+          "T-070.231.992-3"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "type": "Song",
+        "id": "91087007-f58f-30ef-9003-1135e523dfda",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ]
+      },
+      "attributes": [],
+      "target-credit": ""
+    }
+  ]
+}

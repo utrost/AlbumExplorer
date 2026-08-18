@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/35af6d99-a98b-3447-bd5c-2ecebac97629?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "id": "35af6d99-a98b-3447-bd5c-2ecebac97629",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "language": "eng",
+  "title": "Speed Demon",
+  "iswcs": [
+    "T-070.940.336-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "begin": null,
+      "artist": {
+        "sort-name": "Jackson, Michael",
+        "type": "Person",
+        "id": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "“King of Pop”",
+        "country": "US",
+        "name": "Michael Jackson"
+      },
+      "target-credit": "",
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "target-type": "artist",
+      "type": "composer",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-type": "artist",
+      "source-credit": "",
+      "direction": "backward",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "name": "Michael Jackson",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "“King of Pop”",
+        "id": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+        "type": "Person",
+        "sort-name": "Jackson, Michael"
+      },
+      "begin": null
+    }
+  ],
+  "attributes": []
+}

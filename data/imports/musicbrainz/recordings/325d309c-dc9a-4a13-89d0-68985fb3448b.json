@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/325d309c-dc9a-4a13-89d0-68985fb3448b?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "length": 203560,
+  "video": false,
+  "relations": [
+    {
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Girls Got Rhythm",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-060.076.706-3"
+        ],
+        "id": "4984f2e1-5ff6-34ef-a0d0-4723cab1f7ca",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null
+    }
+  ],
+  "title": "Girls Got Rhythm",
+  "first-release-date": "1979-07-27",
+  "id": "325d309c-dc9a-4a13-89d0-68985fb3448b"
+}

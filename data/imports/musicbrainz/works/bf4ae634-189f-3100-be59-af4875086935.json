@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/bf4ae634-189f-3100-be59-af4875086935?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "relations": [
+    {
+      "ended": true,
+      "type": "composer",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "end": "1969",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "type": "Person",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "sort-name": "Townshend, Pete",
+        "name": "Pete Townshend",
+        "disambiguation": "of The Who"
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "begin": "1969"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {},
+      "artist": {
+        "name": "Pete Townshend",
+        "disambiguation": "of The Who",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "sort-name": "Townshend, Pete",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB"
+      },
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "type": "lyricist",
+      "ended": false
+    }
+  ],
+  "title": "There’s a Doctor",
+  "disambiguation": "",
+  "id": "bf4ae634-189f-3100-be59-af4875086935",
+  "attributes": [],
+  "iswcs": [
+    "T-010.163.516-8"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/928f4475-03bd-36f3-9f6b-fbebfdc62f6e?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "attribute-values": {},
+      "type": "composer",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "“King of Pop”",
+        "type": "Person",
+        "name": "Michael Jackson",
+        "sort-name": "Jackson, Michael",
+        "id": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "type": "lyricist",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "“King of Pop”",
+        "sort-name": "Jackson, Michael",
+        "name": "Michael Jackson",
+        "type": "Person",
+        "id": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "ended": false,
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "title": "Dirty Diana",
+  "id": "928f4475-03bd-36f3-9f6b-fbebfdc62f6e",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.233.655-7"
+  ],
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type": "Song"
+}

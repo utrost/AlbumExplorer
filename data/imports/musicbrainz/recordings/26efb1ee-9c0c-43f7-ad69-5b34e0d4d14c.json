@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/26efb1ee-9c0c-43f7-ad69-5b34e0d4d14c?inc=work-rels&fmt=json",
+  "id": "26efb1ee-9c0c-43f7-ad69-5b34e0d4d14c",
+  "first-release-date": "1990-05-15",
+  "title": "Rollin’ Wit the Lench Mob",
+  "video": false,
+  "length": 223560,
+  "disambiguation": "explicit",
+  "relations": [
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "begin": null,
+      "direction": "forward",
+      "ended": false,
+      "work": {
+        "iswcs": [
+          "T-904.163.247-7"
+        ],
+        "id": "0c32da8b-036c-46bd-ba35-8fc7bfe2f040",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Rollin’ Wit The Lench Mob",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance"
+    }
+  ]
+}

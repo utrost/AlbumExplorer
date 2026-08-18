@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/5842ec47-017e-41a0-b85f-43fa670173e8?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "video": false,
+  "length": 126000,
+  "relations": [
+    {
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1964-11-02",
+      "ended": true,
+      "direction": "forward",
+      "begin": "1964-11-02",
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-901.127.989-3"
+        ],
+        "id": "ea1fa9dd-d83d-415d-aa30-73f32c15a829",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Oh! Baby (We Got a Good Thing Goin’)",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ],
+  "title": "Oh Baby (We Got a Good Thing Goin’)",
+  "first-release-date": "1965",
+  "id": "5842ec47-017e-41a0-b85f-43fa670173e8"
+}

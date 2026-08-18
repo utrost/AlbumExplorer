@@ -1,0 +1,61 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0dc8e69b-0273-3124-85eb-6bb34269609b?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Edwin Bocage",
+        "id": "4e89b23b-ae45-45bc-b932-a5db2f54164a",
+        "country": "US",
+        "sort-name": "Bocage, Edwin"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US R&B",
+        "name": "Paul Gayten",
+        "id": "b335b9bd-52c1-4650-bb2a-0fb57f5c1391",
+        "sort-name": "Gayten, Paul",
+        "country": null
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ],
+  "title": "My Dearest Darling",
+  "type-id": null,
+  "language": null,
+  "type": null,
+  "attributes": [],
+  "languages": [],
+  "id": "0dc8e69b-0273-3124-85eb-6bb34269609b",
+  "iswcs": []
+}

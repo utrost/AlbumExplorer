@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/faf5c8cd-6a15-4072-877f-c613ec2f69fe?inc=work-rels&fmt=json",
+  "id": "faf5c8cd-6a15-4072-877f-c613ec2f69fe",
+  "first-release-date": "1990-05-15",
+  "title": "Once Upon a Time in the Projects",
+  "length": 221000,
+  "video": false,
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-920.225.819-3"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "987c55c4-f0d7-4568-869b-b3c87c81bd24",
+        "title": "Once Upon a Time in the Projects",
+        "attributes": []
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    }
+  ],
+  "disambiguation": "explicit"
+}

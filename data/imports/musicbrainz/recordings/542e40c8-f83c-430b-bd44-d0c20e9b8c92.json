@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/542e40c8-f83c-430b-bd44-d0c20e9b8c92?inc=work-rels&fmt=json",
+  "title": "Little Child",
+  "id": "542e40c8-f83c-430b-bd44-d0c20e9b8c92",
+  "length": 108000,
+  "relations": [
+    {
+      "type": "performance",
+      "attribute-values": {},
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "language": "eng",
+        "type": "Song",
+        "attributes": [],
+        "id": "ed26d4de-d9db-361c-8bea-b7c08c7312b5",
+        "title": "Little Child",
+        "iswcs": [
+          "T-010.166.442-9"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "source-credit": "",
+      "end": "1963-10-03",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "ended": true,
+      "attributes": [],
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "target-type": "work",
+      "begin": "1963-09-12"
+    }
+  ],
+  "disambiguation": "original stereo studio mix",
+  "first-release-date": "1963-11-22",
+  "video": false
+}

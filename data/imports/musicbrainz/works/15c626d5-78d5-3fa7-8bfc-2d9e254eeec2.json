@@ -1,0 +1,191 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/15c626d5-78d5-3fa7-8bfc-2d9e254eeec2?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-070.161.202-3"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "64b94289-9474-4d43-8c93-918ccc1920d1",
+        "sort-name": "Joel, Billy",
+        "name": "Billy Joel",
+        "type": "Person",
+        "disambiguation": "American singer‐songwriter and pianist"
+      },
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "attribute-values": {},
+      "type": "lyricist",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "type": "Person",
+        "name": "Billy Joel",
+        "sort-name": "Joel, Billy",
+        "disambiguation": "American singer‐songwriter and pianist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "64b94289-9474-4d43-8c93-918ccc1920d1"
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000471 365 87"
+    },
+    {
+      "type": "SPA ID",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "90792"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "10868622"
+    },
+    {
+      "value": "78102068500",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID"
+    },
+    {
+      "value": "145.628",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "833262"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "833262",
+      "type": "SAYCE ID"
+    },
+    {
+      "value": "2460858",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID"
+    },
+    {
+      "type": "SACVEN ID",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2099612"
+    },
+    {
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "value": "040889761",
+      "type": "SACM ID"
+    },
+    {
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "77 232 711 11",
+      "type": "SACEM ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID",
+      "value": "007059400"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "349969C"
+    },
+    {
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "979370-001"
+    },
+    {
+      "value": "7213055",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "161203",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "10079474"
+    },
+    {
+      "type": "CASH ID",
+      "type-id": "9e0765a1-1505-3ca9-9147-8dcbb0aa9cec",
+      "value": "C-1008446730"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000316632",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "value": "GW02912766",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "value": "2306679",
+      "type": "APDAYC ID"
+    },
+    {
+      "type": "AGADU ID",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4556949"
+    },
+    {
+      "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+      "value": "4884040",
+      "type": "ACAM ID"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0O0-5526-5",
+      "type": "JASRAC ID"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "450115269"
+    }
+  ],
+  "id": "15c626d5-78d5-3fa7-8bfc-2d9e254eeec2",
+  "title": "Only the Good Die Young",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "disambiguation": ""
+}

@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/61726a4d-8e86-4172-8585-d5698bfe173e?inc=work-rels&fmt=json",
+  "title": "Phone Home",
+  "id": "61726a4d-8e86-4172-8585-d5698bfe173e",
+  "first-release-date": "2008-06-09",
+  "length": 192000,
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "a473a491-416c-4666-b669-532fc7dac427",
+        "title": "Phone Home",
+        "attributes": []
+      }
+    }
+  ],
+  "disambiguation": ""
+}

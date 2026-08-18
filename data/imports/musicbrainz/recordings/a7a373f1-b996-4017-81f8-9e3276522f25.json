@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a7a373f1-b996-4017-81f8-9e3276522f25?inc=work-rels&fmt=json",
+  "disambiguation": "original stereo studio mix",
+  "id": "a7a373f1-b996-4017-81f8-9e3276522f25",
+  "video": false,
+  "first-release-date": "1963-11-22",
+  "length": 129226,
+  "title": "All My Loving",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "end": "1963-07-30",
+      "target-type": "work",
+      "direction": "forward",
+      "attribute-values": {},
+      "begin": "1963-07-30",
+      "type": "performance",
+      "ended": true,
+      "work": {
+        "iswcs": [
+          "T-010.068.558-2"
+        ],
+        "attributes": [],
+        "disambiguation": "",
+        "id": "c65404bd-6bc9-30d3-9813-a960e83d9faf",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "title": "All My Loving",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": ""
+    }
+  ]
+}

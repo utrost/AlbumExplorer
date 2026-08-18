@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/43b697a3-4196-44b1-be22-4c12b11e8d00?inc=work-rels&fmt=json",
+  "id": "43b697a3-4196-44b1-be22-4c12b11e8d00",
+  "first-release-date": "2008-06-09",
+  "title": "Dr. Carter",
+  "disambiguation": "",
+  "length": 264000,
+  "video": false,
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "begin": null,
+      "ended": false,
+      "work": {
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Dr. Carter",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "27b8a153-ad84-4639-a5e0-67306fdd55a1",
+        "iswcs": []
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {}
+    }
+  ]
+}

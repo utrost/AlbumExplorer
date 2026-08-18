@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0381a7d8-76b9-48b2-a5d9-5564297924c4?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-070.050.506-1"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "writer",
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Leadon, Bernie",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Bernie Leadon",
+        "country": "US",
+        "id": "839464fe-cd82-4aea-b866-cc2d29e31bb3"
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Meisner, Randy",
+        "id": "1798d7ba-fc22-4cca-bbda-7542ab5a3c67",
+        "country": "US",
+        "type": "Person",
+        "name": "Randy Meisner"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "attributes": [],
+  "title": "Earlybird",
+  "id": "0381a7d8-76b9-48b2-a5d9-5564297924c4"
+}

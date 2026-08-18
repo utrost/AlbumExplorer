@@ -1,0 +1,74 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/ddb8ba68-a43f-4554-8e7f-0148022ec2a9?inc=work-rels&fmt=json",
+  "first-release-date": "1969-05-23",
+  "id": "ddb8ba68-a43f-4554-8e7f-0148022ec2a9",
+  "video": false,
+  "length": 134360,
+  "disambiguation": "original studio mix",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "target-type": "work",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "direction": "forward",
+      "begin": null,
+      "ended": false,
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-903.944.909-7"
+        ],
+        "id": "f1893c0c-b9e6-311f-9c97-28f26beeea66",
+        "disambiguation": "",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Eyesight to the Blind",
+        "type": "Song"
+      },
+      "type": "performance",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "source-credit": ""
+    },
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Eyesight to the Blind",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [
+          "T-903.944.909-7"
+        ],
+        "id": "f1893c0c-b9e6-311f-9c97-28f26beeea66"
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward"
+    }
+  ],
+  "title": "Eyesight to the Blind (The Hawker)"
+}

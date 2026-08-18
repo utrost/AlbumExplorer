@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/bf80d304-2c72-4352-9ced-3aaed8632346?inc=work-rels&fmt=json",
+  "id": "bf80d304-2c72-4352-9ced-3aaed8632346",
+  "video": false,
+  "disambiguation": "",
+  "first-release-date": "1979-07-27",
+  "length": 202533,
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "direction": "forward",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "Shot Down in Flames",
+        "disambiguation": "",
+        "id": "9f5a1ba3-9b9c-4ad0-a8d9-4d670a24d74e",
+        "attributes": [],
+        "iswcs": [
+          "T-060.116.373-8"
+        ]
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "type": "performance",
+      "ended": false
+    }
+  ],
+  "title": "Shot Down in Flames"
+}

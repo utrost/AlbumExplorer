@@ -1,0 +1,122 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d3d652a9-8afd-4d5e-a85a-d5d15e5d9c58?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "sort-name": "Sir Jinx",
+        "id": "e17b5852-c397-4b18-8f38-2384dc2c69ef",
+        "name": "Sir Jinx"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "country": "US",
+        "sort-name": "Wonder, Stevie",
+        "id": "1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e",
+        "name": "Stevie Wonder",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Flavor Flav",
+        "id": "813c1586-f7d5-42d1-94bb-cd2abb42f507",
+        "sort-name": "Flavor Flav",
+        "country": "US"
+      },
+      "target-credit": ""
+    },
+    {
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "name": "Ice Cube",
+        "sort-name": "Ice Cube",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "I’m Only Out for One Thang",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "type": "BMI ID",
+      "value": "2107131"
+    },
+    {
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID",
+      "value": "00000393944017"
+    }
+  ],
+  "id": "d3d652a9-8afd-4d5e-a85a-d5d15e5d9c58",
+  "iswcs": [
+    "T-906.699.809-2"
+  ]
+}

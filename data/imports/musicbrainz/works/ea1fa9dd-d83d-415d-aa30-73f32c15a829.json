@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ea1fa9dd-d83d-415d-aa30-73f32c15a829?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {},
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "country": "US",
+        "name": "Barbara Lynn",
+        "id": "facb97f4-4674-40d0-b060-433e9a1a49cb",
+        "sort-name": "Lynn, Barbara"
+      },
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist"
+    },
+    {
+      "artist": {
+        "id": "facb97f4-4674-40d0-b060-433e9a1a49cb",
+        "sort-name": "Lynn, Barbara",
+        "name": "Barbara Lynn",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "lyricist",
+      "attribute-ids": {}
+    }
+  ],
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "title": "Oh! Baby (We Got a Good Thing Goin’)",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "ea1fa9dd-d83d-415d-aa30-73f32c15a829",
+  "iswcs": [
+    "T-901.127.989-3"
+  ],
+  "attributes": [],
+  "language": "eng"
+}

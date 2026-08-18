@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/cc0554d3-6c18-4ff2-8407-a64322e39b7a?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "id": "cc0554d3-6c18-4ff2-8407-a64322e39b7a",
+  "title": "Tryin’",
+  "language": "eng",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "sort-name": "Meisner, Randy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "name": "Randy Meisner",
+        "country": "US",
+        "id": "1798d7ba-fc22-4cca-bbda-7542ab5a3c67"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "direction": "backward",
+      "target-type": "artist",
+      "ended": false,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Meisner, Randy",
+        "disambiguation": "",
+        "name": "Randy Meisner",
+        "type": "Person",
+        "id": "1798d7ba-fc22-4cca-bbda-7542ab5a3c67",
+        "country": "US"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-902.730.737-5"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

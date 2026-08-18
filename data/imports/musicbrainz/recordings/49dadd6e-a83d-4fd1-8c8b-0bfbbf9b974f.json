@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/49dadd6e-a83d-4fd1-8c8b-0bfbbf9b974f?inc=work-rels&fmt=json",
+  "id": "49dadd6e-a83d-4fd1-8c8b-0bfbbf9b974f",
+  "first-release-date": "1965",
+  "title": "You Can’t Catch Me",
+  "video": false,
+  "length": 220373,
+  "disambiguation": "",
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1964-09-28",
+      "ended": true,
+      "work": {
+        "iswcs": [
+          "T-070.940.893-4"
+        ],
+        "id": "382bf890-465f-3001-8ce3-3e2ff0a28096",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "You Can’t Catch Me",
+        "language": "eng",
+        "disambiguation": ""
+      },
+      "type": "performance",
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1964-09-29",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ]
+}

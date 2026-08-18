@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c6897645-043b-45d5-bce8-2fe5c09860f2?inc=work-rels&fmt=json",
+  "length": 287000,
+  "first-release-date": "2008-06-09",
+  "id": "c6897645-043b-45d5-bce8-2fe5c09860f2",
+  "video": false,
+  "disambiguation": "",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "direction": "forward",
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Mrs. Officer",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "id": "aea93300-f5c1-4ce6-a7eb-f72a5234c4bd",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": []
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "type": "performance",
+      "ended": false
+    }
+  ],
+  "title": "Mrs. Officer"
+}

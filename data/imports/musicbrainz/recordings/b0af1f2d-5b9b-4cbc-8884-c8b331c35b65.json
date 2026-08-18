@@ -1,0 +1,78 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b0af1f2d-5b9b-4cbc-8884-c8b331c35b65?inc=work-rels&fmt=json",
+  "title": "Amazing Journey / Sparks",
+  "id": "b0af1f2d-5b9b-4cbc-8884-c8b331c35b65",
+  "length": 428733,
+  "relations": [
+    {
+      "ended": false,
+      "attributes": [
+        "medley"
+      ],
+      "end": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "7409a434-1b3a-3751-a11b-bb1c26705186",
+        "attributes": [],
+        "title": "Amazing Journey",
+        "iswcs": [
+          "T-010.037.025-9"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "disambiguation": "",
+        "type": "Song"
+      },
+      "type": "performance",
+      "attribute-values": {},
+      "direction": "forward",
+      "begin": null,
+      "target-type": "work",
+      "attribute-ids": {
+        "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+      },
+      "target-credit": ""
+    },
+    {
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "type-id": null,
+        "iswcs": [
+          "T-010.037.024-8"
+        ],
+        "title": "Sparks",
+        "attributes": [],
+        "id": "29e4ed71-2eb1-3b8f-926b-93d2cdd3e83b",
+        "type": null,
+        "language": "zxx",
+        "disambiguation": "",
+        "languages": [
+          "zxx"
+        ]
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [
+        "medley"
+      ],
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {
+        "medley": "37da3398-5d1b-4acb-be25-df95e33e423c"
+      },
+      "target-type": "work",
+      "begin": null,
+      "direction": "forward"
+    }
+  ],
+  "first-release-date": "1969",
+  "video": false,
+  "disambiguation": ""
+}

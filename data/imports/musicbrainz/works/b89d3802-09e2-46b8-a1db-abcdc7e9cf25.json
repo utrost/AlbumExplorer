@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b89d3802-09e2-46b8-a1db-abcdc7e9cf25?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "type": "Person",
+        "sort-name": "Scott, Bon",
+        "id": "0d212894-db54-4cc1-9ded-3cac50183a1d",
+        "name": "Bon Scott",
+        "disambiguation": "AC/DC member"
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "type": "writer"
+    },
+    {
+      "type": "writer",
+      "ended": false,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "id": "a0a54c69-b0d2-4d2a-bcf8-994b8846b0d8",
+        "sort-name": "Young, Angus",
+        "name": "Angus Young",
+        "disambiguation": "member of AC/DC",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "AU",
+        "type": "Person"
+      },
+      "target-type": "artist",
+      "direction": "backward",
+      "attribute-values": {},
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "begin": null
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "disambiguation": "guitar player for AC/DC",
+        "name": "Malcolm Young",
+        "id": "ea719716-da05-46f8-bbd5-cc5803db3d0e",
+        "sort-name": "Young, Malcolm",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "AU"
+      },
+      "begin": null,
+      "type": "writer",
+      "ended": false,
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": ""
+    }
+  ],
+  "title": "Love Hungry Man",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "id": "b89d3802-09e2-46b8-a1db-abcdc7e9cf25",
+  "disambiguation": "",
+  "attributes": [],
+  "iswcs": [
+    "T-060.049.867-6"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/17a6340e-5d62-4b20-ae98-4c954c53aca2?inc=work-rels&fmt=json",
+  "id": "17a6340e-5d62-4b20-ae98-4c954c53aca2",
+  "first-release-date": "1979-07-27",
+  "title": "Get It Hot",
+  "disambiguation": "",
+  "video": false,
+  "length": 154400,
+  "relations": [
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "type": "Song",
+        "title": "Get It Hot",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "disambiguation": "",
+        "iswcs": [
+          "T-060.160.627-2"
+        ],
+        "id": "933974da-3e35-4d82-8d6b-0510fe9387f6",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ]
+}

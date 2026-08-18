@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/06a0dca5-e43d-304b-b65e-bd1e656fd2a3?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "type": "composer",
+      "ended": true,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "disambiguation": "",
+        "name": "John Entwistle",
+        "sort-name": "Entwistle, John",
+        "id": "384d6827-3b17-43bc-acf6-92e618b8ec83"
+      },
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": "1969",
+      "begin": "1969"
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "sort-name": "Entwistle, John",
+        "id": "384d6827-3b17-43bc-acf6-92e618b8ec83",
+        "name": "John Entwistle",
+        "disambiguation": "",
+        "country": "GB",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-ids": {},
+      "end": null,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "lyricist"
+    }
+  ],
+  "language": "eng",
+  "title": "Cousin Kevin",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "id": "06a0dca5-e43d-304b-b65e-bd1e656fd2a3",
+  "disambiguation": "",
+  "iswcs": [
+    "T-010.164.983-5"
+  ],
+  "attributes": []
+}

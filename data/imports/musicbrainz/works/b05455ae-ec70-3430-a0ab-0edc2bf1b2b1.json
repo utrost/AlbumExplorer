@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b05455ae-ec70-3430-a0ab-0edc2bf1b2b1?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "John Entwistle",
+        "type": "Person",
+        "country": "GB",
+        "id": "384d6827-3b17-43bc-acf6-92e618b8ec83",
+        "sort-name": "Entwistle, John",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": "1969",
+      "attribute-ids": {},
+      "begin": "1969",
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": true
+    },
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "name": "John Entwistle",
+        "type": "Person",
+        "id": "384d6827-3b17-43bc-acf6-92e618b8ec83",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Entwistle, John",
+        "disambiguation": ""
+      },
+      "type": "lyricist",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "b05455ae-ec70-3430-a0ab-0edc2bf1b2b1",
+  "title": "Fiddle About",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-010.168.116-6"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": ""
+}

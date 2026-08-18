@@ -1,0 +1,181 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b94891dd-839a-3b36-a3e1-c604f4a0741d?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "name": "James Taylor",
+        "type": "Person",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Taylor, James",
+        "disambiguation": "singer-songwriter and guitarist"
+      },
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "artist": {
+        "disambiguation": "singer-songwriter and guitarist",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Taylor, James",
+        "id": "107d0c22-d051-4d98-8206-4e14de02132a",
+        "country": "US",
+        "name": "James Taylor",
+        "type": "Person"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "lyricist"
+    }
+  ],
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "value": "000307 994 75",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "value": "130985",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "12042020",
+      "type": "SOCAN ID"
+    },
+    {
+      "type": "SIAE ID",
+      "value": "72101669700",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+    },
+    {
+      "value": "53.390",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "value": "48606203",
+      "type-id": "d05fce14-b3d7-370c-8655-e27ac2e4e290",
+      "type": "SESAC ID"
+    },
+    {
+      "type": "SAYCO ID",
+      "value": "3007767",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "3007767",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2048966",
+      "type": "SACVEN ID"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "61 055 612 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "062217800",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "86432A"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0B0-1457-2"
+    },
+    {
+      "type": "GEMA ID",
+      "value": "841108-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "value": "1161208",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "257719",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "value": "W-000231795",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "126593",
+      "type": "BMI ID"
+    },
+    {
+      "value": "320162767",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW02699627"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "2425812",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "39492101",
+      "type": "AKM ID"
+    },
+    {
+      "value": "284320",
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+      "type": "ACDAM ID"
+    }
+  ],
+  "id": "b94891dd-839a-3b36-a3e1-c604f4a0741d",
+  "title": "Blossom",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.257.699-5"
+  ],
+  "languages": [
+    "eng"
+  ]
+}

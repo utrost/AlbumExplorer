@@ -1,0 +1,42 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/12d11925-47e3-3b94-9c21-fc2d81c557c1?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "relations": [
+    {
+      "end": "1969",
+      "attribute-ids": {},
+      "begin": "1969",
+      "type": "composer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": true,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "type": "Person",
+        "name": "Pete Townshend",
+        "country": "GB",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "sort-name": "Townshend, Pete",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "of The Who"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "language": "zxx",
+  "id": "12d11925-47e3-3b94-9c21-fc2d81c557c1",
+  "title": "Underture",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "zxx"
+  ],
+  "iswcs": [
+    "T-010.162.706-8"
+  ],
+  "disambiguation": ""
+}

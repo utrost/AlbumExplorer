@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d25a7610-8c02-4c14-9f7f-005f383dcf96?inc=work-rels&fmt=json",
+  "disambiguation": "",
+  "id": "d25a7610-8c02-4c14-9f7f-005f383dcf96",
+  "first-release-date": "1960-11-15",
+  "title": "Stormy Weather (mono version)",
+  "length": 188066,
+  "video": false,
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [
+        "cover"
+      ],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.137.905-6"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "6711fe46-c3a7-3bc1-abbe-0d4bba53bcc6",
+        "title": "Stormy Weather",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      },
+      "type": "performance",
+      "ended": false,
+      "target-type": "work",
+      "direction": "forward",
+      "end": null,
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "begin": null
+    }
+  ]
+}

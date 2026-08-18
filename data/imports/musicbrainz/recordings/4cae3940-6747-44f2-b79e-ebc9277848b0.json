@@ -1,0 +1,45 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/4cae3940-6747-44f2-b79e-ebc9277848b0?inc=work-rels&fmt=json",
+  "video": false,
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "type": "performance",
+      "ended": false,
+      "target-type": "work",
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "a309b2c0-bb43-31c5-9cd9-53d38b6361c0",
+        "title": "At Last",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.002.057-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [
+        "cover"
+      ]
+    }
+  ],
+  "first-release-date": "1960-11-15",
+  "id": "4cae3940-6747-44f2-b79e-ebc9277848b0",
+  "title": "At Last (mono version)",
+  "length": 180066,
+  "disambiguation": ""
+}

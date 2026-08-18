@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f41fefd3-3c52-4220-9c90-e2203bf10557?inc=work-rels&fmt=json",
+  "id": "f41fefd3-3c52-4220-9c90-e2203bf10557",
+  "first-release-date": "2008-06-09",
+  "title": "Got Money",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "forward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "iswcs": [],
+        "id": "8132924e-f98f-4ebe-abc7-d81330f56104",
+        "disambiguation": "",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Got Money",
+        "type": "Song"
+      },
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null
+    }
+  ],
+  "disambiguation": "",
+  "length": 245000,
+  "video": false
+}

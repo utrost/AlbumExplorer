@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/2fa84fd6-1bca-4951-a285-cd046cd6f1d6?inc=work-rels&fmt=json",
+  "disambiguation": "original studio mix",
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type": "performance",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "id": "61e35ccd-6865-3e50-a038-62844f4dc0df",
+        "title": "Welcome",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-010.162.705-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "length": 272160,
+  "id": "2fa84fd6-1bca-4951-a285-cd046cd6f1d6",
+  "title": "Welcome",
+  "first-release-date": "1969-05-23"
+}

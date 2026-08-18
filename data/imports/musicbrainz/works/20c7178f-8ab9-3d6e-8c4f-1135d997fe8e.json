@@ -1,0 +1,112 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/20c7178f-8ab9-3d6e-8c4f-1135d997fe8e?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.241.429-6",
+    "T-906.252.887-4"
+  ],
+  "title": "I Just Wanna Make Love to You",
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "005086 771 33",
+      "type": "SUISA ID"
+    },
+    {
+      "value": "000055 070 25",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID",
+      "value": "12206126"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "43.880",
+      "type": "SGAE ID"
+    },
+    {
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "086850500",
+      "type": "SABAM ID"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "AS637493742831906176"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "9093472",
+      "type": "COMPASS ID"
+    },
+    {
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "630777",
+      "type": "BMI ID"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW21782112",
+      "type": "APRA ID"
+    }
+  ],
+  "id": "20c7178f-8ab9-3d6e-8c4f-1135d997fe8e",
+  "relations": [
+    {
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "attribute-values": {},
+      "type": "composer",
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "id": "ff4c8d42-4871-4778-885b-d41b01245133",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "",
+        "name": "Willie Dixon",
+        "type": "Person",
+        "sort-name": "Dixon, Willie"
+      }
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "type": "lyricist",
+      "attribute-values": {},
+      "ended": false,
+      "artist": {
+        "id": "ff4c8d42-4871-4778-885b-d41b01245133",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Dixon, Willie",
+        "type": "Person",
+        "name": "Willie Dixon"
+      },
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng"
+}

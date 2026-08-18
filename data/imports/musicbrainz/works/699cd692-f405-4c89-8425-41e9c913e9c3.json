@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/699cd692-f405-4c89-8425-41e9c913e9c3?inc=artist-rels&fmt=json",
+  "id": "699cd692-f405-4c89-8425-41e9c913e9c3",
+  "title": "A Milli",
+  "attributes": [],
+  "type": "Song",
+  "relations": [
+    {
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "country": "US",
+        "id": "2d0ff034-bf75-4459-93be-d2076b0d6751",
+        "name": "Bangladesh",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Bangladesh",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "Shondrae Crawford",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": []
+    },
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Hester, Charles \"Cha Lo\"",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Charles \"Cha Lo\" Hester",
+        "type": "Person",
+        "country": null,
+        "id": "8f8b0623-e79c-4b71-8489-8ed26c462ca7"
+      }
+    },
+    {
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "Dwayne Carter",
+      "attribute-values": {},
+      "artist": {
+        "id": "ac9a487a-d9d2-4f27-bb23-0f4686488345",
+        "country": "US",
+        "name": "Lil Wayne",
+        "type": "Person",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lil Wayne"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "language": "eng",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/62e4f9ab-d975-39a6-b3b5-2740096d8b49?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "id": "62e4f9ab-d975-39a6-b3b5-2740096d8b49",
+  "attributes": [],
+  "iswcs": [
+    "T-060.142.182-2"
+  ],
+  "title": "Walk All Over You",
+  "disambiguation": "",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "type": "writer",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "AC/DC member",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "name": "Bon Scott",
+        "sort-name": "Scott, Bon",
+        "id": "0d212894-db54-4cc1-9ded-3cac50183a1d"
+      },
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": []
+    },
+    {
+      "type": "writer",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "name": "Angus Young",
+        "id": "a0a54c69-b0d2-4d2a-bcf8-994b8846b0d8",
+        "sort-name": "Young, Angus",
+        "type": "Person",
+        "disambiguation": "member of AC/DC",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "AU"
+      },
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": []
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "guitar player for AC/DC",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "AU",
+        "name": "Malcolm Young",
+        "sort-name": "Young, Malcolm",
+        "id": "ea719716-da05-46f8-bbd5-cc5803db3d0e"
+      },
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type": "writer",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {}
+    }
+  ]
+}

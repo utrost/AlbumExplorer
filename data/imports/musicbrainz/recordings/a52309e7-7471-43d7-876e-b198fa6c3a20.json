@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a52309e7-7471-43d7-876e-b198fa6c3a20?inc=work-rels&fmt=json",
+  "id": "a52309e7-7471-43d7-876e-b198fa6c3a20",
+  "title": "Man in the Mirror",
+  "first-release-date": "1987-08-25",
+  "length": 319266,
+  "video": false,
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.915.081-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type": "Song",
+        "language": "eng",
+        "id": "802abd11-d658-3f4e-8211-a29d3acc54ec",
+        "title": "Man in the Mirror",
+        "attributes": []
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "disambiguation": "album version"
+}

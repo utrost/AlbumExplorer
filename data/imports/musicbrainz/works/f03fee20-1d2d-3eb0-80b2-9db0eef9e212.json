@@ -1,0 +1,181 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f03fee20-1d2d-3eb0-80b2-9db0eef9e212?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "title": "I Just Can’t Stop Loving You",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "composer",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "begin": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "“King of Pop”",
+        "type": "Person",
+        "country": "US",
+        "name": "Michael Jackson",
+        "id": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+        "sort-name": "Jackson, Michael"
+      },
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "“King of Pop”",
+        "type": "Person",
+        "id": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+        "sort-name": "Jackson, Michael",
+        "name": "Michael Jackson"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "direction": "backward",
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "",
+      "type": "lyricist",
+      "attribute-ids": {}
+    }
+  ],
+  "language": "eng",
+  "iswcs": [
+    "T-070.240.625-4"
+  ],
+  "attributes": [
+    {
+      "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+      "type": "ACDAM ID",
+      "value": "300776"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID",
+      "value": "6156475"
+    },
+    {
+      "value": "133193701",
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "value": "2350427",
+      "type": "APA ID",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "type": "APDAYC ID",
+      "value": "2398889",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
+    },
+    {
+      "type": "APRA ID",
+      "value": "GW03150286",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04"
+    },
+    {
+      "value": "629739",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000589307",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
+    },
+    {
+      "type": "COMPASS ID",
+      "value": "240645",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "1972100",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "6496985",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "2078114-001",
+      "type": "GEMA ID"
+    },
+    {
+      "value": "3673GN",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "202208300",
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d"
+    },
+    {
+      "type": "SACM ID",
+      "value": "043804790",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "type": "SACVEN ID",
+      "value": "2057778",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+    },
+    {
+      "type": "SAYCE ID",
+      "value": "653081",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "653081"
+    },
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "887.873",
+      "type": "SGAE ID"
+    },
+    {
+      "value": "9894375000",
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977"
+    },
+    {
+      "value": "12205810",
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type": "SPA ID",
+      "value": "224476",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "type": "SUISA ID",
+      "value": "001606 770 73",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    }
+  ],
+  "id": "f03fee20-1d2d-3eb0-80b2-9db0eef9e212"
+}

@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a87b0b89-70d7-4ff2-a581-d3970056ab19?inc=artist-rels&fmt=json",
+  "type": "Audio drama",
+  "type-id": "40ed00fb-cd1d-3de5-afcc-4d08720d63e7",
+  "language": "eng",
+  "title": "Better Off Dead",
+  "relations": [
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Holt, Brian",
+        "country": null,
+        "name": "Brian Holt",
+        "id": "99f7e281-8ac3-43c2-8b34-af9920f733c1"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "name": "Ice Cube",
+        "id": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+        "sort-name": "Ice Cube",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": ""
+    }
+  ],
+  "disambiguation": "",
+  "id": "a87b0b89-70d7-4ff2-a581-d3970056ab19",
+  "iswcs": [
+    "T-902.218.174-4"
+  ],
+  "attributes": [
+    {
+      "value": "00000620219085",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "type": "ASCAP ID"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

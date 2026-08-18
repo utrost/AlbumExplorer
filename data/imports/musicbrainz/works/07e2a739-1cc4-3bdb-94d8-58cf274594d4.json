@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/07e2a739-1cc4-3bdb-94d8-58cf274594d4?inc=artist-rels&fmt=json",
+  "id": "07e2a739-1cc4-3bdb-94d8-58cf274594d4",
+  "iswcs": [
+    "T-070.248.658-5"
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Serve the Servants",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "lead singer and guitarist for Nirvana",
+        "id": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255",
+        "name": "Kurt Cobain",
+        "sort-name": "Cobain, Kurt",
+        "country": "US"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "name": "Kurt Cobain",
+        "id": "3c9b356d-d1db-4f4e-a7a3-2d00c1d70255",
+        "sort-name": "Cobain, Kurt",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "lead singer and guitarist for Nirvana"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "lyricist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "ended": false,
+      "direction": "backward",
+      "begin": null
+    }
+  ]
+}

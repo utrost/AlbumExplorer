@@ -1,0 +1,43 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/e9433409-2786-4194-8dfb-9427e6ba34d2?inc=work-rels&fmt=json",
+  "id": "e9433409-2786-4194-8dfb-9427e6ba34d2",
+  "first-release-date": "1963-11-29",
+  "title": "I want to hold your hand",
+  "length": 147000,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "14f552db-5921-3699-a807-a0b944d9f725",
+        "title": "I Want to Hold Your Hand",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-010.525.214-9",
+          "T-010.787.839-6",
+          "T-900.039.196-8"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": "1963-10-17",
+      "attribute-ids": {},
+      "begin": "1963-10-17",
+      "type": "performance",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward"
+    }
+  ],
+  "video": false,
+  "disambiguation": "original mono studio mix"
+}

@@ -1,0 +1,74 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0744536c-a763-4730-b1a5-4a159d91c8f0?inc=work-rels&fmt=json",
+  "first-release-date": "1969-05-23",
+  "length": 95000,
+  "id": "0744536c-a763-4730-b1a5-4a159d91c8f0",
+  "video": false,
+  "disambiguation": "original studio mix",
+  "relations": [
+    {
+      "begin": "1969",
+      "end": "1969",
+      "attribute-ids": {
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "work": {
+        "id": "2e0c8348-a184-372a-b6d5-f6d690d90785",
+        "disambiguation": "",
+        "iswcs": [
+          "T-010.162.883-4"
+        ],
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Smash the Mirror",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song"
+      },
+      "source-credit": "",
+      "attributes": [
+        "live"
+      ],
+      "target-credit": "",
+      "ended": true,
+      "type": "performance"
+    },
+    {
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "direction": "forward",
+      "target-type": "work",
+      "work": {
+        "language": "eng",
+        "title": "Smash the Mirror",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "iswcs": [
+          "T-010.162.883-4"
+        ],
+        "id": "2e0c8348-a184-372a-b6d5-f6d690d90785",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "ended": false,
+      "type": "performance"
+    }
+  ],
+  "title": "Smash the Mirror"
+}

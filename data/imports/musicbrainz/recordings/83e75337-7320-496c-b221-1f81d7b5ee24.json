@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/83e75337-7320-496c-b221-1f81d7b5ee24?inc=work-rels&fmt=json",
+  "id": "83e75337-7320-496c-b221-1f81d7b5ee24",
+  "first-release-date": "1987-08-31",
+  "length": 292000,
+  "relations": [
+    {
+      "begin": null,
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "direction": "forward",
+      "target-type": "work",
+      "end": null,
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "performance",
+      "work": {
+        "attributes": [],
+        "iswcs": [
+          "T-070.233.655-7"
+        ],
+        "id": "928f4475-03bd-36f3-9f6b-fbebfdc62f6e",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Dirty Diana",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "attribute-ids": {}
+    }
+  ],
+  "video": false,
+  "disambiguation": "album version",
+  "title": "Dirty Diana"
+}

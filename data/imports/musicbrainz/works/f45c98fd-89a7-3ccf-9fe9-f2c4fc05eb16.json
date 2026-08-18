@@ -1,0 +1,66 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/f45c98fd-89a7-3ccf-9fe9-f2c4fc05eb16?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-010.162.741-1",
+    "T-010.175.619-7"
+  ],
+  "title": "Miracle Cure",
+  "id": "f45c98fd-89a7-3ccf-9fe9-f2c4fc05eb16",
+  "attributes": [],
+  "relations": [
+    {
+      "attribute-values": {},
+      "type": "composer",
+      "attributes": [],
+      "ended": true,
+      "artist": {
+        "disambiguation": "of The Who",
+        "name": "Pete Townshend",
+        "type": "Person",
+        "sort-name": "Townshend, Pete",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "source-credit": "",
+      "end": "1969",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": "1969",
+      "direction": "backward"
+    },
+    {
+      "attribute-values": {},
+      "type": "lyricist",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "of The Who",
+        "sort-name": "Townshend, Pete",
+        "name": "Pete Townshend",
+        "type": "Person",
+        "id": "fb147b8f-0144-4418-acaa-90b2d9779840",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "target-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward"
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "disambiguation": "Extra! Extra!",
+  "languages": [
+    "eng"
+  ]
+}

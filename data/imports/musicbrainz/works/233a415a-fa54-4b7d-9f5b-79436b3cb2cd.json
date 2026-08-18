@@ -1,0 +1,40 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/233a415a-fa54-4b7d-9f5b-79436b3cb2cd?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [],
+  "disambiguation": "",
+  "relations": [
+    {
+      "artist": {
+        "name": "Art Garfunkel",
+        "type": "Person",
+        "country": "US",
+        "id": "fc0a5289-4b77-4246-9c8d-857c8b617f5d",
+        "sort-name": "Garfunkel, Art",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "arranger"
+    }
+  ],
+  "type": "Song",
+  "language": "eng",
+  "id": "233a415a-fa54-4b7d-9f5b-79436b3cb2cd",
+  "title": "Voices of Old People",
+  "attributes": []
+}

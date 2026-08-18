@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6db451f3-95e0-44d8-9c46-17f0944d8e00?inc=work-rels&fmt=json",
+  "disambiguation": "version 3c",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "35fdc4a9-fd0a-3a68-a539-5b377464a3ac",
+        "title": "Out in the Street",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.161.505-5"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": "1980-03-21",
+      "begin": "1980-03-21",
+      "attribute-ids": {},
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": true
+    }
+  ],
+  "video": false,
+  "length": 257600,
+  "id": "6db451f3-95e0-44d8-9c46-17f0944d8e00",
+  "first-release-date": "1980-10-10",
+  "title": "Out in the Street"
+}

@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/19a8ffcb-ba65-4ec6-bbfe-7c57ee0fb85a?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "id": "19a8ffcb-ba65-4ec6-bbfe-7c57ee0fb85a",
+  "attributes": [],
+  "iswcs": [
+    "T-011.476.575-1"
+  ],
+  "title": "Slide Away",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "type": "composer",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "artist": {
+        "sort-name": "Gallagher, Noel",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "name": "Noel Gallagher",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person"
+      },
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": []
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "GB",
+        "name": "Noel Gallagher",
+        "id": "6493ed80-8b44-49fa-91de-e7b0a0b57d6d",
+        "sort-name": "Gallagher, Noel"
+      },
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "attributes": [],
+      "type": "lyricist",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "attribute-ids": {}
+    }
+  ]
+}

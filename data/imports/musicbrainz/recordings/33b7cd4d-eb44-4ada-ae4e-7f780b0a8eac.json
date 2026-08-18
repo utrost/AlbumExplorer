@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/33b7cd4d-eb44-4ada-ae4e-7f780b0a8eac?inc=work-rels&fmt=json",
+  "length": 286000,
+  "relations": [
+    {
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "588f5e54-97ad-3450-9849-dab3438483cb",
+        "type": "Song",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.082.381-9"
+        ],
+        "title": "Independence Day",
+        "language": "eng"
+      },
+      "end": "1980-04-25",
+      "attributes": [],
+      "begin": "1979-05-29",
+      "ended": true,
+      "attribute-values": {},
+      "direction": "forward",
+      "source-credit": ""
+    }
+  ],
+  "disambiguation": "version 6c",
+  "id": "33b7cd4d-eb44-4ada-ae4e-7f780b0a8eac",
+  "first-release-date": "1980-10-10",
+  "title": "Independence Day",
+  "video": false
+}

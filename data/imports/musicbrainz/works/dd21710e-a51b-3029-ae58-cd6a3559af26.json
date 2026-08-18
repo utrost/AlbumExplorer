@@ -1,0 +1,109 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/dd21710e-a51b-3029-ae58-cd6a3559af26?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "id": "dd21710e-a51b-3029-ae58-cd6a3559af26",
+  "attributes": [
+    {
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID",
+      "value": "16.198.311"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code",
+      "value": "494390CR"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID",
+      "value": "0Y0-6887-9"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "34184388",
+      "type": "ECAD ID"
+    }
+  ],
+  "iswcs": [
+    "T-308.620.429-3"
+  ],
+  "title": "You Can Look (but You Better Not Touch)",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "type": "composer",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": true,
+      "attribute-ids": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "artist": {
+        "name": "Bruce Springsteen",
+        "sort-name": "Springsteen, Bruce",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "begin": "1979",
+      "target-type": "artist",
+      "end": "1979",
+      "direction": "backward",
+      "attributes": []
+    },
+    {
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "artist": {
+        "name": "Bruce Springsteen",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "sort-name": "Springsteen, Bruce",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "country": "US"
+      },
+      "source-credit": "",
+      "begin": "1979",
+      "target-type": "artist",
+      "end": "1979",
+      "direction": "backward",
+      "attributes": [],
+      "type": "lyricist",
+      "attribute-values": {},
+      "ended": true,
+      "target-credit": "",
+      "attribute-ids": {}
+    },
+    {
+      "target-type": "artist",
+      "end": "1980",
+      "direction": "backward",
+      "attributes": [],
+      "type-id": "a442b140-830b-30b0-a4aa-2e36f098b6aa",
+      "artist": {
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person",
+        "sort-name": "Springsteen, Bruce",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "name": "Bruce Springsteen"
+      },
+      "source-credit": "",
+      "begin": "1980",
+      "attribute-ids": {},
+      "type": "publishing",
+      "attribute-values": {},
+      "ended": true,
+      "target-credit": ""
+    }
+  ]
+}

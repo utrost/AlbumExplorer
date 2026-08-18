@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/7ea4120c-39c2-438f-b464-9a2358742d9b?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Fifty‐Fifty Clown",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "Cocteau Twins",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "GB",
+        "sort-name": "Fraser, Elizabeth",
+        "id": "0bf0cabe-def2-4113-8dc5-6e721b9c3a92",
+        "name": "Elizabeth Fraser"
+      },
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "guitarist in Cocteau Twins",
+        "id": "47d7b25e-585b-4c97-b98b-411b21a53379",
+        "name": "Robin Guthrie",
+        "sort-name": "Guthrie, Robin",
+        "country": "GB"
+      },
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Simon Raymonde",
+        "id": "54cf21b1-9a02-4a75-a029-3a66db21c545",
+        "sort-name": "Raymonde, Simon",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "id": "7ea4120c-39c2-438f-b464-9a2358742d9b",
+  "iswcs": [
+    "T-010.029.360-4"
+  ],
+  "attributes": [],
+  "languages": [
+    "eng"
+  ]
+}

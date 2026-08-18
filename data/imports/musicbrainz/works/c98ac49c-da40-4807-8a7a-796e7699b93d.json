@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c98ac49c-da40-4807-8a7a-796e7699b93d?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "c98ac49c-da40-4807-8a7a-796e7699b93d",
+  "iswcs": [],
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "writer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "“Queen of Pop”",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Madonna",
+        "country": "US",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "name": "Madonna"
+      },
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Orbit, William",
+        "country": "GB",
+        "id": "a7412cd0-e0b8-4fa1-8d24-75bb92a84946",
+        "name": "William Orbit",
+        "disambiguation": "English musician, composer and record producer",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Swim",
+  "type": "Song"
+}

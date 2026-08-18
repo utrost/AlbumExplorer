@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/d38af851-b768-45e8-a8e0-4b38e684002f?inc=work-rels&fmt=json",
+  "title": "Hungry Heart",
+  "id": "d38af851-b768-45e8-a8e0-4b38e684002f",
+  "length": 199000,
+  "relations": [
+    {
+      "work": {
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "iswcs": [
+          "T-070.077.381-4"
+        ],
+        "title": "Hungry Heart",
+        "attributes": [],
+        "id": "db8f3060-b101-3877-9805-ce054f923302",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "language": "eng"
+      },
+      "attribute-values": {},
+      "type": "performance",
+      "attributes": [],
+      "ended": true,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "end": "1980-04-10",
+      "target-credit": "",
+      "begin": "1979-06-14",
+      "attribute-ids": {},
+      "target-type": "work",
+      "direction": "forward"
+    }
+  ],
+  "first-release-date": "1980-10-10",
+  "video": false,
+  "disambiguation": "studio, version 3"
+}

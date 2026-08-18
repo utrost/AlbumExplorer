@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2ad809cf-bf04-4054-bb3e-15c5aa7f3f44?inc=artist-rels&fmt=json",
+  "iswcs": [
+    "T-010.031.216-0"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "2ad809cf-bf04-4054-bb3e-15c5aa7f3f44",
+  "title": "Road, River and Rail",
+  "attributes": [],
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Fraser, Elizabeth",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "Cocteau Twins",
+        "type": "Person",
+        "name": "Elizabeth Fraser",
+        "country": "GB",
+        "id": "0bf0cabe-def2-4113-8dc5-6e721b9c3a92"
+      },
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {}
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "47d7b25e-585b-4c97-b98b-411b21a53379",
+        "country": "GB",
+        "name": "Robin Guthrie",
+        "type": "Person",
+        "disambiguation": "guitarist in Cocteau Twins",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Guthrie, Robin"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Raymonde, Simon",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "54cf21b1-9a02-4a75-a029-3a66db21c545",
+        "type": "Person",
+        "name": "Simon Raymonde"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "end": null,
+      "attribute-ids": {},
+      "begin": null,
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward"
+    }
+  ],
+  "type": "Song",
+  "language": "eng"
+}

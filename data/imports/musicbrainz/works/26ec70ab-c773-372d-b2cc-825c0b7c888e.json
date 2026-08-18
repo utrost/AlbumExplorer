@@ -1,0 +1,87 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/26ec70ab-c773-372d-b2cc-825c0b7c888e?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Help, I’m a Rock",
+  "language": "mul",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US musician, composer, activist & filmmaker",
+        "name": "Frank Zappa",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d",
+        "country": "US",
+        "sort-name": "Zappa, Frank"
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+    },
+    {
+      "type-id": "26131498-00e8-4136-b937-22a4be01a63d",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "“The King of Rock and Roll”",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Presley, Elvis",
+        "name": "Elvis Presley",
+        "id": "01809552-4f87-45b0-afff-2c6f0730a3be"
+      },
+      "attribute-values": {},
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "dedication",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "target-type": "artist",
+      "artist": {
+        "name": "Frank Zappa",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d",
+        "sort-name": "Zappa, Frank",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "US musician, composer, activist & filmmaker"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {}
+    }
+  ],
+  "id": "26ec70ab-c773-372d-b2cc-825c0b7c888e",
+  "iswcs": [],
+  "languages": [
+    "eng",
+    "qaa"
+  ],
+  "attributes": []
+}

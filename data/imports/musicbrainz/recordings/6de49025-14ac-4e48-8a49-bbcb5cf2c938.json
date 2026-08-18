@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/6de49025-14ac-4e48-8a49-bbcb5cf2c938?inc=work-rels&fmt=json",
+  "first-release-date": "2004-09-20",
+  "id": "6de49025-14ac-4e48-8a49-bbcb5cf2c938",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "forward",
+      "begin": null,
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "work": {
+        "type": "Song-cycle",
+        "type-id": "0f24ce27-96cc-3746-a16c-e6617d7a80f3",
+        "title": "Homecoming",
+        "language": "eng",
+        "disambiguation": "",
+        "iswcs": [
+          "T-072.078.927-4"
+        ],
+        "id": "4db8f095-9969-3d51-b57d-08f3ee766b2f",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null
+    }
+  ],
+  "video": false,
+  "length": 558520,
+  "disambiguation": "",
+  "title": "Homecoming: I. The Death of St. Jimmy / II. East 12th St. / III. Nobody Likes You / IV. Rock and Roll Girlfriend / V. We’re Coming Home Again"
+}

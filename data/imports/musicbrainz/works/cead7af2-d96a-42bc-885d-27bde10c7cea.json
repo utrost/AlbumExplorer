@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/cead7af2-d96a-42bc-885d-27bde10c7cea?inc=artist-rels&fmt=json",
+  "id": "cead7af2-d96a-42bc-885d-27bde10c7cea",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Little Boy Blue",
+  "language": "eng",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "sort-name": "Harper, LaCharles",
+        "id": "24085ff4-0b95-4df8-b428-22c5def3cab9",
+        "name": "LaCharles Harper"
+      },
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "sort-name": "Scott, Joseph",
+        "country": "US",
+        "id": "2fa17fe9-16d5-47f4-ab47-4272fa98be21",
+        "name": "Joseph Scott",
+        "disambiguation": "Joseph Wade Scott",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer"
+    }
+  ]
+}

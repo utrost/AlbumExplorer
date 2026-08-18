@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/40a229aa-3c63-4e5e-be68-b3ca20659636?inc=work-rels&fmt=json",
+  "title": "Lead Me On",
+  "relations": [
+    {
+      "begin": null,
+      "end": null,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-ids": {},
+      "target-type": "work",
+      "attribute-values": {},
+      "direction": "forward",
+      "work": {
+        "id": "a17b4796-770c-4ede-8f11-5fcdbb3ae8c0",
+        "disambiguation": "",
+        "attributes": [],
+        "iswcs": [
+          "T-700.036.015-8"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "title": "Lead Me On",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ]
+      },
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "type": "performance",
+      "ended": false
+    }
+  ],
+  "id": "40a229aa-3c63-4e5e-be68-b3ca20659636",
+  "video": false,
+  "disambiguation": "",
+  "length": 125973,
+  "first-release-date": "1961"
+}

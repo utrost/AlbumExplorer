@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0ba72f0d-70ae-4655-94d9-c1069b5abcfb?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "performance",
+      "target-type": "work",
+      "ended": false,
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "iswcs": [
+          "T-072.086.423-2"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "Green Day",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "id": "150818a8-0e8b-341b-b457-e25e620f82db",
+        "title": "Boulevard of Broken Dreams",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "video": false,
+  "first-release-date": "2004-09-20",
+  "id": "0ba72f0d-70ae-4655-94d9-c1069b5abcfb",
+  "title": "Boulevard of Broken Dreams",
+  "length": 261000,
+  "disambiguation": "explicit"
+}

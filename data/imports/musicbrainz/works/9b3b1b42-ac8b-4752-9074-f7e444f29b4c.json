@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/9b3b1b42-ac8b-4752-9074-f7e444f29b4c?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "title": "I Wear Your Ring",
+  "id": "9b3b1b42-ac8b-4752-9074-f7e444f29b4c",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "0bf0cabe-def2-4113-8dc5-6e721b9c3a92",
+        "country": "GB",
+        "type": "Person",
+        "name": "Elizabeth Fraser",
+        "disambiguation": "Cocteau Twins",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Fraser, Elizabeth"
+      }
+    },
+    {
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "guitarist in Cocteau Twins",
+        "sort-name": "Guthrie, Robin",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "47d7b25e-585b-4c97-b98b-411b21a53379",
+        "type": "Person",
+        "name": "Robin Guthrie"
+      }
+    },
+    {
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "writer",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "artist": {
+        "name": "Simon Raymonde",
+        "type": "Person",
+        "id": "54cf21b1-9a02-4a75-a029-3a66db21c545",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Raymonde, Simon",
+        "disambiguation": ""
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    }
+  ],
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-010.114.021-9"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

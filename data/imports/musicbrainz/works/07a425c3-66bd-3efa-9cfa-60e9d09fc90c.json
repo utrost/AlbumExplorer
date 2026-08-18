@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/07a425c3-66bd-3efa-9cfa-60e9d09fc90c?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "value": "138693",
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "id": "07a425c3-66bd-3efa-9cfa-60e9d09fc90c",
+  "iswcs": [
+    "T-070.233.098-0"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "of Simon & Garfunkel",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "name": "Paul Simon",
+        "sort-name": "Simon, Paul",
+        "country": "US"
+      },
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "of Simon & Garfunkel",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "sort-name": "Simon, Paul",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "name": "Paul Simon"
+      },
+      "attribute-values": {},
+      "target-type": "artist"
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Bookends Theme",
+  "type": "Song"
+}

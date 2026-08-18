@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c458225a-2b04-3717-8ce7-e8616b0125ce?inc=artist-rels&fmt=json",
+  "attributes": [],
+  "id": "c458225a-2b04-3717-8ce7-e8616b0125ce",
+  "title": "Go Cry on Somebody Else’s Shoulder",
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "writer",
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "id": "93b3f410-d457-432b-9ffc-f578ca4e3c5a",
+        "country": "US",
+        "type": "Person",
+        "name": "Ray Collins",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Collins, Ray"
+      }
+    },
+    {
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "type": "Person",
+        "name": "Frank Zappa",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Zappa, Frank",
+        "disambiguation": "US musician, composer, activist & filmmaker"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "source-credit": "",
+      "attributes": []
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fd40a72d-8b30-47d3-9f47-ac7482666482?inc=work-rels&fmt=json",
+  "first-release-date": "1980-10-10",
+  "id": "fd40a72d-8b30-47d3-9f47-ac7482666482",
+  "disambiguation": "version 5",
+  "video": false,
+  "length": 242000,
+  "relations": [
+    {
+      "ended": true,
+      "direction": "forward",
+      "begin": "1979-05-25",
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "disambiguation": "",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Sherry Darling",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "6b68afb7-d508-3cdb-8b41-687de4773d72",
+        "iswcs": [
+          "T-070.144.146-4"
+        ]
+      },
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1980-04-12"
+    }
+  ],
+  "title": "Sherry Darling"
+}

@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/9ca39bb2-5d6d-4852-8a79-7a2701a54f70?inc=artist-rels&fmt=json",
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "value": "1144127",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479"
+    }
+  ],
+  "iswcs": [
+    "T-700.052.061-8"
+  ],
+  "disambiguation": "",
+  "id": "9ca39bb2-5d6d-4852-8a79-7a2701a54f70",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "relations": [
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "direction": "backward",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "name": "Paul Simon",
+        "disambiguation": "of Simon & Garfunkel",
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "sort-name": "Simon, Paul"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "end": null,
+      "begin": null,
+      "type": "composer",
+      "ended": false,
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": ""
+    },
+    {
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "ended": false,
+      "type": "lyricist",
+      "begin": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "id": "05517043-ff78-4988-9c22-88c68588ebb9",
+        "sort-name": "Simon, Paul",
+        "disambiguation": "of Simon & Garfunkel",
+        "name": "Paul Simon",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null
+    }
+  ],
+  "title": "Overs",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

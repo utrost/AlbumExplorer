@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/2e11bbb7-a9ae-4444-88dc-c8b15a7c864f?inc=work-rels&fmt=json",
+  "id": "2e11bbb7-a9ae-4444-88dc-c8b15a7c864f",
+  "first-release-date": "1980-10-10",
+  "title": "I Wanna Marry You",
+  "disambiguation": "studio, version 4",
+  "video": false,
+  "length": 210800,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1980-05-07",
+      "target-type": "work",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "work": {
+        "title": "I Wanna Marry You",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "id": "d771b3f7-38d2-3a7d-98b0-ee76403fceea",
+        "iswcs": [
+          "T-070.082.474-3"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "ended": true,
+      "begin": "1979-07-05",
+      "direction": "forward"
+    }
+  ]
+}

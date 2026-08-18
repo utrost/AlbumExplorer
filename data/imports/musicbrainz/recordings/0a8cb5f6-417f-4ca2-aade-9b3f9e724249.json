@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/0a8cb5f6-417f-4ca2-aade-9b3f9e724249?inc=work-rels&fmt=json",
+  "disambiguation": "original mono mix",
+  "id": "0a8cb5f6-417f-4ca2-aade-9b3f9e724249",
+  "title": "At the Zoo",
+  "first-release-date": "1968",
+  "length": 136000,
+  "video": false,
+  "relations": [
+    {
+      "end": "1967-01-08",
+      "begin": "1967-01-08",
+      "attribute-ids": {},
+      "type": "performance",
+      "ended": true,
+      "target-type": "work",
+      "direction": "forward",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "id": "ca4abe3a-96e9-3b90-aa04-05759cd98bb9",
+        "title": "At the Zoo",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.232.044-2"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d396e377-7921-3635-8887-6e9647316beb?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "title": "How Could I Be Such a Fool",
+  "id": "d396e377-7921-3635-8887-6e9647316beb",
+  "attributes": [],
+  "relations": [
+    {
+      "attribute-values": {},
+      "type": "composer",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d",
+        "type": "Person",
+        "name": "Frank Zappa",
+        "sort-name": "Zappa, Frank",
+        "disambiguation": "US musician, composer, activist & filmmaker"
+      },
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "direction": "backward"
+    },
+    {
+      "artist": {
+        "disambiguation": "US musician, composer, activist & filmmaker",
+        "sort-name": "Zappa, Frank",
+        "name": "Frank Zappa",
+        "type": "Person",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "ended": false,
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "type": "lyricist",
+      "attribute-values": {},
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": ""
+    }
+  ],
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "disambiguation": ""
+}

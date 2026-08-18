@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/e4ad5c5e-b141-3bf3-9f84-5fa86a32c03a?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "The Gnome",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "12327d75-47d5-45d9-84c2-3760b9210c17",
+        "name": "Syd Barrett",
+        "sort-name": "Barrett, Syd",
+        "country": "GB"
+      },
+      "target-credit": "",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false
+    },
+    {
+      "direction": "backward",
+      "begin": null,
+      "ended": false,
+      "type": "lyricist",
+      "source-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "artist": {
+        "id": "12327d75-47d5-45d9-84c2-3760b9210c17",
+        "name": "Syd Barrett",
+        "sort-name": "Barrett, Syd",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "id": "e4ad5c5e-b141-3bf3-9f84-5fa86a32c03a",
+  "iswcs": [
+    "T-010.163.001-6"
+  ],
+  "attributes": [
+    {
+      "value": "370091080",
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76"
+    }
+  ],
+  "languages": [
+    "eng"
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/6b68afb7-d508-3cdb-8b41-687de4773d72?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "disambiguation": "",
+  "type": "Song",
+  "relations": [
+    {
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": "1977",
+      "attributes": [],
+      "ended": true,
+      "artist": {
+        "name": "Bruce Springsteen",
+        "type": "Person",
+        "sort-name": "Springsteen, Bruce",
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f"
+      },
+      "attribute-values": {},
+      "type": "composer",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": "1977",
+      "direction": "backward",
+      "target-credit": ""
+    },
+    {
+      "attributes": [],
+      "ended": true,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "type": "Person",
+        "name": "Bruce Springsteen",
+        "sort-name": "Springsteen, Bruce",
+        "disambiguation": ""
+      },
+      "end": "1977",
+      "source-credit": "",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "type": "lyricist",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": "1977",
+      "direction": "backward",
+      "target-credit": ""
+    },
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": "1980",
+      "type": "publishing",
+      "attribute-values": {},
+      "ended": true,
+      "artist": {
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Springsteen, Bruce",
+        "type": "Person",
+        "name": "Bruce Springsteen"
+      },
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a442b140-830b-30b0-a4aa-2e36f098b6aa",
+      "end": "1980"
+    }
+  ],
+  "title": "Sherry Darling",
+  "id": "6b68afb7-d508-3cdb-8b41-687de4773d72",
+  "attributes": [
+    {
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "value": "000639 572 52",
+      "type": "SUISA ID"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "value": "91356",
+      "type": "SPA ID"
+    },
+    {
+      "value": "5425039",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID",
+      "value": "10922970"
+    },
+    {
+      "value": "203763845",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "type": "SOCAN ID"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "19654532300"
+    },
+    {
+      "value": "80364022800",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "type": "SIAE ID"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "16.198.233"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "252.780"
+    },
+    {
+      "value": "916672",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "11889529",
+      "type": "SAYCO ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID",
+      "value": "916672"
+    },
+    {
+      "value": "11489021",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "type": "SAYCE ID"
+    },
+    {
+      "value": "303100",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "1443543"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "value": "2111969",
+      "type": "SACVEN ID"
+    },
+    {
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "value": "072897436"
+    },
+    {
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "40 062 075 11"
+    },
+    {
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "value": "79 209 869 11"
+    },
+    {
+      "value": "053334100",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "494388HS"
+    },
+    {
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "2083KU",
+      "type": "PRS tune code"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID",
+      "value": "0S3-3429-1"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "value": "1165073-001",
+      "type": "GEMA ID"
+    },
+    {
+      "value": "206932",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "value": "34172882",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "17175832",
+      "type": "ECAD ID"
+    },
+    {
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID",
+      "value": "144147"
+    },
+    {
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID",
+      "value": "W-000079993"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW00128858"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "2291670"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "9518860"
+    },
+    {
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID",
+      "value": "5249689"
+    },
+    {
+      "value": "69993601",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID",
+      "value": "6388266"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "value": "4613757",
+      "type": "AGADU ID"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-070.144.146-4"
+  ]
+}

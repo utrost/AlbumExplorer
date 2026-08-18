@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fe3a4c76-08b3-43eb-984a-d1616c6d06aa?inc=work-rels&fmt=json",
+  "length": 215133,
+  "video": false,
+  "disambiguation": "version 3",
+  "relations": [
+    {
+      "work": {
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "I’m a Rocker",
+        "language": "eng",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.082.387-5"
+        ],
+        "id": "11aa91e7-1121-33dc-a511-cb01a54c3be6",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "type": "performance",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "forward",
+      "begin": "1979-12-04",
+      "ended": true,
+      "end": "1980-04-10",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-type": "work"
+    }
+  ],
+  "title": "I’m a Rocker",
+  "first-release-date": "1980-10-10",
+  "id": "fe3a4c76-08b3-43eb-984a-d1616c6d06aa"
+}

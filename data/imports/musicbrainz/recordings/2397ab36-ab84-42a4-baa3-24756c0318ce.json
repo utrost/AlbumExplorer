@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/2397ab36-ab84-42a4-baa3-24756c0318ce?inc=work-rels&fmt=json",
+  "first-release-date": "1968",
+  "id": "2397ab36-ab84-42a4-baa3-24756c0318ce",
+  "relations": [
+    {
+      "begin": "1967-10-05",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "id": "b3bae449-a045-4835-b948-ba8a7fadc9ba",
+        "iswcs": [
+          "T-070.243.020-3"
+        ],
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "title": "Punky’s Dilemma",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1967-10-05",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "length": 137266,
+  "disambiguation": "original mono mix",
+  "title": "Punky’s Dilemma"
+}

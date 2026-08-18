@@ -1,0 +1,76 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/0c634b78-ed1f-37fa-81fd-487623f29902?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "composer",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "end": null,
+      "direction": "backward",
+      "attribute-values": {},
+      "target-type": "artist",
+      "artist": {
+        "country": "US",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "id": "084308bd-1654-436f-ba03-df6697104e19",
+        "sort-name": "Green Day",
+        "disambiguation": "",
+        "name": "Green Day"
+      }
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": null,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "type": "Person",
+        "id": "5d06fe54-485a-4a07-b506-5f6f719448cb",
+        "sort-name": "Armstrong, Billie Joe",
+        "name": "Billie Joe Armstrong",
+        "disambiguation": ""
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "ended": false,
+      "type": "lyricist"
+    }
+  ],
+  "title": "American Idiot",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [
+    "T-072.051.629-9"
+  ],
+  "attributes": [
+    {
+      "type": "GEMA ID",
+      "value": "8395255-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "type": "ASCAP ID",
+      "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+      "value": "311271497"
+    }
+  ],
+  "id": "0c634b78-ed1f-37fa-81fd-487623f29902",
+  "disambiguation": ""
+}

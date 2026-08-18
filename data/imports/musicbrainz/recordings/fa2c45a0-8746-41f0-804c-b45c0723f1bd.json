@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/fa2c45a0-8746-41f0-804c-b45c0723f1bd?inc=work-rels&fmt=json",
+  "first-release-date": "1971-09-09",
+  "id": "fa2c45a0-8746-41f0-804c-b45c0723f1bd",
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1971-07-04",
+      "target-type": "work",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "How Do You Sleep?",
+        "disambiguation": "",
+        "iswcs": [
+          "T-900.012.685-2"
+        ],
+        "id": "e24b3997-9338-3dea-931b-1c7726f83b07",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "ended": true,
+      "direction": "forward",
+      "begin": "1971-05-26"
+    }
+  ],
+  "disambiguation": "original studio mix",
+  "video": false,
+  "length": 335573,
+  "title": "How Do You Sleep?"
+}

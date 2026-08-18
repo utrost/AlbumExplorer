@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/cf8ee1db-be06-3fae-935d-0ae7bb681116?inc=artist-rels&fmt=json",
+  "id": "cf8ee1db-be06-3fae-935d-0ae7bb681116",
+  "iswcs": [
+    "T-072.086.779-7"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "8452928-001"
+    }
+  ],
+  "title": "Give Me Novacaine",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "type": "Song",
+  "disambiguation": "",
+  "relations": [
+    {
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "artist": {
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "type": "Group",
+        "disambiguation": "",
+        "id": "084308bd-1654-436f-ba03-df6697104e19",
+        "name": "Green Day",
+        "country": "US",
+        "sort-name": "Green Day"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attribute-values": {},
+      "attributes": [],
+      "artist": {
+        "id": "5d06fe54-485a-4a07-b506-5f6f719448cb",
+        "name": "Billie Joe Armstrong",
+        "country": "US",
+        "sort-name": "Armstrong, Billie Joe",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "target-type": "artist"
+    }
+  ]
+}

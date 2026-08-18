@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3fbc5a86-db75-4ee7-aa24-daaa4659e8ae?inc=work-rels&fmt=json",
+  "video": false,
+  "relations": [
+    {
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "2e672a08-aa64-3ab1-9bcf-ab93b19ab5e4",
+        "title": "Point Blank",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-070.119.409-3"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type": "performance",
+      "target-type": "work",
+      "ended": true,
+      "direction": "forward",
+      "end": "1980-02-16",
+      "begin": "1979-05-29",
+      "attribute-ids": {}
+    }
+  ],
+  "id": "3fbc5a86-db75-4ee7-aa24-daaa4659e8ae",
+  "title": "Point Blank",
+  "first-release-date": "1980-10-10",
+  "length": 366000,
+  "disambiguation": "version 6"
+}

@@ -1,0 +1,47 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b847f84a-63d4-41f9-b302-31599fb37a42?inc=work-rels&fmt=json",
+  "title": "Bookends Theme (instrumental)",
+  "video": false,
+  "first-release-date": "1968",
+  "id": "b847f84a-63d4-41f9-b302-31599fb37a42",
+  "disambiguation": "original mono mix",
+  "relations": [
+    {
+      "attributes": [
+        "instrumental",
+        "partial"
+      ],
+      "attribute-ids": {
+        "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d",
+        "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+      },
+      "end": "1968-03-08",
+      "work": {
+        "type": "Song",
+        "id": "07a425c3-66bd-3efa-9cfa-60e9d09fc90c",
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Bookends Theme",
+        "language": "eng",
+        "iswcs": [
+          "T-070.233.098-0"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "target-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "target-type": "work",
+      "source-credit": "",
+      "direction": "forward",
+      "begin": "1968-03-08",
+      "attribute-values": {},
+      "ended": true
+    }
+  ],
+  "length": 32933
+}

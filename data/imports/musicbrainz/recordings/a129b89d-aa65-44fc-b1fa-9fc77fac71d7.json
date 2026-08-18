@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a129b89d-aa65-44fc-b1fa-9fc77fac71d7?inc=work-rels&fmt=json",
+  "length": 182000,
+  "relations": [
+    {
+      "target-credit": "",
+      "attributes": [],
+      "end": "1980-04-26",
+      "attribute-ids": {},
+      "work": {
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "title": "Cadillac Ranch",
+        "iswcs": [
+          "T-070.029.509-5"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "disambiguation": "",
+        "id": "7f44c910-49f8-35f5-bb65-4c6d790ad685",
+        "type": "Song"
+      },
+      "target-type": "work",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "type": "performance",
+      "source-credit": "",
+      "direction": "forward",
+      "attribute-values": {},
+      "ended": true,
+      "begin": "1980-02-16"
+    }
+  ],
+  "disambiguation": "version 1f",
+  "id": "a129b89d-aa65-44fc-b1fa-9fc77fac71d7",
+  "first-release-date": "1980-10-10",
+  "video": false,
+  "title": "Cadillac Ranch"
+}

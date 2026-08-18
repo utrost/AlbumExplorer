@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/809c3558-6622-4a73-964a-b923a3bed2e3?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "title": "Frou‐Frou Foxes in Midsummer Fires",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "relations": [
+    {
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "Cocteau Twins",
+        "country": "GB",
+        "name": "Elizabeth Fraser",
+        "sort-name": "Fraser, Elizabeth",
+        "id": "0bf0cabe-def2-4113-8dc5-6e721b9c3a92"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "guitarist in Cocteau Twins",
+        "type": "Person",
+        "sort-name": "Guthrie, Robin",
+        "id": "47d7b25e-585b-4c97-b98b-411b21a53379",
+        "name": "Robin Guthrie"
+      },
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": [],
+      "type": "writer",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {}
+    },
+    {
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type": "writer",
+      "attribute-ids": {},
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "disambiguation": "",
+        "id": "54cf21b1-9a02-4a75-a029-3a66db21c545",
+        "sort-name": "Raymonde, Simon",
+        "name": "Simon Raymonde"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null
+    }
+  ],
+  "language": "eng",
+  "id": "809c3558-6622-4a73-964a-b923a3bed2e3",
+  "iswcs": [
+    "T-010.120.645-4"
+  ],
+  "attributes": []
+}

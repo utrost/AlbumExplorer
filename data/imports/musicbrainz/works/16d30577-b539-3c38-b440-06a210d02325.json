@@ -1,0 +1,214 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/16d30577-b539-3c38-b440-06a210d02325?inc=artist-rels&fmt=json",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "title": "Jackson Cage",
+  "relations": [
+    {
+      "begin": "1979",
+      "end": "1979",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "artist": {
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "name": "Bruce Springsteen",
+        "disambiguation": "",
+        "sort-name": "Springsteen, Bruce",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f"
+      },
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "ended": true,
+      "type": "composer"
+    },
+    {
+      "begin": "1979",
+      "attribute-ids": {},
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": "1979",
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "country": "US",
+        "name": "Bruce Springsteen",
+        "disambiguation": "",
+        "sort-name": "Springsteen, Bruce",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f"
+      },
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "ended": true,
+      "type": "lyricist"
+    },
+    {
+      "begin": "1980",
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "disambiguation": "",
+        "name": "Bruce Springsteen",
+        "sort-name": "Springsteen, Bruce",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "type": "Person",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "a442b140-830b-30b0-a4aa-2e36f098b6aa",
+      "attribute-ids": {},
+      "end": "1980",
+      "attributes": [],
+      "target-credit": "",
+      "source-credit": "",
+      "ended": true,
+      "type": "publishing"
+    }
+  ],
+  "language": "eng",
+  "disambiguation": "",
+  "id": "16d30577-b539-3c38-b440-06a210d02325",
+  "iswcs": [
+    "T-070.090.111-6"
+  ],
+  "attributes": [
+    {
+      "type": "SUISA ID",
+      "value": "000874 561 44",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960"
+    },
+    {
+      "type": "SPA ID",
+      "value": "91357",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+    },
+    {
+      "type": "SOCAN ID",
+      "value": "10954226",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "80364022700"
+    },
+    {
+      "value": "252.509",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "type": "SGAE ID"
+    },
+    {
+      "value": "860435",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID"
+    },
+    {
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "860435",
+      "type": "SAYCE ID"
+    },
+    {
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "302892",
+      "type": "SADAIC ID"
+    },
+    {
+      "type": "SACVEN ID",
+      "value": "2893083",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f"
+    },
+    {
+      "type": "SACM ID",
+      "value": "072897534",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360"
+    },
+    {
+      "type": "SACEM ID",
+      "value": "80 286 679 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "053334400"
+    },
+    {
+      "value": "494387CR",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "value": "2083HM",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0J0-7429-6",
+      "type": "JASRAC ID"
+    },
+    {
+      "value": "1164511-001",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "207483"
+    },
+    {
+      "value": "34172921",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "value": "90112",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "value": "W-000080122",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW00736481",
+      "type": "APRA ID"
+    },
+    {
+      "value": "2247222",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "type": "APA ID",
+      "value": "5249664",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65"
+    },
+    {
+      "value": "66320301",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "type": "AKM ID"
+    },
+    {
+      "type": "AGADU ID",
+      "value": "4472276",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+    }
+  ]
+}

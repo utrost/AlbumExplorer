@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/f2db360d-a43e-4b12-beeb-29457fe9416c?inc=work-rels&fmt=json",
+  "first-release-date": "1967-08-05",
+  "id": "f2db360d-a43e-4b12-beeb-29457fe9416c",
+  "relations": [
+    {
+      "end": "1967-03-19",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "work": {
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "id": "e4ad5c5e-b141-3bf3-9f84-5fa86a32c03a",
+        "iswcs": [
+          "T-010.163.001-6"
+        ],
+        "disambiguation": "",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "The Gnome",
+        "type": "Song"
+      },
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "performance",
+      "begin": "1967-03-19",
+      "direction": "forward",
+      "ended": true
+    }
+  ],
+  "disambiguation": "original stereo mix",
+  "length": 133866,
+  "video": false,
+  "title": "The Gnome"
+}

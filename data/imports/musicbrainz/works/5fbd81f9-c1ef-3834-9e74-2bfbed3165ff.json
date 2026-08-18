@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/5fbd81f9-c1ef-3834-9e74-2bfbed3165ff?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "type": "composer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-type": "artist",
+      "attribute-values": {},
+      "artist": {
+        "sort-name": "Zappa, Frank",
+        "country": "US",
+        "name": "Frank Zappa",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d",
+        "disambiguation": "US musician, composer, activist & filmmaker",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attributes": []
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "US musician, composer, activist & filmmaker",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Zappa, Frank",
+        "country": "US",
+        "name": "Frank Zappa",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "language": "eng",
+  "title": "Wowie Zowie",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "id": "5fbd81f9-c1ef-3834-9e74-2bfbed3165ff",
+  "iswcs": []
+}

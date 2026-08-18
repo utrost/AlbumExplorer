@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b7abedc3-154e-4279-b1b8-c9c15bb5930f?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer",
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "artist": {
+        "name": "Ray Agee",
+        "id": "ecc3a0bf-18f0-4cb6-a5fd-afb496e3af91",
+        "country": "US",
+        "sort-name": "Agee, Ray",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist"
+    },
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "Deadric Malone",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Don Robey",
+        "id": "2e1620fc-6474-4026-a7d6-f10156965707",
+        "country": "US",
+        "sort-name": "Robey, Don"
+      },
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "writer"
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "I’ve Been Wrong So Long",
+  "type": "Song",
+  "attributes": [],
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-904.022.804-4"
+  ],
+  "id": "b7abedc3-154e-4279-b1b8-c9c15bb5930f"
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/d291a707-a3ce-42cc-a98a-9d4b60f9e921?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "attributes": [],
+  "id": "d291a707-a3ce-42cc-a98a-9d4b60f9e921",
+  "language": "eng",
+  "relations": [
+    {
+      "type": "writer",
+      "ended": false,
+      "attribute-values": {},
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "attribute-ids": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "begin": null,
+      "source-credit": "",
+      "artist": {
+        "name": "Madonna",
+        "sort-name": "Madonna",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "disambiguation": "“Queen of Pop”",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US"
+      },
+      "direction": "backward",
+      "target-type": "artist",
+      "end": null,
+      "attributes": []
+    },
+    {
+      "attributes": [],
+      "target-type": "artist",
+      "end": null,
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "id": "035bc391-d7dd-4a68-8321-fa1e02697fc8",
+        "sort-name": "Nowels, Rick",
+        "name": "Rick Nowels",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "type": "Person"
+      },
+      "begin": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type": "writer"
+    }
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "languages": [
+    "eng"
+  ],
+  "disambiguation": "",
+  "title": "To Have and Not to Hold"
+}

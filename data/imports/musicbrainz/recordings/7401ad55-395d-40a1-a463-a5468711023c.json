@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/7401ad55-395d-40a1-a463-a5468711023c?inc=work-rels&fmt=json",
+  "length": 158826,
+  "title": "Wilderness",
+  "id": "7401ad55-395d-40a1-a463-a5468711023c",
+  "first-release-date": "1979-06-15",
+  "video": false,
+  "relations": [
+    {
+      "type": "performance",
+      "ended": true,
+      "target-type": "work",
+      "direction": "forward",
+      "end": "1979-04-17",
+      "begin": "1979-04-01",
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-010.185.659-0"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "efeb75e9-d61b-3f16-9cc1-16b246790957",
+        "title": "Wilderness",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ],
+  "disambiguation": ""
+}

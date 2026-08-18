@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/4d6e49ab-12b5-4a52-8e0d-fbedda68f250?inc=work-rels&fmt=json",
+  "title": "Drive All Night",
+  "length": 513000,
+  "video": false,
+  "disambiguation": "version 5",
+  "relations": [
+    {
+      "target-type": "work",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": "1980-04-10",
+      "ended": true,
+      "direction": "forward",
+      "begin": "1977-06-16",
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Drive All Night",
+        "disambiguation": "",
+        "id": "94f90b99-5064-3df1-b81c-d2b00f5cc969",
+        "iswcs": [
+          "T-070.042.517-7"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      }
+    }
+  ],
+  "id": "4d6e49ab-12b5-4a52-8e0d-fbedda68f250",
+  "first-release-date": "1980-10-10"
+}

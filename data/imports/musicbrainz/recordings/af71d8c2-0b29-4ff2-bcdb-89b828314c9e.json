@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/af71d8c2-0b29-4ff2-bcdb-89b828314c9e?inc=work-rels&fmt=json",
+  "length": 173800,
+  "title": "See Emily Play",
+  "id": "af71d8c2-0b29-4ff2-bcdb-89b828314c9e",
+  "first-release-date": "1967-06-16",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "begin": "1967-05-21",
+      "end": "1967-05-21",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "type": "performance",
+      "work": {
+        "title": "See Emily Play",
+        "id": "b1335f9b-df5d-353e-af54-39c4b00c9ffe",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "iswcs": [
+          "T-010.076.657-1"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    }
+  ],
+  "video": false,
+  "disambiguation": "mono single version"
+}

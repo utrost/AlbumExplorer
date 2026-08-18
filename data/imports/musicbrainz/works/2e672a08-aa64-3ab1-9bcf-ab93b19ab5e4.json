@@ -1,0 +1,214 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/2e672a08-aa64-3ab1-9bcf-ab93b19ab5e4?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Point Blank",
+  "relations": [
+    {
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "name": "Bruce Springsteen",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "country": "US",
+        "sort-name": "Springsteen, Bruce"
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": "1978",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "begin": "1978",
+      "direction": "backward",
+      "ended": true,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "composer"
+    },
+    {
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "lyricist",
+      "ended": true,
+      "begin": "1978",
+      "direction": "backward",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "end": "1980",
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Springsteen, Bruce",
+        "name": "Bruce Springsteen",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f"
+      }
+    },
+    {
+      "begin": "1979",
+      "direction": "backward",
+      "ended": true,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "publishing",
+      "attributes": [],
+      "artist": {
+        "country": "US",
+        "sort-name": "Springsteen, Bruce",
+        "name": "Bruce Springsteen",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": "1979",
+      "type-id": "a442b140-830b-30b0-a4aa-2e36f098b6aa"
+    }
+  ],
+  "disambiguation": "",
+  "iswcs": [
+    "T-070.119.409-3"
+  ],
+  "id": "2e672a08-aa64-3ab1-9bcf-ab93b19ab5e4",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "value": "000639 568 43",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID",
+      "value": "91360"
+    },
+    {
+      "type": "SOCAN ID",
+      "type-id": "00370bc6-7388-34a1-aa5b-b0e081ccb53d",
+      "value": "10912917"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "80364024100"
+    },
+    {
+      "value": "252.675",
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75"
+    },
+    {
+      "type": "SAYCO ID",
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "value": "887736"
+    },
+    {
+      "value": "887736",
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
+    },
+    {
+      "value": "303068",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "type": "SADAIC ID"
+    },
+    {
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID",
+      "value": "2753500"
+    },
+    {
+      "value": "072899136",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "type": "SACM ID"
+    },
+    {
+      "value": "40 062 150 11",
+      "type": "SACEM ID",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9"
+    },
+    {
+      "value": "053336900",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "type": "SABAM ID"
+    },
+    {
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "value": "494388DQ"
+    },
+    {
+      "value": "2083HR",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "type": "JASRAC ID",
+      "value": "0P1-6726-1"
+    },
+    {
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91",
+      "type": "GEMA ID",
+      "value": "1165076-001"
+    },
+    {
+      "value": "215819",
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "34173241"
+    },
+    {
+      "type": "COMPASS ID",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "value": "119410"
+    },
+    {
+      "value": "W-000080056",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "type": "BUMA/STEMRA ID"
+    },
+    {
+      "type": "APRA ID",
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "value": "GW02656970"
+    },
+    {
+      "value": "2269084",
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID"
+    },
+    {
+      "value": "5249681",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "type": "APA ID"
+    },
+    {
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
+      "value": "73075801"
+    },
+    {
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID",
+      "value": "4572331"
+    }
+  ]
+}

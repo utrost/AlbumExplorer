@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/b52da382-3758-3646-8df6-de49a5d1e532?inc=artist-rels&fmt=json",
+  "title": "Uncle Salty",
+  "relations": [
+    {
+      "begin": null,
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "end": null,
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Hamilton, Tom",
+        "id": "9fc37bbf-c2a4-4ac9-95de-255e93fc6758",
+        "name": "Tom Hamilton",
+        "disambiguation": "bassist for Aerosmith"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "ended": false,
+      "type": "composer"
+    },
+    {
+      "ended": false,
+      "type": "composer",
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "artist": {
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Tyler, Steven",
+        "id": "7d3f7aed-fb9c-4e80-b198-64cd6ae31cb8",
+        "name": "Steven Tyler",
+        "disambiguation": ""
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-ids": {},
+      "end": null,
+      "begin": null
+    }
+  ],
+  "language": "eng",
+  "languages": [
+    "eng"
+  ],
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "iswcs": [],
+  "attributes": [],
+  "id": "b52da382-3758-3646-8df6-de49a5d1e532",
+  "disambiguation": ""
+}

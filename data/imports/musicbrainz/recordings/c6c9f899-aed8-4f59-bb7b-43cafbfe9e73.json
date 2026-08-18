@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c6c9f899-aed8-4f59-bb7b-43cafbfe9e73?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "begin": "1979-06-12",
+      "direction": "forward",
+      "ended": true,
+      "work": {
+        "id": "9915e1a9-13ff-3ea0-823d-56fe45f7535d",
+        "iswcs": [
+          "T-070.129.056-3"
+        ],
+        "languages": [
+          "eng"
+        ],
+        "attributes": [],
+        "title": "Ramrod",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "language": "eng",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "attributes": [],
+      "target-credit": "",
+      "attribute-values": {},
+      "target-type": "work",
+      "end": "1980-04-19",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "length": 245000,
+  "video": false,
+  "disambiguation": "version 2j",
+  "title": "Ramrod",
+  "first-release-date": "1980-10-10",
+  "id": "c6c9f899-aed8-4f59-bb7b-43cafbfe9e73"
+}

@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/4732cb34-2c45-480d-ab6f-c83e0c420f85?inc=artist-rels&fmt=json",
+  "id": "4732cb34-2c45-480d-ab6f-c83e0c420f85",
+  "iswcs": [],
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "type": "Song",
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Skin",
+  "relations": [
+    {
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "producer, songwriter and pianist",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "sort-name": "Leonard, Patrick",
+        "name": "Patrick Leonard",
+        "id": "47f1c600-2372-45f9-a228-3e9bcf64a083"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "artist",
+      "type": "writer",
+      "source-credit": "",
+      "attribute-ids": {},
+      "direction": "backward",
+      "begin": null,
+      "ended": false
+    },
+    {
+      "target-type": "artist",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "Madonna Louise Veronica Ciccone",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "“Queen of Pop”",
+        "name": "Madonna",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "sort-name": "Madonna",
+        "country": "US"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer"
+    }
+  ],
+  "disambiguation": ""
+}

@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/b0a786d9-1144-49df-9200-27af704554d9?inc=work-rels&fmt=json",
+  "disambiguation": "original 1966 stereo mix",
+  "first-release-date": "1966-06-27",
+  "id": "b0a786d9-1144-49df-9200-27af704554d9",
+  "title": "Who Are the Brain Police?",
+  "length": 213240,
+  "relations": [
+    {
+      "type": "performance",
+      "target-type": "work",
+      "direction": "forward",
+      "ended": true,
+      "end": "1966-03-09",
+      "attribute-ids": {},
+      "begin": "1966-03-09",
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "disambiguation": "",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "dc4b0bbc-903b-357f-aa2e-82e536e68c07",
+        "title": "Who Are the Brain Police?",
+        "language": "eng",
+        "type": "Song"
+      }
+    }
+  ],
+  "video": false
+}

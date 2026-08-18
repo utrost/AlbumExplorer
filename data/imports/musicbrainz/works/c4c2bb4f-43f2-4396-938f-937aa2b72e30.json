@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/c4c2bb4f-43f2-4396-938f-937aa2b72e30?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "iswcs": [
+    "T-010.114.019-5"
+  ],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "c4c2bb4f-43f2-4396-938f-937aa2b72e30",
+  "attributes": [],
+  "title": "Pitch the Baby",
+  "relations": [
+    {
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "type": "writer",
+      "attribute-values": {},
+      "artist": {
+        "disambiguation": "Cocteau Twins",
+        "type": "Person",
+        "name": "Elizabeth Fraser",
+        "sort-name": "Fraser, Elizabeth",
+        "id": "0bf0cabe-def2-4113-8dc5-6e721b9c3a92",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB"
+      },
+      "ended": false,
+      "attributes": [],
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+    },
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "direction": "backward",
+      "target-credit": "",
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "sort-name": "Guthrie, Robin",
+        "type": "Person",
+        "name": "Robin Guthrie",
+        "disambiguation": "guitarist in Cocteau Twins",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "47d7b25e-585b-4c97-b98b-411b21a53379"
+      },
+      "source-credit": "",
+      "end": null,
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attribute-values": {},
+      "type": "writer"
+    },
+    {
+      "end": null,
+      "source-credit": "",
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "ended": false,
+      "artist": {
+        "id": "54cf21b1-9a02-4a75-a029-3a66db21c545",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Raymonde, Simon",
+        "type": "Person",
+        "name": "Simon Raymonde"
+      },
+      "attributes": [],
+      "type": "writer",
+      "attribute-values": {},
+      "direction": "backward",
+      "target-type": "artist",
+      "attribute-ids": {},
+      "begin": null,
+      "target-credit": ""
+    }
+  ]
+}

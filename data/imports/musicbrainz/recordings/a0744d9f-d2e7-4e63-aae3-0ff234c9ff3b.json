@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/a0744d9f-d2e7-4e63-aae3-0ff234c9ff3b?inc=work-rels&fmt=json",
+  "title": "Letterbomb",
+  "id": "a0744d9f-d2e7-4e63-aae3-0ff234c9ff3b",
+  "first-release-date": "2004-09-20",
+  "length": 246066,
+  "video": false,
+  "relations": [
+    {
+      "direction": "forward",
+      "target-type": "work",
+      "ended": false,
+      "type": "performance",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {},
+      "work": {
+        "type": "Song",
+        "language": "eng",
+        "id": "19579c54-4bfa-3cc1-90a7-f929c219d32d",
+        "title": "Letterbomb",
+        "attributes": [],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-072.087.026-7"
+        ],
+        "disambiguation": ""
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "disambiguation": ""
+}

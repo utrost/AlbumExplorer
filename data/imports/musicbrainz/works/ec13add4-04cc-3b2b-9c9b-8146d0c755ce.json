@@ -1,0 +1,86 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/ec13add4-04cc-3b2b-9c9b-8146d0c755ce?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng",
+  "type": "Song",
+  "relations": [
+    {
+      "type": "composer",
+      "attribute-values": {},
+      "artist": {
+        "type": "Person",
+        "name": "Frank Zappa",
+        "sort-name": "Zappa, Frank",
+        "disambiguation": "US musician, composer, activist & filmmaker",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d"
+      },
+      "ended": false,
+      "attributes": [],
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "target-credit": "",
+      "direction": "backward",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {}
+    },
+    {
+      "ended": false,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d",
+        "type": "Person",
+        "name": "Frank Zappa",
+        "sort-name": "Zappa, Frank",
+        "disambiguation": "US musician, composer, activist & filmmaker"
+      },
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "attribute-values": {},
+      "direction": "backward",
+      "begin": null,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "target-credit": ""
+    },
+    {
+      "attributes": [],
+      "ended": false,
+      "artist": {
+        "disambiguation": "US stoner rock band",
+        "name": "Monster Magnet",
+        "type": "Group",
+        "sort-name": "Monster Magnet",
+        "id": "a0955511-1324-4e9b-834f-e1e140502850",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "country": "US"
+      },
+      "type-id": "535fdfed-3bca-40ad-966b-e67be7882d09",
+      "source-credit": "",
+      "end": null,
+      "attribute-values": {},
+      "type": "named after work",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": ""
+    }
+  ],
+  "attributes": [],
+  "id": "ec13add4-04cc-3b2b-9c9b-8146d0c755ce",
+  "title": "The Return of the Son of Monster Magnet",
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+}

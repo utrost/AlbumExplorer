@@ -1,0 +1,63 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/1bf39fe1-8ff7-3474-a9f9-6d686649269c?inc=artist-rels&fmt=json",
+  "iswcs": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "id": "1bf39fe1-8ff7-3474-a9f9-6d686649269c",
+  "attributes": [],
+  "title": "You’re Probably Wondering Why I’m Here",
+  "relations": [
+    {
+      "attributes": [],
+      "artist": {
+        "sort-name": "Zappa, Frank",
+        "type": "Person",
+        "name": "Frank Zappa",
+        "disambiguation": "US musician, composer, activist & filmmaker",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "e20747e7-55a4-452e-8766-7b985585082d"
+      },
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "attribute-values": {},
+      "type": "composer",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": ""
+    },
+    {
+      "attribute-values": {},
+      "type": "lyricist",
+      "source-credit": "",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "attributes": [],
+      "artist": {
+        "id": "e20747e7-55a4-452e-8766-7b985585082d",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "US musician, composer, activist & filmmaker",
+        "name": "Frank Zappa",
+        "type": "Person",
+        "sort-name": "Zappa, Frank"
+      },
+      "ended": false,
+      "target-credit": "",
+      "attribute-ids": {},
+      "target-type": "artist",
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "type": "Song",
+  "disambiguation": "",
+  "languages": [
+    "eng"
+  ],
+  "language": "eng"
+}

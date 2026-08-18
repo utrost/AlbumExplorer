@@ -1,0 +1,71 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/922a3cf9-c15b-32e2-8dd6-6c0b561a9833?inc=artist-rels&fmt=json",
+  "relations": [
+    {
+      "target-type": "artist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "bassist for Aerosmith",
+        "name": "Tom Hamilton",
+        "id": "9fc37bbf-c2a4-4ac9-95de-255e93fc6758",
+        "sort-name": "Hamilton, Tom",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "ended": false,
+      "begin": null,
+      "direction": "backward",
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer"
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "end": null,
+      "target-type": "artist",
+      "attributes": [],
+      "artist": {
+        "disambiguation": "",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Tyler, Steven",
+        "country": "US",
+        "name": "Steven Tyler",
+        "id": "7d3f7aed-fb9c-4e80-b198-64cd6ae31cb8"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "begin": null,
+      "direction": "backward"
+    }
+  ],
+  "disambiguation": "",
+  "type": "Song",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Sweet Emotion",
+  "language": "eng",
+  "attributes": [
+    {
+      "type": "BMI ID",
+      "type-id": "c8ac7e55-fd45-3002-9f89-e8b43911a479",
+      "value": "1438227"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "id": "922a3cf9-c15b-32e2-8dd6-6c0b561a9833",
+  "iswcs": [
+    "T-070.142.425-0"
+  ]
+}

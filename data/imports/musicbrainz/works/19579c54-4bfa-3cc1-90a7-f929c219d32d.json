@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/19579c54-4bfa-3cc1-90a7-f929c219d32d?inc=artist-rels&fmt=json",
+  "type": "Song",
+  "relations": [
+    {
+      "artist": {
+        "disambiguation": "",
+        "sort-name": "Green Day",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "country": "US",
+        "id": "084308bd-1654-436f-ba03-df6697104e19",
+        "name": "Green Day",
+        "type": "Group"
+      },
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "target-type": "artist",
+      "ended": false,
+      "direction": "backward",
+      "type": "composer"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "id": "5d06fe54-485a-4a07-b506-5f6f719448cb",
+        "name": "Billie Joe Armstrong",
+        "type": "Person",
+        "disambiguation": "",
+        "sort-name": "Armstrong, Billie Joe",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "attribute-ids": {},
+      "begin": null,
+      "end": null,
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "lyricist"
+    }
+  ],
+  "language": "eng",
+  "title": "Letterbomb",
+  "id": "19579c54-4bfa-3cc1-90a7-f929c219d32d",
+  "attributes": [],
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "languages": [
+    "eng"
+  ],
+  "iswcs": [
+    "T-072.087.026-7"
+  ],
+  "disambiguation": ""
+}

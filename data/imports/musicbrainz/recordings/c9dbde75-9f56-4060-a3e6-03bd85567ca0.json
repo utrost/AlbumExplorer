@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/c9dbde75-9f56-4060-a3e6-03bd85567ca0?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "direction": "forward",
+      "begin": "1968-03-08",
+      "ended": true,
+      "work": {
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Bookends Theme",
+        "type": "Song",
+        "disambiguation": "",
+        "iswcs": [
+          "T-070.233.098-0"
+        ],
+        "id": "07a425c3-66bd-3efa-9cfa-60e9d09fc90c",
+        "languages": [
+          "eng"
+        ],
+        "attributes": []
+      },
+      "type": "performance",
+      "attribute-ids": {},
+      "source-credit": "",
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "target-type": "work",
+      "end": "1968-03-08",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "length": 83733,
+  "disambiguation": "original mono mix",
+  "title": "Bookends Theme",
+  "first-release-date": "1968",
+  "id": "c9dbde75-9f56-4060-a3e6-03bd85567ca0"
+}

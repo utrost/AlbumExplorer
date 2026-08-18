@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/3a11bd43-0bee-485e-a53c-b5665e8ccccf?inc=work-rels&fmt=json",
+  "relations": [
+    {
+      "end": "1980-05-09",
+      "attribute-ids": {},
+      "begin": "1979-06-20",
+      "type": "performance",
+      "direction": "forward",
+      "target-type": "work",
+      "ended": true,
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "id": "a499af66-ab4b-3b56-aec9-474252521fb6",
+        "title": "Stolen Car",
+        "attributes": [],
+        "type": "Song",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "iswcs": [
+          "T-070.144.155-5"
+        ],
+        "disambiguation": "",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "source-credit": ""
+    }
+  ],
+  "video": false,
+  "length": 234000,
+  "title": "Stolen Car",
+  "id": "3a11bd43-0bee-485e-a53c-b5665e8ccccf",
+  "first-release-date": "1980-10-10",
+  "disambiguation": "version 15"
+}

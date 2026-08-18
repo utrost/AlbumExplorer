@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/4c85fa80-1949-44f4-9f00-525d630e30b0?inc=work-rels&fmt=json",
+  "title": "Chapter 24",
+  "disambiguation": "original US stereo mix",
+  "video": false,
+  "length": 231000,
+  "relations": [
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "end": null,
+      "target-type": "work",
+      "attribute-values": {},
+      "attributes": [],
+      "target-credit": "",
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "performance",
+      "work": {
+        "iswcs": [
+          "T-010.168.624-1"
+        ],
+        "id": "48597255-8f28-3545-a5bb-d38b07aadbac",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Chapter 24",
+        "type": "Song",
+        "disambiguation": ""
+      },
+      "ended": false,
+      "begin": null,
+      "direction": "forward"
+    }
+  ],
+  "id": "4c85fa80-1949-44f4-9f00-525d630e30b0",
+  "first-release-date": "1967-10-21"
+}

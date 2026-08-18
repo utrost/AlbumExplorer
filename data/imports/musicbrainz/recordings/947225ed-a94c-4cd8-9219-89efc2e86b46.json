@@ -1,0 +1,39 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/947225ed-a94c-4cd8-9219-89efc2e86b46?inc=work-rels&fmt=json",
+  "id": "947225ed-a94c-4cd8-9219-89efc2e86b46",
+  "title": "Round and Round",
+  "first-release-date": "1975-04-08",
+  "length": 303200,
+  "relations": [
+    {
+      "target-type": "work",
+      "direction": "forward",
+      "ended": false,
+      "type": "performance",
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "source-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "work": {
+        "disambiguation": "",
+        "iswcs": [],
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "attributes": [],
+        "id": "fe611a0a-244a-377b-b629-4919ae5b1683",
+        "title": "Round and Round",
+        "language": "eng",
+        "type": "Song"
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "disambiguation": ""
+}

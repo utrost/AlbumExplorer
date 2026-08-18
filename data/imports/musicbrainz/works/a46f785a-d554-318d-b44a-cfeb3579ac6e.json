@@ -1,0 +1,65 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/a46f785a-d554-318d-b44a-cfeb3579ac6e?inc=artist-rels&fmt=json",
+  "languages": [
+    "eng"
+  ],
+  "attributes": [],
+  "id": "a46f785a-d554-318d-b44a-cfeb3579ac6e",
+  "iswcs": [
+    "T-072.086.665-8"
+  ],
+  "disambiguation": "",
+  "relations": [
+    {
+      "target-type": "artist",
+      "artist": {
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "disambiguation": "",
+        "name": "Green Day",
+        "id": "084308bd-1654-436f-ba03-df6697104e19",
+        "country": "US",
+        "sort-name": "Green Day"
+      },
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "end": null,
+      "ended": false,
+      "direction": "backward",
+      "begin": null,
+      "type": "composer",
+      "attribute-ids": {},
+      "source-credit": ""
+    },
+    {
+      "begin": null,
+      "direction": "backward",
+      "ended": false,
+      "attribute-ids": {},
+      "source-credit": "",
+      "type": "lyricist",
+      "attributes": [],
+      "target-credit": "",
+      "artist": {
+        "name": "Billie Joe Armstrong",
+        "id": "5d06fe54-485a-4a07-b506-5f6f719448cb",
+        "sort-name": "Armstrong, Billie Joe",
+        "country": "US",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": ""
+      },
+      "attribute-values": {},
+      "target-type": "artist",
+      "end": null,
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+    }
+  ],
+  "language": "eng",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "title": "Extraordinary Girl",
+  "type": "Song"
+}

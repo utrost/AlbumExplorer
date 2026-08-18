@@ -1,0 +1,88 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/185b1496-f149-4ef9-a5ed-7c5ac995a384?inc=artist-rels&fmt=json",
+  "language": "eng",
+  "relations": [
+    {
+      "begin": null,
+      "attribute-ids": {},
+      "end": null,
+      "target-type": "artist",
+      "direction": "backward",
+      "ended": false,
+      "type": "writer",
+      "artist": {
+        "disambiguation": "Cocteau Twins",
+        "sort-name": "Fraser, Elizabeth",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "id": "0bf0cabe-def2-4113-8dc5-6e721b9c3a92",
+        "name": "Elizabeth Fraser",
+        "type": "Person"
+      },
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "attributes": [],
+      "source-credit": "",
+      "target-credit": "",
+      "attribute-values": {}
+    },
+    {
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "target-credit": "",
+      "attribute-values": {},
+      "source-credit": "",
+      "attributes": [],
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "sort-name": "Guthrie, Robin",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "guitarist in Cocteau Twins",
+        "type": "Person",
+        "name": "Robin Guthrie",
+        "country": "GB",
+        "id": "47d7b25e-585b-4c97-b98b-411b21a53379"
+      }
+    },
+    {
+      "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+      "artist": {
+        "disambiguation": "",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Raymonde, Simon",
+        "id": "54cf21b1-9a02-4a75-a029-3a66db21c545",
+        "country": "GB",
+        "name": "Simon Raymonde",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "target-credit": "",
+      "attributes": [],
+      "source-credit": "",
+      "end": null,
+      "begin": null,
+      "attribute-ids": {},
+      "type": "writer",
+      "ended": false,
+      "target-type": "artist",
+      "direction": "backward"
+    }
+  ],
+  "type": "Song",
+  "attributes": [],
+  "title": "Iceblink Luck",
+  "id": "185b1496-f149-4ef9-a5ed-7c5ac995a384",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "disambiguation": "",
+  "iswcs": [
+    "T-010.030.146-9"
+  ],
+  "languages": [
+    "eng"
+  ]
+}

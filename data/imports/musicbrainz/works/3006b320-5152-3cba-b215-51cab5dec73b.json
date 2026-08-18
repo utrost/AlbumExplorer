@@ -1,0 +1,209 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/work/3006b320-5152-3cba-b215-51cab5dec73b?inc=artist-rels&fmt=json",
+  "disambiguation": "",
+  "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+  "type": "Song",
+  "id": "3006b320-5152-3cba-b215-51cab5dec73b",
+  "language": "eng",
+  "title": "Crush on You",
+  "iswcs": [
+    "T-070.029.517-5"
+  ],
+  "languages": [
+    "eng"
+  ],
+  "attributes": [
+    {
+      "value": "000874 553 43",
+      "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+      "type": "SUISA ID"
+    },
+    {
+      "value": "91364",
+      "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+      "type": "SPA ID"
+    },
+    {
+      "type": "SIAE ID",
+      "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+      "value": "80364023800"
+    },
+    {
+      "type": "SGAE ID",
+      "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+      "value": "252.666"
+    },
+    {
+      "type-id": "4439b1a5-47da-4774-9caa-8b8589129297",
+      "type": "SAYCO ID",
+      "value": "752750"
+    },
+    {
+      "type": "SAYCE ID",
+      "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+      "value": "752750"
+    },
+    {
+      "type": "SADAIC ID",
+      "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+      "value": "302817"
+    },
+    {
+      "value": "2644722",
+      "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+      "type": "SACVEN ID"
+    },
+    {
+      "type": "SACM ID",
+      "type-id": "519f3860-0b48-4532-8752-25984f662360",
+      "value": "072898531"
+    },
+    {
+      "value": "80 287 248 11",
+      "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+      "type": "SACEM ID"
+    },
+    {
+      "type": "SABAM ID",
+      "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+      "value": "053336000"
+    },
+    {
+      "value": "494386AV",
+      "type": "PRS tune code",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
+    },
+    {
+      "value": "2357BU",
+      "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+      "type": "PRS tune code"
+    },
+    {
+      "type": "JASRAC ID",
+      "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+      "value": "0C1-9661-5"
+    },
+    {
+      "value": "1164470-001",
+      "type": "GEMA ID",
+      "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+    },
+    {
+      "value": "205788",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "type": "ECAD ID"
+    },
+    {
+      "type": "ECAD ID",
+      "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+      "value": "34176695"
+    },
+    {
+      "value": "29518",
+      "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+      "type": "COMPASS ID"
+    },
+    {
+      "type": "BUMA/STEMRA ID",
+      "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+      "value": "W-000080083"
+    },
+    {
+      "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+      "type": "APRA ID",
+      "value": "GW00500694"
+    },
+    {
+      "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+      "type": "APDAYC ID",
+      "value": "2188889"
+    },
+    {
+      "type": "APA ID",
+      "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+      "value": "5249647"
+    },
+    {
+      "value": "66794301",
+      "type": "AKM ID",
+      "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+    },
+    {
+      "value": "4311445",
+      "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+      "type": "AGADU ID"
+    }
+  ],
+  "relations": [
+    {
+      "begin": "1979",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "type": "Person",
+        "sort-name": "Springsteen, Bruce",
+        "name": "Bruce Springsteen",
+        "country": "US"
+      },
+      "attribute-values": {},
+      "ended": true,
+      "source-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+      "type": "composer",
+      "target-credit": "",
+      "attributes": [],
+      "end": "1979",
+      "attribute-ids": {}
+    },
+    {
+      "target-type": "artist",
+      "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+      "type": "lyricist",
+      "target-credit": "",
+      "attributes": [],
+      "end": "1979",
+      "attribute-ids": {},
+      "ended": true,
+      "attribute-values": {},
+      "begin": "1979",
+      "artist": {
+        "name": "Bruce Springsteen",
+        "country": "US",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "type": "Person",
+        "sort-name": "Springsteen, Bruce"
+      },
+      "source-credit": "",
+      "direction": "backward"
+    },
+    {
+      "target-type": "artist",
+      "type": "publishing",
+      "type-id": "a442b140-830b-30b0-a4aa-2e36f098b6aa",
+      "target-credit": "",
+      "end": "1980",
+      "attribute-ids": {},
+      "attributes": [],
+      "begin": "1980",
+      "artist": {
+        "name": "Bruce Springsteen",
+        "country": "US",
+        "type": "Person",
+        "id": "70248960-cb53-4ea4-943a-edb18f7d336f",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "disambiguation": "",
+        "sort-name": "Springsteen, Bruce"
+      },
+      "attribute-values": {},
+      "ended": true,
+      "direction": "backward",
+      "source-credit": ""
+    }
+  ]
+}

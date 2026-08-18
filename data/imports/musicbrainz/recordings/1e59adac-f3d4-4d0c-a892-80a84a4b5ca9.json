@@ -1,0 +1,41 @@
+{
+  "fetchedAt": null,
+  "url": "https://musicbrainz.org/ws/2/recording/1e59adac-f3d4-4d0c-a892-80a84a4b5ca9?inc=work-rels&fmt=json",
+  "length": 185946,
+  "first-release-date": "1967-08-05",
+  "video": false,
+  "id": "1e59adac-f3d4-4d0c-a892-80a84a4b5ca9",
+  "disambiguation": "original stereo mix",
+  "title": "Take Up Thy Stethoscope and Walk",
+  "relations": [
+    {
+      "begin": "1967-03-20",
+      "target-type": "work",
+      "attribute-values": {},
+      "direction": "forward",
+      "end": "1967-03-20",
+      "attribute-ids": {},
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "target-credit": "",
+      "attributes": [],
+      "work": {
+        "attributes": [],
+        "iswcs": [
+          "T-010.164.928-8"
+        ],
+        "id": "6f5a9d32-9625-3681-863f-8dd42372dd66",
+        "disambiguation": "",
+        "language": "eng",
+        "title": "Take Up Thy Stethoscope and Walk",
+        "type": "Song",
+        "languages": [
+          "eng"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      },
+      "type": "performance",
+      "ended": true
+    }
+  ]
+}
